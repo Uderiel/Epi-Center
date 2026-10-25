@@ -1,4 +1,11 @@
 # EPI-CENTER — CURRENT DEVELOPMENT STATUS
+Updated: 2026-10-25 · v0.8.61 user results received
+**v0.8.62 corrective HTML candidate created locally; NOT committed/deployed to GitHub Pages, NOT browser-verified.** Download and test candidate separately. Keep v0.8.61 as known deployed build.
+Results: 16 pass, 8 fail, 1 not tested (A1–A7, B1–B6, C3/C5/C6 pass; C1/C2/C4/D1/D2/D5/D6 fail; D4 not tested). D3 button passed but behavior is conceptually incorrect.
+Candidate v0.8.62 targets: reapplication timestamps; shoe laundry tags; carried bathroom inventory; accessory equipment including rings/bracelet; separate menstrual protection state; removal of standalone routine-hygiene actions; resting heating pad interaction.
+**Unverified or incomplete in candidate:** actual browser paths, item state unification, menstrual saturation/leak/stain consequences, shampoo/conditioner as part of real shower, heating pad contextual room IDs, accessory presentation and full regression. Do not merge without user tests.
+
+# EPI-CENTER — CURRENT DEVELOPMENT STATUS
 Updated: 2026-10-24
 Repository: https://github.com/Uderiel/Epi-Center
 Latest user-uploaded build: v0.8.61
