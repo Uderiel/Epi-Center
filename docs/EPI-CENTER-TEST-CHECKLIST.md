@@ -1,4 +1,15 @@
 # EPI-CENTER — LIVE TEST CHECKLIST
+Build: v0.8.61 | Results received 2026-10-25 | 16 Pass / 8 Fail / 1 Not tested
+User-confirmed PASS: A1–A7, B1–B6, C3, C5, C6.
+User-confirmed FAIL: C1, C2, C4, D1, D2, D5, D6.
+NOT TESTED: D4.
+Note: D3 PASS for the *existing use/replace button*, but tester reports that the behavior is conceptually wrong; real equipped protection with persistent saturation is NOT IMPLEMENTED.
+REGRESSION: after timed 24-hour expiry, curling/skincare feed reports reapplication but Character appearance does not update.
+Defects: conditioner carried but missing in inventory/equip; standalone shampoo/conditioner/bath pillow/toilet paper interactions lack context; necklace and earrings still missing; add ring(s) and bracelet for slot tests; flats still get worn/dirty laundry condition; heating pad should be carried, used on couch/armchair/bed and put away.
+Design decisions: ordinary wiping is implicit in toilet action; shampoo/conditioner only during actual washing; period products are equipped and progress through dry/used/soaked/overflowing states; physical items persist in one inventory.
+Do not advance to Erin workplace/autonomy until apartment systems verified.
+
+# EPI-CENTER — LIVE TEST CHECKLIST
 Build: v0.8.61 | Active section: Bathroom
 [x] user-confirmed; [ ] outstanding.
 
