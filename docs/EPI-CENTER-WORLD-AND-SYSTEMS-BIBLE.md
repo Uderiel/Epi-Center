@@ -157,3 +157,13 @@ The canonical Bible holds the complete authored definitions, WHY, mechanics, wor
 
 ## Source coverage and ongoing enrichment
 Current source coverage: available project handoff, changelog, development status, checklist, historical summaries and current discussion. These do not contain every original Discord screenshot or full verbatim conversation. Recover and attach original quotes and screenshots when available; do not fabricate exact motivations or secret room details. The Bible should be expanded as new canonical material is recovered or decided.
+
+## Decision update — v0.8.61 playtest (2026-10-25)
+- **Confirmed**: initial grooming, makeup, bath, lotion/perfume appearance, navigation, and save/reload checks passed. **New regression**: after 24-hour expiration, curling/skincare narration claims reapplication but appearance may remain unchanged.
+- **Object identity**: bathroom items (including conditioner and heating pad) must appear in carried inventory and return to their actual storage locations; avoid UI-only pickup.
+- **Routine hygiene**: ordinary wiping is implicit in using the toilet; remove standalone toilet-paper-use prose. Shampoo and conditioner belong to actual washing rather than use while standing outside the shower; bath pillow is passive bath equipment.
+- **Menstrual protection**: pads/tampons should be physically worn/inserted and tracked until changed or removed, with state progression such as clean/dry → used → soaked → overflowing where applicable. A change should consume a fresh supply and dispose of the previous product, rather than always claiming one was removed. Exact timing and leak consequences remain to be designed/tested.
+- **Heating pad**: carried inventory object usable while seated/reclining on sofa, armchair or bed; put-away returns it to medicine cabinet.
+- **Accessories**: earrings, necklace, rings and bracelet should be independently equipped and visible in correct Head/Neck/Hands/Arms regions.
+- **Shoes**: footwear may be physically carried/equipped but is excluded from ordinary garment clean/worn/dirty laundry lifecycle.
+- **Priority unchanged**: complete and verify apartment before workplace, weekday calendar and Erin autonomy.
