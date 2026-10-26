@@ -1,5 +1,9 @@
 # EPI-CENTER — Development Changelog
 
+### 2026-10-26 documentation-only consolidated Hub checkpoint
+
+**No gameplay code or playable-map changes.** Added [Central Hub Canon and Implementation Plan](EPI-CENTER-HUB-CANON-AND-IMPLEMENTATION-PLAN.md), commit `de503eb`; cross-linked from [World Bible](EPI-CENTER-WORLD-BIBLE.md), commit `e7568fe`. Captures Eve's automatic volunteer/amnesia greeting, neutral Guide-based and restricted reality dialogue, blue/red shifting hologram and cylinder suppression arc; Elizabeth/Pet's appearance and roaming behavior; FETCH original Discord text/rewards and unavailable status; If the Panties Fit's original text, one-time item discovery, per-player reroll, hip-to-hair/toes transformation and residence tutorial; natural-language investigation architecture; cardinal geography including southwest Neko Café, north Cherished Touch, northeast Residential Walkway, eastern Burke's Sweets and alley, and Underworld-only Access Tunnel A South. All new quest/map/NPC behavior remains **unimplemented and untested**. Preserve accepted v0.8.74.
+
 ### 2026-10-26 If the Panties Fit design clarification — no gameplay change
 
 World Bible commit `3ced553` records: generated form **rerolls for each different player** who equips the garment (retain individual player's result across save/reload); transformation **starts at hips and spreads upward and downward simultaneously toward hair and toes**, unlike Erin's red heels' feet-upward sequence; panties are **retrievable only once** per player/quest instance (no repeated search farming). Exact transfer and repeat-equip semantics are unresolved. **Rough draft only, not implemented or tested**. Continue preserving accepted v0.8.74 and existing save key.
