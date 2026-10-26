@@ -1,5 +1,9 @@
 # EPI-CENTER — Current Development Status
 
+### New candidate — v0.8.76 Eve introduction (2026-10-26)
+
+**Owner acceptance PENDING; automated browser tests NOT RUN.** Candidate: `epi-center-v0.8.76-eve-introduction.html` commit `b45f8d9` (v0.8.75 was superseded for a Guide insertion correction). Adds one-time named/profile-complete hub greeting, text-field tutorial, bounded Eve topic responses, remote A.S.S. text help. Current scope is scripted response matching, not dynamic AI. **Last owner-accepted build remains v0.8.74.** Pending verification: new spawn vs migrated saves, UI visibility of intro, actual Guide layout, NPC/World input routing, remote calls, draft preservation, reload, transformations, no regression. World geography and both quests remain documentation drafts, not implemented.
+
 ### 2026-10-26 Eve six-question owner decisions — design approval only
 
 World Bible commit `e843d22`; Hub implementation plan commit `4743a28`. Owner confirms cheerful corporate/gullible Eve; brief automatic new-player introduction including text-input tutorial and permission to explore; flexible evasions and red glitch/stutter on consent contradiction or Countess, with increased cylinder-dependent but programming-restricted recognition; unique player-ID tracking and **current form/name identity only**, even if another form controls speech; remote help anywhere but **visible hologram confined to Spire outer ring**; no personal offense, damage, retaliation or traceable projection sources. She does not reveal VR/external reality or proactively warn about threats. **No gameplay code or tests changed; v0.8.74 remains accepted.** Next development gate: inspect actual onboarding/Guide/actor and save code before building focused versioned Eve patch. Add regression cases for transformed identity, remote help vs hologram, hostility and one-time spawn greeting.
