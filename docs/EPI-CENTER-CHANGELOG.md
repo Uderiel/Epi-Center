@@ -1,5 +1,9 @@
 # EPI-CENTER — Development Changelog
 
+### 2026-10-26 v0.8.78 Eve replay repair — candidate, awaiting Android test
+
+Owner reported **FAIL** on v0.8.77: clicking Replay Eve introduction in Central Hub showed nothing. Root cause suspected: replay only cleared `s.eve875.introduced` and depended on `ready()` requiring `s.profileComplete`; also introduction was not shown prominently. New immutable `epi-center-v0.8.78-eve-replay-fix.html` commit `976c124` replaces replay button action with direct history entry and visible dismissible Eve welcome panel, independent of profile-complete state, while requiring active DEV toggle and hub location. Keeps prior save key and existing character state. **Not yet browser/owner tested; v0.8.74 remains last accepted gameplay baseline.** Test: activate DEV, replay at hub, visible panel, close, replay again, reload, deactivate and confirm prior introduction state restored. Candidate URL `https://uderiel.github.io/Epi-Center/epi-center-v0.8.78-eve-replay-fix.html`.
+
 ### 2026-10-26 v0.8.77 Eve arrival DEV toggle — candidate, not yet tested
 
 Immutable `epi-center-v0.8.77-eve-dev-arrival-toggle.html` commit `993cd96`, based on v0.8.76. Adds expandable **DEV · Eve new-arrival test** panel to active player UI, with Activate/Deactivate and Replay welcome buttons. Activation saves prior `s.eve875.introduced` to `s.eveDev877.originalIntroduced`, marks a temporary new-arrival test state, and clears only Eve's introduced flag; deactivation restores the previous flag. Replay requires Central Hub and active toggle. Character, quests, inventory, discoveries and save key remain untouched by this patch. **Owner/device and automated browser tests not yet performed.** Test activation, hub replay, reload, deactivation restoration and no regression. Accepted baseline still v0.8.74. URL: `https://uderiel.github.io/Epi-Center/epi-center-v0.8.77-eve-dev-arrival-toggle.html`.
