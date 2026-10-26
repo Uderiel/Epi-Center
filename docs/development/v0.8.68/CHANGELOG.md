@@ -9,3 +9,9 @@
 - Scoped Git attributes preserve candidate/generated-game bytes without changing attributes for historical builds. Whitespace review found the inherited line-73 trailing space; it is intentionally retained to preserve source.
 
 No further gameplay changes were made in this setup task.
+
+## Patch 01 — Dialogue refusal recognition (2026-10-25)
+
+- Development-only regression repair planned for explicit player refusal to read (e.g. `i dont want to read`).
+- Preserve Erin's ability to disagree or keep independent intentions while acknowledging the player's preference; refusal alone does not automatically cancel her independent physical actions.
+- Pending verification: browser behavior, negation variants, consent withdrawal, and save/reload. No production promotion.
