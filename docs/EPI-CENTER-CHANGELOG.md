@@ -1,5 +1,22 @@
 # EPI-CENTER — Development Changelog
 
+## 2026-10-26 continuity checkpoint — v0.8.68 through v0.8.73 (post-v0.8.67)
+
+This entry records repository commit history and the owner's Saturday Review decisions. Earlier release entries below remain historical evidence; do not retroactively mark later patches as accepted.
+
+- **v0.8.68** `epi-center-v0.8.68-equipment-feed-test.html`: owner accepted heels visible in Equipment, equip/remove refresh, and reload persistence. DEV anatomy synchronization is present but **not accepted**.
+- **v0.8.69** `epi-center-v0.8.69-feet-collapse-fix.html`: owner confirmed 5/5 manual tests: Feet initially collapsed, summary shows heel status, expand/collapse works, equip/remove works, unfinished roleplay draft survives equipment actions. Recorded in `EPI-CENTER-ACCEPTED-PATCH-CHECKPOINT-v0.8.69.md`.
+- **v0.8.70** `epi-center-v0.8.70-erin-dialogue-routing.html`: commit `62fd4b6` repairs Erin reading questions, refusal acknowledgments, and job discussion routing. Commit is not equivalent to player acceptance.
+- **v0.8.71** `epi-center-v0.8.71-cherished-touch-foundation.html`: commit `425bd03` adds Cherished Touch public storefront and canonical quest registry.
+- **v0.8.72** `epi-center-v0.8.72-cherished-touch-discovery.html`: commit `7bb977c` connects Cherished Touch to Central Hub survey and travel graph.
+- **v0.8.73** `epi-center-v0.8.73-cardinal-routing.html`: commit `37eedb0` adds cardinal directions, Spire-centered surface routes, and northern-first discovery. This is the latest observed main commit at this checkpoint, not a claim of browser or physical-device acceptance.
+
+Saturday Review world agreements: Spire at Central Hub center; Cherished Touch immediately north as first northern discovery; Residential Walkway northeast toward Applewood Apartments; Access Tunnel A South belongs to the Underworld rather than the surface map; make north/south/east/west discernible. West Market Walk was not established server canon and remains provisional. Preserve existing geography and progression; expand locations section by section.
+
+Cherished Touch / Charity design (planned unless separately tested): Charity is a mid-thirties woman with orangish-red wavy hair, hazel eyes, a warm smile, approximately 5'6\" and 122 lb, often in casual jeans and T-shirts. Assist Charity is a relationship-gated, 100%-trust quest: the player temporarily wears a Charity-face mask and operates the store for six in-game hours; weekday coverage lets Charity rest, weekend coverage lets her explore/socialize. The mask must be returned/unequipped and Charity prevents permanent entrapment. Quest outcomes should remain dynamic, not rigidly linear. The first restored Hub Cylinder brings the Countess physically into play; further cylinders escalate her appearances/danger. Trusted curtain invitations require at least one, preferably two, cylinders. These are design constraints, not verified implemented features.
+
+**Custody:** no save-key migration, deletion of versioned builds, force-push, or rewriting of earlier test results. The historical v0.8.67 616 overlapping automated assertions remain valid for that exact build only; do not attribute them to v0.8.73. Next gate: focused v0.8.73 navigation and route acceptance (maximum five owner tests), followed by DEV transformation 23/23, Erin dialogue, arrival narration/stale journeys, and duplicate live-feed verification as separate sections. Record failures, exact reproduction, source SHA/commit, fix, retest, and owner acceptance before closing a checklist item.
+
 Updated: 2026-10-25. Current release: [v0.8.67](../epi-center-v0.8.67-reusable-autonomy-foundation.html), promoted byte-for-byte to [index.html](../index.html). Historical versioned files and snapshots remain preserved. Publication is authorized after final verification; live deployment is checked separately.
 
 ## v0.8.67 — Reusable autonomy, dialogue, sleep and cursed footwear
