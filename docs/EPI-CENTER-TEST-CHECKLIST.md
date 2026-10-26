@@ -1,5 +1,17 @@
 # EPI-CENTER — Test Checklist
 
+### Central Hub canon-to-code acceptance backlog — 2026-10-26
+
+**Status: NOT RUN / NOT IMPLEMENTED.** Documentation specification: [Central Hub Canon and Implementation Plan](EPI-CENTER-HUB-CANON-AND-IMPLEMENTATION-PLAN.md), commit `de503eb`. Do not mark PASS until tested in a specific new version. Preserve v0.8.74 owner-accepted compass baseline.
+
+- [ ] **Map:** North Cherished Touch, northeast Residential Walkway/Applewood, southwest Neko Café at SW corner of West Road, east road -> Burke's Sweets (south) -> rear alley, no overworld Access Tunnel A South shortcut; no undiscovered intermediate travel.
+- [ ] **Eve spawn/Guide:** Auto-greet once for a new character, not on every reload; normalizes amnesia and voluntary entry; accurately reflects implemented Guide features, not drafts.
+- [ ] **Eve restrictions:** “Where am I?” -> Epi-Center Overworld; geographic/voluntary-amnesia contradictions -> red glitch; Countess -> stronger glitch; no VR, external real world, danger warnings or unsolicited Countess exposition; hologram bound to Spire outer ring.
+- [ ] **Hub interactions:** Natural-language search variations reveal one-time panties object; inspect, pickup, inventory, optional equip; persist claim state, prevent farming, retain unsent RP draft.
+- [ ] **Form:** Each different player receives a new roll, same player's state survives reload; hips-first simultaneous upward/downward spread; original appearance retained; simple mastery and private-residence tutorial only after owner defines exact rules.
+- [ ] **Elizabeth/FETCH:** Roaming Elizabeth with silent Pet, missing-toy clue; FETCH remains unavailable until eastern alley/dungeon mechanics exist. Alley search variants reveal garbage, black shimmer, panels, hidden entrance only when route discovered.
+- [ ] **Regression:** Existing v0.8.74 map, save key, onboarding, inventory, equipment, forms, quest rewards, residence restrictions and mobile layout remain intact.
+
 ### 2026-10-26 If the Panties Fit design clarification — no gameplay change
 
 World Bible commit `3ced553` records: generated form **rerolls for each different player** who equips the garment (retain individual player's result across save/reload); transformation **starts at hips and spreads upward and downward simultaneously toward hair and toes**, unlike Erin's red heels' feet-upward sequence; panties are **retrievable only once** per player/quest instance (no repeated search farming). Exact transfer and repeat-equip semantics are unresolved. **Rough draft only, not implemented or tested**. Continue preserving accepted v0.8.74 and existing save key.
