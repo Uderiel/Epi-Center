@@ -1,5 +1,13 @@
 # EPI-CENTER — Test Checklist
 
+### 2026-10-26 owner test report and focused repair (latest)
+
+Owner-tested **v0.8.73 on Android**, with screenshot evidence: 1 PASS north survey/Cherished Touch discovery; 2 FAIL compass spatial readability (north/south/east/west displayed in misleading cells); 3 PASS Cherished Touch travel without undiscovered-node skips; 4 PASS northeast Residential Walkway toward Applewood; 5 PASS Access Tunnel A South excluded from surface. **Result: 4 PASS, 1 FAIL.** The five original v0.8.73 test results are preserved, not overwritten.
+
+**Fix candidate v0.8.74** `epi-center-v0.8.74-spatial-compass-fix.html`, commit `0235ee49d23bb1685d03ed1c1f6b0a522c5dab90`: adjust only compass markup to a real 3×3 spatial grid (north above center, south below, west left, east right, northeast upper-right), add mobile text wrapping, and retain original discovery/travel logic and save key. Code-level patch anchors validated before commit; no browser/Android regression suite has been executed or claimed.
+
+**Focused retest (pending owner acceptance):** [ ] Open v0.8.74 Map on Android; confirm the Spire is centered, N above, S below, W left, E right, NE upper-right, with labels legible and no sideways clipping. [ ] Confirm the four previously passing v0.8.73 route/discovery behaviors remain intact (can report together if unchanged). If failures occur, record screenshot and version; do not mark v0.8.74 accepted until owner confirms.
+
 ## Active progression checklist — 2026-10-26 (later than the historical v0.8.67 checklist below)
 
 Latest candidate: `epi-center-v0.8.73-cardinal-routing.html` (`main` commit `37eedb0`). A committed candidate is not an accepted test pass. Maximum five owner acceptance tests per patch.
