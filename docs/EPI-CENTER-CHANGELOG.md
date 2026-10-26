@@ -1,5 +1,9 @@
 # EPI-CENTER — Development Changelog
 
+### 2026-10-26 v0.8.77 Eve arrival DEV toggle — candidate, not yet tested
+
+Immutable `epi-center-v0.8.77-eve-dev-arrival-toggle.html` commit `993cd96`, based on v0.8.76. Adds expandable **DEV · Eve new-arrival test** panel to active player UI, with Activate/Deactivate and Replay welcome buttons. Activation saves prior `s.eve875.introduced` to `s.eveDev877.originalIntroduced`, marks a temporary new-arrival test state, and clears only Eve's introduced flag; deactivation restores the previous flag. Replay requires Central Hub and active toggle. Character, quests, inventory, discoveries and save key remain untouched by this patch. **Owner/device and automated browser tests not yet performed.** Test activation, hub replay, reload, deactivation restoration and no regression. Accepted baseline still v0.8.74. URL: `https://uderiel.github.io/Epi-Center/epi-center-v0.8.77-eve-dev-arrival-toggle.html`.
+
 ### 2026-10-26 v0.8.76 Eve introductory candidate — NOT OWNER ACCEPTED
 
 Created immutable `epi-center-v0.8.75-eve-introduction.html` (commit `b4ec764`), then corrected a Guide HTML insertion in new immutable `epi-center-v0.8.76-eve-introduction.html` (commit `b45f8d9`). **Test candidate v0.8.76**: automatically writes Eve's introduction to Play history once a named/profile-complete character is at hub, provides Guide-aligned help and canned responses to memory/consent/geographic/Countess/hostility prompts, and routes direct “Eve” calls through A.S.S. outside the hub without projecting a hologram. Reuses existing Play history, foundation save key, Guide and UI. **No automated browser test or Android owner acceptance has been performed.** This is a limited rule-based first pass, not autonomous AI or full cylinder progression. v0.8.74 remains last owner-accepted build. Candidate URL: `https://uderiel.github.io/Epi-Center/epi-center-v0.8.76-eve-introduction.html`.
