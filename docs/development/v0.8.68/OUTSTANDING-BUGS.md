@@ -10,3 +10,5 @@ These items remain unresolved manual checks. Existing automated passes do not cl
 - [ ] Owner manual acceptance of v0.8.68 after the above.
 
 For each failure record candidate SHA, origin, influence/trust/stress/fatigue, current/pending intention, room, game time, exact input/clicks, expected versus actual state, and the exact feed text. Use disposable development saves. Never attach real player saves without owner consent.
+
+- [ ] DEV transformation completion mismatch (reported 2026-10-25): setting Erin physical transformation to 23/23 advances the counter but does not populate current appearance fields. Trace the DEV setter against `anatomyInit65`, `STEPS65` region/history updates, and the current appearance projection; preserve original appearance, independent mental influence, ownership, and save data. Verify 23/23 appearance and reload with a disposable development profile. Not yet fixed.
