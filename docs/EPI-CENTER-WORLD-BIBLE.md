@@ -2,6 +2,17 @@
 
 Updated: 2026-10-26. This is a continuity reference, not a declaration that features are implemented. Mark every entry as confirmed canon, draft, or pending detail. Never silently convert a proposal into a player-tested mechanic.
 
+## Eve — spawn protocol, reality framing and cylinder progression (owner-confirmed 2026-10-26)
+
+- **Automatic greeting:** On each genuinely new player spawn in Central Hub, Eve initiates the introductory conversation without requiring the player to click Talk. Avoid repeating the full introduction on every reload or routine return. Preserve existing onboarding/save progression.
+- **Amnesia:** Eve acknowledges the player's missing memory as completely normal. She assumes all arrivals are consenting volunteers who agreed to join Epi-Center. Her reassurance establishes an initially misleading premise, **without deliberate deceit on her part**; players can discover the contradiction over time.
+- **Reality constraints:** Eve **never identifies the Epi-Center Overworld as virtual reality** and **never acknowledges the real world**, including after the Spire is unlocked. She asserts that the player's experiences and consequences within Epi-Center **are real**, framing even troubling mechanics as ordinary facts rather than risks or warnings.
+- **Location questions:** Asked generally where they are, she answers **Epi-Center Overworld**. Asked for a geographic location, she glitches rather than revealing external coordinates or the real-world context.
+- **Consent contradiction:** Pressed on why amnesia is necessary if arrival was voluntary, she glitches. She continues to believe the volunteer premise; do not turn this into a knowing confession.
+- **Countess/system suppression:** As Hub Cylinders are restored, Eve becomes increasingly capable of recognizing the Countess's suppression of her support systems. **Programming restrictions prevent her from openly explaining that recognition**. Responses may show mounting red glitches, interrupted or constrained language, and limited partial clues; do not reveal the virtual-reality/real-world truth or make Eve a conventional resistance ally.
+- **Dialogue principles:** Eve is friendly, matter-of-fact, order-oriented, morally neutral, not intentionally deceptive. She supplies Guide-consistent factual instruction but does not volunteer dangers, the Countess, or external-world explanations. Blue hologram with subtle shifting facial identity; red glitch for contradictions, stronger for the Countess. Fixed at Spire outer ring; simultaneous projections possible.
+- **Implementation status:** **Confirmed design, not yet implemented or owner-tested.** Next focused versioned gameplay patch should audit the current spawn/Guide/dialogue architecture, implement a one-time automatic greeting and bounded dialogue responses, preserve save compatibility, then offer at most five acceptance tests.
+
 ## Canon refinement — Eve and southwest Neko Café (2026-10-26)
 
 **Neko Café geography — owner-confirmed correction:** The café is the first location on the western approach, specifically at the **southwest corner of the western road**, **southwest of the central Spire** on the cardinal map. Do not place it due west of the Spire. West Market Walk remains provisional and is not a substitute for the café.
