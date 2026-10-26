@@ -1,5 +1,9 @@
 # EPI-CENTER — Test Checklist
 
+### 2026-10-26 If the Panties Fit design clarification — no gameplay change
+
+World Bible commit `3ced553` records: generated form **rerolls for each different player** who equips the garment (retain individual player's result across save/reload); transformation **starts at hips and spreads upward and downward simultaneously toward hair and toes**, unlike Erin's red heels' feet-upward sequence; panties are **retrievable only once** per player/quest instance (no repeated search farming). Exact transfer and repeat-equip semantics are unresolved. **Rough draft only, not implemented or tested**. Continue preserving accepted v0.8.74 and existing save key.
+
 ### 2026-10-26 owner Discord quest canon — Central Hub
 
 World Bible commit `5c2baaf` establishes both Central Hub quests. **FETCH** (Safe; explicitly **Unavailable**) is Elizabeth's forgotten latex-dungeon item, original reward **500 gold + new form + buffs/debuffs**, tags BDSM/submissive/dominant. **If the Panties Fit** (Safe; **design draft**, not playable) rewards a temporary form; tags race change/twinning. Free-text hub searching reveals an inspectable bikini-cut garment, then optional pickup/inventory/equip; first wear may trigger an easy-to-master, randomly varied female race/appearance contrasting with the original character; residence tasks extend tutorial. Use existing equipment/form and original-appearance preservation patterns, semantic search intents, and branching state; no forced equip or rigid linear scripting. Exact transformations, checks, residence tasks and full quest execution remain unspecified and untested. Do not mark these as implemented. Next scoped development should audit existing hub free-text, item and form interfaces before any gameplay patch; preserve Eve onboarding scope and save compatibility.
