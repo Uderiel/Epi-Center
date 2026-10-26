@@ -1,5 +1,9 @@
 # EPI-CENTER — Current Development Status
 
+### Current checkpoint — 2026-10-26 (documentation only)
+
+**Latest owner-accepted playable HTML:** `epi-center-v0.8.74-spatial-compass-fix.html` (no new gameplay build). **Latest documentation:** [Central Hub Canon and Implementation Plan](EPI-CENTER-HUB-CANON-AND-IMPLEMENTATION-PLAN.md), commit `de503eb`, and [World Bible](EPI-CENTER-WORLD-BIBLE.md) updated in `e7568fe`. **Canon confirmed, gameplay pending:** Eve's automatic onboarding, volunteer/amnesia/VR non-disclosure, Guide sync, glitches, projection radius and cylinder-suppression arc; Elizabeth and Pet's hub patrol and FETCH lead; southwest Neko Café; eastern Burke's Sweets/alley/dungeon; one-time panties search/item/form/residence tutorial. FETCH is **Unavailable**, If the Panties Fit is **draft**. Cardinal plan is a **target**, not evidence that all new map nodes exist. Continue one checklist section at a time, no unverified pass claims. Next implementation candidate: Eve onboarding and Guide dialogue, subject to code audit.
+
 ### 2026-10-26 If the Panties Fit design clarification — no gameplay change
 
 World Bible commit `3ced553` records: generated form **rerolls for each different player** who equips the garment (retain individual player's result across save/reload); transformation **starts at hips and spreads upward and downward simultaneously toward hair and toes**, unlike Erin's red heels' feet-upward sequence; panties are **retrievable only once** per player/quest instance (no repeated search farming). Exact transfer and repeat-equip semantics are unresolved. **Rough draft only, not implemented or tested**. Continue preserving accepted v0.8.74 and existing save key.
