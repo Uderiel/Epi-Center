@@ -1,6 +1,10 @@
 # Central Hub — Consolidated Canon, Spatial Plan and Implementation Backlog
 Updated 2026-10-26. **Documentation checkpoint only.** No gameplay source changed; last owner-accepted playable build is v0.8.74. The World Bible contains the detailed canon entries; this file consolidates the conversation into an actionable handoff. Do not mistake confirmed narrative for implemented mechanics.
 
+### 2026-10-26 owner sketch: live feed as primary world interface — proposed architectural priority
+
+Owner provided hand-drawn mobile wireframe and explicitly requests a UI consolidation **before adding further NPCs and locations**, pending design discussion. Main screen: current location header and artwork, one dominant live conversation/action feed, context selectors (World, NPCs, Players, Forms), a text input consistently adjacent to the feed, quick-reference expandable side tabs (character/form status, location, quests), and compact bottom navigation. **All player actions and consequential prompts**—dialogue, NPC replies, world inspection, map-selected travel, arrival, blocked routes, Erin's apartment room navigation, transformation and other state changes—must resolve via existing authoritative game rules and append understandable narration/results to the same persistent feed. After map destination selection, return to Play/feed and show pathing or travel refusal there; never silently show a location update without narrative. Feed is the source of in-world information; alerts/toasts reserved for transient UI/system failures. Input remains visible alongside feed on mobile; feed scrolls independently. Preserve actor autonomy, travel pending/interruptions, save key, accepted mechanics, and player history. Design/implementation **NOT YET APPROVED OR BUILT**; plan phased audit and migration before expanding world content. Eve v0.8.78 replay separate panel should ultimately become a feed entry only. Distinguish navigation/quick-reference panels from gameplay events. Current accepted gameplay v0.8.74; latest Eve candidate v0.8.78 not owner-accepted.
+
 ## Cardinal geography — design target, not a live-map claim
 
 ```text
