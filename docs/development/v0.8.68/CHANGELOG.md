@@ -17,3 +17,8 @@ No further gameplay changes were made in this setup task.
 - Pending verification: browser behavior, negation variants, consent withdrawal, and save/reload. No production promotion.
 
 Patch 01 source committed: `a27cc77440bc109a92f5d0d167c5e30d1c6372c6`. Adds an explicit reading-refusal recognition and response wrapper. Source inspection only: no browser regression or hosted preview deployment has been performed for this patch. Existing owner-private Sites deployment is still the prior snapshot.
+
+## Patch 02 — 2026-10-25 (source-only; unverified)
+- Source commit `a366401479ce6266e8c3ced52ca4d22049e15e67`: DEV physical stage override now rebuilds anatomy regions/history for selected step; Equipment Feet heading surfaces owned cursed heels and carried/equipped state; heels removal emits explicit outcome and attempts to preserve live-feed draft.
+- Manual checklist commit `7b1d2b3d0f93c81399fa7fe07f43d1df06362c52`: `docs/development/v0.8.68/PATCH-02-MANUAL-TEST-CHECKLIST.md`.
+- **Unverified:** browser regression, appearance-field projection (distinct from anatomy regions), draft focus, save/reload, Android, and updated private-preview deployment. Existing production and save-key literals unchanged. Do not mark accepted.
