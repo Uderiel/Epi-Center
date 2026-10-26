@@ -26,6 +26,10 @@ Updated 2026-10-26. **Documentation checkpoint only.** No gameplay source change
 - **Access Tunnel A South is an Underworld location** and should not be offered as an overworld/surface path. Friendly Farms Approach is a southern surface direction; exact additional path nodes remain subject to route verification.
 - Compass should be visually spatial (3x3 or equivalent), with N/S/E/W clear and NE/SW destinations correctly placed. v0.8.74's owner-accepted compass layout must be preserved as baseline; additions are pending.
 
+## Eve: owner-resolved implementation decisions (2026-10-26)
+
+See [World Bible](EPI-CENTER-WORLD-BIBLE.md), commit `e843d22`, for the exact six-point specification. The user chose **cheerful corporate/gullible** voice; a **brief auto-greeting** that explicitly teaches the **free-text input** and permits exploration; **variable avoidance or blue-to-red fragmented glitches** on contradictions and stronger Countess conflicts; **current player-ID identity** (recognize whatever name/form currently controls the character, never original appearance/name or underlying will); **remote A.S.S. help anywhere** but visible hologram only inside Spire outer ring; and **nonretaliatory, unhurt, untraceable projection** under insults or attacks. Eve initially trusts neutral systems and does not recognize Countess corruption. She gains partial recognition as **Hub Cylinders** return, but programming blocks full explanation. No VR/outside-world disclosure. All pending implementation and tests.
+
 ## NPC: Eve — confirmed behavior, not yet implemented
 
 - Always-present fixed A.S.S. custodian NPC at Central Hub spawn. **Automatically** introduces herself to each new player once, acknowledges amnesia, and assures the player that this is perfectly normal. Believes every entrant volunteered. She does not knowingly lie; her programmed interpretation establishes the opening mystery.
