@@ -1,5 +1,7 @@
 # EPI-CENTER — World Bible (living canon)
 
+**Consolidated Hub geography, NPC dialogue, Discord quest wording, and staged implementation:** [Central Hub Canon and Implementation Plan](EPI-CENTER-HUB-CANON-AND-IMPLEMENTATION-PLAN.md) (commit `de503eb`). This is a documentation-only checkpoint. When older entries conflict, the later owner-confirmed refinements and consolidated plan control. The current approved gameplay remains v0.8.74; southwest café and eastern district are not yet claimed as live map nodes.
+
 Updated: 2026-10-26. This is a continuity reference, not a declaration that features are implemented. Mark every entry as confirmed canon, draft, or pending detail. Never silently convert a proposal into a player-tested mechanic.
 
 ## Central Hub quests — Discord originals and browser adaptation (owner confirmed, 2026-10-26)
