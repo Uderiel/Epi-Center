@@ -1,5 +1,9 @@
 # EPI-CENTER — Test Checklist
 
+### 2026-10-26 v0.8.77 Eve arrival DEV toggle — candidate, not yet tested
+
+Immutable `epi-center-v0.8.77-eve-dev-arrival-toggle.html` commit `993cd96`, based on v0.8.76. Adds expandable **DEV · Eve new-arrival test** panel to active player UI, with Activate/Deactivate and Replay welcome buttons. Activation saves prior `s.eve875.introduced` to `s.eveDev877.originalIntroduced`, marks a temporary new-arrival test state, and clears only Eve's introduced flag; deactivation restores the previous flag. Replay requires Central Hub and active toggle. Character, quests, inventory, discoveries and save key remain untouched by this patch. **Owner/device and automated browser tests not yet performed.** Test activation, hub replay, reload, deactivation restoration and no regression. Accepted baseline still v0.8.74. URL: `https://uderiel.github.io/Epi-Center/epi-center-v0.8.77-eve-dev-arrival-toggle.html`.
+
 ### v0.8.76 Eve candidate — owner acceptance PENDING (2026-10-26)
 
 Candidate `epi-center-v0.8.76-eve-introduction.html`, commit `b45f8d9`. **None of these tests are marked PASS.**
