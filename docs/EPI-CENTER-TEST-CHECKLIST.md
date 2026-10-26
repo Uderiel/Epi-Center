@@ -1,5 +1,9 @@
 # EPI-CENTER — Test Checklist
 
+### 2026-10-26 Eve six-question owner decisions — design approval only
+
+World Bible commit `e843d22`; Hub implementation plan commit `4743a28`. Owner confirms cheerful corporate/gullible Eve; brief automatic new-player introduction including text-input tutorial and permission to explore; flexible evasions and red glitch/stutter on consent contradiction or Countess, with increased cylinder-dependent but programming-restricted recognition; unique player-ID tracking and **current form/name identity only**, even if another form controls speech; remote help anywhere but **visible hologram confined to Spire outer ring**; no personal offense, damage, retaliation or traceable projection sources. She does not reveal VR/external reality or proactively warn about threats. **No gameplay code or tests changed; v0.8.74 remains accepted.** Next development gate: inspect actual onboarding/Guide/actor and save code before building focused versioned Eve patch. Add regression cases for transformed identity, remote help vs hologram, hostility and one-time spawn greeting.
+
 ### Central Hub canon-to-code acceptance backlog — 2026-10-26
 
 **Status: NOT RUN / NOT IMPLEMENTED.** Documentation specification: [Central Hub Canon and Implementation Plan](EPI-CENTER-HUB-CANON-AND-IMPLEMENTATION-PLAN.md), commit `de503eb`. Do not mark PASS until tested in a specific new version. Preserve v0.8.74 owner-accepted compass baseline.
