@@ -6031,4 +6031,61 @@ autonomyAdapter867.authority=function(action,p,actor,c,now){
 };
 if(s.name){save();render();}
 
-</script></body></html>
+</script>
+<!-- v0.8.68 Patch 02: compact cursed footwear and DEV anatomy coherence -->
+<script>
+/* This repair is appended after the original script so the final overrides win.
+   No save key, migration, or production build is changed. */
+(function(){
+ const originalDevSet852=devSet852;
+ devSet852=function(which,value){
+  if(which!=='stage')return originalDevSet852(which,value);
+  const n=Math.round(Number(value));if(!Number.isFinite(n))return;
+  const a=anatomyInit65(),target=Math.max(0,Math.min(STEPS65.length,n));
+  const regions={},history=[];
+  for(let i=0;i<target;i++){
+   const [region,narration,detail]=STEPS65[i];
+   (regions[region]??=[]).push(detail);
+   history.push({region,detail,narration});
+  }
+  a.index=target;a.regions=regions;a.history=history;
+  a.examined=Object.fromEntries(Object.entries(a.examined||{}).filter(([region])=>regions[region]));
+  h63().stage=Math.round(target/STEPS65.length*5);
+  say816('DEV · Test override','Physical anatomy set to '+target+'/'+STEPS65.length+'. Current changed-region details synchronized; original identity, mental influence and ownership unchanged.',newTurn813());
+  save();render();
+ };
+ const originalEquipment67=equipment67;
+ equipment67=function(){
+  const html=originalEquipment67(),t=document.createElement('template');t.innerHTML=html;
+  for(const d of t.content.querySelectorAll('details.card')){
+   const summary=d.querySelector('summary');
+   if(summary?.querySelector('b')?.textContent!=='Feet')continue;
+   const loc=redHeelsLocation865(),owned=h63().owned;
+   if(owned){
+    const worn=h63().worn;
+    summary.innerHTML='<b>Feet</b> · '+esc(CURSED_HEELS_NAME867)+' — '+(worn?'Equipped':'Carried')+' · Cursed';
+    d.open=true;
+   }
+  }
+  return t.innerHTML;
+ };
+ const originalRemoveHeels63=removeHeels63;
+ removeHeels63=function(){
+  const before=!!h63().worn;
+  const input=document.getElementById('universal814');
+  const draft=input?.value,selection=input?{start:input.selectionStart,end:input.selectionEnd}:null;
+  const result=originalRemoveHeels63();
+  if(before){
+   const success=!h63().worn;
+   say816('Equipment · Erin’s red heels',success?'Removal succeeded. The cursed heels are now carried, not worn.':'Removal failed. The cursed heels remain equipped.',newTurn813());
+   save();render();
+  }
+  if(draft!==undefined){
+   const current=document.getElementById('universal814');
+   if(current){current.value=draft;if(selection)try{current.setSelectionRange(selection.start,selection.end)}catch(e){}}
+  }
+  return result;
+ };
+})();
+</script>
+</body></html>
