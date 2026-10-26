@@ -2,6 +2,22 @@
 
 Updated: 2026-10-26. This is a continuity reference, not a declaration that features are implemented. Mark every entry as confirmed canon, draft, or pending detail. Never silently convert a proposal into a player-tested mechanic.
 
+## Elizabeth, Pet, and eastern dungeon discovery — owner rough draft (2026-10-26)
+
+**Status:** Owner-confirmed character appearance and rough geography/quest premise; dungeon flow and outcomes are **not yet specified or implemented**. Do not invent exact mechanics, permanent consequences, or rigid quest steps.
+
+**Dominatrix Elizabeth:** Roaming Central Hub NPC, resident of a home to the east. Pale milky skin, dark eyes, long wavy black hair, black-painted nails; leather skirt, corset over a long-sleeved mesh shirt, thigh-high leather boots with spikes on toes and heels. Direct, abrasive, blunt, sometimes rude; generally content to spend her day walking her companion, whom she calls **Pet**. Her dialogue may casually mention leaving Pet's favorite toy in a nearby latex dungeon. Do not treat this as a forced quest acceptance.
+
+**Pet:** Adult male companion wearing a full-body latex feminizing gimp suit, canine-shaped mask, gag, collar, and leash. The outfit fully covers him, and he moves on all fours. **No spoken dialogue**; do not invent a personal name or independent speech. Elizabeth leads him around Central Hub.
+
+**Eastern route:** From Central Hub unlock the first East Road location, travel east again, then south. **Burke's Sweets** lies south of the first eastern-road location; the relevant alley is **behind Burke's Sweets**. Final map topology must be verified against existing paths before implementation, not created as a shortcut bypassing discovery.
+
+**Alley exploration:** A player using natural language such as “I check my surroundings” (or equivalent) should receive an alley description featuring garbage and a **faint trail of shimmering liquid black slime** seeping from behind **stacked wooden panels**. Examining/following the trail or moving the panels reveals the dungeon entrance. Support semantic variations and multi-step investigation, rather than a single exact command or rigid sequence.
+
+**Latex dungeon premise:** Originally a Discord encounter testing whether a player tends toward dominance or submission. Depending on choices and outcome, a **goth latex form** (male, female, or futanari variants) may result. Specific encounter logic, form stats, consent/agency boundaries, rewards, and progression are **TBD**. User emphasizes that fixed linear quest scripts cannot reproduce the flexible roleplay previously run by humans; design an extensible NPC/quest state model that can support human or future AI facilitation without claiming external AI is already integrated.
+
+**Custody:** Keep this as a rough draft until further owner elaboration. Preserve established Central Hub, north/south/east/west routing and v0.8.74 acceptance. The *other* Central Hub quest remains unspecified.
+
 ## Eve — spawn protocol, reality framing and cylinder progression (owner-confirmed 2026-10-26)
 
 - **Automatic greeting:** On each genuinely new player spawn in Central Hub, Eve initiates the introductory conversation without requiring the player to click Talk. Avoid repeating the full introduction on every reload or routine return. Preserve existing onboarding/save progression.
