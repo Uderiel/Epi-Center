@@ -1,5 +1,17 @@
 # EPI-CENTER — Current Development Status
 
+## Current continuity status — 2026-10-26 (supersedes the historical v0.8.67 header below)
+
+**Latest observed source:** `epi-center-v0.8.73-cardinal-routing.html` on `main`, commit `37eedb0be62b4687a8c016d3e0c60a05f3c53a43`. Playable candidate: https://uderiel.github.io/Epi-Center/epi-center-v0.8.73-cardinal-routing.html . The root https://uderiel.github.io/Epi-Center/ is a separate entry and its live byte equivalence to the versioned candidate has not been established at this checkpoint. Source presence does not prove successful deployment or player acceptance.
+
+**Accepted since v0.8.67:** v0.8.68 equipment/heel refresh and reload; v0.8.69 Feet-collapse and draft preservation (owner 5/5). **Implemented in commits but not yet owner-accepted:** v0.8.70 Erin dialogue routing, v0.8.71 Cherished Touch storefront/quest registry, v0.8.72 hub discovery linkage, v0.8.73 cardinal/Spire routing. No new automated test count is claimed for these builds.
+
+**Immediate section:** test v0.8.73 Central Hub survey, Cherished Touch north discovery/travel, clear compass labels, northeast Residential Walkway/Applewood route, and separation of Underworld Access Tunnel A South from surface routing. Fix failures in a new immutable version, preserving passing systems. Keep West Market Walk provisional rather than claiming established server canon.
+
+**Following sections (not accepted):** DEV 23/23 transformation populating current appearance while preserving original identity; Erin explicit reading refusal; travel arrival narration and stale journey cancellation; duplicate live-feed messages; Android physical-device testing; broader v0.8.67 autonomy/footwear owner acceptance. Charity quest, mask safeguards, cylinder-triggered Countess events, and curtain invitation gating are design agreements, not completed mechanics.
+
+**Custody policy:** versioned builds immutable, preserve existing browser saves (`epicenter_foundation_v060`), no force-push, no unapproved redesign, maximum five player tests per patch, documentation every two accepted patches, and distinguish commit/test/owner acceptance/live deployment. Existing v0.8.67 verification applies only to v0.8.67. See current checklist and handoff for precise gates.
+
 Date: 2026-10-25. Release: **v0.8.67**. Source: [versioned build](../epi-center-v0.8.67-reusable-autonomy-foundation.html); default entry: [index.html](../index.html). Both are byte-identical, SHA-256 `EFAD3BFB70ACFE629C4E53AF71129C8867D4B8D4807717D61ECDE6D910BE7B0B`.
 
 Publication is authorized conditional on the required automated checks. This release record covers local verification and promotion; verify the GitHub commit and live Pages deployment independently after push. No force push, historical deletion, or real browser-save reset is authorized.
