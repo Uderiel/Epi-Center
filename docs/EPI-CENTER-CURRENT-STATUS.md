@@ -1,50 +1,50 @@
-# EPI-CENTER — CURRENT DEVELOPMENT STATUS
+# EPI-CENTER — Current Development Status
 
-Updated: 2026-10-25 · approved v0.8.65 release and publication preparation.
+Date: 2026-10-25. Release: **v0.8.67**. Source: [versioned build](../epi-center-v0.8.67-reusable-autonomy-foundation.html); default entry: [index.html](../index.html). Both are byte-identical, SHA-256 `EFAD3BFB70ACFE629C4E53AF71129C8867D4B8D4807717D61ECDE6D910BE7B0B`.
 
-## Current main playable release
+Publication is authorized conditional on the required automated checks. This release record covers local verification and promotion; verify the GitHub commit and live Pages deployment independently after push. No force push, historical deletion, or real browser-save reset is authorized.
 
-- Approved source: [v0.8.65 Red Heels Acquisition Fix](../epi-center-v0.8.65-red-heels-acquisition-fix.html).
-- Root: [index.html](../index.html), byte-for-byte identical to v0.8.65. Both SHA-256: `F26C1B4CDCF44CDA0A9F8600A26F0C9D102519A198D44249EFF1320941B19A26`.
-- Earlier accepted [v0.8.63 onboarding](../epi-center-v0.8.63-onboarding-repairs.html), [v0.8.64 alignment](../epi-center-v0.8.64-character-appearance-alignment.html), and [v0.8.64 cleanup](../epi-center-v0.8.64-character-creation-field-cleanup.html) remain unchanged and available as versioned builds.
-- The owner authorized commit/push to `origin/main`. GitHub Pages configuration and live serving must be checked after push; local promotion does not prove deployment. No force push or deletion of historical builds.
+## Implemented release
 
-## Manual acceptance — distinct from automated coverage
+- Reusable clock-driven actor engine and separate Erin adapter; plans, verified atomic effects, prerequisites, capability/safety gates, weights/priorities, cooldowns, persistent commitments, bounded history and memory.
+- Form intentions and private dialogue at every influence band. Physical authority is separate; limited/shared activity and explicit scoped delegation preserve player control. Trust, stress, tone and reasoning affect cooperation through profile settings; no new resistance DCs.
+- Requests can agree/refuse/negotiate/delay/clarify/propose alternatives without automatically executing. Safe provider seam exists; no external AI service is connected.
+- Full eight-hour bed sleep, wake, reload/resume; existing time-based effects remain.
+- One exclusive footwear slot across ordinary and cursed footwear. Unique shoes-0 remains cursed, a transformation source, visible under Feet and storable after valid removal. Existing invalid overlaps return ordinary pairs to inventory with an explicit record.
+- v0.8.66 jewelry/Equipment field repairs, appearance, transformation, inventory, quests, travel and historical builds retained.
 
-- Combined v0.8.63/v0.8.64 manual report: **15 passed, 0 failed, 2 not tested**.
-- The two untested manual cases remain undiscovered-route blocking (fog hid those destinations) and residence restrictions (not exercised).
-- Separate v0.8.64 appearance acceptance: **five passed**.
-- v0.8.65 existing-save behavior: the player **manually observed previously debug-acquired heels as already collected at Old Transit Courtyard**.
-- Fresh-player normal pickup has automated verification, but **no separate physical-device manual test yet**.
-- **Physical Android Chrome testing remains pending.** Do not infer the device used for the existing-save observation.
+## Verification and limitations
 
-## Automated browser evidence
+All thirteen required suites ran against the final unchanged build. Each expected count and every pass flag is checked by the reproducible runner.
 
-| Suite | Result |
+| Suite | Final result |
 | --- | --- |
-| v0.8.63 final, previously reported | 25/25 passed |
-| v0.8.64 alignment, previously reported | 25/25 passed |
-| v0.8.64 cleanup, previously reported | 29/29 passed |
-| Historical v0.8.64 courtyard diagnostic | 3 passed / 4 failed out of 7; led to v0.8.65 correction |
-| v0.8.65 red-heels suite | 19/19 passed; no uncaught errors; fresh/debug/legacy fixtures and real reloads |
-| Pre-promotion root/local HTTP checkpoint | 11/11 passed; then-v0.8.64 root/versioned compatibility and representative legacy fallback |
-| Promoted v0.8.65 publication preflight | 14/14 passed; inline JavaScript compilation, root startup/pickup and root/versioned/legacy save compatibility at 390×844 |
+| dialogue-driver.ps1 | 60/60 |
+| dialogue-persistence-driver.ps1 | 9/9 |
+| autonomy-driver.ps1 | 61/61 |
+| test-driver.ps1 | 249/249 |
+| legacy-driver.ps1 | 52/52 |
+| legacy866-driver.ps1 | 52/52 |
+| persistence-driver.ps1 | 12/12 |
+| bed-sleep-driver.ps1 | 17/17 |
+| regression-driver.ps1 | 14/14 |
+| pending-driver.ps1 | 38/38 |
+| cursed-footwear-driver.ps1 | 22/22 |
+| footwear-matrix-driver.ps1 | 21/21 |
+| footwear-migration-driver.ps1 | 9/9 |
 
-Suites overlap and must not be summed as unique acceptance cases. Route/residence automation does not convert skipped manual cases into manual passes. New publication preflight and post-push checks are reported with the release, separately from these historical counts.
+616 passing assertions across overlapping suites; not 616 independent gameplay scenarios. No required suite was skipped. Supplemental footwear now passes 38/38, superseding the historical 37/38 diagnostic.
 
-## Red-heels implementation
+Disposable Chrome profiles; 390×844 main suites and 360×640 supplemental coverage. Startup, inline JavaScript compilation, the 19 appearance regions, original archives, all jewelry/belt lifecycles, inventory identity, discovery/residence restrictions, exactly-once quests, all influence bands, trust/stress, intent interpretation, authorization/withdrawal, deterministic actions, sleep, reloads and v0.8.65/v0.8.66 imports are covered. Tests also verify original cursed removal failure/success and legacy overlap repair.
 
-Normal discovery reaches Old Transit Courtyard without DEV. The old v0.8.64 pickup UI was orphaned and catalog location contradicted debug ownership. Current v0.8.65 restores normal/typed pickup and links the unique signature `shoes-0` object with existing ownership/equipment. Acquired or debug-owned heels do not spawn a second courtyard copy. First-linkage history is preserved; catalog-only worn data does not activate a curse on load. See [verification report](EPI-CENTER-v0.8.65-RED-HEELS-VERIFICATION.md).
+The wrapper initially mishandled array-format legacy JSON. The underlying 52 checks passed; the wrapper was corrected and the entire packaged runner rerun before publication. No game-source change was needed.
 
-## Remaining unverified work and known limits
+[Test sources/results archive](releases/v0.8.67-verification.zip) includes a run-all.ps1 runner, source scripts and named JSON reports. Extract outside the repository and run `powershell.exe -NoProfile -ExecutionPolicy Bypass -File ./run-all.ps1 -RepoRoot <checkout>`. Requires Windows PowerShell and Chrome at its normal Program Files path. Profiles/results are written only to a new temporary output directory. DEV confirmations are accepted only inside the disposable supplemental fixture. Fixtures and forced-roll tests do not alter actual saves or production rules.
 
-- Separate physical-device fresh-player pickup and broader Android Chrome behavior.
-- Two skipped manual acceptance cases above and comprehensive historical-save/device combinations.
-- Full autonomous Erin routines at 100% influence; announcements remain insufficient.
-- Office/commute remain unavailable; no absence penalties while absent.
-- General item/time unification, ordinary footwear slots, legacy laundry, notifications and comprehensive physiology remain separate scopes.
-- Historical original descriptions already lost before these builds cannot be reconstructed automatically.
+Physical Android Chrome and owner manual acceptance of v0.8.67 remain pending. Emulation is not hardware testing. Workplace/commute, automatic meals and multi-step grooming, external autonomous travel, independent Erin-T, unrestricted language understanding, external/async AI, and offline/wall-clock simulation remain unavailable. No attendance penalties or fake resource consumption are implemented.
 
-## Compatibility and workflow
+Historical manual evidence is unchanged: v0.8.63/v0.8.64 combined 15 passes, 0 failures, 2 untested; five separate appearance passes; debug-owned heels manually observed collected. v0.8.66 was manually accepted and published at commit 12af73d96cb7bb508dbf4f30f60d4cdbfc19cd64. Automation does not convert prior manual skips into passes.
 
-Active storage remains `epicenter_foundation_v060`; prototype fallback keys are unchanged. Original appearance, current transformation and temporary grooming remain separate. Keep immutable versioned builds, history and test provenance. Current [handoff](EPI-CENTER-PROJECT-HANDOFF.md), [changelog](EPI-CENTER-CHANGELOG.md) and [checklist](EPI-CENTER-TEST-CHECKLIST.md) identify v0.8.65 as the main release.
+## Saves and rollback
+
+The key remains epicenter_foundation_v060 with unchanged prototype fallbacks. Additive state is in autonomy867, dialogue867, sleep867 and footwear867. Original identity and transformed appearance remain separate. [Pre-release index backup](../backups/index-v0.8.66-before-v0.8.67.html) and the immutable v0.8.66 build both retain SHA-256 D79D8FAA21DF7C9042C345C557AE8491EEB2759071BDB26A4C2194C8AEF5E889. This is a code rollback backup, not a backup of personal browser saves.

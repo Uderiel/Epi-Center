@@ -1,0 +1,80 @@
+{
+  "version": "0.8.67",
+  "date": "2026-10-25",
+  "candidateSha256": "EFAD3BFB70ACFE629C4E53AF71129C8867D4B8D4807717D61ECDE6D910BE7B0B",
+  "backupSha256": "D79D8FAA21DF7C9042C345C557AE8491EEB2759071BDB26A4C2194C8AEF5E889",
+  "archiveSha256": "51CF4ED4956C32E1528FB57989A629DA5707BA5D39CB678FFD94D7154EFD0355",
+  "suites": [
+    {
+      "suite": "dialogue-driver.ps1",
+      "passed": 60,
+      "expected": 60
+    },
+    {
+      "suite": "dialogue-persistence-driver.ps1",
+      "passed": 9,
+      "expected": 9
+    },
+    {
+      "suite": "autonomy-driver.ps1",
+      "passed": 61,
+      "expected": 61
+    },
+    {
+      "suite": "test-driver.ps1",
+      "passed": 249,
+      "expected": 249
+    },
+    {
+      "suite": "legacy-driver.ps1",
+      "passed": 52,
+      "expected": 52
+    },
+    {
+      "suite": "legacy866-driver.ps1",
+      "passed": 52,
+      "expected": 52
+    },
+    {
+      "suite": "persistence-driver.ps1",
+      "passed": 12,
+      "expected": 12
+    },
+    {
+      "suite": "bed-sleep-driver.ps1",
+      "passed": 17,
+      "expected": 17
+    },
+    {
+      "suite": "regression-driver.ps1",
+      "passed": 14,
+      "expected": 14
+    },
+    {
+      "suite": "pending-driver.ps1",
+      "passed": 38,
+      "expected": 38
+    },
+    {
+      "suite": "cursed-footwear-driver.ps1",
+      "passed": 22,
+      "expected": 22
+    },
+    {
+      "suite": "footwear-matrix-driver.ps1",
+      "passed": 21,
+      "expected": 21
+    },
+    {
+      "suite": "footwear-migration-driver.ps1",
+      "passed": 9,
+      "expected": 9
+    }
+  ],
+  "assertions": 616,
+  "failed": 0,
+  "skipped": 0,
+  "rootEntryPreflightPassed": 14,
+  "physicalAndroid": "pending",
+  "manualAcceptance867": "pending"
+}

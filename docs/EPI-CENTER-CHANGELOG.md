@@ -1,9 +1,28 @@
-# EPI-CENTER — DEVELOPMENT CHANGELOG
+# EPI-CENTER — Development Changelog
 
-Updated: 2026-10-25 · v0.8.65 documentation checkpoint.
-Current approved playable source/root: [v0.8.65 red-heels acquisition fix](../epi-center-v0.8.65-red-heels-acquisition-fix.html) / [index.html](../index.html).
-The owner authorized publication to origin/main. Earlier versioned files remain immutable; live Pages status must be verified after push.
+Updated: 2026-10-25. Current release: [v0.8.67](../epi-center-v0.8.67-reusable-autonomy-foundation.html), promoted byte-for-byte to [index.html](../index.html). Historical versioned files and snapshots remain preserved. Publication is authorized after final verification; live deployment is checked separately.
 
+## v0.8.67 — Reusable autonomy, dialogue, sleep and cursed footwear
+
+- Reusable actor engine, capability/location/time prerequisites, schedules, priorities/weights, verified state effects, cooldowns, persistent commitments and bounded memory/journal.
+- Intentions at every influence band; configurable physical authority and separate trust/stress/cooperation. Requests and agreement do not automatically execute; explicit authorization and withdrawal are rechecked. Existing resistance mechanics retained.
+- Flexible bounded local interpretation and safe future-AI semantic proposal interface. No external model connected.
+- Real eight-hour bed sleep, waking, incomplete-cycle resume, and existing clock effects.
+- shoes-0 remains the unique cursed transformation source, visible under Feet. Shared slot checks prevent all normal/cursed double equip. Legacy overlaps preserve the worn cursed pair and return conflicting ordinary items to inventory with an audit entry.
+- All thirteen requested final suites passed (616 overlapping assertions), including supplemental 38/38; root entry preflight additionally 14/14. Earlier partial runs and the repaired historical footwear failure are not current unresolved failures. Physical Android/manual acceptance remain pending.
+- Unchanged save keys and baseline gameplay; additive save namespaces only. Preserved v0.8.66 as immutable source and an exact pre-promotion index backup.
+- Added reproducible source/results archive, release record, implementation reports and v0.8.67 snapshots. No v0.8.68 work.
+
+## v0.8.66 — Jewelry storage, equipment fields and build display — accepted and published
+
+- Corrected closet/carried/equipped accessory presentation and lifecycle without deleting ambiguous old ownership.
+- Jewelry populates Head/Neck/Hands/Arms fields; belt remains under Hips. All five jewelry items and belt were tested.
+- Current build/session display uses the authoritative build value. Retained unique physical-object records, archives, save keys and transformation.
+- Owner reported testing passed and authorized publication. Published commit: 12af73d96cb7bb508dbf4f30f60d4cdbfc19cd64. Live main/versioned bytes were verified and Pages succeeded; this historical release is the rollback baseline.
+
+## Historical v0.8.65 and earlier checkpoint records
+
+The following entries retain their original dates, source/status descriptions, and test provenance. They do not identify the current main release.
 ## v0.8.65 — Documentation checkpoint, red-heels verification, root preparation
 
 - Updated handoff, changelog, current status, and checklist; created versioned v0.8.65 snapshots and a dedicated heels evidence report. Preserved earlier versioned builds and historical documentation.

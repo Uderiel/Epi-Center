@@ -4,7 +4,7 @@
 
 .profile-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.profile-grid label{display:block;color:var(--muted);font-size:12px}.field{width:100%;margin-top:5px}.meter{height:10px;border-radius:12px;background:#243747;overflow:hidden;margin:5px 0 13px}.meter>span{display:block;height:100%;background:var(--mint)}.meter.mental>span{background:var(--cyan)}.meter.arousal>span{background:var(--gold)}.statrow{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid var(--line)}.statrow button{min-width:38px}.logline{border-bottom:1px solid var(--line);padding:9px 0;line-height:1.5}.warning{border-color:var(--red)}@media(max-width:720px){.profile-grid{grid-template-columns:1fr}.mobile-nav{grid-template-columns:repeat(6,1fr)}.mobile-nav button{font-size:9px}}
 </style></head><body><div class="shell"><header class="top"><div><div class="brand">◈ EPI-CENTER</div><div class="sub">A.S.S. // ADAPTIVE SUPPORT SYSTEM</div></div><div class="online">● SYSTEM ONLINE<br><span id="topName" style="color:#96afbc">GUEST CONNECTION</span></div></header><div class="layout"><aside class="side"><div class="eyebrow">Navigation</div><div id="sideNav"></div><div class="sidefoot">NEURAL LINK: STABLE<br>SESSION: LOCAL SAVE<br>BUILD: <span data-build866></span></div></aside><main class="main" id="app"><section class="card"><h1>Initialize Your Identity</h1><p>Connecting to A.S.S. interface…</p><p>If this stays on screen, your file viewer is blocking scripts. Open the file directly in a full browser or use a hosted version.</p></section></main></div><footer class="foot">EPI-CENTER // Build <span data-build866></span> • Fictional game data • Saved on this device only</footer></div><nav class="mobile-nav" id="mobileNav"></nav><div class="toast" id="toast"></div><script>
-const BUILD_VERSION866='0.8.66';
+const BUILD_VERSION866='0.8.67';
 document.querySelectorAll('[data-build866]').forEach(node=>node.textContent=BUILD_VERSION866);
 const KEY='epicenter_proto_v0523';const memoryStore={};const storage={getItem(k){try{return window.localStorage.getItem(k)}catch(e){return memoryStore[k]||null}},setItem(k,v){memoryStore[k]=v;try{window.localStorage.setItem(k,v)}catch(e){}}};const defaults={name:'',screen:'hub',location:'hub',gold:300,exp:0,level:1,quest:false,questDone:false,inventory:{'Basic Rations':2,'Escape Rope':1},chat:{},visited:['hub'],activity:0};let s;try{s={...defaults,...JSON.parse(storage.getItem(KEY)||storage.getItem('epicenter_proto_v0522')||storage.getItem('epicenter_proto_v0521')||storage.getItem('epicenter_proto_v051')||storage.getItem('epicenter_proto_v1')||'{}')}}catch{s={...defaults}};
 const places={hub:{name:'Central Hub',region:'EPI-CENTER // CORE',risk:'Safe',theme:'',description:'A towering Spire pierces the digital skyline. Travelers gather around the Central Hub Portal, while A.S.S. monitors the world from behind its luminous interface.',npc:'Eve',exits:['tunnel','under','forest'],prompt:'Eve: Welcome to Epi-Center. Your journey begins here. The Spire remains sealed until the Hub Cylinders are recovered.'},tunnel:{name:'Access Tunnel A South',region:'EPI-CENTER // UNDERGROUND',risk:'Dangerous',theme:'under',description:'A long maintenance corridor stretches into darkness. Strange sounds echo behind sealed doors. Several branching routes remain unexplored.',npc:'Tunnel Scanner',exits:['hub','lab'],prompt:'A.S.S.: Structural integrity compromised. The southern access tunnel may contain undiscovered assets.'},under:{name:'Underworld Hub',region:'EPI-CENTER // UNDERWORLD',risk:'Risky',theme:'under',description:'An underground trading refuge lit by violet neon. Lilith welcomes travelers to a marketplace specializing in survival tools.',npc:'Lilith',exits:['hub'],prompt:'Lilith: A little preparation can make the difference between escaping and becoming part of this place.'},forest:{name:'Friendly Farms Approach',region:'EPI-CENTER // OUTSKIRTS',risk:'Risky',theme:'forest',description:'A winding path leads through an eerily peaceful landscape. Not every friendly face here can be trusted.',npc:'Wandering Traveler',exits:['hub'],prompt:'A.S.S.: Environmental data incomplete. Proceed with caution.'},lab:{name:'Subterranean R&D Labs',region:'EPI-CENTER // RESEARCH',risk:'Very Dangerous',theme:'lab',description:'Abandoned research stations hum behind reinforced glass. Rumors suggest a Hub Cylinder may be hidden deep within this facility.',npc:'Security Terminal',exits:['tunnel'],prompt:'Security Terminal: AUTHORIZATION DENIED. Restricted research sector.'}};
@@ -5284,4 +5284,488 @@ const inventoryBefore866=inventory;
 inventory=function(){return inventoryBefore866()+`<section class="card"><h3>Carried accessories</h3>${accessoryRows866('inventory')||'<p class="muted">None carried. Stored accessories remain in Closet → Accessories.</p>'}</section>`;};
 document.title=`EPI-CENTER v${BUILD_VERSION866} // Jewelry Storage & Build Display (review candidate)`;
 if(s.name){save();render();}
+
+// v0.8.67: reusable, action-driven autonomy. No real-time or offline simulation.
+const Autonomy867=(()=>{
+ const copy=x=>JSON.parse(JSON.stringify(x));
+ const equal=(a,b)=>JSON.stringify(a)===JSON.stringify(b);
+ function transaction(patches){
+  if(!Array.isArray(patches)||!patches.length)return {ok:false,reason:'No state effects supplied',changes:[]};
+  const applied=[],changes=[];
+  try{
+   for(const p of patches){
+    if(!p.target||typeof p.key!=='string'||!p.label)throw Error('Invalid state effect');
+    const had=Object.prototype.hasOwnProperty.call(p.target,p.key),before=p.target[p.key];
+    if(equal(before,p.value))continue;
+    applied.push({target:p.target,key:p.key,had,before});
+    p.target[p.key]=copy(p.value);
+    if(!equal(p.target[p.key],p.value))throw Error('State effect verification failed: '+p.label);
+    changes.push({field:p.label,before:before===undefined?null:copy(before),after:copy(p.value)});
+   }
+   if(!changes.length)throw Error('No state change; action was not completed');
+   return {ok:true,changes};
+  }catch(e){
+   for(const p of applied.reverse()){if(p.had)p.target[p.key]=p.before;else delete p.target[p.key];}
+   return {ok:false,reason:e.message,changes:[]};
+  }
+ }
+ function createEngine({profiles,actions,store,adapter,random=Math.random}){
+  const registry=new Map(actions.map(a=>[a.id,a]));
+  if(registry.size!==actions.length||new Set(profiles.map(p=>p.id)).size!==profiles.length)throw Error('Duplicate autonomy ID');
+  function state(p,now){return store.actors[p.id]??={sequence:0,lastSeen:now,pending:null,cooldowns:{},needs:copy(p.needs||{}),sleeping:false,readyForSleep:false,posture:'standing',memory:[],history:[]};}
+  function schedule(p,now){const day=Math.floor(now/1440),minute=now%1440;return (day%7===0||day%7===6?p.schedules.weekend:p.schedules.weekday).find(x=>x.start<=minute&&minute<x.end);}
+  function reason(a,p,st,c,now){
+   if(!a||a.disabled)return a?.disabled||'Unavailable action';
+   if(!c.active)return c.reason||'Actor is inactive';
+   if(a.requiresControl!==false&&!c.control)return 'Body control is unavailable';
+   if(c.externalCommitment)return 'An existing player commitment blocks autonomy';
+   if(adapter.authority){const blocked=adapter.authority(a,p,st,c,now);if(blocked)return blocked;}
+   if(c.conditions?.unsafe&&!a.safety)return 'Unsafe conditions require a safety action';
+   if(a.capabilities?.some(k=>!p.capabilities.includes(k)))return 'Missing physical capability';
+   if(a.locations&&!a.locations(c,p).includes(c.location))return 'Location is not eligible';
+   if(a.rooms&&!a.rooms.includes(c.room))return 'Room is not eligible';
+   if(a.windows&&!a.windows.some(([start,end])=>start<=now%1440&&now%1440<end))return 'Outside action time window';
+   if(a.minTrust!==undefined&&(c.trust??0)<a.minTrust)return 'Relationship restriction';
+   if(a.requiredItems?.some(id=>!c.items?.[id]||(c.items[id].location&&!['inventory','equipped'].includes(c.items[id].location))))return 'Required item is unavailable';
+   if(a.requiredResources?.some(r=>(c.resources?.[r.id]??0)<r.quantity))return 'Required resource is unavailable';
+   if((st.cooldowns[a.id]??-Infinity)>now)return 'Action cooldown';
+   return a.check?.(c,st,p)||'';
+  }
+  function eligible(p,st,c,now){const slot=schedule(p,now);return (slot?.activities||[]).map(id=>registry.get(id)).filter(a=>!reason(a,p,st,c,now));}
+  function decide(p,st,c,now,rng=random){
+   if(st.nextAction){const next=registry.get(st.nextAction);if(!reason(next,p,st,c,now))return next;}
+   const candidates=eligible(p,st,c,now).map(a=>({a,priority:typeof a.priority==='function'?a.priority(c,st,p):a.priority||0,weight:Math.max(0,(p.weights?.[a.id]??a.weight??1)*(a.modifier?.(c,st,p)??1))})).filter(x=>x.weight>0);
+   if(!candidates.length)return null;
+   const best=Math.max(...candidates.map(x=>x.priority)),pool=candidates.filter(x=>x.priority===best),sum=pool.reduce((n,x)=>n+x.weight,0);
+   let roll=Number(rng());if(!Number.isFinite(roll))throw Error('Random value must be finite');
+   roll=Math.max(0,Math.min(1-Number.EPSILON,roll))*sum;
+   for(const x of pool){roll-=x.weight;if(roll<0)return x.a;}
+   return pool.at(-1).a;
+  }
+  function record(p,st,event){
+   const e={actor:p.id,name:p.name,...event};
+   st.history.push(e);st.history=st.history.slice(-(p.historyLimit||60));
+   if(e.outcome==='completed'){st.memory.push({action:e.action,at:e.at,location:e.location});st.memory=st.memory.slice(-(p.memoryLimit||20));}
+   return e;
+  }
+  function process(p,from,to){
+   const st=state(p,from);
+   if(to<=from||to<=st.lastSeen)return;
+   const start=Math.max(from,st.lastSeen),before=adapter.context(p,st,start);
+   st.lastSeen=to;
+   if((before.present??before.active)&&!before.externalCommitment){if(Number.isFinite(st.needs.fatigue))st.needs.fatigue=Math.max(0,Math.min(100,st.needs.fatigue+(to-start)/60*(st.sleeping?-p.recoveryPerHour:p.fatiguePerHour)));}
+   adapter.think?.(p,st,adapter.context(p,st,to),to);
+   if(before.dialogueTurn)return;
+   if(st.sleeping&&before.sleepInterrupted&&adapter.interrupt){const result=transaction(adapter.interrupt(p,st,before));record(p,st,{id:p.id+':'+(++st.sequence),action:'sleep',started:start,at:to,location:before.location,room:before.room,outcome:result.ok?'interrupted':'failed',reason:'Physical movement interrupted sleep',changes:result.changes});}
+   if(!before.active||!before.control||before.externalCommitment){
+    if(st.pending){record(p,st,{...st.pending,at:to,outcome:'cancelled',reason:before.reason||'Control or commitment changed',changes:[]});st.pending=null;}
+    return;
+   }
+
+   if(!st.pending){
+    const a=decide(p,st,before,start);if(!a)return;
+    delete st.nextAction;const duration=Number(a.duration);if(!Number.isFinite(duration)||duration<=0)throw Error('Action duration must be positive');
+    st.pending={id:p.id+':'+(++st.sequence),action:a.id,started:start,due:start+duration,location:before.location,room:before.room,guard:adapter.guard?.(a,p,st,before)||null};
+   }
+   const pending=st.pending,a=registry.get(pending.action),current=adapter.context(p,st,to);
+   let failure=current.location!==pending.location||current.room!==pending.room?'Physical location changed during action':reason(a,p,st,current,to);
+   if(!failure&&pending.guard&&!equal(pending.guard,adapter.guard?.(a,p,st,current)))failure='Relevant physical state changed during action';
+   if(!failure&&to<pending.due)return;
+   st.pending=null; // Claim once before effects, including failures and re-entrant calls.
+   if(st.history.some(e=>e.id===pending.id))return;
+   let result;
+   try{result=failure?{ok:false,reason:failure,changes:[]}:transaction(adapter.plan(a,p,st,current,to));}
+   catch(e){result={ok:false,reason:e.message,changes:[]};}
+   st.cooldowns[pending.action]=to+(result.ok?(a.cooldown??0):5);
+   record(p,st,{...pending,at:to,outcome:result.ok?'completed':'failed',reason:result.reason||'',changes:result.changes});
+   if(st.consent?.actionId===pending.action)delete st.consent;
+   if(result.ok&&a.followUp&&registry.has(a.followUp))st.nextAction=a.followUp;
+  }
+  function pump(from,to){for(const p of profiles)process(p,from,to);}
+  return {pump,state,schedule,reason,eligible,decide,registry,profiles,transaction};
+ }
+ return {createEngine,transaction};
+})();
+const ACTIONS867=[
+ {id:'wake',duration:1,priority:120,capabilities:['rest'],check:(c,a,p)=>!a.sleeping?'Not asleep':c.hour<(c.wakeHour??p.wakeHour)&&c.room===p.bedroom?'Sleep period is not finished':''},
+ {id:'remove-footwear',duration:2,priority:105,capabilities:['hands'],locations:(c,p)=>[p.home],rooms:['bedroom'],check:(c,a)=>!c.night||!c.ordinaryShoes.length?'No ordinary footwear to remove':''},
+ {id:'move-to-bed',duration:1,priority:100,capabilities:['walk'],locations:(c,p)=>[p.home],check:(c,a,p)=>!c.night||c.room===p.bedroom||a.sleeping?'No bedtime route needed':!c.nextBedroom?'No connected room route':''},
+ {id:'prepare-sleep',duration:5,priority:90,capabilities:['rest'],locations:(c,p)=>[p.home],rooms:['bedroom'],windows:[[0,360],[1320,1440]],check:(c,a)=>a.readyForSleep||a.sleeping?'Already prepared':''},
+ {id:'sleep',duration:5,priority:85,capabilities:['rest'],locations:(c,p)=>[p.home],rooms:['bedroom'],windows:[[0,360],[1320,1440]],check:(c,a)=>!a.readyForSleep||a.sleeping?'Not ready for sleep':''},
+ {id:'rest',duration:15,priority:70,capabilities:['rest'],locations:(c,p)=>[p.home],check:(c,a)=>a.sleeping||!(a.needs.fatigue>=60)?'Rest is not currently needed':'',cooldown:30},
+ {id:'move-to-living',duration:1,priority:25,capabilities:['walk'],locations:(c,p)=>[p.home],check:(c,a,p)=>c.night||a.sleeping||c.room===p.leisureRoom?'No leisure route needed':!c.nextLiving?'No connected room route':''},
+ {id:'read',duration:15,priority:20,weight:4,capabilities:['hands','read'],locations:(c,p)=>[p.home],rooms:['living'],windows:[[360,1320]],check:(c,a)=>a.sleeping||c.bookProgress>=4?'No unread chapter available':'',cooldown:60,modifier:c=>c.stress>=50?1.5:1},
+ {id:'quiet-tv',duration:10,priority:20,weight:1,capabilities:['operate-tv'],locations:(c,p)=>[p.home],rooms:['living'],windows:[[360,1320]],check:(c,a)=>a.sleeping||c.tv==='fireplace'?'Quiet television is already set':'',cooldown:120},
+ {id:'work',disabled:'Workplace and commute are not implemented',duration:1},
+ {id:'meal',disabled:'Reusable resource-consumption adapter not connected',duration:1},
+ {id:'groom',disabled:'Multi-step grooming adapter not connected',duration:1},
+ {id:'cursed-footwear',disabled:'Cursed removal requires the existing player-facing resistance rules',duration:1}
+];
+const NIGHT867=['wake','remove-footwear','move-to-bed','prepare-sleep','sleep','rest'];
+const DAY867=['wake','rest','move-to-living','read','quiet-tv'];
+const ERIN_AUTONOMY867={
+ id:'erin-form',name:'Erin',type:'form-consciousness',binding:'shared-player',
+ personality:ERIN817,home:'erinhome',bedroom:'bedroom',leisureRoom:'living',
+ activityLocations:['erinhome'],capabilities:['walk','hands','read','operate-tv','rest'],
+ needs:{fatigue:20},fatiguePerHour:2,recoveryPerHour:12,wakeHour:7,wakeHours:{weekday:7,weekend:8},
+ restrictions:{minInfluence:0,requiresFullPhysicalForm:true,requiresUnmastered:true},
+ relationships:{source:'erin817',trustModifiers:true},
+ dialogue:{style:ERIN817.communication,reactions:['consideration','quiet evenings']},
+ weights:{read:4,'quiet-tv':1},preferences:ERIN817.interests,historyLimit:60,memoryLimit:20,
+ schedules:{
+  weekday:[{start:0,end:420,activities:NIGHT867},{start:420,end:540,activities:DAY867},{start:540,end:1020,activities:['wake','rest']},{start:1020,end:1320,activities:DAY867},{start:1320,end:1440,activities:NIGHT867}],
+  weekend:[{start:0,end:480,activities:NIGHT867},{start:480,end:1320,activities:DAY867},{start:1320,end:1440,activities:NIGHT867}]
+ }
+};
+// Definition only: never registered into the live world. Tests supply a separate adapter/store.
+const SAMPLE_AUTONOMY867={
+ id:'sample-aquatic',name:'Aquatic test actor',type:'independent-npc',binding:'test-fixture',
+ personality:{},home:'test-pool',capabilities:['swim','rest'],needs:{fatigue:80},fatiguePerHour:1,recoveryPerHour:10,wakeHour:6,
+ preferences:[],schedules:{weekday:[{start:0,end:1440,activities:['rest']}],weekend:[{start:0,end:1440,activities:['rest']}]}
+};
+function clockMinute867(){const e=erin817();return e.day*1440+e.clock*60+e.minute;}
+function autonomyState867(){return s.autonomy867??={schema:1,actors:{}};}
+function roomRoute867(from,to){
+ const queue=[[from]],seen=new Set([from]);while(queue.length){const path=queue.shift(),last=path.at(-1);if(last===to)return path[1]||null;for(const [next] of ERIN_ROOMS835[last]?.routes||[])if(!seen.has(next)){seen.add(next);queue.push([...path,next]);}}return null;
+}
+const autonomyAdapter867={
+ context(p,a,now){
+  const hour=Math.floor(now%1440/60),room=roomState835().room,h=h63(),full=anatomyInit65().index===STEPS65.length&&!isCanine()&&erinFormInBody831();
+  const active=!!s.name&&s.profileComplete&&full&&s.location===p.home&&homeAccess829();
+  const present=formPresent867(),delegated=!!a.consent&&a.consent.expires>=now;
+  const control=active&&((!h.mastered&&h.influence>=controlPolicy867().minorAt)||delegated)&&!(a.pauseUntil>now);
+  return {active,control,present,influence:h.influence,mastered:h.mastered,cooperation:cooperation867('',now),dialogueTurn:!!a.dialogueUntil&&a.dialogueUntil>=now,reason:!active?'Erin needs her complete physical form at home':!control?'Form intentions remain active; outward behavior needs authority or explicit delegation':'',
+   location:s.location,room,hour,wakeHour:(Math.floor(now/1440)%7===0||Math.floor(now/1440)%7===6)?p.wakeHours.weekend:p.wakeHours.weekday,night:hour>=22||hour<6,trust:erin817().trust,stress:erin817().stress,
+   sleepInterrupted:a.sleeping&&(s.location!==p.home||room!==p.bedroom),conditions:{unsafe:false},externalCommitment:!!s.travel88?.pending||!!s.sleep867?.active,items:items850().objects,
+   ordinaryShoes:CATALOG850.filter(d=>d.slot==='shoes'&&d.id!=='shoes-0'&&items850().objects[d.id].location==='equipped'),
+   nextBedroom:roomRoute867(room,p.bedroom),nextLiving:roomRoute867(room,p.leisureRoom),bookProgress:livingState840().bookProgress,tv:livingState840().tv};
+ },
+ interrupt(p,a,c){return [{target:a,key:'sleeping',value:false,label:'actor.sleeping'},{target:a,key:'readyForSleep',value:false,label:'actor.readyForSleep'},{target:a,key:'posture',value:'standing',label:'actor.posture'},{target:s.erin828,key:'bedtimeStage',value:0,label:'legacy.bedtimeStage'}];},
+ guard(action,p,a,c){
+  if(action.id==='read')return {progress:livingState840().bookProgress,count:livingState840().bookReadCount};
+  if(action.id==='quiet-tv')return {tv:livingState840().tv};
+  if(action.id==='remove-footwear')return c.ordinaryShoes.map(d=>({id:d.id,location:items850().objects[d.id].location}));
+  if(['sleep','prepare-sleep','wake'].includes(action.id))return {sleeping:a.sleeping,ready:a.readyForSleep};
+  return null;
+ },
+ plan(action,p,a,c,now){
+  const patch=(target,key,value,label)=>({target,key,value,label});
+  const posture=value=>patch(a,'posture',value,'actor.posture');
+  switch(action.id){
+   case 'wake':return [patch(a,'sleeping',false,'actor.sleeping'),patch(a,'readyForSleep',false,'actor.readyForSleep'),posture('standing'),patch(s.erin828,'bedtimeStage',0,'legacy.bedtimeStage'),patch(s.erin828,'bedtimeIntention',false,'legacy.bedtimeIntention')];
+   case 'remove-footwear':return c.ordinaryShoes.map(d=>patch(items850().objects[d.id],'location','inventory','items.'+d.id+'.location'));
+   case 'move-to-bed':case 'move-to-living':{
+    const next=action.id==='move-to-bed'?c.nextBedroom:c.nextLiving;
+    if(!ERIN_ROOMS835[c.room]?.routes.some(([id])=>id===next))throw Error('Room is not connected');
+    return [patch(roomState835(),'room',next,'apartment.room'),patch(ui838(),'room',next,'apartment.ui.room'),patch(ui838(),'view','room','apartment.ui.view'),patch(ui838(),'object','','apartment.ui.object')];
+   }
+   case 'prepare-sleep':return [patch(a,'readyForSleep',true,'actor.readyForSleep'),posture('bedside')];
+   case 'sleep':return [patch(a,'sleeping',true,'actor.sleeping'),posture('lying in bed'),patch(s.erin828,'bedtimeStage',4,'legacy.bedtimeStage')];
+   case 'rest':return [patch(a.needs,'fatigue',Math.max(0,a.needs.fatigue-15),'actor.needs.fatigue'),posture(c.room==='bedroom'?'resting on bed':'resting')];
+   case 'read':{const l=livingState840();return [patch(l,'bookProgress',Math.min(4,l.bookProgress+1),'living.bookProgress'),patch(l,'bookReadCount',l.bookReadCount+1,'living.bookReadCount'),patch(l,'seat','armchair','living.seat'),patch(l,'lamp',true,'living.lamp'),posture('seated')];}
+   case 'quiet-tv':return [patch(livingState840(),'tv','fireplace','living.tv'),patch(livingState840(),'seat','sofa','living.seat'),posture('seated')];
+   default:throw Error('No physical adapter for '+action.id);
+  }
+ }
+};
+let autonomyEngine867=null;
+function autonomy867(){const store=autonomyState867();if(!autonomyEngine867||autonomyEngine867.store!==store){autonomyEngine867=Autonomy867.createEngine({profiles:[ERIN_AUTONOMY867],actions:ACTIONS867,store,adapter:autonomyAdapter867});autonomyEngine867.store=store;}return autonomyEngine867;}
+let autonomyClockDepth867=0;
+function wrapClock867(original){
+ return function(...args){
+  const outer=autonomyClockDepth867++===0,before=clockMinute867();
+  if(outer)syncSleep867();
+  try{return original.apply(this,args);}
+  finally{autonomyClockDepth867--;if(outer&&clockMinute867()>before){autonomy867().pump(before,clockMinute867());save();}}
+ };
+}
+// Legacy dialogue temporarily advances then rewinds its clock. Observe its final time only.
+sayErin817=wrapClock867(sayErin817);
+advance818=wrapClock867(advance818);
+actionMinute836=wrapClock867(actionMinute836);
+tick817=wrapClock867(tick817);
+// Replace the announcement-only tick layer, retaining the original tick and mental audit.
+tick817=wrapClock867(function(minutes=20){const before=s.meters.mental;tickBefore855(minutes);const delta=s.meters.mental-before;if(delta!==0)s.mentalAudit855={before,after:s.meters.mental,reason:'Time progression: '+(!h63().worn?'rest/recovery while red heels are not worn':'form influence/resistance'),delta};});
+// These obsolete routines narrated physical effects without state changes.
+erinHomeBeat827=function(){};
+bedtime828=function(){};
+stepEvening828=function(){if(s.location!=='erinhome'){toast('The evening routine requires the apartment.');return;}s.erin828.bedtimeIntention=true;advance818(5);save();render();};
+function autonomyJournal867(){
+ const engine=autonomy867(),p=ERIN_AUTONOMY867,a=engine.store.actors[p.id],now=clockMinute867(),context=autonomyAdapter867.context(p,a||{},now);
+ const entries=[...(a?.history||[]),...(s.sleep867?.history||[])].sort((left,right)=>left.at-right.at).slice(-12).reverse();
+ return '<details class="card autonomy-journal867"><summary><b>Autonomy activity journal</b></summary><p class="muted small">'+esc(context.reason||'Erin can act as game time advances. Workplace and commute remain unavailable.')+'</p><p>'+esc(a?.pending?'In progress: '+a.pending.action+' (ends at game minute '+a.pending.due+')':a?.sleeping?'Sleeping':'No action in progress')+'</p>'+entries.map(e=>'<div class="logline"><b>'+esc(e.name)+' · Day '+Math.floor(e.at/1440)+' '+String(Math.floor(e.at%1440/60)).padStart(2,'0')+':'+String(e.at%60).padStart(2,'0')+'</b><br>'+esc(e.location+' / '+e.room+' · '+e.action+' · '+e.outcome)+(e.reason?'<br>'+esc(e.reason):'')+(e.changes.length?'<ul>'+e.changes.map(x=>'<li>'+esc(x.field+': '+JSON.stringify(x.before)+' → '+JSON.stringify(x.after))+'</li>').join('')+'</ul>':'')+'</div>').join('')+'<p class="muted small">Action-driven only. No offline catch-up. At most one action completes per clock advance. Meals, grooming, workplace travel and cursed footwear changes are disabled.</p></details>';
+}
+const consoleBefore867=console816;
+console816=function(){return consoleBefore867().replace('<section class="v815-compose">',autonomyJournal867()+'<section class="v815-compose">');};
+const devBefore867=dev66;
+dev66=function(){return devBefore867()+autonomyJournal867();};
+document.body.insertAdjacentHTML('beforeend','<style>.autonomy-journal867{overflow-wrap:anywhere}.autonomy-journal867 ul{padding-left:20px}</style>');
+document.title='EPI-CENTER v'+BUILD_VERSION866+' // Reusable Autonomy Foundation (review candidate)';
+if(s.name){save();render();}
+
+
+// Explicit player-selected sleep: eight hours on the existing clock, not a new timer.
+function sleepAtBed867(){
+ if(s.location!=='erinhome'||roomState835().room!=='bedroom'||ui838().object!=='bed'||!homeAccess829()){toast('Use the bed in the apartment bedroom.');return;}
+ if(s.travel88?.pending){toast('Resolve the pending travel decision before sleeping.');return;}
+ const now=clockMinute867(),engine=autonomy867(),actor=engine.store.actors['erin-form'];
+ let cycle=s.sleep867;
+ if(!cycle?.active){cycle=s.sleep867={active:true,started:now,due:now+480,location:s.location,room:'bedroom',history:cycle?.history||[]};}
+ if(actor?.pending){actor.history.push({...actor.pending,actor:'erin-form',name:'Erin',at:now,outcome:'cancelled',reason:'Player selected a full sleep cycle',changes:[]});actor.history=actor.history.slice(-60);actor.pending=null;}
+ if(actor){actor.sleeping=true;actor.readyForSleep=true;actor.posture='lying in bed';}
+ save(); // A reload interrupted here exposes Resume, rather than restarting eight hours.
+ const remaining=Math.max(0,cycle.due-now);
+ try{advance818(remaining);}catch(error){save();throw error;}
+ if(clockMinute867()<cycle.due){save();return;}
+ cycle.active=false;cycle.completed=clockMinute867();
+ if(actor){actor.sleeping=false;actor.readyForSleep=false;actor.posture='standing';if(Number.isFinite(actor.needs.fatigue))actor.needs.fatigue=Math.max(0,actor.needs.fatigue-480/60*ERIN_AUTONOMY867.recoveryPerHour);}
+ s.erin828.bedtimeStage=0;s.erin828.bedtimeIntention=false;
+ const event={actor:'player',name:s.name,action:'full-sleep-cycle',started:cycle.started,at:cycle.completed,location:cycle.location,room:cycle.room,outcome:'completed',reason:'',changes:[{field:'game clock',before:cycle.started,after:cycle.completed},{field:'body sleep',before:'lying in bed',after:'awake'}]};
+ cycle.history.push(event);cycle.history=cycle.history.slice(-20);
+ ui838().result='You sleep for a full eight-hour cycle and wake in the bedroom. '+clock818()+'.';
+ say816('Bedroom · Sleep',ui838().result,newTurn813());save();render();
+}
+function syncSleep867(){
+ const cycle=s.sleep867;if(!cycle?.active)return;
+ if(s.location===cycle.location&&roomState835().room===cycle.room)return;
+ cycle.active=false;cycle.interrupted=clockMinute867();
+ const actor=autonomyState867().actors['erin-form'];if(actor){actor.sleeping=false;actor.readyForSleep=false;actor.posture='standing';}
+ cycle.history.push({actor:'player',name:s.name,action:'full-sleep-cycle',started:cycle.started,at:cycle.interrupted,location:cycle.location,room:cycle.room,outcome:'interrupted',reason:'Left the bed before completion',changes:[]});cycle.history=cycle.history.slice(-20);
+}
+const bedPanelBefore867=householdPanel848;
+householdPanel848=function(){
+ let html=bedPanelBefore867();
+ if(s.location==='erinhome'&&roomState835().room==='bedroom'&&ui838().object==='bed'){
+  const label=s.sleep867?.active?'Resume sleep · '+Math.max(0,s.sleep867.due-clockMinute867())+' min remaining':'Sleep a full cycle · 8 hours';
+  const control='<button class="btn" type="button" onclick="sleepAtBed867()">'+esc(label)+'</button><p class="muted small">Advances game time by eight hours and wakes you in bed. Clothing stays as worn; existing time-based effects still apply.</p>';
+  html=html.replace('<div class="epi-grid835">','<div class="epi-grid835">'+control);
+  if(s.sleep867?.completed)html+='<p class="muted small">Last full sleep completed: Day '+Math.floor(s.sleep867.completed/1440)+' · '+String(Math.floor(s.sleep867.completed%1440/60)).padStart(2,'0')+':'+String(s.sleep867.completed%60).padStart(2,'0')+'</p>';
+ }
+ return html;
+};
+
+if(s.name){save();render();}
+
+// Follow-up: consciousness, request assessment, and bodily authority are separate.
+function formPresent867(){return !isCanine()&&!!(h63().worn||erinSentient827()||erinFormInBody831());}
+function influenceBand867(value){
+ const n=Math.max(0,Math.min(100,Number(value)||0));
+ return n<25?{id:'primary',label:'Player primary control'}:n<50?{id:'limited',label:'Limited form influence'}:n<75?{id:'shared',label:'Shared / contested control'}:n<100?{id:'strong',label:'Strong form authority'}:{id:'maximum',label:'Maximum ordinary form control'};
+}
+function controlPolicy867(){return ERIN_AUTONOMY867.controlPolicy||{minorAt:25,sharedAt:50,strongAt:75,minorCooperation:15,pauseMinutes:30,delegationMinutes:30};}
+function dialogueState867(){const root=s.dialogue867??={schema:1,actors:{}};return root.actors['erin-form']??={recent:[],pending:null,lastOutcome:null};}
+function cooperation867(tone='',now=clockMinute867(),actionId='',excludeLatest=false){
+ const p=ERIN_AUTONOMY867.cooperation||{trustWeight:1,stressWeight:-1,politeBonus:15,hostilePenalty:25,repeatPenalty:10,reasonBonus:15,agreeAt:50,negotiateAt:15};
+ const e=erin817(),recent=s.dialogue867?.actors?.['erin-form']?.recent||[];
+ const repeated=actionId?Math.max(0,recent.filter(x=>x.actionId===actionId&&now-x.at<60).length-(excludeLatest?1:0)):0;
+ return e.trust*p.trustWeight+e.stress*p.stressWeight+(tone==='polite'?p.politeBonus:tone==='hostile'?-p.hostilePenalty:0)-Math.min(3,repeated)*p.repeatPenalty;
+}
+const Dialogue867=(()=>{
+ const aliases={
+  read:/\b(read|reading|chapter|novel|book)\b/i,
+  'quiet-tv':/\b(tv|television|fireplace|watch)\b/i,
+  rest:/\b(rest|relax|break|lie down)\b/i,
+  sleep:/\b(sleep|bedtime|go to bed|turn in|hit the hay|get some shut.?eye)\b/i,
+  'prepare-sleep':/\b(prepare for (?:bed|sleep)|get ready for bed|wind down)\b/i,
+  'return-home':/\b(go home|head home|back home|return home)\b/i,
+  meal:/\b(dinner|breakfast|lunch|eat|meal)\b/i,
+  groom:/\b(groom|brush.*teeth|skin.?care|shower|bath)\b/i,
+  'cursed-footwear':/\b(remove|take off|slip off).*\b(heels|red shoes)\b/i,
+  pause:/\b(stop|wait|give me control|let me (?:decide|control)|hold off|pause)\b/i
+ };
+ const permitted=new Set(Object.keys(aliases));
+ function validateProposal(value){
+  if(!value||typeof value!=='object'||Array.isArray(value))return null;
+  if(!['request','question','clarify','avoid','confirm','conversation','reason'].includes(value.intent))return null;
+  if(value.actionId!==null&&value.actionId!==undefined&&!permitted.has(value.actionId))return null;
+  if(value.actorId&&value.actorId!=='erin-form')return null;
+  return {intent:value.intent,actionId:value.actionId||null,tone:['polite','hostile','neutral'].includes(value.tone)?value.tone:'neutral',source:'provider'};
+ }
+ let interpreter=null;
+ function setInterpreter(fn){if(fn!==null&&typeof fn!=='function')throw Error('Interpreter must be a function');interpreter=fn;}
+ function interpret(raw,pending=null){
+  const text=String(raw||'').trim().slice(0,2000),q=text.toLowerCase().replace(/[’]/g,"'"),tone=/\b(please|could|would|thank|may we|can we)\b/.test(q)?'polite':/\b(shut up|idiot|stupid|obey|i order|do as i say)\b/.test(q)?'hostile':'neutral';
+  const negationText=q.replace(/\bwhy don't we\b/g,'shall we');
+  const negated=/\b(don't|do not|not|never|cannot|can't|wouldn't|couldn't|shouldn't|no)\b/.test(negationText);
+  const ids=Object.entries(aliases).filter(([,re])=>re.test(q)).map(([id])=>id);
+  if(ids.includes('prepare-sleep')){const i=ids.indexOf('sleep');if(i>=0)ids.splice(i,1);}
+  if(/^(yes|okay|ok|go ahead|agreed|let's do (?:it|that))[.! ]*$/.test(q))return {intent:pending?'confirm':'clarify',actionId:pending?.actionId||null,tone,source:'local'};
+  if(pending&&/\b(because|so that|it would help|i need|we agreed)\b/.test(q))return {intent:'reason',actionId:pending.actionId,tone,source:'local'};
+  if(negated)return {intent:'avoid',actionId:ids.length===1?ids[0]:null,tone,source:'local'};
+  if(ids.length>1)return {intent:'clarify',actionId:null,tone,source:'local'};
+  const question=/\b(do you (?:like|enjoy|prefer)|how (?:do|are)|what (?:do|would)|tell me about)\b/.test(q);
+  const request=/\b(please|can (?:we|you)|could (?:we|you)|would you|let's|lets|shall we|i(?:'d| would) like|want (?:you|us) to|why don't we|i order|i demand|obey|do as i say)\b/.test(q)||/^(read|sleep|rest|watch|go |head |take off|remove|stop|wait|pause|prepare)/.test(q);
+  let result={intent:question?'question':ids.length&&request?'request':ids.length?'clarify':'conversation',actionId:ids[0]||null,tone,source:'local'};
+  if(interpreter){
+   try{const value=interpreter({text,actorId:'erin-form',pending:pending?{actionId:pending.actionId,outcome:pending.outcome}:null,permittedActions:[...permitted]});
+    if(value&&typeof value.then==='function'){value.catch?.(()=>{});return {intent:'clarify',actionId:null,tone,source:'provider-pending'};}
+    const proposed=validateProposal(value);if(proposed)result={...proposed,tone,source:'provider'};
+   }catch(error){result={intent:'clarify',actionId:null,tone,source:'provider-error'};}
+  }
+  return result;
+ }
+ function assess(parsed,now=clockMinute867()){
+  const state=dialogueState867(),policy=ERIN_AUTONOMY867.cooperation||{agreeAt:50,negotiateAt:15,reasonBonus:15};
+  if(parsed.intent==='clarify')return {outcome:'clarify',text:'Do you mean a suggestion, a question, or something you want us to do? Please name one activity.',actionId:null};
+  if(parsed.intent==='confirm')return {outcome:'clarify',text:state.pending?.outcome==='agree'?'We have an agreement. Use Authorize agreed action if you want to carry it out as time passes.':'Let us settle what we are agreeing to first.',actionId:parsed.actionId};
+  if(parsed.intent==='conversation'||parsed.intent==='question')return {outcome:'conversation',text:erinThought827(parsed.raw||'What are you thinking?'),actionId:null};
+  const id=parsed.actionId;
+  if(parsed.intent==='avoid')return {outcome:'negotiate',text:'I understand that you do not want that. Let us talk about what would work instead. Nothing has been carried out.',actionId:id,negated:true};
+  if(!id)return {outcome:'clarify',text:'Which activity do you mean?',actionId:null};
+  const a=ACTIONS867.find(x=>x.id===id);
+  if(id==='return-home'||a?.disabled)return {outcome:'alternative',text:id==='return-home'?'I would like to be home, but we need to use the existing discovered routes. I have not moved us.':'That routine cannot be carried out automatically yet. We could choose an available activity, or use its existing manual controls.',actionId:id};
+  const actor=autonomy867().state(ERIN_AUTONOMY867,now);
+  if(s.travel88?.pending||s.sleep867?.active)return {outcome:'delay',text:'Let us finish our current commitment first. I have not started another activity.',actionId:id};
+  const slot=autonomy867().schedule(ERIN_AUTONOMY867,now);
+  if(a&&id!=='pause'&&!slot?.activities.includes(id))return {outcome:'delay',text:'That does not fit the current routine. Could we choose another time? No workplace attendance is being simulated.',actionId:id};
+  if(actor.sleeping&&id!=='pause')return {outcome:'delay',text:'I need to finish resting before considering another routine.',actionId:id};
+  let score=cooperation867(parsed.tone,now,id,!!parsed.confirming);
+  if(parsed.intent==='reason')score+=policy.reasonBonus;
+  if(id==='sleep'&&!((erin817().clock>=22)||(erin817().clock<6)))return {outcome:'alternative',text:'It is not bedtime yet. A short rest might suit us better; I have not put us to bed.',actionId:id};
+  if(actor.needs.fatigue>=75&&['read','quiet-tv'].includes(id))return {outcome:'negotiate',text:'I am tired. Could we rest first, and return to that afterward?',actionId:id};
+  if(id!=='pause'&&a){const c=autonomyAdapter867.context(ERIN_AUTONOMY867,actor,now),withoutAuthority={...c,active:true,control:true};const reason=autonomy867().reason(a,ERIN_AUTONOMY867,{...actor,consent:{actionId:id,expires:now+1}},withoutAuthority,now);if(reason)return {outcome:'alternative',text:'We cannot do that here and now: '+reason+'. Nothing has been carried out.',actionId:id};}
+  const outcome=personalityResponse867({profile:ERIN_AUTONOMY867,score}).outcome;
+  const text=outcome==='agree'?'Yes, that sounds reasonable. We can arrange that, if you want to authorize it.':outcome==='negotiate'?'Perhaps. Could you explain why that matters, or suggest a compromise?':outcome==='ignore'?'She leaves the demand unanswered and keeps her own intentions. No requested action occurs.':'I would rather not do that just now. Could we consider something else?';
+  return {outcome,text:personalityResponse867({profile:ERIN_AUTONOMY867,score,fallback:text}).text,actionId:id,score};
+ }
+ return {interpret,assess,validateProposal,setInterpreter,chooseResponse:personalityResponse867};
+})();
+ERIN_AUTONOMY867.controlPolicy={minorAt:25,sharedAt:50,strongAt:75,minorCooperation:15,pauseMinutes:30,delegationMinutes:30};
+ERIN_AUTONOMY867.cooperation={trustWeight:1,stressWeight:-1,politeBonus:15,hostilePenalty:25,repeatPenalty:10,reasonBonus:15,agreeAt:50,negotiateAt:15};
+autonomyAdapter867.authority=function(action,p,actor,c,now){
+ if(actor.consent?.actionId===action.id&&actor.consent.expires>=now)return '';
+ if(c.mastered)return 'Mastered form retains player control; explicit delegation is required';
+ const policy=controlPolicy867();
+ const declined=s.dialogue867?.actors?.['erin-form']?.lastOutcome;if(declined?.actionId===action.id&&['refuse','ignore'].includes(declined.outcome)&&now-declined.at<10)return 'Recently declined request; another activity may be chosen';
+ if(action.minor&&c.influence>=policy.minorAt&&c.cooperation>=policy.minorCooperation)return '';
+ if(c.influence>=policy.strongAt)return '';
+ return c.influence>=policy.sharedAt?'Shared control: a significant action needs an agreed delegation':'Player has primary control over this action';
+};
+autonomyAdapter867.think=function(p,actor,c,now){
+ if(!c.present)return;
+ actor.intentions??=[];
+ const desired=c.location!==p.home?'return-home':c.hour>=22||c.hour<6?'sleep':actor.needs.fatigue>=60?'rest':'read';
+ if(actor.intention?.actionId===desired&&now-actor.intention.at<120)return;
+ const intention={actionId:desired,at:now,band:influenceBand867(c.influence).id,reason:desired==='sleep'?'nighttime routine':desired==='rest'?'fatigue':desired==='return-home'?'home preference':'quiet leisure preference'};
+ actor.intention=intention;actor.intentions.push(intention);actor.intentions=actor.intentions.slice(-20);
+ // Intent is recorded at every band; this does not grant execution authority.
+ if(!actor.lastInitiatedAt||now-actor.lastInitiatedAt>=120){actor.lastInitiatedAt=now;say816('Erin · private intention',desired==='return-home'?'I would like to go home when we can.':desired==='sleep'?'I would like to get ready for sleep.':desired==='rest'?'I could use a little rest.':'I would enjoy a little reading when there is time.',newTurn813());}
+};
+ACTIONS867.push({id:'reading-lamp',minor:true,duration:1,priority:10,capabilities:['hands'],locations:(c,p)=>[p.home],rooms:['living'],windows:[[360,1320]],check:c=>livingState840().lamp?'Reading lamp is already on':'',cooldown:60});
+DAY867.push('reading-lamp');autonomyEngine867=null;
+const physicalPlanBeforeDialogue867=autonomyAdapter867.plan;
+autonomyAdapter867.plan=function(action,p,a,c,now){if(action.id==='reading-lamp')return [{target:livingState840(),key:'lamp',value:true,label:'living.lamp'}];return physicalPlanBeforeDialogue867(action,p,a,c,now);};
+function authorizeDialogue867(){
+ const state=dialogueState867(),pending=state.pending,now=clockMinute867();
+ if(!pending||pending.outcome!=='agree'||pending.negated||now-pending.at>30){toast('There is no current agreed action to authorize.');return;}
+ if(!formPresent867()){toast('This form is not presently sharing your body.');return;}
+ const assessment=Dialogue867.assess({...pending.parsed,raw:pending.raw,confirming:true},now);
+ if(assessment.outcome!=='agree'){state.pending={...pending,...assessment,at:now};say816('Erin · private',assessment.text,newTurn813());save();render();return;}
+ const actor=autonomy867().state(ERIN_AUTONOMY867,now);
+ if(pending.actionId==='pause'){actor.pauseUntil=now+controlPolicy867().pauseMinutes;actor.pending=null;delete actor.consent;delete actor.nextAction;}
+ else{actor.consent={actionId:pending.actionId,expires:now+controlPolicy867().delegationMinutes};actor.nextAction=pending.actionId;}
+ state.pending=null;state.lastOutcome={outcome:'authorized',actionId:pending.actionId,at:now};
+ say816('Private agreement',pending.actionId==='pause'?'The agreed pause is recorded. Erin still has her own thoughts and preferences.':'The agreed activity is authorized. It has not happened yet; location, resources and control are rechecked as game time advances.',newTurn813());save();render();
+}
+const sendBeforeDialogue867=send816;
+send816=function(event){
+ const input=document.getElementById('universal814'),raw=input?.value.trim()||'';
+ if(!raw||s.console814.channel!=='form'||!formPresent867())return sendBeforeDialogue867(event);
+ event.preventDefault();
+ const state=dialogueState867(),now=clockMinute867(),parsed={...Dialogue867.interpret(raw,state.pending),raw};
+ const answer=Dialogue867.assess(parsed,now),turn=newTurn813();
+ say816('You → Erin · private thought',raw,turn);say816('Erin · private · '+answer.outcome,answer.text,turn);
+ state.recent.push({at:now,actionId:answer.actionId,outcome:answer.outcome,tone:parsed.tone});state.recent=state.recent.slice(-20);
+ if(['request','reason','avoid'].includes(parsed.intent))state.pending={...answer,parsed,raw,at:now};
+ state.lastOutcome={outcome:answer.outcome,actionId:answer.actionId,at:now};
+ input.value='';s.console814.draft='';
+ // Conversation consumes its existing short duration. Suppress body actions during this turn:
+ // a request must not itself trigger execution, including at maximum influence.
+ const actor=autonomy867().state(ERIN_AUTONOMY867,now);
+ if(parsed.intent==='avoid'&&actor.consent&&(!answer.actionId||actor.consent.actionId===answer.actionId)){delete actor.consent;delete actor.nextAction;if(actor.pending){actor.history.push({...actor.pending,actor:'erin-form',name:'Erin',at:now,outcome:'cancelled',reason:'Player withdrew delegated action',changes:[]});actor.history=actor.history.slice(-60);actor.pending=null;}}
+ actor.dialogueUntil=now+2;
+ try{advance818(2);}finally{delete actor.dialogueUntil;}
+ save();render();
+};
+const journalBeforeDialogue867=autonomyJournal867;
+autonomyJournal867=function(){
+ const html=journalBeforeDialogue867(),actor=autonomyState867().actors['erin-form'],state=dialogueState867(),band=influenceBand867(h63().influence);
+ const text='<p><b>'+esc(band.label)+'</b> · Influence '+h63().influence+' · Trust '+erin817().trust+' · Stress '+erin817().stress+'</p><p>Intention: '+esc(actor?.intention?.actionId||'No intention recorded yet')+' (an intention is not a completed action).</p>';
+ const request=state.pending?'<p>Request: '+esc(state.pending.actionId||'clarification')+' · '+esc(state.pending.outcome)+'</p>'+(state.pending.outcome==='agree'&&!state.pending.negated?'<button class="btn secondary" onclick="authorizeDialogue867()">Authorize agreed action</button>':''):'';
+ const resistance=h63().worn?'<button class="btn secondary" onclick="resistHeels63()">Attempt existing resistance</button>':'';
+ return html.replace('</summary>','</summary>'+text+request+resistance);
+};
+if(s.name){save();render();}
+
+function personalityResponse867({profile,score,fallback=''}){
+ const policy=profile.cooperation||{agreeAt:50,negotiateAt:15,ignoreBelow:-30};
+ const outcome=score>=policy.agreeAt?'agree':score>=policy.negotiateAt?'negotiate':score<(policy.ignoreBelow??-30)?'ignore':'refuse';
+ return {outcome,score,text:profile.dialogue?.responses?.[outcome]||fallback};
+}
+ERIN_AUTONOMY867.dialogue.responses={agree:'Yes, that sounds reasonable. We can arrange that, if you want to authorize it.',negotiate:'Perhaps. Could you explain why that matters, or suggest a compromise?',refuse:'I would rather not do that just now. Could we consider something else?',ignore:'She leaves the demand unanswered and keeps her own intentions. No requested action occurs.'};
+
+// Signature cursed footwear is one physical object, never an ordinary clothing copy.
+const CURSED_HEELS_NAME867='Erin’s Favorite Red Heels (Cursed)';
+Object.assign(item850('shoes-0'),{name:CURSED_HEELS_NAME867,kind:'cursed',tags:['cursed'],sourceOfTransformation:true});
+function occupiedFootwear867(except){const st=items850();return CATALOG850.find(d=>d.slot==='shoes'&&d.id!==except&&st.objects[d.id].location==='equipped');}
+const wearFootwearBefore867=wearHeels63;
+wearHeels63=function(){const other=occupiedFootwear867('shoes-0');if(other){toast('Unequip '+other.name+' before equipping another pair of shoes.');return;}return wearFootwearBefore867();};
+const footwearActionBefore867=itemAction850;
+itemAction850=function(action,id,choice){
+ const d=item850(id);
+ if(d?.slot==='shoes'&&action==='wear'){
+  const other=occupiedFootwear867(id);if(other){toast('Unequip '+other.name+' before equipping another pair of shoes.');return;}
+ }
+ if(id==='shoes-0'){
+  if(action==='wear')return wearHeels63();
+  if(action==='unequip')return removeHeels63();
+  if(['return','carry'].includes(action)&&h63().worn){toast('Unequip the cursed heels first.');return;}
+ }
+ return footwearActionBefore867(action,id,choice);
+};
+// No new physical copies or automatic migration of ambiguous equipped legacy pairs.
+const accessoryFootwearBefore867=accessory855;
+accessory855=function(action,id){if(id==='shoes-0'){if(action==='equip')return wearHeels63();if(action==='remove')return removeHeels63();if(action==='return')return itemAction850('return',id);return;}return accessoryFootwearBefore867(action,id);};
+function cursedFootwearControls867(){
+ const loc=redHeelsLocation865();
+ if(!h63().owned)return '<p class="muted">Not collected. The cursed heels are at Old Transit Courtyard.</p>';
+ const controls=h63().worn?'<button class="btn secondary" onclick="removeHeels63()">Unequip</button><button class="btn secondary" onclick="resistHeels63()">Resist influence</button>':loc==='inventory'?'<button class="btn secondary" onclick="wearHeels63()">Equip</button><button class="btn secondary" onclick="itemAction850(\'return\',\'shoes-0\')">Put away</button>':'<button class="btn secondary" onclick="itemAction850(\'carry\',\'shoes-0\')">Take into inventory</button>';
+ return '<div class="listitem cursed-footwear867" style="display:block"><b>'+esc(CURSED_HEELS_NAME867)+'</b> <span class="tag danger">Cursed item</span><p>'+esc(redHeelsStatus865())+' · Transformation source · Influence '+h63().influence+'/100</p><div class="actions">'+controls+'</div></div>';
+}
+const cursedDetailBefore867=detail850;
+detail850=function(){if(items850().selection==='shoes-0')return cursedFootwearControls867()+'<button class="btn secondary" onclick="openLayer850(\'root\')">Back to contents</button>';return cursedDetailBefore867();};
+const cursedEquipmentBefore867=equipment67;
+equipment67=function(){
+ const t=document.createElement('template');t.innerHTML=cursedEquipmentBefore867();
+ for(const heading of t.content.querySelectorAll('h3'))if(heading.textContent==='Footwear · Erin’s red heels')heading.closest('section')?.remove();
+ for(const field of t.content.querySelectorAll('details.card')){
+  const summary=field.querySelector('summary');if(summary?.querySelector('b')?.textContent!=='Feet')continue;
+  for(const row of field.querySelectorAll('.listitem'))if(Array.from(row.querySelectorAll('button')).some(b=>(b.getAttribute('onclick')||'').includes("'shoes-0'")))row.remove();
+  const st=items850(),worn=CATALOG850.filter(d=>region851(d)==='feet'&&st.objects[d.id].location==='equipped');
+  summary.innerHTML='<b>Feet</b> · '+(worn.length?worn.map(d=>esc(d.name)).join(', '):'Nothing equipped');
+  if(h63().worn)for(const p of field.querySelectorAll('p'))if(p.textContent==='No removable clothing in this region.'||p.textContent==='No clothing in this region.')p.remove();
+  field.insertAdjacentHTML('beforeend',cursedFootwearControls867());
+ }
+ return t.innerHTML;
+};
+if(s.name){save();render();}
+
+
+// Repair only impossible pre-existing overlaps; never remove/replace the cursed pair.
+function reconcileFootwear867(store){
+ const equipped=CATALOG850.filter(d=>d.slot==='shoes'&&store.objects[d.id].location==='equipped');
+ if(equipped.length<=1)return store;
+ const moves=equipped.filter(d=>d.id!=='shoes-0').map(d=>({id:d.id,name:d.name,from:'equipped',to:'inventory'}));
+ if(!moves.length)return store;
+ for(const move of moves)store.objects[move.id].location='inventory';
+ const history=s.footwear867??={reconciliations:[]};
+ history.reconciliations.push({at:clockMinute867(),cursedWorn:!!h63().worn,moves});history.reconciliations=history.reconciliations.slice(-20);
+ say816('Equipment · footwear correction','Conflicting saved footwear positions were corrected. '+moves.map(m=>m.name).join(', ')+' returned to inventory. '+(h63().worn?'Erin’s cursed heels remain worn; no curse-removal rule was bypassed.':'No footwear was chosen for you; select one pair to equip.'),newTurn813());
+ save();return store;
+}
+const footwearItemsBefore867=items850;
+items850=function(){return reconcileFootwear867(footwearItemsBefore867());};
+items850();
+if(s.name){save();render();}
+
 </script></body></html>
