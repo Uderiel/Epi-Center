@@ -5992,6 +5992,36 @@ if(s.name){save();render();}
 
 
 // A movement accommodation protects that choice, not all physical autonomy.
+// Development Patch 01: treat explicit reading refusals as dialogue, not a reading suggestion.
+// This is deliberately independent of physical authority: Erin may retain her own plans.
+const interpretBeforeRefusal868=Dialogue867.interpret;
+Dialogue867.interpret=function(raw,pending=null){
+ const q=String(raw||'').toLowerCase().replace(/[’]/g,"'");
+ if(/\b(?:i|we)\s+(?:do\s+not|don't|dont|would\s+not|wouldn't|wouldnt|am\s+not|ain't)\s+(?:want\s+to\s+|feel\s+like\s+|interested\s+in\s+)?(?:read|reading|a\s+book|the\s+book|that\s+book|the\s+novel|that\s+novel)\b/.test(q)||
+    /\b(?:i|we)\s+(?:do\s+not|don't|dont)\s+want\s+to\s+(?:read|keep\s+reading)\b/.test(q)){
+  return {intent:'avoid',actionId:'read',tone:'neutral',source:'local-refusal868',mode868:'withdrawal',raw:String(raw||'')};
+ }
+ return interpretBeforeRefusal868(raw,pending);
+};
+const assessBeforeRefusal868=Dialogue867.assess;
+Dialogue867.assess=function(parsed,now=clockMinute867()){
+ if(parsed.source==='local-refusal868'&&parsed.actionId==='read'){
+  const actor=autonomy867().state(ERIN_AUTONOMY867,now),c=autonomyAdapter867.context(ERIN_AUTONOMY867,actor,now);
+  const response=phrase868(actor,'player-declines-read',c.stress>=60?[
+   "I hear you. You do not want to read. I am a little tense, so perhaps we can discuss something else.",
+   "All right, no reading for you. I still need a little room to decide what I do next."
+  ]:c.trust>=40?[
+   "All right, you do not want to read. We can talk about something else, even if I still enjoy my books.",
+   "I understand. Reading is not what you want right now. I may read later, but I will not pretend we agreed."
+  ]:[
+   "I hear that you do not want to read. I still enjoy it, but I will not mistake your refusal for agreement.",
+   "You would rather not read. Understood. We can discuss what happens next without assuming we agree."
+  ]);
+  return {outcome:'negotiate',text:response,actionId:'read',negated:true};
+ }
+ return assessBeforeRefusal868(parsed,now);
+};
+
 const authorityBeforeMovementAgreement868=autonomyAdapter867.authority;
 autonomyAdapter867.authority=function(action,p,actor,c,now){
  const agreement=actor.movementAgreement868,delegated=actor.consent?.actionId===action.id&&actor.consent.expires>=now;
