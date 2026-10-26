@@ -1,5 +1,13 @@
 # EPI-CENTER — Project Handoff
 
+### 2026-10-26 acceptance and next-section checkpoint
+
+Owner confirms **v0.8.74 spatial compass correction PASS** on Android. The prior v0.8.73 map acceptance was 4 PASS / 1 FAIL; the targeted compass failure is now accepted as fixed in `epi-center-v0.8.74-spatial-compass-fix.html` (source commit `0235ee49d23bb1685d03ed1c1f6b0a522c5dab90`). The four previously passing route tests remain historically recorded; no separate new automated suite is claimed. Mark surface-map section owner accepted, with broader regression still available as needed.
+
+**Next active section:** Central Hub NPC inventory and interactions, then northward location expansion. Preserve Eve and existing Central Hub systems; use canonical named NPCs where supported by source/lore, and distinguish ambient scenes from interactable NPCs. Known ambient cues: a dominatrix with a leashed companion passing the northern hub and dishes breaking at the neko café to the west. Exact additional named NPC roster remains unconfirmed; do not invent canonical names or biographies. Audit source before a gameplay patch. Keep `epicenter_foundation_v060` save compatibility and immutable accepted builds.
+
+**Conversation continuity:** user requests advance warning at least ten replies before conversation capacity is reached, if measurable. Chat remaining-message capacity is not exposed to the assistant; do not claim a precise countdown. Maintain GitHub handoff/checklist continuously and proactively suggest starting a fresh chat when the conversation becomes unwieldy.
+
 ## Active handoff — 2026-10-26 (read before historical v0.8.67 handoff below)
 
 Repository: https://github.com/Uderiel/Epi-Center ; latest observed `main` commit `37eedb0be62b4687a8c016d3e0c60a05f3c53a43`. Latest versioned playable candidate: https://uderiel.github.io/Epi-Center/epi-center-v0.8.73-cardinal-routing.html . Root entry: https://uderiel.github.io/Epi-Center/ (root/versioned byte equivalence and live deployment still require independent verification). The older v0.8.67 handoff below is retained verbatim as historical baseline, not the current version declaration.
