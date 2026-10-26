@@ -1,5 +1,9 @@
 # EPI-CENTER — Project Handoff
 
+### 2026-10-26 v0.8.77 Eve arrival DEV toggle — candidate, not yet tested
+
+Immutable `epi-center-v0.8.77-eve-dev-arrival-toggle.html` commit `993cd96`, based on v0.8.76. Adds expandable **DEV · Eve new-arrival test** panel to active player UI, with Activate/Deactivate and Replay welcome buttons. Activation saves prior `s.eve875.introduced` to `s.eveDev877.originalIntroduced`, marks a temporary new-arrival test state, and clears only Eve's introduced flag; deactivation restores the previous flag. Replay requires Central Hub and active toggle. Character, quests, inventory, discoveries and save key remain untouched by this patch. **Owner/device and automated browser tests not yet performed.** Test activation, hub replay, reload, deactivation restoration and no regression. Accepted baseline still v0.8.74. URL: `https://uderiel.github.io/Epi-Center/epi-center-v0.8.77-eve-dev-arrival-toggle.html`.
+
 ### v0.8.76 candidate handoff — 2026-10-26
 
 Candidate file `epi-center-v0.8.76-eve-introduction.html` at `https://uderiel.github.io/Epi-Center/epi-center-v0.8.76-eve-introduction.html`, commit `b45f8d9`. It appends a narrowly scoped Eve module to v0.8.74, wrapping `submitPlay69`, `guide812`, and `render`, persisting `s.eve875.introduced` in the unchanged foundation save. Prior candidate v0.8.75 commit `b4ec764` is superseded due to a Guide insertion fix. **No automated/browser/device verification performed; owner acceptance pending.** Test new character greeting, Guide, NPC conversation, remote Eve help, Countess glitch, reload and existing systems. Potential issue: introduction is triggered only when `s.name && s.profileComplete && s.location==='hub'`; audit onboarding flow if new-player timing differs. Continue from this source only if tests pass; otherwise fix proactively in a new immutable version. Preserve v0.8.74 accepted baseline.
