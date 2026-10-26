@@ -1,5 +1,17 @@
 # EPI-CENTER — Test Checklist
 
+### v0.8.76 Eve candidate — owner acceptance PENDING (2026-10-26)
+
+Candidate `epi-center-v0.8.76-eve-introduction.html`, commit `b45f8d9`. **None of these tests are marked PASS.**
+
+- [ ] Create a disposable new profile, complete setup, enter Play in Central Hub; Eve's blue-hologram welcome appears automatically and explains the text input.
+- [ ] Reload; welcome is not duplicated. Existing profile, inventory and save remain intact.
+- [ ] In NPCs at hub, ask why a volunteer would have amnesia; verify cheerful evasion/red flicker text. Ask about Countess; verify stronger red glitch, no VR disclosure.
+- [ ] From a non-hub location, type “Eve, help” into the action field; receive A.S.S. response without a remote hologram. Check Guide tab layout.
+- [ ] Insult Eve; confirm polite nonretaliation, then verify normal world input, travel, equipment and mobile layout still work.
+
+**Regression gate:** Existing accepted v0.8.74 compass and saves must remain unchanged; no new quests, eastern map nodes or full AI dialogue are claimed.
+
 ### 2026-10-26 Eve six-question owner decisions — design approval only
 
 World Bible commit `e843d22`; Hub implementation plan commit `4743a28`. Owner confirms cheerful corporate/gullible Eve; brief automatic new-player introduction including text-input tutorial and permission to explore; flexible evasions and red glitch/stutter on consent contradiction or Countess, with increased cylinder-dependent but programming-restricted recognition; unique player-ID tracking and **current form/name identity only**, even if another form controls speech; remote help anywhere but **visible hologram confined to Spire outer ring**; no personal offense, damage, retaliation or traceable projection sources. She does not reveal VR/external reality or proactively warn about threats. **No gameplay code or tests changed; v0.8.74 remains accepted.** Next development gate: inspect actual onboarding/Guide/actor and save code before building focused versioned Eve patch. Add regression cases for transformed identity, remote help vs hologram, hostility and one-time spawn greeting.
