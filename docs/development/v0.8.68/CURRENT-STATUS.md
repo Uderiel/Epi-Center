@@ -11,3 +11,7 @@ Weekday scope: small focused patches and documentation on development only. Week
 Setup verification: 26/26 disposable Chrome infrastructure checks passed. The isolated owner-private Sites preview deployed successfully; see [preview operation](PREVIEW.md) for the literal URL, access requirements and verification boundary. The GitHub development branch is the weekday source of truth; deployment is explicit, not automatic. All four reported gameplay/manual issues remain open.
 
 Immediately before development commit, remote main was still `6c79b01acc65b41374fa0608bd3e923e01f14def`, and the live production download matched the local v0.8.67/index SHA-256 `EFAD3BFB70ACFE629C4E53AF71129C8867D4B8D4807717D61ECDE6D910BE7B0B`. No Pages configuration API writes were performed. Three preexisting untracked v0.8.62 Phase 1 notes were left untouched and excluded from this setup commit.
+
+### Weekday patch 01 (source-only)
+
+Development branch contains a reading-refusal dialogue change at `a27cc77440bc109a92f5d0d167c5e30d1c6372c6`. Exact scenario `i dont want to read` and browser regressions remain **unverified**. The owner-private preview is not automatically redeployed by GitHub commits; do not describe it as the new code. Production remains v0.8.67.
