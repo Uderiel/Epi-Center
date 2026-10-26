@@ -2,6 +2,24 @@
 
 Updated: 2026-10-26. This is a continuity reference, not a declaration that features are implemented. Mark every entry as confirmed canon, draft, or pending detail. Never silently convert a proposal into a player-tested mechanic.
 
+## Central Hub quests — Discord originals and browser adaptation (owner confirmed, 2026-10-26)
+
+### FETCH — Safe; currently UNAVAILABLE
+
+Original Discord description: “The Dominatrix has forgotten something in a latex dungeon... would you mind getting it? NOW!” Tags: BDSM, submissive, dominant. Listed reward: **500 gold, a new form, buffs/debuffs**. This is Elizabeth's missing-toy lead and the eastern alley/dungeon premise documented below. **Unavailable** is an explicit current quest status; do not present it as a playable completed quest. The Safe tag comes from the original Discord quest listing and must not be mistaken for proof that all future dungeon mechanics lack consequences. Full encounter flow and reward details remain pending.
+
+### If the Panties Fit — Safe; implementation DRAFT
+
+Original Discord description: “If they aren't yours... don't touch em.. or they might just making you the one who they belong to.” Tags: **Race change, Twinning**. Listed reward: **new temporary form**.
+
+- **Discovery:** Searching the surroundings in Central Hub through the free-text interface reveals a pair of **bikini-cut panties**, then exposes an interactable world object. Eve may suggest that new players search their surroundings as a friendly tutorial prompt. Support equivalent natural-language searches, not only one exact string.
+- **Item agency:** Player can inspect, pick up, store in inventory, and voluntarily equip the garment. It has a small amount of intimate bodily residue in the gusset as an original prop detail; avoid making that detail mandatory to discover or equip it. Do not auto-equip on discovery.
+- **Transformation:** On equipping, trigger the existing first-wear form/takeover framework (red heels are an architectural precedent, not a mandate to copy their exact outcomes). This is an **easy-to-master** introductory temporary form with simple requirements. A new attractive female appearance and race are selected with variety and deliberate contrast to the player's original identity; exact race pool, contrast algorithm, resistance checks and recovery rules are **not yet designed**. Preserve original appearance archive and current-form state separately.
+- **Residence tutorial:** The new form offers tasks in the player's private residence as a tutorial extension. Specific tasks, rewards and completion logic remain owner-pending. Respect existing residence access rules.
+- **Design intent:** An early demonstration of item-induced transformation and player agency, originally run through spontaneous Discord RP. Browser implementation should use discoverable world-object state, natural-language intent recognition, equipment/form state, and dynamic branching rather than a rigid fixed sequence. Future human/AI NPC facilitation can enrich this without pretending current scripted behavior is fully generative.
+
+**Status distinction:** Both quest names, original Discord descriptions, tags and reward categories are confirmed canon. FETCH is **unavailable**; If the Panties Fit is **rough-draft design, not implemented or accepted**. Do not silently mark either playable. Keep the hub quest count at two.
+
 ## Elizabeth, Pet, and eastern dungeon discovery — owner rough draft (2026-10-26)
 
 **Status:** Owner-confirmed character appearance and rough geography/quest premise; dungeon flow and outcomes are **not yet specified or implemented**. Do not invent exact mechanics, permanent consequences, or rigid quest steps.
@@ -43,7 +61,7 @@ Updated: 2026-10-26. This is a continuity reference, not a declaration that feat
 - **Ethics and motivation:** **Neither ally nor enemy**. Eve does not understand moral good/bad; she categorizes what *is* and values order. The Countess's disruption of that order is unwelcome to Eve, and Eve would be more content without it, but this does not turn Eve into a moral ally.
 - **Implementation status:** **Character and dialogue design confirmed; new behavior not yet implemented or player-tested.** Preserve existing Guide, introductory spawn and other hub systems. Draft/test new Eve behaviors in a separate versioned patch.
 
-**Central Hub quests:** exactly two are known to exist; names and objectives remain owner-pending. **Elizabeth** and her collared, leashed, gimp-suited companion remain roaming hub canon; their deeper interactions are not yet specified.
+**Central Hub quests:** two are canonically named **FETCH** (unavailable) and **If the Panties Fit** (draft); see detailed quest entries above. **Elizabeth** and her collared, leashed, gimp-suited companion remain roaming hub canon; their deeper interactions are not yet specified.
 
 ## Central Hub and outer ring
 
