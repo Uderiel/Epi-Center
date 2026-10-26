@@ -1,5 +1,45 @@
 # EPI-CENTER — Test Checklist
 
+## Active progression checklist — 2026-10-26 (later than the historical v0.8.67 checklist below)
+
+Latest candidate: `epi-center-v0.8.73-cardinal-routing.html` (`main` commit `37eedb0`). A committed candidate is not an accepted test pass. Maximum five owner acceptance tests per patch.
+
+### Accepted checkpoints
+- [x] v0.8.67 13 automated suites, 616 overlapping assertions, **for v0.8.67 only**; owner/device tests remain pending.
+- [x] v0.8.68 owner accepted heels visibility, Equipment refresh and reload persistence; DEV appearance test excluded.
+- [x] v0.8.69 owner accepted 5/5 Feet collapsed summary, expand/collapse, equip/remove, and unsent draft preservation.
+
+### Section 1 — Surface routing / v0.8.73 (ACTIVE; not yet accepted)
+- [ ] From Central Hub, Survey north reveals Cherished Touch as the first northern destination.
+- [ ] Map clearly distinguishes north, south, east, west relative to central Spire.
+- [ ] Travel to Cherished Touch succeeds without skipping undiscovered intermediate nodes; test return route.
+- [ ] Residential Walkway branches northeast toward Applewood Apartments while retaining apartment/residence restrictions.
+- [ ] Access Tunnel A South is Underworld, not mislabeled as a surface destination; no unintended surface shortcut.
+
+### Section 2 — DEV transformation and identity (PENDING)
+- [ ] DEV physical transformation 23/23 populates current body appearance fields, persists through reload, and does not overwrite original identity archive. DEV synchronization code is not accepted merely because present.
+
+### Section 3 — Erin dialogue and travel/feed regression (PENDING)
+- [ ] Explicit reading refusal receives appropriate acknowledgment, not unintended action.
+- [ ] Reading questions and job discussion route correctly without implicit authorization.
+- [ ] Arrival narration ordering and stale pending journeys are correct.
+- [ ] Duplicate live-feed messages do not occur on normal actions/reloads.
+
+### Section 4 — Cherished Touch/Charity quest (DESIGN / IMPLEMENTATION REVIEW PENDING)
+- [ ] Inspect storefront and canonical quest registry; verify actual source behaviors before marking implemented.
+- [ ] Relationship and 100% trust gating; six in-game hours of temporary mask work; weekday/weekend differences.
+- [ ] Mask must be returned/unequipped, cannot permanently entrap; dynamic non-linear quest outcomes.
+- [ ] First restored Hub Cylinder triggers physical Countess appearance; subsequent cylinders escalate danger; trusted curtain invitations require at least one, preferably two.
+
+### Section 5 — Deferred manual/compatibility verification
+- [ ] Physical Android Chrome layout, keyboard, touch, scrolling, 19 appearance regions, Equipment and Journal.
+- [ ] v0.8.67 influence-band/delegation/withdrawal, bed sleep, cursed footwear and older-save owner acceptance.
+- [ ] Historical undiscovered-route and residence owner-skipped cases, broader real-save backups.
+- [ ] Independently verify main commit, GitHub Pages deployment, root/versioned bytes, and documentation availability.
+
+### Custody and defect protocol
+Keep versioned source files and earlier evidence immutable; do not reset `epicenter_foundation_v060`. For each failed test record: build filename, commit SHA, device/browser, save fixture (without private player data), steps, expected vs actual, fix commit, automated regression, owner retest, and deployment status. Close only after owner-confirmed acceptance where required. Update all four primary docs every two accepted patches; record interim checkpoints as necessary. Do not count source presence, emulation, or a commit as a live/physical-device pass.
+
 Date: 2026-10-25. Release: **v0.8.67**. Source: [versioned build](../epi-center-v0.8.67-reusable-autonomy-foundation.html); default entry: [index.html](../index.html). Both are byte-identical, SHA-256 `EFAD3BFB70ACFE629C4E53AF71129C8867D4B8D4807717D61ECDE6D910BE7B0B`.
 
 Publication is authorized conditional on the required automated checks. This release record covers local verification and promotion; verify the GitHub commit and live Pages deployment independently after push. No force push, historical deletion, or real browser-save reset is authorized.
