@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Epi-Center development v0.8.68 — isolated preview</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#080f1b;color:#e6f3f6;font:15px system-ui,sans-serif}header{padding:12px;border-bottom:1px solid #426277}h1{font-size:18px;margin:0 0 8px}p{margin:8px 0;max-width:900px}button,input{font:inherit}button{padding:9px;margin:4px 4px 4px 0;background:#123747;color:#e6f3f6;border:1px solid #70e6ed;border-radius:6px}input{max-width:100%}label{display:block;margin-top:8px}#status{color:#f5c875;overflow-wrap:anywhere}iframe{display:block;width:100%;height:85dvh;min-height:480px;border:0}details{margin-top:8px}code{overflow-wrap:anywhere}button:focus-visible,input:focus-visible{outline:3px solid #f5c875}
+</style>
+</head>
+<body>
+<header>
+<h1>DEVELOPMENT v0.8.68 — not the production release</h1>
+<p>This preview has a separate development save namespace. It never reads or copies your production save. Manual acceptance is pending.</p>
+<button id="start" type="button">Start / resume development game</button>
+<button id="export" type="button">Export development save</button>
+<details><summary>Explicit file import (empty development slot only)</summary>
+<p>Import accepts only an Epi-Center preview export, not a raw production save. Review its details, then confirm. Existing development data is never replaced. Export before switching devices; nothing synchronizes automatically.</p>
+<label>Choose preview export JSON <input id="file" type="file" accept=".json,application/json"></label>
+<p id="preview"></p><button id="import" type="button" disabled>Confirm import into empty development slot</button>
+</details>
+<p id="status" role="status" aria-live="polite">Game has not started. Import, or start a separate development character.</p>
+</header>
+<main id="game"></main>
+<script>
+'use strict';
+const KEY='epicenter_development_v0868_epicenter_foundation_v060';
+const PREFIX='epicenter_development_v0868_';
+const $=id=>document.getElementById(id);
+let pending=null,active=false;
+const status=text=>{$('status').textContent=text};
+function occupied(){for(let i=0;i<localStorage.length;i++){if(localStorage.key(i).startsWith(PREFIX))return true}return false}
+function validateSnapshot(value){
+ if(!value||typeof value!=='object'||Array.isArray(value)||typeof value.name!=='string'||typeof value.location!=='string')throw Error('Not a compatible Epi-Center snapshot.');
+ let count=0;
+ function visit(v,depth){if(++count>250000||depth>100)throw Error('Snapshot is too complex.');if(typeof v==='number'&&!Number.isFinite(v))throw Error('Invalid number.');if(v&&typeof v==='object'){for(const key of Object.keys(v)){if(['__proto__','prototype','constructor'].includes(key))throw Error('Unsafe property.');visit(v[key],depth+1)}}}
+ visit(value,0);return value;
+}
+function readEnvelope(text){
+ if(text.length>5*1024*1024)throw Error('File exceeds 5 MiB.');
+ const data=JSON.parse(text);
+ if(data.format!=='epi-center-development-save'||data.formatVersion!==1||data.build!=='v0.8.68'||data.namespace!==PREFIX)throw Error('Unsupported export format/build. No data was changed.');
+ validateSnapshot(data.snapshot);return data;
+}
+$('start').onclick=()=>{try{localStorage.getItem(KEY);if(active)return;const frame=document.createElement('iframe');frame.title='Epi-Center isolated development game';frame.src='game.html';$('game').append(frame);active=true;$('start').disabled=true;$('import').disabled=true;pending=null;status('Development game running. Save namespace is isolated; export remains available.')}catch(e){status('Browser storage unavailable: '+e.message)}};
+$('export').onclick=()=>{try{const raw=localStorage.getItem(KEY);if(!raw)throw Error('No development save exists yet.');const snapshot=validateSnapshot(JSON.parse(raw));const envelope={format:'epi-center-development-save',formatVersion:1,build:'v0.8.68',namespace:PREFIX,exportedAt:new Date().toISOString(),snapshot};const blob=new Blob([JSON.stringify(envelope,null,2)],{type:'application/json'});const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download='epi-center-development-v0868-save.json';link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);status('Development snapshot exported. No save was changed.')}catch(e){status(e.message)}};
+$('file').onchange=async()=>{pending=null;$('import').disabled=true;$('preview').textContent='';try{if(active)throw Error('Import is disabled while the game is running.');if(occupied())throw Error('Development slot is occupied. Existing data will not be overwritten.');const file=$('file').files[0];if(!file)return;if(file.size>5*1024*1024)throw Error('File exceeds 5 MiB.');pending=readEnvelope(await file.text());$('preview').textContent='Character: '+pending.snapshot.name+'; location: '+pending.snapshot.location+'; build: '+pending.build+'; exported: '+String(pending.exportedAt||'unknown')+'. This is a file copy, not synchronization.';$('import').disabled=false;status('Preview ready. No save has been written.')}catch(e){pending=null;status(e.message)}};
+$('import').onclick=()=>{try{if(active||!pending)throw Error('No pending import.');if(occupied())throw Error('Development slot changed or is occupied. Import cancelled.');const snapshot=validateSnapshot(pending.snapshot);localStorage.setItem(KEY,JSON.stringify(snapshot));pending=null;$('import').disabled=true;status('Imported explicitly into the empty development slot. Start the game to load it. Source data was not changed.')}catch(e){status(e.message)}};
+</script>
+</body></html>

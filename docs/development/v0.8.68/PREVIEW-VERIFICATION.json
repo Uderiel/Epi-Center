@@ -1,0 +1,110 @@
+{
+  "results": [
+    {
+      "name": "Generated gameplay differs only in six save-key literals",
+      "pass": true
+    },
+    {
+      "name": "Canonical candidate SHA is unchanged",
+      "pass": true
+    },
+    {
+      "name": "canonical inline JavaScript compiles",
+      "pass": true
+    },
+    {
+      "name": "preview game inline JavaScript compiles",
+      "pass": true
+    },
+    {
+      "name": "launcher inline JavaScript compiles",
+      "pass": true
+    },
+    {
+      "name": "Launcher HTTP loads with no automatic game startup",
+      "pass": true
+    },
+    {
+      "name": "390px launcher fits viewport",
+      "pass": true
+    },
+    {
+      "name": "Unsupported import rejected without writes",
+      "pass": true
+    },
+    {
+      "name": "Unknown build rejected",
+      "pass": true
+    },
+    {
+      "name": "Unsafe properties rejected",
+      "pass": true
+    },
+    {
+      "name": "Valid import previews without writing",
+      "pass": true
+    },
+    {
+      "name": "Slot race recheck refuses replacement",
+      "pass": true
+    },
+    {
+      "name": "Explicit confirmation imports exact snapshot",
+      "pass": true
+    },
+    {
+      "name": "Occupied slot import is refused",
+      "pass": true
+    },
+    {
+      "name": "Actual downloaded export preserves snapshot",
+      "pass": true
+    },
+    {
+      "name": "Game boots imported character",
+      "pass": true
+    },
+    {
+      "name": "Game saves through isolated foundation key",
+      "pass": true
+    },
+    {
+      "name": "Import disabled during active gameplay",
+      "pass": true
+    },
+    {
+      "name": "All six production/legacy sentinel saves survive startup",
+      "pass": true
+    },
+    {
+      "name": "Explicit development save writes persist",
+      "pass": true
+    },
+    {
+      "name": "Production sentinels survive development save",
+      "pass": true
+    },
+    {
+      "name": "Reload preserves save without automatically launching game",
+      "pass": true
+    },
+    {
+      "name": "360px launcher fits viewport",
+      "pass": true
+    },
+    {
+      "name": "Actual reload/resume retains character and progress",
+      "pass": true
+    },
+    {
+      "name": "360px game has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "No uncaught browser exceptions",
+      "pass": true
+    }
+  ],
+  "passed": 26,
+  "total": 26
+}

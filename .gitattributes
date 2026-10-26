@@ -1,0 +1,3 @@
+# Preserve the accepted local candidate and generated preview bytes exactly.
+/epi-center-v0.8.68-manual-acceptance-repairs.html -text
+/preview-site/dist/game.html -text
