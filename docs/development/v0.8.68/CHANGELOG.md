@@ -15,3 +15,5 @@ No further gameplay changes were made in this setup task.
 - Development-only regression repair planned for explicit player refusal to read (e.g. `i dont want to read`).
 - Preserve Erin's ability to disagree or keep independent intentions while acknowledging the player's preference; refusal alone does not automatically cancel her independent physical actions.
 - Pending verification: browser behavior, negation variants, consent withdrawal, and save/reload. No production promotion.
+
+Patch 01 source committed: `a27cc77440bc109a92f5d0d167c5e30d1c6372c6`. Adds an explicit reading-refusal recognition and response wrapper. Source inspection only: no browser regression or hosted preview deployment has been performed for this patch. Existing owner-private Sites deployment is still the prior snapshot.
