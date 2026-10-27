@@ -71,3 +71,7 @@
 6. Integrate travel, exploration, combat, NPC, forms and relationships incrementally; publish immutable candidate builds with owner Android tests and update handoff/changelog/checklist.
 
 **Latest visible UI result:** owner confirms v0.8.82 quick-reference items appeared at top; no acceptance of attribute implementation yet. Last formally accepted gameplay baseline v0.8.74.
+
+## Recommended creation-floor decision (awaiting owner approval)
+
+Recommendation: allow each of the ten attributes to begin at **0 while editing**, but require **at least 1** in each to finalize. Creation still requires **exactly 85 points** distributed, with **maximum 16** per attribute; at least 10 points are spent on minimums, leaving 75 freely distributable. A final score of 1 uses the owner's existing automatic-failure rule; score 0 remains an incomplete allocation, not a gameplay stat. Provide an optional warning for attributes below 6. **This is a recommendation, not yet owner-confirmed or implemented.**
