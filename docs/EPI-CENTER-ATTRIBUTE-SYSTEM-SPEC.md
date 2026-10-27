@@ -75,3 +75,9 @@
 ## Recommended creation-floor decision (awaiting owner approval)
 
 Recommendation: allow each of the ten attributes to begin at **0 while editing**, but require **at least 1** in each to finalize. Creation still requires **exactly 85 points** distributed, with **maximum 16** per attribute; at least 10 points are spent on minimums, leaving 75 freely distributable. A final score of 1 uses the owner's existing automatic-failure rule; score 0 remains an incomplete allocation, not a gameplay stat. Provide an optional warning for attributes below 6. **This is a recommendation, not yet owner-confirmed or implemented.**
+
+## Owner clarification: standard 1d20 resolution (2026-10-26)
+
+**OWNER CONFIRMED:** Allocated attribute scores determine modifiers to a **standard 1d20 roll**. The base check without external modifiers is `1d20 + applicable attribute modifier`. Equipment, weapons, abilities, and forms can later add separate modifiers, e.g. `1d20 + attribute modifier + equipment modifier + form modifier + ability modifier + situational modifier`, when relevant. Do not treat the attribute score itself as the rolled result or as a standalone pass/fail threshold.
+
+**OPEN, do not implement without clarification:** The original score endpoints `1 (fail)` and `20 (succeed)` might represent special attribute behavior or merely score landmarks; ask owner before assigning them numeric modifiers or automatic outcomes. The assistant suggested score 1 = −5 and natural d20 1/20 critical outcomes, but **these are suggestions, not owner-confirmed rules**. Do not overwrite the owner's listed endpoint semantics. The final minimum-one recommendation remains awaiting approval.
