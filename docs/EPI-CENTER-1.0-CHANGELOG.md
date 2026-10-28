@@ -94,3 +94,6 @@ Added rebuild/combat/engine.js on main and rebuild/1.0-foundations. No Play UI o
 
 ## Combat foundation — canonical records and Guide
 Added identity/relationship fields, isolated encounterSnapshot, outcomeRecord (explicitly unapplied to persistent state). Added docs/COMBAT-FOUNDATIONS-GUIDE.md as shared Guide/Eve dialogue reference. No Play UI changes.
+
+## v1.0.26 — Automatic combat alignment
+Character screen and Stats drawer now show a three-segment Physical/Mental/Arousal allocation bar and exact percentages. Derived from ten attributes with full primary and half supporting weights. Standalone combat engine exposes specialization(attributes). No combat modifiers or saves changed. JS syntax passed; Android verification pending.
