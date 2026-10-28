@@ -57,3 +57,6 @@ JavaScript syntax PASS; code-level check confirms exact creation keys and ten de
 
 ## v1.0.14
 Hub and character creation JavaScript syntax checks passed. Both branches updated. Browser Android and existing-save migration still require owner verification.
+
+## v1.0.15
+Hub JavaScript syntax PASS. Back handling, drawer dismissal and Settings logout code committed and mirrored. Android device behavioral verification pending.
