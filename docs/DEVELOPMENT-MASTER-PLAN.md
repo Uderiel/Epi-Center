@@ -1,3 +1,6 @@
+## OVERRIDING COURSE CORRECTION — 2026-10-28
+- The user rejected the extra v1.0.35 development-save path. Reverted title, character creation, Hub on both branches to accepted single-entry v1.0.34. Do NOT treat earlier v1.0.35 candidate or optional Phase 0 hardening as active prerequisites. **Proceed to Phase 1 canonical state/resources/needs**; only fix release issues when demonstrably blocking gameplay. Do not invent new entry paths or save namespaces. Log optional work as deferred, not a gate.
+
 ## Phase 0 v1.0.35 implementation checkpoint
 - Separate localStorage namespace selected via `dev=1` implemented in title/creation/Hub; mode survives creation, Back, title, and logout. Normal keys unchanged. Source committed both branches, user acceptance pending. This is **save data isolation only**, not independent code deployment or immutable versioning. Next: verify browser isolation, then immutable snapshots/release tests.
 
