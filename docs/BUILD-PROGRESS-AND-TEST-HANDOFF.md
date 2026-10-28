@@ -1,3 +1,6 @@
+## OVERRIDING HANDOFF — v1.0.35 development mode reverted
+- User explicitly rejected extra entry/save mode as scope creep. Reverted its title/creation/Hub source changes on main and rebuild, restoring accepted v1.0.34 single-path behavior and normal save keys. Earlier v1.0.35 candidate notes are historical only, NOT a test request. User's accepted baseline: v1.0.34 (5/5 PASS). Next: Phase 1 canonical resources/needs, no speculative Phase 0 gates. Redeployment not browser verified.
+
 ## v1.0.35 — Phase 0 development-save isolation (candidate)
 - Added `dev=1` mode and separate dev save namespace across title screen, character creation and Hub, with preserved mode through Back/title/logout and visible labels. Normal save keys unchanged; no save migration. Main commits title 14902e3, creation 0cff42c + follow-up 65439af, Hub 4b9b7e1. Rebuild mirrored. Browser acceptance pending; no automatic browser execution claimed.
 - Acceptance: normal saves unchanged; dev title has separate empty slots; dev character can be created and resumed; logout remains dev; normal title still has originals; cross-mode changes do not leak. Phase 0 next immutable release artifacts and automated checks.
