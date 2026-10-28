@@ -1,3 +1,8 @@
+## v1.0.33 — Dev relationship quick adjustments (2026-10-28)
+- Added separate −10 and +10 buttons in Dev → Relationship QA, beside existing absolute Set and Reset controls. Values clamp to −100..+100, persist per save, and Eve remains immutable at 0.
+- Universal title-screen destination updated to v1.0.33 for all three save slots (not just visible version label); main hub commit 2411818, main title route commit 2e6f7ed. README indexes on main and rebuild updated. Live acceptance pending.
+- Retest: select editable NPC/form, click +10 twice and −10 once (expected +10), check −100/+100 limits and persistence; select Eve, confirm both buttons cannot change 0; enter via title screen in any slot.
+
 ## v1.0.32 — USER ACCEPTED (2026-10-28)
 - User explicitly confirmed PASS for all five v1.0.32 refinements: (1) Form activity label capitalization; (2) Form relationship selector removed and equipped-form relationship automatic, Dev selector retained; (3) player-persistent Hunger/Bladder/Fatigue; (4) expandable Stats combat resource overlays and removal from Form; (5) save-slot character name and last-played date/time.
 - v1.0.31 baseline previously confirmed 9/9 PASS, including save-slot isolation. Both acceptance records are final; do not carry earlier failures forward.
