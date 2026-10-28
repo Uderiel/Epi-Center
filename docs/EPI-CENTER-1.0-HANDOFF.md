@@ -84,3 +84,6 @@ Bottom Builder tab replaced with Journal. Journal screen owns completed quest ar
 
 ## v1.0.25 combat design / Resolve
 Owner approved separate Resolve, staged encasement with escape chances, encounter-specific defeat consequences. Mastery is earned when player resists defeat/transformation and overcomes form; submission means form influence (e.g. Erin daily routines). Tiers TBD. Combat implementation deferred. Resolve replaces Mental Resilience and appears as fourth resource, migrating old save values. Preserve 23/23 transformation attribute rule.
+
+## Standalone combat engine foundation
+rebuild/combat/engine.js exposes EpiCombat API and seeded simulate('kibbles'|'erinsHeels'|'ordinaryNpc',seed). Four resource bars per combatant and 10 attributes; rarity budgets provisional. Not loaded into Play UI. Defeat and mastery are distinct: losing form encounter never permanently bars mastery, and post-defeat internal resistance/escape must be supported in later persistence design. No automatic 23/23 transformation. Do not interpret fixture numbers as lore. Current prototype is single encounter only; needs action costs, status lifecycle, resistance from inside, mastery ledger, item-specific agency and PvP safety before live gameplay.
