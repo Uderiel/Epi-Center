@@ -27,3 +27,6 @@ Owner reported full appearance spectrum not appearing in v1.0.5. Published expli
 
 ## v1.0.7 — UI transfer checkpoint
 Published `rebuild/hub/index.html` as an isolated v0.8.84 shell/layout baseline, retaining six navigation tabs and mobile bottom bar. Character confirmation and ready-slot continuation now navigate to `/rebuild/hub/?slot=N&v=1.0.7`. The new hub reads `epicenter_v1_slot_N`, not legacy `epicenter_proto_v0523`. No legacy gameplay systems, travel, inventory actions or combat were ported. Preserve approved v1.0.6 creation and three-slot functionality. **Owner review of UI baseline pending.**
+
+## v1.0.8 corrected final UI baseline
+Owner rejected v1.0.7 as earlier shell, not final v0.8.84 live feed. v1.0.8 reconstructs final v0.8.84 live feed, sticky action text entry, five quick-reference drawers, header and activity history in modular hub. Save slots remain device-local; no cross-device synchronization. New action submission records text only, without world resolution; do not claim legacy gameplay migrated. Owner acceptance pending.
