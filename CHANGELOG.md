@@ -1,3 +1,6 @@
+## v1.0.35 — Development save isolation (candidate; acceptance pending)
+- Added explicit `dev=1` mode across title screen, character creation and Hub; separate `epicenter_v1_dev_slot_*` storage namespace, prominent development labels and mode-preserving navigation/logout. Normal save keys untouched. Source committed on main and rebuild. No user acceptance yet.
+
 ## v1.0.34 — USER ACCEPTED (5/5 PASS, 2026-10-28)
 - Title-screen existing saves, Continue→Hub, fresh creation→Hub v1.0.34, reload persistence, and cross-slot isolation all confirmed PASS by user. Phase 0 remains open for release-hardening tasks.
 
