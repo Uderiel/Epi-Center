@@ -17,3 +17,7 @@ function render(){
  }
 }
 try{render();}catch(e){notify('Save storage unavailable: '+e.message);}
+
+// Mobile browsers may restore this page from the back-forward cache without re-running the module.
+window.addEventListener('pageshow',()=>{try{render();}catch(e){notify('Unable to refresh save slots: '+e.message);}});
+window.addEventListener('focus',()=>{try{render();}catch(e){notify('Unable to refresh save slots: '+e.message);}});
