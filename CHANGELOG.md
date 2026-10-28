@@ -1,3 +1,6 @@
+## v1.0.34 — USER ACCEPTED (5/5 PASS, 2026-10-28)
+- Title-screen existing saves, Continue→Hub, fresh creation→Hub v1.0.34, reload persistence, and cross-slot isolation all confirmed PASS by user. Phase 0 remains open for release-hardening tasks.
+
 ## v1.0.34 — Phase 0 candidate (user acceptance pending)
 - Repaired character creation's stale v1.0.28 header and post-confirmation Hub route; aligned title/Hub v1.0.34 references on both branches. No save schema or gameplay mechanics changed. GitHub issue #1 tracks remaining Phase 0 release integrity.
 
