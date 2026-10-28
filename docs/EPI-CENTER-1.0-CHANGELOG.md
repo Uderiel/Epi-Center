@@ -28,3 +28,9 @@ Owner reported full appearance spectrum not appearing in v1.0.5. Published expli
 
 ## v1.0.6 acceptance — 2026-10-27
 Owner reports all six character-creation tests passed. Marked v1.0.6 character-creation milestone accepted. Documentation-only acceptance update; no gameplay changes.
+
+## v1.0.7 — 2026-10-27
+- Imported the v0.8.84 UI CSS and shell layout into modular `rebuild/hub/index.html`: top header, desktop sidebar, Android bottom navigation, six original tabs, hub hero/cards and status styling.
+- Connected finalized characters and resumed ready slots to the new hub baseline, preserving v1 save slots and original character data.
+- Legacy world logic not migrated; Map, Items, Power and Encounter are clearly labeled placeholders. Owner UI baseline review pending.
+- Published to GitHub Pages via main; mirrored to rebuild/1.0-foundations.
