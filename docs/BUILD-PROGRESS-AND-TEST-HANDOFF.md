@@ -1,3 +1,6 @@
+## v1.0.34 — USER ACCEPTANCE 5/5 PASS (2026-10-28)
+- User reported PASS for each of: (1) title screen lists existing saves, (2) Continue opens Hub, (3) fresh character creation confirmation opens Hub URL v=1.0.34, (4) reload preserves character, (5) another existing save slot remains unchanged. Earlier v1.0.34 acceptance-pending entries superseded. No claim of automated browser tests. Phase 0 next: immutable snapshots, isolated dev saves, release smoke tests and rollback.
+
 ## v1.0.34 — Phase 0 started; branch/detour policy
 - v1.0.33 relationship ±10 PASS is last accepted build. v1.0.34 source candidate fixes stale character-creation v1.0.28 completion route and aligns shared title/Hub version on main and rebuild branches. No save keys changed; deployment and manual acceptance still unverified.
 - Active gate: Phase 0 issue https://github.com/Uderiel/Epi-Center/issues/1 . User requests guided work and branch reminders; blocking corrections stay in current gate, unrelated enhancements become follow-up issues with explicit return-to-main-path.
