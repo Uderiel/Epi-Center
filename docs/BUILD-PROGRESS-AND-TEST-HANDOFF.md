@@ -1,3 +1,8 @@
+## 2026-10-28 — Master-plan handoff / v1.0.33 accepted
+- User confirmed v1.0.33 relationship ±10 buttons PASS, after checking GitHub Actions deployment. Accepted baseline: v1.0.31 9/9 PASS, v1.0.32 5/5 PASS, v1.0.33 PASS. All older FAIL/UNTESTED annotations about those checks are superseded.
+- Established `docs/DEVELOPMENT-MASTER-PLAN.md` as authoritative dependency-ordered Phases 0–14, `docs/CURRENT-STATUS.md` as new-chat first-read checkpoint, and `CHANGELOG.md` as version ledger. README links them in reading order.
+- Next: Phase 0 release/state audit and Phase 1 canonical resource/needs lifecycle, then action/world/NPC/form vertical slice. Do not start combat UI or broad quest content before prerequisites. Planning/documentation change only; no new gameplay build claimed.
+
 ## v1.0.33 — Dev relationship quick adjustments (2026-10-28)
 - Added separate −10 and +10 buttons in Dev → Relationship QA, beside existing absolute Set and Reset controls. Values clamp to −100..+100, persist per save, and Eve remains immutable at 0.
 - Universal title-screen destination updated to v1.0.33 for all three save slots (not just visible version label); main hub commit 2411818, main title route commit 2e6f7ed. README indexes on main and rebuild updated. Live acceptance pending.
