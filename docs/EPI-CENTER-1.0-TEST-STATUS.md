@@ -81,3 +81,6 @@ JavaScript syntax PASS. Full-screen artwork viewer implemented; not yet Android 
 
 ## v1.0.23
 Owner confirmed First Steps completion dialogue and completed quest status in v1.0.22. v1.0.23 JavaScript syntax PASS. Completed journal, migration and timestamp UI need Android verification. No full browser integration test run.
+
+## v1.0.24
+Hub JavaScript syntax PASS. Journal tab and drawer navigation implemented; Android acceptance pending. Existing completion and rewards are not reset.
