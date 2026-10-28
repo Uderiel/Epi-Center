@@ -1,3 +1,9 @@
+## v1.0.32 — USER ACCEPTED (2026-10-28)
+- User explicitly confirmed PASS for all five v1.0.32 refinements: (1) Form activity label capitalization; (2) Form relationship selector removed and equipped-form relationship automatic, Dev selector retained; (3) player-persistent Hunger/Bladder/Fatigue; (4) expandable Stats combat resource overlays and removal from Form; (5) save-slot character name and last-played date/time.
+- v1.0.31 baseline previously confirmed 9/9 PASS, including save-slot isolation. Both acceptance records are final; do not carry earlier failures forward.
+- v1.0.32 universal title-screen routing fix verified by user as part of successful acceptance. Future iterations should retain normal title-screen entry and record versioned preview in README on main and rebuild.
+- Deferred design/engineering: canonical historical need-accrual rates (current provisional), mechanical form exemptions, full encounter/encasement resource overlay integration, relationship interactions and recovery economy.
+
 ## v1.0.32 routing hotfix and corrected acceptance record (2026-10-28)
 - User confirmed ALL NINE prior v1.0.31 acceptance checks PASS (9/9, no failures, no untested). Earlier handoff incorrectly carried a Form FAIL and slot-isolation UNTESTED; those statements are superseded by this record.
 - Root cause of missing v1.0.32 refinements: title-screen display was changed to v1.0.32 but its shared destination() function still hardcoded v=1.0.31 for all three save slots. Fixed destination() on main commit 248369b and rebuild commit 969d34b. This was a universal navigation/version bug, not per-slot source code. Existing saves unchanged.
