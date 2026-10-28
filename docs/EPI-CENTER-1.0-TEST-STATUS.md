@@ -84,3 +84,6 @@ Owner confirmed First Steps completion dialogue and completed quest status in v1
 
 ## v1.0.24
 Hub JavaScript syntax PASS. Journal tab and drawer navigation implemented; Android acceptance pending. Existing completion and rewards are not reset.
+
+## v1.0.25
+Hub inline JavaScript syntax PASS. Resolve resource migration and Stats drawer rendering implemented; no Android or full browser test yet. Combat victory/mastery not implemented.
