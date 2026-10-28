@@ -73,3 +73,6 @@ Replaced special-case Path marker routing with shared OVERWORLD_ROUTES adjacency
 
 ## v1.0.20 — 2026-10-28
 Owner confirmed Cherished Touch to Central Hub return, embedded Central Hub artwork display, and Eve's initial quest interaction on Android. Changed location image from fixed 105px cover/crop to natural aspect ratio with contain behavior, no maximum image height. Full image rendering pending owner verification. Advanced conversational NPC capability remains deferred.
+
+## v1.0.21 — 2026-10-28
+Owner reports v1.0.20 Central Hub artwork still not fully displayed. Force responsive full-aspect image without height constraints; add tap-to-open full-screen overlay with Close control. Preserve original embedded JPEG, navigation and saves. Syntax passed, Android verification pending.
