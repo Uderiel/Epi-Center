@@ -93,3 +93,11 @@ Status: approved design; exact DC and reduction value provisional; no engine imp
 - On success, prevent the immediate transformation objective and reduce only that source-target buildup substantially; 50/100 is a provisional playtest reset value.
 - On failure, resolve the source's defined encounter-specific transformation consequence. Do not automatically advance persistent 23-stage free-roam transformation progress or replace base character attributes.
 - Resistance attribute, DC, modifiers, limits on repeated threshold checks, special immunity, simultaneous thresholds and subsequent escape/rescue rules remain to be approved.
+
+## Approved defender-choice transformation resistance (2026-10-28)
+Status: approved design rule, not implemented in the live encounter engine.
+- Each transformation ability defines its eligible resistance attributes, ordinarily two thematically appropriate choices; the defender chooses one when making the final transformation resistance check.
+- Physical assimilation example: Endurance or Fitness. Mental conditioning: Willpower or Stability. Arousal-driven transformation: Stability or Willpower. Unusual effects explicitly define their own eligible attributes.
+- Do not let attacks automatically target the defender's weakest attribute, and do not allow unrestricted choice among all ten attributes.
+- Display both allowed attributes and current bonuses, including relevant conditions, in the mobile resistance prompt. Resolve one check using the selected attribute.
+- Meaningful choice can arise from ability-specific secondary consequences, resource costs and conditions, but exact modifiers, DCs, and numeric balancing are not yet approved.
