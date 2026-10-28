@@ -90,3 +90,6 @@ rebuild/combat/engine.js exposes EpiCombat API and seeded simulate('kibbles'|'er
 
 ## Combat foundation continuation
 Canonical combatant records now include identity and relationships; encounterSnapshot clones source records; outcomeRecord produces a separate record with appliedToPersistentState=false. Read docs/COMBAT-FOUNDATIONS-GUIDE.md for plain-language Guide and future Eve dialogue intents. Capture should permit Resolve recovery and mental saves; mastery possible after defeat/from within. No live consequences or dialogue implemented.
+
+## v1.0.26 alignment
+Specialization is calculated, not chosen. Physical Fitness+Endurance+Reflexes+0.5 Intuition; Mental Willpower+Reasoning+Stability+0.5 Insight; Arousal Influence+Presence+Insight+0.5 Intuition. Percentages from three-score total. Character and Stats display alignment. Engine helper available for forms/NPCs/items; individual profiles not yet authored. No manual specialization override.
