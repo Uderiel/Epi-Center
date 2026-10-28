@@ -48,3 +48,6 @@ Owner reported full appearance spectrum not appearing in v1.0.5. Published expli
 - Diagram-driven Play structure, fixed composer, recipient input, drawers and attribute ownership code committed on main and mirrored to rebuild branch.
 - No owner acceptance or runtime Android verification yet.
 - Remaining unconnected: game-time engine, location art, quest journal, directional travel and world/NPC action resolution.
+
+## v1.0.12
+GitHub hub JavaScript syntax check passed. main and rebuild branch mirrored. Android visual and gameplay verification pending; no claims of quest completion logic or live modifier recalculation.
