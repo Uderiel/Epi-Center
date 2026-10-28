@@ -1,3 +1,7 @@
+## v1.0.35 — Phase 0 development-save isolation (candidate)
+- Added `dev=1` mode and separate dev save namespace across title screen, character creation and Hub, with preserved mode through Back/title/logout and visible labels. Normal save keys unchanged; no save migration. Main commits title 14902e3, creation 0cff42c + follow-up 65439af, Hub 4b9b7e1. Rebuild mirrored. Browser acceptance pending; no automatic browser execution claimed.
+- Acceptance: normal saves unchanged; dev title has separate empty slots; dev character can be created and resumed; logout remains dev; normal title still has originals; cross-mode changes do not leak. Phase 0 next immutable release artifacts and automated checks.
+
 ## v1.0.34 — USER ACCEPTANCE 5/5 PASS (2026-10-28)
 - User reported PASS for each of: (1) title screen lists existing saves, (2) Continue opens Hub, (3) fresh character creation confirmation opens Hub URL v=1.0.34, (4) reload preserves character, (5) another existing save slot remains unchanged. Earlier v1.0.34 acceptance-pending entries superseded. No claim of automated browser tests. Phase 0 next: immutable snapshots, isolated dev saves, release smoke tests and rollback.
 
