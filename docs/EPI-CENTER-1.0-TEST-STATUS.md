@@ -96,3 +96,6 @@ JS evaluation PASS; snapshot isolation PASS; outcome record non-persistence PASS
 
 ## v1.0.26
 Hub JS syntax PASS. Engine specialization helper evaluated for empty, physical, mental and arousal attribute sets. Alignment visual and Android testing pending.
+
+## v1.0.27
+Hub inline JavaScript syntax PASS. Native details/summary markup generated; Android visual/tap test pending.
