@@ -72,3 +72,6 @@ JavaScript syntax passed; Android UI and gameplay verification pending. Multipla
 
 ## v1.0.19
 Hub JavaScript syntax PASS. Owner confirmed v1.0.18 Charity dialogue and NPC discovery/recipient targeting, but could not return from Cherished Touch. v1.0.19 route repair and Hub artwork require Android retest. No full browser integration test performed.
+
+## v1.0.20
+JavaScript syntax PASS. Owner Android-confirmed v1.0.19 return route, image visibility, Eve quest interaction. v1.0.20 full aspect-ratio image adjustment awaits Android visual verification. No headless browser tests run.
