@@ -1,0 +1,19 @@
+# Epi-Center 1.0 — Changelog
+
+## v1.0.4 — 2026-10-27
+- Replaced title screen external module entry with a self-contained inline slot controller to avoid stale cached JavaScript on Android.
+- Refreshes slot cards immediately after reservation and when page is restored, focused, or becomes visible.
+- Added visible version label to title screen.
+- **Published; Android owner retest pending.** This is not a verified fix.
+
+## v1.0.3 — 2026-10-27
+- Attempted return navigation cache busting, immediate slot render and bfcache handling. Owner reported same failure.
+
+## v1.0.2 — 2026-10-27
+- Attempted pageshow/focus refresh. Owner reported same failure.
+
+## v1.0.1 — 2026-10-27
+- Published character creation, ten attributes, review, confirmation and introductory Eve hub preview. Connected title Continue and New Character to creation.
+
+## v1.0.0 — prior milestone
+- Three save slots and approved illustrated title screen; initial three-slot behavior owner accepted before creation integration.
