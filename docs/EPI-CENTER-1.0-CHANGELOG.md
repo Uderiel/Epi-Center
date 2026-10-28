@@ -46,3 +46,6 @@ Corrected Play layout to keep text composer visible above mobile bottom navigati
 
 ## v1.0.11 — 2026-10-27
 Implemented diagram-driven Play screen: current-location header and image placeholder, five quick-reference drawers, independently scrolling timestamped live feed, fixed four-channel Location/NPC/Player/Form composer and directed-recipient field. Form drawer includes 0-neutral relationship scale (−100..+100) and stage progress. Stats drawer selects player until stage 23/23, then completed form, with expandable ten attributes and recorded modifiers. Quest and nine-cell compass drawers display saved data when available; disconnected game actions are marked pending. Existing slot keys preserved. Owner review pending.
+
+## v1.0.12 — 2026-10-28
+Corrects saved hub identifier `hub` to display `Central Hub` in Play, Location and Path; adds owner-provided Central Hub description and Eve as discovered NPC. Initializes missing player baseline Health 100, Stamina 100, Arousal 0 without overwriting existing values. Fixes lowercase character-creation attribute lookup, adds attribute descriptions and capitalizes Form and Stats labels. Displays original v0.8.84 First Steps quest details and rewards; acceptance and completion mechanics remain unconnected. Owner review pending.
