@@ -1,3 +1,8 @@
+## NEXT WORK — evidence reconciliation (2026-10-28)
+- Accepted: v1.0.31 9/9 resource/needs simulation, time, persistence and slot isolation; v1.0.32 5/5 player-owned needs and form UI overlays; v1.0.33 relationship ±10; v1.0.34 5/5 entry/creation/persistence. **Do not re-test these as if unbuilt.**
+- Source inspection confirms Dev QA stores needs/resources under `save.devVitals`; Dev resource changes are not established as canonical gameplay actions. This is an integration gap, NOT an accepted-test failure. Before any new implementation inspect existing game action dispatcher, save shape and form effective-state logic. Build only the missing bridge to a real action with exact resource/time effect, then move to Phase 2/3. No extra entry paths or test harnesses.
+- This checkpoint supersedes stale Phase 0 and v1.0.35 pending instructions lower in this file. Last accepted playable build remains v1.0.34.
+
 ## CORRECTION — 2026-10-28: single entry restored
 - User rejected unapproved v1.0.35 development-save mode. Its code has been reverted on BOTH branches (title, creation, Hub). **Accepted baseline remains v1.0.34, 5/5 PASS**; normal storage keys unchanged. No additional login, save namespace or dev URL is part of the intended design. Previous v1.0.35 candidate sections below are historical and SUPERSEDED, not instructions to test.
 - Return to main plan: Phase 1 canonical state/resources/needs. Do not gate gameplay on speculative release tooling. Any optional engineering work requires explicit relevance and approval.
