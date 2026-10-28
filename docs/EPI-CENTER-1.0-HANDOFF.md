@@ -39,3 +39,6 @@ Owner rejected v1.0.9's screen structure. v1.0.10 fixes the composer to the bott
 
 ## v1.0.11 diagram implementation
 Based on owner-supplied paper layout and clarification: player attributes and health/stamina/arousal remain authoritative through transformation stage 22/23; form becomes authoritative at 23/23, without overwriting original player data. Each form's relationship is independent, starts at 0 when no value exists, bounded −100..+100. Play view contains location imagery placeholder, quick drawers, feed and fixed composer; NPC/Player channels request target names. No NPC responses, world action resolver, quest switching, route survey, time simulation or actual location art migrated yet. Do not mark these complete. Both main and rebuild branch updated.
+
+## v1.0.12 owner feedback
+Android screenshot confirmed v1.0.11 fields load but exposed missing base meters and incorrect attributes. v1.0.12 reads lowercase attribute keys, seeds absent player baselines 100/100/0, normalizes `hub` to Central Hub, displays specified description and Eve. First Steps objective and 100 gold/50 EXP are informational only until quest logic is migrated. Existing slot keys unchanged; don't overwrite player values.
