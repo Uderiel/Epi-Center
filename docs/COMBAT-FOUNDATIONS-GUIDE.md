@@ -128,3 +128,11 @@ Status: approved design rule; not yet implemented in live encounter UI or engine
 - Explicit ability text may exceptionally dictate the technique as well as the target; such exceptions must be authored and documented, not assumed.
 - Preserve the player's access to permitted defensive reactions, resistance choices and escape options. Do not create a bonus action or extra turn for the controlling form.
 - Still unresolved: how to handle no legal offensive technique, target becoming invalid, voluntary resource spending, ability cooldowns, and the exact influence gain/loss and resistance DC formula.
+
+## Approved safeguards for controlled offensive actions (2026-10-28)
+Status: approved design rules; not yet implemented in live encounter engine or UI.
+- A controller cannot compel expenditure of a captured character's limited-use abilities, consumables, or optional resources. The player may voluntarily choose a legal technique that spends those resources.
+- The controller selects a legal target by default, while the player chooses the eligible offensive technique. Explicitly authored exceptional control abilities require separate review and must not silently bypass resource safeguards.
+- If no legal offensive technique is available, forfeit the controlled offensive action; do not fabricate an attack, bypass cooldowns, spend resources involuntarily, or grant extra actions.
+- Keep the captured character's original initiative slot, eligible defenses, resistance and escape opportunities; no bonus turn for the controlling form.
+- Future implementation should test empty action menus, depleted resources, cooldowns, target invalidation, ally targeting, and action-economy invariants.
