@@ -228,3 +228,10 @@ Status: design APPROVED by user; documentation only, not yet implemented in live
 - Each ability explicitly defines its effect payload(s), resolution and applicable resources. Hit success does NOT automatically imply damage, arousal, transformation buildup, influence/control, capture or other conditions unless explicitly specified.
 - Shared ability/effect architecture must support Physical, Mental and Arousal combat, healing, protection, support, restraint, and non-damage objectives without requiring bespoke engines.
 - Still provisional/unresolved: exact damage formulas and scaling, mitigation, critical hits, effect ordering, duration/stacking, resource costs, target caps, and base passive defense (8 vs 10).
+
+## Approved: defense versus mitigation separation (2026-10-28)
+Status: user-approved design; documentation only, no live engine changes.
+- Defense determines whether an attack/effect hits or connects; mitigation determines the impact that passes through after a successful hit. Nimble/evasive combatants may have high defense and low mitigation; tank/protective forms may have moderate defense and high mitigation.
+- Physical protection, Mental resilience, and Arousal resistance are separate mitigation categories. Transformation-specific resistance/protection remains explicitly identifiable and is not automatically covered by arousal resistance.
+- Mitigation primarily arises from forms, equipment, conditions, and authored abilities, rather than duplicating the attributes that already increase passive defense. Every effect defines which mitigation applies; protection does not universally prevent unrelated effects, control, capture, or buildup.
+- Still to decide: flat versus proportional reduction, stacking and penetration, minimum damage, multi-effect mitigation order, protection durability and exceptions.
