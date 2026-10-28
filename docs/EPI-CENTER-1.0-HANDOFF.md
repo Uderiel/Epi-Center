@@ -78,3 +78,6 @@ Owner still saw incomplete artwork after v1.0.20. Added unconstrained full-ratio
 
 ## v1.0.23 quest journal
 Quest drawer now has Active Quests and Journal Completed sections. Completed quests migrate into save.quests.journal.completed with expandable title, details, rewards and completedAt timestamp. New completions capture ISO date at Eve turn-in; previously completed saves show timestamp unavailable. Preserve exactly-once reward. Owner confirmed original First Steps completion; new journal awaits Android test.
+
+## v1.0.24 Journal navigation
+Bottom Builder tab replaced with Journal. Journal screen owns completed quest archive and expandable details; Quests drawer has Completed Journal button navigating to it. Saved journal data unchanged. Await Android verification.
