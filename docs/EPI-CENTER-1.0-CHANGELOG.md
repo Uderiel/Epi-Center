@@ -67,3 +67,6 @@ Fix title-screen Continue for ready saves to navigate directly to versioned hub 
 
 ## v1.0.18 — 2026-10-28
 Clickable compass markers for Cherished Touch NE and Central Hub SW; original Central Hub JPEG transferred from legacy v0.8.84; Eve dialogue accepts and completes First Steps with once-only 100 gold/50 EXP reward after Cherished Touch visit and return; quest status shown; entity-ID dropdown for NPC and local Player targets. Network player messaging not implemented. Android verification pending.
+
+## v1.0.19 — 2026-10-28
+Replaced special-case Path marker routing with shared OVERWORLD_ROUTES adjacency model. All discovered directly connected destinations display as clickable compass buttons, including Cherished Touch NE and Central Hub SW. Map tab unchanged per owner request. Original embedded Central Hub image can only display while player is at Hub; needs Android verification after return. Charity NPC interaction and recipient ID targeting preserved. Syntax checked; device testing pending.
