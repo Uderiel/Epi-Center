@@ -10,9 +10,9 @@ function render(){
   const detail=document.createElement('p');detail.textContent=value===null?'Empty':value.status==='corrupt'?'Unreadable save — recovery required':value.status==='draft'?'Character creation not started':'Ready to play';section.append(detail);
   const actions=document.createElement('div');actions.className='actions';
   function action(label,callback,css){const b=document.createElement('button');b.textContent=label;if(css)b.className=css;b.addEventListener('click',callback);actions.append(b);}
-  if(value===null)action('New Character',()=>{try{store.write(id);notify('Slot '+id+' reserved. Character creation is the next development stage.');render();}catch(e){notify('Unable to create slot: '+e.message);}});
+  if(value===null)action('New Character',()=>{try{store.write(id);window.location.assign('../character-creation/?slot='+id);}catch(e){notify('Unable to create slot: '+e.message);}});
   else if(value.status==='corrupt')action('Preserve for recovery',()=>notify('This slot will not be overwritten or deleted automatically.'));
-  else {action('Continue',()=>notify('Character creation and gameplay are not implemented in this title-screen prototype.'));action('Delete',()=>{confirmText.textContent='Delete Slot '+id+'? This cannot be undone.';dialog.showModal();dialog.addEventListener('close',()=>{if(dialog.returnValue==='delete'){try{store.remove(id);notify('Slot '+id+' deleted.');render();}catch(e){notify('Delete failed: '+e.message);}}},{once:true});},'danger');}
+  else {action('Continue',()=>window.location.assign('../character-creation/?slot='+id));action('Delete',()=>{confirmText.textContent='Delete Slot '+id+'? This cannot be undone.';dialog.showModal();dialog.addEventListener('close',()=>{if(dialog.returnValue==='delete'){try{store.remove(id);notify('Slot '+id+' deleted.');render();}catch(e){notify('Delete failed: '+e.message);}}},{once:true});},'danger');}
   section.append(actions);host.append(section);
  }
 }
