@@ -69,3 +69,6 @@ Original hub art embedded; clickable NE/SW compass markers; Eve NPC targeting an
 
 ## v1.0.19 routing principle
 Path drawer uses a shared discovered, directly connected overworld adjacency model. Each accessible destination is a clickable compass marker. Central Hub SW from Cherished Touch must permit return; Cherished Touch NE from Hub after survey. Extend this same principle to Map tab later, not in v1.0.19. Test original Hub artwork only while physically at Hub. NPC selection and Charity discovery verified by owner at Cherished Touch.
+
+## v1.0.20 image presentation
+Original Central Hub art now renders full width at intrinsic aspect ratio, without cover cropping or fixed 105px viewport. Owner confirmed earlier travel return, image presence, and Eve interaction. Full-frame Android confirmation pending. NPC conversational AI deferred.
