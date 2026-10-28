@@ -45,3 +45,6 @@ Android screenshot confirmed v1.0.11 fields load but exposed missing base meters
 
 ## v1.0.13 attribute compatibility
 Never rename persisted creation keys without migration. Hub uses explicit display-name-to-save-key mapping, notably Empathy / Insight and Influence / Intimidation. Descriptions sourced from character-creation ATTR definitions. Syntax checked; owner verification pending.
+
+## v1.0.14 naming contract
+Canonical ten-attribute keys are Endurance, Fitness, Intuition, Reflexes, Willpower, Reasoning, Stability, Presence, Insight, Influence. Legacy saved keys Empathy / Insight and Influence / Intimidation are migrated on hub or creation load; do not reintroduce old names in new game systems. Preserve existing canonical value on conflict. Legacy v0.8.84 remains untouched.
