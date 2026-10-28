@@ -91,3 +91,6 @@ Priority Resolve foundation: four resources Health/Stamina/Resolve/Arousal. Reso
 
 ## Combat foundation (post-v1.0.25, engine-only)
 Added rebuild/combat/engine.js on main and rebuild/1.0-foundations. No Play UI or save-schema change. Isolated combatant data model, ten attributes, four custom resource pools, rarity baseline table, seeded d20 rolls, initiative, saving throws, conditions, physical/mental/arousal/encasement victory, equipment removal and seeded simulation fixtures for Kibbles, Erin's heels and ordinary NPC. Fixture attributes and power values are provisional, not canon. Mastery, post-defeat internal resistance, multi-encounter persistence, complete combat action economy, and PvP authorization remain future work.
+
+## Combat foundation — canonical records and Guide
+Added identity/relationship fields, isolated encounterSnapshot, outcomeRecord (explicitly unapplied to persistent state). Added docs/COMBAT-FOUNDATIONS-GUIDE.md as shared Guide/Eve dialogue reference. No Play UI changes.
