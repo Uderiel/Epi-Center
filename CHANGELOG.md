@@ -1,3 +1,6 @@
+## v1.0.34 — Phase 0 candidate (user acceptance pending)
+- Repaired character creation's stale v1.0.28 header and post-confirmation Hub route; aligned title/Hub v1.0.34 references on both branches. No save schema or gameplay mechanics changed. GitHub issue #1 tracks remaining Phase 0 release integrity.
+
 # Epi-Center — Development Changelog
 This is a concise change ledger. For user acceptance and decisions see `docs/BUILD-PROGRESS-AND-TEST-HANDOFF.md`; for planned work see `docs/DEVELOPMENT-MASTER-PLAN.md`.
 ## 2026-10-28 — Documentation and engineering planning
