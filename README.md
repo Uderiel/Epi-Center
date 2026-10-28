@@ -6,6 +6,7 @@ Epi-Center multiplayer RPG prototype.
 
 | Version | Play / preview | Repository source | Status |
 |---|---|---|---|
+| **v1.0.31 — Universal save-slot entry** | **[Open Epi-Center v1.0.31](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.31)** | [Title screen](https://github.com/Uderiel/Epi-Center/blob/main/rebuild/title-screen/index.html) · [Hub](https://github.com/Uderiel/Epi-Center/blob/main/rebuild/hub/index.html) | Main and rebuild committed; live acceptance pending |
 | **v1.0.30 — Dev tab & meter repair** | **[Open v1.0.30 preview](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.30)** | [Hub source](https://github.com/Uderiel/Epi-Center/blob/rebuild/1.0-foundations/rebuild/hub/index.html) | Fix committed; browser acceptance pending |
 | **v1.0.29 — Dev simulation QA** | **[Open v1.0.29 preview](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.29)** | [Hub source](https://github.com/Uderiel/Epi-Center/blob/rebuild/1.0-foundations/rebuild/hub/index.html) | Source committed; live preview and acceptance testing pending |
 | **v1.0.28 — Title Screen** | **[Open v1.0.28 preview](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.28)** | [Title screen HTML](rebuild/title-screen/index.html) | Preview path recorded; live deployment/version still needs browser acceptance verification |
