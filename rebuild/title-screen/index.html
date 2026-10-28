@@ -5,7 +5,7 @@
 (function(){
  const host=document.getElementById('slots'),notice=document.getElementById('notice'),dialog=document.getElementById('confirm'),confirmText=document.getElementById('confirm-text');
  const key=id=>'epicenter_v1_slot_'+id;
- const destination=(folder,id)=>'../'+folder+'/?slot='+id+'&v=1.0.31';
+ const destination=(folder,id)=>'../'+folder+'/?slot='+id+'&v=1.0.32';
  function read(id){const raw=localStorage.getItem(key(id));if(raw===null)return null;try{const s=JSON.parse(raw);return s&&s.schema===1&&s.slot===id&&['draft','ready'].includes(s.status)?s:{status:'corrupt'};}catch{return {status:'corrupt'};}}
  function show(message){notice.textContent=message;}
  function render(){
