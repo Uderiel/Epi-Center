@@ -1,3 +1,6 @@
+## Evidence reconciliation — 2026-10-28
+- Confirmed v1.0.31 9/9, v1.0.32 5/5, v1.0.33 PASS, v1.0.34 5/5 PASS from recorded handoff. Prior assistant incorrectly proposed re-testing these accepted simulation/UI/persistence checks. Source still routes Dev resource values through `save.devVitals`; canonical action integration remains unproven, not failed. Next inspect current action dispatcher/form resolver, then implement first real gameplay action cost/time effect. No new gameplay version published by this note.
+
 ## OVERRIDING HANDOFF — v1.0.35 development mode reverted
 - User explicitly rejected extra entry/save mode as scope creep. Reverted its title/creation/Hub source changes on main and rebuild, restoring accepted v1.0.34 single-path behavior and normal save keys. Earlier v1.0.35 candidate notes are historical only, NOT a test request. User's accepted baseline: v1.0.34 (5/5 PASS). Next: Phase 1 canonical resources/needs, no speculative Phase 0 gates. Redeployment not browser verified.
 
