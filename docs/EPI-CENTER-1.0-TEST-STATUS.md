@@ -54,3 +54,6 @@ GitHub hub JavaScript syntax check passed. main and rebuild branch mirrored. And
 
 ## v1.0.13
 JavaScript syntax PASS; code-level check confirms exact creation keys and ten description strings. Mirrored to main and rebuild branches. Android visual/value check pending.
+
+## v1.0.14
+Hub and character creation JavaScript syntax checks passed. Both branches updated. Browser Android and existing-save migration still require owner verification.
