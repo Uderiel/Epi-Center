@@ -243,3 +243,11 @@ Status: user-approved design; documentation only, not implemented in live combat
 - Apply flat reduction FIRST, then percentage reduction; floor remaining ordinary damage to an integer and clamp minimum to zero. Example: 30 Physical damage, 5 flat reduction, 20% reduction => floor((30-5)*0.8)=20 damage.
 - A protection against Physical damage does not automatically prevent Mental/Arousal damage, transformation buildup, control, capture or other separate effects.
 - Numeric amounts, stacking/caps, penetration, minimum damage exceptions, mitigation durability, and multiple simultaneous protection interactions remain unresolved pending tests.
+
+## Approved baseline: mitigation stacking and targeted penetration (2026-10-28)
+Status: user accepts this framework subject to balance validation; documentation only, no live engine change.
+- Compatible flat reductions add together. Independent compatible percentage reductions combine multiplicatively, not by adding percentages: 20% and 25% => 1-(0.8*0.75)=40% total reduction.
+- Penetration affects only explicitly identified mitigation categories or layers; no universal bypass of unrelated Physical, Mental, Arousal, or transformation protections.
+- Avoid accidental 100% immunity from ordinary gear/mastery stacking. True immunity requires an expressly authored exceptional effect.
+- Duplicate effect compatibility, diminishing returns, temporary shield interactions, percentage caps, minimum damage, and penetration strength are still PROVISIONAL and must be stress-tested across optimized and ordinary builds, rarities, forms and gear.
+- Player preference: choose the most balanced system based on testing rather than needless complexity or arbitrary caps; preserve meaningful tank, evasion, support and specialist playstyles.
