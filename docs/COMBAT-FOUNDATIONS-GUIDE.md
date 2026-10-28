@@ -58,3 +58,20 @@ Status: **approved design rules; not yet integrated into the live Play encounter
 7. Encounter defeat/escape/capture consequences, save persistence and mastery/progression.
 
 Do not change approved numeric ability details during conversion without user review. No new live encounter UI or combat balance is claimed by this guide update.
+
+## Cross-discipline and transformation encounter decisions (2026-10-28)
+Status: approved design direction, not yet implemented in engine or live UI.
+- Reaction visibility: show ordinary attack roll before reaction choice; explicitly concealed/surprise abilities may hide details. Before-impact defenses and after-resolution counters are separate windows.
+- Physical, Mental, and Arousal combat share action/reaction/defense architecture. Specialization does not restrict access to other disciplines.
+- Capture, incapacitation, transformation, influence and allegiance are separate state dimensions. Arousal thresholds can unlock absorption, but do not automatically finish 23 transformation stages or replace base attributes.
+- Liquid Latex Panther (original legacy example): Small Countess pet, Health 250, Con 13 Dex 17 Str 13 Wis 17 Int 13 Cha 13. Capture roll 1d20+17; absorption after target Arousal reaches 100; escape 1d50 needing 35+ once per hour after an attempt. Preserve legacy figures pending ten-attribute conversion; maintain resistance, rescue and escape routes. Countess withdrawal and Mistress escape measures are narrative considerations.
+- Robot Sentry (original legacy example): Medium compound guard, Health 350, Con 22 Dex 27 Str 22 Wis 22 Int 27 Cha 20; scans, pursues, reports and carries knockout gas. Legacy incapacitation is opposed 1d20+Int vs player 1d20+Wis. Convert explicitly rather than copying old attribute modifiers.
+- Temporary allegiance or influence changes need explicit targeting, duration, resistance, agency and cleanup; never silently persist as permanent control.
+- Third-party copyrighted or trademarked characters and likenesses are not game content. Juri is a private mechanics reference only; create original forms for production.
+
+### Additional unresolved rules
+- Separate transformation buildup and staged conditions; stacking across sources.
+- Capture/absorption and influence thresholds; resistance during and after transformation.
+- Temporary allegiance changes and multiplayer targeting/agency.
+- Hourly escape attempts and rescue scenes outside round-based combat.
+- Gas and technical incapacitation defense categories, nonlethal outcomes, and effect timing.
