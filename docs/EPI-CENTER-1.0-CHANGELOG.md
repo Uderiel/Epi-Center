@@ -43,3 +43,6 @@ Corrected final UI baseline navigation to Play, Map, Character, Equip, Items, Po
 
 ## v1.0.10 — 2026-10-27
 Corrected Play layout to keep text composer visible above mobile bottom navigation; scrollable feed occupies remaining space. Four composer selectors relabeled Location, NPC, Player, Form. Input and Send share a row. Owner UI review pending; no gameplay resolver added.
+
+## v1.0.11 — 2026-10-27
+Implemented diagram-driven Play screen: current-location header and image placeholder, five quick-reference drawers, independently scrolling timestamped live feed, fixed four-channel Location/NPC/Player/Form composer and directed-recipient field. Form drawer includes 0-neutral relationship scale (−100..+100) and stage progress. Stats drawer selects player until stage 23/23, then completed form, with expandable ten attributes and recorded modifiers. Quest and nine-cell compass drawers display saved data when available; disconnected game actions are marked pending. Existing slot keys preserved. Owner review pending.
