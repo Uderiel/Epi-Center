@@ -85,3 +85,6 @@ Owner confirmed First Steps quest completion and completion dialogue. Updated qu
 
 ## v1.0.24 — 2026-10-28
 Replaced bottom Builder navigation with Journal. Completed quest archive now renders in dedicated Journal tab, expandable by title with details, rewards and timestamp. Quests drawer only shows current quest and a Completed Journal navigation button. Existing saved quest journal records remain intact. JS syntax passed; Android verification pending.
+
+## v1.0.25 — 2026-10-28
+Priority Resolve foundation: four resources Health/Stamina/Resolve/Arousal. Resolve replaces legacy Mental Resilience, with save migration preserving any legacy value, otherwise 100 baseline. Stats drawer shows Resolve. Existing 23-stage form stat replacement preserved, with Resolve fallback if completed form lacks field. Combat mastery and submission mechanics remain design-only; no combat engine implemented. Syntax passed; Android testing pending.
