@@ -97,3 +97,6 @@ Added identity/relationship fields, isolated encounterSnapshot, outcomeRecord (e
 
 ## v1.0.26 — Automatic combat alignment
 Character screen and Stats drawer now show a three-segment Physical/Mental/Arousal allocation bar and exact percentages. Derived from ten attributes with full primary and half supporting weights. Standalone combat engine exposes specialization(attributes). No combat modifiers or saves changed. JS syntax passed; Android verification pending.
+
+## v1.0.27 — Collapsible alignment
+Combat Alignment now defaults to a compact, tappable three-color bar labeled with the strongest specialization; tapping expands the existing percentage and score breakdown. Available in Stats drawer and Character tab. No save or combat rule changes.
