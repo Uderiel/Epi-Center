@@ -153,3 +153,13 @@ Status: attribute pairings approved; numeric formulas and hit probabilities rema
 - Candidate passive defense formula for each: 10 + primary attribute + floor(secondary attribute / 2). Base 10 and half weighting require simulation before approval.
 - Candidate attack resolution: 1d20 + attack-specific attribute + applicable modifiers versus the targeted defense. Meeting the defense succeeds is proposed, not yet approved.
 - Candidate balance target: approximately 50-60% ordinary attack hit chance against comparably developed defenders; test cross-specialty mismatches and active reactions before committing.
+
+## Initial defense accuracy simulation (2026-10-28)
+Status: analytical playtest only; no formula or rarity progression approved or implemented.
+- Tested 3 representative archetype builds (40 allocation points each), 4 hypothetical rarity tiers, all 144 attacker/defender archetype and rarity combinations; exact enumeration of 20 possible attack rolls, with hit on tie.
+- Proposed attack attribute used for tests: Physical Fitness, Mental Influence, Arousal Presence. Passive defense = 10 + primary + floor(secondary/2). Hypothetical rarity adds +2 attack and +2 passive defense per tier; not a production rarity rule.
+- Equal-rarity hit chances by attacking archetype Physical: versus Physical 40%, Mental 70%, Arousal 70%; Mental: versus Physical 70%, Mental 40%, Arousal 70%; Arousal: versus Physical 70%, Mental 65%, Arousal 40%.
+- Same-specialty hit chance versus passive defense base 7/8/9/10/11: 55/50/45/40/35 percent respectively.
+- Rarity gap +/-1 tier changes hit chance by 10 percentage points under the hypothetical +2/tier model. Do not assume rarity boosts both attack and defense in final design.
+- Exhaustive 400-pair d20 test of active defense max(passive, 1d20+primary) for primary=7, secondary=3, attack bonus=7: base 8 passive hit 50%, active hit 38.75%; base 10 passive hit 40%, active hit 33%.
+- Findings: base 10 may suppress equally specialized attacks; base 8 reaches 50% target. +2 per rarity tier is aggressive if rarity also raises damage/health. Test broader allocation distributions, action economy, damage, resource costs, final transformation resistance and party composition before approving numbers.
