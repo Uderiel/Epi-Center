@@ -37,3 +37,6 @@ Owner reports all six character-creation tests passed. Marked v1.0.6 character-c
 
 ## v1.0.8 — 2026-10-27
 Corrected incomplete v1.0.7 UI baseline. Recreated final v0.8.84 live-play layout with location header, five quick-reference drawers, scrollable live feed, sticky persistent action composer and activity history. Action draft and submitted messages persist within the v1 slot. These are UI and local-log behaviors, **not** the migrated game action resolver. Owner validation pending. Local saves are device/browser specific; opening another device does not transfer them.
+
+## v1.0.9 — 2026-10-27
+Corrected final UI baseline navigation to Play, Map, Character, Equip, Items, Power, Settings and Builder; removed erroneous Encounter and Hub tabs. Added four Play composition channels World/NPCs/Players/Form, persistent draft, live feed and quick-reference drawers. Still a UI scaffold: messages are locally logged, not game-resolved. Owner acceptance pending.
