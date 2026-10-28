@@ -19,3 +19,6 @@ Retest: open published title screen, create a new slot, use in-game Back, inspec
 
 ## v1.0.6 — 2026-10-27
 Owner reported full appearance spectrum not appearing in v1.0.5. Published explicit optional labels, descriptive anatomical hints, multiline input fields, and cache-busted title-to-creation navigation. Canonical 19 regions and saved keys retained. **Owner retest pending; not accepted.**
+
+## v1.0.6 — Owner acceptance
+2026-10-27: Owner reports **PASS on all six character-creation tests** following the v1.0.6 appearance-field correction. Character creation milestone accepted based on owner testing. Earlier three-slot save tests also passed. Further hub/gameplay development remains pending.
