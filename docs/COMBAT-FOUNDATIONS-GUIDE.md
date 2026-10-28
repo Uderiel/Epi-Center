@@ -144,3 +144,12 @@ Status: user accepted as provisional playtest baseline; no live combat implement
 - Legacy six-attribute values are design references only, not automatically converted or copied into the new system. Do not apply player creation budget/cap indiscriminately to NPCs or independent form stats.
 - Prefer a shared combatant/ability/effect schema with entity-specific acquisition, activation, equipment and encounter rules. Avoid hardcoded per-entity combat logic.
 - The approved influence baseline is not a finalized balance guarantee; validate against varied builds and party sizes before shipping.
+
+## Approved defensive attribute pairings (2026-10-28)
+Status: attribute pairings approved; numeric formulas and hit probabilities remain provisional and unimplemented.
+- Physical Defense: primary Reflexes, secondary Endurance.
+- Mental Defense: primary Willpower, secondary Reasoning.
+- Arousal Defense: primary Stability, secondary Insight.
+- Candidate passive defense formula for each: 10 + primary attribute + floor(secondary attribute / 2). Base 10 and half weighting require simulation before approval.
+- Candidate attack resolution: 1d20 + attack-specific attribute + applicable modifiers versus the targeted defense. Meeting the defense succeeds is proposed, not yet approved.
+- Candidate balance target: approximately 50-60% ordinary attack hit chance against comparably developed defenders; test cross-specialty mismatches and active reactions before committing.
