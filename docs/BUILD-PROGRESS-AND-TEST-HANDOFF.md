@@ -1,3 +1,8 @@
+## v1.0.32 routing hotfix and corrected acceptance record (2026-10-28)
+- User confirmed ALL NINE prior v1.0.31 acceptance checks PASS (9/9, no failures, no untested). Earlier handoff incorrectly carried a Form FAIL and slot-isolation UNTESTED; those statements are superseded by this record.
+- Root cause of missing v1.0.32 refinements: title-screen display was changed to v1.0.32 but its shared destination() function still hardcoded v=1.0.31 for all three save slots. Fixed destination() on main commit 248369b and rebuild commit 969d34b. This was a universal navigation/version bug, not per-slot source code. Existing saves unchanged.
+- Retest from universal title link: https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.32 and confirm Hub navigation URL ends in v=1.0.32 for any chosen slot; inspect Form labels, no relationship target picker, expandable Stats resources, save-slot name/time. Browser confirmation still pending.
+
 ## v1.0.32 — Form drawer, stats overlays, save labels (2026-10-28)
 - User accepted universal v1.0.31 link and reported QA: #1 PASS, #2 PASS, #3 PASS, #4 FAIL (physical needs should initialize at zero without a form), #5 PASS, #6 PASS, #7 PASS, #8 PASS, #9 UNTESTED (save-slot isolation).
 - v1.0.32 changes: Form drawer activity label capitalization; no NPC/form relationship target selector in Form; equipped form relationship shown automatically; persistent player-owned physical needs independent of equipped form; removed combat-resource duplication from Form; Stats drawer has expandable resource section with original player and form standard pools; title screen displays character name and last-played timestamp, Hub entry updates it. Both main and rebuild branches updated.
