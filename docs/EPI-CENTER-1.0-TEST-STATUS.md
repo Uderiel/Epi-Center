@@ -1,11 +1,11 @@
 # Epi-Center 1.0 — Test Status
 
-Version: **v1.0.4** (published code, not owner accepted)
+Version: **v1.0.4** (save-slot navigation owner accepted; character creation pending)
 
 | Case | Status | Evidence |
 |---|---|---|
 | Initial 3 independent slots | Accepted on earlier title milestone | Owner confirmed six title tests |
-| New Character → Back immediately shows Continue/Delete | **Failed on prior versions; v1.0.4 retest pending** | Owner reproduced after two attempted fixes |
+| New Character → Back immediately shows Continue/Delete | **OWNER PASSED v1.0.4** | Owner confirmed all three save slots working properly |
 | Draft survives refresh | Observed | Owner saw Continue/Delete after reload |
 | Creation form and final confirmation | Pending | No owner test results yet |
 | Eve introduction and hub | Pending | Foundation preview only |
