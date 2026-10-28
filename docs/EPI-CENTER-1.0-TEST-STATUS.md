@@ -51,3 +51,6 @@ Owner reported full appearance spectrum not appearing in v1.0.5. Published expli
 
 ## v1.0.12
 GitHub hub JavaScript syntax check passed. main and rebuild branch mirrored. Android visual and gameplay verification pending; no claims of quest completion logic or live modifier recalculation.
+
+## v1.0.13
+JavaScript syntax PASS; code-level check confirms exact creation keys and ten description strings. Mirrored to main and rebuild branches. Android visual/value check pending.
