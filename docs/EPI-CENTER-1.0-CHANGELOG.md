@@ -17,3 +17,8 @@
 
 ## v1.0.0 — prior milestone
 - Three save slots and approved illustrated title screen; initial three-slot behavior owner accepted before creation integration.
+
+## v1.0.5 — 2026-10-27
+- Replaced simplified appearance inputs with the canonical v0.8.84 identity fields and 19 anatomical regions (23 inputs including measurements).
+- Age and starting gender required; remaining anatomical details optional. Drafts and prior values preserved.
+- Published to main and rebuild branch; Android owner verification pending.
