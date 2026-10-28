@@ -1,3 +1,6 @@
+## Reversion — v1.0.35 unapproved development mode removed (2026-10-28)
+- Reverted the separate `dev=1` save namespace and labels on title, creation and Hub, both branches. Restored single accepted v1.0.34 entry/version and existing save keys. Earlier v1.0.35 candidate entry is historical and no longer active. No new release version claimed; browser redeployment verification pending.
+
 ## v1.0.35 — Development save isolation (candidate; acceptance pending)
 - Added explicit `dev=1` mode across title screen, character creation and Hub; separate `epicenter_v1_dev_slot_*` storage namespace, prominent development labels and mode-preserving navigation/logout. Normal save keys untouched. Source committed on main and rebuild. No user acceptance yet.
 
