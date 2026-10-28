@@ -39,3 +39,7 @@ Owner reported full appearance spectrum not appearing in v1.0.5. Published expli
 - v1.0.8 interface explicitly rejected.
 - v1.0.9 updated bottom tabs, removed Encounter, default Play view, top drawers, channel selector and persistent draft/live feed.
 - Source published on main and mirrored to rebuild branch; visual and functional owner acceptance **pending**.
+
+## v1.0.10 — pending owner acceptance
+- Fixed composer placement, scrollable live feed, Location/NPC/Player/Form controls.
+- Published to main and rebuild branch. Android screen appearance not verified; no accepted UI baseline yet.
