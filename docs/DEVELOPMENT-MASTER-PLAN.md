@@ -1,3 +1,7 @@
+## Active dependency reconciliation — 2026-10-28
+- Phase 1 **simulation/UI acceptance already demonstrated** by v1.0.31 (9/9) and v1.0.32 (5/5): do not repeat baseline need/time/resource/overlay/persistence tests as new work. Remaining unproven gate: real gameplay actions use authoritative state rather than `save.devVitals` display overrides. First inspect the existing action pipeline and effective-form resolver; integrate the smallest real action cost/time/needs update, retaining the accepted UI and saves. Then proceed to character/form contracts (Phase 2) and deterministic action dispatcher (Phase 3) without inventing prerequisites.
+- The reverted v1.0.35 development mode is not an active milestone. No new gameplay build was made during this reconciliation.
+
 ## OVERRIDING COURSE CORRECTION — 2026-10-28
 - The user rejected the extra v1.0.35 development-save path. Reverted title, character creation, Hub on both branches to accepted single-entry v1.0.34. Do NOT treat earlier v1.0.35 candidate or optional Phase 0 hardening as active prerequisites. **Proceed to Phase 1 canonical state/resources/needs**; only fix release issues when demonstrably blocking gameplay. Do not invent new entry paths or save namespaces. Log optional work as deferred, not a gate.
 
