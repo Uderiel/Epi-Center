@@ -64,3 +64,6 @@ Cherished Touch northeast of Central Hub discoverable by Path survey, travel NE/
 
 ## v1.0.17 — 2026-10-28
 Fix title-screen Continue for ready saves to navigate directly to versioned hub URL, bypassing character-creation intermediary; draft saves still open creation. Addresses reported old placeholder Survey handler likely from stale hub cache. Survey handler was present in v1.0.16; root cause not independently confirmed. Owner Android retest pending.
+
+## v1.0.18 — 2026-10-28
+Clickable compass markers for Cherished Touch NE and Central Hub SW; original Central Hub JPEG transferred from legacy v0.8.84; Eve dialogue accepts and completes First Steps with once-only 100 gold/50 EXP reward after Cherished Touch visit and return; quest status shown; entity-ID dropdown for NPC and local Player targets. Network player messaging not implemented. Android verification pending.
