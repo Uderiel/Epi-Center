@@ -78,3 +78,6 @@ JavaScript syntax PASS. Owner Android-confirmed v1.0.19 return route, image visi
 
 ## v1.0.21
 JavaScript syntax PASS. Full-screen artwork viewer implemented; not yet Android tested. User reported v1.0.20 image still not full size.
+
+## v1.0.23
+Owner confirmed First Steps completion dialogue and completed quest status in v1.0.22. v1.0.23 JavaScript syntax PASS. Completed journal, migration and timestamp UI need Android verification. No full browser integration test run.
