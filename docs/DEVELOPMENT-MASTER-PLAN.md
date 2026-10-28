@@ -1,3 +1,7 @@
+## Current execution checkpoint — Phase 0 started
+- **Active issue:** https://github.com/Uderiel/Epi-Center/issues/1 . **Last accepted:** v1.0.33. **Current candidate:** v1.0.34, stale character-creation navigation fixed; user acceptance pending. Phase 0 not complete.
+- **Detour policy:** any user-requested change must be classified as (A) prerequisite/blocker — address now, (B) worthwhile but not blocking — create follow-up issue with return marker, or (C) unnecessary — explain and record only if the user wants it. After detour return to the first unblocked phase gate. Maintain the roadmap, current status, handoff, changelog and README at each meaningful change.
+
 # Epi-Center — Authoritative Dependency-Ordered Development Master Plan
 **Status:** living engineering roadmap · **Baseline:** v1.0.33 accepted by user on 2026-10-28 · **Owner of next step:** Phase 0 audit, then Phase 1 state lifecycle.  
 **Playable entry:** https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.33  
