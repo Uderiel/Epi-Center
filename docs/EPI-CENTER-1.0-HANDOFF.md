@@ -24,3 +24,6 @@ Owner reported full appearance spectrum not appearing in v1.0.5. Published expli
 
 ## Owner-approved checkpoint — v1.0.6
 2026-10-27: Owner reports all six character-creation tests **PASS**. Preserve accepted save-slot behavior, canonical 19 appearance regions, optional anatomical inputs, 10 attributes/40 starting points, draft/review/finalization flow, and existing save keys. The hub remains a foundation preview; do not mistake character creation acceptance for full gameplay acceptance.
+
+## v1.0.7 — UI transfer checkpoint
+Published `rebuild/hub/index.html` as an isolated v0.8.84 shell/layout baseline, retaining six navigation tabs and mobile bottom bar. Character confirmation and ready-slot continuation now navigate to `/rebuild/hub/?slot=N&v=1.0.7`. The new hub reads `epicenter_v1_slot_N`, not legacy `epicenter_proto_v0523`. No legacy gameplay systems, travel, inventory actions or combat were ported. Preserve approved v1.0.6 creation and three-slot functionality. **Owner review of UI baseline pending.**
