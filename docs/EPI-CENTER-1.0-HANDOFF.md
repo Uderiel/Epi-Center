@@ -36,3 +36,6 @@ v1.0.8 rejected by owner: incorrect bottom tabs, no proper top drawers or persis
 
 ## v1.0.10 Play composer baseline
 Owner rejected v1.0.9's screen structure. v1.0.10 fixes the composer to the bottom viewport above mobile nav, makes feed independently scrollable, and displays Location/NPC/Player/Form selection directly above text input. Existing save slot keys and draft storage unchanged. **Do not claim exact 8.84 parity until owner verifies.**
+
+## v1.0.11 diagram implementation
+Based on owner-supplied paper layout and clarification: player attributes and health/stamina/arousal remain authoritative through transformation stage 22/23; form becomes authoritative at 23/23, without overwriting original player data. Each form's relationship is independent, starts at 0 when no value exists, bounded −100..+100. Play view contains location imagery placeholder, quick drawers, feed and fixed composer; NPC/Player channels request target names. No NPC responses, world action resolver, quest switching, route survey, time simulation or actual location art migrated yet. Do not mark these complete. Both main and rebuild branch updated.
