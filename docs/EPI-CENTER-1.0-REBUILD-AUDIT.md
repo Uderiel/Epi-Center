@@ -1,6 +1,6 @@
 # Epi-Center 1.0 — Controlled Rebuild Audit and Gates
 
-Status: **Audit in progress; no gameplay implementation or owner acceptance yet.**
+Status: **First source-level audit complete; implementation and owner acceptance not yet begun.**
 Branch: `rebuild/1.0-foundations` (separate from main).
 Reference candidate: `epi-center-v0.8.84-attribute-foundation-corrections.html`; last owner-accepted gameplay: v0.8.74. Do not modify or delete either.
 
@@ -35,9 +35,25 @@ Reference candidate: `epi-center-v0.8.84-attribute-foundation-corrections.html`;
 - No change to main, accepted builds or historical documentation without explicit scope and verification.
 
 ## Next audit tasks
-- [ ] Obtain full source bytes and verify size/hash for v0.8.84, v0.8.82 and accepted v0.8.74.
-- [ ] Map active entrypoint, initialization, screen renderers, event handlers, character creation, persistence and legacy save shape.
+- [x] Retrieve v0.8.84 full source via GitHub blob SHA (1,221,326 characters, 6,466 lines); fetch_file content was empty because of file size. [ ] Compare v0.8.82 and accepted v0.8.74 source and hashes.
+- [x] Initial map of startup, creation gates, roll entrypoints and storage (details below). [ ] Exhaustive render/event call graph.
 - [ ] Inventory reusable pure logic versus intertwined UI/state logic.
-- [ ] Identify all test harnesses, known failures and migration hazards.
+- [x] Identify known owner test failures and initial migration hazards. [ ] Inventory automated harnesses and run them.
 - [ ] Present owner a focused Title Screen + Save Slots specification before coding that stage.
 - [ ] Implement and test only the first approved foundation stage; do not rush into gameplay content.
+
+## Source-level findings (2026-10-27)
+
+Full HTML retrieved successfully by `fetch_blob` using GitHub blob SHA `672af75932ebbc0dda645b18fe058a5e39ac2465` (the generic file-content endpoint returned empty due to size). Source is approximately **1.22 MB / 6,466 lines with eight script tags**. It is an accreted single-file game, not a clean modular engine. The HTML document title still references v0.8.82, illustrating version metadata drift.
+
+**Startup/state:** early prototype uses `KEY='epicenter_proto_v0523'`, with a `storage` wrapper and `s` mutable state. A later foundation layer reads `FOUNDATION_KEY='epicenter_foundation_v060'` and merges saved values into `s`. Both keys must be inventoried before migration. Existing UI startup uses `if(!s.name) welcome()`, while subsequent onboarding depends on `s.profileComplete` and legacy `pointsLeft()===0`. These are independent, inconsistent completion gates.
+
+**Legacy creation:** `pointsLeft()` counts a 12-point allocation over six `s.stats` values; `saveProfile()` saves original appearance and sets `s.profileComplete=true`. This explains why the new ten-attribute panel alone did not replace old creation. Old gates still reference `pointsLeft()===0`.
+
+**Rolls:** original `roll(stat,dc,bonus)` computes a six-stat modifier from `s.stats`; `check78` independently computes similar legacy math. The newer `attributes926` foundation introduces a separate natural attribute state and archive of legacy stats. These overlapping implementations create migration risk; a new engine needs one resolver, not another override.
+
+**Rendering:** multiple `render`/renderer layers and `console816` feed composition are present. Owner-confirmed failures in 0.8.79–81 correspond to changes targeting inactive DOM paths. New architecture must have a single explicit screen router and no implicit global renderer overrides.
+
+**Preservation:** `epicenter_foundation_v060` is the accepted foundation save key. Do not change its contents during audit or automatically migrate without a tested, explicit import path. The three-slot rebuild must use a distinct versioned namespace, with schema validation and deletion confirmation.
+
+**Audit conclusion:** a controlled modular rebuild is justified by the observed overlapping state, creation gates, roll entrypoints and render ownership. This is a source-backed architecture recommendation, not a claim that every legacy system is defective. Next implementation is independent slot storage and title screen only, followed by browser and owner Android tests.
