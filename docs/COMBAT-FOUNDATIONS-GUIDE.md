@@ -119,3 +119,12 @@ Status: user-approved design direction; not yet implemented in live combat.
 - Physical, Mental, and Arousal specialties have distinct situational advantages and disadvantages across approach, containment, transformation buildup, influence struggle, and recovery; no archetype dominates all stages.
 - Specialty/Combat Alignment is a descriptive guideline derived from attribute allocation, not a restriction, override, or substitute for individual ten-attribute scores. Actual attributes, abilities, conditions, and rolls resolve actions.
 - Stage-based options are design goals, not free automatic bonuses; define concrete abilities and counters before implementation.
+
+## Approved controlled-action player engagement (2026-10-28)
+Status: approved design rule; not yet implemented in live encounter UI or engine.
+- During temporary encasement control, the captured character retains their existing initiative slot and turn rotation; the controller does not gain a second turn through them.
+- At the controlled character's turn, offer the eligible Mental or Arousal resistance check. Success preserves independent offensive action and reduces influence. Failure grants the encasing form target selection for ONE offensive action, including an ally target.
+- On a failed resistance check, the player still chooses which legal offensive technique their character uses against the controller-selected target. Resolve with the character's actual stats, abilities, costs, conditions, and remaining action allowance.
+- Explicit ability text may exceptionally dictate the technique as well as the target; such exceptions must be authored and documented, not assumed.
+- Preserve the player's access to permitted defensive reactions, resistance choices and escape options. Do not create a bonus action or extra turn for the controlling form.
+- Still unresolved: how to handle no legal offensive technique, target becoming invalid, voluntary resource spending, ability cooldowns, and the exact influence gain/loss and resistance DC formula.
