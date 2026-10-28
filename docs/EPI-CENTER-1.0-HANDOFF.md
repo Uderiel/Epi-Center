@@ -96,3 +96,6 @@ Specialization is calculated, not chosen. Physical Fitness+Endurance+Reflexes+0.
 
 ## v1.0.27 UI
 combatAlignmentMarkup renders native details/summary for accessible tap-to-expand alignment, closed by default. No custom event listener or save mutation. Applies to both Character and Stats drawer.
+
+## v1.0.28
+Character creation now calls refreshAlignment() within existing refresh() after each attribute adjustment. Uses same weighted three-way formula, native details/summary, no extra save fields. Alignment initially collapsed. Proceed next to encounter action economy and resource costs after user verifies UI.
