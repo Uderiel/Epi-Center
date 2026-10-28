@@ -269,3 +269,11 @@ Status: numerical experiment only; not live engine, and not an end-to-end encoun
 - Same ordinary attack against generalist with active defense (provisional active 1d20+5, max with passive): base 8 hit 53.5%, expected damage 4.283; base 9 51.25%, 4.109; base 10 48.75%, 3.916. Reaction is once per round, so these results cannot be applied to every attack in a multi-enemy encounter.
 - Results support controlling persistent mitigation stacking and distinguishing temporary, resource-limited shielding; do not choose a cap or force minimum damage before testing form/gear availability and effect objectives. Natural-20 success is not a guarantee of positive post-mitigation damage.
 - Limits: illustrative, noncanonical gear stats and attack profiles; no faction AI, turn economy, HP/attrition, form switching, mastery, party support, control, buildup, or ability-specific critical effects. Further tests required before approving defense base, gear caps or damage scaling.
+
+## Approved counterplay principle: specialization without universal defense (2026-10-28)
+Status: user-confirmed balance direction; documentation only.
+- A tank's Physical mitigation does not automatically protect against Mental or Arousal attacks, or transformation-specific effects. Each protection applies only to its tagged effect categories.
+- Physical, Mental and Arousal archetypes create meaningful matchup differences and counterplay, but do NOT implement deterministic rock-paper-scissors or automatic win/loss based on archetype labels.
+- Individual attributes, equipped forms, mastery, gear, abilities, conditions and team tactics determine results. Specialists can have significant weaknesses without becoming unable to respond through utility, allies, retreat or alternative techniques.
+- Enemy composition/disbursement is unpredictable; do not force every player to spread attributes evenly across all three disciplines. Reward preparation and complementary parties, while retaining diverse faction-themed foes and viable non-minmax builds.
+- Future balance test: evaluate cross-discipline coverage, specialist counters, mixed enemy formations and off-specialty options; flag both universal-defense meta builds and situations where a player has no meaningful legal response.
