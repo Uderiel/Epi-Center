@@ -22,3 +22,9 @@ Owner reported full appearance spectrum not appearing in v1.0.5. Published expli
 
 ## v1.0.6 — Owner acceptance
 2026-10-27: Owner reports **PASS on all six character-creation tests** following the v1.0.6 appearance-field correction. Character creation milestone accepted based on owner testing. Earlier three-slot save tests also passed. Further hub/gameplay development remains pending.
+
+## v1.0.7 — UI baseline acceptance pending
+- Source: legacy v0.8.84 shell CSS and six tabs copied into standalone hub scaffold.
+- Published on main and mirrored to rebuild branch.
+- Ready-slot navigation and character confirmation redirected to hub scaffold; **not yet owner-tested**.
+- Full legacy gameplay logic intentionally absent; redesign and systems migration to follow owner approval.
