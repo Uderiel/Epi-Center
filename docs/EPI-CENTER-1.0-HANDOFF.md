@@ -15,3 +15,6 @@ Last updated: 2026-10-27 · v1.0.4
 
 ## Release discipline
 Every change must include a visible version, update changelog/handoff/test status, publish, then await owner validation before marking accepted. Do not assert browser validation without running it.
+
+## v1.0.5 appearance restoration
+Published `rebuild/character-creation/index.html` with canonical v0.8.84 19 appearance regions, 23 inputs total, and age/gender required. Existing v1 slot keys remain unchanged. Android owner validation pending; no changes to legacy save keys. Version v1.0.5 is visible on creation screen.
