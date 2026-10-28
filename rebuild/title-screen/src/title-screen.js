@@ -17,3 +17,7 @@ function render(){
  }
 }
 try{render();}catch(e){notify('Save storage unavailable: '+e.message);}
+
+// Refresh when mobile browsers restore the title page from their back-forward cache.
+window.addEventListener('pageshow',()=>{try{render();}catch(e){notify('Unable to refresh save slots: '+e.message);}});
+window.addEventListener('focus',()=>{try{render();}catch(e){notify('Unable to refresh save slots: '+e.message);}});
