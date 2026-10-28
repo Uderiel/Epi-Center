@@ -6,7 +6,6 @@ Epi-Center multiplayer RPG prototype.
 
 | Version | Play / preview | Repository source | Status |
 |---|---|---|---|
-| **v1.0.35 — Isolated development saves** | **[Normal](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.35)** · **[Isolated Dev](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.35&dev=1)** | [Title source](https://github.com/Uderiel/Epi-Center/blob/main/rebuild/title-screen/index.html) | Source committed; browser acceptance pending |
 | **v1.0.34 — Phase 0 creation-route repair** | **[Open v1.0.34](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.34)** | [Creation source](https://github.com/Uderiel/Epi-Center/blob/main/rebuild/character-creation/index.html) | **USER ACCEPTED — 5/5 PASS** |
 | **v1.0.33 — Relationship ±10 controls** | **[Open v1.0.33](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.33)** | [Hub source](https://github.com/Uderiel/Epi-Center/blob/main/rebuild/hub/index.html) | **USER ACCEPTED — PASS** |
 | **v1.0.32 — Form & save refinements** | **[Open v1.0.32](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.32)** | [Hub source](https://github.com/Uderiel/Epi-Center/blob/main/rebuild/hub/index.html) | **USER ACCEPTED — 5/5 PASS** |
