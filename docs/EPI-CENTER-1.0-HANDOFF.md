@@ -63,3 +63,6 @@ Supersedes the Access Tunnel A South destination in the preceding recommended Fi
 
 ## v1.0.16 Cherished Touch initial implementation
 Location NE of Central Hub. Exterior single-story clothing store, sign, display windows, Help Wanted sign; interior shelves and eclectic stock, manager Charity behind counter, curtained backroom hallway. Owner-established store hours Mon–Fri 24h, umbrella 50 gold, mystery box 150 gold, no returns; commerce, restricted backrooms and exclusive quests are NOT implemented yet. `save.world.discovered.cherishedTouch` and `save.world.visited.cherishedTouch` track route state; `save.world.npcsDiscovered.Charity` only becomes true after direct Charity interaction. Do not auto-discover Cherished Touch quests or Charity on entry. First Steps quest still needs acceptance/completion/turn-in implementation. No Access Tunnel A overworld route.
+
+## v1.0.18 handoff
+Original hub art embedded; clickable NE/SW compass markers; Eve NPC targeting and First Steps reward flow; NPC dropdown uses entity IDs. Player dropdown currently local-only. Android validation pending.
