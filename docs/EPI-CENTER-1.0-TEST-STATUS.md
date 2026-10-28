@@ -69,3 +69,6 @@ JS syntax checks PASS for title, creation and hub. Code inspection confirmed sur
 
 ## v1.0.18
 JavaScript syntax passed; Android UI and gameplay verification pending. Multiplayer delivery not implemented.
+
+## v1.0.19
+Hub JavaScript syntax PASS. Owner confirmed v1.0.18 Charity dialogue and NPC discovery/recipient targeting, but could not return from Cherished Touch. v1.0.19 route repair and Hub artwork require Android retest. No full browser integration test performed.
