@@ -99,3 +99,6 @@ Hub JS syntax PASS. Engine specialization helper evaluated for empty, physical, 
 
 ## v1.0.27
 Hub inline JavaScript syntax PASS. Native details/summary markup generated; Android visual/tap test pending.
+
+## v1.0.28
+Character creation module JS syntax PASS. Live refresh hook verified by source inspection. Android tap and attribute update test pending.
