@@ -81,3 +81,6 @@ Quest drawer now has Active Quests and Journal Completed sections. Completed que
 
 ## v1.0.24 Journal navigation
 Bottom Builder tab replaced with Journal. Journal screen owns completed quest archive and expandable details; Quests drawer has Completed Journal button navigating to it. Saved journal data unchanged. Await Android verification.
+
+## v1.0.25 combat design / Resolve
+Owner approved separate Resolve, staged encasement with escape chances, encounter-specific defeat consequences. Mastery is earned when player resists defeat/transformation and overcomes form; submission means form influence (e.g. Erin daily routines). Tiers TBD. Combat implementation deferred. Resolve replaces Mental Resilience and appears as fourth resource, migrating old save values. Preserve 23/23 transformation attribute rule.
