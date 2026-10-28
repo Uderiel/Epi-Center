@@ -251,3 +251,11 @@ Status: user accepts this framework subject to balance validation; documentation
 - Avoid accidental 100% immunity from ordinary gear/mastery stacking. True immunity requires an expressly authored exceptional effect.
 - Duplicate effect compatibility, diminishing returns, temporary shield interactions, percentage caps, minimum damage, and penetration strength are still PROVISIONAL and must be stress-tested across optimized and ordinary builds, rarities, forms and gear.
 - Player preference: choose the most balanced system based on testing rather than needless complexity or arbitrary caps; preserve meaningful tank, evasion, support and specialist playstyles.
+
+## Approved: natural 1, natural 20, and ability-defined critical effects (2026-10-28)
+Status: user-approved combat resolution design; documentation only, not live implementation.
+- On an attack d20, natural 1 is automatic failure regardless of modifiers, with no automatic catastrophic mishap.
+- On an attack d20, natural 20 is automatic success and triggers the attack ability's explicitly authored critical benefit.
+- Critical effects are ability-defined, not universal double damage. For ordinary damaging attacks, adding one extra damage die is a provisional default to test, not yet a locked damage formula.
+- Transformation/control critical effects may enhance pressure or conditions but cannot bypass mandatory final transformation resistance, control-resistance safeguards, or automatically cause permanent character changes.
+- Test critical frequency and mitigation interactions across ordinary, hybrid and optimized builds; clarify whether these natural-roll rules apply to non-attack checks separately.
