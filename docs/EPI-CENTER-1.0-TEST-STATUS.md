@@ -63,3 +63,6 @@ Hub JavaScript syntax PASS. Back handling, drawer dismissal and Settings logout 
 
 ## v1.0.16
 Hub JavaScript syntax PASS. Survey/NE travel/SW return and Charity-on-interaction handlers present. No headless gameplay or Android tests run; owner verification pending. First Steps quest engine remains incomplete.
+
+## v1.0.17
+JS syntax checks PASS for title, creation and hub. Code inspection confirmed survey dispatch exists. Android browser cache/navigation issue suspected but not confirmed; ready-save direct navigation implemented. Retest pending.
