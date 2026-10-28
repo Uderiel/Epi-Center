@@ -48,3 +48,6 @@ Never rename persisted creation keys without migration. Hub uses explicit displa
 
 ## v1.0.14 naming contract
 Canonical ten-attribute keys are Endurance, Fitness, Intuition, Reflexes, Willpower, Reasoning, Stability, Presence, Insight, Influence. Legacy saved keys Empathy / Insight and Influence / Intimidation are migrated on hub or creation load; do not reintroduce old names in new game systems. Preserve existing canonical value on conflict. Legacy v0.8.84 remains untouched.
+
+## v1.0.15 Back and logout behavior
+Hub installs guarded browser history entry and popstate handler; Back closes open drawer, navigates other tabs to Play, or shows logout reminder on Play. Escape and backdrop/back-button close drawers. Settings Log Out saves and navigates to title via location.replace; local save is not deleted. Test Android back stack and returning from title carefully; browser navigation behavior can vary.
