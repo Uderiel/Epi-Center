@@ -1,3 +1,6 @@
+## Phase 0 v1.0.35 implementation checkpoint
+- Separate localStorage namespace selected via `dev=1` implemented in title/creation/Hub; mode survives creation, Back, title, and logout. Normal keys unchanged. Source committed both branches, user acceptance pending. This is **save data isolation only**, not independent code deployment or immutable versioning. Next: verify browser isolation, then immutable snapshots/release tests.
+
 ## Phase 0 acceptance checkpoint — 2026-10-28
 - **v1.0.34 USER ACCEPTED 5/5 PASS:** title lists existing saves; Continue enters Hub; new character confirmation routes to v1.0.34 Hub; reload persists; other slot remains unchanged. Prior acceptance-pending statement below is superseded. Phase 0 gate remains open for immutable builds, development-save isolation, automated release checks and rollback.
 
