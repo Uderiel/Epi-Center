@@ -93,3 +93,6 @@ Three seeded simulations executed without UI (seed 42): Kibbles physical defeat,
 
 ## Combat snapshot foundation
 JS evaluation PASS; snapshot isolation PASS; outcome record non-persistence PASS; three seed-42 fixture simulations PASS. No browser integration or player-facing UI yet.
+
+## v1.0.26
+Hub JS syntax PASS. Engine specialization helper evaluated for empty, physical, mental and arousal attribute sets. Alignment visual and Android testing pending.
