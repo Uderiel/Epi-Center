@@ -16,3 +16,6 @@ Retest: open published title screen, create a new slot, use in-game Back, inspec
 - Appearance: 19 canonical regions restored, age/gender required, other regions optional — published, owner retest pending.
 - All three title save slots: owner passed in v1.0.4.
 - Character creation and Eve hub flow: owner testing not yet complete.
+
+## v1.0.6 — 2026-10-27
+Owner reported full appearance spectrum not appearing in v1.0.5. Published explicit optional labels, descriptive anatomical hints, multiline input fields, and cache-busted title-to-creation navigation. Canonical 19 regions and saved keys retained. **Owner retest pending; not accepted.**
