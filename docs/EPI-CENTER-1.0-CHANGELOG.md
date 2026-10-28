@@ -82,3 +82,6 @@ Screenshot from owner showed Central Hub artwork still shallow/cropped and no v1
 
 ## v1.0.23 — 2026-10-28
 Owner confirmed First Steps quest completion and completion dialogue. Updated quest drawer to clearly instruct player to return to Central Hub and speak to Eve again. Added Active Quests and Journal Completed tabs inside Quests drawer; completed quests archived by title with expandable description, route, rewards, and completion time. Newly completed quests capture ISO timestamp; existing completed saves migrate without fabricated historical timestamp. No reward regrant. Syntax checked, Android journal verification pending.
+
+## v1.0.24 — 2026-10-28
+Replaced bottom Builder navigation with Journal. Completed quest archive now renders in dedicated Journal tab, expandable by title with details, rewards and timestamp. Quests drawer only shows current quest and a Completed Journal navigation button. Existing saved quest journal records remain intact. JS syntax passed; Android verification pending.
