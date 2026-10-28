@@ -90,3 +90,6 @@ Hub inline JavaScript syntax PASS. Resolve resource migration and Stats drawer r
 
 ## Standalone combat engine foundation
 Three seeded simulations executed without UI (seed 42): Kibbles physical defeat, Erin's heels successfully removed, ordinary NPC physical defeat. Deterministic JavaScript evaluation passed. No browser integration, property tests, full balancing, persistence, or live player controls. No new public UI version for engine-only module.
+
+## Combat snapshot foundation
+JS evaluation PASS; snapshot isolation PASS; outcome record non-persistence PASS; three seed-42 fixture simulations PASS. No browser integration or player-facing UI yet.
