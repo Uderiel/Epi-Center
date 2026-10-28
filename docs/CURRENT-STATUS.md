@@ -1,3 +1,9 @@
+## Active Phase 0 checkpoint — v1.0.34 candidate
+- v1.0.33 remains last user-accepted build. v1.0.34 source committed on both branches: fixed character-creation header and completion route from v1.0.28 to v1.0.34, aligned title and Hub version/entry routes. No save key changes. Pages deployment and browser acceptance PENDING.
+- Phase 0 issue: https://github.com/Uderiel/Epi-Center/issues/1 . Remaining Phase 0 work: immutable releases, save isolation, release/route tests, rollback proof.
+- Branching policy: log user-requested detours as active blocking corrections if prerequisite; otherwise create follow-up issue with return-to-main-path note, then resume first unblocked gate.
+- Next user test after Pages Action: open universal v1.0.34, continue existing slot, then in an EMPTY slot complete character creation and confirm Hub URL uses v=1.0.34; reload and verify other slots unchanged.
+
 # Epi-Center — Current Status (read first in a new chat)
 **Updated:** 2026-10-28. **Accepted live baseline:** v1.0.33. **Next work:** Master Plan Phase 0, then Phase 1; do not jump to combat UI or new quests.  
 **Playable:** https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.33  
