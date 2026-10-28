@@ -100,3 +100,6 @@ Character screen and Stats drawer now show a three-segment Physical/Mental/Arous
 
 ## v1.0.27 — Collapsible alignment
 Combat Alignment now defaults to a compact, tappable three-color bar labeled with the strongest specialization; tapping expands the existing percentage and score breakdown. Available in Stats drawer and Character tab. No save or combat rule changes.
+
+## v1.0.28 — Character creation live alignment
+Added collapsible combat alignment directly beneath the ten attribute controls. Recalculates immediately after each +/- allocation change; percentages and strongest specialization match Character and Stats. Version bumped across modular screens; no save migration.
