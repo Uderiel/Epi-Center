@@ -75,3 +75,6 @@ Original Central Hub art now renders full width at intrinsic aspect ratio, witho
 
 ## v1.0.21 image viewer
 Owner still saw incomplete artwork after v1.0.20. Added unconstrained full-ratio inline image and tappable full-screen viewer with Close. Preserve legacy JPEG exactly. Await Android verification.
+
+## v1.0.23 quest journal
+Quest drawer now has Active Quests and Journal Completed sections. Completed quests migrate into save.quests.journal.completed with expandable title, details, rewards and completedAt timestamp. New completions capture ISO date at Eve turn-in; previously completed saves show timestamp unavailable. Preserve exactly-once reward. Owner confirmed original First Steps completion; new journal awaits Android test.
