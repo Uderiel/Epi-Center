@@ -19,6 +19,9 @@ Epi-Center multiplayer RPG prototype.
 
 **Rule for all subsequent releases:** update this index with a stable direct playable link, version, source path, and verification status. Never replace a previous version's entry without preserving its historical link. Include the same link in every test checklist.
 
+## Encounter outcome contract — Chunk 1 (2026-10-28)
+- Added `rebuild/combat/encounter-contract.js` on main and rebuild branches. Pure, standalone outcome record: separate tactical result, objective result, per-participant freedom, consequences and available actions, events, and `appliedToPersistentState:false`. Validates enumerated states and unique participant IDs. No gameplay UI, save mutation, mastery, transformation-stage or faction behavior changed. **Source committed; automated execution/browser validation and user acceptance not claimed.** Next chunk: map both combat prototype outcome shapes into this contract without changing rules, then decide the first post-encounter continuation rules with owner.
+
 ## Development continuity — READ IN THIS ORDER
 
 1. **[Development Master Plan](docs/DEVELOPMENT-MASTER-PLAN.md)** — authoritative phase-by-phase dependency gates, tests, decisions, end-to-end roadmap and new-chat instructions.
