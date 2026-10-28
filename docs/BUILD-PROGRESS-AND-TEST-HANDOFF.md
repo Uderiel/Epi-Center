@@ -1,3 +1,9 @@
+## v1.0.31 — Universal entry routing (2026-10-28)
+- User verified the direct Hub link with slot=1 works, including Dev; normal title-screen entry did not. Root cause: title-screen HTML still hardcoded ?v=1.0.28 for New Character/Continue even after newer hub publication.
+- Corrected title-screen routes for all 3 save slots to ?slot=<selected>&v=1.0.31; main and rebuild branches updated. Hub display version aligned. Existing local save keys and saves untouched. No slot hardcoded in public entry URL.
+- Universal entry: https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.31 ; source commits main title 13ac22b, main hub 727d57b; rebuild title 665ca28, rebuild hub d25138f. README build indexes updated. Live title-to-hub acceptance still pending.
+- Retest: open universal link, choose actual saved slot, verify Dev tab and numerical Form meters, then log out and test other slots. No manual ?slot parameter should be necessary.
+
 # Epi-Center 1.0 — build progress, decisions and acceptance handoff
 
 Updated: 2026-10-28. This is a living development handoff. Keep separate from the combat guide and do not claim an unverified deployment.
