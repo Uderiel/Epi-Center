@@ -66,3 +66,6 @@ Hub JavaScript syntax PASS. Survey/NE travel/SW return and Charity-on-interactio
 
 ## v1.0.17
 JS syntax checks PASS for title, creation and hub. Code inspection confirmed survey dispatch exists. Android browser cache/navigation issue suspected but not confirmed; ready-save direct navigation implemented. Retest pending.
+
+## v1.0.18
+JavaScript syntax passed; Android UI and gameplay verification pending. Multiplayer delivery not implemented.
