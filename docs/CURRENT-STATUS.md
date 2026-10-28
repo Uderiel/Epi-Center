@@ -1,3 +1,7 @@
+## CORRECTION — 2026-10-28: single entry restored
+- User rejected unapproved v1.0.35 development-save mode. Its code has been reverted on BOTH branches (title, creation, Hub). **Accepted baseline remains v1.0.34, 5/5 PASS**; normal storage keys unchanged. No additional login, save namespace or dev URL is part of the intended design. Previous v1.0.35 candidate sections below are historical and SUPERSEDED, not instructions to test.
+- Return to main plan: Phase 1 canonical state/resources/needs. Do not gate gameplay on speculative release tooling. Any optional engineering work requires explicit relevance and approval.
+
 ## Phase 0 v1.0.35 candidate — isolated development saves
 - Last user-accepted v1.0.34 (5/5 PASS). New v1.0.35 source committed to main and rebuild: optional `dev=1` title, creation, Hub and logout route; development keys `epicenter_v1_dev_slot_1..3` instead of normal `epicenter_v1_slot_1..3`. No migration, copy, deletion or overwrite of normal saves. Clear development labels on title and Hub. **Browser acceptance pending**.
 - Next test: inspect normal slots, enter `?v=1.0.35&dev=1` and verify three empty independent dev slots, create dev character, reload and logout, verify dev persists; return to normal URL and confirm original characters unchanged. Note dev mode is same origin/code, isolated storage only.
