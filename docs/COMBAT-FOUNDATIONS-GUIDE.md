@@ -136,3 +136,11 @@ Status: approved design rules; not yet implemented in live encounter engine or U
 - If no legal offensive technique is available, forfeit the controlled offensive action; do not fabricate an attack, bypass cooldowns, spend resources involuntarily, or grant extra actions.
 - Keep the captured character's original initiative slot, eligible defenses, resistance and escape opportunities; no bonus turn for the controlling form.
 - Future implementation should test empty action menus, depleted resources, cooldowns, target invalidation, ally targeting, and action-economy invariants.
+
+## Provisional influence progression and content rebuild policy (2026-10-28)
+Status: user accepted as provisional playtest baseline; no live combat implementation.
+- Influence changes: failed control resistance +5 percentage points; successful control resistance -15; successful ally intervention -10; failed ally intervention no change. Clamp to 0-100. Maintain at least one possible successful resistance outcome; exact DC scaling still requires playtesting.
+- Rebuild combat stats and ten-attribute allocations for NPCs, transformation forms and cursed objects individually as content is developed. Preserve existing lore, quests, save compatibility and content identities.
+- Legacy six-attribute values are design references only, not automatically converted or copied into the new system. Do not apply player creation budget/cap indiscriminately to NPCs or independent form stats.
+- Prefer a shared combatant/ability/effect schema with entity-specific acquisition, activation, equipment and encounter rules. Avoid hardcoded per-entity combat logic.
+- The approved influence baseline is not a finalized balance guarantee; validate against varied builds and party sizes before shipping.
