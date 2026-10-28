@@ -1,3 +1,8 @@
+## Phase 0 v1.0.35 candidate — isolated development saves
+- Last user-accepted v1.0.34 (5/5 PASS). New v1.0.35 source committed to main and rebuild: optional `dev=1` title, creation, Hub and logout route; development keys `epicenter_v1_dev_slot_1..3` instead of normal `epicenter_v1_slot_1..3`. No migration, copy, deletion or overwrite of normal saves. Clear development labels on title and Hub. **Browser acceptance pending**.
+- Next test: inspect normal slots, enter `?v=1.0.35&dev=1` and verify three empty independent dev slots, create dev character, reload and logout, verify dev persists; return to normal URL and confirm original characters unchanged. Note dev mode is same origin/code, isolated storage only.
+- Phase 0 still open: immutable snapshots, automated release tests, rollback proof.
+
 ## v1.0.34 acceptance update — 2026-10-28
 - **Last user-accepted build is now v1.0.34: 5/5 PASS.** User verified title lists existing saves, Continue enters Hub, fresh character creation routes to Hub v=1.0.34, reload retains character, and another slot remains unchanged. Supersedes earlier v1.0.34 acceptance-pending notes below.
 - Phase 0 remains IN PROGRESS. Next: immutable release artifacts/snapshots, development save isolation, reproducible automated route checks and rollback proof. No new gameplay release in this documentation update.
