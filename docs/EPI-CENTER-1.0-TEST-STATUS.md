@@ -60,3 +60,6 @@ Hub and character creation JavaScript syntax checks passed. Both branches update
 
 ## v1.0.15
 Hub JavaScript syntax PASS. Back handling, drawer dismissal and Settings logout code committed and mirrored. Android device behavioral verification pending.
+
+## v1.0.16
+Hub JavaScript syntax PASS. Survey/NE travel/SW return and Charity-on-interaction handlers present. No headless gameplay or Android tests run; owner verification pending. First Steps quest engine remains incomplete.
