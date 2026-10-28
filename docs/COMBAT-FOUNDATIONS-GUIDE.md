@@ -75,3 +75,13 @@ Status: approved design direction, not yet implemented in engine or live UI.
 - Temporary allegiance changes and multiplayer targeting/agency.
 - Hourly escape attempts and rescue scenes outside round-based combat.
 - Gas and technical incapacitation defense categories, nonlethal outcomes, and effect timing.
+
+## Approved encounter-only transformation buildup (2026-10-28)
+Status: approved design architecture; numeric buildup rates and resistance checks provisional; not implemented in live combat.
+- Encounter Transformation Buildup is a temporary combat-only meter, separate from the existing 23-stage free-roam transformation progression.
+- Track buildup independently per transformation source and target; do not automatically pool different opponents' progress. Cooperative effects require explicit ability definitions.
+- A successful transformation ability may add buildup, with a proposed normalized 0-100 meter. Failure adds none unless ability explicitly states otherwise. Exact amounts are not approved.
+- Defenses, escape, specialized protections, and ally actions can prevent or reduce buildup according to ability rules. Define counterplay and limits before implementation.
+- At threshold, resolve encounter-specific capture/transformation opportunity, not automatic permanent replacement of player attributes or advancement of free-roam stages.
+- At encounter end, discard temporary buildup tracks; persist only separately approved consequence records (e.g., temporary capture or influence), never implicit transformation-stage changes.
+- Resolve simultaneous sources, repeated attempts, protection duration and encounter-end cleanup deterministically; numerical balancing remains open.
