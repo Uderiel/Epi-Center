@@ -49,3 +49,6 @@ Implemented diagram-driven Play screen: current-location header and image placeh
 
 ## v1.0.12 — 2026-10-28
 Corrects saved hub identifier `hub` to display `Central Hub` in Play, Location and Path; adds owner-provided Central Hub description and Eve as discovered NPC. Initializes missing player baseline Health 100, Stamina 100, Arousal 0 without overwriting existing values. Fixes lowercase character-creation attribute lookup, adds attribute descriptions and capitalizes Form and Stats labels. Displays original v0.8.84 First Steps quest details and rewards; acceptance and completion mechanics remain unconnected. Owner review pending.
+
+## v1.0.13 — 2026-10-28
+Fixed Stats drawer canonical key mismatch: creation saves `Empathy / Insight` and `Influence / Intimidation`, not `Insight` and `Influence`. All ten expandable attribute descriptions now match character creation's approved definitions. Existing saves preserved; no migration or value overwrite. Owner review pending.
