@@ -61,3 +61,6 @@ Android/browser Back closes open quick-reference drawers, otherwise returns non-
 
 ## v1.0.16 — 2026-10-28
 Cherished Touch northeast of Central Hub discoverable by Path survey, travel NE/SW through Path, location description from owner-provided details, Charity discovered only upon direct interaction (Path button or NPC-channel addressing Charity). Cherished Touch discovered quests remain empty; Access Tunnel A excluded from this overworld route. Starter quest full acceptance/completion not yet implemented. Owner Android acceptance pending.
+
+## v1.0.17 — 2026-10-28
+Fix title-screen Continue for ready saves to navigate directly to versioned hub URL, bypassing character-creation intermediary; draft saves still open creation. Addresses reported old placeholder Survey handler likely from stale hub cache. Survey handler was present in v1.0.16; root cause not independently confirmed. Owner Android retest pending.
