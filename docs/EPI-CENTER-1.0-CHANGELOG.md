@@ -88,3 +88,6 @@ Replaced bottom Builder navigation with Journal. Completed quest archive now ren
 
 ## v1.0.25 — 2026-10-28
 Priority Resolve foundation: four resources Health/Stamina/Resolve/Arousal. Resolve replaces legacy Mental Resilience, with save migration preserving any legacy value, otherwise 100 baseline. Stats drawer shows Resolve. Existing 23-stage form stat replacement preserved, with Resolve fallback if completed form lacks field. Combat mastery and submission mechanics remain design-only; no combat engine implemented. Syntax passed; Android testing pending.
+
+## Combat foundation (post-v1.0.25, engine-only)
+Added rebuild/combat/engine.js on main and rebuild/1.0-foundations. No Play UI or save-schema change. Isolated combatant data model, ten attributes, four custom resource pools, rarity baseline table, seeded d20 rolls, initiative, saving throws, conditions, physical/mental/arousal/encasement victory, equipment removal and seeded simulation fixtures for Kibbles, Erin's heels and ordinary NPC. Fixture attributes and power values are provisional, not canon. Mastery, post-defeat internal resistance, multi-encounter persistence, complete combat action economy, and PvP authorization remain future work.
