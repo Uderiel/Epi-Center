@@ -30,3 +30,6 @@ Published `rebuild/hub/index.html` as an isolated v0.8.84 shell/layout baseline,
 
 ## v1.0.8 corrected final UI baseline
 Owner rejected v1.0.7 as earlier shell, not final v0.8.84 live feed. v1.0.8 reconstructs final v0.8.84 live feed, sticky action text entry, five quick-reference drawers, header and activity history in modular hub. Save slots remain device-local; no cross-device synchronization. New action submission records text only, without world resolution; do not claim legacy gameplay migrated. Owner acceptance pending.
+
+## v1.0.9 UI correction
+v1.0.8 rejected by owner: incorrect bottom tabs, no proper top drawers or persistent text-feed experience. v1.0.9 restores later v0.8.84 tab list, Play as default, top five reference drawers, and World/NPCs/Players/Form composer channels. Preserve slot storage; action submission currently logs only. Do not describe as complete legacy UI migration until owner accepts. Browser/device-local saves do not sync across devices.
