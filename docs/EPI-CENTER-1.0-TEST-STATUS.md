@@ -11,3 +11,8 @@ Version: **v1.0.4** (save-slot navigation owner accepted; character creation pen
 | Eve introduction and hub | Pending | Foundation preview only |
 
 Retest: open published title screen, create a new slot, use in-game Back, inspect that same slot without refreshing. If still stale, capture whether Back is the in-game button or Android system/browser back, plus displayed version number.
+
+## v1.0.5 pending acceptance
+- Appearance: 19 canonical regions restored, age/gender required, other regions optional — published, owner retest pending.
+- All three title save slots: owner passed in v1.0.4.
+- Character creation and Eve hub flow: owner testing not yet complete.
