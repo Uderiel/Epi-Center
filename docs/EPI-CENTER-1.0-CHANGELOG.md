@@ -70,3 +70,6 @@ Clickable compass markers for Cherished Touch NE and Central Hub SW; original Ce
 
 ## v1.0.19 — 2026-10-28
 Replaced special-case Path marker routing with shared OVERWORLD_ROUTES adjacency model. All discovered directly connected destinations display as clickable compass buttons, including Cherished Touch NE and Central Hub SW. Map tab unchanged per owner request. Original embedded Central Hub image can only display while player is at Hub; needs Android verification after return. Charity NPC interaction and recipient ID targeting preserved. Syntax checked; device testing pending.
+
+## v1.0.20 — 2026-10-28
+Owner confirmed Cherished Touch to Central Hub return, embedded Central Hub artwork display, and Eve's initial quest interaction on Android. Changed location image from fixed 105px cover/crop to natural aspect ratio with contain behavior, no maximum image height. Full image rendering pending owner verification. Advanced conversational NPC capability remains deferred.
