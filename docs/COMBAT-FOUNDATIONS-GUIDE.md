@@ -85,3 +85,11 @@ Status: approved design architecture; numeric buildup rates and resistance check
 - At threshold, resolve encounter-specific capture/transformation opportunity, not automatic permanent replacement of player attributes or advancement of free-roam stages.
 - At encounter end, discard temporary buildup tracks; persist only separately approved consequence records (e.g., temporary capture or influence), never implicit transformation-stage changes.
 - Resolve simultaneous sources, repeated attempts, protection duration and encounter-end cleanup deterministically; numerical balancing remains open.
+
+## Final encounter transformation resistance (approved 2026-10-28)
+Status: approved design; exact DC and reduction value provisional; no engine implementation yet.
+- When a source-target encounter-only transformation buildup track reaches its threshold (proposed 100), the defender receives a final resistance check before the encounter-specific transformation objective succeeds.
+- This final check is available even when the defender has already spent the normal reaction; it is a threshold safeguard, not a reaction ability.
+- On success, prevent the immediate transformation objective and reduce only that source-target buildup substantially; 50/100 is a provisional playtest reset value.
+- On failure, resolve the source's defined encounter-specific transformation consequence. Do not automatically advance persistent 23-stage free-roam transformation progress or replace base character attributes.
+- Resistance attribute, DC, modifiers, limits on repeated threshold checks, special immunity, simultaneous thresholds and subsequent escape/rescue rules remain to be approved.
