@@ -15,3 +15,10 @@ Phase 0: inventory current source/Pages/links; repair all entry routes and label
 Update master plan gate, this file, CHANGELOG, handoff and README; commit branch and main; verify Actions deployment and live route; give user version, link, commit, numbered expected-result checks; record user PASS/FAIL/UNTESTED verbatim.
 ## New-chat command
 "Continue Epi-Center. Read docs/DEVELOPMENT-MASTER-PLAN.md and docs/CURRENT-STATUS.md first, then handoff, changelog, README and code. Start with next unblocked dependency gate, protect saves and accepted v1.0.33 behavior, verify Pages/slot routing, and update all documents with real test evidence."
+
+## Standing conversation and handoff protocol (confirmed 2026-10-28)
+- Every substantive development reply must identify the accepted baseline, current dependency phase, exact change or analysis, verification status, known gaps, and next unblocked action. Always include the current playable link.
+- Every repository change must update the Master Plan gate, Current Status, Changelog, historical Handoff, and README build index as applicable; avoid gratuitous commits for conversational acknowledgments. If an update is not performed, explicitly state that fact.
+- Maintain four separate evidence statuses: implemented, committed/published, automated checks actually run, and user browser acceptance. Never infer a PASS from a source commit or a green Pages Action.
+- Before conversation limits, ensure pending commits and status/handoff are recorded. New chats must read the source-of-truth documents from GitHub, inspect actual code and branch, then continue the first unblocked gate rather than guessing from chat memory.
+- Preferred response shape: **Baseline → Current phase/dependency → Work performed → Verification (PASS/FAIL/UNTESTED) → Exact playable URL and commit → Documentation changes → Next step**. For planning-only answers, state no gameplay release.
