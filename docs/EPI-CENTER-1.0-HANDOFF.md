@@ -87,3 +87,6 @@ Owner approved separate Resolve, staged encasement with escape chances, encounte
 
 ## Standalone combat engine foundation
 rebuild/combat/engine.js exposes EpiCombat API and seeded simulate('kibbles'|'erinsHeels'|'ordinaryNpc',seed). Four resource bars per combatant and 10 attributes; rarity budgets provisional. Not loaded into Play UI. Defeat and mastery are distinct: losing form encounter never permanently bars mastery, and post-defeat internal resistance/escape must be supported in later persistence design. No automatic 23/23 transformation. Do not interpret fixture numbers as lore. Current prototype is single encounter only; needs action costs, status lifecycle, resistance from inside, mastery ledger, item-specific agency and PvP safety before live gameplay.
+
+## Combat foundation continuation
+Canonical combatant records now include identity and relationships; encounterSnapshot clones source records; outcomeRecord produces a separate record with appliedToPersistentState=false. Read docs/COMBAT-FOUNDATIONS-GUIDE.md for plain-language Guide and future Eve dialogue intents. Capture should permit Resolve recovery and mental saves; mastery possible after defeat/from within. No live consequences or dialogue implemented.
