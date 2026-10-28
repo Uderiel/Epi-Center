@@ -1,3 +1,8 @@
+## v1.0.34 — Phase 0 started; branch/detour policy
+- v1.0.33 relationship ±10 PASS is last accepted build. v1.0.34 source candidate fixes stale character-creation v1.0.28 completion route and aligns shared title/Hub version on main and rebuild branches. No save keys changed; deployment and manual acceptance still unverified.
+- Active gate: Phase 0 issue https://github.com/Uderiel/Epi-Center/issues/1 . User requests guided work and branch reminders; blocking corrections stay in current gate, unrelated enhancements become follow-up issues with explicit return-to-main-path.
+- Next acceptance: check Actions deployed commit, universal title → existing save, create in truly empty slot → Hub v=1.0.34, refresh, preserve other slots. Do not delete existing slots to create a test fixture.
+
 ## 2026-10-28 — Master-plan handoff / v1.0.33 accepted
 - User confirmed v1.0.33 relationship ±10 buttons PASS, after checking GitHub Actions deployment. Accepted baseline: v1.0.31 9/9 PASS, v1.0.32 5/5 PASS, v1.0.33 PASS. All older FAIL/UNTESTED annotations about those checks are superseded.
 - Established `docs/DEVELOPMENT-MASTER-PLAN.md` as authoritative dependency-ordered Phases 0–14, `docs/CURRENT-STATUS.md` as new-chat first-read checkpoint, and `CHANGELOG.md` as version ledger. README links them in reading order.
