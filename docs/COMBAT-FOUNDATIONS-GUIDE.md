@@ -101,3 +101,12 @@ Status: approved design rule, not implemented in the live encounter engine.
 - Do not let attacks automatically target the defender's weakest attribute, and do not allow unrestricted choice among all ten attributes.
 - Display both allowed attributes and current bonuses, including relevant conditions, in the mobile resistance prompt. Resolve one check using the selected attribute.
 - Meaningful choice can arise from ability-specific secondary consequences, resource costs and conditions, but exact modifiers, DCs, and numeric balancing are not yet approved.
+
+## Encased-player contested control proposal (2026-10-28)
+Status: design discussion; user proposed control checks and influence/arousal-scaled difficulty. Numeric DC and turn-action rules are NOT yet approved or implemented.
+- An encased player may have physical options restricted while Mental or Arousal resistance remains available.
+- At the encased player's turn, propose one control-resistance roll with an eligible Mental or Arousal attribute. Success reduces encasing-form influence and preserves the player's offensive action; failure lets the encasing form direct one offensive action for that turn, not the entire turn.
+- The player should retain visible status, combat log and eligible defense/escape actions. Encasing form must respect action eligibility and resource limits; control is temporary and contestable.
+- Influence percentage should be primary control difficulty driver; arousal percentage a smaller secondary modifier. Suggested playtest DC: 14 + 2*floor(influence/25) + (arousal>=75 ? 2 : arousal>=50 ? 1 : 0). This is PROVISIONAL; exact scaling, boundary at 100%, and base DC need approval.
+- Use selected ten-attribute modifier for the resistance roll; combat alignment percentages are descriptive, not substitute modifiers.
+- Open decisions: when influence increases, how much successful resistance removes, whether one roll covers both channels, how controlled offensive action is selected and resolved in multiplayer, and escape while encased.
