@@ -40,3 +40,6 @@ Corrected incomplete v1.0.7 UI baseline. Recreated final v0.8.84 live-play layou
 
 ## v1.0.9 — 2026-10-27
 Corrected final UI baseline navigation to Play, Map, Character, Equip, Items, Power, Settings and Builder; removed erroneous Encounter and Hub tabs. Added four Play composition channels World/NPCs/Players/Form, persistent draft, live feed and quick-reference drawers. Still a UI scaffold: messages are locally logged, not game-resolved. Owner acceptance pending.
+
+## v1.0.10 — 2026-10-27
+Corrected Play layout to keep text composer visible above mobile bottom navigation; scrollable feed occupies remaining space. Four composer selectors relabeled Location, NPC, Player, Form. Input and Send share a row. Owner UI review pending; no gameplay resolver added.
