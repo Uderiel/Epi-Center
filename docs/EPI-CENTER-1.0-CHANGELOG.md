@@ -55,3 +55,6 @@ Fixed Stats drawer canonical key mismatch: creation saves `Empathy / Insight` an
 
 ## v1.0.14 — 2026-10-28
 Renamed canonical attributes Empathy / Insight → Insight and Influence / Intimidation → Influence across character creation and Stats drawer. On opening existing saves, hub and character creation migrate legacy keys without losing values; if canonical key already exists, it takes precedence. Other eight attributes and descriptions unchanged. Both branches mirrored. Owner review pending.
+
+## v1.0.15 — 2026-10-28
+Android/browser Back closes open quick-reference drawers, otherwise returns non-Play tabs to Play, and guards Play against accidental browser back navigation. Drawer Back to Live Feed and backdrop taps close overlays. Settings includes explicit Log Out to title screen without deleting slot data. Syntax checked; owner Android verification pending.
