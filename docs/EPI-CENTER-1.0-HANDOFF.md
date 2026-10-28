@@ -21,3 +21,6 @@ Published `rebuild/character-creation/index.html` with canonical v0.8.84 19 appe
 
 ## v1.0.6 — 2026-10-27
 Owner reported full appearance spectrum not appearing in v1.0.5. Published explicit optional labels, descriptive anatomical hints, multiline input fields, and cache-busted title-to-creation navigation. Canonical 19 regions and saved keys retained. **Owner retest pending; not accepted.**
+
+## Owner-approved checkpoint — v1.0.6
+2026-10-27: Owner reports all six character-creation tests **PASS**. Preserve accepted save-slot behavior, canonical 19 appearance regions, optional anatomical inputs, 10 attributes/40 starting points, draft/review/finalization flow, and existing save keys. The hub remains a foundation preview; do not mistake character creation acceptance for full gameplay acceptance.
