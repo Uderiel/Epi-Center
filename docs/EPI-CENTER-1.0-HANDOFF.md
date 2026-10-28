@@ -66,3 +66,6 @@ Location NE of Central Hub. Exterior single-story clothing store, sign, display 
 
 ## v1.0.18 handoff
 Original hub art embedded; clickable NE/SW compass markers; Eve NPC targeting and First Steps reward flow; NPC dropdown uses entity IDs. Player dropdown currently local-only. Android validation pending.
+
+## v1.0.19 routing principle
+Path drawer uses a shared discovered, directly connected overworld adjacency model. Each accessible destination is a clickable compass marker. Central Hub SW from Cherished Touch must permit return; Cherished Touch NE from Hub after survey. Extend this same principle to Map tab later, not in v1.0.19. Test original Hub artwork only while physically at Hub. NPC selection and Charity discovery verified by owner at Cherished Touch.
