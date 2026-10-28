@@ -110,3 +110,12 @@ Status: design discussion; user proposed control checks and influence/arousal-sc
 - Influence percentage should be primary control difficulty driver; arousal percentage a smaller secondary modifier. Suggested playtest DC: 14 + 2*floor(influence/25) + (arousal>=75 ? 2 : arousal>=50 ? 1 : 0). This is PROVISIONAL; exact scaling, boundary at 100%, and base DC need approval.
 - Use selected ten-attribute modifier for the resistance roll; combat alignment percentages are descriptive, not substitute modifiers.
 - Open decisions: when influence increases, how much successful resistance removes, whether one roll covers both channels, how controlled offensive action is selected and resolved in multiplayer, and escape while encased.
+
+## Approved controlled-offense and archetype parity (2026-10-28)
+Status: user-approved design direction; not yet implemented in live combat.
+- When an encased player fails their Mental or Arousal control-resistance check, the encasing form may direct ONE eligible offensive action during that player's turn, including targeting the player's allies.
+- Control of that action is temporary; it does not grant control over the entire turn, defensive reactions, resistance choices, escape opportunities, or permanent allegiance.
+- The form-directed offensive action must respect the character's action economy, available resources, legal targets, and applicable conditions. Exact selection and multiplayer handling remain unresolved.
+- Physical, Mental, and Arousal specialties have distinct situational advantages and disadvantages across approach, containment, transformation buildup, influence struggle, and recovery; no archetype dominates all stages.
+- Specialty/Combat Alignment is a descriptive guideline derived from attribute allocation, not a restriction, override, or substitute for individual ten-attribute scores. Actual attributes, abilities, conditions, and rolls resolve actions.
+- Stage-based options are design goals, not free automatic bonuses; define concrete abilities and counters before implementation.
