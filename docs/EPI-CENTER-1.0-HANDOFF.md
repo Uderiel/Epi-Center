@@ -42,3 +42,6 @@ Based on owner-supplied paper layout and clarification: player attributes and he
 
 ## v1.0.12 owner feedback
 Android screenshot confirmed v1.0.11 fields load but exposed missing base meters and incorrect attributes. v1.0.12 reads lowercase attribute keys, seeds absent player baselines 100/100/0, normalizes `hub` to Central Hub, displays specified description and Eve. First Steps objective and 100 gold/50 EXP are informational only until quest logic is migrated. Existing slot keys unchanged; don't overwrite player values.
+
+## v1.0.13 attribute compatibility
+Never rename persisted creation keys without migration. Hub uses explicit display-name-to-save-key mapping, notably Empathy / Insight and Influence / Intimidation. Descriptions sourced from character-creation ATTR definitions. Syntax checked; owner verification pending.
