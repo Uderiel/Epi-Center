@@ -221,3 +221,10 @@ Status: user-approved world-design principles. Response-state names and implemen
 - Mission difficulty and reward/value should scale with threat, mission sequencing, location, number of stages, accumulated attrition and consequence severity, not merely single-fight stat inflation. Safe quests are direct, simpler, fewer stages; higher-reward missions can require longer, riskier sequences and repeated encounters.
 - Anti-speedrun design: allow earned efficiency from mastery/gear/tactics, but faction response, mission objectives and attrition provide sustainable challenge. Do not artificially equalize every party's win chance or secretly hard-counter its forms.
 - Follow-up design decisions to resolve: faction knowledge/evidence tracking, individual vs party reputation, alert escalation/de-escalation, retreat and recovery, cylinder relocation rules, route blockade counterplay, mission save/persistence, attrition and difficulty bands.
+
+## Approved: hybrid damage and explicit effect framework (2026-10-28)
+Status: design APPROVED by user; documentation only, not yet implemented in live combat.
+- Option C approved: ordinary attacks may roll damage dice plus applicable attributes/modifiers; authored abilities may instead use fixed values, percentages, buildup, conditions, or combinations.
+- Each ability explicitly defines its effect payload(s), resolution and applicable resources. Hit success does NOT automatically imply damage, arousal, transformation buildup, influence/control, capture or other conditions unless explicitly specified.
+- Shared ability/effect architecture must support Physical, Mental and Arousal combat, healing, protection, support, restraint, and non-damage objectives without requiring bespoke engines.
+- Still provisional/unresolved: exact damage formulas and scaling, mitigation, critical hits, effect ordering, duration/stacking, resource costs, target caps, and base passive defense (8 vs 10).
