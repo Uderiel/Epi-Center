@@ -2,6 +2,14 @@
 
 Updated: 2026-10-28. This is a living development handoff. Keep separate from the combat guide and do not claim an unverified deployment.
 
+## v1.0.29 — Dev QA implementation (2026-10-28)
+- Hub source updated to add a Dev tab, persistent save-scoped physical needs (hunger/bladder/fatigue initialized at 0), deterministic manual simulated minutes, resource deltas, and relationship selector. Eve is fixed neutral 0. Form drawer now displays needs and relationship controls; player physical needs persist without an equipped form.
+- Simulated time rates currently PROVISIONAL: hunger +1/60 min, bladder +1/30 min, fatigue +1/90 min. Historical canonical rates are not yet recovered. No wall-clock offline accumulation; no in-world bathroom or recovery action assumed.
+- Dev resource deltas are stored as overrides in devVitals.resources, not yet wired to the canonical combat engine/action economy. Do not call this integrated combat testing. The relationship target list uses currently discovered NPCs and available forms.
+- Source commits: hub 5a34a15, title screen ceea643, README index 1f4c0b9 (main mirror a421471).
+- Live Pages deployment and browser/mobile acceptance checks remain UNVERIFIED. Existing v1.0.28 link retained in README; v1.0.29 preview is listed with verification warning.
+- QA when live: 1) open title and continue slot; 2) Dev tab visible; 3) Form drawer shows 0 needs without form; 4) set hunger/bladder/fatigue independently; 5) advance 60 minutes and verify accrual; 6) simulate health/stamina/resolve loss and arousal gain; 7) select Eve, verify fixed 0; 8) reload and verify persisted values; 9) test a different slot remains independent; 10) verify older drawers/Path still work. Report Pass/Fail/Skip.
+
 ## Status
 - Active branch: rebuild/1.0-foundations. The main branch retains older legacy builds; do not merge wholesale.
 - Current phase: UI foundations, beginning with Player / original and current appearance. Kibbles encounter is the first planned integrated exploration/combat vertical slice, AFTER the tabs and state foundations work.
