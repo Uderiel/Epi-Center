@@ -6,7 +6,7 @@ Epi-Center multiplayer RPG prototype.
 
 | Version | Play / preview | Repository source | Status |
 |---|---|---|---|
-| **v1.0.34 — Phase 0 creation-route repair** | **[Open v1.0.34](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.34)** | [Creation source](https://github.com/Uderiel/Epi-Center/blob/main/rebuild/character-creation/index.html) | Code committed; Pages deployment and user acceptance pending |
+| **v1.0.34 — Phase 0 creation-route repair** | **[Open v1.0.34](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.34)** | [Creation source](https://github.com/Uderiel/Epi-Center/blob/main/rebuild/character-creation/index.html) | **USER ACCEPTED — 5/5 PASS** |
 | **v1.0.33 — Relationship ±10 controls** | **[Open v1.0.33](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.33)** | [Hub source](https://github.com/Uderiel/Epi-Center/blob/main/rebuild/hub/index.html) | **USER ACCEPTED — PASS** |
 | **v1.0.32 — Form & save refinements** | **[Open v1.0.32](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.32)** | [Hub source](https://github.com/Uderiel/Epi-Center/blob/main/rebuild/hub/index.html) | **USER ACCEPTED — 5/5 PASS** |
 | **v1.0.31 — Universal save-slot entry** | **[Open Epi-Center v1.0.31](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.31)** | [Title screen](https://github.com/Uderiel/Epi-Center/blob/main/rebuild/title-screen/index.html) · [Hub](https://github.com/Uderiel/Epi-Center/blob/main/rebuild/hub/index.html) | **USER ACCEPTED — 9/9 PASS** |
