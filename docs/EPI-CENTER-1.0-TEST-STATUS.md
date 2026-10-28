@@ -87,3 +87,6 @@ Hub JavaScript syntax PASS. Journal tab and drawer navigation implemented; Andro
 
 ## v1.0.25
 Hub inline JavaScript syntax PASS. Resolve resource migration and Stats drawer rendering implemented; no Android or full browser test yet. Combat victory/mastery not implemented.
+
+## Standalone combat engine foundation
+Three seeded simulations executed without UI (seed 42): Kibbles physical defeat, Erin's heels successfully removed, ordinary NPC physical defeat. Deterministic JavaScript evaluation passed. No browser integration, property tests, full balancing, persistence, or live player controls. No new public UI version for engine-only module.
