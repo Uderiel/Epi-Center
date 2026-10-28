@@ -2,6 +2,13 @@
 
 Updated: 2026-10-28. This is a living development handoff. Keep separate from the combat guide and do not claim an unverified deployment.
 
+## v1.0.30 — Acceptance failure repair (2026-10-28)
+- User results for v1.0.29: #1 PASS title/slots, #2 PASS hub/path, #3 UNTESTED (Dev not present), #4 FAIL (Form needs displayed Not recorded/no bars), #5–#9 UNTESTED.
+- Root cause found: later render() else-chain overwrote Dev content with generic placeholder. Corrected explicit Dev branch in final screen dispatch.
+- Form drawer now displays initialized physical-body needs even with no form, plus numerical 0–100 progress meters for hunger, bladder, fatigue and health/stamina/resolve/arousal; Stats drawer resource bars also added. No destructive save migration.
+- v1.0.30 hub commit 8aa3e73; title-screen 5e48fa7; README rebuild 2c0a867; main e2a9b38. Browser acceptance pending; historical accrual rates remain provisional.
+- Regression checklist: existing slot/title, Hub/Path, visible Dev tab and controls, Form needs all 0/100 with bars, numeric combat resources, time advancement, manual deltas, Eve relationship 0, reload persistence, slot isolation.
+
 ## v1.0.29 — Dev QA implementation (2026-10-28)
 - Hub source updated to add a Dev tab, persistent save-scoped physical needs (hunger/bladder/fatigue initialized at 0), deterministic manual simulated minutes, resource deltas, and relationship selector. Eve is fixed neutral 0. Form drawer now displays needs and relationship controls; player physical needs persist without an equipped form.
 - Simulated time rates currently PROVISIONAL: hunger +1/60 min, bladder +1/30 min, fatigue +1/90 min. Historical canonical rates are not yet recovered. No wall-clock offline accumulation; no in-world bathroom or recovery action assumed.
