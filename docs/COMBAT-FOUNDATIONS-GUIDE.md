@@ -32,3 +32,6 @@ Suggested future dialogue intents: `combat.basics`, `combat.resources`, `combat.
 
 ## Developer references
 `rebuild/combat/engine.js`: `combatant`, `encounterSnapshot`, `savingThrow`, `act`, `victory`, `outcomeRecord`, `simulate`. Prototype fixtures: Kibbles, Erin's heels, ordinary NPC. Current combat actions and numbers remain provisional and should not be treated as final balancing.
+
+## Automatic combat alignment
+No player or form chooses a specialization manually. Physical = Fitness + Endurance + Reflexes + 0.5 Intuition; Mental = Willpower + Reasoning + Stability + 0.5 Insight; Arousal = Influence + Presence + Insight + 0.5 Intuition. Each score divided by the sum of all three scores gives its percentage. Equal leaders are Hybrid, all-zero is Unassigned. Alignment measures allocation, not raw combat power. The Character screen and Stats drawer show a three-segment alignment bar and score breakdown. Future form/NPC/cursed-object profiles use the same function. Matchup modifiers remain provisional.
