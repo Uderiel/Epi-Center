@@ -58,3 +58,6 @@ Renamed canonical attributes Empathy / Insight → Insight and Influence / Intim
 
 ## v1.0.15 — 2026-10-28
 Android/browser Back closes open quick-reference drawers, otherwise returns non-Play tabs to Play, and guards Play against accidental browser back navigation. Drawer Back to Live Feed and backdrop taps close overlays. Settings includes explicit Log Out to title screen without deleting slot data. Syntax checked; owner Android verification pending.
+
+## v1.0.16 — 2026-10-28
+Cherished Touch northeast of Central Hub discoverable by Path survey, travel NE/SW through Path, location description from owner-provided details, Charity discovered only upon direct interaction (Path button or NPC-channel addressing Charity). Cherished Touch discovered quests remain empty; Access Tunnel A excluded from this overworld route. Starter quest full acceptance/completion not yet implemented. Owner Android acceptance pending.
