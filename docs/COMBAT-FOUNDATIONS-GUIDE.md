@@ -235,3 +235,11 @@ Status: user-approved design; documentation only, no live engine changes.
 - Physical protection, Mental resilience, and Arousal resistance are separate mitigation categories. Transformation-specific resistance/protection remains explicitly identifiable and is not automatically covered by arousal resistance.
 - Mitigation primarily arises from forms, equipment, conditions, and authored abilities, rather than duplicating the attributes that already increase passive defense. Every effect defines which mitigation applies; protection does not universally prevent unrelated effects, control, capture, or buildup.
 - Still to decide: flat versus proportional reduction, stacking and penetration, minimum damage, multi-effect mitigation order, protection durability and exceptions.
+
+## Approved: hybrid mitigation and ordering (2026-10-28)
+Status: user-approved design; documentation only, not implemented in live combat.
+- After attack resolution, apply only mitigation applicable to each explicitly authored effect.
+- Hybrid mitigation supports flat damage reduction, percentage reduction, and effect-specific protection (e.g. transformation buildup or control where defined).
+- Apply flat reduction FIRST, then percentage reduction; floor remaining ordinary damage to an integer and clamp minimum to zero. Example: 30 Physical damage, 5 flat reduction, 20% reduction => floor((30-5)*0.8)=20 damage.
+- A protection against Physical damage does not automatically prevent Mental/Arousal damage, transformation buildup, control, capture or other separate effects.
+- Numeric amounts, stacking/caps, penetration, minimum damage exceptions, mitigation durability, and multiple simultaneous protection interactions remain unresolved pending tests.
