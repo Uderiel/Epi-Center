@@ -75,3 +75,6 @@ Hub JavaScript syntax PASS. Owner confirmed v1.0.18 Charity dialogue and NPC dis
 
 ## v1.0.20
 JavaScript syntax PASS. Owner Android-confirmed v1.0.19 return route, image visibility, Eve quest interaction. v1.0.20 full aspect-ratio image adjustment awaits Android visual verification. No headless browser tests run.
+
+## v1.0.21
+JavaScript syntax PASS. Full-screen artwork viewer implemented; not yet Android tested. User reported v1.0.20 image still not full size.
