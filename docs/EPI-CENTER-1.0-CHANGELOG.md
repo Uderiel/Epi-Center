@@ -25,3 +25,6 @@
 
 ## v1.0.6 — 2026-10-27
 Owner reported full appearance spectrum not appearing in v1.0.5. Published explicit optional labels, descriptive anatomical hints, multiline input fields, and cache-busted title-to-creation navigation. Canonical 19 regions and saved keys retained. **Owner retest pending; not accepted.**
+
+## v1.0.6 acceptance — 2026-10-27
+Owner reports all six character-creation tests passed. Marked v1.0.6 character-creation milestone accepted. Documentation-only acceptance update; no gameplay changes.
