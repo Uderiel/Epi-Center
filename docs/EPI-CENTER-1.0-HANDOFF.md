@@ -93,3 +93,6 @@ Canonical combatant records now include identity and relationships; encounterSna
 
 ## v1.0.26 alignment
 Specialization is calculated, not chosen. Physical Fitness+Endurance+Reflexes+0.5 Intuition; Mental Willpower+Reasoning+Stability+0.5 Insight; Arousal Influence+Presence+Insight+0.5 Intuition. Percentages from three-score total. Character and Stats display alignment. Engine helper available for forms/NPCs/items; individual profiles not yet authored. No manual specialization override.
+
+## v1.0.27 UI
+combatAlignmentMarkup renders native details/summary for accessible tap-to-expand alignment, closed by default. No custom event listener or save mutation. Applies to both Character and Stats drawer.
