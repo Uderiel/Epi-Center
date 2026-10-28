@@ -52,3 +52,6 @@ Corrects saved hub identifier `hub` to display `Central Hub` in Play, Location a
 
 ## v1.0.13 — 2026-10-28
 Fixed Stats drawer canonical key mismatch: creation saves `Empathy / Insight` and `Influence / Intimidation`, not `Insight` and `Influence`. All ten expandable attribute descriptions now match character creation's approved definitions. Existing saves preserved; no migration or value overwrite. Owner review pending.
+
+## v1.0.14 — 2026-10-28
+Renamed canonical attributes Empathy / Insight → Insight and Influence / Intimidation → Influence across character creation and Stats drawer. On opening existing saves, hub and character creation migrate legacy keys without losing values; if canonical key already exists, it takes precedence. Other eight attributes and descriptions unchanged. Both branches mirrored. Owner review pending.
