@@ -72,3 +72,6 @@ Path drawer uses a shared discovered, directly connected overworld adjacency mod
 
 ## v1.0.20 image presentation
 Original Central Hub art now renders full width at intrinsic aspect ratio, without cover cropping or fixed 105px viewport. Owner confirmed earlier travel return, image presence, and Eve interaction. Full-frame Android confirmation pending. NPC conversational AI deferred.
+
+## v1.0.21 image viewer
+Owner still saw incomplete artwork after v1.0.20. Added unconstrained full-ratio inline image and tappable full-screen viewer with Close. Preserve legacy JPEG exactly. Await Android verification.
