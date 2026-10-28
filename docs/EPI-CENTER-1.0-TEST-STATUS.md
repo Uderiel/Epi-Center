@@ -43,3 +43,8 @@ Owner reported full appearance spectrum not appearing in v1.0.5. Published expli
 ## v1.0.10 — pending owner acceptance
 - Fixed composer placement, scrollable live feed, Location/NPC/Player/Form controls.
 - Published to main and rebuild branch. Android screen appearance not verified; no accepted UI baseline yet.
+
+## v1.0.11 — awaiting Android owner review
+- Diagram-driven Play structure, fixed composer, recipient input, drawers and attribute ownership code committed on main and mirrored to rebuild branch.
+- No owner acceptance or runtime Android verification yet.
+- Remaining unconnected: game-time engine, location art, quest journal, directional travel and world/NPC action resolution.
