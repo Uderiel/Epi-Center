@@ -22,3 +22,6 @@
 - Replaced simplified appearance inputs with the canonical v0.8.84 identity fields and 19 anatomical regions (23 inputs including measurements).
 - Age and starting gender required; remaining anatomical details optional. Drafts and prior values preserved.
 - Published to main and rebuild branch; Android owner verification pending.
+
+## v1.0.6 — 2026-10-27
+Owner reported full appearance spectrum not appearing in v1.0.5. Published explicit optional labels, descriptive anatomical hints, multiline input fields, and cache-busted title-to-creation navigation. Canonical 19 regions and saved keys retained. **Owner retest pending; not accepted.**
