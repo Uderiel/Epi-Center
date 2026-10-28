@@ -28,3 +28,9 @@ Owner reported full appearance spectrum not appearing in v1.0.5. Published expli
 - Published on main and mirrored to rebuild branch.
 - Ready-slot navigation and character confirmation redirected to hub scaffold; **not yet owner-tested**.
 - Full legacy gameplay logic intentionally absent; redesign and systems migration to follow owner approval.
+
+## v1.0.8 pending owner test
+- Live feed, persistent action draft, sticky composer, five reference drawers and UI layout published.
+- User confirmed apparent empty slots arose from testing on a different device, not verified deletion.
+- v1.0.7 UI baseline rejected; v1.0.8 corrected baseline **not yet accepted**.
+- Action resolver, world persistence and full v0.8.84 gameplay not yet connected.
