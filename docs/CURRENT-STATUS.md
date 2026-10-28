@@ -1,3 +1,7 @@
+## v1.0.34 acceptance update — 2026-10-28
+- **Last user-accepted build is now v1.0.34: 5/5 PASS.** User verified title lists existing saves, Continue enters Hub, fresh character creation routes to Hub v=1.0.34, reload retains character, and another slot remains unchanged. Supersedes earlier v1.0.34 acceptance-pending notes below.
+- Phase 0 remains IN PROGRESS. Next: immutable release artifacts/snapshots, development save isolation, reproducible automated route checks and rollback proof. No new gameplay release in this documentation update.
+
 ## Active Phase 0 checkpoint — v1.0.34 candidate
 - v1.0.33 remains last user-accepted build. v1.0.34 source committed on both branches: fixed character-creation header and completion route from v1.0.28 to v1.0.34, aligned title and Hub version/entry routes. No save key changes. Pages deployment and browser acceptance PENDING.
 - Phase 0 issue: https://github.com/Uderiel/Epi-Center/issues/1 . Remaining Phase 0 work: immutable releases, save isolation, release/route tests, rollback proof.
