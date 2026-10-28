@@ -76,3 +76,6 @@ Owner confirmed Cherished Touch to Central Hub return, embedded Central Hub artw
 
 ## v1.0.21 — 2026-10-28
 Owner reports v1.0.20 Central Hub artwork still not fully displayed. Force responsive full-aspect image without height constraints; add tap-to-open full-screen overlay with Close control. Preserve original embedded JPEG, navigation and saves. Syntax passed, Android verification pending.
+
+## v1.0.22 — 2026-10-28
+Screenshot from owner showed Central Hub artwork still shallow/cropped and no v1.0.21 full-image caption. Original embedded JPEG dimensions verified at 1100x733 (3:2). Explicitly enforced intrinsic 1100/733 aspect ratio on artwork button and image, removed height limits and overflow clipping, added visible v1.0.22 image caption to identify loaded build. Android retest pending.
