@@ -34,3 +34,8 @@ Owner reported full appearance spectrum not appearing in v1.0.5. Published expli
 - User confirmed apparent empty slots arose from testing on a different device, not verified deletion.
 - v1.0.7 UI baseline rejected; v1.0.8 corrected baseline **not yet accepted**.
 - Action resolver, world persistence and full v0.8.84 gameplay not yet connected.
+
+## v1.0.9 — Owner retest required
+- v1.0.8 interface explicitly rejected.
+- v1.0.9 updated bottom tabs, removed Encounter, default Play view, top drawers, channel selector and persistent draft/live feed.
+- Source published on main and mirrored to rebuild branch; visual and functional owner acceptance **pending**.
