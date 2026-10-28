@@ -1,3 +1,6 @@
+## Encounter outcome contract — Chunk 1 (2026-10-28)
+- Added `rebuild/combat/encounter-contract.js` on main and rebuild branches. Pure, standalone outcome record: separate tactical result, objective result, per-participant freedom, consequences and available actions, events, and `appliedToPersistentState:false`. Validates enumerated states and unique participant IDs. No gameplay UI, save mutation, mastery, transformation-stage or faction behavior changed. **Source committed; automated execution/browser validation and user acceptance not claimed.** Next chunk: map both combat prototype outcome shapes into this contract without changing rules, then decide the first post-encounter continuation rules with owner.
+
 ## Evidence reconciliation — 2026-10-28
 - Confirmed v1.0.31 9/9, v1.0.32 5/5, v1.0.33 PASS, v1.0.34 5/5 PASS from recorded handoff. Prior assistant incorrectly proposed re-testing these accepted simulation/UI/persistence checks. Source still routes Dev resource values through `save.devVitals`; canonical action integration remains unproven, not failed. Next inspect current action dispatcher/form resolver, then implement first real gameplay action cost/time effect. No new gameplay version published by this note.
 
