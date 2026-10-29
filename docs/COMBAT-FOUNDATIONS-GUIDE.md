@@ -397,3 +397,12 @@ Status: OWNER-APPROVED DESIGN, NOT IMPLEMENTED OR BALANCE-TESTED. This section s
 - Transformation margin bands and anatomical importance; multi-contact/spread rules; region/equipment thresholds; reversal amounts and limits.
 - Partial encasement penalty scaling; transition into composite combatant; internal-resistance timing and multiplayer targeting; voluntary cooperation permissions by relationship/mastery; release/escape persistence.
 - Engine state representation and shared action ownership across partial/full absorption; event log schema and live-feed narration rendering; save-safe outcome integration.
+
+## Owner clarification — encounter exemplars and template boundaries (2026-10-28)
+Status: APPROVED CANON/DESIGN clarification; not gameplay implementation.
+- Liquid Latex Panthers are uncommon SPECIALIZED single-captive encasement/absorption entities, personal pets of the Countess. A Panther is STRICTLY an encasing creature: do NOT add a separate slime-splash/contact-transformation attack or multi-target goo transformation to its abilities. Previous examples suggesting it could do both are hypothetical only and do not describe Panther canon.
+- Other entities MAY combine encasement and independent transformation attacks, but only if explicitly authored case by case. Never infer abilities merely from source type or a generic template.
+- Erin is an NPC with rich descriptions/autonomy and a cursed red-heels transformation source; she is not the default combat-form example. Existing Erin descriptions are a starting point for NPC template fields, not proof of a universal completed template.
+- Kibbles is a candidate weak Common combat form and useful basic combat fixture; exact authored abilities/stats remain to be reconciled.
+- The Latex Dungeon is established earlier playable/lore content and a candidate first meaningful hostile encounter. World Bible describes its original Discord dominance/submission test and possible goth latex form outcomes; encounter logic and opponent must be recovered/verified from legacy sources rather than invented.
+- Reconciliation priority: inspect original Latex Dungeon/Erin/Kibbles definitions and current prototype records, then propose smallest concrete shared authoring schema; keep exceptional Panther mechanics separate from basic combat fixture.
