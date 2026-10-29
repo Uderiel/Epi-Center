@@ -1,3 +1,7 @@
+
+## v1.0.35 encounter UI development candidate
+- Development branch only: Play mounts a guarded encounter field when an active encounter exists. **Not published or user accepted**; v1.0.34 remains the playable baseline. Actions intentionally disabled pending combat dispatcher integration. Earlier build links retained.
+
 # Epi-Center
 
 Epi-Center multiplayer RPG prototype.
