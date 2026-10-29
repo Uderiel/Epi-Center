@@ -1,3 +1,7 @@
+
+## 2026-10-29 — v1.0.35 encounter field integration candidate
+- User-approved sketch implemented as responsive guarded encounter field, mounted in Play after live feed; existing command input remains. Main/Minor/Reaction/Inventory tabs, target selector, resources, conditions and transformation display. Submit/Surrender is a Main action. No encounter is spawned, and buttons are disabled until canonical action engine, cost validation and persistence are wired. Source commits c6f7f96, 60d8d7f, ead08fe on rebuild/1.0-foundations. No automated browser tests, Pages deployment or user acceptance claimed. Last accepted gameplay v1.0.34. Next: validate actual HTML mounting and connect deterministic Kibbles action dispatcher, then test and publish.
+
 ## Owner clarification — combat development direction (2026-10-28; discussion, NOT implementation authorization)
 - Owner clarified workflow: proactively maintain an active record of productive discussion and implemented systems, inform owner what is being logged, and ask for unresolved design decisions before changing mechanics. Do not mistake a request to discuss a chunk for approval to implement it.
 - Encounter outcome structures are universal templates/contracts; authored NPC/form/hostile entity, location, cursed item, faction and quest encounters require scenario-specific actions, consequences and continuation. Extend the v0.8.84-style reusable content templates with common development stages, not one universal outcome script.
