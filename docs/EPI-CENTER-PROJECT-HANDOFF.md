@@ -1,3 +1,8 @@
+## Publication verified — v1.0.35 (2026-10-29)
+**Published and ready for owner manual acceptance.** Gameplay source: development commit `1040efc142a40b0890422a0aae9f862acf1de1e2`; release commit `830c94fe8539e99250a1b62ad2e0f81fd481069f`. GitHub Pages [run 535](https://github.com/Uderiel/Epi-Center/actions/runs/40975427952) completed **success**. Live title displays v1.0.35; live new-character creation routes to Hub v1.0.35; Kibbles starts, Basic Attack resolves through the engine, stamina changes to 96, enemy Health to 68, round advances to 2, and refresh preserves that state. No site-origin console errors observed. Local Chrome: 31/31 checks. Pure adapter: 12/12 cases, entity assertions and script syntax pass. Phone-sized local and desktop-sized live layouts inspected. Physical-device/manual owner acceptance remains pending. This publication evidence supersedes all publication-pending statements below.
+
+[Play v1.0.35](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.35). Open Play → **Encounter Kibbles**. See the numbered manual checklist below and release validation document. Gameplay files are unchanged by this evidence-only update.
+
 ## v1.0.35 — integrated Kibbles encounter (2026-10-29)
 This checkpoint supersedes the earlier guarded UI candidate and stale next-work instructions below. Last user-accepted baseline: **v1.0.34, 5/5**. Current build: **v1.0.35**, automated validation complete; manual owner acceptance pending. Development branch: `rebuild/1.0-foundations`; GitHub Pages serves `main`.
 
