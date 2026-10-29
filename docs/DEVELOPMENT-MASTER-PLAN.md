@@ -1,3 +1,7 @@
+
+## 2026-10-29 — v1.0.35 encounter field integration candidate
+- User-approved sketch implemented as responsive guarded encounter field, mounted in Play after live feed; existing command input remains. Main/Minor/Reaction/Inventory tabs, target selector, resources, conditions and transformation display. Submit/Surrender is a Main action. No encounter is spawned, and buttons are disabled until canonical action engine, cost validation and persistence are wired. Source commits c6f7f96, 60d8d7f, ead08fe on rebuild/1.0-foundations. No automated browser tests, Pages deployment or user acceptance claimed. Last accepted gameplay v1.0.34. Next: validate actual HTML mounting and connect deterministic Kibbles action dispatcher, then test and publish.
+
 ## Encounter outcome contract — Chunk 1 (2026-10-28)
 - Added `rebuild/combat/encounter-contract.js` on main and rebuild branches. Pure, standalone outcome record: separate tactical result, objective result, per-participant freedom, consequences and available actions, events, and `appliedToPersistentState:false`. Validates enumerated states and unique participant IDs. No gameplay UI, save mutation, mastery, transformation-stage or faction behavior changed. **Source committed; automated execution/browser validation and user acceptance not claimed.** Next chunk: map both combat prototype outcome shapes into this contract without changing rules, then decide the first post-encounter continuation rules with owner.
 
