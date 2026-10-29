@@ -425,3 +425,9 @@ Status: OWNER-APPROVED DESIGN; not implemented. Supersedes any suggestion that n
 - Kibbles remains attached to already encased regions. Moving does not remove it, stop its legal actions or reset transformation. Choosing movement over attacking/resisting has a tactical cost: Kibbles may advance its encasement/transformation through its legal opportunities while the player seeks other players' or NPCs' help. Do not infer a free automatic transformation increment solely from choosing Move; precise triggering and progression timing need design.
 - Usable legs and actual restraint determine movement eligibility; encased hands alone do not make the player immobile. Reaching a populated street creates opportunities for help but does not itself resolve the encounter or dislodge Kibbles. Preserve encounter state across local tile and eventual location-boundary transitions.
 - Combat authoring requirements: encounter-local tile topology and exits; legal adjacent movement; Main/Minor usage; mobility based on anatomy; opponent action/progression timing; persistent attachment and intervention hooks. No playable combat/pathing integration has yet been made.
+
+## Approved encounter movement timing — no bonus encasement trigger (2026-10-28)
+Status: OWNER-APPROVED DESIGN; not implemented.
+- Moving to an adjacent encounter tile is a Main action; normal Path navigation remains unavailable in combat. Movement does NOT automatically trigger a separate extra encasement/transformation advancement or a bonus roll merely because Move was selected.
+- Kibbles advances its encasement on its normal initiative turn through legal actions and through any specifically eligible, previously authored Reactions. Its already-attached regions persist while player moves. Do not double-charge movement with an invented free encasement tick.
+- Exact movement distances, attack/reaction triggers, progression numbers and exit transitions still require authored design and testing.
