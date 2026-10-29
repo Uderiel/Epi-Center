@@ -1,3 +1,6 @@
+## v1.0.35 — integrated Kibbles encounter
+[Play v1.0.35](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.35). Automated local validation: **31/31 Chrome browser checks**, **12/12 deterministic adapter tests**, existing entity rules pass. Publication verification recorded in release handoff after deployment; owner acceptance pending. Existing save slots unchanged. Start with **Encounter Kibbles** in Play. Last accepted baseline: v1.0.34. See [current release evidence](docs/releases/v1.0.35-validation.md).
+
 
 ## v1.0.35 encounter UI development candidate
 - Development branch only: Play mounts a guarded encounter field when an active encounter exists. **Not published or user accepted**; v1.0.34 remains the playable baseline. Actions intentionally disabled pending combat dispatcher integration. Earlier build links retained.
