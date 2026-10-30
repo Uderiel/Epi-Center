@@ -1,6 +1,6 @@
 # Kibbles combat and AI — owner decisions
 
-Status: approved design decisions, not yet implemented in the v1.0.40 fixture. Continue defining this checklist step in batches of up to ten questions, without re-asking rules already in the guide. The initial-contact priorities and separation of moves were already documented; the owner reiterated them rather than introducing a new mechanic.
+Status: implemented in the v1.0.41 enemy AI candidate; automated validation passed, owner manual acceptance pending. This does not complete wearable restoration or post-defeat continuation. Continue defining this checklist step in batches of up to ten questions, without re-asking rules already in the guide. The initial-contact priorities and separation of moves were already documented; the owner reiterated them rather than introducing a new mechanic.
 
 ## Confirmed
 
@@ -21,11 +21,17 @@ Status: approved design decisions, not yet implemented in the v1.0.40 fixture. C
 
 Guide testing baselines: Grapple 10 STA, Skin Wrap 12 STA in the current fixture, Wriggle Free Minor 8 STA, Analyze Minor 4 RES, Resist Mental Minor 6 RES, Physical recovery Main +12 STA with Reaction forfeited and unused Minor retained. Preserve source labels distinguishing accepted baseline costs from unapproved damage/DC/defense formulas. The owner has approved the applicable physical-defense category; a universal new passive-defense formula is not implied.
 
-## Remaining detail for this step
+## Confirmed Reactions and implemented policy
 
-Main attack values, opening variety, detachment re-eligibility, escape fallback timing, randomized retry cycles and Stamina floor/recovery target are approved above. Hidden AI decision rolls are separate from attack/save rolls displayed in the live feed. Exact random seed/state must persist across saves to prevent reload rerolls.
+- Quick Sidestep: 8 STA, +3 physical defense against one incoming physical attack, no separate dodge roll. The owner delegated this numerical choice to implementation judgment.
+- Counterbite: 10 STA, its own Fitness attack roll for 12 Health damage; does not cancel incoming damage. It may retaliate after a hit or miss, provided Kibbles remains capable and head encasement is exactly zero.
+- Before attachment, select 50/50 when both reactions are legal and affordable. After any earned attachment/contact, autonomous movement reactions are unavailable until all attachment is removed. A free head can still Counterbite while another body region is attached.
+- One enemy Reaction per round. Physical recovery forfeits it until the next enemy turn. Recovery mode/reserve planning prevents reactive spending from consuming the 32-point reserve plus the next Main budget. Hidden decisions use the encounter's serialized RNG, not a new random source on reload.
+- The current close-range fixture retains DC 14, plus authored Sidestep/guard modifiers. This is not approval of a new universal passive-defense formula. Existing player Counter Attack's 8-damage fixture remains distinct from the newly approved enemy Counterbite.
 
-Next define enemy Reaction use: Quick Sidestep/Counterbite eligibility and effects, reaction selection, and evasion while physically tethered. The guide previously proposed 8 STA Sidestep / 10 STA Counterbite as form moves; do not silently claim the enemy already uses them or treat unapproved reaction damage/defense bonuses as settled.
+Main attack values, opening variety, detachment re-eligibility, escape fallback timing, randomized retry cycles, Stamina floor/recovery target and enemy reaction behavior are now implemented/testable. Natural senses remain passive; Analyze is the explicit once-per-encounter information action.
+
+Broader unfinished checklist items remain: post-defeat continuation/internal mastery routes, player physical-transformation resistance/peeling actions, mastered Equip/appearance overlay restoration, form-specific playable moves, routines/habits/preferences, and world encounter quest/location. Synthetic detachment tests prove AI re-eligibility without claiming the not-yet-authored peeling interface exists.
 
 Do not reopen mastery, will-based unequip, no zipper/seam, base-profile preservation or approved head/hands targeting while resolving this AI step. Kibbles routines, habits/preferences and alternate internal mastery paths are separate later checklist work.
 
