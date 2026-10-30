@@ -1,3 +1,8 @@
+## v1.0.36 — publication verified, manual retest ready
+GitHub Pages [deployment succeeded](https://github.com/Uderiel/Epi-Center/actions/runs/40978265016) for release commit `d4190b7b97cb75f9ab10644bec5e5b1bc677b3a6`; development implementation commit `91f1c017b71b95229fdd66b0364c52cf5643dbe3` on `rebuild/1.0-foundations`. Live title identifies v1.0.36; an existing live v1.0.35 character resumed with its previous encounter resources and Minor usage intact. Verified live Strong Attack → locked Main / automatic Reaction → reload still locked → enemy full dice card → review / Begin next turn. No live site-origin console errors observed. Automated local evidence: 38/38 browser assertions, 18/18 adapter cases; entity assertions and all entrypoint/module syntax checks pass. [Play v1.0.36](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.36).
+
+Owner testing remains pending; v1.0.35 was blocked by interface feedback, and broader acceptance tests were not completed. Retest the specific interface/turn checks below first. Publication-pending language below is superseded by this record. This evidence-only update does not change gameplay files. Phone preview evidence: `docs/releases/images/v1.0.36-phone.jpg` (390×780, same tested source; direct live combat also separately verified).
+
 ## v1.0.36 — encounter layout, turn boundaries and roll feed correction
 Owner acceptance of v1.0.35 was **blocked**, not completed: buttons worked, but the encounter field obscured the feed, did not match the supplied sketch, and consecutive turns were indistinguishable. Last accepted gameplay baseline remains v1.0.34. This correction follows the attached 4207.jpg design.
 
