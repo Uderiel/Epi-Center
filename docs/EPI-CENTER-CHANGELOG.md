@@ -1,3 +1,12 @@
+## v1.0.40 — text input pinned to the Play viewport
+Owner correction: the text input must remain fixed at the bottom of Play regardless of scrolling. Composer/channel/recipient/Send controls are viewport-fixed above compact mobile navigation (desktop: bottom of content viewport). Artwork, feed and encounter resources can scroll independently without moving the composer. Its measured height reserves a workspace row, including expanded NPC/player recipient controls, so the feed and combat actions do not sit underneath it at the full workspace position. ResizeObserver is disconnected/rebound on each render. Android-compatible viewport metadata requests content resizing when the software keyboard opens; physical-phone keyboard acceptance remains pending.
+
+Validation: 22 focused browser checks pass in ordinary Play and active combat at 390×780, 360×640 and desktop: fixed position across actual artwork/feed/resource scrolling, measured recipient expansion, no feed/dock/navigation overlap at the full workspace, draft persistence/reload, Send to feed, and combat layout. Scroll-wheel animations required checking settled position rather than immediately sampled offsets; browser checks were rerun after confirming the actual scroll. 34/34 deterministic combat cases plus entity assertions pass; all entrypoint scripts compile and diff whitespace checks pass. No site-origin errors observed (extension metadata errors excluded). Save schema/three slot keys, character attributes/resources and combat rules unchanged. Tests use an isolated local QA fixture and do not alter production player slots. Earlier version results remain historical, not claimed as rerun.
+
+Manual acceptance pending: scroll the full artwork into/out of view, scroll feed and encounter details, and confirm text input stays above bottom navigation; type with the phone keyboard, change channel/recipient, send, and reload a draft. Production verification is recorded in the release validation file after deployment. Screenshot: releases/images/v1.0.40-phone.jpg.
+
+[Play v1.0.40](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.40).
+
 ## v1.0.39 — compact navigation and Dev-only encounter access
 Creation age range is reduced from 18–120 to **18–90** (label, numeric maximum and validation). Existing saved characters are not rewritten.
 
