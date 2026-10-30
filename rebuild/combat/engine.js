@@ -8,7 +8,7 @@ function createEncounter(d){const units=d.combatants.map(combatant);if(units.len
 const get=(s,id)=>{const x=s.units.find(u=>u.id===id);if(!x)throw Error('Unknown '+id);return x;};
 function roll(s,u,attribute,bonus=0){const natural=1+Math.floor(clamp(s.rng(),0,0.999999999)*20);return {natural,total:natural+(u.attributes[attribute]||0)+bonus};}
 function savingThrow(s,id,attribute,dc,bonus=0){const r=roll(s,get(s,id),attribute,bonus);return {...r,dc,success:r.natural===20||(r.natural!==1&&r.total>=dc)};}
-function initiative(s){if(s.round)throw Error('Already started');s.order=s.units.map(u=>({id:u.id,total:roll(s,u,'Reflexes').total})).sort((a,b)=>b.total-a.total||a.id.localeCompare(b.id)).map(x=>x.id);s.round=1;return s.order;}
+function initiative(s){if(s.round)throw Error('Already started');s.initiativeRolls=s.units.map(u=>({id:u.id,attribute:'Reflexes',...roll(s,u,'Reflexes')}));s.order=[...s.initiativeRolls].sort((a,b)=>b.total-a.total||a.id.localeCompare(b.id)).map(x=>x.id);s.round=1;return s.order;}
 function current(s){if(!s.round)initiative(s);return get(s,s.order[s.turn]);}
 function condition(u,id,delta=1,cap=3){let c=u.conditions.find(x=>x.id===id);if(!c){c={id,stacks:0};u.conditions.push(c);}c.stacks=clamp(c.stacks+delta,0,cap);if(!c.stacks)u.conditions=u.conditions.filter(x=>x!==c);return c.stacks;}
 function change(u,key,delta){u.resources[key]=clamp(u.resources[key]+delta,0,u.max[key]);}
