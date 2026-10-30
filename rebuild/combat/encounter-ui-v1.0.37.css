@@ -11,3 +11,5 @@ body.combat-active .main{overflow-y:auto;overscroll-behavior-y:contain;scrollbar
 body.combat-active{overflow:hidden}
 body.combat-active .shell{height:100dvh;min-height:0;overflow:hidden}body.combat-active .layout{min-height:0;overflow:hidden}
 .ec-body{grid-template-rows:minmax(44px,1fr) max-content}@media(max-width:720px) and (max-height:680px){body.combat-active .ec-encounter{max-height:52dvh}.ec-controls{padding:4px 8px}.ec-encounter-tabs{margin-bottom:3px}.ec-archetype{margin:2px 0}.ec-budget{margin-top:4px!important}}
+@media(max-width:720px) and (min-height:681px){body.combat-active .ec-encounter{max-height:52dvh}}
+@media(max-width:720px) and (min-height:681px){body.combat-active .ec-body{max-height:calc(52dvh - 42px)}}
