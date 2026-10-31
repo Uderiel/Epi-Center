@@ -1,5 +1,5 @@
 {
-  "passed": 35,
+  "passed": 36,
   "checks": [
     "Full legacy appearance overlay and original archive",
     "Form resources use saved pools and maxima",
@@ -35,6 +35,7 @@
     "Small phone combat has no horizontal overflow",
     "Small phone combat retains visible feed above pinned input",
     "Post-mastery release clears stale partial-body projection",
-    "Human speech and Eve dialogue return after mastery release"
+    "Human speech and Eve dialogue return after mastery release",
+    "Canine help arrival narrates gestures rather than human words"
   ]
 }
