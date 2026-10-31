@@ -1,0 +1,41 @@
+{
+  "version": "1.0.45",
+  "standard": [
+    1100,
+    733
+  ],
+  "assets": [
+    {
+      "gender": "male",
+      "path": "rebuild/hub/assets/kibbles-male-photo-v2.jpg",
+      "dimensions": [
+        1100,
+        733
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "2a45fc30080b061afb02fbea39daafdeece5f80c44fca44865c9532b705e80a4",
+      "source_sha256": "4f84fb7d40876fafd239a150b2cd03071d532d0be47a225b2fadd555c286ff94",
+      "method": "Built-in image_gen edit of previous portrait; landscape garden expansion preserving identity and seated pose; final export at Central Hub dimensions",
+      "reference": "rebuild/hub/assets/kibbles-male-photo-v1.jpg"
+    },
+    {
+      "gender": "female",
+      "path": "rebuild/hub/assets/kibbles-female-photo-v2.jpg",
+      "dimensions": [
+        1100,
+        733
+      ],
+      "source_dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "f3765b5bc10301d96d706a385f70c919bc32850d3b0c8c31f687d55290462bbf",
+      "source_sha256": "662e4cd0ce4aa4da40fa7d2a1d06dd653e5fed4e11ef5f147a43e76514a2fbb2",
+      "method": "Built-in image_gen edit of previous portrait; landscape garden expansion preserving identity and seated pose; final export at Central Hub dimensions",
+      "reference": "rebuild/hub/assets/kibbles-female-photo-v1.jpg"
+    }
+  ]
+}
