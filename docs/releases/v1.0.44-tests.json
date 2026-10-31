@@ -1,0 +1,27 @@
+[
+  {
+    "suite": "play-encounter",
+    "result": "PASS",
+    "summary": "34 / 34 tests passed"
+  },
+  {
+    "suite": "kibbles-ai",
+    "result": "PASS",
+    "summary": "38 / 38 AI tests passed"
+  },
+  {
+    "suite": "kibbles-form",
+    "result": "PASS",
+    "summary": "21 / 21 form/help tests passed"
+  },
+  {
+    "suite": "kibbles-presentation",
+    "result": "PASS",
+    "summary": "27 / 27 presentation/text tests passed"
+  },
+  {
+    "suite": "entity-rules",
+    "result": "PASS",
+    "summary": "entity rules: all assertions passed"
+  }
+]

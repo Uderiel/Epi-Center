@@ -1,0 +1,24 @@
+{
+  "version": "1.0.44",
+  "method": "Built-in image_gen, exact existing outputs",
+  "assets": [
+    {
+      "gender": "male",
+      "path": "rebuild/hub/assets/kibbles-male-photo-v1.jpg",
+      "sha256": "891de1fbf2119d6e2f8ddeb8f7589d5ed7bc4ff43616bea722f81770ea01406d",
+      "source": "Exact photorealistic image presented in preceding conversation turn",
+      "pose": "Sitting on hind haunches; head tilted left, perked ears and alert eyes",
+      "source_png_sha256": "42af7156c41c79d1e1e8346095f44277ddaa82e8cec56dc3e30739617a61c688",
+      "encoding": "Optimized JPEG quality 95 from original generated PNG; composition and dimensions unchanged"
+    },
+    {
+      "gender": "female",
+      "path": "rebuild/hub/assets/kibbles-female-photo-v1.jpg",
+      "sha256": "b6c88cfe2a641ede719d24a4f055222f59efd76bfe16d232a571b0b15d4b6588",
+      "source": "Exact photorealistic image presented in preceding conversation turn",
+      "pose": "Sitting on hind haunches; head tilted right, tongue out and floppy ears",
+      "source_png_sha256": "136e0ab4a8bd2b893cbfb9ae1da63d5cbf2e2ebb903a300aac78e85f8c11904e",
+      "encoding": "Optimized JPEG quality 95 from original generated PNG; composition and dimensions unchanged"
+    }
+  ]
+}

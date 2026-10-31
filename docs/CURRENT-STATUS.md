@@ -1,3 +1,18 @@
+## v1.0.44 — realistic Kibbles previews and gender-based dimensions
+
+Equip now shows both previously presented photorealistic German Shepherd portraits before one-time identity saving. Clicking a photo selects its gender; the select control also updates the highlighted photo and live preview summary. Preview is temporary until Save. Once saved, the shared Kibbles profile supplies the matching photo automatically in Equip, Appearance, Character and the Form drawer. Existing saved male/female identities adopt the new photo and measurements on load without asking players to rename their form.
+
+Representative adult dimensions are **male: 25 inches at the shoulder, 77.5 lbs; female: 23 inches at the shoulder, 60 lbs**. These are range midpoints, not measured population means: published ranges are male 24–26 inches / 65–90 lbs and female 22–24 inches / 50–70 lbs ([Purina breed reference](https://www.purina.com/dogs/dog-breeds/german-shepherd-dog); AKC height standard agrees). Shared profiles also update body-inspection replies and form-information fields. Original human appearance, resource pools, attributes, combat rules, permanent identity and save keys are preserved.
+
+Validation: **120/120 deterministic cases** (34 adapter, 38 AI, 21 form/help, 27 presentation/text), entity assertions, all combat modules/HTML entrypoint script compilation and whitespace checks PASS. Focused browser QA passed with disposable preview Slots 1 and 3: both photo choices visible/loaded; card and select synchronization; male/female saves and photographs; numeric current-body fields; saved identity/reload; Character and Form portrait propagation; release restores human dimensions and hides active canine portrait; re-equip restores saved female photo. Preview screenshot width 485px. No observed site-origin errors (extension metadata errors excluded). Prior browser counts are historical, not claimed as rerun.
+
+Manual acceptance after publication:
+1. Equip → mastered Kibbles with no saved identity: preview both photos by tapping them or changing gender; save the chosen name/gender once.
+2. Equip and inspect Appearance, Character and Play → Form; confirm the matching realistic photo and height/weight.
+3. Reload, release and re-equip; confirm identity/photo persist and original human appearance returns on release. Already-saved identities update automatically.
+
+[Play v1.0.44](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.44). Art custody: docs/releases/v1.0.44-art-assets.json. Release checks: docs/releases/v1.0.44-tests.json. Screenshot: docs/releases/images/v1.0.44-female.jpg. Publication verification is appended to the release validation record after deployment.
+
 ## v1.0.43 — paired appearance, permanent Kibbles identity and restored text cases
 
 Owner acceptance from v1.0.42: equip/profile/techniques, underlying restoration, unmastered release gate, treat consumption and seek-help test passed. Appearance presentation and Dev feedback required correction. Those passed mechanics are retained; this candidate addresses the reported display/text issues and the newly requested one-time identity setup.
