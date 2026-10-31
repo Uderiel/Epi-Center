@@ -1,0 +1,16 @@
+{
+  "version": "1.0.43",
+  "method": "Built-in image_gen",
+  "use": "Matching current-form / Equip portraits",
+  "assets": [
+    {
+      "path": "rebuild/hub/assets/kibbles-female-v1.png",
+      "prompt": "Use case: stylized-concept. Asset: Epi-Center RPG current-form portrait, landscape 3:2. Full-body adult female German Shepherd dog, natural four-pawed stance, turned three-quarter to camera, alert intelligent expression, upright ears, black saddle and tan coat, fluffy tail, realistic canine proportions, slightly finer head and lighter frame. Polished semi-realistic digital game illustration, detailed fur, soft cool rim light, muted dark navy studio background with subtle teal ambient glow. Entire dog visible including paws and ears, centered with breathing room. Natural ordinary dog, no clothing, no collar, no props, no humanoid anatomy, no emphasized genital detail, no text or watermark. Match the same restrained composition, camera height, lighting and palette for a male/female portrait pair."
+    },
+    {
+      "path": "rebuild/hub/assets/kibbles-male-v1.png",
+      "prompt": "Use case: stylized-concept. Asset: Epi-Center RPG current-form portrait, landscape 3:2. Full-body adult male German Shepherd dog, natural four-pawed stance, turned three-quarter to camera, alert intelligent expression, upright ears, black saddle and tan coat, fluffy tail, realistic canine proportions, slightly broader head and sturdier frame. Polished semi-realistic digital game illustration, detailed fur, soft cool rim light, muted dark navy studio background with subtle teal ambient glow. Entire dog visible including paws and ears, centered with breathing room. Natural ordinary dog, no clothing, no collar, no props, no humanoid anatomy, no emphasized genital detail, no text or watermark. Match the same restrained composition, camera height, lighting and palette for a male/female portrait pair."
+    }
+  ],
+  "note": "Portraits depict ordinary adult German Shepherds. Gender selection changes the matching portrait and body template, not combat numbers. No existing image was overwritten."
+}
