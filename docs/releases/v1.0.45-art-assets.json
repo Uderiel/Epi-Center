@@ -19,7 +19,8 @@
       "sha256": "2a45fc30080b061afb02fbea39daafdeece5f80c44fca44865c9532b705e80a4",
       "source_sha256": "4f84fb7d40876fafd239a150b2cd03071d532d0be47a225b2fadd555c286ff94",
       "method": "Built-in image_gen edit of previous portrait; landscape garden expansion preserving identity and seated pose; final export at Central Hub dimensions",
-      "reference": "rebuild/hub/assets/kibbles-male-photo-v1.jpg"
+      "reference": "rebuild/hub/assets/kibbles-male-photo-v1.jpg",
+      "prompt": "Use case: identity-preserve. Edit this male German Shepherd photograph for an edge-to-edge landscape game image. Expand the garden naturally to left and right and recompose as a LANDSCAPE image at 1100 by 733 pixels (approximately 3:2 horizontal), matching the game's Central Hub image. Preserve this dog's photorealistic identity, classic coat, seated-on-hind-haunches pose, head tilted left, perked ears and curious alert eyes. Full dog visible from ears to front paws, centered, filling most of the image height with small margins. Natural soft garden background must fill every pixel to all four edges; no black bars, blank margins, frame or text. Keep real-looking photographic fur and lighting; no animation, illustration or new objects."
     },
     {
       "gender": "female",
@@ -35,7 +36,8 @@
       "sha256": "f3765b5bc10301d96d706a385f70c919bc32850d3b0c8c31f687d55290462bbf",
       "source_sha256": "662e4cd0ce4aa4da40fa7d2a1d06dd653e5fed4e11ef5f147a43e76514a2fbb2",
       "method": "Built-in image_gen edit of previous portrait; landscape garden expansion preserving identity and seated pose; final export at Central Hub dimensions",
-      "reference": "rebuild/hub/assets/kibbles-female-photo-v1.jpg"
+      "reference": "rebuild/hub/assets/kibbles-female-photo-v1.jpg",
+      "prompt": "Use case: identity-preserve. Edit this female German Shepherd photograph for an edge-to-edge landscape game image. Expand the garden naturally to left and right and recompose as a LANDSCAPE image at 1100 by 733 pixels (approximately 3:2 horizontal), matching the game's Central Hub image. Preserve this dog's photorealistic identity, classic coat, seated-on-hind-haunches pose, head tilted right, tongue out, floppy ears and curious happy expression. Full dog visible from ears to front paws, centered, filling most of the image height with small margins. Natural soft garden background must fill every pixel to all four edges; no black bars, blank margins, frame or text. Keep real-looking photographic fur and lighting; no animation, illustration or new objects."
     }
   ]
 }
