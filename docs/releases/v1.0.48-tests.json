@@ -1,0 +1,61 @@
+{
+  "suites": [
+    {
+      "suite": "rebuild/combat/kibbles-form.test.js",
+      "status": "PASS",
+      "summary": "21 / 21 form/help tests passed"
+    },
+    {
+      "suite": "rebuild/combat/kibbles-ai.test.js",
+      "status": "PASS",
+      "summary": "38 / 38 AI tests passed"
+    },
+    {
+      "suite": "rebuild/combat/kibbles-presentation.test.js",
+      "status": "PASS",
+      "summary": "27 / 27 presentation/text tests passed"
+    },
+    {
+      "suite": "rebuild/combat/play-encounter.test.js",
+      "status": "PASS",
+      "summary": "34 / 34 tests passed"
+    },
+    {
+      "suite": "rebuild/combat/entity-rules.test.js",
+      "status": "PASS",
+      "summary": "entity rules: all assertions passed"
+    },
+    {
+      "suite": "rebuild/hub/hub-world.test.js",
+      "status": "PASS",
+      "summary": "17 / 17 Hub world cases passed"
+    },
+    {
+      "suite": "rebuild/hub/world-clock.test.js",
+      "status": "PASS",
+      "summary": "14 / 14 clock/art cases passed"
+    }
+  ],
+  "browser": {
+    "status": "PASS",
+    "checks": [
+      "96 mapped locations visible from Spire and NE alley",
+      "Distant selection does not travel; explicit adjacent Map travel returns to feed",
+      "North park has all eight legal routes including diagonals",
+      "Cherished Touch north of NE park; no direct Spire jump",
+      "Actual NE Alley (1) to (4); no adjacent shop destinations",
+      "Position/time persists on reload",
+      "No absent Eve recipient in alley",
+      "First Steps once-only rewards: gold137 exp58 one Journal entry",
+      "Original 63/41/52 resources retained through travel and quest",
+      "Path eight destinations disabled during combat; Map Travel also disabled",
+      "360px fit map299x556;1100px fit782x572;96nodes;no page overflow",
+      "2x and3x zoom enlarge inside scroller"
+    ],
+    "limits": [
+      "Owner manual acceptance pending",
+      "No new shop/quest/encounter interiors authored",
+      "Extension metadata errors excluded; no observed site-origin errors"
+    ]
+  }
+}

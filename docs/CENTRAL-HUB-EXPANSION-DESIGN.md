@@ -1,5 +1,9 @@
 # Central Hub expansion — owner design, October 31, 2026
 
+## November 1 owner correction — v1.0.48
+
+The newer [96-location district sheet](CENTRAL-DISTRICT-MAP-DESIGN.md) supersedes the former spokes/ring-only travel restriction below. All occupied adjacent locations now connect, including diagonals, except direct alley/building transitions. Map shows the full district; Path remains the local compass. Cherished Touch is north of Central Hub NE in the new sheet. This release implements mapped travel access, with detailed new location content still pending. The sheet does not assign Kibbles' encounter location or confirm a complete authored Kibbles route. All reminder prerequisites below remain unchecked.
+
 Status: nine-area Map/Path/location foundation implemented in v1.0.46; wider Kibbles route, quests and later mechanisms remain pending. Source: [owner handwritten plan 4221.jpg](design-references/central-hub-expansion-4221.jpg). This document preserves the supplied design; unresolved details below must not be silently invented.
 
 ## Required work order and reminders

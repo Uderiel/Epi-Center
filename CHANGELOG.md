@@ -1,3 +1,15 @@
+## v1.0.48 — full district Map and adjacent diagonal travel
+
+Implemented the owner's 4248.jpg layout as 96 locations on an 11×11 grid: the nine Hub areas, four main street arms, Outerloop Road, twelve named buildings and four six-section alleys. Map shows every mapped location regardless of distance, with Fit whole map / 2× / 3× controls and selectable location details. Reference-sheet numbers are internal only; street/alley segment names retain their authored segment suffixes. Path shows all legal adjacent moves including diagonals. Blank cells remain impassable; alleys connect to their own passages and street exits, with no direct alley-to-building travel in either direction.
+
+Cherished Touch is now north of Central Hub NE per this sheet; First Steps instructions follow Spire → NE park → north to Cherished Touch and return. Existing store IDs, saves, Charity and once-only quest rewards are preserved. New buildings have mapped travel access and explicit pending-content descriptions; no shop inventories, quests or new NPC schedules were invented. Existing Hub day/night art and eight-minute travel remain. NPC recipients outside Hub/Charity locations no longer offer an absent Eve.
+
+Validation: **151/151 deterministic cases** plus entity assertions PASS, Hub module and three entrypoint inline-script compilation PASS. Browser QA passed for whole-map visibility, distant selection without teleport/time cost, 2×/3× zoom, N-park diagonal routes, actual alley progression and blocked building entry, new-location reload, absent NPC filtering, and Map/Path combat travel locks. Whole-map fit has 96 nodes and no horizontal page overflow at 360px and 1100px; fit map widths 299px and 782px. First Steps accepted/reported/repeated-report: gold 37→137, EXP 8→58, one completed Journal entry; resources stay 63/41/52. No observed site-origin errors; extension metadata errors excluded. Disposable local Slot 1 used.
+
+Manual acceptance: open the bottom Map tab and compare all areas to the sheet; use zoom/select a distant location; from Central Hub N test a diagonal move; enter an alley and confirm neighboring shops cannot be entered directly; reload your position. Owner acceptance remains pending.
+
+[Play v1.0.48](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.48). Source/custody: docs/CENTRAL-DISTRICT-MAP-DESIGN.md; evidence: docs/releases/v1.0.48-validation.md and docs/releases/images/v1.0.48-map.jpg. This is the mapped district/travel foundation. **Kibbles' canonical encounter placement, full authored quest route, Eve's Kibbles quest assignment/details/tasks and later influence behavior remain unconfirmed/pending; neither reminder milestone is satisfied.** Mastered Kibbles cannot override player intentions.
+
 ## v1.0.47 — full map names, shared world clock and Hub day/night artwork
 
 Map tiles now show the same full names as Path (for example **Central Hub NW** and **Central Hub Spire**). Removed the owner-reference numbers from player-visible tiles; internal reference numbering and Path geography remain unchanged.
