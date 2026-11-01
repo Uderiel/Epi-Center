@@ -1,3 +1,29 @@
+## v1.0.46 — nine-area Central Hub map and connected parks
+
+Replaced the placeholder Map tab with the supplied numbered 3×3 Hub layout: NW/N/NE, W/Spire/E, SW/S/SE. Players start at **Central Hub Spire**. Eight outward paths and a neighboring-park ring use one shared geography module for Map, Path, location details and travel validation. Map highlights the current tile and directly reachable destinations; distant tiles cannot teleport the player. Travel returns to Play and logs direction/location in the feed.
+
+Added the eight peaceful grassy park locations, four benches at corners/six on cardinals, landscaping, night lamps and Eve hologram descriptions. Inspect surroundings from Location/Path or the Location text channel to find the inward-pointing circular covers; NE correctly points SW. A single saved squirrel moves among the peripheral parks and becomes locally known when found by inspection. Cylinder activation/return mechanics and Easter Egg/Elizabeth quest interactions remain pending.
+
+Cherished Touch remains northeast beyond the NE park: **Spire → Central Hub NE → Cherished Touch**, with the reverse route returning through NE. Survey preserves existing store discovery behavior, and legacy saves already inside the store gain a valid return route even if the old discovery flag is missing. Existing `Central Hub`/`hub` starting locations migrate in place to Spire; save keys, character data, Kibbles identity/resources and other progress remain intact. First Steps instructions follow the expanded route; report to Eve at the Spire still awards 100 gold/50 EXP exactly once and retains Journal completion. Existing Spire artwork is retained; parks do not reuse it as misleading location art. New Hub artwork remains a later task under the 1100×733 standard.
+
+Validation: **131/131 deterministic cases** (120 prior combat/form/text cases + 11 Hub geography/migration cases), entity assertions, JavaScript/entrypoint compilation and whitespace checks PASS. Focused browser checks passed: legacy Hub/store migration; all nine positions; full outer-ring walk; Map/Path travel returning to feed; NE cover inspection; store/Charity/out-and-back; First Steps acceptance/report/repeated report/Journal; reload position and visited parks; all Map travel disabled during combat. The quest audit confirmed gold 37→137, EXP 8→58, one Journal entry after repeated report, unchanged 63 Health/41 Stamina/52 Resolve and preserved Rex/male identity. Grid has no horizontal overflow at 360px (291px grid) and 1100px (778px grid) embedded layouts. Browser extension metadata errors excluded; no observed site-origin errors. QA uses disposable local Slot 1, not production saves.
+
+Manual acceptance:
+1. Continue an existing character: old Central Hub becomes Central Hub Spire; open Map and verify the numbered compass layout.
+2. Tap a park, inspect Location/Path, then use the ring to an adjacent park and return to Spire; check the feed and reload.
+3. Survey, travel NE to Central Hub NE, then NE to Cherished Touch; return SW twice. Existing First Steps can still be reported to Eve once at the Spire.
+4. Inspect the NE park for its SW-pointing cover; test Map on phone and confirm encounter travel stays blocked.
+
+[Play v1.0.46](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.46). Evidence: `docs/releases/v1.0.46-tests.json`, `docs/releases/images/v1.0.46-map.jpg`. Owner source and remaining work: `docs/CENTRAL-HUB-EXPANSION-DESIGN.md`. **The full route to Kibbles is not complete; Eve's Kibbles quest setup and the later influence/relationship/communication design remain gated.** Existing milestone reminders must not fire from this immediate-Hub expansion alone.
+
+## Central Hub expansion intake — October 31, 2026
+
+Owner's nine-area Hub design and original handwritten reference are preserved in [CENTRAL-HUB-EXPANSION-DESIGN.md](CENTRAL-HUB-EXPANSION-DESIGN.md). Eight park areas surround the central Spire; the sheet specifies benches, landscaping, lamps, hidden directional cylinder slots, a roaming squirrel, NPC/quest notes and a conditional Easter Egg quest. The Hub replacement image is pending and must follow the 1100×733 artwork standard. Exact travel edges and the onward Kibbles route remain to be designed.
+
+Required sequence: **build locations and complete the path to Kibbles → return to Eve's Kibbles quest giver/details/tasks → design Kibbles influence, relationship gains/damage and communication**. Two daily milestone condition watches are enabled and should notify only when their respective prerequisites are complete. The existing starter quest does not satisfy the Kibbles quest milestone. Mastered Kibbles retains player intent.
+
+Documentation-only intake; existing v1.0.45 gameplay remains unchanged. See the design document's milestone checklist and unresolved implementation details. No new gameplay build or test claim.
+
 ## v1.0.45 — full-frame landscape Kibbles photographs
 
 Recomposed both realistic German Shepherd photographs into landscape scenes and exported each at **1100 × 733 pixels**, exactly matching the decoded Central Hub image. Male remains seated with left head tilt, upright ears and alert eyes; female remains seated with right head tilt, floppy ears and tongue out. The garden fills the entire canvas. Active game references now use versioned `kibbles-male-photo-v2.jpg` and `kibbles-female-photo-v2.jpg` so cached portrait files are replaced automatically for existing saved genders. Historical assets remain for custody.
