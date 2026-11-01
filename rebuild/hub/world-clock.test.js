@@ -1,0 +1,16 @@
+const assert=require('node:assert/strict'),C=require('./world-clock'),A=require('./hub-art'),W=require('./hub-world');let count=0;function test(n,f){f();count++;console.log('PASS '+n);}const at=minutes=>({worldClock:{version:1,minutes,elapsed:0}});
+test('new clock starts Day 1 at 09:00',()=>{const s={};assert.equal(C.label(s),'Day 1 · 09:00');assert.equal(C.phase(s),'day');});
+test('06:59 night and exactly 07:00 day',()=>{const s=at(419);assert.equal(C.phase(s),'night');C.advance(s,1);assert.equal(C.phase(s),'day');assert.equal(C.label(s),'Day 1 · 07:00');});
+test('18:59 day and exactly 19:00 night',()=>{const s=at(1139);assert.equal(C.phase(s),'day');C.advance(s,1);assert.equal(C.phase(s),'night');});
+test('midnight advances day and remains night',()=>{const s=at(1439);C.advance(s,1);assert.equal(C.label(s),'Day 2 · 00:00');assert.equal(C.phase(s),'night');});
+test('long advance spans multiple days with measured elapsed minutes',()=>{const s={};C.advance(s,3000);assert.equal(C.label(s),'Day 3 · 11:00');assert.equal(C.view(s).elapsed,3000);});
+test('legacy Erin shared clock transfers without character or resource changes',()=>{const s={erin817:{day:4,clock:21,minute:13},combatResources:{health:17},forms:{kibbles:{name:'Rex'}}};C.ensure(s);assert.equal(C.label(s),'Day 4 · 21:13');assert.equal(s.combatResources.health,17);assert.equal(s.forms.kibbles.name,'Rex');});
+test('existing simulated minutes become offset once without repeating on reload',()=>{let s={devVitals:{minutes:120}};assert.equal(C.label(s),'Day 1 · 11:00');C.advance(s,8);s=JSON.parse(JSON.stringify(s));C.ensure(s);assert.equal(C.label(s),'Day 1 · 11:08');assert.equal(C.view(s).elapsed,128);});
+test('formatted game time migrates without double counting developer minutes',()=>{const s={hub:{gameTime:'Day 2 · 18:40'},devVitals:{minutes:5}};assert.equal(C.label(s),'Day 2 · 18:40');});
+test('opening and reading a clock never advances it',()=>{const s={};for(let i=0;i<100;i++){C.label(s);C.phase(s);C.view(s);}assert.equal(C.label(s),'Day 1 · 09:00');assert.equal(C.view(s).elapsed,0);});
+test('reject negative nonfinite fractional and excessive advances atomically',()=>{for(const n of [-1,NaN,Infinity,1.5,100001]){const s={};assert.throws(()=>C.advance(s,n));assert.equal(s.worldClock,undefined);}});
+test('zero minutes cannot add elapsed time or change artwork phase',()=>{const s=at(1139);C.advance(s,0);assert.equal(C.phase(s),'day');assert.equal(C.view(s).elapsed,0);});
+test('temporary legacy measures remain explicit constants',()=>{assert.deepEqual(C.COSTS,{travel:8,inspect:1,dialogue:2,survey:5,wait:60});});
+test('all nine IDs map to eighteen distinct day and night panels',()=>{const paths=new Set();for(const n of W.nodes)for(const phase of ['day','night'])paths.add(A.path(n.id,phase));assert.equal(paths.size,18);assert.equal(A.WIDTH,1100);assert.equal(A.HEIGHT,733);});
+test('west east center and old Hub alias map to correct pictures',()=>{assert.equal(A.path('Central Hub W','day'),'assets/hub/day/hub-w-v1.jpg');assert.equal(A.path('Central Hub E','night'),'assets/hub/night/hub-e-v1.jpg');assert.equal(A.path('Central Hub','day'),A.path(W.SPIRE,'day'));assert.equal(A.path('Cherished Touch','day'),null);});
+console.log(`${count} / ${count} clock/art cases passed`);

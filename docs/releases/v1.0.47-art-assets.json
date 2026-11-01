@@ -1,0 +1,347 @@
+{
+  "version": "1.0.47",
+  "method": "Deterministic extraction of owner-supplied day/night collages; separator gutters excluded; aspect-preserving crop and export, no generated or repainted content",
+  "grid": [
+    [
+      "NW",
+      "N",
+      "NE"
+    ],
+    [
+      "W",
+      "Spire",
+      "E"
+    ],
+    [
+      "SW",
+      "S",
+      "SE"
+    ]
+  ],
+  "assets": [
+    {
+      "location": "Central Hub NW",
+      "phase": "day",
+      "path": "rebuild/hub/assets/hub/day/hub-nw-v1.jpg",
+      "dimensions": [
+        1100,
+        733
+      ],
+      "source_file": "01-4243.png",
+      "source_sha256": "43e244b76558522593d464f2e9c0c77acca9145b94ce0b7a0261ce4377519582",
+      "crop_box": [
+        0,
+        0,
+        494,
+        311
+      ],
+      "sha256": "83582d3ce467fbf6b5ff11d9320f2f86a54e6b8b2b48ab5842ff950abbcc0292"
+    },
+    {
+      "location": "Central Hub N",
+      "phase": "day",
+      "path": "rebuild/hub/assets/hub/day/hub-n-v1.jpg",
+      "dimensions": [
+        1100,
+        733
+      ],
+      "source_file": "01-4243.png",
+      "source_sha256": "43e244b76558522593d464f2e9c0c77acca9145b94ce0b7a0261ce4377519582",
+      "crop_box": [
+        501,
+        0,
+        1034,
+        311
+      ],
+      "sha256": "35b8222c75a41a2c11c5be5a8c55cfd1d81bbccf8aec527c08576474e56f18e1"
+    },
+    {
+      "location": "Central Hub NE",
+      "phase": "day",
+      "path": "rebuild/hub/assets/hub/day/hub-ne-v1.jpg",
+      "dimensions": [
+        1100,
+        733
+      ],
+      "source_file": "01-4243.png",
+      "source_sha256": "43e244b76558522593d464f2e9c0c77acca9145b94ce0b7a0261ce4377519582",
+      "crop_box": [
+        1041,
+        0,
+        1536,
+        311
+      ],
+      "sha256": "f6a1f40def7949dc30e61bedd12406627033092cde41d195d2411e12defcdd52"
+    },
+    {
+      "location": "Central Hub W",
+      "phase": "day",
+      "path": "rebuild/hub/assets/hub/day/hub-w-v1.jpg",
+      "dimensions": [
+        1100,
+        733
+      ],
+      "source_file": "01-4243.png",
+      "source_sha256": "43e244b76558522593d464f2e9c0c77acca9145b94ce0b7a0261ce4377519582",
+      "crop_box": [
+        0,
+        317,
+        400,
+        689
+      ],
+      "sha256": "3d8eac5572d6cad9a0f4e40c7deb507a49adb25b43ae8f36e52c55126ea4522f"
+    },
+    {
+      "location": "Central Hub Spire",
+      "phase": "day",
+      "path": "rebuild/hub/assets/hub/day/hub-spire-v1.jpg",
+      "dimensions": [
+        1100,
+        733
+      ],
+      "source_file": "01-4243.png",
+      "source_sha256": "43e244b76558522593d464f2e9c0c77acca9145b94ce0b7a0261ce4377519582",
+      "crop_box": [
+        407,
+        317,
+        1113,
+        689
+      ],
+      "sha256": "ea0beb186a57d60225929e89f9567a4d49f4f3492c4dffa2c4ae01f2acc50b0c"
+    },
+    {
+      "location": "Central Hub E",
+      "phase": "day",
+      "path": "rebuild/hub/assets/hub/day/hub-e-v1.jpg",
+      "dimensions": [
+        1100,
+        733
+      ],
+      "source_file": "01-4243.png",
+      "source_sha256": "43e244b76558522593d464f2e9c0c77acca9145b94ce0b7a0261ce4377519582",
+      "crop_box": [
+        1119,
+        317,
+        1536,
+        689
+      ],
+      "sha256": "1dce2045e39a7a04e3b7515ce611b906b9d687c4a0b22b34a0b69997d9c6ad43"
+    },
+    {
+      "location": "Central Hub SW",
+      "phase": "day",
+      "path": "rebuild/hub/assets/hub/day/hub-sw-v1.jpg",
+      "dimensions": [
+        1100,
+        733
+      ],
+      "source_file": "01-4243.png",
+      "source_sha256": "43e244b76558522593d464f2e9c0c77acca9145b94ce0b7a0261ce4377519582",
+      "crop_box": [
+        0,
+        696,
+        494,
+        1024
+      ],
+      "sha256": "8845e0a2093f802f84fb94d39e99eabaa710153cf191a98950c5038fecfc1916"
+    },
+    {
+      "location": "Central Hub S",
+      "phase": "day",
+      "path": "rebuild/hub/assets/hub/day/hub-s-v1.jpg",
+      "dimensions": [
+        1100,
+        733
+      ],
+      "source_file": "01-4243.png",
+      "source_sha256": "43e244b76558522593d464f2e9c0c77acca9145b94ce0b7a0261ce4377519582",
+      "crop_box": [
+        501,
+        696,
+        1034,
+        1024
+      ],
+      "sha256": "7358cc7d0f0e9e231857f2212c99f548ac74dc8164986285546565eb4c3598f3"
+    },
+    {
+      "location": "Central Hub SE",
+      "phase": "day",
+      "path": "rebuild/hub/assets/hub/day/hub-se-v1.jpg",
+      "dimensions": [
+        1100,
+        733
+      ],
+      "source_file": "01-4243.png",
+      "source_sha256": "43e244b76558522593d464f2e9c0c77acca9145b94ce0b7a0261ce4377519582",
+      "crop_box": [
+        1041,
+        696,
+        1536,
+        1024
+      ],
+      "sha256": "53c05262edd7cbbf4fef03eb32e959c831d0c95b5618d18cee22daad906a7b3d"
+    },
+    {
+      "location": "Central Hub NW",
+      "phase": "night",
+      "path": "rebuild/hub/assets/hub/night/hub-nw-v1.jpg",
+      "dimensions": [
+        1100,
+        733
+      ],
+      "source_file": "02-4242.png",
+      "source_sha256": "99238ff79cdf35bfdb3785913993112c6893172328875317dc5878e4220227cb",
+      "crop_box": [
+        0,
+        0,
+        495,
+        310
+      ],
+      "sha256": "127836d2207fb36454c68a8d7789d290a92318b39166d61e588321dd533c1053"
+    },
+    {
+      "location": "Central Hub N",
+      "phase": "night",
+      "path": "rebuild/hub/assets/hub/night/hub-n-v1.jpg",
+      "dimensions": [
+        1100,
+        733
+      ],
+      "source_file": "02-4242.png",
+      "source_sha256": "99238ff79cdf35bfdb3785913993112c6893172328875317dc5878e4220227cb",
+      "crop_box": [
+        501,
+        0,
+        1034,
+        310
+      ],
+      "sha256": "0f704eff8dc5934fe357f0962815d0ce1dbddb9a7547cbf58f3293ba21b1ed82"
+    },
+    {
+      "location": "Central Hub NE",
+      "phase": "night",
+      "path": "rebuild/hub/assets/hub/night/hub-ne-v1.jpg",
+      "dimensions": [
+        1100,
+        733
+      ],
+      "source_file": "02-4242.png",
+      "source_sha256": "99238ff79cdf35bfdb3785913993112c6893172328875317dc5878e4220227cb",
+      "crop_box": [
+        1041,
+        0,
+        1536,
+        310
+      ],
+      "sha256": "aa9d189bd16cf45ca33c48dd56175c4666fb251140a746080e27f8eb5c8ae3fa"
+    },
+    {
+      "location": "Central Hub W",
+      "phase": "night",
+      "path": "rebuild/hub/assets/hub/night/hub-w-v1.jpg",
+      "dimensions": [
+        1100,
+        733
+      ],
+      "source_file": "02-4242.png",
+      "source_sha256": "99238ff79cdf35bfdb3785913993112c6893172328875317dc5878e4220227cb",
+      "crop_box": [
+        0,
+        316,
+        414,
+        692
+      ],
+      "sha256": "274b93aa3887e0a5b46b0f0fd6884bcc1f4be148bb974057f8b1ade2a6420d49"
+    },
+    {
+      "location": "Central Hub Spire",
+      "phase": "night",
+      "path": "rebuild/hub/assets/hub/night/hub-spire-v1.jpg",
+      "dimensions": [
+        1100,
+        733
+      ],
+      "source_file": "02-4242.png",
+      "source_sha256": "99238ff79cdf35bfdb3785913993112c6893172328875317dc5878e4220227cb",
+      "crop_box": [
+        420,
+        316,
+        1116,
+        692
+      ],
+      "sha256": "079ebb6f96acf3e075336fc88a1f0af1e75330dfc9d0ce04f4634d2f08080682"
+    },
+    {
+      "location": "Central Hub E",
+      "phase": "night",
+      "path": "rebuild/hub/assets/hub/night/hub-e-v1.jpg",
+      "dimensions": [
+        1100,
+        733
+      ],
+      "source_file": "02-4242.png",
+      "source_sha256": "99238ff79cdf35bfdb3785913993112c6893172328875317dc5878e4220227cb",
+      "crop_box": [
+        1122,
+        316,
+        1536,
+        692
+      ],
+      "sha256": "94942ee16caa5953e0b1906217a05bf08f0416de8a7803733726cb38326b7e6c"
+    },
+    {
+      "location": "Central Hub SW",
+      "phase": "night",
+      "path": "rebuild/hub/assets/hub/night/hub-sw-v1.jpg",
+      "dimensions": [
+        1100,
+        733
+      ],
+      "source_file": "02-4242.png",
+      "source_sha256": "99238ff79cdf35bfdb3785913993112c6893172328875317dc5878e4220227cb",
+      "crop_box": [
+        0,
+        698,
+        495,
+        1024
+      ],
+      "sha256": "f18850742d99ff1e6dc3d39905120a5a915bcc6cd93dccba5d470d4e50b0a365"
+    },
+    {
+      "location": "Central Hub S",
+      "phase": "night",
+      "path": "rebuild/hub/assets/hub/night/hub-s-v1.jpg",
+      "dimensions": [
+        1100,
+        733
+      ],
+      "source_file": "02-4242.png",
+      "source_sha256": "99238ff79cdf35bfdb3785913993112c6893172328875317dc5878e4220227cb",
+      "crop_box": [
+        501,
+        698,
+        1034,
+        1024
+      ],
+      "sha256": "eb2a3d04233e618fc32bc05551f6fb352a0b571c84da26cd2b840db93c35108f"
+    },
+    {
+      "location": "Central Hub SE",
+      "phase": "night",
+      "path": "rebuild/hub/assets/hub/night/hub-se-v1.jpg",
+      "dimensions": [
+        1100,
+        733
+      ],
+      "source_file": "02-4242.png",
+      "source_sha256": "99238ff79cdf35bfdb3785913993112c6893172328875317dc5878e4220227cb",
+      "crop_box": [
+        1041,
+        698,
+        1536,
+        1024
+      ],
+      "sha256": "a74d0cc346f47eb66b3830879b7a1bd19ef3ea948e0e5922c42da4ede09ad7b9"
+    }
+  ]
+}

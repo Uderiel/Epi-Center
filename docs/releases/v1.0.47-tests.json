@@ -1,0 +1,37 @@
+[
+  {
+    "suite": "rebuild/combat/kibbles-form.test.js",
+    "status": "PASS",
+    "summary": "21 / 21 form/help tests passed"
+  },
+  {
+    "suite": "rebuild/combat/kibbles-ai.test.js",
+    "status": "PASS",
+    "summary": "38 / 38 AI tests passed"
+  },
+  {
+    "suite": "rebuild/combat/kibbles-presentation.test.js",
+    "status": "PASS",
+    "summary": "27 / 27 presentation/text tests passed"
+  },
+  {
+    "suite": "rebuild/combat/play-encounter.test.js",
+    "status": "PASS",
+    "summary": "34 / 34 tests passed"
+  },
+  {
+    "suite": "rebuild/combat/entity-rules.test.js",
+    "status": "PASS",
+    "summary": "entity rules: all assertions passed"
+  },
+  {
+    "suite": "rebuild/hub/hub-world.test.js",
+    "status": "PASS",
+    "summary": "11 / 11 Hub world cases passed"
+  },
+  {
+    "suite": "rebuild/hub/world-clock.test.js",
+    "status": "PASS",
+    "summary": "14 / 14 clock/art cases passed"
+  }
+]
