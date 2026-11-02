@@ -1,3 +1,11 @@
+# Rare/Epic final mastery contest modifiers — owner approved (2026-11-02)
+
+**Approved:** The Rare and Epic final internal mastery contests use the existing opposed **original player Willpower vs. form-authored Reasoning** d20 contest, with an extra **+2 to the form's final roll for Rare** and **+4 to the form's final roll for Epic**. Only explicitly applicable internal-resistance/final-contest bonuses apply otherwise. A failed Rare contest resets current influence to **40**, a failed Epic contest resets it to **50**, and both preserve **100 earned mastery progress**; the player must again reach zero influence through eligible internal actions before retrying. Final contest is offered immediately when both gates first become satisfied, without an extra 30-minute action wait; no repeat clicking/reload rerolls. Common and Uncommon master automatically at 100 progress and zero influence, with no final contest. Legendary forms have unique authored trials instead of these generic finals.
+
+**Not yet approved:** any independent rarity-specific additional penalty beyond +2/+4; exact natural roll/tie priority if the established core rule requires clarification; any particular Legendary test or gameplay implementation. Explain in Eve/guide terms: “Rare forms gain +2 on their final defense, Epic forms gain +4; failure restores 40 or 50 influence, but never erases your mastery progress.”
+
+---
+
 # Rarity-specific final internal mastery — owner approved (2026-11-02)
 
 **Owner decision supersedes the earlier universal-final-contest proposal.** Once earned internal mastery progress is **100** and current influence is **exactly 0**:
