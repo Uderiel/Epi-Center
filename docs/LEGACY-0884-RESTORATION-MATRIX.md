@@ -34,3 +34,7 @@ Owner answered the acquisition question: **Central Hub NW**, not Old Transit Cou
 
 Verification:196 named cases plus entity assertions, compilation and28 isolated browser checks. See releases/v1.0.50-validation.md for actual execution, initial failures, limits and manual acceptance. No0.8 global save import, Erin-specific attribute budget or mental identity takeover is claimed. Unchanged source hash remains the custody reference.
 
+
+## v1.0.51 owner-directed followup
+
+Owner selected faster dedicated Wait progression and authorized establishing a Mental Erin build. REST-14 is implemented (+2/+3 dedicated waits, no double-counted ordinary hour); REST-13 now has an effective full-body attribute view using the existing Common reference budget. Original attributes/resources persist, Kibbles remains separate, and no new resource-pool numbers or mastery/control are inferred. See ERIN-MENTAL-PROFILE.md and releases/v1.0.51-validation.md. Acceptance pending.

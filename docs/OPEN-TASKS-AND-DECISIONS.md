@@ -1,8 +1,20 @@
+## v1.0.51 — owner-directed Wait pacing and Erin Mental attributes
+
+Owner decisions on 2026-11-01 supersede REST-14's open question: preserve the dedicated legacy Wait acceleration and establish Erin toward a Mental archetype. Wait one hour now alternates +2/+3 changes, replacing that hour's ordinary exposure rather than double-counting it. Ordinary travel/conversation exposure remains +1/60 min. Contact, 23-stage cap, saved residual minutes/count and dormant/canine exclusions persist.
+
+At 23/23, Erin's effective attributes become Endurance 2, Fitness 2, Intuition 3, Reflexes 2, Willpower 4, Reasoning 6, Stability 4, Presence 2, Insight 4, Influence 1 (existing Common reference budget 30; Mental alignment score 16 versus 7.5 Physical / 8.5 Arousal). Original saved attributes remain intact; current resource balances/maxima remain player-owned, with no invented Erin pool or refill. Character/Stats/encounter setup/removal use the effective attributes, while Kibbles retains its own profile. See [ERIN-MENTAL-PROFILE.md](ERIN-MENTAL-PROFILE.md) for the exact rationale and ownership boundary.
+
+Implementation complete: 201/201 named deterministic cases plus entity assertions, module/entrypoint syntax checks and 32/32 isolated browser checks PASS. Publication verification follows. Owner acceptance remains pending. v1.0.50's audited heels/apartment/dialogue content is retained. REST-14 is implemented, not owner-accepted; REST-13 attribute direction is implemented, while resource-pool/mastery/control decisions remain unfinished. REST-15..17 and all prior ENC/KB/XP/REP/SHOP deferred work persist. Continue the source-backed apartment activity/belongings and broader dialogue adapters in separate manageable slices; do not claim full legacy parity.
+
+[Play v1.0.51](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.51) · [Verification](releases/v1.0.51-validation.md) · [Active log](OPEN-TASKS-AND-DECISIONS.md).
+
+**Publication verified:** gameplay commit `758dbc9cec8c1648681d87fae5c41a7397e6a1c2` is on main and rebuild/1.0-foundations. [Pages run 41375079927](https://github.com/Uderiel/Epi-Center/actions/runs/41375079927) succeeded. Nine deployed entrypoints/modules match the tested source after line-ending normalization; title and Hub report v1.0.50. See [live hashes](releases/v1.0.50-live-verification.json). Owner acceptance remains pending.
+
 # Active unfinished-work log
 
 ## Active restoration checkpoint — v1.0.50
 
-Audit completed before implementation; see [restoration matrix](LEGACY-0884-RESTORATION-MATRIX.md) and [release evidence](releases/v1.0.50-validation.md). Local implementation/verification complete: 196 deterministic cases plus entity assertions, 28 browser checks. Publication pending verification at this checkpoint; owner acceptance pending. Parent checkout remains development/v0.8.68; implementation worktree .restoration-worktree branch restoration/legacy-0884, based on 9b9f7c0. Final publication evidence must name the exact SHA and Pages build.
+Audit completed before implementation; see [restoration matrix](LEGACY-0884-RESTORATION-MATRIX.md) and [release evidence](releases/v1.0.50-validation.md). Local implementation/verification complete: 196 deterministic cases plus entity assertions, 28 browser checks. Publication verified in the note above; owner acceptance pending. Parent checkout remains development/v0.8.68; implementation worktree .restoration-worktree branch restoration/legacy-0884, based on 9b9f7c0. Final publication evidence must name the exact SHA and Pages build.
 
 **Owner decision, 2026-11-01:** cursed heels now belong in **Central Hub NW**. **Old Transit Courtyard does not/should not exist** in the current version. This supersedes the source's courtyard acquisition, the matrix's initial placement question, and any old WORLD-03 proposal to place that courtyard. Stable item identity shoes-0 remains. Applewood temporary placement east of #12 is approved; new owner reference #97, without renumbering 1–96. Preserve final legacy transformed-form apartment access; original-body access is refused.
 
