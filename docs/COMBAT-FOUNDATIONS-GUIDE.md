@@ -1,3 +1,11 @@
+# Internal resistance attribute pairing — owner approved (2026-11-02)
+
+**Approved:** Default internal influence-resistance contest uses **the player's preserved original Willpower (defensive Mind) against the form's authored Reasoning (offensive Mind)**, using the existing opposed d20 resolution. An imposed form's effective attribute overlay must not replace original player Willpower for this private internal contest. Gear, form, mastery-tier or ability bonuses apply only if their explicitly defined effects cover internal resistance; do not infer bonuses merely because the form is worn. This is the universal default; exceptional authored mechanics require explicit definitions.
+
+**Still unresolved:** Resolve cost and recovery including zero Resolve, meaningful action/opportunity duration and active-game-clock accounting, success/failure influence/progress amounts, exact final mastery contest and setback, escape DC and attribute, rarity scaling and Legendary trial specifics. The previously discussed 3 Resolve paid attempt and cost-free weaker fallback are proposals, **not approved**. Player Guide and Eve should explain the default simply: “Roll your original Willpower against the form's Reasoning to resist its influence.” No gameplay code changed.
+
+---
+
 # Integrated testing requirements and escape/mastery distinction — 2026-11-01
 
 **Owner-approved direction:** Escape should ordinarily be easier than permanent mastery. Mastery is the detailed, sustained process of resistance, influence reduction, earned progress and final contest; Legendary mastery additionally requires individually authored sequences. Do not force equal success rates or impose a universal balance target across builds. One eligible 1d50 escape saving throw per in-game hour, subject to actual escape eligibility; numerical rarity DCs remain candidates, not approvals.
