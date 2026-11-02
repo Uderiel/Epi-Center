@@ -1,3 +1,11 @@
+# Escape influence modifier revised — owner direction (2026-11-02)
+
+**Approved correction:** For the eligible hourly 1d50 escape check, current influence adds **+1 to escape DC per full 10 influence points**, i.e. `floor(influence / 10)`, **not** per 5 influence points. At 0/50/100 influence, the DC modifier is +0/+5/+10. Escape uses the attribute appropriate to an authored, physically/socially/mentally feasible method. No natural roll can make an impossible method legal.
+
+**Proposed base DCs still awaiting explicit approval:** Common 18, Uncommon 24, Rare 30, Epic 36, Legendary 42. Under these candidates, DCs at 0/50/100 influence would be Common 18/23/28, Uncommon 24/29/34, Rare 30/35/40, Epic 36/41/46, Legendary 42/47/52. Do not label these base DCs approved until owner confirms them; the influence modifier alone was expressly revised. Escape remains once per eligible in-game hour.
+
+---
+
 # Method-specific escape attributes — owner approved (2026-11-02)
 
 **Approved:** The universal hourly **1d50 escape saving throw** uses an **attribute appropriate to the actual escape method**, not one mandatory escape attribute for every form or character. An authored escape method identifies its eligible original/effective attribute ownership and physical/social/mental feasibility; examples include Fitness for force, Reflexes for slipping restraints, Reasoning for mechanisms, and Influence for persuading a captor when negotiation is actually possible. This supports legitimate routes across Physical, Mental and Arousal specializations **without requiring equal probabilities or inventing impossible routes**. Each form or situation must specify which methods exist; a high roll, including natural 50, cannot override a sealed anatomy or nonexistent release mechanism. Escape is distinct from mastery, does not grant base mastery, and remains at most one eligible attempt per in-game hour. Numerical rarity DCs and influence modifier remain unapproved.
