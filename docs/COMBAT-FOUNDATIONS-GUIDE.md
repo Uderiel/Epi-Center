@@ -1,3 +1,11 @@
+# Method-specific escape attributes — owner approved (2026-11-02)
+
+**Approved:** The universal hourly **1d50 escape saving throw** uses an **attribute appropriate to the actual escape method**, not one mandatory escape attribute for every form or character. An authored escape method identifies its eligible original/effective attribute ownership and physical/social/mental feasibility; examples include Fitness for force, Reflexes for slipping restraints, Reasoning for mechanisms, and Influence for persuading a captor when negotiation is actually possible. This supports legitimate routes across Physical, Mental and Arousal specializations **without requiring equal probabilities or inventing impossible routes**. Each form or situation must specify which methods exist; a high roll, including natural 50, cannot override a sealed anatomy or nonexistent release mechanism. Escape is distinct from mastery, does not grant base mastery, and remains at most one eligible attempt per in-game hour. Numerical rarity DCs and influence modifier remain unapproved.
+
+**Guide/Eve shorthand:** “Your escape roll uses the skill that fits your plan. Breaking free, slipping restraints and talking your way out are different approaches. Not every approach works in every situation.”
+
+---
+
 # Rare/Epic final mastery contest modifiers — owner approved (2026-11-02)
 
 **Approved:** The Rare and Epic final internal mastery contests use the existing opposed **original player Willpower vs. form-authored Reasoning** d20 contest, with an extra **+2 to the form's final roll for Rare** and **+4 to the form's final roll for Epic**. Only explicitly applicable internal-resistance/final-contest bonuses apply otherwise. A failed Rare contest resets current influence to **40**, a failed Epic contest resets it to **50**, and both preserve **100 earned mastery progress**; the player must again reach zero influence through eligible internal actions before retrying. Final contest is offered immediately when both gates first become satisfied, without an extra 30-minute action wait; no repeat clicking/reload rerolls. Common and Uncommon master automatically at 100 progress and zero influence, with no final contest. Legendary forms have unique authored trials instead of these generic finals.
