@@ -1,0 +1,51 @@
+{
+  "version": "1.0.51",
+  "gameplayCommit": "2de3ca30df4d2cb8851fcd0b4d2cfabe322eb8fd",
+  "records": [
+    {
+      "file": "rebuild/title-screen/index.html",
+      "matched": true,
+      "sha256": "74d8c8445ebba97c8af8ea303572473224e8aaa0e08afcb0db62bbd9d7379ae4"
+    },
+    {
+      "file": "rebuild/character-creation/index.html",
+      "matched": true,
+      "sha256": "93c3f22f710fa71c68483590d225581fdb1cf1edebd0d6f280eeadd2d051bae3"
+    },
+    {
+      "file": "rebuild/hub/index.html",
+      "matched": true,
+      "sha256": "533c044170f385d5662b035714c2959c32530ea40004540e9cba5502cfe2a902"
+    },
+    {
+      "file": "rebuild/hub/erin-restoration.js",
+      "matched": true,
+      "sha256": "b7bc5a0717ccf91f6b743b5d69eeb986fd337fdf86bfda9489d9142499296e3e"
+    },
+    {
+      "file": "rebuild/hub/erin-ui.js",
+      "matched": true,
+      "sha256": "7443085e8eaf9963bca57838ef472d7826e4bad9889ad72c24e6465795e043bb"
+    },
+    {
+      "file": "rebuild/hub/legacy-0884-data.js",
+      "matched": true,
+      "sha256": "158eceb08f30fc1aa567e56cf7d7e71f602fd2ff1c2f4f7f6512fa6ffcacc0a3"
+    },
+    {
+      "file": "rebuild/hub/authored-dialogue.js",
+      "matched": true,
+      "sha256": "ff5bb0a65b507652c9aa5bfaedd3b8e6a2b146bb2f250a063fa8cd2b87ffd5d5"
+    },
+    {
+      "file": "rebuild/hub/hub-world.js",
+      "matched": true,
+      "sha256": "85c7fa2e52a05570074c0a55b12b4ebc68e1134d225b1039e95f2894a5710a40"
+    },
+    {
+      "file": "rebuild/combat/kibbles-form.js",
+      "matched": true,
+      "sha256": "20fd6f7dba1c18d86557c53768c9370792d885a85e1acfe3de4d84e83e5d53a5"
+    }
+  ]
+}
