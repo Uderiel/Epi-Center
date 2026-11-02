@@ -1,5 +1,7 @@
 # Central district map — November 1, 2026
 
+Current v1.0.49 correction: [Hangry Fangs](HANGRY-FANGS-QUEST.md) assigns Kibbles to NE Alley Crate (#73) and implements the return-to-Eve quest. The route is implemented/tested; owner acceptance and post-defeat internal mastery remain pending. Map now uses exploration fog and examination-gated details, with optional owner-reference labels. Statements below about full visibility or unassigned Kibbles placement are historical v1.0.48 context, superseded by this note. Maintain [OPEN-TASKS-AND-DECISIONS](OPEN-TASKS-AND-DECISIONS.md) on every update.
+
 Owner source: [4248.jpg](design-references/central-district-map-4248.jpg). SHA-256: a5c4ae8ef54a4a8be77c82370634bfce0eac413dfb764000b3a612a992e538e1. Preserved original sheet, including crossed-out entries and correction arrows. Its 90/92/93 arrows move the NW labels down into the overwritten row; final NW alley triangle matches the other quadrants. The struck-through building line is not a separate location; Daily Needs is #66 as corrected at the bottom.
 
 ## Implemented travel and map contract

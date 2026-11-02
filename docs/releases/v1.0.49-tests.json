@@ -1,0 +1,76 @@
+{
+  "cases": 171,
+  "suites": [
+    {
+      "suite": "rebuild/combat/kibbles-form.test.js",
+      "status": "PASS",
+      "summary": "21 / 21 form/help tests passed"
+    },
+    {
+      "suite": "rebuild/combat/kibbles-ai.test.js",
+      "status": "PASS",
+      "summary": "38 / 38 AI tests passed"
+    },
+    {
+      "suite": "rebuild/combat/kibbles-presentation.test.js",
+      "status": "PASS",
+      "summary": "27 / 27 presentation/text tests passed"
+    },
+    {
+      "suite": "rebuild/combat/play-encounter.test.js",
+      "status": "PASS",
+      "summary": "34 / 34 tests passed"
+    },
+    {
+      "suite": "rebuild/combat/entity-rules.test.js",
+      "status": "PASS",
+      "summary": "entity rules: all assertions passed"
+    },
+    {
+      "suite": "rebuild/hub/hub-world.test.js",
+      "status": "PASS",
+      "summary": "17 / 17 Hub world cases passed"
+    },
+    {
+      "suite": "rebuild/hub/world-clock.test.js",
+      "status": "PASS",
+      "summary": "14 / 14 clock/art cases passed"
+    },
+    {
+      "suite": "rebuild/hub/hangry-fangs.test.js",
+      "status": "PASS",
+      "summary": "20 / 20 Hangry Fangs and fog cases passed"
+    }
+  ],
+  "syntax": "all Hub/combat modules and three entrypoint inline scripts PASS",
+  "browser": {
+    "status": "PASS",
+    "checks": [
+      "Eve offers risky quest in same interaction as First Steps reward; explicit acceptance and briefing",
+      "360px offer/acceptance/quest drawer: no page overflow; quest bottom496.56 before navigation513.56",
+      "Five gold snack purchase at inspected Pet Boutique, actual legal path to crate",
+      "Inspect surroundings shows crate; examine shows sideways/rattling/dog-sized gap",
+      "Purchased snack: one consumed, no combat, mastery and quest resolved",
+      "Independent discovery journal initially contains only title/report contact; full metadata on completion",
+      "Return path to Spire, exactly one reward: gold100-5+300=395,75XP,one coupon",
+      "XP25 allocation leaves50 inventory and25on form after reload",
+      "Crate inspect text and negated whistle do not start combat; positive whistle does",
+      "In-combat snack spends Minor and one snack; equips mastered form; report disabled until release",
+      "Combat finishing fixture with1enemyHealth: actual Basic Attack produces mastery and world quest resolution",
+      "Release enables report; repeated NPC report does not duplicate reward;100+300=400",
+      "Fog shows only known locations; examination unlocks details; reference toggle shows owner #10 instead of street segment1",
+      "No hidden-cylinder/receptacle narration after Hub inspection",
+      "Fresh Slot3 creation stores100gold and routes to version49 creation"
+    ],
+    "limits": [
+      "Native Android owner acceptance pending",
+      "Post-defeat internal mastery/escape intentionally deferred",
+      "Tier upgrade prices and Repository host/storage deferred",
+      "Coupon redemption and roaming dog pack deferred"
+    ],
+    "observedFixes": [
+      "Missing new script import caused initial EpiHangryFangs undefined; fixed with complete query-version updates",
+      "Quest action sibling disturbed fixed workspace rows and caused click overlap; moved inside existing location header; retested purchase, paths, phone and acceptance successfully"
+    ]
+  }
+}

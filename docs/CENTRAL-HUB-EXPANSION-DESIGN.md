@@ -1,5 +1,7 @@
 # Central Hub expansion — owner design, October 31, 2026
 
+Current v1.0.49 checkpoint: Hub inspection no longer discloses hidden cylinders/receptacles. Covers/arrows remain observable; actual return/activation waits for owner design. [Hangry Fangs](HANGRY-FANGS-QUEST.md) now supplies the canonical crate location, Eve assignment, description/tasks/rewards and a tested connecting route. Owner acceptance and the post-defeat internal mastery route are pending. See the maintained [unfinished-work log](OPEN-TASKS-AND-DECISIONS.md). Do not trigger milestone watches from this implementation note alone; verify their acceptance conditions.
+
 ## November 1 owner correction — v1.0.48
 
 The newer [96-location district sheet](CENTRAL-DISTRICT-MAP-DESIGN.md) supersedes the former spokes/ring-only travel restriction below. All occupied adjacent locations now connect, including diagonals, except direct alley/building transitions. Map shows the full district; Path remains the local compass. Cherished Touch is north of Central Hub NE in the new sheet. This release implements mapped travel access, with detailed new location content still pending. The sheet does not assign Kibbles' encounter location or confirm a complete authored Kibbles route. All reminder prerequisites below remain unchecked.

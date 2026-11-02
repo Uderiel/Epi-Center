@@ -1,3 +1,7 @@
+## v1.0.49 — world quest and remaining mastery design
+
+[Hangry Fangs](HANGRY-FANGS-QUEST.md) connects Eve, the crate, Pet Boutique snacks and once-only rewards. Combat and snack mastery are integrated; internal post-defeat mastery remains deferred to the [general encased-player supplement](ENCASED-PLAYER-SUPPLEMENT-DESIGN.md) and Kibbles behavior design. [Active unfinished-work log](OPEN-TASKS-AND-DECISIONS.md) is mandatory handoff context. Mastered Kibbles retains player intent.
+
 ## v1.0.44 — realistic Kibbles previews and gender-based dimensions
 
 Equip now shows both previously presented photorealistic German Shepherd portraits before one-time identity saving. Clicking a photo selects its gender; the select control also updates the highlighted photo and live preview summary. Preview is temporary until Save. Once saved, the shared Kibbles profile supplies the matching photo automatically in Equip, Appearance, Character and the Form drawer. Existing saved male/female identities adopt the new photo and measurements on load without asking players to rename their form.

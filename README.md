@@ -1,3 +1,23 @@
+## v1.0.49 — Hangry Fangs, exploration fog and maintained unfinished-work log
+
+Eve offers Hangry Fangs immediately when awarding First Steps; accept through the visible quest control or subsequent Eve conversation. Risky briefing, NE Alley Crate (owner #73), two-stage crate inspection, text/button encounter triggers, independent discovery and once-only reporting are integrated with the existing Kibbles engine. Independent discovery initially records only title and report contact; completion fills Eve's metadata. Combat and snack mastery count. Reporting is blocked during combat, retained encasement or canine appearance; release mastered Kibbles first. Existing mastered Kibbles saves migrate to a reportable result without respawn or automatic rewards; later Dev grants do not fabricate world quest progress.
+
+Pet Boutique sells dog snacks for **5 gold**, available after inspecting the location. A snack at the examined crate grants mastery peacefully and consumes one; the existing encounter snack remains a Minor. Rewards upon reporting once: **300 gold, 75 Tier Mastery XP, one 50%-off-one-item Neko Cafe coupon**. Inventory XP opens an owned-form selector and transfers the chosen amount into that form's persistent XP balance; no undefined tier upgrades. New characters start with **100 gold**; existing balances are preserved.
+
+Map now retains explored areas and neighboring names while hiding unknown territory under fog; location details require examination. Player labels omit numeric segment suffixes; Dev → Show location reference numbers defaults off and displays the actual owner sheet reference when enabled. NE Alley Crate preserves internal ID NE Alley (4). Path remains the centered local compass with diagonal travel/alley walls. Hub inspection no longer reveals hidden cylinder/receptacle status; visible covers/arrows remain. Cylinder-return behavior awaits design.
+
+**171/171 deterministic cases** plus entity assertions, all Hub/combat module syntax and three entrypoint inline-script compilation PASS. Focused browser QA PASS: immediate First Steps offer/acceptance on desktop and 360px; purchased-snack route through actual paths; crate search/examination; independent discovery; return/report; reward/XP persistence; in-combat snack and real combat finishing action; canine report lock/release; repeated-report protection; fog/detail gating; owner-reference toggle; hidden-cylinder exclusion; new-slot100gold. The purchase route ended at gold395 (100−5+300),75XP,one coupon; assigning25XP left50inventory/25onKibbles after reload. A separate combat-snack route reported once at gold400. Browser tests use isolated local Slot1 and new draft Slot3. Native owner acceptance remains pending. Initial missing-script and quest-panel layout errors were corrected and affected checks rerun; evidence records them honestly.
+
+**Read and maintain [OPEN-TASKS-AND-DECISIONS.md](docs/OPEN-TASKS-AND-DECISIONS.md) with every build.** It records current decisions, stable unfinished-task IDs, dependencies, completion evidence and acceptance gates. **Deferred:** general encased-player resistance/mastery supplement and post-defeat Kibbles mastery; Kibbles routines/influence/relationship/communication; rarity/tier costs; Repository host/storage; coupon redemption; roaming dog pack; district content/art and cylinder system. Mastered Kibbles retains player intent. Route/quest implementation is verified; owner acceptance and the deferred third mastery path are not claimed complete.
+
+Manual acceptance:
+1. Report First Steps to Eve at the Spire; verify her immediate risky quest offer and accept it.
+2. Inspect Pet Boutique, buy a5gold snack, find/examine NE Alley Crate and test feeding or calling/approaching for combat.
+3. Return to Eve after mastery (release canine appearance), report once; check300gold/75XP/coupon, allocate XP and reload.
+4. Compare map fog, examination details and Dev reference toggle; inspect Hub parks for no hidden-cylinder disclosures.
+
+[Play v1.0.49](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.49). Quest contract: docs/HANGRY-FANGS-QUEST.md. Evidence: docs/releases/v1.0.49-tests.json and docs/releases/v1.0.49-validation.md.
+
 ## v1.0.48 — full district Map and adjacent diagonal travel
 
 Implemented the owner's 4248.jpg layout as 96 locations on an 11×11 grid: the nine Hub areas, four main street arms, Outerloop Road, twelve named buildings and four six-section alleys. Map shows every mapped location regardless of distance, with Fit whole map / 2× / 3× controls and selectable location details. Reference-sheet numbers are internal only; street/alley segment names retain their authored segment suffixes. Path shows all legal adjacent moves including diagonals. Blank cells remain impassable; alleys connect to their own passages and street exits, with no direct alley-to-building travel in either direction.
@@ -236,6 +256,7 @@ Epi-Center multiplayer RPG prototype.
 
 | Version | Play / preview | Repository source | Status |
 |---|---|---|---|
+| **v1.0.49 — Hangry Fangs / exploration fog** | **[Open v1.0.49](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.49)** | [Quest](docs/HANGRY-FANGS-QUEST.md) · [Active unfinished-work log](docs/OPEN-TASKS-AND-DECISIONS.md) | Automated/browser QA PASS; owner acceptance pending |
 | **v1.0.34 — Phase 0 creation-route repair** | **[Open v1.0.34](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.34)** | [Creation source](https://github.com/Uderiel/Epi-Center/blob/main/rebuild/character-creation/index.html) | **USER ACCEPTED — 5/5 PASS** |
 | **v1.0.33 — Relationship ±10 controls** | **[Open v1.0.33](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.33)** | [Hub source](https://github.com/Uderiel/Epi-Center/blob/main/rebuild/hub/index.html) | **USER ACCEPTED — PASS** |
 | **v1.0.32 — Form & save refinements** | **[Open v1.0.32](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.32)** | [Hub source](https://github.com/Uderiel/Epi-Center/blob/main/rebuild/hub/index.html) | **USER ACCEPTED — 5/5 PASS** |
