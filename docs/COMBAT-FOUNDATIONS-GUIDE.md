@@ -1,3 +1,11 @@
+# Conflicting player actions as control triggers — owner reconfirmed (2026-11-02)
+
+**Reconfirmed existing v0.8.x design, not a newly invented rule:** When the player chooses an action contrary to a form's intentions, the form can attempt to contest or redirect that action if its current influence and authored behavior allow. Form-specific autonomous triggers also remain valid. A successful control contest does not itself grant +5 influence: the imposed meaningful activity must actually complete, and then is counted once. At exactly zero influence no forced action/control or form-forced activity regain is permitted. The new universal influence/mastery state must integrate with and preserve existing form-specific control logic rather than replace it with a parallel system. Inspect actual historical v0.8.x and current behavior before implementation; do not infer an unverified exact version or claim the live game has this new integration.
+
+**Still open:** exact opposed control contest and natural-roll/tie handling where not already established, frequency/eligibility of autonomous attempts, final mastery roll/setback, escape difficulty and eligibility, Legendary trial gates, UI and persistence.
+
+---
+
 # Universal influence control bands — owner approved (2026-11-02)
 
 **Approved universal starting framework:** Influence **0%:** no forced control or form-forced activity recovery; **1–24%:** subtle urges only, no forced activities; **25–49%:** occasional attempts to redirect behavior; **50–74%:** stronger attempts to impose activities; **75–100%:** frequent attempts and substantial loss of autonomy. These bands establish *permission and qualitative pressure*, not automatic control or approved numerical probabilities/frequencies. Attempts must be resolved according to the existing control mechanics and actual game-state opportunities; successful completed form-imposed activities restore the separately approved +5 influence, counted once. Existing authored form-specific control rules, particularly Erin's, must be inspected and preserved, with explicit exceptions instead of silent overrides. At 0 influence, the form has no authority to force actions or create a forced-activity influence setback.
