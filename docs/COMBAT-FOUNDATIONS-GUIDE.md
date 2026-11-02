@@ -1,3 +1,11 @@
+# Internal action cadence — owner direction (2026-11-02)
+
+**Approved direction:** Start with a **30-minute in-game interval** for internal mastery actions (Resist Influence, Desperate Resistance, Regain Composure), instead of the previously proposed 15 minutes. This permits at most two such opportunities per game hour, compared with four at 15 minutes, and is separate from the one eligible 1d50 escape saving throw per game hour. This is a game-clock interval, **not a real-world 30-minute cooldown**. The engine must ensure no UI-click spam, no time-advance bypass, no reload reset and no duplicated time charges; precise action-time scheduling (consume 30 minutes vs eligible each 30-minute boundary) still needs implementation definition.
+
+**Real-world projection:** For N internal actions, in-game time is 15N vs 30N minutes. Real-world elapsed time depends on actual user interactions and any enforced waiting; the game uses an action-driven clock. At an illustrative 5–15 seconds of real interaction per action, 20 actions take about 1.7–5 minutes of active interaction under either cadence if no real-time wait is imposed; the 30-minute setting doubles *game-world* elapsed time, not necessarily real time. Do not represent these estimates as measured user testing.
+
+---
+
 # Internal resistance Resolve economy — owner approved (2026-11-02)
 
 **Approved starting values:** Normal **Resist Influence costs 3 Resolve**; **Desperate Resistance costs 0 Resolve and applies −2 to the player's opposed resistance roll**; **Regain Composure restores 6 Resolve**, capped at the character's existing maximum. These are internal actions requiring a legitimate game-state opportunity; no free repeated clicks, wall-clock/offline regeneration, or automatic refill. Regain Composure must be possible while fully encased and at zero Resolve. This extends the already approved default contest: original player Willpower versus form-authored Reasoning (opposed d20), with only explicitly applicable bonuses. These three costs/effects are approved, but **action duration/cadence and the other mechanics remain pending**, so they are not implemented yet.
