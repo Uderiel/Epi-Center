@@ -1,3 +1,11 @@
+# Universal influence control bands — owner approved (2026-11-02)
+
+**Approved universal starting framework:** Influence **0%:** no forced control or form-forced activity recovery; **1–24%:** subtle urges only, no forced activities; **25–49%:** occasional attempts to redirect behavior; **50–74%:** stronger attempts to impose activities; **75–100%:** frequent attempts and substantial loss of autonomy. These bands establish *permission and qualitative pressure*, not automatic control or approved numerical probabilities/frequencies. Attempts must be resolved according to the existing control mechanics and actual game-state opportunities; successful completed form-imposed activities restore the separately approved +5 influence, counted once. Existing authored form-specific control rules, particularly Erin's, must be inspected and preserved, with explicit exceptions instead of silent overrides. At 0 influence, the form has no authority to force actions or create a forced-activity influence setback.
+
+**Player-facing shorthand:** “As influence rises, the form's urges become harder to ignore. Below 25% it cannot force activities; at zero it has no forced control at all.” Exact attempt cadence and success contest remain pending; no gameplay implementation from this approval.
+
+---
+
 # Form-driven influence recovery — owner approved (2026-11-02)
 
 **Approved starting value:** A form successfully imposing a **meaningful, completed activity or behavior** restores **+5 influence points** (clamped to 100), unless an explicitly authored form-specific exception applies. Ordinary voluntary player actions, mere passage of time, menu navigation and duplicate events do **not** restore influence. Activity must actually resolve and be recorded once. Form-specific distraction/reduced-pressure windows, e.g. Erin watching television, can reduce activity pressure but require authored rules.
