@@ -2,9 +2,11 @@
 
 Maintain this file with EVERY build/handoff update. Read CURRENT-STATUS, this log, BUILD-PROGRESS-AND-TEST-HANDOFF and DEVELOPMENT-MASTER-PLAN before continuing. Move items to the completed checkpoint only with implementation/test evidence; owner acceptance is a separate gate. Preserve stable task IDs, decisions and deferred work across chats.
 
-## Current work checkpoint — v1.0.49 in progress
+## Current work checkpoint — v1.0.49 published; owner acceptance pending
 
-Hangry Fangs implementation and focused verification are complete; publication verification is pending. 171/171 deterministic cases plus entity assertions and browser checks passed. Evidence: [v1.0.49 tests](releases/v1.0.49-tests.json), [validation](releases/v1.0.49-validation.md), [quest contract](HANGRY-FANGS-QUEST.md). Owner acceptance remains pending; do not mark the deferred post-defeat route complete. Previous published build: v1.0.48, gameplay commit 0f9b63e; publication record commit 3f97336.
+Hangry Fangs implementation, focused verification and publication are complete. Gameplay commit `8cd08beb252981956f6ee6531999b26ed9ed9556` is on main and rebuild/1.0-foundations. [Pages run 41371237282](https://github.com/Uderiel/Epi-Center/actions/runs/41371237282) succeeded; the [live entry](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.49) visibly reports v1.0.49. 171/171 deterministic cases plus entity assertions and browser checks passed. Evidence: [tests](releases/v1.0.49-tests.json), [validation](releases/v1.0.49-validation.md), [quest contract](HANGRY-FANGS-QUEST.md). Owner acceptance remains pending; do not mark the deferred post-defeat route complete. Previous build: v1.0.48, gameplay 0f9b63e / publication record 3f97336.
+
+Completed gate HF-01: Eve offer/acceptance, crate placement/triggers, snack purchase/mastery, combat outcome hook, independent discovery, release/report guard, one-time rewards, inventory XP allocation, fog/detail gates, developer references, new-character gold and hidden-cylinder disclosure removal. Next immediate gate: HF-02 owner testing, then the deferred design items below. Implementation completion does not mark owner acceptance or internal mastery complete.
 
 ## Authoritative decisions from latest conversation
 
@@ -23,7 +25,6 @@ Hangry Fangs implementation and focused verification are complete; publication v
 
 | ID | Unfinished work | Next action / dependency |
 | --- | --- | --- |
-| HF-01 | Hangry Fangs publication verification | Implementation/tests PASS; publish, verify live entry and record commit/deployment. |
 | HF-02 | Owner acceptance of Hangry Fangs | Test First Steps offer, independent discovery, snacks, combat, release/report, exactly-once rewards, reload. |
 | KB-01 | Kibbles routines, schedules, habits/preferences and influence | Design what it can influence, communication/responses, relationship gains/damage; preserve mastered player intent. Follow location/quest acceptance gates. |
 | KB-02 | Alternate Kibbles mastery paths | Design with KB-01; no automatic chat/time mastery. |
