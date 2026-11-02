@@ -1,3 +1,13 @@
+# Escape rarity DCs — owner approved (2026-11-02)
+
+**Approved escape base DCs:** Common **18**, Uncommon **24**, Rare **30**, Epic **36**, Legendary **42**. For an authored, eligible escape method, roll **1d50 + the method's applicable attribute** against **base DC + floor(current influence / 10)**. The +1 per full 10 influence points modifier was approved separately. The single eligible escape check per in-game hour remains in effect; the planned live clock converts that to 10 real minutes during continuously advancing live gameplay. Escape does not confer mastery, and an impossible physical/anatomical method is not made legal by a natural 50. A method must be available before rolling.
+
+**Illustrative DCs at influence 0 / 50 / 100:** Common 18/23/28; Uncommon 24/29/34; Rare 30/35/40; Epic 36/41/46; Legendary 42/47/52. These numerical DCs are now **approved starting rules**, not merely exploratory candidates. Natural 1/50 behavior, eligibility details and control-attempt overlaps must still be checked against existing core rules before implementation. Validate with real character progression and legal escape methods; do not claim implemented or live-tested.
+
+**Eve/guide shorthand:** “You may try an available escape method once per game hour. Roll 1d50 and add the attribute that fits your method. Tougher forms and higher influence make the roll harder. Escaping does not master the form.”
+
+---
+
 # Escape influence modifier revised — owner direction (2026-11-02)
 
 **Approved correction:** For the eligible hourly 1d50 escape check, current influence adds **+1 to escape DC per full 10 influence points**, i.e. `floor(influence / 10)`, **not** per 5 influence points. At 0/50/100 influence, the DC modifier is +0/+5/+10. Escape uses the attribute appropriate to an authored, physically/socially/mentally feasible method. No natural roll can make an impossible method legal.
