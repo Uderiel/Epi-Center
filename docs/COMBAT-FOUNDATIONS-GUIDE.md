@@ -1,3 +1,11 @@
+# Internal resistance Resolve economy — owner approved (2026-11-02)
+
+**Approved starting values:** Normal **Resist Influence costs 3 Resolve**; **Desperate Resistance costs 0 Resolve and applies −2 to the player's opposed resistance roll**; **Regain Composure restores 6 Resolve**, capped at the character's existing maximum. These are internal actions requiring a legitimate game-state opportunity; no free repeated clicks, wall-clock/offline regeneration, or automatic refill. Regain Composure must be possible while fully encased and at zero Resolve. This extends the already approved default contest: original player Willpower versus form-authored Reasoning (opposed d20), with only explicitly applicable bonuses. These three costs/effects are approved, but **action duration/cadence and the other mechanics remain pending**, so they are not implemented yet.
+
+**Player Guide/Eve wording target:** “Resisting costs 3 Resolve. If you're exhausted, Desperate Resistance is free but has a −2 penalty. Regain Composure restores 6 Resolve. These actions take a real in-game opportunity, even if you cannot move.” Do not imply escape and mastery are the same outcome.
+
+---
+
 # Internal resistance attribute pairing — owner approved (2026-11-02)
 
 **Approved:** Default internal influence-resistance contest uses **the player's preserved original Willpower (defensive Mind) against the form's authored Reasoning (offensive Mind)**, using the existing opposed d20 resolution. An imposed form's effective attribute overlay must not replace original player Willpower for this private internal contest. Gear, form, mastery-tier or ability bonuses apply only if their explicitly defined effects cover internal resistance; do not infer bonuses merely because the form is worn. This is the universal default; exceptional authored mechanics require explicit definitions.
