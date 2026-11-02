@@ -1,3 +1,13 @@
+# Form-driven influence recovery — owner approved (2026-11-02)
+
+**Approved starting value:** A form successfully imposing a **meaningful, completed activity or behavior** restores **+5 influence points** (clamped to 100), unless an explicitly authored form-specific exception applies. Ordinary voluntary player actions, mere passage of time, menu navigation and duplicate events do **not** restore influence. Activity must actually resolve and be recorded once. Form-specific distraction/reduced-pressure windows, e.g. Erin watching television, can reduce activity pressure but require authored rules.
+
+**Absolute constraint:** At exactly **0 influence**, the form has no authority to compel an action or create a form-forced activity influence setback; forced-activity regain probability is **0%**. A voluntary action is distinct from a forced one; no generic automatic regain at zero. This approval concerns the +5 effect of an actual successful imposition, **not** a universal chance of such an imposition or control-band thresholds, which remain to be defined from actual form behavior. Ordinary failed resistance separately adds +5 influence under its already approved rule. Earned mastery progress never decreases from activity-based influence recovery.
+
+**Eve/guide wording:** “If a form successfully makes you carry out one of its behaviors, it regains 5 influence. Your earned mastery progress stays safe. At zero influence it cannot force you to act.”
+
+---
+
 # Internal resistance success/failure effects — owner approved (2026-11-02)
 
 **Approved starting values:** On a successful normal or desperate resistance contest, **current influence decreases by 10 percentage points** and **durable internal mastery progress increases by 10 points**. Both actions award identical success effects; desperate resistance already carries its approved −2 roll penalty. On a failed resistance contest, **current influence increases by 5 points** and earned mastery progress is **unchanged**. Regain Composure changes neither influence nor mastery progress; it restores 6 Resolve up to the existing maximum. Clamp influence and progress independently to 0–100. A failure never erases earned mastery progress. These numbers are approved starting values subject to integrated gameplay testing, not claims of implemented behavior.
