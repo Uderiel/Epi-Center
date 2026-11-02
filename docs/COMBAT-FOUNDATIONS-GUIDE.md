@@ -1,3 +1,21 @@
+# Internal mastery progression and escape sensitivity — 2026-11-01
+
+**Design-only research; no gameplay change or approved numerical balancing.** Owner correction: do not assume new-character attributes persist into late-game Rare/Legendary encounters; players earn attribute points and higher-tier forms, Legendary encounters are uncommon, and external escape is a distinct legitimate outcome. Low-Willpower physical specialists can have stronger external survival/capture avoidance. The design goal is coherent mechanics and escape/recovery viability, **not a forced equalized mastery rate across builds**. Do not conflate permanent mastery with escape or cooperative mastery.
+
+Executed a standalone NumPy simulation (not the repository combat engine): 5 scenarios × 2 escape settings × 10,000 trials = **100,000**; each trial capped at 300 internal opportunities. Seed = 20261102 + scenario label length + escape flag. Per-opportunity Resolve recovery +6 or +3 at influence >=75, Resolve maximum 50, initial Resolve 20; paid resistance 3 Resolve and +2 roll, fallback -2; opposed d20 natural roll priority, defender wins ties; successful resistance -10 influence, +progress step; failed resistance +3 influence; two forced-activity checks each +3 influence using exploratory probabilities 0 at 0%, .02 at 1–24, .12 at 25–49, .35 at 50–74, .65 at 75–99, .85 at 100. Final challenge immediately when progress >=100 and influence 0, form +2; failed final +8 influence and progress retained. The escape-enabled branch adds an **invented, illustrative** independent escape check once every three opportunities with scenario-specific success probabilities; these are NOT actual Kibbles, Erin, or other form escape rules. Escape terminates the encounter without granting mastery.
+
+| Scenario | Original Willpower | Form opposition | Initial influence | Progress per success | Assumed escape chance per check | No-escape mastery by 300 | Escape-enabled mastery / escaped / unfinished by 300 | Median mastery attempts without escape (completed only) |
+|---|---:|---:|---:|---:|---:|---:|---:|---|
+| Early Common | 4 | 5 | 30 | 10 | 4% | 100% | 70.08% / 29.92% / 0% | 23 |
+| Later Rare | 7 | 7 | 60 | 8 | 6% | 100% | 54.41% / 45.59% / 0% | 26 |
+| Later Legendary | 9 | 9 | 90 | 5 | 8% | 100% | 28.23% / 71.77% / 0% | 42 |
+| Legendary physical specialist | 4 | 9 | 90 | 5 | 18% | 33.30% | 0.17% / 99.83% / 0% | 171 |
+| Legendary low-Willpower stress | 1 | 9 | 90 | 5 | 18% | 0.18% | 0% / 100% / 0% | 211.5 |
+
+**Interpretation:** These tests show sensitivity to later-game attribute growth and availability of alternative escape, not actual capture, escape, or mastery rates in gameplay. Repeated independent escape rolls can dominate the result; do not implement these hypothetical escape probabilities or use them to assert that a particular form is escapable. Kibbles has no zipper/seam; physical release must follow authored mechanics, and fully encased forms still need a universal internal route. For any future credible integrated test, read the actual combat/escape implementation, track earned attributes and acquired higher-tier forms, rarity encounter prevalence, entity-specific escape eligibility, and distinct escape/mastery/cooperation outcomes. Avoid universal balance targets across character builds.
+
+---
+
 # Joint external-capture and internal-mastery simulation — 2026-11-01
 
 **Design research only, not implemented or published.** Executed standalone NumPy Monte Carlo: 180,000 external encounters (3 builds × 3 rarities × 2 threat conditions × 10,000), 110,709 captures entered internal simulation, 79,476 achieved mastery by the 300-opportunity horizon. Seeds = 20261101 + rarity_index*100 + build_index*10 + threat_bonus. Unfinished runs are censored.
