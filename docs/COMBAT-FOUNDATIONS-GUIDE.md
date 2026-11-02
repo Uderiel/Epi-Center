@@ -1,3 +1,29 @@
+# Joint external-capture and internal-mastery simulation — 2026-11-01
+
+**Design research only, not implemented or published.** Executed standalone NumPy Monte Carlo: 180,000 external encounters (3 builds × 3 rarities × 2 threat conditions × 10,000), 110,709 captures entered internal simulation, 79,476 achieved mastery by the 300-opportunity horizon. Seeds = 20261101 + rarity_index*100 + build_index*10 + threat_bonus. Unfinished runs are censored.
+
+This was **not the repository combat engine**. External capture proxy: three opposed d20 contests, enemy winning at least two means capture, winning all three adds 15 starting influence. Enemy score modifier = 5 + rarity bonus (0/2/4) + threat modifier (0/3). Player physical defense = 5 + floor(physical offense/3); Physical build original Willpower 1, offense 8; Balanced 4,5; Mental 7,2. This tests direction of physical specialization, not actual capture probabilities or accepted combat balance.
+
+Internal exploratory parameters: Common initial influence 30, opposition 5, progress +10/success; Rare 60,7,+8; Legendary 90,9,+5. Resolve starts 20, maximum 50. Per opportunity recover 6 (or 3 if influence >=75), plus 25% chance of 3 extra. Paid attempt 3 Resolve/+2 roll; otherwise free fallback/-2. Success reduces influence 10, failure increases 3. Two potential forced activities, each +3 influence, with assumed probability bands: influence 0=0%, 1–24=2%, 25–49=12%, 50–74=35%, 75–99=65%, 100=85%. Immediate final opposed challenge at influence 0 and progress 100; form +2; failure +8 influence and retained progress. These bands are **not verified canonical Erin control thresholds**. Opportunity time was not modeled using real world actions.
+
+| Rarity | Build | Capture % (standard threat) | Conditional mastery % by 300 | Median internal attempts among completed |
+|---|---|---:|---:|---:|
+| Common | Physical | 34.47 | 96.32 | 39 |
+| Common | Balanced | 39.78 | 100 | 23 |
+| Common | Mental | 45.84 | 100 | 17 |
+| Rare | Physical | 46.48 | 26.89 | 97.5 |
+| Rare | Balanced | 53.23 | 96.64 | 54 |
+| Rare | Mental | 59.53 | 100 | 26 |
+| Legendary | Physical | 59.80 | 0.65 | 175 |
+| Legendary | Balanced | 65.45 | 40.17 | 160 |
+| Legendary | Mental | 72.08 | 99.61 | 72 |
+
+Higher threat (+3) capture rates Physical/Balanced/Mental: Common 53.60/60.62/65.32%; Rare 65.90/70.80/75.74%; Legendary 74.74/79.95/83.76%. Conditional mastery Common 96.49/100/100%; Rare 26.27/96.45/100%; Legendary 0.74/38.89/99.51%.
+
+**Interpretation:** The physical specialist has lower capture risk in this proxy, but the stacked Legendary penalties yield only 0.65% conditional completion for captured physical specialists within the horizon. Reject this stacked numerical profile as a baseline; do not mistake censoring for impossibility. Next use actual combat engine to evaluate physical/mental/arousal matchup counters and vary rarity factors independently. No new numeric rules approved.
+
+---
+
 # Internal mastery — owner decisions and simulation checkpoint (2026-11-01)
 
 **Design-only checkpoint. Not implemented, published, or approved numerical balance.** The rules below supersede the earlier *discussion-status wording* for the settled decisions only; accepted external combat and Resist Mental remain unchanged. See [internal mastery proposal](INTERNAL-MASTERY-DESIGN-PROPOSAL.md) and [encased-player supplement](ENCASED-PLAYER-SUPPLEMENT-DESIGN.md).
