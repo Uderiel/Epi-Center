@@ -57,3 +57,19 @@ Define per-instance name/gender/archetype and pronoun handling; motive/needs pri
 
 ---
 
+
+## Owner answers 31–40 (2026-11-02)
+
+31. **Snack mastery:** An alternate reward for a player who creatively recognizes Kibbles' needs and goes to the effort of making it happy. Not a generic feed-once trust/mastery shortcut; retain previously authored route specifics pending source review.
+32. **After mastery:** Kibbles remains a nonverbal canine sensory companion; may spontaneously note something the player missed or interpret a scent more effectively. It can also respond to requests for insight; mastered player has impulse control.
+33. **Gender:** No intrinsic behavior/personality differences between player-selected male and female forms. Name and gender remain per-player, permanent once selected.
+34. **Emotions:** Owner explicitly asks whether emotion is mechanically tracked or derived from scene/activity. **Proposal, not yet owner-approved:** lightweight transient event-derived states (excited, bored, content, guarded, frightened/frustrated, attentive), no extra permanent emotion bars. Existing hunger/fatigue/bladder/influence/relationship remain authoritative.
+35. **Memory:** Food/snack memories short; promises can be forgotten within an hour; location familiarity, time spent in places, and scent markings have longer persistence. Favorite activities: squirrel chasing and fetch.
+36. **Learning:** Treat-reinforced new tricks take about **one in-game day**; route familiarity takes about **two in-game days**, if Kibbles leaves scent marks along route.
+37. **Bladder:** Kibbles tolerates naps between interactions, but bladder urgency creates persistent drive to leave living space rather than soil it. Avoid inventing numerical thresholds.
+38. **Novelty:** High-stimulation events (running squirrel etc.) usually distract; trusted leash/handler restraint or fatigue can suppress; newer stimuli frequently trigger interest. Personality archetype weighting still applies.
+39. **Communication:** Barking, whining, ear/tail/body posture, scents, emotion and imagery. Communication does **not** become more verbal/clearer post-mastery; impulse control improves instead.
+40. **Long-term:** Player usually will not remain unmastered long enough for substantial character development, but intentional prolonged experience can alter learned behaviors. Excitable energy and archetype-specific two core traits are permanent.
+
+**Design interpretation / pending approval:** Short-lived contextual emotional flags rather than persistent bars. Do not turn Kibbles into a speaking human mind. Do not treat short-term promise forgetting as intentional deception. Next: map this specification into deterministic AI behavior priorities, trigger tables, owner-authorized numerical effects and persistence; verify snack mastery mechanics in repository before altering code. No implementation or publication is claimed.
+
