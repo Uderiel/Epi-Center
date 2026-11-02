@@ -1,3 +1,20 @@
+# Rarity-specific final internal mastery — owner approved (2026-11-02)
+
+**Owner decision supersedes the earlier universal-final-contest proposal.** Once earned internal mastery progress is **100** and current influence is **exactly 0**:
+
+- **Common and Uncommon:** grant permanent base mastery **automatically**, with no additional final saving throw or opposed contest.
+- **Rare:** require a final opposed mastery contest. On failure, set current influence to **40%** (40 points), retain all **100 mastery progress**, and require reduction back to zero plus a legitimate new opportunity before another final contest.
+- **Epic:** require a final opposed mastery contest. On failure, set current influence to **50%** (50 points), retain all **100 mastery progress**, and require reduction back to zero plus a legitimate new opportunity before another final contest.
+- **Legendary:** form-authored unique tests and mastery requirements; no generic Rare/Epic reset, shortcut, or automatic threshold mastery. Each form defines its own tests, failure consequences and completion gates.
+
+**Timing:** For Rare/Epic, offer the final contest immediately on the eligible internal action that first meets both thresholds; it does not cost an extra 30-minute opportunity. Failed contest returns control pressure to the specified band and cannot be rerolled by clicking or reloading. Existing +100 Erin cooperative route and Kibbles snack-specific mastery remain independent authored alternatives. Base mastery does not grant tier XP, refill resources or reverse transformation.
+
+**Still unresolved:** Exact Rare/Epic final opposed-roll modifiers (the earlier suggested +2 for form was **not approved**), natural-roll/tie treatment consistent with core rules, Legendary authored challenges, and implementation/testing. Do not mistake this design approval for a published gameplay change.
+
+**Player-facing:** “Common and Uncommon forms become mastered when your progress reaches 100 and influence reaches zero. Rare and Epic forms demand one last contest; failing restores 40 or 50 influence respectively, but keeps your earned progress. Legendary forms have their own trials.”
+
+---
+
 # Conflicting player actions as control triggers — owner reconfirmed (2026-11-02)
 
 **Reconfirmed existing v0.8.x design, not a newly invented rule:** When the player chooses an action contrary to a form's intentions, the form can attempt to contest or redirect that action if its current influence and authored behavior allow. Form-specific autonomous triggers also remain valid. A successful control contest does not itself grant +5 influence: the imposed meaningful activity must actually complete, and then is counted once. At exactly zero influence no forced action/control or form-forced activity regain is permitted. The new universal influence/mastery state must integrate with and preserve existing form-specific control logic rather than replace it with a parallel system. Inspect actual historical v0.8.x and current behavior before implementation; do not infer an unverified exact version or claim the live game has this new integration.
