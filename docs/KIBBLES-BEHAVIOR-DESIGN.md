@@ -39,3 +39,21 @@ Forgiveness, relationship/influence effects, cooperative mastery route, severe c
 
 ## Implementation checkpoint
 Define per-instance name/gender/archetype and pronoun handling; motive/needs priorities; actual event and schedule triggers; form-owned state vs player-owned state; persistent trust/memory; behavior weights; autonomous control eligibility; authored world events and no-farm IDs; narrative sensory output; tests and Player Guide/Eve language. This file is a design record only.
+
+## Owner answers 21–30 (2026-11-02)
+
+21. **Forgiveness:** Easy to earn, particularly for encased player. Other characters can soothe with treats or gentle words except serious violations such as rushed collaring/kenneling.
+22. **Voluntary shared control:** Kibbles can yield some control even at high influence but may become distracted and forget permission mid-activity. It will not willingly pass the **outer loop road** boundary. Preserve player challenge/contest rules.
+23. **Cooperative release, not easy mastery:** No generic trust-based mastery for Kibbles. Bored Kibbles may consider releasing encased player if they promise appealing play, belly rubs or similar attention. Very strong relationship **plus actual follow-through** might warrant further special consideration, but do not invent a mastery threshold or automatic mastery. Voluntary release is distinct from base mastery.
+24. **Relationship declines:** Repeated complaining, calling it a bad dog, denying appealing snacks/treats, or repeatedly resisting to pursue boring actions frustrate Kibbles. No unapproved numeric penalties.
+25. **Onset:** Distinct canine mental presence starts **once player's head is fully encased**, regardless of total transformation percent.
+26. **Influence-driven sensory prompts:** Higher influence intensifies attention to new/appealing scents, rapid movement, loud sounds/ear flicks, toys, offered ball throws, salivation at treats, and words linked to pleasant outcomes (walk/play/treat). Lower influence reduces intrusive prompts/automatic responses, not canine existence.
+27. **Embodied perspective:** High kinetic energy, taut action-ready muscles, rapidly shifting emotion, impatience/boredom in inactivity; mental imagery focuses on movement, ball, attention. Activity is exhilarating; prolonged isolation dull and interminable, reflecting dependence on others for engagement.
+28. **Collar/leash/kennel and handler:** With **trusted other player**, collar represents consistency/partnership; leash represents walk and loyalty to holder; kennel frustrates freedom, proximity and ability to protect handler. These shift focus to handler and **make internal resistance harder** without automatically reducing form-player relationship. Do not invent numeric modifiers yet. Untrusted forced collar/kennel remains a boundary violation.
+29. **Reduced pressure:** Bored after no interaction, or absorbed in pleasant mindless eating/chewing bone; strongest opportunities when not collared, leashed or kenneled. Distinguish sensory desire from pressure and resistance opportunities.
+30. **Physical escape:** Successful eligible 1d50 escape check results in Kibbles' throat/mouth distending to **hack/regurgitate the player out**. No zipper/seam, no ordinary peeling; escaping is not mastery. Eligibility, anatomy and release effects require authored implementation.
+
+**Still pending:** questions 31–40; exact resistance modifiers from handler attention; outer-loop boundary exception policy; voluntary release requirements; actual game implementation and tests.
+
+---
+
