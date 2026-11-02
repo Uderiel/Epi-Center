@@ -1,3 +1,15 @@
+# Integrated testing requirements and escape/mastery distinction — 2026-11-01
+
+**Owner-approved direction:** Escape should ordinarily be easier than permanent mastery. Mastery is the detailed, sustained process of resistance, influence reduction, earned progress and final contest; Legendary mastery additionally requires individually authored sequences. Do not force equal success rates or impose a universal balance target across builds. One eligible 1d50 escape saving throw per in-game hour, subject to actual escape eligibility; numerical rarity DCs remain candidates, not approvals.
+
+**Required preflight before any further large-scale simulation:** Inspect the actual combat engine, escape restrictions, form overlay and original-attribute ownership, character creation and earned attribute points, player caps and potentially higher late-game form caps, gear bonuses, form bonuses, mastery tiers and abilities, physical/Mental/Arousal archetype matchups and hybrids, enemy rarity and encounter prevalence, encounter victory/defeat/partial transformation/encasement/surrender, actual influence control thresholds and world-time actions, recovery/Resolve exhaustion, NPC-specific alternatives and Legendary trial gates. Enumerate which factors are implemented, documented only, or unknown. Do not invent probability distributions for unknown mechanics and then describe results as gameplay outcomes.
+
+**Single integrated test matrix:** Representative early/mid/late characters, full ten-attribute vectors and earned allocations; original vs effective equipped-form values; equipment effects and form tier; each combat archetype and meaningful counters; Common through Legendary entities at plausible progression; encounter outcomes and initial influence; 1d50 escape with influence and legality; internal resistance to 100% progress/0 influence, final contest; cooperative and entity-specific escape/mastery routes; persisted hourly eligibility and no double-roll or reload exploit. Report escape, mastery, surrender, unresolved and external victory separately. Include deterministic boundary checks before Monte Carlo. Provide clear plain-language conclusions and test limitations.
+
+**Critical distinction:** Physical escape must not automatically bypass sealed-form anatomy; no nonexistent Kibbles zipper. A valid alternative route may exist without physical release. The model must distinguish a legal opportunity from a guaranteed ability to escape. A Legendary's higher attributes cannot by themselves skip its authored mastery sequence. No gameplay implementation or numeric DC approval from this checkpoint.
+
+---
+
 # Hourly 1d50 escape proposal — 2026-11-01
 
 **Owner direction:** One eligible escape saving throw per in-game hour using 1d50. Lower influence improves escape; rarity sets difficulty. Escape is distinct from permanent mastery. Legendary forms should have authored multi-stage mastery challenges; late-game character advancement and higher form attribute caps must be considered. Numerical thresholds and stage definitions remain pending.
