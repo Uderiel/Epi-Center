@@ -1,3 +1,38 @@
+# Internal mastery — owner decisions and simulation checkpoint (2026-11-01)
+
+**Design-only checkpoint. Not implemented, published, or approved numerical balance.** The rules below supersede the earlier *discussion-status wording* for the settled decisions only; accepted external combat and Resist Mental remain unchanged. See [internal mastery proposal](INTERNAL-MASTERY-DESIGN-PROPOSAL.md) and [encased-player supplement](ENCASED-PLAYER-SUPPLEMENT-DESIGN.md).
+
+## Owner-settled rules
+
+- Universal internal resistance covers living encasement, worn unmastered forms, and cursed objects imposing a form; entity-specific activities supplement rather than replace it. Physical transformation, temporary influence, durable progress and permanent base mastery are separate; base mastery does not grant tier XP or reverse transformation.
+- Track influence 0–100, durable earned internal mastery progress 0–100, and a once-only mastered state. **Resistance readiness requires exactly zero current influence AND 100% earned progress.** Merely reaching zero or rolling natural 20 on an ordinary attempt never grants mastery.
+- On the resistance action that first satisfies both conditions, offer the harder final mastery contest **immediately in that opportunity**. Failure must be bounded, preserve earned progress and require a new legitimate opportunity, not free repeated rolls. Exact numeric difficulty/setback remain unapproved.
+- At **0% influence the form has 0% probability/authority to forcibly override player intent or force an activity-based influence setback**. Lower influence restores progressively greater autonomy, including independent travel/actions where otherwise legal. Distinguish a voluntary action from forced behavior; the form cannot manufacture regain at zero through its own forced action.
+- Mastery length and difficulty scale with **form rarity** and the outcome of the initial physical encounter. Low mental-attribute builds may be more effective in external physical combat and therefore encounter internal captivity less frequently. Balance must measure both capture probability and *conditional* mastery duration; do not assume all builds enter internal mastery at equal rates.
+- Erin's **+100 positive relationship** grants base mastery cooperatively, bypassing influence, earned resistance progress and final hostile contest; relationship events must be meaningful, persistent and nonfarmable. Her Favorite Red Heels being removed and her attention being absorbed by a show are possible reduced-pressure/recovery opportunities, not universal requirements. Removing heels does not undo physical changes.
+- Kibbles has independently authored reduced-pressure conditions (not leashed, collared, kenneled, or actively petted); do not transplant Erin's behavior. Mastered Kibbles cannot override player intent and has no zipper/seam. Preserve original defensive attributes for resistance, not imposed form overlay; no mastery-triggered healing/refill or offline time accumulation.
+- Internal recovery must remain possible while fully encased and unable to move/speak/use hands, including at zero Resolve. Paid resistance with a cost-free fallback is a **candidate**, not yet owner-approved. Numerical costs, recovery rates, opportunity cadence, form opposition attribute, natural-roll simultaneous/tie policy and rarity scaling remain pending.
+
+## Executed exploratory Monte Carlo checkpoint (not approved balance)
+
+2026-11-01: NumPy RNG; 10,000 trials per scenario, 9 scenarios (90,000 total); 300-opportunity censoring; seeds = 20261101 + initial_influence*10 + original_Willpower. Profiles: Common (initial influence 30, form opposition 5, progress +10/success); Rare (60,7,+8); Legendary (90,9,+5). Player original Willpower 1/4/7. Opposed d20; natural 20 succeeds unless both natural 20, natural 1 fails unless both natural 1; simultaneous naturals and equal totals favor defending form. Paid action costs 3 Resolve and grants +2; if insufficient Resolve, cost-free action has -2. Starting Resolve 20, max 50; each eligible opportunity restores 6 Resolve, or 3 at influence >=75, or 9 on a 25%-chance quiet opening. One resistance action/opportunity, 10 influence points reduced on success, 3 influence points added on failure, 3 points regained on a forced form activity. Forced-activity probabilities by current influence: 0=0%, 1–24=2%, 25–49=12%, 50–74=35%, 75–99=65%, 100=85%. These probability bands are **simulation assumptions, not verified existing gameplay thresholds**. A final challenge is immediate when influence=0 and progress=100; opposed form gets +2, failure adds 8 influence, progress persists. A successful final challenge ends the trial. No offline time or UI accrual. Simulated opportunity time and external capture frequency were **not** modeled.
+
+| Profile | Original Willpower | Completion by 300 opportunities | Median attempts (completed only) | 90th-percentile attempts (completed only) |
+|---|---:|---:|---:|---:|
+| Common | 1 | 99.99% | 37 | 81 |
+| Common | 4 | 100% | 23 | 37 |
+| Common | 7 | 100% | 17 | 25 |
+| Rare | 1 | 81.02% | 108 | 238 |
+| Rare | 4 | 100% | 41 | 79 |
+| Rare | 7 | 100% | 26 | 38 |
+| Legendary | 1 | 11.21% | 189 | 281 |
+| Legendary | 4 | 94.18% | 112 | 221 |
+| Legendary | 7 | 100% | 50 | 80 |
+
+**Interpretation:** The tested Legendary profile stacks three disadvantages and is too punitive for weak-Willpower builds *conditional on capture*; unfinished trials are censored, not permanently impossible. These runs did not model physical-combat capture likelihood, actual Erin control bands, authored Kibbles routines, zero-Resolve starting cases, opportunity durations, or persistence abuse. Do not promote their numbers to rules. Next compare rarity progress scaling separately from opposition/starting influence and integrate external-combat capture exposure before balancing.
+
+---
+
 # Internal-mastery discussion cross-reference
 
 The [encased-player supplement](ENCASED-PLAYER-SUPPLEMENT-DESIGN.md) and [internal mastery proposal](INTERNAL-MASTERY-DESIGN-PROPOSAL.md) are DESIGN PENDING. They do not replace or modify the accepted combat rules below. The owner is discussing a progress-building opposed resistance route, influence zero/final attempt and Erin's distinct slow cooperative route. Attribute/cost/rate/tie/recovery rules need agreement before implementation. Existing combat Resist Mental is not automatic permanent mastery.
