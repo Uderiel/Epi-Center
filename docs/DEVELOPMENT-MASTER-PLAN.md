@@ -1,3 +1,11 @@
+## Documentation review and internal mastery discussion — November 1, 2026
+
+Verified the v1.0.51 status, changelog, handoff, master plan, restoration matrix, active log, Mental profile and stored release evidence against repository head `694d76c`. The recorded 201 deterministic cases/entity assertions and 32 browser checks are existing v1.0.51 results, not tests newly rerun by this documentation review; owner acceptance remains pending. Confirmed the successful Pages run for gameplay `2de3ca3`.
+
+Reconciled stale active entries for Wait pacing, Erin's effective attributes, removed courtyard, reference range and continuation priority. Recorded the owner's slow cooperative Erin route and proposed internal-resistance/zero-influence/final-save route in [INTERNAL-MASTERY-DESIGN-PROPOSAL.md](INTERNAL-MASTERY-DESIGN-PROPOSAL.md). Recommendation: durable earned progress alongside temporary influence, bounded action-based regain and separate cooperative eligibility. Numerical rules/final mastery conditions remain unapproved and unimplemented. The shared game clock supports explicit helpful actions/eligible active time without AI; actual TV distraction and internal mastery remain unfinished.
+
+**Gameplay/version remains v1.0.51.** Next requested work is discussing ENC-01/REST-13/16 and KB-01/02, not automatically porting old control behavior. Maintain the [active log](OPEN-TASKS-AND-DECISIONS.md). Existing Erin evidence is preserved; proposal test cases are design requirements, not passed checks.
+
 **v1.0.51 publication verified:** gameplay `2de3ca30df4d2cb8851fcd0b4d2cfabe322eb8fd` is on main and rebuild/1.0-foundations. [Pages run 41377002291](https://github.com/Uderiel/Epi-Center/actions/runs/41377002291) succeeded. Nine deployed entrypoints/modules match the tested source after line-ending normalization; all three entrypoints report v1.0.51. [Live verification](releases/v1.0.51-live-verification.json). **201 deterministic cases plus entity assertions and 32 isolated browser checks PASS; owner/native-device acceptance pending.**
 
 ## v1.0.51 — owner-directed Wait pacing and Erin Mental attributes

@@ -1,3 +1,7 @@
+# Internal-mastery discussion cross-reference
+
+The [encased-player supplement](ENCASED-PLAYER-SUPPLEMENT-DESIGN.md) and [internal mastery proposal](INTERNAL-MASTERY-DESIGN-PROPOSAL.md) are DESIGN PENDING. They do not replace or modify the accepted combat rules below. The owner is discussing a progress-building opposed resistance route, influence zero/final attempt and Erin's distinct slow cooperative route. Attribute/cost/rate/tie/recovery rules need agreement before implementation. Existing combat Resist Mental is not automatic permanent mastery.
+
 ## v1.0.43 — paired appearance, permanent Kibbles identity and restored text cases
 
 Owner acceptance from v1.0.42: equip/profile/techniques, underlying restoration, unmastered release gate, treat consumption and seek-help test passed. Appearance presentation and Dev feedback required correction. Those passed mechanics are retained; this candidate addresses the reported display/text issues and the newly requested one-time identity setup.

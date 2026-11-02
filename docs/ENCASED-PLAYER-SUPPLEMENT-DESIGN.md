@@ -1,5 +1,7 @@
 # Encased-player combat guide supplement — design pending
 
+Latest discussion: [INTERNAL-MASTERY-DESIGN-PROPOSAL](INTERNAL-MASTERY-DESIGN-PROPOSAL.md) records the owner's slow cooperative Erin route, reduced-activity opportunities and influence-zero/final-save proposal. Recommendation: separate durable progress from temporary influence and distinguish cooperative agreement from resistance. Costs, opposed attributes, rates, recovery and final attempt rules remain pending. This remains a design checkpoint; v1.0.51 has no new internal mastery mechanic.
+
 This file is the required design checkpoint for general internally trapped/encased players. It is NOT an implemented escape/mastery route. Track ENC-01 in OPEN-TASKS-AND-DECISIONS.
 
 ## Settled constraints

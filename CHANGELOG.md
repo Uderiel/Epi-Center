@@ -1,3 +1,11 @@
+## Documentation review and internal mastery discussion — November 1, 2026
+
+Verified the v1.0.51 status, changelog, handoff, master plan, restoration matrix, active log, Mental profile and stored release evidence against repository head `694d76c`. The recorded 201 deterministic cases/entity assertions and 32 browser checks are existing v1.0.51 results, not tests newly rerun by this documentation review; owner acceptance remains pending. Confirmed the successful Pages run for gameplay `2de3ca3`.
+
+Reconciled stale active entries for Wait pacing, Erin's effective attributes, removed courtyard, reference range and continuation priority. Recorded the owner's slow cooperative Erin route and proposed internal-resistance/zero-influence/final-save route in [INTERNAL-MASTERY-DESIGN-PROPOSAL.md](docs/INTERNAL-MASTERY-DESIGN-PROPOSAL.md). Recommendation: durable earned progress alongside temporary influence, bounded action-based regain and separate cooperative eligibility. Numerical rules/final mastery conditions remain unapproved and unimplemented. The shared game clock supports explicit helpful actions/eligible active time without AI; actual TV distraction and internal mastery remain unfinished.
+
+**Gameplay/version remains v1.0.51.** Next requested work is discussing ENC-01/REST-13/16 and KB-01/02, not automatically porting old control behavior. Maintain the [active log](docs/OPEN-TASKS-AND-DECISIONS.md). Existing Erin evidence is preserved; proposal test cases are design requirements, not passed checks.
+
 **v1.0.51 publication verified:** gameplay `2de3ca30df4d2cb8851fcd0b4d2cfabe322eb8fd` is on main and rebuild/1.0-foundations. [Pages run 41377002291](https://github.com/Uderiel/Epi-Center/actions/runs/41377002291) succeeded. Nine deployed entrypoints/modules match the tested source after line-ending normalization; all three entrypoints report v1.0.51. [Live verification](docs/releases/v1.0.51-live-verification.json). **201 deterministic cases plus entity assertions and 32 isolated browser checks PASS; owner/native-device acceptance pending.**
 
 ## v1.0.51 — owner-directed Wait pacing and Erin Mental attributes
@@ -107,7 +115,7 @@ Recomposed both realistic German Shepherd photographs into landscape scenes and 
 
 Removed portrait `max-height` / `contain` constraints. Saved portraits and both gender previews now use the Central Hub aspect ratio, natural proportional height and `object-fit:cover`, so there are no black side bars or stretched dogs. Matching HTML dimensions reserve the correct layout space. Equip, Appearance, Character and the Form drawer share the profile resolver. Permanent identities, height/weight, player resources and save keys are preserved.
 
-**Future artwork standard:** every new game image must be 1100 × 733, scene content to all four edges, using the same responsive landscape display. See [ARTWORK-STANDARD.md](ARTWORK-STANDARD.md) for generation, export and display requirements.
+**Future artwork standard:** every new game image must be 1100 × 733, scene content to all four edges, using the same responsive landscape display. See [ARTWORK-STANDARD.md](docs/ARTWORK-STANDARD.md) for generation, export and display requirements.
 
 Validation: **120/120 deterministic cases** plus entity assertions PASS; all combat modules and HTML scripts compile; whitespace checks PASS. Asset checks confirm both files exactly match Central Hub dimensions and all active references/frame rules. Focused browser QA PASS: both preview photos load at 1100×733; saved male/female profiles load new paths; desktop male frame fills 778×518.42; 360px embedded phone layout female fills 291×193.91; Character and Form drawer use the same landscape image without pillarboxing (drawer 278.19×185.36). Screenshot review confirms intact ears/paws and edge-to-edge backgrounds. Isolated preview QA slots only; original player identity remains preserved. Native phone/device acceptance remains owner testing.
 

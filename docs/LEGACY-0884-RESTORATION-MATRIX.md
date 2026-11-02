@@ -1,5 +1,11 @@
 # v0.8.84 restoration audit and release plan
 
+## Current clarification — documentation review, November 1, 2026
+
+v1.0.51 status/evidence is confirmed: REST-14 Wait pacing and REST-13 full-body Mental attributes are implemented/tested; mastery/control/resources and household/autonomy remain partial. NW heels placement and faster Wait were explicitly owner-directed. The initial matrix below describes the v1.0.49 audit baseline, not current missing features. Old Transit Courtyard is prohibited. Current next design discussion: [internal mastery proposal](INTERNAL-MASTERY-DESIGN-PROPOSAL.md), preserving Erin's slow cooperative route and the owner's proposed roll-based alternative; no numerical mastery rule is approved or implemented.
+
+Source custody clarification: the original Windows CRLF representation hashes to `5617819554af52e361a7008c49e1104e3fbf08a8c5663a5d05bcc9dc4c4a51a5`; the unchanged Git/LF representation hashes to `10b2da52fb85bd4fdfa470dddc629e3a155b40d6ade549e03c5250d1545677cd`. Both were checked; the difference is line endings, not altered source content. Keep both representations identified when validating future audits.
+
 Audit begun 2026-11-01, before gameplay edits. Working branch `restoration/legacy-0884` in `.restoration-worktree`; base `9b9f7c0a001657a09957062ca3f86c229fcd2e8b`, identical remote main/rebuild heads at inspection. Local parent remains development/v0.8.68; three pre-existing untracked Phase-1 notes are untouched. Remote epicenter-dev is `da4e3763d383c635155f56e0c191704274713ff4`.
 
 Canonical cumulative source: `epi-center-v0.8.84-attribute-foundation-corrections.html`, last modifying revision `8a6370eea18d5846ef2c38765bb3c8e5bb94306b`; SHA-256 `5617819554af52e361a7008c49e1104e3fbf08a8c5663a5d05bcc9dc4c4a51a5`. This is the actual cumulative file, with many superseded functions: final overrides take precedence over earlier definitions. It is retained unchanged.

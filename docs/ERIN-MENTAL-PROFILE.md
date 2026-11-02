@@ -1,5 +1,7 @@
 # Erin's Mental profile and dedicated Wait progression
 
+Documentation review: this describes implemented v1.0.51 behavior, not internal mastery. [Internal mastery proposal](INTERNAL-MASTERY-DESIGN-PROPOSAL.md) separately discusses using the player's original resistance attribute against form-authored opposition, so the imposed attribute overlay does not decide both sides. That proposal and all mastery costs/rates remain unapproved; no profile/resource changes are authorized by this review.
+
 Owner decisions, 2026-11-01: preserve the faster legacy dedicated Wait progression; establish Erin's current attributes toward a Mental archetype. These authorize implementation choices below, not a claim of owner acceptance of the resulting numbers.
 
 ## Attribute implementation
