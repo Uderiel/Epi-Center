@@ -1,0 +1,125 @@
+{
+  "version": "1.0.50",
+  "origin": "disposable localhost origin",
+  "profile": "new temporary Chromium profile",
+  "checks": [
+    {
+      "name": "Hub v1.0.50 boots old save and keeps canonical pools",
+      "passed": true
+    },
+    {
+      "name": "actual NW travel/inspection/collect controls acquire unique heels",
+      "passed": true
+    },
+    {
+      "name": "equip control establishes contact stage one without profile overwrite",
+      "passed": true
+    },
+    {
+      "name": "Form composer sends authored private Erin response without per-message stage",
+      "passed": true
+    },
+    {
+      "name": "paired appearance retains original plus changed feet",
+      "passed": true
+    },
+    {
+      "name": "59 minutes remains contact only",
+      "passed": true
+    },
+    {
+      "name": "one explicit inspection crosses 60-minute anatomy boundary",
+      "passed": true
+    },
+    {
+      "name": "stage 23 completes visible body only; no resource healing",
+      "passed": true
+    },
+    {
+      "name": "actual temporary entrance leads to authored living room",
+      "passed": true
+    },
+    {
+      "name": "authored desk examination persists",
+      "passed": true
+    },
+    {
+      "name": "desk discovery keeps closed drawer contents hidden",
+      "passed": true
+    },
+    {
+      "name": "opening drawer reveals authored pens and sticky notes",
+      "passed": true
+    },
+    {
+      "name": "actual novel controls read four persistent authored chapters",
+      "passed": true
+    },
+    {
+      "name": "Erin composer uses read progress and awards bounded home-topic trust",
+      "passed": true
+    },
+    {
+      "name": "repeated novel question does not farm trust",
+      "passed": true
+    },
+    {
+      "name": "all six room UI routes work without granting apartment belongings",
+      "passed": true
+    },
+    {
+      "name": "360px apartment drawer has no horizontal page overflow",
+      "passed": true
+    },
+    {
+      "name": "failed removal control preserves cursed pair",
+      "passed": true
+    },
+    {
+      "name": "successful removal preserves full body and original record",
+      "passed": true
+    },
+    {
+      "name": "closet storage removes carried item without reversal or duplicate",
+      "passed": true
+    },
+    {
+      "name": "reload retains room, full appearance, heels storage and slot isolation",
+      "passed": true
+    },
+    {
+      "name": "apartment exit returns to original #12 and keeps acquired pair",
+      "passed": true
+    },
+    {
+      "name": "mobile map retains 11x11 layout, fog and hides developer references",
+      "passed": true
+    },
+    {
+      "name": "original appearance denied private entrance through UI",
+      "passed": true
+    },
+    {
+      "name": "First Steps reward and immediate Hangry Fangs offer survive",
+      "passed": true
+    },
+    {
+      "name": "repeat Eve conversation never duplicates First Steps reward",
+      "passed": true
+    },
+    {
+      "name": "authored Eve lore response runs without quest reward changes",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser exceptions",
+      "passed": true
+    }
+  ],
+  "exceptions": [],
+  "limits": [
+    "No native-device or owner acceptance",
+    "Completion used accelerated clock fixture",
+    "Quest regression used active-return-ready fixture; full Hangry Fangs routes covered by deterministic suites"
+  ]
+}

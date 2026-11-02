@@ -1,5 +1,24 @@
 # Active unfinished-work log
 
+## Active restoration checkpoint — v1.0.50
+
+Audit completed before implementation; see [restoration matrix](LEGACY-0884-RESTORATION-MATRIX.md) and [release evidence](releases/v1.0.50-validation.md). Local implementation/verification complete: 196 deterministic cases plus entity assertions, 28 browser checks. Publication pending verification at this checkpoint; owner acceptance pending. Parent checkout remains development/v0.8.68; implementation worktree .restoration-worktree branch restoration/legacy-0884, based on 9b9f7c0. Final publication evidence must name the exact SHA and Pages build.
+
+**Owner decision, 2026-11-01:** cursed heels now belong in **Central Hub NW**. **Old Transit Courtyard does not/should not exist** in the current version. This supersedes the source's courtyard acquisition, the matrix's initial placement question, and any old WORLD-03 proposal to place that courtyard. Stable item identity shoes-0 remains. Applewood temporary placement east of #12 is approved; new owner reference #97, without renumbering 1–96. Preserve final legacy transformed-form apartment access; original-body access is refused.
+
+| ID | Status / unfinished work | Dependencies and exact next action |
+| --- | --- | --- |
+| REST-01..05 | PARTIAL IMPLEMENTATION; NOT OWNER ACCEPTED | Entrance, six room shells/examination, nested desk, novel, private dialogue, 23-stage current-body adapter, NW heels/removal/storage implemented/tested. Matrix records unported parts; do not mark complete parity. |
+| REST-12 | Owner acceptance | Run release's five manual checks; record PASS/FAIL/UNTESTED for native mobile, apartment/access, heels effects and existing quests. |
+| REST-13 | Erin form attributes/resources and mastery/resistance/control | Source's final 10-attribute system supplies no canonical Erin form allocation. Keep player values unchanged until defined. Map legacy authority/influence/resistance/recovery mechanics into current resolution and saved-pool architecture; never copy Kibbles policies. No mental resource damage, recovery or mastery is inferred. |
+| REST-14 | Conflicting legacy wait pacing | Ordinary advance818 is 1 step/60 min; dedicated wait833 adds alternating 2/3 steps. Current shared clock uses ordinary exposure only. Reconcile explicit wait acceleration with owner before adding any faster progression, avoiding double application. |
+| REST-15 | Apartment activity/belongings lifecycles | Examination/reading restored; adapt DESK837/LIVING840/KITCHEN844/home848/CATALOG850/laundry851/grooming861 data and atomic effects with capability/time checks. Do not auto-grant room belongings or seed another shoes-0. Restore meals, recipes, stock, delivery, ordinary clothing, layered storage, laundry, bathroom/grooming and sleep in manageable slices. Keep needs player-owned and omit obsolete auto-healing. |
+| REST-16 | Erin routine/autonomy integration | Calendar preference labels/profile/limited dialogue persist, but no autonomous physical activity/attendance/travel/equip is implemented. Port authorization, commitments and effect plans from 867 only after REST-13 plus capability/current-time adapters. Restore trust/stress/preferences responsibly; current home-topic +1 cap twice/day is source-backed. |
+| REST-17 | Further authored dialogue/quests and migration coverage | Four Eve lore answers and Erin books/plants/keepsakes/job/heels memory restored. Continue final source context/recipient/conversation routing and Charity content; five listed Charity quests remain informational designs until dependencies defined. Test older 1.0 save variants and form transitions; no automatic import of 0.8 local save namespaces. |
+
+All prior deferred IDs below remain open, including ENC-01/02,KB-01/02,XP-01,REP-01,SHOP-01 and remaining world/art/coupon work. WORLD-03's courtyard mention is superseded by the decision above. Exact continuation: fetch heads; read latest docs/matrix/evidence; confirm published source; preserve saves; resume first independent compatible REST-15/17 work while asking only for concrete REST-13/14/16 decisions as needed. Do not treat a successful deployment as owner acceptance.
+
+
 Maintain this file with EVERY build/handoff update. Read CURRENT-STATUS, this log, BUILD-PROGRESS-AND-TEST-HANDOFF and DEVELOPMENT-MASTER-PLAN before continuing. Move items to the completed checkpoint only with implementation/test evidence; owner acceptance is a separate gate. Preserve stable task IDs, decisions and deferred work across chats.
 
 ## Current work checkpoint — v1.0.49 published; owner acceptance pending
