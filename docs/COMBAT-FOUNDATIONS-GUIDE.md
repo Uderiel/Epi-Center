@@ -1,3 +1,23 @@
+# Hourly 1d50 escape proposal — 2026-11-01
+
+**Owner direction:** One eligible escape saving throw per in-game hour using 1d50. Lower influence improves escape; rarity sets difficulty. Escape is distinct from permanent mastery. Legendary forms should have authored multi-stage mastery challenges; late-game character advancement and higher form attribute caps must be considered. Numerical thresholds and stage definitions remain pending.
+
+**Exploratory candidate (not approved):** escape total = 1d50 + applicable existing attribute; target = rarity base DC + floor(influence/5). Proposed bases Common 18, Uncommon 24, Rare 30, Epic 36, Legendary 42. Natural 1 fails and 50 succeeds only for an otherwise legal escape opportunity. Physical/anatomical restrictions still apply. No offline advancement, repeat attempts in the same hour, or automatic mastery.
+
+**Executed standalone sensitivity test:** NumPy seed 20261101, 900,000 simulated sequences, each capped at 168 hourly rolls: 2 DC models × 5 rarities × 3 influence levels × 3 aptitude bonuses × 10,000 trials. Fixed influence and assumed legal hourly opportunities; not the live combat engine. Alternative model base DCs 20/27/34/41/48. Exact per-attempt escape chances with aptitude +4:
+
+| Rarity | Model A at influence 0/50/100 | Model B at influence 0/50/100 |
+|---|---|---|
+| Common | 74/54/34% | 70/50/30% |
+| Uncommon | 62/42/22% | 56/36/16% |
+| Rare | 50/30/10% | 42/22/2% |
+| Epic | 38/18/2% | 28/8/2% |
+| Legendary | 26/6/2% | 14/2/2% |
+
+**Limitations:** Actual legal escape windows, escape attributes, consequences, form-specific escape methods and Legendary mastery sequences remain to be authored. Repeated hourly rolls make eventual escape likely even at 2% if the opportunity remains available. Do not adopt these values without owner approval. This checkpoint does not change gameplay.
+
+---
+
 # Internal mastery progression and escape sensitivity — 2026-11-01
 
 **Design-only research; no gameplay change or approved numerical balancing.** Owner correction: do not assume new-character attributes persist into late-game Rare/Legendary encounters; players earn attribute points and higher-tier forms, Legendary encounters are uncommon, and external escape is a distinct legitimate outcome. Low-Willpower physical specialists can have stronger external survival/capture avoidance. The design goal is coherent mechanics and escape/recovery viability, **not a forced equalized mastery rate across builds**. Do not conflate permanent mastery with escape or cooperative mastery.
