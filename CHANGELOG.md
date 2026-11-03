@@ -1,3 +1,9 @@
+## v1.0.52 — publication verified
+
+[Play v1.0.52](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.52). Gameplay commit `42e6eae2b3672dfa519c7ef593a802f0a8a7ee06` is on main and rebuild/1.0-foundations. [Pages run 41712351440](https://github.com/Uderiel/Epi-Center/actions/runs/41712351440) succeeded. The live title visibly reports v1.0.52; 33 deployed entrypoints/modules/styles match tested source after line-ending normalization. [Live verification](docs/releases/v1.0.52-live-verification.json).
+
+256 named deterministic cases plus entity assertions and 78 recorded desktop/360px browser assertions pass. [Manual acceptance / scope](docs/releases/v1.0.52-validation.md). Owner/native-device acceptance remains pending; publication does not approve implementation defaults or close unrelated restoration/world-content tasks.
+
 ## v1.0.52 — exploration repair and form minds (2026-11-03)
 
 Implementation and verification complete; publication verification will be recorded separately. Owner/native-device acceptance remains pending. This checkpoint supersedes the older design-only/unimplemented notes below for the systems listed here; historical notes remain for context.
