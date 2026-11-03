@@ -8,7 +8,7 @@ const positions=[['NW',1,-1,-1,4],['N',2,0,-1,6],['NE',3,1,-1,4],['W',4,-1,0,6],
 const directions={NW:'Northwest',N:'North',NE:'Northeast',W:'West',C:'Center',E:'East',SW:'Southwest',S:'South',SE:'Southeast'};
 const nodes=positions.map(([direction,number,x,y,benches])=>Object.freeze({id:direction==='C'?SPIRE:'Central Hub '+direction,direction,number,x,y,benches,kind:'hub'}));
 const ring=['NW','N','NE','E','SE','S','SW','W'].map(d=>nodes.find(n=>n.direction===d));
-const normalize=id=>!id||id==='hub'||id==='Central Hub'?SPIRE:id;
+const normalize=id=>['Zed Shoe and Spa','Zed shoe and spa','Zed Shop and Spa'].includes(id)?'Zen Shop and Spa':!id||id==='hub'||id==='Central Hub'?SPIRE:id;
 // Reference numbers stay in source only. The owner's downward arrows move NW
 // alley labels 90/92/93 into the next row, replacing the crossed-out entries.
 const layout=[
@@ -27,7 +27,7 @@ const layout=[
 if(layout[APPLEWOOD.y+5][APPLEWOOD.x+5]!==0)throw Error('Applewood placement must use a blank square');
 layout[APPLEWOOD.y+5][APPLEWOOD.x+5]=APPLEWOOD.number;
 layout.forEach(Object.freeze);
-const buildings={62:STORE,63:"Burke's Sweets",64:'Form Repository',65:'Pet Boutique',66:'Daily Needs',67:'Neko Cafe',68:'Zed Shoe and Spa',69:'Going Out of Business',94:'The Doll House',95:'The Cloistered Madame',96:'Nip Tuck Cosmetics'};
+const buildings={62:STORE,63:"Burke's Sweets",64:'Form Repository',65:'Pet Boutique',66:'Daily Needs',67:'Neko Cafe',68:'Zen Shop and Spa',69:'Going Out of Business',94:'The Doll House',95:'The Cloistered Madame',96:'Nip Tuck Cosmetics'};
 function record(number,x,y){const hub=nodes.find(n=>n.number===number);if(hub)return hub;if(number===APPLEWOOD.number)return Object.freeze({...APPLEWOOD,name:'Applewood Apartments',kind:'building'});let id,kind='road',alley;
 if(buildings[number]){id=buildings[number];kind='building';}
 else if(number<=13)id='N. Main Street ('+(number-9)+')';
@@ -43,7 +43,7 @@ const isHub=id=>node(id)?.kind==='hub';
 function direction(a,b){const dx=Math.sign(b.x-a.x),dy=Math.sign(b.y-a.y);return (dy<0?'N':dy>0?'S':'')+(dx<0?'W':dx>0?'E':'');}
 function connected(a,b){if(Math.max(Math.abs(a.x-b.x),Math.abs(a.y-b.y))!==1)return false;if(a.kind==='alley'||b.kind==='alley'){if(a.kind==='alley'&&b.kind==='alley')return a.alley===b.alley;return (a.kind==='alley'?b:a).kind==='road';}return true;}
 const edges=Object.freeze(worldNodes.flatMap((a,i)=>worldNodes.slice(i+1).filter(b=>connected(a,b)).map(b=>Object.freeze([a.id,b.id]))));
-function migrate(save){save.hub||={};save.hub.location=normalize(save.hub.location);save.world||={};save.world.discovered||={};save.world.visited||={};save.world.npcsDiscovered||={};save.world.hubExpansion||={version:1,visited:{},inspected:{},squirrelIndex:0,moves:0};const h=save.world.hubExpansion;h.visited||={};h.inspected||={};h.squirrelIndex=Number.isInteger(h.squirrelIndex)?((h.squirrelIndex%8)+8)%8:0;h.moves=Math.max(0,Number(h.moves)||0);if(isHub(save.hub.location))h.visited[save.hub.location]=true;if(save.hub.location===STORE){save.world.discovered.cherishedTouch=true;save.world.visited.cherishedTouch=true;}save.world.examined||={};save.world.visited[save.hub.location]=true;return h;}
+function migrate(save){save.hub||={};save.hub.location=normalize(save.hub.location);save.world||={};save.world.discovered||={};save.world.visited||={};save.world.npcsDiscovered||={};save.world.hubExpansion||={version:1,visited:{},inspected:{},squirrelIndex:0,moves:0};const h=save.world.hubExpansion;h.visited||={};h.inspected||={};h.squirrelIndex=Number.isInteger(h.squirrelIndex)?((h.squirrelIndex%8)+8)%8:0;h.moves=Math.max(0,Number(h.moves)||0);if(isHub(save.hub.location))h.visited[save.hub.location]=true;if(save.hub.location===STORE){save.world.discovered.cherishedTouch=true;save.world.visited.cherishedTouch=true;}save.world.examined||={};for(const group of [save.world.visited,save.world.examined,save.world.discovered])for(const old of Object.keys(group)){const id=normalize(old);if(id!==old){group[id]=group[old];delete group[old];}}save.world.visited[save.hub.location]=true;return h;}
 function routes(save){migrate(save);const location=save.hub.location,from=node(location);const result=[];for(const [a,b] of edges){const id=location===a?b:location===b?a:null;if(id)result.push({id,name:display(id),direction:direction(from,node(id))});}return result;}
 function travel(save,destination){const route=routes(save).find(r=>r.id===normalize(destination));if(!route)throw Error('That destination is not a directly connected route.');save.hub.location=route.id;const h=migrate(save);save.world.visited[route.id]=true;h.moves++;h.squirrelIndex=(h.squirrelIndex+([1,1,-1,1,-1,-1,1,1][(h.moves-1)%8])+8)%8;return route;}
 function survey(save){migrate(save);if(!isHub(save.hub.location))return 'The Path drawer shows adjacent routes, including diagonals. Open Map to view the whole district. Alleys connect along their passages and to street exits, never directly into neighboring buildings.';const fresh=!save.world.discovered.cherishedTouch;save.world.discovered.cherishedTouch=true;return (fresh?'You discover':'You can still see')+' Cherished Touch north of Central Hub NE. All adjacent locations, including diagonals, appear in Path. Open Map for the whole district.';}

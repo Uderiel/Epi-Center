@@ -86,7 +86,7 @@ The exact 11×11 number matrix is in hub-world.js. Coordinates below use Spire (
 | 65 | Pet Boutique | 1 | 2 |
 | 66 | Daily Needs | -1 | 2 |
 | 67 | Neko Cafe | -2 | 1 |
-| 68 | Zed Shoe and Spa | -2 | -1 |
+| 68 | Zen Shop and Spa | -2 | -1 |
 | 69 | Going Out of Business | -1 | -2 |
 | 70 | NE Alley (1) | 1 | -3 |
 | 71 | NE Alley (2) | 2 | -3 |

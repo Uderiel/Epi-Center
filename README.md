@@ -1,3 +1,9 @@
+## v1.0.52 — verified implementation candidate
+
+Exploration/items/Unit 3C repairs and functional Kibbles behavior/internal mastery are implemented and tested. 256 named deterministic cases plus entity assertions and 78 real desktop/360px browser assertions pass. Owner/native-device acceptance remains pending. Publication evidence is recorded after Pages and deployed-source checks succeed.
+
+[Release handoff](docs/releases/v1.0.52-validation.md) · [Implementation and explicit defaults](docs/KIBBLES-IMPLEMENTATION-CONTRACT.md) · [Encased-player guide](docs/ENCASED-PLAYER-GUIDE.md) · [Active tasks](docs/OPEN-TASKS-AND-DECISIONS.md). Read this newest checkpoint before the historical sections below. The game keeps its action-driven clock, unique/persistent objects, saved apartments, authored curse stages and player authority after mastery. Future multiplayer handlers/world populations and broader Erin household/autonomy remain open; no such content is fabricated.
+
 ## Documentation review and internal mastery discussion — November 1, 2026
 
 Verified the v1.0.51 status, changelog, handoff, master plan, restoration matrix, active log, Mental profile and stored release evidence against repository head `694d76c`. The recorded 201 deterministic cases/entity assertions and 32 browser checks are existing v1.0.51 results, not tests newly rerun by this documentation review; owner acceptance remains pending. Confirmed the successful Pages run for gameplay `2de3ca3`.

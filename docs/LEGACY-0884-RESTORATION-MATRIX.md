@@ -1,3 +1,7 @@
+## v1.0.52 restoration checkpoint
+
+AC-51-01..05 repairs and the first shared internal mastery/Kibbles behavior implementation are verified in the [v1.0.52 validation](releases/v1.0.52-validation.md). Canonical source custody, all 23 authored stages, accelerated Wait, six apartment rooms, authored dialogue and persistent consequences are preserved. REST-13/16 and ENC/KB are now partially implemented, not merely proposals; broader Erin autonomy/household lifecycles remain open. Owner acceptance is separate. Latest rules and explicit defaults: [implementation contract](KIBBLES-IMPLEMENTATION-CONTRACT.md). Older audit baselines below are historical.
+
 # v0.8.84 restoration audit and release plan
 
 ## Current clarification — documentation review, November 1, 2026

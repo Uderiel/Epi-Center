@@ -1,0 +1,328 @@
+{
+  "version": "1.0.52",
+  "passed": 78,
+  "checks": [
+    {
+      "name": "Fresh UI creation, Path diagonal NW and composer inspection",
+      "passed": true
+    },
+    {
+      "name": "Zen Shop and Spa in Path",
+      "passed": true
+    },
+    {
+      "name": "Examine leaves heels available for explicit pickup",
+      "passed": true
+    },
+    {
+      "name": "Inventory carries unidentified Red Heels",
+      "passed": true
+    },
+    {
+      "name": "Explicit equip identifies curse",
+      "passed": true
+    },
+    {
+      "name": "Equipped initial transformation shown",
+      "passed": true
+    },
+    {
+      "name": "First hour Wait progresses from 1 to 3 stages",
+      "passed": true
+    },
+    {
+      "name": "Second hour Wait adds three, reaching stage 6",
+      "passed": true
+    },
+    {
+      "name": "Saving throw removed heels without reversing stage 6",
+      "passed": true
+    },
+    {
+      "name": "Reload retains carried heels and stage 6",
+      "passed": true
+    },
+    {
+      "name": "Composer canonical inspection: Inspect surroundings",
+      "passed": true
+    },
+    {
+      "name": "Composer canonical inspection: Look around",
+      "passed": true
+    },
+    {
+      "name": "Composer canonical inspection: Look around my current location",
+      "passed": true
+    },
+    {
+      "name": "Composer canonical inspection: Examine this area",
+      "passed": true
+    },
+    {
+      "name": "Path Inspect and composer produce identical canonical descriptions",
+      "passed": true
+    },
+    {
+      "name": "One visible Unit 3C directory entry on arrival",
+      "passed": true
+    },
+    {
+      "name": "Door examination describes closed private door",
+      "passed": true
+    },
+    {
+      "name": "Ineligible original/partial body entry stays denied",
+      "passed": true
+    },
+    {
+      "name": "Natural Wait sequence reaches capped 23 stages",
+      "passed": true
+    },
+    {
+      "name": "Eligible completed Erin body enters Unit 3C",
+      "passed": true
+    },
+    {
+      "name": "360px Path exposes Unit 3C without inspection",
+      "passed": true
+    },
+    {
+      "name": "360px original-body entry remains denied",
+      "passed": true
+    },
+    {
+      "name": "Migrated original body preserves resources and remains outside",
+      "passed": true
+    },
+    {
+      "name": "360px discovery exposes Red Heels actions",
+      "passed": true
+    },
+    {
+      "name": "360px examination does not collect",
+      "passed": true
+    },
+    {
+      "name": "360px text pickup produces explicit feedback",
+      "passed": true
+    },
+    {
+      "name": "360px Items show Red Heels before equip",
+      "passed": true
+    },
+    {
+      "name": "360px Wait after inventory equip reaches stage 3",
+      "passed": true
+    },
+    {
+      "name": "Apartment exit returns to the directory",
+      "passed": true
+    },
+    {
+      "name": "360px reload preserves equip state and second Wait reaches 6",
+      "passed": true
+    },
+    {
+      "name": "360px saving-throw removal retains physical changes",
+      "passed": true
+    },
+    {
+      "name": "360px removal and stage persist after reloading",
+      "passed": true
+    },
+    {
+      "name": "360px layout has no horizontal document overflow",
+      "passed": true
+    },
+    {
+      "name": "360px migrated balances remain unchanged",
+      "passed": true
+    },
+    {
+      "name": "Post-defeat Kibbles exposes timed internal controls",
+      "passed": true
+    },
+    {
+      "name": "Internal recovery becomes eligible through elapsed game time",
+      "passed": true
+    },
+    {
+      "name": "Zero-Resolve internal recovery adds six without advancing clock",
+      "passed": true
+    },
+    {
+      "name": "Shared internal cooldown disables repeated recovery",
+      "passed": true
+    },
+    {
+      "name": "Composer resistance charges exactly three Resolve",
+      "passed": true
+    },
+    {
+      "name": "Resistance uses no extra game time",
+      "passed": true
+    },
+    {
+      "name": "Opposed roll has approved success/failure effects",
+      "passed": true
+    },
+    {
+      "name": "Internal opportunity remains spent after reload",
+      "passed": true
+    },
+    {
+      "name": "Escape resolves as an actual d50 regurgitation check",
+      "passed": true
+    },
+    {
+      "name": "Browser escape releases without mastery or health refill",
+      "passed": true
+    },
+    {
+      "name": "Physical personality visible in Form drawer",
+      "passed": true
+    },
+    {
+      "name": "Mental personality visible in Form drawer",
+      "passed": true
+    },
+    {
+      "name": "Arousal personality visible in Form drawer",
+      "passed": true
+    },
+    {
+      "name": "Respect and mistreatment create distinct qualitative bond memories",
+      "passed": true
+    },
+    {
+      "name": "Relationship events do not invent numeric penalties or mastery",
+      "passed": true
+    },
+    {
+      "name": "Common internal mastery completes at 100 progress and zero influence",
+      "passed": true
+    },
+    {
+      "name": "Internal mastery does not heal or grant inventory tier XP",
+      "passed": true
+    },
+    {
+      "name": "Internal mastery enables will release",
+      "passed": true
+    },
+    {
+      "name": "Mastered identity saves one male name permanently",
+      "passed": true
+    },
+    {
+      "name": "Mastered Wait reports sensory assistance without control contests",
+      "passed": true
+    },
+    {
+      "name": "Male portrait replaces the default preview",
+      "passed": true
+    },
+    {
+      "name": "Male dimensions replace unassigned appearance",
+      "passed": true
+    },
+    {
+      "name": "Mastered release remains voluntary and available",
+      "passed": true
+    },
+    {
+      "name": "New trick reinforcement begins an association instead of instantly learning",
+      "passed": true
+    },
+    {
+      "name": "Second real reinforcement after one day learns the new cue",
+      "passed": true
+    },
+    {
+      "name": "Learning persists and consumes exactly two stored snacks",
+      "passed": true
+    },
+    {
+      "name": "Two-day scent-marked route becomes familiar through real travel",
+      "passed": true
+    },
+    {
+      "name": "Marking relieves bladder and remembers a real place",
+      "passed": true
+    },
+    {
+      "name": "Learned spin remains available after reload",
+      "passed": true
+    },
+    {
+      "name": "Stored crate food suppresses urgent food searching",
+      "passed": true
+    },
+    {
+      "name": "Hunger at 70 with no stored food shows food-seeking",
+      "passed": true
+    },
+    {
+      "name": "Mastered hunger still leaves internal override actions unavailable",
+      "passed": true
+    },
+    {
+      "name": "Mastered needs do not cause forced actions",
+      "passed": true
+    },
+    {
+      "name": "Latest v1.0.52 natural inspection/examination does not auto-collect",
+      "passed": true
+    },
+    {
+      "name": "Latest v1.0.52 inventory equip and hourly curse progression",
+      "passed": true
+    },
+    {
+      "name": "Final-candidate saving throw removes heels and preserves stage 3",
+      "passed": true
+    },
+    {
+      "name": "Final-candidate reload preserves removed heels and lasting changes",
+      "passed": true
+    },
+    {
+      "name": "Final-candidate mobile equipment fits 360px",
+      "passed": true
+    },
+    {
+      "name": "Eve accepts the internal-mastery route after voluntary release",
+      "passed": true
+    },
+    {
+      "name": "Internal quest completion preserves the authored rewards",
+      "passed": true
+    },
+    {
+      "name": "Combat opponent policy still resolves through Analyze and Pouncing Bite",
+      "passed": true
+    },
+    {
+      "name": "Player Main action retains its stated stamina cost",
+      "passed": true
+    },
+    {
+      "name": "Composer inspection respects combat lock",
+      "passed": true
+    },
+    {
+      "name": "Latest desktop retains exactly one Unit 3C directory entry",
+      "passed": true
+    }
+  ],
+  "coverage": {
+    "desktop": "1363px browser viewport",
+    "mobile": "360px × 800px iframe with actual game document"
+  },
+  "notes": [
+    "First 34 exploration checks ran on the patched 1.0.51 baseline; critical heels lifecycle reran on integrated 1.0.52. Later checks exercised integrated 1.0.52.",
+    "Fresh character created through normal title/creation UI; separate Slot 2 fixtures cover migrated saves and hard-to-reach form states.",
+    "Actual d20/d50 rolls used through the interface; no deterministic RNG injected in browser.",
+    "Physical Android/native-device owner acceptance remains pending."
+  ]
+}

@@ -1,3 +1,7 @@
+## v1.0.52 implementation checkpoint
+
+Owner answers 1–40 below are the behavioral authority. A functional event-driven implementation now connects them to form state, world-clock advancement, legal movement, needs, relationships, cue/route learning and internal contests. See [implementation contract](KIBBLES-IMPLEMENTATION-CONTRACT.md) for exact defaults, boundaries, tests and remaining world-provider work. This is implemented and tested, not owner-accepted. Older “design only”, “remaining questions” and pending-31–40 labels below describe historical checkpoints and are superseded by the complete answer record and this note.
+
 # Kibbles canine consciousness — owner character specification (questions 1–20, 2026-11-02)
 
 **Status:** Owner-provided behavioral design; design only, not gameplay implementation. “Bella” is an instance-specific name, **not the universal name**. Every player's Kibbles form may have a player-chosen name and gender; retain the established one-time choice after mastery. Do not hardcode female pronouns. The owner's wording below uses female pronouns for their instance.
