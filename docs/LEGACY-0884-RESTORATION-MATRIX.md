@@ -1,3 +1,11 @@
+## v1.0.54 — heels controls and Erin legacy life, tested implementation
+
+Equip now distinguishes discovered/carried/worn/stored heels, offers explicit pickup/equip/removal controls and persists the removal saving-throw result. Existing ownership is migrated once without auto-collecting discovered heels. Original23 stages, hourly Wait+2/+3, persistent changes, saves and Kibbles personalization are preserved.
+
+Restored source-derived Erin routines, contextual request/refusal dialogue, original portrait and86 physical household items, kitchen/groceries, laundry and grooming. Real activity requires elapsed time and current universal control authority; permanent mastery never overrides the player. Final source weekday/weekend leisure/night scheduling is functional. No invented office/commute or automatic meal/groom schedule.
+
+**298 deterministic cases plus entity assertions PASS;29 real desktop/360px browser checks PASS.** [Handoff](releases/v1.0.54-validation.md) · [Source/parity/scope](ERIN-LIFE-RESTORATION-CONTRACT.md). Publication verification will be recorded separately. Owner/native-device acceptance, broad inventory migration, workplace/commute design, extended dialogue calibration, future locations/images and other prior unresolved tasks remain open. Prior release sections below are historical checkpoints, not current completion claims.
+
 ## v1.0.52 restoration checkpoint
 
 AC-51-01..05 repairs and the first shared internal mastery/Kibbles behavior implementation are verified in the [v1.0.52 validation](releases/v1.0.52-validation.md). Canonical source custody, all 23 authored stages, accelerated Wait, six apartment rooms, authored dialogue and persistent consequences are preserved. REST-13/16 and ENC/KB are now partially implemented, not merely proposals; broader Erin autonomy/household lifecycles remain open. Owner acceptance is separate. Latest rules and explicit defaults: [implementation contract](KIBBLES-IMPLEMENTATION-CONTRACT.md). Older audit baselines below are historical.

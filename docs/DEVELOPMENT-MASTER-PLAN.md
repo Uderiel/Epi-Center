@@ -1,3 +1,11 @@
+## v1.0.54 — heels controls and Erin legacy life, tested implementation
+
+Equip now distinguishes discovered/carried/worn/stored heels, offers explicit pickup/equip/removal controls and persists the removal saving-throw result. Existing ownership is migrated once without auto-collecting discovered heels. Original23 stages, hourly Wait+2/+3, persistent changes, saves and Kibbles personalization are preserved.
+
+Restored source-derived Erin routines, contextual request/refusal dialogue, original portrait and86 physical household items, kitchen/groceries, laundry and grooming. Real activity requires elapsed time and current universal control authority; permanent mastery never overrides the player. Final source weekday/weekend leisure/night scheduling is functional. No invented office/commute or automatic meal/groom schedule.
+
+**298 deterministic cases plus entity assertions PASS;29 real desktop/360px browser checks PASS.** [Handoff](releases/v1.0.54-validation.md) · [Source/parity/scope](ERIN-LIFE-RESTORATION-CONTRACT.md). Publication verification will be recorded separately. Owner/native-device acceptance, broad inventory migration, workplace/commute design, extended dialogue calibration, future locations/images and other prior unresolved tasks remain open. Prior release sections below are historical checkpoints, not current completion claims.
+
 ## v1.0.53 — publication verified; ready for owner acceptance
 
 [Play v1.0.53](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.53). Final gameplay commit `d482c119ac658a1f0091302945079295b2d08cb5` is on main and rebuild/1.0-foundations. [Pages run 41713854449](https://github.com/Uderiel/Epi-Center/actions/runs/41713854449) succeeded; all 33 checked deployed entrypoints/modules/styles match tested source. The live title screen reports v1.0.53. [Live verification](releases/v1.0.53-live-verification.json).

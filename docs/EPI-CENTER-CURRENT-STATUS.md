@@ -1,3 +1,7 @@
+## Current continuation — v1.0.54
+
+Heels discovery/ownership/equip/removal controls and final-source Erin life restoration are implemented and tested. See [current status](CURRENT-STATUS.md), [v1.0.54 acceptance handoff](releases/v1.0.54-validation.md), [source/parity contract](ERIN-LIFE-RESTORATION-CONTRACT.md), and [active unresolved tasks](OPEN-TASKS-AND-DECISIONS.md).298 deterministic cases plus entity assertions and29 real desktop/360px browser checks passed. Owner acceptance and broader future systems remain open; publication verification is recorded in current status. Earlier sections below are historical.
+
 ## v1.0.43 — paired appearance, permanent Kibbles identity and restored text cases
 
 Owner acceptance from v1.0.42: equip/profile/techniques, underlying restoration, unmastered release gate, treat consumption and seek-help test passed. Appearance presentation and Dev feedback required correction. Those passed mechanics are retained; this candidate addresses the reported display/text issues and the newly requested one-time identity setup.

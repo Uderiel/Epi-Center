@@ -1,0 +1,154 @@
+{
+  "version": "1.0.54",
+  "passed": 29,
+  "method": "Real browser UI on isolated local fixtures; desktop and 360px iframe CSS viewport. No owner/live save mutated. Native Android acceptance pending.",
+  "checks": [
+    {
+      "viewport": "desktop",
+      "name": "Discovered-only heels card says uncollected and offers Examine and Pick Up",
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "name": "Examination leaves heels on ground at 0/23",
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "name": "Pickup changes state to carried with enabled Equip and disabled removal",
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "name": "Explicit equip identifies cursed heels and activates stage 1",
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "name": "Two one-hour Wait actions produce six total stages (+2 then +3)",
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "name": "Failed live removal roll 7+4=11 vs12 leaves heels equipped",
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "name": "Successful live removal roll 13+4=17 vs12 returns heels to inventory",
+      "passed": true
+    },
+    {
+      "viewport": "360px iframe",
+      "name": "Reload preserves stage6, carried state and last successful removal roll",
+      "passed": true
+    },
+    {
+      "viewport": "360px iframe",
+      "name": "Personalized mastered Bella name/gender remain unchanged through heels lifecycle",
+      "passed": true
+    },
+    {
+      "viewport": "360px iframe",
+      "name": "Equipment body fits viewport without horizontal overflow (345px content width)",
+      "passed": true
+    },
+    {
+      "viewport": "360px iframe",
+      "name": "Old actual equipped-save record migrates with stage4 and enabled removal",
+      "passed": true
+    },
+    {
+      "viewport": "360px iframe",
+      "name": "Final equipment ordering puts heel controls before awareness/routine cards",
+      "passed": true
+    },
+    {
+      "viewport": "360px iframe",
+      "name": "Full Erin body labels current appearance Erin without changing player name",
+      "passed": true
+    },
+    {
+      "viewport": "360px iframe",
+      "name": "Form composer replies with authored love-story/fantasy tastes",
+      "passed": true
+    },
+    {
+      "viewport": "360px iframe",
+      "name": "Polite reading request records agreement without physical execution",
+      "passed": true
+    },
+    {
+      "viewport": "360px iframe",
+      "name": "Form drawer exposes Authorize agreed activity",
+      "passed": true
+    },
+    {
+      "viewport": "360px iframe",
+      "name": "Authorized reading completes through hourly Wait and logs actual seating/reading",
+      "passed": true
+    },
+    {
+      "viewport": "360px iframe",
+      "name": "Form drawer accurately labels Erin 23/23 rather than no equipped form",
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "name": "Connected living\u2192kitchen navigation displays functional household controls",
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "name": "Salad preparation consumes elapsed five minutes and creates prepared meal",
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "name": "Eating removes prepared meal and leaves dishes; cleanup returns dirty count zero",
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "name": "Final authored closet description replaces superseded equipment-overhaul placeholder",
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "name": "Examining wardrobe unlocks nine physical professional garments",
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "name": "Blouse pickup logs visible inventory acquisition without equipping",
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "name": "Items tab offers explicit Equip; Unequip returns worn blouse to inventory",
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "name": "Bedroom hamper\u2192hall load\u219240-minute wash/dry\u2192collect returns same garments",
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "name": "Bathroom makeup takes12minutes and brushing teeth takes3minutes",
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "name": "Eight-hour full sleep advances Day1 20:29 to Day2 04:29 and logs one completion",
+      "passed": true
+    },
+    {
+      "viewport": "desktop",
+      "name": "Heels-off recovery advances Resolve only through elapsed game minutes",
+      "passed": true
+    }
+  ],
+  "observedAndFixed": "One-hour authorization expiration found by browser; fixed and retested. Browser extension metadata errors excluded from game errors; no claim of error-free extension.",
+  "evidence": "v1.0.54-heels-mobile.jpg"
+}
