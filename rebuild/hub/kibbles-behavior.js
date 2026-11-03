@@ -59,5 +59,20 @@ function perceive(s,c){const b=recall(s,c.now),traits=temperament(c.archetype),r
  const pressureWindow=['eat','shared-rest','nap','deep-sleep'].includes(activity)||emotion==='bored';return {traits,emotion,activity,target,image,pressureWindow,handlerFocused:!!(b.handler?.trusted&&(b.handler.collar||b.handler.leash||b.handler.kennel)),knownTricks:[...new Set([...KNOWN,...Object.keys(b.tricks).filter(k=>b.tricks[k].learned)])]};
 }
 function insight(s,c){const p=perceive(s,c);return p.image+' '+(c.location===CRATE?'Under the crate’s familiar wood scent lie the ball and worn blanket.':ensure(s).places[c.location]?.scentMarked?'A familiar scent mark anchors this place in memory.':'The nose sorts recent foot traffic from the older scents beneath it.');}
-return Object.freeze({CRATE,KNOWN,TEMPERAMENT,DEFAULTS,ensure,presence,temperament,event,recall,reinforce,markRoute,cue,perceive,insight});
+// Questions describe the same perception used by routines; words grant no physical effects.
+function reply(s,raw,c={}){const n=s.devVitals?.needs||{},at=s.worldClock?.minutes??540;
+ c={now:at,location:s.hub?.location,hunger:n.hunger||0,bladderUrgent:n.bladder>=100,fatigued:n.fatigue>=100,quietHours:at%1440>=1320||at%1440<360,...c};
+ const p=perceive(s,c),b=ensure(s),q=String(raw).toLowerCase();let text;
+ if(/\b(smell|scent|sniff|notice|sense|clues?)\b/.test(q))text=insight(s,c);
+ else if(/\b(hungry|hunger|food|eat|snack|treat|feed)\b/.test(q))text=c.hunger>=70||c.mealDue||c.newlyEncased?'An empty-belly pull and a searching nose answer with an image of food.':b.crate.food?'The remembered crate carries the reassuring scent of stored food.':'No urgent empty-belly pull rises; a food image briefly catches an attentive ear.';
+ else if(/\b(bladder|outside|toilet|pee)\b/.test(q))text=c.bladderUrgent?'Pressure in the bladder sends a repeated image of open ground and familiar scent marks.':'Open air and familiar scent marks come to mind, without an urgent bladder pressure.';
+ else if(/\b(tricks?|learned|commands?|cues?)\b|do you know/.test(q))text='Familiar cues bring images of practiced movements: '+p.knownTricks.join(', ')+'. No movement follows from this question alone.';
+ else if(/\b(remember|memory|familiar|home|crate|blanket)\b/.test(q)){const place=b.places[c.location];text=c.location===CRATE?'The worn blanket, favorite ball and familiar wood scent anchor the feeling of home.':place?.scentMarked?'A familiar scent mark anchors this place in memory.':'The remembered crate, worn blanket and favorite ball form a small, familiar picture of home.';}
+ else if(/\b(trust|relationship|friends?|like me|upset|angry|sorry)\b/.test(q))text=b.bond.hurt?'Ears stay low; a wary feeling recalls a hurt or boundary. Space and consistent care matter more than words alone.':b.bond.careReceived||b.bond.boundariesRespected||b.bond.promisesKept?'A familiar scent brings warmth, softened ears and the memory of shared care.':'An attentive sniff and cautious curiosity; familiarity is still being built through shared experiences.';
+ else if(/\b(play|fetch|ball)\b/.test(q))text=p.emotion==='frightened'||c.fatigued?p.image:'A brief image of a thrown ball and bounding paws answers the suggestion. The game has not started.';
+ else if(/\b(sleep|nap|tired|rest)\b/.test(q))text=c.fatigued||c.quietHours?p.image:'The thought of the familiar blanket flickers past; ears remain attentive to the current surroundings.';
+ else text=p.image;
+ return text+(s.forms?.kibbles?.mastered?' Your intentions remain yours; the canine impression offers information without taking an action.':' The impression is private; any struggle over an action follows the existing influence rules.');
+}
+return Object.freeze({CRATE,KNOWN,TEMPERAMENT,DEFAULTS,ensure,presence,temperament,event,recall,reinforce,markRoute,cue,perceive,insight,reply});
 });

@@ -1,3 +1,5 @@
+Current tested increment: **v1.0.55**, Kibbles private chat connected to existing behavior. See [current status](docs/CURRENT-STATUS.md) and [handoff](docs/releases/v1.0.55-validation.md) for publication/acceptance evidence.
+
 ## v1.0.53 — publication verified; ready for owner acceptance
 
 [Play v1.0.53](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.53). Final gameplay commit `d482c119ac658a1f0091302945079295b2d08cb5` is on main and rebuild/1.0-foundations. [Pages run 41713854449](https://github.com/Uderiel/Epi-Center/actions/runs/41713854449) succeeded; all 33 checked deployed entrypoints/modules/styles match tested source. The live title screen reports v1.0.53. [Live verification](docs/releases/v1.0.53-live-verification.json).

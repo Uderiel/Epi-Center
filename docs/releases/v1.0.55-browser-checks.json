@@ -1,0 +1,39 @@
+{
+  "version": "1.0.55",
+  "passed": 8,
+  "method": "Actual local browser UI; isolated 360px/1100px iframe layouts, plus available narrow viewport. Desktop used keyboard-accessible buttons because outer viewport clipped the wide iframe. Native owner acceptance pending.",
+  "checks": [
+    {
+      "name": "Hunger question reflects actual hunger in live composer",
+      "passed": true
+    },
+    {
+      "name": "Sensory question uses canonical insight",
+      "passed": true
+    },
+    {
+      "name": "Known-cue question lists existing tricks without performing one",
+      "passed": true
+    },
+    {
+      "name": "Calm save changes hunger reply",
+      "passed": true
+    },
+    {
+      "name": "Reload retains private feed and selected identity",
+      "passed": true
+    },
+    {
+      "name": "360px layout fits without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "1100px desktop keyboard submission produces private response",
+      "passed": true
+    },
+    {
+      "name": "General question reflects actual squirrel context without mastered override",
+      "passed": true
+    }
+  ]
+}

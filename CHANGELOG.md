@@ -1,3 +1,7 @@
+## v1.0.55 — focused Kibbles Form-chat integration
+
+Ordinary private questions now use actual canine needs/perception/memories and known cues. No action, trust, food or mastery is granted by a question; existing commands and mastered player authority remain intact. 307 deterministic cases plus entity assertions and eight actual 360px/1100px browser checks passed. [Handoff](docs/releases/v1.0.55-validation.md). Publication verification follows deployment. Erin conversation follow-through is the next bounded increment; future world-provider work and owner acceptance remain open.
+
 ## v1.0.54 — published and deployed-source verified
 
 [Play v1.0.54](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.54). Gameplay commit `f9ddef11748604322f01f380996b2294c7cd47aa` is on main and rebuild/1.0-foundations. [Pages deployment 41729145057](https://github.com/Uderiel/Epi-Center/actions/runs/41729145057) succeeded. All 39 checked deployed entrypoints, modules, styles and original Erin portrait match tested source; the live title visibly reports v1.0.54. [Verification](docs/releases/v1.0.54-live-verification.json).
