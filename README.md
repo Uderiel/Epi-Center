@@ -1,3 +1,13 @@
+## v1.0.56 — Kibbles release, Play resistance dock and typed autonomy
+
+Fixes the owner-reported stale canine appearance after unequipping and after Dev mastery of a retained defeat. Will-release now clears retained coverage, encasement continuation, routine and body flags together, including partial attachments. Existing previously released saves reconcile on load. Original appearance, attributes, saved identity and both resource pools are preserved; underlying Erin changes remain intact.
+
+Internal resistance is a collapsible Play drawer immediately above the text composer, sharing the encounter layout. Equip contains equipment/identity only; Form provides read-only awareness rather than a second behavior menu. Activities are entered as text (first-person rest, play, scents, internal actions, equip/release, training and adjacent direction/location travel); questions and negations cannot perform them. This is deterministic intent recognition, not unrestricted language understanding. Physical freeform actions and route travel use the same influence contests.
+
+Dev unmastered resets its test control session to 100 influence without healing; permanent earned mastery stays permanent outside this explicit Dev fixture. Local impulses can contest travel without a pre-existing destination. At high influence ordinary boredom no longer suppresses autonomous patrol indefinitely. Real elapsed game turns accumulate legal routine steps; mastered/zero-influence bodies never force them. No background wall-clock timer was introduced.
+
+319 deterministic cases plus entity assertions PASS. Actual browser checks in disposable 360px/1100px game iframes verified release from full defeat, original Appearance and Form after reload, equipment menu removal, resistance dock layout above the composer with visible feed, typed travel losing a real contest (form15 vs player9), a subsequent spontaneous patrol (form21 vs player5), typed internal cooldown/recovery, and mastery/unmastered QA reset. A CSS row-precedence bug and a missing legacy Dev minutes default found during browser QA were corrected and rechecked. Native owner-device acceptance remains pending. See [release validation](releases/v1.0.56-validation.md). Publication verification is recorded separately after deployment. Prior unrelated open tasks remain open.
+
 Current tested increment: **v1.0.55**, Kibbles private chat connected to existing behavior. See [current status](docs/CURRENT-STATUS.md) and [handoff](docs/releases/v1.0.55-validation.md) for publication/acceptance evidence.
 
 ## v1.0.53 — publication verified; ready for owner acceptance
