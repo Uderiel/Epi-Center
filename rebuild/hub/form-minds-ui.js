@@ -1,6 +1,6 @@
 /* Drawers and composer share the same save-aware form action adapter. */
 function formMindMarkup(){
- const G=EpiFormMinds,id=G.active(save),e=save.encounter,canContinue=!e?.active&&e?.outcome?.mayContinueEncasement&&!e.outcome.mastery&&!e.encasementContinued;
+ const G=EpiFormMinds,id=G.active(save),e=save.encounter,canContinue=!save.forms?.kibbles?.mastered&&!e?.active&&e?.outcome?.mayContinueEncasement&&!e.outcome.mastery&&!e.encasementContinued;
  let out=canContinue?'<section class="card"><h3>After defeat</h3><p>Kibbles can finish encasing you. Your existing resources remain depleted; internal recovery and resistance become available through elapsed game time.</p><button class="btn" data-mind="continue">Continue encasement</button></section>':'';
  if(!id){const b=EpiKibblesBehavior.recall(save,EpiWorldClock.ensure(save).minutes);return out+(b.releaseLocation===save.hub.location&&b.promises.play?'<section class="card"><h3>A promise to Kibbles</h3><button class="btn" data-mind="play">Follow through · Play fetch</button></section>':'');}const m=G.mind(save,id),mastered=G.mastered(save,id),remaining=Math.max(0,m.nextAt-EpiWorldClock.ensure(save).minutes),name=id==='erin'?'Erin':EpiKibblesForm.label(save),combat=!!e?.active,full=id!=='kibbles'||EpiKibblesForm.equipped(save);
  out+='<section class="card"><h3>'+htmlEscape(name)+' · Internal awareness</h3><p>'+(mastered?'Mastered · your actions remain under your control.':'Influence: '+m.influence+'/100 · Durable mastery progress: '+m.progress+'/100')+'</p>';

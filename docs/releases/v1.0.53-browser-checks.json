@@ -1,0 +1,28 @@
+{
+  "version": "1.0.53",
+  "passed": 82,
+  "broadRegressionSource": "v1.0.52-browser-checks.json",
+  "broadRegressionAssertions": 78,
+  "focusedGuardAssertions": [
+    {
+      "name": "Mastered defeat never offers unmastered continuation",
+      "passed": true
+    },
+    {
+      "name": "Direct text continuation cannot revoke permanent mastery",
+      "passed": true
+    },
+    {
+      "name": "Mastery and voluntary will release remain available",
+      "passed": true
+    },
+    {
+      "name": "Desktop v1.0.53 keeps mastered status and will release",
+      "passed": true
+    }
+  ],
+  "notes": [
+    "Focused guard exercised through real controls on 360px iframe and desktop; physical-device acceptance pending.",
+    "The underlying exploration and AI behaviors retain the 78 recorded v1.0.52 browser regression results."
+  ]
+}

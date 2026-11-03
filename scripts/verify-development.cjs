@@ -10,5 +10,5 @@ for(const file of ['rebuild/hub/index.html','rebuild/title-screen/index.html','r
  const source=fs.readFileSync(file,'utf8');for(const m of source.matchAll(/<script(\s[^>]*)?>([\s\S]*?)<\/script>/g)){if(/\btype=["']module/.test(m[1]||'')||/\bsrc=/.test(m[1]||''))continue;new vm.Script(m[2],{filename:file});}
  for(const m of source.matchAll(/<script[^>]*src="([^"]+)"/g))if(!fs.existsSync(path.resolve(path.dirname(file),m[1].split('?')[0])))throw Error('Missing module '+m[1]);
 }
-const report={checkpoint:'v1.0.52 implementation candidate',namedCases,suiteResults:results,syntax:'PASS',modulePaths:'PASS',passed:!failed};
-fs.writeFileSync('docs/releases/v1.0.52-tests.json',JSON.stringify(report,null,2));console.log(namedCases+' named cases; entity assertions additionally run in their suite.');process.exitCode=failed?1:0;
+const report={checkpoint:'v1.0.53 implementation candidate',namedCases,suiteResults:results,syntax:'PASS',modulePaths:'PASS',passed:!failed};
+fs.writeFileSync('docs/releases/v1.0.53-tests.json',JSON.stringify(report,null,2));console.log(namedCases+' named cases; entity assertions additionally run in their suite.');process.exitCode=failed?1:0;
