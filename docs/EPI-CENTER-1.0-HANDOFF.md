@@ -1,6 +1,12 @@
+## v1.0.54 — published and deployed-source verified
+
+[Play v1.0.54](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.54). Gameplay commit `f9ddef11748604322f01f380996b2294c7cd47aa` is on main and rebuild/1.0-foundations. [Pages deployment 41729145057](https://github.com/Uderiel/Epi-Center/actions/runs/41729145057) succeeded. All 39 checked deployed entrypoints, modules, styles and original Erin portrait match tested source; the live title visibly reports v1.0.54. [Verification](releases/v1.0.54-live-verification.json).
+
+298 named deterministic cases plus entity assertions PASS; 29 real desktop/360px browser checks PASS. [Manual acceptance](releases/v1.0.54-validation.md) remains pending, including the owner’s existing-device save. No live save was altered during verification. Current legacy scope and remaining work: [Erin parity contract](ERIN-LIFE-RESTORATION-CONTRACT.md), [active continuation log](OPEN-TASKS-AND-DECISIONS.md). Earlier sections preserve historical checkpoints.
+
 ## Current continuation — v1.0.54
 
-Heels discovery/ownership/equip/removal controls and final-source Erin life restoration are implemented and tested. See [current status](CURRENT-STATUS.md), [v1.0.54 acceptance handoff](releases/v1.0.54-validation.md), [source/parity contract](ERIN-LIFE-RESTORATION-CONTRACT.md), and [active unresolved tasks](OPEN-TASKS-AND-DECISIONS.md).298 deterministic cases plus entity assertions and29 real desktop/360px browser checks passed. Owner acceptance and broader future systems remain open; publication verification is recorded in current status. Earlier sections below are historical.
+Heels discovery/ownership/equip/removal controls and final-source Erin life restoration are implemented and tested. See [current status](CURRENT-STATUS.md), [v1.0.54 acceptance handoff](releases/v1.0.54-validation.md), [source/parity contract](ERIN-LIFE-RESTORATION-CONTRACT.md), and [active unresolved tasks](OPEN-TASKS-AND-DECISIONS.md).298 deterministic cases plus entity assertions and 29 real desktop/360px browser checks passed. Owner acceptance and broader future systems remain open; publication verification is recorded in current status. Earlier sections below are historical.
 
 # Epi-Center 1.0 — Handoff
 

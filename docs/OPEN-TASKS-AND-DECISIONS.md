@@ -1,10 +1,16 @@
+## v1.0.54 — published and deployed-source verified
+
+[Play v1.0.54](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.54). Gameplay commit `f9ddef11748604322f01f380996b2294c7cd47aa` is on main and rebuild/1.0-foundations. [Pages deployment 41729145057](https://github.com/Uderiel/Epi-Center/actions/runs/41729145057) succeeded. All 39 checked deployed entrypoints, modules, styles and original Erin portrait match tested source; the live title visibly reports v1.0.54. [Verification](releases/v1.0.54-live-verification.json).
+
+298 named deterministic cases plus entity assertions PASS; 29 real desktop/360px browser checks PASS. [Manual acceptance](releases/v1.0.54-validation.md) remains pending, including the owner’s existing-device save. No live save was altered during verification. Current legacy scope and remaining work: [Erin parity contract](ERIN-LIFE-RESTORATION-CONTRACT.md), [active continuation log](OPEN-TASKS-AND-DECISIONS.md). Earlier sections preserve historical checkpoints.
+
 ## v1.0.54 — heels controls and Erin legacy life, tested implementation
 
-Equip now distinguishes discovered/carried/worn/stored heels, offers explicit pickup/equip/removal controls and persists the removal saving-throw result. Existing ownership is migrated once without auto-collecting discovered heels. Original23 stages, hourly Wait+2/+3, persistent changes, saves and Kibbles personalization are preserved.
+Equip now distinguishes discovered/carried/worn/stored heels, offers explicit pickup/equip/removal controls and persists the removal saving-throw result. Existing ownership is migrated once without auto-collecting discovered heels. Original 23 stages, hourly Wait+2/+3, persistent changes, saves and Kibbles personalization are preserved.
 
-Restored source-derived Erin routines, contextual request/refusal dialogue, original portrait and86 physical household items, kitchen/groceries, laundry and grooming. Real activity requires elapsed time and current universal control authority; permanent mastery never overrides the player. Final source weekday/weekend leisure/night scheduling is functional. No invented office/commute or automatic meal/groom schedule.
+Restored source-derived Erin routines, contextual request/refusal dialogue, original portrait and 86 physical household items, kitchen/groceries, laundry and grooming. Real activity requires elapsed time and current universal control authority; permanent mastery never overrides the player. Final source weekday/weekend leisure/night scheduling is functional. No invented office/commute or automatic meal/groom schedule.
 
-**298 deterministic cases plus entity assertions PASS;29 real desktop/360px browser checks PASS.** [Handoff](releases/v1.0.54-validation.md) · [Source/parity/scope](ERIN-LIFE-RESTORATION-CONTRACT.md). Publication verification will be recorded separately. Owner/native-device acceptance, broad inventory migration, workplace/commute design, extended dialogue calibration, future locations/images and other prior unresolved tasks remain open. Prior release sections below are historical checkpoints, not current completion claims.
+**298 deterministic cases plus entity assertions PASS; 29 real desktop/360px browser checks PASS.** [Handoff](releases/v1.0.54-validation.md) · [Source/parity/scope](ERIN-LIFE-RESTORATION-CONTRACT.md). Publication and deployed-source verification are recorded above. Owner/native-device acceptance, broad inventory migration, workplace/commute design, extended dialogue calibration, future locations/images and other prior unresolved tasks remain open. Prior release sections below are historical checkpoints, not current completion claims.
 
 ### Active continuation tasks
 
