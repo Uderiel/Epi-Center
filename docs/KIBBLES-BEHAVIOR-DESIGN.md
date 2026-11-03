@@ -1,3 +1,9 @@
+## v1.0.53 — publication verified; ready for owner acceptance
+
+[Play v1.0.53](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.53). Final gameplay commit `d482c119ac658a1f0091302945079295b2d08cb5` is on main and rebuild/1.0-foundations. [Pages run 41713854449](https://github.com/Uderiel/Epi-Center/actions/runs/41713854449) succeeded; all 33 checked deployed entrypoints/modules/styles match tested source. The live title screen reports v1.0.53. [Live verification](releases/v1.0.53-live-verification.json).
+
+257 named deterministic cases plus entity assertions PASS. 82 browser assertions are recorded across the release increments: 78 shared feature/regression assertions and 4 focused v1.0.53 permanence assertions on desktop/360px. [Acceptance handoff](releases/v1.0.53-validation.md). Owner/native-device acceptance and tuning of explicit implementation defaults remain pending. The notes below preserve earlier release checkpoints; final gameplay is v1.0.53. The test runner now derives its report filename from the build version, preserving earlier release evidence.
+
 ## v1.0.53 — permanent mastery guard, verified release candidate
 
 Includes all v1.0.52 exploration/item/Unit 3C/form-mind implementation below. A second defeat/Continue encasement cannot revoke permanent Kibbles mastery; mastered characters are not offered that unmastered continuation. Fresh v1.0.53 entrypoint/module URLs avoid stale caches. **257 named deterministic cases plus entity assertions pass.** 82 total browser assertions cover the shared implementation: the 78 recorded v1.0.52 checks plus 4 focused desktop/360px v1.0.53 guard checks. The guard also has its own deterministic regression. Owner/native-device acceptance remains pending. Publication and deployed-source verification will be recorded separately.

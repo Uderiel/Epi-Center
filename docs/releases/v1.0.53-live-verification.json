@@ -1,0 +1,171 @@
+{
+  "version": "1.0.53",
+  "gameplayCommit": "d482c119ac658a1f0091302945079295b2d08cb5",
+  "records": [
+    {
+      "file": "rebuild/title-screen/index.html",
+      "matched": true,
+      "sha256": "af5d4f7f980926696d797f995a17ce22476e3549532e2f7edf543f3570b4e2c1"
+    },
+    {
+      "file": "rebuild/character-creation/index.html",
+      "matched": true,
+      "sha256": "c1764859f29f3ee8a36b882ae070d1d3a89f7ec7312b3672fe07522f0be8c7a5"
+    },
+    {
+      "file": "rebuild/hub/index.html",
+      "matched": true,
+      "sha256": "46ad9d13f0983960fa96f005524a547abd64ebf1b5a48df372f8402468660d4f"
+    },
+    {
+      "file": "rebuild/hub/authored-dialogue.js",
+      "matched": true,
+      "sha256": "ff5bb0a65b507652c9aa5bfaedd3b8e6a2b146bb2f250a063fa8cd2b87ffd5d5"
+    },
+    {
+      "file": "rebuild/hub/erin-restoration.js",
+      "matched": true,
+      "sha256": "7b62f6ee934ca4dbe588eba3fe0013a1cceb3cf7bf5f4abc874bbe7da19772ce"
+    },
+    {
+      "file": "rebuild/hub/erin-ui.js",
+      "matched": true,
+      "sha256": "22a6843e80cbb7d49b04ba77ef6317c99ebc60db6afa8a0e86de9857f9229d6f"
+    },
+    {
+      "file": "rebuild/hub/form-minds-ui.js",
+      "matched": true,
+      "sha256": "128e843e37837ba319064a823265be6f7bdbf2aaf5d052a32cdb984486c8706d"
+    },
+    {
+      "file": "rebuild/hub/form-minds.js",
+      "matched": true,
+      "sha256": "b9ad9a6a98a11ed4cda06c55f87979aecdafc8ae3acdca34a0244d8a910657e2"
+    },
+    {
+      "file": "rebuild/hub/hangry-fangs.js",
+      "matched": true,
+      "sha256": "980d84229a4c0d10376a5182b00c90f101ba5a4e78e9680b20ca3c486f3dab4e"
+    },
+    {
+      "file": "rebuild/hub/hub-art.js",
+      "matched": true,
+      "sha256": "9b7d202530294b4cc74f763a7606a6f67234688d5a90079717d0717c75c62d48"
+    },
+    {
+      "file": "rebuild/hub/hub-world.js",
+      "matched": true,
+      "sha256": "eacfa900c9b696b22c2ec39e59beb89ae7298168ccd0b581e5684e8631f3abe4"
+    },
+    {
+      "file": "rebuild/hub/internal-mastery.js",
+      "matched": true,
+      "sha256": "156e161b30a966c02eb239777c9bd4fc4ac41747a81a757ecc47be40add74834"
+    },
+    {
+      "file": "rebuild/hub/kibbles-behavior.js",
+      "matched": true,
+      "sha256": "36348b2cf895e49f09debc057c6445da358eb166c152eb487a6acaf5f65265f6"
+    },
+    {
+      "file": "rebuild/hub/legacy-0884-data.js",
+      "matched": true,
+      "sha256": "158eceb08f30fc1aa567e56cf7d7e71f602fd2ff1c2f4f7f6512fa6ffcacc0a3"
+    },
+    {
+      "file": "rebuild/hub/world-clock.js",
+      "matched": true,
+      "sha256": "696f783f879992652198390e5ada12bcf5c0c386137e96cee3c7812decfdda3e"
+    },
+    {
+      "file": "rebuild/hub/world-objects.js",
+      "matched": true,
+      "sha256": "1a0f63f83e7c8dcd9c5da812438aa7c341818c3a527d1c7c6dae4979819561e3"
+    },
+    {
+      "file": "rebuild/combat/encounter-contract.js",
+      "matched": true,
+      "sha256": "51f31ec6cd3c74534d7d3c5d31be1c1c1ff2b4e562f06ee7497c0d4ff1c4a917"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.35.css",
+      "matched": true,
+      "sha256": "9eb9b66424155d3e88a90bfa55bbb91dfe3abcbe9b2a0337c732df146f7b0383"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.35.js",
+      "matched": true,
+      "sha256": "9d8dadb3eba611d9e32a4cf2b91bd67c2e3c3e615b6a202c2e55ec1f53578c65"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.36.css",
+      "matched": true,
+      "sha256": "cf07d81967ff6559ebb4d81a14da784dc5eb11841c13d5cbd5a454a4a4c1901c"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.36.js",
+      "matched": true,
+      "sha256": "5a9743a9b4e530c459a7ddffa64c4a86b3553ff3a04cd3b9f60ebac4d7e841f6"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.37.css",
+      "matched": true,
+      "sha256": "266de1273a1304b9e574a233ebb1a7d9a55d7d739515a52742dad9392e43f759"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.37.js",
+      "matched": true,
+      "sha256": "83a8e47989c34f4c4eca5623cec5c05abe7eaab7268e1ff0be8961baf9bfb2d9"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.39.css",
+      "matched": true,
+      "sha256": "09a5f094f927235581d1380c89fe2a6032143f9c914e51b2563e8b8471ccf362"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.39.js",
+      "matched": true,
+      "sha256": "db1f3d0116102eb67a60879e276e48cee0dd057f461d0d5f2e0f39bdbb9023a1"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.40.css",
+      "matched": true,
+      "sha256": "6ff1245113943839723745ddf6d5a39616d7e798a86812e514df90678ba3b507"
+    },
+    {
+      "file": "rebuild/combat/engine.js",
+      "matched": true,
+      "sha256": "70d15c108554e20e43f3433ca4df6b86a1f7103716f899d0324641e9786f97d2"
+    },
+    {
+      "file": "rebuild/combat/entity-rules.js",
+      "matched": true,
+      "sha256": "7c13e54a6a1ff7e2473c9bec6f47179435eb1154e582bf0336910b21d8daaf2d"
+    },
+    {
+      "file": "rebuild/combat/kibbles-ai.js",
+      "matched": true,
+      "sha256": "52a9be70b2763243cfffb7daaf15cc87e15a3ae15d70dd70df8d8253256e8ae2"
+    },
+    {
+      "file": "rebuild/combat/kibbles-form.js",
+      "matched": true,
+      "sha256": "49db73c86be2ca96f0bed1df0febac34b2b71c1eedd25f16f4994ea22443a61a"
+    },
+    {
+      "file": "rebuild/combat/kibbles-text.js",
+      "matched": true,
+      "sha256": "a8aa207e51f0b9d879b5636c76dcae5de8b9b750670806a95f4e61063a0aa3d4"
+    },
+    {
+      "file": "rebuild/combat/outcomes.js",
+      "matched": true,
+      "sha256": "cc6f0a00cb3006245bcc6c3694b899b329c53a646b7c82516decd478448e0a7f"
+    },
+    {
+      "file": "rebuild/combat/play-encounter.js",
+      "matched": true,
+      "sha256": "13733f26d02b0d220333d99ff20cadfd4dcffd231d0a7d9ea95bda7efef68cda"
+    }
+  ]
+}
