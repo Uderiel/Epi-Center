@@ -1,0 +1,51 @@
+{
+  "version": "1.0.56",
+  "method": "Actual browser UI on isolated local preview; disposable Slot3 in360x800 and1100x800 iframes. Final visual checks include corrected CSS precedence and hero scroll. Native owner-device acceptance pending.",
+  "checks": [
+    {
+      "name": "Full retained defeat \u2192 Dev mastered \u2192 Unequip succeeds",
+      "passed": true
+    },
+    {
+      "name": "Appearance returns to original face and hands",
+      "passed": true
+    },
+    {
+      "name": "Form drawer after reload has original body and no active form",
+      "passed": true
+    },
+    {
+      "name": "Equip has no behavior or internal resistance menu",
+      "passed": true
+    },
+    {
+      "name": "360px drawer controls are visible above pinned composer with feed visible",
+      "passed": true
+    },
+    {
+      "name": "1100px drawer and composer layout are visible",
+      "passed": true
+    },
+    {
+      "name": "Typed adjacent travel loses real control contest and Kibbles takes a legal route",
+      "passed": true
+    },
+    {
+      "name": "Unprompted high-influence patrol occurs during elapsed game time",
+      "passed": true
+    },
+    {
+      "name": "Typed first-person resistance honors cooldown without extra time",
+      "passed": true
+    },
+    {
+      "name": "Typed first-person recovery adds six Resolve when eligible",
+      "passed": true
+    },
+    {
+      "name": "Dev mastered \u2192 unmastered displays fresh100influence without healing",
+      "passed": true
+    }
+  ],
+  "passed": 11
+}

@@ -1,3 +1,7 @@
+## v1.0.56 — published and deployed-source verified
+
+[Play v1.0.56](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.56). Gameplay commit `7195c4242070039a996adaf0039d376bd3f6d14e` is published on main and rebuild/1.0-foundations. [Pages deployment 41742898005](https://github.com/Uderiel/Epi-Center/actions/runs/41742898005) succeeded. All 40 checked deployed entrypoints/modules/styles/portrait match tested source; live title reports v1.0.56. [Live hashes](releases/v1.0.56-live-verification.json), [11 actual browser checks](releases/v1.0.56-browser-checks.json), [319 deterministic cases plus entity assertions](releases/v1.0.56-tests.json). For the owner’s stuck save: set mastered, Unequip once, then verify Form/Appearance and reload; no new loss or save reset is required. Native-device acceptance remains pending. Historical sections below retain earlier checkpoints.
+
 ## v1.0.56 — Kibbles release, Play resistance dock and typed autonomy
 
 Fixes the owner-reported stale canine appearance after unequipping and after Dev mastery of a retained defeat. Will-release now clears retained coverage, encasement continuation, routine and body flags together, including partial attachments. Existing previously released saves reconcile on load. Original appearance, attributes, saved identity and both resource pools are preserved; underlying Erin changes remain intact.
