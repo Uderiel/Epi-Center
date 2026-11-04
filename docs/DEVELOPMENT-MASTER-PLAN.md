@@ -1,3 +1,9 @@
+## v1.0.61 — published and source verified
+
+[Play v1.0.61](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.61). Gameplay commit `34ba399f52736e114bd6dbb5453944048e3b307d` is on main and rebuild/1.0-foundations. [Pages run 41910235908](https://github.com/Uderiel/Epi-Center/actions/runs/41910235908) succeeded. All 42 checked deployed files match tested source and public title reports v1.0.61. **372 named deterministic cases plus entity assertions and 12 browser checks PASS.** [Live hashes](releases/v1.0.61-live-verification.json).
+
+Title has one working save interface. At75–100 influence the unmastered form initiates its available decisions without a control roll; the player's explicit objection rolls original Willpower against form Reasoning. Failed resistance retains the form plan; successful resistance interrupts it. Current decisions are shown above the composer; text resistance and persuasion are supported. Mastered forms retain player authority. Native owner-device acceptance remains pending; earlier sections are historical.
+
 ## v1.0.61 — form-led decisions at high influence; clean title
 
 At 75–100 influence, an unmastered form owns its available physical decisions. Shared control rules start independent decisions without a form-attacker roll. A player who explicitly resists or chooses a conflicting physical action rolls original Willpower first against form Reasoning; player victory interrupts the routine, failure leaves it active, ties preserve the form's decision, and natural rules remain. This decision save is separate from influence reduction/mastery/escape. Successful overrides retain the existing thirty-minute choice window; identical explicit resistance at the same game time cannot reroll. Mastered forms and zero influence retain player control; below75 contest behavior is preserved.
