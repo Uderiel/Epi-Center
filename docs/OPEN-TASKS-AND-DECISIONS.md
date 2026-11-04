@@ -1,3 +1,9 @@
+## v1.0.60 — published and source verified
+
+[Play v1.0.60](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.60). Gameplay commit `1711b5a1cf19b2c569dc6866e75d78ff7f057d4a` is on main and rebuild/1.0-foundations. [Pages run 41906753767](https://github.com/Uderiel/Epi-Center/actions/runs/41906753767) succeeded. All 42 checked deployed files match tested source and public title reports v1.0.60. **356 named deterministic cases plus entity assertions and 12 browser checks PASS.** [Live hashes](releases/v1.0.60-live-verification.json).
+
+Top Appearance restored; Form is current-form image and stats only. Appearance order matches the annotated request: portrait → physical needs → paired appearance details. Full Erin stats name Erin; original baseline and live resource values are preserved. Heel controls stay in Equip and removal rolls appear in the live feed. Native owner-device acceptance remains pending; earlier release sections are historical.
+
 ## v1.0.60 — restore separate Form and Appearance references
 
 Appearance is restored in the top quick-reference row. Form is a compact current-form portrait, live combat resources, alignment and ten effective attributes. It contains no original-player comparison, appearance fields, physical needs, routine dossier or cursed-heel controls. Full Erin uses her identity and Mental attributes; incomplete Erin exposes no baseline statistics in Form. Stats correctly names the effective body (including full Erin); existing live resource values remain unchanged. Routine reference is on Character. Equip owns heel controls; removal outcomes remain in the live feed.
