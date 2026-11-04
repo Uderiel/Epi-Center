@@ -1,3 +1,11 @@
+## v1.0.59 — one apartment interaction field
+
+Supersedes the v1.0.58 presentation: only the current layer renders in one fixed field below the live feed. Location opens accessible rooms; selection replaces the screen with room objects, furniture, compartment, then item actions. Back at the top left pops one saved frame and stays pinned during scrolling. Previous menus no longer extend down the page. Clothing offers Equip or Carry immediately; direct equip acquires one item atomically. Selection and Back are free; physical room travel/actions keep their existing costs and guards.
+
+Dresser has six drawers; closet sections lead to individual clothing. Desk opens directly to its options; selecting its drawer opens it, then exposes pens/pencils, sticky notes and paperclips. Back from a drawer item closes the physical drawer while preserving discovery; further Back returns desk, living-room objects, then accessible rooms. Reload preserves selected clothing and navigation history. No save reset required. Existing cursed worn-time and Kibbles behavior remain unchanged.
+
+Validation: **349 named deterministic cases plus entity assertions PASS**, syntax/module paths PASS, and **12 browser acceptance checks PASS** on disposable local fixtures, including 360px/1100px layouts. Native owner-device acceptance remains pending. See [release validation](docs/releases/v1.0.59-validation.md).
+
 ## v1.0.58 — published and source verified
 
 [Play v1.0.58](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.58). Gameplay commit `db57c21f8a5a31d9d98ff7d35416f981f48f0b07` is on main and rebuild/1.0-foundations. [Pages run 41836111932](https://github.com/Uderiel/Epi-Center/actions/runs/41836111932) succeeded. All 42 checked deployed files match tested source; live title reports v1.0.58. [Live hashes](docs/releases/v1.0.58-live-verification.json). **345 deterministic cases plus entity assertions and 17 actual browser checks PASS.**

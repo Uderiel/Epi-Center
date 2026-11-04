@@ -1,0 +1,55 @@
+{
+  "version": "1.0.59",
+  "environment": "Disposable local Slot 3; cloud Chrome; actual UI interactions",
+  "checks": [
+    {
+      "check": "Location shows current and directly accessible rooms in one field",
+      "result": "PASS"
+    },
+    {
+      "check": "Room selection replaces list with local objects; current-room selection is free",
+      "result": "PASS"
+    },
+    {
+      "check": "Dresser screen lists six drawers and dresser top",
+      "result": "PASS"
+    },
+    {
+      "check": "Panties drawer replaces dresser with its contents",
+      "result": "PASS"
+    },
+    {
+      "check": "Unowned clothing immediately offers Equip and Carry",
+      "result": "PASS"
+    },
+    {
+      "check": "Direct Equip persists exact item and three-minute cost",
+      "result": "PASS"
+    },
+    {
+      "check": "Reload retains item actions, equipment and five-frame history",
+      "result": "PASS"
+    },
+    {
+      "check": "Back returns compartment, dresser, bedroom and accessible rooms",
+      "result": "PASS"
+    },
+    {
+      "check": "Closet professional section leads to clothing; Carry persists inventory",
+      "result": "PASS"
+    },
+    {
+      "check": "Desk choices available without mandatory parent examination",
+      "result": "PASS"
+    },
+    {
+      "check": "Drawer opens to stationery; Back from paperclips closes drawer; further Back returns desk, living room, rooms",
+      "result": "PASS"
+    },
+    {
+      "check": "One rendered layer and bounded field at 360px and 1100px; Back position sticky; no horizontal overflow",
+      "result": "PASS"
+    }
+  ],
+  "ownerDeviceAcceptance": "pending"
+}
