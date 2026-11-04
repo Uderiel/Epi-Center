@@ -1,3 +1,9 @@
+## v1.0.59 — published and source verified
+
+[Play v1.0.59](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.59). Gameplay commit `d5d8682b11dd3fb0ed18d8cb33b024fe59efa4c0` is on main and rebuild/1.0-foundations. [Pages run 41903185730](https://github.com/Uderiel/Epi-Center/actions/runs/41903185730) succeeded. All 42 checked deployed files match tested source; live title reports v1.0.59. **349 named deterministic cases plus entity assertions, syntax/module paths and 12 browser checks PASS.** [Live verification](docs/releases/v1.0.59-live-verification.json).
+
+One fixed interaction field: accessible rooms → room objects → furniture → compartment → item actions. Back removes one current layer; clothing offers Equip or Carry immediately. Desk-item Back closes the drawer, then returns through desk, living-room objects and accessible rooms. Native owner-device acceptance remains pending; historical sections below do not override this release.
+
 ## v1.0.59 — one apartment interaction field
 
 Supersedes the v1.0.58 presentation: only the current layer renders in one fixed field below the live feed. Location opens accessible rooms; selection replaces the screen with room objects, furniture, compartment, then item actions. Back at the top left pops one saved frame and stays pinned during scrolling. Previous menus no longer extend down the page. Clothing offers Equip or Carry immediately; direct equip acquires one item atomically. Selection and Back are free; physical room travel/actions keep their existing costs and guards.
