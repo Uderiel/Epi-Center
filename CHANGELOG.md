@@ -1,3 +1,15 @@
+## v1.0.62 — Form status, two-tap rooms and live foreground time
+
+Owner revised the drawer layout: Form has influence/mastery/relationship bars, physical needs, and unmastered routine/current/desired activity details. Form has no portrait or combat-resource table. Stats owns the compact portrait and effective combat resources/attributes. Appearance retains its bottom tab and paired details; its top shortcut and needs are removed. Mastered influence is normalized to0, mastery display100; recorded tier/allocated XP and implemented mastery benefits are shown. Missing tiers remain “Not assigned”; no upgrade costs or new numerical perks are invented. Erin's relationship uses recorded relationship/Dev override, otherwise existing trust; Kibbles uses its recorded relationship or neutral0, without inventing bond penalties.
+
+Room selector: first tap physically moves to a directly connected room while keeping the updated room list visible. Tapping the current room again opens its furniture/contents for free. Living→hall→bedroom→closet needs no Back between moves; the existing single-field furniture/storage/item stack remains.
+
+Live time defaults on for focused foreground Play: **one game minute per10 active real seconds** (one game hour per10 real minutes). It advances the same canonical pipeline for routines, worn exposure and needs. Pauses during combat, outside Play, loss of focus, hidden/background state, or explicit pause. Pause/resume is available in Play and Settings and persists. Suspended/closed time is not caught up. A per-slot lease coordinates focused sessions; latest saved state is refreshed before ticking. Timed redraw preserves draft/caret/focus and open-reference scroll/expansion. No auto-submission or resource reset.
+
+**383 named deterministic cases plus entity assertions PASS**, syntax/module paths PASS; **15 actual browser checks PASS**. Live unmastered Erin walked living→hall→bedroom and began sleep preparation with no submitted action; draft/cursor persisted. Focus-loss, explicit pause, reload and active-combat pause verified. Hidden-state/no-offline guards are deterministic-tested; this cloud browser kept separate tabs marked visible/focused, so a literal tab-background transition remains a native-device acceptance item. See [release validation](docs/releases/v1.0.62-validation.md).
+
+Upcoming owner designs recorded: Erin's workplace/floor, boss and coworkers; an alternative pair of men's dress shoes with a male transformation. Details/attributes/rarity/content remain pending the owner's designs; no placeholder location/NPC/form has been created.
+
 ## v1.0.61 — published and source verified
 
 [Play v1.0.61](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.61). Gameplay commit `34ba399f52736e114bd6dbb5453944048e3b307d` is on main and rebuild/1.0-foundations. [Pages run 41910235908](https://github.com/Uderiel/Epi-Center/actions/runs/41910235908) succeeded. All 42 checked deployed files match tested source and public title reports v1.0.61. **372 named deterministic cases plus entity assertions and 12 browser checks PASS.** [Live hashes](docs/releases/v1.0.61-live-verification.json).

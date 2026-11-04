@@ -1,0 +1,70 @@
+{
+  "version": "1.0.62",
+  "environment": "Actual cloud Chrome interactions; disposable local Slot3;360px and1100px iframe",
+  "checks": [
+    {
+      "check": "Unmastered Erin Form:80% influence/30% mastery/relationship45; needs and routine; no image or combat table",
+      "result": "PASS"
+    },
+    {
+      "check": "Stats contains Erin portrait, current60/50/40 resources and Mental attributes",
+      "result": "PASS"
+    },
+    {
+      "check": "Appearance bottom tab has paired details and portrait without needs; no top Appearance shortcut",
+      "result": "PASS"
+    },
+    {
+      "check": "Mastered Kibbles Form normalizes stale influence to0/mastery100 and shows saved tier2/75XP and implemented perks",
+      "result": "PASS"
+    },
+    {
+      "check": "Unmastered Kibbles Form shows daily meal/quiet-hour routine and current/desired activity",
+      "result": "PASS"
+    },
+    {
+      "check": "Living\u2192Entry Hall\u2192Bedroom\u2192Closet remains in room selector without Back",
+      "result": "PASS"
+    },
+    {
+      "check": "Second tap on current Closet opens local objects for free; elapsed travel exactly3 minutes",
+      "result": "PASS"
+    },
+    {
+      "check": "Live unmastered Erin moves living\u2192hall\u2192bedroom and begins sleep preparation without submitted action",
+      "result": "PASS"
+    },
+    {
+      "check": "Unsubmitted draft text, caret and focus preserved across live minute redraws",
+      "result": "PASS"
+    },
+    {
+      "check": "Open Form reflects actual prepare-sleep activity, needs and desired sleep as time passes",
+      "result": "PASS"
+    },
+    {
+      "check": "Explicit Pause holds23:04 unchanged across12 real seconds",
+      "result": "PASS"
+    },
+    {
+      "check": "Reload preserves pause, world time and unsubmitted draft",
+      "result": "PASS"
+    },
+    {
+      "check": "Settings exposes persisted Resume/Pause and documents the exact live rate and limits",
+      "result": "PASS"
+    },
+    {
+      "check": "Moving focus outside the game reports gameFocus=false and holds18:01 across12 real seconds",
+      "result": "PASS"
+    },
+    {
+      "check": "Active encounter remains at18:01/Round1 across12 real seconds; no Live time errors",
+      "result": "PASS"
+    }
+  ],
+  "limits": [
+    "Cloud-created alternate tabs remained visibility=false(hidden)/focus=true for the game; verified actual iframe focus loss instead. Hidden-state/no-offline flags covered by deterministic tests; native tab background acceptance pending."
+  ],
+  "ownerDeviceAcceptance": "pending"
+}

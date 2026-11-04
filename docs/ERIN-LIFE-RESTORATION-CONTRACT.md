@@ -1,3 +1,7 @@
+## Owner amendment — v1.0.62 active-session time and Form layout
+
+Live foreground time now advances the existing canonical routines at1 game minute per10 real seconds. Authority rules from v1.0.61 remain: unmastered75–100 form-led decisions; player objections/persuasion; mastered player control. No offline catch-up or workplace behavior is invented. Form restores unmastered routine/current/desired details and needs; portrait/resources move to Stats, while Form shows mastery/influence/relationship and recorded mastery benefits. See [current contract](LIVE-TIME-AND-FORM-REFERENCE-CONTRACT.md).
+
 ## Owner amendment — v1.0.61 high influence authority
 
 At75–100 influence, unmastered Erin owns available physical routine decisions. She does not roll to obtain permission. Player objections roll original Willpower against her Reasoning; failure/ties retain her decision, success interrupts it. Persuasion can secure a willing alternative or pause without a later player-authorize gate. Mastered/zero states and incomplete physical-form guards remain. Below75 retains the existing contest rules. This is the shared internal-control policy, also applied to Kibbles; cadence/durations and actual available activities remain unchanged.
