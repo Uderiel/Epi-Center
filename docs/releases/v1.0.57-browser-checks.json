@@ -1,0 +1,39 @@
+{
+  "version": "1.0.57",
+  "method": "Actual browser UI in isolated360x800/1100x800 iframes; disposable Slot3; native owner acceptance pending.",
+  "checks": [
+    {
+      "name": "Actual entry immediately opens Living Room navigation",
+      "passed": true
+    },
+    {
+      "name": "Indoor quick Path becomes Rooms with room connections",
+      "passed": true
+    },
+    {
+      "name": "Desk view is free at1081minutes with no examination or influence gain",
+      "passed": true
+    },
+    {
+      "name": "Explicit desk examination unlocks visible desk contents",
+      "passed": true
+    },
+    {
+      "name": "Drawer stationery appears only after explicit drawer examination",
+      "passed": true
+    },
+    {
+      "name": "Button and typed connected room moves produce exact1087minute lifecycle",
+      "passed": true
+    },
+    {
+      "name": "Reload preserves Bedroom and correct Rooms connections",
+      "passed": true
+    },
+    {
+      "name": "1100px desktop apartment dialog layout visually verified",
+      "passed": true
+    }
+  ],
+  "passed": 8
+}
