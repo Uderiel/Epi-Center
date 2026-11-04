@@ -1,0 +1,55 @@
+{
+  "version": "1.0.61",
+  "environment": "Actual cloud Chrome interactions; disposable local Slot3 fixtures;360px iframe and1366px desktop",
+  "checks": [
+    {
+      "check": "Desktop title has one actual title and exactly three actual save cards; no painted save slot visible",
+      "result": "PASS"
+    },
+    {
+      "check": "360px title has one vertically stacked set of three cards; no painted slot at side",
+      "result": "PASS"
+    },
+    {
+      "check": "Save Slot3 Continue navigates correctly and preserves saved Kibbles/body/resources/decision state",
+      "result": "PASS"
+    },
+    {
+      "check": "Erin75 begins a routine after a typed observation without form-control dice",
+      "result": "PASS"
+    },
+    {
+      "check": "Typed I resist this decision produces original-player Willpower versus Erin Reasoning; observed success",
+      "result": "PASS"
+    },
+    {
+      "check": "Form-channel polite pause request seeks reason; reasoned reply is accepted and pauses without player authorization",
+      "result": "PASS"
+    },
+    {
+      "check": "Kibbles75 announces a canine decision without a form-control roll",
+      "result": "PASS"
+    },
+    {
+      "check": "Current canine decision shown and Resist current decision enabled only when a real decision exists",
+      "result": "PASS"
+    },
+    {
+      "check": "Typed canine decision resistance reports player-first roll and observed success",
+      "result": "PASS"
+    },
+    {
+      "check": "Mastered Erin at100 imposes no physical decision and has no resistance dock",
+      "result": "PASS"
+    },
+    {
+      "check": "Erin74 still uses the existing form-attacker control contest; observed tied roll leaves player choice",
+      "result": "PASS"
+    },
+    {
+      "check": "Direct typed Erin room movement at75 reports the successful player resistance roll then performs physical movement",
+      "result": "PASS"
+    }
+  ],
+  "ownerDeviceAcceptance": "pending"
+}

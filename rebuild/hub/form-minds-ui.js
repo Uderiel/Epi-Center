@@ -4,19 +4,20 @@ function formMindMarkup(){
  const G=EpiFormMinds,id=G.active(save),e=save.encounter;if(e?.active)return '';
  const canContinue=!save.forms?.kibbles?.mastered&&e?.outcome?.mayContinueEncasement&&!e.outcome.mastery&&!e.encasementContinued;
  if(!canContinue&&(!id||G.mastered(save,id)))return '';
- const m=id?G.mind(save,id):null,at=EpiWorldClock.ensure(save).minutes,remaining=m?Math.max(0,m.nextAt-at):0,full=id!=='kibbles'||EpiKibblesForm.equipped(save),name=id==='erin'?'Erin':EpiKibblesForm.label(save);
- return '<details class="mind-dock" id="internalResistance" '+((save.hub.mindCollapsed??EpiErin.inside(save))?'':'open')+'><summary>'+htmlEscape(name)+' · Internal resistance'+(m?' · Influence '+m.influence+'%':' · After defeat')+'</summary><div class="mind-body">'+(canContinue?'<p>You remain aware inside the retained attachment.</p><button class="btn" data-mind="continue">Continue encasement</button>':'<p>Mastery '+m.progress+'/100 · '+(remaining?'Next internal action in '+remaining+' game minutes.':'Internal action ready.')+'</p><div class="mind-actions">'+[['resist','Resist · 3 Resolve'],['desperate','Desperate resistance · −2'],['recover','Regain composure · +6 Resolve']].map(([action,label])=>'<button class="btn secondary" data-mind="'+action+'" '+(remaining||!full?'disabled':'')+'>'+label+'</button>').join('')+(id==='kibbles'?'<button class="btn secondary" data-mind="escape" '+(!full||at<m.escapeAt?'disabled':'')+'>Attempt escape'+(at<m.escapeAt?' · '+(m.escapeAt-at)+' min':'')+'</button>':'')+'</div><p class="small">Internal actions share a 30-minute interval; escape is hourly. Describe your actions and intentions in the text field.</p>')+'</div></details>';
+ const m=id?G.mind(save,id):null,at=EpiWorldClock.ensure(save).minutes,remaining=m?Math.max(0,m.nextAt-at):0,full=id!=='kibbles'||EpiKibblesForm.equipped(save),name=id==='erin'?'Erin':EpiKibblesForm.label(save);const actor=id==='erin'?EpiErinLife.runtime(save).actor:null,decision=id==='erin'?(actor.pending?.action||actor.forcedRoutine?.goal||(actor.sleeping?'sleep':'')):EpiKibblesBehavior.ensure(save).routine?.activity;
+ return '<details class="mind-dock" id="internalResistance" '+((save.hub.mindCollapsed??EpiErin.inside(save))?'':'open')+'><summary>'+htmlEscape(name)+' · Internal resistance'+(m?' · Influence '+m.influence+'%':' · After defeat')+'</summary><div class="mind-body">'+(canContinue?'<p>You remain aware inside the retained attachment.</p><button class="btn" data-mind="continue">Continue encasement</button>':'<p>Mastery '+m.progress+'/100 · '+(remaining?'Next internal action in '+remaining+' game minutes.':'Internal action ready.')+'</p><div class="mind-actions">'+(m.influence>=75&&full?(decision?'<p>Current decision: '+htmlEscape(decision.replace(/-/g,' '))+'</p>':'')+'<button class="btn secondary" data-mind="decision" '+(!decision?'disabled':'')+'>Resist current decision</button>':'')+[['resist','Resist · 3 Resolve'],['desperate','Desperate resistance · −2'],['recover','Regain composure · +6 Resolve']].map(([action,label])=>'<button class="btn secondary" data-mind="'+action+'" '+(remaining||!full?'disabled':'')+'>'+label+'</button>').join('')+(id==='kibbles'?'<button class="btn secondary" data-mind="escape" '+(!full||at<m.escapeAt?'disabled':'')+'>Attempt escape'+(at<m.escapeAt?' · '+(m.escapeAt-at)+' min':'')+'</button>':'')+'</div><p class="small">At 75–100 influence, the unmastered form makes its own decisions. Type “I resist this decision” to challenge one, or use Form chat to suggest an alternative. Influence resistance shares a 30-minute interval; escape is hourly.</p>')+'</div></details>';
 }
 function formMindAction(kind,text=''){
- try{const G=EpiFormMinds,B=EpiKibblesBehavior,c=G.context(save),b=B.ensure(save),now=c.now,targetName=['resist','desperate','recover'].includes(kind)&&G.active(save)==='erin'?'Erin':EpiKibblesForm.label(save),id='player:'+kind+':'+now;let messages=[];
+ try{const G=EpiFormMinds,B=EpiKibblesBehavior,c=G.context(save),b=B.ensure(save),now=c.now,targetName=['resist','desperate','recover','decision'].includes(kind)&&G.active(save)==='erin'?'Erin':EpiKibblesForm.label(save),id='player:'+kind+':'+now;let messages=[];
   if(kind==='release'){EpiKibblesForm.release(save);messages=['You will Kibbles to release you. Your underlying body and profile are restored.'];}
   else if(kind==='equip'){EpiKibblesForm.equip(save);messages=['Kibbles equipped.'];}
   else if(['resist','desperate','recover'].includes(kind))messages=G.internal(save,kind);
+  else if(kind==='decision')messages=G.active(save)==='erin'?[EpiErinLife.resistDecision(save)]:G.resistDecision(save);
   else if(kind==='continue')messages=[G.continueEncasement(save)];
   else if(kind==='escape')messages=[G.escape(save)];
   else {
    if(!B.presence(save)&&!(kind==='play'&&b.releaseLocation===save.hub.location&&b.promises.play))throw Error('No canine consciousness is present.');if(save.encounter?.active)throw Error('Finish the encounter first.');
-   if(['play','outside','rest','cue','train','eat'].includes(kind)){const permission=G.allowActivity(save,kind);if(!permission.allowed){for(const text of permission.messages)feedEntry('Private · Kibbles',text);advanceGameTime(8,'Contested canine action');store();render();return true;}}
+   if(['play','outside','rest','cue','train','eat'].includes(kind)){const permission=G.allowActivity(save,kind);for(const text of permission.messages)feedEntry('Private · Kibbles',text);if(!permission.allowed){advanceGameTime(8,'Contested canine action');store();render();return true;}}
    if(kind==='share')messages=[G.requestSharedControl(save)];
    else if(kind==='insight')messages=[B.insight(save,c)];
    else if(kind==='respect')messages=[B.event(save,{id,type:'respect',now})];
@@ -38,7 +39,7 @@ function formMindAction(kind,text=''){
   for(const message of messages.filter(Boolean))feedEntry('Private · '+targetName,message);
  }catch(error){feedEntry('A.S.S.',error.message);}store();render();return true;
 }
-function formMindIntent(text){return EpiCanineIntent.parse(text)?.kind||null;}
+function formMindIntent(text){if(/^(?:i\s+)?(?:(?:try|attempt) to )?resist (?:(?:[a-z]+[’']s|her|his|its|this|the|current)\s+)*(?:decision|routine|action|plan)[.!]?$/i.test(String(text).trim()))return 'decision';return EpiCanineIntent.parse(text)?.kind||null;}
 document.addEventListener('click',event=>{const button=event.target.closest?.('[data-mind]');if(button&&!button.disabled){const cue=['train','cue'].includes(button.dataset.mind)?document.getElementById('canineTrick')?.value||'':'';closeDrawer();formMindAction(button.dataset.mind,cue);}});
 
 EpiWorldObjects.register('crate-belongings',{

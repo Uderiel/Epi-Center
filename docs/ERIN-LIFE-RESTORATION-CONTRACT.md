@@ -1,3 +1,7 @@
+## Owner amendment — v1.0.61 high influence authority
+
+At75–100 influence, unmastered Erin owns available physical routine decisions. She does not roll to obtain permission. Player objections roll original Willpower against her Reasoning; failure/ties retain her decision, success interrupts it. Persuasion can secure a willing alternative or pause without a later player-authorize gate. Mastered/zero states and incomplete physical-form guards remain. Below75 retains the existing contest rules. This is the shared internal-control policy, also applied to Kibbles; cadence/durations and actual available activities remain unchanged.
+
 ## v1.0.58 amendment — ongoing cursed exposure and visible apartment UI
 
 Owner selected worn-game-time exposure for cursed objects. See [Cursed-object exposure](CURSED-OBJECT-EXPOSURE.md) for the distinction between ongoing worn-item pressure and form-imposed regain, persistence and the explicit initial +5/hour tuning. Zero still prohibits form-forced actions, but continuing unmastered equipment exposure can raise it. Mastery stops it. The apartment explorer is restored below the live feed with room/object/item layers; navigation is free and physical actions remain timed/capability/authority gated. Earlier architectural wording about drawer placement or the missing bootstrap is historical.
