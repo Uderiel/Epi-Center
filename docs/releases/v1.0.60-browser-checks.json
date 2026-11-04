@@ -1,0 +1,55 @@
+{
+  "version": "1.0.60",
+  "environment": "Disposable local Slot 3 fixtures; actual cloud Chrome UI interactions",
+  "checks": [
+    {
+      "check": "All six top shortcuts fit at 360px; Appearance restored",
+      "result": "PASS"
+    },
+    {
+      "check": "Full Erin Form has compact 160px portrait and effective attributes/resources only",
+      "result": "PASS"
+    },
+    {
+      "check": "Stats source is Erin and damaged 50/60/70 resources remain",
+      "result": "PASS"
+    },
+    {
+      "check": "Appearance drawer has needs above portrait and original/current fields",
+      "result": "PASS"
+    },
+    {
+      "check": "Appearance tab shares the same needs/portrait/field content",
+      "result": "PASS"
+    },
+    {
+      "check": "Routine dossier reachable on Character",
+      "result": "PASS"
+    },
+    {
+      "check": "Equip retains cursed-heel removal controls without routine dossier or duplicate roll result",
+      "result": "PASS"
+    },
+    {
+      "check": "Actual failed removal roll appears in live feed (1+2=3 vs12)",
+      "result": "PASS"
+    },
+    {
+      "check": "Partial Erin 22/23 Form hides player baseline stats",
+      "result": "PASS"
+    },
+    {
+      "check": "Equipped Kibbles Form uses canine portrait, attributes and80/120/70 maximums",
+      "result": "PASS"
+    },
+    {
+      "check": "Releasing Kibbles clears Form to no equipped form",
+      "result": "PASS"
+    },
+    {
+      "check": "1100px shortcuts fit; reload retains Erin current reference and damaged resources",
+      "result": "PASS"
+    }
+  ],
+  "ownerDeviceAcceptance": "pending"
+}

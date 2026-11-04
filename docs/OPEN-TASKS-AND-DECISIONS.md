@@ -1,3 +1,11 @@
+## v1.0.60 — restore separate Form and Appearance references
+
+Appearance is restored in the top quick-reference row. Form is a compact current-form portrait, live combat resources, alignment and ten effective attributes. It contains no original-player comparison, appearance fields, physical needs, routine dossier or cursed-heel controls. Full Erin uses her identity and Mental attributes; incomplete Erin exposes no baseline statistics in Form. Stats correctly names the effective body (including full Erin); existing live resource values remain unchanged. Routine reference is on Character. Equip owns heel controls; removal outcomes remain in the live feed.
+
+Appearance drawer and tab share physical needs above the portrait and the aligned original/current fields. Settled Erin regions now use concrete body descriptions rather than transformation-event captions such as “Toes and soles reshaped.” Qualitative descriptions use her existing human traits/frame; no new numeric bust/hip/foot sizes or target age are invented. Legacy 5′4″/114 lb/athletic full-bodied measurements remain. Partial transformation, saved original appearance, grooming overlays and Kibbles priority are preserved.
+
+Validation: **356 named deterministic cases plus entity assertions PASS**, syntax/module paths PASS; **12 actual browser acceptance checks PASS**, including 360px/1100px shortcuts, full and partial Erin, Kibbles equip/release, preserved damaged resources, Equip removal → live-feed roll, and reload. Native owner-device acceptance remains pending. See [release validation](releases/v1.0.60-validation.md).
+
 ## v1.0.59 — published and source verified
 
 [Play v1.0.59](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.59). Gameplay commit `d5d8682b11dd3fb0ed18d8cb33b024fe59efa4c0` is on main and rebuild/1.0-foundations. [Pages run 41903185730](https://github.com/Uderiel/Epi-Center/actions/runs/41903185730) succeeded. All 42 checked deployed files match tested source; live title reports v1.0.59. **349 named deterministic cases plus entity assertions, syntax/module paths and 12 browser checks PASS.** [Live verification](releases/v1.0.59-live-verification.json).
