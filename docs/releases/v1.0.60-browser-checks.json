@@ -15,7 +15,7 @@
       "result": "PASS"
     },
     {
-      "check": "Appearance drawer has needs above portrait and original/current fields",
+      "check": "Appearance drawer has needs below portrait and above appearance details and original/current fields",
       "result": "PASS"
     },
     {

@@ -77,7 +77,7 @@
     {
       "file": "rebuild/hub/form-reference.test.js",
       "exitCode": 0,
-      "output": "PASS completed Erin reference shows her image and effective attributes/resources without baseline or item/routine/appearance text\nPASS Stats labels full Erin as the current resource source and retains live damaged resources\nPASS partial Erin Form reference never exposes baseline stats before completion\nPASS Kibbles reference uses equipped canine identity and resource maximums then clears on release\nPASS Appearance owns physical needs above the image and paired detail fields\nPASS settled regions show concrete current descriptions without rewriting originals; incomplete regions retain originals\nPASS Appearance shortcut and drawer use same appearance reference; heel reference remains in Equip only\n7 form-reference cases passed\n",
+      "output": "PASS completed Erin reference shows her image and effective attributes/resources without baseline or item/routine/appearance text\nPASS Stats labels full Erin as the current resource source and retains live damaged resources\nPASS partial Erin Form reference never exposes baseline stats before completion\nPASS Kibbles reference uses equipped canine identity and resource maximums then clears on release\nPASS Appearance owns physical needs below the image and above paired detail fields\nPASS settled regions show concrete current descriptions without rewriting originals; incomplete regions retain originals\nPASS Appearance shortcut and drawer use same appearance reference; heel reference remains in Equip only\n7 form-reference cases passed\n",
       "stderr": ""
     },
     {
