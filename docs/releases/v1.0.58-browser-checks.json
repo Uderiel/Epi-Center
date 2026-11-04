@@ -1,0 +1,75 @@
+{
+  "version": "1.0.58",
+  "method": "Actual browser UI with disposable local Slot3 in360x800 and1100x800 iframe layouts; native acceptance pending.",
+  "checks": [
+    {
+      "name": "Apartment panel is directly below live feed without Path",
+      "passed": true
+    },
+    {
+      "name": "Chair sitting changes physical posture through selected object",
+      "passed": true
+    },
+    {
+      "name": "Desk photograph shows authored detail through nested examination",
+      "passed": true
+    },
+    {
+      "name": "Fridge Open shows persistent food counts in its object layer",
+      "passed": true
+    },
+    {
+      "name": "Cooking chicken dinner consumes chicken3\u21922 and creates real meal",
+      "passed": true
+    },
+    {
+      "name": "Dining consumes prepared meal exactly once",
+      "passed": true
+    },
+    {
+      "name": "Blouse pickup/equip keeps item layer open and survives reload",
+      "passed": true
+    },
+    {
+      "name": "Ordinary flats equip into feet slot",
+      "passed": true
+    },
+    {
+      "name": "Toilet action clears bladder and records use",
+      "passed": true
+    },
+    {
+      "name": "Shower action uses12minutes and resets grooming",
+      "passed": true
+    },
+    {
+      "name": "Full bed sleep uses480minutes and fatigue reaches0",
+      "passed": true
+    },
+    {
+      "name": "Six dresser sections and perfume item action work",
+      "passed": true
+    },
+    {
+      "name": "Typed household travel/open/cook use actual room and stock guards",
+      "passed": true
+    },
+    {
+      "name": "One worn game hour changes Erin influence0\u21925",
+      "passed": true
+    },
+    {
+      "name": "Removing heels then waiting/reloading preserves5influence",
+      "passed": true
+    },
+    {
+      "name": "360px/1100px layered panel, live feed and composer visually verified",
+      "passed": true
+    },
+    {
+      "name": "Room\u2192Dresser\u2192Drawer3\u2192Item stack pops4\u21923\u21922\u21921 with unchanged game time and preserved equipment",
+      "passed": true
+    }
+  ],
+  "passed": 17
+}

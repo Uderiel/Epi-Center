@@ -1,3 +1,7 @@
+## v1.0.58 amendment — ongoing cursed exposure and visible apartment UI
+
+Owner selected worn-game-time exposure for cursed objects. See [Cursed-object exposure](CURSED-OBJECT-EXPOSURE.md) for the distinction between ongoing worn-item pressure and form-imposed regain, persistence and the explicit initial +5/hour tuning. Zero still prohibits form-forced actions, but continuing unmastered equipment exposure can raise it. Mastery stops it. The apartment explorer is restored below the live feed with room/object/item layers; navigation is free and physical actions remain timed/capability/authority gated. Earlier architectural wording about drawer placement or the missing bootstrap is historical.
+
 # Erin legacy behavior restoration — v1.0.54
 
 Source: unchanged `epi-center-v0.8.84-attribute-foundation-corrections.html`. `scripts/extract-erin-life.cjs` reproducibly extracts final household definitions, seven TV modes, final room descriptions, the original JPEG portrait and the transaction/scheduling engine retained by 0.8.84. Normalized-LF SHA-256: `10b2da52fb85bd4fdfa470dddc629e3a155b40d6ade549e03c5250d1545677cd`. The earlier CRLF source hash in `legacy-0884-data.js` is preserved; these describe newline variants, not changed authorship.

@@ -1,3 +1,7 @@
+## v1.0.58 amendment — ongoing cursed exposure and visible apartment UI
+
+Owner selected worn-game-time exposure for cursed objects. See [Cursed-object exposure](CURSED-OBJECT-EXPOSURE.md) for the distinction between ongoing worn-item pressure and form-imposed regain, persistence and the explicit initial +5/hour tuning. Zero still prohibits form-forced actions, but continuing unmastered equipment exposure can raise it. Mastery stops it. The apartment explorer is restored below the live feed with room/object/item layers; navigation is free and physical actions remain timed/capability/authority gated. Earlier architectural wording about drawer placement or the missing bootstrap is historical.
+
 ## v1.0.52 implementation status
 
 The approved universal internal resistance, recovery, control budgets, completed-activity regain, rarity mastery and hourly escape rules below are now implemented/tested in `rebuild/hub/internal-mastery.js` and `form-minds.js`; they use the existing action-driven world clock. [Implementation/defaults](KIBBLES-IMPLEMENTATION-CONTRACT.md) and [encased-player supplement](ENCASED-PLAYER-GUIDE.md). 256 named cases plus entity assertions and 78 browser assertions pass; owner/native-device acceptance remains pending. The 1-game-hour/10-real-minute live clock remains prospective. Recent approved headings below continue to supersede older proposals. No numeric handler modifier or new relationship penalty was invented.
