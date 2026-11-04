@@ -1,3 +1,7 @@
+## v1.0.57 — navigation published; influence decision remains open
+
+[Play v1.0.57](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.57). Gameplay `be1e8a6df7564baffff8ab814b5ee7e7d84c5a55` is on main and rebuild/1.0-foundations. [Pages run 41745184196](https://github.com/Uderiel/Epi-Center/actions/runs/41745184196) succeeded; all 41 checked deployed files match tested source and live title reports v1.0.57. [Live verification](docs/releases/v1.0.57-live-verification.json). 327 deterministic cases plus entity assertions and eight browser checks PASS. Manual check: enter Unit 3C, use Rooms, browse desk/Back, examine explicitly, move and reload. Native-device acceptance pending. Owner chose to settle Erin’s initial influence-growth rule before implementing it; influence is not fixed by this release.
+
 ## v1.0.57 — contextual apartment navigation; influence rule pending
 
 Restored visible interior navigation for Unit 3C. Entry immediately opens the living-room panel, Play names the actual room, and the Path quick control becomes Rooms with actual connected interior routes and the corridor exit. Room/object/desk views have contextual Back controls; browsing does not advance time or examine objects. Examination and physical room travel remain explicit one-minute actions through the existing authority checks. Typed connected room travel uses the same route; no city-route teleport from indoors. Nested desk, drawer, bookcase, table and plant views retain discovery gates and current saves.
