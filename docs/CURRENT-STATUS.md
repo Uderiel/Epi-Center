@@ -1,3 +1,7 @@
+## v1.0.64 — published and source verified
+
+[Play v1.0.64](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.64). Gameplay commit `2712e751d0401f8164ca2806b3beca1f90139759` is on main and rebuild/1.0-foundations. [Pages run 41950651197](https://github.com/Uderiel/Epi-Center/actions/runs/41950651197) succeeded. Public title reports v1.0.64; all 49 checked runtime files/assets match tested source. **443 named deterministic cases plus entity assertions and 16 browser checks PASS.** [Live hashes](releases/v1.0.64-live-verification.json). No save reset required. Earlier sections are historical.
+
 ## v1.0.64 — Richard NPC, autonomous schedule and additional work
 
 Richard is now a persistent civilian Sales and Marketing Manager, available through the room-local NPC channel and the existing office interaction layer. His weekday routine uses actual third-floor doors for check-ins, printer collection, lunch and team rounds. He commutes along the district graph in eight-minute edges, enters/leaves through A, and returns to his recorded Applewood residence offscreen. Live foreground time uses the same schedule pipeline; no offline catch-up or new private-home interior is added. Weekends default home; events and Sin-Thetic Pleasure remain unbuilt.
