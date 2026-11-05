@@ -97,3 +97,7 @@ Original Discord description: “If they aren't yours... don't touch em.. or the
 ## Custody
 
 Owner-confirmed v0.8.74 compass acceptance is recorded in the primary changelog/status/handoff/checklist. On each approved future patch, update all four documents and this Bible, recording exact source version, commit, test results, owner approval, and outstanding questions. Preserve historical evidence, browser saves and accepted versioned files.
+
+
+## 2026-11-04 — Richard / Erin / Michael / Technology Center design handoff (NOT IMPLEMENTED)
+See [Richard NPC design notes](RICHARD-NPC-DESIGN-NOTES.md) for the full character, NPC-template, quest, location and schedule design record. Critical: Richard NEVER states the exact bonus amount in dialogue; he promises a little extra pay for going above and beyond. Actual reward is 50 gold per completed qualifying additional task, awarded once. Erin is the Sales and Marketing Manager's SECRETARY (not sales leader). Richard resides at Applewood Apartments floor 7 Suite D. Technology Center location #97 north of tile #26, third-floor layout pending implementation. Michael's dress shoes are the alternative to Erin's red heels in unbuilt Central Hub quest; unchosen footwear remains in place. These are design decisions only, not shipped features.
