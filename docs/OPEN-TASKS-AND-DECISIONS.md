@@ -1,3 +1,7 @@
+## v1.0.65 — published and source verified
+
+[Play v1.0.65](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.65). Gameplay commit `1b1de4b44b8e2e72cae441dcc3a9b9d500179d53` is on main and rebuild/1.0-foundations. [Pages run 41955476770](https://github.com/Uderiel/Epi-Center/actions/runs/41955476770) succeeded. Public title reports v1.0.65; all 49 checked runtime files/assets match tested source. **464 named deterministic cases plus entity assertions and 12 browser checks PASS.** [Live hashes](releases/v1.0.65-live-verification.json). No save reset required. Earlier sections are historical.
+
 ## v1.0.65 — Original Willpower, clear rolls, and Erin's physical needs
 
 Fixed a creation/runtime schema mismatch: creation stored `Focus / Willpower`, while internal mastery and form-decision resistance read only `Willpower` and could silently use +0. Creation now uses the canonical key; old allocations migrate intact, and resistance adapters retain a legacy fallback. Explicit canonical zero remains zero. Equipped-form attributes never replace original Willpower for internal resistance. Creation alignment now includes the allocated points correctly.
