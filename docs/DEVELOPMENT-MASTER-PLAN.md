@@ -1,3 +1,13 @@
+## v1.0.66 — destination maps and upward interaction layers
+
+World Map destinations now start the shortest known legal route with one tap. Indoor Path shows a simplified spatial mini-map matching the approved layout; tap a room to follow its actual doors, keeping Path open with Back to Play. Stop/Resume, exact game-time costs and intermediate feed entries are visible. Office exits remain A/I; G is reached only through F. Michael’s stable cubicle ID M now connects to sales H. The updated names distinguish north/south, inner and outer hallways.
+
+Accessible Rooms and Internal Resistance are separate collapsible bars immediately above the composer channels. Their bodies overlay the feed upward, retain the current room’s brief description/fixtures and existing furniture/storage/item Back stack, and keep the input fixed. Resistance is gray when unavailable and illuminated when actionable. Clock and historical feed timestamps display Mon–Sun without changing the numeric schedule clock.
+
+Travel uses the existing authority, walking, combat and canonical time pipeline. Focus loss, hidden state, page departure, reload, manual actions, combat, stale save changes and unexpected form movement pause the queue. There is no offline travel or automatic private-building entry. Resume replans from the actual position. Route redraw retains draft/caret and open Path scroll. Newer persisted saves win without stale inventory/resource overwrite. No save reset required.
+
+**490 named deterministic cases plus entity assertions PASS; syntax/module paths PASS; 16 actual browser checks PASS.** See `docs/NAVIGATION-AND-PATH-LAYOUT-CONTRACT.md` and the v1.0.66 release validation. Future location work starts with an approved path/door layout before detailed furniture, fixtures or content. Earlier sections below are historical.
+
 ## v1.0.65 — published and source verified
 
 [Play v1.0.65](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.65). Gameplay commit `1b1de4b44b8e2e72cae441dcc3a9b9d500179d53` is on main and rebuild/1.0-foundations. [Pages run 41955476770](https://github.com/Uderiel/Epi-Center/actions/runs/41955476770) succeeded. Public title reports v1.0.65; all 49 checked runtime files/assets match tested source. **464 named deterministic cases plus entity assertions and 12 browser checks PASS.** [Live hashes](releases/v1.0.65-live-verification.json). No save reset required. Earlier sections are historical.

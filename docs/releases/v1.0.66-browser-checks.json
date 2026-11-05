@@ -1,0 +1,89 @@
+{
+  "version": "1.0.66",
+  "environment": "Chrome managed local preview; disposable slot3, 360px iframe; no production save edits",
+  "checks": [
+    {
+      "name": "weekday-display",
+      "status": "PASS",
+      "observed": "Sat 09:00 and historic Day 6 08:00 feed rendered as Sat; underlying numeric minutes retained."
+    },
+    {
+      "name": "office-map",
+      "status": "PASS",
+      "observed": "Path shows simplified office bands, inner/outer hallways and Back to Play."
+    },
+    {
+      "name": "single-tap-office",
+      "status": "PASS",
+      "observed": "Marketing break selected once, four one-minute legs, Path remained open and destination updated."
+    },
+    {
+      "name": "legal-manager-route",
+      "status": "PASS",
+      "observed": "Marketing break to Richard traversed North Hallway, West Outer Hallway, South Connection and F before G; five minutes."
+    },
+    {
+      "name": "phone-controls",
+      "status": "PASS",
+      "observed": "360px document and scroll widths equal; stacked stairs/elevator controls each 63.36px wide and above 61px high."
+    },
+    {
+      "name": "fixed-composer",
+      "status": "PASS",
+      "observed": "Input top704/bottom739 unchanged between nearby expanded, collapsed and internal resistance expanded states."
+    },
+    {
+      "name": "office-fixture-layer",
+      "status": "PASS",
+      "observed": "Manager desk opens one layer; Examine consumes one minute, Back returns room."
+    },
+    {
+      "name": "world-single-tap",
+      "status": "PASS",
+      "observed": "Outerloop to Central Hub Spire initiated from Map; total five edges/40 game minutes despite Stop and reload."
+    },
+    {
+      "name": "stop-resume",
+      "status": "PASS",
+      "observed": "Stop replaced status with explicit Resume route; resumed route replanned remaining edges."
+    },
+    {
+      "name": "reload-pause",
+      "status": "PASS",
+      "observed": "Reload preserved actual position at Central Hub N, clock09:32 and explicit paused status; no automatic catch-up."
+    },
+    {
+      "name": "draft-retention",
+      "status": "PASS",
+      "observed": "Typed Keep this draft remained with caret15 after final queued leg and arrival."
+    },
+    {
+      "name": "resource-isolation",
+      "status": "PASS",
+      "observed": "After world route pools63/41/52/7, gold100 and one dog treat unchanged."
+    },
+    {
+      "name": "apartment-route",
+      "status": "PASS",
+      "observed": "Living to Closet followed hall, bedroom, closet; three minutes and current closet contents populated."
+    },
+    {
+      "name": "item-stack",
+      "status": "PASS",
+      "observed": "Professional wardrobe -> Ivory work blouse -> Examine/Carry/Equip; Back returned wardrobe then closet; selection free."
+    },
+    {
+      "name": "fog-denial",
+      "status": "PASS",
+      "observed": "Visible disconnected known Spire rejected No known connecting route; stayed Outerloop09:00."
+    },
+    {
+      "name": "resistance-readiness",
+      "status": "PASS",
+      "observed": "Unmastered Erin50 cooldown30 showed data-readyfalse gray rgb152162176; ready cooldown0 illuminated rgb178243200."
+    }
+  ],
+  "limitations": [
+    "Native-device background/visibility transition remains manual acceptance; deterministic runtime guards cover blur/hidden/reload."
+  ]
+}

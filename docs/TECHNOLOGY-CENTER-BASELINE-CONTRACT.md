@@ -1,3 +1,7 @@
+## v1.0.66 layout revision
+
+The owner’s later simplified path sketch supersedes provisional display names and Michael’s marketing-side placement: M is now Michael’s Cubicle, connected only to sales H. G remains only through F, exits only A/I. Destination maps replace manual corridor selection; the canonical door graph still governs all travel. See NAVIGATION-AND-PATH-LAYOUT-CONTRACT.md. Future location detail follows approved paths first. Historical baseline follows.
+
 # Technology Center baseline contract — v1.0.63
 
 Source: owner-uploaded 4289.jpg, Technology Center 3rd Floor, and explicit correction that only A/I exit and only F connects G. Drawing labels A–M describe 13 kinds of space; repeated B/D/H labels are separate physical instances. The implementation has 23 navigation zones including circulation spaces. Corridors model travel around walls rather than treating adjacent labels as connected rooms.
