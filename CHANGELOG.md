@@ -1,3 +1,7 @@
+## v1.0.63 — published and source verified
+
+[Play v1.0.63](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.63). Gameplay commit `269f2bacd9ece255cb89ac649fa0901a7e131cb1` is on main and rebuild/1.0-foundations. [Pages run 41948268633](https://github.com/Uderiel/Epi-Center/actions/runs/41948268633) succeeded. All 46 checked runtime files/assets match tested source; public title reports v1.0.63. **403 named deterministic cases plus entity assertions and 19 browser checks PASS.** [Live hashes](docs/releases/v1.0.63-live-verification.json). No save reset is required. Richard NPC remains next. Earlier sections are historical.
+
 ## v1.0.63 — Technology Center baseline and floor-plan navigation
 
 Technology Center is #98, north of tile #26 at (1,-6). Applewood #97 remains at (1,-4); Groceries Aplenty #99 is at (2,-4), and Prim and Proper Dry Cleaners #100 at (3,-4). The original map geometry is retained with an extra northern row. The two shops currently provide mapped exteriors only.
