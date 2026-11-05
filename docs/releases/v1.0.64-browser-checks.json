@@ -1,0 +1,73 @@
+{
+  "version": "1.0.64",
+  "environment": "managed local browser, disposable Slot 3 fixtures",
+  "checks": [
+    {
+      "name": "Richard profile replaces the current office layer and Back restores room layer",
+      "status": "PASS"
+    },
+    {
+      "name": "Room-local NPC recipient accepts typed extra-task request and charges exactly two minutes",
+      "status": "PASS"
+    },
+    {
+      "name": "Spoken task promise omits numerical bonus; assignment requires explicit acceptance",
+      "status": "PASS"
+    },
+    {
+      "name": "Connected G\u2192F navigation exposes the accepted desk task in F",
+      "status": "PASS"
+    },
+    {
+      "name": "Typed prepare-summary begins elapsed work at zero setup minutes",
+      "status": "PASS"
+    },
+    {
+      "name": "Partial ten-minute progress survives reload before completion",
+      "status": "PASS"
+    },
+    {
+      "name": "Twenty worked minutes plus in-person delivery pay exactly 50 gold with a separate system receipt",
+      "status": "PASS"
+    },
+    {
+      "name": "Reload and repeated delivery leave gold at 150 and reject duplicate completion",
+      "status": "PASS"
+    },
+    {
+      "name": "Typed attack Richard starts initiative in the shared encounter dock with Civilian label and no transformation premise",
+      "status": "PASS"
+    },
+    {
+      "name": "Dodge spends eight Stamina; Richard uses Analyze and Confuse with visible rolls",
+      "status": "PASS"
+    },
+    {
+      "name": "Main/Minor budgets and depleted civilian combat pools survive reload",
+      "status": "PASS"
+    },
+    {
+      "name": "Surrender ends combat preserving depleted pools and creates no form mastery or gold reward",
+      "status": "PASS"
+    },
+    {
+      "name": "Foreground live time moves Richard G\u2192F\u2192South Corridor\u2192West Passage at lunch with no submission; unsent draft survives",
+      "status": "PASS"
+    },
+    {
+      "name": "Recipient list excludes Richard after he leaves the current room",
+      "status": "PASS"
+    },
+    {
+      "name": "Stressed co-located Richard autonomously offers work; three refusal/boundary responses adapt and survive reload",
+      "status": "PASS"
+    },
+    {
+      "name": "One office layer fits 360px and 1100px without horizontal overflow; work Journal section renders; no application console errors",
+      "status": "PASS"
+    }
+  ],
+  "limitations": [
+    "Owner Android/PC acceptance remains pending. No claim of implemented store services or workplace-wide simulation."
+  ]
+}

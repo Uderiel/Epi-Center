@@ -1,6 +1,6 @@
 # Richard NPC design notes
 
-Design-only, not implemented.
+Implemented baseline in v1.0.64; see [current implementation contract](RICHARD-NPC-IMPLEMENTATION.md). Historical proposals and pending extensions below are retained.
 
 Richard is the male Sales and Marketing Manager. Erin is his secretary, not a sales team leader. Michael is the junior intern. Richard is younger, charming, career-driven, controlling, and genuinely values Erin's competence. He is self-aware about relying on her. When stressed or fatigued he requests additional errands or after-hours summaries as a coping mechanism, not out of cruelty. He considers thanks and additional pay adequate compensation. His home is Applewood Apartments, floor 7, Suite D. He occasionally visits Sin-Thetic Pleasure on weekends; that location is not implemented.
 
