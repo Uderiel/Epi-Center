@@ -113,3 +113,7 @@ Combat Alignment now defaults to a compact, tappable three-color bar labeled wit
 
 ## v1.0.28 — Character creation live alignment
 Added collapsible combat alignment directly beneath the ten attribute controls. Recalculates immediately after each +/- allocation change; percentages and strongest specialization match Character and Stats. Version bumped across modular screens; no save migration.
+
+
+## 2026-11-04 — Richard / Erin / Michael / Technology Center design handoff (NOT IMPLEMENTED)
+See [Richard NPC design notes](RICHARD-NPC-DESIGN-NOTES.md) for the full character, NPC-template, quest, location and schedule design record. Critical: Richard NEVER states the exact bonus amount in dialogue; he promises a little extra pay for going above and beyond. Actual reward is 50 gold per completed qualifying additional task, awarded once. Erin is the Sales and Marketing Manager's SECRETARY (not sales leader). Richard resides at Applewood Apartments floor 7 Suite D. Technology Center location #97 north of tile #26, third-floor layout pending implementation. Michael's dress shoes are the alternative to Erin's red heels in unbuilt Central Hub quest; unchosen footwear remains in place. These are design decisions only, not shipped features.
