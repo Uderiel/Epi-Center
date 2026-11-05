@@ -22,5 +22,5 @@ function state(save){save.world||={};save.world.technologyCenter||={floor:3,room
 function routes(save){return rooms[state(save).room].exits.map(id=>({id,name:rooms[id].name}));}
 function move(save,id){const s=state(save);if(!rooms[id]||!rooms[s.room].exits.includes(id))throw Error('That office room is not directly accessible.');s.room=id;s.visited[id]=true;return {id,minutes:1,text:rooms[id].description};}
 function inspect(save){return rooms[state(save).room].description;}
-return Object.freeze({id:'technology-center',name:'Technology Center',mapNumber:97,northOf:26,floor:3,rooms,state,routes,move,inspect});
+return Object.freeze({id:'technology-center',name:'Technology Center',mapNumber:98,northOf:26,floor:3,rooms,state,routes,move,inspect});
 });
