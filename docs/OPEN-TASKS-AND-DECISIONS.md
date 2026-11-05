@@ -1,3 +1,7 @@
+## v1.0.67 — published and source verified
+
+[Play v1.0.67](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.67). Gameplay commit `efc340874a61c26b2dbaeb219bc91c08e63a2529` is on main and rebuild/1.0-foundations. [Pages run 42132302672](https://github.com/Uderiel/Epi-Center/actions/runs/42132302672) succeeded. Public title reports v1.0.67; all 56 checked runtime files/assets match tested source. **514 named deterministic cases plus entity assertions and 14 browser checks PASS.** [Live hashes](releases/v1.0.67-live-verification.json). No save reset required. Earlier sections are historical.
+
 ## v1.0.67 — body-region equipment and form carry storage
 
 Equip restores Head, Neck, Torso, Back, Arms, Hands, Hips, Legs and Feet in order. It shows worn items only; dresses appear in each covered region as references to one garment. Explicit coverage metadata supports full skinsuits and partial coverage. Existing clothing layers remain independent; necklace, earrings and belt no longer replace each other through one accessory slot. A worn living form stays below the regional fields.
