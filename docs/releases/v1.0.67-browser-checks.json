@@ -1,0 +1,76 @@
+{
+  "version": "1.0.67",
+  "environment": "Chrome managed local preview; disposable slot3; no production save edits",
+  "checks": [
+    {
+      "name": "smaller-upward-popup",
+      "status": "PASS",
+      "observed": "360px iframe: furniture body max336px/42dvh with input top704/bottom739; input remains below overlay."
+    },
+    {
+      "name": "nine-regions",
+      "status": "PASS",
+      "observed": "Equip shows Head Neck Torso Back Arms Hands Hips Legs Feet in order; no unequipped Kibbles card."
+    },
+    {
+      "name": "multi-region-dress",
+      "status": "PASS",
+      "observed": "Dress shown Torso/Hips/Legs; one Unequip removes it from all three and puts one carried garment in Items."
+    },
+    {
+      "name": "layered-accessories",
+      "status": "PASS",
+      "observed": "Earrings Head, necklace Neck/Torso, belt Hips, socks and heels Feet coexist."
+    },
+    {
+      "name": "heels-move-to-items",
+      "status": "PASS",
+      "observed": "Mastered heels removed from Feet appear in Items Objects with Equip; physical stage remains23."
+    },
+    {
+      "name": "forms-disclosure",
+      "status": "PASS",
+      "observed": "Items Forms starts collapsed; expanding reveals carried Kibbles Scout and equip control."
+    },
+    {
+      "name": "equipped-form-placement",
+      "status": "PASS",
+      "observed": "Equip Kibbles from Items places its living-form card below Feet, with will-release control."
+    },
+    {
+      "name": "release-persistence",
+      "status": "PASS",
+      "observed": "Will release restores Erin body with stage23 and heels still carried; Kibbles stays owned/inventory, identity retained."
+    },
+    {
+      "name": "capacity-prompt",
+      "status": "PASS",
+      "observed": "Local synthetic fourth acquisition displays persistent transport choices; worn heels not eligible for deposit."
+    },
+    {
+      "name": "capacity-deposit",
+      "status": "PASS",
+      "observed": "Choose QA third form: third stored repository, fourth admitted inventory, three carry slots, no gold/resources/time changes."
+    },
+    {
+      "name": "capacity-reload",
+      "status": "PASS",
+      "observed": "Reload then Items still shows3/3 with selected form in repository, no pending transfer."
+    },
+    {
+      "name": "repository-heel-roundtrip",
+      "status": "PASS",
+      "observed": "Repository retrieves heels into Items, equip returns them to Feet at23/23 without resource/currency changes."
+    },
+    {
+      "name": "repository-local-controls",
+      "status": "PASS",
+      "observed": "Accessible Rooms at Form Repository offers retrieve/deposit; worn Erin deposit disabled; Scout retrieve/deposit roundtrip succeeds."
+    },
+    {
+      "name": "responsive-width",
+      "status": "PASS",
+      "observed": "Phone document scrollWidth equals clientWidth; same check after wider iframe control has no horizontal overflow. Wide control constrained by browser viewport; no desktop-width claim."
+    }
+  ]
+}

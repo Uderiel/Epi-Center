@@ -1,3 +1,15 @@
+## v1.0.67 — body-region equipment and form carry storage
+
+Equip restores Head, Neck, Torso, Back, Arms, Hands, Hips, Legs and Feet in order. It shows worn items only; dresses appear in each covered region as references to one garment. Explicit coverage metadata supports full skinsuits and partial coverage. Existing clothing layers remain independent; necklace, earrings and belt no longer replace each other through one accessory slot. A worn living form stays below the regional fields.
+
+Items now owns carried household belongings, unequipped cursed heels, and a collapsed Forms disclosure. Three carried slots include both worn/carried forms and form-linked cursed objects (Erin’s unique heels count as Erin once). Owned forms stay in inventory until explicitly deposited. The Form Repository has deposit/retrieve controls in its room field and Items disclosure. A fourth acquisition waits outside the carried inventory in repository transport until the player chooses an unequipped form to deposit, including the new acquisition itself. Ownership is never discarded, and the prompt/progress survive reload. Stored forms cannot be equipped remotely; worn/attached forms cannot be deposited to bypass release, removal saves or escape.
+
+Removing/storing/retrieving heels preserves Erin’s physical stage. Transport preserves identity, mastery, relationships, internal progress, remaining resources, currency and the clock. Existing voluntary Kibbles mastery requirements and unmastered resistance/escape remain intact. No new forms or clothing are added. The generic acquisition API supports later form additions; third/fourth mock forms exist only in local QA/tests. Old apartment-closet object storage remains compatible.
+
+The furniture overlay is reduced from 56dvh/440px (phone52dvh) to 44dvh/350px (phone42dvh). It still expands upward, scrolls within its bounds and keeps the composer fixed. Internal Resistance retains its size.
+
+**514 named deterministic cases plus entity assertions PASS; syntax/module paths PASS; 14 actual browser checks PASS.** See EQUIPMENT-AND-FORM-STORAGE-CONTRACT.md and the v1.0.67 release validation. No save reset required. Earlier sections are historical.
+
 ## v1.0.66 — published and source verified
 
 [Play v1.0.66](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.66). Gameplay commit `dbfc805049da4fad23a424627e522d1614838207` is on main and rebuild/1.0-foundations. [Pages run 42121793833](https://github.com/Uderiel/Epi-Center/actions/runs/42121793833) succeeded. Public title reports v1.0.66; all 53 checked runtime files/assets match tested source. **490 named deterministic cases plus entity assertions and 16 browser checks PASS.** [Live hashes](docs/releases/v1.0.66-live-verification.json). No save reset required. Future location development begins with path layout before detailed content. Earlier sections are historical.
