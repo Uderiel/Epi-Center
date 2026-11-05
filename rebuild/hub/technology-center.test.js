@@ -2,4 +2,4 @@ const assert=require('node:assert/strict');const test=require('node:test');const
 test('all third-floor rooms A-M exist with descriptions',()=>{assert.equal(Object.keys(T.rooms).length,13);for(const r of Object.values(T.rooms))assert.ok(r.description.length>30);});
 test('every declared interior exit is reciprocal',()=>{for(const [id,r] of Object.entries(T.rooms))for(const dest of r.exits){assert.ok(T.rooms[dest],dest);assert.ok(T.rooms[dest].exits.includes(id),id+' -> '+dest);}});
 test('room navigation persists and blocks nonadjacent movement',()=>{const s={world:{}};assert.equal(T.state(s).room,'A');assert.throws(()=>T.move(s,'G'),/not directly accessible/);T.move(s,'E');T.move(s,'F');assert.equal(T.state(s).room,'F');assert.equal(s.world.technologyCenter.visited.F,true);assert.equal(T.inspect(s),T.rooms.F.description);});
-test('Technology Center map reference remains distinct from temporary Applewood conflict',()=>{assert.equal(T.mapNumber,97);assert.equal(T.northOf,26);});
+test('Technology Center map reference remains distinct from temporary Applewood conflict',()=>{assert.equal(T.mapNumber,98);assert.equal(T.northOf,26);});
