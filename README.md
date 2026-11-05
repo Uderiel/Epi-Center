@@ -1,3 +1,7 @@
+## v1.0.66 — published and source verified
+
+[Play v1.0.66](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.66). Gameplay commit `dbfc805049da4fad23a424627e522d1614838207` is on main and rebuild/1.0-foundations. [Pages run 42121793833](https://github.com/Uderiel/Epi-Center/actions/runs/42121793833) succeeded. Public title reports v1.0.66; all 53 checked runtime files/assets match tested source. **490 named deterministic cases plus entity assertions and 16 browser checks PASS.** [Live hashes](docs/releases/v1.0.66-live-verification.json). No save reset required. Future location development begins with path layout before detailed content. Earlier sections are historical.
+
 ## v1.0.66 — destination maps and upward interaction layers
 
 World Map destinations now start the shortest known legal route with one tap. Indoor Path shows a simplified spatial mini-map matching the approved layout; tap a room to follow its actual doors, keeping Path open with Back to Play. Stop/Resume, exact game-time costs and intermediate feed entries are visible. Office exits remain A/I; G is reached only through F. Michael’s stable cubicle ID M now connects to sales H. The updated names distinguish north/south, inner and outer hallways.
