@@ -8,7 +8,7 @@ Richard is the male Sales and Marketing Manager. Erin is his secretary, not a sa
 
 Erin works Monday-Friday, normally 9 AM to 5 PM, subject to Richard's discretion, sometimes Saturday for events, rarely Sunday for crunch. She favors light breakfasts before work, fuller meals on days off, and a packed desk lunch on workdays.
 
-Technology Center third floor is north of city tile 26 (building location 97). Room plan: elevator A, restrooms B-D, conference E, Erin office F, Richard office G, cubicles H, stairwell/cleaning I, sales break J, marketing break K, printer/water K? Verify owner's drawing, intern M. Preserve map geometry.
+Technology Center third floor is north of city tile 26 (building location 97). Room plan: elevator A, restrooms B-D, conference E, Erin office F, Richard office G, cubicles H, stairwell/cleaning I, sales break J, marketing break K, water cooler/printer/fax L, intern office/cubicle M; verify exact paths against owner's drawing. Preserve map geometry.
 
 Unbuilt Central Hub quest 'If It's Not Yours, Don't Touch': Erin red heels transform player into Erin; alternate men's dress shoes transform player into intern Michael. Unchosen shoes remain visible and inspectable. No automatic second-item acquisition or assumed simultaneous form stacking.
 
