@@ -1,0 +1,85 @@
+{
+  "version": "1.0.63",
+  "environment": "managed local browser preview, disposable Slot 3 fixtures; live time paused for exact action timing",
+  "checks": [
+    {
+      "name": "Road #26 north route reaches Technology Center #98 in eight minutes",
+      "status": "PASS"
+    },
+    {
+      "name": "Map retains eleven columns, adds north row, places #98 above #26",
+      "status": "PASS"
+    },
+    {
+      "name": "Exterior entry costs one minute and arrives at A",
+      "status": "PASS"
+    },
+    {
+      "name": "Typed remote Richard office move rejects without teleport",
+      "status": "PASS"
+    },
+    {
+      "name": "Typed valid corridor move charges exactly one minute",
+      "status": "PASS"
+    },
+    {
+      "name": "Corridor path reaches F then G without Back between moves",
+      "status": "PASS"
+    },
+    {
+      "name": "F exposes only South Corridor and G; G only F",
+      "status": "PASS"
+    },
+    {
+      "name": "Exit from G rejects without clock advance",
+      "status": "PASS"
+    },
+    {
+      "name": "Second tap opens G view free; Examine advances one minute",
+      "status": "PASS"
+    },
+    {
+      "name": "Reload preserves G, view, visited and examined state",
+      "status": "PASS"
+    },
+    {
+      "name": "Office examination preserves resources, inventory, gold and forms; no Richard NPC",
+      "status": "PASS"
+    },
+    {
+      "name": "Map has no outdoor route buttons while inside",
+      "status": "PASS"
+    },
+    {
+      "name": "Legal corridor route reaches I and stair exit costs one minute",
+      "status": "PASS"
+    },
+    {
+      "name": "Typed exterior re-entry costs one minute",
+      "status": "PASS"
+    },
+    {
+      "name": "J and K each expose North Corridor only, no direct break-room jump",
+      "status": "PASS"
+    },
+    {
+      "name": "Office interaction field has no horizontal overflow at 1100px and 360px",
+      "status": "PASS"
+    },
+    {
+      "name": "#97 east route reaches #99 and then #100; dry cleaner examination uses its exterior",
+      "status": "PASS"
+    },
+    {
+      "name": "Apartment first-tap room chain and second-tap bedroom contents remain correct",
+      "status": "PASS"
+    },
+    {
+      "name": "Apartment dresser \u2192 drawer 4 \u2192 item shows Examine/Carry/Equip in one field; no office dock",
+      "status": "PASS"
+    }
+  ],
+  "limitations": [
+    "Native owner-device acceptance remains pending. Office work/NPC interactions are outside this baseline."
+  ]
+}

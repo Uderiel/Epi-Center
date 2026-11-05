@@ -1,3 +1,7 @@
+## Current implementation correction — v1.0.63
+
+Technology Center is **#98 north of #26**, not historical #97. Applewood remains #97. Latest owner drawing and doorway correction supersede provisional adjacency below. See [baseline contract](TECHNOLOGY-CENTER-BASELINE-CONTRACT.md). Historical design notes are retained.
+
 # EPI-CENTER — World Bible (living canon)
 
 **Consolidated Hub geography, NPC dialogue, Discord quest wording, and staged implementation:** [Central Hub Canon and Implementation Plan](EPI-CENTER-HUB-CANON-AND-IMPLEMENTATION-PLAN.md) (commit `de503eb`). This is a documentation-only checkpoint. When older entries conflict, the later owner-confirmed refinements and consolidated plan control. The current approved gameplay remains v0.8.74; southwest café and eastern district are not yet claimed as live map nodes.

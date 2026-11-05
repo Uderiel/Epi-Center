@@ -1,3 +1,13 @@
+## v1.0.63 — Technology Center baseline and floor-plan navigation
+
+Technology Center is #98, north of tile #26 at (1,-6). Applewood #97 remains at (1,-4); Groceries Aplenty #99 is at (2,-4), and Prim and Proper Dry Cleaners #100 at (3,-4). The original map geometry is retained with an extra northern row. The two shops currently provide mapped exteriors only.
+
+The third floor follows owner drawing 4289.jpg and the latest doorway correction: explicit corridors, separate restroom/cubicle sides, G accessible only through F, conference side doors, and no direct connection between the two break rooms. Building exit is available only at A (elevators) or I (stairs). Interior travel cannot bypass these exits through Map or district routes.
+
+One bounded interaction field below Live Feed uses first tap to move, second tap on the current room to view its contents, and Back to remove that layer. Entry, movement, exit and examination each take one game minute; viewing/back are free. Typed actions use the same authority, anatomy, adjacency and clock pipeline. Save/reload retains room, view and examination state without resetting resources or inventory.
+
+**403 named deterministic cases plus entity assertions PASS; syntax/module checks PASS.** Browser checks cover office routes, blocked shortcuts/exits, exact typed timing, reload, mobile layout, shops, and the existing apartment dresser/item stack. Richard's NPC, coworkers, office work/rewards, detailed furniture actions and shop transactions remain pending owner design. Existing Form/Stats, live foreground time, cursed-object exposure and high-influence control remain in place. No save reset is required.
+
 ## v1.0.62 — Form status, two-tap rooms and live foreground time
 
 Owner revised the drawer layout: Form has influence/mastery/relationship bars, physical needs, and unmastered routine/current/desired activity details. Form has no portrait or combat-resource table. Stats owns the compact portrait and effective combat resources/attributes. Appearance retains its bottom tab and paired details; its top shortcut and needs are removed. Mastered influence is normalized to0, mastery display100; recorded tier/allocated XP and implemented mastery benefits are shown. Missing tiers remain “Not assigned”; no upgrade costs or new numerical perks are invented. Erin's relationship uses recorded relationship/Dev override, otherwise existing trust; Kibbles uses its recorded relationship or neutral0, without inventing bond penalties.

@@ -1,3 +1,7 @@
+## Current implementation correction — v1.0.63
+
+Technology Center is **#98 north of #26**, not historical #97. Applewood remains #97. Latest owner drawing and doorway correction supersede provisional adjacency below. See [baseline contract](TECHNOLOGY-CENTER-BASELINE-CONTRACT.md). Historical design notes are retained.
+
 # Central district map — November 1, 2026
 
 Current v1.0.49 correction: [Hangry Fangs](HANGRY-FANGS-QUEST.md) assigns Kibbles to NE Alley Crate (#73) and implements the return-to-Eve quest. The route is implemented/tested; owner acceptance and post-defeat internal mastery remain pending. Map now uses exploration fog and examination-gated details, with optional owner-reference labels. Statements below about full visibility or unassigned Kibbles placement are historical v1.0.48 context, superseded by this note. Maintain [OPEN-TASKS-AND-DECISIONS](OPEN-TASKS-AND-DECISIONS.md) on every update.
