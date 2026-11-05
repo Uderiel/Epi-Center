@@ -1,3 +1,15 @@
+## v1.0.65 — Original Willpower, clear rolls, and Erin's physical needs
+
+Fixed a creation/runtime schema mismatch: creation stored `Focus / Willpower`, while internal mastery and form-decision resistance read only `Willpower` and could silently use +0. Creation now uses the canonical key; old allocations migrate intact, and resistance adapters retain a legacy fallback. Explicit canonical zero remains zero. Equipped-form attributes never replace original Willpower for internal resistance. Creation alignment now includes the allocated points correctly.
+
+Repeated identical failed decisions in the same game minute retain the existing anti-reroll guard, but say **No new roll** rather than replaying numerical dice as if newly rolled. The d20 algorithm, natural rules, tie rule, resistance costs and cadence are unchanged. The supplied feed had 19 distinct contests: raw player mean 7.316 vs form 11.158; this small, selected sample does not establish biased randomness. Exhaustive mapping of all 400 d20 pairs verifies that each face maps equally for both participants; no dice boosting or outcome filtering was added.
+
+At high influence, urgent bladder and hunger now interrupt leisure and use real connected routes, time and household state. Home: toilet/hygiene, recipe preparation from existing stock and eating with need relief. Office: G→F and legal corridors to the women's stalls B, never a wall shortcut. No remote apartment-food consumption or automatic purchases. Mastered/zero-influence forms retain player authority; successful resistance preserves its thirty-minute choice window. Wait processes minute-by-minute with chronological feed timestamps rather than one routine step per hour.
+
+Fixed the nighttime wake check that treated 22:00 as later than morning wake and caused repeated sleep/wake cycles. Needs can still wake Erin. Automatic changes now identify themselves: worn transformation/exposure, recovery, need relief and imposed-activity influence. Capped influence displays 100→100/no increase rather than a fictitious +5; resistance displays actual Resolve costs and capped/durable changes. Day 6 work questions correctly explain the weekend.
+
+**464 named deterministic cases plus entity assertions PASS; syntax/module paths PASS; 12 actual browser checks PASS.** No save reset, resource refill, mastery reset, retroactive dice rewrite or automatic compensation. Existing office/Richard/Kibbles regressions pass. See release validation and ERIN-NEEDS-AND-RESISTANCE-CONTRACT.md.
+
 ## v1.0.64 — published and source verified
 
 [Play v1.0.64](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.64). Gameplay commit `2712e751d0401f8164ca2806b3beca1f90139759` is on main and rebuild/1.0-foundations. [Pages run 41950651197](https://github.com/Uderiel/Epi-Center/actions/runs/41950651197) succeeded. Public title reports v1.0.64; all 49 checked runtime files/assets match tested source. **443 named deterministic cases plus entity assertions and 16 browser checks PASS.** [Live hashes](releases/v1.0.64-live-verification.json). No save reset required. Earlier sections are historical.

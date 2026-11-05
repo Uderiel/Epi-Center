@@ -69,3 +69,5 @@ function householdIntent(raw){
 }
 
 function erinStorageContents(location){const H=EpiErinHousehold,h=H.state(save),items=H.data.catalog.filter(d=>h.items[d.id].location===location||d.location===location&&['inventory','equipped'].includes(h.items[d.id].location));return items.map(d=>'<button class="btn secondary apartment-item-link" data-apartment-item="'+htmlEscape(d.id)+'">'+htmlEscape(d.name)+' →</button>').join('')||'<p>This storage section is empty.</p>';}
+
+EpiTechnologyCenter.setAuthority((s,kind,destination,rng)=>EpiErinLife.beforeAction(s,kind,destination,rng));

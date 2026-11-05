@@ -78,7 +78,7 @@
 
    if(!st.pending){
     const a=decide(p,st,before,start);if(!a)return;
-    delete st.nextAction;const duration=Number(a.duration);if(!Number.isFinite(duration)||duration<=0)throw Error('Action duration must be positive');
+    delete st.nextAction;const duration=Number(typeof a.duration==='function'?a.duration(before,st,p):a.duration);if(!Number.isFinite(duration)||duration<=0)throw Error('Action duration must be positive');
     st.pending={id:p.id+':'+(++st.sequence),action:a.id,started:start,due:start+duration,location:before.location,room:before.room,guard:adapter.guard?.(a,p,st,before)||null};
    }
    const pending=st.pending,a=registry.get(pending.action),current=adapter.context(p,st,to);

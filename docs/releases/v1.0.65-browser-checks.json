@@ -1,0 +1,57 @@
+{
+  "version": "1.0.65",
+  "environment": "managed local browser; disposable Slots2/3 only; real unforced browser dice",
+  "checks": [
+    {
+      "name": "Legacy save loads with its allocated Willpower6 migrated; original resources and other attributes retained",
+      "status": "PASS"
+    },
+    {
+      "name": "Actual internal roll shows original 8+6 vs20+6 and separate Resolve52\u219249 cost; capped influence shows no increase",
+      "status": "PASS"
+    },
+    {
+      "name": "Typed decision resistance shows a natural20+6 success using original Willpower",
+      "status": "PASS"
+    },
+    {
+      "name": "Repeated same-minute failed typed resistance prints No new roll without another numeric result",
+      "status": "PASS"
+    },
+    {
+      "name": "Foreground live time walks urgent Erin living\u2192hall\u2192bedroom without submission and preserves unsent draft",
+      "status": "PASS"
+    },
+    {
+      "name": "Wait completes real toilet use and meal preparation/eating in legal apartment rooms",
+      "status": "PASS"
+    },
+    {
+      "name": "Meal consumes one spinach/feta/fruit, leaves dishes, lowers hunger, and does not heal combat pools",
+      "status": "PASS"
+    },
+    {
+      "name": "Office urgency follows G\u2192F\u2192corridors\u2192D\u2192B, uses toilet in four minutes, and displays actual chronological timestamps",
+      "status": "PASS"
+    },
+    {
+      "name": "Nighttime22:31\u219223:31 remains asleep with no wake history or repeated influence completion",
+      "status": "PASS"
+    },
+    {
+      "name": "Real character creation migrates legacy allocation, reports zero remaining of40, Mental alignment and Willpower6 in review",
+      "status": "PASS"
+    },
+    {
+      "name": "One apartment field fits phone360 and desktop1100 without horizontal overflow",
+      "status": "PASS"
+    },
+    {
+      "name": "Reload preserves migrated Willpower and saved state; no application console errors",
+      "status": "PASS"
+    }
+  ],
+  "limitations": [
+    "Native owner Android/PC acceptance remains pending. Office food sourcing and arbitrary dialogue remain outside this repair."
+  ]
+}
