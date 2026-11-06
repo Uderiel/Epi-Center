@@ -1,3 +1,9 @@
+## v1.0.70 — connection controls/source published; AI activation pending
+
+[Play v1.0.70](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.70). Gameplay/frontend commit `6d404c5e0ae382b4a03489d91426f9deed411d06` is on main and rebuild/1.0-foundations. Pages run 42291766221 succeeded. All 61 checked runtime files/assets match tested source. **586 named deterministic cases plus entity assertions and 6 setup/fallback browser checks PASS.** Live hashes: releases/v1.0.70-live-verification.json.
+
+**The private AI backend is not deployed or activated.** Its source and instructions are in services/ai/README.md. Cloudflare account/hosting setup, private provider/access-code secrets and a real-model test are next. No real key was supplied here and no paid generation was attempted. The game remains on canonical responses until configured. This publication does not claim AI-controlled autonomy or model-quality acceptance. No save reset required. Earlier sections are historical.
+
 ## v1.0.70 — shared AI connection foundation (activation pending)
 
 Added an opt-in generative expression layer for Eve, Charity, Richard, Erin, Kibbles, future authored forms, world narration and recorded transformations. Identity-specific recent histories and bounded visible context feed one provider connection. Private form metrics are excluded from NPC context; canine intended words stay private. Resolved mechanical receipts and game state remain authoritative. This first pass does not add model-selected autonomous actions, universal long-term memory summaries or synthesized audio.
