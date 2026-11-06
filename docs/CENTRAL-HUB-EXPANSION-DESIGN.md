@@ -1,3 +1,7 @@
+## November 6 implementation — v1.0.69
+
+The owner has now confirmed the missing Easter Egg rules and expanded eligibility to **any animal form with enhanced senses**, without a small-animal size rule. It is discovered by investigation/inspection at the central Spire, never assigned. See [current quest contract](EASTER-EGG-QUEST.md) for completion, reward allocation, persistence, Arousal, consumable and trophy rules. The historical pending notes below are superseded for this quest.
+
 # Central Hub expansion — owner design, October 31, 2026
 
 Current v1.0.49 checkpoint: Hub inspection no longer discloses hidden cylinders/receptacles. Covers/arrows remain observable; actual return/activation waits for owner design. [Hangry Fangs](HANGRY-FANGS-QUEST.md) now supplies the canonical crate location, Eve assignment, description/tasks/rewards and a tested connecting route. Owner acceptance and the post-defeat internal mastery route are pending. See the maintained [unfinished-work log](OPEN-TASKS-AND-DECISIONS.md). Do not trigger milestone watches from this implementation note alone; verify their acceptance conditions.

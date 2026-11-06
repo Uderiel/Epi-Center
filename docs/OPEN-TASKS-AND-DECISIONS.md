@@ -1,3 +1,9 @@
+## v1.0.69 — The Easter Egg hidden discovery quest
+
+The central Spire now reveals a chicken only when an equipped, completed animal form with enhanced senses investigates/inspects/searches the surroundings. No quest is assigned by Eve. Kibbles qualifies; generic form traits support future enhanced-senses animals. Examine → scare → collect, with persistent clues and no repeat rewards. Collection grants 1 spendable original attribute point, 3,000 gold, 150 allocatable Tier Mastery XP, a one-use restorative pastel egg and a separate residence trophy. The egg restores current-body Health/Stamina/Resolve and clears Arousal; combat use consumes Minor on the player's turn. Character allocates earned points up to10. Completion is archived with timestamp; the trophy remains after eating the egg.
+
+**543 named deterministic cases plus entity assertions PASS; syntax/module paths PASS; 12 browser checks PASS.** See [quest contract](EASTER-EGG-QUEST.md) and releases/v1.0.69-validation.md. No save reset required. Publication verification follows. Earlier sections are historical.
+
 ## v1.0.68 — published and source verified
 
 [Play v1.0.68](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.68). Gameplay commit `1308e2c7b6cc90a2b70b7592a487e48753509512` is on main and rebuild/1.0-foundations. [Pages run 42135743065](https://github.com/Uderiel/Epi-Center/actions/runs/42135743065) succeeded. Public title reports v1.0.68; all 57 checked runtime files/assets match tested source. **522 named deterministic cases plus entity assertions and 8 browser checks PASS.** [Live hashes](releases/v1.0.68-live-verification.json). No save reset required. Earlier sections are historical.
@@ -349,7 +355,7 @@ Completed gate HF-01: Eve offer/acceptance, crate placement/triggers, snack purc
 | ART-01 | Alley images | Owner generated a collage in a separate conversation; placement/individual assets/day-night mapping have not been supplied for this implementation. Do not infer which crate/goo image belongs to which quest. All game images 1100×733, filled landscape frames. |
 | HUB-01 | Hub Cylinder system | Define hidden-slot reveal, matching return, consumption/persistence, insertion/cover state, Spire directional red-to-blue state and mission consequences. Confirm sketch dimensions before mechanics depend on them. |
 | HUB-02 | Elizabeth and pet | Roaming schedule, interaction/discovery triggers, Fetch quest and latex-dungeon connection remain unbuilt. |
-| HUB-03 | Hidden Easter Egg quest | Define repeatability, award moment, XP recipient, chicken persistence, consumable/trophy relationship. Preserve original owner rewards/conditions in CENTRAL-HUB-EXPANSION-DESIGN. |
+| HUB-03 | Hidden Easter Egg quest | Implemented v1.0.69; owner confirmed discovery and outstanding rules. See EASTER-EGG-QUEST.md and release validation; native-device acceptance pending. |
 | HUB-04 | Other supplied starter quest | Preserve title “If it's not yours, don't touch”; relationship to earlier “If the Panties Fit” is unresolved. Avoid duplicates/renaming by inference. |
 | NPC-01 | Eve/Charity extended dialogue | Retain existing intros; broader lore/glitch responses, Charity shop/dialogue and other NPC systems require authored definitions. |
 | FORM-01 | Further form integration | Erin 23 stages/red heels and Mental attribute view are implemented/tested; mastery/control, resource-pool decisions, household routines/autonomy, temporary panties and other forms/rarities remain unfinished. Never copy Erin’s personality into Kibbles. |

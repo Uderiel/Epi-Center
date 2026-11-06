@@ -1,0 +1,66 @@
+{
+  "version": "1.0.69",
+  "environment": "Managed Chrome local preview; disposable slot3 fixtures only; production saves untouched",
+  "checks": [
+    {
+      "name": "hidden-before-discovery",
+      "status": "PASS",
+      "observed": "Human investigate the central spire advances one minute, with no chicken or Easter Egg quest in Quests."
+    },
+    {
+      "name": "enhanced-senses-discovery",
+      "status": "PASS",
+      "observed": "Equipped Kibbles inspect surroundings discovers chicken and reveals Examine control without Eve assignment."
+    },
+    {
+      "name": "discovered-quest-entry",
+      "status": "PASS",
+      "observed": "Quests lists The Easter Egg only after discovery with the current objective."
+    },
+    {
+      "name": "clue-reload",
+      "status": "PASS",
+      "observed": "Examine button advances clock once and reload retains Scare chicken away."
+    },
+    {
+      "name": "typed-scare",
+      "status": "PASS",
+      "observed": "I scare the chicken away advances exactly one minute and reveals Collect Easter egg."
+    },
+    {
+      "name": "reward-quantities-collapse",
+      "status": "PASS",
+      "observed": "Collect awards Gold 3017 from 17 and XP175 from25, one edible egg and separate trophy; groups and individual rows initially collapsed."
+    },
+    {
+      "name": "active-resource-recovery",
+      "status": "PASS",
+      "observed": "Eat returns Play; Stats shows Kibbles Health80/80 Stamina120/120 Resolve70/70 Arousal0/100."
+    },
+    {
+      "name": "attribute-allocation",
+      "status": "PASS",
+      "observed": "Character shows one unspent point, selection of Willpower spends it and feed reports Original Willpower4\u21925."
+    },
+    {
+      "name": "completed-journal",
+      "status": "PASS",
+      "observed": "Completed journal lists The Easter Egg with exact rewards and completion timestamp."
+    },
+    {
+      "name": "repeat-protection",
+      "status": "PASS",
+      "observed": "Search after completion leaves gold3017/XP175, trophy1 and no respawned consumed egg."
+    },
+    {
+      "name": "generic-animal-form",
+      "status": "PASS",
+      "observed": "Local QA fox form with enhanced senses discovers chicken using investigate; no fox is added to production."
+    },
+    {
+      "name": "residence-trophy",
+      "status": "PASS",
+      "observed": "Existing living-room overview has a collapsed trophy; expanding displays souvenir details."
+    }
+  ]
+}
