@@ -1,3 +1,7 @@
+## v1.0.68 — published and source verified
+
+[Play v1.0.68](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.68). Gameplay commit `1308e2c7b6cc90a2b70b7592a487e48753509512` is on main and rebuild/1.0-foundations. [Pages run 42135743065](https://github.com/Uderiel/Epi-Center/actions/runs/42135743065) succeeded. Public title reports v1.0.68; all 57 checked runtime files/assets match tested source. **522 named deterministic cases plus entity assertions and 8 browser checks PASS.** [Live hashes](releases/v1.0.68-live-verification.json). No save reset required. Earlier sections are historical.
+
 ## v1.0.68 — compact disclosures and steady live interactions
 
 Equip’s nine body regions start collapsed with region and worn-item summaries. Appearance body fields start collapsed with current-appearance summaries and retain Original/Current details on expansion. Items opens as three collapsed groups: Forms, Cursed Objects and Items. Individual forms/objects show name, archetype and mastery status; normal items show name and quantity. Unequipped heels are nested under Cursed Objects. Existing actions and form details remain inside their expandable rows. Zero-balance consumable/XP/coupon rows are omitted.
