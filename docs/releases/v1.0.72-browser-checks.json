@@ -1,0 +1,38 @@
+{
+  "environment": "Managed browser local preview, disposable slot3; controlled local mock inference, no real credentials or paid calls",
+  "passed": true,
+  "checks": [
+    {
+      "name": "AI enabled pending feed hides generic text",
+      "result": "PASS"
+    },
+    {
+      "name": "Successful completion replaces waiting indicator",
+      "result": "PASS"
+    },
+    {
+      "name": "AI disabled shows generic dialogue immediately",
+      "result": "PASS"
+    },
+    {
+      "name": "AI failure reveals canonical fallback",
+      "result": "PASS"
+    },
+    {
+      "name": "Office quick reference says Layout",
+      "result": "PASS"
+    },
+    {
+      "name": "Office drawer heading and accessible label say Layout",
+      "result": "PASS"
+    },
+    {
+      "name": "Leaving office restores Path",
+      "result": "PASS"
+    },
+    {
+      "name": "Apartment drawer says Layout and shows apartment floor plan",
+      "result": "PASS"
+    }
+  ]
+}

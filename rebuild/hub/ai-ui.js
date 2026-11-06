@@ -1,5 +1,8 @@
 /* Owner-only test connection: provider credentials never enter the browser. */
 let aiInputText='',aiBusy=0,aiStatus='AI is off until a private backend is connected.',aiUsage=null;
+const aiPendingEntries=new WeakSet();
+function aiFeedText(entry){return save.settings?.aiEnabled&&aiPendingEntries.has(entry)?'Composing a response…':entry.text||'';}
+function aiFeedPending(entry){return !!save.settings?.aiEnabled&&aiPendingEntries.has(entry);}
 const AI_CONFIG_KEY='epicenter_ai_endpoint',AI_CODE_KEY='epicenter_ai_game_access';
 function aiHasPending(){return aiBusy>0;}
 function aiConnection(){try{return {endpoint:localStorage.getItem(AI_CONFIG_KEY)||'',code:sessionStorage.getItem(AI_CODE_KEY)||''};}catch{return {endpoint:'',code:''};}}
@@ -13,13 +16,13 @@ function aiEnrichEntry(entry){
  const actor=EpiAIContext.target(entry.speaker,save);if(!actor)return;
  if(['narration','transformation'].includes(actor.kind)&&(!save.settings?.aiNarration||!aiInputText))return;
  const source=save,connection=aiConnection(),signature=EpiAIContext.sceneKey(source),packet=EpiAIContext.build(source,actor,aiSceneOptions(actor,entry.text));packet.requestId=crypto.randomUUID();
- const original=entry.text;entry.aiPending=true;aiBusy++;aiStatus='Generating '+actor.name+' response.';
+ const original=entry.text;aiPendingEntries.add(entry);aiBusy++;aiStatus='Generating '+actor.name+' response.';
  aiFetch('/generate',packet).then(data=>{
   aiUsage=data;const persisted=JSON.parse(localStorage.getItem(key)||'null');if(!save.settings?.aiEnabled||aiConnection().endpoint!==connection.endpoint||aiConnection().code!==connection.code||save!==source||EpiAIContext.sceneKey(save)!==signature||persisted?.lastPlayedAt!==save.lastPlayedAt||!save.hub.feed.includes(entry)){aiStatus='A late AI response was discarded because the scene or save changed.';return;}
   if(typeof data.text!=='string'||!data.text.trim()||data.text.length>8000)throw Error('AI returned unusable dialogue.');
   const keepFacts=['narration','transformation'].includes(actor.kind)||/\b(?:gold|XP|reward|complete|accepted|resolve|stamina|mastery)\b|\d/i.test(original);
-  entry.canonicalText=original;entry.text=keepFacts?original+'\n\n'+data.text:data.text;entry.aiGenerated=true;entry.aiModel=data.model;delete entry.aiPending;EpiAIContext.remember(save,actor.id,packet.message,data.text);aiStatus='Connected · '+data.model;store();
- }).catch(error=>{aiStatus=error instanceof TypeError?'Cannot reach the AI backend. The original game response is preserved.':String(error.message||'AI service unavailable.').slice(0,240);}).finally(()=>{delete entry.aiPending;aiBusy--;if(save===source){if(screen==='play'||screen==='settings')render();}});
+  entry.canonicalText=original;entry.text=keepFacts?original+'\n\n'+data.text:data.text;entry.aiGenerated=true;entry.aiModel=data.model;aiPendingEntries.delete(entry);EpiAIContext.remember(save,actor.id,packet.message,data.text);aiStatus='Connected · '+data.model;store();
+ }).catch(error=>{aiStatus=error instanceof TypeError?'Cannot reach the AI backend. The original game response is preserved.':String(error.message||'AI service unavailable.').slice(0,240);}).finally(()=>{aiPendingEntries.delete(entry);aiBusy--;if(save===source){if(screen==='play'||screen==='settings')render();}});
 }
 async function aiCheckUsage(){try{aiUsage=await aiFetch('/usage');aiStatus='Connected · '+aiUsage.model;}catch(error){aiStatus=error instanceof TypeError?'Cannot reach the AI backend. Check its address and deployment.':error.message;}render();}
 document.addEventListener('click',event=>{const b=event.target.closest?.('button');if(!b)return;aiInputText=String(b.textContent||'').trim();queueMicrotask(()=>{aiInputText='';});},true);
