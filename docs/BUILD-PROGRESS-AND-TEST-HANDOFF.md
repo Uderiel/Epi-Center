@@ -1,3 +1,9 @@
+## v1.0.70 — private backend live test verified
+
+The owner deployed `epi-center-ai` and configured the separate provider/game-access secrets in Cloudflare's **Production runtime variables and secrets**, rather than build variables. Backend: https://epi-center-ai.jermil2008.workers.dev. `/health` returned configured=true; authenticated `/usage` succeeded with the GitHub Pages origin allowed. One synthetic neutral Eve dialogue request returned HTTP200 from TheDrummer/Cydonia-24B-v4.3: 315 input tokens, 174 output tokens, provider charge **$0.00042234**. The shared $50/month game ledger settled to $0.000423 used, $0 reserved, $49.999577 remaining. No actual provider key was received here; no player save was transmitted or changed. Evidence: releases/v1.0.70-backend-live-check.json.
+
+Next: owner enters the backend URL and the existing game access code in game Settings, checks connection/usage and enables AI dialogue. In-game browser acceptance and broader model/canon quality remain pending. Source gameplay stays v1.0.70 (`6d404c5`); earlier backend-pending notes are historical. No save reset required.
+
 ## v1.0.70 — connection controls/source published; AI activation pending
 
 [Play v1.0.70](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.70). Gameplay/frontend commit `6d404c5e0ae382b4a03489d91426f9deed411d06` is on main and rebuild/1.0-foundations. Pages run 42291766221 succeeded. All 61 checked runtime files/assets match tested source. **586 named deterministic cases plus entity assertions and 6 setup/fallback browser checks PASS.** Live hashes: releases/v1.0.70-live-verification.json.

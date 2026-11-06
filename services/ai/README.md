@@ -1,6 +1,6 @@
 # Epi-Center AI backend — owner test
 
-This is the **backend source**, not a deployed service. The public GitHub Pages game remains usable without it. No actual Featherless key has been received, no provider account has been connected, and no paid inference was used to validate this release.
+The owner has deployed this backend at **https://epi-center-ai.jermil2008.workers.dev**. A neutral live Eve generation passed: 315 input tokens, 174 output tokens, cost $0.00042234. Runtime configuration, owner authentication, GitHub Pages CORS and persistent usage accounting were observed working. No actual provider key was received by the assistant; it remains in the owner's Cloudflare secret settings. The public game remains usable with AI off. In-game endpoint/access-code configuration and broader character-quality acceptance are next. Evidence: ../../docs/releases/v1.0.70-backend-live-check.json.
 
 The owner has a pay-as-you-go Featherless account with a stated $55 balance. The separate game allowance is $50 per America/Chicago calendar month, shared across all saves/devices using this backend. This service does not purchase credits, enable auto-recharge, or assume a renewing provider subscription. Hosting is separate from Featherless credit.
 

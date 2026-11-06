@@ -1,0 +1,36 @@
+{
+  "version": "1.0.70",
+  "verifiedAt": "2026-11-06T21:25:47.206157+00:00",
+  "backend": "https://epi-center-ai.jermil2008.workers.dev",
+  "providerKeyReceivedByAssistant": false,
+  "health": {
+    "httpStatus": 200,
+    "configured": true
+  },
+  "authenticatedUsage": {
+    "httpStatus": 200,
+    "allowedOrigin": "https://uderiel.github.io",
+    "initialSpentUSD": 0,
+    "monthlyGameLimitUSD": 50
+  },
+  "liveGeneration": {
+    "httpStatus": 200,
+    "character": "Eve",
+    "scenario": "Synthetic neutral greeting and description of existing Spire park features; no player save data",
+    "model": "TheDrummer/Cydonia-24B-v4.3",
+    "responseObserved": true,
+    "inputTokens": 315,
+    "outputTokens": 174,
+    "providerCostUSD": 0.00042234,
+    "ledgerSpentUSD": 0.000423,
+    "reservedUSD": 0,
+    "remainingGameAllowanceUSD": 49.999577,
+    "requests": 1
+  },
+  "remaining": [
+    "Owner in-game endpoint/access-code setup and browser conversation acceptance",
+    "Broader character/canon/description-quality acceptance",
+    "Verify Cloudflare build deployment credential warning if future builds fail"
+  ],
+  "scope": "Backend transport/authentication/inference/accounting verified. No game state was modified by this synthetic test. Provider wallet balance was not queried."
+}
