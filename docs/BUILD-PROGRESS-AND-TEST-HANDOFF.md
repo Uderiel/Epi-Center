@@ -1,3 +1,7 @@
+## v1.0.72 — published and source verified
+
+[Play v1.0.72](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.72). Gameplay commit `054944c9f8dd707e5d16985e976527d8c007ed8c` is on main and rebuild/1.0-foundations. [Pages run 42300881291](https://github.com/Uderiel/Epi-Center/actions/runs/42300881291) succeeded. All 61 checked public runtime files/assets match tested source. **598 named cases plus entity assertions and 8 controlled browser checks PASS.** Live hashes: releases/v1.0.72-live-verification.json. AI responses wait behind a composing indicator, generic fallback remains immediate when AI is off, and indoor navigation says Layout. Reload the existing game tab; no save reset or backend redeployment required. Earlier sections are historical.
+
 ## v1.0.72 — AI response waiting and indoor Layout
 
 Eligible AI responses now display “Composing a response…” in the live feed and turn history until generation finishes, without briefly showing the generic reply first. AI disabled continues showing generic text immediately. Failed/empty responses restore the existing generic fallback; interrupted reloads cannot leave a saved message stuck waiting. Canonical game receipts remain preserved after successful enrichment. Waiting is transient UI state and does not enter character saves. No additional generation, retry, provider or budget changes.
