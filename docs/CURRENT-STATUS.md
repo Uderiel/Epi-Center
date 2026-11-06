@@ -1,3 +1,7 @@
+## v1.0.73 — published and source verified
+
+[Play v1.0.73](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.73). Gameplay commit `3ce8b6fef305436fc7dc1a80f52b1fcb64e42335` is on main and rebuild/1.0-foundations. [Pages run 42303585711](https://github.com/Uderiel/Epi-Center/actions/runs/42303585711) succeeded. All 63 checked public runtime files/assets match tested source, including the new shop modules. **617 named cases plus entity assertions and 8 browser checks PASS.** Live hashes: releases/v1.0.73-live-verification.json. Cherished Touch has the A–J interior plan, four changing stalls, Layout navigation, local fixtures and physical exits. Manual: travel to the store, open Accessible Rooms, Enter, then Layout. No save reset or backend redeployment required. Underground exploration and expanded purchases remain future work. Earlier sections are historical.
+
 ## v1.0.73 — Cherished Touch interior from owner plan 4372
 
 Cherished Touch now has a persistent interior using the owner’s upper-left pathing plan and lower-left room/fixture sketch. Ten authored room letters include four independent changing stalls (13 navigable spaces). A real front entrance/exit, Layout drawer, room routing and one room/fixture layer sit beneath the live feed. Bedroom → bathroom/laundry, kitchen ↔ dining, counter/hall/storage and sales-floor/stall connections follow the sketch. Existing location62 and First Steps exploration stay intact.
