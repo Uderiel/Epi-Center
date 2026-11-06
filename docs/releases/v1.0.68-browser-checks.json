@@ -1,0 +1,46 @@
+{
+  "version": "1.0.68",
+  "environment": "Chrome managed local preview; disposable slot3 only; no production saves modified",
+  "checks": [
+    {
+      "name": "equipment-overview",
+      "status": "PASS",
+      "observed": "Nine closed regions summarize worn clothing and Nothing equipped. Phone document width equals scrollWidth345."
+    },
+    {
+      "name": "inventory-overview",
+      "status": "PASS",
+      "observed": "Fresh Items and returning from Equip have all details closed with only Forms / Cursed Objects / Items groups exposed."
+    },
+    {
+      "name": "form-identity-summary",
+      "status": "PASS",
+      "observed": "Expanded Forms lists individually closed Kibbles (Scout) \u00b7 Physical \u00b7 Mastered."
+    },
+    {
+      "name": "appearance-fields",
+      "status": "PASS",
+      "observed": "All24 body fields closed initially; Feet expansion retains Original Appearance and Current Appearance with settled human feet description."
+    },
+    {
+      "name": "cursed-equip-feedback",
+      "status": "PASS",
+      "observed": "Cursed Objects contains individually collapsed Erin heels \u00b7 Mental \u00b7 Mastered. Expand and Equip returns Play with identified/equipped response in live feed."
+    },
+    {
+      "name": "normal-item-actions",
+      "status": "PASS",
+      "observed": "Rows show quantities, including coupon\u00d72 and Tier Mastery XP\u00d775. Opening XP application retains expanded Items and XP row after the redraw."
+    },
+    {
+      "name": "live-tick-steady",
+      "status": "PASS",
+      "observed": "During foreground live progression through09:10 furniture remained open at scrollTop157; draft Draft survives live time, caret24 and actionInput focus retained."
+    },
+    {
+      "name": "unequip-feedback",
+      "status": "PASS",
+      "observed": "Expand Feet and Attempt to unequip heels returns Play with successful removal feed; physical changes remain."
+    }
+  ]
+}

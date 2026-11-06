@@ -1,3 +1,11 @@
+## v1.0.68 — compact disclosures and steady live interactions
+
+Equip’s nine body regions start collapsed with region and worn-item summaries. Appearance body fields start collapsed with current-appearance summaries and retain Original/Current details on expansion. Items opens as three collapsed groups: Forms, Cursed Objects and Items. Individual forms/objects show name, archetype and mastery status; normal items show name and quantity. Unequipped heels are nested under Cursed Objects. Existing actions and form details remain inside their expandable rows. Zero-balance consumable/XP/coupon rows are omitted.
+
+Equip/Unequip attempts return to Play to show the live-feed response, including rejected inventory equip attempts. Existing removal saves, costs, transformations and ownership remain intact. Same-screen redraws preserve disclosures, nested panel scroll offsets, focus and caret by stable UI identity. Timed updates also preserve reference-drawer state. Room/furniture changes use distinct identities so stale scroll is not applied to new contents. Fresh tab entry/reload starts compact; no saved expanded-form preference overrides it. No save reset required.
+
+**522 named deterministic cases plus entity assertions PASS; syntax/module paths PASS; 8 actual browser checks PASS.** See releases/v1.0.68-validation.md. Earlier sections are historical.
+
 ## v1.0.67 — published and source verified
 
 [Play v1.0.67](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.67). Gameplay commit `efc340874a61c26b2dbaeb219bc91c08e63a2529` is on main and rebuild/1.0-foundations. [Pages run 42132302672](https://github.com/Uderiel/Epi-Center/actions/runs/42132302672) succeeded. Public title reports v1.0.67; all 56 checked runtime files/assets match tested source. **514 named deterministic cases plus entity assertions and 14 browser checks PASS.** [Live hashes](docs/releases/v1.0.67-live-verification.json). No save reset required. Earlier sections are historical.

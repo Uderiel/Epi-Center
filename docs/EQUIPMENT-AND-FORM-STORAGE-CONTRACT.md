@@ -1,3 +1,9 @@
+## v1.0.68 disclosure revision
+
+All equipment, appearance, inventory groups and individual item/form disclosures start collapsed on fresh tab entry or reload. Equipment summaries name their region and worn items; Appearance summaries show the current body description; expanding preserves Original/Current values. Items has Forms / Cursed Objects / Items; forms and cursed-object rows identify name, archetype and mastered/unmastered state, normal items identify name and quantity. Worn forms remain below body regions. Zero-quantity consumables/XP/coupons are hidden.
+
+Successful and rejected inventory Equip/Unequip attempts reveal Play/feed responses. Heels Equip/Remove and Kibbles equip/release use the same feedback destination. Same-screen redraws preserve deliberate expansion, scroll, focus/caret; explicit tab changes start fresh. Live/route reference drawers also retain state. Stable room/furniture/item keys prevent old interaction state being applied to different contents. No gameplay roll, capacity, resource or transformation rule changed. Historic v1.0.67 contract follows.
+
 # Equipment and form storage — v1.0.67
 
 ## Regional equipment
