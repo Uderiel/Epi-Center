@@ -1,3 +1,11 @@
+## v1.0.71 — shared-body internal form dialogue
+
+Private AI form context now explicitly places the original player consciousness and the speaking form consciousness inside one affected physical body. Applies to Erin, Kibbles and the generic authored-form path, mastered or unmastered. Mastery changes agency, not embodiment; existing influence, decisions and transformation stages remain authoritative. Fully transformed cursed Erin is identified even when activeForm is null. Partial transformation never becomes full through conversation. Kibbles retains canine sensory communication.
+
+Pre-fix private form history is excluded from future model context using shared-body-v1 entries; saved history and feed are preserved within their existing retention caps. NPC conversation history is unaffected. The client carries the contract so it works with the already deployed backend; backend source also adds form-only system guidance and legacy-history filtering. No save reset or new credentials required.
+
+Validation: 593 named deterministic cases plus entity assertions, syntax/module checks. Neutral real-model results and observed limitations: releases/v1.0.71-model-checks.json and releases/v1.0.71-validation.md. Publication/source verification follows. Earlier sections are historical.
+
 ## v1.0.70 — private backend live test verified
 
 The owner deployed `epi-center-ai` and configured the separate provider/game-access secrets in Cloudflare's **Production runtime variables and secrets**, rather than build variables. Backend: https://epi-center-ai.jermil2008.workers.dev. `/health` returned configured=true; authenticated `/usage` succeeded with the GitHub Pages origin allowed. One synthetic neutral Eve dialogue request returned HTTP200 from TheDrummer/Cydonia-24B-v4.3: 315 input tokens, 174 output tokens, provider charge **$0.00042234**. The shared $50/month game ledger settled to $0.000423 used, $0 reserved, $49.999577 remaining. No actual provider key was received here; no player save was transmitted or changed. Evidence: releases/v1.0.70-backend-live-check.json.

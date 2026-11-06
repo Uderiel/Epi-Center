@@ -1,3 +1,11 @@
+## v1.0.71 — shared-body internal form dialogue
+
+Private AI form context now explicitly places the original player consciousness and the speaking form consciousness inside one affected physical body. Applies to Erin, Kibbles and the generic authored-form path, mastered or unmastered. Mastery changes agency, not embodiment; existing influence, decisions and transformation stages remain authoritative. Fully transformed cursed Erin is identified even when activeForm is null. Partial transformation never becomes full through conversation. Kibbles retains canine sensory communication.
+
+Pre-fix private form history is excluded from future model context using shared-body-v1 entries; saved history and feed are preserved within their existing retention caps. NPC conversation history is unaffected. The client carries the contract so it works with the already deployed backend; backend source also adds form-only system guidance and legacy-history filtering. No save reset or new credentials required.
+
+Validation: 593 named deterministic cases plus entity assertions, syntax/module checks. Neutral real-model results and observed limitations: releases/v1.0.71-model-checks.json and releases/v1.0.71-validation.md. Publication/source verification follows. Earlier sections are historical.
+
 ## v1.0.54 — published and deployed-source verified
 
 [Play v1.0.54](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.54). Gameplay commit `f9ddef11748604322f01f380996b2294c7cd47aa` is on main and rebuild/1.0-foundations. [Pages deployment 41729145057](https://github.com/Uderiel/Epi-Center/actions/runs/41729145057) succeeded. All 39 checked deployed entrypoints, modules, styles and original Erin portrait match tested source; the live title visibly reports v1.0.54. [Verification](releases/v1.0.54-live-verification.json).

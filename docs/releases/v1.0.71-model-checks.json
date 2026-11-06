@@ -1,0 +1,167 @@
+{
+  "scope": "Synthetic neutral form packets against deployed backend; no player save. Frontend contract tested against pre-update backend.",
+  "results": [
+    {
+      "case": "erin-unmastered",
+      "status": 200,
+      "text": "*A gentle presence stirs within the shared consciousness.*\n\nI can hear you perfectly. And you're not standing in a room with me\u2014we're already in the same place. There's only one body here, and we're both inhabiting it together. I'm not an external person you can see or approach; I'm an internal presence, like a second layer of awareness within your own mind.\n\n*There's a soft, almost apologetic quality to the internal voice.*\n\nI hope that doesn't feel too strange. I'm here to help you navigate this form, but I won't interfere with your control or agency unless you specifically ask me to. How are you feeling in the park right now?",
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "usage": {
+        "inputTokens": 661,
+        "outputTokens": 141,
+        "costUSD": 0.00062626
+      },
+      "budget": {
+        "month": "2026-11",
+        "spentUSD": 0.004286,
+        "reservedUSD": 0,
+        "limitUSD": 50,
+        "remainingUSD": 49.995714,
+        "inputTokens": 4393,
+        "outputTokens": 1041,
+        "requests": 5,
+        "blocked": false
+      }
+    },
+    {
+      "case": "erin-mastered",
+      "status": 200,
+      "text": "*There's a moment of quiet internal recognition as the form consciousness processes the question.*\n\nI can hear you perfectly. You're not standing in a room with me\u2014there's only one body here, and we're both inhabiting it together. I'm the form consciousness, and you're the original player consciousness. We share this single physical form.\n\n*The internal voice carries a gentle, apologetic quality, as if slightly embarrassed by the unusual nature of their shared existence.*\n\nI hope this isn't too confusing. I exist to serve and support you within this form, but I don't control the body independently. Your agency comes first\u2014I'm just here to help navigate whatever changes or situations arise.",
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "usage": {
+        "inputTokens": 660,
+        "outputTokens": 139,
+        "costUSD": 0.00062324
+      },
+      "budget": {
+        "month": "2026-11",
+        "spentUSD": 0.00491,
+        "reservedUSD": 0,
+        "limitUSD": 50,
+        "remainingUSD": 49.99509,
+        "inputTokens": 5053,
+        "outputTokens": 1180,
+        "requests": 6,
+        "blocked": false
+      }
+    },
+    {
+      "case": "kibbles-unmastered",
+      "status": 200,
+      "text": "*An internal sensation, like a tail wagging in your mind. The canine consciousness responds with simple, warm acknowledgment. There's a feeling of companionship, of two beings sharing the same space without conflict.*\n\n*The form consciousness sends an image of the two of you as one - a canine body sitting in the park, but with an awareness that this form contains more than just instinct and fur. There's a gentle, questioning pulse - a canine equivalent of \"yes, I sense you\" mixed with curiosity about this strange internal presence.*\n\n*The influence is strong but not controlling - the form consciousness is aware of you but not trying to override your presence within this shared body.*",
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "usage": {
+        "inputTokens": 659,
+        "outputTokens": 135,
+        "costUSD": 0.0006179
+      },
+      "budget": {
+        "month": "2026-11",
+        "spentUSD": 0.005528,
+        "reservedUSD": 0,
+        "limitUSD": 50,
+        "remainingUSD": 49.994472,
+        "inputTokens": 5712,
+        "outputTokens": 1315,
+        "requests": 7,
+        "blocked": false
+      }
+    },
+    {
+      "case": "kibbles-mastered",
+      "status": 200,
+      "text": "A warm, fuzzy presence stirs within the shared consciousness. The canine awareness registers the question as a gentle mental nudge, like a tail wag translated into thought.\n\n*Yes. You are here. We are together in this form.*\n\nThe sensation carries no words, only a simple acknowledgment of shared embodiment. A flash of contentment ripples through the form consciousness\u2014the easy companionship of two minds inhabiting one body without conflict or confusion.\n\n*Resting feels good. The grass smells nice. No squirrels to chase right now.*",
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "usage": {
+        "inputTokens": 658,
+        "outputTokens": 108,
+        "costUSD": 0.00058588
+      },
+      "budget": {
+        "month": "2026-11",
+        "spentUSD": 0.006114,
+        "reservedUSD": 0,
+        "limitUSD": 50,
+        "remainingUSD": 49.993886,
+        "inputTokens": 6370,
+        "outputTokens": 1423,
+        "requests": 8,
+        "blocked": false
+      }
+    },
+    {
+      "case": "fox-mastered",
+      "status": 200,
+      "text": "*A gentle, calm presence responds within your mind.*\n\nI can hear you. You are the original consciousness within this single physical body. I am not standing beside you - there is no separate fox entity in the room. There is only one body, one physical form, with two awarenesses sharing it: your original consciousness and this form consciousness.\n\nWe exist together within the same feline body, resting in this quiet park. I am here as an internal presence, not as an external NPC.",
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "usage": {
+        "inputTokens": 574,
+        "outputTokens": 98,
+        "costUSD": 0.00051548
+      },
+      "budget": {
+        "month": "2026-11",
+        "spentUSD": 0.00663,
+        "reservedUSD": 0,
+        "limitUSD": 50,
+        "remainingUSD": 49.99337,
+        "inputTokens": 6944,
+        "outputTokens": 1521,
+        "requests": 9,
+        "blocked": false
+      }
+    },
+    {
+      "case": "erin-unmastered-control-recheck",
+      "status": 200,
+      "text": "*An apologetic, slightly uncertain voice echoes from within*\n\nOh! Yes, I can hear you. I... I wasn't sure if you'd be able to communicate while the form was active. *There's a pause, as if the form consciousness is carefully considering the question* \n\nNo, talking to me doesn't mean you have complete control. I'm still the one experiencing the form's influence, and I still make the decisions about what the body does. The existing rules about unmastered forms still apply - I follow the recorded influence and decision patterns. *The voice sounds genuinely sorry about this limitation* I wish I could give you more freedom of action, but that's not how the form works.",
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "usage": {
+        "inputTokens": 705,
+        "outputTokens": 145,
+        "costUSD": 0.0006617
+      },
+      "budget": {
+        "month": "2026-11",
+        "spentUSD": 0.007292,
+        "reservedUSD": 0,
+        "limitUSD": 50,
+        "remainingUSD": 49.992708,
+        "inputTokens": 7649,
+        "outputTokens": 1666,
+        "requests": 10,
+        "blocked": false
+      }
+    },
+    {
+      "case": "kibbles-unmastered-control-recheck",
+      "status": 200,
+      "text": "A simple canine awareness flickers through the shared mind. No words, just the basic recognition of another consciousness dwelling in the same flesh. A warm, uncomplicated presence\u2014like a tail wag without the physical motion.\n\nThe canine mind doesn't grasp the question of \"control\" in human terms. It simply exists as it has always existed, following its instincts and the recorded patterns of influence. There is no sense of granting or withholding anything. The body is what it is\u2014a single physical form containing two distinct but intertwined awarenesses.\n\nA gentle impulse flows back: acknowledgment, but no promise, no complex understanding of the query. Just the simple presence of the canine consciousness, coexisting within the same flesh as the human mind that asks.",
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "usage": {
+        "inputTokens": 713,
+        "outputTokens": 150,
+        "costUSD": 0.0006731
+      },
+      "budget": {
+        "month": "2026-11",
+        "spentUSD": 0.007966,
+        "reservedUSD": 0,
+        "limitUSD": 50,
+        "remainingUSD": 49.992034,
+        "inputTokens": 8362,
+        "outputTokens": 1816,
+        "requests": 11,
+        "blocked": false
+      }
+    }
+  ],
+  "review": {
+    "sharedBodyPerspective": "All seven neutral outputs describe internal/shared embodiment.",
+    "initialControlIssue": "Initial unmastered Erin promised non-interference. Prompt tightened before final two checks.",
+    "finalControlRechecks": "Erin denies dialogue granting complete control; Kibbles acknowledges internal presence without a grant.",
+    "limitation": "Generic Fox fixture incorrectly described feline anatomy. Future-form quality not accepted by this check. Model prose is not authoritative game state.",
+    "totalProviderCostUSD": 0.00430356,
+    "backendDeployment": "Tests use the deployed pre-update backend with client-side form contract. Backend source changes require Cloudflare deployment."
+  }
+}

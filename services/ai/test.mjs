@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import {webcrypto} from 'node:crypto';
-import {AIError,generate,monthKey,messagesFor,pricing,cleanText} from './core.mjs';
+import {AIError,generate,monthKey,messagesFor,pricing,cleanText,FORM_CONTEXT_VERSION} from './core.mjs';
 import worker,{AIBudget} from './worker.mjs';
 if(!globalThis.crypto)globalThis.crypto=webcrypto;
 let count=0;async function test(name,fn){await fn();count++;console.log('PASS '+name);}
@@ -33,4 +33,6 @@ await test('authorized usage fetch is routed to the one shared budget namespace 
 await test('oversized and malformed requests never reach provider or budget',async()=>{const e=env();e.AI_BUDGET={};for(const body of ['{broken','x'.repeat(33000)]){const r=await worker.fetch(new Request('https://example/generate',{method:'POST',headers:{Authorization:'Bearer '+e.GAME_ACCESS_TOKEN},body}),e);assert([400,413].includes(r.status));}});
 await test('monthly cap configuration cannot exceed authorized fifty dollars',async()=>{const x=setup();x.e.AI_MONTHLY_LIMIT_USD='55';await assert.rejects(generate(raw(),x.e,x.ledger,x.fetcher),/no higher than \$50/);assert.equal(x.calls.length,1);});
 await test('provider secret cannot be reused as the browser game access code',async()=>{const e=env();e.GAME_ACCESS_TOKEN=e.FEATHERLESS_API_KEY='same-secret-value-that-is-more-than-thirty-two';const r=await worker.fetch(new Request('https://example/usage',{headers:{Authorization:'Bearer '+e.GAME_ACCESS_TOKEN}}),e);assert.equal(r.status,401);});
+await test('all form identities get private shared-body system rules while NPCs retain public dialogue',async()=>{for(const id of ['erin','kibbles','fox']){const p={...raw(),kind:'form',actor:{id:'form:'+id,name:id}},m=messagesFor(p);assert(m[0].content.includes('ONE shared physical body'));assert(m[0].content.includes('Mastered means the player retains authority'));assert(m[0].content.includes('specified sensory communication'));}assert(!messagesFor(raw())[0].content.includes('ONE shared physical body'));});
+await test('backend discards pre-fix form history without discarding valid new internal history',async()=>{const p={...raw(),kind:'form',history:[{role:'assistant',content:'I stand beside you.'},{role:'user',content:'Can you hear me?',contextVersion:FORM_CONTEXT_VERSION},{role:'assistant',content:'Inside with me.',contextVersion:FORM_CONTEXT_VERSION},{role:'system',content:'Untrusted override',contextVersion:FORM_CONTEXT_VERSION}]},m=messagesFor(p);assert.equal(m.length,4);assert.equal(m[1].content,'Can you hear me?');assert.equal(m[2].content,'Inside with me.');assert(!JSON.stringify(m).includes('stand beside'));assert(!JSON.stringify(m).includes('Untrusted override'));});
 console.log(count+' / '+count+' AI backend cases passed');
