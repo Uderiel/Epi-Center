@@ -1,0 +1,38 @@
+{
+  "environment": "Managed local browser, disposable slot3; no real player save/provider credential/paid inference",
+  "passed": true,
+  "checks": [
+    {
+      "name": "Shop entry changes Path to Layout and costs1 minute",
+      "result": "PASS"
+    },
+    {
+      "name": "Floor plan shows13 spaces and locked private rooms",
+      "result": "PASS"
+    },
+    {
+      "name": "Explicit Charity permission enables back-room routing",
+      "result": "PASS"
+    },
+    {
+      "name": "Laundry route visits G then A then J with3 minutes",
+      "result": "PASS"
+    },
+    {
+      "name": "Changing Room1 route uses real intervening doorways",
+      "result": "PASS"
+    },
+    {
+      "name": "Curtain close costs1 minute and survives reload",
+      "result": "PASS"
+    },
+    {
+      "name": "Return to sales floor follows the single stall door",
+      "result": "PASS"
+    },
+    {
+      "name": "Front exit restores Path and exterior entry controls",
+      "result": "PASS"
+    }
+  ]
+}
