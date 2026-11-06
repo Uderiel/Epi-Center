@@ -1,3 +1,7 @@
+## v1.0.69 — published and source verified
+
+[Play v1.0.69](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.69). Gameplay commit `39255f6ad8e721e07783c7b8af503c86d9ca72ba` is on main and rebuild/1.0-foundations. [Pages run 42199359637](https://github.com/Uderiel/Epi-Center/actions/runs/42199359637) succeeded. All 59 checked runtime files/assets match tested source. **543 named deterministic cases plus entity assertions and 12 browser checks PASS.** Live hashes: docs/releases/v1.0.69-live-verification.json. No save reset required. Manual acceptance: equipped as Kibbles, investigate the central Spire, examine the chicken, scare it away, collect the egg; check Items, Character and Journal.
+
 ## v1.0.69 — The Easter Egg hidden discovery quest
 
 The central Spire now reveals a chicken only when an equipped, completed animal form with enhanced senses investigates/inspects/searches the surroundings. No quest is assigned by Eve. Kibbles qualifies; generic form traits support future enhanced-senses animals. Examine → scare → collect, with persistent clues and no repeat rewards. Collection grants 1 spendable original attribute point, 3,000 gold, 150 allocatable Tier Mastery XP, a one-use restorative pastel egg and a separate residence trophy. The egg restores current-body Health/Stamina/Resolve and clears Arousal; combat use consumes Minor on the player's turn. Character allocates earned points up to10. Completion is archived with timestamp; the trophy remains after eating the egg.
