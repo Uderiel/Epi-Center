@@ -6,6 +6,8 @@ for(const dir of ['rebuild/combat','rebuild/hub'])for(const file of fs.readdirSy
  const r=cp.spawnSync(process.execPath,[path.join(dir,file)],{encoding:'utf8'});results.push({file:path.join(dir,file),exitCode:r.status,output:r.stdout,stderr:r.stderr});
  namedCases+=(r.stdout.match(/^PASS /gm)||[]).length;if(r.status!==0)failed=true;console.log(file+': '+(r.status===0?'PASS':'FAIL'));if(r.status!==0)console.log(r.stdout,r.stderr);
 }
+{const file='services/ai/test.mjs',r=cp.spawnSync(process.execPath,[file],{encoding:'utf8'});results.push({file,exitCode:r.status,output:r.stdout,stderr:r.stderr});namedCases+=(r.stdout.match(/^PASS /gm)||[]).length;if(r.status!==0)failed=true;console.log(file+': '+(r.status===0?'PASS':'FAIL'));if(r.status!==0)console.log(r.stdout,r.stderr);}
+for(const file of ['services/ai/core.mjs','services/ai/worker.mjs']){const r=cp.spawnSync(process.execPath,['--check',file],{encoding:'utf8'});if(r.status!==0)throw Error(file+' '+r.stderr);}
 for(const dir of ['rebuild/combat','rebuild/hub'])for(const file of fs.readdirSync(dir).filter(n=>n.endsWith('.js')&&!n.endsWith('.test.js')))new vm.Script(fs.readFileSync(path.join(dir,file),'utf8'),{filename:path.join(dir,file)});
 for(const file of ['rebuild/hub/index.html','rebuild/title-screen/index.html','rebuild/character-creation/index.html']){
  const source=fs.readFileSync(file,'utf8');for(const m of source.matchAll(/<script(\s[^>]*)?>([\s\S]*?)<\/script>/g)){if(/\btype=["']module/.test(m[1]||'')||/\bsrc=/.test(m[1]||''))continue;new vm.Script(m[2],{filename:file});}

@@ -1,0 +1,18 @@
+name = "epi-center-ai"
+main = "worker.mjs"
+compatibility_date = "2026-11-06"
+
+[vars]
+AI_MODEL = "TheDrummer/Cydonia-24B-v4.3"
+AI_MONTHLY_LIMIT_USD = "50"
+AI_MAX_INPUT_PRICE_PER_MILLION = "2"
+AI_MAX_OUTPUT_PRICE_PER_MILLION = "5"
+ALLOWED_ORIGINS = "https://uderiel.github.io"
+
+[[durable_objects.bindings]]
+name = "AI_BUDGET"
+class_name = "AIBudget"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["AIBudget"]

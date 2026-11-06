@@ -1,0 +1,36 @@
+{
+  "version": "1.0.70",
+  "environment": "Managed Chrome preview; disposable slot3; dummy access code and nonexistent test endpoint; no real provider key or paid calls",
+  "checks": [
+    {
+      "name": "ai-default-off",
+      "status": "PASS",
+      "observed": "Local v1.0.70 old-style save boots with AI off and no endpoint or provider key."
+    },
+    {
+      "name": "setup-fields",
+      "status": "PASS",
+      "observed": "Settings has backend address, masked game access code, separate dialogue/narration toggles and connection check."
+    },
+    {
+      "name": "save-session-credential",
+      "status": "PASS",
+      "observed": "Synthetic HTTPS endpoint and dummy owner code save; endpoint remains visible while password field clears."
+    },
+    {
+      "name": "unavailable-backend",
+      "status": "PASS",
+      "observed": "Connection check against deliberately nonexistent test host surfaces a connection failure without changing gameplay."
+    },
+    {
+      "name": "disconnect",
+      "status": "PASS",
+      "observed": "Disconnect disables AI, removes session access, and Play reports AI off."
+    },
+    {
+      "name": "npc-fallback",
+      "status": "PASS",
+      "observed": "Ordinary NPC recipient selection and Hello Eve still accept First Steps and advance dialogue time exactly two minutes."
+    }
+  ]
+}
