@@ -1,3 +1,7 @@
+## v1.0.74
+
+Richard’s report work now holds for three written sections within its existing 20 minutes. See [Erin’s Reception F](ERIN-RECEPTION-F.md) for the v1.0.74 workflow.
+
 # Richard NPC implementation — v1.0.64
 
 The owner approved Richard after the Technology Center baseline. Sources: RICHARD-NPC-DESIGN-NOTES.md and owner instructions in Repository audit and status. Richard remains a civilian manager, values Erin's competence, and adapts to refusal. Erin is his secretary; Michael is the future intern. No Richard form or unique power is introduced.

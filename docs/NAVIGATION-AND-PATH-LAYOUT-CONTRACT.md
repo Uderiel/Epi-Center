@@ -1,3 +1,7 @@
+## v1.0.74
+
+F is now Erin’s Reception. The existing southern connection and west door to G serve the [approved reception layout](ERIN-RECEPTION-F.md).
+
 # Navigation and path-layout contract — v1.0.66
 
 Owner approved the simplified path-first drawing supplied in this session (01-image-1793916264168.jpg). For future locations, first approve the navigable graph, doors and mini-map; only then design detailed room fixtures/content. This drawing supersedes the provisional cubicle placement, not the established door restrictions.

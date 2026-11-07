@@ -2,6 +2,20 @@ const assert=require('node:assert/strict'),R=require('./richard'),T=require('./t
 function fresh(at=540,room='G'){const s={name:'QA',hub:{location:T.id},world:{technologyCenter:{inside:true,room,view:'room'}},worldClock:{minutes:at,elapsed:0},erinRestoration:{schema:2,stage:23,mastered:true,heels:{location:'inventory'}},gold:100,inventory:{dogTreats:1},attributes:Object.fromEntries(E.ATTRIBUTES.map(k=>[k,4])),combatResources:{health:61,stamina:43,resolve:58,arousal:4},forms:{}};R.state(s);return s;}
 function advance(s,minutes){const from=C.ensure(s).minutes;C.advance(s,minutes);return R.tick(s,from,C.ensure(s).minutes);}
 function accepted(){const s=fresh();R.act(s,'extra');R.act(s,'accept');T.state(s).room='F';return s;}
+const answers=[
+ 'Sales rose after the promotion, and returns stayed steady.',
+ 'The tracker counts pending orders, while the shipment report counts shipped orders only.',
+ 'Reconcile the two reports and verify pending orders before the briefing.'
+];
+function answer(s,index,text=answers[index]){
+ assert.equal(R.reportSection(s).index,index);
+ R.saveReportDraft(s,text);
+ return R.submitReportSection(s,index);
+}
+function finish(s,start=0){
+ for(let index=start;index<3;index++){advance(s,5);answer(s,index);}
+ advance(s,5);
+}
 test('Richard is a civilian whose allocation calculates Mental without a hard-coded primary',()=>{assert.equal(R.definition.classification,'civilian');assert.equal(E.specialization(R.definition.attributes).primary,'mental');assert.equal(Object.keys(R.definition.attributes).length,10);assert(Object.values(R.definition.attributes).every(x=>x>=0&&x<=10));});
 test('weekday schedule includes office breaks team rounds and no invented weekend destination',()=>{const s=R.state(fresh());assert.equal(R.goal(540,s).room,'G');assert.equal(R.goal(720,s).room,'J');assert.equal(R.goal(900,s).room,'H');assert.equal(R.goal(920,s).room,'H_W');assert.equal(R.goal(5*1440+600,s).location,'applewood');});
 test('NPC follows every actual doorway from G to J and cannot teleport between rooms',()=>{const s=fresh(719);let prev=R.state(s).room;for(let i=0;i<12;i++){advance(s,1);const cur=R.state(s).room;if(cur!==prev){assert(T.rooms[prev].exits.includes(cur),prev+' '+cur);prev=cur;}}assert.equal(R.state(s).room,'J');assert.deepEqual(R.roomPath('G','F'),['G','F']);});
@@ -15,8 +29,8 @@ test('only fully transformed Erin receives the secretary assignment',()=>{const 
 test('spoken bonus promises never reveal numeric pay or gold',()=>{const s=fresh();const r=R.act(s,'extra');assert.match(r.text,/little extra/);assert(!/50|fifty|gold/i.test(r.text));assert.equal(s.gold,100);});
 test('acceptance and work are explicit; waiting on an offered task does not complete it',()=>{const s=fresh();R.act(s,'extra');advance(s,20);assert.equal(R.state(s).task.status,'offered');assert.equal(R.state(s).task.progress,0);assert.equal(s.gold,100);});
 test('summary work requires accepted assignment usable hands and the desk in F',()=>{const s=fresh();assert.throws(()=>R.beginWork(s),/desk/);R.act(s,'extra');R.act(s,'accept');assert.throws(()=>R.beginWork(s),/desk/);T.state(s).room='F';assert.equal(R.beginWork(s).minutes,0);assert.equal(R.state(s).task.status,'working');});
-test('leaving desk pauses work without losing progress or granting payment',()=>{const s=accepted();R.beginWork(s);advance(s,7);T.state(s).room='SOUTH_HALL';advance(s,10);assert.equal(R.state(s).task.progress,7);assert.equal(R.state(s).task.status,'accepted');assert.equal(s.gold,100);T.state(s).room='F';R.beginWork(s);advance(s,13);assert.equal(R.state(s).task.status,'ready');});
-test('completed work must be delivered in person and pays exactly once across reload',()=>{let s=accepted();R.beginWork(s);advance(s,20);assert.throws(()=>R.act(s,'deliver'),/current room/);T.state(s).room='G';const r=R.act(s,'deliver');assert.equal(s.gold,150);assert(!/50|gold/i.test(r.text));assert.match(r.receipt,/50 gold/);s=JSON.parse(JSON.stringify(s));assert.throws(()=>R.act(s,'deliver'),/Finish/);assert.equal(s.gold,150);assert.equal(R.relationship(s),2);assert.equal(Object.keys(R.state(s).paid).length,1);});
+test('leaving desk pauses work without losing progress or granting payment',()=>{const s=accepted();R.beginWork(s);advance(s,5);answer(s,0);advance(s,2);T.state(s).room='SOUTH_HALL';advance(s,10);assert.equal(R.state(s).task.progress,7);assert.equal(R.state(s).task.status,'accepted');assert.equal(s.gold,100);T.state(s).room='F';R.beginWork(s);advance(s,3);answer(s,1);finish(s,2);assert.equal(R.state(s).task.status,'ready');});
+test('completed work must be delivered in person and pays exactly once across reload',()=>{let s=accepted();R.beginWork(s);finish(s);assert.throws(()=>R.act(s,'deliver'),/current room/);T.state(s).room='G';const r=R.act(s,'deliver');assert.equal(s.gold,150);assert(!/50|gold/i.test(r.text));assert.match(r.receipt,/50 gold/);s=JSON.parse(JSON.stringify(s));assert.throws(()=>R.act(s,'deliver'),/Finish/);assert.equal(s.gold,150);assert.equal(R.relationship(s),2);assert.equal(Object.keys(R.state(s).paid).length,1);});
 test('claiming completion cannot shortcut actual elapsed work',()=>{const s=fresh();R.act(s,'extra');R.act(s,'accept');assert.throws(()=>R.act(s,'deliver'),/Finish/);assert.equal(s.gold,100);});
 test('repeated refusals adapt without relationship or resource penalties and stop daily pressure',()=>{const s=fresh();for(let i=0;i<3;i++){R.state(s).nextOfferAt=0;R.act(s,'extra');const r=R.act(s,'decline');if(i===2)assert.match(r.text,/won’t keep pressing/);}R.state(s).nextOfferAt=0;assert.match(R.act(s,'extra').text,/boundary clear/);assert.equal(R.relationship(s),0);assert.equal(s.gold,100);});
 test('boundary cancels accepted extra work and does not lose finished progress or impose attendance fines',()=>{const s=accepted();R.beginWork(s);advance(s,5);T.state(s).room='G';R.act(s,'boundary');assert.equal(R.state(s).task.status,'declined');assert.equal(R.state(s).work,null);assert.equal(s.gold,100);});
@@ -31,3 +45,39 @@ test('declined requests respect the refusal cooldown before an eligible autonomo
 test('weekend dialogue does not generate a task or visit an unbuilt destination',()=>{const s=fresh(5*1440+600);R.state(s).location=T.id;R.state(s).room='G';assert.match(R.act(s,'extra').text,/office hours/);assert.equal(R.state(s).task,null);});
 
 test('a new civilian encounter cannot discard unresolved partial Kibbles attachment',()=>{const s=fresh();s.encounter={active:false,anatomy:{coverage:{head:25}},outcome:{mastery:false}};assert.throws(()=>R.combatant(s),/retained hostile attachment/);assert.equal(s.encounter.anatomy.coverage.head,25);});
+
+test('elapsed time stops at each unanswered section and all 20 working minutes are required',()=>{
+ const s=accepted();R.beginWork(s);
+ for(let index=0;index<3;index++){
+  advance(s,30);assert.equal(R.state(s).task.progress,(index+1)*5);
+  assert.equal(R.state(s).task.status,'working');answer(s,index,index===2?'Verify pending orders.':answers[index]);
+ }
+ advance(s,4);assert.equal(R.state(s).task.status,'working');
+ advance(s,1);assert.equal(R.state(s).task.status,'ready');assert.equal(s.gold,100);
+});
+test('drafts and accepted sections survive reload and irrelevant text does not advance the report',()=>{
+ let s=accepted();R.beginWork(s);advance(s,5);answer(s,0);advance(s,5);
+ R.saveReportDraft(s,'I will finish this later.');
+ s=JSON.parse(JSON.stringify(s));
+ assert.deepEqual(R.state(s).task.report.answers,[answers[0]]);
+ assert.equal(R.reportSection(s).draft,'I will finish this later.');
+ assert.throws(()=>R.submitReportSection(s,1),/source notes/);
+ assert.equal(R.state(s).task.progress,10);
+ answer(s,1);assert.throws(()=>R.submitReportSection(s,1),/no longer open/);
+});
+test('legacy work keeps elapsed minutes and legacy ready reports remain deliverable',()=>{
+ const s=accepted();R.beginWork(s);
+ const t=R.state(s).task;delete t.report;t.progress=12;
+ advance(s,10);assert.equal(t.progress,12);answer(s,0);answer(s,1);
+ advance(s,3);answer(s,2);advance(s,5);assert.equal(t.status,'ready');
+ const old=accepted();Object.assign(R.state(old).task,{status:'ready',progress:20});
+ T.state(old).room='G';R.act(old,'deliver');assert.equal(old.gold,150);
+ assert.throws(()=>R.act(old,'deliver'),/Finish/);
+});
+test('a report answer cannot be submitted from another room or a combat encounter',()=>{
+ const s=accepted();R.beginWork(s);advance(s,5);R.saveReportDraft(s,answers[0]);
+ T.state(s).room='G';assert.throws(()=>R.submitReportSection(s,0,true),/no longer open/);
+ T.state(s).room='F';s.encounter={active:true};
+ assert.throws(()=>R.submitReportSection(s,0,true),/no longer open/);
+ assert.deepEqual(R.state(s).task.report.answers,[]);
+});

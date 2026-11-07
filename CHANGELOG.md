@@ -1,3 +1,7 @@
+## v1.0.74 — Erin’s Reception F
+
+Technology Center #98 now displays the approved 1100 × 733 reception art in F. Inspect the furniture, sit in the waiting area, or use the south and west doors. Richard’s existing 20-minute report assignment now asks for three brief written sections at minutes 5, 10 and 15. Drafts and completed sections save with the assignment. In-person delivery awards the existing 50 gold and +2 relationship once. See [Erin’s Reception F](docs/ERIN-RECEPTION-F.md) for source notes and acceptance.
+
 ## v1.0.73 — published and source verified
 
 [Play v1.0.73](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.73). Gameplay commit `3ce8b6fef305436fc7dc1a80f52b1fcb64e42335` is on main and rebuild/1.0-foundations. [Pages run 42303585711](https://github.com/Uderiel/Epi-Center/actions/runs/42303585711) succeeded. All 63 checked public runtime files/assets match tested source, including the new shop modules. **617 named cases plus entity assertions and 8 browser checks PASS.** Live hashes: releases/v1.0.73-live-verification.json. Cherished Touch has the A–J interior plan, four changing stalls, Layout navigation, local fixtures and physical exits. Manual: travel to the store, open Accessible Rooms, Enter, then Layout. No save reset or backend redeployment required. Underground exploration and expanded purchases remain future work. Earlier sections are historical.
