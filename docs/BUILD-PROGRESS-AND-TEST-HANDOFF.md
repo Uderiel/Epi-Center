@@ -1,3 +1,7 @@
+## v1.0.77 — published and source verified
+
+[Play v1.0.77](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.77). Gameplay commit `bb4f3c9e56f976909fb8cad11433d748c13f6926` is on main and rebuild/1.0-foundations. [Pages deployment 42949980418](https://github.com/Uderiel/Epi-Center/actions/runs/42949980418) succeeded; all 64 checked public runtime files/assets match the tested source. Live title was also verified in the browser. **657 named automated cases plus entity assertions and 9 controlled browser checks PASS.** No paid inference, backend redeployment or save reset. Use Form for the earned trust allowance, Quiet rest and Start bedtime routine. Autonomous bedtime now performs grooming, sleepwear/accessory changes and the existing cursed removal save. Existing direct eight-hour sleep remains a deliberate player action with clothing as worn. Owner/native-device acceptance is next; earlier publication-pending entries are historical.
+
 ## v1.0.77 — Erin wellbeing and complete bedtime preparation
 
 Trust is now earned through the same daily ledger across all private dialogue paths and completed practical help, with the existing two-point cap shown in Form. Real rest, reading, quiet TV, self-care and sleep now lower stress and print actual receipts. AI receives these metrics, grooming and worn clothing without making extra requests for mechanics.
