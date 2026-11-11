@@ -1,3 +1,7 @@
+## v1.0.77 amendment — wellbeing and evening routine
+
+The owner-reported missing stress relief and bedtime grooming/wardrobe are now implemented. The earlier automatic-grooming boundary below is superseded for the evening routine only. See [current wellbeing and bedtime contract](ERIN-WELLBEING-AND-BEDTIME.md). Existing direct eight-hour sleep stays a player action with clothing as worn. Two daily trust points remain the shared cap.
+
 ## Owner amendment — v1.0.62 active-session time and Form layout
 
 Live foreground time now advances the existing canonical routines at1 game minute per10 real seconds. Authority rules from v1.0.61 remain: unmastered75–100 form-led decisions; player objections/persuasion; mastered player control. No offline catch-up or workplace behavior is invented. Form restores unmastered routine/current/desired details and needs; portrait/resources move to Stats, while Form shows mastery/influence/relationship and recorded mastery benefits. See [current contract](LIVE-TIME-AND-FORM-REFERENCE-CONTRACT.md).

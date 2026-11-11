@@ -1,3 +1,11 @@
+## v1.0.77 — Erin wellbeing and complete bedtime preparation
+
+Trust is now earned through the same daily ledger across all private dialogue paths and completed practical help, with the existing two-point cap shown in Form. Real rest, reading, quiet TV, self-care and sleep now lower stress and print actual receipts. AI receives these metrics, grooming and worn clothing without making extra requests for mechanics.
+
+Autonomous bedtime follows the apartment to the bathroom, cleanses/removes makeup, brushes teeth and moisturizes, changes into existing clean sleepwear, puts worn day clothes in the hamper and removes accessories, then addresses footwear before sleeping. Cursed heels use the existing removal save once per night; a failed save is explicit and does not create an endless retry loop. Phases/drafts of actions survive reload and midnight. Mastery/zero influence keep player authority; Start bedtime routine explicitly delegates the full chain. Existing direct eight-hour sleep is still a deliberate player action with clothing as worn.
+
+657 named automated cases plus entity assertions PASS. Managed-browser checks with synthetic saves verify visible trust/stress receipts, shared daily cap, one simulated AI request with correct context, the full night chain and reload/other-slot persistence. No paid inference, new backend or save reset. See [wellbeing/bedtime contract](docs/ERIN-WELLBEING-AND-BEDTIME.md) and releases/v1.0.77-browser-checks.json. Publication verification follows.
+
 ## v1.0.76 — explicit player, dialogue and mechanics routing
 
 The screenshot exposed two additional generation sources after the v1.0.75 display fix. Loose speaker matching treated a player's Private thought to Erin header as Erin, and separate form-roll/resource receipts were each enriched. Exact speaker matching and explicit feed origins now keep player input intact, generate for the actual private dialogue reply only, and display mechanical results directly. Resistance makes zero AI requests. Ordinary form chat makes one request for the form's reply.

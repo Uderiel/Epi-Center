@@ -1,0 +1,98 @@
+{
+  "version": "1.0.77",
+  "environment": "managed preview, disposable synthetic local slots, paused foreground time",
+  "inference": "controlled stub; no paid provider calls",
+  "checks": [
+    {
+      "name": "Generic private dialogue shows an actual +1 trust / \u22122 stress mechanics receipt",
+      "passed": true,
+      "observed": {
+        "trust": 46,
+        "stress": 48,
+        "earned": 1,
+        "requests": 0
+      }
+    },
+    {
+      "name": "Form reference explains and displays earned daily allowance",
+      "passed": true,
+      "observed": {
+        "earned": "1/2"
+      }
+    },
+    {
+      "name": "Real Quiet rest control spends 15 minutes and lowers stress with the second daily trust point",
+      "passed": true,
+      "observed": {
+        "trust": 47,
+        "stress": 42,
+        "earned": 2
+      }
+    },
+    {
+      "name": "Further dialogue cannot exceed the shared daily cap",
+      "passed": true,
+      "observed": {
+        "trust": 47,
+        "earned": 2
+      }
+    },
+    {
+      "name": "Simulated AI emits one reply and receives actual private wellbeing and clothing",
+      "passed": true,
+      "observed": {
+        "requests": 1,
+        "trust": 47,
+        "stress": 42,
+        "wornItems": true,
+        "sharedBody": true
+      }
+    },
+    {
+      "name": "Autonomous night chain uses real rooms and completes grooming before sleepwear and bed",
+      "passed": true,
+      "observed": {
+        "room": "bedroom",
+        "makeup": false,
+        "sleeping": true,
+        "sleepwear": "pajama-light-1",
+        "stress": 45
+      }
+    },
+    {
+      "name": "Actual worn cardigan and necklace move to their correct persistent locations",
+      "passed": true,
+      "observed": {
+        "cardigan": "hamper",
+        "condition": "worn",
+        "necklace": "inventory"
+      }
+    },
+    {
+      "name": "Bedtime removal executes the existing Reflexes save and allows normal heels-off recovery",
+      "passed": true,
+      "observed": {
+        "die": 19,
+        "modifier": 2,
+        "dc": 12,
+        "ok": true
+      }
+    },
+    {
+      "name": "Reload retains completed phases, inventory, makeup, sleep and untouched second slot",
+      "passed": true,
+      "observed": {
+        "sleeping": true,
+        "makeup": false,
+        "sleepwear": "pajama-light-1",
+        "otherSlot": "Untouched QA",
+        "routineAIRequests": 0
+      }
+    }
+  ],
+  "limits": [
+    "Native-device acceptance pending",
+    "Real-provider prose quality not exercised",
+    "Night fixture used accelerated in-game hour through the production time dispatcher"
+  ]
+}
