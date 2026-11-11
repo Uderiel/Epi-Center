@@ -1,0 +1,326 @@
+{
+  "version": "1.0.76",
+  "gameplayCommit": "36e63907acbda8c6ef6324435a87ac334b7d1c42",
+  "records": [
+    {
+      "file": "rebuild/title-screen/index.html",
+      "matched": true,
+      "sha256": "235628d87d761159f055a67eefc225687f8618ea707df288f3bca735cb9cac27"
+    },
+    {
+      "file": "rebuild/character-creation/index.html",
+      "matched": true,
+      "sha256": "84e36ba4c9673d397c826aa46d451335f0204dec1ff42450897f2a5eddbdb67b"
+    },
+    {
+      "file": "rebuild/hub/index.html",
+      "matched": true,
+      "sha256": "fa48cb7bf115cc64526fd51a856bec71cbe3f3d5fd4d6db1a645bd7591c41ee0"
+    },
+    {
+      "file": "rebuild/hub/ai-context.js",
+      "matched": true,
+      "sha256": "63b7d53a81276d571ad7e56384700ed20e420ff84efa5c59243acdca365522c9"
+    },
+    {
+      "file": "rebuild/hub/ai-ui.js",
+      "matched": true,
+      "sha256": "b79daf14f3ef78f5f1ddfa1910416061cc59447d71c401821cdddf1a7987203b"
+    },
+    {
+      "file": "rebuild/hub/apartment-navigation.js",
+      "matched": true,
+      "sha256": "e6455d3741dd682608fcc9a1bd8eb68ec1838e63e5ad77cbbbab591b168e9f19"
+    },
+    {
+      "file": "rebuild/hub/authored-dialogue.js",
+      "matched": true,
+      "sha256": "ff5bb0a65b507652c9aa5bfaedd3b8e6a2b146bb2f250a063fa8cd2b87ffd5d5"
+    },
+    {
+      "file": "rebuild/hub/canine-intent.js",
+      "matched": true,
+      "sha256": "444eb5d208cbacba9bea3996857493f706edf607316f4d8b46cfc09d295c654a"
+    },
+    {
+      "file": "rebuild/hub/cherished-touch-ui.js",
+      "matched": true,
+      "sha256": "8e563697822e5d2d7ca40b06b6109ec65421acdaa1e20f19254d60de05a0a622"
+    },
+    {
+      "file": "rebuild/hub/cherished-touch.js",
+      "matched": true,
+      "sha256": "dff588ec1cccdb2bbdc7b0d24645b9f815bf044dd1728de5d3d803093e0f08e6"
+    },
+    {
+      "file": "rebuild/hub/cursed-exposure.js",
+      "matched": true,
+      "sha256": "d3eaaea9c3b05e231eeff9da9c40b3dcb48eb83ff5caac0a87ae229ed4cb809f"
+    },
+    {
+      "file": "rebuild/hub/easter-egg-ui.js",
+      "matched": true,
+      "sha256": "11c95f6d76f2811517cbe79f3bbfc6a1ffb48e3b6af447277111afd7ca51fd61"
+    },
+    {
+      "file": "rebuild/hub/easter-egg.js",
+      "matched": true,
+      "sha256": "a5485221326cb6435fe74005b7d28b6d147a7bc6ca15874f7c134609d998f413"
+    },
+    {
+      "file": "rebuild/hub/equipment-regions.js",
+      "matched": true,
+      "sha256": "55a4ecda5d07b7f61fe357463b7b7cef71656b02eb0865adda79148a2872002f"
+    },
+    {
+      "file": "rebuild/hub/equipment-ui.js",
+      "matched": true,
+      "sha256": "fc9ac0dbfc16f9cd49002e2426b54a8ce2ff5e0391ea15bcd2734a1d32a247f1"
+    },
+    {
+      "file": "rebuild/hub/erin-household-data.js",
+      "matched": true,
+      "sha256": "54bd465eeb29bb4e03e3b4dbe0ae4d5e8b30c0aaddc9ac054883dd3eb772dd13"
+    },
+    {
+      "file": "rebuild/hub/erin-household.js",
+      "matched": true,
+      "sha256": "2012dcc225c1048f9e83115c65d854146487ae367a913ebb2a812a81d7c5369d"
+    },
+    {
+      "file": "rebuild/hub/erin-life-ui.js",
+      "matched": true,
+      "sha256": "edf2b1a5afef1d23f3010e5fce1fd543644fdfe5fd35329be3973c3b13b6ec67"
+    },
+    {
+      "file": "rebuild/hub/erin-life.js",
+      "matched": true,
+      "sha256": "e2e99fdfad08e610a1594eaa17105342613c46b7e5dacd80c61718c88fd7bccc"
+    },
+    {
+      "file": "rebuild/hub/erin-restoration.js",
+      "matched": true,
+      "sha256": "19a4fc82219a43891a4765426333b5c0f052d49c29d86955ea01e6031211b368"
+    },
+    {
+      "file": "rebuild/hub/erin-ui.js",
+      "matched": true,
+      "sha256": "a52d42d4592081a0c9ebfe59950223cd734f424cb7bd2f48f58052cc46512890"
+    },
+    {
+      "file": "rebuild/hub/form-minds-ui.js",
+      "matched": true,
+      "sha256": "287c1dd3ff084348cc5e723636e5ad489235166a58ecde15fa630eb75eb95a95"
+    },
+    {
+      "file": "rebuild/hub/form-minds.js",
+      "matched": true,
+      "sha256": "1fc1df9d36839c62e2cbd78c3826ef3b28730da365931347bcfe32b02df42e72"
+    },
+    {
+      "file": "rebuild/hub/form-storage.js",
+      "matched": true,
+      "sha256": "6ac5bd8b286367dd2ead04020709e9ddc609df45636c27a8c425d504be8f553b"
+    },
+    {
+      "file": "rebuild/hub/hangry-fangs.js",
+      "matched": true,
+      "sha256": "d445b6ab71456482f882d2eb1e5d15505c8b44ed1af5ad8e4988eec5dcf2cd7d"
+    },
+    {
+      "file": "rebuild/hub/hub-art.js",
+      "matched": true,
+      "sha256": "d9fa19084635a7f5d3475b7bc14bccbe0b1e18c035864d2142c8099d9c65e396"
+    },
+    {
+      "file": "rebuild/hub/hub-world.js",
+      "matched": true,
+      "sha256": "ec342f2cc9142936b0eaa010f1c66cd2c992968a0d1b81132d8781632ceb47e2"
+    },
+    {
+      "file": "rebuild/hub/interaction-state.js",
+      "matched": true,
+      "sha256": "f118842392a4d4ee3c226acae6aa0bf5e95b410169f83aa934054adf0be85e42"
+    },
+    {
+      "file": "rebuild/hub/internal-mastery.js",
+      "matched": true,
+      "sha256": "a2d0cd6947671c46b1cb18129bdf5b48fa440f287a424814a2516878cd3a5453"
+    },
+    {
+      "file": "rebuild/hub/kibbles-behavior.js",
+      "matched": true,
+      "sha256": "e2609c4849b982fba3948fb60b8cc8ce7a25eed96739237540330d53a7c2aa61"
+    },
+    {
+      "file": "rebuild/hub/legacy-0884-data.js",
+      "matched": true,
+      "sha256": "158eceb08f30fc1aa567e56cf7d7e71f602fd2ff1c2f4f7f6512fa6ffcacc0a3"
+    },
+    {
+      "file": "rebuild/hub/legacy-autonomy.js",
+      "matched": true,
+      "sha256": "808f0536f7f09f6c4e645b6e09c391dd39eff8bd3e3d5d8b74a4eb6b3b17d34d"
+    },
+    {
+      "file": "rebuild/hub/live-time-ui.js",
+      "matched": true,
+      "sha256": "e8fa0c37e0125c9c6c2ccb7636b56abc2ab93a86a8fc1dc10eb760e59084aa05"
+    },
+    {
+      "file": "rebuild/hub/live-time.js",
+      "matched": true,
+      "sha256": "4b1305726841b6c06b7fcf398307bd47d2b4ef053616325812575444e6756258"
+    },
+    {
+      "file": "rebuild/hub/navigation-runtime.js",
+      "matched": true,
+      "sha256": "e1309b344226116cbb4815b72999be211d84a4a13cbf310f434482e584b25200"
+    },
+    {
+      "file": "rebuild/hub/navigation-ui.js",
+      "matched": true,
+      "sha256": "83ba0eac2e7b370ef48ad79a2c6155e168798c89d1c4511cd08a775d99ea386a"
+    },
+    {
+      "file": "rebuild/hub/navigation-v1.0.66.css",
+      "matched": true,
+      "sha256": "f568bfe9063887af59395609aedad6482ce74e5c768092d2f264414002c914f5"
+    },
+    {
+      "file": "rebuild/hub/navigation.js",
+      "matched": true,
+      "sha256": "1204875246a7494c3420df8a3256f819768abdd29a979b286c2c11bd0dd955d8"
+    },
+    {
+      "file": "rebuild/hub/richard-ui.js",
+      "matched": true,
+      "sha256": "5d3b04212e94c4ea0d1cb86a85b0df69f403f17aebe9a5cff4f7c8254d6115c0"
+    },
+    {
+      "file": "rebuild/hub/richard.js",
+      "matched": true,
+      "sha256": "65cd47971cabd5cf6cddb715b5d87c168ec728fdd291932ff7e8aaecd01fa967"
+    },
+    {
+      "file": "rebuild/hub/technology-center-ui.js",
+      "matched": true,
+      "sha256": "cc0dd43bafaed3abb10962088c8995f69dc90d27f9f8f7049b85e5e5d1e42d1c"
+    },
+    {
+      "file": "rebuild/hub/technology-center.js",
+      "matched": true,
+      "sha256": "b8f9ce7069e0f21e26d25fb9f13dd0b26783df491a8c22e17772185f91723b14"
+    },
+    {
+      "file": "rebuild/hub/world-clock.js",
+      "matched": true,
+      "sha256": "c3ce8e0d4ed38a47e277e45622ee793ea225084f97630ef11459f6672a8e0eae"
+    },
+    {
+      "file": "rebuild/hub/world-objects.js",
+      "matched": true,
+      "sha256": "1a0f63f83e7c8dcd9c5da812438aa7c341818c3a527d1c7c6dae4979819561e3"
+    },
+    {
+      "file": "rebuild/combat/civilian-encounter.js",
+      "matched": true,
+      "sha256": "8c08f1b3a489eca3c22e219f444db47b21d0a450f16e3e7cd02489ed9fd813a5"
+    },
+    {
+      "file": "rebuild/combat/encounter-contract.js",
+      "matched": true,
+      "sha256": "51f31ec6cd3c74534d7d3c5d31be1c1c1ff2b4e562f06ee7497c0d4ff1c4a917"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.35.css",
+      "matched": true,
+      "sha256": "9eb9b66424155d3e88a90bfa55bbb91dfe3abcbe9b2a0337c732df146f7b0383"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.35.js",
+      "matched": true,
+      "sha256": "9d8dadb3eba611d9e32a4cf2b91bd67c2e3c3e615b6a202c2e55ec1f53578c65"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.36.css",
+      "matched": true,
+      "sha256": "cf07d81967ff6559ebb4d81a14da784dc5eb11841c13d5cbd5a454a4a4c1901c"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.36.js",
+      "matched": true,
+      "sha256": "5a9743a9b4e530c459a7ddffa64c4a86b3553ff3a04cd3b9f60ebac4d7e841f6"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.37.css",
+      "matched": true,
+      "sha256": "266de1273a1304b9e574a233ebb1a7d9a55d7d739515a52742dad9392e43f759"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.37.js",
+      "matched": true,
+      "sha256": "83a8e47989c34f4c4eca5623cec5c05abe7eaab7268e1ff0be8961baf9bfb2d9"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.39.css",
+      "matched": true,
+      "sha256": "09a5f094f927235581d1380c89fe2a6032143f9c914e51b2563e8b8471ccf362"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.39.js",
+      "matched": true,
+      "sha256": "758a2c9d977b1dd07065750261bff8994ad1effdef273e689aa01b1773d283db"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.40.css",
+      "matched": true,
+      "sha256": "6ff1245113943839723745ddf6d5a39616d7e798a86812e514df90678ba3b507"
+    },
+    {
+      "file": "rebuild/combat/engine.js",
+      "matched": true,
+      "sha256": "70d15c108554e20e43f3433ca4df6b86a1f7103716f899d0324641e9786f97d2"
+    },
+    {
+      "file": "rebuild/combat/entity-rules.js",
+      "matched": true,
+      "sha256": "7c13e54a6a1ff7e2473c9bec6f47179435eb1154e582bf0336910b21d8daaf2d"
+    },
+    {
+      "file": "rebuild/combat/kibbles-ai.js",
+      "matched": true,
+      "sha256": "52a9be70b2763243cfffb7daaf15cc87e15a3ae15d70dd70df8d8253256e8ae2"
+    },
+    {
+      "file": "rebuild/combat/kibbles-form.js",
+      "matched": true,
+      "sha256": "20692c8ecb7a0053c3222f2ce91b774598209088ee1e70aba65a8ca591e27c8a"
+    },
+    {
+      "file": "rebuild/combat/kibbles-text.js",
+      "matched": true,
+      "sha256": "5116f1ab5c0e74b7b5b1f344ae4b25675261b745e46270f5ae7f78facaafc033"
+    },
+    {
+      "file": "rebuild/combat/outcomes.js",
+      "matched": true,
+      "sha256": "cc6f0a00cb3006245bcc6c3694b899b329c53a646b7c82516decd478448e0a7f"
+    },
+    {
+      "file": "rebuild/combat/play-encounter.js",
+      "matched": true,
+      "sha256": "76ccb5972f3e831ee1500256ecf09f99867cd192ff6438aea4026d5d54df60cb"
+    },
+    {
+      "file": "rebuild/hub/assets/erin-legacy-portrait.jpg",
+      "matched": true,
+      "sha256": "594ee3df91946d6d3d886b6f9ebcadd92d4af21a6484ae10e1dee1f2688b4df4"
+    },
+    {
+      "file": "rebuild/hub/assets/technology-center/erin_reception_F_1100x733.jpg",
+      "matched": true,
+      "sha256": "d83f0b4d2bfb2ea89645cff3acf263a00f1081e41ade3c129d82ac8765ad4b5a"
+    }
+  ]
+}
