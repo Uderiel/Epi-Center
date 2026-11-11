@@ -1,4 +1,5 @@
-Current candidate: **v1.0.79** — form identity, body awareness and living profiles. See [form template contract](docs/FORM-LIVING-TEMPLATE.md), [status](docs/CURRENT-STATUS.md), and release verification records.
+Published: **[v1.0.79](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.79)** — gameplay `ae046ddecfd221f5a953837acb0ef7190269e706`. 709 automated cases + entity assertions, 12 browser checks, successful Pages deployment, 70 public files/assets matched. [Form living contract](docs/FORM-LIVING-TEMPLATE.md).
+
 
 ## v1.0.74 — Erin’s Reception F
 

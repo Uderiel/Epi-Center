@@ -1,3 +1,9 @@
+## v1.0.79 — published and source verified
+
+[Play v1.0.79](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.79). Gameplay commit `ae046ddecfd221f5a953837acb0ef7190269e706` is on main and rebuild/1.0-foundations. [Pages deployment 43099690883](https://github.com/Uderiel/Epi-Center/actions/runs/43099690883) succeeded. All **70** checked public runtime files/assets match tested source; the live title reports v1.0.79. **709 named automated cases plus entity assertions and 12 managed-browser checks PASS.** No paid inference, backend redeployment or save reset. Earlier candidate/queued publication notes are historical.
+
+Manual owner acceptance: (1) at unmastered 100% influence, remove/store the heels and let a home routine proceed; (2) with mastered Erin, send an action and confirm Erin Lillard (original name), with player control retained; (3) try foot massage with heels on, then after a successful removal; (4) inspect feet/hands/body with AI off and on, confirm one typed entry and one response; (5) reload and verify attribution and routine/wardrobe progress; (6) confirm Richard Carter and existing report/reward behavior in reception. Native-device acceptance remains with the owner. Future forms still require native physical routine adapters; the shared profile supplies identity, body feedback, clothing preferences and schedule intentions. See [contract/template](FORM-LIVING-TEMPLATE.md).
+
 ## v1.0.79 — form presence and embodied actions (tested candidate)
 
 Player submissions now appear once, verbatim, under the worn form's name with the original player name in owner-only parentheses. Appearance identity persists after mastery and heel removal. Canonical names are Erin Lillard and Richard Carter; stable save/NPC IDs and Richard's original report/payment system are unchanged.
