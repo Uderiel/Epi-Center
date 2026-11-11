@@ -1,3 +1,11 @@
+## v1.0.78 — usable reception workspace and daily life
+
+Reception F now has an Inbox, Scheduler, saved notebook drafts/filed notes, reference Files and magazine interactions at the two side tables. The home laptop shares ordinary correspondence and the planner; department files and Richard's original report work stay at reception. The same existing report assignment and payment ledger remain authoritative.
+
+Erin's home morning routine now handles hygiene, makeup, a real clean work/weekend outfit, appropriate forty-minute background laundry, an available breakfast and work email. After a recorded office visit, returning home after17:00 enables face care, casual clothes, footwear care, chores and quiet relaxation. Progress and pending actions persist. Mastery/zero influence require explicit delegation; ordinary control/urgent-need rules remain. Richard can agree in person to his next reception check-in; confirmed plans pause discretionary home routines and have real attendance/missed states, with no invented travel or reward.
+
+681 named automated cases plus entity assertions and12 managed-browser checks PASS. No paid model calls, backend redeployment, save reset or artwork/navigation changes. See [daily life and office contract](ERIN-DAILY-LIFE-AND-OFFICE.md). Publication verification follows. Automatic city commuting, full-day office duties and other NPC social plans remain future work.
+
 ## v1.0.70 — private backend live test verified
 
 The owner deployed `epi-center-ai` and configured the separate provider/game-access secrets in Cloudflare's **Production runtime variables and secrets**, rather than build variables. Backend: https://epi-center-ai.jermil2008.workers.dev. `/health` returned configured=true; authenticated `/usage` succeeded with the GitHub Pages origin allowed. One synthetic neutral Eve dialogue request returned HTTP200 from TheDrummer/Cydonia-24B-v4.3: 315 input tokens, 174 output tokens, provider charge **$0.00042234**. The shared $50/month game ledger settled to $0.000423 used, $0 reserved, $49.999577 remaining. No actual provider key was received here; no player save was transmitted or changed. Evidence: releases/v1.0.70-backend-live-check.json.

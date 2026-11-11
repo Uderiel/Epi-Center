@@ -1,3 +1,7 @@
+## v1.0.78 amendment
+
+Morning and after-work routines, real background laundry, a persistent reception/home workspace, magazines and Richard check-in plans are now implemented. See [daily life and office contract](ERIN-DAILY-LIFE-AND-OFFICE.md). Earlier manual-only grooming/inspection boundaries below are historical; report ownership and reward rules remain unchanged.
+
 # Erin’s Reception F in v1.0.74
 
 Technology Center #98, third floor. The approved 1100 × 733 JPEG is used at its original dimensions in the location image and full image viewer. The camera faces north from inside the south entrance. The mahogany desk runs parallel to the north wall. The west door goes to Richard’s office and the east interior windows overlook the sales cubicles. Southern leather seating and two small side tables leave the central aisle clear.

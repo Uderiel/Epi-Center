@@ -1,3 +1,7 @@
+## v1.0.78 amendment
+
+Morning and after-work routines, real background laundry, a persistent reception/home workspace, magazines and Richard check-in plans are now implemented. See [daily life and office contract](ERIN-DAILY-LIFE-AND-OFFICE.md). Earlier manual-only grooming/inspection boundaries below are historical; report ownership and reward rules remain unchanged.
+
 ## v1.0.77 amendment — wellbeing and evening routine
 
 The owner-reported missing stress relief and bedtime grooming/wardrobe are now implemented. The earlier automatic-grooming boundary below is superseded for the evening routine only. See [current wellbeing and bedtime contract](ERIN-WELLBEING-AND-BEDTIME.md). Existing direct eight-hour sleep stays a player action with clothing as worn. Two daily trust points remain the shared cap.

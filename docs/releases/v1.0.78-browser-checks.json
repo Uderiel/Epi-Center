@@ -1,0 +1,118 @@
+{
+  "version": "1.0.78",
+  "environment": "managed preview, synthetic local slots, paused foreground time",
+  "inference": "AI disabled; no paid provider calls",
+  "checks": [
+    {
+      "name": "Reception computer opens Inbox, Scheduler, Notes and Files",
+      "passed": true,
+      "observed": {}
+    },
+    {
+      "name": "Notebook draft saves while typing and survives a time update",
+      "passed": true,
+      "observed": {
+        "draft": "Compare pending and shipped orders before the briefing."
+      }
+    },
+    {
+      "name": "Filed notebook entry survives reload without altering another slot",
+      "passed": true,
+      "observed": {
+        "notes": 1,
+        "slot2": "Untouched QA"
+      }
+    },
+    {
+      "name": "Read and acknowledge authored email without creating an assignment/payment",
+      "passed": true,
+      "observed": {
+        "gold": 100,
+        "task": null
+      }
+    },
+    {
+      "name": "Files display shipment/pending-order reference material",
+      "passed": true,
+      "observed": {}
+    },
+    {
+      "name": "Magazine interaction spends five minutes and reduces stress",
+      "passed": true,
+      "observed": {
+        "before": 20,
+        "after": 18
+      }
+    },
+    {
+      "name": "Morning pending hygiene survives a reload at07:05",
+      "passed": true,
+      "observed": {
+        "pending": "daily-step"
+      }
+    },
+    {
+      "name": "Morning completes hygiene makeup fresh work outfit breakfast and mail",
+      "passed": true,
+      "observed": {
+        "completeAt": "08:05",
+        "outfit": [
+          "blouse-ivory",
+          "skirt-charcoal",
+          "shoes-1"
+        ],
+        "makeup": true,
+        "mailAt": 476
+      }
+    },
+    {
+      "name": "Background washer stays running until due then completes",
+      "passed": true,
+      "observed": {
+        "washingAt": "08:05",
+        "due": "08:14",
+        "observedCleanAt": "08:15"
+      }
+    },
+    {
+      "name": "After-work routine changes to casual clothes removes makeup and reduces stress",
+      "passed": true,
+      "observed": {
+        "from": 70,
+        "to": 61,
+        "outfit": [
+          "sweater-oatmeal",
+          "leggings-black"
+        ],
+        "makeup": false
+      }
+    },
+    {
+      "name": "Notebook keeps focus and caret through a steady minute refresh",
+      "passed": true,
+      "observed": {
+        "focused": true,
+        "selection": [
+          57,
+          57
+        ]
+      }
+    },
+    {
+      "name": "In-person Richard agreement creates one confirmed reception plan",
+      "passed": true,
+      "observed": {
+        "at": 630,
+        "confirmed": true,
+        "gold": 100,
+        "task": null
+      }
+    }
+  ],
+  "limits": [
+    "Owner/native-device acceptance pending",
+    "Morning/after-work acceptance uses elapsed-time fixture through canonical dispatcher",
+    "Caret test mirrors production steady capture/render/restore",
+    "Regular commute/full-day work and non-Richard social invitations remain future content"
+  ]
+}
