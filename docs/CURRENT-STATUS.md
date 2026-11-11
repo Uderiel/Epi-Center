@@ -1,3 +1,11 @@
+## v1.0.76 — explicit player, dialogue and mechanics routing
+
+The screenshot exposed two additional generation sources after the v1.0.75 display fix. Loose speaker matching treated a player's Private thought to Erin header as Erin, and separate form-roll/resource receipts were each enriched. Exact speaker matching and explicit feed origins now keep player input intact, generate for the actual private dialogue reply only, and display mechanical results directly. Resistance makes zero AI requests. Ordinary form chat makes one request for the form's reply.
+
+Older overwritten private player entries display their saved canonical input. Earlier form AI memory is retained in the save but excluded from subsequent prompts; newly routed dialogue carries an explicit-speaker tag alongside the shared-body context tag. Authoritative state and the ordinary feed remain available to the player.
+
+633 named automated cases plus entity assertions PASS. A controlled browser test verified one generation for a private chat, zero added requests for decision resistance or the influence roll/Resolve-cost pair, immediate readable results and reload persistence. Validation uses simulated inference rather than paid provider calls. Reload the existing game tab for v1.0.76.
+
 ## v1.0.75 — one visible AI response
 
 The feed previously appended generated text to the generic response whenever the original contained a number, mastery/resolve wording, or a narration event. Generated prose now appears once. Authoritative game results are available in an initially collapsed Game result entry in both live feed and history. Older saved concatenated entries display correctly without rewriting their stored text. Pending and completed entries reject repeated enrichment calls.

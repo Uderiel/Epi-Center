@@ -17,7 +17,7 @@ function formMindAction(kind,text=''){
   else if(kind==='escape')messages=[G.escape(save)];
   else {
    if(!B.presence(save)&&!(kind==='play'&&b.releaseLocation===save.hub.location&&b.promises.play))throw Error('No canine consciousness is present.');if(save.encounter?.active)throw Error('Finish the encounter first.');
-   if(['play','outside','rest','cue','train','eat'].includes(kind)){const permission=G.allowActivity(save,kind);for(const text of permission.messages)feedEntry('Private · Kibbles',text);if(!permission.allowed){advanceGameTime(8,'Contested canine action');store();render();return true;}}
+   if(['play','outside','rest','cue','train','eat'].includes(kind)){const permission=G.allowActivity(save,kind);for(const text of permission.messages)feedEntry('Private · Kibbles',text,undefined,{origin:'mechanics'});if(!permission.allowed){advanceGameTime(8,'Contested canine action');store();render();return true;}}
    if(kind==='share')messages=[G.requestSharedControl(save)];
    else if(kind==='insight')messages=[B.insight(save,c)];
    else if(kind==='respect')messages=[B.event(save,{id,type:'respect',now})];
@@ -36,7 +36,7 @@ function formMindAction(kind,text=''){
    else if(kind==='crate-store'){if(!EpiKibblesForm.capabilities(save).manipulation||!EpiKibblesForm.treats(save))throw Error('You need usable hands and an owned snack.');save.inventory.dogTreats--;b.crate.food++;messages=['One owned snack placed in the crate; inventory updated.'];}
    else return false;
   }
-  for(const message of messages.filter(Boolean))feedEntry('Private · '+targetName,message);
+  for(const message of messages.filter(Boolean))feedEntry('Private · '+targetName,message,undefined,{origin:'mechanics'});
  }catch(error){feedEntry('A.S.S.',error.message);}store();render();return true;
 }
 function formMindIntent(text){if(/^(?:i\s+)?(?:(?:try|attempt) to )?resist (?:(?:[a-z]+[’']s|her|his|its|this|the|current)\s+)*(?:decision|routine|action|plan)[.!]?$/i.test(String(text).trim()))return 'decision';return EpiCanineIntent.parse(text)?.kind||null;}

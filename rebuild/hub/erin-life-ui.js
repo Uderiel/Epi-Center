@@ -6,7 +6,7 @@ function erinLifeAction(action,id=''){try{const L=EpiErinLife,H=EpiErinHousehold
 document.addEventListener('click',event=>{const b=event.target.closest?.('[data-life]');if(b&&!b.disabled){closeDrawer();erinLifeAction(b.dataset.life,b.dataset.lifeId||'');}});
 for(const d of EpiErinHousehold.data.catalog)EpiWorldObjects.register('erin-item:'+d.id,{name:()=>d.name,visible:(s,scope)=>{const x=EpiErinHousehold.state(s).items[d.id];return scope==='inventory'?['inventory','equipped'].includes(x.location):EpiErin.inside(s)&&EpiErinHousehold.available(s,d)&&!['inventory','equipped'].includes(x.location);},actions:s=>EpiErinHousehold.actions(s,d.id),perform(s,action){if(action!=='examine')EpiErinLife.beforeAction(s,'household-item');const result=EpiErinHousehold.item(s,d.id,action);if(EpiErin.inside(s)){EpiApartmentNav.state(s).item=d.id;EpiApartmentNav.record(s,null,result.text);}EpiErinHousehold.state(s).lastAction=result.text;return result;}});
 
-EpiErinLife.setReporter(message=>feedEntry('Private · Erin',message));
+EpiErinLife.setReporter(message=>feedEntry('Private · Erin',message,undefined,{origin:'mechanics'}));
 EpiErin.setAuthority((s,kind,destination)=>EpiErinLife.beforeAction(s,kind,destination));
 
 /* Each selected fixture owns its physical actions and storage contents. */
