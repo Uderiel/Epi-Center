@@ -572,7 +572,7 @@ Epi-Center multiplayer RPG prototype.
 
 | Version | Play / preview | Repository source | Status |
 |---|---|---|---|
-| **v1.0.78 — daily life / office workspace** | **[Open v1.0.78](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.78)** | [Daily life and office](docs/ERIN-DAILY-LIFE-AND-OFFICE.md) | Automated/browser QA PASS; publication verification follows |
+| **v1.0.78 — daily life / office workspace** | **[Open v1.0.78](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.78)** | [Daily life and office](docs/ERIN-DAILY-LIFE-AND-OFFICE.md) | Published and source verified; 681 automated cases + 12 browser checks PASS |
 | **v1.0.77 — Erin wellbeing / bedtime** | **[Open v1.0.77](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.77)** | [Wellbeing and bedtime](docs/ERIN-WELLBEING-AND-BEDTIME.md) | Published and source verified; 657 automated cases + 9 browser checks PASS |
 | **v1.0.49 — Hangry Fangs / exploration fog** | **[Open v1.0.49](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.49)** | [Quest](docs/HANGRY-FANGS-QUEST.md) · [Active unfinished-work log](docs/OPEN-TASKS-AND-DECISIONS.md) | Automated/browser QA PASS; owner acceptance pending |
 | **v1.0.34 — Phase 0 creation-route repair** | **[Open v1.0.34](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.34)** | [Creation source](https://github.com/Uderiel/Epi-Center/blob/main/rebuild/character-creation/index.html) | **USER ACCEPTED — 5/5 PASS** |
