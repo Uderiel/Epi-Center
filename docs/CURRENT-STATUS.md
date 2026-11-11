@@ -1,3 +1,9 @@
+## v1.0.75 — one visible AI response
+
+The feed previously appended generated text to the generic response whenever the original contained a number, mastery/resolve wording, or a narration event. Generated prose now appears once. Authoritative game results are available in an initially collapsed Game result entry in both live feed and history. Older saved concatenated entries display correctly without rewriting their stored text. Pending and completed entries reject repeated enrichment calls.
+
+628 automated cases plus entity assertions pass. Managed-browser checks with controlled inference verified composing state, one visible response, expandable quest facts, persistence after reload, and immediate generic dialogue when AI is disabled. Regression coverage includes private forms, legacy entries, and duplicate generation calls. No save reset is required.
+
 ## v1.0.74 — Erin’s Reception F
 
 Technology Center #98 now displays the approved 1100 × 733 reception art in F. Inspect the furniture, sit in the waiting area, or use the south and west doors. Richard’s existing 20-minute report assignment now asks for three brief written sections at minutes 5, 10 and 15. Drafts and completed sections save with the assignment. In-person delivery awards the existing 50 gold and +2 relationship once. See [Erin’s Reception F](ERIN-RECEPTION-F.md) for source notes and acceptance.

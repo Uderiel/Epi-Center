@@ -1,7 +1,26 @@
 /* Owner-only test connection: provider credentials never enter the browser. */
 let aiInputText='',aiBusy=0,aiStatus='AI is off until a private backend is connected.',aiUsage=null;
 const aiPendingEntries=new WeakSet();
-function aiFeedText(entry){return save.settings?.aiEnabled&&aiPendingEntries.has(entry)?'Composing a response…':entry.text||'';}
+function aiFeedText(entry){
+ if(save.settings?.aiEnabled&&aiPendingEntries.has(entry))return 'Composing a response…';
+ const text=entry.text||'',prefix=entry.canonicalText+'\n\n';
+ // Older saves may contain the original reply concatenated with generated prose.
+ if(entry.aiGenerated&&entry.canonicalText&&text.startsWith(prefix))return text.slice(prefix.length);
+ return text;
+}
+function aiGameResultDetails(entry){
+ if(!entry.aiGenerated||aiFeedPending(entry))return null;
+ const legacyPrefix=entry.canonicalText+'\n\n';
+ const result=entry.aiResultText||(entry.canonicalText&&entry.text?.startsWith(legacyPrefix)?entry.canonicalText:'');
+ if(!result||result===aiFeedText(entry))return null;
+ const details=document.createElement('details');
+ const summary=document.createElement('summary');
+ summary.textContent='Game result';
+ const text=document.createElement('div');
+ text.textContent=EpiWorldClock.formatText(result);
+ details.append(summary,text);
+ return details;
+}
 function aiFeedPending(entry){return !!save.settings?.aiEnabled&&aiPendingEntries.has(entry);}
 const AI_CONFIG_KEY='epicenter_ai_endpoint',AI_CODE_KEY='epicenter_ai_game_access';
 function aiHasPending(){return aiBusy>0;}
@@ -12,6 +31,7 @@ function aiSettingsMarkup(){const c=aiConnection(),b=aiUsage?.budget;return '<se
 async function aiFetch(path,packet){const c=aiConnection();if(!c.endpoint||!c.code)throw Error('Configure the private backend and game access code in Settings.');const response=await fetch(aiEndpoint(c.endpoint)+path,{method:packet?'POST':'GET',headers:{'Content-Type':'application/json','Authorization':'Bearer '+c.code},...(packet?{body:JSON.stringify(packet)}:{}),signal:AbortSignal.timeout(70000),credentials:'omit',cache:'no-store'});let data;try{data=await response.json();}catch{throw Error('The backend did not return an AI response.');}if(!response.ok)throw Error(data.error||'AI service unavailable.');return data;}
 function aiSceneOptions(actor,event){let formState,richard;if(actor.kind==='form'){const id=actor.id.split(':')[1],m=EpiFormMinds.active(save)===id?EpiFormMinds.mind(save,id):null;formState={transformationStage:id==='erin'?EpiErin.state(save).stage:save.forms?.[id]?.transformationStage,fullyTransformed:id==='erin'?EpiErin.full(save):!!save.forms?.[id]?.completedTransformation,currentDecision:id==='erin'?(EpiErinLife.runtime(save).actor.pending?.action||EpiErinLife.runtime(save).actor.forcedRoutine?.goal||null):id==='kibbles'?(save.kibblesBehavior?.routine?.activity||null):null,mastered:['erin','kibbles'].includes(id)?EpiFormMinds.mastered(save,id):!!save.forms?.[id]?.mastered,influence:m?.influence,relationship:id==='erin'?EpiErin.state(save).relationship:save.forms?.[id]?.relationship,needs:id==='erin'?EpiErinLife.runtime(save).actor.needs:save.devVitals?.needs};}if(actor.id==='npc:richard'){const r=EpiRichard.state(save);richard={activity:r.activity,stress:r.stress,fatigue:r.fatigue,relationship:EpiRichard.relationship(save),task:EpiRichard.taskText(save)};}return {message:actor.kind==='npc'&&!EpiKibblesForm.capabilities(save).speech?'Unintelligible vocalizations; intended human words are private.':aiInputText,event,location:locationName(save.hub.location),time:EpiWorldClock.label(save),appearance:actor.kind==='transformation'?'Describe only the physical changes in this event.':JSON.stringify(EpiKibblesForm.equipped(save)?EpiKibblesForm.body(save):EpiErin.body(save,save.appearance||{})),description:locationDescription(),visibleNPCs:knownNPCs(),formState,richard};}
 function aiEnrichEntry(entry){
+ if(entry.aiGenerated||aiPendingEntries.has(entry))return;
  if(!save.settings?.aiEnabled||!aiConnection().code||!aiConnection().endpoint||aiBusy>=2)return;
  const actor=EpiAIContext.target(entry.speaker,save);if(!actor)return;
  if(['narration','transformation'].includes(actor.kind)&&(!save.settings?.aiNarration||!aiInputText))return;
@@ -20,8 +40,8 @@ function aiEnrichEntry(entry){
  aiFetch('/generate',packet).then(data=>{
   aiUsage=data;const persisted=JSON.parse(localStorage.getItem(key)||'null');if(!save.settings?.aiEnabled||aiConnection().endpoint!==connection.endpoint||aiConnection().code!==connection.code||save!==source||EpiAIContext.sceneKey(save)!==signature||persisted?.lastPlayedAt!==save.lastPlayedAt||!save.hub.feed.includes(entry)){aiStatus='A late AI response was discarded because the scene or save changed.';return;}
   if(typeof data.text!=='string'||!data.text.trim()||data.text.length>8000)throw Error('AI returned unusable dialogue.');
-  const keepFacts=['narration','transformation'].includes(actor.kind)||/\b(?:gold|XP|reward|complete|accepted|resolve|stamina|mastery)\b|\d/i.test(original);
-  entry.canonicalText=original;entry.text=keepFacts?original+'\n\n'+data.text:data.text;entry.aiGenerated=true;entry.aiModel=data.model;aiPendingEntries.delete(entry);EpiAIContext.remember(save,actor.id,packet.message,data.text);aiStatus='Connected · '+data.model;store();
+  const keepFacts=['narration','transformation'].includes(actor.kind)||/\b(?:gold|XP|EXP|reward|completed?|accepted|roll|d20|d50)\b|\b(?:health|stamina|resolve|influence|arousal|relationship|mastery)\b[^.!?\n]{0,40}(?:\d|→)/i.test(original);
+  entry.canonicalText=original;entry.text=data.text;if(keepFacts)entry.aiResultText=original;entry.aiGenerated=true;entry.aiModel=data.model;aiPendingEntries.delete(entry);EpiAIContext.remember(save,actor.id,packet.message,data.text);aiStatus='Connected · '+data.model;store();
  }).catch(error=>{aiStatus=error instanceof TypeError?'Cannot reach the AI backend. The original game response is preserved.':String(error.message||'AI service unavailable.').slice(0,240);}).finally(()=>{aiPendingEntries.delete(entry);aiBusy--;if(save===source){if(screen==='play'||screen==='settings')render();}});
 }
 async function aiCheckUsage(){try{aiUsage=await aiFetch('/usage');aiStatus='Connected · '+aiUsage.model;}catch(error){aiStatus=error instanceof TypeError?'Cannot reach the AI backend. Check its address and deployment.':error.message;}render();}
