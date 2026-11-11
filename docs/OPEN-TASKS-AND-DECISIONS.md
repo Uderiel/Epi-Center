@@ -1,3 +1,7 @@
+## v1.0.79 implemented — presence and body awareness
+
+Form identity after mastery/heel removal, owner-only original-name alias, verbatim single input echo, neutral body responses, footwear access guards, canonical Erin Lillard/Richard Carter, shared living profile/template and appropriate clothing preference are implemented. 709 automated cases and 12 browser checks pass. Retain native adapters for future detailed form routines; generic declarative schedule intentions do not move bodies. Native phone acceptance remains pending.
+
 ## v1.0.78 — published and source verified
 
 [Play v1.0.78](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.78). Gameplay commit `835b7b67241fe4fad640c99743130e9aa62c691e` is on main and rebuild/1.0-foundations. [Pages deployment 43094361458](https://github.com/Uderiel/Epi-Center/actions/runs/43094361458) succeeded. All 67 checked public runtime files/assets match tested source, and the live title reports v1.0.78. **681 named automated cases plus entity assertions and12 managed-browser checks PASS.** No paid inference, backend redeployment or save reset. Use reception desk Inbox/Scheduler/Notes/Files, side-table magazines, and Form for current daily routine/delegation. Morning and recorded after-work home routines use actual rooms, clothes, food, laundry and saved progress. Richard check-ins require in-person agreement. Automatic city commuting and other NPC social invitations remain pending; owner/native-device acceptance is next. Earlier publication-pending entries are historical.

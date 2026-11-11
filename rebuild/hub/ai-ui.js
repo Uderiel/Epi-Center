@@ -2,7 +2,7 @@
 let aiInputText='',aiBusy=0,aiStatus='AI is off until a private backend is connected.',aiUsage=null;
 const aiPendingEntries=new WeakSet();
 function aiFeedText(entry){
- if(EpiAIContext.isPlayerEntry(entry))return entry.canonicalText||entry.text||'';
+ if(EpiAIContext.isPlayerEntry(entry))return entry.inputText??entry.canonicalText??entry.text??'';
  if(save.settings?.aiEnabled&&aiPendingEntries.has(entry))return 'Composing a response…';
  const text=entry.text||'',prefix=entry.canonicalText+'\n\n';
  // Older saves may contain the original reply concatenated with generated prose.
@@ -34,10 +34,10 @@ function aiSceneOptions(actor,event){let formState,richard;if(actor.kind==='form
 function aiEnrichEntry(entry){
  if(EpiAIContext.isPlayerEntry(entry)||entry.origin==='mechanics'||entry.aiGenerated||aiPendingEntries.has(entry))return;
  if(!save.settings?.aiEnabled||!aiConnection().code||!aiConnection().endpoint||aiBusy>=2)return;
- const actor=EpiAIContext.target(entry.speaker,save);if(!actor)return;
+ const actor=EpiAIContext.target(entry.speaker,save,entry);if(!actor)return;
  if(actor.kind==='form'&&entry.origin!=='dialogue')return;
  if(['narration','transformation'].includes(actor.kind)&&(!save.settings?.aiNarration||!aiInputText))return;
- const source=save,connection=aiConnection(),signature=EpiAIContext.sceneKey(source),packet=EpiAIContext.build(source,actor,aiSceneOptions(actor,entry.text));packet.requestId=crypto.randomUUID();
+ const source=save,connection=aiConnection(),signature=EpiAIContext.sceneKey(source),packet=EpiAIContext.build(source,actor,aiSceneOptions(actor,entry.text));if(actor.kind==='form'&&typeof EpiFormLiving!=='undefined'){packet.scene=packet.scene+'\nLiving form context: '+JSON.stringify(EpiFormLiving.context(source));}packet.requestId=crypto.randomUUID();
  const original=entry.text;aiPendingEntries.add(entry);aiBusy++;aiStatus='Generating '+actor.name+' response.';
  aiFetch('/generate',packet).then(data=>{
   aiUsage=data;const persisted=JSON.parse(localStorage.getItem(key)||'null');if(!save.settings?.aiEnabled||aiConnection().endpoint!==connection.endpoint||aiConnection().code!==connection.code||save!==source||EpiAIContext.sceneKey(save)!==signature||persisted?.lastPlayedAt!==save.lastPlayedAt||!save.hub.feed.includes(entry)){aiStatus='A late AI response was discarded because the scene or save changed.';return;}

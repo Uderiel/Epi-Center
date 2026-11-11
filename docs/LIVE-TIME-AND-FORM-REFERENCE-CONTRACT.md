@@ -1,3 +1,5 @@
+v1.0.79 addendum: [Form living template](FORM-LIVING-TEMPLATE.md) now defines immutable form-attributed player entries, bounded body responses and common clothing/schedule intentions. 100% unmastered influence remains authoritative with cursed footwear off; mastery preserves player control and apparent identity.
+
 # Live time and form reference — owner direction, v1.0.62
 
 Form: influence percentage, durable mastery accrual percentage, signed current-form relationship, physical needs. Mastered: influence0, mastery100, recorded tier/allocated XP and existing benefits. Unmastered: routine/current/desired activity reference. Stats: current-form photo plus effective combat resources/alignment/attributes. Appearance: bottom tab and paired details; no top shortcut or needs.

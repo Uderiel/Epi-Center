@@ -1,3 +1,11 @@
+## v1.0.79 — form presence and embodied actions (tested candidate)
+
+Player submissions now appear once, verbatim, under the worn form's name with the original player name in owner-only parentheses. Appearance identity persists after mastery and heel removal. Canonical names are Erin Lillard and Richard Carter; stable save/NPC IDs and Richard's original report/payment system are unchanged.
+
+Neutral body inspection/touch/movement now uses shared anatomy, equipment and authority checks, with rotating private reactions and one AI request per eligible response. Foot massage is blocked until worn footwear is successfully removed. Added validated living profiles, schedule intentions, clothing comfort and future-form template documentation. Erin can dress known undercoverage using real wardrobe items; absent clean clothes produce bounded retries. Existing physical adapters remain authoritative; future forms still need their own detailed autonomous routine adapter.
+
+Verified 100% heels-off Erin movement and morning grooming, 100% canine autonomy, and mastered player control. Existing heels-off Resolve recovery remains separate. Tests and managed-browser acceptance are recorded in `docs/releases/v1.0.79-*`; publication verification follows.
+
 ## v1.0.78 — published and source verified
 
 [Play v1.0.78](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.78). Gameplay commit `835b7b67241fe4fad640c99743130e9aa62c691e` is on main and rebuild/1.0-foundations. [Pages deployment 43094361458](https://github.com/Uderiel/Epi-Center/actions/runs/43094361458) succeeded. All 67 checked public runtime files/assets match tested source, and the live title reports v1.0.78. **681 named automated cases plus entity assertions and12 managed-browser checks PASS.** No paid inference, backend redeployment or save reset. Use reception desk Inbox/Scheduler/Notes/Files, side-table magazines, and Form for current daily routine/delegation. Morning and recorded after-work home routines use actual rooms, clothes, food, laundry and saved progress. Richard check-ins require in-person agreement. Automatic city commuting and other NPC social invitations remain pending; owner/native-device acceptance is next. Earlier publication-pending entries are historical.

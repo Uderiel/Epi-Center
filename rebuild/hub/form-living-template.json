@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "id": "new-form",
+  "name": "New form",
+  "bodyType": "other",
+  "conscious": false,
+  "communication": "Authored sensory impressions only.",
+  "senses": [],
+  "interests": [],
+  "body": {},
+  "responses": {},
+  "schedule": {
+    "wake": {
+      "weekday": 7,
+      "weekend": 8
+    },
+    "sleep": 22,
+    "blocks": [
+      {
+        "id": "morning-care",
+        "start": 7,
+        "end": 9,
+        "days": "weekday",
+        "activity": "morning-care"
+      },
+      {
+        "id": "personal-time",
+        "start": 8,
+        "end": 22,
+        "days": "weekend",
+        "activity": "personal-time"
+      },
+      {
+        "id": "responsibilities",
+        "start": 9,
+        "end": 17,
+        "days": "weekday",
+        "activity": "responsibilities"
+      },
+      {
+        "id": "unwind",
+        "start": 17,
+        "end": 22,
+        "days": "weekday",
+        "activity": "unwind"
+      }
+    ]
+  },
+  "adapterId": null,
+  "clothingComfort": {
+    "public": "clothed",
+    "private": "clothed",
+    "sleep": "sleepwear-or-covered",
+    "occupationExceptions": []
+  }
+}

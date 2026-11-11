@@ -1,3 +1,5 @@
+Current candidate: **v1.0.79** — form identity, body awareness and living profiles. See [form template contract](docs/FORM-LIVING-TEMPLATE.md), [status](docs/CURRENT-STATUS.md), and release verification records.
+
 ## v1.0.74 — Erin’s Reception F
 
 Technology Center #98 now displays the approved 1100 × 733 reception art in F. Inspect the furniture, sit in the waiting area, or use the south and west doors. Richard’s existing 20-minute report assignment now asks for three brief written sections at minutes 5, 10 and 15. Drafts and completed sections save with the assignment. In-person delivery awards the existing 50 gold and +2 relationship once. See [Erin’s Reception F](docs/ERIN-RECEPTION-F.md) for source notes and acceptance.

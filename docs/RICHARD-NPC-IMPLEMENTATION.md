@@ -1,3 +1,5 @@
+Canonical name update (v1.0.79): **Richard Carter**, manager of **Erin Lillard**. Save/NPC IDs, assignment and reward ledgers are unchanged.
+
 ## v1.0.74
 
 Richard’s report work now holds for three written sections within its existing 20 minutes. See [Erin’s Reception F](ERIN-RECEPTION-F.md) for the v1.0.74 workflow.

@@ -1,5 +1,5 @@
 /* Physical household adapter. Room storage never implies player acquisition. */
-(function(r,f){const n=typeof module==='object'&&module.exports;const api=f(n?require('./erin-household-data'):r.EpiErinHouseholdData,n?require('./erin-restoration'):r.EpiErin,n?require('./world-clock'):r.EpiWorldClock,n?require('./equipment-regions'):r.EpiEquipmentRegions);if(n)module.exports=api;else r.EpiErinHousehold=api;})(globalThis,function(D,E,T,Q){
+(function(r,f){const n=typeof module==='object'&&module.exports;const api=f(n?require('./erin-household-data'):r.EpiErinHouseholdData,n?require('./erin-restoration'):r.EpiErin,n?require('./world-clock'):r.EpiWorldClock,n?require('./equipment-regions'):r.EpiEquipmentRegions,n?require('./form-living'):r.EpiFormLiving);if(n)module.exports=api;else r.EpiErinHousehold=api;})(globalThis,function(D,E,T,Q,P){
 'use strict';const copy=x=>JSON.parse(JSON.stringify(x)),now=s=>T.ensure(s).minutes;
 function state(s){E.state(s);const a=s.world.applewood;a.household||={items:{},living:{lamp:false,tv:'off',seat:'',bookReadCount:0},grooming:{prepared:[],skinCare:[]},laundry:{cycle:'empty'},groceries:{bags:[],delivery:null},cycle:{anchorDay:T.view(s).day,offset:9,length:28,periodDays:5},protection:{type:null,appliedAt:null,changes:0}};const h=a.household;
  for(const d of D.catalog)if(!h.items[d.id]){const old=s.items850?.objects?.[d.id];h.items[d.id]=old?copy(old):{location:d.location,condition:'clean'};if(['inventory','equipped'].includes(h.items[d.id].location)){s.inventory||={};s.inventory[d.id]=1;}}
@@ -17,7 +17,7 @@ function item(s,id,action,option){guard(s);const d=def(id),h=state(s),x=d&&h.ite
  if(action==='store'){if(d.kind==='clothing'&&x.condition!=='clean')throw Error('Wash worn clothing before returning it to clean storage.');x.location=d.location;delete s.inventory?.[id];text='You return '+d.name+' to its assigned storage.';}
  if(action==='deposit'){x.location='hamper';delete s.inventory?.[id];text='You deposit '+d.name+' in the hamper.';}
  if(action==='use')return use(s,id,option);
- if(action==='equip'&&d.slot==='sleepwear'){const receipt=E.care(s,'activity:night-change',{stress:2,trust:true,cooldown:30,label:'Comfortable sleepwear'});if(receipt)text+=' '+receipt;}return {minutes,text};}
+ if(action==='equip'&&d.slot==='sleepwear'){const receipt=E.care(s,'activity:night-change',{stress:2,trust:true,cooldown:30,label:'Comfortable sleepwear'});if(receipt)text+=' '+receipt;}if(['equip','unequip'].includes(action)&&d.kind==='clothing')P.markClothingKnown(s);return {minutes,text};}
 function use(s,id,position='standing'){const h=state(s),d=def(id),g=h.grooming,t=now(s);if(!d)throw Error('Unknown household object.');guard(s);if(!available(s,d))throw Error('Take or approach that item first.');let minutes=3,text;
  if(d.kind==='perfume'){g.scent=d.name;g.scentAt=t;text='You apply '+d.name+'. Its fragrance is noticeable.';}
  else if(d.kind==='lotion'){g.bodyLotion=d.name;g.bodyLotionAt=t;minutes=position==='bed'?5:3;if(position==='bed')guard(s,'bedroom');text='You apply '+d.name+(position==='bed'?' while seated on the bed.':'.');}

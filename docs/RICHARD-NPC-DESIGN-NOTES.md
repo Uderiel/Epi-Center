@@ -1,3 +1,5 @@
+Canonical name update (v1.0.79): **Richard Carter**, manager of **Erin Lillard**. Save/NPC IDs, assignment and reward ledgers are unchanged.
+
 # Richard NPC design notes
 
 Implemented baseline in v1.0.64; see [current implementation contract](RICHARD-NPC-IMPLEMENTATION.md). Historical proposals and pending extensions below are retained.
