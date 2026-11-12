@@ -1,3 +1,7 @@
+## v1.0.85 publication verification
+
+Gameplay `b66a9cdfd6b06af03a3f502c700c6a11507507b8` published on both branches; Pages run 43143551240 succeeded and six deployed runtime files match. 750 automated cases plus entity assertions and ten live desktop check groups PASS. Owner hierarchy acceptance pending. See releases/v1.0.85-browser-checks.json and v1.0.85-live-verification.json.
+
 ## v1.0.85 — layered object navigation
 
 Owner accepts the v1.0.84 work correction (“Works fine now”). G’s room-level fixtures are desk, display shelving, chairs, plants, windows/blinds, filing cabinets and east door. Desk exposes only Desktop and Desk drawers. Desktop exposes computer, scheduler, pens/nameplate and intercom; Desk drawers exposes the four existing drawers. Windows exposes the three independent blinds. Back follows one saved parent at a time. Older saved leaf views normalize into the new hierarchy; object IDs and all permissions/use effects remain unchanged. Viewing and Back are free. The room-level Work summary is omitted in G while the Work shortcut remains.

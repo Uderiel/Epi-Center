@@ -1,0 +1,49 @@
+{
+  "version": "1.0.85",
+  "environment": "cloud desktop browser, disposable Workflow QA slot 1; AI off; live time paused",
+  "checks": [
+    {
+      "name": "Public title and Hub display v1.0.85; slot 1 retained, slots 2/3 empty",
+      "result": "PASS"
+    },
+    {
+      "name": "Richard room list exposes seven major fixtures and omits desk/blind leaves",
+      "result": "PASS"
+    },
+    {
+      "name": "Desk exposes Desktop and Desk drawers only",
+      "result": "PASS"
+    },
+    {
+      "name": "Desktop exposes four desktop objects without drawers",
+      "result": "PASS"
+    },
+    {
+      "name": "Scheduler Back returns Desktop then desk",
+      "result": "PASS"
+    },
+    {
+      "name": "Drawer group exposes four drawers without desktop objects",
+      "result": "PASS"
+    },
+    {
+      "name": "Locked drawer retains permissions; Back label targets Desk drawers",
+      "result": "PASS"
+    },
+    {
+      "name": "Reload retains selected drawer and correct parent path",
+      "result": "PASS"
+    },
+    {
+      "name": "Drawer Back returns drawers then desk then office",
+      "result": "PASS"
+    },
+    {
+      "name": "Windows group exposes three independent blind choices",
+      "result": "PASS"
+    }
+  ],
+  "owner_acceptance": "PENDING",
+  "native_android": "UNTESTED",
+  "screenshot": "images/v1.0.85-office-layers.jpg"
+}

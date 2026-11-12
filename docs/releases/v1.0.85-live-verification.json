@@ -1,0 +1,38 @@
+{
+  "version": "1.0.85",
+  "gameplay_commit": "b66a9cdfd6b06af03a3f502c700c6a11507507b8",
+  "pages_run": 43143551240,
+  "pages_conclusion": "success",
+  "files": [
+    {
+      "path": "rebuild/title-screen/index.html",
+      "sha256": "7fbe079df4d23b59f29dee9e96a539505a19bbf91f7c59047e88d901ff8da253",
+      "matches": true
+    },
+    {
+      "path": "rebuild/character-creation/index.html",
+      "sha256": "f780b43a204e5718c05962f15a26f16ec127af5192ab0257c23ba972a0d628a3",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/index.html",
+      "sha256": "0ab9db0a3de82dadcc40785959af7f157c3d3b4c204a2a5162d70af69d1e4e73",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/technology-center.js",
+      "sha256": "1705a5c2d27dfa78d8926d3619fe0cfcc111888292a45ecd1e4effe9bfd3c3c7",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/technology-center-ui.js",
+      "sha256": "b1562bd404cdd26787b20f8d567e99e782a384d72ef9d6f925b4d615424a3d46",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/richard-office.js",
+      "sha256": "54300547bbaf3cb10c5e8ba42eefd310cd0f7b6cf770dc3d71ec85d3fa9b6068",
+      "matches": true
+    }
+  ]
+}
