@@ -1,4 +1,4 @@
-# Office work usability correction — v1.0.81
+# Office work usability correction — v1.0.82
 
 ## Owner feedback and acceptance
 
@@ -41,4 +41,8 @@ Richard receives the exact saved task status, elapsed/total work time, workstati
 5. Open Scheduler: check-in purpose/location is explicit and Attend is offered only when it can succeed. No meeting is needed to accept reports.
 6. In G select desk → drawer → Back: return to desk listing, then Back to the office. Confirm accepted art/furniture/blinds remain.
 
-Automated evidence: releases/v1.0.81-tests.json. Live-browser and deployment evidence are recorded separately. Owner/native Android acceptance is pending until actual PASS/FAIL/UNTESTED results are supplied.
+Automated evidence: releases/v1.0.82-tests.json. Live-browser and deployment evidence are recorded separately. Owner/native Android acceptance is pending until actual PASS/FAIL/UNTESTED results are supplied.
+
+## v1.0.82 live usability correction
+
+Explicit Work navigation now opens/focuses the current workspace after normal disclosure restoration, including G→F arrival, and resets its inner scroll. Routine controls explain that an extra report must be paused first. Fresh asset URLs isolate the final corrected scripts from earlier candidate caches. Earlier v1.0.81 candidate source/publication records remain historical.

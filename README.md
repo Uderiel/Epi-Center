@@ -1,3 +1,17 @@
+## v1.0.82 — report wording flexibility and direct Work reveal (tested candidate)
+
+Continues the owner-reported office work failures recorded for v1.0.79/80. v1.0.81 introduced the Work/report/duty corrections; live testing found preserved collapsed-panel state could conceal Work’s result, and the owner requested flexible answers beyond copied source text. This correction keeps the same assignment/payment/save IDs and Phase 10/11 scope.
+
+Local report review now accepts concise factual paraphrases, synonym groups and light spelling errors, with AI off. It names missing/contradictory ideas and keeps drafts unchanged. Valid local answers bypass paid review; optional AI can assess additional paraphrases. Recognized conflicting facts cannot be accepted by an AI verdict. This is bounded language matching, not unlimited semantic interpretation. Richard’s canonical work state and no-deadline contract remain authoritative.
+
+Work explicitly opens/focuses the reception workspace and resets its inner scroll, including after legal G→F travel; preserved disclosure state cannot hide that deliberate action. Removed duplicate task-status text in Work, and routine-duty controls explain when an active additional report must first be paused. Desk Back retains its parent as implemented in v1.0.81. Fresh v1.0.82 asset URLs prevent an earlier candidate’s scripts remaining cached.
+
+**744 named automated cases plus entity assertions PASS**, syntax/module paths/whitespace PASS. Tests include the owner’s spoken acceptance phrases, written paraphrases/typos, specific revision feedback/draft retention, full paused-time report/reward rules, Work reveal after saved collapse, day duties and slot isolation. Live tests on v1.0.81 already demonstrated saved natural acceptance, manual five-minute report checkpoints and routine-duty progress surviving reload. Final v1.0.82 live-publication/browser verification follows; owner/native Android acceptance remains pending. No paid inference, backend change or save reset.
+
+Owner scoped PASS remains furniture, drawer operations and blinds. Report/control usability and drawer-parent retest remain pending, not automatically accepted. See [office workflow](docs/OFFICE-WORKFLOW.md). Next exact action: complete live v1.0.82 acceptance→paraphrased report→delivery/filing and Work/drawer navigation checks, then record actual owner results.
+
+[Play v1.0.82 after deployment](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.82).
+
 ## v1.0.81 — office work usability and workday duties (tested candidate)
 
 Baseline: v1.0.80 gameplay `00c3049`, documentation `7f0ddcc`. Owner scoped PASS: Richard’s furniture, drawer interactions and blinds. Owner FAIL: buried report acceptance/work controls, verbal acceptance not changing offered task, inability to find report creation, confusing check-ins, and drawer Back skipping the desk. Full report delivery/filing owner acceptance remains UNTESTED. This Phase 10/11 correction addresses those failures before further room expansion.
@@ -609,6 +623,7 @@ Epi-Center multiplayer RPG prototype.
 
 | Version | Play / preview | Repository source | Status |
 |---|---|---|---|
+| **v1.0.82 — flexible report wording / Work reveal** | **[Open v1.0.82](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.82)** | [Office workflow](docs/OFFICE-WORKFLOW.md) | 744 automated cases PASS; publication/browser/owner acceptance tracked separately |
 | **v1.0.81 — office workflow correction** | **[Open v1.0.81](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.81)** | [Office workflow](docs/OFFICE-WORKFLOW.md) | 743 automated cases PASS; publication/browser/owner acceptance tracked separately |
 | **v1.0.80 — Richard’s office G** | **[Open v1.0.80](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.80)** | [Office G](docs/RICHARD-OFFICE-G.md) | Published/source verified; 728 automated cases + 8 desktop checks PASS; owner acceptance pending |
 | **v1.0.79 — form presence** | **[Open v1.0.79](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.79)** | [Living forms](docs/FORM-LIVING-TEMPLATE.md) | Published/source verified; owner acceptance pending |
