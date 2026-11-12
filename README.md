@@ -1,3 +1,13 @@
+## v1.0.83 — final Work visibility correction (tested candidate)
+
+Final correction within the same owner-requested office workflow slice. Live v1.0.82 checks proved natural saved acceptance, all three paraphrased written sections with AI off, specific conflicting-fact feedback and saved draft, deliberate twenty-minute report completion, in-person 50-gold delivery, filing of all original written answers, routine progress/reload and desk → drawer → desk Back. A second animation-frame restoration could still close Work after it was explicitly opened; the reveal now runs after that restoration too, guarded against a changed save/location. Final report assembly has a clear Finish report label; duplicate ready-delivery controls are reduced.
+
+**744 named automated cases plus entity assertions PASS**; syntax/module paths/whitespace PASS. The explicit Work test now simulates the later frame closing the panel and verifies it reopens. The broader v1.0.81/82 mechanics and owner acceptance boundaries remain unchanged. Fresh v1.0.83 asset URLs load the final scripts. Publication/source/browser verification follows; no paid inference, backend deployment or save reset.
+
+Owner scoped furniture/drawer-operation/blind PASS is preserved. Owner acceptance of work usability, paraphrased reports, check-in clarity and drawer Back remains pending actual results; live browser checks are separate evidence. Next exact action: verify final Work across the later frame and after G→F travel, then present the concise acceptance checklist. See [office workflow](docs/OFFICE-WORKFLOW.md).
+
+[Play v1.0.83 after deployment](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.83).
+
 ## v1.0.82 — report wording flexibility and direct Work reveal (tested candidate)
 
 Continues the owner-reported office work failures recorded for v1.0.79/80. v1.0.81 introduced the Work/report/duty corrections; live testing found preserved collapsed-panel state could conceal Work’s result, and the owner requested flexible answers beyond copied source text. This correction keeps the same assignment/payment/save IDs and Phase 10/11 scope.
@@ -623,6 +633,7 @@ Epi-Center multiplayer RPG prototype.
 
 | Version | Play / preview | Repository source | Status |
 |---|---|---|---|
+| **v1.0.83 — final office work correction** | **[Open v1.0.83](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.83)** | [Office workflow](docs/OFFICE-WORKFLOW.md) | 744 automated cases PASS; final publication/browser/owner acceptance tracked separately |
 | **v1.0.82 — flexible report wording / Work reveal** | **[Open v1.0.82](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.82)** | [Office workflow](docs/OFFICE-WORKFLOW.md) | 744 automated cases PASS; publication/browser/owner acceptance tracked separately |
 | **v1.0.81 — office workflow correction** | **[Open v1.0.81](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.81)** | [Office workflow](docs/OFFICE-WORKFLOW.md) | 743 automated cases PASS; publication/browser/owner acceptance tracked separately |
 | **v1.0.80 — Richard’s office G** | **[Open v1.0.80](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.80)** | [Office G](docs/RICHARD-OFFICE-G.md) | Published/source verified; 728 automated cases + 8 desktop checks PASS; owner acceptance pending |
