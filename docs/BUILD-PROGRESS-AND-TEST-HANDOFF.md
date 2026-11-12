@@ -1,3 +1,15 @@
+## v1.0.81 — office work usability and workday duties (tested candidate)
+
+Baseline: v1.0.80 gameplay `00c3049`, documentation `7f0ddcc`. Owner scoped PASS: Richard’s furniture, drawer interactions and blinds. Owner FAIL: buried report acceptance/work controls, verbal acceptance not changing offered task, inability to find report creation, confusing check-ins, and drawer Back skipping the desk. Full report delivery/filing owner acceptance remains UNTESTED. This Phase 10/11 correction addresses those failures before further room expansion.
+
+Added direct Work shortcut, visible saved-offer Accept/Decline at reception, natural acceptance/refusal routing, explicit five-minute report progression with source-backed written checkpoints and paused-live-time support, weekday reception duty blocks with saved progress/notes, clear optional workload check-ins at Erin’s Reception F, and desk-child Back navigation. Original report/payment/save IDs and approved artwork remain. Richard AI receives the canonical task/source facts and is forbidden to invent deadlines or new requirements; old inaccurate Richard AI history is retained but excluded from future prompts. Critical work transitions show canonical results directly.
+
+**740 named automated cases plus entity assertions PASS**, syntax/module paths and whitespace PASS. Includes the exact owner acceptance phrases, full report completion/reward rules with live time off, routine workday blocks/pause/reload/three-slot isolation, desk parent state and AI-history grounding. Prepublication local browser preview is unavailable under browser protocol policy; no blocked preview is claimed passed. Live-publication/browser verification follows. No paid inference, backend deployment or save reset.
+
+Implementation defaults: half-hour regular duty blocks on weekdays 09:00–17:00, lunch 12:00–12:30, explicit five-minute work steps; no new routine bonus or automatic attendance/commute. Existing beverage fulfillment and broader NPC content remain pending. See [office workflow correction](OFFICE-WORKFLOW.md) for scope, user evidence and six acceptance steps. Next: verify live v1.0.81 and record owner PASS/FAIL/UNTESTED before accepting the work slice.
+
+[Play v1.0.81 after deployment](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.81). Until verified, v1.0.80 remains the recorded published build.
+
 ## v1.0.80 — published; office live verification complete
 
 [Play v1.0.80](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.80). Gameplay commit `00c30498b9c30666a279da898287d4297dab49cc` is on main and rebuild/1.0-foundations. [Pages run 43125385851](https://github.com/Uderiel/Epi-Center/actions/runs/43125385851) succeeded for that exact commit. All eight checked deployed entrypoints/office modules/art assets match tested source byte-for-byte; the live Hub reports v1.0.80.
