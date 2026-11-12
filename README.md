@@ -1,3 +1,7 @@
+### v1.0.83 final scroll-layer refinement
+
+Live testing additionally found a nested office screen could retain its own scroll after the parent dock reset. Explicit Work reveal now resets the parent dock, current office screen and nested workspace scroll areas after frame restoration; a regression assertion covers the nested layer. Richard UI uses a fresh work2 asset cache key. All 744 automated cases still pass. Gameplay publication/source verification for the final revision follows; earlier candidate SHA checks remain historical.
+
 ## v1.0.83 — final Work visibility correction (tested candidate)
 
 Final correction within the same owner-requested office workflow slice. Live v1.0.82 checks proved natural saved acceptance, all three paraphrased written sections with AI off, specific conflicting-fact feedback and saved draft, deliberate twenty-minute report completion, in-person 50-gold delivery, filing of all original written answers, routine progress/reload and desk → drawer → desk Back. A second animation-frame restoration could still close Work after it was explicitly opened; the reveal now runs after that restoration too, guarded against a changed save/location. Final report assembly has a clear Finish report label; duplicate ready-delivery controls are reduced.
