@@ -1,6 +1,6 @@
 {
   "checkpoint": "v1.0.81 implementation candidate",
-  "namedCases": 740,
+  "namedCases": 743,
   "suiteResults": [
     {
       "file": "rebuild/combat/civilian-encounter.test.js",
@@ -179,7 +179,7 @@
     {
       "file": "rebuild/hub/office-workflow.test.js",
       "exitCode": 0,
-      "output": "PASS reported natural acceptance phrases resolve as acceptance rather than generic talk or premature work\nPASS saved offered assignment can be accepted or declined at reception without Richard present\nPASS responding remotely or as another body cannot mutate an offer\nPASS explicit begin report can accept saved offer and all three sections are generated with paused live time\nPASS routine work fills weekday blocks with distinct duties and excludes lunch weekends and evenings\nPASS routine duty records progress and completion without paying extra or altering report acceptance\nPASS leaving reception pauses a duty and reload retains completed minutes\nPASS routine task does not run simultaneously with an active extra report\nPASS desk child selection keeps its immediate parent and resets after movement\nPASS work controls are above correspondence and offered assignments always expose actual response buttons\nPASS Richard prompt forbids fabricated deadlines and old invented work history is retained but excluded\nPASS routine ledger and offers remain isolated across all three saves\n",
+      "output": "PASS reported natural acceptance phrases resolve as acceptance rather than generic talk or premature work\nPASS saved offered assignment can be accepted or declined at reception without Richard present\nPASS responding remotely or as another body cannot mutate an offer\nPASS explicit begin report can accept saved offer and all three sections are generated with paused live time\nPASS routine work fills weekday blocks with distinct duties and excludes lunch weekends and evenings\nPASS routine duty records progress and completion without paying extra or altering report acceptance\nPASS leaving reception pauses a duty and reload retains completed minutes\nPASS routine task does not run simultaneously with an active extra report\nPASS desk child selection keeps its immediate parent and resets after movement\nPASS work controls are above correspondence and offered assignments always expose actual response buttons\nPASS Richard prompt forbids fabricated deadlines and old invented work history is retained but excluded\nPASS routine ledger and offers remain isolated across all three saves\nPASS sales section accepts varied wording and small spelling errors without copied source prose\nPASS discrepancy and recommendation accept natural paraphrases beyond the original keywords\nPASS incorrect or irrelevant answers receive specific feedback and retain their original draft\n",
       "stderr": ""
     },
     {

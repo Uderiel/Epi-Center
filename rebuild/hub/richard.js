@@ -10,26 +10,29 @@ const REPORT_SECTIONS=Object.freeze([
   minute:5, title:'Sales summary',
   facts:'Weekly sales rose after the promotion. Returns stayed near their usual level.',
   prompt:'Summarize the sales result and what happened to returns in one or two sentences.',
-  matches: text => /\b(sales|revenue|orders)\b/i.test(text) &&
-   /\b(rose|risen|up|grew|growth|higher|increase\w*|improv\w*|climb\w*)\b/i.test(text) &&
-   /\breturns?\b/i.test(text) && /\b(steady|stable|flat|unchanged|usual|constant|consistent|same|didn.t change|did not change|near normal)\b/i.test(text)
+  matches: text => reviewReportAnswer(0,text).accepted
  }),
  Object.freeze({
   minute:10, title:'Explain the discrepancy',
   facts:'The sales tracker counts pending orders. The shipment report counts shipped orders only.',
   prompt:'Explain why the two reports can show different totals.',
-  matches: text => /\b(pending|unshipped|open|outstanding|awaiting|not yet shipped)\b/i.test(text) &&
-   /\b(ship\w*|dispatch\w*|fulfill\w*)\b/i.test(text) &&
-   /\b(count\w*|includ\w*|exclud\w*|total\w*|track\w*|report\w*)\b/i.test(text)
+  matches: text => reviewReportAnswer(1,text).accepted
  }),
  Object.freeze({
   minute:15, title:'Recommend an action',
   facts:'Richard needs comparable figures for his next briefing. Pending orders can still change before shipment.',
   prompt:'Recommend a practical next step before Richard briefs the team.',
-  matches: text => /\b(reconcil\w*|breakdown|break down|split|distinguish\w*|compar\w*|check\w*|verif\w*|confirm\w*|match\w*|separat\w*|align\w*|review\w*|label\w*|updat\w*|standardiz\w*)\b/i.test(text) &&
-   /\b(pending|ship\w*|orders?|reports?|totals?|figures|tracker|counts?|data)\b/i.test(text)
+  matches: text => reviewReportAnswer(2,text).accepted
  })
 ]);
+// Local meaning checks: synonym groups and light spelling tolerance; original prose is never rewritten.
+function nearWord(a,b){if(a===b)return true;if(a.length<5||b.length<5||Math.abs(a.length-b.length)>1)return false;if(a.length===b.length){const d=[];for(let i=0;i<a.length;i++)if(a[i]!==b[i])d.push(i);return d.length===1||d.length===2&&d[1]===d[0]+1&&a[d[0]]===b[d[1]]&&a[d[1]]===b[d[0]];}const shorter=a.length<b.length?a:b,longer=a.length>b.length?a:b;let i=0,j=0,skips=0;while(i<shorter.length&&j<longer.length){if(shorter[i]===longer[j]){i++;j++;}else{skips++;j++;if(skips>1)return false;}}return true;}
+function reviewReportAnswer(index,raw){const text=String(raw).toLowerCase().replace(/[’]/g,"'").replace(/[^a-z0-9'\s]/g,' '),words=text.split(/\s+/).filter(Boolean),has=(...terms)=>terms.some(term=>term.includes(' ')?text.includes(term):words.some(w=>nearWord(w,term))),missing=[];let conflicting=false;
+ if(index===0){const sales=has('sales','revenue','orders','business'),up=has('rose','risen','up','grew','growth','higher','increase','increased','improved','improvement','better','climbed','stronger','more','picked up'),returns=has('return','returns','refund','refunds','sent back','sending back'),steady=has('steady','stable','flat','unchanged','usual','constant','consistent','same','normal','level','similar','little change','did not change',"didn't change",'no change','not changed');if(!sales||!up)missing.push('explain that sales improved');if(!returns||!steady)missing.push('explain that returns stayed roughly the same');conflicting=/\b(?:sales|revenue|orders|business)\b.{0,30}\b(?:fell|declined|dropped|decreased|worse)\b/.test(text)||/\b(?:returns?|refunds?)\b.{0,25}\b(?:soared|surged|doubled)\b/.test(text)||/\b(?:sales|revenue)\b.{0,15}\b(?:not|never)\b.{0,12}\b(?:increased|improved|higher)\b/.test(text);}
+ else if(index===1){const pending=has('pending','unshipped','open','outstanding','awaiting','unfilled','unfulfilled','not yet shipped',"haven't shipped",'have not shipped',"haven't gone out",'not gone out','waiting','not dispatched','not sent','not delivered'),shipped=has('shipped','shipment','shipments','shipping','dispatch','dispatched','deliveries','delivered','sent','fulfilled','gone out'),difference=has('counts','count','includes','include','excludes','totals','total','tracker','report','reports','only','just','one','other','both');if(!pending)missing.push('mention orders still pending or not yet sent');if(!shipped||!difference)missing.push('distinguish those orders from the shipped-only report');conflicting=/\b(?:both|each)\b.{0,35}\b(?:count|counts|include|includes)\b.{0,18}\bpending\b/.test(text)&&!has('not','unlike','rather');}
+ else if(index===2){const action=has('reconcile','reconciling','reconciliation','breakdown','break down','split','distinguish','compare','comparison','comparing','check','checking','verify','confirm','match','separate','separately','align','review','label','update','standardize','consistent','consistency','same basis','same definition','like for like'),subject=has('pending','shipped','shipment','orders','order','reports','report','totals','total','figures','tracker','counts','data','numbers','definitions','unfilled','outstanding');if(!action||!subject)missing.push('suggest checking or aligning the figures, or separating pending orders before the briefing');}
+ else missing.push('choose the current report section');
+ if(conflicting)missing.push('remove the claim that conflicts with the source facts');return {accepted:missing.length===0,missing,conflicting};}
 const REPORT_DRAFT_LIMIT=480;
 function firstUnanswered(task){
  return REPORT_SECTIONS.findIndex((_,index)=>!task.report?.answers?.[index]);
@@ -60,7 +63,7 @@ function submitReportSection(save,index,interpreted=false){
  if(!current||current.index!==index)throw Error('That report section is no longer open.');
  const answer=current.draft.trim();
  if(!reportAnswerIsBrief(answer))throw Error('Write a short answer in one or two sentences.');
- if(!current.section.matches(answer)&&interpreted!==true)throw Error('Use the source notes to answer this section’s question. Your draft is saved.');
+ const review=reviewReportAnswer(index,answer);if(review.conflicting||!review.accepted&&interpreted!==true)throw Error('Using the source notes, please '+review.missing.join('; ')+'. Your wording is welcome and your draft is saved.');
  const task=state(save).task;
  task.report||={answers:[],draft:''};
  task.report.answers[index]=answer;
@@ -131,5 +134,5 @@ function worldIntent(raw){const q=String(raw).trim();if(/\b(?:report|summary|ass
 function combatant(save){guard(save,false);if(!F.equipped(save)&&!save.encounter?.outcome?.mastery&&Object.values(save.encounter?.anatomy?.coverage||{}).some(n=>n>0))throw Error('Resolve the retained hostile attachment before beginning another encounter.');const s=state(save);if(s.resources.health<=0||s.resources.resolve<=0||s.resources.arousal>=100)throw Error('Richard cannot begin another confrontation in his current condition.');return {...copy(definition),resources:copy(s.resources),team:'opponent'};}
 function aggression(save){guard(save,false);changeRelationship(save,-20);const s=state(save);s.stress=clamp(s.stress+20,0,100);s.work=null;if(s.task?.status==='working')s.task.status='accepted';return '“Stop. We can settle this without fighting.”';}
 function applyCombat(save,encounter){const s=state(save);s.resources=copy(encounter.engine.units.find(u=>u.id==='richard').resources);if(!encounter.active&&!encounter.applied){encounter.applied=true;s.lastConflict={at:C.ensure(save).minutes,outcome:copy(encounter.outcome)};return 'The confrontation ends. No form, transformation, mastery, money or equipment changes hands.';}return '';}
-return Object.freeze({REPORT_SECTIONS,respondOffer,workStep,REPORT_DRAFT_LIMIT,reportSection,saveReportDraft,reportAnswerIsBrief,submitReportSection,definition,BONUS,WORK_MINUTES,state,present,relationship,calendar,goal,roomPath,worldPath,tick,act,beginWork,parse,worldIntent,taskText,combatant,aggression,applyCombat});
+return Object.freeze({reviewReportAnswer,REPORT_SECTIONS,respondOffer,workStep,REPORT_DRAFT_LIMIT,reportSection,saveReportDraft,reportAnswerIsBrief,submitReportSection,definition,BONUS,WORK_MINUTES,state,present,relationship,calendar,goal,roomPath,worldPath,tick,act,beginWork,parse,worldIntent,taskText,combatant,aggression,applyCombat});
 });
