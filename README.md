@@ -1,3 +1,13 @@
+## v1.0.80 — published; office live verification complete
+
+[Play v1.0.80](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.80). Gameplay commit `00c30498b9c30666a279da898287d4297dab49cc` is on main and rebuild/1.0-foundations. [Pages run 43125385851](https://github.com/Uderiel/Epi-Center/actions/runs/43125385851) succeeded for that exact commit. All eight checked deployed entrypoints/office modules/art assets match tested source byte-for-byte; the live Hub reports v1.0.80.
+
+**728 named automated cases plus entity assertions PASS; 8 live desktop-browser checks PASS.** Verified legal world travel/entry, G routed through F, approved 1100 × 733 JPG/full viewer, furniture/drawer controls, north-blind reload, independently typed west-blind action with exactly one minute charged, and locked workstation/ordinary-body authorization denial. Browser tests used a disposable character with AI off. Initial local-preview browser checks were blocked by environment limitations; live checks supersede that blocker for the listed desktop scope only. Staff-authorized full browser cycles and native Android/mobile geometry remain UNTESTED; rules/integration cover staff access, reports, intercom and three-slot isolation. Existing optional-appearance creation review can still print undefined (previously recorded debt; not changed by this slice).
+
+Master Plan Phase 10/11 bounded Office G slice is implemented/tested/published, **not owner accepted**. Artwork approval is preserved; coffee/water fulfillment and a full management communications app remain unbuilt. Four-report capacity and five-minute supervised access remain implementation defaults for owner acceptance. Existing report payment ledger remains unchanged. No paid inference, backend redeployment or save reset.
+
+Updated master plan, current status, handoff, active work log, changelog, README build index, office contract and release evidence. Next exact action: owner checklist in RICHARD-OFFICE-G.md, record actual PASS/FAIL/UNTESTED before marking accepted; then choose the next agreed office service slice without expanding unready systems. Earlier candidate/publication-pending notes below are historical.
+
 ## v1.0.80 — Richard Carter’s Office G (tested candidate)
 
 Source audit: main and rebuild/1.0-foundations matched `6b84084`; latest gameplay `ae046dd` (v1.0.79), previously recorded as published/source verified. Explicit full entry-flow owner acceptance remains v1.0.34 (5/5), with later scoped interface passes; conversation continuity records v1.0.62 accepted/live, but repository does not provide a newer full checklist PASS. v1.0.79 native-device acceptance remains pending. Historical baseline statements below are historical, not current instructions.
@@ -587,7 +597,7 @@ Epi-Center multiplayer RPG prototype.
 
 | Version | Play / preview | Repository source | Status |
 |---|---|---|---|
-| **v1.0.80 — Richard’s office G** | **[Open v1.0.80](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.80)** | [Office G](docs/RICHARD-OFFICE-G.md) | Tested candidate; publication/browser/owner acceptance tracked separately |
+| **v1.0.80 — Richard’s office G** | **[Open v1.0.80](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.80)** | [Office G](docs/RICHARD-OFFICE-G.md) | Published/source verified; 728 automated cases + 8 desktop checks PASS; owner acceptance pending |
 | **v1.0.79 — form presence** | **[Open v1.0.79](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.79)** | [Living forms](docs/FORM-LIVING-TEMPLATE.md) | Published/source verified; owner acceptance pending |
 | **v1.0.78 — daily life / office workspace** | **[Open v1.0.78](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.78)** | [Daily life and office](docs/ERIN-DAILY-LIFE-AND-OFFICE.md) | Published and source verified; 681 automated cases + 12 browser checks PASS |
 | **v1.0.77 — Erin wellbeing / bedtime** | **[Open v1.0.77](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.77)** | [Wellbeing and bedtime](docs/ERIN-WELLBEING-AND-BEDTIME.md) | Published and source verified; 657 automated cases + 9 browser checks PASS |

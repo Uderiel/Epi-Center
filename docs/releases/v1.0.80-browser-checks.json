@@ -1,8 +1,52 @@
 {
-  "status": "PREPUBLICATION BLOCKED",
-  "executedChecks": 0,
-  "localChromium": "Failed to launch: process singleton socket Operation not permitted",
-  "managedBrowser": "Cannot access local workspace preview: ERR_CONNECTION_REFUSED",
+  "status": "8 LIVE DESKTOP CHECKS PASS",
+  "prepublication": {
+    "status": "PREPUBLICATION BLOCKED",
+    "executedChecks": 0,
+    "localChromium": "Failed to launch: process singleton socket Operation not permitted",
+    "managedBrowser": "Cannot access local workspace preview: ERR_CONNECTION_REFUSED",
+    "ownerAcceptance": "UNTESTED",
+    "next": "Check published UI after Pages deployment"
+  },
+  "checks": [
+    {
+      "name": "Live Hub identifies v1.0.80 and retains created character",
+      "result": "PASS"
+    },
+    {
+      "name": "Legal outdoor route reaches Technology Center and typed entry costs one minute",
+      "result": "PASS"
+    },
+    {
+      "name": "Five-step interior route passes through F before G; Layout states door restriction",
+      "result": "PASS"
+    },
+    {
+      "name": "Approved office JPG loads at 1100x733 and full-image viewer opens",
+      "result": "PASS"
+    },
+    {
+      "name": "Existing Accessible Rooms dock exposes furniture and four drawer controls",
+      "result": "PASS"
+    },
+    {
+      "name": "North blind closes and state/result persists after reload",
+      "result": "PASS"
+    },
+    {
+      "name": "Typed west blind closes independently with one minute charged",
+      "result": "PASS"
+    },
+    {
+      "name": "Computer remains locked and ordinary-body biometric request is refused",
+      "result": "PASS"
+    }
+  ],
+  "scope": "Disposable cloud-browser character; AI off; no owner save changed",
+  "unexecuted": [
+    "Native Android/mobile geometry",
+    "Staff authorized computer/intercom/report full browser cycle (automated rules/integration covered)"
+  ],
   "ownerAcceptance": "UNTESTED",
-  "next": "Check published UI after Pages deployment"
+  "screenshot": "images/v1.0.80-office-live.jpg"
 }

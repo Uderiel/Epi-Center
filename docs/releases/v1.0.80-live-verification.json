@@ -1,0 +1,49 @@
+{
+  "commit": "00c30498b9c30666a279da898287d4297dab49cc",
+  "files": [
+    {
+      "path": "rebuild/title-screen/index.html",
+      "match": true,
+      "sha256": "009d15d9a36ca57078d703dd9417d6a56f8b14705f7e947e160af9a0588ab460"
+    },
+    {
+      "path": "rebuild/character-creation/index.html",
+      "match": true,
+      "sha256": "08f4fcdc31905d4802c6c319a470165ed06e5b9437265d2486b443e277cd6253"
+    },
+    {
+      "path": "rebuild/hub/index.html",
+      "match": true,
+      "sha256": "0690459edbc98eb63c5c0b3494ca24f454d0eab4e0c3f3361ac65ba2a7385079"
+    },
+    {
+      "path": "rebuild/hub/hub-art.js",
+      "match": true,
+      "sha256": "b3ed070dd9e4bc1be1c0b36020448baaabd46bfa127b64ae8a75e75d843ab61b"
+    },
+    {
+      "path": "rebuild/hub/technology-center.js",
+      "match": true,
+      "sha256": "8cd3f860c23f8f766126bb0b3c1c14d42c00d798f01f49dd9cb712751d366108"
+    },
+    {
+      "path": "rebuild/hub/technology-center-ui.js",
+      "match": true,
+      "sha256": "e8d257c8fc795482ef6a0343445b85530b5ea0b8dd1c734d1bb5a65dfa619cd4"
+    },
+    {
+      "path": "rebuild/hub/richard-office.js",
+      "match": true,
+      "sha256": "3d79eabf1d6c23d350a68f097a27f0943b1ec2d602f93f5dd51f7ac324b8d55e"
+    },
+    {
+      "path": "rebuild/hub/assets/technology-center/richard_office_G_1100x733.jpg",
+      "match": true,
+      "sha256": "71200976189d371f2c9945fb267b966b79e5854ff18db6dad09d92773c2fead3"
+    }
+  ],
+  "pagesRun": 43125385851,
+  "pagesConclusion": "success",
+  "browserChecks": 8,
+  "ownerAcceptance": "UNTESTED"
+}
