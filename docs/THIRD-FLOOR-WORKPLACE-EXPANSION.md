@@ -1,3 +1,11 @@
+## v1.0.87 correction candidate
+
+Owner scoped room appearance/function PASS is recorded. The single-order design and required manual lunch setting below are superseded by the batch work/lunch correction in [OFFICE-BATCH-WORK.md](OFFICE-BATCH-WORK.md). Existing v1.0.86 evidence remains historical. The correction is tested but unpublished, awaiting explicit push approval.
+
+## Publication verification — v1.0.86
+
+Published gameplay `210dd1c`; Pages run 43294685258 succeeded. 24/24 changed runtime/artwork files match source. 775 automated cases plus entity assertions and 11 live desktop check groups PASS. Fax, original/copies and requested tea loops were completed in the live game. Conference privacy/reload, workstation hierarchy, stalls and equipment art viewer also passed. Full live conference-pack/lunch/refill and remaining fixture/exit loops, native Android and paid-model dialogue remain UNTESTED; owner checklist below remains pending. Minor raw fractional bladder receipt formatting remains open. See release JSON evidence.
+
 ## v1.0.86 implementation candidate — owner-authorized floor build
 
 The prior design-only restriction below is superseded by the owner’s explicit instruction to implement the proposed rooms/assets and varied workplace tasks. Implemented in `office-floor.js`, `office-floor-ui.js` and existing technology-center adapters. Existing room IDs/doors are unchanged. 775 automated cases plus entity assertions PASS; deployed/browser verification and owner acceptance follow. This is the physical floor and equipment-task slice, not completed coworker/Michael character design.

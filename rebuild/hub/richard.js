@@ -1,5 +1,5 @@
 /* Persistent civilian manager: authored boundaries, graph travel and exactly-once extra work. */
-(function(root,factory){const n=typeof module==='object'&&module.exports;const api=factory(n?require('./technology-center'):root.EpiTechnologyCenter,n?require('./hub-world'):root.EpiHubWorld,n?require('./world-clock'):root.EpiWorldClock,n?require('./erin-restoration'):root.EpiErin,n?require('../combat/kibbles-form'):root.EpiKibblesForm);if(n)module.exports=api;else root.EpiRichard=api;})(globalThis,function(T,W,C,Erin,F){
+(function(root,factory){const n=typeof module==='object'&&module.exports;const api=factory(n?require('./technology-center'):root.EpiTechnologyCenter,n?require('./hub-world'):root.EpiHubWorld,n?require('./world-clock'):root.EpiWorldClock,n?require('./erin-restoration'):root.EpiErin,n?require('../combat/kibbles-form'):root.EpiKibblesForm,n?require('./erin-work'):root.EpiErinWork);if(n)module.exports=api;else root.EpiRichard=api;})(globalThis,function(T,W,C,Erin,F,J){
 'use strict';
 const clamp=(v,a,b)=>Math.max(a,Math.min(b,Number(v)||0)),copy=x=>JSON.parse(JSON.stringify(x));
 // Implementation allocation: Mental-primary civilian. Earlier assistant values were provisional and Arousal-primary.
@@ -106,7 +106,7 @@ function tick(save,from,to){const s=state(save),messages=[];let start=Math.max(f
   }else{
    const index=firstUnanswered(s.task), checkpoint=REPORT_SECTIONS[index]?.minute;
    if(checkpoint===undefined||s.task.progress<checkpoint){
-    s.task.progress=Math.min(WORK_MINUTES,s.task.progress+1);
+    J.mark(save,s.task.id+':'+at,1,at-1);s.task.progress=Math.min(WORK_MINUTES,s.task.progress+1);
     if(s.task.progress===checkpoint)messages.push(REPORT_SECTIONS[index].title+' is ready to write at Erin’s desk.');
     if(s.task.progress===WORK_MINUTES&&checkpoint===undefined){
      s.task.status='ready';

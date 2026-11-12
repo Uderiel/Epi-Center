@@ -1,0 +1,10 @@
+/* Earned workday pay and contextual resistance; no offline pay or retroactive awards. */
+(function(r,f){const n=typeof module==='object'&&module.exports,a=f(n?require('./erin-restoration'):r.EpiErin,n?require('./world-clock'):r.EpiWorldClock);if(n)module.exports=a;else r.EpiErinWork=a;})(globalThis,function(E,C){
+'use strict';
+const now=s=>C.ensure(s).minutes;
+function state(s){const e=E.state(s);e.workday||={schema:1,days:{}};return e.workday;}
+function mark(s,id,minutes=1,at=now(s)){if(!E.full(s)||s.encounter?.active||s.hub?.location!=='Technology Center'||!s.world?.technologyCenter?.inside||!Number.isFinite(minutes)||minutes<=0)return false;const day=Math.floor(at/1440),minute=at%1440;if(day%7>=5||minute<540||minute>=1020)return false;const x=state(s),d=x.days[day]||={day,amount:350,earnedAt:at,minutes:0,receipts:{},paidAt:null};if(d.receipts[id])return false;d.receipts[id]={at,minutes};d.minutes+=minutes;d.lastProductiveAt=at;return true;}
+function settle(s,at=now(s)){const messages=[];for(const d of Object.values(state(s).days)){if(d.paidAt!=null||at<d.day*1440+1020)continue;d.paidAt=at;s.gold=(Number(s.gold)||0)+350;messages.push('Erin’s daily pay · Day '+(d.day+1)+': +350 gold. Paid once for the recorded workday.');}return messages;}
+function resistance(s){const e=E.state(s),t=now(s),n=s.devVitals?.needs||{},a=e.life||{},urgent=Object.values(n).some(v=>Number(v)>=85);if(!E.full(s)||s.encounter?.active)return {bonus:0,reason:'No contextual bonus'};if(E.inside(s)&&['living','bedroom'].includes(s.world.applewood.room)&&e.stress<=30&&!urgent&&!a.pending&&!a.forcedRoutine&&!a.sleeping)return {bonus:4,reason:'Relaxed at home'};const d=e.workday?.days?.[Math.floor(t/1440)],tc=s.world?.technologyCenter;if(s.hub?.location==='Technology Center'&&tc?.inside&&t%1440>=540&&t%1440<1020&&d?.minutes>=5&&t>=d.lastProductiveAt&&t-d.lastProductiveAt<=120)return {bonus:2,reason:'Recent professional work'};return {bonus:0,reason:'Focused or unsettled'};}
+return Object.freeze({state,mark,settle,resistance});
+});

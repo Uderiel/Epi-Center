@@ -1,0 +1,74 @@
+{
+  "version": "1.0.86",
+  "gameplay_commit": "210dd1cd166f08bcf1351eb1f49b27a5f81ea21d",
+  "environment": "Cloud desktop browser; public GitHub Pages; isolated slot 3; AI disabled",
+  "checks": [
+    {
+      "name": "title and slot preservation",
+      "result": "PASS",
+      "evidence": "Title and creation/Hub show v1.0.86; slot 1 pre-existing creation draft and slot 2 empty retained; created isolated Floor86Tester in slot 3."
+    },
+    {
+      "name": "legal setup and office arrival",
+      "result": "PASS",
+      "evidence": "Created 40-point character, obtained heels at Hub NW, completed 23-stage Erin transformation using Wait, removed heels through real roll, followed district route and entered elevators. Paused live time; Dev advanced to next workday."
+    },
+    {
+      "name": "layout routes",
+      "result": "PASS",
+      "evidence": "A to F, F to L, L to G, G to J, G to H, H to E, E to D/B and B to L used saved adjacent-door travel. G always through F."
+    },
+    {
+      "name": "fax lifecycle",
+      "result": "PASS",
+      "evidence": "Accepted at F Work, retrieved office-1-fax-original at L, reloaded tray view with same receipt, repeated collection rejected without time advance; delivered in-person to Richard once."
+    },
+    {
+      "name": "office hierarchy",
+      "result": "PASS",
+      "evidence": "G retains seven fixtures; desk -> Desktop -> intercom and reverse Back levels remain reachable."
+    },
+    {
+      "name": "tea delivery",
+      "result": "PASS",
+      "evidence": "Requested tea at intercom, acknowledged, prepared in J kettle in 3 minutes, carried to G, delivered in-person once; cup and pending delivery controls disappeared."
+    },
+    {
+      "name": "copy lifecycle",
+      "result": "PASS",
+      "evidence": "Accepted at F, collected office-1-copies-original, copied at L in 3 minutes, collected two copies separately, verified all three carried IDs at G, delivered original/copies once."
+    },
+    {
+      "name": "workstation hierarchy",
+      "result": "PASS",
+      "evidence": "H workstation bays -> bay 1 -> computer; eight bay controls and computer/phone/storage children present; private account locked, only reference reading available. Back returns through each parent."
+    },
+    {
+      "name": "conference privacy persistence",
+      "result": "PASS",
+      "evidence": "Lowered E north blind, reloaded with closed state; east remained open."
+    },
+    {
+      "name": "restroom privacy and needs",
+      "result": "PASS",
+      "evidence": "D to B; seven stall controls; use before locking refused at 10:00, lock at 10:01, four-minute use at 10:05 reset bladder, explicit unlock at 10:06."
+    },
+    {
+      "name": "full artwork viewer",
+      "result": "PASS",
+      "evidence": "Office Equipment backdrop and full-size viewer render successfully; screenshot captured."
+    }
+  ],
+  "unverified": [
+    "Native Android geometry and keyboard",
+    "Paid model dialogue",
+    "Full browser conference-pack, lunch, refill, remaining-room fixture and exit loops (covered by automated suites where applicable)"
+  ],
+  "observations": [
+    "Restroom receipt exposes a long raw fractional bladder value; mechanical relief passed. Cosmetic formatting remains open."
+  ],
+  "screenshots": [
+    "images/v1.0.86-equipment.jpg",
+    "images/v1.0.86-artwork.jpg"
+  ]
+}

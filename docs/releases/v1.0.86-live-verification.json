@@ -1,0 +1,128 @@
+{
+  "version": "1.0.86",
+  "gameplay_commit": "210dd1cd166f08bcf1351eb1f49b27a5f81ea21d",
+  "pages_run": 43294685258,
+  "pages_conclusion": "success",
+  "files": [
+    {
+      "path": "rebuild/character-creation/index.html",
+      "sha256": "3f904aa06fe6aa650ae3e854bd8365cb88aa126fd4dc729c0a3d2370feb00c52",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/ai-context.js",
+      "sha256": "8a682dde40f5d7a8f9c9f8c58355e4e18e7906f4ce89812c2d821b4589b5c1f6",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/assets/technology-center/floor-conference-1100x733.jpg",
+      "sha256": "4b53a7432cc46a8e81790370a6f7257f7792c3e3baec5a3de28d0ee5ac02b090",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/assets/technology-center/floor-elevators-1100x733.jpg",
+      "sha256": "351b91bc379cca77bba8e8b4db5d57cccb474c7cc6394d9397aa040987a8e043",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/assets/technology-center/floor-equipment-1100x733.jpg",
+      "sha256": "446e1846c76801285fb0061d9acbda06f55079c3607cbf46822536def919a32c",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/assets/technology-center/floor-hallway-1100x733.jpg",
+      "sha256": "6b66212fb026af3f0037d7f8f1f0ae04caafbec51cc442c4f0be0fe222385418",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/assets/technology-center/floor-marketing-1100x733.jpg",
+      "sha256": "fa40e2a68f13a9ccf0899b9b74464d88757adee64fa998391212a338624aa382",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/assets/technology-center/floor-marketingbreak-1100x733.jpg",
+      "sha256": "3d54b6871bb4bcd3b5378a2e82ec09aa4197eb6ec3a90db0958025cedd0e62f6",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/assets/technology-center/floor-men-1100x733.jpg",
+      "sha256": "69bad8a304e794aaa6b02aba29060a81ebf595846f9ff11e99864c5ce968c372",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/assets/technology-center/floor-michael-1100x733.jpg",
+      "sha256": "619f0906305011378e00d36e580761a78c3e11598e31e82ea70f70b985182ca6",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/assets/technology-center/floor-sales-1100x733.jpg",
+      "sha256": "dc6581f3879cee6eb635b8e39fb7571928daa6904bb3c5f06fbc6e005c9f3cc9",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/assets/technology-center/floor-salesbreak-1100x733.jpg",
+      "sha256": "ab6631dd913e0038f14e40d19513f7f29858948c6815402623f78423b0a244cb",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/assets/technology-center/floor-stairs-1100x733.jpg",
+      "sha256": "89194fa3e0c1a99ce3339de856e7bbc39a8ee240c5fea13bdfe3feb0282631fe",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/assets/technology-center/floor-women-1100x733.jpg",
+      "sha256": "0ee815f3fbc728cf7f56d375c759b32753b95fada14e9a125747a76203a3e4d7",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/erin-life-ui.js",
+      "sha256": "43ed4bc44600948a3f3baf38c85a9b9449633c67159fa9a48640bb5411c979cf",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/erin-office-ui.js",
+      "sha256": "fe4d584c1c0973f80d9bcecaac8cbd12c9e8afdd4d273d58d671aec4c0525189",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/hub-art.js",
+      "sha256": "e4738dbc047117a1441cb5dfbed0b1b489d8213439fa1dbd936fbcb4a562141e",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/index.html",
+      "sha256": "702f5e858f42f9bd41d67b41032f6cd1c1e4d73f779b71f6a570578d9af76e63",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/office-floor-ui.js",
+      "sha256": "3ae752b76e6801eb4a205b416c47df8a7b997fa2e8da157288f36f2285c8f38c",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/office-floor.js",
+      "sha256": "a650aa6e8bfd2b53c3e95693a15643bd767f5b5e262ddd01e452a62dc3a89a6a",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/richard-office.js",
+      "sha256": "f73357cffdcc9f8b4b278d55ade67ec0f410ae8a9591d368c27b1db2e10ad8cc",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/technology-center-ui.js",
+      "sha256": "829904dd3fcd912ff6aafde2553c2f0a8b6a1c8cabc8cec386a4da41c89181b5",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/technology-center.js",
+      "sha256": "80f517a1d55dbe7dd048cd080f91c14404495086250a505e66249752643d9974",
+      "matches": true
+    },
+    {
+      "path": "rebuild/title-screen/index.html",
+      "sha256": "8d0f6c14b1ee969d4cc9fb0b72505e2a30987e1db0ba85a583f9879f37c5da44",
+      "matches": true
+    }
+  ]
+}
