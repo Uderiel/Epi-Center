@@ -1,3 +1,15 @@
+## v1.0.80 — Richard Carter’s Office G (tested candidate)
+
+Source audit: main and rebuild/1.0-foundations matched `6b84084`; latest gameplay `ae046dd` (v1.0.79), previously recorded as published/source verified. Explicit full entry-flow owner acceptance remains v1.0.34 (5/5), with later scoped interface passes; conversation continuity records v1.0.62 accepted/live, but repository does not provide a newer full checklist PASS. v1.0.79 native-device acceptance remains pending. Historical baseline statements below are historical, not current instructions.
+
+Phase 10/11 bounded office slice: approved byte-identical 1100 × 733 JPG, G-only-via-F access, written spatial descriptions, furniture and four drawers, independently persistent privacy blinds, supervised biometric/key access, original paid-report filing/archiving/retrieval and availability-aware intercom. Existing Reception F, report checkpoints, 50-gold/+2 once-only rewards and stable saves are preserved. See [office contract](docs/RICHARD-OFFICE-G.md).
+
+**728 named automated cases plus entity assertions PASS**; syntax/module paths and whitespace PASS. New cases cover access/authority, image hash, graph, privacy expiry, report identity, legacy saves and three-slot isolation. Local Chromium could not launch (socket permission); managed browser could not reach local preview. Prepublication real-browser checks are **BLOCKED/UNTESTED**, not passed. No paid inference or backend changes. Publication verification follows; no user acceptance claimed.
+
+Implementation defaults: four current reports before archival; five-minute supervised computer/contracts access. Intercom records requests to embodied Erin without spawning an NPC or moving the body; coffee/water delivery requires an unbuilt real office beverage system. No new routine payouts. Bounded computer summary does not implement a separate communications app. Next: verify publication/UI and obtain actual owner office PASS/FAIL/UNTESTED. Other deferred work remains open.
+
+[Play v1.0.80 after deployment](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.80). Existing published v1.0.79 remains until deployment is verified.
+
 Published: **[v1.0.79](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.79)** — gameplay `ae046ddecfd221f5a953837acb0ef7190269e706`. 709 automated cases + entity assertions, 12 browser checks, successful Pages deployment, 70 public files/assets matched. [Form living contract](docs/FORM-LIVING-TEMPLATE.md).
 
 
@@ -575,6 +587,8 @@ Epi-Center multiplayer RPG prototype.
 
 | Version | Play / preview | Repository source | Status |
 |---|---|---|---|
+| **v1.0.80 — Richard’s office G** | **[Open v1.0.80](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.80)** | [Office G](docs/RICHARD-OFFICE-G.md) | Tested candidate; publication/browser/owner acceptance tracked separately |
+| **v1.0.79 — form presence** | **[Open v1.0.79](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.79)** | [Living forms](docs/FORM-LIVING-TEMPLATE.md) | Published/source verified; owner acceptance pending |
 | **v1.0.78 — daily life / office workspace** | **[Open v1.0.78](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.78)** | [Daily life and office](docs/ERIN-DAILY-LIFE-AND-OFFICE.md) | Published and source verified; 681 automated cases + 12 browser checks PASS |
 | **v1.0.77 — Erin wellbeing / bedtime** | **[Open v1.0.77](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.77)** | [Wellbeing and bedtime](docs/ERIN-WELLBEING-AND-BEDTIME.md) | Published and source verified; 657 automated cases + 9 browser checks PASS |
 | **v1.0.49 — Hangry Fangs / exploration fog** | **[Open v1.0.49](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.49)** | [Quest](docs/HANGRY-FANGS-QUEST.md) · [Active unfinished-work log](docs/OPEN-TASKS-AND-DECISIONS.md) | Automated/browser QA PASS; owner acceptance pending |

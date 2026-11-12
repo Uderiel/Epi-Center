@@ -1,0 +1,8 @@
+{
+  "status": "PREPUBLICATION BLOCKED",
+  "executedChecks": 0,
+  "localChromium": "Failed to launch: process singleton socket Operation not permitted",
+  "managedBrowser": "Cannot access local workspace preview: ERR_CONNECTION_REFUSED",
+  "ownerAcceptance": "UNTESTED",
+  "next": "Check published UI after Pages deployment"
+}
