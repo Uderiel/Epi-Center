@@ -1,3 +1,7 @@
+## 2026-11-12 — third-floor workplace variety recorded (design only)
+
+Owner requests varied Erin/Michael duties: collect incoming fax reports, make copies, prepare coffee/tea or fetch water for Richard, and later coordinate with designed sales/marketing leads. Add each coworker’s and Michael’s cubicle personal details during their character design. Equipment, ownership, document/request state and NPC availability must support real task steps. See [third-floor workplace expansion](THIRD-FLOOR-WORKPLACE-EXPANSION.md) for scope, dependencies, sequencing and acceptance requirements. Existing Phase 10/11 baseline remains v1.0.85; no gameplay change, new test PASS or hierarchy acceptance is claimed. Next: a bounded equipment/document or beverage service slice; lead meetings and cubicle personalities depend on character design.
+
 ## v1.0.85 — Richard’s office interaction layers (published; owner retest pending)
 
 Owner feedback: “Works fine now” records scoped PASS for the v1.0.84 work-flow correction. Preserve prior furniture, drawer-operation and blind passes. The next requested refinement is clutter reduction in G: drawers appeared both in the room and under the desk, and desktop objects needed a separate level. This Phase 10/11 interface correction adds no new room, task, reward or permission.
