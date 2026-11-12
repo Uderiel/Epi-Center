@@ -1,0 +1,114 @@
+{
+  "version": "1.0.86",
+  "commonPrompt": "Single landscape 3:2 realistic architectural game environment, graphite/brushed steel, restrained cyan accents, soft office daylight, no people, no readable text, no logos, no UI, no collage.",
+  "assets": [
+    {
+      "key": "sales",
+      "path": "rebuild/hub/assets/technology-center/floor-sales-1100x733.jpg",
+      "prompt": "Sales cubicles: graphite paired workstations, blue-gray partitions, clear aisles, office phones/headsets, brushed steel/cyan details, no people/text.",
+      "generation": "built-in image_gen",
+      "width": 1100,
+      "height": 733,
+      "sha256": "dc6581f3879cee6eb635b8e39fb7571928daa6904bb3c5f06fbc6e005c9f3cc9"
+    },
+    {
+      "key": "marketing",
+      "path": "rebuild/hub/assets/technology-center/floor-marketing-1100x733.jpg",
+      "prompt": "MARKETING CUBICLES western workstation block: graphite desks, teal acoustic partitions, dual dark displays, phones, neutral campaign boards and organized reference shelves. Clear central aisle and perimeter corridors. No personalized possessions, no people.",
+      "generation": "built-in image_gen",
+      "width": 1100,
+      "height": 733,
+      "sha256": "fa40e2a68f13a9ccf0899b9b74464d88757adee64fa998391212a338624aa382"
+    },
+    {
+      "key": "conference",
+      "path": "rebuild/hub/assets/technology-center/floor-conference-1100x733.jpg",
+      "prompt": "CONFERENCE ROOM camera from northeast corner: large polished mahogany oval meeting table centered on industrial gray carpet, leather meeting seats, unobstructed glass walls north east west with raised separate roll-down blinds. Solid south wall with a large presentation screen, camera and microphone bar, neutral dark screen. East and west glass side doors lead into corridors, no door on south wall. Sophisticated graphite audiovisual console.",
+      "generation": "built-in image_gen",
+      "width": 1100,
+      "height": 733,
+      "sha256": "4b53a7432cc46a8e81790370a6f7257f7792c3e3baec5a3de28d0ee5ac02b090"
+    },
+    {
+      "key": "salesbreak",
+      "path": "rebuild/hub/assets/technology-center/floor-salesbreak-1100x733.jpg",
+      "prompt": "SALES BREAK ROOM northeast corner, camera from its southern entrance. Durable graphite counters, stainless refrigerator, microwave, sink and coffee/tea equipment along side wall. Cabinetry, cups plates and utensil dispenser, blue-gray chairs around two modest communal tables, waste and recycling bins. North windows daylight. No other break room visible.",
+      "generation": "built-in image_gen",
+      "width": 1100,
+      "height": 733,
+      "sha256": "ab6631dd913e0038f14e40d19513f7f29858948c6815402623f78423b0a244cb"
+    },
+    {
+      "key": "marketingbreak",
+      "path": "rebuild/hub/assets/technology-center/floor-marketingbreak-1100x733.jpg",
+      "prompt": "MARKETING BREAK ROOM northwest corner, camera from its southern entrance. Matching graphite counters, stainless refrigerator, microwave, sink coffee brewer electric kettle, upper cupboards paper plates utensil dispenser. Teal chairs and two communal tables, small neutral noticeboard, recycling bins. North windows daylight.",
+      "generation": "built-in image_gen",
+      "width": 1100,
+      "height": 733,
+      "sha256": "3d54b6871bb4bcd3b5378a2e82ec09aa4197eb6ec3a90db0958025cedd0e62f6"
+    },
+    {
+      "key": "women",
+      "path": "rebuild/hub/assets/technology-center/floor-women-1100x733.jpg",
+      "prompt": "WOMEN'S OFFICE RESTROOM. Spacious polished granite floor, marble counters and mirrors, individual soap dispensers and blue-light hand dryers. North row of fully enclosed cherry-wood toilet stalls with brushed steel frames and thick cloudy frosted glass locking doors, one open empty stall shows toilet and toilet paper. No urinals. View from south entrance, no people.",
+      "generation": "built-in image_gen",
+      "width": 1100,
+      "height": 733,
+      "sha256": "0ee815f3fbc728cf7f56d375c759b32753b95fada14e9a125747a76203a3e4d7"
+    },
+    {
+      "key": "men",
+      "path": "rebuild/hub/assets/technology-center/floor-men-1100x733.jpg",
+      "prompt": "MEN'S OFFICE RESTROOM. Polished granite floor, marble wash counters mirrors soap dispensers blue-light dryers. Fully enclosed cherry-wood toilet stalls with steel frames frosted glass locking doors. Separate row of white urinals with privacy dividers on eastern wall. View from southern entrance, clean unoccupied facilities.",
+      "generation": "built-in image_gen",
+      "width": 1100,
+      "height": 733,
+      "sha256": "69bad8a304e794aaa6b02aba29060a81ebf595846f9ff11e99864c5ce968c372"
+    },
+    {
+      "key": "elevators",
+      "path": "rebuild/hub/assets/technology-center/floor-elevators-1100x733.jpg",
+      "prompt": "THIRD FLOOR ELEVATOR BANK. Polished brushed steel elevator doors, recessed call controls, gray stone floor, restrained cyan illuminated panel edges, one open elevator cabin shows polished steel waist-high handrails and illumination along ceiling and floor. Camera from central corridor, no stairs in elevator cabin.",
+      "generation": "built-in image_gen",
+      "width": 1100,
+      "height": 733,
+      "sha256": "351b91bc379cca77bba8e8b4db5d57cccb474c7cc6394d9397aa040987a8e043"
+    },
+    {
+      "key": "stairs",
+      "path": "rebuild/hub/assets/technology-center/floor-stairs-1100x733.jpg",
+      "prompt": "EMERGENCY STAIRWELL AND CLEANING CUPBOARD at an office core. Practical concrete and brushed steel staircase descends from a spacious third-floor landing, visible rails and clear exit route, gentle emergency illumination. Adjacent separate enclosed recessed janitorial cupboard with open door reveals neatly parked cleaning trolley, mop bucket and secured supply shelves. Nothing blocks the staircase.",
+      "generation": "built-in image_gen",
+      "width": 1100,
+      "height": 733,
+      "sha256": "89194fa3e0c1a99ce3339de856e7bbc39a8ee240c5fea13bdfe3feb0282631fe"
+    },
+    {
+      "key": "equipment",
+      "path": "rebuild/hub/assets/technology-center/floor-equipment-1100x733.jpg",
+      "prompt": "SHARED OFFICE EQUIPMENT ROOM. North-central graphite and brushed steel bays: two network printer/copier machines with output trays, separate office fax machine on work counter, water cooler, clearly organized blank paper and toner cupboards. No staff, no readable text. Spacious daylight corporate office.",
+      "generation": "built-in image_gen",
+      "width": 1100,
+      "height": 733,
+      "sha256": "446e1846c76801285fb0061d9acbda06f55079c3607cbf46822536def919a32c"
+    },
+    {
+      "key": "michael",
+      "path": "rebuild/hub/assets/technology-center/floor-michael-1100x733.jpg",
+      "prompt": "UNPERSONALIZED INTERN CUBICLE within eastern sales workstation block. One practical graphite desk, blue-gray partition, computer monitor and keyboard, office phone, modest drawers, document tray and swivel chair. Plain functional workspace only; no photos, personal mug or character-specific possessions. Opening to sales aisle.",
+      "generation": "built-in image_gen",
+      "width": 1100,
+      "height": 733,
+      "sha256": "619f0906305011378e00d36e580761a78c3e11598e31e82ea70f70b985182ca6"
+    },
+    {
+      "key": "hallway",
+      "path": "rebuild/hub/assets/technology-center/floor-hallway-1100x733.jpg",
+      "prompt": "THIRD FLOOR CORPORATE CORRIDOR. Eye level down clear gray carpet walkway with graphite trim, brushed steel frames and restrained cyan ceiling lights. Glass-walled conference room at one side and orderly cubicle rows behind glazing at other side. Neutral technical corporate setting, no invented executive-office doors, no people.",
+      "generation": "built-in image_gen",
+      "width": 1100,
+      "height": 733,
+      "sha256": "6b66212fb026af3f0037d7f8f1f0ae04caafbec51cc442c4f0be0fe222385418"
+    }
+  ]
+}

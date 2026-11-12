@@ -1,3 +1,27 @@
+## v1.0.86 implementation candidate — owner-authorized floor build
+
+The prior design-only restriction below is superseded by the owner’s explicit instruction to implement the proposed rooms/assets and varied workplace tasks. Implemented in `office-floor.js`, `office-floor-ui.js` and existing technology-center adapters. Existing room IDs/doors are unchanged. 775 automated cases plus entity assertions PASS; deployed/browser verification and owner acceptance follow. This is the physical floor and equipment-task slice, not completed coworker/Michael character design.
+
+Persistent additions live under `world.technologyCenter.floorServices`: independent conference blinds and stall locks, per-room consumables, finite central reserve, one current routine equipment job, identified original/copy records, carried cup/lunch/place-setting/refill kit and bounded equipment-check receipts. Each equipment work type can be issued once per game day during weekday office hours; accept at F/L, cancel without reward/penalty. Completed/cancelled order identities remain durable. Richard handovers require real presence and ability to respond. Existing report-summary assignments/payments remain separately authoritative. Work and room controls use the same rules, time and physical-authority pipeline.
+
+Defaults: 8 paired workstation bays per sales/marketing block; 7 women’s and 4 men’s stalls, 3 urinal fixtures; 2 briefing copies or 3 conference packs; copy/coffee/tea 3 min, pack/place/refill/local tests 2 min, physical retrieval/delivery/water/toggle 1 min, toilet 4 min, lunch 10 min. One labeled Erin lunch starts in J; further lunches consume prepared home meals. Room stocks and central reserves are finite and serialized. They do not refill by reload or passage of time. No new gold reward, attendance punishment, fictitious calls or meetings. Three new public asset groups reuse a suite image for restroom subareas and one corridor background across circulation zones; art is a location backdrop and the corrected written graph remains authoritative. Generated scene details do not add doors/routes.
+
+### Manual acceptance checklist
+
+1. Resume an existing save; check v1.0.86 and other slots. Tour A, H/H_W, M, E, L, J/K, both restroom suites and I through Layout. Check full-size images; F/G and legal doors remain intact.
+2. Open workstation → bay → phone/computer/storage. Back returns one level and private accounts stay locked; no coworkers spawn.
+3. As Erin on a workday, open Work at F and accept fax collection. Go to L → Fax station → Incoming fax tray; collect, find Richard and hand it over through Equipment duties. Reload along the way; repeat completion cannot pay or duplicate.
+4. Accept the copying order at F; collect its original; go to L → Printing station → copier → output. Collect copies, return original/copies to present Richard. Wrong step/presence fails without losing documents.
+5. Accept conference packs; copy/collect at L, place at E’s table and return the original to F. Toggle E’s three blinds independently and test local presentation equipment; no meeting starts.
+6. With Richard present, confirm coffee/tea/water using Equipment duties or his intercom. Prepare at J/K (water also L), carry and deliver the matching drink. Wrong cup, absence, repeat handover and decline behave correctly without gold.
+7. Use a drink, then L’s supply cupboard → matching refill kit → destination supply shelves → put away. Supplies transfer and persist rather than regenerate.
+8. Retrieve Erin’s labeled J lunch, store/retrieve in K if desired, heat it, take a place setting, eat at a table and clear it. Check hunger and no repeated meal. At home prepare an actual meal and pack it at the kitchen counter for a later workday.
+9. Open restroom stalls → chosen stall → close/lock → use → unlock. Check bladder relief and saved lock. Use sinks/dryers; incapable bodies cannot use human fixtures.
+10. Inspect cleaning trolley/secured cupboard and both exit routes. Check new equipment tasks do not alter accepted report writing, one-time 50-gold extra report pay, Richard permissions, influence or other slots.
+11. On Android, test nested scroll, readable buttons, one-level Back, image viewer and text/cursor stability. Report PASS/FAIL/UNTESTED per item before acceptance.
+
+No paid-model dialogue or native Android test is claimed. Future lead meetings, unique coworker details, Michael’s character/form and role-specific duties remain explicit design dependencies.
+
 # Third-floor workplace expansion — design requirements
 
 Recorded 2026-11-12. Documentation only; playable baseline remains v1.0.85. Current phase: bounded Phase 10/11 Technology Center expansion. Existing office hierarchy owner retest remains pending; this request does not supply a new gameplay PASS.
