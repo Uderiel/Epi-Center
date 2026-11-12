@@ -1,0 +1,80 @@
+{
+  "version": "1.0.87",
+  "gameplay_commit": "5b447adb29818576356d3b89608d288033bfec3b",
+  "source_tree": "bbbb3e86af8c6c2c7d69d92edccbbddeb84ce6ee",
+  "pages_run": 43308618761,
+  "files": [
+    {
+      "path": "rebuild/character-creation/index.html",
+      "sha256": "525078f4b71c754d8c88af4af80cfb9b46d7c84b8d8ea37072a535f823123d01",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/erin-office-ui.js",
+      "sha256": "b59684b265528b3b11f8866eb26c093ccc26f403b4dc7e8395688749f768883b",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/erin-office.js",
+      "sha256": "c14412e9b01df3fecfffacca4c306df7811597dd4b7fecab34adf61b50e252f4",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/erin-work.js",
+      "sha256": "330270438f0e6c0022c1bc80767870513f91551b709ac5c1c0908b46d2025dc5",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/form-minds-ui.js",
+      "sha256": "71c47d3e1da589477e5bcf3ac1b0ce5c2149967fca3fffd7abe5c23bbf415dcc",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/form-minds.js",
+      "sha256": "ffaac91efe2fcba6dd42e75817ac1c96c14499cf2e683595a972e8348726a5a8",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/index.html",
+      "sha256": "92af966f0770263914da165264290c85e6e0a51b8b987453f4232fbc17f811cc",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/internal-mastery.js",
+      "sha256": "79d3d252b8c06f57d2b738be1e28a5ad94f3016d1b14738bcb16874a17b5b051",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/office-floor-ui.js",
+      "sha256": "9cc7925ebe20f9e77da99680eb5e3df4de1c44f18533dc476c6fa472b994438d",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/office-floor.js",
+      "sha256": "c602e779ca8321d3c834805c0a3eaf875b596c736f3ca131a2472b09dc1d2040",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/richard-ui.js",
+      "sha256": "57d4014c2cabe474898d4bf2fe50fc489c0157d66f8d07544864ec80d4d67012",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/richard.js",
+      "sha256": "64cb082b31caea2e716f9b86fee1caf2e49f96407ac7d2c44473f1c584f3ee85",
+      "matches": true
+    },
+    {
+      "path": "rebuild/hub/technology-center-ui.js",
+      "sha256": "c4bb108db554ad72917a0519250212920e02f30c7df3350cbc75ebdf4c61120a",
+      "matches": true
+    },
+    {
+      "path": "rebuild/title-screen/index.html",
+      "sha256": "933eb8fcbb0a8e3aa98b3c0ec9fea424d198d164c1d9bf22f74cd33356204d50",
+      "matches": true
+    }
+  ],
+  "pages_conclusion": "success",
+  "all_matched": true
+}

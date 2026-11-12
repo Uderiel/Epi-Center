@@ -1,3 +1,7 @@
+## Published verification
+
+Gameplay `5b447ad`; Pages run43308618761 succeeded;14/14 changed deployed runtime files match tested source.793 automated cases plus entity assertions and12 live desktop check groups PASS. Original/copy batch handover, conference return, direct lunch,350 pay/reload and +2 office/+4 home bonus were verified. Owner authorized the push; no permission remains pending. Native Android and owner correction acceptance remain next. Evidence: releases/v1.0.87-browser-checks.json and v1.0.87-live-verification.json.
+
 # Office correction v1.0.87
 
 Owner-requested correction of v1.0.86. The owner reports the rooms look and work well, sales fax passed, but two-copy handover, one-order restriction, Work clutter and lunch setting blocked their flow. Owner authorizes 350/day and better Erin resistance odds at relaxed home and modestly better odds after professional work.

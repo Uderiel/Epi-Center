@@ -1,0 +1,77 @@
+{
+  "version": "1.0.87",
+  "gameplay_commit": "5b447adb29818576356d3b89608d288033bfec3b",
+  "tested_source_tree": "bbbb3e86af8c6c2c7d69d92edccbbddeb84ce6ee",
+  "candidate_commit": "1c586a8",
+  "environment": "Public GitHub Pages, cloud desktop browser, isolated pre-existing slot3 Floor86Tester, AI off, paused live time; existing Dev time/needs controls used",
+  "checks": [
+    {
+      "name": "version and retained slots",
+      "result": "PASS",
+      "evidence": "Public title and Hub show v1.0.87; slot1 existing creation draft and slot2 empty remain; isolated Floor86Tester slot3 resumed."
+    },
+    {
+      "name": "existing save continuity",
+      "result": "PASS",
+      "evidence": "Resumed the v1.0.86 transformed Erin save in L with equipment, room, time and the two completed jobs retained; no reset."
+    },
+    {
+      "name": "concurrent acceptance",
+      "result": "PASS",
+      "evidence": "On a new workday, L work board accepted sales, two-copy briefing and conference orders with one Accept all action at09:01."
+    },
+    {
+      "name": "bulk original retrieval and reload",
+      "result": "PASS",
+      "evidence": "Incoming tray collected office-2-fax-original, office-2-copies-original and office-2-conference-original together at09:02; reload retained view and receipt."
+    },
+    {
+      "name": "bulk copy and collection",
+      "result": "PASS",
+      "evidence": "Copier produced five identified copies at09:05; output tray collected all five at09:06. Originals stayed carried."
+    },
+    {
+      "name": "direct combined handover",
+      "result": "PASS",
+      "evidence": "G room and Richard interaction both exposed two ready sets. At09:12 one Hand over all ready documents action completed sales and briefing together; conference remained active. No additional summary confused the action."
+    },
+    {
+      "name": "independent conference completion",
+      "result": "PASS",
+      "evidence": "Placed three briefing packs on E table at09:18 and returned original through F Work at09:22. Completed order count increased from4 to5; carried status became nothing."
+    },
+    {
+      "name": "clean Work interface",
+      "result": "PASS",
+      "evidence": "Reception Work shows one pay line, Documents & errands, compact carried status, collapsed completed history and reception duties. Empty additional-report block is absent. Screenshot captured."
+    },
+    {
+      "name": "automatic lunch setting and cleanup",
+      "result": "PASS",
+      "evidence": "Set test hunger80 via existing Dev control. Retrieved J lunch09:27; ate directly at table09:38. Receipt confirms plate/utensils/napkin automatically taken and hunger80.1->40.1. Cleared used setting09:39."
+    },
+    {
+      "name": "daily wage and reload",
+      "result": "PASS",
+      "evidence": "Items showed Gold x100 before settlement. Existing Dev advanced09:39->17:00; one Day3 +350 pay receipt appeared. Reload and Items showed Gold x450."
+    },
+    {
+      "name": "contextual resistance",
+      "result": "PASS",
+      "evidence": "After productive copying, office panel showed+2 Recent professional work. At home living room after legal travel, panel showed+4 Relaxed at home. Real resist roll displayed original Willpower11+4+4=19 vs17+6=23 (failed fairly), Resolve100->97 and30-minute cooldown."
+    },
+    {
+      "name": "legal navigation and exits",
+      "result": "PASS",
+      "evidence": "Office routes used actual graph including G through F; conference and break rooms retained doors. Returned to A and exited via elevator; travelled south to Outerloop then Applewood and entered Unit3C normally."
+    }
+  ],
+  "unverified": [
+    "Native Android touch/keyboard geometry",
+    "Paid model dialogue",
+    "Owner acceptance of v1.0.87; only owner scoped room PASS is recorded"
+  ],
+  "screenshots": [
+    "images/v1.0.87-work.jpg"
+  ]
+}
