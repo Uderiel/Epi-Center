@@ -1,3 +1,15 @@
+## v1.0.85 — Richard’s office interaction layers (tested candidate)
+
+Owner feedback: “Works fine now” records scoped PASS for the v1.0.84 work-flow correction. Preserve prior furniture, drawer-operation and blind passes. The next requested refinement is clutter reduction in G: drawers appeared both in the room and under the desk, and desktop objects needed a separate level. This Phase 10/11 interface correction adds no new room, task, reward or permission.
+
+G’s object list now contains seven major fixtures: desk, display shelving, chairs, plants, windows/privacy blinds, filing cabinets and the east door. Individual drawers, computer, scheduler, pens/nameplate and intercom are hidden from the room list. Desk → Desktop → computer/scheduler/pens/intercom; Desk → Desk drawers → four drawers. Windows → individual north/west/south blinds. Back returns exactly one level; opening/back remains free. Room-level duplicate Work summary is removed from G; the accepted Work shortcut remains.
+
+Existing fixture IDs, inspection/use actions, biometric/key restrictions, reports, independent blind state, artwork and saves remain. Legacy saves open on an individual drawer or desktop object acquire the correct parent path; reload preserves the current layer and room movement clears it. Typed direct interactions retain access but return through their canonical group on Back.
+
+**750 named automated cases plus entity assertions PASS**; syntax/module paths and whitespace PASS. Five new checks cover room-list exclusion/count, separate desk groups, every Back level and free timing, legacy/reload/room/slot isolation, and independent grouped blinds. Existing office permissions, report lifecycle, Work and broader regressions pass. Publication/live browser verification follows; new hierarchy owner acceptance pending.
+
+[Play v1.0.85 after deployment](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.85). Next: verify the live room → desk → desktop/drawers → item sequence, record owner results, then resume the next unblocked agreed task. Other deferred work remains open.
+
 ## v1.0.84 — published and verified; owner retest pending
 
 [Play v1.0.84](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.84). Gameplay commit `4022eafd7b3786e99a53c2dc5c7ce5a21f9c2ce9` is on main and rebuild/1.0-foundations. [Pages run 43138403834](https://github.com/Uderiel/Epi-Center/actions/runs/43138403834) succeeded for that commit. All 13 checked deployed entrypoints and office/AI/navigation modules match tested source exactly; live title and Hub display v1.0.84. Earlier source-hash checks/candidate notes refer to their stated historical commits.
@@ -663,6 +675,7 @@ Epi-Center multiplayer RPG prototype.
 
 | Version | Play / preview | Repository source | Status |
 |---|---|---|---|
+| **v1.0.85 — layered Richard office objects** | **[Open v1.0.85](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.85)** | [Office G](docs/RICHARD-OFFICE-G.md) | 750 automated cases PASS; publication/browser/owner retest tracked separately |
 | **v1.0.84 — direct Work task view** | **[Open v1.0.84](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.84)** | [Office workflow](docs/OFFICE-WORKFLOW.md) | Published/source verified; 745 automated cases + 16 recorded live check groups PASS; owner retest pending |
 | **v1.0.83 — final office work correction** | **[Open v1.0.83](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.83)** | [Office workflow](docs/OFFICE-WORKFLOW.md) | 744 automated cases PASS; final publication/browser/owner acceptance tracked separately |
 | **v1.0.82 — flexible report wording / Work reveal** | **[Open v1.0.82](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.82)** | [Office workflow](docs/OFFICE-WORKFLOW.md) | 744 automated cases PASS; publication/browser/owner acceptance tracked separately |

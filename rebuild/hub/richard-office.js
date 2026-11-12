@@ -3,22 +3,25 @@
 'use strict';
 const CAPACITY=4,copy=x=>JSON.parse(JSON.stringify(x)),now=s=>C.ensure(s).minutes;
 const fixtures={
- desk:{name:'Mahogany executive desk',description:'Meticulously ordered mahogany occupies the western portion of the room, its long dimension north–south. A biometric computer, meeting scheduler, expensive signing pens, Richard Carter — Sales and Marketing Manager nameplate, and one-touch intercom sit on its surface.'},
+ desktop:{name:'Desktop',parent:'desk',children:['computer','scheduler','pens','intercom'],description:'The organized desktop holds Richard’s biometric computer, scheduler, signing pens and nameplate, and intercom.'},
+ drawers:{name:'Desk drawers',parent:'desk',children:['topLeft','secondLeft','bottomLeft','topRight'],description:'Four drawers are arranged below the desktop. Select a drawer to inspect or use it.'},
+ windows:{name:'Windows & privacy blinds',children:['northBlinds','westBlinds','southBlinds'],description:'The north, west and south glass walls each have an independently operated privacy blind.'},
+ desk:{name:'Mahogany executive desk',children:['desktop','drawers'],description:'Meticulously ordered mahogany occupies the western portion of the room, its long dimension north–south. A biometric computer, meeting scheduler, expensive signing pens, Richard Carter — Sales and Marketing Manager nameplate, and one-touch intercom sit on its surface.'},
  chairs:{name:'Executive and guest armchairs',description:'Richard’s high-end wheeled leather executive armchair sits behind the desk. Two comfortable but comparatively stiff leather guest armchairs face him.'},
  photos:{name:'Mahogany display shelving',description:'Three polished mahogany display units, including the third to the west, leave glass and circulation clear. Degrees, photographs with senior executives and quarterly trophies proclaim corporate success. Guest whiskey and spare glasses stand at waist height; the guest whiskey is good quality but less expensive than Richard’s private reserve.'},
  plants:{name:'Office ferns',description:'A few low-allergen, office-safe ferns soften the tidy, spartan room without obscuring the glass or walkways.'},
- northBlinds:{name:'North glass and privacy blind',description:'North glass overlooks the east–west circulation corridor, with marketing cubicles beyond the gap. Its roll-down blind operates independently.'},
- westBlinds:{name:'West glass and privacy blind',description:'West glass looks toward the city beyond a small perimeter hallway. Its roll-down blind operates independently.'},
- southBlinds:{name:'South glass and privacy blind',description:'South glass looks toward the city beyond a small hallway. Its roll-down blind operates independently.'},
- topLeft:{name:'Top-left drawer · private reserve',description:'Richard’s private drawer holds special-occasion cigars, aged whiskey and two glasses. Ask him before opening it.'},
- secondLeft:{name:'Second-left drawer · meeting supplies',description:'Cheaper writing implements, paperclips, a stapler and basic meeting notepads are kept together here.'},
- bottomLeft:{name:'Bottom-left drawer · current reports',description:'Dated sales and marketing reports are maintained primarily by Erin. Older reports move to the filing cabinets when this drawer fills.'},
- topRight:{name:'Top-right drawer · key lock',description:'A physical key lock protects high-value sales and marketing contracts and the corporate expense credit card. The card is restricted to approved office expenses and client meals.'},
+ northBlinds:{parent:'windows',name:'North glass and privacy blind',description:'North glass overlooks the east–west circulation corridor, with marketing cubicles beyond the gap. Its roll-down blind operates independently.'},
+ westBlinds:{parent:'windows',name:'West glass and privacy blind',description:'West glass looks toward the city beyond a small perimeter hallway. Its roll-down blind operates independently.'},
+ southBlinds:{parent:'windows',name:'South glass and privacy blind',description:'South glass looks toward the city beyond a small hallway. Its roll-down blind operates independently.'},
+ topLeft:{parent:'drawers',name:'Top-left drawer · private reserve',description:'Richard’s private drawer holds special-occasion cigars, aged whiskey and two glasses. Ask him before opening it.'},
+ secondLeft:{parent:'drawers',name:'Second-left drawer · meeting supplies',description:'Cheaper writing implements, paperclips, a stapler and basic meeting notepads are kept together here.'},
+ bottomLeft:{parent:'drawers',name:'Bottom-left drawer · current reports',description:'Dated sales and marketing reports are maintained primarily by Erin. Older reports move to the filing cabinets when this drawer fills.'},
+ topRight:{parent:'drawers',name:'Top-right drawer · key lock',description:'A physical key lock protects high-value sales and marketing contracts and the corporate expense credit card. The card is restricted to approved office expenses and client meals.'},
  cabinets:{name:'Filing cabinets behind the desk',description:'Archived reports are organized by product, then year, then quarter. Filing preserves each original report and its identity.'},
- computer:{name:'Biometric computer',description:'The locked management workstation requires Richard’s biometric authorization. A locked screen reveals no documents or contact details.'},
- scheduler:{name:'Desktop meeting scheduler',description:'The scheduler shows Richard’s ordinary weekday nine-to-five office hours, team check-ins and lunch. It does not invent appointments or override his actual routine.'},
- pens:{name:'Signing pens and nameplate',description:'Expensive signing pens stand in a cup beside the nameplate: Richard Carter — Sales and Marketing Manager.'},
- intercom:{name:'One-touch Erin intercom',description:'The desk speaker can request Erin’s presence, coffee, water or legitimate secretary assistance. Availability and player control still apply; routine requests offer no extra pay.'},
+ computer:{parent:'desktop',name:'Biometric computer',description:'The locked management workstation requires Richard’s biometric authorization. A locked screen reveals no documents or contact details.'},
+ scheduler:{parent:'desktop',name:'Desktop meeting scheduler',description:'The scheduler shows Richard’s ordinary weekday nine-to-five office hours, team check-ins and lunch. It does not invent appointments or override his actual routine.'},
+ pens:{parent:'desktop',name:'Signing pens and nameplate',description:'Expensive signing pens stand in a cup beside the nameplate: Richard Carter — Sales and Marketing Manager.'},
+ intercom:{parent:'desktop',name:'One-touch Erin intercom',description:'The desk speaker can request Erin’s presence, coffee, water or legitimate secretary assistance. Availability and player control still apply; routine requests offer no extra pay.'},
  eastDoor:{name:'Only door · east to Reception F',description:'The solid east wall is shared with Erin Lillard’s Reception F. This single connecting door is the office’s only entrance.'}
 };
 function state(s){const t=T.state(s);t.richardOffice||={schema:1,blinds:{north:false,west:false,south:false},reports:{},current:[],archive:[],retrieved:[],imported:{},access:{},intercom:null};const o=t.richardOffice;return o;}

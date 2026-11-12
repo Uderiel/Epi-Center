@@ -1,3 +1,9 @@
+## v1.0.85 — layered object navigation
+
+Owner accepts the v1.0.84 work correction (“Works fine now”). G’s room-level fixtures are desk, display shelving, chairs, plants, windows/blinds, filing cabinets and east door. Desk exposes only Desktop and Desk drawers. Desktop exposes computer, scheduler, pens/nameplate and intercom; Desk drawers exposes the four existing drawers. Windows exposes the three independent blinds. Back follows one saved parent at a time. Older saved leaf views normalize into the new hierarchy; object IDs and all permissions/use effects remain unchanged. Viewing and Back are free. The room-level Work summary is omitted in G while the Work shortcut remains.
+
+Acceptance: (1) Room list contains no drawers or desktop items. (2) Desk → Desktop → scheduler → Back returns to Desktop, then Desk, then Office. (3) Desk → Desk drawers → drawer → Back returns to drawers, then Desk, then Office. (4) Reload inside a leaf and repeat Back; confirm existing blinds, reports and locked access still work. New hierarchy owner acceptance pending; automated/publication/browser evidence is separate.
+
 # Richard Carter’s Office G — v1.0.80
 
 Owner-approved source: RICHARD_OFFICE_G_IMPLEMENTATION_HANDOFF.md and richard_office_G_1100x733.jpg. The JPG is copied byte-for-byte at 1100 × 733; SHA-256 `71200976189d371f2c9945fb267b966b79e5854ff18db6dad09d92773c2fead3`. Written architecture controls over image perspective. The rejected overhead image is not used.
