@@ -1,0 +1,70 @@
+{
+  "commit": "76b12bd40f2814496d3ee165e4d1f2eecdc0823a",
+  "files": [
+    {
+      "path": "rebuild/title-screen/index.html",
+      "match": true,
+      "sha256": "96bda303ce42c751defb30b165c348ae0199078c415a8bd2c7e614ca0eb3fb85"
+    },
+    {
+      "path": "rebuild/character-creation/index.html",
+      "match": true,
+      "sha256": "2fdbc5f527e9e5d901f18c3435cf5c1a8050e4f8dc1d72ecd39a88f71886745f"
+    },
+    {
+      "path": "rebuild/hub/index.html",
+      "match": true,
+      "sha256": "20c2a91b981749bbf8cf9d418c1590be71ebbc2c9749fa8ddd76bef49886193d"
+    },
+    {
+      "path": "rebuild/hub/richard.js",
+      "match": true,
+      "sha256": "4ecf9dc0cdb0ba1cb1b52f6875ffb3d2a8b89b83589c48f7f84e95f09a083d85"
+    },
+    {
+      "path": "rebuild/hub/richard-ui.js",
+      "match": true,
+      "sha256": "8892ce1bb95fc4d7ba5c6262eb5fc8fa2a87b95940bf592847a7223f0b8e93dd"
+    },
+    {
+      "path": "rebuild/hub/erin-office.js",
+      "match": true,
+      "sha256": "b5b3322196e61065c009f16b527efd11d6cd5c7ade8df0f0466051e01a671755"
+    },
+    {
+      "path": "rebuild/hub/erin-office-ui.js",
+      "match": true,
+      "sha256": "42115d2c28d16eef8cb56cd6d1c66c69ef3d81f624b33e6ea259a92a6cbfdc55"
+    },
+    {
+      "path": "rebuild/hub/navigation-ui.js",
+      "match": true,
+      "sha256": "b93974a042be658a2c5e36349f542c377c3a72aa76da19ef9c8a6caec4a32d6f"
+    },
+    {
+      "path": "rebuild/hub/technology-center.js",
+      "match": true,
+      "sha256": "349e3d656ed9756d5b830b6b00b9bae2a5d44d217020693250c55a65a2576d95"
+    },
+    {
+      "path": "rebuild/hub/technology-center-ui.js",
+      "match": true,
+      "sha256": "128cf66bb0282dd9af7c2768eff464656032e1fa666fc1fc95d121e2c8edf7c2"
+    },
+    {
+      "path": "rebuild/hub/ai-context.js",
+      "match": true,
+      "sha256": "05998be5e1f1aa85c2c0413ea2b18e2e625ef0b5c208f6152d3134d91c2e37e8"
+    },
+    {
+      "path": "rebuild/hub/ai-ui.js",
+      "match": true,
+      "sha256": "59bb775e21bf9823935e321c9a35ddef3ea650453950de927b76960b6d6f84ea"
+    },
+    {
+      "path": "rebuild/hub/erin-life.js",
+      "match": true,
+      "sha256": "bbd4843a2d8993467a38f7cd4459277b8dd8f860d4471b92e98f9e857e739664"
+    }
+  ]
+}

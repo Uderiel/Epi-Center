@@ -1,3 +1,13 @@
+## v1.0.84 — direct Work task view (tested candidate)
+
+Final usability refinement of the same owner-requested office correction: Work at Erin’s Reception F now starts directly with the computer’s task controls. Furniture description and Examine actions no longer occupy the space above Accept/Decline or the report-writing controls in Work. Other desk tabs retain normal furniture interaction; Richard’s accepted Office G art/furniture/blinds and parent navigation remain. Offered Work shows its instructions once rather than duplicating task-status prose.
+
+**745 named automated cases plus entity assertions PASS**, syntax/module paths and whitespace PASS. New rendering test verifies decision buttons appear before regular duties and the Work layer omits furniture inspection text. Existing tests cover natural saved acceptance, paraphrases/typos, conflict feedback/draft retention, twenty-minute written-report lifecycle, one-time reward rules, routines/persistence, frame/nested-scroll restoration and slot isolation. Live v1.0.82/83 checks already completed the paraphrased report through delivery/filing, verified the drawer parent, routine progress/reload and optional check-in explanation. Final v1.0.84 public entry/view/source verification follows. No paid inference, backend change or save reset.
+
+Current phase remains the Phase 10/11 office work slice. Owner scoped furniture/drawer-operation/blind PASS is preserved; work usability and drawer Back owner retest remain pending. Half-hour routine blocks and five-minute explicit steps remain implementation defaults. No new rooms, commuters, financial data, NPC visitors or beverage fulfillment are added. See [office workflow](OFFICE-WORKFLOW.md). Next exact action: final live Work task-view verification and owner acceptance checklist.
+
+[Play v1.0.84 after deployment](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.84).
+
 ### v1.0.83 final scroll-layer refinement
 
 Live testing additionally found a nested office screen could retain its own scroll after the parent dock reset. Explicit Work reveal now resets the parent dock, current office screen and nested workspace scroll areas after frame restoration; a regression assertion covers the nested layer. Richard UI uses a fresh work2 asset cache key. All 744 automated cases still pass. Gameplay publication/source verification for the final revision follows; earlier candidate SHA checks remain historical.

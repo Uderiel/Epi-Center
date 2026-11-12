@@ -6,7 +6,7 @@ function revealOfficeWorkspace(){const source=save,room=typeof EpiNavigation!=='
 function officeWorkSummaryMarkup(compact=false){
  const T=EpiTechnologyCenter,R=EpiRichard,t=R.state(save).task;if(!T.inside(save)||!['F','G'].includes(T.state(save).room)||!EpiErin.full(save))return '';
  const button=(id,label)=>'<button type="button" class="btn" data-richard="'+id+'">'+label+'</button>';
- let body='<section class="card" aria-label="Current work"><h3>Additional report · Erin’s Reception F desk</h3>'+(!compact||!['accepted','working','ready'].includes(t?.status)?'<p>'+htmlEscape(R.taskText(save))+'</p>':'');
+ let body='<section class="card" aria-label="Current work"><h3>Additional report · Erin’s Reception F desk</h3>'+(!compact||!['offered','accepted','working','ready'].includes(t?.status)?'<p>'+htmlEscape(R.taskText(save))+'</p>':'');
  if(t?.status==='offered')body+='<p>Richard’s additional report: three brief written sections, twenty minutes of desk work. You may respond here.</p>'+button('accept','Accept report assignment')+button('decline','Decline report assignment');
  if(!compact&&['accepted','working'].includes(t?.status))body+=button('workspace',t.status==='working'?'Open current report':'Prepare report at reception desk');
  if(t?.status==='ready'&&(!compact||R.present(save)))body+=R.present(save)?button('deliver','Deliver completed report'):button('find-richard','Find Richard to deliver report');

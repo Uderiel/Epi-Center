@@ -1,4 +1,4 @@
-# Office work usability correction — v1.0.83
+# Office work usability correction — v1.0.84
 
 ## Owner feedback and acceptance
 
@@ -41,7 +41,7 @@ Richard receives the exact saved task status, elapsed/total work time, workstati
 5. Open Scheduler: check-in purpose/location is explicit and Attend is offered only when it can succeed. No meeting is needed to accept reports.
 6. In G select desk → drawer → Back: return to desk listing, then Back to the office. Confirm accepted art/furniture/blinds remain.
 
-Automated evidence: releases/v1.0.83-tests.json. Live-browser and deployment evidence are recorded separately. Owner/native Android acceptance is pending until actual PASS/FAIL/UNTESTED results are supplied.
+Automated evidence: releases/v1.0.84-tests.json. Live-browser and deployment evidence are recorded separately. Owner/native Android acceptance is pending until actual PASS/FAIL/UNTESTED results are supplied.
 
 ## v1.0.82 live usability correction
 
@@ -50,3 +50,7 @@ Explicit Work navigation now opens/focuses the current workspace after normal di
 ## v1.0.83 final Work reveal
 
 Work reapplies its deliberate open/focus action after the renderer’s later animation-frame restoration, while checking the save and location have not changed. Final report assembly is labeled Finish report. The completed live report from v1.0.82 retained the player’s paraphrased prose through delivery and filing.
+
+## v1.0.84 Work starts with tasks
+
+The F desk Work tab uses a dedicated task layer with Back and the computer workspace. Furniture description/Examine controls remain in other desk views and do not precede report decisions or writing in Work. This keeps actual task controls at the top of the bounded office panel.
