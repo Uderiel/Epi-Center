@@ -1,0 +1,105 @@
+{
+  "checks": [
+    {
+      "name": "Natural-language acceptance updates the saved offered assignment",
+      "build": "v1.0.81",
+      "result": "PASS"
+    },
+    {
+      "name": "Explicit five-minute report work reaches 5/10/15/20 with live time paused",
+      "build": "v1.0.82",
+      "result": "PASS"
+    },
+    {
+      "name": "Conflicting answer gets specific feedback and its draft survives reload",
+      "build": "v1.0.82",
+      "result": "PASS"
+    },
+    {
+      "name": "Sales/refunds paraphrase accepted with AI off",
+      "build": "v1.0.82",
+      "result": "PASS"
+    },
+    {
+      "name": "Pending-versus-deliveries paraphrase accepted with AI off",
+      "build": "v1.0.82",
+      "result": "PASS"
+    },
+    {
+      "name": "Consistent-definitions recommendation accepted with AI off",
+      "build": "v1.0.82",
+      "result": "PASS"
+    },
+    {
+      "name": "In-person delivery pays 50 gold once; repeat delivery is blocked",
+      "build": "v1.0.82",
+      "result": "PASS"
+    },
+    {
+      "name": "Office G filing retains all three original paraphrased sections",
+      "build": "v1.0.82",
+      "result": "PASS"
+    },
+    {
+      "name": "Drawer Back returns to desk listing and next Back to room",
+      "build": "v1.0.82",
+      "result": "PASS"
+    },
+    {
+      "name": "Routine work advances five minutes, survives reload and pauses",
+      "build": "v1.0.81/83",
+      "result": "PASS"
+    },
+    {
+      "name": "Routine window records actual partial minutes in Notes without a bonus",
+      "build": "v1.0.84",
+      "result": "PASS"
+    },
+    {
+      "name": "Scheduler explains optional workload discussion at Erin’s Reception F",
+      "build": "v1.0.83",
+      "result": "PASS"
+    },
+    {
+      "name": "Work follows the legal G-to-F route and opens the desk workspace",
+      "build": "v1.0.83/84",
+      "result": "PASS"
+    },
+    {
+      "name": "Work reopens a collapsed panel and resets both nested scroll layers after frame restoration",
+      "build": "v1.0.83 final revision",
+      "result": "PASS"
+    },
+    {
+      "name": "Task-first Work exposes both offered-assignment buttons and remote decline updates state",
+      "build": "v1.0.84",
+      "result": "PASS"
+    },
+    {
+      "name": "Title displays v1.0.84 with QA Slot 1 and unchanged empty Slots 2 and 3",
+      "build": "v1.0.84",
+      "result": "PASS"
+    }
+  ],
+  "scope": "16 recorded live desktop check groups across the correction sequence; final v1.0.84 entry/task view and unchanged core source verified. Disposable cloud-browser character, AI off; no owner's native save accessed.",
+  "automatedCases": 745,
+  "ownerFeedback": {
+    "furniture": "PASS",
+    "drawerOperations": "PASS",
+    "blinds": "PASS",
+    "drawerBack": "Owner retest pending",
+    "workUsability": "Owner retest pending"
+  },
+  "limitations": [
+    "Native Android geometry/keyboard acceptance untested",
+    "Paid AI dialogue/model quality not retested; prompt/routing rules automated-tested",
+    "Coffee/water fulfillment and automatic city commuting remain unimplemented"
+  ],
+  "screenshot": "images/v1.0.84-work.jpg",
+  "publication": {
+    "commit": "4022eafd7b3786e99a53c2dc5c7ce5a21f9c2ce9",
+    "pagesRun": 43138403834,
+    "conclusion": "success"
+  }
+}
+

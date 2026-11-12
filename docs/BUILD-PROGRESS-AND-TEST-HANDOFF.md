@@ -1,3 +1,19 @@
+## v1.0.84 — published and verified; owner retest pending
+
+[Play v1.0.84](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.84). Gameplay commit `4022eafd7b3786e99a53c2dc5c7ce5a21f9c2ce9` is on main and rebuild/1.0-foundations. [Pages run 43138403834](https://github.com/Uderiel/Epi-Center/actions/runs/43138403834) succeeded for that commit. All 13 checked deployed entrypoints and office/AI/navigation modules match tested source exactly; live title and Hub display v1.0.84. Earlier source-hash checks/candidate notes refer to their stated historical commits.
+
+**745 named automated cases plus entity assertions PASS.** Sixteen recorded live desktop check groups across the correction sequence verify saved natural acceptance, paused-time report checkpoints, three independent paraphrases with AI off, precise conflict feedback and draft retention/reload, twenty-minute completion, one 50-gold delivery reward and repeat blocking, filing of all three original written sections, drawer → desk → room Back, routine duty progress/reload/pause/partial Notes receipts, optional F check-in explanation, legal Work routing, frame/nested-scroll opening and final task-first Accept/Decline controls. Final v1.0.84 also verified declining an offered report at reception while Richard was elsewhere. Tests used a disposable browser character and existing gameplay/Dev time controls; no paid inference or owner native save was used. Source and browser evidence: releases/v1.0.84-live-verification.json and releases/v1.0.84-browser-checks.json; screenshot: releases/images/v1.0.84-work.jpg.
+
+The requested Phase 10/11 office correction is implemented, tested, committed and published. Owner scoped PASS for furniture/drawer operations/blinds remains recorded. **Owner acceptance of the work correction, flexible report input and drawer-parent repair is still pending. Native Android/keyboard geometry and paid-model dialogue quality are UNTESTED.** Prompt constraints do not claim a real-model retest. No save reset or backend deployment is required. Routine half-hour/five-minute defaults await owner review; no new routine bonus, invented report deadline, room, visitor, commute or beverage fulfillment is added.
+
+Master Plan, Current Status, historical Handoff, active work log, Changelog, README build index and OFFICE-WORKFLOW.md are updated consistently. Next exact action: the owner’s five practical retests below; record PASS/FAIL/UNTESTED before declaring accepted. Preserve all unrelated deferred work.
+
+1. As Erin in F/G, use Work. A saved offer shows Accept/Decline at the top; natural acceptance changes the saved state.
+2. With live time paused, prepare the report, work to each checkpoint and write short answers in your own words. Incorrect facts get specific feedback and preserve the draft; finish remaining work, deliver and file once.
+3. Check daily duties and Notes progress. Scheduler explains that an optional check-in is a brief workload discussion at the existing Erin’s Reception F, independent of report acceptance.
+4. In G: desk → drawer → Back returns to desk; the next Back returns to the office.
+5. On Android, confirm Work opens at the top, controls remain reachable and typed answers/cursor survive updates/reload. Report actual failures without resetting the save.
+
 ## v1.0.84 — direct Work task view (tested candidate)
 
 Final usability refinement of the same owner-requested office correction: Work at Erin’s Reception F now starts directly with the computer’s task controls. Furniture description and Examine actions no longer occupy the space above Accept/Decline or the report-writing controls in Work. Other desk tabs retain normal furniture interaction; Richard’s accepted Office G art/furniture/blinds and parent navigation remain. Offered Work shows its instructions once rather than duplicating task-status prose.

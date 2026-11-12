@@ -54,3 +54,7 @@ Work reapplies its deliberate open/focus action after the renderer’s later ani
 ## v1.0.84 Work starts with tasks
 
 The F desk Work tab uses a dedicated task layer with Back and the computer workspace. Furniture description/Examine controls remain in other desk views and do not precede report decisions or writing in Work. This keeps actual task controls at the top of the bounded office panel.
+
+## Final publication evidence
+
+v1.0.84 gameplay `4022eafd7b3786e99a53c2dc5c7ce5a21f9c2ce9`, Pages run 43138403834 success; 13 live files match. 745 automated cases and 16 recorded live desktop check groups across the correction builds pass. The full paraphrased report was completed, delivered once and filed with original prose. Final task-first Work view and remote decline are browser-verified. Owner work-usability/drawer-parent retest and native Android/paid-model quality remain untested. No save reset required.
