@@ -4,7 +4,7 @@ Restores the owner’s Breeding Room (source H) below Treatment Room on the Pet 
 
 Owner also reports **Backend character-embodiment-v3** in game: Worker deployment is now owner-confirmed, superseding earlier deployment-pending notes. Actual model dialogue quality and Android acceptance remain separate tests.
 
-Validation: 881 named automated cases plus entity assertions, syntax and module paths PASS. Publication and browser checks follow. Owner retest: inspect Pet Boutique, open Floor plan & room details, confirm the eighth room and its connection; check Trixie and planned care text. Full playable interiors and services remain future work.
+Validation: 881 named automated cases plus entity assertions, syntax and module paths PASS. Published as gameplay commit `31e450a0819a61f642ed67ace9bfd9cff8287535` on main and rebuild/1.0-foundations; Pages run43408286857 succeeded. All four changed deployed runtime files byte-match tested source. Existing isolated slot3, AI off/time paused: Map view shows Trixie, the restored sublevel diagram and expandable Breeding Room description without travelling from Neko Cafe. Current title shows v1.0.94. Evidence: releases/v1.0.94-live-verification.json. [Play v1.0.94](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.94). Owner retest: inspect Pet Boutique, open Floor plan & room details, confirm the eighth room and its connection; check Trixie and planned care text. Full playable interiors and services remain future work.
 
 ## v1.0.93 — published and live references verified
 

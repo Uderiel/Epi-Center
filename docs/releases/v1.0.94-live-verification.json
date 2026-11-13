@@ -1,0 +1,54 @@
+{
+  "version": "1.0.94",
+  "gameplayCommit": "31e450a0819a61f642ed67ace9bfd9cff8287535",
+  "pagesRun": 43408286857,
+  "pagesConclusion": "success",
+  "deployedSource": [
+    {
+      "file": "rebuild/character-creation/index.html",
+      "match": true,
+      "sha256": "17ba0596ca1c623b9e77bd50e70eb71446b20bc28bea6ca2103dcd41f5d09d53"
+    },
+    {
+      "file": "rebuild/hub/index.html",
+      "match": true,
+      "sha256": "43e4c96642e8ee1db58acfe0ea1ebcaa03658df893503eb118aee9d677c420fc"
+    },
+    {
+      "file": "rebuild/hub/location-details.js",
+      "match": true,
+      "sha256": "f2e1d626f816b7dc11002c9de273c8800685f8c093eeae32580e5a94f5a27344"
+    },
+    {
+      "file": "rebuild/title-screen/index.html",
+      "match": true,
+      "sha256": "c200da40a6f7cd2e7b5a174d8c252123bcf880ba358163632ad359ed9ed0f8f6"
+    }
+  ],
+  "automated": {
+    "namedCases": 881,
+    "entityAssertions": "PASS",
+    "syntax": "PASS",
+    "modulePaths": "PASS",
+    "whitespace": "PASS"
+  },
+  "browser": {
+    "save": "Existing isolated Floor86Tester slot 3; AI off; live time paused",
+    "checks": [
+      "Current title displays v1.0.94 and all three save slots",
+      "Existing save resumes at Neko Cafe with v1.0.94 marker",
+      "Map reference Pet Boutique preserves current location at Neko Cafe",
+      "Staff directory shows Trixie as fertility and reproductive-care specialist",
+      "Sublevel diagram includes Grooming, Treatment and Breeding Rooms connected to Kennels / Play Area",
+      "Breeding Room disclosure includes description and correct connection",
+      "Room and service references remain plans, without executable reproductive effects"
+    ],
+    "screenshot": "images/v1.0.94-boutique.jpg"
+  },
+  "worker": "Owner-confirmed character-embodiment-v3; no Worker change made in v1.0.94",
+  "limitations": [
+    "Native Android untested",
+    "Playable Boutique interiors and services remain future work",
+    "Paid model dialogue quality untested"
+  ]
+}
