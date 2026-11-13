@@ -22,6 +22,8 @@ Status: character design, not implemented gameplay. Owner decisions recorded Nov
 
 - His confirmed personal interests are quiet evenings and outings with Crystal, cooking, hiking/other outdoor activities, and enjoying and collecting wine. Some of Erin’s favorite wines came from his recommendations.
 
+- Owner-confirmed attribute direction: **Mental specialist, with secondary strengths in Physical**. Derive the primary from the shared engine rather than hard-coding it.
+
 ## How he supports Erin
 
 His response depends on being present and hearing enough of the exchange to understand it. He does not know about a private conversation, unseen assignment or Erin's internal thoughts. Sharing a building or receiving a generic schedule update is not enough.
@@ -84,6 +86,31 @@ He remembers who he spoke to, what concern was raised, any agreed next step and 
 
 Use employee-specific sales records and actual work opportunities. A lack of assigned accounts, an approved absence or a known product/document blocker cannot be silently narrated as laziness. The precise sales targets, review period and any disciplinary consequences remain open design decisions. This personality choice does not automatically authorize firing, fines, pay deductions or a confrontation with Richard.
 
+## Attributes and civilian combat direction
+
+Owner-confirmed: **Mental specialist with secondary strengths in Physical**. He remains a civilian sales team leader. This choice defines his statistical strengths; it does not establish military training, a fighter background or bespoke powers.
+
+Proposed numerical allocation (49 points; these exact values are a design proposal, distinct from the confirmed archetype direction):
+
+| Attribute | Proposed value / 10 | Character emphasis |
+| --- | ---: | --- |
+| Endurance | 6 | Physical staying power and outdoor activity |
+| Fitness | 5 | Competent ordinary physical effort and attacks |
+| Intuition | 4 | Practical awareness |
+| Reflexes | 4 | Ordinary reactions and initiative |
+| Willpower | 6 | Mental resistance and persistence |
+| Reasoning | 7 | Main offensive Mental attribute; analytical strength |
+| Stability | 5 | Steadiness under pressure |
+| Presence | 4 | Professional bearing |
+| Insight | 4 | Reading a situation |
+| Influence | 4 | Social persuasion |
+
+The actual EpiCombat.specialization calculation yields **Mental 20, Physical 17, Arousal 14**, with **Mental** as the unique primary. These are alignment scores, not percentages or three class levels. The secondary Physical strength does not produce a tied-primary hybrid. The allocation was checked directly against the current engine, including all ten attributes and 0–10 bounds. This is design validation, not a deployed Daniel encounter or a full gameplay regression claim.
+
+The draft keeps Reasoning strongest, with strong Willpower and Endurance and useful Fitness. His average build and softer middle do not imply poor stamina or prevent his hiking interest. Reluctance to directly confront Richard is a social/character choice, not an automatic failed Willpower save.
+
+When implemented, use shared Mental-primary actions, ordinary legal physical actions/reactions and the existing action budgets, costs and defenses. Do not unlock a second full specialist move set merely because the Physical alignment score is second highest. Proposed encounter tendencies: assess the opponent and use legal Mental pressure/control while resources permit; use physical defense or a counter when the current engine allows it; respond to depleted resources and defeat using ordinary civilian rules. Exact tactical policy, resource tuning and aggression consequences still need implementation and tests.
+
 ## Proposed work rhythm
 
 These timings are authoring proposals, not new owner-approved schedule values. His confirmed responsibilities should shape the actual schedule rather than appear only in a biography.
@@ -144,7 +171,7 @@ The earlier darts suggestion was not selected as a confirmed interest; it should
 
 The earlier broad-shouldered and unspecified dark-hair proposals are superseded. Navy suits, later rolled sleeves, friendly competitiveness and a green insulated mug remain draft details from ERIN-DAILY-LIFE-EXPANSION.md. His confirmed appearance and interests do not additionally approve every earlier proposed clothing or workstation detail. His build does not assign physical attributes or remove his confirmed interest in hiking and outdoor activities.
 
-Their workplace friendship, occasional lunch conversation and Daniel’s understated attraction are confirmed. How long they have worked together, his remaining personal background, the layout of Applewood 4C, clothing details, attributes and detailed schedule remain open to further character design. No new game version, NPC deployment, product catalog, sales simulation or safety-briefing system is claimed by this document.
+Their workplace friendship, occasional lunch conversation and Daniel’s understated attraction are confirmed. How long they have worked together, his remaining personal background, the layout of Applewood 4C, clothing details, exact attribute/resource balance and detailed schedule remain open to further character design. No new game version, NPC deployment, product catalog, sales simulation or safety-briefing system is claimed by this document.
 
 ## Acceptance criteria when implemented
 
@@ -162,5 +189,6 @@ Their workplace friendship, occasional lunch conversation and Daniel’s underst
 12. Daniel’s five-year loving, supportive marriage to Crystal Mercer persists in character context, including their enjoyment of each other’s company and his worry about flirtatious casino customers; her exact job and non-indentured status remain intact.
 13. Their shared residence resolves to Applewood fourth floor, apartment C (4C), preserving Erin’s 3C and Richard’s existing floor-7 Suite D. The general staff-housing rule does not invent unassigned units or relocate named residents.
 14. His interests and wine-recommendation history remain in character context without inventing gifts, specific bottles, private dates, Crystal’s preferences or inventory changes.
+15. Shared-engine attribute derivation is Mental-primary with Physical secondary; no hard-coded primary, unintended hybrid tie, bespoke power or second specialist move package is added.
 
 Related: [Erin's daily-life expansion](ERIN-DAILY-LIFE-EXPANSION.md), [Michael's character design](MICHAEL-CHARACTER-DESIGN.md).

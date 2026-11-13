@@ -37,6 +37,8 @@ Workstation: Sales Cubicles, team-lead desk; green insulated mug, worn sales han
 
 Owner-confirmed personal life: Daniel has been married for five years to Crystal Mercer, a roulette table attendant at the Silver Shackle Casino. Crystal is not indentured. Their marriage is loving and supportive, and they enjoy each other’s company. Daniel worries about flirtatious customers at Crystal’s job. They live in Applewood Apartments 4C (fourth floor, apartment C). Her schedule and their apartment layout remain undesigned.
 
+Owner-confirmed attribute direction: Mental specialist with secondary Physical strengths. The proposed ten-attribute allocation and current-engine calculation (Mental 20, Physical 17, Arousal 14) are in [Daniel’s character design](DANIEL-MERCER-CHARACTER-DESIGN.md); exact values remain a numerical design proposal. Derive his primary from attributes and retain ordinary civilian/shared-action rules.
+
 Work hooks: confirm a customer-briefing time; collect account updates from named staff; verify which of two conflicting deadlines Richard actually prioritized. Conversations address the specific work performed and Daniel's own concerns. He is an ordinary civilian using standard engine actions if attacked; no invented management powers.
 
 ### Nadia Voss — Marketing Team Leader
