@@ -10,6 +10,9 @@ Status: character design, not implemented gameplay. Owner decisions recorded Nov
 - He does not directly confront Richard. He supports Erin where he can while remaining responsible for his sales team's productivity.
 - His work includes generating sales reports; networking and coordinating with Richard for sales pitches; keeping current on Technology Center products; tracking each sales employee's actual sales; and providing the sales team with monthly company safety briefings.
 
+- Daniel and Erin are good coworkers and workplace friends. They work closely together and are both expected at all conference-room meetings. They sometimes talk over lunch.
+- Daniel finds Erin attractive, is complimentary and is not overt about his feelings. Her reciprocal feelings have not been specified.
+
 - Owner-confirmed management approach: when an employee’s sales fall behind, Daniel starts casually and becomes firmer if the problem continues.
 
 ## How he supports Erin
@@ -25,6 +28,24 @@ The line is a voice reference, not an owner-authored catchphrase or an instructi
 If Richard brushes the joke aside, Daniel does not escalate into a direct argument or guarantee that the task will be withdrawn. He may later check on Erin, defer his own nonurgent request, clarify a sales deadline or help with an appropriate piece of work when he actually has capacity. Those are proposed ways to express the owner's "support where he can" direction; they do not silently cancel Richard's assignment or volunteer another employee's time.
 
 He has real limits: sales commitments, a meeting, an unfinished report or staff who need direction may prevent immediate help. Support should remain consistent with those obligations. His reluctance to confront Richard can itself become an interesting tension in his relationship with Erin, without turning him into an automatic rescuer or a hostile bystander.
+
+## Workplace friendship and understated attraction
+
+Owner-confirmed: Daniel and Erin are good coworkers who have to work together closely and are present at all conference-room meetings. Their friendship is a workplace friendship, including occasional conversations over lunch. Do not turn that into an established history of private dinners, dates or regular one-to-one outings away from work.
+
+Conference-room scheduling should include both Daniel and Erin at every such meeting, as the owner specified. A scheduled meeting is still distinct from actual attendance: both actors must physically arrive through legal room routes. If an actor is prevented from attending, the save records the absence or delayed start rather than claiming a shared experience that did not occur. Do not silently reduce the attendance requirement to sales-only meetings.
+
+Lunch conversation is occasional and depends on overlapping availability and actual presence. They can discuss the meeting they both attended, a busy morning, the team's work or ordinary personal interests already established in their profiles. They do not automatically know each other's private thoughts or unshared home events.
+
+Daniel finds Erin attractive. He is complimentary but keeps his feelings understated. His outward behavior can convey warmth and attention without an overt declaration. Erin does not automatically know the full extent of his attraction, and his attraction does not establish her reciprocation or a romantic relationship.
+
+Proposed voice examples:
+
+- Appearance: "That color really suits you, Erin."
+- Competence: "You kept that meeting moving. I don't think Richard noticed how much you rescued his agenda."
+- Lunch: "Mind if I join you? I could use a conversation that isn't about this month's figures."
+
+These illustrate the confirmed direction rather than adding owner-approved dialogue or a fixed compliment frequency. An appearance compliment should fit her actual visible appearance. His concern about Richard overloading Erin remains the indirect, joking support already specified; attraction does not replace his work duties or make every supportive remark an attempt to pursue her.
 
 ## Core work responsibilities
 
@@ -73,7 +94,7 @@ A pitch meeting, urgent account issue or monthly briefing can displace a normal 
 
 The previous early-gray detail is removed. Short dark hair, broad shoulders, navy suits, later rolled sleeves, friendly competitiveness, a green insulated mug and interests in hiking/cooking/darts remain draft details from ERIN-DAILY-LIFE-EXPANSION.md. The age/no-gray correction and work/Erin-support decisions do not additionally approve every earlier proposed detail.
 
-His relationship history with Erin, personal life, home, full appearance, attributes and detailed schedule remain open to further character design. No new game version, NPC deployment, product catalog, sales simulation or safety-briefing system is claimed by this document.
+Their workplace friendship, occasional lunch conversation and Daniel’s understated attraction are confirmed. How long they have worked together, his wider personal life, relationship status, home, full appearance, attributes and detailed schedule remain open to further character design. No new game version, NPC deployment, product catalog, sales simulation or safety-briefing system is claimed by this document.
 
 ## Acceptance criteria when implemented
 
@@ -86,5 +107,7 @@ His relationship history with Erin, personal life, home, full appearance, attrib
 7. A monthly briefing is prepared, scheduled and completed once for its period; reload and time skips preserve the ledger and do not fabricate attendance.
 8. His work responsibilities remain visible in daily choices, without repetitive report/briefing loops.
 9. Employee performance follow-up starts casually and becomes firmer only when real continuing problems and previous conversations justify it; persistence and improvement survive reload.
+10. Both Daniel and Erin are assigned to all conference-room meetings; actual attendance and shared lunch conversations require real presence.
+11. Daniel’s compliments and understated attraction preserve their established workplace friendship without inventing dates, reciprocal feelings or private knowledge.
 
 Related: [Erin's daily-life expansion](ERIN-DAILY-LIFE-EXPANSION.md), [Michael's character design](MICHAEL-CHARACTER-DESIGN.md).
