@@ -1,3 +1,9 @@
+## v1.0.88 — published; browser verified; Worker update outstanding
+
+Gameplay commit `be1b310669b72342772af1e2470810886d86c917` is on main and rebuild/1.0-foundations. Pages run [43342677336](https://github.com/Uderiel/Epi-Center/actions/runs/43342677336) succeeded. All 7 changed deployed runtime files match the tested source byte-for-byte. The isolated existing Slot 3 resumed on v1.0.88 and Settings rendered correctly with AI off; no credentials or paid generation were used. Evidence: releases/v1.0.88-live-verification.json and releases/images/v1.0.88-settings.jpg.
+
+810 named automated cases plus entity assertions PASS. This is frontend/source publication verification, not real-model dialogue acceptance. Cloudflare Worker deployment, paid Featherless writing quality and native Android remain UNTESTED. Next: deploy the existing Worker using services/ai/deploy-worker.mjs as described in CHARACTER-DIALOGUE-QUALITY.md, verify Backend character-voice-v2 in Settings, then owner tests control/identity, short voice, current room and Richard initiative. The previous candidate publication step is superseded.
+
 ## v1.0.88 — character voice, authority context and Richard initiative (tested candidate)
 
 Owner supplied real Featherless transcripts showing repeated headers/mirror/hair narration, reflexive apologies, incorrect claims of player authority despite form-led routines, stale room facts, overlong/cut-off answers, and Richard rarely initiating conversation. Phase 10/11 dialogue correction; preserve identity, gameplay authority, work, mastery, resources and saves.

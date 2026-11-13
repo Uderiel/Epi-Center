@@ -1,0 +1,23 @@
+{
+  "version": "1.0.88",
+  "gameplayCommit": "be1b310669b72342772af1e2470810886d86c917",
+  "pagesRun": 43342677336,
+  "pagesConclusion": "success",
+  "runtimeFilesByteMatched": [
+    "rebuild/character-creation/index.html",
+    "rebuild/hub/ai-context.js",
+    "rebuild/hub/ai-ui.js",
+    "rebuild/hub/index.html",
+    "rebuild/hub/richard-ui.js",
+    "rebuild/hub/richard.js",
+    "rebuild/title-screen/index.html"
+  ],
+  "browserChecks": [
+    "Existing isolated Slot 3 resumed on build v1.0.88",
+    "Settings rendered; AI remained off; no credentials or paid model calls"
+  ],
+  "automatedNamedCases": 810,
+  "workerDeployment": "UNTESTED",
+  "paidModelQuality": "UNTESTED",
+  "nativeAndroid": "UNTESTED"
+}

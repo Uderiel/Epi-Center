@@ -1,3 +1,5 @@
+v1.0.88 publication verified at `be1b310`: Pages success; 7 deployed runtime files byte-matched; 810 named cases plus entity assertions PASS. Existing test save and Settings browser check PASS. Worker deployment and paid-model quality remain UNTESTED. See docs/CHARACTER-DIALOGUE-QUALITY.md for the existing-Worker update and acceptance steps.
+
 ## v1.0.88 — character voice, authority context and Richard initiative (tested candidate)
 
 Owner supplied real Featherless transcripts showing repeated headers/mirror/hair narration, reflexive apologies, incorrect claims of player authority despite form-led routines, stale room facts, overlong/cut-off answers, and Richard rarely initiating conversation. Phase 10/11 dialogue correction; preserve identity, gameplay authority, work, mastery, resources and saves.
