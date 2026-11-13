@@ -31,6 +31,8 @@ Owner-confirmed: when present to overhear Richard overloading Erin, Daniel tries
 
 Workstation: Sales Cubicles, team-lead desk; green insulated mug, worn sales handbook, framed walking-trail photo and a whiteboard of current priorities. Those belongings remain his property. Interests: hiking, amateur cooking and friendly darts. Owner-confirmed relationship with Erin: good coworkers and workplace friends, present together at all conference-room meetings and sometimes chatting over lunch. He finds her attractive and is complimentary while keeping his feelings understated. Private outings and Erin’s reciprocal feelings are not established.
 
+Owner-confirmed personal life: Daniel has been married for five years to Crystal Mercer, a roulette table attendant at the Silver Shackle Casino. Crystal is not indentured. Their marriage dynamic, her schedule and their home remain undesigned.
+
 Work hooks: confirm a customer-briefing time; collect account updates from named staff; verify which of two conflicting deadlines Richard actually prioritized. Conversations address the specific work performed and Daniel's own concerns. He is an ordinary civilian using standard engine actions if attacked; no invented management powers.
 
 ### Nadia Voss — Marketing Team Leader

@@ -15,6 +15,8 @@ Status: character design, not implemented gameplay. Owner decisions recorded Nov
 
 - Owner-confirmed management approach: when an employee’s sales fall behind, Daniel starts casually and becomes firmer if the problem continues.
 
+- Daniel has been married for five years to **Crystal Mercer**. Crystal works as a **roulette table attendant at the Silver Shackle Casino** and is **not indentured**.
+
 ## How he supports Erin
 
 His response depends on being present and hearing enough of the exchange to understand it. He does not know about a private conversation, unseen assignment or Erin's internal thoughts. Sharing a building or receiving a generic schedule update is not enough.
@@ -90,11 +92,21 @@ These timings are authoring proposals, not new owner-approved schedule values. H
 
 A pitch meeting, urgent account issue or monthly briefing can displace a normal block. Already completed steps stay complete; he does not restart a report simply because the minute tick runs again. Movement between his sales workstation, Richard's office, conference room and break room uses the existing legal doors and travel costs.
 
+## Marriage and Crystal Mercer
+
+Owner-confirmed: Daniel is married to Crystal Mercer and they have been married for five years. Crystal works as a roulette table attendant at the Silver Shackle Casino. She is explicitly **not indentured**. Preserve her exact role; do not silently relabel her a dealer, casino-owned person or indentured employee.
+
+The length of the marriage is a character-history fact, not a known anniversary date. Crystal’s age, appearance, personality, shift hours, home and the day-to-day quality of their marriage have not yet been specified. Her casino workplace does not establish Daniel’s gambling habits, debts or attendance there. The non-indenture clarification must survive any later casino design or character generation.
+
+Daniel’s previously confirmed understated attraction to Erin remains part of his design alongside his marriage. This establishes no affair, marital conflict, agreement about other partners or reciprocal attraction from Erin. Those relationship details require their own character direction rather than being inferred from his compliments.
+
+For future schedules, use Crystal’s actual authored shifts and shared plans once they exist. Do not assume that casino work always means a night shift, force Daniel to remain at work, or invent a completed evening together. Their household and marriage memory should be distinct from work records and from Erin’s private form history.
+
 ## Appearance and remaining proposals
 
 The previous early-gray detail is removed. Short dark hair, broad shoulders, navy suits, later rolled sleeves, friendly competitiveness, a green insulated mug and interests in hiking/cooking/darts remain draft details from ERIN-DAILY-LIFE-EXPANSION.md. The age/no-gray correction and work/Erin-support decisions do not additionally approve every earlier proposed detail.
 
-Their workplace friendship, occasional lunch conversation and Daniel’s understated attraction are confirmed. How long they have worked together, his wider personal life, relationship status, home, full appearance, attributes and detailed schedule remain open to further character design. No new game version, NPC deployment, product catalog, sales simulation or safety-briefing system is claimed by this document.
+Their workplace friendship, occasional lunch conversation and Daniel’s understated attraction are confirmed. How long they have worked together, his wider personal life, marriage dynamic, home, full appearance, attributes and detailed schedule remain open to further character design. No new game version, NPC deployment, product catalog, sales simulation or safety-briefing system is claimed by this document.
 
 ## Acceptance criteria when implemented
 
@@ -109,5 +121,6 @@ Their workplace friendship, occasional lunch conversation and Daniel’s underst
 9. Employee performance follow-up starts casually and becomes firmer only when real continuing problems and previous conversations justify it; persistence and improvement survive reload.
 10. Both Daniel and Erin are assigned to all conference-room meetings; actual attendance and shared lunch conversations require real presence.
 11. Daniel’s compliments and understated attraction preserve their established workplace friendship without inventing dates, reciprocal feelings or private knowledge.
+12. Daniel’s five-year marriage to Crystal Mercer persists in character context; her exact job and non-indentured status are preserved without inventing marital conflict or casino obligations.
 
 Related: [Erin's daily-life expansion](ERIN-DAILY-LIFE-EXPANSION.md), [Michael's character design](MICHAEL-CHARACTER-DESIGN.md).
