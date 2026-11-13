@@ -1,0 +1,85 @@
+{
+  "version": "1.0.92",
+  "gameplayCommit": "f03cc5c1366d2b6908b6f79cefcf0357165d0ecd",
+  "pagesRun": 43401457679,
+  "pagesConclusion": "success",
+  "deployedSource": [
+    {
+      "file": "rebuild/character-creation/index.html",
+      "match": true,
+      "sha256": "6e478746755fcb802cf6c49cd98c4f06e860d7a870c03c9b0b730a5051bc84dc"
+    },
+    {
+      "file": "rebuild/hub/ai-context.js",
+      "match": true,
+      "sha256": "a65229bfdbb0b1d18743ba61b61b8f8cb06a3e2a68c89d5bcf4a83cc9f2ed508"
+    },
+    {
+      "file": "rebuild/hub/ai-ui.js",
+      "match": true,
+      "sha256": "0ca7f5cb8376bb22ad74cf5aab08d5491fcd5900692cc9efe46bca057f6796e8"
+    },
+    {
+      "file": "rebuild/hub/equipment-ui.js",
+      "match": true,
+      "sha256": "3877878ef5bb2a456dba3838a3e0b62a1267794bb944bbd101d08c37a4a96b03"
+    },
+    {
+      "file": "rebuild/hub/erin-household.js",
+      "match": true,
+      "sha256": "17fdb3e5512c5503d7443712d68aa6bce9fc74b8e6b011eeb40ae8965931fd23"
+    },
+    {
+      "file": "rebuild/hub/erin-life.js",
+      "match": true,
+      "sha256": "b29ffe43e3ad4a1ad7c0c5d6fa4304231000c19d550605a7c26dcd57c4ada6cf"
+    },
+    {
+      "file": "rebuild/hub/erin-restoration.js",
+      "match": true,
+      "sha256": "7e104b3f3361d0aa3d176b627c4b8c1dee7d947bd07797ded68241fc709c50c3"
+    },
+    {
+      "file": "rebuild/hub/erin-ui.js",
+      "match": true,
+      "sha256": "e65f0fe67e9801ca50376bb4f44fcf31c750f89a9c80ecb65101b6c3e4878147"
+    },
+    {
+      "file": "rebuild/hub/form-living.js",
+      "match": true,
+      "sha256": "b7350e70ab5de4a6cec3990316e8d013641c7b030ec24fd8b27b7d123b2386a9"
+    },
+    {
+      "file": "rebuild/hub/index.html",
+      "match": true,
+      "sha256": "a994c2ae1009d9573aff677b0904824074198d9057a561c309589994e2f1d28b"
+    },
+    {
+      "file": "rebuild/title-screen/index.html",
+      "match": true,
+      "sha256": "dd482d0410917a75bc6d2c9b779e852e79c0ac33d7a306a9c6371e3d5edce23f"
+    }
+  ],
+  "browserChecks": [
+    "Current build v1.0.92 resumed existing isolated Floor86Tester save slot3; AI off; live time paused",
+    "Kibbles unmastered at zero influence: familiar-home +4 appeared in actual roll; success earned20 progress, spent3 Resolve, did not master",
+    "Canine Form drawer displayed favorite toilet, territory, patrol disclosure and bonus rules",
+    "Dev trust100 plus real one-minute advance granted canonical cooperative Erin mastery in own QA save",
+    "Mastered Erin heel-free will-release returned original player name; reload Form drawer showed No form equipped",
+    "Other footwear blocked heel equip; actual unequip then mastered heels instantly restored Erin23/23",
+    "Restored mastered Erin showed zero influence, trust100, worn heels block will-release and offer removal",
+    "Public title v1.0.92 visible after refresh"
+  ],
+  "screenshots": [
+    "images/v1.0.92-canine.jpg",
+    "images/v1.0.92-erin-release.jpg",
+    "images/v1.0.92-restored-erin.jpg"
+  ],
+  "notVerified": [
+    "Paid Featherless voice compliance",
+    "New Worker deployment: prepared character-embodiment-v3, prior owner-confirmed character-voice-v2",
+    "Native Android",
+    "Full live canine sleep, marking, patrol and squirrel sequence; automated cases cover rules",
+    "Roaming-NPC canine interactions: pending scheduler, not implemented"
+  ]
+}
