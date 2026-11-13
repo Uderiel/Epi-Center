@@ -1,0 +1,134 @@
+{
+  "version": "1.0.96",
+  "gameplay_commit": "293ee0ce3a29bad26933db31c0c2e8df71962ccb",
+  "tree": "190d802695f5ee2ca740fb118105cb4e67c603a7",
+  "pages": {
+    "id": 43499105742,
+    "conclusion": "success"
+  },
+  "automated": {
+    "named_cases": 933,
+    "new_marketing_cases": 28,
+    "entity_assertions": "PASS",
+    "syntax_and_module_paths": "PASS",
+    "whitespace": "PASS"
+  },
+  "public_source": [
+    {
+      "path": "rebuild/character-creation/index.html",
+      "match": true,
+      "sha256": "9b9917d9f0ccea8c5571e5fe69d367e82d2dfabb2b25b314223ae022804459a3"
+    },
+    {
+      "path": "rebuild/hub/ai-context.js",
+      "match": true,
+      "sha256": "8065a3ddb9b0873d1d19360a18341f97507738af76bd7a2011449877373ba92f"
+    },
+    {
+      "path": "rebuild/hub/ai-ui.js",
+      "match": true,
+      "sha256": "079171b66e16854e7f10066a57340b4358dc4cadf87a75e824e8f43e7bd86a66"
+    },
+    {
+      "path": "rebuild/hub/assets/nadia-voss-dart.jpg",
+      "match": true,
+      "sha256": "85d1adf64c771329aa24d40ee4ac5db0daf7c61df742de7dad4c7bad74c5382f"
+    },
+    {
+      "path": "rebuild/hub/department-ui.js",
+      "match": true,
+      "sha256": "db3e44d732a371fe94e0e03718972b48054a3df1c7b7b7275e9e8e6a53e29e1e"
+    },
+    {
+      "path": "rebuild/hub/department.js",
+      "match": true,
+      "sha256": "4109a4574ea6a4839d3fdc86149b75043dd646fef0b47b5dc3a055047ea4c481"
+    },
+    {
+      "path": "rebuild/hub/erin-life.js",
+      "match": true,
+      "sha256": "5e50f00bfb04afd49d8e407ff0815caca5eda5ab62ea2fe1245bd4f4ef329743"
+    },
+    {
+      "path": "rebuild/hub/erin-office.js",
+      "match": true,
+      "sha256": "63b79e185a3256f071369393b52237dd69b9f5d7e5ef46d7cecdfe4a955a9001"
+    },
+    {
+      "path": "rebuild/hub/erin-work.js",
+      "match": true,
+      "sha256": "1306638b08ae6fb1dc948d13cbbd42c28793f2b6fd7f4153b377a607fdad1afc"
+    },
+    {
+      "path": "rebuild/hub/index.html",
+      "match": true,
+      "sha256": "cdc3cd7dafbe48cf2222a0c0d3af97cfc17c515c7fd3f90c3fe4f9f62efda19a"
+    },
+    {
+      "path": "rebuild/hub/marketing-ui.js",
+      "match": true,
+      "sha256": "6cd2162018ad24be26597109d2267d0f5195505829133f2a28a647a0e1dd18d9"
+    },
+    {
+      "path": "rebuild/hub/marketing.js",
+      "match": true,
+      "sha256": "17d45478a892b47dc2fa3806faa6cfd6038ed34364cdb98c75091708023eaa55"
+    },
+    {
+      "path": "rebuild/hub/navigation-ui.js",
+      "match": true,
+      "sha256": "9d0d3fdfc6afa6203b2aeafe2ce0c4ca6bbc0aec3230f8215d3b8efa85e2dfd3"
+    },
+    {
+      "path": "rebuild/hub/richard-ui.js",
+      "match": true,
+      "sha256": "7c6336812ac3c450e82f2ed1d2213301ac5d7817e0960355cc8584ad966979ba"
+    },
+    {
+      "path": "rebuild/hub/richard.js",
+      "match": true,
+      "sha256": "f6281c56a75ba59992a379bb2489b977a52eb2b5557f1aa6650a904bf24385c9"
+    },
+    {
+      "path": "rebuild/hub/technology-center-ui.js",
+      "match": true,
+      "sha256": "3e318b64eb21070d02a655da117b2a2d821c61a1fef8837683276ca49929192e"
+    },
+    {
+      "path": "rebuild/title-screen/index.html",
+      "match": true,
+      "sha256": "412e7456a286771736f4754781e438f022c8339750571893de28fd0b6eee8ec1"
+    }
+  ],
+  "browser": {
+    "save": "Existing isolated Floor86Tester slot3; slots1/2 untouched",
+    "settings": "AI off; time paused; Dev time advance to exercise actual simulated time",
+    "checks": [
+      "Title and hub loadv1.0.96",
+      "Physical route ConferenceE to Marketing CubiclesH_W",
+      "Nadia portrait, approved appearance, Dart and department responsibility topics",
+      "Marketing report prepared then collected at its workstation",
+      "Nadia explicitly selected in NPC recipient list; one reply to Tell me about Dart at11:18; two-minute cost",
+      "Seven completed orders,15 units,5700 company gold at11:17 with product totals matching itemized quantities and prices",
+      "Same order totals after reload",
+      "Friday12:50 route to ConferenceE; arrived12:53",
+      "Four-person weekly review completed at13:34 after30 shared elapsed minutes; all three agenda items resolved",
+      "Recorded results yielded zero weekend shifts; no fabricated weekend attendance",
+      "Friday13:43 ledger43 transactions,86 units,41500 gold",
+      "Completed conference persists after reload"
+    ],
+    "screenshots": [
+      "images/v1.0.96-nadia.jpg",
+      "images/v1.0.96-review.jpg"
+    ],
+    "console": "Checked output contained browser-extension metadata errors; no game runtime error observed. One automation timeout recovered by reconnecting to the same tab."
+  },
+  "limitations": [
+    "Paid-model dialogue quality and native Android interaction not tested",
+    "Owner acceptance pending",
+    "Full weekend and fortnightly cycles covered by deterministic integration tests; live smoke covered normal-weekend decision",
+    "Individual staff characters, Michael response/attendance, nightlife interiors, grocery delivery and boutique transactions remain future work",
+    "Sales fulfillment is abstracted in resolved customer events; physical customers/delivery NPCs not modeled",
+    "Economic prices, campaign budget, performance thresholds and agenda durations are documented tuning defaults"
+  ]
+}
