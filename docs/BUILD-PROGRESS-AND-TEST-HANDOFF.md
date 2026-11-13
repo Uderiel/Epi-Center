@@ -1,3 +1,9 @@
+## v1.0.93 — owner location sheets mapped (tested candidate)
+
+Added Form Repository #64, Pet Boutique #65 and Neko Cafe #67 reference details at their unchanged district coordinates. The shared catalog supplies examined-location descriptions, hours, staff directories, named room/floor diagrams, connections, menu/stock and service plans. Map reference buttons view known locations without starting travel; unknown/unexamined facts stay gated. Existing repository transport, dog snacks, coupons, resources, NPC state and quests are preserved. This is a map/reference pass, not completed playable interiors or new services. Pet sexual/reproductive mechanics are excluded; source name/rarity ambiguities are documented.
+
+**880 named automated cases plus entity assertions PASS**; syntax/module paths and whitespace pass. Ten new cases cover geography, room graphs, hours, inspection/fog, no service side effects and the real Map integration. See [scope and source interpretation](MAPPED-LOCATION-SHEETS.md). Next: publish authorized main/rebuild branches, verify deployed files and the live reference views. Worker deployment remains the separate v1.0.92 outstanding task.
+
 ## v1.0.92 — published and browser verified
 
 [Play v1.0.92](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.92). Gameplay commit `f03cc5c1366d2b6908b6f79cefcf0357165d0ecd` is on main and rebuild/1.0-foundations and exactly matches tested tree `99452d435338a303c61a46ac910c8db22fe73dc8`. [Pages run43401457679](https://github.com/Uderiel/Epi-Center/actions/runs/43401457679) succeeded. Current public title/hub version verified; changed runtime byte comparisons are recorded in releases/v1.0.92-live-verification.json.
