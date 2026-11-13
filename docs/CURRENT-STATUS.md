@@ -1,3 +1,7 @@
+## November 13, 2026 — Michael personality confirmed
+
+Owner selected **earnest and eager to please; learning to set boundaries**. [Michael character and behavior design](MICHAEL-CHARACTER-DESIGN.md) carries that choice into adult dialogue, intern duties, mentoring, realistic overload/refusal choices, persistent personal growth and internal form voice. His desire to help does not bypass task acceptance, private thought boundaries or canonical form authority. Surname/age/appearance, numerical form design, housing/pay and NPC/form coexistence remain proposals or open decisions; they are not additionally approved by the personality selection. This is design work, not a gameplay release; playable build remains v1.0.94.
+
 ## November 13, 2026 — Erin daily-life expansion design
 
 Owner scope: one sales leader plus 13 sales employees; one marketing leader plus 12 marketing employees. These 27 staff exclude Richard, Erin and junior intern Michael (30 workplace identities total). This supersedes the earlier two-leaders/eleven-workers count. Also requested: Michael, playable Groceries Aplenty and Prim and Proper Dry Cleaners, Erin's friends, and a restaurant/hangout.

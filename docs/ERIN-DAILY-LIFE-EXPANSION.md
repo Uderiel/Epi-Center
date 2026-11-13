@@ -97,7 +97,7 @@ Ordinary paid-day work remains part of Erin's 350-gold workday. Richard's qualif
 
 Confirmed: adult male junior intern, workplace cubicle M reached through Sales Cubicles, and men's dress shoes as the alternate cursed item in "If It's Not Yours, Don't Touch." His shoes are an alternative to Erin's heels; unchosen footwear remains visible. The detailed Michael profile has not been supplied in the available repository or recovered conversation history.
 
-Working proposal: Michael Reed, 24, an earnest new employee who understands the systems faster than the office politics. Medium build, sandy-brown hair, hazel eyes, inexpensive office shirts and carefully polished black dress shoes. He wants to be useful, sometimes agrees before understanding the task, and gradually learns to ask direct questions. This personality is a draft; the owner's chosen direction should shape his form voice and autonomy before it is coded.
+Working proposal: Michael Reed, 24, an earnest new employee who understands the systems faster than the office politics. Medium build, sandy-brown hair, hazel eyes, inexpensive office shirts and carefully polished black dress shoes. He wants to be useful, sometimes agrees before understanding the task, and gradually learns to ask direct questions. The owner has now confirmed this personality: earnest and eager to please, learning to set boundaries. See [Michael character and behavior design](MICHAEL-CHARACTER-DESIGN.md) for voice, relationship dynamics, growth and acceptance criteria. Surname, age and appearance remain proposals.
 
 He is not a male secretary reskin of Erin. His duties emphasize document runs, contact-list corrections, equipment checks, supervised copies, stock counts, learning the department and asking a lead when instructions conflict. Erin may mentor him; Richard delegates through the appropriate lead. He eats a basic lunch, keeps an untidy learning notebook and relaxes with games or small electronics projects. Home location and household cannot be assumed to be Erin's apartment.
 
@@ -107,7 +107,7 @@ The alternate form needs its own authored appearance, ten-attribute allocation, 
 
 Keep the shared mastery gates: progress and influence must both satisfy the canonical rules; sleeping does not grant instant mastery. Cursed-item removal does not itself undo an unmastered transformation. Any mastered release/re-equip design should explicitly match the agreed source-item contract, with no healing or state reset. An existing save with Erin's heels is not reset to replay a mutually exclusive quest opening.
 
-Still to decide for Michael: personality direction, exact appearance, rarity/attributes, physical stage count, housing, work compensation and how the NPC/form lifecycle relates to the world's Michael. These are concrete character decisions, not implemented features or assumed copies of Erin's values.
+Still to decide for Michael: exact appearance, rarity/attributes, physical stage count, housing, work compensation and how the NPC/form lifecycle relates to the world's Michael. These are concrete character decisions, not implemented features or assumed copies of Erin's values.
 
 ## Groceries Aplenty #99
 
@@ -193,7 +193,7 @@ Another day can include collecting Richard's ready cleaning order and handing it
 1. Character roster and schedules: stable IDs, all 27 department staff, workstation identity, legal room movement, room-local communication, bounded memory, save migration and AI context. Introduce both leaders and complete their first work loops before expanding repetitive tasks.
 2. Groceries and cleaner: real entrances/interiors, stock or item custody, baskets/tickets, transactions and canonical home integration; complete personal shopping/cleaning and Richard's two expense-backed errand loops.
 3. Friends and restaurant: introduction history, invitations, availability, reservations, physical arrival, menu/payment/needs and one complete attended social event.
-4. Michael: settle his character/lifecycle decisions, author the alternate shoes and form, quest branch, unique transformation and intern routine; use the already functional office and errands rather than invent duplicate systems.
+4. Michael: preserve his owner-confirmed earnest, eager-to-please personality and boundary-learning arc; settle remaining character/lifecycle decisions, author the alternate shoes and form, quest branch, unique transformation and intern routine; use the already functional office and errands rather than invent duplicate systems.
 5. Daily autonomy integration: choose from real work/errand/social plans, preserve completion memory, allow pauses/refusals and avoid loops, accidental expenditure or conflicting schedules. Then test a whole week.
 
 Required checks: exact counts and unique IDs; no leader/Michael double count; safe old-save migration and three-slot isolation; no employee teleporting through walls or arriving twice after reload; presence-gated conversations; business-hour boundaries; atomic purchases, tickets and refunds; no footwear in dry-cleaning; expenses separate from bonus/pay; social invitation/attendance distinction; form-dependent identity and inactive-Erin lifecycle; no repeated routine steps or trust farming; full work→errand→social→home cycle; paused/live minute equivalence; readable Android People/Workstation lists and stable composer/feed.
