@@ -1,0 +1,47 @@
+{
+  "version": "1.0.89",
+  "isolatedSave": "Floor86Tester, Slot 3",
+  "checks": [
+    {
+      "name": "Existing save resumed, AI off and time paused",
+      "result": "PASS"
+    },
+    {
+      "name": "Compact Dev with actual Erin trust and influence edits",
+      "result": "PASS",
+      "details": "Trust52 and influence0 set through UI; Form showed influence0."
+    },
+    {
+      "name": "Numeric and blank drafts across mutation and reload",
+      "result": "PASS",
+      "details": "13 minutes advanced17:22 to17:35; amount37 retained; blank minutes remained blank after action/reload."
+    },
+    {
+      "name": "Feed older reply anchor retained after new messages",
+      "result": "PASS",
+      "details": "feed-22 remained visible with3px offset; top1114 became1000 after bounded history trimming. Returning to bottom gave0 gap."
+    },
+    {
+      "name": "Generated shelf selection and chapter persistence",
+      "result": "PASS",
+      "details": "Seven titles visible; generated chapter1 took15min, trust52\u219253 and stress15\u219211; progress1/4 survived reload."
+    },
+    {
+      "name": "Outfit preset and saved outfit reuse",
+      "result": "PASS",
+      "details": "Casual outfit dressed in8min; savedslot1 survived reload and could be worn in8min."
+    },
+    {
+      "name": "Native Android and paid live dialogue quality",
+      "result": "UNTESTED",
+      "details": "Owner is separately testing dialogue."
+    },
+    {
+      "name": "Office autonomy and full laundry/heels loop in live browser",
+      "result": "UNTESTED",
+      "details": "Covered by automated save/transaction cases; not manually repeated in this browser run."
+    }
+  ],
+  "browserTestCommit": "997b507694abcd18fbea7974826e882b567dda3f",
+  "followup": "49be6d7 maintenance completion refinement: fresh836-case suite PASS; same UI"
+}

@@ -1,0 +1,45 @@
+{
+  "version": "1.0.89",
+  "gameplayCommit": "49be6d72bd1c79fe6f693f615f2248cc71c8d367",
+  "runtimeFilesByteMatched": [
+    "rebuild/character-creation/index.html",
+    "rebuild/hub/ai-context.js",
+    "rebuild/hub/ai-ui.js",
+    "rebuild/hub/erin-daily.js",
+    "rebuild/hub/erin-household.js",
+    "rebuild/hub/erin-life-ui.js",
+    "rebuild/hub/erin-life.js",
+    "rebuild/hub/erin-office.js",
+    "rebuild/hub/erin-restoration.js",
+    "rebuild/hub/erin-ui.js",
+    "rebuild/hub/erin-work.js",
+    "rebuild/hub/feed-position.js",
+    "rebuild/hub/form-minds-ui.js",
+    "rebuild/hub/form-minds.js",
+    "rebuild/hub/index.html",
+    "rebuild/hub/interaction-state.js",
+    "rebuild/hub/internal-mastery.js",
+    "rebuild/hub/office-floor.js",
+    "rebuild/hub/reading-library.js",
+    "rebuild/title-screen/index.html"
+  ],
+  "automatedNamedCases": 836,
+  "paidModelQuality": "Owner testing; no paid calls by agent",
+  "worker": "Owner confirms character-voice-v2; no backend source change",
+  "nativeAndroid": "UNTESTED",
+  "publicTitleURL": "https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.89",
+  "publicBuild": "PASS: source byte comparison plus actual browser v1.0.89",
+  "pagesWorkflowRun": 43347030903,
+  "browserChecks": "v1.0.89-browser-checks.json",
+  "screenshots": [
+    "images/v1.0.89-dev.jpg",
+    "images/v1.0.89-outfits.jpg"
+  ],
+  "initialRuntimeVerificationCommit": "997b507694abcd18fbea7974826e882b567dda3f",
+  "finalRefinementByteMatched": [
+    "rebuild/hub/index.html",
+    "rebuild/hub/erin-daily.js"
+  ],
+  "finalRefinement": "Completing laundry storage releases the finished daily decision;836 cases rerun PASS",
+  "pagesWorkflowConclusion": "success"
+}
