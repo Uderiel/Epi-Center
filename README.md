@@ -1,3 +1,5 @@
+v1.0.89 candidate: Erin office agency, finite Common mastery, five trust/day, sleep bonus, presets/favorite heels/laundry, generated shelf books and stable Dev/feed controls. 836 automated cases plus entity assertions PASS. [Rules and owner checklist](docs/ERIN-AGENCY-AND-COMFORT.md). Publication verification follows; current owner dialogue test uses v1.0.88 with character-voice-v2 Worker confirmed.
+
 v1.0.88 publication verified at `be1b310`: Pages success; 7 deployed runtime files byte-matched; 810 named cases plus entity assertions PASS. Existing test save and Settings browser check PASS. Worker deployment and paid-model quality remain UNTESTED. See docs/CHARACTER-DIALOGUE-QUALITY.md for the existing-Worker update and acceptance steps.
 
 ## v1.0.88 — character voice, authority context and Richard initiative (tested candidate)
