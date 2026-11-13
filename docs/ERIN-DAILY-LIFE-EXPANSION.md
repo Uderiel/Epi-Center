@@ -1,3 +1,7 @@
+## Nadia and department checkpoint · v1.0.96
+
+Nadia’s owner-approved character and department cycle supersede the earlier proposed Nadia profile below. See [Nadia implementation](NADIA-VOSS-IMPLEMENTATION.md). Daniel and Nadia are implemented; other named staff remain proposals. Dart is Nadia’s purebred male Doberman; home6E; Richard’s corrected home is7A.
+
 Implementation checkpoint: Daniel’s baseline, product knowledge and secretary-mediated appointments are implemented in v1.0.95; see [scope and verification](DANIEL-IMPLEMENTATION.md). The remaining cast, stores, social venue and Michael remain a design draft unless specifically marked otherwise.
 
 # Erin's daily-life expansion
@@ -21,7 +25,7 @@ Existing foundations: Technology Center #98 has the third-floor rooms, equipment
 
 ## Owner-confirmed staff housing
 
-Technology Center employees outside upper management live in Applewood Apartments. Daniel and Crystal share **4C (fourth floor, apartment C)**. Erin retains **3C**. Richard’s explicitly established **floor 7, Suite D** remains intact: the exception for upper management does not force all managers to live outside the building. The remaining staff, including Michael, need individual apartment assignments and interiors; no new addresses are inferred from their jobs. Residence in the building is not automatic permission to enter another resident’s home.
+Technology Center employees outside upper management live in Applewood Apartments. Daniel and Crystal share **4C (fourth floor, apartment C)**. Erin retains **3C**. Richard’s explicitly established **floor 7, Suite A** remains intact: the exception for upper management does not force all managers to live outside the building. The remaining staff, including Michael, need individual apartment assignments and interiors; no new addresses are inferred from their jobs. Residence in the building is not automatic permission to enter another resident’s home.
 
 ## Team leaders
 

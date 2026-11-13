@@ -1,3 +1,11 @@
+## v1.0.96 — Nadia Voss, Dart and department performance (tested candidate)
+
+Implements owner-approved Nadia (Marketing Team Lead,29, Mental primary/Arousal secondary, Applewood6E), her portrait with Dart, concise character dialogue, report handover, graph travel, occasional hub walks/boutique-front visits and shared civilian combat. Richard’s residence is corrected to Suite7A. Named remaining staff, Michael, nightlife interiors and boutique transactions remain future work.
+
+Saved work-position calls/networking create itemized departmental sales. Monday’s prior-campaign result modifies later chances; Friday lunch12–13 precedes a13:00 review until agenda resolution. Both leaders conduct biweekly staff reviews. Real performance drives stress, correction assignments and zero/one/two weekend shifts, with unique-minute time-and-a-half pay. Michael call-in requests are recorded without inventing his attendance. Prices, thresholds and brief agenda durations are documented tuning defaults; phones remain unavailable.
+
+Verification: release test report and [Nadia implementation / owner retest](NADIA-VOSS-IMPLEMENTATION.md). Public deployment and browser verification follow. No Worker redeployment is required; paid AI dialogue and native Android remain untested.
+
 ## v1.0.95 — Daniel Mercer and secretary-mediated appointments (published and live verified)
 
 Implements Daniel's approved character, weekday early arrival around08:30, tracked coffee supplies, actual sales-report preparation, concise authored/AI dialogue, legal routes and Mental-primary civilian combat with Physical secondary strengths. His marriage to Crystal, Applewood4C, wine recommendations and workplace friendship with Erin remain in context. The department product catalog follows the owner’s list; player phones remain planned and unavailable. Sales snapshots use validated recorded orders, with no fabricated revenue or employee NPCs.

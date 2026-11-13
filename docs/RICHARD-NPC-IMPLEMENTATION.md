@@ -10,7 +10,7 @@ The owner approved Richard after the Technology Center baseline. Sources: RICHAR
 
 ## Implemented profile and state
 
-Identity, civilian classification, role, professional appearance/personality, residence (Applewood floor 7 Suite D), signed relationship, stress/fatigue, current location/room/activity, commute progress, task/offer/refusal memory, payment ledger, work progress, combat pools and last conflict persist under world.richard. Initial migration places a new NPC according to the current game time; subsequent movement follows graphs. It does not reset player resources, forms, inventory or relationships. Dev's Richard relationship override and normal updates share the signed record.
+Identity, civilian classification, role, professional appearance/personality, residence (Applewood floor 7 Suite A), signed relationship, stress/fatigue, current location/room/activity, commute progress, task/offer/refusal memory, payment ledger, work progress, combat pools and last conflict persist under world.richard. Initial migration places a new NPC according to the current game time; subsequent movement follows graphs. It does not reset player resources, forms, inventory or relationships. Dev's Richard relationship override and normal updates share the signed record.
 
 Earlier proposed attributes were not finalized and yielded Arousal under the actual alignment formula. The implementation chooses a Mental-primary allocation, without hard-coding alignment:
 

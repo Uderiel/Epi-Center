@@ -1,0 +1,51 @@
+# Nadia Voss and the department work cycle · v1.0.96
+
+## Owner-approved character
+
+Nadia is Marketing Team Lead over twelve marketing employees, reporting to Richard alongside Daniel (who leads thirteen sales employees). Erin remains Richard’s secretary. Nadia is29,5′6″, with pale skin, blue eyes, black hair, refined Slavic features and strong bone structure; slender, shapely and confident, wearing polished corporate dresses. Mental primary, Arousal secondary. Implementation attributes: Endurance3,Fitness3,Intuition4,Reflexes3,Willpower6,Reasoning7,Stability5,Presence6,Insight5,Influence5 (47 points; Mental20.5,Arousal18,Physical11).
+
+Creative, polished, warm when praised, cool when criticized. She sees herself as the visionary. Her college degrees underpin professional snobbery toward Erin: she considers secretarial coordination lesser work and assumes Erin has time. Pleasant requests carry an expectation of compliance; Erin is an asset or an obstacle to her current need. She protects her reputation, avoiding open hostility. When Richard praises Erin, Nadia’s lips tighten, shoulders tense and she joins halfheartedly before redirecting focus to her pitches or team. Actual summary-delivery praise has a co-presence-gated reaction hook.
+
+She grudgingly recognizes strong employee ideas, tweaks something and points out the tiny flaw they missed. She protects her team’s reputation because it is hers. Agreeable staff become favorites; perceptive challengers get cooler treatment. She credits marketing for sales even without proof, remaining outwardly respectful toward Daniel but resenting praise that omits marketing. Her belief is not a system guarantee of attribution.
+
+Friendly and subtly flirty toward Richard, she wants favorable employee records to advance into his job and beyond. If Erin says he is busy, she chooses another channel or catches him in the open; she does not ask for an exception she believes she already deserves, openly brush past Erin or create reputational friction. These traits guide dialogue; conversation never bypasses actual appointment permissions.
+
+Single and career-driven, with few men worth her time in her opinion; unknowingly shares Erin’s ambition. Orders grocery deliveries. Outings include Sin-Thetic Pleasures (sometimes seeing Richard enter/leave), occasional Silver Shackle gambling and Fire and Ice nightclub entertainment/social maneuvering. Networking is a route to advancement. These venues, purchases and delivery transactions remain unimplemented; no completed services or fake off-map visits are generated.
+
+Home: Applewood6E. She does not know Richard is one floor above in **seventh-floor Suite A**, which supersedes earlier Suite D references. She owns **Dart, a purebred adult male Doberman Pinscher**. She uses Pet Boutique services and sometimes walks him in the hub. Actual routes support occasional hub walks and boutique-front visits; no veterinary/grooming purchase is silently completed. The generated portrait depicts Nadia and Dart as a character reference; Dart is not presumed present in her office. Asset: rebuild/hub/assets/nadia-voss-dart.jpg.
+
+## Daily work and reports
+
+Nadia commutes physically from Applewood to arrive around08:40 with a personal coffee/tea reference from Burke’s Sweets or Neko Cafe. No player item/gold is consumed for this background beverage. Her first fifteen stationary desk minutes prepare a saved marketing report. Daniel retains08:30 coffee and actual sales-report preparation. Erin can collect each prepared snapshot from its team leader’s workstation and deliver both to available Richard in person. Routine handover gives no extra50-gold reward and cannot repeat delivery.
+
+Nadia manages campaigns, budgets, product launches, performance and fortnightly reviews. Daniel now also conducts fortnightly reviews. Every second week, Thursday14:00–16:00 contains thirty actual review-preparation minutes per leader:13 sales-position review records from recorded sales and12 marketing-position brief reviews. Staff identities, named personalities, favoritism consequences and individual marketing contributions remain future character work. These records do not falsely claim physical meetings with unimplemented staff.
+
+Nadia stays until18:30 on ordinary Monday–Thursday workdays when repairing a negative campaign. This is a concrete initial opportunity for favorable-record work; it is not a universal overtime requirement. Evening hub walks yield to that work.
+
+## Transaction-backed sales and weekly marketing
+
+Department customer activity runs in simulated game time only, with saved RNG and idempotent attempt IDs. Thirteen sales work positions make calls/networking attempts at :15 during09–12 and13–17 on weekdays or assigned weekend shifts. Each event records employee position, product, time, type, hidden natural roll, modifier and success. Successful resolved customer events create identified completed departmental orders with **product, quantity, unit price and exact quantity×price earnings**. Totals are derived from orders, never separately randomized. No company proceeds enter player gold. Fulfillment is abstracted by the resolved customer transaction; physical customer/warehouse/delivery NPCs are not modeled.
+
+Initial economics are tuning defaults, not approved player-shop prices: alarms250,cameras500,home bots1500,display stands300,storage150,data security400 gold per unit; quantity1–3 per success; weekly campaign allocation1200 and committed campaign spend600. Phones remain unavailable. New itemized orders reject invalid quantities/prices/totals; legacy orders without itemization retain their existing money totals without inventing missing quantities.
+
+A Monday09:00 hidden check resolves the previous week’s campaign once, only if at least60 actual campaign-work minutes exist. No earlier history is invented in old saves. d20+Nadia Reasoning7: positive18+, negative14 or less, neutral15–17; natural1 negative,20 positive. Positive/negative produces ±3 on sales attempts **for the advertised product**, with baseline d20+4 vs18. Natural1 fails,20 succeeds: bad marketing never prohibits a sale. Other products retain their baseline chance. Monday results and subsequent calls are saved, so reload cannot reroll.
+
+Positive result shifts marketing toward a lower-revenue available product. Negative keeps it repairing/refining the previous advertised product. Neutral uses a conference decision, with an available-product choice during the shared meeting and a least-revenue default if no explicit choice is made. A registered implemented-product launch overrides the campaign for its unveiling. Phones cannot be registered until implemented. No new product can be created through speech.
+
+## Friday, pressure and weekend work
+
+Friday lunch is12:00–13:00 for Richard, Erin, Daniel and Nadia. The review is scheduled13:00 in Conference E; the men and Nadia physically route there. The agenda remains open until each item has ten true shared elapsed minutes and a decision: results, next campaign/budget and corrections/coverage, plus items for recorded problems. All four must be present and available; travel, combat or absence gives no attendance credit. Completion is not a fixed one-hour timer. Higher-management conference calls are planned only.
+
+The close-of-business fallback records Richard’s management decision if the shared meeting remains unresolved; it explicitly does not claim attendance or a completed conference. This avoids making the world’s weekend schedule depend on the player fabricating a meeting. Performance tiers use actual sales/attempt conversion: serious below12%, minor below25%, smooth25%+. No attempts means unknown, not automatic failure. An unresolved negative advertisement also warrants a Saturday correction. Serious gives Saturday+Sunday; minor gives Saturday; smooth gives no shift. Decisions capture their evidence and concrete correction topics/owners. Thresholds and per-agenda ten-minute timing are tuning defaults.
+
+Richard’s stress changes gradually with real conversion as work progresses; his current department expectations reflect severity, and high-pressure office presence adds bounded Erin stress. Existing refusal/acceptance and form-authority rules remain intact: no silent task acceptance, invented deadline or forced teleport.
+
+Assigned weekend shifts09:00–17:00 include12:00–13:00 lunch. Reception/calendar/inbox recognize them; normal weekends remain free. Actual reception cover and work receipts produce unique minute credit, without double-counting overlaps or lunch. Time and a half is **525 gold for420 productive minutes**, prorated by recorded minutes and settled once after17:00, rounded down to whole gold. Weekday350/day and extra-task50 remain distinct. After120 correction-preparation minutes the correction packet is marked prepared for management review, not a guaranteed repaired campaign or fabricated new sales.
+
+Michael may be requested for an assigned weekend while speaking with Richard as Erin. His playable character is pending, so the request stays recorded without inventing his response or attendance. Remaining staff NPCs are not spawned from their work-position IDs.
+
+## Verification and owner retest
+
+Automated release report: docs/releases/v1.0.96-tests.json. New integration coverage includes graph travel, migration, itemized totals, sales timing, campaign persistence/modifiers, launches/phones, actual report handover, full Friday attendance, missing participants, biweekly review records, performance-based weekends, exact unique-minute pay, Dart routes, AI isolation and Nadia’s civilian combat. Existing suites also run. Public browser evidence is recorded separately after publication. Paid-model dialogue, native Android and owner acceptance remain separate.
+
+Owner retest: visit Marketing Cubicles on a workday; open Nadia and ask about Dart/work; inspect the daily report after preparation. Collect it and Daniel’s report, deliver both to Richard. Observe itemized sales under Sales, marketing & weekly review. Attend Friday’s13:00 conference with all four; check decisions and next-week campaign. On an assigned weekend, work at reception and check prorated time-and-a-half pay after17:00. Resume/reload to confirm persistence.
