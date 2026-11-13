@@ -34,4 +34,4 @@ Server defaults: temperature0.8, top_p0.9, repetition_penalty1.05, frequency_pen
 5. Ask several ordinary/personal/work questions. Replies target25–70 words, usually2–4 short sentences, rather than scripted reassurance. Quality requires real-model owner testing; deterministic tests only validate prompts/routing/state.
 6. Check any cutoff: new Worker reports output limit in status and displays only complete thoughts. No automatic paid continuation/retry is made. Cost/accounting and the existing50-dollar monthly limit stay enforced.
 
-809 named automated cases plus entity assertions passed. Mock provider tests validate completion handling and accounting; no paid model or native Android result is claimed. The separate daily-outfit availability error in the owner log remains open and is not diagnosed as an AI personality problem.
+810 named automated cases plus entity assertions passed. Mock provider tests validate completion handling and accounting; no paid model or native Android result is claimed. The separate daily-outfit availability error in the owner log remains open and is not diagnosed as an AI personality problem.

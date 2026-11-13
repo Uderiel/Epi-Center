@@ -1,6 +1,6 @@
 {
   "checkpoint": "v1.0.88 implementation candidate",
-  "namedCases": 809,
+  "namedCases": 810,
   "suiteResults": [
     {
       "file": "rebuild/combat/civilian-encounter.test.js",
@@ -71,7 +71,7 @@
     {
       "file": "rebuild/hub/character-conversation.test.js",
       "exitCode": 0,
-      "output": "PASS Erin packet supplies the live room control mastery and current action before optional description\nPASS mastery zero influence resolved routines and temporary pauses produce distinct accurate authority\nPASS old repetitive persona histories stay saved but new requests cannot reinforce them\nPASS completed sentence history never stores a clipped word tail as a model example\nPASS response cleanup removes repeated role headers and invented gesture blocks without changing dialogue\nPASS NPC conversation triggers provide proactive intent instead of a stale last button or false player question\nPASS Richard initiates a real local conversation without creating work or changing rewards\nPASS conversation never speaks remotely in combat through an incapable body or for an unwilling manager\nPASS cooldowns day caps and recorded work acknowledgements survive reload without paid-request loops\nPASS player exchanges suppress immediate unsolicited dialogue and pending offers are not nagged\nPASS initiative is called only after real elapsed time and outside an in-flight model request\nPASS canine sensory impressions retain their nonverbal form instead of being stripped as human gestures\n",
+      "output": "PASS Erin packet supplies the live room control mastery and current action before optional description\nPASS mastery zero influence resolved routines and temporary pauses produce distinct accurate authority\nPASS old repetitive persona histories stay saved but new requests cannot reinforce them\nPASS completed sentence history never stores a clipped word tail as a model example\nPASS response cleanup removes repeated role headers and invented gesture blocks without changing dialogue\nPASS NPC conversation triggers provide proactive intent instead of a stale last button or false player question\nPASS Richard initiates a real local conversation without creating work or changing rewards\nPASS conversation never speaks remotely in combat through an incapable body or for an unwilling manager\nPASS cooldowns day caps and recorded work acknowledgements survive reload without paid-request loops\nPASS player exchanges suppress immediate unsolicited dialogue and pending offers are not nagged\nPASS initiative is called only after real elapsed time and outside an in-flight model request\nPASS canine sensory impressions retain their nonverbal form instead of being stripped as human gestures\nPASS removing generic prose still preserves a final permission refusal in the live form packet\n",
       "stderr": ""
     },
     {
