@@ -1,0 +1,48 @@
+{
+  "version": "1.0.90",
+  "gameplayCommit": "31db67ca3a6d6569a8b73047d852e737cba3d2b6",
+  "pagesRun": 43348397319,
+  "pagesConclusion": "success",
+  "publicTitleURL": "https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.90",
+  "runtimeFilesByteMatched": [
+    "rebuild/character-creation/index.html",
+    "rebuild/hub/ai-context.js",
+    "rebuild/hub/ai-ui.js",
+    "rebuild/hub/erin-daily.js",
+    "rebuild/hub/erin-household-data.js",
+    "rebuild/hub/erin-household.js",
+    "rebuild/hub/erin-life.js",
+    "rebuild/hub/erin-office-ui.js",
+    "rebuild/hub/erin-office.js",
+    "rebuild/hub/index.html",
+    "rebuild/hub/office-floor-ui.js",
+    "rebuild/hub/office-floor.js",
+    "rebuild/hub/richard-office.js",
+    "rebuild/hub/richard-ui.js",
+    "rebuild/hub/richard.js",
+    "rebuild/hub/roleplay-input.js",
+    "rebuild/hub/technology-center-ui.js",
+    "rebuild/hub/technology-center.js",
+    "rebuild/title-screen/index.html"
+  ],
+  "namedAutomatedCases": 843,
+  "browserChecks": [
+    {
+      "name": "Existing isolated Slot3 resumed on v1.0.90 with AI off",
+      "result": "PASS"
+    },
+    {
+      "name": "Exact owner dream example retained in feed and handled as private narration; no sleep request",
+      "result": "PASS"
+    },
+    {
+      "name": "Live paid model compliance and native Android",
+      "result": "UNTESTED"
+    },
+    {
+      "name": "Footwear migration and named office labels",
+      "result": "Automated rules/context/projection tests PASS; no live manual repetition"
+    }
+  ],
+  "screenshot": "images/v1.0.90-narration.jpg"
+}
