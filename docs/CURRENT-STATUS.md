@@ -1,3 +1,11 @@
+## November 13, 2026 — Erin daily-life expansion design
+
+Owner scope: one sales leader plus 13 sales employees; one marketing leader plus 12 marketing employees. These 27 staff exclude Richard, Erin and junior intern Michael (30 workplace identities total). This supersedes the earlier two-leaders/eleven-workers count. Also requested: Michael, playable Groceries Aplenty and Prim and Proper Dry Cleaners, Erin's friends, and a restaurant/hangout.
+
+[Full design draft](ERIN-DAILY-LIFE-EXPANSION.md) proposes named leads and a complete roster, work hooks, three friends, shop interiors/transactions, Richard's expense-backed errands, and Lantern & Laurel on existing Entertainment Row frontage. New names, schedules, prices and Michael's tentative profile are proposals, not owner-approved canon or shipped gameplay. Existing v1.0.94 remains the playable build. Staff count/unique-ID/document checks passed; no new gameplay test or deployment is claimed.
+
+Next: settle Michael's character/lifecycle direction while beginning the shared staff/presence/workstation foundation; then build complete shop/errand and friend/venue loops using the existing clock, inventory, navigation and Erin autonomy. Preserve Erin's secretary role, 350 daily pay and separate 50 extra-task ledger. Worker v3 is owner-confirmed.
+
 ## v1.0.94 — Boutique Breeding Room amendment
 
 Restores the owner’s Breeding Room (source H) below Treatment Room on the Pet Boutique sublevel, connected to Kennels / Play Area. Shared Location and Map references include the room, corrected Trixie role, and non-graphic reproductive-care service plans for adult, sapient humanoid participants, requiring their own informed agreement. The prior blanket exclusion is superseded. No pregnancy, treatment, form lock or purchase is executed by these references. Existing map positions, saves and services remain intact.

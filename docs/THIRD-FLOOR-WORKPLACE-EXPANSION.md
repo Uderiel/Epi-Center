@@ -1,3 +1,11 @@
+## November 13, 2026 — Erin daily-life expansion design
+
+Owner scope: one sales leader plus 13 sales employees; one marketing leader plus 12 marketing employees. These 27 staff exclude Richard, Erin and junior intern Michael (30 workplace identities total). This supersedes the earlier two-leaders/eleven-workers count. Also requested: Michael, playable Groceries Aplenty and Prim and Proper Dry Cleaners, Erin's friends, and a restaurant/hangout.
+
+[Full design draft](ERIN-DAILY-LIFE-EXPANSION.md) proposes named leads and a complete roster, work hooks, three friends, shop interiors/transactions, Richard's expense-backed errands, and Lantern & Laurel on existing Entertainment Row frontage. New names, schedules, prices and Michael's tentative profile are proposals, not owner-approved canon or shipped gameplay. Existing v1.0.94 remains the playable build. Staff count/unique-ID/document checks passed; no new gameplay test or deployment is claimed.
+
+Next: settle Michael's character/lifecycle direction while beginning the shared staff/presence/workstation foundation; then build complete shop/errand and friend/venue loops using the existing clock, inventory, navigation and Erin autonomy. Preserve Erin's secretary role, 350 daily pay and separate 50 extra-task ledger. Worker v3 is owner-confirmed.
+
 ## v1.0.87 correction candidate
 
 Owner scoped room appearance/function PASS is recorded. The single-order design and required manual lunch setting below are superseded by the batch work/lunch correction in [OFFICE-BATCH-WORK.md](OFFICE-BATCH-WORK.md). Existing v1.0.86 evidence remains historical. The correction is tested but unpublished, awaiting explicit push approval.
