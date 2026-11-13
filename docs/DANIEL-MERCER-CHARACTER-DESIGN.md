@@ -4,7 +4,7 @@ Status: character design, not implemented gameplay. Owner decisions recorded Nov
 
 ## Owner-confirmed details
 
-- Daniel is 38, with an **average build and a softer middle**. He has no gray at his temples. This replaces the earlier broad-shouldered appearance proposal.
+- Daniel is **38**, **5′11″**, with an **average build and a softer middle**. He has **brown hair kept in a professional short style**, **brown eyes**, and a **neatly trimmed, close-cropped beard**. He has no gray at his temples. This replaces the earlier broad-shouldered and unspecified dark-hair proposals.
 - He leads the thirteen sales employees. Richard remains department manager, and Erin remains Richard's secretary.
 - If he is present and overhears Richard giving Erin more work than fits her day, he tries to stand up for her in a joking, indirect way.
 - He does not directly confront Richard. He supports Erin where he can while remaining responsible for his sales team's productivity.
@@ -132,9 +132,19 @@ The earlier darts suggestion was not selected as a confirmed interest; it should
 
 ## Appearance and remaining proposals
 
-Confirmed appearance: age 38, average build with a softer middle, and no gray at the temples. The earlier broad-shouldered proposal is superseded. Short dark hair, navy suits, later rolled sleeves, friendly competitiveness and a green insulated mug remain draft details from ERIN-DAILY-LIFE-EXPANSION.md. His interests are confirmed separately above; that does not additionally approve every earlier proposed appearance or workstation detail. Exact height, hair color/style, eyes and facial hair remain open. His build does not assign physical attributes or remove his confirmed interest in hiking and outdoor activities.
+| Appearance field | Owner-confirmed detail |
+| --- | --- |
+| Age | 38 |
+| Height | 5′11″ (71 inches) |
+| Build | Average, with a softer middle |
+| Hair | Brown, kept in a professional short style |
+| Eyes | Brown |
+| Facial hair | Neatly trimmed, close-cropped beard |
+| Graying | No gray at the temples |
 
-Their workplace friendship, occasional lunch conversation and Daniel’s understated attraction are confirmed. How long they have worked together, his remaining personal background, the layout of Applewood 4C, full appearance, attributes and detailed schedule remain open to further character design. No new game version, NPC deployment, product catalog, sales simulation or safety-briefing system is claimed by this document.
+The earlier broad-shouldered and unspecified dark-hair proposals are superseded. Navy suits, later rolled sleeves, friendly competitiveness and a green insulated mug remain draft details from ERIN-DAILY-LIFE-EXPANSION.md. His confirmed appearance and interests do not additionally approve every earlier proposed clothing or workstation detail. His build does not assign physical attributes or remove his confirmed interest in hiking and outdoor activities.
+
+Their workplace friendship, occasional lunch conversation and Daniel’s understated attraction are confirmed. How long they have worked together, his remaining personal background, the layout of Applewood 4C, clothing details, attributes and detailed schedule remain open to further character design. No new game version, NPC deployment, product catalog, sales simulation or safety-briefing system is claimed by this document.
 
 ## Acceptance criteria when implemented
 
