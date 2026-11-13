@@ -1,4 +1,4 @@
-# Mapped location sheets · v1.0.93
+# Mapped location sheets · v1.0.94
 
 The owner asked to add four uploaded location sheets where they belong on the existing map. This release implements reference details, not three complete business/interior gameplay slices. Existing district geography, fog of war, routes, saves and established purchases/storage stay intact.
 
@@ -25,13 +25,14 @@ Existing Form Repository deposit/retrieve controls and5-gold boutique dog snacks
 - Repository staff transcribed as Lee Singh, Anya Singh, Amya Singh and Spectra. The cursed-item specialist’s given name is provisional because the handwritten letters are ambiguous; it is marked as such, not treated as confirmed canon.
 - The Repository diagram puts Common in standard storage and Rare/Epic/Legendary in secure storage; the prose describes Common/Rare together and Epic/Legendary separately. Use Standard/High-Security names and do not implement rarity routing until this is resolved.
 - Sublevel stair links are modeled as Repository standard-storage ↔ high-security storage and boutique adoption-office ↔ kennels. These are reference connections, not new travel edges. Sublevel extent beyond the drawings is not invented.
-- Pet sexual/reproductive treatments and animal-breeding mechanics are excluded. The source’s breeding room is not added to the runtime catalog. The treatment room remains a neutral non-executable reference. No animal sexual content or reproductive effects are implemented.
+- Owner clarification: the Breeding Room is not automatically excluded by its name. Restore source room H on the Boutique sublevel, connected to Kennels / Play Area E, beneath Treatment Room G. The reference concerns adult, sapient humanoid participants and non-graphic reproductive care. Trixie handles the proposed treatment and breeding services. The participant in the active form must explicitly agree; an owner’s decision is insufficient. No actual-animal sexual interactions or explicit sexual scenes are part of this scope.
+- The source proposes a pregnancy duration of one and a half game months and a release restriction until birth. These remain unimplemented design notes, requiring a complete reproductive-state/lifecycle design before activation; this reference amendment adds no pregnancy, consent decision, form lock, treatment or economy effect. Species amenities are recorded without graphic detail.
 - Cafe quest plans: Cleaning and dish duty (Safe); Investigate Catnip Spice (Risky); Investigate the Missing Employee (Dangerous); Investigate growling in the back (Dangerous). Future work only; no hidden entrances or encounters inferred from these titles.
 - Conversion notes preserve intended eligibility/faction exceptions, core requirement, unchanged rarity and reset of current Tier Mastery, but are not executable.
 
 ## Validation
 
-880 named automated cases plus entity assertions pass. Ten new cases cover unchanged map positions/count, connected reciprocal room graphs and stairs, opening-hour boundaries, unknown weekend hours, fog/inspection gating, no inspection/view side effects, unknown reference rejection, real Map integration, source metadata and immutable catalog. Syntax and module paths pass. Deployment/browser verification is recorded separately after publication. No Worker update or paid AI generation is needed for these map details.
+881 named automated cases plus entity assertions pass. Eleven location cases cover unchanged map positions/count, connected reciprocal room graphs and stairs, opening-hour boundaries, unknown weekend hours, fog/inspection gating, no inspection/view side effects, unknown reference rejection, real Map integration, source metadata and immutable catalog. Syntax and module paths pass. Deployment/browser verification is recorded separately after publication. No Worker update or paid AI generation is needed for these map details.
 
 ## Next complete location work
 

@@ -1,3 +1,11 @@
+## v1.0.94 — Boutique Breeding Room amendment
+
+Restores the owner’s Breeding Room (source H) below Treatment Room on the Pet Boutique sublevel, connected to Kennels / Play Area. Shared Location and Map references include the room, corrected Trixie role, and non-graphic reproductive-care service plans for adult, sapient humanoid participants, requiring their own informed agreement. The prior blanket exclusion is superseded. No pregnancy, treatment, form lock or purchase is executed by these references. Existing map positions, saves and services remain intact.
+
+Owner also reports **Backend character-embodiment-v3** in game: Worker deployment is now owner-confirmed, superseding earlier deployment-pending notes. Actual model dialogue quality and Android acceptance remain separate tests.
+
+Validation: 881 named automated cases plus entity assertions, syntax and module paths PASS. Publication and browser checks follow. Owner retest: inspect Pet Boutique, open Floor plan & room details, confirm the eighth room and its connection; check Trixie and planned care text. Full playable interiors and services remain future work.
+
 ## v1.0.93 — published and live references verified
 
 [Play v1.0.93](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.93). Gameplay commit `e8ddd937086c44e5fcf854dca336a5f5ef43f348` is on main and rebuild/1.0-foundations. [Pages run43404169783](https://github.com/Uderiel/Epi-Center/actions/runs/43404169783) succeeded. All eight changed deployed rebuild files match tested source byte-for-byte (including the test source). A fresh run passed **880 named automated cases plus entity assertions**, syntax and module paths.
@@ -8,7 +16,7 @@ Next: owner retests the three references through Map → Location references aft
 
 ## v1.0.93 — owner location sheets mapped (tested candidate)
 
-Added Form Repository #64, Pet Boutique #65 and Neko Cafe #67 reference details at their unchanged district coordinates. The shared catalog supplies examined-location descriptions, hours, staff directories, named room/floor diagrams, connections, menu/stock and service plans. Map reference buttons view known locations without starting travel; unknown/unexamined facts stay gated. Existing repository transport, dog snacks, coupons, resources, NPC state and quests are preserved. This is a map/reference pass, not completed playable interiors or new services. Pet sexual/reproductive mechanics are excluded; source name/rarity ambiguities are documented.
+Added Form Repository #64, Pet Boutique #65 and Neko Cafe #67 reference details at their unchanged district coordinates. The shared catalog supplies examined-location descriptions, hours, staff directories, named room/floor diagrams, connections, menu/stock and service plans. Map reference buttons view known locations without starting travel; unknown/unexamined facts stay gated. Existing repository transport, dog snacks, coupons, resources, NPC state and quests are preserved. This is a map/reference pass, not completed playable interiors or new services. The Breeding Room was omitted in this initial pass; v1.0.94 restores it following the owner’s clarification. Source name/rarity ambiguities are documented.
 
 **880 named automated cases plus entity assertions PASS**; syntax/module paths and whitespace pass. Ten new cases cover geography, room graphs, hours, inspection/fog, no service side effects and the real Map integration. See [scope and source interpretation](MAPPED-LOCATION-SHEETS.md). Next: publish authorized main/rebuild branches, verify deployed files and the live reference views. Worker deployment remains the separate v1.0.92 outstanding task.
 
