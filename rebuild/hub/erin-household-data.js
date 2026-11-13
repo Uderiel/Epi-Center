@@ -450,7 +450,7 @@
       "name": "Matte black closed-toe heels",
       "location": "closet-shoes",
       "slot": "shoes",
-      "kind": "clothing",
+      "kind": "footwear",
       "order": 1
     },
     {
@@ -458,7 +458,7 @@
       "name": "Gloss cream closed-toe heels",
       "location": "closet-shoes",
       "slot": "shoes",
-      "kind": "clothing",
+      "kind": "footwear",
       "order": 2
     },
     {
@@ -466,7 +466,7 @@
       "name": "Red suede closed-toe heels",
       "location": "closet-shoes",
       "slot": "shoes",
-      "kind": "clothing",
+      "kind": "footwear",
       "order": 3
     },
     {
@@ -474,7 +474,7 @@
       "name": "Simple black flats",
       "location": "closet-shoes",
       "slot": "shoes",
-      "kind": "clothing",
+      "kind": "footwear",
       "order": 4
     },
     {
@@ -482,7 +482,7 @@
       "name": "Casual sneakers",
       "location": "closet-shoes",
       "slot": "shoes",
-      "kind": "clothing",
+      "kind": "footwear",
       "order": 5
     },
     {
@@ -490,7 +490,7 @@
       "name": "Brown leather winter boots",
       "location": "closet-shoes",
       "slot": "shoes",
-      "kind": "clothing",
+      "kind": "footwear",
       "order": 6
     },
     {
@@ -498,7 +498,7 @@
       "name": "Ankle boots with a two-inch wedge heel",
       "location": "closet-shoes",
       "slot": "shoes",
-      "kind": "clothing",
+      "kind": "footwear",
       "order": 7
     },
     {
