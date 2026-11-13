@@ -1,3 +1,7 @@
+## v1.0.88 character voice update
+
+Frontend now carries explicit room/control context, short character voice and proactive Richard conversation events. Backend adds completion-status handling and documented repetition controls; deploy the existing Worker separately from Pages. For Cloudflare’s editor, the tested self-contained entry module is `deploy-worker.mjs` (regenerate with `node scripts/bundle-ai-worker.cjs` from repository root). Keep existing bindings/secrets; no migration or new key is needed. Settings → Check connection and usage reports `Backend character-voice-v2` after deployment. See ../../docs/CHARACTER-DIALOGUE-QUALITY.md for exact behavior and acceptance. Real-model quality and Worker deployment are not implied by source tests.
+
 # Epi-Center AI backend — owner test
 
 v1.0.71 adds one-body internal dialogue context for every form, regardless of mastery. New frontend packets carry this context even before the Worker redeploys. Backend source independently reinforces the same rule and drops pre-shared-body-v1 form history. The original player's consciousness is internal, never a separate physical person beside the form. Mastery/influence/decisions stay mechanical game facts. Old form history remains saved but is not sent again; NPC histories remain separate and unchanged. Neutral model verification is recorded in ../../docs/releases/v1.0.71-model-checks.json. Backend source deployment cannot be inferred from frontend Pages deployment alone.
