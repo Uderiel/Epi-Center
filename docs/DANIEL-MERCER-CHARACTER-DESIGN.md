@@ -20,6 +20,8 @@ Status: character design, not implemented gameplay. Owner decisions recorded Nov
 - Daniel and Crystal have a loving, supportive marriage and enjoy each other’s company. He worries about flirtatious customers at Crystal’s job.
 - They live in **Applewood Apartments 4C: fourth floor, apartment C**. Technology Center employees outside upper management live in Applewood Apartments; the other unassigned apartment numbers remain open.
 
+- His confirmed personal interests are quiet evenings and outings with Crystal, cooking, hiking/other outdoor activities, and enjoying and collecting wine. Some of Erin’s favorite wines came from his recommendations.
+
 ## How he supports Erin
 
 His response depends on being present and hearing enough of the exchange to understand it. He does not know about a private conversation, unseen assignment or Erin's internal thoughts. Sharing a building or receiving a generic schedule update is not enough.
@@ -109,11 +111,30 @@ Daniel’s previously confirmed understated attraction to Erin remains part of h
 
 For future schedules, use Crystal’s actual authored shifts and shared plans once they exist. Do not assume that casino work always means a night shift, force Daniel to remain at work, or invent a completed evening together. Their household and marriage memory should be distinct from work records and from Erin’s private form history.
 
+## Personal interests and wine recommendations
+
+Owner-confirmed interests:
+
+- Quiet evenings and outings with Crystal: shared time together is something he actively enjoys in their loving marriage.
+- Cooking.
+- Hiking and other outdoor activities.
+- Enjoying wine and collecting it.
+
+Daniel has recommended some of the wines Erin likes most. This is established shared background and a natural topic for their occasional lunch conversations. Recommendations are not automatically gifts, a history of private wine dates, a purchase, or permission to alter Erin’s existing wine inventory. Their workplace friendship and his understated feelings remain as already defined.
+
+Proposed expressions of those interests include cooking a meal at home with Crystal, comparing notes about a wine Erin has actually tried, talking about a walking route, and planning an outing when their recorded schedules allow. These activities are ideas for future scenes, not completed events in a save. Crystal’s enjoyment of wine or hiking has not been established just because Daniel enjoys them.
+
+His collection belongs to the Mercer household in Applewood 4C. Its size, storage furniture, individual bottles, favorite styles, vintages, prices and provenance are still undesigned. Do not infer a cellar, luxury budget or rare bottles from the word "collecting." Do not retcon the source of specific existing wines unless that connection is explicitly authored.
+
+Wine knowledge can give him a conversational topic beyond sales reports, and pair naturally with his cooking interest. Exact dishes and pairings remain authoring choices. Hiking provides an outdoor interest without assuming he has already explored an unbuilt region or granting a new city exit. Both routines need actual locations, time and available resources when implemented.
+
+The earlier darts suggestion was not selected as a confirmed interest; it should not be inserted into his schedule as established canon.
+
 ## Appearance and remaining proposals
 
-The previous early-gray detail is removed. Short dark hair, broad shoulders, navy suits, later rolled sleeves, friendly competitiveness, a green insulated mug and interests in hiking/cooking/darts remain draft details from ERIN-DAILY-LIFE-EXPANSION.md. The age/no-gray correction and work/Erin-support decisions do not additionally approve every earlier proposed detail.
+The previous early-gray detail is removed. Short dark hair, broad shoulders, navy suits, later rolled sleeves, friendly competitiveness, a green insulated mug remain draft details from ERIN-DAILY-LIFE-EXPANSION.md. His interests are now confirmed separately above; that does not additionally approve every earlier proposed appearance or workstation detail.
 
-Their workplace friendship, occasional lunch conversation and Daniel’s understated attraction are confirmed. How long they have worked together, his wider personal life, the layout of Applewood 4C, full appearance, attributes and detailed schedule remain open to further character design. No new game version, NPC deployment, product catalog, sales simulation or safety-briefing system is claimed by this document.
+Their workplace friendship, occasional lunch conversation and Daniel’s understated attraction are confirmed. How long they have worked together, his remaining personal background, the layout of Applewood 4C, full appearance, attributes and detailed schedule remain open to further character design. No new game version, NPC deployment, product catalog, sales simulation or safety-briefing system is claimed by this document.
 
 ## Acceptance criteria when implemented
 
@@ -130,5 +151,6 @@ Their workplace friendship, occasional lunch conversation and Daniel’s underst
 11. Daniel’s compliments and understated attraction preserve their established workplace friendship without inventing dates, reciprocal feelings or private knowledge.
 12. Daniel’s five-year loving, supportive marriage to Crystal Mercer persists in character context, including their enjoyment of each other’s company and his worry about flirtatious casino customers; her exact job and non-indentured status remain intact.
 13. Their shared residence resolves to Applewood fourth floor, apartment C (4C), preserving Erin’s 3C and Richard’s existing floor-7 Suite D. The general staff-housing rule does not invent unassigned units or relocate named residents.
+14. His interests and wine-recommendation history remain in character context without inventing gifts, specific bottles, private dates, Crystal’s preferences or inventory changes.
 
 Related: [Erin's daily-life expansion](ERIN-DAILY-LIFE-EXPANSION.md), [Michael's character design](MICHAEL-CHARACTER-DESIGN.md).
