@@ -1,0 +1,120 @@
+{
+  "version": "1.0.95",
+  "gameplay_commit": "6dd353581a3753cac77132e811fce59049095b15",
+  "tree": "69f279326a9d5c34fa856f409dd79a14ad34b862",
+  "pages": {
+    "run": 43479624120,
+    "conclusion": "success"
+  },
+  "automated": {
+    "named_cases": 905,
+    "new_department_cases": 24,
+    "entity_assertions": "pass",
+    "syntax_module_paths_whitespace": "pass"
+  },
+  "public_source": [
+    {
+      "path": "rebuild/character-creation/index.html",
+      "match": true,
+      "sha256": "4ed72c67ddcf90934ec1033879eb306a8d9fe8a5f4bd6a2147e207ba67811b6a"
+    },
+    {
+      "path": "rebuild/combat/civilian-encounter.js",
+      "match": true,
+      "sha256": "e93bf3a734e38ab194e156c3d940077aa04db934b97abb9a551f1f4c414b1d9d"
+    },
+    {
+      "path": "rebuild/hub/ai-context.js",
+      "match": true,
+      "sha256": "1af0b241517f15ee38c848596fe38a01529275d7e94641ff0046d3fc143c04ba"
+    },
+    {
+      "path": "rebuild/hub/ai-ui.js",
+      "match": true,
+      "sha256": "44406005dc3a9a27b67a7ab555dd5ee86c6686d5ecf11a2671973e98b37e90b9"
+    },
+    {
+      "path": "rebuild/hub/department-ui.js",
+      "match": true,
+      "sha256": "7173f1ae67d407f9d2a0d180b8bbb0aa1dd043e64b6cb2aaecd6980629e1d5d0"
+    },
+    {
+      "path": "rebuild/hub/department.js",
+      "match": true,
+      "sha256": "0399c5c1488e748cafbc6d44900291342e825c1a3b4bb594cde64ed978d7dcbf"
+    },
+    {
+      "path": "rebuild/hub/erin-office-ui.js",
+      "match": true,
+      "sha256": "e42af16b83fc74a204194b7f942b02b29e88b70d0b83d296f416654790815660"
+    },
+    {
+      "path": "rebuild/hub/erin-office.js",
+      "match": true,
+      "sha256": "10751c6441c167be50385169851a436138834c50d37605de438c7b35b3cad075"
+    },
+    {
+      "path": "rebuild/hub/index.html",
+      "match": true,
+      "sha256": "8f6d80ca215fd587e97fb2475d38469a9cea4d62623ba0189faf85ee4cbb1115"
+    },
+    {
+      "path": "rebuild/hub/office-floor.js",
+      "match": true,
+      "sha256": "f6ea31f82fd1cfe1ecd9ae8d52d56faabd77101f3212ea24a815ff59d1f4f0ff"
+    },
+    {
+      "path": "rebuild/hub/richard-ui.js",
+      "match": true,
+      "sha256": "e0e2e06a40c621a60be229759399e45fdb8121e8b5625393358858add9887a6b"
+    },
+    {
+      "path": "rebuild/hub/richard.js",
+      "match": true,
+      "sha256": "932d150b565d9d65f5ae16a26f0c80f7354107e006fb4578e0a434f3e040ecbf"
+    },
+    {
+      "path": "rebuild/hub/technology-center-ui.js",
+      "match": true,
+      "sha256": "6c1504bcec1d5ed57eb246edbfca722c8f37200cc19c91eb2339fc1c92db19f3"
+    },
+    {
+      "path": "rebuild/hub/technology-products.js",
+      "match": true,
+      "sha256": "f57c44644e5eb28e957eb67752214bf40fd0574834a31347bb6605385f29fc1e"
+    },
+    {
+      "path": "rebuild/title-screen/index.html",
+      "match": true,
+      "sha256": "bacb2a2a9589b01e541ce04055b9357ea83bd72c23eb54d317db0af0e1f40faf"
+    }
+  ],
+  "browser": {
+    "save": "Existing isolated Floor86Tester slot3; other slots untouched",
+    "settings": "AI off; live time paused; Dev time advance for schedule",
+    "checks": [
+      "Daniel approved appearance and workday profile",
+      "Crystal five-year marriage, non-indentured job and Applewood4C dialogue",
+      "Wine recommendations and supplied product list; phones unavailable",
+      "NPC text routed once to Daniel and consumed exactly two minutes",
+      "Pitch request reused without duplicate",
+      "In-person relay to present Richard; reception booking Thu10:15",
+      "Player physically walked to Conference E; Daniel entered10:07, Richard10:08",
+      "Richard and Daniel both selectable in NPC recipient list",
+      "Attendance0/15 at10:15,14/15 at10:29,completed15/15 at10:30",
+      "Bounded alarm-system meeting notes; no sale created",
+      "Completed15/15 persisted after reload"
+    ],
+    "screenshots": [
+      "images/v1.0.95-daniel.jpg",
+      "images/v1.0.95-meeting.jpg"
+    ],
+    "console": "Observed extension metadata errors; no game runtime error observed in checked output"
+  },
+  "limitations": [
+    "Local preview unreachable from cloud browser; native accessibility provider unavailable; public deployment tested instead",
+    "Paid-model dialogue quality untested",
+    "Native Android and owner acceptance untested",
+    "Remaining staff NPCs, customer sales generation, product purchases and Crystal/home interiors deferred"
+  ]
+}
