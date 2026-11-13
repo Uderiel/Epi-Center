@@ -1,0 +1,76 @@
+{
+  "version": "1.0.93",
+  "gameplayCommit": "e8ddd937086c44e5fcf854dca336a5f5ef43f348",
+  "pagesRun": 43404169783,
+  "pagesConclusion": "success",
+  "deployedSource": [
+    {
+      "file": "rebuild/character-creation/index.html",
+      "match": true,
+      "sha256": "666630b98f14d20b60e3bfccf017c7999db9b35ad5c74cc055ee29fa57cb14f9"
+    },
+    {
+      "file": "rebuild/hub/hub-world.js",
+      "match": true,
+      "sha256": "5c33ddf026cc743a95d3ba3743d5ead03f0fcf392059db02b71e403350e04ab2"
+    },
+    {
+      "file": "rebuild/hub/index.html",
+      "match": true,
+      "sha256": "8b7dc6923123fa27a73b83d510502fc4467e67766a21450dc5607f035b587732"
+    },
+    {
+      "file": "rebuild/hub/location-details-ui.js",
+      "match": true,
+      "sha256": "7dd1191a16d7ea2fdffca9e0773d7a9fa27b1eae12ed956d05845271d507fa82"
+    },
+    {
+      "file": "rebuild/hub/location-details.css",
+      "match": true,
+      "sha256": "88358bc8d84d41781a1aede842cc45985d0bda7cee20a2a95b8c49994c718f11"
+    },
+    {
+      "file": "rebuild/hub/location-details.js",
+      "match": true,
+      "sha256": "d59e3310092875a3bd943ddf1052de3834f6849c154ce5642cdb6462fb4854e5"
+    },
+    {
+      "file": "rebuild/hub/location-details.test.js",
+      "match": true,
+      "sha256": "15900b626d4a51559e3075452cc5fbaf45bba7ad5bf70340da8bb751b00ac2f1"
+    },
+    {
+      "file": "rebuild/title-screen/index.html",
+      "match": true,
+      "sha256": "5a1c0dd4cf36e20ec201b4f5f31005000cbe6afe3c76c3769c4a893e4ddb0ad0"
+    }
+  ],
+  "automated": {
+    "namedCases": 880,
+    "entityAssertions": "PASS",
+    "syntax": "PASS",
+    "modulePaths": "PASS"
+  },
+  "browser": {
+    "save": "Existing isolated Floor86Tester slot 3; AI off; live time paused",
+    "checks": [
+      "Current title screen displays v1.0.93 and three save slots",
+      "Existing slot 3 Continue resumes v1.0.93 at Neko Cafe",
+      "Form Repository inspection unlocks overview, hours, staff and two-floor diagram",
+      "Map reference selection shows inspected repository without travel",
+      "Pet Boutique actual map route, inspection, staff and two-floor diagram",
+      "Unexamined Boutique withheld details before inspection",
+      "Neko Cafe hidden before western discovery; actual route reveals destination",
+      "Cafe inspection displays staff, hours, diagram and menu; planned services remain informational",
+      "Map reference list shows all three known locations and Cafe selection preserves location"
+    ],
+    "observedIssue": "Existing feed contained an EpiErinWork is not defined travel error on first observation. After one reload, inspection and all Boutique/Cafe routes completed without recurrence. Not a new code fix or proof against transient load failures.",
+    "screenshot": "images/v1.0.93-cafe.jpg"
+  },
+  "limitations": [
+    "Native Android not tested",
+    "Paid AI quality not tested",
+    "Cloudflare character-embodiment-v3 deployment remains outstanding",
+    "Playable business interiors/services are not implemented by this reference release"
+  ]
+}

@@ -1,3 +1,11 @@
+## v1.0.93 — published and live references verified
+
+[Play v1.0.93](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.93). Gameplay commit `e8ddd937086c44e5fcf854dca336a5f5ef43f348` is on main and rebuild/1.0-foundations. [Pages run43404169783](https://github.com/Uderiel/Epi-Center/actions/runs/43404169783) succeeded. All eight changed deployed rebuild files match tested source byte-for-byte (including the test source). A fresh run passed **880 named automated cases plus entity assertions**, syntax and module paths.
+
+Existing isolated Floor86Tester slot3 resumed through the current title screen, with AI off and live time paused. Actual discovery/travel/inspection verified Repository, Boutique and Cafe references, staff, hours and named floor diagrams; Cafe menu and Map reference selection also passed. Unknown Cafe and unexamined Boutique details stayed gated. These are reference details; playable interiors, NPC schedules and services remain future complete slices. Evidence: releases/v1.0.93-live-verification.json and releases/images/v1.0.93-cafe.jpg. Native Android and paid AI quality remain untested. An old travel error in the feed did not recur after reload; no code fix is claimed.
+
+Next: owner retests the three references through Map → Location references after visiting/inspecting. The separate Erin Worker update to **character-embodiment-v3** still requires deployment to the existing Cloudflare service; Pages does not deploy that backend. No owner acceptance is inferred. The candidate publication step below is superseded.
+
 ## v1.0.93 — owner location sheets mapped (tested candidate)
 
 Added Form Repository #64, Pet Boutique #65 and Neko Cafe #67 reference details at their unchanged district coordinates. The shared catalog supplies examined-location descriptions, hours, staff directories, named room/floor diagrams, connections, menu/stock and service plans. Map reference buttons view known locations without starting travel; unknown/unexamined facts stay gated. Existing repository transport, dog snacks, coupons, resources, NPC state and quests are preserved. This is a map/reference pass, not completed playable interiors or new services. Pet sexual/reproductive mechanics are excluded; source name/rarity ambiguities are documented.
