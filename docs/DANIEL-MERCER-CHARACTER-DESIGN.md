@@ -17,6 +17,9 @@ Status: character design, not implemented gameplay. Owner decisions recorded Nov
 
 - Daniel has been married for five years to **Crystal Mercer**. Crystal works as a **roulette table attendant at the Silver Shackle Casino** and is **not indentured**.
 
+- Daniel and Crystal have a loving, supportive marriage and enjoy each other’s company. He worries about flirtatious customers at Crystal’s job.
+- They live in **Applewood Apartments 4C: fourth floor, apartment C**. Technology Center employees outside upper management live in Applewood Apartments; the other unassigned apartment numbers remain open.
+
 ## How he supports Erin
 
 His response depends on being present and hearing enough of the exchange to understand it. He does not know about a private conversation, unseen assignment or Erin's internal thoughts. Sharing a building or receiving a generic schedule update is not enough.
@@ -96,9 +99,13 @@ A pitch meeting, urgent account issue or monthly briefing can displace a normal 
 
 Owner-confirmed: Daniel is married to Crystal Mercer and they have been married for five years. Crystal works as a roulette table attendant at the Silver Shackle Casino. She is explicitly **not indentured**. Preserve her exact role; do not silently relabel her a dealer, casino-owned person or indentured employee.
 
-The length of the marriage is a character-history fact, not a known anniversary date. Crystal’s age, appearance, personality, shift hours, home and the day-to-day quality of their marriage have not yet been specified. Her casino workplace does not establish Daniel’s gambling habits, debts or attendance there. The non-indenture clarification must survive any later casino design or character generation.
+Owner-confirmed marriage dynamic: loving and supportive; they enjoy each other’s company. Daniel’s specific worry is flirtatious customers at Crystal’s job. This concern belongs alongside their affectionate marriage rather than replacing it with an invented unhappy relationship. How he expresses the worry and how Crystal handles those customers have not yet been designed.
 
-Daniel’s previously confirmed understated attraction to Erin remains part of his design alongside his marriage. This establishes no affair, marital conflict, agreement about other partners or reciprocal attraction from Erin. Those relationship details require their own character direction rather than being inferred from his compliments.
+Their home is Applewood Apartments **4C (fourth floor, apartment C)**. It is their shared residence, distinct from Erin’s Unit 3C. Its rooms, furnishings and access arrangements are not yet designed. The owner also established that Technology Center employees outside upper management live in Applewood Apartments. This includes Daniel’s household; do not invent apartment assignments for the remaining staff. The exception does not require every upper-management NPC to live elsewhere; retain existing explicit addresses such as Richard’s floor 7, Suite D.
+
+The length of the marriage is a character-history fact, not a known anniversary date. Crystal’s age, appearance, wider personality and shift hours have not yet been specified. Her casino workplace does not establish Daniel’s gambling habits, debts or attendance there. The non-indenture clarification must survive any later casino design or character generation.
+
+Daniel’s previously confirmed understated attraction to Erin remains part of his design alongside his marriage. This establishes no affair, additional marital conflict, agreement about other partners or reciprocal attraction from Erin. Those relationship details require their own character direction rather than being inferred from his compliments.
 
 For future schedules, use Crystal’s actual authored shifts and shared plans once they exist. Do not assume that casino work always means a night shift, force Daniel to remain at work, or invent a completed evening together. Their household and marriage memory should be distinct from work records and from Erin’s private form history.
 
@@ -106,7 +113,7 @@ For future schedules, use Crystal’s actual authored shifts and shared plans on
 
 The previous early-gray detail is removed. Short dark hair, broad shoulders, navy suits, later rolled sleeves, friendly competitiveness, a green insulated mug and interests in hiking/cooking/darts remain draft details from ERIN-DAILY-LIFE-EXPANSION.md. The age/no-gray correction and work/Erin-support decisions do not additionally approve every earlier proposed detail.
 
-Their workplace friendship, occasional lunch conversation and Daniel’s understated attraction are confirmed. How long they have worked together, his wider personal life, marriage dynamic, home, full appearance, attributes and detailed schedule remain open to further character design. No new game version, NPC deployment, product catalog, sales simulation or safety-briefing system is claimed by this document.
+Their workplace friendship, occasional lunch conversation and Daniel’s understated attraction are confirmed. How long they have worked together, his wider personal life, the layout of Applewood 4C, full appearance, attributes and detailed schedule remain open to further character design. No new game version, NPC deployment, product catalog, sales simulation or safety-briefing system is claimed by this document.
 
 ## Acceptance criteria when implemented
 
@@ -121,6 +128,7 @@ Their workplace friendship, occasional lunch conversation and Daniel’s underst
 9. Employee performance follow-up starts casually and becomes firmer only when real continuing problems and previous conversations justify it; persistence and improvement survive reload.
 10. Both Daniel and Erin are assigned to all conference-room meetings; actual attendance and shared lunch conversations require real presence.
 11. Daniel’s compliments and understated attraction preserve their established workplace friendship without inventing dates, reciprocal feelings or private knowledge.
-12. Daniel’s five-year marriage to Crystal Mercer persists in character context; her exact job and non-indentured status are preserved without inventing marital conflict or casino obligations.
+12. Daniel’s five-year loving, supportive marriage to Crystal Mercer persists in character context, including their enjoyment of each other’s company and his worry about flirtatious casino customers; her exact job and non-indentured status remain intact.
+13. Their shared residence resolves to Applewood fourth floor, apartment C (4C), preserving Erin’s 3C and Richard’s existing floor-7 Suite D. The general staff-housing rule does not invent unassigned units or relocate named residents.
 
 Related: [Erin's daily-life expansion](ERIN-DAILY-LIFE-EXPANSION.md), [Michael's character design](MICHAEL-CHARACTER-DESIGN.md).

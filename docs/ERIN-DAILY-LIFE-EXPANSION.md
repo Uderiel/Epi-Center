@@ -17,6 +17,10 @@ This replaces the earlier two-leaders-plus-eleven-workers staffing request. Erin
 
 Existing foundations: Technology Center #98 has the third-floor rooms, equipment, reception, Richard's office, paired work bays, Michael's cubicle and basic document duties. Groceries Aplenty #99 and Prim and Proper Dry Cleaners #100 are mapped exteriors. Erin's home, cooking, clothing, washing, workday pay and internal mastery already exist. The new work must extend those systems rather than create a second inventory, clock, wage ledger or autonomy engine.
 
+## Owner-confirmed staff housing
+
+Technology Center employees outside upper management live in Applewood Apartments. Daniel and Crystal share **4C (fourth floor, apartment C)**. Erin retains **3C**. Richard’s explicitly established **floor 7, Suite D** remains intact: the exception for upper management does not force all managers to live outside the building. The remaining staff, including Michael, need individual apartment assignments and interiors; no new addresses are inferred from their jobs. Residence in the building is not automatic permission to enter another resident’s home.
+
 ## Team leaders
 
 ### Daniel Mercer — Sales Team Leader
@@ -31,7 +35,7 @@ Owner-confirmed: when present to overhear Richard overloading Erin, Daniel tries
 
 Workstation: Sales Cubicles, team-lead desk; green insulated mug, worn sales handbook, framed walking-trail photo and a whiteboard of current priorities. Those belongings remain his property. Interests: hiking, amateur cooking and friendly darts. Owner-confirmed relationship with Erin: good coworkers and workplace friends, present together at all conference-room meetings and sometimes chatting over lunch. He finds her attractive and is complimentary while keeping his feelings understated. Private outings and Erin’s reciprocal feelings are not established.
 
-Owner-confirmed personal life: Daniel has been married for five years to Crystal Mercer, a roulette table attendant at the Silver Shackle Casino. Crystal is not indentured. Their marriage dynamic, her schedule and their home remain undesigned.
+Owner-confirmed personal life: Daniel has been married for five years to Crystal Mercer, a roulette table attendant at the Silver Shackle Casino. Crystal is not indentured. Their marriage is loving and supportive, and they enjoy each other’s company. Daniel worries about flirtatious customers at Crystal’s job. They live in Applewood Apartments 4C (fourth floor, apartment C). Her schedule and their apartment layout remain undesigned.
 
 Work hooks: confirm a customer-briefing time; collect account updates from named staff; verify which of two conflicting deadlines Richard actually prioritized. Conversations address the specific work performed and Daniel's own concerns. He is an ordinary civilian using standard engine actions if attacked; no invented management powers.
 
@@ -105,7 +109,7 @@ Confirmed: adult male junior intern, workplace cubicle M reached through Sales C
 
 Working proposal: Michael Reed, 24, an earnest new employee who understands the systems faster than the office politics. Medium build, sandy-brown hair, hazel eyes, inexpensive office shirts and carefully polished black dress shoes. He wants to be useful, sometimes agrees before understanding the task, and gradually learns to ask direct questions. The owner has now confirmed this personality: earnest and eager to please, learning to set boundaries. See [Michael character and behavior design](MICHAEL-CHARACTER-DESIGN.md) for voice, relationship dynamics, growth and acceptance criteria. Surname, age and appearance remain proposals.
 
-He is not a male secretary reskin of Erin. His duties emphasize document runs, contact-list corrections, equipment checks, supervised copies, stock counts, learning the department and asking a lead when instructions conflict. Erin may mentor him; Richard delegates through the appropriate lead. He eats a basic lunch, keeps an untidy learning notebook and relaxes with games or small electronics projects. Home location and household cannot be assumed to be Erin's apartment.
+He is not a male secretary reskin of Erin. His duties emphasize document runs, contact-list corrections, equipment checks, supervised copies, stock counts, learning the department and asking a lead when instructions conflict. Erin may mentor him; Richard delegates through the appropriate lead. He eats a basic lunch, keeps an untidy learning notebook and relaxes with games or small electronics projects. Under the newly confirmed staff-housing rule, Michael lives in Applewood Apartments, but his unit and household remain undesigned; he does not automatically share Erin’s apartment.
 
 Two roles must be distinguished: Michael as a world NPC when appropriate, and Michael as an active embodied identity/form. Define their coexistence explicitly before spawning both. Do not put a second independent Erin-style consciousness into the room beside the embodied player or copy Erin's memories into Michael. Private form dialogue uses the active person's body/voice ownership and actual control state.
 
@@ -113,7 +117,7 @@ The alternate form needs its own authored appearance, ten-attribute allocation, 
 
 Keep the shared mastery gates: progress and influence must both satisfy the canonical rules; sleeping does not grant instant mastery. Cursed-item removal does not itself undo an unmastered transformation. Any mastered release/re-equip design should explicitly match the agreed source-item contract, with no healing or state reset. An existing save with Erin's heels is not reset to replay a mutually exclusive quest opening.
 
-Still to decide for Michael: exact appearance, rarity/attributes, physical stage count, housing, work compensation and how the NPC/form lifecycle relates to the world's Michael. These are concrete character decisions, not implemented features or assumed copies of Erin's values.
+Still to decide for Michael: exact appearance, rarity/attributes, physical stage count, his Applewood unit/household, work compensation and how the NPC/form lifecycle relates to the world's Michael. These are concrete character decisions, not implemented features or assumed copies of Erin's values.
 
 ## Groceries Aplenty #99
 
