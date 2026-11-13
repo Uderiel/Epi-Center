@@ -25,7 +25,7 @@ Technology Center employees outside upper management live in Applewood Apartment
 
 ### Daniel Mercer — Sales Team Leader
 
-Owner-confirmed: Daniel is 38, with no graying at the temples. Proposed remaining appearance: male human, short dark hair, broad shoulders, practical navy suits and sleeves pushed up during busy afternoons. Friendly, competitive and quick with names. He prefers a clear next step to a long meeting. He gives useful credit in public but can turn every conversation into a target discussion when stressed.
+Owner-confirmed: Daniel is 38, with an average build and a softer middle, and no graying at the temples. The earlier broad-shouldered proposal is superseded. Proposed remaining appearance: male human, short dark hair, practical navy suits and sleeves pushed up during busy afternoons. Friendly, competitive and quick with names. He prefers a clear next step to a long meeting. He gives useful credit in public but can turn every conversation into a target discussion when stressed.
 
 He supervises thirteen sales employees (fourteen people including himself). Richard sets departmental priorities. Owner-confirmed responsibilities: sales-team productivity, generating sales reports, networking with Richard for sales pitches, staying current on Technology Center products, tracking individual employees’ actual sales, and monthly company safety briefings for his sales team. Erin coordinates access to Richard and the conference room.
 
