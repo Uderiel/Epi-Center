@@ -1,3 +1,11 @@
+## v1.0.91 — two mastery gates, canine context and remembered routines (tested candidate)
+
+Owner reports immediate Erin mastery from55 influence after sleeping +4. Cause: v1.0.89 erroneously let Common100 progress bypass remaining influence. Restore progress100 AND influence0; saved permanent mastery remains. Common consolidation at full progress prevents routine/curse setbacks and makes failed resistance reduce remaining influence5, retaining a bounded40-attempt/20-hour worst-case active route. Existing progression, costs, natural rolls and other-rarity final rules remain.
+
+Kibbles gains displayed/actual+4 sleeping or calm/familiar resistance and+2 visible squirrel distraction, with truthful timed sleep rather than merely walking toward the crate. Saved favorite toilet/territory/patrol preferences, actual marking/travel memory and per-step routine progress support physical routes; new squirrels can interrupt discretionary routines within existing control budgets. Asterisks explicitly tag actions/thoughts/inner dialogue as unspoken; actual thoughts are distinct from dreams. Roaming-NPC random interactions are recorded as dependent future work, not fabricated encounters. See KIBBLES-ROUTINES-AND-MASTERY-GATES.md for defaults, details and acceptance.
+
+858 named automated cases plus entity assertions PASS; syntax/module paths and whitespace PASS. No paid model call, save reset or Worker change. Live source/browser verification follows publication; native Android and owner/model acceptance remain UNTESTED. Next: publish to authorized branches, verify Pages and live controls, then owner retests both gates, canine bonuses, remembered routines and narration.
+
 ## v1.0.90 — published; source and narration route verified
 
 [Play v1.0.90](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.90). Gameplay commit `31db67ca3a6d6569a8b73047d852e737cba3d2b6` is on main and rebuild/1.0-foundations; tested source tree matches local candidate `aaa8266`. Pages run43348397319 succeeded. All19 changed deployed runtime files match source byte-for-byte; public title verified. 843 named automated cases plus entity assertions PASS; syntax/module paths and whitespace PASS.
