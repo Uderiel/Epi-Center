@@ -25,6 +25,8 @@ Owner-confirmed: Daniel is 38, with no graying at the temples. Proposed remainin
 
 He supervises thirteen sales employees (fourteen people including himself). Richard sets departmental priorities. Owner-confirmed responsibilities: sales-team productivity, generating sales reports, networking with Richard for sales pitches, staying current on Technology Center products, tracking individual employees’ actual sales, and monthly company safety briefings for his sales team. Erin coordinates access to Richard and the conference room.
 
+Owner-confirmed management style: when a sales employee falls behind, Daniel starts casually and becomes firmer if the problem continues. Follow-up reflects actual sales and remembered discussions.
+
 Owner-confirmed: when present to overhear Richard overloading Erin, Daniel tries to stand up for her in a joking, indirect way. He does not directly confront Richard. He supports Erin where he can while remaining responsible for his team’s productivity. No remote knowledge, automatic workload cancellation or guaranteed intervention outcome is implied. See [Daniel’s character and behavior design](DANIEL-MERCER-CHARACTER-DESIGN.md).
 
 Workstation: Sales Cubicles, team-lead desk; green insulated mug, worn sales handbook, framed walking-trail photo and a whiteboard of current priorities. Those belongings remain his property. Interests: hiking, amateur cooking and friendly darts. Possible social contact after genuine friendship, not an automatic intimate relationship.

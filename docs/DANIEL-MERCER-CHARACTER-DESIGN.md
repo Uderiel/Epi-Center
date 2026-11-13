@@ -10,6 +10,8 @@ Status: character design, not implemented gameplay. Owner decisions recorded Nov
 - He does not directly confront Richard. He supports Erin where he can while remaining responsible for his sales team's productivity.
 - His work includes generating sales reports; networking and coordinating with Richard for sales pitches; keeping current on Technology Center products; tracking each sales employee's actual sales; and providing the sales team with monthly company safety briefings.
 
+- Owner-confirmed management approach: when an employee’s sales fall behind, Daniel starts casually and becomes firmer if the problem continues.
+
 ## How he supports Erin
 
 His response depends on being present and hearing enough of the exchange to understand it. He does not know about a private conversation, unseen assignment or Erin's internal thoughts. Sharing a building or receiving a generic schedule update is not enough.
@@ -36,6 +38,23 @@ He has real limits: sales commitments, a meeting, an unfinished report or staff 
 | Monthly company safety briefings | Provides a company safety briefing for his sales team every game month | One saved briefing record per defined game-month period, with real preparation, scheduled attendance and completion; no repeated briefing on reload |
 
 His normal reporting and briefing duties are part of his leadership role. They do not generate Erin's extra-task bonus merely because she helps coordinate them. Any extra paid assignment must use its own existing authorized task/reward rules.
+
+## Handling employees whose sales fall behind
+
+Owner-selected direction: **starts casually, becoming firmer if the problem continues**. His friendly everyday manner and responsibility for results are both present; his first response is not automatically a formal warning.
+
+The following stages and dialogue are proposed expressions of that confirmed direction, not new owner-approved disciplinary rules:
+
+| Situation | Approach | Example voice |
+| --- | --- | --- |
+| First observed shortfall | A casual check-in about how things are going and what is getting in the way | "How are those accounts treating you? Anything getting stuck?" |
+| Shortfall continues after an earlier conversation | More specific follow-up using actual results and the previously discussed issue | "We talked about those follow-ups. Walk me through what happened since then." |
+| Repeated unresolved problem | A firm conversation about what needs to improve and a concrete follow-up point | "I need a clear plan for getting this back on track. What can you deliver, and by when?" |
+| Recorded improvement | Acknowledge the progress and adjust the follow-up to the current situation | "Those follow-ups are moving again. Good work—keep me posted on the two still outstanding." |
+
+He remembers who he spoke to, what concern was raised, any agreed next step and the later results. One poor outcome or failed roll does not invent a history of underperformance. Repeated button clicks or reloads do not advance the conversation from casual to firm. A remembered concern must be updated when results change rather than trap the employee in permanent escalation.
+
+Use employee-specific sales records and actual work opportunities. A lack of assigned accounts, an approved absence or a known product/document blocker cannot be silently narrated as laziness. The precise sales targets, review period and any disciplinary consequences remain open design decisions. This personality choice does not automatically authorize firing, fines, pay deductions or a confrontation with Richard.
 
 ## Proposed work rhythm
 
@@ -66,5 +85,6 @@ His relationship history with Erin, personal life, home, full appearance, attrib
 6. Product and pitch dialogue use approved current facts and actual shared events.
 7. A monthly briefing is prepared, scheduled and completed once for its period; reload and time skips preserve the ledger and do not fabricate attendance.
 8. His work responsibilities remain visible in daily choices, without repetitive report/briefing loops.
+9. Employee performance follow-up starts casually and becomes firmer only when real continuing problems and previous conversations justify it; persistence and improvement survive reload.
 
 Related: [Erin's daily-life expansion](ERIN-DAILY-LIFE-EXPANSION.md), [Michael's character design](MICHAEL-CHARACTER-DESIGN.md).
