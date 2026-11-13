@@ -1,3 +1,9 @@
+## v1.0.92 — Erin’s human identity and mastered release (tested candidate)
+
+Erin’s body and voice belong to her; the original player consciousness is inside her. Corrected game/Worker guidance preserves her human needs, personal desires and context-sensitive intimacy without automatic refusals or promises. She has no independent offscreen existence while unequipped. Once mastered, heels off permits will-release to the original base form; putting on the mastered heels instantly restores Erin. Unmastered transformation remains gradual and cannot be willed away. Release preserves original state, trust and history, stops her routines, and invalidates late AI replies.
+
+**870 named cases plus entity assertions PASS**, including release/save/re-equip and identity/lifecycle checks. Syntax/module paths and whitespace pass. Prepared Worker reports **character-embodiment-v3**; deployment and paid-model voice quality remain unverified. Existing owner-confirmed Worker is character-voice-v2. See [rules, deployment and retest](ERIN-IDENTITY-AND-RELEASE.md). Next: publish to authorized main/rebuild branches, verify deployed source, then exercise release/re-equip and canine context in an isolated browser save. Roaming-NPC canine interactions remain dependent on the future scheduler.
+
 ## v1.0.91 — two mastery gates, canine context and remembered routines (tested candidate)
 
 Owner reports immediate Erin mastery from55 influence after sleeping +4. Cause: v1.0.89 erroneously let Common100 progress bypass remaining influence. Restore progress100 AND influence0; saved permanent mastery remains. Common consolidation at full progress prevents routine/curse setbacks and makes failed resistance reduce remaining influence5, retaining a bounded40-attempt/20-hour worst-case active route. Existing progression, costs, natural rolls and other-rarity final rules remain.

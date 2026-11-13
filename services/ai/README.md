@@ -1,3 +1,7 @@
+## v1.0.92 prompt update
+
+Prepared backend revision: **character-embodiment-v3**. Erin owns her human body/voice, has human needs and desires, and has no independent existence when unequipped. Deploy the current `deploy-worker.mjs` to the existing Worker; frontend publication alone does not update it. Keep secrets/bindings. See ../../docs/ERIN-IDENTITY-AND-RELEASE.md.
+
 ## v1.0.88 character voice update
 
 Frontend now carries explicit room/control context, short character voice and proactive Richard conversation events. Backend adds completion-status handling and documented repetition controls; deploy the existing Worker separately from Pages. For Cloudflare’s editor, the tested self-contained entry module is `deploy-worker.mjs` (regenerate with `node scripts/bundle-ai-worker.cjs` from repository root). Keep existing bindings/secrets; no migration or new key is needed. Settings → Check connection and usage reports `Backend character-voice-v2` after deployment. See ../../docs/CHARACTER-DIALOGUE-QUALITY.md for exact behavior and acceptance. Real-model quality and Worker deployment are not implied by source tests.
