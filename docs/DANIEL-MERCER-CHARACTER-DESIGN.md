@@ -1,6 +1,6 @@
 # Daniel Mercer — Sales Team Leader
 
-Status: character design, not implemented gameplay. Owner decisions recorded November 13, 2026. This document separates confirmed details from remaining proposals in the daily-life expansion.
+Status: approved character contract; baseline implemented in v1.0.95. See [implementation, scope and tests](DANIEL-IMPLEMENTATION.md). Historical design decisions and remaining proposals follow. Owner decisions recorded November 13, 2026. This document separates confirmed details from remaining proposals in the daily-life expansion.
 
 ## Owner-confirmed details
 
@@ -171,7 +171,7 @@ The earlier darts suggestion was not selected as a confirmed interest; it should
 
 The earlier broad-shouldered and unspecified dark-hair proposals are superseded. Navy suits, later rolled sleeves, friendly competitiveness and a green insulated mug remain draft details from ERIN-DAILY-LIFE-EXPANSION.md. His confirmed appearance and interests do not additionally approve every earlier proposed clothing or workstation detail. His build does not assign physical attributes or remove his confirmed interest in hiking and outdoor activities.
 
-Their workplace friendship, occasional lunch conversation and Daniel’s understated attraction are confirmed. How long they have worked together, his remaining personal background, the layout of Applewood 4C, clothing details, exact attribute/resource balance and detailed schedule remain open to further character design. No new game version, NPC deployment, product catalog, sales simulation or safety-briefing system is claimed by this document.
+Their workplace friendship, occasional lunch conversation and Daniel’s understated attraction are confirmed. How long they have worked together, his remaining personal background, the layout of Applewood 4C, clothing details, exact attribute/resource balance and detailed schedule remain open to further character design. The v1.0.95 implementation contract supersedes earlier design-only status for its explicitly listed scope; wider personal/background and staff systems remain pending.
 
 ## Acceptance criteria when implemented
 

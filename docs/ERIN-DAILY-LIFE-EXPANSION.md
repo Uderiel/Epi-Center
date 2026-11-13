@@ -1,3 +1,5 @@
+Implementation checkpoint: Daniel’s baseline, product knowledge and secretary-mediated appointments are implemented in v1.0.95; see [scope and verification](DANIEL-IMPLEMENTATION.md). The remaining cast, stores, social venue and Michael remain a design draft unless specifically marked otherwise.
+
 # Erin's daily-life expansion
 
 Status: design draft, based on the owner's November 13, 2026 request. This document does not claim these characters, shops or social systems are implemented. The playable baseline is v1.0.94. Names, personalities, schedules and new prices below are proposed authoring choices, distinct from existing canon.

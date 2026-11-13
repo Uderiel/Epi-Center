@@ -1,0 +1,42 @@
+# Daniel Mercer implementation · v1.0.95
+
+Phase 10/11 scoped work item: implement the approved Daniel character in the existing third-floor office, with early preparation, concise dialogue, product knowledge, real civilian combat and secretary-mediated appointments. This does not implement the remaining 25 staff NPCs, Crystal's casino, Applewood 4C interiors or the wider shopping/social expansion.
+
+## Character and schedule
+
+Daniel's approved appearance, loving five-year marriage to non-indentured roulette attendant Crystal Mercer, Applewood 4C residence, workplace friendship/understated attraction toward Erin, wine recommendations, hobbies and Mental-primary/Physical-secondary direction are retained. The proposed 49-point allocation is adopted as an implementation default (Mental 20, Physical 17, Arousal 14), not a separate extra-specialist move package. He uses ordinary shared civilian actions and persistent depleted pools. The existing civilian adapter now names its actual opponent rather than always naming Richard.
+
+Weekdays: departure from Applewood about 08:10 gives a physical route to the sales break room around 08:30; eight game minutes per outdoor edge and one per interior door/elevator transition. One coffee consumes one coffee, cup and water from actual sales-break-room stock and takes three minutes to brew. Missing supplies produce no fictitious cup. He walks to Sales Cubicles and spends fifteen actual desk minutes preparing a sales-number snapshot. After preparation, a ten-minute product-review activity is available in the 09:30–10:00 window. Regular work is 09:00–17:00, lunch 12:00–12:30, an afternoon equipment-room check, then an actual route home. These small timing defaults make the owner's early-arrival requirement executable; no offline catch-up is added.
+
+Old saves initialize his current location according to the schedule but never retrospectively consume coffee, prepare a report or invent earlier shared events. Subsequent movement is physical and idempotent. Unavailable actors do not start new conversations/encounters. His home activity remains personal time at 4C; this release does not simulate Crystal's shift or consume household wine/food.
+
+## Presence, conversation and office layers
+
+Daniel appears only in his actual room, selectable alongside Richard rather than replacing Richard in the NPC recipient list. His card and a separate workstation disclosure stay in the existing office dock under the live feed. His topics include schedule, department products, reports, team follow-up, wine/cooking and Crystal. There is at most one brief autonomous greeting per day and a thirty-minute pause after an exchange; no constant chatter. Player input remains unchanged in the feed. AI has a dedicated actor/history and supplied current facts; late replies are invalidated when actor/scene locations change. AI cannot create sales, appointments or physical actions. Existing Worker v3 is compatible; no redeployment or paid inference is required.
+
+The indirect overload joke requires actual co-presence of Daniel, Richard and Erin during a real additional-work offer and an existing workload (multiple accepted document orders, active duties or an approaching meeting). It is recorded once per offer; it does not cancel the assignment or directly confront Richard. Full colleague-performance conversations await real staff NPCs; this release exposes his management style without fabricating employee histories.
+
+## Product and sales knowledge
+
+The catalog contains alarm systems, security camera systems, domestic home-care bots that cook/clean/tidy, Form Repository-style stands for home form displays, data storage and data security. Player cell phones are explicitly planned and unavailable. The catalog is informational: no prices, purchases, devices, bot routines or form-stand installations are invented.
+
+The sales ledger validates identified orders, available products, employee positions sales-01 through sales-13, integer nonnegative amounts, authored sources and pending/shipped/cancelled states. Only pending orders can transition to shipped/cancelled; duplicate IDs are rejected. Reports separate these statuses and record per-employee totals without awarding player gold. No customer/order-generation system is added here: a fresh ledger truthfully shows zero orders. Future authored sales events can use this common API. The remaining thirteen sales NPCs are not silently spawned from their row IDs.
+
+## Meeting loop
+
+1. Daniel requests pitch planning, a sales-report review or a company safety briefing. His completed morning report can create one saved pitch request; a monthly briefing creates one request per period. A request is not approval.
+2. As Erin, tell available Richard in person about the request. This is a real two-minute interaction, guarded by voice, hands, identity, control and presence.
+3. At Erin's Reception scheduler, book an approved fifteen-minute appointment in one of the next available slots. Shared appointments, native reception plans, Richard's normal rounds/lunch, weekday hours and ten-minute travel buffers constrain availability. No overlap or weekend/after-hours booking is accepted.
+4. Daniel and Richard physically walk to the booked room before the start. Erin's scheduler lists it, and her existing routine system recognizes the external commitment rather than starting another household/work routine in its place. The player still chooses/contests movement through canonical form-control rules; no teleport or forced approval is added.
+5. Walk Erin to the room and allow actual game time to pass. Each shared minute counts only when all three are present and available. Pitch/briefing meetings use Conference Room E; report reviews use Richard's Office G through its only existing door in Reception F. All conference appointments include Erin and Daniel.
+6. Actual shared presentation creates bounded meeting notes from product facts, recorded sales or the authored company safety agenda. At the end the meeting is completed, partial or missed. No payment is granted for attendance. Canceled and failed appointments remain recorded; request a replacement and inform Richard again rather than fabricate attendance.
+
+The clock has no canonical month field, so a company safety briefing uses an explicitly documented **30-game-day cycle**. Duration fifteen minutes, report preparation fifteen minutes, product study ten minutes, four offered slots and a three-day search horizon are implementation defaults. The safety agenda covers clear access routes, faulty equipment, customer-data protection and checking authorized procedures; it does not claim compliance with a real-world standard. The attendance ledger includes currently implemented Daniel, Richard and Erin; it does not falsely claim the unimplemented sales employees attended.
+
+## Verification and limits
+
+904 named automated cases plus entity assertions PASS; syntax, module paths and whitespace PASS. The 23 new integration cases cover identity/alignment, catalog/no phone inventory, migration/slots, commute/doors, finite coffee supplies, actual preparation, per-employee order states, conversation/voice guards, relay/booking conflicts, calendar integration, shared/partial/missed attendance, monthly completion, bulk/minute equivalence, witnessed support, bounded initiative, AI history/late-scene rules, actual-opponent combat and real UI integration. Existing Richard report/payment, office-floor, form, navigation and save regressions pass.
+
+The cloud browser could not reach the workspace's local HTTP server; native local preview also encountered an unavailable accessibility provider. These are environment limitations, not passed browser tests. Public deployment and actual browser checks follow and will be recorded separately. Paid-model dialogue quality, native Android interaction and owner acceptance remain untested.
+
+Owner retest after publication: resume an existing save; visit Sales Cubicles during work hours and select Daniel; ask about Crystal and products; request a meeting, relay it to Richard, book at reception and attend with elapsed time. Verify canceled/missed meetings do not complete or pay, phone products create no devices, existing reports still work, and saves survive reload. Check early coffee and report preparation by advancing through 08:30 in an isolated save.

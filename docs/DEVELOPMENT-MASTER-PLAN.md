@@ -1,3 +1,11 @@
+## v1.0.95 — Daniel Mercer and secretary-mediated appointments (tested candidate)
+
+Implements Daniel's approved character, weekday early arrival around08:30, tracked coffee supplies, actual sales-report preparation, concise authored/AI dialogue, legal routes and Mental-primary civilian combat with Physical secondary strengths. His marriage to Crystal, Applewood4C, wine recommendations and workplace friendship with Erin remain in context. The department product catalog follows the owner’s list; player phones remain planned and unavailable. Sales snapshots use validated recorded orders, with no fabricated revenue or employee NPCs.
+
+Erin can relay Daniel's meeting requests to present Richard, book an approved conflict-free slot at reception and physically attend with both men. Shared elapsed presence controls completed/partial/missed status; meeting notes reflect actual products/ledger/briefing facts. Existing planner routines recognize the commitment. Monthly safety uses a documented30-game-day cycle. Other staff NPCs, Crystal’s workplace/home interiors, product purchases and customer sales generation remain future work. No Worker redeployment is needed.
+
+**904 named automated cases plus entity assertions PASS**; syntax/module paths/whitespace PASS. Local UI preview was blocked by environment connectivity/accessibility; public deployment/browser verification follows. See [implementation and owner retest](DANIEL-IMPLEMENTATION.md). Next: publish to the authorized rebuild/main branches, verify Pages/source, then exercise Daniel and the booking loop in the isolated browser save. Paid AI quality, native Android and owner acceptance remain untested.
+
 ## v1.0.94 — Boutique Breeding Room amendment
 
 Restores the owner’s Breeding Room (source H) below Treatment Room on the Pet Boutique sublevel, connected to Kennels / Play Area. Shared Location and Map references include the room, corrected Trixie role, and non-graphic reproductive-care service plans for adult, sapient humanoid participants, requiring their own informed agreement. The prior blanket exclusion is superseded. No pregnancy, treatment, form lock or purchase is executed by these references. Existing map positions, saves and services remain intact.
