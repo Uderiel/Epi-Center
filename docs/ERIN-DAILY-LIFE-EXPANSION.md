@@ -21,9 +21,11 @@ Existing foundations: Technology Center #98 has the third-floor rooms, equipment
 
 ### Daniel Mercer — Sales Team Leader
 
-Age 38; male human. Short dark hair with early gray at the temples, broad shoulders, practical navy suits and sleeves pushed up during busy afternoons. Friendly, competitive and quick with names. He prefers a clear next step to a long meeting. He gives useful credit in public but can turn every conversation into a target discussion when stressed.
+Owner-confirmed: Daniel is 38, with no graying at the temples. Proposed remaining appearance: male human, short dark hair, broad shoulders, practical navy suits and sleeves pushed up during busy afternoons. Friendly, competitive and quick with names. He prefers a clear next step to a long meeting. He gives useful credit in public but can turn every conversation into a target discussion when stressed.
 
-He supervises the fourteen-person sales group including himself. Richard sets departmental priorities; Daniel allocates accounts and negotiates deadlines. Erin coordinates his access to Richard and the conference room. He respects her organization but occasionally assumes she has time for one more favor. A calm refusal makes him find another solution rather than retaliate.
+He supervises thirteen sales employees (fourteen people including himself). Richard sets departmental priorities. Owner-confirmed responsibilities: sales-team productivity, generating sales reports, networking with Richard for sales pitches, staying current on Technology Center products, tracking individual employees’ actual sales, and monthly company safety briefings for his sales team. Erin coordinates access to Richard and the conference room.
+
+Owner-confirmed: when present to overhear Richard overloading Erin, Daniel tries to stand up for her in a joking, indirect way. He does not directly confront Richard. He supports Erin where he can while remaining responsible for his team’s productivity. No remote knowledge, automatic workload cancellation or guaranteed intervention outcome is implied. See [Daniel’s character and behavior design](DANIEL-MERCER-CHARACTER-DESIGN.md).
 
 Workstation: Sales Cubicles, team-lead desk; green insulated mug, worn sales handbook, framed walking-trail photo and a whiteboard of current priorities. Those belongings remain his property. Interests: hiking, amateur cooking and friendly darts. Possible social contact after genuine friendship, not an automatic intimate relationship.
 
