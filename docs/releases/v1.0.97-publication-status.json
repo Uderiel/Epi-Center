@@ -1,0 +1,18 @@
+{
+  "version": "1.0.97",
+  "tests": {
+    "namedCases": 944,
+    "entityAssertions": "PASS",
+    "syntax": "PASS",
+    "modulePaths": "PASS",
+    "whitespace": "PASS"
+  },
+  "publication": "BLOCKED_AUTOMATIC_APPROVAL_REVIEW",
+  "remoteUnchanged": true,
+  "liveVersion": "1.0.96",
+  "candidateBrowserVerification": "PENDING",
+  "localBrowser": "Chromium launch failed: socket operation not permitted",
+  "paidModelQuality": "NOT_TESTED",
+  "nativeAndroid": "NOT_TESTED",
+  "nextAction": "Explicit owner approval to push and publish, then live source/UI verification"
+}
