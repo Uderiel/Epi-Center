@@ -22,3 +22,7 @@ Automated coverage uses simulated provider responses and UI adapters. Paid model
 ## Verification and publication state
 
 944 named automated cases plus entity assertions PASS; JavaScript syntax, module paths and git whitespace checks PASS. Provider calls are simulated. Existing live title v1.0.96 was observed in the cloud browser; the candidate has not been browser verified or deployed. Both main/rebuild publication and a separate candidate branch push were rejected by automatic approval review for missing explicit publication authorization. No remote branch changed. Owner approval to push and publish is the next action.
+
+## Publication verified
+
+Owner approved publication. Gameplay commit bc5b8042ef9fcfdc6a7413279f09e18e0ee1b164 is deployed on Pages run43636016544 (success). All eight changed deployed runtime files match tested source, and a fresh944-case run passes. Scoped live checks passed fresh Eve guidance, NPC/Form targeting and draft persistence, stage1 and3 appearance, original/current separation and title version. Evidence: releases/v1.0.97-live-verification.json. Earlier blocked/pending notes describe the pre-approval checkpoint and are superseded.

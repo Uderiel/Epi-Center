@@ -7,12 +7,15 @@
     "modulePaths": "PASS",
     "whitespace": "PASS"
   },
-  "publication": "BLOCKED_AUTOMATIC_APPROVAL_REVIEW",
-  "remoteUnchanged": true,
-  "liveVersion": "1.0.96",
-  "candidateBrowserVerification": "PENDING",
+  "publication": "PUBLISHED_LIVE_VERIFIED",
+  "remoteUnchanged": false,
+  "liveVersion": "1.0.97",
+  "candidateBrowserVerification": "PASS_SCOPED_CHECKS",
   "localBrowser": "Chromium launch failed: socket operation not permitted",
   "paidModelQuality": "NOT_TESTED",
   "nativeAndroid": "NOT_TESTED",
-  "nextAction": "Explicit owner approval to push and publish, then live source/UI verification"
+  "nextAction": "Owner acceptance of existing-save fixes and real-model narration quality",
+  "ownerApproval": true,
+  "gameplayCommit": "bc5b8042ef9fcfdc6a7413279f09e18e0ee1b164",
+  "pagesRun": 43636016544
 }

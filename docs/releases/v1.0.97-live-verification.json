@@ -1,0 +1,96 @@
+{
+  "version": "1.0.97",
+  "gameplayCommit": "bc5b8042ef9fcfdc6a7413279f09e18e0ee1b164",
+  "testedTree": "d2187244a274468dee68ac99ef3ce887a7ec6c9e",
+  "pagesRun": 43636016544,
+  "pagesConclusion": "success",
+  "deployedRuntime": [
+    {
+      "path": "rebuild/character-creation/index.html",
+      "match": true,
+      "sha256": "12fe94a118bf452121df39e6123970730cc88a0117e2fa7182d235281cba8e49"
+    },
+    {
+      "path": "rebuild/combat/kibbles-form.js",
+      "match": true,
+      "sha256": "910cff9841efb0d04e604f6e576290039816731e902dd76b019bb417091053cc"
+    },
+    {
+      "path": "rebuild/hub/ai-context.js",
+      "match": true,
+      "sha256": "f8f5d43dbb107791331f2ea34aa3eb2eb98f82b2626a8e7d1a8edf74e7bb53d4"
+    },
+    {
+      "path": "rebuild/hub/ai-ui.js",
+      "match": true,
+      "sha256": "1fc3aa2520c1deed18832840505803faf71938d4dba304fb86d075e72aa470c8"
+    },
+    {
+      "path": "rebuild/hub/equipment-ui.js",
+      "match": true,
+      "sha256": "f11d6b292e269f8a25827d96aa60f7df72c06b34845a2448db135886c659819b"
+    },
+    {
+      "path": "rebuild/hub/erin-ui.js",
+      "match": true,
+      "sha256": "078d8bf616430a339a4561d95353307e13d528c21bcf4aa767b887b37279f211"
+    },
+    {
+      "path": "rebuild/hub/index.html",
+      "match": true,
+      "sha256": "f9f9bb6e99065c34c3a74b261038dc7e3d9c5faedfff63fa89f4eec403210268"
+    },
+    {
+      "path": "rebuild/title-screen/index.html",
+      "match": true,
+      "sha256": "fabce417cc925a80c5b36b2552e02115370435afe5f73c3f1fc4039d51b1de66"
+    }
+  ],
+  "automatedNamedCases": 944,
+  "entityAssertions": "PASS",
+  "syntax": "PASS",
+  "modulePaths": "PASS",
+  "browser": {
+    "save": "New isolated slot2 Intro97Tester; existing slots1/3 preserved",
+    "ai": "off",
+    "checks": [
+      {
+        "name": "Current Hub and refreshed title both show v1.0.97",
+        "passed": true
+      },
+      {
+        "name": "Fresh initial guidance and physical Eve button accept First Steps and update next step",
+        "passed": true
+      },
+      {
+        "name": "NPC Eve and unfinished draft persist from09:02 to09:03 and across reload",
+        "passed": true
+      },
+      {
+        "name": "Actual NW travel, inspection, heel pickup/equip update live Current appearance at1/23",
+        "passed": true
+      },
+      {
+        "name": "Wait advances to3/23 with canonical feed events and modified feet/legs",
+        "passed": true
+      },
+      {
+        "name": "Form channel active class and private draft persist through Wait and reload",
+        "passed": true
+      },
+      {
+        "name": "Appearance separately retains Original broad feet while Current shows transformed feet",
+        "passed": true
+      }
+    ],
+    "screenshot": "images/v1.0.97-live-appearance.jpg",
+    "liveTime": "paused at end in isolated test slot"
+  },
+  "limitations": [
+    "Paid-model quality untested; requests simulated in automated suite",
+    "Native Android untested",
+    "Full mastery release and partial canine overlay tested automatically, not repeated in live browser",
+    "Full First Steps completion not repeated; fresh acceptance/guidance checked"
+  ],
+  "ownerNext": "Use existing save to retest target stability, appearance, Equip release and enabled AI narration"
+}
