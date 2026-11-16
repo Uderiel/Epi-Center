@@ -4,11 +4,11 @@ Initial review against the Universal Character and Form Template v1.0. This is a
 
 ## Current handoff and resume point
 
-Checkpoint CP042. Last updated November 16, 2026, America/Chicago. The owner requested that this same audit be preserved and updated as work proceeds so a new chat can resume without losing decisions.
+Checkpoint CP043. Last updated November 16, 2026, America/Chicago. The owner requested that this same audit be preserved and updated as work proceeds so a new chat can resume without losing decisions.
 
 **Current work:** Priya Shah character design. Her appearance, core social/sexual characterization and Erin/Nadia relationship direction are confirmed. Her full dossier is not complete. CP005 establishes her simple livelihood/friendship motivation and the distinction between suppressed system history and her conscious Priya identity. The earlier characters have had an initial source review, not a completed template-by-template redesign. No new character gameplay implementation or publication has occurred as part of this audit.
 
-**Exact next action:** Continue Priya's NPC design with workplace consequences/relationships around her relaxed punctuality. CP042 settles the shared third-floor workday and tendency toward late arrival after home-prepared morning tea. Do not repeat the workday question. Follow CP041: finish Priya first, flats/object escape rules second, other cast afterward; cat deferred.
+**Exact next action:** Continue Priya's NPC design: her response when lateness affects a meeting/crunch period, followed by remaining daily-life and relationship behavior. CP043 settles Nadia's ordinary tolerance/dismissiveness versus annoyance at time-sensitive lateness. Preserve CP041 scope: Priya first, flats/object escape rules next, other cast afterward; cat deferred.
 
 **Owner-approved direction:** Use the universal template for both new characters and previously made characters. Preserve existing answers, recover old source before declaring a field missing, distinguish design from implementation, and avoid silently turning assistant proposals into canon.
 
@@ -454,6 +454,12 @@ The owner approved the three-stage transformation passage beginning “The momen
 
 Design only; no schedule implementation or test is claimed.
 
+### CP043 Nadia's context-dependent response to lateness
+
+**CONFIRMED November 16, 2026:** CP043 confirms Nadia generally does not mind ordinary lateness, framing it dismissively as “other people don't take their job roles seriously.” If there is a meeting or crunch time, she is annoyed when employees arrive late. This applies to employees generally, including Priya; it is not special favoritism toward Priya or blanket approval of lateness. No automatic disciplinary action, penalty, confrontation or response by Priya is established by this decision.
+
+Design only; no runtime behavior change or test is claimed.
+
 ### Progress board
 
 | Review item | Current state | Next step |
@@ -542,10 +548,11 @@ Before ending a chat, leave a concrete resume point and distinguish source revie
 | CP040 | November 16 2026 | Flats slightly beneath bench; gently worn with long-use interior marks/odor; one consciousness across both flats, specified compressed body placement, dim ground-up sight/hearing, no movement/speech/outward awareness signals | Next: transformation sequence, retrieval/handling lifecycle, mastery and escape/release |
 | CP041 | November 16 2026 | Finish Priya first; flats/escape/combat-guide rules next; other cast afterward; cat deferred; dynamic persona framework and approved near-instant three-stage prose recorded | Next: Priya daily schedule and availability |
 | CP042 | November 16 2026 | Shared third-floor workday; tends to arrive late after preparing morning tea at home; less strict/bothered than Erin about punctuality | Next: workplace response/relationship consequences; exact timing remains open |
+| CP043 | November 16 2026 | Nadia dismissively tolerates ordinary lateness but is annoyed at late arrivals during meetings or crunch time; applies generally to staff | Next: Priya's response in time-sensitive situations and remaining NPC design |
 
 ### New chat starter
 
-> Resume Epi-Center character design from docs/Epi-Center-Character-Design-Gap-Audit.md and docs/Priya-Shah-Character-Design.md on rebuild/1.0-foundations, current through CP042. The Library source remains at CP032, Library ID libfile_3763ef91cf6c81919ed5303c46e3d5e6. Read its current handoff and the Universal Character and Form Template before asking new questions. Priya Shah is the active design; preserve all confirmed decisions and do not repeat settled questions. Continue one unresolved question at a time, then update the same audit with decisions and the next resume point. Review current repository sources before implementation, and distinguish approved design from shipped gameplay.
+> Resume Epi-Center character design from docs/Epi-Center-Character-Design-Gap-Audit.md and docs/Priya-Shah-Character-Design.md on rebuild/1.0-foundations, current through CP043. The Library source remains at CP032, Library ID libfile_3763ef91cf6c81919ed5303c46e3d5e6. Read its current handoff and the Universal Character and Form Template before asking new questions. Priya Shah is the active design; preserve all confirmed decisions and do not repeat settled questions. Continue one unresolved question at a time, then update the same audit with decisions and the next resume point. Review current repository sources before implementation, and distinguish approved design from shipped gameplay.
 
 ---
 
