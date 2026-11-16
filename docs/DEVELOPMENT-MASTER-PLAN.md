@@ -1,3 +1,9 @@
+## November 16, 2026 — Character life and connections dependency CP051
+
+CP051: Priya's initial NPC authoring is complete with clearly labeled adjustable schedule/civilian defaults and a consolidated Featherless persona/fallback contract. No further biography questions are required before implementation. Added CHARACTER-CONNECTIONS-AND-WORLD-LIFE.md: shared directed connections across NPCs, forms, people, locations, possessions and plans; separate knowledge gates, real route/availability checks, persisted invitation/encounter history and future-venue eligibility review. This develops Erin's life and social network. No runtime integration, new test execution or deployment is claimed. Executor remains unavailable, so local integration/tests cannot run in this session. Next: implement/test the Priya NPC slice using current shared adapters, then flats/object escape/combat-guide rules; cat deferred; comprehensive existing-cast review follows.
+
+Dependency order: shared actor identity/presence/calendar and existing civilian adapters → Priya NPC slice → flats/object lifecycle and combat-guide rules → comparable existing-character review → eligible venue integration as locations ship. Reuse current systems and preserve all saves. See [connections contract](CHARACTER-CONNECTIONS-AND-WORLD-LIFE.md). No new gameplay phase is marked passed.
+
 ## v1.0.97 — published and live verified
 
 [Play v1.0.97](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.97). Gameplay commit `bc5b8042ef9fcfdc6a7413279f09e18e0ee1b164` is on main and rebuild/1.0-foundations. The owner explicitly approved push/publication, resolving the earlier approval block. Published tree exactly matches tested local tree `d2187244a274468dee68ac99ef3ce887a7ec6c9e`. Pages run43636016544 succeeded; all eight changed deployed runtime files byte-match tested source. A fresh run passed **944 named automated cases plus entity assertions**, syntax, module paths and whitespace.
