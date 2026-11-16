@@ -1,3 +1,7 @@
+## November 16, 2026 — Priya design checkpoint CP040
+
+Confirmed the flats slightly beneath a park bench, their gently worn long-use appearance, and one consciousness experiencing both shoes as one body. [Priya's dossier](Priya-Shah-Character-Design.md) and the [audit](Epi-Center-Character-Design-Gap-Audit.md) record the exact owner-specified body placement, dim ground-up sight without eyes, hearing and inability to move, speak or signal awareness. Next: transformation sequence and retrieval/handling lifecycle, then mastery/escape/release. Documentation only; gameplay remains v1.0.97. Original Library records remain unchanged pending writeback restoration.
+
 ## November 16, 2026 — Priya design checkpoint CP039
 
 CP039 confirms that the player may pick up and examine Priya's flats without triggering the curse. The curse triggers the moment the player attempts to put them into inventory to take them. Temporary handling/inspection and an attempted inventory acquisition must be distinct interactions. Touch, pickup, examination and wearing are not the selected activation trigger. Do not require completed inventory insertion before activation or silently turn ordinary inspection into taking. Exact transformation timing/sequence, resistance and transaction/state behavior remain to be designed.
