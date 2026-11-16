@@ -1,3 +1,7 @@
+## November 16, 2026 — Priya design checkpoint CP033
+
+Character design now continues in [Priya's dossier](Priya-Shah-Character-Design.md) and the [character design audit](Epi-Center-Character-Design-Gap-Audit.md) on rebuild/1.0-foundations. Imported complete Library records (dossier version 3, audit version 29) and added owner-confirmed scheduled weekends, spontaneous weekdays, one-day-ahead workday meal preparation and leisure preferences. Original Library records remain at CP032 pending restored content writeback; repository records carry CP033. Next: remaining collar protest/partial-interval bookkeeping and reversion compatibility; do not repeat settled routine questions. Documentation only; gameplay remains v1.0.97 and no new runtime tests or deployment are claimed.
+
 ## v1.0.97 — published and live verified
 
 [Play v1.0.97](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.97). Gameplay commit `bc5b8042ef9fcfdc6a7413279f09e18e0ee1b164` is on main and rebuild/1.0-foundations. The owner explicitly approved push/publication, resolving the earlier approval block. Published tree exactly matches tested local tree `d2187244a274468dee68ac99ef3ce887a7ec6c9e`. Pages run43636016544 succeeded; all eight changed deployed runtime files byte-match tested source. A fresh run passed **944 named automated cases plus entity assertions**, syntax, module paths and whitespace.
