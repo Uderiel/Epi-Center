@@ -4,11 +4,11 @@ Initial review against the Universal Character and Form Template v1.0. This is a
 
 ## Current handoff and resume point
 
-Checkpoint CP041. Last updated November 16, 2026, America/Chicago. The owner requested that this same audit be preserved and updated as work proceeds so a new chat can resume without losing decisions.
+Checkpoint CP042. Last updated November 16, 2026, America/Chicago. The owner requested that this same audit be preserved and updated as work proceeds so a new chat can resume without losing decisions.
 
 **Current work:** Priya Shah character design. Her appearance, core social/sexual characterization and Erin/Nadia relationship direction are confirmed. Her full dossier is not complete. CP005 establishes her simple livelihood/friendship motivation and the distinction between suppressed system history and her conscious Priya identity. The earlier characters have had an initial source review, not a completed template-by-template redesign. No new character gameplay implementation or publication has occurred as part of this audit.
 
-**Exact next action:** Finish Priya's NPC design, starting with her daily schedule and availability. Follow CP041 release scope: Priya first, flats/object escape/combat-guide rules second, comparable review of existing cast afterward. Cat/collar route is deferred and must not divert current work.
+**Exact next action:** Continue Priya's NPC design with workplace consequences/relationships around her relaxed punctuality. CP042 settles the shared third-floor workday and tendency toward late arrival after home-prepared morning tea. Do not repeat the workday question. Follow CP041: finish Priya first, flats/object escape rules second, other cast afterward; cat deferred.
 
 **Owner-approved direction:** Use the universal template for both new characters and previously made characters. Preserve existing answers, recover old source before declaring a field missing, distinguish design from implementation, and avoid silently turning assistant proposals into canon.
 
@@ -448,6 +448,12 @@ Featherless should use established motives, relationships, sensory capabilities 
 
 The owner approved the three-stage transformation passage beginning “The moment you try to put the flats away, something pulls back.” The transformation is nearly instantaneous in world time despite extended reading text. Its stages are drawn inward, losing human shape during descent, then immobile awareness beneath the bench. It includes brief stale-perspiration/herbal-perfume context and disorientation from the abrupt change in scale and perception; not intoxication. No need to breathe after completion is established by the approved passage. The full approved passage remains in the conversation pending verbatim incorporation into the flats content; do not claim it is implemented.
 
+### CP042 Shared workday and relaxed punctuality
+
+**CONFIRMED November 16, 2026:** CP042 confirms that Priya follows the same working day as the rest of the Technology Center's third floor. Use the current shared third-floor schedule rather than inventing a separate shift. She tends to arrive late because she likes preparing her morning tea at home. She is less strict about punctuality and less bothered by being late than Erin. This is a tendency, not guaranteed lateness every day or a fixed arrival offset. Exact delay/frequency, tea variety and Nadia's response remain unselected. Do not infer poor work quality, permission to be late, immunity from consequences or a different end-of-day schedule.
+
+Design only; no schedule implementation or test is claimed.
+
 ### Progress board
 
 | Review item | Current state | Next step |
@@ -535,10 +541,11 @@ Before ending a chat, leave a concrete resume point and distinguish source revie
 | CP039 | November 16 2026 | Pickup and examination are safe; attempting to put the flats into inventory to take them triggers the curse immediately | Next: flats-specific senses, awareness and body placement; transformation/retrieval lifecycle |
 | CP040 | November 16 2026 | Flats slightly beneath bench; gently worn with long-use interior marks/odor; one consciousness across both flats, specified compressed body placement, dim ground-up sight/hearing, no movement/speech/outward awareness signals | Next: transformation sequence, retrieval/handling lifecycle, mastery and escape/release |
 | CP041 | November 16 2026 | Finish Priya first; flats/escape/combat-guide rules next; other cast afterward; cat deferred; dynamic persona framework and approved near-instant three-stage prose recorded | Next: Priya daily schedule and availability |
+| CP042 | November 16 2026 | Shared third-floor workday; tends to arrive late after preparing morning tea at home; less strict/bothered than Erin about punctuality | Next: workplace response/relationship consequences; exact timing remains open |
 
 ### New chat starter
 
-> Resume Epi-Center character design from docs/Epi-Center-Character-Design-Gap-Audit.md and docs/Priya-Shah-Character-Design.md on rebuild/1.0-foundations, current through CP041. The Library source remains at CP032, Library ID libfile_3763ef91cf6c81919ed5303c46e3d5e6. Read its current handoff and the Universal Character and Form Template before asking new questions. Priya Shah is the active design; preserve all confirmed decisions and do not repeat settled questions. Continue one unresolved question at a time, then update the same audit with decisions and the next resume point. Review current repository sources before implementation, and distinguish approved design from shipped gameplay.
+> Resume Epi-Center character design from docs/Epi-Center-Character-Design-Gap-Audit.md and docs/Priya-Shah-Character-Design.md on rebuild/1.0-foundations, current through CP042. The Library source remains at CP032, Library ID libfile_3763ef91cf6c81919ed5303c46e3d5e6. Read its current handoff and the Universal Character and Form Template before asking new questions. Priya Shah is the active design; preserve all confirmed decisions and do not repeat settled questions. Continue one unresolved question at a time, then update the same audit with decisions and the next resume point. Review current repository sources before implementation, and distinguish approved design from shipped gameplay.
 
 ---
 
