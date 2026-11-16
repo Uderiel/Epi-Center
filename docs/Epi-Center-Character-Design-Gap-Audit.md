@@ -4,11 +4,11 @@ Initial review against the Universal Character and Form Template v1.0. This is a
 
 ## Current handoff and resume point
 
-Checkpoint CP034. Last updated November 16, 2026, America/Chicago. The owner requested that this same audit be preserved and updated as work proceeds so a new chat can resume without losing decisions.
+Checkpoint CP035. Last updated November 16, 2026, America/Chicago. The owner requested that this same audit be preserved and updated as work proceeds so a new chat can resume without losing decisions.
 
 **Current work:** Priya Shah character design. Her appearance, core social/sexual characterization and Erin/Nadia relationship direction are confirmed. Her full dossier is not complete. CP005 establishes her simple livelihood/friendship motivation and the distinction between suppressed system history and her conscious Priya identity. The earlier characters have had an initial source review, not a completed template-by-template redesign. No new character gameplay implementation or publication has occurred as part of this audit.
 
-**Exact next action:** Decide reversion while collared and item compatibility, then exact protest start/stop detection. CP034 confirms saved protest credit and partial intervals pause through quiet periods without reset. CP031 confirms one-point reduction per four present protest hours to floor15 and female Preeti/male Pri choice. CP032 confirms one hidden removal roll every four eligible in-game hours with Priya present. Do not reopen settled timing, threshold floor or names. Keep dossier and audit synchronized; this is design, not implementation.
+**Exact next action:** Choose the Priya-linked cursed object and discovery context. Human reversion while wearing her collar is blocked (CP035); do not reopen this as a collar-falloff question. Remaining cat/collar bookkeeping, object lifecycle design and the wider character/AI review stay pending.
 
 **Owner-approved direction:** Use the universal template for both new characters and previously made characters. Preserve existing answers, recover old source before declaring a field missing, distinguish design from implementation, and avoid silently turning assistant proposals into canon.
 
@@ -43,7 +43,7 @@ Before any gameplay changes, read the repository's docs/DEVELOPMENT-MASTER-PLAN.
 
 **CP004 portrayal consequence:** Priya's reduced willingness to present ideas reflects frustration with Nadia's handling of them. Do not equate this with a lack of ideas, loss of skill, deliberate sabotage, resignation or absence of career ambition. Those consequences have not been established. Keep her existing somewhat friendly professionalism and topic-triggered private candor intact.
 
-**Template synchronization note:** The template's worked Priya example is the earlier CP001 snapshot. This maintained audit carries later decisions, including CP004 through CP034; consult it before treating fields in that older example as still open.
+**Template synchronization note:** The template's worked Priya example is the earlier CP001 snapshot. This maintained audit carries later decisions, including CP004 through CP035; consult it before treating fields in that older example as still open.
 
 **Priya proposals, not confirmed:** specific reading preferences beyond library visits; participation in a writing group; unfinished manuscript; the earlier assistant-proposed flaw of over-softening criticism. CP009 confirms her content strategist role/specialization and CP010 confirms creative writing and library visits; remaining detailed duties and personal particulars still need authoring. These require selection or revision. Historical open-field lists below have been narrowed by later checkpoints; use the current confirmed CP004–CP012 sections and progress board. Priya has not been approved as a playable form or cursed source.
 
@@ -380,6 +380,20 @@ This narrows earlier open household/schedule fields without choosing exact times
 
 This protest-credit rule does not alter CP029: a break from the cat stay still restarts the stay requirement. Documentation only; not implemented gameplay.
 
+### CP035 Reversion lock, first object transformation and AI persona scope
+
+**CONFIRMED November 16, 2026:**
+
+The player cannot return to human form while wearing Priya's collar. CP035 confirms a reversion lock, analogous to the owner's Kibbles restrictions while collared, kenneled or actively treated as a pet. The prior suggestion that human reversion could make this collar fall off is rejected. Removal must precede human reversion; actual removal immediately reverses Priya's collar-induced belief as already confirmed. Exact applicability of kenneling/active-pet-treatment locks to Priya's cat route still needs explicit design; the analogy alone does not choose those additional conditions.
+
+The first inanimate-object transformation is to be related to Priya: a cursed possession she left behind somewhere. Unlike Erin's Favorite Red Heels, which transform the wearer into Erin, this item transforms the player into the object itself. Exact object, discovery location, trigger, awareness/senses, communication, handling, custody, control, mastery and escape/release remain open. This is distinct from Priya's offered cat form and does not establish Priya herself as a collectible form.
+
+After Priya, flesh out the other characters to comparable depth using their recovered owner-confirmed records. AI portrayals should extrapolate from established details and support growth, surprise and new context-appropriate behavior, rather than only repeat dossier facts. Preserve core persona, knowledge boundaries and trigger-gated disclosures. Creative elaboration must not fabricate canonical world actions, dispatch security or reveal private/hidden knowledge without supported triggers and resolved game events.
+
+Owner-reported Eve regression: after the player described being trapped as a dog during the Kibbles mission, her initial denial that this was possible was appropriate. Her subsequent worry and claim that security were on their way were outside her persona. Record this as an unresolved AI portrayal defect, not an approved incident or actual security dispatch. Future verification must cover sustained denial/normalization consistent with her cheerful corporate persona, pressure/repetition and trigger-gated lore/glitch behavior; exact transcript and current frontend/Worker context must be inspected before implementation. No fix or model test is claimed here.
+
+This checkpoint records design and a reported defect only; no gameplay or AI fix is implemented or tested.
+
 ### Progress board
 
 | Review item | Current state | Next step |
@@ -460,10 +474,11 @@ Before ending a chat, leave a concrete resume point and distinguish source revie
 | CP033 | November 16 2026 | Owner confirmed scheduled weekends, spontaneous weekday visits/hosting or restaurant wine, one-day-ahead workday lunch/dinner preparation, fresh weekend/hosting meals, occasional fantasy-adventure romance writing, romcoms and popular TV series | Exact schedule times and remaining cat/collar bookkeeping stay open; saved in repository |
 | CP034 | November 16 2026 | Earned protest time and partial intervals persist; quiet periods pause accrual without reset or reversal of earned reductions | Next: reversion while collared and compatibility; protest start/stop detection remains open |
 
+| CP035 | November 16 2026 | Collar blocks human reversion; first inanimate-object TF linked to a possession Priya left behind; detailed cast design and flexible but persona-consistent AI required; Eve security escalation reported as defect | Next: choose cursed object and discovery context; inspect Eve context/transcript before fixes |
 
 ### New chat starter
 
-> Resume Epi-Center character design from docs/Epi-Center-Character-Design-Gap-Audit.md and docs/Priya-Shah-Character-Design.md on rebuild/1.0-foundations, current through CP034. The Library source remains at CP032, Library ID libfile_3763ef91cf6c81919ed5303c46e3d5e6. Read its current handoff and the Universal Character and Form Template before asking new questions. Priya Shah is the active design; preserve all confirmed decisions and do not repeat settled questions. Continue one unresolved question at a time, then update the same audit with decisions and the next resume point. Review current repository sources before implementation, and distinguish approved design from shipped gameplay.
+> Resume Epi-Center character design from docs/Epi-Center-Character-Design-Gap-Audit.md and docs/Priya-Shah-Character-Design.md on rebuild/1.0-foundations, current through CP035. The Library source remains at CP032, Library ID libfile_3763ef91cf6c81919ed5303c46e3d5e6. Read its current handoff and the Universal Character and Form Template before asking new questions. Priya Shah is the active design; preserve all confirmed decisions and do not repeat settled questions. Continue one unresolved question at a time, then update the same audit with decisions and the next resume point. Review current repository sources before implementation, and distinguish approved design from shipped gameplay.
 
 ---
 
