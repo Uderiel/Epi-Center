@@ -1,6 +1,6 @@
 # Priya Shah Character Design
 
-Consolidated through audit checkpoint CP035, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
+Consolidated through audit checkpoint CP036, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
 
 ## Identity and appearance
 
@@ -114,7 +114,9 @@ Priya acts from annoyance or concern that the collar bothers her pet, without kn
 
 ## Priya-linked inanimate-object transformation
 
-The first inanimate-object transformation is to be related to Priya: a cursed possession she left behind somewhere. Unlike Erin's Favorite Red Heels, which transform the wearer into Erin, this item transforms the player into the object itself. Exact object, discovery location, trigger, awareness/senses, communication, handling, custody, control, mastery and escape/release remain open. This is distinct from Priya's offered cat form and does not establish Priya herself as a collectible form.
+The first inanimate-object transformation is to be related to Priya: a cursed possession she left behind somewhere. Unlike Erin's Favorite Red Heels, which transform the wearer into Erin, this item transforms the player into the object itself. The object is now confirmed as a pair of flats or heels (CP036); exact type, discovery location, trigger, awareness/senses, communication, handling, custody, control, mastery and escape/release remain open. This is distinct from Priya's offered cat form and does not establish Priya herself as a collectible form.
+
+CP036 confirms that Priya left behind a pair of flats or heels; the exact footwear type remains unselected. This cursed footwear transforms the player into the footwear itself, rather than into Priya. It is intended to surprise players familiar with Erin's heels or Michael's shoes: discovering clothing must not imply a single predictable transformation outcome. Further varieties of clothing/item outcomes are planned for the future, without choosing them now. The bracelet suggestion is superseded. Discovery location, activation trigger, whether/how consciousness spans the pair, senses, communication, handling/wearing, custody, mastery and escape/release still need design. References to Michael's shoes describe the intended comparison, not a claim they are already implemented.
 
 ## AI portrayal direction
 
