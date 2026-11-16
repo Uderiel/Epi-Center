@@ -1,6 +1,6 @@
 # Priya Shah Character Design
 
-Consolidated through audit checkpoint CP038, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
+Consolidated through audit checkpoint CP039, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
 
 ## Identity and appearance
 
@@ -114,7 +114,7 @@ Priya acts from annoyance or concern that the collar bothers her pet, without kn
 
 ## Priya-linked inanimate-object transformation
 
-The first inanimate-object transformation is to be related to Priya: a cursed possession she left behind somewhere. Unlike Erin's Favorite Red Heels, which transform the wearer into Erin, this item transforms the player into the object itself. The object is confirmed as well-worn, size-seven flats (CP037), lost in the Northeast Central Hub park and retrieved shortly after transformation (CP038). Trigger, awareness/senses, communication, handling, custody, control, mastery and escape/release remain open. This is distinct from Priya's offered cat form and does not establish Priya herself as a collectible form.
+The first inanimate-object transformation is to be related to Priya: a cursed possession she left behind somewhere. Unlike Erin's Favorite Red Heels, which transform the wearer into Erin, this item transforms the player into the object itself. The object is confirmed as well-worn, size-seven flats (CP037), lost in the Northeast Central Hub park and retrieved shortly after transformation (CP038). The trigger is attempted inventory acquisition (CP039); awareness/senses, communication, handling, custody, control, mastery and escape/release remain open. This is distinct from Priya's offered cat form and does not establish Priya herself as a collectible form.
 
 CP036 established abandoned footwear; CP037 selects well-worn, size-seven flats. This cursed footwear transforms the player into the footwear itself, rather than into Priya. It is intended to surprise players familiar with Erin's heels or Michael's shoes: discovering clothing must not imply a single predictable transformation outcome. Further varieties of clothing/item outcomes are planned for the future, without choosing them now. The bracelet suggestion is superseded. Discovery location, activation trigger, whether/how consciousness spans the pair, senses, communication, handling/wearing, custody, mastery and escape/release still need design. References to Michael's shoes describe the intended comparison, not a claim they are already implemented.
 
@@ -125,6 +125,8 @@ CP038 confirms discovery in the park at Northeast Central Hub. Priya switched in
 Owner-confirmed shared object-form presentation rule: inanimate-object transformation is the specific case where the appearance overlay should change to represent the object itself, such as shoes/flats, underwear, a bracelet, a toy or a doll. These examples are categories for future design, not approved new items. Do not use this instruction to remove the existing partial living-form appearance display or overwrite the original-player appearance record.
 
 Sensory experience, awareness and physical body placement within an inanimate object must be authored individually for each object form as it is created. Do not infer universal vision, hearing, speech, mobility, merged consciousness across a pair or a particular body arrangement. Priya's flats still need those specifics. Activation trigger, exact transformation sequence, handling/wearing, control, mastery and escape/release also remain open.
+
+CP039 confirms that the player may pick up and examine Priya's flats without triggering the curse. The curse triggers the moment the player attempts to put them into inventory to take them. Temporary handling/inspection and an attempted inventory acquisition must be distinct interactions. Touch, pickup, examination and wearing are not the selected activation trigger. Do not require completed inventory insertion before activation or silently turn ordinary inspection into taking. Exact transformation timing/sequence, resistance and transaction/state behavior remain to be designed.
 
 ## AI portrayal direction
 
