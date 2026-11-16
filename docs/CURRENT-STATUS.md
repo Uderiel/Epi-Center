@@ -1,3 +1,9 @@
+## November 16, 2026 — Priya design checkpoint CP050
+
+CP050 confirms that Priya gets up early to practice yoga and chakra alignment, treating this as morning spiritual cleansing and preparation for her day. Her morning is intentional rather than characterized by sleeping late; her previously confirmed home tea preparation and relaxed punctuality still apply. Exact wake time, duration and sequence relative to tea remain unselected. This establishes her personal spiritual practice without assigning a religious affiliation, supernatural powers or automatic attribute/resource bonuses.
+
+Updated [Priya dossier](Priya-Shah-Character-Design.md) and [audit](Epi-Center-Character-Design-Gap-Audit.md). Next: practical schedule defaults, civilian mechanics and consolidated AI portrayal. Documentation only; gameplay remains v1.0.97.
+
 ## November 16, 2026 — Priya design checkpoint CP049
 
 CP049 confirms a warm, lived-in apartment with comfortable seating for friends, books and writing notes, a well-used kitchen and a dedicated tea corner. It is generally tidy, with small signs of her current activities. Priya prefers earthy, subdued surroundings: creams, beiges, light tans and related shades, with whites creating contrast between similar colors. There are no strong, shocking or vibrant colors. The apartment feels calming and relaxing; its strongest hue contrast is brown wood furniture against light cream surfaces/counter. Exact room layout, individual furniture pieces and interactive contents remain to be authored. This interior palette does not replace her approved personal wardrobe or portrait.
