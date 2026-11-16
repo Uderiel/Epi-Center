@@ -1,3 +1,13 @@
+## November 16, 2026 — Priya design checkpoint CP038
+
+CP038 confirms discovery in the park at Northeast Central Hub. Priya switched into jogging shoes; her well-worn, size-seven flats fell out of her bag, and she forgot to check for them. After the player transforms into the flats, Priya returns shortly to retrieve them. The exact return delay and travel/retrieval mechanics remain undesigned. Other players and NPCs do not notice the transformation or notice the player going missing; do not create witness reactions, missing-person concern or security responses from this event. This does not establish a universal invisibility rule for every future transformation.
+
+Owner-confirmed shared object-form presentation rule: inanimate-object transformation is the specific case where the appearance overlay should change to represent the object itself, such as shoes/flats, underwear, a bracelet, a toy or a doll. These examples are categories for future design, not approved new items. Do not use this instruction to remove the existing partial living-form appearance display or overwrite the original-player appearance record.
+
+Sensory experience, awareness and physical body placement within an inanimate object must be authored individually for each object form as it is created. Do not infer universal vision, hearing, speech, mobility, merged consciousness across a pair or a particular body arrangement. Priya's flats still need those specifics. Activation trigger, exact transformation sequence, handling/wearing, control, mastery and escape/release also remain open.
+
+Updated [Priya dossier](Priya-Shah-Character-Design.md) and [audit](Epi-Center-Character-Design-Gap-Audit.md). Next: activation trigger, then flats-specific experience and retrieval/lifecycle mechanics. Documentation only; gameplay remains v1.0.97. Original Library records remain unchanged pending writeback restoration.
+
 ## November 16, 2026 — Priya design checkpoint CP037
 
 CP037 confirms Priya's abandoned cursed footwear is a pair of well-worn, size-seven flats. This settles flats versus heels; the player transforms into the flats themselves. The sizing system, color, material and specific wear details have not been selected. Discovery location, activation trigger and object-form lifecycle remain open.
