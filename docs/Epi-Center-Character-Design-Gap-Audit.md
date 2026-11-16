@@ -4,11 +4,11 @@ Initial review against the Universal Character and Form Template v1.0. This is a
 
 ## Current handoff and resume point
 
-Checkpoint CP046. Last updated November 16, 2026, America/Chicago. The owner requested that this same audit be preserved and updated as work proceeds so a new chat can resume without losing decisions.
+Checkpoint CP047. Last updated November 16, 2026, America/Chicago. The owner requested that this same audit be preserved and updated as work proceeds so a new chat can resume without losing decisions.
 
 **Current work:** Priya Shah character design. Her appearance, core social/sexual characterization and Erin/Nadia relationship direction are confirmed. Her full dossier is not complete. CP005 establishes her simple livelihood/friendship motivation and the distinction between suppressed system history and her conscious Priya identity. The earlier characters have had an initial source review, not a completed template-by-template redesign. No new character gameplay implementation or publication has occurred as part of this audit.
 
-**Exact next action:** Continue Priya's NPC design with household/access and hosting behavior, then remaining practical implementation requirements. CP046 settles declined invitations: one additional playful/pleading appeal, acceptance of second refusal; repeated separate declined invitations over time can prompt disappointment and a gentle friendship check-in. Preserve CP041 scope and avoid reopening settled social behavior.
+**Exact next action:** Continue Priya's NPC design with concrete content-strategy work activities, then the remaining home/schedule implementation details and civilian mechanics. CP047 settles hosting: close friends may drop by unannounced and she alters plans to accommodate them. Do not reopen settled invitation/hospitality decisions. Preserve CP041 scope.
 
 **Owner-approved direction:** Use the universal template for both new characters and previously made characters. Preserve existing answers, recover old source before declaring a field missing, distinguish design from implementation, and avoid silently turning assistant proposals into canon.
 
@@ -480,6 +480,12 @@ Repeated declined invitations across multiple separate occasions over time can g
 
 Design only; no NPC behavior implementation or test is claimed.
 
+### CP047 Open hospitality toward close friends
+
+**CONFIRMED November 16, 2026:** CP047 confirms that close friends can always drop by Priya's apartment unannounced. She is never opposed to their company and will alter her plans to be more accommodating as a host when someone shows up. Advance arrangements are not required for these friends. Preserve this as a strong hospitality preference, including flexibility around her scheduled plans; do not impose a prior-notice rule. Recognition still follows established appearance/voice and relationship knowledge. This does not grant unknown visitors the same friendship status, make Priya present when she is elsewhere, or establish unlocked doors/key access. Exact arrival/door interaction and apartment layout remain implementation design.
+
+Design only; no apartment access or NPC implementation/test is claimed.
+
 ### Progress board
 
 | Review item | Current state | Next step |
@@ -572,10 +578,11 @@ Before ending a chat, leave a concrete resume point and distinguish source revie
 | CP044 | November 16 2026 | After exceptional irritation with Nadia, Priya may deliberately miss unnecessary opening chatter at smaller briefings; never for major meetings; causes occasional friction | Next: ordinary social initiative and relationship development |
 | CP045 | November 16 2026 | Initiates and playfully coaxes shyer homebody friends out; mentions interest to outgoing friends Lena Ortiz and Maya Bennett | Next: declined invitations/repair, household/access and practical NPC requirements |
 | CP046 | November 16 2026 | One further playful/pleading invitation, then accepts second refusal; repeated refusals over separate occasions can bring disappointment and gentle concern about friendship | Next: household/access and hosting, then practical NPC implementation requirements |
+| CP047 | November 16 2026 | Close friends may drop by unannounced; Priya welcomes company and alters plans to accommodate them as host | Next: concrete work activities, then remaining home/schedule and civilian implementation details |
 
 ### New chat starter
 
-> Resume Epi-Center character design from docs/Epi-Center-Character-Design-Gap-Audit.md and docs/Priya-Shah-Character-Design.md on rebuild/1.0-foundations, current through CP046. The Library source remains at CP032, Library ID libfile_3763ef91cf6c81919ed5303c46e3d5e6. Read its current handoff and the Universal Character and Form Template before asking new questions. Priya Shah is the active design; preserve all confirmed decisions and do not repeat settled questions. Continue one unresolved question at a time, then update the same audit with decisions and the next resume point. Review current repository sources before implementation, and distinguish approved design from shipped gameplay.
+> Resume Epi-Center character design from docs/Epi-Center-Character-Design-Gap-Audit.md and docs/Priya-Shah-Character-Design.md on rebuild/1.0-foundations, current through CP047. The Library source remains at CP032, Library ID libfile_3763ef91cf6c81919ed5303c46e3d5e6. Read its current handoff and the Universal Character and Form Template before asking new questions. Priya Shah is the active design; preserve all confirmed decisions and do not repeat settled questions. Continue one unresolved question at a time, then update the same audit with decisions and the next resume point. Review current repository sources before implementation, and distinguish approved design from shipped gameplay.
 
 ---
 
