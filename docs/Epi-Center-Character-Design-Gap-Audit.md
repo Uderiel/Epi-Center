@@ -4,11 +4,11 @@ Initial review against the Universal Character and Form Template v1.0. This is a
 
 ## Current handoff and resume point
 
-Checkpoint CP038. Last updated November 16, 2026, America/Chicago. The owner requested that this same audit be preserved and updated as work proceeds so a new chat can resume without losing decisions.
+Checkpoint CP039. Last updated November 16, 2026, America/Chicago. The owner requested that this same audit be preserved and updated as work proceeds so a new chat can resume without losing decisions.
 
 **Current work:** Priya Shah character design. Her appearance, core social/sexual characterization and Erin/Nadia relationship direction are confirmed. Her full dossier is not complete. CP005 establishes her simple livelihood/friendship motivation and the distinction between suppressed system history and her conscious Priya identity. The earlier characters have had an initial source review, not a completed template-by-template redesign. No new character gameplay implementation or publication has occurred as part of this audit.
 
-**Exact next action:** Choose the activation trigger for Priya's cursed flats. Discovery is settled: Northeast Central Hub park, lost from her bag after changing into jogging shoes; Priya retrieves them shortly after transformation (CP038). Then author the flats' sensory experience, awareness and body placement individually, plus retrieval timing and lifecycle. Preserve all earlier collar and AI persona decisions.
+**Exact next action:** Author the flats-specific sensory experience, awareness and physical body placement, then transformation sequence and retrieval/lifecycle mechanics. Activation is settled (CP039): pickup/examination are safe; attempting to put the flats into inventory to take them triggers the curse. Preserve the NE Central Hub discovery, Priya's return, unnoticed transformation, object appearance overlay and earlier collar/AI decisions.
 
 **Owner-approved direction:** Use the universal template for both new characters and previously made characters. Preserve existing answers, recover old source before declaring a field missing, distinguish design from implementation, and avoid silently turning assistant proposals into canon.
 
@@ -43,7 +43,7 @@ Before any gameplay changes, read the repository's docs/DEVELOPMENT-MASTER-PLAN.
 
 **CP004 portrayal consequence:** Priya's reduced willingness to present ideas reflects frustration with Nadia's handling of them. Do not equate this with a lack of ideas, loss of skill, deliberate sabotage, resignation or absence of career ambition. Those consequences have not been established. Keep her existing somewhat friendly professionalism and topic-triggered private candor intact.
 
-**Template synchronization note:** The template's worked Priya example is the earlier CP001 snapshot. This maintained audit carries later decisions, including CP004 through CP038; consult it before treating fields in that older example as still open.
+**Template synchronization note:** The template's worked Priya example is the earlier CP001 snapshot. This maintained audit carries later decisions, including CP004 through CP039; consult it before treating fields in that older example as still open.
 
 **Priya proposals, not confirmed:** specific reading preferences beyond library visits; participation in a writing group; unfinished manuscript; the earlier assistant-proposed flaw of over-softening criticism. CP009 confirms her content strategist role/specialization and CP010 confirms creative writing and library visits; remaining detailed duties and personal particulars still need authoring. These require selection or revision. Historical open-field lists below have been narrowed by later checkpoints; use the current confirmed CP004–CP012 sections and progress board. Priya has not been approved as a playable form or cursed source.
 
@@ -418,6 +418,12 @@ Sensory experience, awareness and physical body placement within an inanimate ob
 
 Design only; no implementation, sensory mechanics or gameplay test is claimed.
 
+### CP039 Attempted inventory acquisition triggers the curse
+
+**CONFIRMED November 16, 2026:** CP039 confirms that the player may pick up and examine Priya's flats without triggering the curse. The curse triggers the moment the player attempts to put them into inventory to take them. Temporary handling/inspection and an attempted inventory acquisition must be distinct interactions. Touch, pickup, examination and wearing are not the selected activation trigger. Do not require completed inventory insertion before activation or silently turn ordinary inspection into taking. Exact transformation timing/sequence, resistance and transaction/state behavior remain to be designed.
+
+Design only; no gameplay implementation or test is claimed.
+
 ### Progress board
 
 | Review item | Current state | Next step |
@@ -502,10 +508,11 @@ Before ending a chat, leave a concrete resume point and distinguish source revie
 | CP036 | November 16 2026 | Priya left behind flats or heels that transform the player into the footwear; intended surprise relative to Erin/Michael footwear; future item outcomes will vary | Next: flats versus heels, discovery context and activation trigger |
 | CP037 | November 16 2026 | Selected well-worn, size-seven flats for Priya's abandoned cursed footwear | Next: discovery location, then activation trigger |
 | CP038 | November 16 2026 | Flats lost from Priya's bag after changing into jogging shoes at NE Central Hub park; retrieval shortly after unnoticed transformation; object appearance overlay and case-by-case senses/awareness/body placement | Next: activation trigger, then flats-specific experience and retrieval/lifecycle mechanics |
+| CP039 | November 16 2026 | Pickup and examination are safe; attempting to put the flats into inventory to take them triggers the curse immediately | Next: flats-specific senses, awareness and body placement; transformation/retrieval lifecycle |
 
 ### New chat starter
 
-> Resume Epi-Center character design from docs/Epi-Center-Character-Design-Gap-Audit.md and docs/Priya-Shah-Character-Design.md on rebuild/1.0-foundations, current through CP038. The Library source remains at CP032, Library ID libfile_3763ef91cf6c81919ed5303c46e3d5e6. Read its current handoff and the Universal Character and Form Template before asking new questions. Priya Shah is the active design; preserve all confirmed decisions and do not repeat settled questions. Continue one unresolved question at a time, then update the same audit with decisions and the next resume point. Review current repository sources before implementation, and distinguish approved design from shipped gameplay.
+> Resume Epi-Center character design from docs/Epi-Center-Character-Design-Gap-Audit.md and docs/Priya-Shah-Character-Design.md on rebuild/1.0-foundations, current through CP039. The Library source remains at CP032, Library ID libfile_3763ef91cf6c81919ed5303c46e3d5e6. Read its current handoff and the Universal Character and Form Template before asking new questions. Priya Shah is the active design; preserve all confirmed decisions and do not repeat settled questions. Continue one unresolved question at a time, then update the same audit with decisions and the next resume point. Review current repository sources before implementation, and distinguish approved design from shipped gameplay.
 
 ---
 
