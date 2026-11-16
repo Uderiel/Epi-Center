@@ -4,11 +4,11 @@ Initial review against the Universal Character and Form Template v1.0. This is a
 
 ## Current handoff and resume point
 
-Checkpoint CP040. Last updated November 16, 2026, America/Chicago. The owner requested that this same audit be preserved and updated as work proceeds so a new chat can resume without losing decisions.
+Checkpoint CP041. Last updated November 16, 2026, America/Chicago. The owner requested that this same audit be preserved and updated as work proceeds so a new chat can resume without losing decisions.
 
 **Current work:** Priya Shah character design. Her appearance, core social/sexual characterization and Erin/Nadia relationship direction are confirmed. Her full dossier is not complete. CP005 establishes her simple livelihood/friendship motivation and the distinction between suppressed system history and her conscious Priya identity. The earlier characters have had an initial source review, not a completed template-by-template redesign. No new character gameplay implementation or publication has occurred as part of this audit.
 
-**Exact next action:** Design the transformation sequence and Priya's retrieval/handling lifecycle, followed by mastery and escape/release. CP040 settles the flats' shared consciousness, body placement, dim ground-up vision, hearing and inability to move, speak or signal awareness. Preserve safe pickup/examination, inventory-attempt trigger and all earlier decisions.
+**Exact next action:** Finish Priya's NPC design, starting with her daily schedule and availability. Follow CP041 release scope: Priya first, flats/object escape/combat-guide rules second, comparable review of existing cast afterward. Cat/collar route is deferred and must not divert current work.
 
 **Owner-approved direction:** Use the universal template for both new characters and previously made characters. Preserve existing answers, recover old source before declaring a field missing, distinguish design from implementation, and avoid silently turning assistant proposals into canon.
 
@@ -438,6 +438,16 @@ These sensory and embodiment rules belong to Priya's flats specifically; future 
 
 Design only; no gameplay implementation or test is claimed.
 
+### CP041 Priya-first release scope and dynamic AI framework
+
+Owner-confirmed sequence: finish Priya as a character first; then complete and implement her abandoned flats, the escape system and inanimate-transformation rules in the combat guide; then revisit the other established characters to comparable depth. The cat route and collar remain preserved future-build design and do not block Priya's initial NPC implementation.
+
+Priya's remaining initial-release work: settle actionable daily schedule and availability; household/access and invitation behavior; ordinary social/relationship progression, boundaries and repair after disagreements; concrete content-strategy duties and workplace interactions; finalize civilian attributes/resources/actions; author fallback dialogue and a current AI dossier. Recover existing source facts before asking again or inventing them. Exact meals, TV titles and manuscript names need not block implementation.
+
+Featherless should use established motives, relationships, sensory capabilities and actual circumstances to generate dynamic, in-character interactions and growth. Descriptive appearance, texture, scent and sensitivity are context facts, not automatic intimacy or permission for an action. Keep character desires distinct from player requests, private knowledge gated by supported triggers, and proposed actions subject to game rules. Verify ordinary conversation, initiative, refusals, disagreement, unfamiliar identities, repeated pressure and hidden-information requests; Eve's unsupported security escalation remains an explicit regression to address.
+
+The owner approved the three-stage transformation passage beginning “The moment you try to put the flats away, something pulls back.” The transformation is nearly instantaneous in world time despite extended reading text. Its stages are drawn inward, losing human shape during descent, then immobile awareness beneath the bench. It includes brief stale-perspiration/herbal-perfume context and disorientation from the abrupt change in scale and perception; not intoxication. No need to breathe after completion is established by the approved passage. The full approved passage remains in the conversation pending verbatim incorporation into the flats content; do not claim it is implemented.
+
 ### Progress board
 
 | Review item | Current state | Next step |
@@ -524,10 +534,11 @@ Before ending a chat, leave a concrete resume point and distinguish source revie
 | CP038 | November 16 2026 | Flats lost from Priya's bag after changing into jogging shoes at NE Central Hub park; retrieval shortly after unnoticed transformation; object appearance overlay and case-by-case senses/awareness/body placement | Next: activation trigger, then flats-specific experience and retrieval/lifecycle mechanics |
 | CP039 | November 16 2026 | Pickup and examination are safe; attempting to put the flats into inventory to take them triggers the curse immediately | Next: flats-specific senses, awareness and body placement; transformation/retrieval lifecycle |
 | CP040 | November 16 2026 | Flats slightly beneath bench; gently worn with long-use interior marks/odor; one consciousness across both flats, specified compressed body placement, dim ground-up sight/hearing, no movement/speech/outward awareness signals | Next: transformation sequence, retrieval/handling lifecycle, mastery and escape/release |
+| CP041 | November 16 2026 | Finish Priya first; flats/escape/combat-guide rules next; other cast afterward; cat deferred; dynamic persona framework and approved near-instant three-stage prose recorded | Next: Priya daily schedule and availability |
 
 ### New chat starter
 
-> Resume Epi-Center character design from docs/Epi-Center-Character-Design-Gap-Audit.md and docs/Priya-Shah-Character-Design.md on rebuild/1.0-foundations, current through CP040. The Library source remains at CP032, Library ID libfile_3763ef91cf6c81919ed5303c46e3d5e6. Read its current handoff and the Universal Character and Form Template before asking new questions. Priya Shah is the active design; preserve all confirmed decisions and do not repeat settled questions. Continue one unresolved question at a time, then update the same audit with decisions and the next resume point. Review current repository sources before implementation, and distinguish approved design from shipped gameplay.
+> Resume Epi-Center character design from docs/Epi-Center-Character-Design-Gap-Audit.md and docs/Priya-Shah-Character-Design.md on rebuild/1.0-foundations, current through CP041. The Library source remains at CP032, Library ID libfile_3763ef91cf6c81919ed5303c46e3d5e6. Read its current handoff and the Universal Character and Form Template before asking new questions. Priya Shah is the active design; preserve all confirmed decisions and do not repeat settled questions. Continue one unresolved question at a time, then update the same audit with decisions and the next resume point. Review current repository sources before implementation, and distinguish approved design from shipped gameplay.
 
 ---
 
