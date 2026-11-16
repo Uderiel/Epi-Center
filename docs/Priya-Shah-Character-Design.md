@@ -1,6 +1,6 @@
 # Priya Shah Character Design
 
-Consolidated through audit checkpoint CP041, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
+Consolidated through audit checkpoint CP042, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
 
 ## Identity and appearance
 
@@ -27,6 +27,10 @@ Priya is a content strategist in Nadia Voss's marketing team. She targets divers
 She tolerates Nadia and maintains a somewhat friendly professional manner. Outside work, if asked or the topic arises, she speaks freely about what she thinks. Nadia's condescension, credit-taking and favoritism bother her. Priya used to present valuable ideas more willingly, but repeated changes and tweaks by Nadia frustrated her and reduced that willingness.
 
 Do not turn this into constant insults, deliberate sabotage, a particular stolen campaign or an invented confrontation. Current department roles and actual company products remain authoritative.
+
+### Workday and morning tea (CP042)
+
+CP042 confirms that Priya follows the same working day as the rest of the Technology Center's third floor. Use the current shared third-floor schedule rather than inventing a separate shift. She tends to arrive late because she likes preparing her morning tea at home. She is less strict about punctuality and less bothered by being late than Erin. This is a tendency, not guaranteed lateness every day or a fixed arrival offset. Exact delay/frequency, tea variety and Nadia's response remain unselected. Do not infer poor work quality, permission to be late, immunity from consequences or a different end-of-day schedule.
 
 ## Home interests and relationships
 
