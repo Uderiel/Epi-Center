@@ -4,11 +4,11 @@ Initial review against the Universal Character and Form Template v1.0. This is a
 
 ## Current handoff and resume point
 
-Checkpoint CP048. Last updated November 16, 2026, America/Chicago. The owner requested that this same audit be preserved and updated as work proceeds so a new chat can resume without losing decisions.
+Checkpoint CP049. Last updated November 16, 2026, America/Chicago. The owner requested that this same audit be preserved and updated as work proceeds so a new chat can resume without losing decisions.
 
 **Current work:** Priya Shah character design. Her appearance, core social/sexual characterization and Erin/Nadia relationship direction are confirmed. Her full dossier is not complete. CP005 establishes her simple livelihood/friendship motivation and the distinction between suppressed system history and her conscious Priya identity. The earlier characters have had an initial source review, not a completed template-by-template redesign. No new character gameplay implementation or publication has occurred as part of this audit.
 
-**Exact next action:** Finish Priya's remaining practical NPC choices: household presentation, actionable routine timing and civilian mechanics; consolidate the current AI portrayal without reopening confirmed personality/work duties. CP048 confirms campaign copy, audience adaptation, claim checking and Nadia-edit review. Preserve CP041 scope: Priya first, flats/object escape rules next, existing cast afterward; cat deferred.
+**Exact next action:** Finish Priya's actionable routine timing and civilian mechanics, then consolidate her current AI portrayal and implement the NPC. CP049 confirms the apartment's warm lived-in furnishing direction and calming cream/beige/tan/white palette with brown wood contrast. Exact layout remains implementation work. Preserve CP041 scope and do not reopen confirmed character choices.
 
 **Owner-approved direction:** Use the universal template for both new characters and previously made characters. Preserve existing answers, recover old source before declaring a field missing, distinguish design from implementation, and avoid silently turning assistant proposals into canon.
 
@@ -492,6 +492,12 @@ Design only; no apartment access or NPC implementation/test is claimed.
 
 Design only; no workplace task implementation or test is claimed.
 
+### CP049 Calming apartment and earthy neutral palette
+
+**CONFIRMED November 16, 2026:** CP049 confirms a warm, lived-in apartment with comfortable seating for friends, books and writing notes, a well-used kitchen and a dedicated tea corner. It is generally tidy, with small signs of her current activities. Priya prefers earthy, subdued surroundings: creams, beiges, light tans and related shades, with whites creating contrast between similar colors. There are no strong, shocking or vibrant colors. The apartment feels calming and relaxing; its strongest hue contrast is brown wood furniture against light cream surfaces/counter. Exact room layout, individual furniture pieces and interactive contents remain to be authored. This interior palette does not replace her approved personal wardrobe or portrait.
+
+Design only; no interior build, image integration or gameplay test is claimed.
+
 ### Progress board
 
 | Review item | Current state | Next step |
@@ -586,10 +592,11 @@ Before ending a chat, leave a concrete resume point and distinguish source revie
 | CP046 | November 16 2026 | One further playful/pleading invitation, then accepts second refusal; repeated refusals over separate occasions can bring disappointment and gentle concern about friendship | Next: household/access and hosting, then practical NPC implementation requirements |
 | CP047 | November 16 2026 | Close friends may drop by unannounced; Priya welcomes company and alters plans to accommodate them as host | Next: concrete work activities, then remaining home/schedule and civilian implementation details |
 | CP048 | November 16 2026 | Approved campaign-copy drafting, audience-specific messaging, product-claim checking and review of Nadia edits | Next: household presentation, routine timing and civilian mechanics; consolidate AI portrayal |
+| CP049 | November 16 2026 | Warm lived-in apartment, seating/books/writing/kitchen/tea corner; generally tidy; calming cream/beige/light tan/white palette, brown wood contrast, no vibrant colors | Next: routine timing, civilian mechanics and consolidated AI portrayal |
 
 ### New chat starter
 
-> Resume Epi-Center character design from docs/Epi-Center-Character-Design-Gap-Audit.md and docs/Priya-Shah-Character-Design.md on rebuild/1.0-foundations, current through CP048. The Library source remains at CP032, Library ID libfile_3763ef91cf6c81919ed5303c46e3d5e6. Read its current handoff and the Universal Character and Form Template before asking new questions. Priya Shah is the active design; preserve all confirmed decisions and do not repeat settled questions. Continue one unresolved question at a time, then update the same audit with decisions and the next resume point. Review current repository sources before implementation, and distinguish approved design from shipped gameplay.
+> Resume Epi-Center character design from docs/Epi-Center-Character-Design-Gap-Audit.md and docs/Priya-Shah-Character-Design.md on rebuild/1.0-foundations, current through CP049. The Library source remains at CP032, Library ID libfile_3763ef91cf6c81919ed5303c46e3d5e6. Read its current handoff and the Universal Character and Form Template before asking new questions. Priya Shah is the active design; preserve all confirmed decisions and do not repeat settled questions. Continue one unresolved question at a time, then update the same audit with decisions and the next resume point. Review current repository sources before implementation, and distinguish approved design from shipped gameplay.
 
 ---
 
