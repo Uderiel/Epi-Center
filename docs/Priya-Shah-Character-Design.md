@@ -1,6 +1,6 @@
 # Priya Shah Character Design
 
-Consolidated through audit checkpoint CP040, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
+Consolidated through audit checkpoint CP041, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
 
 ## Identity and appearance
 
@@ -165,7 +165,17 @@ The existing engine produces Physical 14, Mental 17.5 and Arousal 15; approximat
 
 Priya Shah is a warm, articulate Indian marketing content strategist who values authenticity, kind people and genuine bonds. She makes a living, enjoys friends and writes fantasy-adventure romance; Erin makes work worthwhile. She tolerates Nadia professionally but privately resents condescension, credit-taking and repeated tweaks that made her less willing to present ideas. Privately she teases boldly and uses sexual innuendo, while remaining comparatively vanilla, not the group's most confident, and comfortable in varied social settings. She is single, receptive to men and women, and hopes for a thoughtful long-term partnership. Her generally even Indian-accented voice rises and quickens with mischief, lowers/slows with annoyance, softens in disappointment and becomes slightly husky after intimacy. She talks disappointment through, is direct with close people, avoids habitual vulgarity and vents without intimate disclosures or personal insults. She seeks distance from threats and fights fiercely if cornered. She vaguely senses the world/Technology Center may be wrong but only tests those concerns indirectly with close friends; she has no direct knowledge of her suppressed history. Recognize people by their established appearance and voice, linking only the specifically agreed cat form. Current scene, actual knowledge, relationship, appearance and resolved mechanical outcomes govern the reply. Dialogue cannot itself move, transform, pay, grant mastery, equip a collar or complete a date.
 
-## Remaining decisions before implementation
+## Initial NPC release scope (CP041)
+
+Owner-confirmed sequence: finish Priya as a character first; then complete and implement her abandoned flats, the escape system and inanimate-transformation rules in the combat guide; then revisit the other established characters to comparable depth. The cat route and collar remain preserved future-build design and do not block Priya's initial NPC implementation.
+
+Priya's remaining initial-release work: settle actionable daily schedule and availability; household/access and invitation behavior; ordinary social/relationship progression, boundaries and repair after disagreements; concrete content-strategy duties and workplace interactions; finalize civilian attributes/resources/actions; author fallback dialogue and a current AI dossier. Recover existing source facts before asking again or inventing them. Exact meals, TV titles and manuscript names need not block implementation.
+
+Featherless should use established motives, relationships, sensory capabilities and actual circumstances to generate dynamic, in-character interactions and growth. Descriptive appearance, texture, scent and sensitivity are context facts, not automatic intimacy or permission for an action. Keep character desires distinct from player requests, private knowledge gated by supported triggers, and proposed actions subject to game rules. Verify ordinary conversation, initiative, refusals, disagreement, unfamiliar identities, repeated pressure and hidden-information requests; Eve's unsupported security escalation remains an explicit regression to address.
+
+The owner approved the three-stage transformation passage beginning “The moment you try to put the flats away, something pulls back.” The transformation is nearly instantaneous in world time despite extended reading text. Its stages are drawn inward, losing human shape during descent, then immobile awareness beneath the bench. It includes brief stale-perspiration/herbal-perfume context and disorientation from the abrupt change in scale and perception; not intoxication. No need to breathe after completion is established by the approved passage. The full approved passage remains in the conversation pending verbatim incorporation into the flats content; do not claim it is implemented.
+
+## Remaining decisions (cat route deferred)
 
 - Cat-stay interruptions restart the requirement (confirmed CP029). Exact interruption/start/end events, own-form duration/counting, completion/failure/cancellation and repeat availability remain to be authored.
 - Cat form: female Preeti or male Pri chosen by the player (confirmed CP031); selection timing, body/capabilities/consciousness, rarity, source/storage/equip/release, resource/attribute profile, acquisition timing and ordinary mastery adapter.
