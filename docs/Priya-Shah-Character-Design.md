@@ -1,6 +1,6 @@
 # Priya Shah Character Design
 
-Consolidated through audit checkpoint CP034, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
+Consolidated through audit checkpoint CP035, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
 
 ## Identity and appearance
 
@@ -104,13 +104,21 @@ Owner-approved rate: 5 percentage points every four in-game hours with Priya pre
 
 Conditional arithmetic: starting at 0 with a 100 ceiling, the rate needs 80 eligible hours to reach 100. Actual elapsed calendar time depends on eligible presence. Starting level, exact ticks/partial intervals and recognition milestones remain open;100% does not yet define a terminal outcome.
 
-Removing the collar reverses its perception effect immediately, with no lingering pet-only belief. This does not automatically revert the player, alter mastery or reveal unknown alternate identities. Reversion while a collar somehow remains equipped, item compatibility and what she remembers about the collared period still need design.
+Removing the collar reverses its perception effect immediately, with no lingering pet-only belief. This does not automatically revert the player, alter mastery or reveal unknown alternate identities. The player cannot return to human form while wearing Priya's collar. CP035 confirms a reversion lock, analogous to the owner's Kibbles restrictions while collared, kenneled or actively treated as a pet. The prior suggestion that human reversion could make this collar fall off is rejected. Removal must precede human reversion; actual removal immediately reverses Priya's collar-induced belief as already confirmed. Exact applicability of kenneling/active-pet-treatment locks to Priya's cat route still needs explicit design; the analogy alone does not choose those additional conditions. What she remembers about the collared period and other item compatibility details remain open.
 
 The collar is non-breakaway. A cat can scratch, rub or use its hind paws to signal dissatisfaction. Priya makes a hidden background1d50 decision about removal, initially requiring50. CP031 supersedes the earlier hourly reduction and five-point ambiguity: every four eligible in-game hours with Priya present with the protesting cat lowers the requirement by exactly one point, to a bottom cap of15. Time when she is at work or away earns no reduction. The reduction amount is fixed at one; it is not another die roll.
 
 Requirement = max(15, 50 − completed eligible four-hour protest intervals). A roll at or above the requirement qualifies: initially50 alone succeeds (2%); at15,15–50 succeeds (72%). The floor requires35reductions /140eligible hours from50. This is not a guaranteed removal or a fixed number of elapsed days. The reduction clock is distinct from the collar's5-percentage-point belief increase, even though both use four-hour present-time intervals.
 
 Priya acts from annoyance or concern that the collar bothers her pet, without knowingly discovering its hidden function. CP032 confirms one hidden removal check every four eligible in-game hours while Priya is present with her cat; no checks while she is at work or away. Persistent protest earns the separate one-point reduction on its four-hour schedule. Working event order is to apply any earned reduction before the interval's check; this order is an implementation interpretation. CP034 confirms that earned protest time, including an unfinished four-hour interval, remains saved when the cat stops protesting. Quiet periods pause the protest clock without resetting earned time or reversing earned threshold reductions. Eligible accrual resumes when protest resumes with Priya present. This does not change the separate hidden removal-check cadence or collar-belief clock. Exact protest start/stop detection and collar re-equip behavior remain open. Repeated protest clicks do not create extra checks. Failures leave the collar on, with later eligible rolls still possible at the15floor; persist outcomes across reloads when implemented. Actual removal immediately reverses the belief effect.
+
+## Priya-linked inanimate-object transformation
+
+The first inanimate-object transformation is to be related to Priya: a cursed possession she left behind somewhere. Unlike Erin's Favorite Red Heels, which transform the wearer into Erin, this item transforms the player into the object itself. Exact object, discovery location, trigger, awareness/senses, communication, handling, custody, control, mastery and escape/release remain open. This is distinct from Priya's offered cat form and does not establish Priya herself as a collectible form.
+
+## AI portrayal direction
+
+After Priya, flesh out the other characters to comparable depth using their recovered owner-confirmed records. AI portrayals should extrapolate from established details and support growth, surprise and new context-appropriate behavior, rather than only repeat dossier facts. Preserve core persona, knowledge boundaries and trigger-gated disclosures. Creative elaboration must not fabricate canonical world actions, dispatch security or reveal private/hidden knowledge without supported triggers and resolved game events.
 
 ## Working attributes
 
@@ -139,7 +147,7 @@ Priya Shah is a warm, articulate Indian marketing content strategist who values 
 
 - Cat-stay interruptions restart the requirement (confirmed CP029). Exact interruption/start/end events, own-form duration/counting, completion/failure/cancellation and repeat availability remain to be authored.
 - Cat form: female Preeti or male Pri chosen by the player (confirmed CP031); selection timing, body/capabilities/consciousness, rarity, source/storage/equip/release, resource/attribute profile, acquisition timing and ordinary mastery adapter.
-- Collar: non-breakaway fastening and hidden Priya1d50 removal response are confirmed. Threshold reduction is1 per4present protest hours to a floor of15 (CP031). One hidden roll per4eligible present hours is confirmed (CP032). Protest credit and partial intervals persist through quiet periods (CP034); decide protest start/stop detection and other helpers. Appearance/source/item ID, exact presence rules, partial four-hour intervals, belief starting level/milestones/100%, re-equip behavior and reversion while worn remain open.
+- Collar: non-breakaway fastening and hidden Priya1d50 removal response are confirmed. Threshold reduction is1 per4present protest hours to a floor of15 (CP031). One hidden roll per4eligible present hours is confirmed (CP032). Protest credit and partial intervals persist through quiet periods (CP034); decide protest start/stop detection and other helpers. Appearance/source/item ID, exact presence rules, partial four-hour intervals, belief starting level/milestones/100%, re-equip behavior and additional release-lock conditions remain open. Human reversion while collared is blocked (CP035).
 - Household/interior and access, supplies/wardrobe, exact schedule times and invitations/date loop and venue availability.
 - Numeric attributes/resources, shared civilian encounter actions, threat/retreat tactics, defeated-state behavior.
 - Exact height and derived absolute age; particular rumor content; specific authored fallback dialogue.
