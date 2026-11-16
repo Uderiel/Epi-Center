@@ -1,3 +1,9 @@
+## November 16, 2026 — Priya design checkpoint CP039
+
+CP039 confirms that the player may pick up and examine Priya's flats without triggering the curse. The curse triggers the moment the player attempts to put them into inventory to take them. Temporary handling/inspection and an attempted inventory acquisition must be distinct interactions. Touch, pickup, examination and wearing are not the selected activation trigger. Do not require completed inventory insertion before activation or silently turn ordinary inspection into taking. Exact transformation timing/sequence, resistance and transaction/state behavior remain to be designed.
+
+Updated [Priya dossier](Priya-Shah-Character-Design.md) and [audit](Epi-Center-Character-Design-Gap-Audit.md). Next: flats-specific sensory experience, awareness and physical body placement, then transformation/retrieval lifecycle. Documentation only; gameplay remains v1.0.97. Original Library records remain unchanged pending writeback restoration.
+
 ## November 16, 2026 — Priya design checkpoint CP038
 
 CP038 confirms discovery in the park at Northeast Central Hub. Priya switched into jogging shoes; her well-worn, size-seven flats fell out of her bag, and she forgot to check for them. After the player transforms into the flats, Priya returns shortly to retrieve them. The exact return delay and travel/retrieval mechanics remain undesigned. Other players and NPCs do not notice the transformation or notice the player going missing; do not create witness reactions, missing-person concern or security responses from this event. This does not establish a universal invisibility rule for every future transformation.
