@@ -4,11 +4,11 @@ Initial review against the Universal Character and Form Template v1.0. This is a
 
 ## Current handoff and resume point
 
-Checkpoint CP033. Last updated November 16, 2026, America/Chicago. The owner requested that this same audit be preserved and updated as work proceeds so a new chat can resume without losing decisions.
+Checkpoint CP034. Last updated November 16, 2026, America/Chicago. The owner requested that this same audit be preserved and updated as work proceeds so a new chat can resume without losing decisions.
 
 **Current work:** Priya Shah character design. Her appearance, core social/sexual characterization and Erin/Nadia relationship direction are confirmed. Her full dossier is not complete. CP005 establishes her simple livelihood/friendship motivation and the distinction between suppressed system history and her conscious Priya identity. The earlier characters have had an initial source review, not a completed template-by-template redesign. No new character gameplay implementation or publication has occurred as part of this audit.
 
-**Exact next action:** Continue Priya's remaining form/collar design: exact protest eligibility and partial interval handling, then reversion while collared and item compatibility. CP031 confirms one-point reduction per four present protest hours to floor15 and female Preeti/male Pri choice. CP032 confirms one hidden removal roll every four eligible in-game hours with Priya present. Do not reopen settled timing, threshold floor or names. Keep dossier and audit synchronized; this is design, not implementation.
+**Exact next action:** Decide reversion while collared and item compatibility, then exact protest start/stop detection. CP034 confirms saved protest credit and partial intervals pause through quiet periods without reset. CP031 confirms one-point reduction per four present protest hours to floor15 and female Preeti/male Pri choice. CP032 confirms one hidden removal roll every four eligible in-game hours with Priya present. Do not reopen settled timing, threshold floor or names. Keep dossier and audit synchronized; this is design, not implementation.
 
 **Owner-approved direction:** Use the universal template for both new characters and previously made characters. Preserve existing answers, recover old source before declaring a field missing, distinguish design from implementation, and avoid silently turning assistant proposals into canon.
 
@@ -43,7 +43,7 @@ Before any gameplay changes, read the repository's docs/DEVELOPMENT-MASTER-PLAN.
 
 **CP004 portrayal consequence:** Priya's reduced willingness to present ideas reflects frustration with Nadia's handling of them. Do not equate this with a lack of ideas, loss of skill, deliberate sabotage, resignation or absence of career ambition. Those consequences have not been established. Keep her existing somewhat friendly professionalism and topic-triggered private candor intact.
 
-**Template synchronization note:** The template's worked Priya example is the earlier CP001 snapshot. This maintained audit carries later decisions, including CP004 through CP033; consult it before treating fields in that older example as still open.
+**Template synchronization note:** The template's worked Priya example is the earlier CP001 snapshot. This maintained audit carries later decisions, including CP004 through CP034; consult it before treating fields in that older example as still open.
 
 **Priya proposals, not confirmed:** specific reading preferences beyond library visits; participation in a writing group; unfinished manuscript; the earlier assistant-proposed flaw of over-softening criticism. CP009 confirms her content strategist role/specialization and CP010 confirms creative writing and library visits; remaining detailed duties and personal particulars still need authoring. These require selection or revision. Historical open-field lists below have been narrowed by later checkpoints; use the current confirmed CP004–CP012 sections and progress board. Priya has not been approved as a playable form or cursed source.
 
@@ -374,6 +374,12 @@ This narrows earlier open household/schedule fields without choosing exact times
 
 **Persistence handoff:** This repository record and [Priya's dossier](Priya-Shah-Character-Design.md) carry CP033. They were imported from Library audit version 29 and dossier version 3, respectively. The original Library items remain at CP032 because this session cannot perform Library content replacement. Continue updating these repository paths; reconcile the same original Library IDs when writeback becomes available rather than creating duplicate Library items.
 
+### CP034 Protest credit persists through quiet periods
+
+**CONFIRMED November 16, 2026:** CP034 confirms that earned protest time, including an unfinished four-hour interval, remains saved when the cat stops protesting. Quiet periods pause the protest clock without resetting earned time or reversing earned threshold reductions. Eligible accrual resumes when protest resumes with Priya present. This does not change the separate hidden removal-check cadence or collar-belief clock. Exact protest start/stop detection and collar re-equip behavior remain open.
+
+This protest-credit rule does not alter CP029: a break from the cat stay still restarts the stay requirement. Documentation only; not implemented gameplay.
+
 ### Progress board
 
 | Review item | Current state | Next step |
@@ -452,10 +458,12 @@ Before ending a chat, leave a concrete resume point and distinguish source revie
 | CP031 | November 16 2026 | Threshold drops1 per4in-game hours with Priya present and cat protesting, floor15; offered cat female Preeti or male Pri | Cadence resolved by CP032 |
 | CP032 | November 16 2026 | One hidden removal roll every4eligible in-game hours with Priya present; recovered unsaved CP031 decisions | Remaining protest bookkeeping and collar/reversion behavior |
 | CP033 | November 16 2026 | Owner confirmed scheduled weekends, spontaneous weekday visits/hosting or restaurant wine, one-day-ahead workday lunch/dinner preparation, fresh weekend/hosting meals, occasional fantasy-adventure romance writing, romcoms and popular TV series | Exact schedule times and remaining cat/collar bookkeeping stay open; saved in repository |
+| CP034 | November 16 2026 | Earned protest time and partial intervals persist; quiet periods pause accrual without reset or reversal of earned reductions | Next: reversion while collared and compatibility; protest start/stop detection remains open |
+
 
 ### New chat starter
 
-> Resume Epi-Center character design from docs/Epi-Center-Character-Design-Gap-Audit.md and docs/Priya-Shah-Character-Design.md on rebuild/1.0-foundations, current through CP033. The Library source remains at CP032, Library ID libfile_3763ef91cf6c81919ed5303c46e3d5e6. Read its current handoff and the Universal Character and Form Template before asking new questions. Priya Shah is the active design; preserve all confirmed decisions and do not repeat settled questions. Continue one unresolved question at a time, then update the same audit with decisions and the next resume point. Review current repository sources before implementation, and distinguish approved design from shipped gameplay.
+> Resume Epi-Center character design from docs/Epi-Center-Character-Design-Gap-Audit.md and docs/Priya-Shah-Character-Design.md on rebuild/1.0-foundations, current through CP034. The Library source remains at CP032, Library ID libfile_3763ef91cf6c81919ed5303c46e3d5e6. Read its current handoff and the Universal Character and Form Template before asking new questions. Priya Shah is the active design; preserve all confirmed decisions and do not repeat settled questions. Continue one unresolved question at a time, then update the same audit with decisions and the next resume point. Review current repository sources before implementation, and distinguish approved design from shipped gameplay.
 
 ---
 
