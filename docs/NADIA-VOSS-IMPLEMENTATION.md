@@ -6,6 +6,12 @@ CP043 confirms Nadia generally does not mind ordinary lateness, framing it dismi
 
 This owner-confirmed characterization is pending runtime/AI-context integration; no additional implementation or testing is claimed.
 
+## November 16, 2026 — Priya's selective pushback (CP044; design only)
+
+CP044 confirms that lateness sometimes creates friction between Priya and Nadia. When Nadia has been exceptionally annoying recently, Priya may deliberately miss the opening minutes of a smaller briefing where she knows Nadia will be talking about unnecessary matters. This is a selective way of pushing back, distinct from her ordinary tea-related lateness. Priya does not do this for major meetings. The opening chatter is Priya's informed expectation, not permission for the AI to label all Nadia's briefings objectively pointless. Do not generalize this into missed major meetings, deliberate missed critical work, habitual absence or broad sabotage. Whether Nadia recognizes the intent and how a particular confrontation unfolds remain context-dependent and undesigned.
+
+Priya's motive is author-level context, not automatic knowledge for Nadia. This clarification awaits runtime/AI-context integration.
+
 ## Owner-approved character
 
 Nadia is Marketing Team Lead over twelve marketing employees, reporting to Richard alongside Daniel (who leads thirteen sales employees). Erin remains Richard’s secretary. Nadia is29,5′6″, with pale skin, blue eyes, black hair, refined Slavic features and strong bone structure; slender, shapely and confident, wearing polished corporate dresses. Mental primary, Arousal secondary. Implementation attributes: Endurance3,Fitness3,Intuition4,Reflexes3,Willpower6,Reasoning7,Stability5,Presence6,Insight5,Influence5 (47 points; Mental20.5,Arousal18,Physical11).
