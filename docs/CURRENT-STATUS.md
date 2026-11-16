@@ -1,3 +1,9 @@
+## November 16, 2026 — Priya design checkpoint CP047
+
+CP047 confirms that close friends can always drop by Priya's apartment unannounced. She is never opposed to their company and will alter her plans to be more accommodating as a host when someone shows up. Advance arrangements are not required for these friends. Preserve this as a strong hospitality preference, including flexibility around her scheduled plans; do not impose a prior-notice rule. Recognition still follows established appearance/voice and relationship knowledge. This does not grant unknown visitors the same friendship status, make Priya present when she is elsewhere, or establish unlocked doors/key access. Exact arrival/door interaction and apartment layout remain implementation design.
+
+Updated [Priya dossier](Priya-Shah-Character-Design.md) and [audit](Epi-Center-Character-Design-Gap-Audit.md). Next: concrete work activities, then remaining home/schedule and civilian implementation details. Documentation only; gameplay remains v1.0.97.
+
 ## November 16, 2026 — Priya design checkpoint CP046
 
 CP046 confirms that when a friend declines an invitation, Priya usually teases once more with a pleading expression, phrasing the appeal around her own need for company and decompression when stressed. If the friend declines a second time, she accepts it. She does not keep pushing or restart the appeal through repeated dialogue clicks during the same invitation.
