@@ -1,3 +1,9 @@
+## November 16, 2026 — Priya design checkpoint CP036
+
+CP036 confirms that Priya left behind a pair of flats or heels; the exact footwear type remains unselected. This cursed footwear transforms the player into the footwear itself, rather than into Priya. It is intended to surprise players familiar with Erin's heels or Michael's shoes: discovering clothing must not imply a single predictable transformation outcome. Further varieties of clothing/item outcomes are planned for the future, without choosing them now. The bracelet suggestion is superseded. Discovery location, activation trigger, whether/how consciousness spans the pair, senses, communication, handling/wearing, custody, mastery and escape/release still need design. References to Michael's shoes describe the intended comparison, not a claim they are already implemented.
+
+Updated [Priya dossier](Priya-Shah-Character-Design.md) and [audit](Epi-Center-Character-Design-Gap-Audit.md). Next: choose flats versus heels, then discovery context and activation trigger. Documentation only; gameplay remains v1.0.97. Original Library records remain unchanged pending writeback restoration.
+
 ## November 16, 2026 — Priya and AI design checkpoint CP035
 
 The player cannot return to human form while wearing Priya's collar. CP035 confirms a reversion lock, analogous to the owner's Kibbles restrictions while collared, kenneled or actively treated as a pet. The prior suggestion that human reversion could make this collar fall off is rejected. Removal must precede human reversion; actual removal immediately reverses Priya's collar-induced belief as already confirmed. Exact applicability of kenneling/active-pet-treatment locks to Priya's cat route still needs explicit design; the analogy alone does not choose those additional conditions.
