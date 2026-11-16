@@ -4,11 +4,11 @@ Initial review against the Universal Character and Form Template v1.0. This is a
 
 ## Current handoff and resume point
 
-Checkpoint CP049. Last updated November 16, 2026, America/Chicago. The owner requested that this same audit be preserved and updated as work proceeds so a new chat can resume without losing decisions.
+Checkpoint CP050. Last updated November 16, 2026, America/Chicago. The owner requested that this same audit be preserved and updated as work proceeds so a new chat can resume without losing decisions.
 
 **Current work:** Priya Shah character design. Her appearance, core social/sexual characterization and Erin/Nadia relationship direction are confirmed. Her full dossier is not complete. CP005 establishes her simple livelihood/friendship motivation and the distinction between suppressed system history and her conscious Priya identity. The earlier characters have had an initial source review, not a completed template-by-template redesign. No new character gameplay implementation or publication has occurred as part of this audit.
 
-**Exact next action:** Finish Priya's actionable routine timing and civilian mechanics, then consolidate her current AI portrayal and implement the NPC. CP049 confirms the apartment's warm lived-in furnishing direction and calming cream/beige/tan/white palette with brown wood contrast. Exact layout remains implementation work. Preserve CP041 scope and do not reopen confirmed character choices.
+**Exact next action:** Consolidate Priya's confirmed morning/evening routines and propose practical schedule defaults, then finalize civilian mechanics and AI portrayal. CP050 settles early rising for yoga/chakra alignment as morning spiritual cleansing; home tea and relaxed punctuality remain. Do not repeat settled character questions. Preserve CP041 scope.
 
 **Owner-approved direction:** Use the universal template for both new characters and previously made characters. Preserve existing answers, recover old source before declaring a field missing, distinguish design from implementation, and avoid silently turning assistant proposals into canon.
 
@@ -498,6 +498,12 @@ Design only; no workplace task implementation or test is claimed.
 
 Design only; no interior build, image integration or gameplay test is claimed.
 
+### CP050 Early yoga and chakra alignment
+
+**CONFIRMED November 16, 2026:** CP050 confirms that Priya gets up early to practice yoga and chakra alignment, treating this as morning spiritual cleansing and preparation for her day. Her morning is intentional rather than characterized by sleeping late; her previously confirmed home tea preparation and relaxed punctuality still apply. Exact wake time, duration and sequence relative to tea remain unselected. This establishes her personal spiritual practice without assigning a religious affiliation, supernatural powers or automatic attribute/resource bonuses.
+
+Design only; no routine implementation or gameplay test is claimed.
+
 ### Progress board
 
 | Review item | Current state | Next step |
@@ -593,10 +599,11 @@ Before ending a chat, leave a concrete resume point and distinguish source revie
 | CP047 | November 16 2026 | Close friends may drop by unannounced; Priya welcomes company and alters plans to accommodate them as host | Next: concrete work activities, then remaining home/schedule and civilian implementation details |
 | CP048 | November 16 2026 | Approved campaign-copy drafting, audience-specific messaging, product-claim checking and review of Nadia edits | Next: household presentation, routine timing and civilian mechanics; consolidate AI portrayal |
 | CP049 | November 16 2026 | Warm lived-in apartment, seating/books/writing/kitchen/tea corner; generally tidy; calming cream/beige/light tan/white palette, brown wood contrast, no vibrant colors | Next: routine timing, civilian mechanics and consolidated AI portrayal |
+| CP050 | November 16 2026 | Early rising for yoga and chakra alignment as morning spiritual cleansing/preparation; tea-related lateness remains | Next: practical schedule defaults, civilian mechanics and consolidated AI portrayal |
 
 ### New chat starter
 
-> Resume Epi-Center character design from docs/Epi-Center-Character-Design-Gap-Audit.md and docs/Priya-Shah-Character-Design.md on rebuild/1.0-foundations, current through CP049. The Library source remains at CP032, Library ID libfile_3763ef91cf6c81919ed5303c46e3d5e6. Read its current handoff and the Universal Character and Form Template before asking new questions. Priya Shah is the active design; preserve all confirmed decisions and do not repeat settled questions. Continue one unresolved question at a time, then update the same audit with decisions and the next resume point. Review current repository sources before implementation, and distinguish approved design from shipped gameplay.
+> Resume Epi-Center character design from docs/Epi-Center-Character-Design-Gap-Audit.md and docs/Priya-Shah-Character-Design.md on rebuild/1.0-foundations, current through CP050. The Library source remains at CP032, Library ID libfile_3763ef91cf6c81919ed5303c46e3d5e6. Read its current handoff and the Universal Character and Form Template before asking new questions. Priya Shah is the active design; preserve all confirmed decisions and do not repeat settled questions. Continue one unresolved question at a time, then update the same audit with decisions and the next resume point. Review current repository sources before implementation, and distinguish approved design from shipped gameplay.
 
 ---
 
