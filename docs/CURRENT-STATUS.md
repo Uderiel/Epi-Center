@@ -1,3 +1,9 @@
+## November 16, 2026 — Priya/Nadia design checkpoint CP043
+
+CP043 confirms Nadia generally does not mind ordinary lateness, framing it dismissively as “other people don't take their job roles seriously.” If there is a meeting or crunch time, she is annoyed when employees arrive late. This applies to employees generally, including Priya; it is not special favoritism toward Priya or blanket approval of lateness. No automatic disciplinary action, penalty, confrontation or response by Priya is established by this decision.
+
+Synchronized [Priya dossier](Priya-Shah-Character-Design.md), [audit](Epi-Center-Character-Design-Gap-Audit.md) and [Nadia character record](NADIA-VOSS-IMPLEMENTATION.md). Next: Priya's response to time-sensitive lateness, then remaining NPC design. Documentation only; gameplay remains v1.0.97.
+
 ## November 16, 2026 — Priya design checkpoint CP042
 
 CP042 confirms that Priya follows the same working day as the rest of the Technology Center's third floor. Use the current shared third-floor schedule rather than inventing a separate shift. She tends to arrive late because she likes preparing her morning tea at home. She is less strict about punctuality and less bothered by being late than Erin. This is a tendency, not guaranteed lateness every day or a fixed arrival offset. Exact delay/frequency, tea variety and Nadia's response remain unselected. Do not infer poor work quality, permission to be late, immunity from consequences or a different end-of-day schedule.
