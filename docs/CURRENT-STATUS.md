@@ -1,3 +1,15 @@
+## November 16, 2026 — Priya-first scope CP041
+
+Owner-confirmed sequence: finish Priya as a character first; then complete and implement her abandoned flats, the escape system and inanimate-transformation rules in the combat guide; then revisit the other established characters to comparable depth. The cat route and collar remain preserved future-build design and do not block Priya's initial NPC implementation.
+
+Priya's remaining initial-release work: settle actionable daily schedule and availability; household/access and invitation behavior; ordinary social/relationship progression, boundaries and repair after disagreements; concrete content-strategy duties and workplace interactions; finalize civilian attributes/resources/actions; author fallback dialogue and a current AI dossier. Recover existing source facts before asking again or inventing them. Exact meals, TV titles and manuscript names need not block implementation.
+
+Featherless should use established motives, relationships, sensory capabilities and actual circumstances to generate dynamic, in-character interactions and growth. Descriptive appearance, texture, scent and sensitivity are context facts, not automatic intimacy or permission for an action. Keep character desires distinct from player requests, private knowledge gated by supported triggers, and proposed actions subject to game rules. Verify ordinary conversation, initiative, refusals, disagreement, unfamiliar identities, repeated pressure and hidden-information requests; Eve's unsupported security escalation remains an explicit regression to address.
+
+The owner approved the three-stage transformation passage beginning “The moment you try to put the flats away, something pulls back.” The transformation is nearly instantaneous in world time despite extended reading text. Its stages are drawn inward, losing human shape during descent, then immobile awareness beneath the bench. It includes brief stale-perspiration/herbal-perfume context and disorientation from the abrupt change in scale and perception; not intoxication. No need to breathe after completion is established by the approved passage. The full approved passage remains in the conversation pending verbatim incorporation into the flats content; do not claim it is implemented.
+
+See [Priya dossier](Priya-Shah-Character-Design.md) and [audit](Epi-Center-Character-Design-Gap-Audit.md). Design only; gameplay remains v1.0.97. Next: Priya daily schedule and availability.
+
 ## November 16, 2026 — Priya design checkpoint CP040
 
 Confirmed the flats slightly beneath a park bench, their gently worn long-use appearance, and one consciousness experiencing both shoes as one body. [Priya's dossier](Priya-Shah-Character-Design.md) and the [audit](Epi-Center-Character-Design-Gap-Audit.md) record the exact owner-specified body placement, dim ground-up sight without eyes, hearing and inability to move, speak or signal awareness. Next: transformation sequence and retrieval/handling lifecycle, then mastery/escape/release. Documentation only; gameplay remains v1.0.97. Original Library records remain unchanged pending writeback restoration.
