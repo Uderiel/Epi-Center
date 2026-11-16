@@ -4,11 +4,11 @@ Initial review against the Universal Character and Form Template v1.0. This is a
 
 ## Current handoff and resume point
 
-Checkpoint CP044. Last updated November 16, 2026, America/Chicago. The owner requested that this same audit be preserved and updated as work proceeds so a new chat can resume without losing decisions.
+Checkpoint CP045. Last updated November 16, 2026, America/Chicago. The owner requested that this same audit be preserved and updated as work proceeds so a new chat can resume without losing decisions.
 
 **Current work:** Priya Shah character design. Her appearance, core social/sexual characterization and Erin/Nadia relationship direction are confirmed. Her full dossier is not complete. CP005 establishes her simple livelihood/friendship motivation and the distinction between suppressed system history and her conscious Priya identity. The earlier characters have had an initial source review, not a completed template-by-template redesign. No new character gameplay implementation or publication has occurred as part of this audit.
 
-**Exact next action:** Continue Priya's NPC design with ordinary social initiative and relationship development. Workday/lateness direction is settled through CP044: home tea can delay her, and after exceptional irritation she may deliberately skip Nadia's opening chatter at smaller briefings, never major meetings. Do not repeat settled lateness questions. Preserve CP041 scope: Priya first, flats/object escape rules next, other cast afterward; cat deferred.
+**Exact next action:** Continue Priya's NPC design with response to declined invitations and relationship repair, then household/access and remaining practical implementation decisions. CP045 settles friend-dependent initiative: she invites/teases shyer homebodies and mentions interest to outgoing friends such as Lena Ortiz and Maya Bennett. Do not repeat settled social-initiation questions. Preserve CP041 scope.
 
 **Owner-approved direction:** Use the universal template for both new characters and previously made characters. Preserve existing answers, recover old source before declaring a field missing, distinguish design from implementation, and avoid silently turning assistant proposals into canon.
 
@@ -466,6 +466,12 @@ Design only; no runtime behavior change or test is claimed.
 
 Design only; no runtime implementation or test is claimed.
 
+### CP045 Friend-dependent social initiative
+
+**CONFIRMED November 16, 2026:** CP045 confirms Priya adapts her social initiative to her friends. With shyer, homebody friends she initiates invitations and playfully teases that they need to get out of their place. With more outgoing friends, including Lena Ortiz and Maya Bennett, she mentions her interest. This confirms Lena and Maya as friends and outgoing in this relationship context; it does not automatically confirm their entire earlier proposed biographies, occupations or other traits. Mentioning interest does not guarantee that the friend makes a plan. Teasing is an invitation style, not authority to move someone, force acceptance or fabricate a completed outing. Her initiative is relational and contextual, not a universal passive or assertive trait.
+
+Design only; no NPC implementation or test is claimed.
+
 ### Progress board
 
 | Review item | Current state | Next step |
@@ -556,10 +562,11 @@ Before ending a chat, leave a concrete resume point and distinguish source revie
 | CP042 | November 16 2026 | Shared third-floor workday; tends to arrive late after preparing morning tea at home; less strict/bothered than Erin about punctuality | Next: workplace response/relationship consequences; exact timing remains open |
 | CP043 | November 16 2026 | Nadia dismissively tolerates ordinary lateness but is annoyed at late arrivals during meetings or crunch time; applies generally to staff | Next: Priya's response in time-sensitive situations and remaining NPC design |
 | CP044 | November 16 2026 | After exceptional irritation with Nadia, Priya may deliberately miss unnecessary opening chatter at smaller briefings; never for major meetings; causes occasional friction | Next: ordinary social initiative and relationship development |
+| CP045 | November 16 2026 | Initiates and playfully coaxes shyer homebody friends out; mentions interest to outgoing friends Lena Ortiz and Maya Bennett | Next: declined invitations/repair, household/access and practical NPC requirements |
 
 ### New chat starter
 
-> Resume Epi-Center character design from docs/Epi-Center-Character-Design-Gap-Audit.md and docs/Priya-Shah-Character-Design.md on rebuild/1.0-foundations, current through CP044. The Library source remains at CP032, Library ID libfile_3763ef91cf6c81919ed5303c46e3d5e6. Read its current handoff and the Universal Character and Form Template before asking new questions. Priya Shah is the active design; preserve all confirmed decisions and do not repeat settled questions. Continue one unresolved question at a time, then update the same audit with decisions and the next resume point. Review current repository sources before implementation, and distinguish approved design from shipped gameplay.
+> Resume Epi-Center character design from docs/Epi-Center-Character-Design-Gap-Audit.md and docs/Priya-Shah-Character-Design.md on rebuild/1.0-foundations, current through CP045. The Library source remains at CP032, Library ID libfile_3763ef91cf6c81919ed5303c46e3d5e6. Read its current handoff and the Universal Character and Form Template before asking new questions. Priya Shah is the active design; preserve all confirmed decisions and do not repeat settled questions. Continue one unresolved question at a time, then update the same audit with decisions and the next resume point. Review current repository sources before implementation, and distinguish approved design from shipped gameplay.
 
 ---
 
