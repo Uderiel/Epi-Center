@@ -1,3 +1,9 @@
+## November 16, 2026 — Priya NPC authoring complete / connections contract CP051
+
+CP051: Priya's initial NPC authoring is complete with clearly labeled adjustable schedule/civilian defaults and a consolidated Featherless persona/fallback contract. No further biography questions are required before implementation. Added CHARACTER-CONNECTIONS-AND-WORLD-LIFE.md: shared directed connections across NPCs, forms, people, locations, possessions and plans; separate knowledge gates, real route/availability checks, persisted invitation/encounter history and future-venue eligibility review. This develops Erin's life and social network. No runtime integration, new test execution or deployment is claimed. Executor remains unavailable, so local integration/tests cannot run in this session. Next: implement/test the Priya NPC slice using current shared adapters, then flats/object escape/combat-guide rules; cat deferred; comprehensive existing-cast review follows.
+
+[Priya contract](Priya-Shah-Character-Design.md) · [Connections framework](CHARACTER-CONNECTIONS-AND-WORLD-LIFE.md) · [Audit](Epi-Center-Character-Design-Gap-Audit.md). Gameplay stays v1.0.97. Source documentation only on rebuild/1.0-foundations; original Library files remain unchanged.
+
 ## November 16, 2026 — Priya design checkpoint CP050
 
 CP050 confirms that Priya gets up early to practice yoga and chakra alignment, treating this as morning spiritual cleansing and preparation for her day. Her morning is intentional rather than characterized by sleeping late; her previously confirmed home tea preparation and relaxed punctuality still apply. Exact wake time, duration and sequence relative to tea remain unselected. This establishes her personal spiritual practice without assigning a religious affiliation, supernatural powers or automatic attribute/resource bonuses.
