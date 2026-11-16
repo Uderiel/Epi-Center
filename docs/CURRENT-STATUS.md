@@ -1,3 +1,9 @@
+## November 16, 2026 — Priya design checkpoint CP048
+
+CP048 confirms Priya's content-strategy responsibilities: drafting campaign copy, adapting messaging for different audiences, checking product claims and reviewing edits from Nadia. These duties build on her confirmed ability to recognize overselling and make each product shine through its own strengths. Particular campaigns, deliverables, deadlines and Nadia edits must use current company products and actual authored/task state; the role does not establish completed work, invented product properties or a specific past dispute.
+
+Updated [Priya dossier](Priya-Shah-Character-Design.md) and [audit](Epi-Center-Character-Design-Gap-Audit.md). Next: household presentation, routine timing and civilian mechanics, then consolidated AI portrayal. Documentation only; gameplay remains v1.0.97.
+
 ## November 16, 2026 — Priya design checkpoint CP047
 
 CP047 confirms that close friends can always drop by Priya's apartment unannounced. She is never opposed to their company and will alter her plans to be more accommodating as a host when someone shows up. Advance arrangements are not required for these friends. Preserve this as a strong hospitality preference, including flexibility around her scheduled plans; do not impose a prior-notice rule. Recognition still follows established appearance/voice and relationship knowledge. This does not grant unknown visitors the same friendship status, make Priya present when she is elsewhere, or establish unlocked doors/key access. Exact arrival/door interaction and apartment layout remain implementation design.
