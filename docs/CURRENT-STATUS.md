@@ -1,3 +1,9 @@
+## November 16, 2026 — Priya design checkpoint CP049
+
+CP049 confirms a warm, lived-in apartment with comfortable seating for friends, books and writing notes, a well-used kitchen and a dedicated tea corner. It is generally tidy, with small signs of her current activities. Priya prefers earthy, subdued surroundings: creams, beiges, light tans and related shades, with whites creating contrast between similar colors. There are no strong, shocking or vibrant colors. The apartment feels calming and relaxing; its strongest hue contrast is brown wood furniture against light cream surfaces/counter. Exact room layout, individual furniture pieces and interactive contents remain to be authored. This interior palette does not replace her approved personal wardrobe or portrait.
+
+Updated [Priya dossier](Priya-Shah-Character-Design.md) and [audit](Epi-Center-Character-Design-Gap-Audit.md). Next: routine timing, civilian mechanics and consolidated AI portrayal. Documentation only; gameplay remains v1.0.97.
+
 ## November 16, 2026 — Priya design checkpoint CP048
 
 CP048 confirms Priya's content-strategy responsibilities: drafting campaign copy, adapting messaging for different audiences, checking product claims and reviewing edits from Nadia. These duties build on her confirmed ability to recognize overselling and make each product shine through its own strengths. Particular campaigns, deliverables, deadlines and Nadia edits must use current company products and actual authored/task state; the role does not establish completed work, invented product properties or a specific past dispute.
