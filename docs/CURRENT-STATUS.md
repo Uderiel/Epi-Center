@@ -1,3 +1,9 @@
+## November 16, 2026 — Priya design checkpoint CP045
+
+CP045 confirms Priya adapts her social initiative to her friends. With shyer, homebody friends she initiates invitations and playfully teases that they need to get out of their place. With more outgoing friends, including Lena Ortiz and Maya Bennett, she mentions her interest. This confirms Lena and Maya as friends and outgoing in this relationship context; it does not automatically confirm their entire earlier proposed biographies, occupations or other traits. Mentioning interest does not guarantee that the friend makes a plan. Teasing is an invitation style, not authority to move someone, force acceptance or fabricate a completed outing. Her initiative is relational and contextual, not a universal passive or assertive trait.
+
+Updated [Priya dossier](Priya-Shah-Character-Design.md) and [audit](Epi-Center-Character-Design-Gap-Audit.md). Next: response to declined invitations and relationship repair, followed by household/access and practical NPC requirements. Documentation only; gameplay remains v1.0.97.
+
 ## November 16, 2026 — Priya/Nadia design checkpoint CP044
 
 CP044 confirms that lateness sometimes creates friction between Priya and Nadia. When Nadia has been exceptionally annoying recently, Priya may deliberately miss the opening minutes of a smaller briefing where she knows Nadia will be talking about unnecessary matters. This is a selective way of pushing back, distinct from her ordinary tea-related lateness. Priya does not do this for major meetings. The opening chatter is Priya's informed expectation, not permission for the AI to label all Nadia's briefings objectively pointless. Do not generalize this into missed major meetings, deliberate missed critical work, habitual absence or broad sabotage. Whether Nadia recognizes the intent and how a particular confrontation unfolds remain context-dependent and undesigned.
