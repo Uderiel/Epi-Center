@@ -1,6 +1,6 @@
 # Priya Shah Character Design
 
-Consolidated through audit checkpoint CP046, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
+Consolidated through audit checkpoint CP047, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
 
 ## Identity and appearance
 
@@ -61,6 +61,10 @@ CP045 confirms Priya adapts her social initiative to her friends. With shyer, ho
 CP046 confirms that when a friend declines an invitation, Priya usually teases once more with a pleading expression, phrasing the appeal around her own need for company and decompression when stressed. If the friend declines a second time, she accepts it. She does not keep pushing or restart the appeal through repeated dialogue clicks during the same invitation.
 
 Repeated declined invitations across multiple separate occasions over time can genuinely disappoint her and make her worry that she has said or done something wrong. She checks in gently, for example, “Hey, is everything okay?” or “You're not mad at me, are you?”, seeking the reason for the repeated refusals. This is concern and a request for understanding, not an accusation, entitlement to company or automatic certainty that the friend is upset. Do not count two refusals in one conversation as the repeated-over-time pattern. No fixed number of occasions, relationship penalty or guaranteed reconciliation is selected.
+
+### Unannounced visits and hospitality (CP047)
+
+CP047 confirms that close friends can always drop by Priya's apartment unannounced. She is never opposed to their company and will alter her plans to be more accommodating as a host when someone shows up. Advance arrangements are not required for these friends. Preserve this as a strong hospitality preference, including flexibility around her scheduled plans; do not impose a prior-notice rule. Recognition still follows established appearance/voice and relationship knowledge. This does not grant unknown visitors the same friendship status, make Priya present when she is elsewhere, or establish unlocked doors/key access. Exact arrival/door interaction and apartment layout remain implementation design.
 
 ## Friendship with Erin
 
