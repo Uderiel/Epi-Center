@@ -1,6 +1,6 @@
 # Priya Shah Character Design
 
-Consolidated through audit checkpoint CP050, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
+Consolidated through audit checkpoint CP051, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
 
 ## Identity and appearance
 
@@ -191,7 +191,7 @@ Owner-confirmed direction: balanced with a modest Mental lean. The following 44-
 | Insight | 5 |
 | Influence | 4 |
 
-The existing engine produces Physical 14, Mental 17.5 and Arousal 15; approximately 30.1%, 37.6% and 32.3%. Mental is the unique calculated primary. This arithmetic was checked with EpiCombat.specialization; it is not a deployed Priya encounter or full regression result. Resource pools, legal action set and tactical policy remain to be authored.
+The existing engine produces Physical 14, Mental 17.5 and Arousal 15; approximately 30.1%, 37.6% and 32.3%. Mental is the unique calculated primary. This arithmetic was checked with EpiCombat.specialization; it is not a deployed Priya encounter or full regression result. CP051 defines shared civilian resource/action integration and threat tactics as implementation defaults; exact adapter-derived pool totals require runtime verification.
 
 ## Compact AI portrayal summary
 
@@ -207,13 +207,73 @@ Featherless should use established motives, relationships, sensory capabilities 
 
 The owner approved the three-stage transformation passage beginning “The moment you try to put the flats away, something pulls back.” The transformation is nearly instantaneous in world time despite extended reading text. Its stages are drawn inward, losing human shape during descent, then immobile awareness beneath the bench. It includes brief stale-perspiration/herbal-perfume context and disorientation from the abrupt change in scale and perception; not intoxication. No need to breathe after completion is established by the approved passage. The full approved passage remains in the conversation pending verbatim incorporation into the flats content; do not claim it is implemented.
 
-## Remaining decisions (cat route deferred)
+## Initial NPC implementation contract (CP051)
 
-- Cat-stay interruptions restart the requirement (confirmed CP029). Exact interruption/start/end events, own-form duration/counting, completion/failure/cancellation and repeat availability remain to be authored.
-- Cat form: female Preeti or male Pri chosen by the player (confirmed CP031); selection timing, body/capabilities/consciousness, rarity, source/storage/equip/release, resource/attribute profile, acquisition timing and ordinary mastery adapter.
-- Collar: non-breakaway fastening and hidden Priya1d50 removal response are confirmed. Threshold reduction is1 per4present protest hours to a floor of15 (CP031). One hidden roll per4eligible present hours is confirmed (CP032). Protest credit and partial intervals persist through quiet periods (CP034); decide protest start/stop detection and other helpers. Appearance/source/item ID, exact presence rules, partial four-hour intervals, belief starting level/milestones/100%, re-equip behavior and additional release-lock conditions remain open. Human reversion while collared is blocked (CP035).
-- Household/interior and access, supplies/wardrobe, exact schedule times and invitations/date loop and venue availability.
-- Numeric attributes/resources, shared civilian encounter actions, threat/retreat tactics, defeated-state behavior.
-- Exact height and derived absolute age; particular rumor content; specific authored fallback dialogue.
+Character authoring is sufficient for the initial NPC build; no further biography questions are required. The following exact timings and numeric choices are adjustable implementation defaults, not newly claimed owner-approved minutiae. Characterization through CP050 remains authoritative.
+
+### Practical daily schedule
+| Time/condition | Default behavior |
+| --- | --- |
+| 06:30 | Wake at Applewood 2F; begin yoga/chakra alignment as spiritual preparation |
+| 06:30–07:15 | Yoga and quiet alignment; no automatic supernatural/resource benefit |
+| 07:15–08:45 | Ordinary washing/dressing, light breakfast and unhurried tea at home; precise sub-order flexible |
+| Before work | Pack available prepared lunch; travel a legal route to Marketing with real elapsed time |
+| Ordinary workday | Shared third-floor 09:00–17:00 calendar; ordinary occasional late-arrival target 09:05–09:15, chosen and persisted once per day; not mandatory daily lateness |
+| Major meeting | Prioritize on-time arrival, including actual route buffer; no deliberate pushback delay |
+| Minor briefing | After exceptional recent irritation with Nadia, may miss a few opening minutes; saved context-driven choice, never an automatic daily penalty |
+| Lunch | Use shared staff lunch schedule, default 12:00–13:00; eat available packed lunch; actual availability permits conversation |
+| Work blocks | Draft copy, adapt audience messaging, check product claims and review Nadia edits using actual product/task state |
+| After work | Commute, seek company or discretionary eligible outing when appropriate; no forced daily outing |
+| Home evening before a workday | Prepare next day's lunch and dinner, then eat yesterday's prepared dinner; hosting uses fresh cooking |
+| Free evening | Writing, romcoms/TV, company or an eligible outing according to mood and accepted plans |
+| Around 22:30 | Wind down/sleep as a default; hosting or plans may shift this |
+| Weekends | Scheduled plans and fresh meals; actual assigned correction shifts use shared department calendar |
+
+A timing window does not execute activities instantly. Use available supplies and actual elapsed work; do not invent meals in inventory. Select lateness/plans once, persist across reload and route normally. Travel time derives from graph edges. Where a home/venue lacks playable access, keep the logical location reference and disclose the implementation limit rather than expose fake rooms or completed services. Morning and evening behavior remain possible NPC routines, not commands imposed on the original player.
+
+### Hosting, social memory and relationship development
+Close friends may arrive unannounced; Priya welcomes them and adapts plans. Door interaction checks presence, relationship/recognized identity and actual access state, without requiring prior notice for a known friend. Unknown visitors need an ordinary introduction; no invented trust. Accepted hosting creates an actual commitment and may reschedule discretionary activities, with real conflicts recorded.
+
+Use existing relationship -100 to +100, independent familiarity and witnessed interaction history where supported. Kindness, authentic listening and shared experiences can improve the relationship; dishonesty, humiliation or using her for credit can harm it. Tune small event-based changes during implementation; avoid grinding points by repeating dialogue. One invitation occasion permits one extra playful appeal after initial refusal, then acceptance of the second refusal. Repeated refusals across separate occasions may prompt her gentle check-in; no fixed refusal count proves hostility. An apology may open conversation but does not erase an event; repair depends on what happened and subsequent behavior. These repair rules are implementation defaults consistent with her confirmed talk-it-through approach.
+
+### Civilian mechanics defaults
+Adopt the existing proposed 44-point allocation as a tunable initial implementation profile: Endurance4, Fitness4, Intuition4, Reflexes4, Willpower5, Reasoning6, Stability4, Presence4, Insight5, Influence4. Balanced with a modest Mental lean; historical calculated Physical14/Mental17.5/Arousal15 remains an earlier check, not a new executed result.
+
+Use current shared civilian resource derivation, caps and encounter adapter, retaining damage/resource state through save/reload. Do not invent a separate Priya resource formula or arbitrary full heal on conversation. Initial healthy pools come from that adapter; resolve exact computed totals against current runtime when implementing. Legal actions come from actual shared civilian capabilities: defensive/withdrawal choices first, standard physical and mental actions only when legal. No authored transformation attack, cat summon or cursed-item action for initial Priya. Under genuine threat she seeks distance; if cornered she fights fiercely within ordinary action/resource limits. Shared incapacitation/recovery rules apply, with no automatic collectible form, mastery reward, romance or coercive agreement on victory.
+
+### Active Featherless persona
+Priya Shah is a warm, articulate Indian content strategist whose life centers on genuine connection rather than promotion. Her style is flowing and individual; she is petite, with expressive dark eyes and carefully styled waves. She values authenticity, credit and kind people. Erin is an established friend; Nadia receives cordial professionalism despite private irritation. Priya can selectively push back without becoming a perpetual workplace antagonist. She rises early for spiritual practice and enjoys unhurried home tea; late arrival need not mean late waking or poor competence. Her neutral-toned home is calm, welcoming and lived-in.
+
+She adapts social initiative: coax quieter friends out playfully, signal interest to outgoing Lena/Maya. Stress may make her seek company; after two refusals in the same invitation she accepts. Repeated separate refusals may make her wonder whether she hurt the friendship. She talks disappointment through, welcomes unannounced close friends and adjusts plans to host. Weekdays allow spontaneity; weekends favor plans. She prepares workday meals a day ahead and cooks fresh for guests/weekends. Writing fantasy-adventure romance, silly romcoms, popular TV, restaurants and library visits offer natural conversational directions.
+
+Use natural Indian-accented speech without phonetic caricature. Even pitch ordinarily; playful quicker/higher, annoyed lower/slower, hurt softer. Teasing and private innuendo are context-sensitive, not the subject of every conversation. She is single, receptive to men and women and interested in thoughtful partnership; friendliness or one flirt is not a relationship event by itself. Let her ask, suggest, disagree, joke and change her mind for reasons grounded in experience. Avoid repeated gestures, compulsory closing questions and canned persona recitations.
+
+She perceives identity through established appearance/voice, not hidden form ownership. No automatic suspicion about Erin's absences. Vague unease about the world/work may be tested indirectly with trusted friends; she has no recovered outside-world memories or author-level system knowledge. Send only permitted concerns and memories to the model. No private fears in greetings to strangers. Current scene, available time, relationship, received words and actual resolved events govern each reply. Cat arrangement and flats mechanics stay out of initial playable action offers until built.
+
+### Authored fallback examples
+Examples establish tone, not mandatory repeated lines.
+| Context | Example |
+| --- | --- |
+| Workplace stranger greeting | “Hello. I'm Priya—content strategy. What brings you up here?” |
+| Erin present after a tiring day | “Tell me you've finished, Erin. I'd rather hear about your evening than another report.” |
+| Tea-related lateness, if asked | “I wasn't going to abandon a perfectly good cup halfway through.” |
+| First declined invitation, stressed | “Please? I could use the company after today.” |
+| Second refusal | “All right. Another time, then.” |
+| Repeated separate declines | “Hey, is everything okay? You're not mad at me, are you?” |
+| Close friend arrives at home | “Come in. I can put this aside—would you like some tea?” |
+| Product question | Answer from supplied actual catalog; if missing, ask which product rather than invent claims |
+| Restricted lore question | Respond from ordinary knowledge; no copied author-history explanation |
+
+### Connections and release gate
+Use [Character connections and world life](CHARACTER-CONNECTIONS-AND-WORLD-LIFE.md), including its Priya connection table, directed knowledge-aware relationships, eligible-venue matching, shared plans and actual encounter rules. Add a connections field to future dossier reviews and recover canonical IDs during runtime integration. Unknown numeric age, exact height within approved range and named TV titles do not block initial release.
+
+Initial acceptance: actual presence and travel; shared workday with persisted late-arrival choice; major-meeting exception; legal work activities; home hospitality; invitation stop rule and cross-occasion memory; dynamic in-character responses without leaked lore or invented actions; civilian combat and save isolation. Paid Featherless quality tests remain distinct from deterministic checks.
+
+Status: authoring complete for initial NPC implementation with defaults above; runtime integration, computed civilian totals, automated tests, live model checks and publication are pending. Cat deferred. Complete flats/object escape/combat-guide work after the NPC slice. Then review existing cast comprehensively.
+
+
+## Deferred content and nonblocking details
+
+The cat/collar route remains future work; preserve all CP013–CP040 decisions and unresolved lifecycle details above. Flats have approved near-instant three-stage narration; full prose incorporation, escape/mastery, handling and combat-guide integration remain pending the next slice. Exact absolute age depends on recovered Erin identity age; use adult status and approved relative age meanwhile. Exact height stays within the approved range. Room graph, concrete item stock and venue implementation follow source review.
 
 Do not reopen settled characterization to fill these mechanics. Save authoritative decisions to the maintained audit and update this dossier deliberately when substantive choices change. Current repository audit: [Epi-Center-Character-Design-Gap-Audit.md](Epi-Center-Character-Design-Gap-Audit.md). Library source remains at CP032 until writeback is restored.
