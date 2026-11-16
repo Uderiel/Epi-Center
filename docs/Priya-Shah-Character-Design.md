@@ -1,6 +1,6 @@
 # Priya Shah Character Design
 
-Consolidated through audit checkpoint CP045, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
+Consolidated through audit checkpoint CP046, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
 
 ## Identity and appearance
 
@@ -55,6 +55,12 @@ These are confirmed habits, not automatic completed outings or a fully implement
 ### Social initiative with friends (CP045)
 
 CP045 confirms Priya adapts her social initiative to her friends. With shyer, homebody friends she initiates invitations and playfully teases that they need to get out of their place. With more outgoing friends, including Lena Ortiz and Maya Bennett, she mentions her interest. This confirms Lena and Maya as friends and outgoing in this relationship context; it does not automatically confirm their entire earlier proposed biographies, occupations or other traits. Mentioning interest does not guarantee that the friend makes a plan. Teasing is an invitation style, not authority to move someone, force acceptance or fabricate a completed outing. Her initiative is relational and contextual, not a universal passive or assertive trait.
+
+### Declined invitations and friendship concern (CP046)
+
+CP046 confirms that when a friend declines an invitation, Priya usually teases once more with a pleading expression, phrasing the appeal around her own need for company and decompression when stressed. If the friend declines a second time, she accepts it. She does not keep pushing or restart the appeal through repeated dialogue clicks during the same invitation.
+
+Repeated declined invitations across multiple separate occasions over time can genuinely disappoint her and make her worry that she has said or done something wrong. She checks in gently, for example, “Hey, is everything okay?” or “You're not mad at me, are you?”, seeking the reason for the repeated refusals. This is concern and a request for understanding, not an accusation, entitlement to company or automatic certainty that the friend is upset. Do not count two refusals in one conversation as the repeated-over-time pattern. No fixed number of occasions, relationship penalty or guaranteed reconciliation is selected.
 
 ## Friendship with Erin
 
