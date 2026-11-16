@@ -1,6 +1,6 @@
 # Priya Shah Character Design
 
-Consolidated through audit checkpoint CP048, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
+Consolidated through audit checkpoint CP049, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
 
 ## Identity and appearance
 
@@ -40,11 +40,15 @@ CP044 confirms that lateness sometimes creates friction between Priya and Nadia.
 
 ## Home interests and relationships
 
-Priya lives alone in Applewood Apartments, Floor 2, Unit F (2F). She is considering a cat and prefers cats over dogs. Keeping a cat form for an offer does not establish a separate live pet. Apartment interior, current inventory, food preferences and exact schedule times remain undesigned; the household routine below is confirmed.
+Priya lives alone in Applewood Apartments, Floor 2, Unit F (2F). She is considering a cat and prefers cats over dogs. Keeping a cat form for an offer does not establish a separate live pet. Apartment atmosphere, furnishings direction and palette are confirmed in CP049; exact layout, current inventory, food preferences and exact schedule times remain undesigned. The household routine below is confirmed.
 
 She enjoys creative writing, especially fantasy adventures and romance combined. She likes trying new restaurants, visiting the library and spontaneous outings. She is comfortable at Lantern & Laurel and open to casino or strip-club outings. She is also a fan of The Cloistered Madame. That venue is mapped as location 95; specific services, her activities there and prior visits have not been established by her preference alone. A writing group, particular manuscript and publication history remain unconfirmed.
 
 She is currently single. Her long-term goal in this iteration is a meaningful romantic partnership with thoughtfulness, mutual appreciation and meaningful shared time. She is receptive to men and women. Her outlook on pleasure emphasizes how well it is shared rather than the provider's gender, alongside emotional connection. No narrower orientation label, current partner or romance with a named person has been chosen.
+
+### Apartment atmosphere and palette (CP049)
+
+CP049 confirms a warm, lived-in apartment with comfortable seating for friends, books and writing notes, a well-used kitchen and a dedicated tea corner. It is generally tidy, with small signs of her current activities. Priya prefers earthy, subdued surroundings: creams, beiges, light tans and related shades, with whites creating contrast between similar colors. There are no strong, shocking or vibrant colors. The apartment feels calming and relaxing; its strongest hue contrast is brown wood furniture against light cream surfaces/counter. Exact room layout, individual furniture pieces and interactive contents remain to be authored. This interior palette does not replace her approved personal wardrobe or portrait.
 
 ### Weekday spontaneity, meal preparation and leisure
 
