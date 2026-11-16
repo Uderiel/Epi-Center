@@ -1,6 +1,6 @@
 # Priya Shah Character Design
 
-Consolidated through audit checkpoint CP042, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
+Consolidated through audit checkpoint CP043, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
 
 ## Identity and appearance
 
@@ -30,7 +30,9 @@ Do not turn this into constant insults, deliberate sabotage, a particular stolen
 
 ### Workday and morning tea (CP042)
 
-CP042 confirms that Priya follows the same working day as the rest of the Technology Center's third floor. Use the current shared third-floor schedule rather than inventing a separate shift. She tends to arrive late because she likes preparing her morning tea at home. She is less strict about punctuality and less bothered by being late than Erin. This is a tendency, not guaranteed lateness every day or a fixed arrival offset. Exact delay/frequency, tea variety and Nadia's response remain unselected. Do not infer poor work quality, permission to be late, immunity from consequences or a different end-of-day schedule.
+CP042 confirms that Priya follows the same working day as the rest of the Technology Center's third floor. Use the current shared third-floor schedule rather than inventing a separate shift. She tends to arrive late because she likes preparing her morning tea at home. She is less strict about punctuality and less bothered by being late than Erin. This is a tendency, not guaranteed lateness every day or a fixed arrival offset. Exact delay/frequency and tea variety remain unselected; Nadia's response is confirmed in CP043. Do not infer poor work quality, permission to be late, immunity from consequences or a different end-of-day schedule.
+
+CP043 confirms Nadia generally does not mind ordinary lateness, framing it dismissively as “other people don't take their job roles seriously.” If there is a meeting or crunch time, she is annoyed when employees arrive late. This applies to employees generally, including Priya; it is not special favoritism toward Priya or blanket approval of lateness. No automatic disciplinary action, penalty, confrontation or response by Priya is established by this decision.
 
 ## Home interests and relationships
 
