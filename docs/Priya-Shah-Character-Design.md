@@ -1,6 +1,6 @@
 # Priya Shah Character Design
 
-Consolidated through audit checkpoint CP039, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
+Consolidated through audit checkpoint CP040, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
 
 ## Identity and appearance
 
@@ -114,7 +114,7 @@ Priya acts from annoyance or concern that the collar bothers her pet, without kn
 
 ## Priya-linked inanimate-object transformation
 
-The first inanimate-object transformation is to be related to Priya: a cursed possession she left behind somewhere. Unlike Erin's Favorite Red Heels, which transform the wearer into Erin, this item transforms the player into the object itself. The object is confirmed as well-worn, size-seven flats (CP037), lost in the Northeast Central Hub park and retrieved shortly after transformation (CP038). The trigger is attempted inventory acquisition (CP039); awareness/senses, communication, handling, custody, control, mastery and escape/release remain open. This is distinct from Priya's offered cat form and does not establish Priya herself as a collectible form.
+The first inanimate-object transformation is to be related to Priya: a cursed possession she left behind somewhere. Unlike Erin's Favorite Red Heels, which transform the wearer into Erin, this item transforms the player into the object itself. The object is confirmed as well-worn, size-seven flats (CP037), lost in the Northeast Central Hub park and retrieved shortly after transformation (CP038). The trigger is attempted inventory acquisition (CP039). CP040 defines shared awareness of both flats, compressed body placement, dim ground-up vision, hearing and no outward communication or independent movement. Handling, custody, mastery and escape/release remain open. This is distinct from Priya's offered cat form and does not establish Priya herself as a collectible form.
 
 CP036 established abandoned footwear; CP037 selects well-worn, size-seven flats. This cursed footwear transforms the player into the footwear itself, rather than into Priya. It is intended to surprise players familiar with Erin's heels or Michael's shoes: discovering clothing must not imply a single predictable transformation outcome. Further varieties of clothing/item outcomes are planned for the future, without choosing them now. The bracelet suggestion is superseded. Discovery location, activation trigger, whether/how consciousness spans the pair, senses, communication, handling/wearing, custody, mastery and escape/release still need design. References to Michael's shoes describe the intended comparison, not a claim they are already implemented.
 
@@ -127,6 +127,16 @@ Owner-confirmed shared object-form presentation rule: inanimate-object transform
 Sensory experience, awareness and physical body placement within an inanimate object must be authored individually for each object form as it is created. Do not infer universal vision, hearing, speech, mobility, merged consciousness across a pair or a particular body arrangement. Priya's flats still need those specifics. Activation trigger, exact transformation sequence, handling/wearing, control, mastery and escape/release also remain open.
 
 CP039 confirms that the player may pick up and examine Priya's flats without triggering the curse. The curse triggers the moment the player attempts to put them into inventory to take them. Temporary handling/inspection and an attempted inventory acquisition must be distinct interactions. Touch, pickup, examination and wearing are not the selected activation trigger. Do not require completed inventory insertion before activation or silently turn ordinary inspection into taking. Exact transformation timing/sequence, resistance and transaction/state behavior remain to be designed.
+
+### Flats-specific embodiment and senses (CP040)
+
+CP040 confirms that the flats lie slightly beneath a park bench in Northeast Central Hub park. They are size seven, long-used but gently worn rather than ruined: a stale foot-sweat smell, a little dirt and sweat discoloration inside, and formed toe imprints from prolonged wear. These specifics refine the earlier “well-worn” description.
+
+The transformed player experiences both flats as one body, aware of both halves of themselves; there are not two independent minds. Their body is compressed into the footwear. Their face, nose and mouth are spread along and inside the insoles and toe grooves. The material over the toes and around the back of the heel feels like their arms holding on. This describes subjective body placement, not visible facial features or an ability to grip or move.
+
+The player can dimly see without the flats having eyes, from a ground-up viewpoint, and can hear nearby conversations. They cannot react physically, speak, move on their own or give any outward indication of awareness. Hearing is access to actual nearby conversation, not remote/private knowledge. Exact visual range and how carrying/wearing/covering changes perception remain undesigned. Do not infer an active smell/taste sense solely from the flats' external odor description.
+
+These sensory and embodiment rules belong to Priya's flats specifically; future inanimate forms require their own designs. Transformation sequence, retrieval timing, handling/wearing lifecycle, mastery and escape/release remain open.
 
 ## AI portrayal direction
 
