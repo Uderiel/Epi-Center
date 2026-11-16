@@ -4,11 +4,11 @@ Initial review against the Universal Character and Form Template v1.0. This is a
 
 ## Current handoff and resume point
 
-Checkpoint CP045. Last updated November 16, 2026, America/Chicago. The owner requested that this same audit be preserved and updated as work proceeds so a new chat can resume without losing decisions.
+Checkpoint CP046. Last updated November 16, 2026, America/Chicago. The owner requested that this same audit be preserved and updated as work proceeds so a new chat can resume without losing decisions.
 
 **Current work:** Priya Shah character design. Her appearance, core social/sexual characterization and Erin/Nadia relationship direction are confirmed. Her full dossier is not complete. CP005 establishes her simple livelihood/friendship motivation and the distinction between suppressed system history and her conscious Priya identity. The earlier characters have had an initial source review, not a completed template-by-template redesign. No new character gameplay implementation or publication has occurred as part of this audit.
 
-**Exact next action:** Continue Priya's NPC design with response to declined invitations and relationship repair, then household/access and remaining practical implementation decisions. CP045 settles friend-dependent initiative: she invites/teases shyer homebodies and mentions interest to outgoing friends such as Lena Ortiz and Maya Bennett. Do not repeat settled social-initiation questions. Preserve CP041 scope.
+**Exact next action:** Continue Priya's NPC design with household/access and hosting behavior, then remaining practical implementation requirements. CP046 settles declined invitations: one additional playful/pleading appeal, acceptance of second refusal; repeated separate declined invitations over time can prompt disappointment and a gentle friendship check-in. Preserve CP041 scope and avoid reopening settled social behavior.
 
 **Owner-approved direction:** Use the universal template for both new characters and previously made characters. Preserve existing answers, recover old source before declaring a field missing, distinguish design from implementation, and avoid silently turning assistant proposals into canon.
 
@@ -472,6 +472,14 @@ Design only; no runtime implementation or test is claimed.
 
 Design only; no NPC implementation or test is claimed.
 
+### CP046 Declined invitations and concern over repeated refusals
+
+**CONFIRMED November 16, 2026:** CP046 confirms that when a friend declines an invitation, Priya usually teases once more with a pleading expression, phrasing the appeal around her own need for company and decompression when stressed. If the friend declines a second time, she accepts it. She does not keep pushing or restart the appeal through repeated dialogue clicks during the same invitation.
+
+Repeated declined invitations across multiple separate occasions over time can genuinely disappoint her and make her worry that she has said or done something wrong. She checks in gently, for example, “Hey, is everything okay?” or “You're not mad at me, are you?”, seeking the reason for the repeated refusals. This is concern and a request for understanding, not an accusation, entitlement to company or automatic certainty that the friend is upset. Do not count two refusals in one conversation as the repeated-over-time pattern. No fixed number of occasions, relationship penalty or guaranteed reconciliation is selected.
+
+Design only; no NPC behavior implementation or test is claimed.
+
 ### Progress board
 
 | Review item | Current state | Next step |
@@ -563,10 +571,11 @@ Before ending a chat, leave a concrete resume point and distinguish source revie
 | CP043 | November 16 2026 | Nadia dismissively tolerates ordinary lateness but is annoyed at late arrivals during meetings or crunch time; applies generally to staff | Next: Priya's response in time-sensitive situations and remaining NPC design |
 | CP044 | November 16 2026 | After exceptional irritation with Nadia, Priya may deliberately miss unnecessary opening chatter at smaller briefings; never for major meetings; causes occasional friction | Next: ordinary social initiative and relationship development |
 | CP045 | November 16 2026 | Initiates and playfully coaxes shyer homebody friends out; mentions interest to outgoing friends Lena Ortiz and Maya Bennett | Next: declined invitations/repair, household/access and practical NPC requirements |
+| CP046 | November 16 2026 | One further playful/pleading invitation, then accepts second refusal; repeated refusals over separate occasions can bring disappointment and gentle concern about friendship | Next: household/access and hosting, then practical NPC implementation requirements |
 
 ### New chat starter
 
-> Resume Epi-Center character design from docs/Epi-Center-Character-Design-Gap-Audit.md and docs/Priya-Shah-Character-Design.md on rebuild/1.0-foundations, current through CP045. The Library source remains at CP032, Library ID libfile_3763ef91cf6c81919ed5303c46e3d5e6. Read its current handoff and the Universal Character and Form Template before asking new questions. Priya Shah is the active design; preserve all confirmed decisions and do not repeat settled questions. Continue one unresolved question at a time, then update the same audit with decisions and the next resume point. Review current repository sources before implementation, and distinguish approved design from shipped gameplay.
+> Resume Epi-Center character design from docs/Epi-Center-Character-Design-Gap-Audit.md and docs/Priya-Shah-Character-Design.md on rebuild/1.0-foundations, current through CP046. The Library source remains at CP032, Library ID libfile_3763ef91cf6c81919ed5303c46e3d5e6. Read its current handoff and the Universal Character and Form Template before asking new questions. Priya Shah is the active design; preserve all confirmed decisions and do not repeat settled questions. Continue one unresolved question at a time, then update the same audit with decisions and the next resume point. Review current repository sources before implementation, and distinguish approved design from shipped gameplay.
 
 ---
 
