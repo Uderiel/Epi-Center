@@ -1,3 +1,9 @@
+## November 16, 2026 — Priya design checkpoint CP037
+
+CP037 confirms Priya's abandoned cursed footwear is a pair of well-worn, size-seven flats. This settles flats versus heels; the player transforms into the flats themselves. The sizing system, color, material and specific wear details have not been selected. Discovery location, activation trigger and object-form lifecycle remain open.
+
+Updated [Priya dossier](Priya-Shah-Character-Design.md) and [audit](Epi-Center-Character-Design-Gap-Audit.md). Next: discovery location, then activation trigger. Documentation only; gameplay remains v1.0.97. Original Library records remain unchanged pending writeback restoration.
+
 ## November 16, 2026 — Priya design checkpoint CP036
 
 CP036 confirms that Priya left behind a pair of flats or heels; the exact footwear type remains unselected. This cursed footwear transforms the player into the footwear itself, rather than into Priya. It is intended to surprise players familiar with Erin's heels or Michael's shoes: discovering clothing must not imply a single predictable transformation outcome. Further varieties of clothing/item outcomes are planned for the future, without choosing them now. The bracelet suggestion is superseded. Discovery location, activation trigger, whether/how consciousness spans the pair, senses, communication, handling/wearing, custody, mastery and escape/release still need design. References to Michael's shoes describe the intended comparison, not a claim they are already implemented.
