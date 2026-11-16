@@ -1,6 +1,6 @@
 # Priya Shah Character Design
 
-Consolidated through audit checkpoint CP044, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
+Consolidated through audit checkpoint CP045, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
 
 ## Identity and appearance
 
@@ -51,6 +51,10 @@ Priya reserves weekends for scheduled plans. Weekdays are spontaneous: especiall
 Each evening before a workday, she prepares the following day’s lunch and dinner, staying one day ahead. After meal prep, she eats the dinner prepared yesterday. On weekends or when hosting friends, she cooks something fresh. She occasionally writes fantasy-adventure romance and enjoys silly romcoms and popular TV series.
 
 These are confirmed habits, not automatic completed outings or a fully implemented schedule. Specific friends, times, meals, manuscripts and TV titles remain unselected.
+
+### Social initiative with friends (CP045)
+
+CP045 confirms Priya adapts her social initiative to her friends. With shyer, homebody friends she initiates invitations and playfully teases that they need to get out of their place. With more outgoing friends, including Lena Ortiz and Maya Bennett, she mentions her interest. This confirms Lena and Maya as friends and outgoing in this relationship context; it does not automatically confirm their entire earlier proposed biographies, occupations or other traits. Mentioning interest does not guarantee that the friend makes a plan. Teasing is an invitation style, not authority to move someone, force acceptance or fabricate a completed outing. Her initiative is relational and contextual, not a universal passive or assertive trait.
 
 ## Friendship with Erin
 
