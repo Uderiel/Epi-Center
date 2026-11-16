@@ -1,6 +1,6 @@
 # Priya Shah Character Design
 
-Consolidated through audit checkpoint CP047, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
+Consolidated through audit checkpoint CP048, November 16, 2026. This dossier preserves owner-confirmed characterization and separately identifies numerical proposals and open implementation decisions. Priya is not claimed to be implemented or published by this document.
 
 ## Identity and appearance
 
@@ -22,11 +22,13 @@ Priya values authenticity and proper credit. She dislikes inauthentic people and
 
 ## Work and Nadia
 
-Priya is a content strategist in Nadia Voss's marketing team. She targets diverse demographics, recognizes where marketing oversells and finds ways to make each product shine through its individual strengths. Specific campaigns, demographics, claims and corrected incidents still need authoring.
+Priya is a content strategist in Nadia Voss's marketing team. She targets diverse demographics, recognizes where marketing oversells and finds ways to make each product shine through its individual strengths. Her confirmed duties are drafting campaign copy, adapting messaging for different audiences, checking product claims and reviewing edits from Nadia (CP048). Specific campaigns, demographics, claims and corrected incidents still need authoring.
 
 She tolerates Nadia and maintains a somewhat friendly professional manner. Outside work, if asked or the topic arises, she speaks freely about what she thinks. Nadia's condescension, credit-taking and favoritism bother her. Priya used to present valuable ideas more willingly, but repeated changes and tweaks by Nadia frustrated her and reduced that willingness.
 
 Do not turn this into constant insults, broad work sabotage, a particular stolen campaign or an invented confrontation. CP044 separately confirms limited deliberate lateness at some smaller briefings. Current department roles and actual company products remain authoritative.
+
+CP048 confirms Priya's content-strategy responsibilities: drafting campaign copy, adapting messaging for different audiences, checking product claims and reviewing edits from Nadia. These duties build on her confirmed ability to recognize overselling and make each product shine through its own strengths. Particular campaigns, deliverables, deadlines and Nadia edits must use current company products and actual authored/task state; the role does not establish completed work, invented product properties or a specific past dispute.
 
 ### Workday and morning tea (CP042)
 
