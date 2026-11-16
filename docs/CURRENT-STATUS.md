@@ -1,3 +1,9 @@
+## November 16, 2026 — Priya design checkpoint CP042
+
+CP042 confirms that Priya follows the same working day as the rest of the Technology Center's third floor. Use the current shared third-floor schedule rather than inventing a separate shift. She tends to arrive late because she likes preparing her morning tea at home. She is less strict about punctuality and less bothered by being late than Erin. This is a tendency, not guaranteed lateness every day or a fixed arrival offset. Exact delay/frequency, tea variety and Nadia's response remain unselected. Do not infer poor work quality, permission to be late, immunity from consequences or a different end-of-day schedule.
+
+Updated [Priya dossier](Priya-Shah-Character-Design.md) and [audit](Epi-Center-Character-Design-Gap-Audit.md). Next: workplace response to lateness, then remaining Priya NPC requirements; flats and cat remain outside current character-design focus. Documentation only; gameplay remains v1.0.97.
+
 ## November 16, 2026 — Priya-first scope CP041
 
 Owner-confirmed sequence: finish Priya as a character first; then complete and implement her abandoned flats, the escape system and inanimate-transformation rules in the combat guide; then revisit the other established characters to comparable depth. The cat route and collar remain preserved future-build design and do not block Priya's initial NPC implementation.
