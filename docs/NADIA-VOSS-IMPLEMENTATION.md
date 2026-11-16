@@ -1,5 +1,11 @@
 # Nadia Voss and the department work cycle · v1.0.96
 
+## November 16, 2026 — punctuality clarification (CP043; design only)
+
+CP043 confirms Nadia generally does not mind ordinary lateness, framing it dismissively as “other people don't take their job roles seriously.” If there is a meeting or crunch time, she is annoyed when employees arrive late. This applies to employees generally, including Priya; it is not special favoritism toward Priya or blanket approval of lateness. No automatic disciplinary action, penalty, confrontation or response by Priya is established by this decision.
+
+This owner-confirmed characterization is pending runtime/AI-context integration; no additional implementation or testing is claimed.
+
 ## Owner-approved character
 
 Nadia is Marketing Team Lead over twelve marketing employees, reporting to Richard alongside Daniel (who leads thirteen sales employees). Erin remains Richard’s secretary. Nadia is29,5′6″, with pale skin, blue eyes, black hair, refined Slavic features and strong bone structure; slender, shapely and confident, wearing polished corporate dresses. Mental primary, Arousal secondary. Implementation attributes: Endurance3,Fitness3,Intuition4,Reflexes3,Willpower6,Reasoning7,Stability5,Presence6,Insight5,Influence5 (47 points; Mental20.5,Arousal18,Physical11).
