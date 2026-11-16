@@ -1,3 +1,9 @@
+## November 16, 2026 — Priya/Nadia design checkpoint CP044
+
+CP044 confirms that lateness sometimes creates friction between Priya and Nadia. When Nadia has been exceptionally annoying recently, Priya may deliberately miss the opening minutes of a smaller briefing where she knows Nadia will be talking about unnecessary matters. This is a selective way of pushing back, distinct from her ordinary tea-related lateness. Priya does not do this for major meetings. The opening chatter is Priya's informed expectation, not permission for the AI to label all Nadia's briefings objectively pointless. Do not generalize this into missed major meetings, deliberate missed critical work, habitual absence or broad sabotage. Whether Nadia recognizes the intent and how a particular confrontation unfolds remain context-dependent and undesigned.
+
+Synchronized [Priya dossier](Priya-Shah-Character-Design.md), [audit](Epi-Center-Character-Design-Gap-Audit.md) and [Nadia record](NADIA-VOSS-IMPLEMENTATION.md). Next: Priya's ordinary social initiative and relationship development; avoid further sidetracks into settled lateness. Documentation only; gameplay remains v1.0.97.
+
 ## November 16, 2026 — Priya/Nadia design checkpoint CP043
 
 CP043 confirms Nadia generally does not mind ordinary lateness, framing it dismissively as “other people don't take their job roles seriously.” If there is a meeting or crunch time, she is annoyed when employees arrive late. This applies to employees generally, including Priya; it is not special favoritism toward Priya or blanket approval of lateness. No automatic disciplinary action, penalty, confrontation or response by Priya is established by this decision.
