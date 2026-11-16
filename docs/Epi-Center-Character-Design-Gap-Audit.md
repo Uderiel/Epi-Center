@@ -4,11 +4,11 @@ Initial review against the Universal Character and Form Template v1.0. This is a
 
 ## Current handoff and resume point
 
-Checkpoint CP036. Last updated November 16, 2026, America/Chicago. The owner requested that this same audit be preserved and updated as work proceeds so a new chat can resume without losing decisions.
+Checkpoint CP037. Last updated November 16, 2026, America/Chicago. The owner requested that this same audit be preserved and updated as work proceeds so a new chat can resume without losing decisions.
 
 **Current work:** Priya Shah character design. Her appearance, core social/sexual characterization and Erin/Nadia relationship direction are confirmed. Her full dossier is not complete. CP005 establishes her simple livelihood/friendship motivation and the distinction between suppressed system history and her conscious Priya identity. The earlier characters have had an initial source review, not a completed template-by-template redesign. No new character gameplay implementation or publication has occurred as part of this audit.
 
-**Exact next action:** Choose flats versus heels for Priya's abandoned cursed footwear, then discovery context and activation trigger. The footwear transforms the player into itself (CP036); human reversion while wearing her cat collar remains blocked (CP035). Remaining cat/collar bookkeeping, footwear lifecycle design and the wider character/AI review stay pending.
+**Exact next action:** Choose where Priya left her well-worn, size-seven cursed flats, then their activation trigger. Flats versus heels is settled (CP037). The footwear transforms the player into itself; human reversion while wearing her cat collar remains blocked. Remaining cat/collar bookkeeping, footwear lifecycle design and the wider character/AI review stay pending.
 
 **Owner-approved direction:** Use the universal template for both new characters and previously made characters. Preserve existing answers, recover old source before declaring a field missing, distinguish design from implementation, and avoid silently turning assistant proposals into canon.
 
@@ -43,7 +43,7 @@ Before any gameplay changes, read the repository's docs/DEVELOPMENT-MASTER-PLAN.
 
 **CP004 portrayal consequence:** Priya's reduced willingness to present ideas reflects frustration with Nadia's handling of them. Do not equate this with a lack of ideas, loss of skill, deliberate sabotage, resignation or absence of career ambition. Those consequences have not been established. Keep her existing somewhat friendly professionalism and topic-triggered private candor intact.
 
-**Template synchronization note:** The template's worked Priya example is the earlier CP001 snapshot. This maintained audit carries later decisions, including CP004 through CP036; consult it before treating fields in that older example as still open.
+**Template synchronization note:** The template's worked Priya example is the earlier CP001 snapshot. This maintained audit carries later decisions, including CP004 through CP037; consult it before treating fields in that older example as still open.
 
 **Priya proposals, not confirmed:** specific reading preferences beyond library visits; participation in a writing group; unfinished manuscript; the earlier assistant-proposed flaw of over-softening criticism. CP009 confirms her content strategist role/specialization and CP010 confirms creative writing and library visits; remaining detailed duties and personal particulars still need authoring. These require selection or revision. Historical open-field lists below have been narrowed by later checkpoints; use the current confirmed CP004–CP012 sections and progress board. Priya has not been approved as a playable form or cursed source.
 
@@ -400,6 +400,12 @@ This checkpoint records design and a reported defect only; no gameplay or AI fix
 
 Design only; no implementation or gameplay test is claimed.
 
+### CP037 Well-worn size-seven flats
+
+**CONFIRMED November 16, 2026:** CP037 confirms Priya's abandoned cursed footwear is a pair of well-worn, size-seven flats. This settles flats versus heels; the player transforms into the flats themselves. The sizing system, color, material and specific wear details have not been selected. Discovery location, activation trigger and object-form lifecycle remain open.
+
+Design only; no gameplay implementation or test is claimed.
+
 ### Progress board
 
 | Review item | Current state | Next step |
@@ -482,10 +488,11 @@ Before ending a chat, leave a concrete resume point and distinguish source revie
 
 | CP035 | November 16 2026 | Collar blocks human reversion; first inanimate-object TF linked to a possession Priya left behind; detailed cast design and flexible but persona-consistent AI required; Eve security escalation reported as defect | Next: choose cursed object and discovery context; inspect Eve context/transcript before fixes |
 | CP036 | November 16 2026 | Priya left behind flats or heels that transform the player into the footwear; intended surprise relative to Erin/Michael footwear; future item outcomes will vary | Next: flats versus heels, discovery context and activation trigger |
+| CP037 | November 16 2026 | Selected well-worn, size-seven flats for Priya's abandoned cursed footwear | Next: discovery location, then activation trigger |
 
 ### New chat starter
 
-> Resume Epi-Center character design from docs/Epi-Center-Character-Design-Gap-Audit.md and docs/Priya-Shah-Character-Design.md on rebuild/1.0-foundations, current through CP036. The Library source remains at CP032, Library ID libfile_3763ef91cf6c81919ed5303c46e3d5e6. Read its current handoff and the Universal Character and Form Template before asking new questions. Priya Shah is the active design; preserve all confirmed decisions and do not repeat settled questions. Continue one unresolved question at a time, then update the same audit with decisions and the next resume point. Review current repository sources before implementation, and distinguish approved design from shipped gameplay.
+> Resume Epi-Center character design from docs/Epi-Center-Character-Design-Gap-Audit.md and docs/Priya-Shah-Character-Design.md on rebuild/1.0-foundations, current through CP037. The Library source remains at CP032, Library ID libfile_3763ef91cf6c81919ed5303c46e3d5e6. Read its current handoff and the Universal Character and Form Template before asking new questions. Priya Shah is the active design; preserve all confirmed decisions and do not repeat settled questions. Continue one unresolved question at a time, then update the same audit with decisions and the next resume point. Review current repository sources before implementation, and distinguish approved design from shipped gameplay.
 
 ---
 
