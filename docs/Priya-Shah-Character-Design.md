@@ -1,3 +1,5 @@
+> v1.0.98 publication: gameplay `47b3de06cd4c82c768c52a002970ee03f542f425` is on main/rebuild; Pages and15 changed runtime/portrait byte checks PASS; 969 automated cases plus entity assertions and18 isolated public-browser groups PASS. [Play current version](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.98) · [Daniel/Nadia/Priya owner checklist](V1.0.98-OWNER-ACCEPTANCE.md). Owner/model/native-device acceptance remains pending; no reset or Worker redeployment. Earlier candidate/deferred-publication statements below are historical.
+
 > Implementation checkpoint: the initial NPC candidate v1.0.98 is implemented/tested on rebuild only. See [scope and remaining limitations](PRIYA-NPC-IMPLEMENTATION.md). The approved portrait has been imported unchanged from the owner’s GitHub upload and verified locally. Broader future design below, including flats/cat and a universal connection resolver, is not claimed shipped.
 
 # Priya Shah Character Design

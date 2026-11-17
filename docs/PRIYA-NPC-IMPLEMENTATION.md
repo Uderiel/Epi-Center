@@ -1,6 +1,8 @@
+> v1.0.98 publication: gameplay `47b3de06cd4c82c768c52a002970ee03f542f425` is on main/rebuild; Pages and15 changed runtime/portrait byte checks PASS; 969 automated cases plus entity assertions and18 isolated public-browser groups PASS. [Play current version](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.98) · [Daniel/Nadia/Priya owner checklist](V1.0.98-OWNER-ACCEPTANCE.md). Owner/model/native-device acceptance remains pending; no reset or Worker redeployment. Earlier candidate/deferred-publication statements below are historical.
+
 # Priya initial NPC candidate · v1.0.98
 
-CP051 implementation on `rebuild/1.0-foundations`, based on `114e4223b95fd79f068f57ddc3eee68e44e79b24`. This candidate is for review before promotion to main. Published gameplay remains v1.0.97 (`bc5b8042ef9fcfdc6a7413279f09e18e0ee1b164`); latest complete entry-flow owner acceptance remains v1.0.34 with subsequent scoped acceptances preserved. No new owner acceptance or production deployment is claimed.
+CP051 implementation on `rebuild/1.0-foundations`, based on `114e4223b95fd79f068f57ddc3eee68e44e79b24`. Historical candidate scope below; v1.0.98 is now publicly verified as recorded above. Prior published baseline was v1.0.97 (`bc5b8042ef9fcfdc6a7413279f09e18e0ee1b164`); latest complete entry-flow owner acceptance remains v1.0.34 with subsequent scoped acceptances preserved. No new owner acceptance or production deployment is claimed.
 
 ## Saved checkpoint
 

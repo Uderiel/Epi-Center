@@ -1,0 +1,108 @@
+{
+  "version": "1.0.98",
+  "gameplayCommit": "47b3de06cd4c82c768c52a002970ee03f542f425",
+  "url": "https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.98",
+  "sourceChecks": [
+    {
+      "path": "rebuild/character-creation/index.html",
+      "matches": true,
+      "sha256": "3dd05d4584c131b9deb0d8be4d33822df1aef041b2f18c7d982f9c064925eff1",
+      "bytes": 13915
+    },
+    {
+      "path": "rebuild/combat/civilian-encounter.js",
+      "matches": true,
+      "sha256": "9b0a602aaac955ff71a12ea07be91a0e436e4576fe98900843fffc2388c47666",
+      "bytes": 10786
+    },
+    {
+      "path": "rebuild/hub/ai-context.js",
+      "matches": true,
+      "sha256": "7f6c3b912a6855a47bcdc4f0a87a7ac4d2ea83172cc6d14d920572019adbd98d",
+      "bytes": 21597
+    },
+    {
+      "path": "rebuild/hub/ai-ui.js",
+      "matches": true,
+      "sha256": "06c5e45182e938f71bb20dcca143932a2101128684641a683b9b103c4a5179f3",
+      "bytes": 14473
+    },
+    {
+      "path": "rebuild/hub/assets/priya-shah-approved.png",
+      "matches": true,
+      "sha256": "9eeb624f591999906691ca498f493f50b98566b4656112fffb504b5b6630a3e3",
+      "bytes": 2114271
+    },
+    {
+      "path": "rebuild/hub/department-ui.js",
+      "matches": true,
+      "sha256": "07c3c264cbec7910ea21c28a6ba39c7f70d7a2f2c60f38cee8ba4caaa0fc6fc7",
+      "bytes": 9204
+    },
+    {
+      "path": "rebuild/hub/department.js",
+      "matches": true,
+      "sha256": "2e5b297321687c71c47f678c26fc3053563d20e354b6fc4d34223a29746c162e",
+      "bytes": 22788
+    },
+    {
+      "path": "rebuild/hub/index.html",
+      "matches": true,
+      "sha256": "803c1d634735397a4c32c219e8d316a90533c3bd6f6973067adc702c200af777",
+      "bytes": 125520
+    },
+    {
+      "path": "rebuild/hub/marketing-ui.js",
+      "matches": true,
+      "sha256": "e1643c7c43dfede0f5c259f217422d365dfba9243f390a53e5ff28cd2e775c33",
+      "bytes": 8771
+    },
+    {
+      "path": "rebuild/hub/marketing.js",
+      "matches": true,
+      "sha256": "b069e3bcfb29843c7b0767bb98ca303115c72237515c8e09fde6d8c7e5351772",
+      "bytes": 23237
+    },
+    {
+      "path": "rebuild/hub/priya-ui.js",
+      "matches": true,
+      "sha256": "beb303e54a5c222c655d6b06f1ba157fe56ec252c12447e16bd4abb799df6ee6",
+      "bytes": 5160
+    },
+    {
+      "path": "rebuild/hub/priya.js",
+      "matches": true,
+      "sha256": "3df59c285298598f51ff39c69db96481c01a44018dd05240711bd934fc69828f",
+      "bytes": 18287
+    },
+    {
+      "path": "rebuild/hub/richard-ui.js",
+      "matches": true,
+      "sha256": "b918d54130a05bedcfe1f523bf7b0dd4e528dcfc5a0fcbefb16900cf2a32cb28",
+      "bytes": 15357
+    },
+    {
+      "path": "rebuild/hub/technology-center-ui.js",
+      "matches": true,
+      "sha256": "06004eb701bb8e6699ee8c497b5d007841e7c24bb5110a982826628f586596a4",
+      "bytes": 8061
+    },
+    {
+      "path": "rebuild/title-screen/index.html",
+      "matches": true,
+      "sha256": "dcf2f9a3f61633815e84c6c6bc8dcd468ff9da97e7766cc81a32e8c2c1f7ce5b",
+      "bytes": 6164
+    }
+  ],
+  "allMatched": true,
+  "scope": "Changed deployed runtime files and portrait; isolated public-browser evidence is separate.",
+  "pagesBuildId": 1376486096,
+  "pagesStatus": "built",
+  "actionsRun": 44000251527,
+  "actionsConclusion": "success",
+  "liveBrowserReport": "docs/releases/v1.0.98-live-browser-checks.json",
+  "liveBrowserChecks": 18,
+  "ownerAcceptance": "UNTESTED",
+  "paidModelQuality": "UNTESTED",
+  "nativeAndroid": "UNTESTED"
+}

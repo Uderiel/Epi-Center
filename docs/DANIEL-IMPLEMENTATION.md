@@ -1,3 +1,5 @@
+> v1.0.98 publication: gameplay `47b3de06cd4c82c768c52a002970ee03f542f425` is on main/rebuild; Pages and15 changed runtime/portrait byte checks PASS; 969 automated cases plus entity assertions and18 isolated public-browser groups PASS. [Play current version](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.98) · [Daniel/Nadia/Priya owner checklist](V1.0.98-OWNER-ACCEPTANCE.md). Owner/model/native-device acceptance remains pending; no reset or Worker redeployment. Earlier candidate/deferred-publication statements below are historical.
+
 # Daniel Mercer implementation · v1.0.95
 
 Phase 10/11 scoped work item: implement the approved Daniel character in the existing third-floor office, with early preparation, concise dialogue, product knowledge, real civilian combat and secretary-mediated appointments. This does not implement the remaining 25 staff NPCs, Crystal's casino, Applewood 4C interiors or the wider shopping/social expansion.

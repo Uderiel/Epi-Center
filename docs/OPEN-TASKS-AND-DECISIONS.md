@@ -1,3 +1,5 @@
+> v1.0.98 publication: gameplay `47b3de06cd4c82c768c52a002970ee03f542f425` is on main/rebuild; Pages and15 changed runtime/portrait byte checks PASS; 969 automated cases plus entity assertions and18 isolated public-browser groups PASS. [Play current version](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.98) · [Daniel/Nadia/Priya owner checklist](V1.0.98-OWNER-ACCEPTANCE.md). Owner/model/native-device acceptance remains pending; no reset or Worker redeployment. Earlier candidate/deferred-publication statements below are historical.
+
 ## v1.0.91 — two mastery gates, canine context and remembered routines (tested candidate)
 
 Owner reports immediate Erin mastery from55 influence after sleeping +4. Cause: v1.0.89 erroneously let Common100 progress bypass remaining influence. Restore progress100 AND influence0; saved permanent mastery remains. Common consolidation at full progress prevents routine/curse setbacks and makes failed resistance reduce remaining influence5, retaining a bounded40-attempt/20-hour worst-case active route. Existing progression, costs, natural rolls and other-rarity final rules remain.
