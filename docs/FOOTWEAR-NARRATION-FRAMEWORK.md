@@ -1,3 +1,5 @@
+Published v1.0.101, runtime `0c40a99`;1,038automated cases and46local/46public browser groups pass. See [owner checks](V1.0.101-OWNER-ACCEPTANCE.md).
+
 # Private footwear narration — v1.0.101
 
 Owner requested periodic, experiential narration of ordinary footwear sensations and explicitly excluded fungal infection. `footwear-senses.js` supplies selected, bounded observations from the live flats state and Priya’s actual activity. It does not introduce a second consciousness or give the item speech or independent movement.

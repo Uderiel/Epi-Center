@@ -1,3 +1,5 @@
+Published v1.0.101, runtime `0c40a99`;1,038automated cases and46local/46public browser groups pass. See [owner checks](V1.0.101-OWNER-ACCEPTANCE.md).
+
 # Priya Shah — Applewood Unit 2F
 
 v1.0.101 implements a bounded, playable interior after flats reversion. Owner-confirmed geometry: similar to Erin’s apartment, including a walk-in closet. Furnishings below are the implementation’s initial design draft, informed by CP051; they are not additional owner-approved biography.
