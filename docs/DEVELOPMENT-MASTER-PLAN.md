@@ -1,3 +1,7 @@
+## CP057 saved — Binding Strength and worn exposure clarification
+
+Branch `rebuild/1.0-foundations`, following CP056 `e533c91`. Owner accepts Binding Strength as the inanimate curse opponent, requests continued+5while worn at Erin's heel-exposure rate (currently hourly), and strongest recovery when unworn/left alone. Saved in dossier/audit/flats plan/combat guide. Exact next action: clarify whether that+5raises the actual Binding Strength dice modifier or a separate binding/itemization meter; do not confuse Erin's influence-meter growth with an attribute bonus. Initial numerical Binding Strength, recovery gains/modifiers and exposure after mastery remain open. No runtime change, test or deployment; published v1.0.99 and historical973 automated/21 public-browser evidence remain unchanged. True solitude remains required for final human reversion; cat/collar deferred. Commit/push this design checkpoint to rebuild only.
+
 ## CP056 saved — two object-form progression gates and true solitude
 
 Branch `rebuild/1.0-foundations`, following CP055 `9c9c680`. Owner establishes post-wearing recovery opportunities every30game minutes for inanimate-form mastery and a separate reclamation of the player's own identity/reality, rather than resisting a living form's influence. Escape requires100% mastery plus complete self-restoration. Human reversion additionally requires being truly alone, not merely unseen/unheard; a present wearer blocks it.

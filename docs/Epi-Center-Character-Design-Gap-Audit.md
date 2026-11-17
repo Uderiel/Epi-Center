@@ -1,3 +1,13 @@
+## CP057 — Binding Strength terminology and worn versus unworn progression
+
+Owner accepts **Binding Strength** as the opposing curse concept for an inanimate item, distinguishing it from a living form's Reasoning/personality. The proposed recovery contest uses original player Willpower plusd20 against the curse's Binding Strength plusd20, separately from the initial DC15 activation save. Existing natural-roll/tie semantics are the compatibility proposal; do not add an NPC consciousness to the pair. A numerical starting Binding Strength of5 was proposed earlier but has not been separately distinguished from the owner's worn+5 request.
+
+Owner says that while the player is **being worn**, they continue gaining **+5 at the same rate as Erin wearing her favorite cursed heels**. The current referenced Erin exposure is+5per game hour. The player can make the most recovery progress when **not worn and left alone**. Do not interpret this as prohibiting all worn recovery attempts, discarding earned mastery or granting automatic release. CP056's genuine-solitude gate for human reversion remains separate and mandatory.
+
+**Critical numerical distinction still open:** whether the worn+5 increases the Binding Strength **roll modifier itself**, or adds5points per hour to a separate binding/itemization-pressure progression meter. Erin's analogous increase is an influence-meter change, not+5to the opponent's Reasoning modifier. Do not silently convert meter points into dice bonuses or invent a new numeric scale. Ask the owner before implementing that mapping. Exact unworn/alone bonuses, success/failure progress, limits, decay and mastered-state exposure remain undecided.
+
+Design checkpoint only; no runtime code, new test results or deployment. Preserve separate concepts: initial activation resistance;30-minute later recovery; durable mastery; regained personal identity; curse hold/exposure; and truly-alone reversion. Cat/collar remains deferred.
+
 ## CP056 — inanimate mastery, reclaimed self and truly-alone reversion
 
 Owner establishes a distinct supplementary progression system for inanimate object forms, initially Priya's flats. After the player has been worn as the flats, eligible recovery/resistance opportunities occur every30game minutes, analogous in cadence to Erin's internal resistance. These opportunities accrue mastery and support reclaiming the player's own mental identity/will/reality. There is no separate living form consciousness whose influence must be reduced; do not relabel this as Priya's influence or copy Erin's numerical influence system without design.
