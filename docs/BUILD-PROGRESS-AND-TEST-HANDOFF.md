@@ -1,3 +1,11 @@
+## v1.0.98 — Owner-authorized public publication checkpoint
+
+The owner explicitly authorized public deployment and requested actionable self-test steps for Nadia, Daniel and Priya. Reconciled current main (including owner portrait-upload history) into the tested rebuild branch without a conflict or destructive replacement. Main will receive the tested merge by fast-forward; existing saves and unrelated legacy files remain preserved. Portrait original bytes remain unchanged.
+
+Full regression rerun: **969 named cases plus entity assertions / 51 suites**, syntax and module paths PASS. Local browser coverage expanded to the three-save title, both team leaders' actual panels/room availability, approved portraits and Priya's full existing checks. Production build/source/browser verification follows publication; do not infer deployment or owner acceptance from this prepublication note.
+
+Owner checklist and intended current entry: [Nadia, Daniel and Priya acceptance](V1.0.98-OWNER-ACCEPTANCE.md), https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.98 . Verify deployment before asking the owner to test that URL. No backend redeployment or paid inference. Unit 2F interiors/food, additional venue services, minor-briefing pushback, native Android and real-model quality remain limitations; flats/cat and new transformation/combat systems stay deferred. Exact next action: publish authorized main/rebuild commit, verify Pages and deployed runtime hashes, perform fresh isolated live-browser checks, then record evidence and give the working link plus concise expected-result tests. Preserve all prior acceptance records.
+
 ## Owner instruction — working links for every self-test request
 
 Every reply asking the owner to conduct self testing must include a working, verified playable link to the intended build, its version/commit, and concise steps with expected outcomes. A GitHub source/commit link is not a playable test link. Do not ask for testing against a candidate that is not accessible; report the access/deployment blocker first. A version query on the main Pages URL does not select an unpublished rebuild candidate.

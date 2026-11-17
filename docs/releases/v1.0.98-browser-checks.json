@@ -1,7 +1,12 @@
 {
   "version": "1.0.98",
-  "origin": "disposable localhost origin",
+  "origin": "http://127.0.0.1:8767",
+  "profile": "fresh isolated browser context; synthetic saves only",
   "checks": [
+    {
+      "name": "title exposes three usable save slots and current version",
+      "passed": true
+    },
     {
       "name": "candidate boots and preserves original resources",
       "passed": true
@@ -16,6 +21,18 @@
     },
     {
       "name": "schedule interaction advances exactly two minutes",
+      "passed": true
+    },
+    {
+      "name": "Nadia panel and approved Dart portrait load in Marketing",
+      "passed": true
+    },
+    {
+      "name": "Daniel dialogue is reachable in Sales through the existing panel",
+      "passed": true
+    },
+    {
+      "name": "NPC availability follows actual rooms for both leaders and Priya",
       "passed": true
     },
     {
