@@ -3,7 +3,7 @@
 'use strict';
 const object=(name,description,children=[],storage=false)=>({name,description,children,storage});
 const objects={
- sectional:object('Sage sectional','A generous sage sectional with rust cushions leaves space for friends to sit together. Separate storage ottomans provide footrests without built-in recliners.'),
+ sectional:object('Sage sectional','A generous soft-sage sectional with cream and oatmeal cushions leaves space for friends to sit together. Separate storage ottomans provide footrests without built-in recliners.'),
  ottomans:object('Storage ottomans','Separate upholstered footrests can sit beside the sectional while leaving the path and yoga area clear.',['ottoman-storage']),
  'ottoman-storage':object('Ottoman compartments','Lined compartments sit beneath the upholstered lids. You leave Priya’s personal contents undisturbed.',[],true),
  television:object('Television & rom-coms','A modest television faces the sectional. Her light romantic comedies favor awkward first meetings, misunderstandings, well-meant advice and the occasional airport dash.'),
@@ -14,25 +14,27 @@ const objects={
  notebook:object('Closed writing notebook','A closed notebook rests on the desk. The pages are Priya’s private writing.'),
  lighting:object('Salt lamps & crystals','Himalayan pink salt lamps and softly illuminated crystals spread a warm rose-and-amber glow, reflecting Priya’s interest in positive energy.'),
  yoga:object('Yoga space','An uncluttered patch of floor, a rolled mat and a small crystal arrangement give her morning practice room to breathe.'),
+ 'wellness-charts':object('Chakra & acupuncture charts','Soft tonal chakra and acupuncture diagrams hang in light wood frames. They express Priya’s holistic interests without bright rainbow accents or portrait displays.'),
+ 'hall-closet':object('Hallway closet','Pale wood, cream storage boxes and neatly folded neutral linens continue the apartment’s peaceful atmosphere.',[],true),
  console:object('Oak entry console','A narrow console and ceramic key dish sit beside the woven runner.',['console-drawer']),
  'console-drawer':object('Console drawer','A shallow drawer fits beneath the console. You leave its private contents in place.',[],true),
  dining:object('Dining table','A compact pale-wood table makes room for company without crowding the kitchen.'),
- cabinets:object('Cream cabinets','Cream cabinet fronts meet a muted teal backsplash.',['upper-cabinet','lower-cabinet']),
+ cabinets:object('Cream cabinets','Warm cream cabinet fronts meet a pale-stone backsplash.',['upper-cabinet','lower-cabinet']),
  'upper-cabinet':object('Upper cabinet','Shelves sit behind the upper doors. You leave Priya’s kitchen belongings in place.',[],true),
  'lower-cabinet':object('Lower cabinet','Lower storage stays separate from the clear preparation counter.',[],true),
  tea:object('Tea corner','A kettle and tea tins have their own corner of the counter.'),
- bed:object('Bed & reading corner','Ivory bedding, a moss-green throw and amber bedside lamps face a quiet reading chair.'),
+ bed:object('Bed & reading corner','Ivory bedding, a soft-sage throw and softly glowing salt lamps face a quiet reading chair.'),
  dresser:object('Bedroom dresser','A simple dresser leaves clear paths to the bathroom and walk-in closet.',['dresser-top','dresser-drawers']),
  'dresser-top':object('Dresser top','A clear surface continues the bedroom’s calm, warm palette.'),
  'dresser-drawers':object('Dresser drawers','The drawers hold Priya’s private clothing storage; no belongings are taken.',[],true),
  shower:object('Shower','Pale tile and brushed brass fittings continue the apartment’s gentle colors.'),
- basin:object('Basin & mirror','A simple basin and mirror sit beside neatly folded teal towels.'),
+ basin:object('Basin & mirror','A simple basin and mirror sit beside neatly folded cream and sage towels.'),
  'bath-storage':object('Bathroom storage','A compact shelf and cabinet keep the bathroom tidy.',[],true),
  outfits:object('Clothing rail','Draped outfits and folded clothes are arranged within easy reach.'),
  'shoe-shelf':object('Shoe shelves','Low shelves leave a clear standing area beside the footwear. The retained original flats stay at their recorded location.'),
  'closet-bench':object('Padded closet bench','A small padded bench faces the clear standing area in this walk-in closet.')
 };
-const roots={living:['sectional','ottomans','television','coffee-table','bookcase','writing-desk','lighting','yoga'],hall:['console'],kitchen:['dining','cabinets','tea'],bedroom:['bed','dresser'],bath:['shower','basin','bath-storage'],closet:['outfits','shoe-shelf','closet-bench']};
+const roots={living:['sectional','ottomans','television','coffee-table','bookcase','writing-desk','lighting','yoga'],hall:['console','wellness-charts','hall-closet'],kitchen:['dining','cabinets','tea'],bedroom:['bed','dresser'],bath:['shower','basin','bath-storage'],closet:['outfits','shoe-shelf','closet-bench']};
 function guard(s){if(!H.inside(s)||s.encounter?.active||s.world?.priyaFlats?.active)throw Error('Use these drawers while present in Priya’s apartment outside an encounter.');}
 function state(s){const h=H.state(s);let u=h.navigation;if(!u||u.room!==h.room||!Array.isArray(u.layers)||!u.layers.length)u=h.navigation={room:h.room,layers:[A.frames.frame(h.room,'room','',H.rooms[h.room].name)]};return u;}
 function current(s){return state(s).layers.at(-1);}

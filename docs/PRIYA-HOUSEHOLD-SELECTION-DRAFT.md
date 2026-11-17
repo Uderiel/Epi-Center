@@ -1,3 +1,11 @@
+## Whole-apartment palette correction — owner confirmed
+
+Owner directs a consistent holistic/crystal-energy atmosphere throughout the living room, bedroom, walk-in closet, bathroom and hallway storage. Use warm cream/ivory, oatmeal, pale stone, pale natural wood and soft sage; avoid sharp or saturated red/blue contrasts. This supersedes earlier rust cushion, teal backsplash/towel and stronger accent-color descriptions. The approved portrait remains unchanged.
+
+Hallway displays are softly printed **chakra and acupuncture charts**, not Erin-style portraits. Keep their linework/tones subdued rather than defaulting to bright rainbow chakra colors. A browsable hallway-closet fixture follows the same neutral palette; no new room geometry or household possessions are granted. These express personal spiritual/decor interests, not clinical effects or a treatment mechanic.
+
+Carry the neutral/soft palette into the approved household catalogue and coordinated wardrobe presets: replace proposed stronger rust/navy accents with taupe/stone/oatmeal alternatives where appropriate, retaining the existing approved teal/cream portrait outfit as its established reference. Exact bright contrast pieces are not to be introduced by default. This follow-up is on rebuild only, not published.
+
 ## Owner review — selection approved; distinct catalogue and wardrobe presets required
 
 Owner reviewed the selection favorably and confirms using it for the next build. Priya must have her own furniture, item placement, care products, food and wardrobe rather than copying Erin’s household. Only the general apartment connections and reusable drawer/action infrastructure are shared. Current runtime already has distinct furniture/decor; the newly approved household catalogue is not yet implemented or published.

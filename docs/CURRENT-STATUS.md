@@ -1,3 +1,7 @@
+## Neutral holistic palette and hallway charts confirmed
+
+Branch `rebuild/1.0-foundations`; parent `0167170`. Updated all six room descriptions and fixtures to soft neutral/holistic styling, with chakra/acupuncture charts and hallway closet browsing. Owner supersedes earlier high-contrast accents. See [apartment design](PRIYA-APARTMENT-DESIGN.md). No new public release; v1.0.103 functional-care/entry candidate remains on rebuild. Next: implement the approved distinct household catalogue/presets in this palette, preserve product usability, then validate and publish the consolidated build.
+
 ## Household selection approved — distinct Priya catalogue and coordinated presets
 
 Branch `rebuild/1.0-foundations`; parent `83ac024`. Owner approves the reviewed household selection and requires Priya’s apartment to feel individual rather than copying Erin’s furniture/items. General room geometry and drawer technology may be shared; belongings, placement, food, care products and clothing are distinct. Wardrobe must include developed coordinated presets and browsable individual pieces. Saved concrete work/hosting/home/yoga/jog/bedtime combinations in [household selection](PRIYA-HOUSEHOLD-SELECTION-DRAFT.md).
