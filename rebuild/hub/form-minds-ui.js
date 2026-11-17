@@ -1,6 +1,6 @@
 /* Drawers and composer share the same save-aware form action adapter. */
 function formMindSummary(){const G=EpiFormMinds,id=G.active(save);if(!id)return '';const name=id==='kibbles'?EpiKibblesForm.label(save):'Erin',m=G.mind(save,id);return '<p>'+htmlEscape(name)+' · '+(G.mastered(save,id)?'Mastered · Your intentions remain yours.':'Influence '+m.influence+'/100 · Mastery '+m.progress+'/100. Internal resistance is above the text field in Play.')+'</p>'+(id==='kibbles'?'<p>'+htmlEscape(EpiKibblesBehavior.insight(save,G.context(save)))+'</p>':'');}
-function formMindMarkup(){
+function formMindMarkup(){if(typeof EpiPriyaFlats!=='undefined'&&EpiPriyaFlats.active(save))return flatsResistanceMarkup();
  const G=EpiFormMinds,id=G.active(save),e=save.encounter;if(e?.active)return '<details class="mind-dock" id="internalResistance" data-ready="false"><summary>Internal Resistance</summary><div class="mind-body dock-content"><p>Resolve the encounter before an internal action.</p></div></details>';
  const canContinue=!save.forms?.kibbles?.mastered&&e?.outcome?.mayContinueEncasement&&!e.outcome.mastery&&!e.encasementContinued;
  if(!canContinue&&(!id||G.mastered(save,id)))return '<details class="mind-dock" id="internalResistance" data-ready="false"><summary>Internal Resistance</summary><div class="mind-body dock-content"><p>'+(id?'This form is mastered; you retain control.':'No unmastered form is present.')+'</p></div></details>';

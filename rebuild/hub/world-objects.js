@@ -4,7 +4,7 @@
 const definitions=new Map();
 function register(id,definition){if(definitions.has(id))throw Error('Duplicate object definition');definitions.set(id,definition);}
 function list(s,scope='location'){return [...definitions].flatMap(([id,d])=>d.visible(s,scope)?[{id,name:d.name(s),actions:d.actions(s),labels:d.labels||{},description:d.description||''}]:[]);}
-function act(s,id,action){if(s.encounter?.active)throw Error('Finish the encounter before interacting with world objects.');const d=definitions.get(id);if(!d||!d.visible(s,'location')&&!d.visible(s,'inventory'))throw Error('That object is not available here.');if(!d.actions(s).includes(action))throw Error('That action is not available for this object.');return d.perform(s,action);}
+function act(s,id,action){if(s.world?.priyaFlats?.active)throw Error('Your inanimate body cannot manipulate world objects.');if(s.encounter?.active)throw Error('Finish the encounter before interacting with world objects.');const d=definitions.get(id);if(!d||!d.visible(s,'location')&&!d.visible(s,'inventory'))throw Error('That object is not available here.');if(!d.actions(s).includes(action))throw Error('That action is not available for this object.');return d.perform(s,action);}
 register(E.ITEM,{
  name:E.itemName,
  visible(s,scope){const e=E.state(s);if(scope==='inventory')return ['inventory','equipped'].includes(e.heels.location);return e.heels.location==='world'?s.hub.location==='Central Hub NW'&&e.heels.discovered:e.heels.location==='closet'?E.inside(s)&&s.world.applewood.room==='closet':false;},

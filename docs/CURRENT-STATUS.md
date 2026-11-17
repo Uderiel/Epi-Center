@@ -1,3 +1,11 @@
+## CP062 runtime checkpoint — candidate unfinished
+
+Branch: `rebuild/1.0-foundations`. Parent commit: `75f20f3`; this checkpoint commit records the unfinished v1.0.101 candidate and same-space tests. No new public deployment.
+
+Implemented solitude eligibility without any workplace check. Six targeted tests pass: off-work absence, sleeping Priya present, visitor present, separate apartment, outdoor same-tile actor, and existing progression/worn gates. Full regression is currently failing in isolated HTML test harnesses that lack the new `EpiPriyaFlats` dependency; latest run is not a passing release. Full encounter and jogging integration remain under development and need lifecycle/browser verification.
+
+Exact next action: update the affected extracted-HTML test contexts for the new flats module, add complete encounter/jogging/recovery lifecycle tests, fix failures, run full regression and browser checks, then publish only the tested candidate. Keep main at v1.0.100 until those checks pass.
+
 ## CP062 correction — absence/same-space solitude, no workplace requirement
 
 Owner supersedes CP061 workplace-only gate: Priya need only be out of the apartment, with nobody else in the player’s same tile/space. No need to be at work. Actual presence, not visibility/attention, governs reversion; separate households are distinct spaces. Same shared Erin-parallel recovery numbers and100mastery/0binding gates remain. Source implementation work continues on rebuild/1.0-foundations. Exact next action: implement generic same-space presence for the bounded flats lifecycle and test both ordinary absences and present-but-unseeing actors; do not retain the narrower workplace check. No new runtime/test/deployment claim in this checkpoint.
