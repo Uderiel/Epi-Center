@@ -1,3 +1,11 @@
+## CP053 — Priya normally wears the recovered flats
+
+Owner confirms Priya would likely pick up the recovered flats and put them back on: after jogging around the park/Central Hub she does not want to keep her feet in the tennis shoes worn for the run. Normal retrieval therefore leads to changing from jogging shoes into the flats, rather than defaulting to carrying the flats in her bag. Preserve “likely” as her ordinary preference, not an unconditional action bypassing availability, access or physical restrictions.
+
+Picking up the flats, removing jogging shoes and putting on the flats are distinct physical steps when implemented. Do not equip two footwear pairs, teleport Priya, duplicate the conscious pair or invent a completed jog as part of her ordinary daily schedule. This owner decision supplies the footwear-change preference; exact return delay, legal route, location/duration of changing, jogging-shoe storage, wearing/carrying perception, and subsequent destination remain undesigned. It does not approve new senses, outward communication, escape/mastery effects or new intimacy. CP052 initial resistance/no-mid-transformation-save rule and the unnoticed disappearance remain unchanged.
+
+Design only: no runtime integration, test execution, publication or new owner gameplay acceptance. Cat/collar remains deferred.
+
 ## CP052 — approved flats activation resistance; no mid-transformation saves
 
 Owner approved one initial `1d20 + original player Willpower` against DC15 when attempting to put Priya's flats into inventory. Safe temporary pickup/examination remain unchanged. Use the existing natural1/natural20 rules and original-player attribute ownership, not equipped-form attributes. Success resists the pull and aborts acquisition: the flats remain outside inventory, with no completed transformation or acquired item. Failure commits the rapid three-stage transformation; **no resistance saves, interruptions or rerolls between stages**. No NPC/player awareness of the disappearance. This does not grant a later escape/mastery result or change the object-specific embodiment contract.
@@ -28,4 +36,4 @@ The owner clarified that “flats” means Priya Shah's cursed shoes, not apartm
 
 ## Next exact action
 
-Initial resistance is now settled. Next resolve Priya’s retrieval/handling sequence: whether she puts the flats on immediately or carries them, followed by exact timing and actual route/availability handling. Continue in dependency order using current clock, actions, world-object and NPC travel adapters. Implement only settled behavior in a bounded, testable slice; never publish a trapping encounter before its continuation/recovery contract is defined. This checkpoint executes no gameplay test or deployment.
+Initial resistance and the normal footwear-change preference are settled (CP052–CP053). Next resolve actual retrieval timing/route/availability and the physical change sequence, including where her jogging shoes go, then worn/carrying perception and escape/release. Continue in dependency order using current clock, actions, world-object and NPC travel adapters. Implement only settled behavior in a bounded, testable slice; never publish a trapping encounter before its continuation/recovery contract is defined. This checkpoint executes no gameplay test or deployment.
