@@ -1,3 +1,7 @@
+## v1.0.102 published compatibility
+
+Apartment room/object/storage navigation and rom-com media are now live at runtime `93226d6`. Flats recovery/reversion/retained-pair rules remain unchanged. Full report: [current status](CURRENT-STATUS.md). Wardrobe, personal care and dietary/snack details are the owner-reserved next-build scope.
+
 ## v1.0.101 — published and verified; implementation finished
 
 **[Play v1.0.101](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.101)**. Branch: `rebuild/1.0-foundations`; tested gameplay commit **`0c40a99d97cc85b815bc225b46b0b05b2cf3af70`** is pushed to both rebuild and main. Pages build1378858795 and [Actions run44165405715](https://github.com/Uderiel/Epi-Center/actions/runs/44165405715) succeeded. All23checked public runtime files, including the unchanged approved Priya portrait, match local tested bytes. Public runtime evidence: `docs/releases/v1.0.101-live-verification.json`.

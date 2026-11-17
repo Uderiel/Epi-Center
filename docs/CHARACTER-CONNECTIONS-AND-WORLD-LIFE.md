@@ -1,3 +1,15 @@
+## v1.0.102 — apartment update published and verified
+
+**[Play v1.0.102](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.102)**. Branch `rebuild/1.0-foundations`; gameplay commit **`93226d6f2d644f181e3d0a25bf4cb617a3bee8fa`** is pushed to rebuild and main. Pages build1378893792 and [Actions run44168376858](https://github.com/Uderiel/Epi-Center/actions/runs/44168376858) succeeded. All11checked deployed files (runtime changes since v1.0.101 plus Priya’s approved portrait) match the tested source. Evidence: `docs/releases/v1.0.102-live-verification.json`.
+
+**1,056 named automated cases plus entity assertions across57suites;52local and52public isolated Chromium groups PASS.** Syntax/module paths/whitespace PASS. Public checks verify nested storage’s single active screen, one-layer Back,1-minute opening, saved depth/results/open state, mobile bounds, rom-com viewing, existing NPCs/Erin/flats/jogging and mocked sensory AI/settings. AI quality was not paid-provider tested. Cloud browser certificate-trust workaround was required; independent byte verification used the validating HTTP client. No owner saves were accessed.
+
+All six general room designs and shared drawer navigation are implemented. Living-room choices include the larger sage sectional, separate storage ottomans, salt lamps/crystals, and the approved cozy/teasing fictional rom-com framework. Browsing/Back are free; physical examination/storage operation cost1minute; watching costs30minutes. Drawers do not award private possessions. Existing Erin/office behavior remains covered by regression.
+
+**Next build scope, explicitly reserved by owner:** wardrobe, personal-care items, and personalized dietary/snack preferences. Do not invent their contents, stock, health effects or preferences during this release. Full guest hosting/watch scheduling, household inventory/consumption and broader social outings remain deferred; ordinary visits meet at the entrance. Interior access remains available after flats reversion. Native Android, real-save owner acceptance and live Featherless prose quality remain untested; no deployment blocker remains.
+
+**Exact next action:** owner acceptance via [the v1.0.102 checklist](V1.0.102-OWNER-ACCEPTANCE.md), then design the reserved wardrobe/personal-care/food details in a consolidated next build. All relevant handoff/status/design/plan/changelog/README documents are updated. This following evidence commit changes documentation only; the gameplay commit above identifies the verified runtime. Earlier publication-pending entries are superseded.
+
 ## v1.0.102 — general apartment/drawer candidate ready to publish
 
 Branch `rebuild/1.0-foundations`; parent `e4284a8`. Owner authorizes publishing the apartment’s general design together, reserving **wardrobe, personal-care items and personalized dietary/snack preferences for the next build**. Do not invent those stocks/preferences now.

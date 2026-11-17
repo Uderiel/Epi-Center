@@ -1,0 +1,75 @@
+{
+  "version": "1.0.102",
+  "gameplayCommit": "93226d6f2d644f181e3d0a25bf4cb617a3bee8fa",
+  "url": "https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.100",
+  "sourceChecks": [
+    {
+      "path": "rebuild/character-creation/index.html",
+      "matches": true,
+      "sha256": "e8f08b90a6fa4926328252a8810294593d82e43be760b81697bf773c87926f93",
+      "bytes": 13917
+    },
+    {
+      "path": "rebuild/hub/ai-context.js",
+      "matches": true,
+      "sha256": "08aa6c894b61ff15b1b659065840733499fffde197fef39b631396307e1f1f50",
+      "bytes": 23518
+    },
+    {
+      "path": "rebuild/hub/ai-ui.js",
+      "matches": true,
+      "sha256": "45bdbc047820821e9651989b52299f1c04950d45768e6fdc974681f1ee814367",
+      "bytes": 15143
+    },
+    {
+      "path": "rebuild/hub/apartment-navigation.js",
+      "matches": true,
+      "sha256": "41a4798482f5933cc5569bb0911949e3dc80ae4eb9febc8bc538b8f05d329de3",
+      "bytes": 5811
+    },
+    {
+      "path": "rebuild/hub/assets/priya-shah-approved.png",
+      "matches": true,
+      "sha256": "9eeb624f591999906691ca498f493f50b98566b4656112fffb504b5b6630a3e3",
+      "bytes": 2114271
+    },
+    {
+      "path": "rebuild/hub/index.html",
+      "matches": true,
+      "sha256": "cc2ea3c1586eedc11ba58fb3f8421398f5e071282060c25458aa1907734f3f04",
+      "bytes": 128759
+    },
+    {
+      "path": "rebuild/hub/priya-flats-ui.js",
+      "matches": true,
+      "sha256": "e4e05e6bedfef3058bbd7e74f95e94f52a31efbe117d81eea2bd430cd2649e81",
+      "bytes": 9481
+    },
+    {
+      "path": "rebuild/hub/priya-home-navigation.js",
+      "matches": true,
+      "sha256": "91b1d2fc990a3556066989f3ae9e1e9eca6f13745a09bef24b4d1e99ad6c961d",
+      "bytes": 6980
+    },
+    {
+      "path": "rebuild/hub/priya-home.js",
+      "matches": true,
+      "sha256": "3d1b98bcf15400d3b3a083f688d1df97ba03e7bb1ff0bf9bf43cd77bba25e2ea",
+      "bytes": 6087
+    },
+    {
+      "path": "rebuild/hub/priya.js",
+      "matches": true,
+      "sha256": "477d0a23151e7212ca57f71f9a54a6392a8b439155d7563f46d8bdb32bdeb9c5",
+      "bytes": 19144
+    },
+    {
+      "path": "rebuild/title-screen/index.html",
+      "matches": true,
+      "sha256": "f344412cf9ca6a75e5fb0c015e9b7d3fb2d4f5afcbd75521705be4f320f6d180",
+      "bytes": 6166
+    }
+  ],
+  "allMatched": true,
+  "scope": "Changed deployed runtime files and portrait; isolated public-browser evidence is separate."
+}
