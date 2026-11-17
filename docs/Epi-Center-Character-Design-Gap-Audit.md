@@ -1,3 +1,9 @@
+## CP052 — approved flats activation resistance; no mid-transformation saves
+
+Owner approved one initial `1d20 + original player Willpower` against DC15 when attempting to put Priya's flats into inventory. Safe temporary pickup/examination remain unchanged. Use the existing natural1/natural20 rules and original-player attribute ownership, not equipped-form attributes. Success resists the pull and aborts acquisition: the flats remain outside inventory, with no completed transformation or acquired item. Failure commits the rapid three-stage transformation; **no resistance saves, interruptions or rerolls between stages**. No NPC/player awareness of the disappearance. This does not grant a later escape/mastery result or change the object-specific embodiment contract.
+
+Persist a resolved activation outcome so reloads/duplicate dispatch cannot reroll it or duplicate either item/player state. The policy for a later deliberate new attempt after successful resistance remains unselected; one initial roll does not invent a lifetime immunity, safe acquisition or cooldown. Action-time/resource costs are also not newly chosen. This is an approved design decision, not a runtime implementation or passed test. Cat/collar remains deferred; published gameplay remains v1.0.99.
+
 # Epi Center Character Design Gap Audit
 
 Initial review against the Universal Character and Form Template v1.0. This is a design and documentation audit, not a new gameplay release or a claim that every legacy source has been exhaustively recovered. Preserve owner-confirmed facts; identify questions rather than silently filling gaps.
