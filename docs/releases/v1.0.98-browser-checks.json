@@ -11,6 +11,10 @@
       "passed": true
     },
     {
+      "name": "approved PNG loads on desktop with full uncropped aspect ratio",
+      "passed": true
+    },
+    {
       "name": "schedule interaction advances exactly two minutes",
       "passed": true
     },
@@ -28,6 +32,10 @@
     },
     {
       "name": "360px office and composer stay within page width",
+      "passed": true
+    },
+    {
+      "name": "approved portrait fits the 360px dock without stretching",
       "passed": true
     },
     {
@@ -55,7 +63,6 @@
   "limitations": [
     "Synthetic existing-save fixture; not owner saves",
     "AI disabled; no paid model quality test",
-    "Portrait pending approved asset transfer",
     "Unit 2F interior not playable"
   ]
 }

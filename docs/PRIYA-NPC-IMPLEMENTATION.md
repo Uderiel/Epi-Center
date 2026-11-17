@@ -4,7 +4,7 @@ CP051 implementation on `rebuild/1.0-foundations`, based on `114e4223b95fd79f068
 
 ## Saved checkpoint
 
-Implementation candidate `3d05b7bd1c8ff5ce55c7418dc1cc58f56b536d85` is pushed to rebuild. The owner reconfirmed the approved Library link and supplied the inline portrait; its bytes are still unavailable to workspace tools. See the newest `CURRENT-STATUS.md` checkpoint for the exact asset-import next action and mandatory pre-thread handoff rule. No additional gameplay change or test execution is claimed by this documentation update.
+Implementation candidate `3d05b7bd1c8ff5ce55c7418dc1cc58f56b536d85` is pushed to rebuild. The owner subsequently uploaded the approved image to GitHub; exact image bytes have now been imported and verified in the rebuild candidate. See the newest `CURRENT-STATUS.md` checkpoint for the exact asset-import next action and mandatory pre-thread handoff rule. No additional gameplay change or test execution is claimed by this documentation update.
 
 ## Implemented
 
@@ -21,7 +21,7 @@ Implementation candidate `3d05b7bd1c8ff5ce55c7418dc1cc58f56b536d85` is pushed to
 
 Exact schedule times, 40% ordinary late-day selection, +1 daily listening / -3 humiliation / -20 aggression, +2 completed shared visit, acquaintance threshold +10, one invitation per identity/day, an 18:00–19:00 entrance visit with five actual shared minutes, and a check-in after multiple declined occasions are reviewable tuning defaults. They do not establish new owner-approved biography. No fixed decline count proves anger. A private introduction is familiarity, not established close friendship.
 
-**Portrait pending:** the approved image is referenced only at `https://chatgpt.com/library?file_id=libfile_5d22233c95288191bb52413270b3b132&account_id=personal`. It is absent from the repository/mounted assets, and no available connector can download that Library resource. The owner was asked to attach the exact approved image and offered to submit it. No substitute has been generated or claimed approved. The candidate displays a pending-portrait message. Transfer/import and visual verification are still required before treating the requested update as complete.
+**Approved portrait imported:** `rebuild/hub/assets/priya-shah-approved.png` is the exact 1024 × 1536 PNG recovered from owner upload commit `3456f5f`. A later rename on main produced a blank text file; the original image was recovered from Git history without changing main. Source/import blob `877965c4f9e41a1b4083f63a06785858667d7e0e` matches byte-for-byte. See `releases/v1.0.98-priya-portrait.json` for SHA-256 and provenance. The image displays proportionally without cropping or stretching. The Library reference remains historical source approval; downloadable image access is no longer a blocker.
 
 Unit 2F room graph, food inventory/cooking/eating, full hosting interiors, named friends' physical NPCs and new venue services are not implemented. Home activity descriptions are schedule intentions, not consumed meals or completed services. The limited doorstep/entrance visit is explicitly described in UI. Minor-briefing pushback requires a real authored briefing and witnessed irritation history; no automatic daily sabotage is added. Paid Featherless writing quality, native Android and owner acceptance remain untested. Eve's previously reported security escalation is unchanged by this Priya-only slice.
 
@@ -52,13 +52,13 @@ python -m http.server 8766 --bind 127.0.0.1
 node scripts/browser-priya.cjs
 ```
 
-`EPI_PREVIEW_ORIGIN` overrides the localhost URL. Runner creates a fresh isolated browser context with synthetic saves, AI off, live time paused; it never reads or writes the owner's browser slots. Evidence: `releases/v1.0.98-browser-checks.json`; mobile image: `releases/images/v1.0.98-priya-mobile.png`. **12 browser check groups PASS:** boot/resources, office dock, exact conversation timing, composer routing, two refusals, reload/other slot, 360px width, encounter entry, no acquisition on conclusion, home welcome, canonical Dev relationship control, no uncaught exceptions. Fixtures explicitly position actors for isolated interaction checks; deterministic suites verify the full legal commute and calendar. Native-device geometry and paid-model behavior are separate acceptance items.
+`EPI_PREVIEW_ORIGIN` overrides the localhost URL. Runner creates a fresh isolated browser context with synthetic saves, AI off, live time paused; it never reads or writes the owner's browser slots. Evidence: `releases/v1.0.98-browser-checks.json`; mobile image: `releases/images/v1.0.98-priya-mobile.png`. **14 browser check groups PASS:** boot/resources, office dock, exact conversation timing, composer routing, two refusals, reload/other slot, 360px width, encounter entry, no acquisition on conclusion, home welcome, canonical Dev relationship control, no uncaught exceptions, desktop image decode/aspect ratio and 360px portrait display. Fixtures explicitly position actors for isolated interaction checks; deterministic suites verify the full legal commute and calendar. Native-device geometry and paid-model behavior are separate acceptance items.
 
 During development, old UI test contexts needed the new NPC/markup dependency and a hard-coded historical script version was corrected to validate versioned loading. A new calendar test caught absent attendance-counter initialization for added participants; fixed and rerun. Initial browser fixtures left Accessible Rooms closed and attempted a friendly home visit immediately after aggression; fixtures were corrected to open the real dock and isolate the friendly scenario. These failures are not claimed passed until the final reruns.
 
 ## Candidate review before main
 
-1. Import the owner's exact approved portrait and verify it at desktop and mobile widths.
+1. Inspect the imported approved portrait at desktop and mobile widths; automated local rendering checks pass, owner acceptance remains separate.
 2. Preview the rebuild source locally. Meet Priya in Marketing H_W; open her dock and send NPC text. Confirm appearance-based recognition and concise, contextual replies.
 3. Observe a real commute, saved arrival choice, lunch, work-time records and reload. Existing resources, forms, original appearance and other slots must remain unchanged.
 4. As recognized Erin, decline one invitation twice. Confirm one further appeal and then stop; reload and retry without reopening. On a different occasion, accept and attend physically at Applewood's entrance. No fake interior/meal/date reward.

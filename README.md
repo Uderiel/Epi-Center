@@ -1,3 +1,13 @@
+## November 16, 2026 — Approved Priya portrait imported and verified
+
+**Branch:** `rebuild/1.0-foundations`; follows checkpoint `29cb850b9a66ac60c6b15edaa311d69e68400932` and implementation candidate `3d05b7bd1c8ff5ce55c7418dc1cc58f56b536d85`. This portrait follow-up is committed separately; `git log -1` identifies its revision. Candidate remains v1.0.98, not promoted to main.
+
+**Portrait blocker resolved.** Recovered the owner's exact uploaded PNG from main upload commit `3456f5f` (`rebuild/hub/assets/file_000000005b1081f6b83e1302801b8170.png`). Later main rename commit `bace8ae` had replaced it with a blank text file; the intact original remains in history. Imported the original bytes into rebuild as `rebuild/hub/assets/priya-shah-approved.png` (1024 × 1536, SHA-256 `9eeb624f591999906691ca498f493f50b98566b4656112fffb504b5b6630a3e3`). Source and imported Git blobs match exactly. No regeneration, conversion, crop or image modification. The prior inline/Library access notes below are historical and superseded for this asset.
+
+Replaced the pending-portrait message with the approved image, alt text and proportional contained display; refreshed the Priya UI cache key. Full regression rerun: **969 named automated cases plus entity assertions across 51 suites**, syntax/module paths/whitespace PASS. **14 local Chromium check groups PASS**, including actual desktop image decode, original dimensions, aspect ratio and 360px rendering. Mobile screenshot visually reviewed. Source/hash evidence: `docs/releases/v1.0.98-priya-portrait.json`; test/browser evidence and screenshots updated. No paid inference, owner acceptance or native-Android claim.
+
+**Exact next action:** review the complete rebuild candidate and owner acceptance checklist in `docs/PRIYA-NPC-IMPLEMENTATION.md`, including separate paid Featherless portrayal tests. Remaining limits: Unit 2F interior/food services, new venues, minor-briefing pushback integration and native Android. Flats, cat/collar and new transformation/combat systems stay deferred. Report results and limits before any main promotion. This follow-up does not modify main or deploy gameplay; main's two owner asset-upload commits are preserved.
+
 ## November 16, 2026 — Saved implementation checkpoint and thread handoff rule
 
 **Branch:** `rebuild/1.0-foundations`. **Implemented/tested candidate:** v1.0.98, commit `3d05b7bd1c8ff5ce55c7418dc1cc58f56b536d85`, already pushed to the same remote branch. This documentation checkpoint follows that commit; use `git log -1` for its own revision. Main has not been promoted. Latest documented published gameplay remains v1.0.97, distinct from owner acceptance.
@@ -855,7 +865,7 @@ Epi-Center multiplayer RPG prototype.
 
 | Version | Play / preview | Repository source | Status |
 |---|---|---|---|
-| **v1.0.98 — Priya NPC candidate** | Local preview of `rebuild/1.0-foundations`; not promoted | [Scope and checks](docs/PRIYA-NPC-IMPLEMENTATION.md) | 969 automated cases + entity assertions; 12 local browser groups PASS; approved portrait transfer pending; no owner/model acceptance |
+| **v1.0.98 — Priya NPC candidate** | Local preview of `rebuild/1.0-foundations`; not promoted | [Scope and checks](docs/PRIYA-NPC-IMPLEMENTATION.md) | 969 automated cases + entity assertions; 14 local browser groups PASS; approved portrait imported unchanged; no owner/model acceptance |
 | **v1.0.86 — third-floor rooms and equipment work** | **[Open v1.0.86](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.86)** | [Floor scope](docs/THIRD-FLOOR-WORKPLACE-EXPANSION.md) | 775 automated cases PASS; publication/browser/owner acceptance tracked separately |
 | **v1.0.85 — layered Richard office objects** | **[Open v1.0.85](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.85)** | [Office G](docs/RICHARD-OFFICE-G.md) | 750 automated cases PASS; publication/browser/owner retest tracked separately |
 | **v1.0.84 — direct Work task view** | **[Open v1.0.84](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.84)** | [Office workflow](docs/OFFICE-WORKFLOW.md) | Published/source verified; 745 automated cases + 16 recorded live check groups PASS; owner retest pending |

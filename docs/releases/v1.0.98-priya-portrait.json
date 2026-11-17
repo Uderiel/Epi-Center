@@ -1,0 +1,14 @@
+{
+  "asset": "rebuild/hub/assets/priya-shah-approved.png",
+  "format": "PNG",
+  "width": 1024,
+  "height": 1536,
+  "bytes": 2114271,
+  "sha256": "9eeb624f591999906691ca498f493f50b98566b4656112fffb504b5b6630a3e3",
+  "sourceCommit": "3456f5f",
+  "sourcePath": "rebuild/hub/assets/file_000000005b1081f6b83e1302801b8170.png",
+  "sourceBlob": "877965c4f9e41a1b4083f63a06785858667d7e0e",
+  "importedBlob": "877965c4f9e41a1b4083f63a06785858667d7e0e",
+  "transformation": "None; original bytes preserved. PNG extension restored.",
+  "mainChangedByThisFollowup": false
+}
