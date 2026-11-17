@@ -1,3 +1,7 @@
+## Living-room media extension — unpublished
+
+Optional AI narration can receive an explicit fictional rom-com summary and actual local guest-presence records. Approved tone is cozy and lightly teasing. No invented watchers, guest reactions, intimacy or relationship rewards; movie fiction is not a world event. Moving/leaving Unit2F invalidates late scene prose. See [apartment design](PRIYA-APARTMENT-DESIGN.md).
+
 Published v1.0.101, runtime `0c40a99`;1,038automated cases and46local/46public browser groups pass. See [owner checks](V1.0.101-OWNER-ACCEPTANCE.md).
 
 # Private footwear narration — v1.0.101

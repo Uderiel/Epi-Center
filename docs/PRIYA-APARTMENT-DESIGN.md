@@ -1,3 +1,11 @@
+## Living-room follow-up — confirmed ottomans and shared-viewing tone
+
+Owner confirms **separate storage ottomans** with the larger sectional, and approves cozy, lightly teasing rom-com narration. The short Priya/Erin example uses the familiar missed-explanation/airport clichés; it is illustrative dialogue, not a recorded visit or a command to insert those exact lines repeatedly.
+
+Implemented on rebuild only: Watch a rom-com in the living room, with30game-minute segments, saved generic fictional story beats, explicit viewing context for optional AI expansion and no automatic guests/reactions or relationship reward. The film’s characters remain fictional on-screen figures, distinct from world NPCs. Only real presence records identify guests; being present does not mean watching. Ordinary interior hosting/NPC watch scheduling is still deferred. Storage ottomans remain descriptive furniture, not a new item-storage system.
+
+Validation:1,046named automated cases plus entity assertions across56suites PASS;47local isolated browser groups PASS, including the actual watch button and existing flats/NPC/AI regression. Reports use `living-room-design-candidate-*` names so published v1.0.101 evidence remains unchanged. No paid-model check, new public deployment or main promotion for this follow-up. Public game remains v1.0.101 with runtime `0c40a99`.
+
 ## Confirmed living-room lighting
 
 Owner requests an enthusiastic crystal/positive-energy aesthetic: Himalayan pink salt lamps, softly lit crystal displays and warm rose/amber accent light, including near the yoga area. This is Priya’s personal spiritual/decor preference, not a health, purification or mechanical buff claim. Crystal types/counts and exact lamp positions remain unspecified. Keep the larger sectional/footrests and clear circulation. Source description updated on rebuild only; public v1.0.101 remains unchanged.
@@ -15,7 +23,7 @@ v1.0.101 implements a bounded, playable interior after flats reversion. Owner-co
 | Room | Connected rooms | Interior direction |
 | --- | --- | --- |
 | Entry hall | Living, bedroom, exterior door | Warm cream, narrow oak console, woven runner, ceramic key dish |
-| Living room | Hall, kitchen/dining | Large sage sectional with footrests, rust cushions, oak table, modest television, fantasy books and romcoms, window writing desk, pink salt lamps, illuminated crystals, rolled yoga mat and clear practice space |
+| Living room | Hall, kitchen/dining | Large sage sectional with separate storage ottomans, rust cushions, oak table, modest television, fantasy books and romcoms, window writing desk, pink salt lamps, illuminated crystals, rolled yoga mat and clear practice space |
 | Kitchen/dining | Living | Cream cabinets, pale wood, muted teal backsplash, compact dining table, kettle and tea corner |
 | Bedroom | Hall, bathroom, closet | Ivory bedding, moss throw, amber lamps, simple dresser and reading chair |
 | Bathroom | Bedroom | Pale tile, brushed brass, teal towels, shower, basin and mirror |

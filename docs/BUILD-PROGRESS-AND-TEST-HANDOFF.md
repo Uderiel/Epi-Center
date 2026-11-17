@@ -1,3 +1,13 @@
+## Living-room follow-up — confirmed ottomans and shared-viewing tone
+
+Owner confirms **separate storage ottomans** with the larger sectional, and approves cozy, lightly teasing rom-com narration. The short Priya/Erin example uses the familiar missed-explanation/airport clichés; it is illustrative dialogue, not a recorded visit or a command to insert those exact lines repeatedly.
+
+Implemented on rebuild only: Watch a rom-com in the living room, with30game-minute segments, saved generic fictional story beats, explicit viewing context for optional AI expansion and no automatic guests/reactions or relationship reward. The film’s characters remain fictional on-screen figures, distinct from world NPCs. Only real presence records identify guests; being present does not mean watching. Ordinary interior hosting/NPC watch scheduling is still deferred. Storage ottomans remain descriptive furniture, not a new item-storage system.
+
+Validation:1,046named automated cases plus entity assertions across56suites PASS;47local isolated browser groups PASS, including the actual watch button and existing flats/NPC/AI regression. Reports use `living-room-design-candidate-*` names so published v1.0.101 evidence remains unchanged. No paid-model check, new public deployment or main promotion for this follow-up. Public game remains v1.0.101 with runtime `0c40a99`.
+
+Next: complete living-room design and publish it as a separate validated interior update.
+
 ## v1.0.101 — published and verified; implementation finished
 
 **[Play v1.0.101](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.101)**. Branch: `rebuild/1.0-foundations`; tested gameplay commit **`0c40a99d97cc85b815bc225b46b0b05b2cf3af70`** is pushed to both rebuild and main. Pages build1378858795 and [Actions run44165405715](https://github.com/Uderiel/Epi-Center/actions/runs/44165405715) succeeded. All23checked public runtime files, including the unchanged approved Priya portrait, match local tested bytes. Public runtime evidence: `docs/releases/v1.0.101-live-verification.json`.

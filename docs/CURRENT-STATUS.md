@@ -1,3 +1,13 @@
+## Living-room media candidate saved — unpublished
+
+Branch `rebuild/1.0-foundations`; parent `16a6c9c`. Owner confirms **separate storage ottomans** with the larger sectional, and approves cozy, lightly teasing rom-com narration. The short Priya/Erin example uses the familiar missed-explanation/airport clichés; it is illustrative dialogue, not a recorded visit or a command to insert those exact lines repeatedly.
+
+Implemented on rebuild only: Watch a rom-com in the living room, with30game-minute segments, saved generic fictional story beats, explicit viewing context for optional AI expansion and no automatic guests/reactions or relationship reward. The film’s characters remain fictional on-screen figures, distinct from world NPCs. Only real presence records identify guests; being present does not mean watching. Ordinary interior hosting/NPC watch scheduling is still deferred. Storage ottomans remain descriptive furniture, not a new item-storage system.
+
+Validation:1,046named automated cases plus entity assertions across56suites PASS;47local isolated browser groups PASS, including the actual watch button and existing flats/NPC/AI regression. Reports use `living-room-design-candidate-*` names so published v1.0.101 evidence remains unchanged. No paid-model check, new public deployment or main promotion for this follow-up. Public game remains v1.0.101 with runtime `0c40a99`.
+
+Exact next action: continue owner-led living-room layout/details, then consolidate/version and publish the interior follow-up after validation. Do not claim the draft is already on the public game or invent interior guest attendance.
+
 ## Living-room lighting follow-up
 
 Branch `rebuild/1.0-foundations`; parent `0d7289a`. Confirmed Himalayan pink salt lamps, illuminated crystals and warm rose/amber positive-energy ambience. Updated apartment source description/design and character contract. Verified module loads and description contains the confirmed lamp/crystal details; no mechanics changed. Previous sectional checkpoint passed 38 flats/schedule cases. Public remains v1.0.101 at `0c40a99`; these interior-design follow-ups are not deployed. Next action: continue room placement/details, then validate and publish the consolidated interior update. Footrest style remains unchosen.

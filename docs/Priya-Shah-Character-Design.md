@@ -1,3 +1,11 @@
+## Living-room follow-up — confirmed ottomans and shared-viewing tone
+
+Owner confirms **separate storage ottomans** with the larger sectional, and approves cozy, lightly teasing rom-com narration. The short Priya/Erin example uses the familiar missed-explanation/airport clichés; it is illustrative dialogue, not a recorded visit or a command to insert those exact lines repeatedly.
+
+Implemented on rebuild only: Watch a rom-com in the living room, with30game-minute segments, saved generic fictional story beats, explicit viewing context for optional AI expansion and no automatic guests/reactions or relationship reward. The film’s characters remain fictional on-screen figures, distinct from world NPCs. Only real presence records identify guests; being present does not mean watching. Ordinary interior hosting/NPC watch scheduling is still deferred. Storage ottomans remain descriptive furniture, not a new item-storage system.
+
+Validation:1,046named automated cases plus entity assertions across56suites PASS;47local isolated browser groups PASS, including the actual watch button and existing flats/NPC/AI regression. Reports use `living-room-design-candidate-*` names so published v1.0.101 evidence remains unchanged. No paid-model check, new public deployment or main promotion for this follow-up. Public game remains v1.0.101 with runtime `0c40a99`.
+
 ## Living-room follow-up — confirmed spiritual accent lighting
 
 Owner requests Himalayan pink salt lamps and crystal-focused positive-energy lighting. Implement warm rose/amber ambience and softly lit crystal displays as a personal preference, with no asserted medical effect or game buff. Room circulation and yoga space remain clear.
