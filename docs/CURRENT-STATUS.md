@@ -1,3 +1,9 @@
+## Owner instruction — working links for every self-test request
+
+Every reply asking the owner to conduct self testing must include a working, verified playable link to the intended build, its version/commit, and concise steps with expected outcomes. A GitHub source/commit link is not a playable test link. Do not ask for testing against a candidate that is not accessible; report the access/deployment blocker first. A version query on the main Pages URL does not select an unpublished rebuild candidate.
+
+Current implementation/portrait candidate: `rebuild/1.0-foundations`, `1cb0b01010d05cbc6a4808383e95af47d5d2b76f`. Previous verification: 969 named automated cases plus entity assertions and 14 local Chromium check groups PASS. This documentation-only checkpoint runs whitespace checks, not gameplay tests. Candidate remains unpromoted; do not present main's v1.0.97 link as a test of Priya. Next: establish and verify access to the intended candidate before asking for owner acceptance testing; preserve the requirement to report limits before main promotion.
+
 ## November 16, 2026 — Approved Priya portrait imported and verified
 
 **Branch:** `rebuild/1.0-foundations`; follows checkpoint `29cb850b9a66ac60c6b15edaa311d69e68400932` and implementation candidate `3d05b7bd1c8ff5ce55c7418dc1cc58f56b536d85`. This portrait follow-up is committed separately; `git log -1` identifies its revision. Candidate remains v1.0.98, not promoted to main.
