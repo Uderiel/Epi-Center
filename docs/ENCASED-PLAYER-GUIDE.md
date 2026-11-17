@@ -1,3 +1,13 @@
+## CP056 — inanimate mastery, reclaimed self and truly-alone reversion
+
+Owner establishes a distinct supplementary progression system for inanimate object forms, initially Priya's flats. After the player has been worn as the flats, eligible recovery/resistance opportunities occur every30game minutes, analogous in cadence to Erin's internal resistance. These opportunities accrue mastery and support reclaiming the player's own mental identity/will/reality. There is no separate living form consciousness whose influence must be reduced; do not relabel this as Priya's influence or copy Erin's numerical influence system without design.
+
+Escape requires **100% mastery AND fully restored personal identity/self/reality**. The second track's final name, scale, starting value, exact increments, roll rules, costs, failure effects, and whether the two tracks change on the same action remain unselected. “Selfhood” is a possible concise label, not an owner-approved field name or100-point numerical contract. Do not infer a new stat allocation, independent NPC personality or additional consciousness in the shoes.
+
+Even after both progression conditions are met, voluntary human reversion is permitted only when the object-form player is **truly alone: no one else is around**. It is not enough that present people look away, cannot see/hear the player, are unaware of consciousness, or have their eyes closed. A present wearer therefore prevents human reversion regardless of awareness. Do not perform automatic mid-wear escape or substitute an observer-perception roll. This is an explicit spatial/presence gate, separate from earned mastery and self-restoration. Exact nearby-area/distance boundary, adjacent-room handling, nonhuman beings and remote observation still require definition; no global-world emptiness rule or invented detector is implied.
+
+Open bookkeeping: when the first30-minute opportunity starts relative to first wearing; whether later off-foot time remains eligible; explicit action/automatic opportunity UI; earned progress persistence and duplicate/reload protections; final reversion placement, belongings and paired-object lifecycle. CP052's single activation save and no mid-transformation resistance remain unchanged: these later recovery attempts occur after the object transformation, not during its three stages. No new runtime, tests, deployment or owner gameplay acceptance is claimed. Cat/collar remains deferred.
+
 # Internal awareness and escape — player supplement
 
 If Kibbles wins, full encasement can continue from Play. You remain aware inside a canine body. Kibbles communicates through scent, feeling, imagery, posture and sounds, not human speech.

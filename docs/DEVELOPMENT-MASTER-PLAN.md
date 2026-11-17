@@ -1,3 +1,9 @@
+## CP056 saved — two object-form progression gates and true solitude
+
+Branch `rebuild/1.0-foundations`, following CP055 `9c9c680`. Owner establishes post-wearing recovery opportunities every30game minutes for inanimate-form mastery and a separate reclamation of the player's own identity/reality, rather than resisting a living form's influence. Escape requires100% mastery plus complete self-restoration. Human reversion additionally requires being truly alone, not merely unseen/unheard; a present wearer blocks it.
+
+Saved in dossier/audit/flats plan and relevant combat/encasement guides. Second track name/scale/initial values, rolls/costs/gains/failure rules, off-foot eligibility and exact nearby-presence boundary remain undecided. Exact next action: define that supplementary track and resolution, then the solitude scope/reversion lifecycle. No runtime change, test execution or public deployment; v1.0.99 remains live with its historical973 automated/21 live-browser evidence. Preserve owner-testing status, saves and CP052 no-mid-transformation-save rule. Cat/collar deferred. Commit/push design checkpoint to rebuild only.
+
 ## CP055 saved — jogging4minutes and2Stamina per outdoor tile
 
 Branch `rebuild/1.0-foundations`, following CP054 `28d31d4`. Owner approved standard jogging as a separate mode:4game minutes/2Stamina per adjacent outdoor move. Walking remains8minutes; sprinting and other costs remain unselected. Priya's full eight-park circuit is therefore32minutes/16Stamina, concretizing the earlier approximate30-minute weekend discovery window. Her subsequent homeward travel uses walking speed. Saved in time rules, combat guide, dossier/audit and flats plan.
