@@ -2,6 +2,10 @@
 
 CP051 implementation on `rebuild/1.0-foundations`, based on `114e4223b95fd79f068f57ddc3eee68e44e79b24`. This candidate is for review before promotion to main. Published gameplay remains v1.0.97 (`bc5b8042ef9fcfdc6a7413279f09e18e0ee1b164`); latest complete entry-flow owner acceptance remains v1.0.34 with subsequent scoped acceptances preserved. No new owner acceptance or production deployment is claimed.
 
+## Saved checkpoint
+
+Implementation candidate `3d05b7bd1c8ff5ce55c7418dc1cc58f56b536d85` is pushed to rebuild. The owner reconfirmed the approved Library link and supplied the inline portrait; its bytes are still unavailable to workspace tools. See the newest `CURRENT-STATUS.md` checkpoint for the exact asset-import next action and mandatory pre-thread handoff rule. No additional gameplay change or test execution is claimed by this documentation update.
+
 ## Implemented
 
 - Priya Shah, adult content strategist (`priya` / `npc:priya`, marketing-01), appears in Marketing H_W, the room interaction dock and NPC composer only through actual presence. Her approved relative age/range is preserved without inventing an absolute age.
