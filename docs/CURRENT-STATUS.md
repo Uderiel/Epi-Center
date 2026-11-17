@@ -1,3 +1,9 @@
+## CP055 saved — jogging4minutes and2Stamina per outdoor tile
+
+Branch `rebuild/1.0-foundations`, following CP054 `28d31d4`. Owner approved standard jogging as a separate mode:4game minutes/2Stamina per adjacent outdoor move. Walking remains8minutes; sprinting and other costs remain unselected. Priya's full eight-park circuit is therefore32minutes/16Stamina, concretizing the earlier approximate30-minute weekend discovery window. Her subsequent homeward travel uses walking speed. Saved in time rules, combat guide, dossier/audit and flats plan.
+
+No runtime changes, new tests or deployment claimed; published gameplay remains v1.0.99, with historical973 automated/21 public-browser checks applying to that NPC/cubicle build only. Exact next action: settle exact weekend jog start and insufficient-Stamina/current-body eligibility behavior, then implement the shared jogging action/time/resource path alongside the bounded flats lifecycle once its continuation rules are complete. Cat/collar deferred; preserve all saves and distinguish design approval from implementation. Commit/push this checkpoint to rebuild only.
+
 ## CP054 saved — weekend jog and flats discovery/retrieval sequence
 
 Branch `rebuild/1.0-foundations`, following CP053 commit `21e8e45`. Owner's final schedule is Saturday/Sunday mornings within06:00–07:00: visible Priya jog around the Hub/Spire loop for about30minutes, with flats discoverable/available by the NE bench during that30-minute period. After jogging she heads home, notices the missing shoes after the first northward trip (about8minutes), returns legally and normally puts them on. Earlier evening times are superseded. No awareness/alarm about the transformed player disappearing.

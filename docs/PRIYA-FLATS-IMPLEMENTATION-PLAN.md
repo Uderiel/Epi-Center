@@ -1,3 +1,11 @@
+## CP055 — approved outdoor jogging pace and Stamina cost
+
+Owner approved a distinct jogging travel mode: **4game minutes and2Stamina per adjacent outdoor tile traversed**. Walking remains8game minutes per move; no new walking cost, sprinting pace/cost or recovery rate was chosen. Apply jogging through the existing canonical body-resource/action/time systems when implemented; do not use a display-only deduction or grant a new pool.
+
+Priya's full eight-park outer circuit around the Spire now resolves to **32game minutes and16Stamina**, returning to the starting park. This is the concrete “about30minutes” jog/discovery duration under CP054; it does not extend the item window to the entire06:00–07:00 frame. She returns to walking speed for the homeward trip after jogging, including the roughly8-minute first northward edge before noticing the loss, and follows an actual legal return route. Her default behavior after retrieval remains changing into the flats (CP053). The precise jog start within the weekend morning frame is still unselected.
+
+Remaining implementation decisions: jogging eligibility for different current bodies, insufficient-Stamina handling, explicit player controls, no partial/double charge on blocked routes or reload, schedule conflicts and event recurrence. Costs/time are per completed legal tile; transaction validation and duplicate protection must use shared systems. This approval does not introduce combat sprinting, universal movement powers, new physical-needs rates or automatic stamina healing. Cat/collar remains deferred. Design approved and recorded; jogging runtime integration/tests/deployment not claimed.
+
 ## CP054 — weekend morning jog, discovery window and return trigger
 
 Owner's final selection supersedes the tentative evening times: **Saturday and Sunday mornings, within06:00–07:00**, not17:30–18:30 or18:30–19:00. Priya visibly jogs around the Central Hub loop surrounding the Spire for about30 game minutes. Her flats have dropped from her bag by the NE park bench and are discoverable/available for the player during that30-minute jogging period. The entire06:00–07:00 frame does not imply a60-minute item window. Safe pickup/examination and attempted-inventory curse activation remain unchanged.
@@ -38,7 +46,7 @@ The owner clarified that “flats” means Priya Shah's cursed shoes, not apartm
 ## Unresolved mechanics; resolve before their runtime implementation
 
 1. Initial resistance is approved in CP052 above. Still settle any later deliberate retry after successful resistance and exact action-time/resource costs; duplicate dispatch/reload cannot reroll a resolved attempt.
-2. CP054 fixes the weekend06:00–07:00 frame,30-minute jog/discovery period and homebound first-north-edge realization/return. Still choose the exact start and reconcile a real jogging route/pace, scheduler interruptions and unavailable/blocked return cases.
+2. CP054 fixes the weekend06:00–07:00 frame,30-minute jog/discovery period and homebound first-north-edge realization/return. CP055 now sets jogging4minutes/2Stamina per tile: the full eight-park circuit is32minutes/16Stamina. Still choose the exact start and resolve scheduler interruptions and unavailable/blocked return cases.
 3. Handling, carrying, wearing/storage and sensory occlusion; location/ownership references for a single conscious pair.
 4. Object-form time/needs/capabilities, retained possessions and saves; protect against inventory duplication and player-state overwrite.
 5. Internal escape, release, mastery and any persistent ownership/control outcome; no automatic living-form mastery analogy.
@@ -46,4 +54,4 @@ The owner clarified that “flats” means Priya Shah's cursed shoes, not apartm
 
 ## Next exact action
 
-Initial resistance, footwear-change preference and weekend event sequence are settled (CP052–CP054). Next settle the exact jog start and reconcile its30-minute route/pace with existing graph travel; then resolve held-item/window expiry, physical changing/storage, worn perception and escape/release. Continue in dependency order using current clock, actions, world-object and NPC travel adapters. Implement only settled behavior in a bounded, testable slice; never publish a trapping encounter before its continuation/recovery contract is defined. This checkpoint executes no gameplay test or deployment.
+Initial resistance, footwear-change preference and weekend event sequence are settled (CP052–CP054). Jogging pace/cost and the32-minute full loop are now settled by CP055. Next settle the exact jog start, insufficient-Stamina/capability handling and real retrieval route, then held-item/window expiry, physical changing/storage, worn perception and escape/release. Continue in dependency order using current clock, actions, world-object and NPC travel adapters. Implement only settled behavior in a bounded, testable slice; never publish a trapping encounter before its continuation/recovery contract is defined. This checkpoint executes no gameplay test or deployment.
