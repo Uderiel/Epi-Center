@@ -1,3 +1,11 @@
+## Next build — friend access confirmed; household selection drafted for review
+
+Branch `rebuild/1.0-foundations`; parent `f89ac30`. Owner confirms normal permission-based apartment visits/exploration for Priya’s friends, including **Maya Bennett, Lena Ortiz and Erin Lillard**, without flats/cat prerequisites. Friendship and a mutually chosen friend relationship do not require the future cat arrangement. Cat proposal remains optional future content for the already-designed excessively forward/vulgar romantic approach, not an automatic gate or punishment. Perceived identity, actual presence, private belongings and consent remain separate.
+
+Owner requests a concrete wardrobe/personal-care/food/snack selection **for review**, to revise before implementation. Saved [household selection draft](PRIYA-HOUSEHOLD-SELECTION-DRAFT.md), with practical capsule clothing/shoes, care products, herbal scent notes and ordinary tea/snack preferences. These are proposals, not approved stock, diet, character routines or gameplay effects. Cat systems remain deferred; no runtime change or new test/deployment result in this checkpoint.
+
+Public remains verified v1.0.102, runtime `93226d6`, with1,056automated cases and52public-browser groups. Exact next action: owner reviews the draft; then implement permission-based guest entry first, followed by approved drawer contents and stock using existing systems. Do not claim ordinary interior access is already shipped.
+
 ## v1.0.102 — apartment update published and verified
 
 **[Play v1.0.102](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.102)**. Branch `rebuild/1.0-foundations`; gameplay commit **`93226d6f2d644f181e3d0a25bf4cb617a3bee8fa`** is pushed to rebuild and main. Pages build1378893792 and [Actions run44168376858](https://github.com/Uderiel/Epi-Center/actions/runs/44168376858) succeeded. All11checked deployed files (runtime changes since v1.0.101 plus Priya’s approved portrait) match the tested source. Evidence: `docs/releases/v1.0.102-live-verification.json`.
