@@ -1,3 +1,9 @@
+## Household selection approved — distinct Priya catalogue and coordinated presets
+
+Branch `rebuild/1.0-foundations`; parent `83ac024`. Owner approves the reviewed household selection and requires Priya’s apartment to feel individual rather than copying Erin’s furniture/items. General room geometry and drawer technology may be shared; belongings, placement, food, care products and clothing are distinct. Wardrobe must include developed coordinated presets and browsable individual pieces. Saved concrete work/hosting/home/yoga/jog/bedtime combinations in [household selection](PRIYA-HOUSEHOLD-SELECTION-DRAFT.md).
+
+This checkpoint records approval/design only. Existing v1.0.103 care/friend-entry code remains tested at1,074automated cases and59local browser groups; no new runtime/test/publication claim. Public is still v1.0.102. Exact next action: implement the approved Priya-owned household catalogue and functional care/finite-stock actions, preserve existing wardrobe/footwear ownership, then rerun full checks and publish the consolidated next build. Do not ask for approval of the same selection again unless the scope changes materially.
+
 ## v1.0.103 next-build candidate — care products and friend entry tested, unpublished
 
 Branch `rebuild/1.0-foundations`; parent `fd389a4`. Owner requires actual usable care supplies and narrative references, including Erin’s previously inert shampoo/conditioner. Implemented available-product showering, saved explicit next-wash selection, hair projection/application records, persistent bath-only additives and pillow preparation, actual towel/oral/toilet supply use, and private AI care context. Existing bathing durations, resources and care caps remain. [Product-use contract](HOUSEHOLD-PRODUCT-USE-CONTRACT.md).

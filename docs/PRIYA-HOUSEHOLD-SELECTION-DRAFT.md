@@ -1,10 +1,31 @@
+## Owner review — selection approved; distinct catalogue and wardrobe presets required
+
+Owner reviewed the selection favorably and confirms using it for the next build. Priya must have her own furniture, item placement, care products, food and wardrobe rather than copying Erin’s household. Only the general apartment connections and reusable drawer/action infrastructure are shared. Current runtime already has distinct furniture/decor; the newly approved household catalogue is not yet implemented or published.
+
+Wardrobe must be as developed and browsable as Erin’s, including coordinated presets and individual pieces. Initial approved-draft combinations to implement:
+
+| Preset | Coordinated pieces |
+| --- | --- |
+| Teal work | Approved teal draped blouse + cream wide-leg trousers |
+| Ivory work | Ivory draped blouse + navy wide-leg trousers |
+| Rust work | Muted rust wrap-style top + charcoal trousers |
+| Casual hosting / evening | Sage midi dress + oatmeal cardigan; sandals where appropriate |
+| At home | Cotton lounge trousers + loose top |
+| Yoga | Yoga leggings + breathable exercise top |
+| Jogging | Jogging clothes + light zip jacket + existing jogging sneakers |
+| Bedtime | Soft cotton lounge basics, with ordinary private underlayers |
+
+Existing flats/alternate-work-shoe rotation remains authoritative; outfit presets must not duplicate the original cursed pair or silently replace a currently worn object body. Exact daytime outfit selection should use recorded dressing actions rather than changing clothing remotely. These are Priya’s own wardrobe records, not player inventory rewards. Guest access and private possessions stay distinct.
+
+Functional care remains mandatory: each approved usable product needs an actual action, saved effect/history and narrative context, following the tested Erin shower correction. Foods require actual saved stock, not dialogue-generated servings. This approval authorizes implementation; it does not mean those household actions have already shipped.
+
 ## Functional-use requirement confirmed
 
 Owner requires every usable care product to have an actual saved action and narrative/dialogue reference, including Erin’s existing shampoo/conditioner. The care/entry candidate is tested separately; proposed Priya product contents below remain for review, not approved stock. See [care-use contract](HOUSEHOLD-PRODUCT-USE-CONTRACT.md).
 
 # Priya’s household — selection for owner review
 
-Status: proposed selection, not approved inventory and not implemented. Base public version: v1.0.102. Owner requested a concrete draft that can be revised, with routine detail useful to ordinary guests and eventual pet/footwear viewpoints. Cat gameplay remains deferred.
+Historical draft status: proposed selection. The owner approval above supersedes the review-pending status; implementation is still outstanding. Base public version: v1.0.102. Owner requested a concrete draft that can be revised, with routine detail useful to ordinary guests and eventual pet/footwear viewpoints. Cat gameplay remains deferred.
 
 ## Confirmed access contract
 
