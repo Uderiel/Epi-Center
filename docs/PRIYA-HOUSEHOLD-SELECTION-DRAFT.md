@@ -1,3 +1,7 @@
+## Functional-use requirement confirmed
+
+Owner requires every usable care product to have an actual saved action and narrative/dialogue reference, including Erin’s existing shampoo/conditioner. The care/entry candidate is tested separately; proposed Priya product contents below remain for review, not approved stock. See [care-use contract](HOUSEHOLD-PRODUCT-USE-CONTRACT.md).
+
 # Priya’s household — selection for owner review
 
 Status: proposed selection, not approved inventory and not implemented. Base public version: v1.0.102. Owner requested a concrete draft that can be revised, with routine detail useful to ordinary guests and eventual pet/footwear viewpoints. Cat gameplay remains deferred.

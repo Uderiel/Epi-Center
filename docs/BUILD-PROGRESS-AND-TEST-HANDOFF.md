@@ -1,3 +1,13 @@
+## v1.0.103 next-build candidate — care products and friend entry tested, unpublished
+
+Branch `rebuild/1.0-foundations`; parent `fd389a4`. Owner requires actual usable care supplies and narrative references, including Erin’s previously inert shampoo/conditioner. Implemented available-product showering, saved explicit next-wash selection, hair projection/application records, persistent bath-only additives and pillow preparation, actual towel/oral/toilet supply use, and private AI care context. Existing bathing durations, resources and care caps remain. [Product-use contract](HOUSEHOLD-PRODUCT-USE-CONTRACT.md).
+
+Also implements previously approved permission-based ordinary friend entry: Ask to visit while Priya is truly home/awake, then Enter Unit2F. Permission is identity-bound, expires for entry, and closes when leaving. All connected rooms are accessible to the invited guest; Priya dialogue uses her actual home-room presence. No flats, cat or romance requirement. Lena/Maya friend identity policy is included without inventing full NPC lives or spawning visitors. Registered future forms must actually be presented; mere ownership/display names cannot borrow recognition. Cat systems remain deferred.
+
+Verification: **1,074named automated cases plus entity assertions across59suites;59local isolated browser groups PASS**. Actual item buttons,12-minute shower/products/receipts/private context/reload, normal friend permission/entry/dialogue/exit, old drawers/flats/NPC/AI behavior, syntax/module paths and whitespace pass. No public103deployment or owner-save/paid-provider test claimed. Public remains verified v1.0.102 at runtime `93226d6`.
+
+Priya’s [wardrobe/personal-care/food selection](PRIYA-HOUSEHOLD-SELECTION-DRAFT.md) remains **a proposal for owner review**; no new proposed household stock/preferences were silently implemented. Exact next action: review/adjust that concrete selection, implement approved contents through functional drawer/use actions, then consolidate and publish the tested next build. Current care/entry candidate is committed safely; do not mistake it for the public game.
+
 ## Next build — friend access confirmed; household selection drafted for review
 
 Branch `rebuild/1.0-foundations`; parent `f89ac30`. Owner confirms normal permission-based apartment visits/exploration for Priya’s friends, including **Maya Bennett, Lena Ortiz and Erin Lillard**, without flats/cat prerequisites. Friendship and a mutually chosen friend relationship do not require the future cat arrangement. Cat proposal remains optional future content for the already-designed excessively forward/vulgar romantic approach, not an automatic gate or punishment. Perceived identity, actual presence, private belongings and consent remain separate.
