@@ -1,0 +1,81 @@
+{
+  "version": "1.0.99",
+  "gameplayCommit": "aa4e0cd19a50e35b75ac0c2a68b2d5c6537a1e15",
+  "url": "https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.99",
+  "sourceChecks": [
+    {
+      "path": "rebuild/character-creation/index.html",
+      "matches": true,
+      "sha256": "900271310c7d8afc591f4852af2fd84f66f06604340f707946ac0b58ef795f3d",
+      "bytes": 13915
+    },
+    {
+      "path": "rebuild/hub/department-ui.js",
+      "matches": true,
+      "sha256": "ab6666e5a7e200f10bdaf45d3239fa61f94c449c0a7f51d74c4891d0eddeacfa",
+      "bytes": 9269
+    },
+    {
+      "path": "rebuild/hub/department.js",
+      "matches": true,
+      "sha256": "9848411d3e199f1b3c28aaf69c6692298940deee538d02c4bb09056c6f275f89",
+      "bytes": 22889
+    },
+    {
+      "path": "rebuild/hub/index.html",
+      "matches": true,
+      "sha256": "50c28ba70b31175b31651282a6ac16e5a390b82ff0c6827f4370b5fc18b8ccd8",
+      "bytes": 125520
+    },
+    {
+      "path": "rebuild/hub/marketing-ui.js",
+      "matches": true,
+      "sha256": "dd446b1a47881231cc2113797eddefb4386226652bb6f69de30b59be9fffa62e",
+      "bytes": 8846
+    },
+    {
+      "path": "rebuild/hub/marketing.js",
+      "matches": true,
+      "sha256": "f9c29ba1ab4380a81a356f94b5728e6fb5e307e89d639e4af25b1013302e4600",
+      "bytes": 23343
+    },
+    {
+      "path": "rebuild/hub/office-floor-ui.js",
+      "matches": true,
+      "sha256": "38dbc4e5f628acf0b8480ca850255738da99b42a29408b89f83f2b6af112b74a",
+      "bytes": 6324
+    },
+    {
+      "path": "rebuild/hub/office-floor.js",
+      "matches": true,
+      "sha256": "c5841d34d766228e1d709fb6754ba955e15f32bb7135edf1d1edb09b9153d361",
+      "bytes": 32321
+    },
+    {
+      "path": "rebuild/hub/priya-ui.js",
+      "matches": true,
+      "sha256": "1ac27e6fd2baffbc51b92e7b611e1c396b64c2b5fb86f060d6b5a658dcc4c55c",
+      "bytes": 5233
+    },
+    {
+      "path": "rebuild/hub/priya.js",
+      "matches": true,
+      "sha256": "bc95025d07396e8fa7a7a881880155cc77a03c8771a1405f9053e9cfd9a75926",
+      "bytes": 18392
+    },
+    {
+      "path": "rebuild/title-screen/index.html",
+      "matches": true,
+      "sha256": "0f4658268f238c643f90f03302e6526d400c58a735b796bea379008bd23f2153",
+      "bytes": 6164
+    }
+  ],
+  "allMatched": true,
+  "scope": "Changed deployed runtime files and portrait; isolated public-browser evidence is separate.",
+  "pagesBuildId": 1377414806,
+  "actionsRun": 44057136957,
+  "actionsConclusion": "success",
+  "liveBrowserChecks": 21,
+  "liveBrowserReport": "docs/releases/v1.0.99-live-browser-checks.json",
+  "ownerAcceptance": "UNTESTED"
+}

@@ -1,3 +1,11 @@
+## v1.0.99 — numbered cubicles published and live verified
+
+[Play v1.0.99](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.99). Gameplay `aa4e0cd19a50e35b75ac0c2a68b2d5c6537a1e15` is on main and rebuild. Pages [run44057136957](https://github.com/Uderiel/Epi-Center/actions/runs/44057136957) succeeded; all11 changed deployed runtime files match tested source. **973 named automated cases plus entity assertions, syntax/module paths/whitespace, and21 local plus21 isolated public-browser check groups PASS.** No paid model call or native-device acceptance is claimed.
+
+Player-facing areas are Sales Cubicles (east) and Marketing Cubicles (west); H/H_W remain internal keys. Both fixture layouts now show fourteen individual cubicles in two columns: Daniel is Sales1 top left; Priya is Marketing1 top left; Nadia is Marketing2 top right. Remaining numeric positions use the left-to-right seven-row display. Old bay/leaf IDs still load with free Back navigation and unchanged NPC state/resources. No additional staff identities, permissions, rewards or combat mechanics were added.
+
+Relevant status/handoff/plan/changelog/README, workplace and three-character notes, active task log and [current owner checklist](V1.0.99-OWNER-ACCEPTANCE.md) are updated. Next exact owner check: weekday workday → Accessible Rooms → the department's cubicle layout; confirm fourteen entries and the three named top-row desks. Open each assigned available character from that cubicle; check mobile two-column order and reload. Use the current playable link above; report PASS/FAIL/UNTESTED without resetting saves. Live source/browser reports are in `docs/releases/v1.0.99-live-verification.json` and `docs/releases/v1.0.99-live-browser-checks.json`. Remaining apartment/venue and deferred flats/cat/transformation work is unchanged.
+
 ## v1.0.99 — owner-confirmed individual cubicle layout correction
 
 Owner confirms fourteen cubicles per Sales/Marketing side: east Sales cubicle1 top left is Daniel Mercer; west Marketing cubicle1 top left is Priya Shah, cubicle2 top right is Nadia Voss. Numbering is left-to-right from the top in seven rows of two. H/H_W are stable internal department keys, never intended as player cubicle names. The earlier eight paired workstation bays were an implementation default and are superseded.
