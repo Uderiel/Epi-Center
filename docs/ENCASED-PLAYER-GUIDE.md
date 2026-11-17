@@ -1,3 +1,13 @@
+## CP058 — Item-binding is the influence-parallel meter
+
+Owner explicitly names the inanimate influence-parallel track **Item-binding**. The player already knows they are an item; this measures the curse's binding of the person to that object state, not a mistaken belief about physical appearance or the influence of a separate personality.
+
+**While worn, add5Item-binding meter points per game hour**, parallel to Erin's cursed-heel influence exposure. These are **meter points, not a+5dice modifier**. Keep **Binding Strength** as the separate opposed-roll rating used by the curse. No starting rating or relationship between meter level and dice bonus is approved by this naming/mapping decision.
+
+Reconcile prior CP056 self-restoration concept through this influence-parallel Item-binding track rather than silently introducing both Item-binding and a third mandatory Selfhood meter. “Selfhood” was an assistant-suggested name, not approved. High binding represents greater curse hold; the owner's intended recovery is reclaiming mental will/reality. Initial meter level, numeric range, exact escape threshold, resistance reductions, failure increases and unworn/alone bonuses still require decisions. Do not yet claim that Item-binding0is formally selected simply because Erin uses influence0.
+
+Existing decisions remain:100%mastery plus complete restoration required for escape; final human reversion only when truly alone;30-minute recovery opportunities after first wearing; greatest progress unworn/left alone; single DC15 activation save and uninterrupted rapid three-stage transformation. This clarification approves no runtime code, new tests or deployment. Cat/collar remains deferred.
+
 ## CP056 — inanimate mastery, reclaimed self and truly-alone reversion
 
 Owner establishes a distinct supplementary progression system for inanimate object forms, initially Priya's flats. After the player has been worn as the flats, eligible recovery/resistance opportunities occur every30game minutes, analogous in cadence to Erin's internal resistance. These opportunities accrue mastery and support reclaiming the player's own mental identity/will/reality. There is no separate living form consciousness whose influence must be reduced; do not relabel this as Priya's influence or copy Erin's numerical influence system without design.
