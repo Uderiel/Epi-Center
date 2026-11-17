@@ -1,3 +1,9 @@
+## CP064 — retained flats, safe placement and walk-in closet
+
+Owner confirms the original physical flats remain after human reversion. Temporary player transformation does not consume or erase the shoes; release must not delete them or create another player consciousness. The preserved human body reappears safely beside the flats. If the closet cannot safely accommodate the restored body, place the player just outside it in the adjoining space, applying the existing actual-space solitude gate to that destination as well. Priya has a walk-in closet, with an apartment room layout broadly similar to Erin’s. This establishes the design layout; a complete playable apartment interior is not claimed by this checkpoint.
+
+These decisions resolve CP063 placement and physical-pair aftermath questions. Reverse the three initial transformation stages, preserve original belongings and history, and leave the ordinary flats at their actual location after release. Runtime placement, retained-pair representation and presentation still require implementation and lifecycle tests.
+
 ## CP063 — reverse-stage human reversion
 
 Owner directs final reversion to follow the initial transformation in exactly the opposite direction: reverse stage 3, then 2, then 1, restoring the preserved pre-curse human state and belongings. Existing gates remain: 100% mastery, 0 Item-binding, unworn and nobody else in the actual shared space. This checkpoint records the sequence direction only; exact restored-body placement and whether the original physical flats remain afterward are not newly decided here. Runtime release currently restores state immediately; reverse-stage presentation remains to implement and test.

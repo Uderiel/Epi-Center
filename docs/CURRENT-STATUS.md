@@ -1,3 +1,7 @@
+## CP064 — final reversion placement and retained pair confirmed
+
+Branch `rebuild/1.0-foundations`; parent `ce88757`. Original flats remain after release; restored human appears safely beside them, outside the closet if necessary. Priya has a walk-in closet and an apartment layout similar to Erin’s. CP063 placement/aftermath questions are now resolved. Documentation checkpoint only: no new runtime checks or deployment. Candidate remains unfinished; prior six solitude checks pass, full regression and browser checks remain outstanding. Exact next action: implement reverse-stage release, persistent original shoes and safe destination placement (including destination solitude), then finish encounter/recovery tests and resolve regression failures before publishing.
+
 ## CP063 — reverse reversion sequence confirmed
 
 Branch `rebuild/1.0-foundations`; parent checkpoint `f716d39`. Owner confirms human reversion reverses the original three transformation stages. Documentation-only decision; no new automated or browser checks, no new deployment. Full candidate remains unfinished with six passing targeted solitude tests and outstanding full regression failures described below. Next: integrate reverse-stage presentation with preserved human state, settle body placement and physical-pair aftermath, then continue lifecycle and regression fixes.
