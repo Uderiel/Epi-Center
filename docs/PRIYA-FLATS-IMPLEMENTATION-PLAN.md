@@ -1,3 +1,13 @@
+## CP054 — weekend morning jog, discovery window and return trigger
+
+Owner's final selection supersedes the tentative evening times: **Saturday and Sunday mornings, within06:00–07:00**, not17:30–18:30 or18:30–19:00. Priya visibly jogs around the Central Hub loop surrounding the Spire for about30 game minutes. Her flats have dropped from her bag by the NE park bench and are discoverable/available for the player during that30-minute jogging period. The entire06:00–07:00 frame does not imply a60-minute item window. Safe pickup/examination and attempted-inventory curse activation remain unchanged.
+
+After the jog, Priya starts heading home. The owner describes one northward travel step, approximately the existing8game minutes, after which she recognizes that her flats are missing. She turns back and follows the legal route to retrieve them, then normally changes out of her jogging tennis shoes into the recovered flats (CP053). Retrieval is linked to her actual jogging/departure/realization sequence; it is not an arbitrary immediate NPC teleport after transformation. The transformed player's disappearance still causes no NPC/player alarm or security event.
+
+The precise30-minute jog start inside06:00–07:00 remains unselected; do not silently claim06:00–06:30 as approved. Recover the existing graph for the homebound north edge and bench return. A complete eight-edge peripheral walk at the current8minutes/edge exceeds30minutes; exact jogging route/pace therefore needs reconciliation rather than changing global travel rates or claiming a full loop already fits. Preserve actual visible presence and route progress. This is an authored weekend event, not proof of an already completed run or an everyday jogging habit.
+
+Further open lifecycle cases: holding the flats when the discovery window ends; successful-resistance retries; Priya's handling of a safely held/untransformed pair; footwear storage and worn perception; recurrence without duplicate shoes or a second conscious pair; escape/release/mastery. No new resolution to these cases is implied. Cat/collar remains deferred. Design checkpoint only: no runtime integration, tests or deployment.
+
 ## CP053 — Priya normally wears the recovered flats
 
 Owner confirms Priya would likely pick up the recovered flats and put them back on: after jogging around the park/Central Hub she does not want to keep her feet in the tennis shoes worn for the run. Normal retrieval therefore leads to changing from jogging shoes into the flats, rather than defaulting to carrying the flats in her bag. Preserve “likely” as her ordinary preference, not an unconditional action bypassing availability, access or physical restrictions.
@@ -28,7 +38,7 @@ The owner clarified that “flats” means Priya Shah's cursed shoes, not apartm
 ## Unresolved mechanics; resolve before their runtime implementation
 
 1. Initial resistance is approved in CP052 above. Still settle any later deliberate retry after successful resistance and exact action-time/resource costs; duplicate dispatch/reload cannot reroll a resolved attempt.
-2. Exact Priya retrieval timing, scheduler interruption, route/availability checks and what happens when she cannot arrive.
+2. CP054 fixes the weekend06:00–07:00 frame,30-minute jog/discovery period and homebound first-north-edge realization/return. Still choose the exact start and reconcile a real jogging route/pace, scheduler interruptions and unavailable/blocked return cases.
 3. Handling, carrying, wearing/storage and sensory occlusion; location/ownership references for a single conscious pair.
 4. Object-form time/needs/capabilities, retained possessions and saves; protect against inventory duplication and player-state overwrite.
 5. Internal escape, release, mastery and any persistent ownership/control outcome; no automatic living-form mastery analogy.
@@ -36,4 +46,4 @@ The owner clarified that “flats” means Priya Shah's cursed shoes, not apartm
 
 ## Next exact action
 
-Initial resistance and the normal footwear-change preference are settled (CP052–CP053). Next resolve actual retrieval timing/route/availability and the physical change sequence, including where her jogging shoes go, then worn/carrying perception and escape/release. Continue in dependency order using current clock, actions, world-object and NPC travel adapters. Implement only settled behavior in a bounded, testable slice; never publish a trapping encounter before its continuation/recovery contract is defined. This checkpoint executes no gameplay test or deployment.
+Initial resistance, footwear-change preference and weekend event sequence are settled (CP052–CP054). Next settle the exact jog start and reconcile its30-minute route/pace with existing graph travel; then resolve held-item/window expiry, physical changing/storage, worn perception and escape/release. Continue in dependency order using current clock, actions, world-object and NPC travel adapters. Implement only settled behavior in a bounded, testable slice; never publish a trapping encounter before its continuation/recovery contract is defined. This checkpoint executes no gameplay test or deployment.

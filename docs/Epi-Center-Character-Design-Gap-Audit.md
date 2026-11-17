@@ -1,3 +1,13 @@
+## CP054 — weekend morning jog, discovery window and return trigger
+
+Owner's final selection supersedes the tentative evening times: **Saturday and Sunday mornings, within06:00–07:00**, not17:30–18:30 or18:30–19:00. Priya visibly jogs around the Central Hub loop surrounding the Spire for about30 game minutes. Her flats have dropped from her bag by the NE park bench and are discoverable/available for the player during that30-minute jogging period. The entire06:00–07:00 frame does not imply a60-minute item window. Safe pickup/examination and attempted-inventory curse activation remain unchanged.
+
+After the jog, Priya starts heading home. The owner describes one northward travel step, approximately the existing8game minutes, after which she recognizes that her flats are missing. She turns back and follows the legal route to retrieve them, then normally changes out of her jogging tennis shoes into the recovered flats (CP053). Retrieval is linked to her actual jogging/departure/realization sequence; it is not an arbitrary immediate NPC teleport after transformation. The transformed player's disappearance still causes no NPC/player alarm or security event.
+
+The precise30-minute jog start inside06:00–07:00 remains unselected; do not silently claim06:00–06:30 as approved. Recover the existing graph for the homebound north edge and bench return. A complete eight-edge peripheral walk at the current8minutes/edge exceeds30minutes; exact jogging route/pace therefore needs reconciliation rather than changing global travel rates or claiming a full loop already fits. Preserve actual visible presence and route progress. This is an authored weekend event, not proof of an already completed run or an everyday jogging habit.
+
+Further open lifecycle cases: holding the flats when the discovery window ends; successful-resistance retries; Priya's handling of a safely held/untransformed pair; footwear storage and worn perception; recurrence without duplicate shoes or a second conscious pair; escape/release/mastery. No new resolution to these cases is implied. Cat/collar remains deferred. Design checkpoint only: no runtime integration, tests or deployment.
+
 ## CP053 — Priya normally wears the recovered flats
 
 Owner confirms Priya would likely pick up the recovered flats and put them back on: after jogging around the park/Central Hub she does not want to keep her feet in the tennis shoes worn for the run. Normal retrieval therefore leads to changing from jogging shoes into the flats, rather than defaulting to carrying the flats in her bag. Preserve “likely” as her ordinary preference, not an unconditional action bypassing availability, access or physical restrictions.
