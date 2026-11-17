@@ -1,3 +1,5 @@
+> Implementation checkpoint: the initial NPC candidate v1.0.98 is implemented/tested on rebuild only. See [scope and remaining limitations](PRIYA-NPC-IMPLEMENTATION.md). The approved portrait still requires asset transfer. Broader future design below, including flats/cat and a universal connection resolver, is not claimed shipped.
+
 # Character connections and world life
 Design contract · CP051 · November 16, 2026. Not implemented or deployed.
 

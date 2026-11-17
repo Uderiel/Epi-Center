@@ -1,3 +1,11 @@
+## v1.0.98 — Priya initial NPC tested candidate (not promoted)
+
+CP051 NPC slice implemented using current office navigation, department minute/calendar pipeline, civilian combat, NPC composer and Featherless adapters. Additive per-slot state preserves original character/forms/resources; visible identity gates friendship and private context. Saved lateness, real work minutes, bounded relationship/invitation history and actual entrance visits are integrated. Cursed flats, cat/collar and new transformation/combat systems remain deferred.
+
+Final verification: **969 named automated cases plus entity assertions / 51 suites**, syntax/module paths/whitespace and **12 local Chromium check groups PASS**. Evidence: docs/releases/v1.0.98-tests.json and docs/releases/v1.0.98-browser-checks.json. AI backend tests use mocks; no paid inference. Approved portrait is **pending owner asset transfer** (Library link inaccessible to available tools); the UI explicitly marks it pending. Unit 2F interior/food services, new venues, minor-briefing pushback integration, native Android and owner/model acceptance remain limitations. See [implementation, defaults and review checklist](docs/PRIYA-NPC-IMPLEMENTATION.md).
+
+Candidate targets `rebuild/1.0-foundations` only; main/Pages remain the documented v1.0.97 baseline. Existing full entry-flow acceptance v1.0.34 and later scoped passes remain distinct from publication and this candidate's tests. Next: import/verify the exact approved portrait, review the candidate and paid-model behavior, report remaining limits before any main promotion. No production deployment or new owner acceptance claimed.
+
 ## v1.0.97 — published and live verified
 
 [Play v1.0.97](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.97). Gameplay commit `bc5b8042ef9fcfdc6a7413279f09e18e0ee1b164` is on main and rebuild/1.0-foundations. The owner explicitly approved push/publication, resolving the earlier approval block. Published tree exactly matches tested local tree `d2187244a274468dee68ac99ef3ce887a7ec6c9e`. Pages run43636016544 succeeded; all eight changed deployed runtime files byte-match tested source. A fresh run passed **944 named automated cases plus entity assertions**, syntax, module paths and whitespace.
@@ -833,6 +841,7 @@ Epi-Center multiplayer RPG prototype.
 
 | Version | Play / preview | Repository source | Status |
 |---|---|---|---|
+| **v1.0.98 — Priya NPC candidate** | Local preview of `rebuild/1.0-foundations`; not promoted | [Scope and checks](docs/PRIYA-NPC-IMPLEMENTATION.md) | 969 automated cases + entity assertions; 12 local browser groups PASS; approved portrait transfer pending; no owner/model acceptance |
 | **v1.0.86 — third-floor rooms and equipment work** | **[Open v1.0.86](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.86)** | [Floor scope](docs/THIRD-FLOOR-WORKPLACE-EXPANSION.md) | 775 automated cases PASS; publication/browser/owner acceptance tracked separately |
 | **v1.0.85 — layered Richard office objects** | **[Open v1.0.85](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.85)** | [Office G](docs/RICHARD-OFFICE-G.md) | 750 automated cases PASS; publication/browser/owner retest tracked separately |
 | **v1.0.84 — direct Work task view** | **[Open v1.0.84](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.84)** | [Office workflow](docs/OFFICE-WORKFLOW.md) | Published/source verified; 745 automated cases + 16 recorded live check groups PASS; owner retest pending |
