@@ -1,3 +1,5 @@
+> CP060 universal advantage/disadvantage helper and Erin integration are implemented/tested/live in v1.0.100. Flats-specific progression/lifecycle and jogging remain design only. See CURRENT-STATUS.md for publication evidence and the exact next action.
+
 ## CP060 / v1.0.100 — universal two-d20 advantage implemented
 
 Owner approved universal d20 advantage/disadvantage: advantage rolls2d20and keeps the higher natural die; disadvantage keeps the lower. It is not a flat modifier. Normal rolls still use1d20; original attributes and genuine numerical modifiers are added after selecting the die. Existing natural1/natural20and opposed tie rules inspect the selected die. Future explicitly advantaged/disadvantaged d20rolls use the same shared helper.

@@ -1,0 +1,63 @@
+{
+  "version": "1.0.100",
+  "gameplayCommit": "c3ba13021623b3440de8ed41e481b6eed69b1863",
+  "url": "https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.100",
+  "sourceChecks": [
+    {
+      "path": "rebuild/character-creation/index.html",
+      "matches": true,
+      "sha256": "cbe367f4036ede2ec15cfde72e0a5fce4743cea010ba1fc13436bcd1c7aca75e",
+      "bytes": 13917
+    },
+    {
+      "path": "rebuild/combat/engine.js",
+      "matches": true,
+      "sha256": "34ffcd8d0ca35d23923b8053ec35cd57eb9c289664e0f87ee4d65c398cc10f39",
+      "bytes": 9845
+    },
+    {
+      "path": "rebuild/hub/erin-work.js",
+      "matches": true,
+      "sha256": "b62dfa5787bc440011e3973c35fa3f2be28695652bcb468f663136e3201c9c5b",
+      "bytes": 2689
+    },
+    {
+      "path": "rebuild/hub/form-minds-ui.js",
+      "matches": true,
+      "sha256": "7c2a02ca4ba238870637f1eca583e8843308f18ee6ce9ba8d1f1150568b71532",
+      "bytes": 10935
+    },
+    {
+      "path": "rebuild/hub/form-minds.js",
+      "matches": true,
+      "sha256": "13b664092f61d7398484a890f35a3bbb4e6da4ccf20e994f7310486a79dde2d6",
+      "bytes": 21367
+    },
+    {
+      "path": "rebuild/hub/index.html",
+      "matches": true,
+      "sha256": "b992a5cfc7f4be87efc5af166dc6d043839922f43f59c18eaebef5376c7bc926",
+      "bytes": 125599
+    },
+    {
+      "path": "rebuild/hub/internal-mastery.js",
+      "matches": true,
+      "sha256": "76fde4ad7a00ad9dd977942a67094d470ecd58c3661d0a0f1a8aec5ea8b19a78",
+      "bytes": 6433
+    },
+    {
+      "path": "rebuild/title-screen/index.html",
+      "matches": true,
+      "sha256": "aa848fd6d63388bc435780d47710d4804dd1049c126943b966914722884ca04b",
+      "bytes": 6166
+    }
+  ],
+  "allMatched": true,
+  "scope": "Universal d20 mode helper and Erin contextual influence resistance; flats/jogging remain unimplemented design.",
+  "pagesBuildId": 1377513531,
+  "actionsRun": 44064157205,
+  "actionsConclusion": "success",
+  "liveBrowserChecks": 25,
+  "liveBrowserReport": "docs/releases/v1.0.100-live-browser-checks.json",
+  "ownerAcceptance": "UNTESTED"
+}
