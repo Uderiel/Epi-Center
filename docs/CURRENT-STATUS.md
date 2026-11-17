@@ -1,3 +1,9 @@
+## Priya's cursed flats — design work resumed alongside owner testing
+
+The owner clarified that “flats” refers to Priya Shah's cursed shoes, not housing; the other character name was corrected to Priya. Reviewed CP037–CP041 and saved a bounded continuation plan in [PRIYA-FLATS-IMPLEMENTATION-PLAN.md](PRIYA-FLATS-IMPLEMENTATION-PLAN.md). Safe pickup/examination, attempted-inventory activation, near-instant object transformation, shared pair awareness and later Priya retrieval are settled. Activation resistance, exact retrieval/handling, escape/release/mastery and object lifecycle still require decisions; do not invent them.
+
+Current branch `rebuild/1.0-foundations`; existing published gameplay checkpoint `aa4e0cd19a50e35b75ac0c2a68b2d5c6537a1e15` (v1.0.99), evidence checkpoint `8ac243c`. Existing973 automated cases and21 public-browser groups are prior evidence, not rerun here. No runtime changes, new test PASS, deployment or owner acceptance claimed. Owner NPC/cubicle testing remains pending; cat/collar remains deferred. Exact next action: resolve whether the curse completes automatically or permits a resistance save, then record the answer and proceed through retrieval and escape design. Commit this design checkpoint to rebuild; do not promote it as new gameplay.
+
 ## v1.0.99 — numbered cubicles published and live verified
 
 [Play v1.0.99](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.99). Gameplay `aa4e0cd19a50e35b75ac0c2a68b2d5c6537a1e15` is on main and rebuild. Pages [run44057136957](https://github.com/Uderiel/Epi-Center/actions/runs/44057136957) succeeded; all11 changed deployed runtime files match tested source. **973 named automated cases plus entity assertions, syntax/module paths/whitespace, and21 local plus21 isolated public-browser check groups PASS.** No paid model call or native-device acceptance is claimed.
