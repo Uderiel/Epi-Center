@@ -1,3 +1,15 @@
+## v1.0.102 — general apartment/drawer candidate ready to publish
+
+Branch `rebuild/1.0-foundations`; parent `e4284a8`. Owner authorizes publishing the apartment’s general design together, reserving **wardrobe, personal-care items and personalized dietary/snack preferences for the next build**. Do not invent those stocks/preferences now.
+
+Implements the confirmed large sage sectional, separate storage ottomans, pink salt lamps/crystals and approved cozy/teasing rom-com tone. Watch records30-minute fictional segments without inventing guest participation. All six rooms have general descriptions and browsable fixtures. Priya reuses Erin’s saved frame/push/pop helpers and existing dock/scroll-state styling: one active room/object/storage layer, free browsing/Back,1-minute examination/storage operation, saved nested depth/results/open state, connected room movement and the existing Layout drawer. Existing Erin and office behavior remains covered by regression.
+
+Validation: **1,056 named automated cases plus entity assertions across57suites;52local isolated browser groups PASS**. Syntax/module paths/whitespace PASS. Reports: `docs/releases/v1.0.102-tests.json` and `docs/releases/v1.0.102-browser-checks.json`. Owner checklist: [v1.0.102 acceptance](V1.0.102-OWNER-ACCEPTANCE.md). Publication/source/live checks follow this checkpoint; no completed public102claim yet.
+
+Limits: ordinary home visits remain at the entrance; full guest hosting/NPC watch scheduling, actual household/furniture inventories, wardrobe, personal care, food/snacks, broader social outings and cat/collar are deferred. Private storage viewing does not grant items or expose private writing. Existing saves are additive and preserved. Native Android, real owner saves and paid Featherless prose quality remain untested.
+
+Exact next action: commit/push candidate to rebuild, publish the tested source to main, verify Pages bytes and run public-browser checks, then update this status with deployment evidence. Next build begins with the owner’s wardrobe/personal-care/dietary-preference design work after acceptance.
+
 ## Living-room follow-up — confirmed ottomans and shared-viewing tone
 
 Owner confirms **separate storage ottomans** with the larger sectional, and approves cozy, lightly teasing rom-com narration. The short Priya/Erin example uses the familiar missed-explanation/airport clichés; it is illustrative dialogue, not a recorded visit or a command to insert those exact lines repeatedly.

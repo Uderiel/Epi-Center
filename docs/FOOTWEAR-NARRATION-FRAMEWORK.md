@@ -1,3 +1,7 @@
+## v1.0.102 media and drawer compatibility
+
+Rom-com viewing supplies explicit fictional story beats and actual recorded guest engagement to optional narration. Cozy/lightly teasing tone is owner-approved. Drawer browsing does not create actions or possessions through prose. Existing private footwear cadence/solitude/recovery rules remain unchanged. Wardrobe, personal care and dietary/snack preferences remain next-build design scope.
+
 ## Living-room media extension — unpublished
 
 Optional AI narration can receive an explicit fictional rom-com summary and actual local guest-presence records. Approved tone is cozy and lightly teasing. No invented watchers, guest reactions, intimacy or relationship rewards; movie fiction is not a world event. Moving/leaving Unit2F invalidates late scene prose. See [apartment design](PRIYA-APARTMENT-DESIGN.md).
