@@ -1,3 +1,7 @@
+## v1.0.101 compatibility
+
+Priya’s object adapter reuses the Common internal-action and cursed-exposure reducers with Item-binding terminology, original Willpower versus Binding Strength6, selected-die advantage/disadvantage, unchanged costs and30-minute cadence. No additional identity meter or independent object mind. Final release also requires actual solitude, independent of employment. See [implementation](PRIYA-FLATS-IMPLEMENTATION-PLAN.md) and [narration boundaries](FOOTWEAR-NARRATION-FRAMEWORK.md).
+
 # Internal mastery — discussion proposal, November 1, 2026
 
 Status: owner requested an objective recommendation. This is NOT an approved numerical ruleset or implemented gameplay. Current published gameplay remains v1.0.51. Track ENC-01, REST-13, REST-16 and KB-01/02 in the active log. Historical Erin testing is retained; new mastery tests must extend that coverage, not imply it was absent.

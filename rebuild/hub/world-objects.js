@@ -13,7 +13,7 @@ register(E.ITEM,{
 });
 register('applewood-3c',{
  name:()=> 'Unit 3C · Erin’s apartment door',
- visible:(s,scope)=>scope==='location'&&s.hub.location===E.ENTRANCE&&!E.inside(s),
+ visible:(s,scope)=>scope==='location'&&s.hub.location===E.ENTRANCE&&!E.inside(s)&&!s.world?.priyaHome?.inside,
  actions:()=>['examine','enter'],
  perform(s,a){s.world.examined||={};s.world.examined[E.ENTRANCE]=true;if(a==='examine'){s.world.applewood.doorExamined=true;return 'The apartment directory lists Unit 3C, Erin’s apartment. Its private door is closed. You can attempt entry; an eligible transformed body is required.';}return E.enter(s);}
 });

@@ -1,0 +1,20 @@
+/* Unit 2F: shared apartment geometry, independently authored furnishings. */
+(function(r,f){const n=typeof module==='object'&&module.exports,a=f(n?require('./erin-restoration'):r.EpiErin,n?require('../combat/kibbles-form'):r.EpiKibblesForm);if(n)module.exports=a;else r.EpiPriyaHome=a;})(globalThis,function(E,F){
+'use strict';
+const descriptions={
+ hall:['Entry Hall','Warm cream walls, a narrow oak console and a woven runner make a small, welcoming entry. A ceramic dish holds ordinary keys. The front door opens onto the shared corridor.'],
+ living:['Living Room','A sage sofa, rust-colored cushions and a low oak table face a modest television. Fantasy novels and romantic comedies share a bookcase. A writing desk beside the window holds a closed notebook; personal pages stay private. A rolled yoga mat rests beside an uncluttered patch of floor.'],
+ kitchen:['Kitchen & Dining','Cream cabinets, pale wood and a muted teal backsplash surround a compact dining table. Tea tins and a kettle have their own corner. A clear counter leaves room for preparing a meal.'],
+ bedroom:['Bedroom','Warm ivory bedding, a moss-green throw and soft amber lamps make the room quiet. A simple dresser and a reading chair leave clear paths to the bathroom and walk-in closet.'],
+ bath:['Bathroom','Pale tile, brushed brass fittings and neatly folded teal towels continue the calm palette. A shower, basin and mirror fit the apartment’s existing room arrangement.'],
+ closet:['Walk-in Closet','Soft lighting falls across hanging draped outfits, folded clothing and low shoe shelves. A small padded bench faces a clear standing area beside the footwear. This is a walk-in closet, not a cramped cupboard.']};
+const rooms=Object.freeze(Object.fromEntries(Object.entries(E.data.rooms).map(([id,r])=>[id,Object.freeze({name:descriptions[id][0],description:descriptions[id][1],routes:r.routes.map(([to])=>[to,descriptions[to][0]])})])));
+function state(s){s.world||={};return s.world.priyaHome||={inside:false,room:'hall',standingSpace:true};}
+function inside(s){return !!s.world?.priyaHome?.inside&&s.hub?.location==='applewood';}
+function inspect(s){if(!inside(s))throw Error('You are not inside Priya’s apartment.');const h=state(s);return 'Priya Shah · Applewood Unit 2F · '+rooms[h.room].name+'. '+rooms[h.room].description+(s.world?.priyaFlats?.shoes?.room===h.room?' The original flats remain here, separate from your restored human body.':'');}
+function guard(s){if(!inside(s)||s.encounter?.active||!F.capabilities(s).walking)throw Error('Your current body cannot move through this apartment.');}
+function move(s,id){guard(s);const h=state(s);if(!rooms[h.room].routes.some(([next])=>next===id))throw Error('That room is not directly connected.');h.room=id;return {minutes:1,text:inspect(s)};}
+function leave(s){guard(s);const h=state(s);if(h.room!=='hall')throw Error('Reach the entry hall before leaving.');h.inside=false;return {minutes:1,text:'You leave Unit 2F for the shared corridor and Applewood exterior. Priya’s private door closes behind you.'};}
+function intent(s,raw){if(!inside(s))return null;const text=String(raw).trim().toLowerCase().replace(/[.!]+$/,'');if(/\?|\b(?:not|never|don't|do not)\b/.test(text))return null;if(/^(?:i )?(?:leave|go outside|go out|exit)(?: the apartment)?$/.test(text))return {action:'leave'};if(/^(?:i )?(?:inspect|examine|look around)(?: the room| surroundings)?$/.test(text))return {action:'inspect'};const m=text.match(/^(?:i )?(?:go|walk|move|head)(?: to| into)? (?:the )?(.+)$/);if(!m)return null;const id=Object.keys(rooms).find(id=>id===m[1]||rooms[id].name.toLowerCase()===m[1]||id==='closet'&&m[1]==='walk-in closet');return id?{action:'move',id}:null;}
+return Object.freeze({rooms,state,inside,inspect,move,leave,intent});
+});
