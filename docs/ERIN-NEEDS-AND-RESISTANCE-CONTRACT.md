@@ -1,3 +1,5 @@
+> CP060/v1.0.100supersedes old Erin contextual+4/+2influence-resistance bonuses with universal advantage:2d20keep higher. Original attributes, ordinary numeric modifiers, costs, cooldowns and progression rules remain. Both dice and the selected result are visible; previous recorded numeric-bonus tests are historical, not current expectations. Flats-specific disadvantage remains approved design, not a playable encounter.
+
 # Erin needs and resistance correction — v1.0.65
 
 ## Resistance audit

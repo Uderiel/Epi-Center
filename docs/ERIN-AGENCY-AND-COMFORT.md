@@ -1,3 +1,5 @@
+> CP060/v1.0.100supersedes old Erin contextual+4/+2influence-resistance bonuses with universal advantage:2d20keep higher. Original attributes, ordinary numeric modifiers, costs, cooldowns and progression rules remain. Both dice and the selected result are visible; previous recorded numeric-bonus tests are historical, not current expectations. Flats-specific disadvantage remains approved design, not a playable encounter.
+
 # Erin agency and comfort correction · v1.0.89
 
 Owner scope: office autonomy, short direct AI answers, five daily trust, Common mastery pacing, readable book variety, completed manual routines, sleep resistance bonus, current-form Dev controls, stable number fields/feed reading, favorite heels, outfit presets and putting laundry away. Owner confirms Settings reports Backend character-voice-v2; live dialogue quality is still being tested by owner. No further Worker deployment is needed for these frontend changes.

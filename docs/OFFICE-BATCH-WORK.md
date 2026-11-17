@@ -1,3 +1,5 @@
+> CP060/v1.0.100supersedes old Erin contextual+4/+2influence-resistance bonuses with universal advantage:2d20keep higher. Original attributes, ordinary numeric modifiers, costs, cooldowns and progression rules remain. Both dice and the selected result are visible; previous recorded numeric-bonus tests are historical, not current expectations. Flats-specific disadvantage remains approved design, not a playable encounter.
+
 ## Published verification
 
 Gameplay `5b447ad`; Pages run43308618761 succeeded;14/14 changed deployed runtime files match tested source.793 automated cases plus entity assertions and12 live desktop check groups PASS. Original/copy batch handover, conference return, direct lunch,350 pay/reload and +2 office/+4 home bonus were verified. Owner authorized the push; no permission remains pending. Native Android and owner correction acceptance remain next. Evidence: releases/v1.0.87-browser-checks.json and v1.0.87-live-verification.json.
