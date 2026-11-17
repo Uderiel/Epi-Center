@@ -1,3 +1,5 @@
+> Owner-confirmed cubicle correction in v1.0.99: fourteen individual cubicles per department; east Sales 1 top left = Daniel; west Marketing 1 top left = Priya, 2 top right = Nadia. Numbering proceeds left-to-right from the top. Existing room/bay IDs remain stable for saves. See [current numbered-cubicle checklist](V1.0.99-OWNER-ACCEPTANCE.md). Earlier generic-bay and H/H_W testing instructions are superseded.
+
 > v1.0.98 publication: gameplay `47b3de06cd4c82c768c52a002970ee03f542f425` is on main/rebuild; Pages and15 changed runtime/portrait byte checks PASS; 969 automated cases plus entity assertions and18 isolated public-browser groups PASS. [Play current version](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.98) · [Daniel/Nadia/Priya owner checklist](V1.0.98-OWNER-ACCEPTANCE.md). Owner/model/native-device acceptance remains pending; no reset or Worker redeployment. Earlier candidate/deferred-publication statements below are historical.
 
 # Nadia Voss and the department work cycle · v1.0.96

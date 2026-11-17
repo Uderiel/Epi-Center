@@ -1,3 +1,5 @@
+> Owner-confirmed cubicle correction in v1.0.99: fourteen individual cubicles per department; east Sales 1 top left = Daniel; west Marketing 1 top left = Priya, 2 top right = Nadia. Numbering proceeds left-to-right from the top. Existing room/bay IDs remain stable for saves. See [current numbered-cubicle checklist](V1.0.99-OWNER-ACCEPTANCE.md). Earlier generic-bay and H/H_W testing instructions are superseded.
+
 ## November 13, 2026 — Erin daily-life expansion design
 
 Owner scope: one sales leader plus 13 sales employees; one marketing leader plus 12 marketing employees. These 27 staff exclude Richard, Erin and junior intern Michael (30 workplace identities total). This supersedes the earlier two-leaders/eleven-workers count. Also requested: Michael, playable Groceries Aplenty and Prim and Proper Dry Cleaners, Erin's friends, and a restaurant/hangout.

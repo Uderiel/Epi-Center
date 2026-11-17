@@ -1,0 +1,97 @@
+{
+  "version": "1.0.99",
+  "origin": "http://127.0.0.1:8767",
+  "profile": "fresh isolated browser context; synthetic saves only",
+  "checks": [
+    {
+      "name": "title exposes three usable save slots and current version",
+      "passed": true
+    },
+    {
+      "name": "candidate boots and preserves original resources",
+      "passed": true
+    },
+    {
+      "name": "office dock opens Priya",
+      "passed": true
+    },
+    {
+      "name": "approved PNG loads on desktop with full uncropped aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "schedule interaction advances exactly two minutes",
+      "passed": true
+    },
+    {
+      "name": "Marketing layout shows fourteen individual cubicles with Priya top left and Nadia top right",
+      "passed": true
+    },
+    {
+      "name": "numbered cubicle layout fits mobile in two columns",
+      "passed": true
+    },
+    {
+      "name": "Marketing cubicle one exposes Priya rather than Nadia",
+      "passed": true
+    },
+    {
+      "name": "Nadia panel and approved Dart portrait load in Marketing",
+      "passed": true
+    },
+    {
+      "name": "Daniel dialogue is reachable in Sales through the existing panel",
+      "passed": true
+    },
+    {
+      "name": "NPC availability follows actual rooms for both leaders and Priya",
+      "passed": true
+    },
+    {
+      "name": "NPC composer routes private-context-safe Priya reply",
+      "passed": true
+    },
+    {
+      "name": "two refusals close one persisted invitation",
+      "passed": true
+    },
+    {
+      "name": "reload keeps invitation and unrelated slot",
+      "passed": true
+    },
+    {
+      "name": "360px office and composer stay within page width",
+      "passed": true
+    },
+    {
+      "name": "approved portrait fits the 360px dock without stretching",
+      "passed": true
+    },
+    {
+      "name": "attack uses shared civilian adapter with Priya",
+      "passed": true
+    },
+    {
+      "name": "civilian conclusion grants no form or mastery",
+      "passed": true
+    },
+    {
+      "name": "home welcome uses real presence without invented apartment entry",
+      "passed": true
+    },
+    {
+      "name": "Dev relationship controls update the recognized-person relationship",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Synthetic existing-save fixture; not owner saves",
+    "AI disabled; no paid model quality test",
+    "Unit 2F interior not playable"
+  ]
+}
