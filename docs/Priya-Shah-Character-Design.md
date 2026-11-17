@@ -1,3 +1,7 @@
+## Living-room follow-up — confirmed seating
+
+Owner selects a larger sectional with footrests for Priya’s living room. Preserve clear paths and the planned yoga space. No new seating interaction, posture simulation or narration trigger is implied by this descriptive change. Layout orientation and footrest details remain to design.
+
 ## v1.0.101 — published and verified; implementation finished
 
 **[Play v1.0.101](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.101)**. Branch: `rebuild/1.0-foundations`; tested gameplay commit **`0c40a99d97cc85b815bc225b46b0b05b2cf3af70`** is pushed to both rebuild and main. Pages build1378858795 and [Actions run44165405715](https://github.com/Uderiel/Epi-Center/actions/runs/44165405715) succeeded. All23checked public runtime files, including the unchanged approved Priya portrait, match local tested bytes. Public runtime evidence: `docs/releases/v1.0.101-live-verification.json`.

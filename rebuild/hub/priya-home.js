@@ -3,7 +3,7 @@
 'use strict';
 const descriptions={
  hall:['Entry Hall','Warm cream walls, a narrow oak console and a woven runner make a small, welcoming entry. A ceramic dish holds ordinary keys. The front door opens onto the shared corridor.'],
- living:['Living Room','A sage sofa, rust-colored cushions and a low oak table face a modest television. Fantasy novels and romantic comedies share a bookcase. A writing desk beside the window holds a closed notebook; personal pages stay private. A rolled yoga mat rests beside an uncluttered patch of floor.'],
+ living:['Living Room','A large sage sectional with footrests, rust-colored cushions and a low oak table faces a modest television. Clear paths around the seating leave room for guests to move comfortably. Fantasy novels and romantic comedies share a bookcase. A writing desk beside the window holds a closed notebook; personal pages stay private. A rolled yoga mat rests beside an uncluttered patch of floor.'],
  kitchen:['Kitchen & Dining','Cream cabinets, pale wood and a muted teal backsplash surround a compact dining table. Tea tins and a kettle have their own corner. A clear counter leaves room for preparing a meal.'],
  bedroom:['Bedroom','Warm ivory bedding, a moss-green throw and soft amber lamps make the room quiet. A simple dresser and a reading chair leave clear paths to the bathroom and walk-in closet.'],
  bath:['Bathroom','Pale tile, brushed brass fittings and neatly folded teal towels continue the calm palette. A shower, basin and mirror fit the apartment’s existing room arrangement.'],

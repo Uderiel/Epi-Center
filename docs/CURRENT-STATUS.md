@@ -1,3 +1,7 @@
+## Living-room design follow-up — sectional and footrests
+
+Branch `rebuild/1.0-foundations`; parent `efdb9fd`. Owner confirms a larger sectional plus footrests. Updated apartment description, apartment design, character contract and browser wording check. Public runtime remains verified v1.0.101 at `0c40a99`; this descriptive follow-up is not deployed. Next action: continue living-room design with sectional orientation and footrest arrangement, then consolidate and publish the interior update after validation.
+
 ## v1.0.101 — published and verified; implementation finished
 
 **[Play v1.0.101](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.101)**. Branch: `rebuild/1.0-foundations`; tested gameplay commit **`0c40a99d97cc85b815bc225b46b0b05b2cf3af70`** is pushed to both rebuild and main. Pages build1378858795 and [Actions run44165405715](https://github.com/Uderiel/Epi-Center/actions/runs/44165405715) succeeded. All23checked public runtime files, including the unchanged approved Priya portrait, match local tested bytes. Public runtime evidence: `docs/releases/v1.0.101-live-verification.json`.

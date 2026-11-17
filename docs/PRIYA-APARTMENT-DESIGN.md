@@ -1,3 +1,7 @@
+## Confirmed living-room seating
+
+Owner selects a larger sectional plus footrests. These replace the draft regular sofa. Keep clear circulation and the yoga area. Sectional orientation, footrest count/style and other decor details remain open. Source description updated; this follow-up is not yet publicly deployed.
+
 Published v1.0.101, runtime `0c40a99`;1,038automated cases and46local/46public browser groups pass. See [owner checks](V1.0.101-OWNER-ACCEPTANCE.md).
 
 # Priya Shah — Applewood Unit 2F
@@ -7,7 +11,7 @@ v1.0.101 implements a bounded, playable interior after flats reversion. Owner-co
 | Room | Connected rooms | Interior direction |
 | --- | --- | --- |
 | Entry hall | Living, bedroom, exterior door | Warm cream, narrow oak console, woven runner, ceramic key dish |
-| Living room | Hall, kitchen/dining | Sage sofa, rust cushions, oak table, modest television, fantasy books and romcoms, window writing desk, rolled yoga mat and clear practice space |
+| Living room | Hall, kitchen/dining | Large sage sectional with footrests, rust cushions, oak table, modest television, fantasy books and romcoms, window writing desk, rolled yoga mat and clear practice space |
 | Kitchen/dining | Living | Cream cabinets, pale wood, muted teal backsplash, compact dining table, kettle and tea corner |
 | Bedroom | Hall, bathroom, closet | Ivory bedding, moss throw, amber lamps, simple dresser and reading chair |
 | Bathroom | Bedroom | Pale tile, brushed brass, teal towels, shower, basin and mirror |
