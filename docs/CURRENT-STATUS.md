@@ -1,3 +1,7 @@
+## CP063 — reverse reversion sequence confirmed
+
+Branch `rebuild/1.0-foundations`; parent checkpoint `f716d39`. Owner confirms human reversion reverses the original three transformation stages. Documentation-only decision; no new automated or browser checks, no new deployment. Full candidate remains unfinished with six passing targeted solitude tests and outstanding full regression failures described below. Next: integrate reverse-stage presentation with preserved human state, settle body placement and physical-pair aftermath, then continue lifecycle and regression fixes.
+
 ## CP062 runtime checkpoint — candidate unfinished
 
 Branch: `rebuild/1.0-foundations`. Parent commit: `75f20f3`; this checkpoint commit records the unfinished v1.0.101 candidate and same-space tests. No new public deployment.

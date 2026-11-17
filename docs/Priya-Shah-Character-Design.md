@@ -1,3 +1,7 @@
+## CP063 — reverse-stage human reversion
+
+Owner directs final reversion to follow the initial transformation in exactly the opposite direction: reverse stage 3, then 2, then 1, restoring the preserved pre-curse human state and belongings. Existing gates remain: 100% mastery, 0 Item-binding, unworn and nobody else in the actual shared space. This checkpoint records the sequence direction only; exact restored-body placement and whether the original physical flats remain afterward are not newly decided here. Runtime release currently restores state immediately; reverse-stage presentation remains to implement and test.
+
 ## CP062 — actual same-space solitude supersedes workplace requirement
 
 Owner corrects CP061: **Priya does not need to be at work**. She must simply be out of her apartment when the player is reverting there; more generally **nobody else may occupy the same tile/space as the changing player**. This is an actual spatial-presence requirement, not an employment calendar, visibility, hearing or attention test. Out for errands, jogging or another real absence can qualify if the relevant space is otherwise empty. Being unworn while a wearer/person remains in that same space is insufficient.
