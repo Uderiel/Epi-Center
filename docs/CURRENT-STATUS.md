@@ -1,3 +1,7 @@
+## CP062 correction — absence/same-space solitude, no workplace requirement
+
+Owner supersedes CP061 workplace-only gate: Priya need only be out of the apartment, with nobody else in the player’s same tile/space. No need to be at work. Actual presence, not visibility/attention, governs reversion; separate households are distinct spaces. Same shared Erin-parallel recovery numbers and100mastery/0binding gates remain. Source implementation work continues on rebuild/1.0-foundations. Exact next action: implement generic same-space presence for the bounded flats lifecycle and test both ordinary absences and present-but-unseeing actors; do not retain the narrower workplace check. No new runtime/test/deployment claim in this checkpoint.
+
 ## CP061 implementation in progress
 
 Owner approved reusing Erin recovery numbers, Item-binding0plus mastery100, and actual Priya-at-work/not-in-apartment solitude gate. Source design saved in the flats plan/dossier/audit/combat guide. Current branch rebuild/1.0-foundations; public gameplay remains v1.0.100 (`c3ba130`, evidence `5992fc3`). No flats release or new test PASS claimed yet. Exact next action: finish bounded flats object-state, weekend scheduler/retrieval, shared jogging and recovery/reversion integration; run deterministic/full/browser checks and update this checkpoint before publication. Preserve saves; cat/collar deferred.
