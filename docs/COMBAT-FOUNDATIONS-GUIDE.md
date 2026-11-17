@@ -1,3 +1,13 @@
+## CP059 — initial100%Item-binding and contextual roll advantage/disadvantage
+
+Owner confirms that newly transformed flats start at **100%Item-binding**, paralleling full influence when Erin takes over. This is the starting Item-binding percentage, not a Binding Strength+100dice modifier or an automatic mastery value. Worn exposure remains+5Item-binding points/game hour under CP058; canonical cap/clamping must report actual changes rather than display fictitious growth above a full meter.
+
+Recovery rolls occur at **disadvantage while the flats are being worn**. They receive **advantage when unworn and alone**, illustrated by the owner as being left in Priya's closet in a different room from her. Do not grant the alone bonus merely for removal while still sharing space with her, or infer that all unworn circumstances automatically count as alone. Actual worn state and actor/room presence must govern context when implemented.
+
+The exact mechanical meaning of advantage/disadvantage is still unselected: existing Erin resistance uses contextual flat modifiers, whereas a two-d20 keep-high/keep-low mechanic would be a distinct dice-resolution choice. Ask the owner before implementing one or silently stacking them. Magnitudes/stacking and intermediate contexts remain open. The closet example establishes a recovery-roll advantage situation; it does not by itself resolve every spatial edge case of CP056's separate genuinely-alone human-reversion gate.
+
+Roll gains/losses, exact zero-binding escape threshold, initial mastery, Binding Strength numeric profile and retry/resource policies remain to be reconciled. Do not claim the whole Erin system has been approved verbatim merely because the initial percentage and contextual direction are parallel. Design only: no runtime change, new tests, deployment or owner gameplay acceptance. Cat/collar deferred.
+
 ## CP058 — Item-binding is the influence-parallel meter
 
 Owner explicitly names the inanimate influence-parallel track **Item-binding**. The player already knows they are an item; this measures the curse's binding of the person to that object state, not a mistaken belief about physical appearance or the influence of a separate personality.
