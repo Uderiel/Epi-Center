@@ -1,3 +1,7 @@
+## Confirmed living-room lighting
+
+Owner requests an enthusiastic crystal/positive-energy aesthetic: Himalayan pink salt lamps, softly lit crystal displays and warm rose/amber accent light, including near the yoga area. This is Priya’s personal spiritual/decor preference, not a health, purification or mechanical buff claim. Crystal types/counts and exact lamp positions remain unspecified. Keep the larger sectional/footrests and clear circulation. Source description updated on rebuild only; public v1.0.101 remains unchanged.
+
 ## Confirmed living-room seating
 
 Owner selects a larger sectional plus footrests. These replace the draft regular sofa. Keep clear circulation and the yoga area. Sectional orientation, footrest count/style and other decor details remain open. Source description updated; this follow-up is not yet publicly deployed.
@@ -11,7 +15,7 @@ v1.0.101 implements a bounded, playable interior after flats reversion. Owner-co
 | Room | Connected rooms | Interior direction |
 | --- | --- | --- |
 | Entry hall | Living, bedroom, exterior door | Warm cream, narrow oak console, woven runner, ceramic key dish |
-| Living room | Hall, kitchen/dining | Large sage sectional with footrests, rust cushions, oak table, modest television, fantasy books and romcoms, window writing desk, rolled yoga mat and clear practice space |
+| Living room | Hall, kitchen/dining | Large sage sectional with footrests, rust cushions, oak table, modest television, fantasy books and romcoms, window writing desk, pink salt lamps, illuminated crystals, rolled yoga mat and clear practice space |
 | Kitchen/dining | Living | Cream cabinets, pale wood, muted teal backsplash, compact dining table, kettle and tea corner |
 | Bedroom | Hall, bathroom, closet | Ivory bedding, moss throw, amber lamps, simple dresser and reading chair |
 | Bathroom | Bedroom | Pale tile, brushed brass, teal towels, shower, basin and mirror |

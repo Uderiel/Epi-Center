@@ -1,3 +1,7 @@
+## Living-room lighting follow-up
+
+Branch `rebuild/1.0-foundations`; parent `0d7289a`. Confirmed Himalayan pink salt lamps, illuminated crystals and warm rose/amber positive-energy ambience. Updated apartment source description/design and character contract. Verified module loads and description contains the confirmed lamp/crystal details; no mechanics changed. Previous sectional checkpoint passed 38 flats/schedule cases. Public remains v1.0.101 at `0c40a99`; these interior-design follow-ups are not deployed. Next action: continue room placement/details, then validate and publish the consolidated interior update. Footrest style remains unchosen.
+
 ## Living-room design follow-up — sectional and footrests
 
 Branch `rebuild/1.0-foundations`; parent `efdb9fd`. Owner confirms a larger sectional plus footrests. Updated apartment description, apartment design, character contract and browser wording check. Public runtime remains verified v1.0.101 at `0c40a99`; this descriptive follow-up is not deployed. Next action: continue living-room design with sectional orientation and footrest arrangement, then consolidate and publish the interior update after validation.

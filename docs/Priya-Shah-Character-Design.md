@@ -1,3 +1,7 @@
+## Living-room follow-up — confirmed spiritual accent lighting
+
+Owner requests Himalayan pink salt lamps and crystal-focused positive-energy lighting. Implement warm rose/amber ambience and softly lit crystal displays as a personal preference, with no asserted medical effect or game buff. Room circulation and yoga space remain clear.
+
 ## Living-room follow-up — confirmed seating
 
 Owner selects a larger sectional with footrests for Priya’s living room. Preserve clear paths and the planned yoga space. No new seating interaction, posture simulation or narration trigger is implied by this descriptive change. Layout orientation and footrest details remain to design.
