@@ -1,3 +1,7 @@
+## CP061 implementation in progress
+
+Owner approved reusing Erin recovery numbers, Item-binding0plus mastery100, and actual Priya-at-work/not-in-apartment solitude gate. Source design saved in the flats plan/dossier/audit/combat guide. Current branch rebuild/1.0-foundations; public gameplay remains v1.0.100 (`c3ba130`, evidence `5992fc3`). No flats release or new test PASS claimed yet. Exact next action: finish bounded flats object-state, weekend scheduler/retrieval, shared jogging and recovery/reversion integration; run deterministic/full/browser checks and update this checkpoint before publication. Preserve saves; cat/collar deferred.
+
 ## v1.0.100 — universal advantage live; CP060 implementation finished
 
 **[Play v1.0.100](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.100)**. Gameplay commit `c3ba13021623b3440de8ed41e481b6eed69b1863` is on main/rebuild. Pages build1377513531 and [Actions run44064157205](https://github.com/Uderiel/Epi-Center/actions/runs/44064157205) succeeded. All8changed deployed runtime files match tested source byte-for-byte. **987 named automated cases plus entity assertions across53suites, syntax/module paths/whitespace,25local and25isolated public-browser groups PASS.** Source/runtime evidence: `docs/releases/v1.0.100-live-verification.json`; actual public control checks: `docs/releases/v1.0.100-live-browser-checks.json`.
