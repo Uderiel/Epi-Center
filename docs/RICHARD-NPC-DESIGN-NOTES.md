@@ -1,3 +1,9 @@
+## Owner-confirmed balcony furniture, shade and railing
+
+Owner accepts two comfortable outdoor chairs, a small drinks table, restrained lighting and maintained planters with the city view open. Add small shade umbrellas over the drinks table. The balcony edge uses glass railing panels with metal support posts and mounting brackets, preserving the view.
+
+Shade/open-close state should be reflected in descriptions if an umbrella control is offered. Table service uses actual authorized servings; furniture does not create drinks. Railing is an architectural boundary, not a new climbing or travel route. Exact measurements/material grades are not specified. These are approved furnishing/design requirements; new controls/assets are not implemented yet.
+
 ## Owner-confirmed bathrooms and personal grooming
 
 Owner accepts the master bathroom's walk-in shower and soaking tub, and a simpler guest bathroom with shower, fresh towels and basic toiletries. Richard takes care of his skin and wants to remain presentable and clean. His master bathroom includes moisturizers, facial creams and a trimmer/shaver for managing stubble or hair growth.

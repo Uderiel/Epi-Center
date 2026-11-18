@@ -1,3 +1,9 @@
+## Richard balcony confirmed — shade umbrellas and glass/metal railing
+
+Owner accepts chairs/table/lighting/planters and adds small umbrellas shading the drinks table, plus glass railing with metal support posts and mounting brackets. Saved draft/design and unpublished fixture catalog. Umbrella controls and actual suite UI remain pending; no gameplay test/release claim.
+
+Branch `rebuild/1.0-foundations`; parent `776b1a4`. Syntax check only. Exact next action: settle bot service/charging storage placement, consolidate approved suite inventory, then complete integration and functional tests before publishing. Public remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 .
+
 ## Richard bathrooms and grooming confirmed
 
 Owner accepts master walk-in shower/soaking tub and simpler guest shower/towels/toiletries; adds private moisturizers, facial creams and trimmer/shaver for presentable, clean appearance and deliberate stubble/hair grooming. Saved design/catalog. New tub/tool/care use actions and saved grooming effects remain pending; no automatic appearance change or implemented control claimed.

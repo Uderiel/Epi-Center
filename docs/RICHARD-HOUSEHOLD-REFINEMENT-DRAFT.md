@@ -152,6 +152,12 @@ Owner accepts the master bathroom's walk-in shower and soaking tub, and a simple
 
 Use actual reachable fixtures, owned finite skincare products and saved grooming selections/effects. Shaving is a deliberate grooming action; inspection, time passage or a generic shower does not silently remove hair or change the player's appearance. Existing generic shaving supplies do not claim working trimmer controls. Facial creams are ordinary personal-care items, with no invented medical or stat effects. Guest toiletries and access remain separate from Richard's private products; bot cleaning/linen jobs must reflect actual work.
 
+## Owner-confirmed balcony furniture, shade and railing
+
+Owner accepts two comfortable outdoor chairs, a small drinks table, restrained lighting and maintained planters with the city view open. Add small shade umbrellas over the drinks table. The balcony edge uses glass railing panels with metal support posts and mounting brackets, preserving the view.
+
+Shade/open-close state should be reflected in descriptions if an umbrella control is offered. Table service uses actual authorized servings; furniture does not create drinks. Railing is an architectural boundary, not a new climbing or travel route. Exact measurements/material grades are not specified. These are approved furnishing/design requirements; new controls/assets are not implemented yet.
+
 ## Established foundation
 
 Richard is an adult, younger, charming, ambitious and controlling Sales and Marketing Manager. Erin is his valued secretary; Daniel leads sales and Nadia leads marketing. His dark brown hair, hazel eyes, lean athletic build and professional appearance remain. He knows he relies on Erin, and stress increases his requests for help. He considers thanks and extra pay sufficient, but payment is not consent. Existing refusal memory, exactly-once task pay, resource pools, ordinary Mental-primary civilian combat and current ten attributes remain unchanged. He never quotes the numerical bonus aloud. Home is Applewood floor 7 Suite A. Nadia does not know he lives above her; meeting her elsewhere must not disclose that automatically. No Richard form or transformation route is proposed.
