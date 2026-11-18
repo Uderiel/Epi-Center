@@ -205,3 +205,7 @@ For guarded dialogue, author the meaning/goal and several contextual ways to def
 ## Shop variant and bundle consistency
 
 For customizable clothing, persist chosen category/style/fit/color and relevant construction attributes on real owned items, preserving them through cart, checkout, receipt, equipment, appearance/narration and reload. Treat bundles as explicit selectable slots, not a fixed generic outfit or automatic extra items. Variant price differences, form compatibility, bundle limits and visual descriptions require authored policy; do not invent stats from descriptive rain resistance or trim. Cherished Touch’s configurable starter bundle is the current approved design example, not an implemented system yet.
+
+## Random shop rewards with equipped attribute modifiers
+
+Bind randomized outcomes to real transaction/item identity and preserve them through inspection, equipment and reload. Keep per-player purchase caps independent of current form/owned count. Use the canonical attribute registry and actual effective-stat pipeline; equipped-only modifiers must not mutate base stats. Archetype-independent loot must not be tailored by narrative AI. Define duplicate/stacking/region/body compatibility and discount behavior separately. Cherished Touch Mystery Box is the approved design example:150base, max3purchases, one+1random attribute per wearable piece only while worn.

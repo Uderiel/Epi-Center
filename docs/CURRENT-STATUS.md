@@ -1,3 +1,7 @@
+## Mystery Box mechanics confirmed
+
+150goldbase; wearable jewelry (necklace/bracelet/anklet examples), each with+1to one randomly rolled attribute independent of archetype, active ONLY while worn. Maximum3purchases per player; preserve roll/item/purchase identity across reload/form changes. No permanent stat point or invented curse. Stacking, jewelry-type selection/distribution and equipment-region limits remain to refine. Next clarify same-attribute stacking across valid worn pieces, then checkout/stock policy. Design only.
+
 ## Clothing variants and selectable starter bundle approved
 
 Owner defines top neckline/sleeves/colors; briefs/boxers and hipsters/briefs; ankle/crew/thigh-high socks; cargo/booty/high-waisted shorts; male rain-resistant hoodie-like jacket and female rain-resistant fur-trim hood jacket; colors throughout.45gold bundle lets player customize each of its five included items. Category prices unchanged; selection must persist into real item/appearance/narration. Detailed remaining cuts/fit and one-bundle limit unresolved. Next: owner’s Mystery Box design. Design only; live109unchanged.
