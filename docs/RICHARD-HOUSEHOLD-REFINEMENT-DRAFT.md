@@ -6,6 +6,18 @@ Status: proposal for owner review following v1.0.107. No Richard household gamep
 
 Confirmed after the first spoken review: Richard is a professional, outward-facing socialite who likes exploring city venues and clubs. Dining out is more characteristic than cooking; hosting and home cooking must not dominate his personality or routine. He is currently single. A possible romance connected to the Research Center is a future design opportunity, with no partner, relationship or encounter established now. This supersedes the draft's earlier home-centered emphasis. Actual venue trips and meals require implemented destinations, opening hours, physical travel and transactions; deferred venues must not be narrated as completed outings.
 
+## Owner-confirmed Suite 7A refinements
+
+Richard's home is an upscale **suite**, comparable to Nadia's level of elegance but with different priorities. Confirmed requirements:
+
+- A home gym/workout area within the living space; exact equipment remains proposed until selected. Actual exercise needs time, usable equipment and recorded effects.
+- A kitchen organized primarily around bar/drink service, snacks and quick, easy meals. Less cooking equipment and fewer elaborate food resources than Nadia. Dining out remains his preference; occasional guests do not turn him into a habitual dinner host.
+- An entertainment system more advanced than Nadia's. His workspace is integrated into the living room, with the computer networked to the main television so he can display work information there. Screen content follows actual records; sharing a screen does not grant computer, document or account access to guests.
+- A personal maid bot for cleaning and ordinary household assistance. This is an owned in-world appliance/agent, not invisible instant housekeeping. Implementation must record actual jobs, location, time, access and changes to dishes, laundry or supplies; it cannot create stock, money, permissions or completed player actions. Exact appearance, name and capabilities beyond ordinary household assistance remain open. Do not silently copy a human NPC/form mind or invent combat abilities.
+- A separate spare bedroom serving as a guest room, additional to Richard's bedroom and clothing storage. Overnight permission is distinct from visiting, romance or private-room access. The suite graph must explicitly add this room rather than claim the existing six-room layout already includes it.
+
+These owner decisions supersede the simpler apartment/kitchen and six-room-shell proposals below. No runtime implementation or publication is implied.
+
 ## Established foundation
 
 Richard is an adult, younger, charming, ambitious and controlling Sales and Marketing Manager. Erin is his valued secretary; Daniel leads sales and Nadia leads marketing. His dark brown hair, hazel eyes, lean athletic build and professional appearance remain. He knows he relies on Erin, and stress increases his requests for help. He considers thanks and extra pay sufficient, but payment is not consent. Existing refusal memory, exactly-once task pay, resource pools, ordinary Mental-primary civilian combat and current ten attributes remain unchanged. He never quotes the numerical bonus aloud. Home is Applewood floor 7 Suite A. Nadia does not know he lives above her; meeting her elsewhere must not disclose that automatically. No Richard form or transformation route is proposed.
@@ -32,16 +44,18 @@ Conversation pauses optional tasks. He gives a natural warning before a real obl
 
 ## Proposed Suite 7A
 
-A comfortable, contemporary executive apartment: warm walnut, charcoal, soft off-white, restrained leather and brushed metal, with a little dark green. More deliberate and work-focused than Erin's home, less fashion/display-focused than Nadia's, distinct from Priya's holistic atmosphere. This is earned managerial comfort, not a claim of extreme wealth or Nadia's family background.
+An upscale, contemporary executive suite: warm walnut, charcoal, soft off-white, restrained leather and brushed metal, with a little dark green. More deliberate and work-focused than Erin's home, less fashion/display-focused than Nadia's, distinct from Priya's holistic atmosphere. This is earned managerial comfort, not a claim of extreme wealth or Nadia's family background.
 
 - Living room: a comfortable sofa, functional throw, reading chair, good television, books and a restrained music setup. Personal interests have content; awards do not occupy every wall.
-- Home workspace: laptop/monitor, actual inbox, department dashboard and saved draft notes. Work email and personal correspondence remain distinct. Optional messages do not create staff attendance or completed work.
-- Kitchen/dining: good coffee equipment, competent appliances and a table suited to a small dinner. Proposed preferences: eggs or toast on workdays; fuller weekend breakfast; restaurant preferences such as chicken/fish/vegetable dishes, pasta and occasional steak; simple home meals are a fallback, not his main hobby. Coffee and a modest whiskey selection fit existing office canon, with finite portions and separate choices.
+- Living-room workspace: a high-quality computer/monitor networked to the main television, actual inbox, department dashboard and saved draft notes. Work email and personal correspondence remain distinct. Optional messages do not create staff attendance or completed work.
+- Kitchen/bar: drink preparation and serving, coffee, snacks and quick meals, with fewer elaborate cooking resources than Nadia's. Dining out is the main preference. All drinks and food use finite stock; choosing a drink is optional. Existing office whiskey is retained without inventing unlimited home supplies.
 - Bedroom/walk-in storage: tailored suits, shirts, trousers, dress shoes, polished casual clothes, workout clothes and sleepwear. Work, relaxed home, hosting, exercise and bedtime presets; individual pieces and saved combinations. No wardrobe transfer by inspection.
 - Bathroom: actual shampoo, conditioner, body wash, shaving and skincare products with timed use and saved effects. Do not assume shaving or change player appearance without an action.
+- Guest bedroom: a real additional room, bed and guest storage; actual invitations and overnight permission govern use. Exact furnishings remain to be drafted.
+- Personal maid bot: actual household cleaning/assistance jobs with saved progress and limited capabilities; no magical restocking or guest surveillance permissions.
 - Entry/hall storage: coat and shoe storage, actual laundry/cleaning supplies and guest belongings. Floor discovery follows existing Applewood rules.
 
-Reuse the shared six-room residence adapter where appropriate; fixtures, descriptions and object placement are individually authored. Every advertised usable fixture needs a real action, stock/ownership, duration, receipt and interrupted/reload behavior. Meals become real servings; laundry, dishes and restocking are tracked rather than cleared by prose.
+Reuse the shared residence adapter with an explicitly expanded suite graph and separate guest bedroom; fixtures, descriptions and object placement are individually authored. Every advertised usable fixture needs a real action, stock/ownership, duration, receipt and interrupted/reload behavior. Meals become real servings; laundry, dishes and restocking are tracked rather than cleared by prose.
 
 ## Proposed social and work integration
 

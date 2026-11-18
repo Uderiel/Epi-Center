@@ -1,3 +1,7 @@
+## Owner-confirmed Suite 7A facilities
+
+Upscale suite with living-space home gym; kitchen/bar emphasizing drinks, snacks and quick meals rather than elaborate cooking; entertainment center beyond Nadia's with integrated living-room computer/workspace networked to the main TV; personal maid bot for ordinary cleaning and household assistance; and a separate guest bedroom. These are confirmed design requirements, not implemented gameplay. Exact bot identity, equipment and expanded room graph require authoring; preserve real time, ownership and access boundaries. See the household refinement draft.
+
 ## Owner-confirmed private-life refinement
 
 Richard Carter is currently single and is an outward-facing socialite: exploring city venues/clubs and eating out matter more than home cooking or hosting. A possible Research Center romance is deferred, with no partner established. See RICHARD-HOUSEHOLD-REFINEMENT-DRAFT.md for the developing household/routine proposal. These confirmations do not implement unavailable venues or invent completed outings.

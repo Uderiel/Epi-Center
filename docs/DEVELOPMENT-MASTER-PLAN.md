@@ -1,3 +1,9 @@
+## Richard suite requirements confirmed
+
+Owner specifies upscale Suite7A with a living-space home gym, bar/drink-focused kitchen, snacks and quick meals, entertainment technology above Nadia's, an integrated living-room workspace networked to the TV, a personal cleaning/household maid bot, and a separate guest bedroom. Saved in Richard's draft and design notes. Exact gym equipment, bot identity/capability details and furnishings remain proposals; no unimplemented bot jobs or completed cleaning are claimed.
+
+Branch `rebuild/1.0-foundations`; parent `a4c2a3f`. Documentation only; no runtime or test change. Next exact action: review the expanded suite layout and bot's ordinary household duties, then implement the agreed scope with real permissions, stock, job time and room navigation. Public remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 .
+
 ## Richard owner refinement — socialite and dining-out emphasis
 
 Owner confirms Richard is outward-facing and enjoys exploring city venues/clubs; dining out takes priority over cooking or hosting. He is currently single. A possible Research Center romance is future scope, with no partner or relationship established. Updated Richard's review draft; earlier home-centered proposals are superseded. Unimplemented venues cannot become fabricated completed outings.
