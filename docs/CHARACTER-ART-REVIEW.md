@@ -1,5 +1,8 @@
 # Character portrait review assets
 
+**Owner acceptance:** Latest individualized photographic portraits accepted in subsequent conversation (“that works”). Tits’s shop outfit is confirmed to stay close to this portrait: sparkling pink dress/apron/accessories/heels. Earlier rejected revisions remain superseded. Approved art is saved on foundations; public integration has not been performed.
+
+
 ## Current revision — photographic references and individual personality
 
 Owner requested matching the successful Erin/Priya/Nadia photographic treatment, distinct natural poses, and character-specific expression/vocation. Interiors ARE allowed when relevant and consistent with known room functions; the earlier no-interior/plain-studio instruction was a response to failed backgrounds, not a permanent style requirement.
