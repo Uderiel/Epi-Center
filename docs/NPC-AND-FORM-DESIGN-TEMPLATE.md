@@ -236,3 +236,7 @@ Cherished Touch’s first ordinary retail adapter now reuses EpiApartmentNav.fra
 ## Complete location scope checklist
 
 An NPC/location refinement must track frontage/approach, room-by-room appearance, fixture function, usable working clearance, public versus staff/private access, personal wardrobe/food/care/laundry, hidden stock/entrance disclosure and actual dependencies. Existing navigation geometry or completed shop rules do not imply those physical/personal details are designed. Review owner floor plans visually when available. Keep confirmed item existence (e.g. spare skinsuits) separate from unspecified individual identity/effect/ownership/use rules. Coherent proposals should cover the entire requested location and mark new preferences/finishes as proposed, with a clear step-by-step review order.
+
+## Protected dangerous stock and warning knowledge
+
+Separate existence, provenance, functional hazard knowledge, access, handling authority and actual use. An NPC may secure an item and warn a visitor about its danger while concealing its supplier/motive. Private-room permission must not automatically add equip/take/purchase actions. Charity’s three Countess-supplied permanent NPC-assignment suits are explicitly not retail/loot or her temporary quest mask. Model ordinary form ownership, temporary mastery trials and authored permanent role-assignment consequences separately; inspect/entry alone cannot trigger them.

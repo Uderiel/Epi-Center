@@ -1,3 +1,7 @@
+## Protected trap suits are not merchandise
+
+Owner confirms exactly3Countess-supplied skinsuits, secured by Charity and never sold/offered for fitting: permanent base-form replacement/NPC-role assignment. Charity warns admitted visitors about effects but not source. Distinct from her temporary work mask; not part of retail/MysteryBox/weekly stock. Precise hallway threshold remains to confirm (owner suggests+70); explicit invitation still required. Full rule in CHARITY-LEGACY-AUDIT.md.
+
 ## Full-location review proposal
 
 CHERISHED-TOUCH-COMPLETE-LOCATION-DRAFT.md now covers exterior, every room, counter working space/access, spare skinsuits, concealed route and Charity’s private wardrobe/food/care/pastimes. These new details are proposals for owner review; preserve all already approved retail/quest rules below.

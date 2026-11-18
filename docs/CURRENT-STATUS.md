@@ -1,3 +1,7 @@
+## Charity protected suits defined
+
+Owner: exactly3Countess-supplied suits would permanently replace base form and assign NPC roles. Charity refuses sale/use, secures them and proactively warns admitted visitors of effects while withholding Countess provenance. Separate from coverage mask/20thtemporary trial. Owner suggests+70ordinary private-hall relationship threshold; not previously fixed (+75is lore,+90is coverage), so confirm precise value. No automatic room unlock/handling or NPC omniscience. No runtime changes; enchanted coding still outstanding on foundations.
+
 ## Organised stock — delivery-person support confirmed
 
 Owner: stock remains organised because the delivery person tidies it out of sympathy for Charity. Preserve as genuine practical support, with no invented helper name/backstory/secret knowledge. Link actual organisation to delivery records when implemented; no inspection-based restock or secret reveal. Household/location draft updated; no new runtime change. Next continue genuinely new location/household/access refinements, without repeating approved frontage/shower/stock decisions.
