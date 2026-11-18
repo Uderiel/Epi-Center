@@ -1,3 +1,7 @@
+## Updated coverage gate
+
+Owner changes Assist Charity mask coverage from legacy100%trust to90trust and permits inconvenient temporary rest closures. Relationship75+for selective sensitive disclosure remains separate. See CHARITY-LEGACY-AUDIT.md for the current rule.
+
 ## Legacy recovery supersedes blank-slate questions
 
 See CHARITY-LEGACY-AUDIT.md. Charity’s kind/patient/mischievous/guarded personality, appearance, five quest concepts and two prices already exist. Expand those records rather than asking the owner to redesign her basic archetype. Earlier suggestions below are proposals only.

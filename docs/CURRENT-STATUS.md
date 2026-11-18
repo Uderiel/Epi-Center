@@ -1,3 +1,7 @@
+## Charity mask coverage — trust90supersedes legacy100
+
+Owner permits periodic rest closures, inconvenient for Charity. At90trust she may offer voluntary appearance-mask coverage to a trusted friend so she can rest while the shop stays staffed. Keep trust90 separate from relationship75+disclosure; retain existing six-hour shift and safe mask return/removal rules. Next: compensation and actual shop handover/closure routine. Design only; no gameplay publication.
+
 ## Charity privacy and gradual disclosure confirmed
 
 Initial consequence reminders are private to Charity; visible hesitation may reach the player. Owner references her arrival and brother history; exact lore not found in scoped local Markdown/0.8.71/0.8.84search, so preserve thread without inventing details. Relationship75+and first Hub Cylinder discovery open limited options gradually, not automatic full explanations. Sensitive discussion normally requires a genuinely private setting/audience, not floor/register chatter. Saved in CHARITY-LEGACY-AUDIT.md. Next: everyday shop operation/rest coverage; deeper lore details can wait. Design only.

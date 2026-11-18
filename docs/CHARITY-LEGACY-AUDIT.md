@@ -2,6 +2,12 @@
 
 Sources inspected: epi-center-v0.8.71-cherished-touch-foundation.html and epi-center-v0.8.84-attribute-foundation-corrections.html (CherishedTouch871 quests/charity/panel); docs/EPI-CENTER-CHANGELOG.md, October25Cherished Touch notes; docs/EPI-CENTER-PROJECT-HANDOFF.md; docs/Epi-Center-Character-Design-Gap-Audit.md CP013; docs/CHERISHED-TOUCH.md; current cherished-touch.js/UI, ai-context.js and interactCharity in index.html.
 
+## Owner refinement — rest closures and mask trust90
+
+Charity may periodically close the store to rest. Closure is inconvenient for her, so developing friendships can make voluntary shop coverage attractive. Owner sets the trust requirement for offering her appearance-changing mask and allowing a player to take her place at90trust. This supersedes the older Assist Charity100%trust threshold. Keep trust90 separate from sensitive-disclosure relationship75+; exact trust accrual/persistence and its mapping to current relationship infrastructure still need design. Friendship makes the offer plausible; threshold alone does not equip the mask or accept work.
+
+Retain the existing six-hour coverage concept, voluntary acceptance, matching appearance/voice, and safe removal/return protections unless later changed. Rest must be an actual routine rather than an invented off-screen completion. Shop availability must account for real closure or actual present coverage, with no implicit extra worker. Compensation, temporary closing schedule/return sign, early termination, supervision/handover and trust earning remain to be refined. No mask, closure or shop service implemented by this design entry.
+
 ## Owner refinement — gradual private disclosure and initial reminder privacy
 
 System reminders are initially private to Charity, including reminders of her arrival in Epi-Center and what happened to her brother. Owner establishes that brother-related history exists as a lore thread; exact events were not found in this scoped search of local Markdown notes and the0.8.71/0.8.84HTMLsources. Do not invent his fate or her arrival history, treat absence from those sources as proof it was never designed, or ask the owner to recreate it before a broader recovery if later needed. Details may be expanded later.
