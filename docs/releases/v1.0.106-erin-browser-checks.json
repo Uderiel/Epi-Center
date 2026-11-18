@@ -11,6 +11,10 @@
       "passed": true
     },
     {
+      "name": "awake reading keeps normal fatigue progression",
+      "passed": true
+    },
+    {
       "name": "continue advances only five actual minutes",
       "passed": true
     },

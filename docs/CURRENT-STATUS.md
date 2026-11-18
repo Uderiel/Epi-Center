@@ -1,3 +1,7 @@
+## Final106resource correction tested — deployment verification pending
+
+Branch `rebuild/1.0-foundations`; parent c35c4d1. Final audit retains normal awake fatigue progression during sustained activities, with direct automated and actual-browser coverage. All1,178named automated cases across64suites and143local browser groups pass (78existing,38cat/household,27Erin). No runtime scope addition. Exact next action: publish this corrected candidate, compare public runtime bytes and rerun all143public browser groups, then save exact runtime/public evidence. Owner saves remain untouched; paid AI quality/native Android still need acceptance.
+
 ## v1.0.106 — final verification candidate
 
 Branch `rebuild/1.0-foundations`; prior runtime checkpoint fae9c56. Approved Erin refinements are implemented: saved sustained activities and satisfaction, couch blanket, revocable mastered delegation, contextual commentary, natural NPC departure, Priya audible household chatter, personal email, state-specific work inbox and separate Scheduler. Existing saves/art/core mastery and resources are preserved. [Implementation](ERIN-REFINEMENT-IMPLEMENTATION.md) · [Owner checklist](V1.0.106-OWNER-ACCEPTANCE.md).
