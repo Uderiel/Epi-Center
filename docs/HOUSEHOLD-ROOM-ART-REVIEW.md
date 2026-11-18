@@ -1,3 +1,7 @@
+## Refinement brief clarified
+
+Priya: use salt lamps sparingly across the whole apartment, vary other soft lighting, and vary natural crystal colors (white quartz, topaz, citrine) while keeping the overall calm neutral design. Erin: contemporary furnishings/textiles suited to a younger adult woman, cozy and practical without grandmotherly/floral/lace-heavy styling; this is an aesthetic correction, not a character-age change. Preserve accepted Richard/Nadia sets. Four utility/laundry cupboard detail views remain to be added after the current release verification.
+
 ## Owner review update
 
 Nadia and Richard room sets accepted. Priya revisions requested: fewer salt lamps, varied soft lighting. Erin revisions requested: younger, contemporary modest home rather than grandmotherly styling. Four missing hallway utility/laundry cupboard views must be added, including Richard’s bot charging stand. Follow-up is queued after the current release verification; images below are the existing set, not completed revisions.
