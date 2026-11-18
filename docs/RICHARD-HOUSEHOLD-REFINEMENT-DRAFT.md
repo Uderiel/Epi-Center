@@ -13,7 +13,7 @@ Richard's home is an upscale **suite**, comparable to Nadia's level of elegance 
 - A home gym/workout area within the living space; exact equipment remains proposed until selected. Actual exercise needs time, usable equipment and recorded effects.
 - A kitchen organized primarily around bar/drink service, snacks and quick, easy meals. Less cooking equipment and fewer elaborate food resources than Nadia. Dining out remains his preference; occasional guests do not turn him into a habitual dinner host.
 - An entertainment system more advanced than Nadia's. His workspace is integrated into the living room, with the computer networked to the main television so he can display work information there. Screen content follows actual records; sharing a screen does not grant computer, document or account access to guests.
-- A personal maid bot for cleaning and ordinary household assistance. This is an owned in-world appliance/agent, not invisible instant housekeeping. Implementation must record actual jobs, location, time, access and changes to dishes, laundry or supplies; it cannot create stock, money, permissions or completed player actions. Exact appearance, name and capabilities beyond ordinary household assistance remain open. Do not silently copy a human NPC/form mind or invent combat abilities.
+- A personal maid bot for cleaning and ordinary household assistance. This is an owned in-world appliance/agent, not invisible instant housekeeping. Implementation must record actual jobs, location, time, access and changes to dishes, laundry or supplies; it cannot create stock, money, permissions or completed player actions. Its initial presentation is confirmed as clearly mechanical, efficient and dryly humorous; exact chassis styling, name and capabilities beyond ordinary household assistance remain open. Do not silently copy a human NPC/form mind or invent combat abilities.
 - A separate spare bedroom serving as a guest room, additional to Richard's bedroom and clothing storage. Overnight permission is distinct from visiting, romance or private-room access. The suite graph must explicitly add this room rather than claim the existing six-room layout already includes it.
 
 These owner decisions supersede the simpler apartment/kitchen and six-room-shell proposals below. No runtime implementation or publication is implied.
@@ -21,6 +21,12 @@ These owner decisions supersede the simpler apartment/kitchen and six-room-shell
 ## Owner-confirmed Applewood suite architecture
 
 See [shared suite standard](APPLEWOOD-SUITE-DESIGN.md). Suite7A has larger rooms, more floor/display/storage space, a guest bedroom positioned between the entry hall and master bedroom, a guest bathroom nearest the kitchen, a private master bathroom attached to the master bedroom, and a balcony with a better city view and space to sit. Final door adjacency remains to be authored; the guest bedroom is not assumed to be a passage into Richard's private bedroom. The home gym uses the enlarged living space. Nadia's upscale decor does not automatically make her apartment a suite. These confirmations supersede the earlier simpler shell proposal; no new runtime is implied.
+
+## Owner-confirmed maid bot presentation
+
+Richard's initial personal maid bot is clearly mechanical, efficient and competent, with understated dry humor. It may speak courteously and make occasional concise observations; it is not a silent appliance or a flesh-covered humanlike model. Exact name, chassis styling and supported household duties remain to be refined. Do not infer unrestricted sentience, romantic behavior, combat abilities or access to private information from this presentation.
+
+Richard would likely upgrade to a more realistic flesh-covered model when such models become available. This is a future preference, not an acquired replacement, scheduled purchase or implemented upgrade system. No replacement model is present now.
 
 ## Established foundation
 

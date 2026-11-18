@@ -1,3 +1,9 @@
+## Owner-confirmed maid bot presentation
+
+Richard's initial personal maid bot is clearly mechanical, efficient and competent, with understated dry humor. It may speak courteously and make occasional concise observations; it is not a silent appliance or a flesh-covered humanlike model. Exact name, chassis styling and supported household duties remain to be refined. Do not infer unrestricted sentience, romantic behavior, combat abilities or access to private information from this presentation.
+
+Richard would likely upgrade to a more realistic flesh-covered model when such models become available. This is a future preference, not an acquired replacement, scheduled purchase or implemented upgrade system. No replacement model is present now.
+
 ## Owner-confirmed Suite 7A facilities
 
 Upscale suite with living-space home gym; kitchen/bar emphasizing drinks, snacks and quick meals rather than elaborate cooking; entertainment center beyond Nadia's with integrated living-room computer/workspace networked to the main TV; personal maid bot for ordinary cleaning and household assistance; and a separate guest bedroom. These are confirmed design requirements, not implemented gameplay. Exact bot identity, equipment and expanded room graph require authoring; preserve real time, ownership and access boundaries. See the household refinement draft.

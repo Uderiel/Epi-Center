@@ -1,3 +1,9 @@
+## Richard maid bot presentation confirmed
+
+Initial owned household bot: clearly mechanical, efficient, competent and subtly dry-humored. A future flesh-covered model is Richard's likely upgrade preference when available, not an existing purchase or current bot. Saved in Richard's draft and design notes. Exact name/styling and household duty boundaries remain open.
+
+Branch `rebuild/1.0-foundations`; parent `e424ced`. Documentation only; no runtime, tests or release change. Next exact action: refine bot initiative, guest service and private-room/workspace permissions, then finish the household design. Public game remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 .
+
 ## Applewood suite standard confirmed — Richard7A
 
 Saved shared suite contract in APPLEWOOD-SUITE-DESIGN.md and linked it from Richard's draft, location sheets and universal template. Suites have larger rooms/storage/floor space, a guest bedroom between entry hall and master bedroom, guest bathroom closest to kitchen, attached master bathroom, improved city views and a balcony for sitting outside. Final door adjacency is still to be authored; Nadia's unit is not automatically reclassified.
