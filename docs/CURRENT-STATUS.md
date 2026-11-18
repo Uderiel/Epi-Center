@@ -1,3 +1,7 @@
+## Universal item drawer requirement confirmed
+
+Owner confirms layered item interactions across the game must reuse the shared drawer overlay system, not store-specific forms/many fields. One active layer, Back/parent and preserved choices. Tops example sufficient; no additional category sketch needed. Record in universal template and shop draft. Existing runtime compliance still requires implementation/audit; do not claim universal migration done. Next: continue Cherished Touch implementation planning/remaining transaction and limited-stock details using this contract.
+
 ## Shop drawer hierarchy and checkout discount approved
 
 Owner confirms one-time10%covers entire successful checkout. Consume only after payment; display before. Use existing drawer overlays: Tops -> male/female style -> V/crew-neck and long/short-sleeve choices -> basic color -> item preview/basket/fitting. One active layer, Back and retained selections; equivalent category/bundle navigation. No forced body/gender change. Duplicate voice input is the same approval, not another action. Next: round out checkout rounding/voucher records and remaining limited enchanted stock, then implement the approved shop slice. Design only.

@@ -1,3 +1,9 @@
+## Owner-confirmed universal layered item navigation
+
+The drawer overlay pattern is a UNIVERSAL interface requirement for any item interaction with multiple layers, not a Cherished Touch/Tops-only feature. Reuse the existing shared drawer/navigation mechanisms and adapters for categories, containers, variants, nested storage and other multi-step item interactions. Avoid unrelated feature-specific modal systems or many simultaneously exposed input fields. One active layer, clear parent/Back, preserved selections and explicit final action apply across the game.
+
+This approves the Tops example as a reusable pattern; owner does not require another category sketch before continuing. Existing households/office/storage adapters must be assessed against the shared contract rather than assuming every legacy interaction already complies. Updating this design rule does not constitute a game-wide runtime migration. No new implementation/publication in this record.
+
 ## Owner-approved drawer flow and checkout-wide one-time discount
 
 The one-time10%discount applies to ONE ENTIRE CHECKOUT, not just a selected line item. Show it and the final total before committing payment; consume it only when checkout succeeds. Browsing, changing variants, fitting, abandoned baskets or rejected checkout must not consume it. The proposed flow uses one applicable discount, not accumulated percentage stacking; exact unused voucher inventory and rounding still require final policy.

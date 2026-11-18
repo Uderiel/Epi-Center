@@ -219,3 +219,10 @@ A purchased clothing variant is a real owned item across inventory, equipment, a
 ## Layered shop customization drawers
 
 Reuse the established drawer navigation hierarchy for category -> style/fit -> construction options -> color -> preview/cart/fitting. One active layer with Back restores selections; do not render an unmanageable full catalogue of controls at the room root. Item style selection does not transform or redefine the player. Keep the chosen variant consistent across bundle selectors, fitting, checkout, owned items and narrative appearance. Checkout-wide one-use discounts are consumed only by a successful atomic payment, not by browsing or failed attempts.
+
+## Owner-confirmed universal layered item navigation
+
+The drawer overlay pattern is a UNIVERSAL interface requirement for any item interaction with multiple layers, not a Cherished Touch/Tops-only feature. Reuse the existing shared drawer/navigation mechanisms and adapters for categories, containers, variants, nested storage and other multi-step item interactions. Avoid unrelated feature-specific modal systems or many simultaneously exposed input fields. One active layer, clear parent/Back, preserved selections and explicit final action apply across the game.
+
+This approves the Tops example as a reusable pattern; owner does not require another category sketch before continuing. Existing households/office/storage adapters must be assessed against the shared contract rather than assuming every legacy interaction already complies. Updating this design rule does not constitute a game-wide runtime migration. No new implementation/publication in this record.
+
