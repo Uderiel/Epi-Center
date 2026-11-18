@@ -1,6 +1,13 @@
 # Character portrait review assets
 
-## Current revision — full-body, layout-grounded counter-area portraits
+## Current revision — plain full-body character shots
+
+Owner rejected the shop/register backgrounds and explicitly requested standalone body shots. The two canonical review files have been replaced in place with head-to-shoes portraits on a seamless light-gray studio background, with all counters, registers, furniture, cups and scenery removed. Character identities/outfits are retained. Charity was generated as `exec-ab51e723-24f2-4405-9086-7dea2fd79407.png`; Tits as `exec-b8e4b0f2-8f40-476c-8077-29dbacd2121c.png`. Both were attached directly in chat. Generated originals remain preserved; no rejected duplicate files added to repository. These remain unapproved review portraits, not live-game assets.
+
+Historical counter-background notes below are superseded; do not reuse them as approved artwork or current framing instructions.
+
+
+## Superseded revision — rejected counter-area portraits
 
 Owner clarified that standing in front of the counter is acceptable and supports full-body visibility; the requirement is consistency with the actual shop layout, not mandatory employee-side placement. Earlier generic combined-store backgrounds were corrected. Canonical review files were replaced in place (no duplicate rejected review files). Current images preserve both character identities and show head-to-shoes framing on the customer side.
 
@@ -9,7 +16,7 @@ Charity: C oak register counter, protected stock shelving and small enhanced app
 Generated workspace originals remain preserved. Current final full-body generations: `exec-d69e7cbe-34e6-4dc5-9774-14a5e048751c.png` (Charity) and `exec-cc789f97-b87c-4c97-9b78-a238d3e1966b.png` (Tits). Intermediate close-up edits were not added as duplicate repository assets. No owner approval or public integration claimed.
 
 
-Generated at owner request while designing Burke’s Sweets. Review images only; not owner-approved or wired into public gameplay. Originals are preserved in the generation workspace. Both are1536×1024,3:2landscape artwork; the game’s1100×733frame is approximately the same aspect ratio, but these have not been resized or integrated.
+Generated at owner request while designing Burke’s Sweets. Review images only; not owner-approved or wired into public gameplay. Originals are preserved in the generation workspace. Current images are1024×1536,2:3portrait artwork on a plain studio background. They have not been resized or integrated into the game.
 
 | Character | Review asset | Description source |
 | --- | --- | --- |

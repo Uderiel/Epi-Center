@@ -1,3 +1,7 @@
+## Standalone body-shot override
+
+When the owner requests a plain character/body portrait, use full head-to-shoes framing and a simple studio background. Do not add a store, counter, register, cup or other scenery to a standalone body shot. Preserve established character identity and clothing. This instruction supersedes earlier contextual-backdrop attempts for Charity and Tits; those store-background revisions were rejected. Display actual images directly in chat, rather than only naming files or reading link labels aloud.
+
 ## Character portraits grounded in actual location layouts
 
 When a character portrait includes a known home/business background, use the supplied floor plan and confirmed fixtures as constraints. Do not substitute a generic interior, merge separate retail/preparation rooms, invent doors/windows or imply a different public/private layout. Use a bounded counter/fixture view when a full spatial reconstruction is not supported. Preserve full-body framing where requested. Standing on the customer side is acceptable for showing a character’s whole outfit; do not infer the owner requires behind-counter placement. Distinguish geometry/fixtures confirmed by sources from proposed finishes/decor. On revisions replace rejected review files in place when keeping the same intended asset, preserve generated originals, and keep portraits out of public gameplay until integration is authorized.
