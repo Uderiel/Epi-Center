@@ -1,3 +1,9 @@
+## Owner-confirmed dressing and grooming details
+
+Owner accepts restrained upscale bathroom/wardrobe finishes, generous grooming space and organized clothes/accessories. Richard owns multiple pairs of dress shoes. Socks are stored in his dresser. Expensive colognes form a selection rather than one generic fragrance. A watch collection is displayed on top of the dresser so he can choose a watch for the day.
+
+Dress shoes, socks, watches and colognes are Richard-owned items. Choosing a daily watch or shoes changes his recorded worn selection, not player inventory. Colognes need finite applications and saved chosen scent when used; inspection does not apply fragrance. Dresser drawers, tabletop display, watch choice and private changing must use actual reachable fixtures and existing private-area permission. Specific brands, prices and collection counts are implementation defaults, not newly approved real-world brands. No magical stat/authority/attraction bonus follows from expensive accessories.
+
 ## Owner-confirmed master-bedroom aesthetic and private adult furnishings
 
 Richard's master bedroom remains professional and elegant but has a darker underlying edge. The owner specifies a steel four-poster bed with integrated foot-end stocks, an under-bed cage/storage compartment and mounting/suspension attachment points. A dedicated private equipment drawer stores whips, floggers, collars, leashes, pet-play apparel and gags. These are non-graphic furnishings/inventory design notes, not implemented sexual scenes, equipment-use mechanics or automatic interactions.

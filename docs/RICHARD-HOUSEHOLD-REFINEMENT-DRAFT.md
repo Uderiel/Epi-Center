@@ -132,6 +132,12 @@ Richard's master bedroom remains professional and elegant but has a darker under
 
 The master bedroom and its private equipment retain Richard's separate explicit-access rules. Permission to enter, view storage, stay overnight or express interest does not itself authorize intimate contact or equipment use. No guest or player is automatically restrained, gagged, confined or affected by inspecting a fixture. Bot confidentiality and Richard's insistence on privacy remain in effect. Exact equipment models, capacities and interaction rules are not authored by this description.
 
+## Owner-confirmed dressing and grooming details
+
+Owner accepts restrained upscale bathroom/wardrobe finishes, generous grooming space and organized clothes/accessories. Richard owns multiple pairs of dress shoes. Socks are stored in his dresser. Expensive colognes form a selection rather than one generic fragrance. A watch collection is displayed on top of the dresser so he can choose a watch for the day.
+
+Dress shoes, socks, watches and colognes are Richard-owned items. Choosing a daily watch or shoes changes his recorded worn selection, not player inventory. Colognes need finite applications and saved chosen scent when used; inspection does not apply fragrance. Dresser drawers, tabletop display, watch choice and private changing must use actual reachable fixtures and existing private-area permission. Specific brands, prices and collection counts are implementation defaults, not newly approved real-world brands. No magical stat/authority/attraction bonus follows from expensive accessories.
+
 ## Established foundation
 
 Richard is an adult, younger, charming, ambitious and controlling Sales and Marketing Manager. Erin is his valued secretary; Daniel leads sales and Nadia leads marketing. His dark brown hair, hazel eyes, lean athletic build and professional appearance remain. He knows he relies on Erin, and stress increases his requests for help. He considers thanks and extra pay sufficient, but payment is not consent. Existing refusal memory, exactly-once task pay, resource pools, ordinary Mental-primary civilian combat and current ten attributes remain unchanged. He never quotes the numerical bonus aloud. Home is Applewood floor 7 Suite A. Nadia does not know he lives above her; meeting her elsewhere must not disclose that automatically. No Richard form or transformation route is proposed.

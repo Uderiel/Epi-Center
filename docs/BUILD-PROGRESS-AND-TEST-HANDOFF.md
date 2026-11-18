@@ -1,3 +1,9 @@
+## Richard dressing details confirmed — shoes, socks, colognes and watches
+
+Owner accepts upscale restrained grooming/wardrobe and adds multiple dress shoes, dresser sock storage, expensive cologne choices and tabletop watch collection with daily selection. Added dresser/child fixtures and proposed unbranded sock/watch/cologne catalog entries. Ownership, selected wear/scent, finite applications and actual selection controls still require integration/tests; no runtime use or publication claimed.
+
+Branch `rebuild/1.0-foundations`; parent `6d293e6`. Syntax checks only. Exact next action: complete owner room walkthrough, then implement watch/shoe/sock/fragrance selection and persistence alongside suite integration. Public remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 .
+
 ## Richard master bedroom — darker elegant private furnishings
 
 Owner specifies steel four-poster bed, integrated foot-end stocks, under-bed cage/storage, attachment points and a dedicated private adult-equipment drawer. Recorded non-graphically in design notes; unpublished fixture catalog updated. No equipment-use or sexual-scene mechanics implemented; inspection and room access do not initiate contact or confinement. Bot confidentiality/private-room rules remain.
