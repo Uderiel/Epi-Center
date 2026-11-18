@@ -1,3 +1,9 @@
+## v1.0.108 tested candidate — publication pending
+
+Richard's first playable nine-space suite, routines/owned belongings/authorized bot service and100gold weekly fee are integrated, alongside directed NPC/player relationships and the two107testing corrections. **1,266automated cases across74suites** and **192local browser checks** pass (78legacy,38cat,27Erin,21Nadia,18Richard,10corrections). [Implementation and limits](RICHARD-HOUSEHOLD-IMPLEMENTATION.md) · [Owner checklist](V1.0.108-OWNER-ACCEPTANCE.md). New art corrections remain the next follow-up after this release.
+
+Branch `rebuild/1.0-foundations`; prior checkpoint `8581dde`. Exact next action: commit tested candidate, promote fast-forward to main, verify Pages/runtime bytes and repeat192checks publicly, then save final evidence. Do not call108live before verification. Real provider quality, owner saves, Android and long-session balance remain pending; unsupported venues/boutique/multiplayer are deferred. Current public baseline107. Owner data untouched.
+
 ## Owner art review — follow-up after current release verification
 
 Owner accepts Nadia's apartment and Richard's suite image sets. Refine Priya's six images: too many Himalayan pink salt lamps; use them sparingly and vary lighting/decor while retaining calm neutral holistic character. Refine Erin's six images: current art looks too old/grandmotherly; make it a younger adult woman's contemporary, comfortable, modest apartment, preserving her books, practical desk, throw and authored belongings rather than adding inherited/luxury styling.

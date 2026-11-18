@@ -1,3 +1,7 @@
+## v1.0.108 implementation checkpoint
+
+The first playable suite/controller/bot/relationship package is implemented and locally verified. See [implementation and explicit limits](RICHARD-HOUSEHOLD-IMPLEMENTATION.md). Historical owner approvals below remain design authority; unbuilt venues, broader romance and intimate equipment-use mechanics are not claimed implemented. Current status governs publication and owner acceptance.
+
 # Richard Carter — household and daily-life refinement draft
 
 Status: proposal for owner review following v1.0.107. No Richard household gameplay is implemented by this document. Existing canon takes priority over these proposed defaults. Sources: RICHARD-NPC-DESIGN-NOTES.md, RICHARD-NPC-IMPLEMENTATION.md, RICHARD-OFFICE-G.md, current richard.js, NPC-AND-FORM-DESIGN-TEMPLATE.md. Historical implementation notes describing a thirty-minute lunch are superseded by the shared noon–one lunch now in code.
