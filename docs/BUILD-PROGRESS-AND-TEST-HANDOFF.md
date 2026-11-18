@@ -1,3 +1,7 @@
+## Tits morning preparation and closing behavior confirmed
+
+Owner approves early prep/service/lull breaks/cleanup and finishing existing queue before leaving. Baking is messy and carelessly hygienic: finger/skin/pan/surface licking and direct handling can leave visible product traces, for quick cleanup in her sincere judgment. Record actual batch handling without inventing medical outcomes or forcing consumption. Setup is energetic/happy, with excited self-talk hoping customers like the goods. Service remains friendly/chatty when available; cleanup includes a wipe-down. Existing queued customers are completed after closing because she would feel guilty disappointing them. Full details in BURKES-SWEETS-DESIGN.md. Design only; public v1.0.111 unchanged.
+
 ## Tits greetings and queue behavior confirmed
 
 Single actual customer: enthusiastic greeting and possible attempt to reach across counter for a hug, without forcing a player response. Multiple actual customers: broad smile, excited wave/shimmy. Cheerful scatterbrained welcome with occasional “like,” not constant filler. She tries to complete current order before switching; chat can interrupt her place, requiring recheck with the approved prep-mistake chance. Owner explicitly confirms free corrections and stable waiting positions. Added to BURKES-SWEETS-DESIGN.md; no new gameplay/public change. Next grouped routine draft: preopening baking, short service pauses, cleanup/closing and unfinished-order handling.
