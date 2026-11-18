@@ -1,3 +1,14 @@
+## v1.0.110 published and publicly verified
+
+Play: https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.110
+Owner checklist: https://github.com/Uderiel/Epi-Center/blob/main/docs/V1.0.110-OWNER-ACCEPTANCE.md
+
+Gameplay release `bcd4f9cf0ceb647603879c1ba4f231385628a257` is published on main and foundations. Pages run44392963572 succeeded. All170public source/art files match the tested package. All1,340automated cases across79suites,245local browser checks and245live browser checks pass. Evidence: `docs/releases/v1.0.110-tests.json`, `v1.0.110-local-browser-summary.json`, `v1.0.110-live-browser-summary.json`, and `v1.0.110-live-verification.json`.
+
+Release scope: configurable clothing, custom once-only45gold newcomer bundle, closed-stall fitting, saved owned items, Mystery Box type/attribute rolls and worn jewelry bonuses, enchanted display stocks, Monday06:00 cap refills, rolling24-hour display cooldown, maximum-resource gear with no equip refills, and bounded utility/environment consumers. Intro remains visit Cherished Touch then report to Eve, no purchase required. Approved existing NPC/household/room art flows also passed the live regression set. Owner saves and paid AI untouched; no mastery reset.
+
+Next is owner save-file and live AI acceptance using the linked checklist. No further publication approval is needed or pending. Weather scheduling, roaming pack encounters and Charity’s full household/disclosure/mask/Resistance systems remain separate deferred work, not newly claimed by this release.
+
 ## v1.0.110 release in progress
 
 Cherished Touch retail is packaged for release: configurable ordinary clothing, once-only custom newcomer bundle, private fitting, owned items, Mystery Box jewelry and worn bonuses, finite enchanted display, Monday06:00 restocks, rolling24-hour cooldown, maximum-resource gear and bounded utility consumers. Existing First Steps remains visit-and-report with no purchase. Weather scheduling, roaming packs and Charity’s mask/household/Resistance systems are not newly implemented here.
