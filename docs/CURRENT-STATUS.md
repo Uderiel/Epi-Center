@@ -1,3 +1,9 @@
+## v1.0.107 — Nadia/Dart candidate, publication verification pending
+
+Implemented Unit 6E, household drawers and activities, owned wardrobe/makeup/care/food, real deliveries/laundry, independent Dart, actual routines and noon–one lunch, canine signals and optional visits/ordinary gear. **1,235 automated cases pass.** Four browser suites total **160 local checks**; final reruns/public verification are being recorded before declaring publication complete. Public baseline remains [v1.0.106](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.106) until deployment verification. [Implementation and limits](NADIA-DART-IMPLEMENTATION.md) · [Owner checklist](V1.0.107-OWNER-ACCEPTANCE.md).
+
+Branch `rebuild/1.0-foundations`; prior checkpoint `8701f50`. Next exact action: finish final browser reruns, commit the tested candidate, fast-forward main, verify Pages/runtime bytes and public browser suites, then save final evidence. Boutique services remain deferred; paid AI, Android and owner saves are unverified. No owner save was modified. Next character work remains Richard → Daniel Mercer → sales employee.
+
 ## Nadia/Dart integration checkpoint — unpublished v1.0.107 candidate
 
 Branch `rebuild/1.0-foundations`; parent `70256be`. Household drawers, six-room navigation, floor/scene presence, ongoing guest activities, optional canine visit/collar/kennel choices, finite restocking and laundry are now wired in the development candidate. The earlier targeted core checks passed; a fresh full regression run is in progress. New integration and browser acceptance remain pending. These changes are not a published or owner-accepted release.

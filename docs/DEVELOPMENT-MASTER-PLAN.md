@@ -1,3 +1,9 @@
+## v1.0.107 — Nadia/Dart candidate, publication verification pending
+
+Implemented Unit 6E, household drawers and activities, owned wardrobe/makeup/care/food, real deliveries/laundry, independent Dart, actual routines and noon–one lunch, canine signals and optional visits/ordinary gear. **1,235 automated cases pass.** Four browser suites total **160 local checks**; final reruns/public verification are being recorded before declaring publication complete. Public baseline remains [v1.0.106](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.106) until deployment verification. [Implementation and limits](NADIA-DART-IMPLEMENTATION.md) · [Owner checklist](V1.0.107-OWNER-ACCEPTANCE.md).
+
+Branch `rebuild/1.0-foundations`; prior checkpoint `8701f50`. Next exact action: finish final browser reruns, commit the tested candidate, fast-forward main, verify Pages/runtime bytes and public browser suites, then save final evidence. Boutique services remain deferred; paid AI, Android and owner saves are unverified. No owner save was modified. Next character work remains Richard → Daniel Mercer → sales employee.
+
 ## Shared one-hour lunch and Nadia morning/evening order confirmed
 
 Branch `rebuild/1.0-foundations`; parent673d70a. Owner sets12:00–13:00lunch for all third-floor Tech Center employees and confirms morning calisthenics→shower→breakfast/marketing-email review, Dart nose-nudge→whimper→door-circling, physical midday check, and evening feed→shower→water→casual change→daily Central Hub walk/possible Kibbles encounter. Stone surfaces confirmed. Saved immediately; broad impact is not a reason to defer recording. Exact next action: patch common lunch scheduling/work/booking exclusions, run targeted/full tests, then implement Nadia/Dart household with actual complete commute/care timing. Public106 unchanged; no new runtime pass/publication claimed.

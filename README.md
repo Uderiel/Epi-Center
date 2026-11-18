@@ -1,3 +1,9 @@
+## v1.0.107 — Nadia/Dart candidate, publication verification pending
+
+Implemented Unit 6E, household drawers and activities, owned wardrobe/makeup/care/food, real deliveries/laundry, independent Dart, actual routines and noon–one lunch, canine signals and optional visits/ordinary gear. **1,235 automated cases pass.** Four browser suites total **160 local checks**; final reruns/public verification are being recorded before declaring publication complete. Public baseline remains [v1.0.106](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.106) until deployment verification. [Implementation and limits](docs/NADIA-DART-IMPLEMENTATION.md) · [Owner checklist](docs/V1.0.107-OWNER-ACCEPTANCE.md).
+
+Branch `rebuild/1.0-foundations`; prior checkpoint `8701f50`. Next exact action: finish final browser reruns, commit the tested candidate, fast-forward main, verify Pages/runtime bytes and public browser suites, then save final evidence. Boutique services remain deferred; paid AI, Android and owner saves are unverified. No owner save was modified. Next character work remains Richard → Daniel Mercer → sales employee.
+
 ## v1.0.106 — published and verified
 
 [Play v1.0.106](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.106). Passed 1,178 automated cases and 143 local/143 public browser checks. Saved ongoing activities, reading satisfaction, couch blanket, revocable mastered delegation, contextual commentary, natural NPC departures, personal home email, day/state work inbox and separate Scheduler. [Implementation and limits](docs/ERIN-REFINEMENT-IMPLEMENTATION.md) · [Owner checklist](docs/V1.0.106-OWNER-ACCEPTANCE.md) · [Publication status](docs/CURRENT-STATUS.md).
