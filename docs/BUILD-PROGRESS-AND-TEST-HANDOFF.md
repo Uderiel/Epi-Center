@@ -1,3 +1,9 @@
+## Richard bathrooms and grooming confirmed
+
+Owner accepts master walk-in shower/soaking tub and simpler guest shower/towels/toiletries; adds private moisturizers, facial creams and trimmer/shaver for presentable, clean appearance and deliberate stubble/hair grooming. Saved design/catalog. New tub/tool/care use actions and saved grooming effects remain pending; no automatic appearance change or implemented control claimed.
+
+Branch `rebuild/1.0-foundations`; parent `406b3e5`. Syntax check only, no new runtime tests/publication. Exact next action: finish balcony/bot-area review, then integrate and test all approved suite fixtures and ownership/privacy rules. Public remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 .
+
 ## Richard guest bedroom confirmed — neutral, impersonal, motorized blinds
 
 Owner accepts conventional guest furnishings, tasteful generic subtly sensual artwork, and motorized blackout blinds with bedside remote. No personal/intimate belongings in guest room. Updated design and unpublished fixture catalog; remote state/controls and artwork asset remain pending. No new image or behavior test claimed.

@@ -1,3 +1,9 @@
+## Owner-confirmed bathrooms and personal grooming
+
+Owner accepts the master bathroom's walk-in shower and soaking tub, and a simpler guest bathroom with shower, fresh towels and basic toiletries. Richard takes care of his skin and wants to remain presentable and clean. His master bathroom includes moisturizers, facial creams and a trimmer/shaver for managing stubble or hair growth.
+
+Use actual reachable fixtures, owned finite skincare products and saved grooming selections/effects. Shaving is a deliberate grooming action; inspection, time passage or a generic shower does not silently remove hair or change the player's appearance. Existing generic shaving supplies do not claim working trimmer controls. Facial creams are ordinary personal-care items, with no invented medical or stat effects. Guest toiletries and access remain separate from Richard's private products; bot cleaning/linen jobs must reflect actual work.
+
 ## Owner-confirmed conventional guest bedroom
 
 Guest room is a conventional, neutral room: comfortable double bed, bedside lamps, small dresser, hanging space and blackout blinds. No personal, private or intimate belongings are left there. Richard's private adult equipment remains elsewhere; an overnight guest does not discover it through ordinary guest storage.

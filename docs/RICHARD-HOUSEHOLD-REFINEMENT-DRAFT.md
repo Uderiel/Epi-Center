@@ -146,6 +146,12 @@ Artwork is generic and tasteful, with a subtly sensual suggestion rather than ex
 
 Blackout blinds are motorized. A remote on the bedside table lets the guest open or close them. Implementation must save the actual blind position and update room lighting/descriptions; remote access does not imply access to other suite devices or private screens. Room entry follows the separate overnight invitation rule; operating the in-room remote does not require another host approval. Curtains/blinds do not change actual presence/hearing rules.
 
+## Owner-confirmed bathrooms and personal grooming
+
+Owner accepts the master bathroom's walk-in shower and soaking tub, and a simpler guest bathroom with shower, fresh towels and basic toiletries. Richard takes care of his skin and wants to remain presentable and clean. His master bathroom includes moisturizers, facial creams and a trimmer/shaver for managing stubble or hair growth.
+
+Use actual reachable fixtures, owned finite skincare products and saved grooming selections/effects. Shaving is a deliberate grooming action; inspection, time passage or a generic shower does not silently remove hair or change the player's appearance. Existing generic shaving supplies do not claim working trimmer controls. Facial creams are ordinary personal-care items, with no invented medical or stat effects. Guest toiletries and access remain separate from Richard's private products; bot cleaning/linen jobs must reflect actual work.
+
 ## Established foundation
 
 Richard is an adult, younger, charming, ambitious and controlling Sales and Marketing Manager. Erin is his valued secretary; Daniel leads sales and Nadia leads marketing. His dark brown hair, hazel eyes, lean athletic build and professional appearance remain. He knows he relies on Erin, and stress increases his requests for help. He considers thanks and extra pay sufficient, but payment is not consent. Existing refusal memory, exactly-once task pay, resource pools, ordinary Mental-primary civilian combat and current ten attributes remain unchanged. He never quotes the numerical bonus aloud. Home is Applewood floor 7 Suite A. Nadia does not know he lives above her; meeting her elsewhere must not disclose that automatically. No Richard form or transformation route is proposed.
