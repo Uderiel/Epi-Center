@@ -1,3 +1,7 @@
+## Charity public exhaustion deflection confirmed
+
+Owner approves meals/tea at counter and chores/care in quiet windows. Asked about fatigue, she laughs and credits dedication to consistent customer service, with varied contextual deflections. Low-trust/unknowing players must not learn Countess pressure through narration; premature discussion itself may risk a physical Countess appearance. Preserve actual player knowledge, relationship75+, first-cylinder and privacy gates; no automatic spawn or keyword-script mandate. Next: draft ordinary catalogue/pricing and continue household/personality detail, leaving hidden encounter rules clearly pending. Design only.
+
 ## Charity routine pressure confirmed — hidden threat
 
 Owner: Charity pushes until she must close, with at most roughly6hours recovery. Hidden motivation is prior resistance/attempts and the Countess targeting her. Rest/substitution risks antagonizing the Countess; detected replacement may cause a dangerous physical shop appearance. Conditional threat only; no automatic spawn, combat outcome or detection odds. Keep hidden cause out of ordinary player narration; detection/cylinder-gate integration remains unresolved. Next: meals/care/home chores and rest/reopening around the counter. Design only; live109unchanged.

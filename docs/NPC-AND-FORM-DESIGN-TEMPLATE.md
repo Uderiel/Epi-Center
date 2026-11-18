@@ -199,3 +199,5 @@ Separate actual challenge progress/completion from permanent form acquisition. A
 ## Hidden motives versus observable routines
 
 Separate the author-level reason for an NPC’s work/rest pattern from what the player can observe or has learned. Distinguish a feared conditional threat from a resolved event, automatic spawn or numerical risk. Record maximum recovery windows and actual coverage/location before implementing schedules. Charity’s overwork and roughly six-hour recovery limit are motivated by a hidden Countess threat; ordinary narration must not explain that cause before authored disclosure.
+
+For guarded dialogue, author the meaning/goal and several contextual ways to deflect rather than one fixed keyword-triggered line. Distinguish player-established knowledge from names typed metagame or knowledge in the author dossier. Observable fatigue does not authorize hidden-cause exposition. A conditionally risky disclosure is not an automatic encounter trigger until its rules are actually designed. Charity’s consistent-service explanation is the confirmed example.

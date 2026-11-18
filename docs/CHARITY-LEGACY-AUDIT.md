@@ -10,6 +10,14 @@ Accepting the job commits the player to the entire six in-game-hour shift. There
 
 The player need not initiate conversation or manually seek customer interactions. When an actual customer interacts, the resulting response/behavior must be what Charity would naturally do, including when routine service is left to proceed. This requires context-sensitive role expression, not fixed keyword replies or arbitrary actions unrelated to her shopkeeper persona. The displayed outward speech and resulting mechanical actions should agree. Customer sales/stock, authorized choices and receipts must remain grounded in actual implemented shop state; role narration alone cannot mint goods, money or quest outcomes. No real customer simulation, mask filter or commitment enforcement is implemented by this design entry.
 
+## Owner-confirmed public deflection and cautious disclosure
+
+Owner approves quick meals/tea near the counter and grooming/household chores squeezed into quiet windows or closures. When someone asks why Charity is tired or not resting, she laughs and presents it as commitment to consistent customer service. She can deflect in many natural ways before admitting the hidden Countess pressure, especially with an untrusted player. The approved example meaning is “I value providing consistent service to the customer,” not a mandatory repeated keyword-trigger response.
+
+As the established relationship/knowledge/world-progression thresholds develop she may say more, gradually and privately. Even talking about the Countess before the player knows about her could cause the Countess to appear. Charity therefore chooses words carefully to avoid danger for herself and everyone nearby. This is a potential conditional encounter cause, not an automatic spawn on every mention. The player’s real established knowledge must be distinct from author/model knowledge or a metagame name typed into a prompt. Do not expose the Countess, brother history or hidden cause in low-trust exhaustion dialogue, generic descriptions or AI narration.
+
+Preserve relationship75+selective disclosure, first Hub Cylinder progression and private-audience requirements; high relationship alone does not force truth or remove risk. Mechanics for establishing Countess knowledge, detecting unsafe disclosure, applying warnings and resolving a possible appearance still need authored design. This record confirms portrayal/routine only; no live dialogue/encounter change.
+
 ## Owner-confirmed routine pressure — hidden Countess threat
 
 Charity pushes herself to keep working until she can no longer continue, rather than choosing a predictable comfortable sleep window. Her reason is hidden from ordinary visitors and tied to her resistance and what she attempted before being placed in Epi-Center. Exact past actions remain unspecified; do not invent them or substitute full-memory/omniscience claims.
