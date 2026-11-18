@@ -1,3 +1,7 @@
+## Nadia fixtures, food and wardrobe direction confirmed
+
+Branch `rebuild/1.0-foundations`; parent2e27bc3. Owner specifies elegant stands/upscale lighting, more advanced kitchen, refined food tastes and elegant/expensive-looking casual and professional clothes reflecting vanity. Saved coordinated review proposals for fixtures/appliances/food/wardrobe/vanity while keeping exact stock/brands/tuning unapproved and real usability/ownership requirements intact. Documentation only; no runtime/tests/publication. Exact next action: walk through the coordinated selection verbally, then continue home/Dart/boutique review and settle service coverage before implementing. Public106 unchanged.
+
 ## Boutique weekend hours confirmed
 
 Branch `rebuild/1.0-foundations`; parent4a53fd2. Owner confirms Saturday/Sunday09:00–17:00, weekdays24hours unchanged. Saved as design authority in Nadia/Dart review and mapped-location notes; overnight boarding care/staffing remains distinct from storefront opening. Documentation only, no runtime or test changes/publication. Exact next action: settle boarding coverage/play/pickup design, then reconcile the location catalog and Priya shopping gates to the approved shared hours during implementation. Public106 unchanged.
