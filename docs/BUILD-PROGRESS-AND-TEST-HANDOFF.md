@@ -1,3 +1,7 @@
+## Burke courier’s authorized shop key confirmed
+
+Tits readily gave the shared courier a key when asked, after their frustration with her forgotten/excess/insufficient orders. They can admit themselves for21:30stocktaking and06:00delivery without her presence. Resolves after-hours access; do not ask again whether they have permission/key. No player duplicate or unrestricted property access inferred. Recorded in BURKES-SWEETS-DESIGN.md; no public gameplay change.
+
 ## Burke courier timing and stocktaking responsibility confirmed
 
 Shared courier checks inventory personally at21:30 after normal closing because Tits repeatedly over/under-orders and cannot reliably count usage. Replenishment arrives06:00 daily (owner corrected05:30 to06:00). Stock count and delivery are separate actual events, not her estimates or automatic infinite stock. Owner is working on distribution/map expansion; courier route and access/key arrangement are not yet established. Updated BURKES-SWEETS-DESIGN.md. Public v1.0.111 unchanged; design only.
