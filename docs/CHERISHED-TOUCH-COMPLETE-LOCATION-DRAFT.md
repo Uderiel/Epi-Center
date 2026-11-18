@@ -1,3 +1,9 @@
+## Owner review — frontage approved; eight-minute shower required
+
+Owner accepts the proposed exterior/public sales-floor appearance (cream, oak, deep-green signage/awning treatment and organised public layout). Do not repeatedly ask for approval of that same exterior/Hdirection. Other new household details remain review proposals unless separately confirmed.
+
+Owner requires the full bath to have a SHOWER-HEAD ATTACHMENT. Charity’s normal efficient bathing routine is an EIGHT-IN-GAME-MINUTE SHOWER. Her work/rest pressure makes a default25-minute bath inappropriate. Preserve the bathtub fixture, but do not schedule an ordinary25-minute soak as her default or repeat a whole-room summary in place of applying this change. Future usable shower/care actions and NPC routine must agree on the8minute duration and actual location/products; the household controller itself is not implemented yet. Hair-care product use must be resolved/recorded rather than granted by text. This changes the design requirement, not a claimed completed live bathing feature.
+
 # Cherished Touch — complete location and Charity household review draft
 
 This is a first-pass proposal for owner review, not a claim that the whole store/household is implemented. Preserve the owner’s reuploaded A–J drawing, already approved shop economics/variants/effects/quests, Charity’s voice/hidden pressure and all existing disclosures. New finishes, personal selections and access-policy refinements below are PROPOSED. The ordinary retail slice is already implemented/tested on foundations; it remains unpublished. Enchanted checkout/effect implementation remains outstanding and needs no repeat design questions about already approved effects/prices.
@@ -48,7 +54,7 @@ Proposed wardrobe: several well-fitting ordinary jeans; plain/soft V-neck and cr
 
 ### B — bathroom and personal care
 
-Keep full-sized bath, toilet, sink, cabinet, hamper, candles and nice soaps. Propose a practical shower attachment for the existing tub instead of inventing a separate shower room. Warm towels, honey/oat-style soap and restrained clean scents suit a cozy ordinary home. Proposed actual products: shampoo/conditioner for her wavy hair, basic facial cleanser/moisturizer, body lotion, toothbrush/toothpaste, deodorant, light everyday makeup and a subtle citrus/soft-floral personal scent. Specific scent/product choices remain owner-reviewable. No medical, disease or stat effects are implied. Every usable product must have an actual use/selection and narrative receipt when implemented, following the established bath/shower system.
+Keep full-sized bath, toilet, sink, cabinet, hamper, candles and nice soaps. The existing tub MUST have a shower-head attachment. Charity’s normal wash is an8-in-game-minute shower; a25-minute bath is not her default routine. Warm towels, honey/oat-style soap and restrained clean scents suit a cozy ordinary home. Proposed actual products: shampoo/conditioner for her wavy hair, basic facial cleanser/moisturizer, body lotion, toothbrush/toothpaste, deodorant, light everyday makeup and a subtle citrus/soft-floral personal scent. Specific scent/product choices remain owner-reviewable. No medical, disease or stat effects are implied. Every usable product must have an actual use/selection and narrative receipt when implemented, following the established bath/shower system.
 
 ### J — closet/laundry
 

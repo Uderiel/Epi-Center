@@ -1,3 +1,9 @@
+## Owner review — frontage approved; eight-minute shower required
+
+Owner accepts the proposed exterior/public sales-floor appearance (cream, oak, deep-green signage/awning treatment and organised public layout). Do not repeatedly ask for approval of that same exterior/Hdirection. Other new household details remain review proposals unless separately confirmed.
+
+Owner requires the full bath to have a SHOWER-HEAD ATTACHMENT. Charity’s normal efficient bathing routine is an EIGHT-IN-GAME-MINUTE SHOWER. Her work/rest pressure makes a default25-minute bath inappropriate. Preserve the bathtub fixture, but do not schedule an ordinary25-minute soak as her default or repeat a whole-room summary in place of applying this change. Future usable shower/care actions and NPC routine must agree on the8minute duration and actual location/products; the household controller itself is not implemented yet. Hair-care product use must be resolved/recorded rather than granted by text. This changes the design requirement, not a claimed completed live bathing feature.
+
 ## Full physical location and household scope
 
 Owner explicitly identifies remaining frontage/interior/stall/counter-spacing/access/stock skinsuit/Underworld and household detailing. Spare skinsuits in F are newly confirmed; individual definitions remain unknown. See CHERISHED-TOUCH-COMPLETE-LOCATION-DRAFT.md for a coherent review proposal, with all new finishes/preferences/access refinements labelled as proposed. Earlier suggestions that only the personal catalogue remains undesigned were incomplete.

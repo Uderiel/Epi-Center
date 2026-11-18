@@ -1,3 +1,7 @@
+## Charity review correction — eight-minute shower
+
+Owner approves exterior/public-floor direction, and requires a shower-head attachment on the existing tub plus an8-IN-GAME-MINUTE normal shower for Charity. No default25-minute bath. Household runtime remains pending; this is a confirmed design requirement. Avoid repeating prior whole-house summaries or reopening approved frontage questions. Next review only genuinely new private-room/access details while continuing agreed shop implementation.
+
 ## Complete Cherished Touch/location-household proposal prepared
 
 Owner wants the full physical store/private home assessed, not a household-only gap list. Complete review draft: CHERISHED-TOUCH-COMPLETE-LOCATION-DRAFT.md. Covers exterior/H/Ccounter spacing/access/Istalls/Ghall/Fstock and newly confirmed spare skinsuits/Charity-only guild reveal/A-B-Jbedroom-care-laundry/D-Efood-dining, preserving the actual diagram and all agreed shop rules. New finishes/personal preferences/access refinements are PROPOSED, not approved or implemented. No “Anders” entity recovered; use established Underworld/Guild terminology.
