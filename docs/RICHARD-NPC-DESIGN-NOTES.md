@@ -1,3 +1,11 @@
+## Owner-confirmed maid-bot service fee and utility placement
+
+The maid bot's service cost is **100 gold per week**, charged to Richard's own household funds rather than the player. The charging station and cleaning supplies belong in the entry-hall utility cupboard, with laundry equipment nearby. It can place supply orders after Richard grants financial permission; the service fee is not blanket permission for additional purchases. Billing must track a persistent paid-through period and avoid duplicate charges on reload/time replay. Exact unpaid-service behavior and billing anchor are implementation defaults to make explicit before testing; no new charged fee is live yet.
+
+## Room-art generation requested
+
+Owner requests individual room illustrations for Richard, Nadia, Erin (E-R-I-N) and Priya. Existing location artwork frame is 1100×733, approximately 3:2; the spoken 1100×730 estimate is superseded by repository evidence. Preserve existing approved art and generate new review assets matched to each room's actual authored contents, distinct resident style and layout. Generation does not imply approval, wiring or publication. Richard has nine spaces; the other three homes each have six, for 27 separate room illustrations. No characters, explicit imagery or private information should be invented in these environment illustrations.
+
 ## Owner-confirmed balcony furniture, shade and railing
 
 Owner accepts two comfortable outdoor chairs, a small drinks table, restrained lighting and maintained planters with the city view open. Add small shade umbrellas over the drinks table. The balcony edge uses glass railing panels with metal support posts and mounting brackets, preserving the view.

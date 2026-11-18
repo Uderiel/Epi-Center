@@ -1,3 +1,9 @@
+## Bot weekly cost and four-household room-art request
+
+Owner sets Richard's bot service to100gold/week, approves entry-hall utility charging cupboard/laundry nearby and reaffirms purchase authorization. Requests room illustrations for Richard/Nadia/Erin/Priya. Existing artwork frame verified1100×733 (~3:2), not730. Generating separate review assets for9Richard+6eachotherhome=27rooms; preserve approved artwork. No illustrations generated/wired/published yet at this checkpoint.
+
+Branch `rebuild/1.0-foundations`; parent `e72ccf1`. Documentation-only decisions; Richard runtime integration remains unfinished. Next exact action: generate and save the room-art review batch and manifest, then return to suite integration, finances and functional tests. Public remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 .
+
 ## Richard balcony confirmed — shade umbrellas and glass/metal railing
 
 Owner accepts chairs/table/lighting/planters and adds small umbrellas shading the drinks table, plus glass railing with metal support posts and mounting brackets. Saved draft/design and unpublished fixture catalog. Umbrella controls and actual suite UI remain pending; no gameplay test/release claim.

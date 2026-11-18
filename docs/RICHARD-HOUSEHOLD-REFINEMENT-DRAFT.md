@@ -158,6 +158,14 @@ Owner accepts two comfortable outdoor chairs, a small drinks table, restrained l
 
 Shade/open-close state should be reflected in descriptions if an umbrella control is offered. Table service uses actual authorized servings; furniture does not create drinks. Railing is an architectural boundary, not a new climbing or travel route. Exact measurements/material grades are not specified. These are approved furnishing/design requirements; new controls/assets are not implemented yet.
 
+## Owner-confirmed maid-bot service fee and utility placement
+
+The maid bot's service cost is **100 gold per week**, charged to Richard's own household funds rather than the player. The charging station and cleaning supplies belong in the entry-hall utility cupboard, with laundry equipment nearby. It can place supply orders after Richard grants financial permission; the service fee is not blanket permission for additional purchases. Billing must track a persistent paid-through period and avoid duplicate charges on reload/time replay. Exact unpaid-service behavior and billing anchor are implementation defaults to make explicit before testing; no new charged fee is live yet.
+
+## Room-art generation requested
+
+Owner requests individual room illustrations for Richard, Nadia, Erin (E-R-I-N) and Priya. Existing location artwork frame is 1100×733, approximately 3:2; the spoken 1100×730 estimate is superseded by repository evidence. Preserve existing approved art and generate new review assets matched to each room's actual authored contents, distinct resident style and layout. Generation does not imply approval, wiring or publication. Richard has nine spaces; the other three homes each have six, for 27 separate room illustrations. No characters, explicit imagery or private information should be invented in these environment illustrations.
+
 ## Established foundation
 
 Richard is an adult, younger, charming, ambitious and controlling Sales and Marketing Manager. Erin is his valued secretary; Daniel leads sales and Nadia leads marketing. His dark brown hair, hazel eyes, lean athletic build and professional appearance remain. He knows he relies on Erin, and stress increases his requests for help. He considers thanks and extra pay sufficient, but payment is not consent. Existing refusal memory, exactly-once task pay, resource pools, ordinary Mental-primary civilian combat and current ten attributes remain unchanged. He never quotes the numerical bonus aloud. Home is Applewood floor 7 Suite A. Nadia does not know he lives above her; meeting her elsewhere must not disclose that automatically. No Richard form or transformation route is proposed.
