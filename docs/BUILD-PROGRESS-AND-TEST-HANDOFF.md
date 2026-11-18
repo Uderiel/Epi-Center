@@ -1,3 +1,7 @@
+## Charity/Tits portrait backgrounds revised to match shop fixtures
+
+Owner permits characters in front of counters to show full bodies; the actual requirement is layout consistency. Revised full-body assets replace `character-art-review/charity-v1.png` and `tits-v1.png` in place. Charity shows C oak counter/protected shelves/enhanced displays; Tits shows C cafe counter/register/coffee equipment without merging A candy or B bakery displays into C. Both final images displayed in chat. See CHARACTER-ART-REVIEW.md for source and proposal limits; universal portrait/background guidance added to NPC-AND-FORM-DESIGN-TEMPLATE.md. These are review-only assets; no owner approval or live-game replacement claimed. Public v1.0.111 unchanged.
+
 ## Charity and Tits portrait concepts generated for review
 
 Owner requested an image of each while character design proceeds. Both generated portraits were displayed directly in chat and saved in `rebuild/hub/assets/character-art-review/` as `charity-v1.png` and `tits-v1.png`. See `docs/CHARACTER-ART-REVIEW.md` for sources/proposal boundaries. These are review assets, not approved/in-game replacements. Public v1.0.111 unchanged. Continue the grouped Burke/Tits design template; do not let art imply completion of missing wardrobe, relationships, routines or retail implementation.
