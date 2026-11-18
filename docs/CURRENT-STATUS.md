@@ -1,3 +1,9 @@
+## Richard living-room furnishings accepted; ambient sound system added
+
+Owner accepts proposed seating/workspace/workout arrangement, throw/coasters/drinks trolley and adds soundbar/sound system for ambient music. Saved approval in draft/design and added sound-system fixture to the unpublished suite catalog. Music state/controls/narration and actual audio remain unimplemented; no playback or tests claimed. Living-room furnishings approved, not a new release.
+
+Branch `rebuild/1.0-foundations`; parent `3e4588e`. Exact next action: continue owner room walkthrough, then finish suite UI/schedule/privacy integration and focused tests, including real music controls and local narration. Richard WIP is not live. Public remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 .
+
 ## Richard runtime checkpoint — written, integration/testing incomplete
 
 Branch `rebuild/1.0-foundations`; parent `480b9df`. Added individually authored nine-room Suite7A catalog (hall, living/workout/workspace, kitchen/bar, guest bedroom, guest bathroom, master bedroom, walk-in wardrobe, master bathroom, balcony), owned wardrobe/products/food, scoped guest permissions, Richard-authorized bot preparation/delivery/housekeeping/supply jobs, timed guest activities, explicit personal offers and once-per-rejection −3 behavior. Added daily-controller hooks and draft routine/correspondence module plus draft UI. Shared serving source now recognizes Richard. Existing Richard test file passes; new modules pass syntax checks. New household-specific tests, actual UI script/scene/navigation integration, full regression, browser checks and release remain pending. No new Richard gameplay is published; public v1.0.107 remains unchanged. Voice's “ready” statement was premature and corrected.

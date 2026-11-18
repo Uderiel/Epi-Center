@@ -110,6 +110,12 @@ After someone has recently done him a favor, he makes an effort at a personal qu
 
 This supersedes the proposed frequent remembered personal follow-ups and invitations without a need. His attention is uneven and status-conscious, not nonexistent; trusted confidants and upward networking remain distinct from routine subordinate attention. He can ask sincerely in the moment while still overestimating how much care that brief effort represents.
 
+## Owner-approved living-room furnishings and ambient sound
+
+Owner accepts the three-zone living-room proposal: generous charcoal sofa, two leather armchairs, low walnut table, stone-topped side tables, warm dimmable lamps, a few framed achievements and decorative pieces; large wall-mounted screen with discreet speakers and side workstation; window-side adjustable bench, weights and mat with organized storage and clear balcony route. Include a usable throw blanket, coasters and a drinks trolley for authorized bot service. Richard may explicitly share a report to the main screen; private work is concealed otherwise.
+
+Owner additionally requests a soundbar or sound system for ambient music. Equipment name/model is an implementation choice. Music must be an actual controllable state (on/off, selected available programme and volume) reflected in local descriptions/narration. It must not expose private work audio, invent copyrighted song lyrics, imply guests heard a conversation outside their actual space or bypass the bot's no-unsolicited-socializing rule. This confirms an in-world sound system; real audio assets/playback are not yet implemented or promised.
+
 ## Established foundation
 
 Richard is an adult, younger, charming, ambitious and controlling Sales and Marketing Manager. Erin is his valued secretary; Daniel leads sales and Nadia leads marketing. His dark brown hair, hazel eyes, lean athletic build and professional appearance remain. He knows he relies on Erin, and stress increases his requests for help. He considers thanks and extra pay sufficient, but payment is not consent. Existing refusal memory, exactly-once task pay, resource pools, ordinary Mental-primary civilian combat and current ten attributes remain unchanged. He never quotes the numerical bonus aloud. Home is Applewood floor 7 Suite A. Nadia does not know he lives above her; meeting her elsewhere must not disclose that automatically. No Richard form or transformation route is proposed.

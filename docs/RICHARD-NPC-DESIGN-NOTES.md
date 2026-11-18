@@ -1,3 +1,9 @@
+## Owner-approved living-room furnishings and ambient sound
+
+Owner accepts the three-zone living-room proposal: generous charcoal sofa, two leather armchairs, low walnut table, stone-topped side tables, warm dimmable lamps, a few framed achievements and decorative pieces; large wall-mounted screen with discreet speakers and side workstation; window-side adjustable bench, weights and mat with organized storage and clear balcony route. Include a usable throw blanket, coasters and a drinks trolley for authorized bot service. Richard may explicitly share a report to the main screen; private work is concealed otherwise.
+
+Owner additionally requests a soundbar or sound system for ambient music. Equipment name/model is an implementation choice. Music must be an actual controllable state (on/off, selected available programme and volume) reflected in local descriptions/narration. It must not expose private work audio, invent copyrighted song lyrics, imply guests heard a conversation outside their actual space or bypass the bot's no-unsolicited-socializing rule. This confirms an in-world sound system; real audio assets/playback are not yet implemented or promised.
+
 ## Owner-confirmed selfishness and limited reciprocal attention
 
 Richard is somewhat selfish and strongly focused on advancement, promotion and rising through the ranks. He is not naturally good at checking in or following up, particularly with people below him in the workplace hierarchy. Genuine enjoyment of their company does not make him consistently attentive to their needs. Do not rewrite him as an unusually thoughtful, reliably nurturing friend.
