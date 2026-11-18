@@ -1,3 +1,13 @@
+## v1.0.104 correction checkpoint — not published
+
+Branch: `rebuild/1.0-foundations`; parent `5ffff3c`. Runtime correction checkpoint follows this entry. Public remains v1.0.103 (`76c4942`).
+
+Implemented but not yet release-verified: explicit dialogue intent routing, shared physical hearing/recipient boundary, Applewood floors and unknown door labels, normal home entry adapters and escort routing, meeting participant exchanges, full authored three-stage flats passage retained during AI enrichment, immediate footwear travel/activity updates, contextual AI narration queue and visible fallback failures.
+
+Verification: first full regression run has six failing suites (AI fallback expectation, dropdown source assertions/harness dependency, scene invalidation expectation, generated worker bundle). No publication or passing claim. Remaining runtime work: office checklist and source-backed reports, dev mastery/day-time controls, lunch discoverability, arousal events, social expiry/initiative fixes, images and browser checks.
+
+Blocker: exact worn/unworn image bytes are not mounted; inline previews cannot be imported as original files. Exact next action: resolve regression failures and missing controls, add behavioural regression cases for owner reports, then run full suite/browser checks before promotion. Preserve existing saves and do not reset owner progress.
+
 ## Owner correction pass in progress — v1.0.104
 
 Branch `rebuild/1.0-foundations`; parent `4f6216a`. Received real mobile testing corrections covering AI keyword routing/prose, meetings/local hearing/presence, apartment floors/access/following, flats detail/travel/images, office workflow/reports/lunch and generic dev controls. [Tracked acceptance cases](V1.0.104-CORRECTION-TRACKER.md). Current public version remains v1.0.103. No fixes/tests/deployment claimed yet. Supplied image previews are visible but downloadable originals are not in the filesystem; asset wiring can proceed while original bytes are requested. Exact next action: reproduce and correct AI mechanics-vs-dialogue routing plus room-local presence.

@@ -1,0 +1,9 @@
+/* Speech stays speech unless it explicitly requests a mechanical game action. */
+(function(r,f){const a=f(typeof module==='object'&&module.exports?require('./roleplay-input'):r.EpiRoleplayInput);if(typeof module==='object'&&module.exports)module.exports=a;else r.EpiDialogueIntents=a;})(globalThis,function(I){
+function intent(id,raw){const q=I.parse(raw).expressed.trim().toLowerCase().replace(/[’]/g,"'").replace(/[.!]+$/,'');if(!q)return 'talk';if(/^(?:i )?(?:attack|hit|punch|strike|fight)\b/.test(q))return 'attack';if(/^(?:no thanks|i decline|i can't make it|i cannot make it)$/.test(q))return 'decline';if(/^(?:yes please|i accept|i'd love to|yes|sure)$/.test(q))return 'accept';if(/\b(?:not|never|don't|do not)\b/.test(q))return 'talk';
+ if(id==='priya'){if(/^(?:i )?(?:apologize|i'm sorry|i am sorry)/.test(q))return 'apologize';if(/^(?:please )?(?:invite me|let's meet|meet me|can we meet|would you like to meet)\b/.test(q))return 'invite';if(/^(?:show|open|view) (?:your |the )?(?:content strategy records|product catalog|work records)$/.test(q))return 'work';}
+ if(id==='daniel'){if(/^(?:show|open|view|retrieve) (?:your |the )?(?:sales report|sales figures|reports)$/.test(q))return 'reports';if(/^(?:show|view) (?:the )?product catalog$/.test(q))return 'products';}
+ if(id==='richard'){if(/^(?:i )?(?:deliver|hand (?:you|richard))\b.*\b(?:report|summary)\b/.test(q))return 'deliver';if(/^(?:i )?(?:start|prepare|write|resume|continue|work on) (?:the |my )?(?:extra |additional )?(?:report|summary)$/.test(q))return 'work';if(/^(?:do you have|may i have|can i have|give me|i'd like) (?:any |some )?(?:extra|additional) work\??$/.test(q))return 'extra';if(/^(?:stop asking|respect my boundary|no more extra work)$/.test(q))return 'boundary';}
+ if(id==='nadia'&&/^(?:i )?(?:praise|compliment) (?:you|nadia|your work)$/.test(q))return 'praise';return 'talk';}
+return Object.freeze({intent});
+});

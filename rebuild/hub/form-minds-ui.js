@@ -36,7 +36,7 @@ function formMindAction(kind,text=''){
    else if(kind==='crate-store'){if(!EpiKibblesForm.capabilities(save).manipulation||!EpiKibblesForm.treats(save))throw Error('You need usable hands and an owned snack.');save.inventory.dogTreats--;b.crate.food++;messages=['One owned snack placed in the crate; inventory updated.'];}
    else return false;
   }
-  for(const message of messages.filter(Boolean))feedEntry('Private · '+targetName,message,undefined,{origin:'mechanics'});
+  for(const message of messages.filter(Boolean))feedEntry('Private · '+targetName,message,undefined,{origin:'mechanics',audience:'owner',experience:['resist','desperate','recover','decision','escape'].includes(kind)});
  }catch(error){feedEntry('A.S.S.',error.message);}store();render();return true;
 }
 function formMindIntent(text){if(/^(?:i\s+)?(?:(?:try|attempt) to )?resist (?:(?:[a-z]+[’']s|her|his|its|this|the|current)\s+)*(?:decision|routine|action|plan)[.!]?$/i.test(String(text).trim()))return 'decision';return EpiCanineIntent.parse(text)?.kind||null;}

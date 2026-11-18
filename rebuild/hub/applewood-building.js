@@ -1,0 +1,17 @@
+/* Physical floors and discovered door occupants. Unit labels are not omniscient. */
+(function(r,f){const a=f(typeof module==='object'&&module.exports?require('./world-clock'):r.EpiWorldClock);if(typeof module==='object'&&module.exports)module.exports=a;else r.EpiApplewood=a;})(globalThis,function(C){
+const residences={'2F':{name:'Priya Shah',id:'priya'},'3C':{name:'Erin Lillard',id:'erin'},'4C':{name:'Daniel Mercer',id:'daniel'},'6E':{name:'Nadia Voss',id:'nadia'},'7A':{name:'Richard Carter',id:'richard'}};
+function state(s){s.world||={};const b=s.world.applewoodBuilding||={inside:false,floor:0,door:null,known:{}};if(s.hub?.location==='applewood'){if(s.world.priyaHome?.inside){b.inside=true;b.floor=2;b.door='2F';b.known['2F']=true;}else if(s.world.applewood?.inside){b.inside=true;b.floor=3;b.door='3C';b.known['3C']=true;}}if(s.world.discovered?.erinhome)b.known['3C']=true;return b;}
+function privateRoom(s){return s.world?.priyaHome?.inside||s.world?.applewood?.inside;}
+function guard(s){if(s.hub?.location!=='applewood'||s.encounter?.active||s.world?.priyaFlats?.active)throw Error('Reach Applewood outside an encounter in a mobile body.');}
+function enter(s){guard(s);if(privateRoom(s))throw Error('Leave the apartment through its door first.');Object.assign(state(s),{inside:true,floor:0,door:null});return {minutes:1,text:'You enter Applewood’s lobby. The elevator serves the residential floors.'};}
+function floor(s,id){guard(s);const b=state(s),n=Number(id);if(!b.inside||privateRoom(s)||!Number.isInteger(n)||n<0||n>7)throw Error('Use the building elevator outside private apartments.');const changed=b.floor!==n;Object.assign(b,{floor:n,door:null});return {minutes:changed?1:0,text:n?'You reach the quiet corridor on floor '+n+'.':'You return to the lobby.'};}
+function door(s,id){guard(s);const b=state(s);if(!b.inside||privateRoom(s)||!new RegExp('^'+b.floor+'[A-F]$').test(id))throw Error('That residence is not on your current floor.');b.door=id;return {minutes:0,text:label(s,id)+' · private apartment door.'};}
+function atDoor(s,id){const b=state(s);return s.hub?.location==='applewood'&&b.inside&&!privateRoom(s)&&b.floor===Number(id[0])&&b.door===id;}
+function learn(s,id){state(s).known[id]=true;}
+function leaveUnit(s,id){Object.assign(state(s),{inside:true,floor:Number(id[0]),door:id});}
+function exit(s){guard(s);const b=state(s);if(privateRoom(s)||!b.inside||b.floor!==0)throw Error('Return through the apartment door and take the elevator to the lobby first.');b.inside=false;b.door=null;return {minutes:1,text:'You leave the lobby for the Applewood exterior.'};}
+function label(s,id){return 'Unit '+id+(state(s).known[id]&&residences[id]?' · '+residences[id].name:' · occupant unknown');}
+function occupants(s){const b=state(s);return 'ABCDEF'.split('').map(x=>({unit:b.floor+x,label:label(s,b.floor+x)}));}
+return Object.freeze({residences,state,enter,floor,door,atDoor,learn,leaveUnit,exit,label,occupants});
+});
