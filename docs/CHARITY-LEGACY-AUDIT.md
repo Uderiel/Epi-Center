@@ -2,6 +2,12 @@
 
 Sources inspected: epi-center-v0.8.71-cherished-touch-foundation.html and epi-center-v0.8.84-attribute-foundation-corrections.html (CherishedTouch871 quests/charity/panel); docs/EPI-CENTER-CHANGELOG.md, October25Cherished Touch notes; docs/EPI-CENTER-PROJECT-HANDOFF.md; docs/Epi-Center-Character-Design-Gap-Audit.md CP013; docs/CHERISHED-TOUCH.md; current cherished-touch.js/UI, ai-context.js and interactCharity in index.html.
 
+## Owner refinement — Assist Charity quest rewards and repeated service
+
+Successful coverage is a quest completion. Owner specifies gold payment and a discount on future products bought from Cherished Touch, with no form-mastery points awarded for completing the quest. These rewards belong to the individual completing player. Several successful completions are required before access to one hidden location beneath the shop becomes available. Do not equate one completed shift, elapsed partial time, mask ownership or a relationship threshold with immediate hidden access. Preserve prior relationship/trust/privacy/world-progression conditions; exact hidden destination/threshold and whether a private invitation precedes access remain to be authored.
+
+Gold amount, discount rate/stacking, repeat interval, completion requirements and required number of successful shifts have not been approved. Proposed review defaults only:250gold per completed six-hour shift, a persistent10%store discount unlocked once (not compounded per shift), and eligibility for a private hidden-location invitation after three successful shifts. These are discussion proposals, not established prices/rewards or implemented behavior. Failed/abandoned shifts must not be silently counted as completed or duplicate rewards after reload. No automatic mask mastery or mastery point grant.
+
 ## Owner refinement — rest closures and mask trust90
 
 Charity may periodically close the store to rest. Closure is inconvenient for her, so developing friendships can make voluntary shop coverage attractive. Owner sets the trust requirement for offering her appearance-changing mask and allowing a player to take her place at90trust. This supersedes the older Assist Charity100%trust threshold. Keep trust90 separate from sensitive-disclosure relationship75+; exact trust accrual/persistence and its mapping to current relationship infrastructure still need design. Friendship makes the offer plausible; threshold alone does not equip the mask or accept work.

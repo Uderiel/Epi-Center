@@ -1,3 +1,7 @@
+## Assist Charity quest rewards confirmed
+
+Owner confirms gold plus future-purchase store discount, no form-mastery points, and several completed shifts before access to one hidden location beneath shop. Exact reward/discount/shift count pending. Review proposal only:250gold per six-hour completion,10%persistent noncompounding discount, three successful completions toward a private invitation. Keep trust90and existing privacy/cylinder conditions separate. Next discuss these proposed values and reliable completion/handover. No gameplay changes.
+
 ## Charity mask coverage — trust90supersedes legacy100
 
 Owner permits periodic rest closures, inconvenient for Charity. At90trust she may offer voluntary appearance-mask coverage to a trusted friend so she can rest while the shop stays staffed. Keep trust90 separate from relationship75+disclosure; retain existing six-hour shift and safe mask return/removal rules. Next: compensation and actual shop handover/closure routine. Design only; no gameplay publication.
