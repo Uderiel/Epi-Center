@@ -1,3 +1,7 @@
+## Shared one-hour lunch and Nadia morning/evening order confirmed
+
+Branch `rebuild/1.0-foundations`; parent673d70a. Owner sets12:00–13:00lunch for all third-floor Tech Center employees and confirms morning calisthenics→shower→breakfast/marketing-email review, Dart nose-nudge→whimper→door-circling, physical midday check, and evening feed→shower→water→casual change→daily Central Hub walk/possible Kibbles encounter. Stone surfaces confirmed. Saved immediately; broad impact is not a reason to defer recording. Exact next action: patch common lunch scheduling/work/booking exclusions, run targeted/full tests, then implement Nadia/Dart household with actual complete commute/care timing. Public106 unchanged; no new runtime pass/publication claimed.
+
 ## Nadia/Dart stays active focus — daily-rhythm review
 
 Branch `rebuild/1.0-foundations`; parent2480aef. Owner confirms disciplined/obedient/protective Dart and completion order Nadia/Dart→Richard→DanielMercer→sales employee. Recorded next spoken-review routine/mannerisms and actual16-minute outdoor one-way office route. Proposed longer lunch home-care trip remains unapproved and needs full edge/appointment timing; do not fabricate deferred daycare or caregiver. Owner asks to keep daily/home/Dart work moving. Exact next action: present the connected rhythm and care proposal verbally, then finish agreed household implementation (latest runtime still106). Documentation-only checkpoint; no new tests/runtime/publication.
