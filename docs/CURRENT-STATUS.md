@@ -1,3 +1,7 @@
+## Checkout and personal wardrobe policies confirmed
+
+Bundle is once per player. Discounts shown/applied before purchase. No returns for nondefective goods/wrong color. Bought clothes persist as selectable owned items for appropriate closet/dresser storage, washing and re-wear. Original player residence is FUTURE/unbuilt; no invented address, storage teleport or existing completed integration. One-time discount checkout scope/rounding and general wardrobe adapters remain to define. Design only; live109unchanged.
+
 ## Jewelry stacking approved with per-side caps
 
 Owner allows same-attribute bonuses to stack across validly worn pieces. ONE bracelet per arm, ONE ring per hand (final spoken wording supersedes initial two-rings phrase). Mystery Box per-item roll remains+1only; stronger future jewelry deferred. Existing item-ID accessory slots do not enforce these caps; shared equipment integration is still needed. Necklace/anklet caps and full drop pool remain unresolved. Next: fitting/checkout/stock policies and remaining catalog choices. Design only.
