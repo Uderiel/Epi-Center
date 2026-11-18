@@ -1,3 +1,7 @@
+## Tits greetings and queue behavior confirmed
+
+Single actual customer: enthusiastic greeting and possible attempt to reach across counter for a hug, without forcing a player response. Multiple actual customers: broad smile, excited wave/shimmy. Cheerful scatterbrained welcome with occasional “like,” not constant filler. She tries to complete current order before switching; chat can interrupt her place, requiring recheck with the approved prep-mistake chance. Owner explicitly confirms free corrections and stable waiting positions. Added to BURKES-SWEETS-DESIGN.md; no new gameplay/public change. Next grouped routine draft: preopening baking, short service pauses, cleanup/closing and unfinished-order handling.
+
 ## Tits familiarity/memory confirmed
 
 She can recognize regular faces and invent silly appearance-based nicknames, particularly for people she likes. She remembers distinctive treat customization, exceptionally complicated/simple orders, or customers especially patient/forgiving about mistakes. Use actual salient encounter/order records, not perfect recall or invented preferences. Preserve separation of underlying player relationship and visible recognition across forms. Recorded in BURKES-SWEETS-DESIGN.md; design only, public v1.0.111 unchanged. Next service draft: queue attention, interruptions, preparation/correction and closure using the established template.
