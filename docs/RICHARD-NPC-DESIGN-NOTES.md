@@ -1,3 +1,9 @@
+## Owner-confirmed response to challenged stories and direct contradiction
+
+When someone challenges an embellished story, Richard may graciously concede: “Okay, maybe I embellished a little, but that’s generally how it went.” This is an illustrative voice example, not a recorded game event. He can acknowledge exaggeration without abandoning the broad account.
+
+For direct contradiction he may first deflect playfully. If the person persists, he becomes increasingly annoyed or irritated. Do not equate annoyance with automatic workplace retaliation, combat, loss of pay or forced player agreement. Venue-choice flexibility and deeper personal rejection remain separate, unresolved questions.
+
 ## Owner-confirmed social voice — boisterous storyteller, guarded status
 
 Richard is generally confident and boisterous off duty. He enjoys telling stories, holding an audience's attention and having others engage with his banter. He sometimes embellishes accomplishments or story details. Distinguish his account from objective world history: dialogue may be self-flattering, but it must not create actual promotions, transactions, relationships or past player actions. Do not invent a specific canonical achievement merely to supply a story.

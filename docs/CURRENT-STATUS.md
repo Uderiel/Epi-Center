@@ -1,3 +1,9 @@
+## Richard challenged-story and contradiction response confirmed
+
+He can graciously concede some embellishment while standing by the general story. Direct contradiction first gets playful deflection; persistence increases irritation. No automatic retaliation or forced agreement. Saved in draft/design. User also requests uninterrupted voice turns: stop unsolicited “mm-hmm”/laughter/backchannel interruptions and allow their full reply.
+
+Branch `rebuild/1.0-foundations`; parent `f32b69e`. Documentation only, no runtime/tests/release. Next exact action: allow owner to finish their thought, then continue remaining social-personality review without repetitive acknowledgments or interruptions. Public remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 .
+
 ## Richard social voice confirmed — storyteller and guarded managerial status
 
 Owner defines confident, boisterous banter and embellished stories/accomplishments, enjoying audience engagement. Jokes at his expense prompt subtle deflection/subject changes; he rationalizes social distance through managerial morale/efficiency. This supersedes proposed enjoyment of reciprocal teasing. Character claims are not objective event history or automatic morale/punishment mechanics. Saved in draft/design.

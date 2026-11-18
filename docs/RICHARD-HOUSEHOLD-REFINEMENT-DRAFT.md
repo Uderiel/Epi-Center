@@ -76,6 +76,12 @@ This replaces the proposed assumption that he enjoys being teased back. Dry wit 
 
 Still open for review: whether he yields easily when someone else chooses the venue or disagrees, how he reacts to personal rejection, what he shares when genuinely vulnerable, and his flirting/romantic approach. Current relationship status remains single; a future Research Center romance is only a possibility.
 
+## Owner-confirmed response to challenged stories and direct contradiction
+
+When someone challenges an embellished story, Richard may graciously concede: “Okay, maybe I embellished a little, but that’s generally how it went.” This is an illustrative voice example, not a recorded game event. He can acknowledge exaggeration without abandoning the broad account.
+
+For direct contradiction he may first deflect playfully. If the person persists, he becomes increasingly annoyed or irritated. Do not equate annoyance with automatic workplace retaliation, combat, loss of pay or forced player agreement. Venue-choice flexibility and deeper personal rejection remain separate, unresolved questions.
+
 ## Established foundation
 
 Richard is an adult, younger, charming, ambitious and controlling Sales and Marketing Manager. Erin is his valued secretary; Daniel leads sales and Nadia leads marketing. His dark brown hair, hazel eyes, lean athletic build and professional appearance remain. He knows he relies on Erin, and stress increases his requests for help. He considers thanks and extra pay sufficient, but payment is not consent. Existing refusal memory, exactly-once task pay, resource pools, ordinary Mental-primary civilian combat and current ten attributes remain unchanged. He never quotes the numerical bonus aloud. Home is Applewood floor 7 Suite A. Nadia does not know he lives above her; meeting her elsewhere must not disclose that automatically. No Richard form or transformation route is proposed.
