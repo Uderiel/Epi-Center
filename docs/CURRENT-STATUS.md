@@ -1,3 +1,7 @@
+## Next active design — Cherished Touch and the shop economy
+
+Owner redirects from a sales employee to Cherished Touch. Baseline/source audit and connected review proposal saved in CHERISHED-TOUCH-EXPANSION-DRAFT.md. No shop changes or prices implemented. Existing map, First Steps and concealed-feature restrictions preserved. Next: discuss service/operating style and entry-level versus premium pricing, then draft catalogue/transactions/Charity household in the universal template. v1.0.109 remains published; owner requests its acceptance checklist pasted directly in chat as basic text.
+
 ## v1.0.109 — published and publicly verified
 
 **[Play v1.0.109](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.109)** · [Testing checklist](V1.0.109-OWNER-ACCEPTANCE.md). Runtime `383fc926b3fe3a1284a15fb068863a775e0d1597` is published on main and foundations. [Pages deployment44364156631](https://github.com/Uderiel/Epi-Center/actions/runs/44364156631) succeeded. **1,295automated cases across76suites,205local and205public browser checks passed;166public runtime/image files match**. Evidence: `docs/releases/v1.0.109-release-summary.json`, `v1.0.109-tests.json`, `v1.0.109-public-browser-summary.json`, `v1.0.109-live-verification.json`.
