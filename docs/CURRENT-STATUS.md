@@ -1,3 +1,9 @@
+## Safe implementation checkpoint — lunch patched, Nadia home scaffold unwired
+
+Branch `rebuild/1.0-foundations`; parentd3b7098. Shared workplace-schedule module now supplies noon–one lunch to named employees and receptionist duties; booking excludes overlap and productive-minute accounting excludes lunch without retroactive wage edits. Six direct lunch cases and latest full1,184case run pass. Existing office workflow test updated for12:30being lunch. Began reusable character-home residence/navigation factory and Nadia-specific six-room/77piece wardrobe, makeup/product/food/fixture data. These new home files only pass syntax checks; they are not integrated or claimed playable.
+
+Exact next action: implement Nadia household/state/timed jobs and independent Dart actor, wire scene/floor/navigation/UI/AI boundaries, verify complete lunch commute, add targeted/browser tests, then full release checks. Boutique service engine remains deferred. Public106/runtimead28cc1 unchanged; no107publication. Preserve historical106release evidence and owner saves. This WIP is committed to development for safe continuation.
+
 ## Canine personalization and actual territorial recognition confirmed
 
 Branch `rebuild/1.0-foundations`; parentd59d0af with uncommitted lunch/home scaffolding. Owner confirms generic Kibbles has no default female identity; actual player personalization governs gender/name. Dart’s sniff greeting and chosen player response establish familiarity; both may recognize actual other-dog park marks and learn Dart’s scent. Added requirements and illustrative dialogue to Nadia/Dart draft/template. Lunch target/full regression most recently1,184cases passed before new home scaffolding; no107release or home integration/browser pass. Exact next action: provide requested sample lines, implement real Dart/mark/familiarity records and household adapter, preserve user choice and actual existing mark history.

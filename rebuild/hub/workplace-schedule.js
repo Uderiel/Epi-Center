@@ -1,0 +1,3 @@
+/* Canonical third-floor Technology Center work and lunch windows. */
+(function(r,f){const a=f();if(typeof module==='object'&&module.exports)module.exports=a;else r.EpiWorkplaceSchedule=a;})(globalThis,function(){
+'use strict';const shiftStart=540,shiftEnd=1020,lunchStart=720,lunchEnd=780,minute=at=>((at%1440)+1440)%1440;const isLunch=at=>minute(at)>=lunchStart&&minute(at)<lunchEnd;const productive=at=>minute(at)>=shiftStart&&minute(at)<shiftEnd&&!isLunch(at);const overlapsLunch=(at,duration)=>Number.isFinite(at)&&Number.isFinite(duration)&&duration>0&&Array.from({length:Math.min(1440,Math.ceil(duration))},(_,i)=>at+i).some(isLunch);return Object.freeze({shiftStart,shiftEnd,lunchStart,lunchEnd,isLunch,productive,overlapsLunch,lunchLabel:'12:00–13:00'});});
