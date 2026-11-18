@@ -1,3 +1,7 @@
+## v1.0.106 implementation checkpoint
+
+See [implemented Erin/shared refinements and limits](ERIN-REFINEMENT-IMPLEMENTATION.md) and [acceptance checklist](V1.0.106-OWNER-ACCEPTANCE.md). Sustained activities, satisfaction, voluntary mastered delegation, correspondence/Scheduler and shared conversation continuity now have runtime implementations. Broader draft proposals outside that implementation list remain proposals. Exact release/test evidence is in CURRENT-STATUS.md; historical notes below do not override it.
+
 # Universal NPC and form design template
 
 Authoring standard established from Priya’s first completion package and Erin’s refinement review. This is a design checklist, not a second runtime schema. Keep the validated living profile in [FORM-LIVING-TEMPLATE.md](FORM-LIVING-TEMPLATE.md); reuse existing clocks, inventory, navigation, encounters, relationships and mastery adapters.

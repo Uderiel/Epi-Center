@@ -1,3 +1,7 @@
+## v1.0.106 implementation checkpoint
+
+See [implemented Erin/shared refinements and limits](ERIN-REFINEMENT-IMPLEMENTATION.md) and [acceptance checklist](V1.0.106-OWNER-ACCEPTANCE.md). Sustained activities, satisfaction, voluntary mastered delegation, correspondence/Scheduler and shared conversation continuity now have runtime implementations. Broader draft proposals outside that implementation list remain proposals. Exact release/test evidence is in CURRENT-STATUS.md; historical notes below do not override it.
+
 # Erin identity and mastered release · v1.0.92
 
 ## Owner-defined identity

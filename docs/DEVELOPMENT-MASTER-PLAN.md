@@ -1,3 +1,9 @@
+## v1.0.106 — final verification candidate
+
+Branch `rebuild/1.0-foundations`; prior runtime checkpoint fae9c56. Approved Erin refinements are implemented: saved sustained activities and satisfaction, couch blanket, revocable mastered delegation, contextual commentary, natural NPC departure, Priya audible household chatter, personal email, state-specific work inbox and separate Scheduler. Existing saves/art/core mastery and resources are preserved. [Implementation](ERIN-REFINEMENT-IMPLEMENTATION.md) · [Owner checklist](V1.0.106-OWNER-ACCEPTANCE.md).
+
+Latest automated run passed1,177named cases before the final needs/release/office edge assertions; final rerun and browser results are being recorded. No106public success claimed yet. Public105 remains live until verification. Exact next action: freeze source, complete final regression and three browser suites, commit/push tested candidate, verify Pages bytes and public browser flows, then append exact runtime/evidence. Paid AI/private Worker/native Android acceptance remain unverified.
+
 ## Erin refinement and reusable authoring template — design checkpoint
 
 Branch `rebuild/1.0-foundations`; parent `5ee54e6`. Owner selects Erin next and requires future broad-vibe briefs to produce complete NPC/form drafts. Added NPC-AND-FORM-DESIGN-TEMPLATE.md as the universal authoring checklist alongside the unchanged runtime living schema. Added ERIN-CHARACTER-REFINEMENT-DRAFT.md, preserving established Erin identity, body lifecycle, authority, household and work systems while proposing coherent voice, daily/social rhythm, reciprocal hosting and meaningful personal interactions. New details are proposals for review, not implemented or individually approved.

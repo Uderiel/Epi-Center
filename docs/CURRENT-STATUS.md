@@ -1,3 +1,9 @@
+## v1.0.106 — final verification candidate
+
+Branch `rebuild/1.0-foundations`; prior runtime checkpoint fae9c56. Approved Erin refinements are implemented: saved sustained activities and satisfaction, couch blanket, revocable mastered delegation, contextual commentary, natural NPC departure, Priya audible household chatter, personal email, state-specific work inbox and separate Scheduler. Existing saves/art/core mastery and resources are preserved. [Implementation](ERIN-REFINEMENT-IMPLEMENTATION.md) · [Owner checklist](V1.0.106-OWNER-ACCEPTANCE.md).
+
+Final candidate passes 1,177 named automated cases across64suites and142local browser checks (78regression,38cat/household,26Erin refinement). Syntax, module paths and whitespace pass. No106public success claimed yet. Public105 remains live until verification. Exact next action: freeze source, complete final regression and three browser suites, commit/push tested candidate, verify Pages bytes and public browser flows, then append exact runtime/evidence. Paid AI/private Worker/native Android acceptance remain unverified.
+
 ## Erin refinement runtime checkpoint — unpublished candidate
 
 Branch `rebuild/1.0-foundations`; parent936b41e. First runtime candidate adds actual saved Erin read/watch/bath/awake-rest/nap/cooking/eating/dishes sessions, continue/stop, real couch blanket, recent-reading satisfaction, mastered interval/day/bedtime delegation and reclaim, bounded private commentary, personal home email/drafts/threads/AI expansion, day/state work email and separate Scheduler. Shared NPC departure guards and actual Priya writing/cat chatter are wired.15targeted cases pass; prior full run passed1,159named cases before the latest departure/ambience hooks. Full rerun active. No public106 or browser-success claim.
