@@ -10,6 +10,14 @@ Accepting the job commits the player to the entire six in-game-hour shift. There
 
 The player need not initiate conversation or manually seek customer interactions. When an actual customer interacts, the resulting response/behavior must be what Charity would naturally do, including when routine service is left to proceed. This requires context-sensitive role expression, not fixed keyword replies or arbitrary actions unrelated to her shopkeeper persona. The displayed outward speech and resulting mechanical actions should agree. Customer sales/stock, authorized choices and receipts must remain grounded in actual implemented shop state; role narration alone cannot mint goods, money or quest outcomes. No real customer simulation, mask filter or commitment enforcement is implemented by this design entry.
 
+## Owner-approved availability and Monday delivery schedule
+
+Everyday clothing (regular tops, shorts, jeans and other ordinary clothing) never sells out. When a player purchases a normal item, another replaces it automatically. This explicitly supersedes prior proposed finite ordinary-stock/delivery assumptions. Do not invent a normal-clothing shortage, backorder or material-cost gate. Preserve individually owned purchased variants and their atomic payment/receipt even though shelf availability is replenishing. Bundle once-per-player and other transaction limits are not reset by automatic shelf replacement.
+
+Enchanted merchandise is limited and CAN sell out. A player may purchase only ONE enchanted item per transaction, with a persistent restriction against immediately leaving and re-entering to start another purchase. Exact restriction duration is not approved yet. Review proposal: rolling24IN-GAME-hour cooldown per individual player between enchanted purchases, independent of current form, visits, save/reload or midnight. Do not implement a per-visit reset or call the proposed24hour period confirmed.
+
+Deliveries arrive every MONDAY at06:00in-game. Schedule real weekly restock records once per delivery boundary and preserve them on reload; repeated entry/rendering must not duplicate a delivery or reroll stock. Exact enchanted restock amounts, item pool/roll policy, starting availability, missed-week handling, pricing and whether Mystery Box purchases share the enchanted cooldown remain to confirm. Ordinary clothing does not depend on these limited-delivery restocks. No shop stock/transaction/delivery implementation in this record.
+
 ## Owner-approved purchase policies and lasting wardrobe ownership
 
 The45gold new-arrival bundle is available ONCE PER PLAYER, tracked against the actual player’s purchase history rather than form, current owned clothes or save reload. Each of its five chosen items still preserves its selected variant attributes. Existing Mystery Box three-purchase limit is separate.

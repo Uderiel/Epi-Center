@@ -1,3 +1,7 @@
+## Cherished Touch availability and deliveries confirmed
+
+Ordinary clothing never sells out: purchased shelf item automatically replaced. Enchanted stock limited; one enchanted item per transaction plus persistent anti-reentry restriction. Deliveries everyMonday06:00in-game. Proposed rolling24in-game-hour enchanted cooldown NOT yet approved; exact limited-stock pool/counts and Mystery Box cooldown classification pending. Existing once-only bundle/max3box caps retained. Next: confirm cooldown, then enchanted stock/delivery details. Design only; live109unchanged.
+
 ## Checkout and personal wardrobe policies confirmed
 
 Bundle is once per player. Discounts shown/applied before purchase. No returns for nondefective goods/wrong color. Bought clothes persist as selectable owned items for appropriate closet/dresser storage, washing and re-wear. Original player residence is FUTURE/unbuilt; no invented address, storage teleport or existing completed integration. One-time discount checkout scope/rounding and general wardrobe adapters remain to define. Design only; live109unchanged.
