@@ -1,3 +1,7 @@
+## Long-term discount rewards
+
+Permanent store discount:10%after3completed shifts,25%after10,35%after15. Each tier replaces the earlier rate. Initial two shifts retain one-time10%discounts. Gold schedule, +90relationship gate, +5clamped relationship reward and five-shift hidden-access milestone remain.
+
 ## Eligibility clarification
 
 Assist Charity requires+90relationship with the individual player on the existing−100to+100meter. No separate trust meter. Each successful shift adds+5up to+100, so two shifts from+90saturate it. Other completion rewards and milestones continue. Earlier separate trust interpretations are superseded.

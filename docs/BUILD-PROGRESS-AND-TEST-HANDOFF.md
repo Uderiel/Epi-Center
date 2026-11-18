@@ -1,3 +1,7 @@
+## Assist Charity permanent discount tiers confirmed
+
+Owner adds permanent25%after10successful shifts and35%after15. Permanent10%starts at3; tiers replace, not stack. One-time10%rewards remain on first2; hidden-location service milestone remains5; gold and relationship rules unchanged. Next: shift workflow/handover and shop catalogue/checkout policies. Design only.
+
 ## Charity correction — +90relationship gates shift eligibility
 
 Owner clarifies90trust means the existing per-player Charity relationship, not a separate trust meter. +90minimum to accept coverage; +5successful completion reward clamps at+100. Two shifts from exactly+90reach cap; further completions still earn gold/discount/access progress. Prior separate-mask-trust interpretations superseded. No gameplay change.

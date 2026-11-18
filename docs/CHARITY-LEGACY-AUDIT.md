@@ -2,6 +2,12 @@
 
 Sources inspected: epi-center-v0.8.71-cherished-touch-foundation.html and epi-center-v0.8.84-attribute-foundation-corrections.html (CherishedTouch871 quests/charity/panel); docs/EPI-CENTER-CHANGELOG.md, October25Cherished Touch notes; docs/EPI-CENTER-PROJECT-HANDOFF.md; docs/Epi-Center-Character-Design-Gap-Audit.md CP013; docs/CHERISHED-TOUCH.md; current cherished-touch.js/UI, ai-context.js and interactCharity in index.html.
 
+## Owner-confirmed long-term discount milestones
+
+Successfully completed Assist Charity shifts grant the following per-player discount progression: completions1and2 each grant a one-time10%discount; completions3through9 unlock/retain permanent10%; completions10through14 unlock/retain permanent25%; completion15and later unlock/retain permanent35%. New permanent tiers REPLACE the previous percentage; do not add them together or compound them. No higher tier beyond35%is currently specified.
+
+Payment remains250/300/350/400/450for completions1–5, then500each from6onward. Every successful completion grants+5relationship clamped at+100; accepting a shift requires+90relationship on that same per-player meter. Five completions still meet the service milestone for hidden-location access alongside other authored gates. Discount progression continues after relationship saturation. No form-mastery reward. Actual purchase rounding, unused one-time discount handling, checkout exclusions if any and repeat availability still require definition; do not invent them from this reward schedule.
+
 ## Owner correction — one relationship meter, not separate mask trust
 
 Owner clarifies that accepting Assist Charity requires Charity’s relationship with that individual player to be at least+90on the shared−100to+100scale. Earlier conversational references to90trust mean this relationship rating; a separate mask-eligibility trust meter is NOT required. This supersedes prior statements separating the90gate from relationship rewards. Sensitive disclosure still uses relationship75+and its other private/world-progression conditions.
