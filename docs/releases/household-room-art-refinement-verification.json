@@ -1,0 +1,132 @@
+{
+  "assetCommit": "ac60ed5fe918c28b4d26ca10e1d2cfaeacdf0310",
+  "pagesRun": 44346667354,
+  "files": [
+    {
+      "image": "rebuild/hub/assets/room-art-review/richard-hall.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/richard-living.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/richard-kitchen.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/richard-guest.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/richard-guestbath.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/richard-master.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/richard-closet.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/richard-masterbath.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/richard-balcony.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/nadia-hall.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/nadia-living.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/nadia-kitchen.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/nadia-bedroom.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/nadia-bath.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/nadia-closet.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/erin-living.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/erin-kitchen.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/erin-bedroom.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/erin-bath.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/erin-closet.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/erin-hall.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/priya-living.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/priya-kitchen.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/priya-bedroom.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/priya-bath.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/priya-closet.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/priya-hall.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/nadia-utility.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/erin-utility.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/richard-utility.png",
+      "matches": true
+    },
+    {
+      "image": "rebuild/hub/assets/room-art-review/priya-utility.png",
+      "matches": true
+    }
+  ],
+  "gameplayVersion": "1.0.108",
+  "ownerArtApproval": "pending"
+}

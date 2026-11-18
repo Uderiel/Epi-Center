@@ -1,3 +1,7 @@
+## Room-art refinements saved and pushed
+
+Asset commit ac60ed5 contains 31 canonical review images, including 12 in-place Erin/Priya replacements and four new hallway laundry/utility views. Accepted Richard/Nadia room images unchanged. Floor briefs: Priya2F, Erin3C, Nadia6E, Richard7A. Gallery and manifest updated. Both main and rebuild/1.0-foundations pushed; public verification follows in dedicated evidence. Gameplay remains v1.0.108; no runtime change. Owner review of new art pending. Discord setup deferred; user wants a step-by-step walkthrough later. Next design discussion: review Priya’s actual remaining gaps together, without assuming new refinements have been implemented.
+
 ## Room-art refinement in progress — replacements, not duplicates
 
 Erin's six room images have been revised in place for a younger contemporary, comfortable adult style; third-floor views were specified. Original filenames remain and rejected files are replaced, with previous hashes retained only as metadata/history. Priya's six edits are processing (second-floor views, sparse salt lamps, varied soft lighting and quartz/citrine/topaz). Four utility/laundry cupboard views still need generation, including Richard's bot charging stand. Accepted Richard/Nadia files are unchanged. No gameplay code changed by this art checkpoint.

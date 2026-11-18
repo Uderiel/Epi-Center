@@ -1,6 +1,6 @@
-## Room-art refinement complete — publication verification next
+## Room-art refinement complete — publicly verified
 
-31 current review assets: six Erin contemporary revisions, six Priya sparse-salt-lamp revisions, four new utility cupboard views. Replacements use canonical filenames; no duplicate rejected versions. Accepted Richard/Nadia room art unchanged. Floor briefs use Priya 2F, Erin 3C, Nadia 6E, Richard 7A. Manifest hashes and dimensions validated for all 31. Gameplay remains verified v1.0.108. Next: publish both branches and compare public image hashes. Discord bridge deferred at owner request; later provide step-by-step setup. After art, review Priya gaps with owner before selecting refinements.
+31 current review assets: six Erin contemporary revisions, six Priya sparse-salt-lamp revisions, four new utility cupboard views. Replacements use canonical filenames; no duplicate rejected versions. Accepted Richard/Nadia room art unchanged. Floor briefs use Priya 2F, Erin 3C, Nadia 6E, Richard 7A. Manifest hashes and dimensions validated for all 31. Gameplay remains verified v1.0.108. Both branches published at asset commit ac60ed5; Pages run44346667354 succeeded and all31public PNG hashes match the manifest. Evidence: docs/releases/household-room-art-refinement-verification.json. Discord bridge deferred at owner request; later provide step-by-step setup. After art, review Priya gaps with owner before selecting refinements.
 
 ## Room-art refinement in progress — replacements, not duplicates
 
