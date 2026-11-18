@@ -1,3 +1,11 @@
+## Priya completion design — review before implementation/publication
+
+Branch `rebuild/1.0-foundations`; parent draft checkpoint `46f3c8c`; public v1.0.104/runtime1931b6c unchanged. Owner approves the broad daily-life rhythm, repeatable per-save flats encounters with permanent conquered mastery and unchanged solitude gates, and real usable inventory servings for accepted snacks/drinks. Implementation has not started in this checkpoint. No new runtime tests or publication claimed.
+
+Consolidated [cat route review draft](PRIYA-CAT-ROUTE-REVIEW-DRAFT.md) preserves the established cat/collar contract and separates proposed defaults: Common feline profile, six-day owned-cat stay, physical care/roaming/window access, recognition milestones, protest/re-equip handling and actual date conclusion. Owner explicitly asks to review this draft for gaps before proceeding; publication is held until the cat design and approved implementation package are completed.
+
+Exact next action: present the consolidated draft, incorporate owner changes/approval, then implement durable flats replay, actual consumable inventory and approved routines/cat route with save/regression coverage. Draft is saved locally; no main promotion or remote publication.
+
 ## Daily-life proposal awaiting owner review
 
 Branch `rebuild/1.0-foundations`; parent/evidence `27acb49`, published runtime `1931b6c` (v1.0.104). New review-only draft: [Priya daily life](PRIYA-DAILY-LIFE-REVIEW-DRAFT.md). Proposes a coherent weekday/weekend rhythm, home care/food/wardrobe, real guest/outing scheduling and future cat hooks, preserving established work/jog contracts. None of these proposed autonomous routines is approved or implemented by this documentation checkpoint. No runtime files changed; no new tests or deployment claimed. Existing1100automated/78public-browser results belong to published104.

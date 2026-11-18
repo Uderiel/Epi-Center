@@ -1,6 +1,6 @@
 # Priya daily life — broad review draft
 
-Status: proposal for owner review, not approved canon or implemented gameplay. Requested after v1.0.104 to finish Priya in coherent batches rather than choosing every minute/item individually. Public runtime remains1931b6c, evidence27acb49. No gameplay or public deployment changes in this checkpoint.
+Status: overall rhythm approved by owner; implementation pending. Detailed implementation defaults remain proposals. Requested after v1.0.104 to finish Priya in coherent batches rather than choosing every minute/item individually. Public runtime remains1931b6c, evidence27acb49. No gameplay or public deployment changes in this checkpoint.
 
 ## Overall direction
 
@@ -58,3 +58,7 @@ The future cat route hooks into this same life: feeding/water, appropriate inter
 4. Implement/test that route, then bring other coworkers to comparable depth. Paid-model acceptance and owner regression findings remain tracked throughout.
 
 Review focus: Does this feel like Priya? Is the balance of writing, peaceful home time and social outings right? Fine timing can be tuned during implementation without requiring a separate decision for every action.
+
+## Owner follow-up decisions
+
+Weekend flats encounters may repeat per save. Conquered binding/mastery persists across revisits; worn/solitude reversion gates remain. Accepted snacks/drinks must be real usable Items-tab inventory entries with saved stock and single-consumption tracking. Hold publication until the cat-design review and approved package are completed. See PRIYA-CAT-ROUTE-REVIEW-DRAFT.md.
