@@ -1,3 +1,11 @@
+## Owner-confirmed flirting and private interest in Erin
+
+Richard starts with suggestive banter. If the other person is receptive, he becomes more direct and confident, often leaning into bragging and self-presentation. Use actual expressed receptivity; politeness, professional competence, friendliness, accepting refreshments or being a guest do not automatically establish romantic interest. Progressing conversation is not automatic consent to physical intimacy.
+
+He respects Erin as his secretary and is not categorically opposed to a personal relationship with her. If she is suggestive or expresses reciprocal openness to something more, he can be receptive. He insists on keeping that personal involvement private. No relationship exists by default; player choices and actual exchanges matter. Privacy is Richard's condition for his participation, not permission to force secrecy on the player, erase witnessed events, invent agreement or make nearby observers unaware. The maid bot's existing confidentiality rules apply without assuming new access or discussion permission.
+
+Keep personal interest separate from secretary assignments, bonuses, wages and promotion. The confirmed −3 personal-rejection rule applies once to resolved personal rejection; declining work is not silently reclassified as rejection of romance. Existing Richard civilian/workplace and Erin form identity rules remain intact. A possible future Research Center romance is still deferred and does not imply an exclusive partner now.
+
 ## Owner-confirmed personal rejection response and signed relationship effect
 
 Richard generally stays calm, keeps his composure and gives the other person space when his personal invitation or romantic interest is rejected. He remembers the rejection and it causes a small negative change in his relationship with that specific player/body identity or NPC, using the existing signed **−100 to +100** scale. It is a modest relationship loss, not a large penalty. Owner sets the change to a flat **−3 relationship points** per resolved personal rejection, clamped to the existing −100…+100 range. This is points, not a percentage multiplier.

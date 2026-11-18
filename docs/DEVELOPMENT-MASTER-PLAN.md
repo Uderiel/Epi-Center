@@ -1,3 +1,9 @@
+## Richard flirting and Erin possibility confirmed
+
+Suggestive banter first; actual receptivity leads to more direct, confident, often boastful pursuit. Richard can reciprocate Erin's expressed personal interest despite their workplace roles, but insists on privacy. No default relationship or automatic escalation. Keep secretary work/pay/bonuses separate and retain ordinary witnessed-presence/consent and bot-confidentiality rules. Saved draft/design.
+
+Branch `rebuild/1.0-foundations`; parent `4e5a1af`. Documentation only; no runtime/tests/release. Exact next action: review friendship follow-ups and personal vulnerability, then consolidate remaining social design for implementation. Public remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 .
+
 ## Richard personal rejection — calm demeanor, small signed relationship loss
 
 Owner confirms Richard keeps composure and gives space, but records rejection and loses a small amount of relationship toward the specific interacting player/NPC on the existing −100…+100 scale. Exact amount remains unspecified. Saved in draft/design with once-per-event persistence and separate existing workplace-refusal rules. No runtime implementation or tests claimed.
