@@ -7,7 +7,8 @@ function ensure(save){if(Number.isSafeInteger(save.worldClock?.minutes)&&save.wo
 function view(save){const c=ensure(save),daily=c.minutes%1440;return {day:Math.floor(c.minutes/1440)+1,hour:Math.floor(daily/60),minute:daily%60,elapsed:c.elapsed||0};}
 function phase(save){const v=view(save);return v.hour>=7&&v.hour<19?'day':'night';}
 function label(save){const v=view(save);return DAYS[(v.day-1)%7]+' · '+String(v.hour).padStart(2,'0')+':'+String(v.minute).padStart(2,'0');}
+function greeting(save,at=ensure(save).minutes){const m=at%1440;return m<300?'Hello':m<720?'Good morning':m<1080?'Good afternoon':'Good evening';}
 function formatText(text){return String(text??'').replace(/Day\s+(\d+)\s*·\s*(\d{1,2}:\d{2})/g,(_,day,time)=>DAYS[(Number(day)-1)%7]+' · '+time);}
 function advance(save,minutes){if(!Number.isSafeInteger(minutes)||minutes<0||minutes>100000)throw Error('Enter a whole number of minutes from 0 to 100000.');const c=ensure(save);c.minutes+=minutes;c.elapsed=(c.elapsed||0)+minutes;return view(save);}
-return Object.freeze({DAYS,COSTS,ensure,view,phase,label,formatText,advance});
+return Object.freeze({DAYS,COSTS,ensure,view,phase,label,greeting,formatText,advance});
 });

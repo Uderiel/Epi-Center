@@ -1,3 +1,12 @@
+## v1.0.111 patch — local verification complete, publishing
+
+Fixes: shared-home automatic invitations now wait 90 in-game minutes after an activity ends, including completed reading; completion/history timestamps protect older saves after reload while player-initiated activities remain available. Richard’s prepared servings and empty containers display his real ownership through a shared host-label resolver. Priya, Richard and Daniel greetings use the actual game period, with neutral overnight wording and no stale morning-only follow-up.
+
+All 1,347 automated cases across 80 suites and 250 local browser checks pass, including new completion/reload/cooldown-boundary, host-label/container-return, and greeting-time regressions. Public deployment and live verification are next. Owner saves and paid AI untouched.
+
+Direct play link: https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.111
+Checklist: `docs/V1.0.111-OWNER-ACCEPTANCE.md`. Always provide the direct playable link and the actual patch checklist inline in the final user response; do not send the user only to GitHub.
+
 ## v1.0.110 published and publicly verified
 
 Play: https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.110
