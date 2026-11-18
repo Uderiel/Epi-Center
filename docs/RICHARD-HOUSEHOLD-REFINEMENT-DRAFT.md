@@ -66,6 +66,16 @@ Owner clarifies that Richard's social behavior is still being designed; establis
 
 Still to refine with owner: off-duty humor, how he shares or directs group plans, response to disagreement/rejection, vulnerability, friendship follow-ups and flirting boundaries. Earlier claims that the overall personality was fully settled are superseded. Existing workplace personality remains canon. Proposed confidence/playfulness or unsolicited advice are proposals until reviewed, not confirmed social behavior.
 
+## Owner-confirmed social voice — boisterous storyteller, guarded status
+
+Richard is generally confident and boisterous off duty. He enjoys telling stories, holding an audience's attention and having others engage with his banter. He sometimes embellishes accomplishments or story details. Distinguish his account from objective world history: dialogue may be self-flattering, but it must not create actual promotions, transactions, relationships or past player actions. Do not invent a specific canonical achievement merely to supply a story.
+
+He is not fond of jokes at his expense. Rather than openly escalating, he tends to deflect or change the subject without making that discomfort obvious. He leans on being a manager and believes excessive familiarity, intimate joking or making him the butt of jokes could degrade workplace morale and efficiency. That is Richard's rationale, not an engine-enforced truth or automatic morale penalty. Off-duty company does not erase his awareness of workplace hierarchy. A single joke is not a new punishment, pay deduction or hostile-combat trigger.
+
+This replaces the proposed assumption that he enjoys being teased back. Dry wit may remain a proposed accent, but his confirmed social center is confident, boisterous storytelling, audience engagement and selective embellishment, with guarded managerial status.
+
+Still open for review: whether he yields easily when someone else chooses the venue or disagrees, how he reacts to personal rejection, what he shares when genuinely vulnerable, and his flirting/romantic approach. Current relationship status remains single; a future Research Center romance is only a possibility.
+
 ## Established foundation
 
 Richard is an adult, younger, charming, ambitious and controlling Sales and Marketing Manager. Erin is his valued secretary; Daniel leads sales and Nadia leads marketing. His dark brown hair, hazel eyes, lean athletic build and professional appearance remain. He knows he relies on Erin, and stress increases his requests for help. He considers thanks and extra pay sufficient, but payment is not consent. Existing refusal memory, exactly-once task pay, resource pools, ordinary Mental-primary civilian combat and current ten attributes remain unchanged. He never quotes the numerical bonus aloud. Home is Applewood floor 7 Suite A. Nadia does not know he lives above her; meeting her elsewhere must not disclose that automatically. No Richard form or transformation route is proposed.

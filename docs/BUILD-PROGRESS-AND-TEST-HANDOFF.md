@@ -1,3 +1,9 @@
+## Richard social voice confirmed — storyteller and guarded managerial status
+
+Owner defines confident, boisterous banter and embellished stories/accomplishments, enjoying audience engagement. Jokes at his expense prompt subtle deflection/subject changes; he rationalizes social distance through managerial morale/efficiency. This supersedes proposed enjoyment of reciprocal teasing. Character claims are not objective event history or automatic morale/punishment mechanics. Saved in draft/design.
+
+Branch `rebuild/1.0-foundations`; parent `1cbef48`. Documentation only; no runtime/test/release change. Exact next action: review response to others' choices/disagreement and personal boundaries, then consolidate social voice for implementation. Public remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 .
+
 ## Richard social personality remains under review — networking distinction confirmed
 
 Owner corrects premature design-complete claim: workplace personality exists, broader social behavior still needs review. Richard enjoys Erin/Nadia's company without requiring networking value; he takes networking opportunities with people in higher positions. Saved distinction and open social-personality questions in draft/design notes. Do not infer that every social exchange is instrumental.
