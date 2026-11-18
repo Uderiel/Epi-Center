@@ -1,3 +1,7 @@
+## Burke courier timing and stocktaking responsibility confirmed
+
+Shared courier checks inventory personally at21:30 after normal closing because Tits repeatedly over/under-orders and cannot reliably count usage. Replenishment arrives06:00 daily (owner corrected05:30 to06:00). Stock count and delivery are separate actual events, not her estimates or automatic infinite stock. Owner is working on distribution/map expansion; courier route and access/key arrangement are not yet established. Updated BURKES-SWEETS-DESIGN.md. Public v1.0.111 unchanged; design only.
+
 ## Burke daily distribution deliveries confirmed
 
 Same unnamed delivery person as Cherished Touch supplies Burke’s DAILY from a distribution center. Keep Cherished Touch’s own Monday06:00 schedule unchanged; shared courier does not mean identical cadence. Burke arrival time, quantities/contents, caps, payment and organizing behavior remain unspecified. Do not invent a named courier, distribution map location, Charity-specific pity motive for Burke, or infinite shelf restocking. Updated BURKES-SWEETS-DESIGN.md; design only, public v1.0.111 unchanged.
