@@ -1,3 +1,7 @@
+## Ordinary sales-floor slice implemented on development
+
+See CHERISHED-SALES-FLOOR-IMPLEMENTATION.md for actual implemented drawers, configurable bundle, fitting, basket, ordinary checkout and owned carried clothing. Earlier blanket statements that no shop code exists are historical. Limited enchantments, Mystery Box and Charity systems remain pending; public109unchanged.
+
 ## Owner-approved enchanted prices and weekly stock caps
 
 Owner accepts the proposed seven-item pricing/availability set:

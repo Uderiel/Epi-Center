@@ -228,3 +228,7 @@ This approves the Tops example as a reusable pattern; owner does not require ano
 
 
 Resource-capacity equipment modifies the effective maximum while worn, derived once from canonical body/form baseline and actual equipment. Normal recovery fills additional capacity; equip/render/reload must not refill or accumulate bonuses. Removing an item recomputes the max and clamps only excess current resource, preserving damage/spending/recovery rather than restoring a historical snapshot. Cherished Touch’s+10Health shirt,+10Stamina pants,+10Resolve hat are confirmed maximum-only examples.
+
+## Implemented retail drawer reference
+
+Cherished Touch’s first ordinary retail adapter now reuses EpiApartmentNav.frames for category/style/cut/color/preview/basket and carried owned-item selection. See CHERISHED-SALES-FLOOR-IMPLEMENTATION.md. It demonstrates strict variant validation, once-per-player bundle, private temporary fitting ownership, versioned cart checkout, whole-checkout discount consumption, unique owned items/receipts, and equipment-layer conflict protection. Universal residence storage/laundry, Mystery Box modifiers and additional retailers remain future adapters; do not claim they follow merely from these frames.

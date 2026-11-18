@@ -1,3 +1,7 @@
+## Cherished Touch ordinary retail slice — development
+
+Implemented and locally verified: nested rack drawers, chosen bundle, private fitting, basket/register payment and owned carried clothes.1,310automated/118browser checks pass; not published. Next counter/Mystery Box/equipment modifiers and limited enchanted stock/effects, then Charity routines/quests. See CHERISHED-SALES-FLOOR-IMPLEMENTATION.md.
+
 ## v1.0.109 publication complete
 
 Shared activities, Priya feedback and approved room-art integration are live and publicly verified. See [owner checklist with playable link](V1.0.109-OWNER-ACCEPTANCE.md). No approval or deployment pending. Next: owner acceptance and concrete corrections; multiplayer/general restocking/additional NPC adapters remain future work.
