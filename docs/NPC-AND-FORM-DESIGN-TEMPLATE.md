@@ -1,3 +1,7 @@
+## Residence classification and spatial specificity
+
+Record whether a residence is a regular unit or an explicitly confirmed suite. Follow [Applewood suite architecture](APPLEWOOD-SUITE-DESIGN.md) when applicable: expanded rooms/storage/floor space, guest bedroom and bathroom, private master bathroom and balcony. Distinguish positional relationships from doors and transit routes; a bedroom between two areas is not automatically a walkthrough. Do not infer suite status from wealth or give every resident the same extra rooms.
+
 ## Suite and household automation authoring
 
 A shared residence adapter does not require every character to have six rooms. Explicitly author extra guest rooms and workout areas when confirmed. For owned household bots, record identity/appliance status, location, supported duties, finite supplies, job time/progress and access boundaries. Cleaning must alter actual dishes/laundry state only after resolved work. Connected screens display recorded information and do not grant guests access to private computers. Do not assume bot sentience, combat, surveillance or player-control powers from domestic assistance alone.

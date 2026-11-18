@@ -1,3 +1,9 @@
+## Applewood suite standard confirmed — Richard7A
+
+Saved shared suite contract in APPLEWOOD-SUITE-DESIGN.md and linked it from Richard's draft, location sheets and universal template. Suites have larger rooms/storage/floor space, a guest bedroom between entry hall and master bedroom, guest bathroom closest to kitchen, attached master bathroom, improved city views and a balcony for sitting outside. Final door adjacency is still to be authored; Nadia's unit is not automatically reclassified.
+
+Branch `rebuild/1.0-foundations`; parent `920dc79`. Documentation only, no runtime changes or new tests. Exact next action: draft Richard's expanded suite graph and real fixtures/household-bot jobs, review it with owner, then implement the agreed scope. Public build remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 .
+
 ## Richard suite requirements confirmed
 
 Owner specifies upscale Suite7A with a living-space home gym, bar/drink-focused kitchen, snacks and quick meals, entertainment technology above Nadia's, an integrated living-room workspace networked to the TV, a personal cleaning/household maid bot, and a separate guest bedroom. Saved in Richard's draft and design notes. Exact gym equipment, bot identity/capability details and furnishings remain proposals; no unimplemented bot jobs or completed cleaning are claimed.

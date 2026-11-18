@@ -18,6 +18,10 @@ Richard's home is an upscale **suite**, comparable to Nadia's level of elegance 
 
 These owner decisions supersede the simpler apartment/kitchen and six-room-shell proposals below. No runtime implementation or publication is implied.
 
+## Owner-confirmed Applewood suite architecture
+
+See [shared suite standard](APPLEWOOD-SUITE-DESIGN.md). Suite7A has larger rooms, more floor/display/storage space, a guest bedroom positioned between the entry hall and master bedroom, a guest bathroom nearest the kitchen, a private master bathroom attached to the master bedroom, and a balcony with a better city view and space to sit. Final door adjacency remains to be authored; the guest bedroom is not assumed to be a passage into Richard's private bedroom. The home gym uses the enlarged living space. Nadia's upscale decor does not automatically make her apartment a suite. These confirmations supersede the earlier simpler shell proposal; no new runtime is implied.
+
 ## Established foundation
 
 Richard is an adult, younger, charming, ambitious and controlling Sales and Marketing Manager. Erin is his valued secretary; Daniel leads sales and Nadia leads marketing. His dark brown hair, hazel eyes, lean athletic build and professional appearance remain. He knows he relies on Erin, and stress increases his requests for help. He considers thanks and extra pay sufficient, but payment is not consent. Existing refusal memory, exactly-once task pay, resource pools, ordinary Mental-primary civilian combat and current ten attributes remain unchanged. He never quotes the numerical bonus aloud. Home is Applewood floor 7 Suite A. Nadia does not know he lives above her; meeting her elsewhere must not disclose that automatically. No Richard form or transformation route is proposed.
@@ -50,8 +54,9 @@ An upscale, contemporary executive suite: warm walnut, charcoal, soft off-white,
 - Living-room workspace: a high-quality computer/monitor networked to the main television, actual inbox, department dashboard and saved draft notes. Work email and personal correspondence remain distinct. Optional messages do not create staff attendance or completed work.
 - Kitchen/bar: drink preparation and serving, coffee, snacks and quick meals, with fewer elaborate cooking resources than Nadia's. Dining out is the main preference. All drinks and food use finite stock; choosing a drink is optional. Existing office whiskey is retained without inventing unlimited home supplies.
 - Bedroom/walk-in storage: tailored suits, shirts, trousers, dress shoes, polished casual clothes, workout clothes and sleepwear. Work, relaxed home, hosting, exercise and bedtime presets; individual pieces and saved combinations. No wardrobe transfer by inspection.
-- Bathroom: actual shampoo, conditioner, body wash, shaving and skincare products with timed use and saved effects. Do not assume shaving or change player appearance without an action.
-- Guest bedroom: a real additional room, bed and guest storage; actual invitations and overnight permission govern use. Exact furnishings remain to be drafted.
+- Master bathroom attached to Richard’s bedroom, plus a separate guest bathroom nearest the kitchen: actual shampoo, conditioner, body wash, shaving and skincare products with timed use and saved effects. Do not assume shaving or change player appearance without an action.
+- Guest bedroom: a real additional room positioned between entry hall and master bedroom, with bed and guest storage; actual invitations and overnight permission govern use. Exact furnishings remain to be drafted.
+- Balcony: a better city view, outdoor seating and actual sit/look-out activities, with authored access and no automatic travel shortcut.
 - Personal maid bot: actual household cleaning/assistance jobs with saved progress and limited capabilities; no magical restocking or guest surveillance permissions.
 - Entry/hall storage: coat and shoe storage, actual laundry/cleaning supplies and guest belongings. Floor discovery follows existing Applewood rules.
 

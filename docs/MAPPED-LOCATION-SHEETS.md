@@ -1,3 +1,7 @@
+## Applewood suite architecture confirmed
+
+[Shared suite contract](APPLEWOOD-SUITE-DESIGN.md): larger rooms/floor area/storage, extra guest bedroom between entry hall and master bedroom, guest bathroom nearest kitchen, attached master bathroom, better city views and a balcony for sitting outside. Richard7A is confirmed; do not infer other units' suite status from decor. Design only, room implementation pending.
+
 # Mapped location sheets · v1.0.94
 
 The owner asked to add four uploaded location sheets where they belong on the existing map. This release implements reference details, not three complete business/interior gameplay slices. Existing district geography, fog of war, routes, saves and established purchases/storage stay intact.
