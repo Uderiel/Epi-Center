@@ -1,3 +1,7 @@
+## Charity and Tits portrait concepts generated for review
+
+Owner requested an image of each while character design proceeds. Both generated portraits were displayed directly in chat and saved in `rebuild/hub/assets/character-art-review/` as `charity-v1.png` and `tits-v1.png`. See `docs/CHARACTER-ART-REVIEW.md` for sources/proposal boundaries. These are review assets, not approved/in-game replacements. Public v1.0.111 unchanged. Continue the grouped Burke/Tits design template; do not let art imply completion of missing wardrobe, relationships, routines or retail implementation.
+
 ## Tits appearance confirmed
 
 Owner supplied the full adult visual:26years,about5foot3, exceptionally curvy/full chest/narrow waist/ample rear, slender neck, size6feet she is proud of, mid-back wavy blonde hair, blue heavy-lidded eyes, pouty lips, button nose and gently pointed narrow chin. Revealing pink/glitter/sparkle wardrobe, sparkling heels, clips/pulled-back hair, cotton-candy/bubblegum aroma, pink fingernails/toenails with optional glitter and occasional white accent nail. Recorded in `docs/BURKES-SWEETS-DESIGN.md`; do not ask for this profile again. Next grouped draft: actual garment/preset and care catalogue using that style, followed by familiarity/relationships and complete service routine. Quests/home remain deferred. Design only; public v1.0.111 unchanged.
