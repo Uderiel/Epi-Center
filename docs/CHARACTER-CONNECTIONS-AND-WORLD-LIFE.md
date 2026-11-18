@@ -1,3 +1,7 @@
+## Nadia owner clarification — Countess and private work
+
+Nadia comes from money, lives comfortably and leans toward the Countess because the existing order benefits her; this does not establish her as automatically evil, a faction member or a source of private Countess knowledge. Her upscale6E and higher-quality home marketing workspace are confirmed design. Off-hours idea review requests to marketing employees are optional for the recipients. See [Nadia/Dart household review](NADIA-AND-DART-HOUSEHOLD-REVIEW-DRAFT.md) for confirmed refinements and remaining implementation dependencies. No new runtime is claimed.
+
 ## v1.0.106 implementation checkpoint
 
 See [implemented Erin/shared refinements and limits](ERIN-REFINEMENT-IMPLEMENTATION.md) and [acceptance checklist](V1.0.106-OWNER-ACCEPTANCE.md). Sustained activities, satisfaction, voluntary mastered delegation, correspondence/Scheduler and shared conversation continuity now have runtime implementations. Broader draft proposals outside that implementation list remain proposals. Exact release/test evidence is in CURRENT-STATUS.md; historical notes below do not override it.
