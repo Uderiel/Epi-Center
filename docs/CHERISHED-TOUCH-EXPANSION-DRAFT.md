@@ -1,3 +1,7 @@
+## Full-location review proposal
+
+CHERISHED-TOUCH-COMPLETE-LOCATION-DRAFT.md now covers exterior, every room, counter working space/access, spare skinsuits, concealed route and Charity’s private wardrobe/food/care/pastimes. These new details are proposals for owner review; preserve all already approved retail/quest rules below.
+
 ## Ordinary sales-floor slice implemented on development
 
 See CHERISHED-SALES-FLOOR-IMPLEMENTATION.md for actual implemented drawers, configurable bundle, fitting, basket, ordinary checkout and owned carried clothing. Earlier blanket statements that no shop code exists are historical. Limited enchantments, Mystery Box and Charity systems remain pending; public109unchanged.

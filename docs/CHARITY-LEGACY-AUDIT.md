@@ -1,3 +1,7 @@
+## Full physical location and household scope
+
+Owner explicitly identifies remaining frontage/interior/stall/counter-spacing/access/stock skinsuit/Underworld and household detailing. Spare skinsuits in F are newly confirmed; individual definitions remain unknown. See CHERISHED-TOUCH-COMPLETE-LOCATION-DRAFT.md for a coherent review proposal, with all new finishes/preferences/access refinements labelled as proposed. Earlier suggestions that only the personal catalogue remains undesigned were incomplete.
+
 ## Visual review of owner-reuploaded drawing — November18,2026
 
 The original hand-drawn Cherished Touch sheet has now been visually reviewed in the conversation, rather than relying solely on its prior transcription. It includes an upper-left pathing diagram, a lower-left furnished floor plan, A–J legend, open-entry/doorway symbols, storefront sketch and written room briefs. The supplied image itself is present in chat; do not falsely claim a new local/repository image copy was saved.

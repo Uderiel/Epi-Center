@@ -1,3 +1,9 @@
+## Complete Cherished Touch/location-household proposal prepared
+
+Owner wants the full physical store/private home assessed, not a household-only gap list. Complete review draft: CHERISHED-TOUCH-COMPLETE-LOCATION-DRAFT.md. Covers exterior/H/Ccounter spacing/access/Istalls/Ghall/Fstock and newly confirmed spare skinsuits/Charity-only guild reveal/A-B-Jbedroom-care-laundry/D-Efood-dining, preserving the actual diagram and all agreed shop rules. New finishes/personal preferences/access refinements are PROPOSED, not approved or implemented. No “Anders” entity recovered; use established Underworld/Guild terminology.
+
+Next design discussion: review frontage/sales floor and counter/back-room access first, then storage/stalls and household selections. Enchanted coding remains outstanding on the same foundations branch, with no need to repeat already approved effects/prices. Ordinary retail remains implemented/tested but unpublished; live109unchanged.
+
 ## Cherished Touch first sales-floor implementation — development verified
 
 Source `3c73f0e0194b148260f06bc29f42d9d2f1ececcd` on foundations. Existing room graph remains intact. Clothing racks now use the shared apartment-navigation layer frames for category -> male/female item style -> cut/sleeve -> color -> preview -> basket. Back and selected choices persist. Ordinary stock remains available. The once-per-player45goldbundle supports all five chosen pieces. Real closed-stall fitting previews shop property without granting ownership or losing the original outfit. Moving/changing body invalidates the try-on.

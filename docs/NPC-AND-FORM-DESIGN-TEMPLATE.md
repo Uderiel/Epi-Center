@@ -232,3 +232,7 @@ Resource-capacity equipment modifies the effective maximum while worn, derived o
 ## Implemented retail drawer reference
 
 Cherished Touch’s first ordinary retail adapter now reuses EpiApartmentNav.frames for category/style/cut/color/preview/basket and carried owned-item selection. See CHERISHED-SALES-FLOOR-IMPLEMENTATION.md. It demonstrates strict variant validation, once-per-player bundle, private temporary fitting ownership, versioned cart checkout, whole-checkout discount consumption, unique owned items/receipts, and equipment-layer conflict protection. Universal residence storage/laundry, Mystery Box modifiers and additional retailers remain future adapters; do not claim they follow merely from these frames.
+
+## Complete location scope checklist
+
+An NPC/location refinement must track frontage/approach, room-by-room appearance, fixture function, usable working clearance, public versus staff/private access, personal wardrobe/food/care/laundry, hidden stock/entrance disclosure and actual dependencies. Existing navigation geometry or completed shop rules do not imply those physical/personal details are designed. Review owner floor plans visually when available. Keep confirmed item existence (e.g. spare skinsuits) separate from unspecified individual identity/effect/ownership/use rules. Coherent proposals should cover the entire requested location and mark new preferences/finishes as proposed, with a clear step-by-step review order.
