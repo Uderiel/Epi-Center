@@ -1,5 +1,17 @@
 # Burke’s Sweets implementation checkpoints
 
+## v1.0.112 — checkout and preset drink preparation
+
+The public floor now supports actual goods selection into a physical shop-owned basket, register-only payment, exact owned goods, receipts, saved stock and serialized drink jobs. The existing shared drawer system handles product, cup and serving-preference selection. Successful payment empties the basket contents but leaves the borrowed basket to return. Failed payment grants nothing and preserves selections. Customers reaching C before closing may finish checkout; leaving invalidates that arrival and completed checkout cannot reopen the after-hours ticket indefinitely.
+
+Drinks use four-step quick-reference cards and pre-programmed presets: collect the requested cup, check supplies, select the preset, check/serve the finished drink. Payment reserves ingredients and cup once. Preparation and its result survive reload. Collection requires returning to C and grants one actual serving; it can be held, stored in inventory or consumed. Takeaway consumption leaves an actual empty cup for disposal. A wrong drink can be remade free; an already collected wrong serving must be returned unconsumed. Correction consumes actual supplies and never duplicates a serving or charge.
+
+Initial tuning, not additional owner-approved canon: opening stock quantities, 1–3-minute machine times and a 10% preparation-mistake roll. These are explicit working defaults. Stock is finite; this release does not pretend to implement the courier’s scheduled deliveries or Tits’ morning baking.
+
+Still deferred: full Tits NPC social/routine integration, live customer queues, daily courier stocktaking/restock, apartment/nightlife, quests, pink flavoring, cosmetics purchase prices and functional BFBFF linked bracelets. The latter remain previews and cannot be purchased as inert substitutes. Existing Cherished Touch retail remains independent.
+
+Validation and release status are recorded in V1.0.112-OWNER-ACCEPTANCE.md. The older checkpoints below are historical.
+
 ## Public fixtures, navigation and real baskets — development verified
 
 Implemented on foundations, unpublished. Tile63 uses the owner’s A candy/B bakery/C public register/D staff preparation model. C is a customer-facing service position reached from A, not a new door or unrestricted staff-room entry. Public B→C route passes B→A→C. D is blocked. Generic business registration extends the existing navigation/scene systems; exterior travel physically exits through A. No surface edges changed.

@@ -1,3 +1,7 @@
+## v1.0.112 release candidate — Burke’s retail
+
+Checkout, physical basket contents, exact paid goods, saved preset/card drink preparation, collection, holding and free wrong-drink correction are implemented. All 1,376 automated cases across 82 suites and 277 local browser checks passed. Publishing and live verification are next. No owner input is pending. See V1.0.112-OWNER-ACCEPTANCE.md for direct play URL and testing checklist, and BURKES-SWEETS-IMPLEMENTATION.md for current scope and remaining work. Historical entries below must not be read as current release status.
+
 ## Burke public fixture/navigation foundation complete; retail authorized next
 
 Working foundation on foundations: A/B/C public route, D restriction, shared fixture drawers, generic business navigation/scene registration, physical tracked basket pickup/return/Items/reload, mapped location references. 1,361automated cases/81suites and27local browser checks pass. See BURKES-SWEETS-IMPLEMENTATION.md and burkes-foundation reports. Not published; v1.0.111 remains public. Owner explicitly asked to proceed with checkout and drink preparation next; do not ask for permission again or wait for owner input. Preserve paid ownership, exact receipt/basket state, real prepared servings and all settled design.
