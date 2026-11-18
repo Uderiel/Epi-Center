@@ -1,3 +1,9 @@
+## Richard rejection tuning confirmed — minus three points
+
+Owner fixes personal rejection to −3 signed relationship points per resolved event, clamped to −100…+100, with calm demeanor/space and once-per-event saved memory. Exact tuning is now settled; older unspecified-amount notes are superseded. Existing workplace extra-task refusal rules remain separate.
+
+Branch `rebuild/1.0-foundations`; parent `586ecc2`. Documentation only; no runtime/tests/publication. Next exact action: review Richard's flirting/interest expression and how he distinguishes social interest from professional attention, then remaining personal vulnerability and friendship follow-ups. Public remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 .
+
 ## Richard personal rejection — calm demeanor, small signed relationship loss
 
 Owner confirms Richard keeps composure and gives space, but records rejection and loses a small amount of relationship toward the specific interacting player/NPC on the existing −100…+100 scale. Exact amount remains unspecified. Saved in draft/design with once-per-event persistence and separate existing workplace-refusal rules. No runtime implementation or tests claimed.
