@@ -133,3 +133,7 @@ A broad style brief should produce coordinated functional makeup/outfit presets 
 ## Shared service boundary
 
 Author a universal service contract at its venue (boarding, daycare, grooming, payment/custody/care/play), then attach character-specific preferences and schedules as clients. A character draft may record requirements without implementing a private copy. Deferred service dependencies must stay visible: requests are not accepted bookings, and unimplemented staff cannot complete care offscreen. Independent household work can proceed without falsely claiming dependent full-day services are finished.
+
+## Personalized animal identity and environmental memory
+
+Generic form labels do not establish sex/gender or a player’s chosen name. Read saved personalization and use neutral language before selection; do not copy the owner’s personal playthrough into global canon. Animal scent/territory recognition must derive from actual located/time-stamped marks and learned associations. An unknown scent can become familiar through real meetings, without automatic hostility, friendship, exclusive ownership or private-identity disclosure.

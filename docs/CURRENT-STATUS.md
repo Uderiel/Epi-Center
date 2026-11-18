@@ -1,3 +1,7 @@
+## Canine personalization and actual territorial recognition confirmed
+
+Branch `rebuild/1.0-foundations`; parentd59d0af with uncommitted lunch/home scaffolding. Owner confirms generic Kibbles has no default female identity; actual player personalization governs gender/name. Dart’s sniff greeting and chosen player response establish familiarity; both may recognize actual other-dog park marks and learn Dart’s scent. Added requirements and illustrative dialogue to Nadia/Dart draft/template. Lunch target/full regression most recently1,184cases passed before new home scaffolding; no107release or home integration/browser pass. Exact next action: provide requested sample lines, implement real Dart/mark/familiarity records and household adapter, preserve user choice and actual existing mark history.
+
 ## Shared one-hour lunch and Nadia morning/evening order confirmed
 
 Branch `rebuild/1.0-foundations`; parent673d70a. Owner sets12:00–13:00lunch for all third-floor Tech Center employees and confirms morning calisthenics→shower→breakfast/marketing-email review, Dart nose-nudge→whimper→door-circling, physical midday check, and evening feed→shower→water→casual change→daily Central Hub walk/possible Kibbles encounter. Stone surfaces confirmed. Saved immediately; broad impact is not a reason to defer recording. Exact next action: patch common lunch scheduling/work/booking exclusions, run targeted/full tests, then implement Nadia/Dart household with actual complete commute/care timing. Public106 unchanged; no new runtime pass/publication claimed.
