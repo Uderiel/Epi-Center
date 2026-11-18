@@ -1,3 +1,7 @@
+## Nadia/Dart and canine-player connection — owner design
+
+Nadia’s affection for pets is a soft point distinct from her workplace status-consciousness. Dart is protective, trained, fed fresh quality dog meals, usually sleeps on her bed and has a home kennel used mainly for guest comfort. During an actual Hub walk she may try to befriend/collar and offer to bring Kibbles home; successful contact, agreement/physical resolution and travel remain real, separate actions. Do not infer automatic adoption, a cursed collar, knowledge of the original player or new mastery/escape restrictions. See NADIA-AND-DART-HOUSEHOLD-REVIEW-DRAFT.md for current design/implementation status.
+
 ## Nadia owner clarification — Countess and private work
 
 Nadia comes from money, lives comfortably and leans toward the Countess because the existing order benefits her; this does not establish her as automatically evil, a faction member or a source of private Countess knowledge. Her upscale6E and higher-quality home marketing workspace are confirmed design. Off-hours idea review requests to marketing employees are optional for the recipients. See [Nadia/Dart household review](NADIA-AND-DART-HOUSEHOLD-REVIEW-DRAFT.md) for confirmed refinements and remaining implementation dependencies. No new runtime is claimed.

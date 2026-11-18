@@ -1,3 +1,7 @@
+## Nadia household/canine route expanded — owner decisions saved
+
+Branch `rebuild/1.0-foundations`; parent f23675a. Owner accepts coordinated direction and adds larger evening/outing wardrobe/designer heels, multiple makeup routines, charcuterie hosting, guest-context home kennel, gentle animal-focused side, Dart bed-sharing/protection/toys/fresh quality dog food and a possible actual Hub Kibbles-to-home/collar route. Consolidated at top of Nadia/Dart draft with ordinary-collar/kennel boundaries, existing form rules, real travel and proposed functional package. No runtime/tests/publication changes. Public106 unchanged. Exact next action: review cohesive package verbally and settle care coverage/ordinary collar/kennel mechanics, then implement the agreed tested slice; preserve existing saves and do not activate unrelated boutique systems.
+
 ## Nadia and Dart holistic design started — review draft
 
 Branch `rebuild/1.0-foundations`; parent da2526f. Owner selects Nadia/Dart next: home routine, playable6E, independent dog behavior, boutique and potential kenneled-canine-player interaction. Added NADIA-AND-DART-HOUSEHOLD-REVIEW-DRAFT.md using the universal template; preserves approved Nadia personality/work, Dart identity and actual address. New apartment, daily life, food/wardrobe and boutique/play details are proposals, not implemented/approved facts. Identified real dependencies: no current boarding/interior actor services, midday care coverage and weekday24-hour reference versus narrower cat-shop prototype/weekend hours unspecified.

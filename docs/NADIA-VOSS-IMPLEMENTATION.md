@@ -1,3 +1,7 @@
+## Owner household/animal refinements — design, not new runtime
+
+Owner confirms Nadia’s larger elegant wardrobe/eveningwear/designer-style heels and multiple makeup routines; charcuterie hosting; a guest-context home kennel; Dart’s usual bed-sharing, fresh quality food, many toys and protective but affectionate behavior. Pets are her soft spot. A possible Kibbles park-to-home/collar-offer route is requested, with actual travel and existing form/physical rules. See [latest confirmed decisions and proposed package](NADIA-AND-DART-HOUSEHOLD-REVIEW-DRAFT.md). Earlier no-kennel/bedside proposals are superseded; no new gameplay/test/publication claim.
+
 ## Household refinement review
 
 [Nadia and Dart holistic review draft](NADIA-AND-DART-HOUSEHOLD-REVIEW-DRAFT.md) begins the owner-requested home/routine/dog/boutique expansion. It distinguishes existing workplace/outing runtime from proposed interiors, independent Dart behavior and functional kennel services; no new runtime is claimed by the draft.

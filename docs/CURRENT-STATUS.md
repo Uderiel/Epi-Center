@@ -1,3 +1,7 @@
+## Nadia household/canine route expanded — owner decisions saved
+
+Branch `rebuild/1.0-foundations`; parent f23675a. Owner accepts coordinated direction and adds larger evening/outing wardrobe/designer heels, multiple makeup routines, charcuterie hosting, guest-context home kennel, gentle animal-focused side, Dart bed-sharing/protection/toys/fresh quality dog food and a possible actual Hub Kibbles-to-home/collar route. Consolidated at top of Nadia/Dart draft with ordinary-collar/kennel boundaries, existing form rules, real travel and proposed functional package. No runtime/tests/publication changes. Public106 unchanged. Exact next action: review cohesive package verbally and settle care coverage/ordinary collar/kennel mechanics, then implement the agreed tested slice; preserve existing saves and do not activate unrelated boutique systems.
+
 ## Nadia fixtures, food and wardrobe direction confirmed
 
 Branch `rebuild/1.0-foundations`; parent2e27bc3. Owner specifies elegant stands/upscale lighting, more advanced kitchen, refined food tastes and elegant/expensive-looking casual and professional clothes reflecting vanity. Saved coordinated review proposals for fixtures/appliances/food/wardrobe/vanity while keeping exact stock/brands/tuning unapproved and real usability/ownership requirements intact. Documentation only; no runtime/tests/publication. Exact next action: walk through the coordinated selection verbally, then continue home/Dart/boutique review and settle service coverage before implementing. Public106 unchanged.

@@ -1,5 +1,34 @@
 # Nadia Voss and Dart — household and behavior review draft
 
+## Latest owner direction — wardrobe, hostess and animal care
+
+Owner accepts the coordinated home/taste direction and adds the refinements below. These supersede earlier proposals for no home kennel and Dart only sleeping nearby. All newly specified behavior remains design until implemented and tested.
+
+- Nadia has a more expansive wardrobe than both Erin and Priya, especially Erin: substantial evening/outing apparel and more designer-style heels, alongside refined work/casual clothes. Preserve existing footwear rules; designer shoes are ordinary owned items unless a separate curse is authored. No new brands, free purchases, shoe powers or player wardrobe transfer are implied.
+- Several pre-programmed makeup routines rather than one generic routine. Proposed review set: polished workday, soft daytime/social, defined evening and statement night-out. Suggested timings (8/12/20/25 minutes, respectively) remain balance proposals; routines require actual owned products, appropriate mirror/light, chosen appearance overlays and real saved application/removal. Do not overwrite original player appearance or generate new items.
+- Nadia is a capable, attentive hostess when she actually invites someone. Charcuterie is a favored presentation: proposed human serving selection of cheeses, cured meats, fruit and crackers from real stock. A board needs preparation, portion ownership, consumption and dishes; guests get actual servings where intended, not imaginary food. Her professionalism/social polish does not automatically make everyone an invited friend or erase her snobbery.
+- Dart has a real home kennel, mainly for occasions when guests do not want dog fur/contact. It is not his default daytime prison or a punishment merely for being a dog. She can ask about a guest’s comfort, settle him with actual space/water/toys and maintain his needs. Record real kennel location, open/closed state, entry/exit and actual care rather than making him disappear. Exact latch/locking behavior and placement need authoring; do not silently impose a new escape/form lock on a canine player.
+- Dart is one of Nadia’s softest points and pets generally are a weakness. Her speech/contact around him is notably gentler, while she still trains him and sets boundaries. He usually sleeps on her bed; both positions must be physically real and leave room for Nadia to sleep, rise and care for him. This is her household habit, not automatic permission for guests or a canine player to share her bed.
+- Dart is protective. Author noticing unfamiliar sounds/approaches, watching, alert barking and looking to Nadia; do not turn protection into compulsory attacks or aggression toward every guest/player. Familiarity, actual threats, handling and the other animal’s choices matter. Existing encounters handle a genuine confrontation if needed; no new combat system is introduced.
+- Provide a real varied toy selection with playable uses (proposed ball, tug toy, chew, puzzle feeder and soft toy), quantities/custody/condition and rest after play. Toy names and exact stock remain proposals. Nadia feeds fresh high-quality dog food rather than relying on dry kibble: actual appropriate dog meals, cold storage, servings, replenishment and cleanup are required. Dog meals stay separate from human charcuterie, player inventory and company funds. Exact menu, stock/prices and purchase/delivery mechanism remain a coherent authoring task.
+
+### Proposed canine-player park-to-home route
+
+Owner wants Nadia to be a possible person who befriends, collars and brings home a player stuck as Kibbles during an actual Central Hub walk with Dart. She can notice an apparently unaccompanied canine, soften, crouch/speak gently, offer attention or an owned appropriate treat, and offer a home visit/collar. Her intent is real character behavior; it does not automatically mean the player accepts or is transported.
+
+The player can approach, sniff, vocalize, accept, stay back, leave or resist an attempted physical action through existing form/control rules. A collar attempt needs actual equipment, reach, body resolution and saved outcome, not successful collaring because an AI sentence says so. Do not invent a new cursed collar, forced permanent adoption, mastery loss or instant leash/kennel restriction. Existing Kibbles instinct, handler/trust, consent/control and escape/release contracts remain authoritative; new numerical modifiers are not set here. Actual visible tags/handler information can change Nadia’s response without revealing original-player thoughts.
+
+Dart’s introduction happens first through real presence/body signals; he has his own reaction and can become familiar without automatic friendship or combat. An accepted trip follows real connected paths and building floor6/UnitE entry. Bringing a canine home is separate from putting them in a kennel, equipping a collar or granting permission to sleep on the bed. Feeding/play/rest and Nadia/Dart/player interaction can develop naturally at home, with optional participation and actual resources. A human guest route and a canine guest route need distinct permissions, not a single unrestricted apartment key.
+
+### Cohesive first implementation package for review
+
+1.6E interior and refined belongings, expanded presets/individual wardrobe/heels, meaningful makeup and stocked hostess/kitchen actions.
+2.Nadia’s actual home/work/care rhythm plus independent Dart location, needs, bed/kennel/toys, fresh-food care, walks and responsive protective/social behavior.
+3.Canine-player greeting/collar-offer/home-visit route, preserving current form agency and actual travel; complete care and social feedback with AI off and optional validated AI-directed Dart intentions.
+4.Shared boutique opening (weekday24h, weekend09–17), actual staffed daycare/boarding custody and sublevel play/canine interaction, including pickup and overnight-care rules still to settle.
+
+No new runtime is installed by this refinement. Exact next action is to walk through this coherent household/park route, settle care coverage and the ordinary collar/kennel details needed for gameplay, then implement approved scope in tested slices. Public106 remains unchanged.
+
 Status: owner requests the next holistic refinement after Erin/Priya, including a real apartment/home routine, Dart’s behavior and potential canine-player interaction through the Pet Boutique kennels. This document proposes the full first package for discussion. New details are not implemented or individually approved. Public v1.0.106 remains unchanged. Uses [universal template](NPC-AND-FORM-DESIGN-TEMPLATE.md).
 
 ## Established character and runtime

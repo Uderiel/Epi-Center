@@ -125,3 +125,7 @@ When a character owns an animal, design its independent identity/location, daily
 ## AI-directed companion behavior and asynchronous requests
 
 An AI-directed animal can propose appropriate physical intentions, but canonical capability/reach/barrier/stock/consent rules validate and resolve them before narration records outcomes. The player’s actions/private thoughts remain their own. Shared play is possible when actual access permits; closed custody is not a permanent substitute for designing real interaction. Author AI-off fallback and bound call cadence. For home-work messaging, separate the sender’s expectation, recipient’s voluntary acceptance, actual work performed and credited/replied result. Background wealth or faction sympathy does not fabricate funds, allegiance mechanics or secret knowledge.
+
+## Household refinement lesson — presets and companion invitations
+
+A broad style brief should produce coordinated functional makeup/outfit presets plus individual item browsing, with ordinary versus cursed footwear explicit. Differentiate a pet’s usual resting/sleeping place, guest-context kennel use, daycare custody and a canine player’s separately resolved invitation/collar/visit permissions. Affection or protectiveness does not bypass actual physical reach, resources, travel, existing form authority or participation choices. Care may include fresh-food serving/stock and meaningful toy variety rather than generic bowl/Play text.
