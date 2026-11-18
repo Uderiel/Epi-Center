@@ -1,6 +1,6 @@
 # Household room-art review
 
-Generated review illustrations; not yet wired into the game. Existing approved artwork is preserved. Source images are 1536×1024 (3:2) for the 1100×733 display frame. Written room graphs control actual doors and travel; illustrations are architectural concepts. Approval pending.
+All 27 room illustrations are generated and saved for owner review. They are not wired into the live game. Existing approved artwork is preserved. Source images are 1536×1024 (3:2) for the existing 1100×733 display frame; they have not been resized. Written room graphs control actual doors, ownership and travel; illustrations are architectural concepts, not exact floor plans. Inspect each before approval: generation may introduce visual details that are not authored gameplay.
 
 ## Richard
 
@@ -68,30 +68,54 @@ Generated review illustrations; not yet wired into the game. Existing approved a
 
 ## Erin
 
-- Living Room: generation pending.
+### Living Room
 
-- Kitchen & Dining: generation pending.
+![erin — Living Room](../rebuild/hub/assets/room-art-review/erin-living.png)
 
-- Bedroom: generation pending.
+### Kitchen & Dining
 
-- Bathroom: generation pending.
+![erin — Kitchen & Dining](../rebuild/hub/assets/room-art-review/erin-kitchen.png)
 
-- Closet: generation pending.
+### Bedroom
 
-- Entry Hall: generation pending.
+![erin — Bedroom](../rebuild/hub/assets/room-art-review/erin-bedroom.png)
+
+### Bathroom
+
+![erin — Bathroom](../rebuild/hub/assets/room-art-review/erin-bath.png)
+
+### Closet
+
+![erin — Closet](../rebuild/hub/assets/room-art-review/erin-closet.png)
+
+### Entry Hall
+
+![erin — Entry Hall](../rebuild/hub/assets/room-art-review/erin-hall.png)
 
 ## Priya
 
-- Living Room: generation pending.
+### Living Room
 
-- Kitchen & Dining: generation pending.
+![priya — Living Room](../rebuild/hub/assets/room-art-review/priya-living.png)
 
-- Bedroom: generation pending.
+### Kitchen & Dining
 
-- Bathroom: generation pending.
+![priya — Kitchen & Dining](../rebuild/hub/assets/room-art-review/priya-kitchen.png)
 
-- Walk-in Closet: generation pending.
+### Bedroom
 
-- Entry Hall: generation pending.
+![priya — Bedroom](../rebuild/hub/assets/room-art-review/priya-bedroom.png)
+
+### Bathroom
+
+![priya — Bathroom](../rebuild/hub/assets/room-art-review/priya-bath.png)
+
+### Walk-in Closet
+
+![priya — Walk-in Closet](../rebuild/hub/assets/room-art-review/priya-closet.png)
+
+### Entry Hall
+
+![priya — Entry Hall](../rebuild/hub/assets/room-art-review/priya-hall.png)
 
 
