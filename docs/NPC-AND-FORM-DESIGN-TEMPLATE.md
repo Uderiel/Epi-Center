@@ -1,3 +1,7 @@
+## Household assistant initiative and confidential observations
+
+Author social initiative, guest-offer authority, financial authority, private-area access and information disclosure separately. Richard's confirmed bot does not initiate socializing or guest offers; he requests social engagement, explicitly authorizes offers/access and approves spending. His prior host offer authorizes matching service without duplicate approval. Overheard conversation and witnessed work are confidential; filter recipient-specific prompts and descriptions before AI generation, not merely with a prose instruction afterward. Requested conversation or hospitality never automatically grants private information or room access. Retain each character's explicit policy rather than generalizing these strict preferences to all bots.
+
 ## Delegated hospitality without duplicate approval
 
 An actual host offer authorizes a household assistant to fulfill the recipient's in-scope selection. Record host, guest, offered choices, visit/context, selection and fulfillment; do not ask the host to approve the same service again. Preserve real stock, funds, preparation and exactly-once item handover. Approval for refreshments does not grant unrelated private-room or computer access. Distinguish autonomous housekeeping/supply management from authorization to spend money. Richard's bot is the confirmed reference; apply this shared contract where a character actually delegates service.

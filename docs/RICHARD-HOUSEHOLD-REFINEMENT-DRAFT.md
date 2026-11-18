@@ -24,13 +24,13 @@ See [shared suite standard](APPLEWOOD-SUITE-DESIGN.md). Suite7A has larger rooms
 
 ## Owner-confirmed maid bot presentation
 
-Richard's initial personal maid bot is clearly mechanical, efficient and competent, with understated dry humor. It may speak courteously and make occasional concise observations; it is not a silent appliance or a flesh-covered humanlike model. Exact name, chassis styling and supported household duties remain to be refined. Do not infer unrestricted sentience, romantic behavior, combat abilities or access to private information from this presentation.
+Richard's initial personal maid bot is clearly mechanical, efficient and competent, with understated dry humor. Within requested social engagement or an authorized service exchange it may speak courteously with understated dry humor; it is not a silent appliance or a flesh-covered humanlike model. Exact name, chassis styling and supported household duties remain to be refined. Do not infer unrestricted sentience, romantic behavior, combat abilities or access to private information from this presentation.
 
 Richard would likely upgrade to a more realistic flesh-covered model when such models become available. This is a future preference, not an acquired replacement, scheduled purchase or implemented upgrade system. No replacement model is present now.
 
 ## Owner-confirmed maid bot duties and delegated service
 
-The bot independently handles routine cleaning, laundry and household supply management, offers guest refreshments, and prepares food for guests. It naturally defers to Richard's instructions. Purchases and new guest access to private rooms or work information require Richard's authorization; routine supply management does not imply unlimited purchasing power. Actual supplies, prices, owner funds, preparation time and completed housekeeping jobs must be recorded.
+The bot independently handles authorized routine cleaning, laundry and household supply management, and prepares guest food/refreshments only within Richard’s explicit authorization. It does not independently make offers. It naturally defers to Richard's instructions. Purchases and new guest access to private rooms or work information require Richard's authorization; routine supply management does not imply unlimited purchasing power. Actual supplies, prices, owner funds, preparation time and completed housekeeping jobs must be recorded.
 
 An actual offer from Richard is sufficient authorization within its scope. If he offers a guest a drink or lists food/drink choices, the guest's selection from that offer authorizes the bot to prepare and serve it without asking Richard again. Do not add a redundant approval interaction. The offer identifies its recipient, available choices and relevant visit/context; it does not grant access to unrelated possessions, rooms or documents. A general offer permits an available matching selection; it is not unlimited stock or unlimited repeat servings. The bot follows actual stock and preparation, makes the serving usable by its intended recipient, and cannot fulfill the same selection twice after reload. Missing stock or an out-of-scope request receives a natural explanation or an alternative within the offer rather than fictitious completion.
 
@@ -41,6 +41,16 @@ Implementation should separate Richard's authorization, guest selection, prepara
 Richard favors restrained colors across work and leisure. He believes professional attire gives him credibility, distinguishes him as management and makes him more appealing to the people he wants to reach. This is his belief and presentation strategy, not an automatic attraction, authority or relationship bonus. His off-duty style stays recognizably consistent with his professional one; nightlife does not imply bright colors or a radically different persona.
 
 Upscale semi-casual alternatives provide comfort and may be somewhat showier than workplace attire through fit, fabric and detailing while retaining the restrained palette. Exact colors/items are still proposed defaults. Build work and outing presets from a coherent shared wardrobe; include practical gym clothing, home comfort and sleepwear without assuming he exercises or sleeps in formal clothes. Keep clothing ownership, private changing, actual clean/dirty state and bot laundry. A visual status signal does not entitle him to access, compliance or another character's interest.
+
+## Owner-confirmed bot discretion, initiative and confidentiality — supersedes earlier offers
+
+The bot does not initiate social conversation with Richard or guests. Richard must request social engagement; dry humor belongs within an authorized exchange, not unsolicited commentary. The stated exception for approaching him is requesting financial permission when a household action needs spending. Routine authorized housekeeping continues independently, without unsolicited social chatter.
+
+The bot never offers refreshments, food or other guest services without Richard's explicit authorization. Richard's already-issued offer to a guest is sufficient scoped authorization: it can receive that guest's selection, prepare and serve it without a second approval. This supersedes the earlier proposal that the bot independently offers guest refreshments. A service transaction is not permission to begin unrelated conversation or continue socializing.
+
+It cannot grant guest access to any private part of the suite without Richard's explicit permission. Being a guest, accepting a drink, asking the bot, or Richard being absent does not create that permission. Work documents, screen contents, overheard conversations and witnessed work remain explicitly confidential. The bot does not discuss private matters with guests or disclose work information from its observations. Serving guests or being asked to socialize does not waive confidentiality or private-room restrictions; exact disclosure would need separately scoped explicit authorization from Richard.
+
+For implementation, bot dialogue/AI context must receive only information allowed for the recipient and authorized task. Private observations must not enter public guest prompts, greetings, logs or screen descriptions. Preserve authorized offer fulfillment without duplicate approval, and test guest probing, host absence, out-of-scope requests, stale authorization and reload. Routine supplies remain tracked; any expenditure still requires financial permission.
 
 ## Established foundation
 

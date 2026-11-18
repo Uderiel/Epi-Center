@@ -1,3 +1,9 @@
+## Richard bot confidentiality and restricted initiative confirmed
+
+Bot socializes only at Richard's request and does not independently offer guest services. It may seek financial permission; routine authorized housekeeping continues. Richard's existing guest offer authorizes matching fulfillment without another approval. Private-area permission must come explicitly from Richard. Work information, overheard conversations and witnessed work remain confidential; public/guest AI contexts must not leak them. Updated earlier contradictory offer wording in both draft and design notes, plus shared template.
+
+Branch `rebuild/1.0-foundations`; parent `23d1f68`. Documentation only; no runtime, tests or publication change. Next exact action: consolidate Richard's routine and suite implementation scope with these explicit bot permissions; do not claim a bot is already playable. Public remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 .
+
 ## Richard wardrobe identity confirmed
 
 Restrained colors across work/leisure; Richard sees professional attire as credibility, managerial status and personal appeal. Off-duty style remains consistent, with upscale semi-casual options for comfort or slightly showier detailing. These are character beliefs, not automatic social bonuses. Saved in Richard's draft/design; individual garment selections remain proposed.
