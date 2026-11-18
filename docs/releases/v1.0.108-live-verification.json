@@ -1,0 +1,321 @@
+{
+  "version": "1.0.108",
+  "gameplayCommit": "662f1344ba8c0b5b292fc1b5e7ffa6e442cb4500",
+  "url": "https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.108",
+  "sourceChecks": [
+    {
+      "path": "rebuild/character-creation/index.html",
+      "matches": true,
+      "sha256": "3c1f06663a7ded1765d4f7f4b2de63e115f94335ca5319654e82ae3b6348cfa1",
+      "bytes": 13917
+    },
+    {
+      "path": "rebuild/hub/ai-context.js",
+      "matches": true,
+      "sha256": "41aab97b16f2e04dd14bac197cc8cd9264ef694c2136dcc2ae425478c4766487",
+      "bytes": 29931
+    },
+    {
+      "path": "rebuild/hub/ai-ui.js",
+      "matches": true,
+      "sha256": "624457f83e945f5f9da1c00555b6f64a499d4e1fd1554599d14b91f06befeef7",
+      "bytes": 20898
+    },
+    {
+      "path": "rebuild/hub/assets/priya-shah-approved.png",
+      "matches": true,
+      "sha256": "9eeb624f591999906691ca498f493f50b98566b4656112fffb504b5b6630a3e3",
+      "bytes": 2114271
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/erin-bath.png",
+      "matches": true,
+      "sha256": "8f31ace3a94fd2864e10b7666856832ebc5acb8509d90d4b29d7d89d08fb5f69",
+      "bytes": 2536598
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/erin-bedroom.png",
+      "matches": true,
+      "sha256": "ce01543d669d6a942d8afe7c26702016943c24056aaac2e0727f7c32c8984f8a",
+      "bytes": 2997554
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/erin-closet.png",
+      "matches": true,
+      "sha256": "68e4cff2d4c25ab6d91a8597b293070c53af8ea0f1645f8c60f8db59abcf30bd",
+      "bytes": 2917179
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/erin-hall.png",
+      "matches": true,
+      "sha256": "9bc60d84d907a83784f928c375ac5ca641a131887d88e1e7ee249a574f09c89b",
+      "bytes": 2622031
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/erin-kitchen.png",
+      "matches": true,
+      "sha256": "a616c20a85c88ba334d77dbc830f95c7707aff108dacf3d26f29591dabee02be",
+      "bytes": 2607642
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/erin-living.png",
+      "matches": true,
+      "sha256": "c693641e3136ceb31bc21bee8116c54ae9687919afdf9fe9da033e65d8403950",
+      "bytes": 2894251
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/nadia-bath.png",
+      "matches": true,
+      "sha256": "7825be68d1bab161b6448f1b26573c4246c6ba89c4583af8dab19cedf03ab077",
+      "bytes": 2670684
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/nadia-bedroom.png",
+      "matches": true,
+      "sha256": "a89caea5622bf9400d46bf545ad49b4f50e262dc79bf9c9bf0891754617ab7a9",
+      "bytes": 2670125
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/nadia-closet.png",
+      "matches": true,
+      "sha256": "ef85345321020a75d39a86f92307397e4456390c3e2dd1d953dfc940a8a70d64",
+      "bytes": 2736195
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/nadia-hall.png",
+      "matches": true,
+      "sha256": "68e053895de6fef89a5a1b263d02d4f8ab4222e77df21267c1eeebd787c0028e",
+      "bytes": 2644640
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/nadia-kitchen.png",
+      "matches": true,
+      "sha256": "e5c009e4d7c1d713c31307ed02b1847a5db1836464bde34e258328e802832412",
+      "bytes": 2712418
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/nadia-living.png",
+      "matches": true,
+      "sha256": "891299444e76af172be8434ad02ccfb37ef836b5da02f2a8aa79fddc615136cb",
+      "bytes": 2813397
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/priya-bath.png",
+      "matches": true,
+      "sha256": "d5c3360d3ab6b7dd244c77e60abfb018c1090486102788d16124f984374da242",
+      "bytes": 2458717
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/priya-bedroom.png",
+      "matches": true,
+      "sha256": "b4936707f4f91d9b4cd04dc259966576295e7d87279bc6ca04fe5a11e8d7b510",
+      "bytes": 2633873
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/priya-closet.png",
+      "matches": true,
+      "sha256": "e1682e03dd18092ebc6c35a6ee0667ba11277238db761678a1a17d5d2c5dfdd8",
+      "bytes": 2600297
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/priya-hall.png",
+      "matches": true,
+      "sha256": "5635d9ab4ed46be51a36fc265fac3f713cd277c16d882551544233b101337163",
+      "bytes": 2771786
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/priya-kitchen.png",
+      "matches": true,
+      "sha256": "d29c99f422c55a465b68b8259a2d38d948effa83ea7dfde63263fd4c2ec187fb",
+      "bytes": 2516378
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/priya-living.png",
+      "matches": true,
+      "sha256": "238029a0836d5810255121c30abc85e785498fbb6f97da6ff3c93df5cfb435fb",
+      "bytes": 2984335
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/richard-balcony.png",
+      "matches": true,
+      "sha256": "769406bf9da15334095f74154eb62527f670b302d8a5eb65ca3bbe75823e2f08",
+      "bytes": 2752972
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/richard-closet.png",
+      "matches": true,
+      "sha256": "1fc73a9814208498e262cc2ac45167bf1ef9393c78610b069cf2cf48b421da67",
+      "bytes": 2900884
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/richard-guest.png",
+      "matches": true,
+      "sha256": "8c2e3540b28bc8683ea72d9beb4b1d298ad1b86e4e22237ad7afca13eb53f59e",
+      "bytes": 2519926
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/richard-guestbath.png",
+      "matches": true,
+      "sha256": "b0d7877cb3f0c79ce5f4bddf59eb4ca898dd6c2e9adaa7111241a0f75c3d2efc",
+      "bytes": 2709446
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/richard-hall.png",
+      "matches": true,
+      "sha256": "2490b20dcde558e557479df710ee631cbe0eaaaa5105a8002fbfb625ec3cac45",
+      "bytes": 2537623
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/richard-kitchen.png",
+      "matches": true,
+      "sha256": "d613bdfd44f3c22c6f929088617c078cbe8b027ff73a9decf34e49ca6595894a",
+      "bytes": 2506590
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/richard-living.png",
+      "matches": true,
+      "sha256": "cea219f88b9cd609efc14d03ff010cf3fed1e56a878a105aa8030fed9fc4fca8",
+      "bytes": 2765951
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/richard-master.png",
+      "matches": true,
+      "sha256": "78217d1281e331b1df88f904dfb0eb79d3af737650ecf7994b9e036beeb0898c",
+      "bytes": 2789253
+    },
+    {
+      "path": "rebuild/hub/assets/room-art-review/richard-masterbath.png",
+      "matches": true,
+      "sha256": "3c1170c9ffcfdfd2ef8d9f22738ebaa8a6166cdb4bae5ab5bc4bc54cb450edb3",
+      "bytes": 2669265
+    },
+    {
+      "path": "rebuild/hub/dart.js",
+      "matches": true,
+      "sha256": "0375e3676b3bb5e038fc49212c31a92af423b190f2755ab90ecc39f5b4ea41b2",
+      "bytes": 14084
+    },
+    {
+      "path": "rebuild/hub/department-ui.js",
+      "matches": true,
+      "sha256": "bd86ebb60d224ef5a2ed469c607c0b772abcf018ca2e5f1f175ebf2183949010",
+      "bytes": 9422
+    },
+    {
+      "path": "rebuild/hub/department.js",
+      "matches": true,
+      "sha256": "733002dfb9104d15c1568a6f02cb3c7e7e76639debd97dd87feb9cf1c48011e8",
+      "bytes": 25829
+    },
+    {
+      "path": "rebuild/hub/erin-restoration.js",
+      "matches": true,
+      "sha256": "1d556f784ad4a040f36534fa030aac7cd2f74fa0502e02aee6d1413638797c61",
+      "bytes": 24840
+    },
+    {
+      "path": "rebuild/hub/form-minds-ui.js",
+      "matches": true,
+      "sha256": "7ad0860465a5cc311ea0de696f7f9490172cbfb12cfe558af5d73e2c52d0165d",
+      "bytes": 11260
+    },
+    {
+      "path": "rebuild/hub/index.html",
+      "matches": true,
+      "sha256": "7f5f43481ed39360fd5eec648cb1dd3e47e297ef1a711ebbd50f843b457df636",
+      "bytes": 139053
+    },
+    {
+      "path": "rebuild/hub/marketing.js",
+      "matches": true,
+      "sha256": "a9121ecc657bc95dbae3da3baa5e39a7215384777dc31d52b5b4f4b4c6cf9de0",
+      "bytes": 25068
+    },
+    {
+      "path": "rebuild/hub/nadia-guests.js",
+      "matches": true,
+      "sha256": "68bbd970de29c0b1ea48856559424c8418a9c856936863ba7a66175d2b3439ca",
+      "bytes": 7566
+    },
+    {
+      "path": "rebuild/hub/nadia-home-ui.js",
+      "matches": true,
+      "sha256": "a72aadbec51d3378e2e9f83cc15a3ab099a55ce669ee78cc47c59b36b2dc7d2f",
+      "bytes": 16227
+    },
+    {
+      "path": "rebuild/hub/navigation-ui.js",
+      "matches": true,
+      "sha256": "1a9cf9c01b549ad578a7e3df1c27cd6e99e795b0ba696aae16c6bceba904b82a",
+      "bytes": 9680
+    },
+    {
+      "path": "rebuild/hub/priya-cat.js",
+      "matches": true,
+      "sha256": "1f48a214d56b34cd132871e175c708a8c54a699c05d65896262b8da2b55c922a",
+      "bytes": 33446
+    },
+    {
+      "path": "rebuild/hub/priya.js",
+      "matches": true,
+      "sha256": "0a2dcdfac35ad25c9fc023e8a4ea62828874d624b18a89d879ee522b18e42fdb",
+      "bytes": 23339
+    },
+    {
+      "path": "rebuild/hub/relationships.js",
+      "matches": true,
+      "sha256": "97fddee0079c5879431ec5e01ffc7dc619e9a3914e90289a2e9b6f936d8cc6a0",
+      "bytes": 3330
+    },
+    {
+      "path": "rebuild/hub/richard-daily.js",
+      "matches": true,
+      "sha256": "26580dca8bbd103f3dc189a7f78d3c131ec2d74d4b28d3c1c27134e6a2c187e1",
+      "bytes": 8613
+    },
+    {
+      "path": "rebuild/hub/richard-home-data.js",
+      "matches": true,
+      "sha256": "919bd7a076232223b89681476b1ce9d202f998ffc2bc62e95631625577d63ef0",
+      "bytes": 14211
+    },
+    {
+      "path": "rebuild/hub/richard-home-ui.js",
+      "matches": true,
+      "sha256": "835b6941d0e422a39d4b2815bd5855e6192119636a93f00e7de6362ec05f8459",
+      "bytes": 13494
+    },
+    {
+      "path": "rebuild/hub/richard-home.js",
+      "matches": true,
+      "sha256": "14b0fed751f789ac4aa3211ccf9524e4411e638f1d52b7b9526537f72e8f2715",
+      "bytes": 23326
+    },
+    {
+      "path": "rebuild/hub/richard.js",
+      "matches": true,
+      "sha256": "1b94938e4a226b9004ef2ac861691838564158436baffaf6ddc1906d60f6c67c",
+      "bytes": 30789
+    },
+    {
+      "path": "rebuild/hub/served-items.js",
+      "matches": true,
+      "sha256": "12bb484f088b2b06edb49fd6f49718c6ed5cf9eb1f22a768e1dc2dc5ac59e24e",
+      "bytes": 3149
+    },
+    {
+      "path": "rebuild/hub/social-ui.js",
+      "matches": true,
+      "sha256": "d3656abf0c0a022a5274fe5ef3b48dbb14c5b03fa03bb4b8ffffa66bcf2e42da",
+      "bytes": 8394
+    },
+    {
+      "path": "rebuild/title-screen/index.html",
+      "matches": true,
+      "sha256": "53ac5e9f1b5e0c69a6bd1560392e28b86654a4f19498c6c22b07f4b15604200a",
+      "bytes": 6166
+    }
+  ],
+  "allMatched": true,
+  "scope": "Changed deployed runtime files and portrait; isolated public-browser evidence is separate."
+}

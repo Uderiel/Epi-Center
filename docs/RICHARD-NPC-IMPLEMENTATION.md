@@ -1,3 +1,7 @@
+## v1.0.108 published household expansion
+
+[Richard household implementation](RICHARD-HOUSEHOLD-IMPLEMENTATION.md) supersedes earlier home-interior limitations below. Suite7A, routine/controller, maid-bot service, fixtures and signed relationships are implemented. Current status has tested runtime/publication evidence; owner acceptance remains pending. Shared lunch is noon–one.
+
 Canonical name update (v1.0.79): **Richard Carter**, manager of **Erin Lillard**. Save/NPC IDs, assignment and reward ledgers are unchanged.
 
 ## v1.0.74

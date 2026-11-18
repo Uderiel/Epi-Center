@@ -1,0 +1,25 @@
+{
+  "version": "1.0.108",
+  "runtimeCommit": "662f1344ba8c0b5b292fc1b5e7ffa6e442cb4500",
+  "deployment": 44341634943,
+  "automatedCases": 1266,
+  "automatedSuites": 74,
+  "localBrowserChecks": 192,
+  "publicBrowserChecks": {
+    "v1.0.108-browser-live.json": 78,
+    "v1.0.108-cat-browser-live.json": 38,
+    "v1.0.108-erin-browser-live.json": 27,
+    "v1.0.108-browser-nadia-live.json": 21,
+    "v1.0.108-richard-browser-live.json": 18,
+    "v1.0.108-corrections-browser-live.json": 10
+  },
+  "runtimeFilesMatched": 52,
+  "navigationTimeoutRetry": "5s page-load timeout; adjusted navigation allowance to30s and reran successfully",
+  "ownerAcceptance": "pending",
+  "next": "Requested room-art revisions and four utility views",
+  "limits": [
+    "Paid AI quality, owner saves, Android and longer economic balance unverified",
+    "Unbuilt venues/boutique/multiplayer deferred",
+    "Intimate furnishings are non-graphic props, not equipment-use scenes"
+  ]
+}
