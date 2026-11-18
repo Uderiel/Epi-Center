@@ -1,3 +1,7 @@
+## Burke daily distribution deliveries confirmed
+
+Same unnamed delivery person as Cherished Touch supplies Burke’s DAILY from a distribution center. Keep Cherished Touch’s own Monday06:00 schedule unchanged; shared courier does not mean identical cadence. Burke arrival time, quantities/contents, caps, payment and organizing behavior remain unspecified. Do not invent a named courier, distribution map location, Charity-specific pity motive for Burke, or infinite shelf restocking. Updated BURKES-SWEETS-DESIGN.md; design only, public v1.0.111 unchanged.
+
 ## Tits morning preparation and closing behavior confirmed
 
 Owner approves early prep/service/lull breaks/cleanup and finishing existing queue before leaving. Baking is messy and carelessly hygienic: finger/skin/pan/surface licking and direct handling can leave visible product traces, for quick cleanup in her sincere judgment. Record actual batch handling without inventing medical outcomes or forcing consumption. Setup is energetic/happy, with excited self-talk hoping customers like the goods. Service remains friendly/chatty when available; cleanup includes a wipe-down. Existing queued customers are completed after closing because she would feel guilty disappointing them. Full details in BURKES-SWEETS-DESIGN.md. Design only; public v1.0.111 unchanged.
