@@ -241,12 +241,15 @@
       "description": "The apartment opens into a tidy living room. Erin\u2019s immaculate home desk is immediately visible ahead, while the sofa, television, bookcase and reading chair make a quieter retreat to the left.",
       "fixtures": "Home desk: The desk is carefully ordered: stationery aligned, paperwork squared, and a work calendar prominently placed.; Fabric sofa: A comfortably worn fabric sofa with a soft throw blanket folded over one arm. Erin chose it for comfort, not appearances.; Reading armchair: An upholstered armchair sits beside the tall bookcase and reading lamp. Its cushions have softened with years of quiet evenings.; Coffee table: A simple wooden coffee table holds a bookmarked novel, a television remote and a coaster.; Tall bookcase: An ordinary tall wooden bookcase holds nearly a hundred books, most carefully kept and some visibly reread. Two handcrafted keepsakes rest among the shelves.; Television: A modest 44-inch television rests on a plain media stand.; Reading lamp: A warm reading lamp stands beside the armchair.; Living room plants: A snake plant, a ZZ plant and a pothos bring greenery to the room. They tolerate indirect light and do not need constant attention.",
       "extra": "",
-      "status": "generated",
+      "status": "revised contemporary young-adult styling; owner review pending",
       "image": "rebuild/hub/assets/room-art-review/erin-living.png",
       "width": 1536,
       "height": 1024,
-      "bytes": 2894251,
-      "sha256": "c693641e3136ceb31bc21bee8116c54ae9687919afdf9fe9da033e65d8403950"
+      "bytes": 2870280,
+      "sha256": "1e4a513ed2b4944aac3bfdf42c4511c741eeb8ccf02b7a2a1c5ec5945063d888",
+      "previousSha256": "c693641e3136ceb31bc21bee8116c54ae9687919afdf9fe9da033e65d8403950",
+      "revision": 2,
+      "floor": 3
     },
     {
       "person": "erin",
@@ -256,12 +259,15 @@
       "description": "A compact, orderly kitchen opens around a counter and small dining table. The refrigerator, stove, sink and wine cooler each have their own place.",
       "fixtures": "Refrigerator: An orderly refrigerator stores Erin\u2019s groceries.; Stove: The stove is clean and switched off.; Sink: The sink is clean and empty.; Counter: The counter is wiped down and ready for use.; Dining table: You take a seat at the dining table.; Wine cooler: A compact wine cooler sits neatly in its designated spot.",
       "extra": "",
-      "status": "generated",
+      "status": "revised contemporary young-adult styling; owner review pending",
       "image": "rebuild/hub/assets/room-art-review/erin-kitchen.png",
       "width": 1536,
       "height": 1024,
-      "bytes": 2607642,
-      "sha256": "a616c20a85c88ba334d77dbc830f95c7707aff108dacf3d26f29591dabee02be"
+      "bytes": 2644486,
+      "sha256": "944d07ca9ea219413a8a94bc24c274bcb27b944db6e96c42ecc47ac2afe72126",
+      "previousSha256": "a616c20a85c88ba334d77dbc830f95c7707aff108dacf3d26f29591dabee02be",
+      "revision": 2,
+      "floor": 3
     },
     {
       "person": "erin",
@@ -271,12 +277,15 @@
       "description": "Erin\u2019s carefully maintained bedroom feels quiet and private. Her neatly made bed, dresser, reading lamp, and ironing board are arranged for everyday comfort.",
       "fixtures": "Upholstered bed: A comfortable bed with an oatmeal upholstered headboard, a few throw pillows, and a lightweight blanket folded at its foot for reading in bed.; Six-drawer dresser: An orderly six-drawer dresser beneath a mirror. A lace runner, clean floral perfumes, and frequently used body lotions rest on top.; Bedside table: A reading lamp, bookmark, and water glass sit close to the bed.; Ironing board: An ironing board stands near the bedroom laundry basket.; Laundry basket: The bedroom laundry basket holds worn garments until they are carried to the hallway utility closet.; Bedroom window: Soft daylight filters into the warm, quiet bedroom.",
       "extra": "",
-      "status": "generated",
+      "status": "revised contemporary young-adult styling; owner review pending",
       "image": "rebuild/hub/assets/room-art-review/erin-bedroom.png",
       "width": 1536,
       "height": 1024,
-      "bytes": 2997554,
-      "sha256": "ce01543d669d6a942d8afe7c26702016943c24056aaac2e0727f7c32c8984f8a"
+      "bytes": 2967401,
+      "sha256": "1f0bba95980303dc1d2583a74d54f8415801196110f9c6798c4c6702d9233ae2",
+      "previousSha256": "ce01543d669d6a942d8afe7c26702016943c24056aaac2e0727f7c32c8984f8a",
+      "revision": 2,
+      "floor": 3
     },
     {
       "person": "erin",
@@ -286,12 +295,15 @@
       "description": "Erin\u2019s bathroom is clean, practical, and stocked with everyday toiletries. The shower, sink, mirror, and linen shelf are all within reach.",
       "fixtures": "Sink, mirror & makeup: Erin does her light professional makeup here: moisturizer, primer, foundation, blush, eyeshadow, mascara, eyelash curling, lipstick, and setting spray.; Shower & bathtub: A shower-and-bathtub combination. Erin showers when rushed but prefers a relaxing bath when time allows.; Bathroom cabinet: Skincare, clean floral bath oils and salts, bubble bath, pads and tampons, a heating pad, and modest over-the-counter pain relief are stored neatly.; Towel shelf: Clean towels and a soft bath pillow are within easy reach.",
       "extra": "",
-      "status": "generated",
+      "status": "revised contemporary young-adult styling; owner review pending",
       "image": "rebuild/hub/assets/room-art-review/erin-bath.png",
       "width": 1536,
       "height": 1024,
-      "bytes": 2536598,
-      "sha256": "8f31ace3a94fd2864e10b7666856832ebc5acb8509d90d4b29d7d89d08fb5f69"
+      "bytes": 2560475,
+      "sha256": "9102c4784a2155e5de761734fccef334ca86e03c9946303910f186a181cf781b",
+      "previousSha256": "8f31ace3a94fd2864e10b7666856832ebc5acb8509d90d4b29d7d89d08fb5f69",
+      "revision": 2,
+      "floor": 3
     },
     {
       "person": "erin",
@@ -301,12 +313,15 @@
       "description": "An orderly wardrobe holds Erin\u2019s work clothing, comfortable off-duty layers, shoes, accessories, and soft neutral socks. Clothing can be examined here; a full equipment overhaul is planned separately.",
       "fixtures": "Professional wardrobe: Tailored blouses, skirts, and occasional formal work dresses. Erin values modest, polished office presentation.; Casual wardrobe: Comfortable sweaters, cardigans, leggings, jeans, plain fitted T-shirts and a brown leather jacket.; Shoe collection: Eight individual pairs, including her signature red work heels and practical weekend and winter options.; Accessories: Understated jewelry, belts, and hair accessories.; Hosiery & sleepwear: The main supplies of socks, pantyhose, tights, and sleepwear are kept in their assigned dresser drawers.",
       "extra": "",
-      "status": "generated",
+      "status": "revised contemporary young-adult styling; owner review pending",
       "image": "rebuild/hub/assets/room-art-review/erin-closet.png",
       "width": 1536,
       "height": 1024,
-      "bytes": 2917179,
-      "sha256": "68e4cff2d4c25ab6d91a8597b293070c53af8ea0f1645f8c60f8db59abcf30bd"
+      "bytes": 2902217,
+      "sha256": "ad7f85c317649f5a4c81593732df892ede304a41f004e7f313a37c0785749ef2",
+      "previousSha256": "68e4cff2d4c25ab6d91a8597b293070c53af8ea0f1645f8c60f8db59abcf30bd",
+      "revision": 2,
+      "floor": 3
     },
     {
       "person": "erin",
@@ -316,12 +331,15 @@
       "description": "The apartment entrance opens into the living room. Beyond this short interior hall is Erin\u2019s private bedroom.",
       "fixtures": "Apartment door: The entrance to Unit 3C leads to the shared Applewood Apartments corridor.",
       "extra": "",
-      "status": "generated",
+      "status": "revised contemporary young-adult styling; owner review pending",
       "image": "rebuild/hub/assets/room-art-review/erin-hall.png",
       "width": 1536,
       "height": 1024,
-      "bytes": 2622031,
-      "sha256": "9bc60d84d907a83784f928c375ac5ca641a131887d88e1e7ee249a574f09c89b"
+      "bytes": 2651328,
+      "sha256": "45d526b0449fa4bd1ae0a5eeef1157baedb3979bd97c7ded48555312e4b40911",
+      "previousSha256": "9bc60d84d907a83784f928c375ac5ca641a131887d88e1e7ee249a574f09c89b",
+      "revision": 2,
+      "floor": 3
     },
     {
       "person": "priya",
