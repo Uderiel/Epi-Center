@@ -1,6 +1,6 @@
 # Household room-art review
 
-New generated review assets. Existing approved artwork is preserved. Not wired into the live game. Source images are 1536×1024 (3:2) for the existing 1100×733 display frame; these are architectural concepts, not exact floor plans. Written room graphs remain authoritative.
+Generated review illustrations; not yet wired into the game. Existing approved artwork is preserved. Source images are 1536×1024 (3:2) for the 1100×733 display frame. Written room graphs control actual doors and travel; illustrations are architectural concepts. Approval pending.
 
 ## Richard
 
@@ -42,17 +42,29 @@ New generated review assets. Existing approved artwork is preserved. Not wired i
 
 ## Nadia
 
-- Entry hall: generation pending.
+### Entry hall
 
-- Living room: generation pending.
+![nadia — Entry hall](../rebuild/hub/assets/room-art-review/nadia-hall.png)
 
-- Kitchen & dining: generation pending.
+### Living room
 
-- Bedroom: generation pending.
+![nadia — Living room](../rebuild/hub/assets/room-art-review/nadia-living.png)
 
-- Bathroom: generation pending.
+### Kitchen & dining
 
-- Walk-in closet: generation pending.
+![nadia — Kitchen & dining](../rebuild/hub/assets/room-art-review/nadia-kitchen.png)
+
+### Bedroom
+
+![nadia — Bedroom](../rebuild/hub/assets/room-art-review/nadia-bedroom.png)
+
+### Bathroom
+
+![nadia — Bathroom](../rebuild/hub/assets/room-art-review/nadia-bath.png)
+
+### Walk-in closet
+
+![nadia — Walk-in closet](../rebuild/hub/assets/room-art-review/nadia-closet.png)
 
 ## Erin
 
