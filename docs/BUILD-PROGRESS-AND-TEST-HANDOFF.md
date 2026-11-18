@@ -1,3 +1,14 @@
+## v1.0.111 patch published and publicly verified
+
+Play directly: https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.111
+Checklist: `docs/V1.0.111-OWNER-ACCEPTANCE.md`. Provide its actual test steps and direct play link inline in chat after publishing.
+
+Gameplay release `58f33025a3b9a02d45d8e71020833cd719d0d0d1` is on main and foundations. Pages run44395405144 succeeded. All 170 public source/art files match. All 1,347 automated cases across80suites,250local browser checks and250live browser checks pass. Proof: `docs/releases/v1.0.111-tests.json`, `v1.0.111-local-browser-summary.json`, `v1.0.111-live-browser-summary.json`, and `v1.0.111-live-verification.json`.
+
+Resolved: repeated automatic reading/activity invitation immediately after completion (90in-game-minute end-based cooldown, saved/history migration, manual invitations remain available); Richard refreshments and carried empty containers incorrectly labelled Priya-owned (shared host labels, source preserved); morning-only greeting at later times (clock-aware Priya/Richard/Daniel greetings, neutral overnight wording). Regression checks cover completed chapter/reload/manual choice, real rendered serving/container labels, return to correct host only, morning/noon/evening boundaries and actual evening NPC greeting. Owner saves and paid AI untouched; mastery need not reset.
+
+Next is owner acceptance on the existing save using the five patch checks, including live AI wording where enabled. Patch is published; no approval or deployment step is pending.
+
 ## v1.0.111 patch — local verification complete, publishing
 
 Fixes: shared-home automatic invitations now wait 90 in-game minutes after an activity ends, including completed reading; completion/history timestamps protect older saves after reload while player-initiated activities remain available. Richard’s prepared servings and empty containers display his real ownership through a shared host-label resolver. Priya, Richard and Daniel greetings use the actual game period, with neutral overnight wording and no stale morning-only follow-up.
