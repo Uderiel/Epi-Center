@@ -1,3 +1,9 @@
+## Richard social personality remains under review — networking distinction confirmed
+
+Owner corrects premature design-complete claim: workplace personality exists, broader social behavior still needs review. Richard enjoys Erin/Nadia's company without requiring networking value; he takes networking opportunities with people in higher positions. Saved distinction and open social-personality questions in draft/design notes. Do not infer that every social exchange is instrumental.
+
+Branch `rebuild/1.0-foundations`; parent `0cad3d0`. Documentation only; no runtime/test/release change. Exact next action: review off-duty humor and behavior, group dynamics, disagreement and personal boundaries before calling Richard's social design complete. Public remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 .
+
 ## Richard evening rhythm, guest access and weekend report correspondence confirmed
 
 Owner approves proposed outing rhythm and guest-access split. Before bed Richard may review actually updated sales/marketing reports. Nadia and Erin are his most likely weekend contacts for proposed Monday schedule additions. Preserve actual report sources, Daniel's sales role, saved correspondence and Scheduler booking; a message is not accepted extra work or an automatically booked appointment. Added to draft/design.

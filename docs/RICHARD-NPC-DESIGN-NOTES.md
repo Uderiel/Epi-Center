@@ -1,3 +1,9 @@
+## Social personality review — enjoyment and upward networking
+
+Owner clarifies that Richard's social behavior is still being designed; established outings and wardrobe do not constitute a finished social personality. Richard can maintain company with Erin or Nadia for genuine enjoyment rather than networking. If he has an opportunity to meet someone in a higher position, he will use that opportunity to network. This does not mean every friendship is instrumental or every conversation becomes a business pitch. No automatic relationship, access, promotion or shared interest follows from an introduction.
+
+Still to refine with owner: off-duty humor, how he shares or directs group plans, response to disagreement/rejection, vulnerability, friendship follow-ups and flirting boundaries. Earlier claims that the overall personality was fully settled are superseded. Existing workplace personality remains canon. Proposed confidence/playfulness or unsolicited advice are proposals until reviewed, not confirmed social behavior.
+
 ## Owner-confirmed evenings, guest access and updated-report review
 
 Owner accepts two or three weekday outings, a longer Friday or Saturday night, and quieter evenings between. Richard changes at home when appropriate and travels physically to available venues. Home leisure can include exercise, balcony time, television and brief work review. A normal invitation permits the living room, bar, balcony and guest bathroom. The guest bedroom requires an overnight invitation; master bedroom, master bathroom and work information require separate explicit permission.

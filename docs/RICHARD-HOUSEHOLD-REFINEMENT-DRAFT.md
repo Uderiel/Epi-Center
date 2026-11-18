@@ -60,6 +60,12 @@ Before bed he may check sales and marketing reports **if any have been updated**
 
 Weekend messages are real saved correspondence and may propose an addendum for Monday. Sending is not acceptance, completed unpaid work, instant availability or a booked appointment. Scheduling follows the shared Scheduler/calendar, actual availability and existing approval/booking rules. Separate report content, Richard's review, his requested addition, recipient reply and final calendar update. Confidential work stays out of guest/bot conversation and publicly visible shared screens unless explicitly authorized. The bot must not initiate report discussion on its own.
 
+## Social personality review — enjoyment and upward networking
+
+Owner clarifies that Richard's social behavior is still being designed; established outings and wardrobe do not constitute a finished social personality. Richard can maintain company with Erin or Nadia for genuine enjoyment rather than networking. If he has an opportunity to meet someone in a higher position, he will use that opportunity to network. This does not mean every friendship is instrumental or every conversation becomes a business pitch. No automatic relationship, access, promotion or shared interest follows from an introduction.
+
+Still to refine with owner: off-duty humor, how he shares or directs group plans, response to disagreement/rejection, vulnerability, friendship follow-ups and flirting boundaries. Earlier claims that the overall personality was fully settled are superseded. Existing workplace personality remains canon. Proposed confidence/playfulness or unsolicited advice are proposals until reviewed, not confirmed social behavior.
+
 ## Established foundation
 
 Richard is an adult, younger, charming, ambitious and controlling Sales and Marketing Manager. Erin is his valued secretary; Daniel leads sales and Nadia leads marketing. His dark brown hair, hazel eyes, lean athletic build and professional appearance remain. He knows he relies on Erin, and stress increases his requests for help. He considers thanks and extra pay sufficient, but payment is not consent. Existing refusal memory, exactly-once task pay, resource pools, ordinary Mental-primary civilian combat and current ten attributes remain unchanged. He never quotes the numerical bonus aloud. Home is Applewood floor 7 Suite A. Nadia does not know he lives above her; meeting her elsewhere must not disclose that automatically. No Richard form or transformation route is proposed.
