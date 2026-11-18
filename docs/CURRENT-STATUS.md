@@ -1,3 +1,9 @@
+## Burke’s Sweets design consolidated; Tits’s residence pinned
+
+Owner supplied the original diagram and approved physical tracked shop baskets, register checkout, served/inventory drinks, menu prices and exact BFBFF bracelet spelling/effect. Tits’s sincere literal-minded service personality and responses to rudeness, apology, compliments and direct flirting are confirmed. Consolidated source: `docs/BURKES-SWEETS-DESIGN.md`. This remains design, not implemented gameplay.
+
+Latest: Tits lives in a future WEST-side apartment, not the shop. Address/interior/commute are explicitly deferred until housing expansion and later Burke quest work. She may go home but often forgets, prefers nightlife/casino/Fire and Ice/Bimbos365, may stay out all night and miss sleep, then rely on her shop drinks for stimulation. No invented apartment placement, venue implementation, named contacts or fatigue reset. Next design step: normal shop hours/preopening baking and fatigue exceptions. Public v1.0.111 unchanged.
+
 ## Owner acceptance and next location: Burke’s Sweets
 
 Owner confirmed no faults in v1.0.110 and successful fixes in v1.0.111, explicitly confirmed current version1.0.111, and will report further issues if found. Acceptance is recorded; do not request another title-screen confirmation or redundant test summary.

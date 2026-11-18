@@ -1,5 +1,7 @@
 # Burke’s Sweets — tile 63 location audit
 
+**Update:** Owner has now supplied the original handwritten layout. Confirmed transcription and subsequent retail/character/routine decisions are in `BURKES-SWEETS-DESIGN.md`; the missing-sheet findings below describe the earlier audit only.
+
 Owner selected this location after confirming v1.0.110 acceptance and successful v1.0.111 fixes. Do not ask the owner to reconfirm the title/version or reproduce already-confirmed successful tests.
 
 ## Verified existing foundation
