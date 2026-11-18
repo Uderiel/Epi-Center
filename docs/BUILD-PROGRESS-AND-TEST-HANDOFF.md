@@ -1,3 +1,9 @@
+## Richard selective vulnerability confirmed
+
+With a trusted confidant Richard admits mistakes/shares worries as a request for practical advice. He expects limited judgment and solutions to prevent recurrence or correct consequences, and guards against appearing weak. No automatic numerical trust threshold, invented past mistake or public confession. Saved draft/design.
+
+Branch `rebuild/1.0-foundations`; parent `5250d54`. Documentation only, no runtime/tests/release. Next exact action: refine reciprocal friendship follow-ups and then consolidate confirmed versus proposed social traits before implementing. Public remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 .
+
 ## Richard flirting and Erin possibility confirmed
 
 Suggestive banter first; actual receptivity leads to more direct, confident, often boastful pursuit. Richard can reciprocate Erin's expressed personal interest despite their workplace roles, but insists on privacy. No default relationship or automatic escalation. Keep secretary work/pay/bonuses separate and retain ordinary witnessed-presence/consent and bot-confidentiality rules. Saved draft/design.
