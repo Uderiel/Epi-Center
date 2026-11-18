@@ -1,3 +1,9 @@
+## Richard owner refinement — socialite and dining-out emphasis
+
+Owner confirms Richard is outward-facing and enjoys exploring city venues/clubs; dining out takes priority over cooking or hosting. He is currently single. A possible Research Center romance is future scope, with no partner or relationship established. Updated Richard's review draft; earlier home-centered proposals are superseded. Unimplemented venues cannot become fabricated completed outings.
+
+Branch `rebuild/1.0-foundations`; parent `2fd6d50`. Documentation only; no runtime change, new test run or release. Next exact action: continue reviewing his city/social rhythm and distinct household, then implement the agreed slice with actual venue availability and travel. Public build remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 .
+
 ## Richard household refinement — draft ready for owner review
 
 Following published v1.0.107, Richard is the active next character; Nadia/Dart owner testing remains pending and does not block design work. Read [Richard household/refinement draft](RICHARD-HOUSEHOLD-REFINEMENT-DRAFT.md). Existing manager identity, Suite7A, secretary boundaries, task payments, office systems and civilian combat remain canon. New home atmosphere, routines, interests, wardrobe, food and social depth are explicitly proposed, not implemented or published. No new form, romance gate, faction allegiance or pet is assumed.

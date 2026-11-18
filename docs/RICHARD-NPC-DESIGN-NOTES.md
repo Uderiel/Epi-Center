@@ -1,3 +1,7 @@
+## Owner-confirmed private-life refinement
+
+Richard Carter is currently single and is an outward-facing socialite: exploring city venues/clubs and eating out matter more than home cooking or hosting. A possible Research Center romance is deferred, with no partner established. See RICHARD-HOUSEHOLD-REFINEMENT-DRAFT.md for the developing household/routine proposal. These confirmations do not implement unavailable venues or invent completed outings.
+
 Canonical name update (v1.0.79): **Richard Carter**, manager of **Erin Lillard**. Save/NPC IDs, assignment and reward ledgers are unchanged.
 
 # Richard NPC design notes
