@@ -209,3 +209,5 @@ For customizable clothing, persist chosen category/style/fit/color and relevant 
 ## Random shop rewards with equipped attribute modifiers
 
 Bind randomized outcomes to real transaction/item identity and preserve them through inspection, equipment and reload. Keep per-player purchase caps independent of current form/owned count. Use the canonical attribute registry and actual effective-stat pipeline; equipped-only modifiers must not mutate base stats. Archetype-independent loot must not be tailored by narrative AI. Define duplicate/stacking/region/body compatibility and discount behavior separately. Cherished Touch Mystery Box is the approved design example:150base, max3purchases, one+1random attribute per wearable piece only while worn.
+
+Jewelry modifier stacking and physical equipment capacity are separate rules. Cherished Touch permits additive bonuses from valid worn pieces, with one bracelet per arm and one ring per hand. Validate per-side/type capacity rather than relying on a unique slot per item ID. Preserve base stats and remove modifiers when unequipped; stronger future loot must not alter the approved current box’s+1per-item range.

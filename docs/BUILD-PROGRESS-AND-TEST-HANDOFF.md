@@ -1,3 +1,7 @@
+## Jewelry stacking approved with per-side caps
+
+Owner allows same-attribute bonuses to stack across validly worn pieces. ONE bracelet per arm, ONE ring per hand (final spoken wording supersedes initial two-rings phrase). Mystery Box per-item roll remains+1only; stronger future jewelry deferred. Existing item-ID accessory slots do not enforce these caps; shared equipment integration is still needed. Necklace/anklet caps and full drop pool remain unresolved. Next: fitting/checkout/stock policies and remaining catalog choices. Design only.
+
 ## Mystery Box mechanics confirmed
 
 150goldbase; wearable jewelry (necklace/bracelet/anklet examples), each with+1to one randomly rolled attribute independent of archetype, active ONLY while worn. Maximum3purchases per player; preserve roll/item/purchase identity across reload/form changes. No permanent stat point or invented curse. Stacking, jewelry-type selection/distribution and equipment-region limits remain to refine. Next clarify same-attribute stacking across valid worn pieces, then checkout/stock policy. Design only.
