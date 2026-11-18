@@ -1,3 +1,5 @@
+Published and verified: v1.0.103, runtime `76c4942`;1,090automated cases and65local/65public browser groups pass. Public source bytes match. See [current status](CURRENT-STATUS.md) and [owner checklist](V1.0.103-OWNER-ACCEPTANCE.md).
+
 # Priya household actions — v1.0.103
 
 This release implements the owner-approved selection, distinct from Erin’s furniture, wardrobe and supplies. Shared room geometry, drawer frames, clock, body guards and grooming conventions are reused. Care records describe the same player body; Priya’s product ownership/application counters and food/wardrobe records remain separate from Erin’s inventory.
