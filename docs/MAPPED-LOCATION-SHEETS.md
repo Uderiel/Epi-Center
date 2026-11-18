@@ -37,3 +37,7 @@ Existing Form Repository deposit/retrieve controls and5-gold boutique dog snacks
 ## Next complete location work
 
 Choose one location at a time under master-plan Phase11. Build actual interior travel/access, authored NPC availability/communication, inventory/prices, timed services, resource/consent/consequence rules and a tested service/quest loop. Do not call this reference pass completed playable interiors. Resolve the Repository name/rarity ambiguity before locking those facts into gameplay.
+
+## Owner-confirmed weekend boutique opening
+
+Owner confirms Saturday and Sunday opening09:00–17:00, retaining Monday–Friday24-hour opening. This settles the previously unspecified weekend shop hours and supports feasible NPC pet check-in/pickup plans, including Nadia/Dart. Record this as the current design authority over the older unspecified-weekend reference and09–19shopping prototype. Overnight care for a previously checked-in animal is a separate service-coverage question: closing the storefront does not by itself end a paid stay, release a player, fabricate overnight staff or stop essential care. Boarding rest22:00–06:00 remains distinct from opening hours. Detailed staffed care/play/pickup coverage and transaction rules still require design/implementation. This checkpoint records the decision only; runtime/catalog/hour tests are not changed yet.

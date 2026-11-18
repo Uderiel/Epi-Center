@@ -1,3 +1,7 @@
+## Boutique weekend hours confirmed
+
+Branch `rebuild/1.0-foundations`; parent4a53fd2. Owner confirms Saturday/Sunday09:00–17:00, weekdays24hours unchanged. Saved as design authority in Nadia/Dart review and mapped-location notes; overnight boarding care/staffing remains distinct from storefront opening. Documentation only, no runtime or test changes/publication. Exact next action: settle boarding coverage/play/pickup design, then reconcile the location catalog and Priya shopping gates to the approved shared hours during implementation. Public106 unchanged.
+
 ## Nadia/Dart spoken refinements saved
 
 Branch `rebuild/1.0-foundations`; parent f971f96. Owner confirms elegant/upscale but restrained6E, inherited-money background, better TV/home marketing workstation, optional off-hours staff idea reviews and self-interested Countess sympathy without automatic evil alignment. Approves Dart behavior; requires dynamic AI-supported canine play/contact in actual boutique sublevel play area, including Kibbles, with player agency and validated physical actions. Recorded distinctions between barriers/real access, shop hours/staff/rest window and prototype09–19gate versus reference weekday24h/weekends unspecified. Documentation only, no runtime/test/publication changes. Exact next action: explain hours clearly in voice, continue design review and settle weekend/service coverage before implementing home/Dart/boutique slice. Public106 unchanged.
