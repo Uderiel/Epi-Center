@@ -1,3 +1,20 @@
+## Owner direction — practical enchanted effects rather than more attribute bonuses
+
+Owner wants the limited enchanted counter stock to emphasize practical effects, since Mystery Boxes already cover attribute bonuses. Confirmed example directions: an enchanted clothing item keeps worn clothing dry in rain/wet weather, and scent masking prevents detection of the wearer’s scent, useful against roaming dogs outside the outer loop. Effects should be helpful and bounded, not remove all danger. Do not reinterpret actual scent masking as an archetype/stat bonus or mere flavor text.
+
+Code inspection: kibbles-behavior.js and existing animal routines track scent memories/marks and canine reactions. No general working weather/wetness controller or roaming-pack scent-detection resolver was found in the scoped hub/combat JavaScript search. The owner’s roaming-pack threat is a world-design requirement, not evidence that that complete mechanic is already live. These proposed effects need actual shared mechanics/adapters before functional sale; do not display an effect as implemented merely because its item has descriptive text.
+
+First effect set for owner review (names/additional effects are proposals, not approved catalogue):
+
+| Proposed item | Practical effect | Deliberate boundary |
+| --- | --- | --- |
+| Dryweave jacket/cloak | While validly worn, keeps wearer’s clothing dry from ordinary rain/splashes | No armor, cold/heat immunity, underwater protection or automatic drying of unrelated stored gear |
+| Veiled-Scent scarf | Masks wearer’s body scent/fresh personal scent trail from scent-based detection while worn | Does not hide sight/sound, erase historical scent marks/trails or cancel an already visible confrontation; no automatic animal friendship/hostility |
+| Lantern brooch | Modest local illumination in a dark space | Visible to others; no seeing through walls, map/secret reveals or universal night vision |
+| Quietstep shoes | Dampens ordinary footstep/clattering-footwear noise | Does not mute speech, other actions or every movement sound; no invisibility or guaranteed stealth success |
+
+Weather/scent need mechanical support; lighting and sound/detection effects also require authored functional hooks, not invented existing checks. Keep all effects tied to actual worn state/body-compatible slots, removable when unequipped, with clear narration and no base attribute mutation. Preserve other sensory/encounter routes, world presence and hidden-location disclosure gates. Legacy umbrella remains owner-awarded only; do not repurpose it as public weather stock. Price, weekly quantities, exact product choices, effect scope and their interaction remain pending owner review. Existing enchanted one-per-transaction/rolling24-hour rule and Monday06:00deliveries apply to the eventual approved limited display; Mystery Box exemption unchanged.
+
 ## Owner-confirmed universal layered item navigation
 
 The drawer overlay pattern is a UNIVERSAL interface requirement for any item interaction with multiple layers, not a Cherished Touch/Tops-only feature. Reuse the existing shared drawer/navigation mechanisms and adapters for categories, containers, variants, nested storage and other multi-step item interactions. Avoid unrelated feature-specific modal systems or many simultaneously exposed input fields. One active layer, clear parent/Back, preserved selections and explicit final action apply across the game.

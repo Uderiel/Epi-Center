@@ -1,3 +1,7 @@
+## Practical enchanted display direction
+
+Owner prefers utility rather than additional stat boosts: clothing stays dry in rain and wearer scent is masked against scent-based animal detection. Additional review ideas: modest local-light brooch and footstep-dampening shoes. Names/effects beyond owner examples, prices and weekly quantities pending. Scoped code has scent memories/animal behavior but no complete weather/wetness or roaming-pack scent-detection system; functional effect adapters required before sale. No universal danger immunity/secret reveals. Next: review first effect set, then price/limited stock and exact hooks. Design only.
+
 ## Universal item drawer requirement confirmed
 
 Owner confirms layered item interactions across the game must reuse the shared drawer overlay system, not store-specific forms/many fields. One active layer, Back/parent and preserved choices. Tops example sufficient; no additional category sketch needed. Record in universal template and shop draft. Existing runtime compliance still requires implementation/audit; do not claim universal migration done. Next: continue Cherished Touch implementation planning/remaining transaction and limited-stock details using this contract.
