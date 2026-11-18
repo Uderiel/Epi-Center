@@ -1,3 +1,11 @@
+## Owner art review — follow-up after current release verification
+
+Owner accepts Nadia's apartment and Richard's suite image sets. Refine Priya's six images: too many Himalayan pink salt lamps; use them sparingly and vary lighting/decor while retaining calm neutral holistic character. Refine Erin's six images: current art looks too old/grandmotherly; make it a younger adult woman's contemporary, comfortable, modest apartment, preserving her books, practical desk, throw and authored belongings rather than adding inherited/luxury styling.
+
+Add **four separate hallway utility-closet illustrations**, one per residence. Show actual laundry machines and cleaning storage; Richard's suite utility cupboard also includes the maid-bot charging stand. These are fixture/detail views within existing halls, not new transit rooms or changes to room graphs. Existing hallway images show the broader entrance and do not substitute for utility interiors. Save accepted originals/revisions and record final selection; do not overwrite approved Richard/Nadia room art as part of this correction.
+
+Owner explicitly asks to do this after finishing the current implementation/release. Current verification:1266automated cases pass; final6browser suites/publication pending. Exact next action: finish v1.0.108 tested publication, then generate revised Priya/Erin art and four utility detail views. User does not want further attempted inline image display. Current public107until verified108promotion.
+
 ## v1.0.108 active candidate — owner testing corrections and Richard implementation
 
 Owner authorizes fixing Nadia/Dart post-sniff options, handling old lunch-overlap meetings, directed individual NPC-to-player relationship meters (including animals), and finishing Richard for the next tested publication. Approves interrupted-plan/late-night behavior and bot pausing new paid services when its100gold weekly fee cannot be paid. Published baseline stays107.
