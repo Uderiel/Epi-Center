@@ -1,3 +1,7 @@
+## Erin reading reminder mismatch — source diagnosis saved
+
+Branch `rebuild/1.0-foundations`; parent 7a522bc. Owner reports reading all short chapters but receiving another immediate generic reading desire. Manual/autonomous reading already saves lastReadAt; ordinary intention/preference generation does not consult it. Added completion-to-desire satisfaction requirement to Erin draft and universal template. No runtime fix or new tests yet. Public105 unchanged. Exact next action: continue owner review, then implement recent-reading acknowledgement and persisted reminder suppression with meaningful tests alongside agreed Erin refinements.
+
 ## Conversation continuity — owner decision saved
 
 Branch `rebuild/1.0-foundations`; parent e0b3777. Owner confirms a universal natural-departure rule for engaged NPCs/forms: acknowledge commitments, close the exchange before leaving, and permit actual routine delays. Recorded in universal template and Erin refinement. Documentation only; no new runtime/test/publication claim. Exact next action: continue Erin review with an illustrative scene, then implement agreed shared departure behavior after reconciling current scheduler. Public v1.0.105 unchanged.
