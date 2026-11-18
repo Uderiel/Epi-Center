@@ -1,3 +1,7 @@
+## Conversation continuity — owner decision saved
+
+Branch `rebuild/1.0-foundations`; parent e0b3777. Owner confirms a universal natural-departure rule for engaged NPCs/forms: acknowledge commitments, close the exchange before leaving, and permit actual routine delays. Recorded in universal template and Erin refinement. Documentation only; no new runtime/test/publication claim. Exact next action: continue Erin review with an illustrative scene, then implement agreed shared departure behavior after reconciling current scheduler. Public v1.0.105 unchanged.
+
 ## Erin refinement and reusable authoring template — design checkpoint
 
 Branch `rebuild/1.0-foundations`; parent `5ee54e6`. Owner selects Erin next and requires future broad-vibe briefs to produce complete NPC/form drafts. Added NPC-AND-FORM-DESIGN-TEMPLATE.md as the universal authoring checklist alongside the unchanged runtime living schema. Added ERIN-CHARACTER-REFINEMENT-DRAFT.md, preserving established Erin identity, body lifecycle, authority, household and work systems while proposing coherent voice, daily/social rhythm, reciprocal hosting and meaningful personal interactions. New details are proposals for review, not implemented or individually approved.
