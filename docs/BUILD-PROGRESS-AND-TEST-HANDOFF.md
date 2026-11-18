@@ -1,3 +1,7 @@
+## Mystery Box bulk-purchase exception confirmed
+
+Owner exempts boxes from enchanted cooldown/one-per-transaction limit: buy up to3in one checkout or across visits, then permanent3quantity cap. Charity has plenty.450goldfor3before discounts; each item has its own persistent random+1roll. Boxes do not consume/reset ordinary enchanted cooldown; deliveries/forms/reload do not reset box cap. Next: actual limited enchanted catalogue/weekly restock amounts and remaining service details. Design only.
+
 ## Enchanted cooldown approved
 
 Owner approves rolling24IN-GAMEhours between successful enchanted purchases per player, max1enchanted item per transaction. Persist across visits/forms/reload/midnight; Monday restock does not reset it. Ordinary goods unaffected; failed checkout/browsing does not consume it. Next clarify Mystery Box classification under this cooldown, then limited catalogue/weekly counts. Design only.
