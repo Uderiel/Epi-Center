@@ -35,3 +35,11 @@ Owner confirmed she has a separate home, planned for future apartments on the WE
 She may travel home after closing, but often neglects it or forgets where it is. She enjoys clubs, the casino, Fire and Ice, and Bimbos365, where she has her best social contacts. Some nights she stays out all night and forgets to sleep, then comes back to work and gets hyped up on the drinks she serves. These are habits/preferences, not proof of implemented venue interiors, named contacts, invitations or a real housing commute. Caffeine may provide stimulation but must not silently erase accrued fatigue or count as sleep.
 
 **Pinned follow-up:** resolve west-side residence, entrance/address, real commute, sleep/recovery and venue routing once those locations are established; revisit with deferred quest work. Do not invent offscreen quest completion or teleport her to an unspecified home. Next routine decision is normal shop opening/closing and preopening fresh baking, with fatigue/late-opening exceptions; exact times remain proposals.
+
+## Approved hours and Daily Needs recovery dependency
+
+Owner approved normal weekday opening08:00 and closing20:00, with fresh baking beforehand and occasional late openings following all-nighters. Exact preopening prep duration and weekend hours remain unresolved.
+
+Owner clarified that Daily Needs sells specific items that genuinely reduce fatigue. Tits sometimes stops there and buys/uses those items to remain functional after staying out, forgetting to go home or forgetting where she lives. This is separate from caffeine stimulation at her own counter. Do not impose a rule that fatigue can only recover through sleep; apply the actual Daily Needs item effects once designed. Do not invent product names, prices, recovery amounts, stock, automatic free items or completed purchases. Future integration must track her own funds, actual travel, purchase and consumption, rather than charge the player or treat dialogue as a transaction.
+
+Pin this cross-location dependency for the Daily Needs location pass alongside her future residence/commute. Shop drinks remain stimulation unless their actual item design separately specifies recovery. No runtime implementation or publication in this design checkpoint.

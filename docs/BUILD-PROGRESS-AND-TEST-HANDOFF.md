@@ -1,3 +1,7 @@
+## Burke hours approved; Daily Needs fatigue recovery added
+
+Owner approved weekday08:00–20:00, preopening fresh baking and occasional late openings after all-nighters. Tits also buys/uses specific fatigue-recovery items from Daily Needs when she misses sleep or cannot find/remember her home. These can genuinely reduce fatigue; do not equate them with mere caffeine stimulation or require sleep as the only recovery. Product details, prices, amounts and the real purchase/travel integration are deferred to the Daily Needs pass. Track her funds/items, not the player’s. Updated `docs/BURKES-SWEETS-DESIGN.md`; design only, public v1.0.111 unchanged.
+
 ## Burke’s Sweets design consolidated; Tits’s residence pinned
 
 Owner supplied the original diagram and approved physical tracked shop baskets, register checkout, served/inventory drinks, menu prices and exact BFBFF bracelet spelling/effect. Tits’s sincere literal-minded service personality and responses to rudeness, apology, compliments and direct flirting are confirmed. Consolidated source: `docs/BURKES-SWEETS-DESIGN.md`. This remains design, not implemented gameplay.
