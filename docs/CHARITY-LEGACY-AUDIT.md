@@ -10,6 +10,12 @@ Accepting the job commits the player to the entire six in-game-hour shift. There
 
 The player need not initiate conversation or manually seek customer interactions. When an actual customer interacts, the resulting response/behavior must be what Charity would naturally do, including when routine service is left to proceed. This requires context-sensitive role expression, not fixed keyword replies or arbitrary actions unrelated to her shopkeeper persona. The displayed outward speech and resulting mechanical actions should agree. Customer sales/stock, authorized choices and receipts must remain grounded in actual implemented shop state; role narration alone cannot mint goods, money or quest outcomes. No real customer simulation, mask filter or commitment enforcement is implemented by this design entry.
 
+## Owner approval — rolling24-hour enchanted purchase limit
+
+Owner approves ONE enchanted purchase per individual player every rolling24IN-GAMEhours, with at most one enchanted item per transaction. This replaces the preceding proposed/pending cooldown status. Preserve the last successful enchanted purchase timestamp across visits, room changes, midnight, form changes and save/reload. Browsing, fitting or failed/cancelled checkout does not spend the allowance. Ordinary clothing purchases remain unrestricted by this enchanted cooldown. A transaction may include ordinary goods alongside its one eligible enchanted item; do not reinterpret the limit as one total cart item. Monday06:00restocking does not reset the player’s cooldown.
+
+Still to confirm: whether Mystery Boxes count toward this shared enchanted purchase cooldown in addition to their maximum3purchases per player, and the finite enchanted catalogue/weekly counts. No runtime enforcement implemented yet.
+
 ## Owner-approved availability and Monday delivery schedule
 
 Everyday clothing (regular tops, shorts, jeans and other ordinary clothing) never sells out. When a player purchases a normal item, another replaces it automatically. This explicitly supersedes prior proposed finite ordinary-stock/delivery assumptions. Do not invent a normal-clothing shortage, backorder or material-cost gate. Preserve individually owned purchased variants and their atomic payment/receipt even though shelf availability is replenishing. Bundle once-per-player and other transaction limits are not reset by automatic shelf replacement.

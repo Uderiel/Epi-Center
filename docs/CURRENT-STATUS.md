@@ -1,3 +1,7 @@
+## Enchanted cooldown approved
+
+Owner approves rolling24IN-GAMEhours between successful enchanted purchases per player, max1enchanted item per transaction. Persist across visits/forms/reload/midnight; Monday restock does not reset it. Ordinary goods unaffected; failed checkout/browsing does not consume it. Next clarify Mystery Box classification under this cooldown, then limited catalogue/weekly counts. Design only.
+
 ## Cherished Touch availability and deliveries confirmed
 
 Ordinary clothing never sells out: purchased shelf item automatically replaced. Enchanted stock limited; one enchanted item per transaction plus persistent anti-reentry restriction. Deliveries everyMonday06:00in-game. Proposed rolling24in-game-hour enchanted cooldown NOT yet approved; exact limited-stock pool/counts and Mystery Box cooldown classification pending. Existing once-only bundle/max3box caps retained. Next: confirm cooldown, then enchanted stock/delivery details. Design only; live109unchanged.
