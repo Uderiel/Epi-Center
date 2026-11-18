@@ -1,12 +1,9 @@
-## v1.0.104 correction checkpoint — not published
+## v1.0.104 correction candidate — local checks passing, publication pending
 
-Branch: `rebuild/1.0-foundations`; parent `5ffff3c`. Runtime correction checkpoint follows this entry. Public remains v1.0.103 (`76c4942`).
+Branch `rebuild/1.0-foundations`; previous checkpoint `928d23c`; public v1.0.103. Runtime includes dialogue/presence/floors, meetings, social following, full flats text/activity feed, work checklist/source-backed reports, mastery/day-time tools, lunch guidance and non-graphic arousal events. Local verification: 1,100 named cases plus entity assertions across 61 suites, syntax/module paths and 77 isolated browser checks pass. Exact count is recorded in release JSON.
 
-Implemented but not yet release-verified: explicit dialogue intent routing, shared physical hearing/recipient boundary, Applewood floors and unknown door labels, normal home entry adapters and escort routing, meeting participant exchanges, full authored three-stage flats passage retained during AI enrichment, immediate footwear travel/activity updates, contextual AI narration queue and visible fallback failures.
+New upstream owner uploads found on main `efb2444`: exact worn/unworn flats JPEGs (1080px/300px). Next: merge these additive image commits, wire the approved assets, test state/reload switching, update handoff, rerun regression/public checks and publish. No image blocker remains after merge. Paid-model quality/private Worker deployment remain unverified; backend source bundle is prepared, Pages alone does not deploy it. Preserve all owner saves.
 
-Verification: first full regression run has six failing suites (AI fallback expectation, dropdown source assertions/harness dependency, scene invalidation expectation, generated worker bundle). No publication or passing claim. Remaining runtime work: office checklist and source-backed reports, dev mastery/day-time controls, lunch discoverability, arousal events, social expiry/initiative fixes, images and browser checks.
-
-Blocker: exact worn/unworn image bytes are not mounted; inline previews cannot be imported as original files. Exact next action: resolve regression failures and missing controls, add behavioural regression cases for owner reports, then run full suite/browser checks before promotion. Preserve existing saves and do not reset owner progress.
 
 ## Owner correction pass in progress — v1.0.104
 

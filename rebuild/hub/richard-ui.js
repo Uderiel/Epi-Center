@@ -50,7 +50,7 @@ async function submitRichardReport(){
   if(!R.reportAnswerIsBrief(answer))throw Error('Write a short answer in one or two sentences.');
   EpiErinLife.beforeAction(source,'physical action');
   let interpreted=false;
-  if(!current.section.matches(answer)&&!R.reviewReportAnswer(current.index,answer).conflicting&&source.settings?.aiEnabled&&connection.endpoint&&connection.code&&aiBusy<2){
+  if(!current.section.matches(answer)&&!(current.section.review?current.section.review(answer):R.reviewReportAnswer(current.index,answer)).conflicting&&source.settings?.aiEnabled&&connection.endpoint&&connection.code&&aiBusy<2){
    richardReportPending={task};
    aiBusy++;
    render();

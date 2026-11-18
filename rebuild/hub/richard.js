@@ -4,7 +4,7 @@
 const clamp=(v,a,b)=>Math.max(a,Math.min(b,Number(v)||0)),copy=x=>JSON.parse(JSON.stringify(x));
 // Implementation allocation: Mental-primary civilian. Earlier assistant values were provisional and Arousal-primary.
 const definition=Object.freeze({id:'richard',name:'Richard Carter',kind:'npc',classification:'civilian',role:'Sales and Marketing Manager',residence:'Applewood Apartments · Floor 7 · Suite A',appearance:'A younger, charming man with dark brown hair and hazel eyes, a lean athletic build and carefully kept professional clothes.',personality:'Ambitious and controlling, Richard values Erin’s competence and knows how much he relies on her. Stress makes him seek additional help; he regards thanks and extra pay as fair compensation.',attributes:Object.freeze({Endurance:4,Fitness:4,Intuition:5,Reflexes:4,Willpower:7,Reasoning:7,Stability:6,Presence:5,Insight:5,Influence:4}),max:Object.freeze({health:100,stamina:100,resolve:100,arousal:100})});
-let scheduleProvider=null;
+let scheduleProvider=null,reportSources=null;
 const BONUS=50,WORK_MINUTES=20;
 const REPORT_SECTIONS=Object.freeze([
  Object.freeze({
@@ -45,10 +45,12 @@ function canWorkAtDesk(save){
 function reportSection(save){
  const {task,work}=state(save);
  if(task?.status!=='working'||!work||!canWorkAtDesk(save)||work.form!==(save.activeForm||'baseline'))return null;
- const index=firstUnanswered(task),section=REPORT_SECTIONS[index];
+ const index=firstUnanswered(task);let section=REPORT_SECTIONS[index];
+ if(reportSources&&section){task.report||={answers:[],draft:''};if(!task.report.answers?.some(Boolean))task.report.sources||=reportSources(save);const source=task.report.sources;if(source){section={...section,recorded:true};if(index===0){section.facts=source.facts;section.prompt='Summarize the recorded shipped and pending figures, and the actual marketing campaign. Do not infer growth or returns without evidence.';section.matches=text=>reviewRecordedSummary(text,source).accepted;section.review=text=>reviewRecordedSummary(text,source);}else if(index===1)section.facts=source.facts+' Pending orders are not shipped revenue; cancelled orders are excluded.';else section.facts=source.facts+' Compare the same status and period before a briefing; no returns series is recorded.';}}
  if(!section||task.progress<section.minute)return null;
  return {index,section,draft:task.report?.draft||''};
 }
+function reviewRecordedSummary(text,source){const s=String(text).toLowerCase(),missing=[];if(!/shipped/.test(s)||!s.includes(String(source.shipped)))missing.push('include the recorded shipped figure');if(!/pending/.test(s)||!s.includes(String(source.pending)))missing.push('keep the pending figure separate');if(!/campaign|marketing|copy|audience/.test(s))missing.push('mention the actual marketing work');const conflicting=/\b(?:sales|revenue|returns)\b.{0,25}\b(?:rose|grew|doubled|steady|increased|fell|declined|dropped|soared|surged)\b/.test(s);if(conflicting)missing.push('avoid unsupported growth or returns claims');return {accepted:!missing.length,missing,conflicting};}
 function saveReportDraft(save,text){
  if(!reportSection(save))throw Error('Resume the report at Erin’s desk to edit this section.');
  const task=state(save).task;
@@ -64,7 +66,7 @@ function submitReportSection(save,index,interpreted=false){
  if(!current||current.index!==index)throw Error('That report section is no longer open.');
  const answer=current.draft.trim();
  if(!reportAnswerIsBrief(answer))throw Error('Write a short answer in one or two sentences.');
- const review=reviewReportAnswer(index,answer);if(review.conflicting||!review.accepted&&interpreted!==true)throw Error('Using the source notes, please '+review.missing.join('; ')+'. Your wording is welcome and your draft is saved.');
+ const review=current.section.review?current.section.review(answer):reviewReportAnswer(index,answer);if(review.conflicting||!review.accepted&&interpreted!==true)throw Error('Using the source notes, please '+review.missing.join('; ')+'. Your wording is welcome and your draft is saved.');
  const task=state(save).task;
  task.report||={answers:[],draft:''};
  task.report.answers[index]=answer;
@@ -148,5 +150,5 @@ function conversation(save,at=C.ensure(save).minutes){
  else return null;
  c.seen[id]=at;c.count++;c.lastAt=at;c.seen=Object.fromEntries(Object.entries(c.seen).slice(-60));return {id,topic,goal,text:seed};
 }
-return Object.freeze({setScene,setSchedule:fn=>scheduleProvider=fn,conversation,noteConversation,reviewReportAnswer,REPORT_SECTIONS,respondOffer,workStep,REPORT_DRAFT_LIMIT,reportSection,saveReportDraft,reportAnswerIsBrief,submitReportSection,definition,BONUS,WORK_MINUTES,state,present,relationship,calendar,goal,roomPath,worldPath,tick,act,beginWork,parse,worldIntent,taskText,combatant,aggression,applyCombat});
+return Object.freeze({setScene,setReportSources:fn=>reportSources=fn,setSchedule:fn=>scheduleProvider=fn,conversation,noteConversation,reviewReportAnswer,REPORT_SECTIONS,respondOffer,workStep,REPORT_DRAFT_LIMIT,reportSection,saveReportDraft,reportAnswerIsBrief,submitReportSection,definition,BONUS,WORK_MINUTES,state,present,relationship,calendar,goal,roomPath,worldPath,tick,act,beginWork,parse,worldIntent,taskText,combatant,aggression,applyCombat});
 });
