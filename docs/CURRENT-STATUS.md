@@ -1,3 +1,11 @@
+## Priya105 integration checkpoint — browser fixes in progress
+
+Branch `rebuild/1.0-foundations`; parentb6245cf; public104 unchanged. Daily controller now runs timed actual-room routines, pantry-backed meals/lunch/tea, private outfits, care, writing/TV, physical departures/returns, actual boutique trips/purchases and accepted guest refreshment preparation/handover.10daily-life and19cat-core targeted cases pass. Full automated run at the prior checkpoint passed1,132cases; one added retained-flats replay test has since passed separately. Existing78browser groups pass again after fixing irrelevant home-room state invalidating an office AI reply.
+
+Dedicated cat browser flow covers offered form, capabilities, physical/negative signals, opt-in touch/lifting, litter/food, safe route, mastery/reload, saved stay, collar/removal and actual30minute home date. New enabled-daily hosting flow caught walking-in-home knock rejection; repaired by walking to the doorstep before granting entry. Full dedicated browser rerun is active; no final release/browser pass claimed yet.
+
+Exact next action: finish dedicated hosting/inventory browser checks, add final capability/AI regression cases, rerun full suites and browsers, document prototype limits (advanced boutique control goods, unimplemented friend NPCs/private Worker) and publish only the tested105candidate. All owner saves remain untouched.
+
 ## Priya completion runtime checkpoint — unpublished work in progress
 
 Branch `rebuild/1.0-foundations`; parent2b45f4d. Implemented first candidate: real inventory servings and legacy migration; permanent mastered flats replay; cat form/ownership/mastery, repeat use, stay progression/reset, feline speech/capabilities and action parsing, actual contact offers, litter/food/water, safe cat route, collar belief/protest/removal, basic boutique transaction reducer and home-date reducer. Cat UI and room fixtures are wired; no release verification yet. Existing household/flats tests and19new cat-core cases pass. First full regression has one harness failure for the new serving UI dependency; do not claim the full suite passes.
