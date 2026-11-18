@@ -1,3 +1,9 @@
+## Priya completion package authorized — implementation starting
+
+Branch `rebuild/1.0-foundations`; parent `ff1d23f`; published game remainsv1.0.104/runtime1931b6c. Owner approves the consolidated daily-life/cat proposal for implementation and personalized testing, then publication after checks. Scope: Common cat form/mastery and six-day owned-cat default; actual stay/roaming; safe window/fire-escape; usable litter/food/care; optional present NPC interactions and authored sensory feedback; collar/recognition/protest/removal; real basic boutique purchases; actual date conclusion; permanent mastered-flats replay and usable snack/drink inventory. Advanced boutique control products still need their separate functional designs and are not silently activated.
+
+Exact next action: implement real consumable serving inventory and durable flats replay first, then shared cat/body/lifecycle and home/schedule integrations. Add behavioral tests and browser flows, preserve owner saves, run full regression and publish only the tested candidate. Do not report this approved draft as implemented. No new tests or runtime deployment yet.
+
 ## Cat expression and boutique design follow-up
 
 Branch `rebuild/1.0-foundations`; parent `a84aca0`; live runtime1931b6c unchanged. Owner confirms observable purring with or without asterisks, nearby NPC reaction, no cat human speech, persistent feline instincts with social-contact autonomy intact, and potential Pet Boutique shopping prompted by actual disruptive behaviour with collar pet-belief>=75. Recovered the actual boutique catalogue; only dog snacks are currently purchasable. Proposed cat-compatible goods, prices/funding and advanced catalogue effects remain review items, not newly active mechanics.
