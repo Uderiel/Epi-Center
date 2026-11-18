@@ -1,6 +1,6 @@
 ## v1.0.113 takeaway-cup regression fix
 
-Owner tested v1.0.112: 17/18 targeted scenarios and existing-content spot checks passed. Takeaway consumption at C incorrectly used the reusable-dish path. Disposable cups now remain carried both indoors and outdoors, persist on reload, offer Dispose, and vanish with particles narration. Disposal is single-use, grants nothing and leaves reusable dishes unchanged. Candidate verification in progress; direct URL and owner checklist in V1.0.113-OWNER-ACCEPTANCE.md.
+Owner tested v1.0.112: 17/18 targeted scenarios and existing-content spot checks passed. Takeaway consumption at C incorrectly used the reusable-dish path. Disposable cups now remain carried both indoors and outdoors, persist on reload, offer Dispose, and vanish with particles narration. Disposal is single-use, grants nothing and leaves reusable dishes unchanged. Published v1.0.113 verified: 1,379 automated cases across 82 suites; 282 local and 282 live browser checks passed. All 176 public files match runtime commit 39504694b39a99b22d22f8d7501b82b0a00496db. Pages deployment 44424103095 succeeded. Tests used isolated synthetic saves and no paid AI.; direct URL and owner checklist in V1.0.113-OWNER-ACCEPTANCE.md.
 
 ## v1.0.112 published and verified — Burke’s retail
 
