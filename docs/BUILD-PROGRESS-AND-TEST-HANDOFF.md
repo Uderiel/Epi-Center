@@ -1,3 +1,9 @@
+## v1.0.110 release in progress
+
+Cherished Touch retail is packaged for release: configurable ordinary clothing, once-only custom newcomer bundle, private fitting, owned items, Mystery Box jewelry and worn bonuses, finite enchanted display, Monday06:00 restocks, rolling24-hour cooldown, maximum-resource gear and bounded utility consumers. Existing First Steps remains visit-and-report with no purchase. Weather scheduling, roaming packs and Charity’s mask/household/Resistance systems are not newly implemented here.
+
+All1,340automated cases across79suites pass on the1.0.110 package. All245local browser checks also pass. Publishing and public file/browser verification are next. Public remains1.0.109 until the new deployment is verified. Checklist: `docs/V1.0.110-OWNER-ACCEPTANCE.md`, including the playable link. No owner save/reset or paid AI testing used.
+
 ## Enchanted display implemented — development verified, not published
 
 The seven approved products are purchasable from Charity’s real counter through the shared drawer/basket/checkout system. Dryweave jacket350gold/cap2, scent-masking scarf600/cap1, lantern brooch250/cap2, Quietstep shoes500/cap1, Vitality shirt500/cap1, Endurance pants500/cap1 and Steadfast hat500/cap1. Canonical prices, available funds, finite stock, single display item per checkout and per-original-player rolling24-hour cooldown are revalidated before payment. Failed/stale purchases do not consume stock, money, vouchers or cooldown. Mystery Boxes remain separately limited to3lifetime and exempt from display restrictions. Invalidated baskets remain removable in the UI rather than breaking rendering.
