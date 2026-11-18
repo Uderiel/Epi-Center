@@ -1,3 +1,7 @@
+## Shared activities development checkpoint
+
+First shared home adapter is implemented and locally verified, not published. See [implementation and limits](SHARED-ACTIVITIES-IMPLEMENTATION.md). Next: owner review and versioned release verification. Multiplayer remains deferred.
+
 ## v1.0.108 — published and publicly verified
 
 **[Play v1.0.108](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.108)**. Tested runtime `662f1344ba8c0b5b292fc1b5e7ffa6e442cb4500` is on `rebuild/1.0-foundations` and `main`. Passed **1,266 automated cases across 74 suites**, **192 local and 192 public browser checks** (78 legacy, 38 cat, 27 Erin, 21 Nadia, 18 Richard, 10 corrections) and **52 deployed-file comparisons**. [Pages deployment succeeded](https://github.com/Uderiel/Epi-Center/actions/runs/44341634943). One initial public navigation hit the old five-second harness timeout; thirty-second navigation allowance and rerun passed. All requested checks actually ran. No remaining release-verification failure.
