@@ -1,3 +1,9 @@
+## Cat expression and boutique design follow-up
+
+Branch `rebuild/1.0-foundations`; parent `a84aca0`; live runtime1931b6c unchanged. Owner confirms observable purring with or without asterisks, nearby NPC reaction, no cat human speech, persistent feline instincts with social-contact autonomy intact, and potential Pet Boutique shopping prompted by actual disruptive behaviour with collar pet-belief>=75. Recovered the actual boutique catalogue; only dog snacks are currently purchasable. Proposed cat-compatible goods, prices/funding and advanced catalogue effects remain review items, not newly active mechanics.
+
+Updated PRIYA-CAT-ROUTE-REVIEW-DRAFT.md specifies action/thought/negation distinctions, local hearing, real travel/transactions and purchase/use separation. No runtime edits, tests or publication in this design checkpoint. Exact next action: owner review of shopping scope and remaining cat defaults, then implement the approved completion package and test before publishing. Saved locally.
+
 ## Cat engagement approvals — design checkpoint
 
 Branch `rebuild/1.0-foundations`; parent `abddca2`; public remains v1.0.104/runtime1931b6c. Owner confirms Common mastery, roaming credit and safe window/fire-escape access. Adds a real usable apartment litter box; optional Priya and actual present guest/NPC interactions with the cat; prewritten sensory feedback; and player autonomy over accepting, avoiding and ending engagement. High Influence/instinct or collar belief must not stand in for interaction consent. No guest spawning, runtime implementation, new tests or publication in this documentation checkpoint.
