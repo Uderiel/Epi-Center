@@ -1,3 +1,7 @@
+## Charity coverage correction — full commitment and role filter
+
+Owner confirms six-hour in-game commitment once accepted, NO early leaving or handover (supersedes assistant proposal). Outward dialogue/behavior must be translated into Charity’s natural manner to maintain the substitution. Player need not initiate customer conversation; incoming customer interactions receive Charity-consistent responses, including routine operation. Private thoughts remain separate. Safe end-of-shift removal/return retained. Next: define mask/body/control/knowledge boundaries and shop task/customer model; no runtime implementation yet.
+
 ## Assist Charity permanent discount tiers confirmed
 
 Owner adds permanent25%after10successful shifts and35%after15. Permanent10%starts at3; tiers replace, not stack. One-time10%rewards remain on first2; hidden-location service milestone remains5; gold and relationship rules unchanged. Next: shift workflow/handover and shop catalogue/checkout policies. Design only.

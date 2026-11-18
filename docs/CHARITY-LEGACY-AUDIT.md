@@ -2,6 +2,14 @@
 
 Sources inspected: epi-center-v0.8.71-cherished-touch-foundation.html and epi-center-v0.8.84-attribute-foundation-corrections.html (CherishedTouch871 quests/charity/panel); docs/EPI-CENTER-CHANGELOG.md, October25Cherished Touch notes; docs/EPI-CENTER-PROJECT-HANDOFF.md; docs/Epi-Center-Character-Design-Gap-Audit.md CP013; docs/CHERISHED-TOUCH.md; current cherished-touch.js/UI, ai-context.js and interactCharity in index.html.
 
+## Owner-confirmed shift commitment and enforced Charity portrayal
+
+A player covering the counter must pass as Charity, not merely wear her face and voice. Outward dialogue and interactions must be filtered/translated into her natural speaking mannerisms and behavioral patterns so the in-world system does not detect the substitution. This is a fictional disguise/role requirement, not provider-policy bypass. Player wording cannot be emitted raw if it contradicts that portrayal. Private player thought remains distinct from outward expression; exact treatment of deliberately incompatible intent/knowledge is still to be designed, without inventing Charity’s private memories or revealing hidden lore through the mask.
+
+Accepting the job commits the player to the entire six in-game-hour shift. There is NO early departure, cancellation or replacement handover after acceptance; this explicitly overrides the assistant’s prior suggested early-handover option. Retain safe end-of-shift mask removal/return and no permanent entrapment. Explain the commitment and role constraints before acceptance. Save/reload must preserve the unfinished shift and its remaining time, with no duplicate rewards or early completion.
+
+The player need not initiate conversation or manually seek customer interactions. When an actual customer interacts, the resulting response/behavior must be what Charity would naturally do, including when routine service is left to proceed. This requires context-sensitive role expression, not fixed keyword replies or arbitrary actions unrelated to her shopkeeper persona. The displayed outward speech and resulting mechanical actions should agree. Customer sales/stock, authorized choices and receipts must remain grounded in actual implemented shop state; role narration alone cannot mint goods, money or quest outcomes. No real customer simulation, mask filter or commitment enforcement is implemented by this design entry.
+
 ## Owner-confirmed long-term discount milestones
 
 Successfully completed Assist Charity shifts grant the following per-player discount progression: completions1and2 each grant a one-time10%discount; completions3through9 unlock/retain permanent10%; completions10through14 unlock/retain permanent25%; completion15and later unlock/retain permanent35%. New permanent tiers REPLACE the previous percentage; do not add them together or compound them. No higher tier beyond35%is currently specified.

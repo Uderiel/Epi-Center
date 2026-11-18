@@ -1,3 +1,7 @@
+## Shift role and commitment — owner correction
+
+Once accepted, six-hour coverage cannot end early or be handed over. The player must pass as Charity through outward speech and behavior, with context-sensitive translation into her mannerisms. Customer initiation requires a Charity-consistent response even when the player does not initiate interactions. Safe return/removal remains at the actual end. Earlier early-handover suggestion is withdrawn. See CHARITY-LEGACY-AUDIT.md.
+
 ## Long-term discount rewards
 
 Permanent store discount:10%after3completed shifts,25%after10,35%after15. Each tier replaces the earlier rate. Initial two shifts retain one-time10%discounts. Gold schedule, +90relationship gate, +5clamped relationship reward and five-shift hidden-access milestone remain.

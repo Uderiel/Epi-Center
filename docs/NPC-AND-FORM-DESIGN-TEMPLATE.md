@@ -187,3 +187,7 @@ Keep actual awareness/resistance, the system’s recognition of it, freedom of a
 Charity disclosure example: relationship75+is eligibility for selective sensitive conversation, not automatic full disclosure. Consequence reminders differ from direct speech censorship. Record reminder audience, trigger, cooldown and actual authored consequence separately. Preserve distinct quest-trust and world-progression gates.
 
 For sensitive NPC disclosures, separately author relationship/world-progression eligibility, NPC willingness, safe location/audience, private pressure versus visible hesitation, and the particular fragment disclosed. Reaching a threshold is not automatic exposition. Private reminders must not become player knowledge through narration. Missing legacy source recovery is distinct from inventing new lore.
+
+## Authored role-constrained quest forms
+
+For a disguise/coverage form, specify outward appearance/voice AND expression/behavior requirements, private thought versus emitted speech, customer/NPC-initiated response handling, knowledge limits, accepted commitment duration and exact release conditions. Do not assume voluntary routine delegation’s immediate reclaim rules apply to a separately accepted committed quest. Charity coverage is owner-confirmed six-hour commitment with enforced Charity-consistent outward expression, no early handover and safe end-of-shift mask return/removal. Do not grant another character’s secrets or memories merely from outward impersonation.
