@@ -1,3 +1,9 @@
+## Owner-confirmed wardrobe and self-presentation
+
+Richard favors restrained colors across work and leisure. He believes professional attire gives him credibility, distinguishes him as management and makes him more appealing to the people he wants to reach. This is his belief and presentation strategy, not an automatic attraction, authority or relationship bonus. His off-duty style stays recognizably consistent with his professional one; nightlife does not imply bright colors or a radically different persona.
+
+Upscale semi-casual alternatives provide comfort and may be somewhat showier than workplace attire through fit, fabric and detailing while retaining the restrained palette. Exact colors/items are still proposed defaults. Build work and outing presets from a coherent shared wardrobe; include practical gym clothing, home comfort and sleepwear without assuming he exercises or sleeps in formal clothes. Keep clothing ownership, private changing, actual clean/dirty state and bot laundry. A visual status signal does not entitle him to access, compliance or another character's interest.
+
 ## Owner-confirmed maid bot duties and delegated service
 
 The bot independently handles routine cleaning, laundry and household supply management, offers guest refreshments, and prepares food for guests. It naturally defers to Richard's instructions. Purchases and new guest access to private rooms or work information require Richard's authorization; routine supply management does not imply unlimited purchasing power. Actual supplies, prices, owner funds, preparation time and completed housekeeping jobs must be recorded.

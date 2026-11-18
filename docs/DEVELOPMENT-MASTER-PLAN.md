@@ -1,3 +1,9 @@
+## Richard wardrobe identity confirmed
+
+Restrained colors across work/leisure; Richard sees professional attire as credibility, managerial status and personal appeal. Off-duty style remains consistent, with upscale semi-casual options for comfort or slightly showier detailing. These are character beliefs, not automatic social bonuses. Saved in Richard's draft/design; individual garment selections remain proposed.
+
+Branch `rebuild/1.0-foundations`; parent `56c27dc`. Documentation only; no runtime/test/release change. Exact next action: refine Richard's outing frequency and home wind-down, then consolidate the complete approved household scope for implementation. Current public: https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 .
+
 ## Richard maid bot duties and host-offer authorization confirmed
 
 Bot handles cleaning, laundry, routine supply management, guest refreshments and guest food prep with natural deference to Richard. Purchases/new private access require authorization. Richard's actual food/drink offer already authorizes fulfillment of a guest's matching selection; no duplicate approval prompt. Saved shared delegated-hospitality requirement, real stock/preparation and exactly-once handover boundaries in draft/design/template.
