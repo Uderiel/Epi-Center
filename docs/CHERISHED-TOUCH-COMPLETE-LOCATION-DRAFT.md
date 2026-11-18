@@ -1,3 +1,9 @@
+## Owner-confirmed organised stock and delivery-person care
+
+The stockroom should feel ORGANISED. The person who makes deliveries organises the stock because they feel bad for Charity. This establishes a compassionate practical connection and the reason the stock remains tidy despite her exhaustion. Keep shelves orderly, stock grouped clearly and fabric stored neatly. Couple the organisation work to actual deliveries (the agreed regular delivery is Monday06:00), with persistent delivery/organisation records when implemented; do not award restocking or invent completed work merely because the room was rendered.
+
+The delivery person is not yet a fully designed/implemented NPC: no name, gender, backstory, travel schedule beyond the delivery role, or hidden knowledge has been specified. Compassion does not imply knowledge of the Countess, Charity’s brother, spare-form secrets or the concealed guild entrance. Any stockroom access is work-purpose scoped; do not turn tidying into broad bedroom/valuables permission or reveal the entrance beneath fabric. Observable help is not automatic player access to the delivery person’s private thoughts. No gameplay change by this design note.
+
 ## Owner review — frontage approved; eight-minute shower required
 
 Owner accepts the proposed exterior/public sales-floor appearance (cream, oak, deep-green signage/awning treatment and organised public layout). Do not repeatedly ask for approval of that same exterior/Hdirection. Other new household details remain review proposals unless separately confirmed.
@@ -42,7 +48,7 @@ Proposed authorization model: an actual purpose-limited invitation from present 
 
 ### F — stock, spare skinsuits and concealed route
 
-Separate normal folded clothing/skirts, fabric bolts and authorised enchanted back stock. Propose opaque protected cabinets/containers for Charity’s spare skinsuits, with ownership and individual form definitions required before any item can be offered/equipped. Access to stock is not ownership; do not turn inspection into a free form grant or invent new transformation mechanics/prices.
+Keep normal folded clothing/skirts, fabric bolts and authorised enchanted back stock clearly organised. The delivery person organises it out of sympathy for Charity (owner-confirmed), so her exhaustion does not make it a neglected stockroom. Propose opaque protected cabinets/containers for Charity’s spare skinsuits, with ownership and individual form definitions required before any item can be offered/equipped. Access to stock is not ownership; do not turn inspection into a free form grant or invent new transformation mechanics/prices.
 
 The route beneath heavy fabric can ONLY be revealed by Charity. Keep the concealed guild/Underworld route separate from the hallway’s north emergency exit. Five actual completed coverage shifts satisfy the agreed service milestone; relationship, world progression and Charity’s actual private invitation remain relevant. Do not invent a fully playable underground guild, new residents, guaranteed destination rewards or a reveal from generic search/AI. Guild interior/lore remains a separate location design dependency, with no extra source-confirmed layout available from this sheet.
 

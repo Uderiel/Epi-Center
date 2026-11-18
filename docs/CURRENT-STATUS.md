@@ -1,3 +1,7 @@
+## Organised stock — delivery-person support confirmed
+
+Owner: stock remains organised because the delivery person tidies it out of sympathy for Charity. Preserve as genuine practical support, with no invented helper name/backstory/secret knowledge. Link actual organisation to delivery records when implemented; no inspection-based restock or secret reveal. Household/location draft updated; no new runtime change. Next continue genuinely new location/household/access refinements, without repeating approved frontage/shower/stock decisions.
+
 ## Charity review correction — eight-minute shower
 
 Owner approves exterior/public-floor direction, and requires a shower-head attachment on the existing tub plus an8-IN-GAME-MINUTE normal shower for Charity. No default25-minute bath. Household runtime remains pending; this is a confirmed design requirement. Avoid repeating prior whole-house summaries or reopening approved frontage questions. Next review only genuinely new private-room/access details while continuing agreed shop implementation.
