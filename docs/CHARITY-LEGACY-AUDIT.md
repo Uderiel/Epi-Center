@@ -2,6 +2,12 @@
 
 Sources inspected: epi-center-v0.8.71-cherished-touch-foundation.html and epi-center-v0.8.84-attribute-foundation-corrections.html (CherishedTouch871 quests/charity/panel); docs/EPI-CENTER-CHANGELOG.md, October25Cherished Touch notes; docs/EPI-CENTER-PROJECT-HANDOFF.md; docs/Epi-Center-Character-Design-Gap-Audit.md CP013; docs/CHERISHED-TOUCH.md; current cherished-touch.js/UI, ai-context.js and interactCharity in index.html.
 
+## Owner-confirmed post-fifth pay and relationship rewards
+
+After the fifth successful shift, payment rises to500gold for subsequent successful completions. Current schedule:250,300,350,400,450,then500on the sixth and later; do not extrapolate above500. Every successful Assist Charity completion also awards+5to Charity’s individual relationship with that player, clamped to the shared−100to+100scale and applied exactly once for that completion. No relationship bonus for merely accepting/equipping the mask, elapsed partial coverage, rendering, reload or repeated reward clicks.
+
+First two completions retain the one-time10%discount reward; from third onward the permanent10%discount remains active rather than adding another10%each time. Fifth completion meets the service milestone for hidden-location eligibility, with separate authored access/disclosure conditions. No form-mastery points. Trust90eligibility remains distinct from the+5relationship reward; do not silently turn relationship gains into a separate trust grant. Shift/customer workflow, early termination and unused one-time discount policy remain to be refined.
+
 ## Owner-confirmed reward schedule — supersedes proposed values
 
 | Successful completed shift | Gold reward | Store discount | Hidden-location service milestone |

@@ -1,3 +1,7 @@
+## Repeat completion rewards
+
+Owner sets500gold after the fifth completion (sixth and later), plus+5individual Charity relationship on every successful completion, capped by the shared relationship scale. Permanent10%discount remains noncompounding. No form-mastery reward.
+
 ## Confirmed Assist Charity rewards
 
 Per-player completed shifts1–5pay250,300,350,400,450gold. One-time10%discount on shifts1and2; permanent10%fromshift3. Five completed shifts for hidden-location service eligibility, alongside other authored gates. See CHARITY-LEGACY-AUDIT.md; older proposed reward values below are superseded.
