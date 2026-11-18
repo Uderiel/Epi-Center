@@ -1,3 +1,24 @@
+## Visual review of owner-reuploaded drawing — November18,2026
+
+The original hand-drawn Cherished Touch sheet has now been visually reviewed in the conversation, rather than relying solely on its prior transcription. It includes an upper-left pathing diagram, a lower-left furnished floor plan, A–J legend, open-entry/doorway symbols, storefront sketch and written room briefs. The supplied image itself is present in chat; do not falsely claim a new local/repository image copy was saved.
+
+Comparison against current cherished-touch.js: the saved graph appears consistent with the drawing. Retain public entrance/sales floorH, counterC, four separate stallsI1–I4on the sales-floor right, central hallwayG, bedroomAwith bathroomB/closet-laundryJ, and kitchenDconnected to diningE, plus storageF. The furnished lower drawing supplements the simplified upper pathing. Do not add bathroom/laundry shortcuts, merge fitting stalls or replace the plan with an apartment shell. No layout rewrite is justified by this visual comparison.
+
+Confirmed fixture/character details to preserve:
+- A: queen bed, dresser, makeup vanity, small closet/nightstand; lived-in home because Charity is mostly barred from leaving the shop.
+- B: full-size tub, toilet, sink, towel/toiletry cabinet and hamper; clean/cozy with candles/nice soaps.
+- C: long oak register counter, valuable items behind it, enhanced/enchanted apparel and jewelry displayed behind register; Charity enjoys providing service; special full basic outfit for new players.
+- D: stocked kitchen with stove/oven, fridge, sink, dishwasher and pantry for quick snacks/hearty meals.
+- E: clean, underused dining space, solid oak table/four chairs/settings, TV on wall near hall; she rarely has company.
+- F: spare clothing/skirts, bolts of cloth and useful enchanted stock; drawing explicitly says the concealed Resistance Guild/Underworld entrance beneath heavy fabric CAN ONLY BE REVEALED BY CHARITY.
+- G: photos of earlier Epi-Center iterations/locations and hidden north emergency escape to the alley. This emergency route is distinct from the concealed guild entrance.
+- H: racks of jeans, shorts, shirts, socks and basic shoes; actual front entrance.
+- I: private modest changing stalls; J: compact closet/laundry off the bedroom shown in furnished plan/legend.
+
+Implementation gap assessment: navigation, public/private baseline permission, fixture examination, individual curtains and toilet exist. Most fixture functions, personal food/care/wardrobe/laundry, real fitting/checkout/cart/payment/discounts, configurable catalogue, worn attribute modifiers/slot limits, limited enchantment deliveries, Charity’s ongoing routine/personality/knowledge gates and mask coverage/mastery quests still need implementation. Price/customization/reward rules refined in this audit supersede obsolete baseline “no price posted” text when the new shop build is implemented.
+
+Next work must stay focused on Cherished Touch: build approved shop services through this layout; flesh out Charity’s existing household with the shared NPC/activity/storage patterns; implement the already-designed coverage/reward/secret progression as separate tested stages. No player residence pivot. Remaining design choices include actual limited enchanted catalogue/counts, jewelry drop-type/neck-ankle slot details, checkout rounding and one-time-discount use, and twentieth-trial mastery parameters/trigger integration. No new gameplay or source image file created by this visual audit.
+
 # Cherished Touch interior contract — v1.0.73
 
 Source: owner drawing 4372.jpg, upper-left pathing and lower-left fixtures. World tile62 remains unchanged. State is world.cherishedTouch; old saves default to the exterior, with no reset or gifts. The sales-floor front door enters/exits for1 minute. Every physical doorway step costs1 minute through the existing navigation runtime. Viewing a room/fixture/map is free; examination1 minute; asking permission2; hallway search2; toilet4; curtain operation1. Existing body capabilities, combat restrictions and unmastered control contests apply. UI actions, typed navigation, map routing and direct module calls share the same rules.

@@ -1,3 +1,7 @@
+## Original Cherished Touch drawing visually reviewed
+
+Owner reuploaded the drawing; visual comparison now completed. Current A–Jgraph appears consistent, including four stalls, bedroom-only bath/laundry, kitchen-dining link and distinct emergency/guild routes. See CHERISHED-TOUCH.md for room/fixture audit. The gap is functional shop/household/Charity/quest implementation, not an invented new layout. Original image visible in chat; no local image copy claimed. Next: finish remaining limited-enchantment/checkout/trial parameters and stage the approved shop build using this plan. Stay with Cherished Touch; personal residence remains future. No gameplay change.
+
 ## Mystery Box bulk-purchase exception confirmed
 
 Owner exempts boxes from enchanted cooldown/one-per-transaction limit: buy up to3in one checkout or across visits, then permanent3quantity cap. Charity has plenty.450goldfor3before discounts; each item has its own persistent random+1roll. Boxes do not consume/reset ordinary enchanted cooldown; deliveries/forms/reload do not reset box cap. Next: actual limited enchanted catalogue/weekly restock amounts and remaining service details. Design only.
