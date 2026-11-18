@@ -34,7 +34,8 @@ const objects={
  'shoe-shelf':object('Shoe shelves','Low shelves leave a clear standing area beside the footwear. The retained original flats stay at their recorded location.'),
  'closet-bench':object('Padded closet bench','A small padded bench faces the clear standing area in this walk-in closet.')
 };
-const roots={living:['sectional','ottomans','television','coffee-table','bookcase','writing-desk','lighting','yoga'],hall:['console','wellness-charts','hall-closet'],kitchen:['dining','cabinets','tea'],bedroom:['bed','dresser'],bath:['shower','basin','bath-storage'],closet:['outfits','shoe-shelf','closet-bench']};
+objects['litter-box']=object('Cat litter box','A real litter tray with a paw mat stands in a quiet bathroom corner.');objects['cat-bowls']=object('Cat food & water bowls','Separate cat-food and water bowls rest on a washable kitchen mat.');objects['cat-rest']=object('Cat resting & play area','A soft neutral resting pad and scratch/play area stand beside the sectional.');objects['cat-window']=object('Cat window & fire escape','An openable window leads onto a protected landing and connected fire-escape stairs to ground level.');
+const roots={living:['sectional','ottomans','television','coffee-table','bookcase','writing-desk','lighting','yoga','cat-rest','cat-window'],hall:['console','wellness-charts','hall-closet'],kitchen:['dining','cabinets','tea','cat-bowls'],bedroom:['bed','dresser'],bath:['shower','basin','bath-storage','litter-box'],closet:['outfits','shoe-shelf','closet-bench']};
 function guard(s){if(!H.inside(s)||s.encounter?.active||s.world?.priyaFlats?.active)throw Error('Use these drawers while present in Priya’s apartment outside an encounter.');}
 function state(s){const h=H.state(s);let u=h.navigation;if(!u||u.room!==h.room||!Array.isArray(u.layers)||!u.layers.length)u=h.navigation={room:h.room,layers:[A.frames.frame(h.room,'room','',H.rooms[h.room].name)]};return u;}
 function current(s){return state(s).layers.at(-1);}

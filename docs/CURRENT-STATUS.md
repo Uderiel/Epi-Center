@@ -1,3 +1,9 @@
+## Priya completion runtime checkpoint — unpublished work in progress
+
+Branch `rebuild/1.0-foundations`; parent2b45f4d. Implemented first candidate: real inventory servings and legacy migration; permanent mastered flats replay; cat form/ownership/mastery, repeat use, stay progression/reset, feline speech/capabilities and action parsing, actual contact offers, litter/food/water, safe cat route, collar belief/protest/removal, basic boutique transaction reducer and home-date reducer. Cat UI and room fixtures are wired; no release verification yet. Existing household/flats tests and19new cat-core cases pass. First full regression has one harness failure for the new serving UI dependency; do not claim the full suite passes.
+
+Still required: physical Priya daily-routine/host/outing/shopping integration, cat resource/AI/combat capability review, browser tests for actual controls/saves, full regression repairs, version105 release/handoff and public verification. Current public game is v1.0.104/runtime1931b6c; no candidate runtime has been promoted to main. Exact next action: implement the daily controller, then test the complete route through the browser rather than relying on pure reducers.
+
 ## Priya completion package authorized — implementation starting
 
 Branch `rebuild/1.0-foundations`; parent `ff1d23f`; published game remainsv1.0.104/runtime1931b6c. Owner approves the consolidated daily-life/cat proposal for implementation and personalized testing, then publication after checks. Scope: Common cat form/mastery and six-day owned-cat default; actual stay/roaming; safe window/fire-escape; usable litter/food/care; optional present NPC interactions and authored sensory feedback; collar/recognition/protest/removal; real basic boutique purchases; actual date conclusion; permanent mastered-flats replay and usable snack/drink inventory. Advanced boutique control products still need their separate functional designs and are not silently activated.
