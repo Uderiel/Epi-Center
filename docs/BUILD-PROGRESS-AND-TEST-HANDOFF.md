@@ -1,3 +1,7 @@
+## Tits familiarity/memory confirmed
+
+She can recognize regular faces and invent silly appearance-based nicknames, particularly for people she likes. She remembers distinctive treat customization, exceptionally complicated/simple orders, or customers especially patient/forgiving about mistakes. Use actual salient encounter/order records, not perfect recall or invented preferences. Preserve separation of underlying player relationship and visible recognition across forms. Recorded in BURKES-SWEETS-DESIGN.md; design only, public v1.0.111 unchanged. Next service draft: queue attention, interruptions, preparation/correction and closure using the established template.
+
 ## Portraits accepted; Tits wardrobe/grooming confirmed
 
 Owner approved the latest individualized Charity/Tits portraits. Tits’s shop outfit stays close to her accepted pink glitter dress/apron portrait, overriding the proposed separate top/skirt. Shop/going-out/casual categories otherwise accepted; ALL outfits pink/white and glittery/sparkly/flashy, including casual. Plentiful moisturizers/skincare, shaving (possible waxing), hair treatments/facials, intensely sweet candy-scented fragrances/oils/lotions confirmed. Home storage/schedule remain deferred; no invented Burke bathroom/spa. Details in BURKES-SWEETS-DESIGN.md and CHARACTER-ART-REVIEW.md. Next character block: familiarity/memory/relationships and personal-work boundaries, then full service routine. No new gameplay deployment; public v1.0.111 unchanged.
