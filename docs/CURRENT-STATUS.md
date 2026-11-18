@@ -1,3 +1,7 @@
+## Assist Charity correction — five shifts
+
+Owner confirms five successful completed shifts before the hidden-location service requirement is met. Replaces proposed three;250gold and10%discount remain proposals. Other trust/privacy/mask rules unchanged. Design only.
+
 ## Assist Charity quest rewards confirmed
 
 Owner confirms gold plus future-purchase store discount, no form-mastery points, and several completed shifts before access to one hidden location beneath shop. Exact reward/discount/shift count pending. Review proposal only:250gold per six-hour completion,10%persistent noncompounding discount, three successful completions toward a private invitation. Keep trust90and existing privacy/cylinder conditions separate. Next discuss these proposed values and reliable completion/handover. No gameplay changes.

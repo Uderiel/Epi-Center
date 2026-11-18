@@ -2,6 +2,10 @@
 
 Sources inspected: epi-center-v0.8.71-cherished-touch-foundation.html and epi-center-v0.8.84-attribute-foundation-corrections.html (CherishedTouch871 quests/charity/panel); docs/EPI-CENTER-CHANGELOG.md, October25Cherished Touch notes; docs/EPI-CENTER-PROJECT-HANDOFF.md; docs/Epi-Center-Character-Design-Gap-Audit.md CP013; docs/CHERISHED-TOUCH.md; current cherished-touch.js/UI, ai-context.js and interactCharity in index.html.
 
+## Owner correction — five completed shifts
+
+Owner sets the hidden-location service requirement to FIVE successfully completed Assist Charity shifts, replacing the proposed three. This confirms the shift count only.250gold per shift and10%persistent noncompounding discount remain proposed, not approved. Preserve trust90, six-hour coverage, safe mask return, no form-mastery reward and other disclosure/location/progression conditions. Five completions qualify the service requirement; they do not teleport the player or reveal every hidden area.
+
 ## Owner refinement — Assist Charity quest rewards and repeated service
 
 Successful coverage is a quest completion. Owner specifies gold payment and a discount on future products bought from Cherished Touch, with no form-mastery points awarded for completing the quest. These rewards belong to the individual completing player. Several successful completions are required before access to one hidden location beneath the shop becomes available. Do not equate one completed shift, elapsed partial time, mask ownership or a relationship threshold with immediate hidden access. Preserve prior relationship/trust/privacy/world-progression conditions; exact hidden destination/threshold and whether a private invitation precedes access remain to be authored.
