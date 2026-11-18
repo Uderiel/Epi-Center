@@ -1,3 +1,11 @@
+## Owner-confirmed evenings, guest access and updated-report review
+
+Owner accepts two or three weekday outings, a longer Friday or Saturday night, and quieter evenings between. Richard changes at home when appropriate and travels physically to available venues. Home leisure can include exercise, balcony time, television and brief work review. A normal invitation permits the living room, bar, balcony and guest bathroom. The guest bedroom requires an overnight invitation; master bedroom, master bathroom and work information require separate explicit permission.
+
+Before bed he may check sales and marketing reports **if any have been updated**. Review must use actual recorded report versions/timestamps and sources; no invented new figures, duplicate nightly completion or compulsory review of unchanged content. Nadia and Erin are the colleagues most likely to be doing relevant updates and the people he is most likely to contact about additions to Monday's schedule during weekend correspondence. This does not eliminate Daniel's established sales-lead responsibilities or falsely attribute a sales record to another character.
+
+Weekend messages are real saved correspondence and may propose an addendum for Monday. Sending is not acceptance, completed unpaid work, instant availability or a booked appointment. Scheduling follows the shared Scheduler/calendar, actual availability and existing approval/booking rules. Separate report content, Richard's review, his requested addition, recipient reply and final calendar update. Confidential work stays out of guest/bot conversation and publicly visible shared screens unless explicitly authorized. The bot must not initiate report discussion on its own.
+
 ## Owner-confirmed bot discretion, initiative and confidentiality — supersedes earlier offers
 
 The bot does not initiate social conversation with Richard or guests. Richard must request social engagement; dry humor belongs within an authorized exchange, not unsolicited commentary. The stated exception for approaching him is requesting financial permission when a household action needs spending. Routine authorized housekeeping continues independently, without unsolicited social chatter.

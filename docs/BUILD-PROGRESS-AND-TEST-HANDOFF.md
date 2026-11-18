@@ -1,3 +1,9 @@
+## Richard evening rhythm, guest access and weekend report correspondence confirmed
+
+Owner approves proposed outing rhythm and guest-access split. Before bed Richard may review actually updated sales/marketing reports. Nadia and Erin are his most likely weekend contacts for proposed Monday schedule additions. Preserve actual report sources, Daniel's sales role, saved correspondence and Scheduler booking; a message is not accepted extra work or an automatically booked appointment. Added to draft/design.
+
+Branch `rebuild/1.0-foundations`; parent `e1b6b64`. Documentation only; no runtime/tests/release change. Exact next action: consolidate Richard's approved suite, routine, wardrobe, bot and correspondence into implementation scope; use actual available venues and distinguish deferred location services. Public remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 .
+
 ## Richard bot confidentiality and restricted initiative confirmed
 
 Bot socializes only at Richard's request and does not independently offer guest services. It may seek financial permission; routine authorized housekeeping continues. Richard's existing guest offer authorizes matching fulfillment without another approval. Private-area permission must come explicitly from Richard. Work information, overheard conversations and witnessed work remain confidential; public/guest AI contexts must not leak them. Updated earlier contradictory offer wording in both draft and design notes, plus shared template.

@@ -1,3 +1,7 @@
+## Conditional report reviews and future schedule correspondence
+
+NPC review should react to actual updated report versions, not replay unchanged inbox tasks every evening. Separate observing a report, sending a proposed schedule change, recipient response and actual Scheduler booking. Weekend correspondence does not imply immediate work, consent or availability. Preserve authorship and real department sources; keep private report content out of unrelated guest/assistant dialogue. Richard's pre-bed update checks and weekend Monday-addendum messages are the confirmed reference.
+
 ## Household assistant initiative and confidential observations
 
 Author social initiative, guest-offer authority, financial authority, private-area access and information disclosure separately. Richard's confirmed bot does not initiate socializing or guest offers; he requests social engagement, explicitly authorizes offers/access and approves spending. His prior host offer authorizes matching service without duplicate approval. Overheard conversation and witnessed work are confidential; filter recipient-specific prompts and descriptions before AI generation, not merely with a prose instruction afterward. Requested conversation or hospitality never automatically grants private information or room access. Retain each character's explicit policy rather than generalizing these strict preferences to all bots.
