@@ -1,3 +1,7 @@
+## Burke customer route drafted without prep-room shortcut
+
+Continue working independently; owner need not supply more general retail decisions. Proposed public flow: entrance/basket A↔bakery B; customer approaches C’s public-facing register position from sales floor, without stepping behind the counter. B↔D↔C staff circulation remains restricted; ordinary checkout never enters D. This is a service-position interpretation, not a newly approved door/new room or exact implemented graph. Concrete proposal recorded in BURKES-SWEETS-DESIGN.md, with any remaining physical counter-boundary ambiguity labelled. Next: fixture/action/permission inventory, then public-navigation implementation. Public v1.0.111 unchanged.
+
 ## Burke courier’s authorized shop key confirmed
 
 Tits readily gave the shared courier a key when asked, after their frustration with her forgotten/excess/insufficient orders. They can admit themselves for21:30stocktaking and06:00delivery without her presence. Resolves after-hours access; do not ask again whether they have permission/key. No player duplicate or unrestricted property access inferred. Recorded in BURKES-SWEETS-DESIGN.md; no public gameplay change.

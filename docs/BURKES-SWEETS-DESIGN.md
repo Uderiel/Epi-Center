@@ -142,3 +142,14 @@ This supersedes the earlier unspecified Burke delivery/stocktaking timing. The d
 The courier asked Tits for a shop key after becoming frustrated with her forgetting orders, over-ordering or under-ordering. She gave it without hesitation. They possess the key and can enter independently for the21:30inventory check and06:00delivery; Tits need not remain late or arrive early to admit them. This resolves the prior general after-hours access dependency.
 
 Keep the key’s custody with this actual courier and its authorization tied to shop inventory/delivery work. No player key, duplicate keys, transfer, master key, secret-room access or broader property permission is established. Exact entry door/key hardware and future courier/map routing can follow the implemented location plan without reopening the approved permission itself. This is confirmed design/backstory, not evidence of a spawned courier or functioning delivery system.
+
+## Public route / register frontage — proposed interpretation for implementation
+
+Owner asked whether work is proceeding or further help is needed. Continue independently with this concrete route proposal; do not require another retail design questionnaire. This is a proposed interpretation of the supplied plan and approved browse-A/B/pay-C intent, not a newly approved wall opening or implemented room graph.
+
+- Enter through A and pick up a real tracked shop basket. Public browsing connects A(candy)↔B(bakery).
+- C has a CUSTOMER-FACING register/service position approached from the public sales floor beside A. Approach/pay at that frontage; this does not place the customer behind the register or give entry to the staff work area. Treat approaching the counter as a position/fixture transition, not as inventing a new door between separately enclosed rooms.
+- The drawn B↔D↔C connections cover staff/preparation circulation; D remains restricted to Tits/the authorized courier unless a specific actual invitation is granted. Never route ordinary checkout through D.
+- Checkout transfers only paid goods/servings to inventory; the emptied shop basket is still a physical item to return. Public exit returns through A. No new room, rear exit, hidden route, extra exterior entrance or direct B↔C doorway is added by this proposal.
+
+The earlier schematic adjacency list A↔B↔D↔C is insufficient by itself to define the customer-side register approach; retain that distinction rather than claiming customers must enter storage. If visual implementation reveals the counter boundary cannot support this interpretation, flag that exact geometric point instead of silently altering the drawing. Next concrete work is a fixture/action/permission inventory and this bounded public-navigation slice; no Burke implementation or new release is claimed yet.
