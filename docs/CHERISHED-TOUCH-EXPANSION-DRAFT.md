@@ -1,3 +1,14 @@
+## Owner-approved initial enchanted selection and resource clothing
+
+Owner approves the proposed first four practical pieces/effect boundaries: Dryweave jacket, scent-masking scarf, Lantern brooch and Quietstep shoes. They are approved designs, not yet working runtime items; necessary weather/scent/light/sound hooks remain implementation dependencies. Keep their worn-state conditions, existing enchanted purchase limits and Monday deliveries.
+
+Owner adds three enchanted clothing pieces:
+- Shirt: +10Health.
+- Pants: +10Stamina.
+- Hat: +10Resolve.
+
+These are resource-pool bonuses, not extra random attribute bonuses, and are separate from the Mystery Box’s random+1attribute. Exact product names, prices and weekly stock quantities remain to define. Clarification needed before implementation: whether+10raises the maximum/current resource pool while worn or provides some other effect. Recommended review interpretation: +10MAXIMUM of the named pool while actually worn, filled through normal recovery; no automatic refill from equipping. Removing it recomputes the maximum and clamps any excess current resource without mutating permanent base pools. Do not mark this recommended interpretation approved until the owner responds. No health/stamina/resolve item runtime change in this record.
+
 ## Owner direction — practical enchanted effects rather than more attribute bonuses
 
 Owner wants the limited enchanted counter stock to emphasize practical effects, since Mystery Boxes already cover attribute bonuses. Confirmed example directions: an enchanted clothing item keeps worn clothing dry in rain/wet weather, and scent masking prevents detection of the wearer’s scent, useful against roaming dogs outside the outer loop. Effects should be helpful and bounded, not remove all danger. Do not reinterpret actual scent masking as an archetype/stat bonus or mere flavor text.

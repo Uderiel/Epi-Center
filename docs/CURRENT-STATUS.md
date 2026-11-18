@@ -1,3 +1,7 @@
+## First enchanted set approved; resource pieces added
+
+Owner approves Dryweave jacket, scent scarf, Lantern brooch and Quietstep shoes; adds shirt+10Health, pants+10Stamina, hat+10Resolve. Pool/max/current semantics unresolved; proposed maximum-only while worn with normal recovery/no equip refill requires clarification. Prices/weekly quantities remain open. Designs only; functional effects not yet implemented. Next clarify resource effect then propose coherent prices and Monday stock for seven items.
+
 ## Practical enchanted display direction
 
 Owner prefers utility rather than additional stat boosts: clothing stays dry in rain and wearer scent is masked against scent-based animal detection. Additional review ideas: modest local-light brooch and footstep-dampening shoes. Names/effects beyond owner examples, prices and weekly quantities pending. Scoped code has scent memories/animal behavior but no complete weather/wetness or roaming-pack scent-detection system; functional effect adapters required before sale. No universal danger immunity/secret reveals. Next: review first effect set, then price/limited stock and exact hooks. Design only.
