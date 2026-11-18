@@ -1,0 +1,47 @@
+{
+  "origin": "http://127.0.0.1:8767",
+  "checks": [
+    {
+      "name": "entry uses existing sales floor and preserves intro visit without requiring purchase",
+      "passed": true
+    },
+    {
+      "name": "counter opens Mystery Box quantity drawer",
+      "passed": true
+    },
+    {
+      "name": "three boxes enter basket without payment or rolling",
+      "passed": true
+    },
+    {
+      "name": "counter purchases three basic silver jewelry pieces",
+      "passed": true
+    },
+    {
+      "name": "paid jewelry rolls and lifetime counter persist through reload",
+      "passed": true
+    },
+    {
+      "name": "lifetime limit removes purchase buttons and backend rejects a fourth box without charge",
+      "passed": true
+    },
+    {
+      "name": "Items equips jewelry and current stats show its actual attribute bonus",
+      "passed": true
+    },
+    {
+      "name": "removing jewelry removes only its worn bonus",
+      "passed": true
+    },
+    {
+      "name": "jewelry drawer fits mobile viewport",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "checkpoint": "Unpublished foundations Mystery Box implementation"
+}

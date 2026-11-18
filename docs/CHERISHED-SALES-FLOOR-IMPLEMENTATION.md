@@ -1,5 +1,20 @@
 # Cherished Touch sales-floor implementation
 
+## Mystery Box purchase and worn-jewelry implementation — development verified
+
+Implemented on foundations, not published; public gameplay remains v1.0.109. The counter now uses the shared drawer system for quantities of 1–3 boxes at 150 gold each before discounts. A per-original-player lifetime purchased-quantity counter survives split checkouts, visits, forms and reloads. All three may be bought together; no enchanted-item cooldown or weekly stock limit applies. Cart and payment revalidate the limit. Payment failure consumes neither rolls nor vouchers, and a paid receipt cannot replay.
+
+Each paid box independently rolls one of five basic silver jewelry types (necklace, ring, bracelet, anklet or a pair of earrings) and one of the ten canonical combat attributes, without archetype input. The owned item permanently stores both rolls and exactly +1 to that attribute while worn. Checkout reveals the result; Items shows the bonus. Original attributes are never mutated. Current Stats and the actual encounter-entry attribute snapshot use the effective worn values. Unequipping removes the modifier; incompatible feline/inanimate bodies receive no human-jewelry bonus.
+
+Shared placement enforces one ring per hand and one bracelet per arm, with automatic first-free left/right placement. Initial ordinary placement also allows one necklace, one earring pair and one anklet per ankle. Existing household jewelry and saved household outfits use the same capacity checks, retaining ownership rather than replacing or discarding another item. Jewelry may be worn with usable human hands without needing a clothing-changing stall.
+
+Charity’s dialogue guidance now appreciates sincere, consistent kindness and concern, distinguishes intrusive probing, permits a lower-lip bite only when she reciprocates flirtation, and a hair tuck behind her LEFT ear when nervous. Gestures are contextual, not repeated every reply. Full household scheduling and guarded lore/access mechanics remain separate work.
+
+Validation: 1,321 named automated cases across 78 suites passed, including 11 new Mystery Box cases and all 15 ordinary retail cases. Ten browser checks cover the counter quantity drawer, purchase, lifetime cutoff, reload, actual Items equip/remove, effective Stats, mobile width and uncaught errors. The existing ordinary-retail browser run also passed all 13 checks. Synthetic saves only; no owner data or paid AI requests used. Evidence: `docs/releases/cherished-mystery-box-development-tests.json` and `cherished-mystery-box-development-browser.json`.
+
+Next exact implementation task: the already-approved limited enchanted display, Monday 06:00 cap refill, rolling 24-hour per-player cooldown, +10 maximum-resource gear and real utility hooks. Do not reopen Mystery Box design or claim weather/scent/light/noise effects functional before implementing their adapters. No new quest or hideout design is needed to finish retail.
+
+
 ## Cherished Touch first sales-floor implementation — development verified
 
 Source `3c73f0e0194b148260f06bc29f42d9d2f1ececcd` on foundations. Existing room graph remains intact. Clothing racks now use the shared apartment-navigation layer frames for category -> male/female item style -> cut/sleeve -> color -> preview -> basket. Back and selected choices persist. Ordinary stock remains available. The once-per-player45goldbundle supports all five chosen pieces. Real closed-stall fitting previews shop property without granting ownership or losing the original outfit. Moving/changing body invalidates the try-on.

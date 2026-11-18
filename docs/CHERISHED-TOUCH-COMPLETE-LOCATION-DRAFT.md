@@ -130,3 +130,7 @@ Charity enjoys hearing people’s small stories, repairing an awkward conversati
 4. Resolve only genuinely unspecified trial/hidden-guild/other-quest content later. Do not re-ask shop prices/effects/discount rules already approved.
 
 Implementation status: ordinary floor shopping/checkout is a tested development slice. Everything newly proposed here needs review and then actual functional implementation; no new art, rooms, NPC schedule, private permissions or source-image copy is created by this draft. Universal layered drawers, real inventory/ownership and honest source/test status remain requirements.
+
+
+### Owner refinement — reciprocal and nervous gestures
+Charity appreciates sincere, consistent politeness, kindness and genuine concern about her exhaustion rather than intrusive questioning. When she reciprocates flirtation or advances she may bite her lower lip; when nervous she may tuck her hair behind her **left** ear. Neither gesture is automatic or repeated every response. Mystery Box contents use independent random rolls for basic silver jewelry type (necklace, ring, bracelet, anklet or pair of earrings) and its single +1 attribute, without archetype bias.

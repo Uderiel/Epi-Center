@@ -363,3 +363,7 @@ Physical shop entry, public rooms, private permission button, connected room/sta
 5. Preserve the three risk/secret quest concepts for later dependency design. Resolve ordinary household visits versus gated restricted areas without spoiling hidden content.
 
 Audit only: no gameplay, store prices, quest rewards, openings or lore disclosures changed. Original First Steps remains unchanged. Universal NPC/form template should absorb approved design decisions and distinguish source-confirmed rules, proposed defaults and tested implementation.
+
+
+### Owner refinement — reciprocal and nervous gestures
+Charity appreciates sincere, consistent politeness, kindness and genuine concern about her exhaustion rather than intrusive questioning. When she reciprocates flirtation or advances she may bite her lower lip; when nervous she may tuck her hair behind her **left** ear. Neither gesture is automatic or repeated every response. Mystery Box contents use independent random rolls for basic silver jewelry type (necklace, ring, bracelet, anklet or pair of earrings) and its single +1 attribute, without archetype bias.
