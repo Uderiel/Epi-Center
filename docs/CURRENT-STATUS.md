@@ -1,3 +1,7 @@
+## Canine intent parser checkpoint — core13cases pass, integration pending
+
+Branch `rebuild/1.0-foundations`; parent7554252. Owner approves greeting flow and requires shared human-input→canine-expression translation. Added canine-expression.js and13targeted cases for explicit/starred signals, protest/withdrawal/sniff/play, private thought/form channel, negation/hypothetical/third-person guards and sanitized NPC packets. No runtime composer/Dart wiring yet; public106 unchanged. Exact next action: integrate this parser with actual body/presence/authority and independent Dart/household interaction reducers; preserve private raw wording and existing personalization. Lunch scaffold/core home/catalog remain at prior committed WIP; do not report new home playable.
+
 ## Safe implementation checkpoint — lunch patched, Nadia home scaffold unwired
 
 Branch `rebuild/1.0-foundations`; parentd3b7098. Shared workplace-schedule module now supplies noon–one lunch to named employees and receptionist duties; booking excludes overlap and productive-minute accounting excludes lunch without retroactive wage edits. Six direct lunch cases and latest full1,184case run pass. Existing office workflow test updated for12:30being lunch. Began reusable character-home residence/navigation factory and Nadia-specific six-room/77piece wardrobe, makeup/product/food/fixture data. These new home files only pass syntax checks; they are not integrated or claimed playable.

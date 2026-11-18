@@ -1,0 +1,16 @@
+const assert=require('node:assert/strict'),X=require('./canine-expression');let n=0;const ids=(text,options)=>X.translate(text,options).signals.map(s=>s.id);function test(name,fn){fn();n++;console.log('PASS '+name);}
+test('starred and ordinary explicit canine actions produce equivalent observable signals',()=>{assert.deepEqual(ids('*I growl*'),ids('I growl'));assert.deepEqual(ids('*I sniff Dart back*'),ids('I sniff Dart back'));});
+test('human protest becomes a warning signal without intelligible human words',()=>{const r=X.translate('Hey, back off! Do not touch me.');assert(r.signals.some(s=>s.id==='growl'));assert.equal(r.spokenWords,false);});
+test('startled pullback produces withdrawal posture and no social consent',()=>{const r=X.translate('What the heck? I pull back.');assert(r.signals.some(s=>s.id==='withdraw'));assert(!r.signals.some(s=>s.id==='allow-sniff'));});
+test('allowing a sniff does not automatically make the player sniff or play back',()=>{assert.deepEqual(ids('I let Dart sniff me'),['allow-sniff']);assert.deepEqual(ids('I sniff Dart back'),['sniff']);});
+test('private narration and intended internal form dialogue never become public signals',()=>{assert.deepEqual(ids('*I think I should growl*'),[]);assert.deepEqual(ids('I growl',{privateChannel:true}),[]);assert.deepEqual(ids('I silently wonder whether to bark'),[]);});
+test('questions hypotheticals and negated actions cannot perform contact',()=>{for(const t of ['Can I sniff Dart?','Imagine I bark','I do not growl','I am not barking'])assert.deepEqual(ids(t),[],t);});
+test('mixed thought and physical action exposes only the action',()=>{const r=X.translate('*I think about my secret identity* *I growl*');assert.deepEqual(r.signals.map(s=>s.id),['growl']);const p=JSON.stringify(X.publicPacket(r));assert(!p.includes('secret'));assert(!p.includes('identity*'));});
+test('a declined play request is not misread as a play invitation',()=>{assert.deepEqual(ids('I do not want to play'),['decline-play']);assert.deepEqual(ids("Let's play"),['play-bow']);});
+test('human greeting becomes attention without forcing approach enjoyment or contact',()=>{const r=X.translate('Hello');assert.deepEqual(r.signals.map(s=>s.id),['alert']);assert(!JSON.stringify(X.publicPacket(r)).includes('Hello'));});
+test('conflicting boundary prevents inferred permission and no words leak to NPC packet',()=>{const r=X.translate('Let Dart sniff me. Back off, leave me alone.');assert(r.signals.some(s=>s.id==='growl'));assert(!r.signals.some(s=>s.id==='allow-sniff'));const p=X.publicPacket(r);assert.equal(p.spokenWords,false);assert(!JSON.stringify(p).includes('leave me alone'));});
+test('a narrated other-dog action does not perform a player sniff',()=>{assert.deepEqual(ids('Dart is sniffing'),[]);});
+console.log(n+' shared canine expression cases passed');
+
+test('third-person dog narration and remembered dialogue do not become the player action',()=>{for(const text of ['Dart growls','Nadia told Dart to bark','I barked yesterday','I might bark','I do not want to growl'])assert.deepEqual(ids(text),[],text);});
+test('common roleplay verb inflections work without requiring first-person spelling',()=>{assert.deepEqual(ids('*growls*'),['growl']);assert.deepEqual(ids('*barks*'),['bark']);assert.deepEqual(ids('*whimpers*'),['whine']);});

@@ -137,3 +137,9 @@ Author a universal service contract at its venue (boarding, daycare, grooming, p
 ## Personalized animal identity and environmental memory
 
 Generic form labels do not establish sex/gender or a player’s chosen name. Read saved personalization and use neutral language before selection; do not copy the owner’s personal playthrough into global canon. Animal scent/territory recognition must derive from actual located/time-stamped marks and learned associations. An unknown scent can become familiar through real meetings, without automatic hostility, friendship, exclusive ownership or private-identity disclosure.
+
+## Owner-confirmed shared canine input translation
+
+Human wording entered while in a canine body needs a coherent reusable translation into actual canine expression. Protest can become a warning growl; startled withdrawal can draw ears back/tail inward; allowing an inspection permits a sniff; explicitly chosen reciprocal sniffing or play uses canine actions. Starred roleplay and ordinary text both work. Private thoughts/form dialogue, hypotheticals, negation, third-person narration and remembered events must not become public physical actions. NPCs receive only resolved observable/audible signals, not original human words or secret intent. A response authorizes only its own scope: allowing a sniff is not blanket consent to touch, play, collaring or a home visit. Existing form instincts/control rules remain authoritative.
+
+Implemented first pure shared parser in canine-expression.js:13targeted cases pass, including privacy, negation, third-person/hypothetical rejection and common roleplay inflections. It emits validated signal candidates/public packets without resolving reach/contact, moving bodies or granting relationships. This is not yet wired to the composer/Dart actor; those integration/AI/persistence/actual browser cases remain required. Unknown input stays private rather than guessing an aggressive or compliant reaction.
