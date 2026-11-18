@@ -1,3 +1,9 @@
+## Daily-life proposal awaiting owner review
+
+Branch `rebuild/1.0-foundations`; parent/evidence `27acb49`, published runtime `1931b6c` (v1.0.104). New review-only draft: [Priya daily life](PRIYA-DAILY-LIFE-REVIEW-DRAFT.md). Proposes a coherent weekday/weekend rhythm, home care/food/wardrobe, real guest/outing scheduling and future cat hooks, preserving established work/jog contracts. None of these proposed autonomous routines is approved or implemented by this documentation checkpoint. No runtime files changed; no new tests or deployment claimed. Existing1100automated/78public-browser results belong to published104.
+
+Exact next action: owner reviews broad rhythm/social balance; revise/confirm the draft, then implement approved routines and consolidate the remaining cat contract. No main promotion/publication of this proposal before review. This checkpoint is saved locally; no remote push requested for the draft yet.
+
 ## v1.0.104 — published and publicly verified
 
 Runtime **`1931b6c7a34d8cd2719c8d9f2518a7ba8cfb07b1`**, pushed to `rebuild/1.0-foundations` and `main`; evidence-only commit follows. [Play v1.0.104](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.104). Pages build1379607652 / Actions44221789929 succeeded. All36changed runtime files (including both owner-uploaded JPEGs and approved portrait) byte-match the published candidate. Owner image commits were preserved via merge35daf0e; no owner save was reset.
