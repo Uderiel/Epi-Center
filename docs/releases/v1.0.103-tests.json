@@ -1,6 +1,6 @@
 {
   "checkpoint": "v1.0.103 implementation candidate",
-  "namedCases": 1074,
+  "namedCases": 1090,
   "suiteResults": [
     {
       "file": "rebuild/combat/civilian-encounter.test.js",
@@ -282,6 +282,12 @@
       "file": "rebuild/hub/priya-home-navigation.test.js",
       "exitCode": 0,
       "output": "PASS Priya uses the shared Erin drawer frame schema\nPASS nested ottoman storage opens one new screen and Back pops only that screen\nPASS browsing and Back preserve time possessions and balances\nPASS each layer keeps its own saved result and scroll position after reload\nPASS opening and closing real storage each cost one minute without granting its contents\nPASS remote children cannot bypass parent drawers or current room\nPASS room movement resets its drawer root rather than showing stale furniture\nPASS encounters exterior and object bodies cannot browse or operate physical drawers\nPASS all six rooms have authored root objects and connected child drawers\nPASS text intent uses actual drawer accessibility and keeps questions and negation inert\n10 Priya drawer cases passed\n",
+      "stderr": ""
+    },
+    {
+      "file": "rebuild/hub/priya-household.test.js",
+      "exitCode": 0,
+      "output": "PASS distinct Priya-owned catalogue does not copy Erin wardrobe inventory or foods\nPASS all eight coordinated presets contain existing owned pieces with coherent coverage\nPASS outfit suggestion routes privately to closet and back, changing only NPC clothing\nPASS outfit job survives reload and cannot complete if guest enters changing space\nPASS outfit actions reject remote speech, duplicate jobs and retain state on interrupted departure\nPASS individual pieces build saved custom combinations without transferring possessions\nPASS incomplete or duplicate-layer outfit cannot be saved as a valid combination\nPASS tea preparation and optional milk sweetener use finite stock once each\nPASS snack and meal actions consume actual ingredients and use existing hunger relief without healing\nPASS stock exhaustion and reload cannot replenish food or duplicate prepared servings\nPASS Priya product choices perform actual care while Erin supplies remain separate\nPASS every proposed care item has a real guarded use and saved application record\nPASS uninvited visitors, wrong rooms, combat and inanimate bodies cannot consume private stock\nPASS NPC private change events do not narrate remotely after the guest leaves\n14 Priya household cases passed\nPASS world text routes real household actions while questions and negations stay read-only\nPASS an existing save gains Priya household records without resetting other inventories or balances\n",
       "stderr": ""
     },
     {

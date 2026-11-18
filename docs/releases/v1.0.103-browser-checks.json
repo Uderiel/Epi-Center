@@ -112,6 +112,30 @@
       "passed": true
     },
     {
+      "name": "actual outfit preset button performs a private timed NPC change without giving the player clothes",
+      "passed": true
+    },
+    {
+      "name": "actual tea preparation decrements Priya stock and creates one serving",
+      "passed": true
+    },
+    {
+      "name": "actual serving consumption finishes tea and records a used dish",
+      "passed": true
+    },
+    {
+      "name": "actual prepared meal consumes finite grains and vegetables rather than creating food in dialogue",
+      "passed": true
+    },
+    {
+      "name": "snack stock and NPC outfit survive reload with separate household ownership",
+      "passed": true
+    },
+    {
+      "name": "actual Priya care products are usable with saved effects and distinct bottle records",
+      "passed": true
+    },
+    {
       "name": "leaving normal visit closes its permission without resetting character values",
       "passed": true
     },

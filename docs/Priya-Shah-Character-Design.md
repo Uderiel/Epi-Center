@@ -1,3 +1,13 @@
+## v1.0.103 — complete household candidate tested; publication in progress
+
+Branch `rebuild/1.0-foundations`; parent `188590a`. Owner approves the concrete household selection and neutral holistic palette, and explicitly requires outfit/food interactability **before publishing**. This candidate implements it:17pieces/eight presets/three custom outfit slots, real private NPC outfit-change jobs, separate Priya ownership, finite food/tea/ingredients, preparation/additions/consumption/dishes,23usable care products and actual shower/grooming effects. No approved household selection is left as a description-only promise. [Implementation](PRIYA-HOUSEHOLD-IMPLEMENTATION.md).
+
+Also includes normal identity-bound friend entry, Erin’s functional shampoo/conditioner and preserved bath preparation, whole-apartment soft neutrals/crystals and hallway chakra/acupuncture charts. Existing drawer/clock/resource/appearance systems are reused; original saves, unique flats and deferred cat rules are preserved. Player clothing is not forcibly changed or awarded. Footwear retains its established lifecycle.
+
+Verification: **1,090named automated cases plus entity assertions across60suites;65local isolated browser groups PASS**, including real outfit/tea/snack/meal/care controls, saved ownership/stock/jobs, private changes, old drawers/NPCs/Erin/flats/AI and syntax/module paths/whitespace. [Owner checklist](V1.0.103-OWNER-ACCEPTANCE.md). Current reports: `docs/releases/v1.0.103-tests.json`, `docs/releases/v1.0.103-browser-checks.json`. Public verification follows; no completed live103claim yet.
+
+Limits: finite stocks have no new automatic restocking; autonomous daily household scheduling is not added; Lena/Maya have friend-identity policy, not newly spawned full NPCs. Cat/collar, native Android and paid-model quality remain deferred/untested. Exact next action: commit/push, publish this tested candidate, verify public bytes/browser, record deployment evidence, then take the owner’s queued testing corrections. Earlier notes saying the approved catalogue is still unimplemented are superseded.
+
 ## Whole-apartment palette correction — owner confirmed
 
 Owner directs a consistent holistic/crystal-energy atmosphere throughout the living room, bedroom, walk-in closet, bathroom and hallway storage. Use warm cream/ivory, oatmeal, pale stone, pale natural wood and soft sage; avoid sharp or saturated red/blue contrasts. This supersedes earlier rust cushion, teal backsplash/towel and stronger accent-color descriptions. The approved portrait remains unchanged.
