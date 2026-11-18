@@ -1,3 +1,7 @@
+## Owner correction pass in progress — v1.0.104
+
+Branch `rebuild/1.0-foundations`; parent `4f6216a`. Received real mobile testing corrections covering AI keyword routing/prose, meetings/local hearing/presence, apartment floors/access/following, flats detail/travel/images, office workflow/reports/lunch and generic dev controls. [Tracked acceptance cases](V1.0.104-CORRECTION-TRACKER.md). Current public version remains v1.0.103. No fixes/tests/deployment claimed yet. Supplied image previews are visible but downloadable originals are not in the filesystem; asset wiring can proceed while original bytes are requested. Exact next action: reproduce and correct AI mechanics-vs-dialogue routing plus room-local presence.
+
 ## v1.0.103 — household interactions finished, published and verified
 
 **[Play v1.0.103](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.103)**. Branch `rebuild/1.0-foundations`; tested gameplay commit **`76c4942569facb569160e8b2b003ff4157932cf1`** is pushed to rebuild and main. Pages build1379469596 and [Actions run44213172819](https://github.com/Uderiel/Epi-Center/actions/runs/44213172819) succeeded. All14checked public runtime files, including the unchanged approved portrait, match the tested local bytes. Evidence: `docs/releases/v1.0.103-live-verification.json`.
