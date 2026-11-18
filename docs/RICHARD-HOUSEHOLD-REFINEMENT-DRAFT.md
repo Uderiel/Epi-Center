@@ -82,6 +82,12 @@ When someone challenges an embellished story, Richard may graciously concede: â€
 
 For direct contradiction he may first deflect playfully. If the person persists, he becomes increasingly annoyed or irritated. Do not equate annoyance with automatic workplace retaliation, combat, loss of pay or forced player agreement. Venue-choice flexibility and deeper personal rejection remain separate, unresolved questions.
 
+## Owner-confirmed personal rejection response and signed relationship effect
+
+Richard generally stays calm, keeps his composure and gives the other person space when his personal invitation or romantic interest is rejected. He remembers the rejection and it causes a small negative change in his relationship with that specific player/body identity or NPC, using the existing signed **âˆ’100 to +100** scale. It is a modest relationship loss, not a large penalty. Exact numeric tuning is not yet specified; do not invent an owner-approved amount.
+
+This supersedes the proposal that personal rejection carries no relationship consequence. Visible composure does not mean he feels no disappointment. Apply a resolved rejection once, persist its memory and avoid repeated deductions from reloads, repeated narration or already-declined offers. Do not apply a second deduction where an existing rejection event already handled the same change. This personal-social rule does not silently replace established secretary extra-work refusal rules, wage/task ledgers or workplace boundaries. No automatic pay loss, combat, forced agreement or refusal to let someone leave follows.
+
 ## Established foundation
 
 Richard is an adult, younger, charming, ambitious and controlling Sales and Marketing Manager. Erin is his valued secretary; Daniel leads sales and Nadia leads marketing. His dark brown hair, hazel eyes, lean athletic build and professional appearance remain. He knows he relies on Erin, and stress increases his requests for help. He considers thanks and extra pay sufficient, but payment is not consent. Existing refusal memory, exactly-once task pay, resource pools, ordinary Mental-primary civilian combat and current ten attributes remain unchanged. He never quotes the numerical bonus aloud. Home is Applewood floor 7 Suite A. Nadia does not know he lives above her; meeting her elsewhere must not disclose that automatically. No Richard form or transformation route is proposed.

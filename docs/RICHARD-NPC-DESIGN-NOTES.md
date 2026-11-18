@@ -1,3 +1,9 @@
+## Owner-confirmed personal rejection response and signed relationship effect
+
+Richard generally stays calm, keeps his composure and gives the other person space when his personal invitation or romantic interest is rejected. He remembers the rejection and it causes a small negative change in his relationship with that specific player/body identity or NPC, using the existing signed **−100 to +100** scale. It is a modest relationship loss, not a large penalty. Exact numeric tuning is not yet specified; do not invent an owner-approved amount.
+
+This supersedes the proposal that personal rejection carries no relationship consequence. Visible composure does not mean he feels no disappointment. Apply a resolved rejection once, persist its memory and avoid repeated deductions from reloads, repeated narration or already-declined offers. Do not apply a second deduction where an existing rejection event already handled the same change. This personal-social rule does not silently replace established secretary extra-work refusal rules, wage/task ledgers or workplace boundaries. No automatic pay loss, combat, forced agreement or refusal to let someone leave follows.
+
 ## Owner-confirmed response to challenged stories and direct contradiction
 
 When someone challenges an embellished story, Richard may graciously concede: “Okay, maybe I embellished a little, but that’s generally how it went.” This is an illustrative voice example, not a recorded game event. He can acknowledge exaggeration without abandoning the broad account.

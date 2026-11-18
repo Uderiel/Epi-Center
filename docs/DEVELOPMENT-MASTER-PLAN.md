@@ -1,3 +1,9 @@
+## Richard personal rejection — calm demeanor, small signed relationship loss
+
+Owner confirms Richard keeps composure and gives space, but records rejection and loses a small amount of relationship toward the specific interacting player/NPC on the existing −100…+100 scale. Exact amount remains unspecified. Saved in draft/design with once-per-event persistence and separate existing workplace-refusal rules. No runtime implementation or tests claimed.
+
+Branch `rebuild/1.0-foundations`; parent `f30f733`. Exact next action: complete remaining social-design review and select small rejection tuning before implementing the agreed Richard package. Current public remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 . Voice preference: no unsolicited spoken acknowledgments or backchannels during the user's explanation.
+
 ## Richard social voice confirmed — storyteller and guarded managerial status
 
 Owner defines confident, boisterous banter and embellished stories/accomplishments, enjoying audience engagement. Jokes at his expense prompt subtle deflection/subject changes; he rationalizes social distance through managerial morale/efficiency. This supersedes proposed enjoyment of reciprocal teasing. Character claims are not objective event history or automatic morale/punishment mechanics. Saved in draft/design.

@@ -1,3 +1,9 @@
+## Richard personal rejection — calm demeanor, small signed relationship loss
+
+Owner confirms Richard keeps composure and gives space, but records rejection and loses a small amount of relationship toward the specific interacting player/NPC on the existing −100…+100 scale. Exact amount remains unspecified. Saved in draft/design with once-per-event persistence and separate existing workplace-refusal rules. No runtime implementation or tests claimed.
+
+Branch `rebuild/1.0-foundations`; parent `f30f733`. Exact next action: complete remaining social-design review and select small rejection tuning before implementing the agreed Richard package. Current public remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 . Voice preference: no unsolicited spoken acknowledgments or backchannels during the user's explanation.
+
 ## Richard challenged-story and contradiction response confirmed
 
 He can graciously concede some embellishment while standing by the general story. Direct contradiction first gets playful deflection; persistence increases irritation. No automatic retaliation or forced agreement. Saved in draft/design. User also requests uninterrupted voice turns: stop unsolicited “mm-hmm”/laughter/backchannel interruptions and allow their full reply.
