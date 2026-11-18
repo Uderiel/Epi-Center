@@ -1,3 +1,7 @@
+## Twentieth mission milestone
+
+Owner confirms temporary mask entrapment after20successful completions, released by standard mastery without retaining Charity’s form. During the challenge, live alongside Charity under her restrictions. Completion awards2,000gold and a usable150-point mastery item for a chosen form. Special exception to ordinary shift-end removal; details and reward interaction remain pending. See CHARITY-LEGACY-AUDIT.md.
+
 ## Shift role and commitment — owner correction
 
 Once accepted, six-hour coverage cannot end early or be handed over. The player must pass as Charity through outward speech and behavior, with context-sensitive translation into her mannerisms. Customer initiation requires a Charity-consistent response even when the player does not initiate interactions. Safe return/removal remains at the actual end. Earlier early-handover suggestion is withdrawn. See CHARITY-LEGACY-AUDIT.md.

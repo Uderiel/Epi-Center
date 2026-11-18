@@ -191,3 +191,7 @@ For sensitive NPC disclosures, separately author relationship/world-progression 
 ## Authored role-constrained quest forms
 
 For a disguise/coverage form, specify outward appearance/voice AND expression/behavior requirements, private thought versus emitted speech, customer/NPC-initiated response handling, knowledge limits, accepted commitment duration and exact release conditions. Do not assume voluntary routine delegation’s immediate reclaim rules apply to a separately accepted committed quest. Charity coverage is owner-confirmed six-hour commitment with enforced Charity-consistent outward expression, no early handover and safe end-of-shift mask return/removal. Do not grant another character’s secrets or memories merely from outward impersonation.
+
+## Temporary mastery trials without retained form ownership
+
+Separate actual challenge progress/completion from permanent form acquisition. An authored temporary quest form may require normal mastery before release while granting no retained form. Save the milestone trigger, current trial, actual release conditions, restrictions, completed trial history and one-time reward receipt independently. Preserve unrelated forms/resources. Transferable mastery rewards must be real selectable/consumable items with defined progression semantics, not prose, automatic target spending or ownership grants. Charity’s twentieth-completion event is a design example pending rarity/reward-integration details; it is an explicit exception to her ordinary shift-end mask release.

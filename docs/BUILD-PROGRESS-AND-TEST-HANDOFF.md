@@ -1,3 +1,7 @@
+## Charity twentieth-completion branch confirmed
+
+Owner adds temporary mask binding after20completed missions: standard form mastery governs release, player lives alongside Charity under her relevant restrictions, and the form is not retained. Success awards2,000gold and a usable150-point mastery item for a chosen form. This is the special exception to ordinary safe shift-end removal; normal shifts still have no form-mastery reward. Exact rarity, restriction schedule, reward interaction with ordinary500pay and post-challenge repeats remain open. Existing Easter Egg150Tier Mastery XP is a source lead, not an already-functional equivalent item. Design only; live109unchanged. Next: refine this branch’s parameters, then finish catalogue/shop workflow before implementing the agreed package.
+
 ## Charity coverage correction — full commitment and role filter
 
 Owner confirms six-hour in-game commitment once accepted, NO early leaving or handover (supersedes assistant proposal). Outward dialogue/behavior must be translated into Charity’s natural manner to maintain the substitution. Player need not initiate customer conversation; incoming customer interactions receive Charity-consistent responses, including routine operation. Private thoughts remain separate. Safe end-of-shift removal/return retained. Next: define mask/body/control/knowledge boundaries and shop task/customer model; no runtime implementation yet.
