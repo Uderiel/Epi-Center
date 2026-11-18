@@ -1,0 +1,17 @@
+{
+  "version": "1.0.109",
+  "origin": "http://127.0.0.1:8767",
+  "passed": true,
+  "checks": 205,
+  "flows": {
+    "legacy": 78,
+    "cat": 38,
+    "erin": 27,
+    "nadia": 21,
+    "richard": 18,
+    "corrections": 10,
+    "shared": 8,
+    "everyday": 5
+  },
+  "scope": "Synthetic saves; AI off/mocks; owner saves not modified"
+}

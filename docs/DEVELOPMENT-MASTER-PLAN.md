@@ -1,3 +1,7 @@
+## v1.0.109 authorized publication
+
+Release shared activities and approved household room art after final checks; no further owner approval pending. Owner checklist includes the playable109link. Verify Pages and public flows, then record the tested commit and results.
+
 ## Shared activities development checkpoint
 
 First shared home adapter is implemented and locally verified, not published. See [implementation and limits](SHARED-ACTIVITIES-IMPLEMENTATION.md). Next: owner review and versioned release verification. Multiplayer remains deferred.

@@ -1,3 +1,9 @@
+## v1.0.109 release candidate — publication in progress
+
+Owner authorized publication. Shared activities in both homes, Priya’s routine feedback and all31approved room-art integrations are included. Local browser verification passed205checks across8flows (78legacy,38cat,27Erin,21Nadia,18Richard,10corrections,8shared,5everyday). Final automated verification passed1,295cases across76suites, including immediate delegation/reclaim lead updates. Publication evidence follows.
+
+[Playable link and owner checklist](V1.0.109-OWNER-ACCEPTANCE.md). Next exact action: commit the versioned candidate, push main and foundations, wait for Pages deployment, compare runtime/assets publicly, rerun the same public browser flows, and save final evidence. Public gameplay remains108until verified. Owner saves and paid AI remain acceptance items; multiplayer and wider NPC adapters remain deferred. No additional owner confirmation is needed.
+
 ## Shared activities — first development integration verified
 
 Source `b09ffe290d0042260a6d5e5747357d5271488063` on `rebuild/1.0-foundations`; public gameplay remains v1.0.108. Generic shared activity lifecycle plus a home adapter support viewing, reading and cooking in Priya’s or Erin’s actual home. Present Priya or equipped Erin can suggest an optional activity. Suggestions expire and require explicit acceptance. Saved progress, pause/resume, stopping, per-person departure and changing the activity lead are implemented. Voluntary delegation/reclaim changes the lead without resetting progress or mastery. No network multiplayer or additional NPC integration is claimed.
