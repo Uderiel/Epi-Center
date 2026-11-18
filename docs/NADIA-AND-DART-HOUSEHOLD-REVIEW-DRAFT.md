@@ -1,6 +1,6 @@
-## Implementation update — v1.0.107 candidate
+## Implementation update — v1.0.107 published
 
-The approved first household/park slice is implemented and under release verification. See [implementation and explicit limits](NADIA-DART-IMPLEMENTATION.md) and [owner checklist](V1.0.107-OWNER-ACCEPTANCE.md). Historical proposal wording below is not evidence of publication. Shared boutique services remain deferred. Current status is the release authority.
+The approved first household/park slice is implemented and publicly verified. See [implementation and explicit limits](NADIA-DART-IMPLEMENTATION.md) and [owner checklist](V1.0.107-OWNER-ACCEPTANCE.md). Historical proposal wording below is not evidence of publication. Shared boutique services remain deferred. Current status is the release authority.
 
 # Nadia Voss and Dart — household and behavior review draft
 

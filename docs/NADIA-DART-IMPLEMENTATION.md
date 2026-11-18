@@ -1,6 +1,6 @@
 # Nadia and Dart — first playable household implementation
 
-The v1.0.107 candidate adds Nadia’s distinct Unit 6E household and independent Dart behavior using shared residence, presence, canine-expression and item-serving systems. It preserves existing save keys, form mastery, personalized identities, player possessions and the approved portraits. It is a first playable household slice; it does not complete the deferred boutique venue.
+Published v1.0.107 adds Nadia’s distinct Unit 6E household and independent Dart behavior using shared residence, presence, canine-expression and item-serving systems. It preserves existing save keys, form mastery, personalized identities, player possessions and the approved portraits. It is a first playable household slice; it does not complete the deferred boutique venue.
 
 Nadia has six connected rooms, nested object drawers and Back navigation. Stone surfaces, warm upscale lighting, better home electronics, a marketing workspace, refined food, a 77-piece owned wardrobe, nine presets, three saved combinations and four makeup routines distinguish her home from Erin’s and Priya’s. Clothing changes require actual privacy; products and ingredients are finite. Prepared refreshments become actual consumable servings. Care permissions, guest activities, product usage, household delivery payments and forty-minute laundry cycles persist.
 
@@ -12,6 +12,6 @@ Canine input accepts plain or starred actions and translates expressed intention
 
 Dart’s optional AI plan accepts only sniff-offer, play-bow, settle or look-to-Nadia, validates current presence and offer, and keeps written fallback on invalid, failed or stale output. Its prompt receives recorded observable signals rather than private raw human input. AI cannot resolve player contact, movement or consent. Mocked AI tests cover accepted, invalid and stale results; paid-provider prose is unverified.
 
-Validation: 1,235 automated cases; four local browser suites totaling 160 checks (78 existing-world, 38 Priya-cat, 27 Erin, 17 Nadia). Public verification is recorded separately after deployment. Browser contexts use synthetic saves; owner saves were not loaded or modified.
+Validation: 1,235 automated cases; four local browser suites totaling 160 checks (78 existing-world, 38 Priya-cat, 27 Erin, 17 Nadia). The same 160 checks pass on the public site and 32 deployed runtime files match commit a8e33b2a9d11c2e361bfca8819bda96d39ac6acf. Deployment 44319985615 succeeded. Browser contexts use synthetic saves; owner saves were not loaded or modified.
 
 Limits: boutique boarding/daycare/staff/custody/payment/shared sublevel play remains deferred to its universal venue project. Evening venues and other unimplemented employees are not fabricated. Nadia’s household supply funds are finite; indefinite economic simulation and additional venues are future work. Native Android, real paid AI quality, long-session balance and owner saves require owner acceptance. Next character sequence: Richard, Daniel Mercer, then a named sales employee.

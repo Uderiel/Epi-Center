@@ -1,0 +1,21 @@
+{
+  "version": "1.0.107",
+  "runtimeCommit": "a8e33b2a9d11c2e361bfca8819bda96d39ac6acf",
+  "deployment": 44319985615,
+  "automatedCases": 1235,
+  "automatedSuites": 70,
+  "localBrowserChecks": 160,
+  "publicBrowserChecks": {
+    "v1.0.107-browser-live.json": 78,
+    "v1.0.107-cat-browser-live.json": 38,
+    "v1.0.107-erin-browser-live.json": 27,
+    "v1.0.107-browser-nadia-live.json": 17
+  },
+  "runtimeFilesMatched": 32,
+  "ownerAcceptance": "pending",
+  "limits": [
+    "Shared boutique services deferred",
+    "Paid-provider quality, owner saves and native Android unverified",
+    "Finite Nadia household supply funds"
+  ]
+}
