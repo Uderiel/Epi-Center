@@ -195,3 +195,7 @@ For a disguise/coverage form, specify outward appearance/voice AND expression/be
 ## Temporary mastery trials without retained form ownership
 
 Separate actual challenge progress/completion from permanent form acquisition. An authored temporary quest form may require normal mastery before release while granting no retained form. Save the milestone trigger, current trial, actual release conditions, restrictions, completed trial history and one-time reward receipt independently. Preserve unrelated forms/resources. Transferable mastery rewards must be real selectable/consumable items with defined progression semantics, not prose, automatic target spending or ownership grants. Charity’s twentieth-completion event is a design example pending rarity/reward-integration details; it is an explicit exception to her ordinary shift-end mask release.
+
+## Hidden motives versus observable routines
+
+Separate the author-level reason for an NPC’s work/rest pattern from what the player can observe or has learned. Distinguish a feared conditional threat from a resolved event, automatic spawn or numerical risk. Record maximum recovery windows and actual coverage/location before implementing schedules. Charity’s overwork and roughly six-hour recovery limit are motivated by a hidden Countess threat; ordinary narration must not explain that cause before authored disclosure.

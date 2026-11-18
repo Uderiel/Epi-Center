@@ -1,3 +1,7 @@
+## Charity routine pressure confirmed — hidden threat
+
+Owner: Charity pushes until she must close, with at most roughly6hours recovery. Hidden motivation is prior resistance/attempts and the Countess targeting her. Rest/substitution risks antagonizing the Countess; detected replacement may cause a dangerous physical shop appearance. Conditional threat only; no automatic spawn, combat outcome or detection odds. Keep hidden cause out of ordinary player narration; detection/cylinder-gate integration remains unresolved. Next: meals/care/home chores and rest/reopening around the counter. Design only; live109unchanged.
+
 ## Charity twentieth-completion branch confirmed
 
 Owner adds temporary mask binding after20completed missions: standard form mastery governs release, player lives alongside Charity under her relevant restrictions, and the form is not retained. Success awards2,000gold and a usable150-point mastery item for a chosen form. This is the special exception to ordinary safe shift-end removal; normal shifts still have no form-mastery reward. Exact rarity, restriction schedule, reward interaction with ordinary500pay and post-challenge repeats remain open. Existing Easter Egg150Tier Mastery XP is a source lead, not an already-functional equivalent item. Design only; live109unchanged. Next: refine this branch’s parameters, then finish catalogue/shop workflow before implementing the agreed package.

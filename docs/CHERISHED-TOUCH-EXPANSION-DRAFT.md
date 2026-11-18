@@ -1,3 +1,7 @@
+## Routine pressure clarified
+
+Charity pushes until she must close, with roughly6hours maximum recovery. Hidden Countess threat makes rest and replacement risky; discovery of substitution may bring the Countess physically to the shop. Treat as conditional lore/encounter design, not an automatic event. Ordinary visitors see strain without learning its cause. Details in CHARITY-LEGACY-AUDIT.md.
+
 ## Twentieth mission milestone
 
 Owner confirms temporary mask entrapment after20successful completions, released by standard mastery without retaining Charity’s form. During the challenge, live alongside Charity under her restrictions. Completion awards2,000gold and a usable150-point mastery item for a chosen form. Special exception to ordinary shift-end removal; details and reward interaction remain pending. See CHARITY-LEGACY-AUDIT.md.
