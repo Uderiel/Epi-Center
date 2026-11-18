@@ -1,3 +1,7 @@
+## Nadia/Dart stays active focus — daily-rhythm review
+
+Branch `rebuild/1.0-foundations`; parent2480aef. Owner confirms disciplined/obedient/protective Dart and completion order Nadia/Dart→Richard→DanielMercer→sales employee. Recorded next spoken-review routine/mannerisms and actual16-minute outdoor one-way office route. Proposed longer lunch home-care trip remains unapproved and needs full edge/appointment timing; do not fabricate deferred daycare or caregiver. Owner asks to keep daily/home/Dart work moving. Exact next action: present the connected rhythm and care proposal verbally, then finish agreed household implementation (latest runtime still106). Documentation-only checkpoint; no new tests/runtime/publication.
+
 ## Boutique services moved to shared future venue project
 
 Branch `rebuild/1.0-foundations`; parent033705a. Owner chooses universal boutique service design during the boutique project rather than Nadia-specific boarding mechanics. Saved shared service/client boundary, confirmed hours and future canine-play requirements. Nadia/Dart home/behavior work can proceed independently; full workday care coverage remains explicit and unimplemented services cannot be reported as real bookings/care. Documentation only; no runtime/tests/publication. Exact next action: review/implement agreed independent Nadia household slice and retain shared boutique service/care dependency in backlog. Public106 unchanged.
