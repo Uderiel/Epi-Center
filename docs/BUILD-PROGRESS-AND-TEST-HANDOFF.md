@@ -1,3 +1,7 @@
+## Charity refinement — concealed resistance and continued captivity
+
+Owner confirms big-talker conversational proposal and resistance beyond what the game detects, while Charity remains captive/restricted. Saved in CHARITY-LEGACY-AUDIT.md and universal template. Next: clarify how restrictions constrain disclosure/actions before designing actual enforcement. No gameplay changes or publication.
+
 ## Charity legacy recovered — next discussion grounded in existing design
 
 Owner explicitly requests legacy-first review of Charity “The Gifted Gabber.” Audit saved in CHARITY-LEGACY-AUDIT.md: established personality/appearance, Countess opposition and bounded resistance/knowledge, five existing quest concepts, posted50gold umbrella/150gold Mystery Box, Mon–Fri24h display, temporary-mask6-hour shop coverage safeguards. These designs are largely informational, not playable services. Next: refine her actual voice/routine and store-hours coverage, then catalogue/economy and Advertising Job, then Assist Charity. Preserve First Steps and concealed disclosure gates. No gameplay change.

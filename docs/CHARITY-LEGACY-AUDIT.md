@@ -2,6 +2,10 @@
 
 Sources inspected: epi-center-v0.8.71-cherished-touch-foundation.html and epi-center-v0.8.84-attribute-foundation-corrections.html (CherishedTouch871 quests/charity/panel); docs/EPI-CENTER-CHANGELOG.md, October25Cherished Touch notes; docs/EPI-CENTER-PROJECT-HANDOFF.md; docs/Epi-Center-Character-Design-Gap-Audit.md CP013; docs/CHERISHED-TOUCH.md; current cherished-touch.js/UI, ai-context.js and interactCharity in index.html.
 
+## Owner refinement — voice and concealed resistance confirmed
+
+Owner confirms the proposed conversational direction: Charity is a big talker, makes conversation easily, remembers personal details, uses gentle teasing and steers unsafe questions away. Her capacity to resist exceeds what the game recognizes, but she remains captive to it and restricted in her options. Do not treat resistance as freedom from the system, omniscience, complete recovered memory or unrestricted disclosure. Exact enforcement of those restrictions (speech, actions, travel, warnings or consequences) remains to be clarified with the owner. This is a design confirmation, not an implemented mechanic or a new resistance statistic.
+
 ## Established design to retain
 
 Charity is “The Gifted Gabber,” Cherished Touch’s shopkeeper/manager. Legacy profile: mid-thirties; about5ft6in and122lb; wavy orangish-red hair, hazel eyes, charming warm smile/subtle smile lines; mature nurturing appearance; casual jeans/simple T-shirts. Personality: kind, patient, mischievous, polite and slow to trust. She opposes the Countess; her NPC status prevents direct disclosure of Epi-Center’s truth. CP013 separately confirms she resisted the wider rewrite/acceptance pattern. Exact retained memories, resistance mechanism, scope of knowledge and disclosure remain unresolved. Do not infer omniscience, immunity or recognition of the player’s original identity.
