@@ -1,3 +1,7 @@
+## Eligibility clarification
+
+Assist Charity requires+90relationship with the individual player on the existing−100to+100meter. No separate trust meter. Each successful shift adds+5up to+100, so two shifts from+90saturate it. Other completion rewards and milestones continue. Earlier separate trust interpretations are superseded.
+
 ## Repeat completion rewards
 
 Owner sets500gold after the fifth completion (sixth and later), plus+5individual Charity relationship on every successful completion, capped by the shared relationship scale. Permanent10%discount remains noncompounding. No form-mastery reward.

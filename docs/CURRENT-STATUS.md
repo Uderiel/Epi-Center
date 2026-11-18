@@ -1,3 +1,7 @@
+## Charity correction — +90relationship gates shift eligibility
+
+Owner clarifies90trust means the existing per-player Charity relationship, not a separate trust meter. +90minimum to accept coverage; +5successful completion reward clamps at+100. Two shifts from exactly+90reach cap; further completions still earn gold/discount/access progress. Prior separate-mask-trust interpretations superseded. No gameplay change.
+
 ## Assist Charity repeat pay and relationship confirmed
 
 Sixth and later successful completions pay500gold; prior250/300/350/400/450progression unchanged. Every successful completion grants+5individual Charity/player relationship, bounded−100to+100and awarded once. Staged10%discount and five-shift hidden-location milestone remain. No form mastery or automatic separate trust gain. Next: actual coverage/customer workflow, early handover and one-time discount use. Design only.

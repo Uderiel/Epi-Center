@@ -2,6 +2,12 @@
 
 Sources inspected: epi-center-v0.8.71-cherished-touch-foundation.html and epi-center-v0.8.84-attribute-foundation-corrections.html (CherishedTouch871 quests/charity/panel); docs/EPI-CENTER-CHANGELOG.md, October25Cherished Touch notes; docs/EPI-CENTER-PROJECT-HANDOFF.md; docs/Epi-Center-Character-Design-Gap-Audit.md CP013; docs/CHERISHED-TOUCH.md; current cherished-touch.js/UI, ai-context.js and interactCharity in index.html.
 
+## Owner correction — one relationship meter, not separate mask trust
+
+Owner clarifies that accepting Assist Charity requires Charity’s relationship with that individual player to be at least+90on the shared−100to+100scale. Earlier conversational references to90trust mean this relationship rating; a separate mask-eligibility trust meter is NOT required. This supersedes prior statements separating the90gate from relationship rewards. Sensitive disclosure still uses relationship75+and its other private/world-progression conditions.
+
+Each successful shift grants+5relationship, clamped at+100. Starting at exactly+90, two completions reach+100, so at most10net relationship can be gained before saturation; a player starting higher gains less. Further shifts can still progress payment, the permanent discount and the five-completion hidden-location milestone while relationship stays capped. Do not invent an additional lifetime two-reward limit: normal clamping applies if relationship later falls and the player again meets the+90entry gate. Other quest rules remain unchanged. Design clarification only.
+
 ## Owner-confirmed post-fifth pay and relationship rewards
 
 After the fifth successful shift, payment rises to500gold for subsequent successful completions. Current schedule:250,300,350,400,450,then500on the sixth and later; do not extrapolate above500. Every successful Assist Charity completion also awards+5to Charity’s individual relationship with that player, clamped to the shared−100to+100scale and applied exactly once for that completion. No relationship bonus for merely accepting/equipping the mask, elapsed partial coverage, rendering, reload or repeated reward clicks.
