@@ -1,3 +1,9 @@
+## Richard maid bot duties and host-offer authorization confirmed
+
+Bot handles cleaning, laundry, routine supply management, guest refreshments and guest food prep with natural deference to Richard. Purchases/new private access require authorization. Richard's actual food/drink offer already authorizes fulfillment of a guest's matching selection; no duplicate approval prompt. Saved shared delegated-hospitality requirement, real stock/preparation and exactly-once handover boundaries in draft/design/template.
+
+Branch `rebuild/1.0-foundations`; parent `44c3829`. Documentation only, no new runtime or test claim. Exact next action: continue broad Richard wardrobe/daily-social review, then implement the agreed suite and household jobs using these recorded service permissions. Public remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 .
+
 ## Richard maid bot presentation confirmed
 
 Initial owned household bot: clearly mechanical, efficient, competent and subtly dry-humored. A future flesh-covered model is Richard's likely upgrade preference when available, not an existing purchase or current bot. Saved in Richard's draft and design notes. Exact name/styling and household duty boundaries remain open.

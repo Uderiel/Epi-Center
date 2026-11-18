@@ -28,6 +28,14 @@ Richard's initial personal maid bot is clearly mechanical, efficient and compete
 
 Richard would likely upgrade to a more realistic flesh-covered model when such models become available. This is a future preference, not an acquired replacement, scheduled purchase or implemented upgrade system. No replacement model is present now.
 
+## Owner-confirmed maid bot duties and delegated service
+
+The bot independently handles routine cleaning, laundry and household supply management, offers guest refreshments, and prepares food for guests. It naturally defers to Richard's instructions. Purchases and new guest access to private rooms or work information require Richard's authorization; routine supply management does not imply unlimited purchasing power. Actual supplies, prices, owner funds, preparation time and completed housekeeping jobs must be recorded.
+
+An actual offer from Richard is sufficient authorization within its scope. If he offers a guest a drink or lists food/drink choices, the guest's selection from that offer authorizes the bot to prepare and serve it without asking Richard again. Do not add a redundant approval interaction. The offer identifies its recipient, available choices and relevant visit/context; it does not grant access to unrelated possessions, rooms or documents. A general offer permits an available matching selection; it is not unlimited stock or unlimited repeat servings. The bot follows actual stock and preparation, makes the serving usable by its intended recipient, and cannot fulfill the same selection twice after reload. Missing stock or an out-of-scope request receives a natural explanation or an alternative within the offer rather than fictitious completion.
+
+Implementation should separate Richard's authorization, guest selection, preparation job and actual handover. Already authorized service survives ordinary UI changes/reload without another approval request; leaving the visit, cancellation, fulfillment or Richard's withdrawal closes the applicable offer. Exact UI and offer-expiry tuning remain implementation choices, not new owner-authored numerical rules.
+
 ## Established foundation
 
 Richard is an adult, younger, charming, ambitious and controlling Sales and Marketing Manager. Erin is his valued secretary; Daniel leads sales and Nadia leads marketing. His dark brown hair, hazel eyes, lean athletic build and professional appearance remain. He knows he relies on Erin, and stress increases his requests for help. He considers thanks and extra pay sufficient, but payment is not consent. Existing refusal memory, exactly-once task pay, resource pools, ordinary Mental-primary civilian combat and current ten attributes remain unchanged. He never quotes the numerical bonus aloud. Home is Applewood floor 7 Suite A. Nadia does not know he lives above her; meeting her elsewhere must not disclose that automatically. No Richard form or transformation route is proposed.

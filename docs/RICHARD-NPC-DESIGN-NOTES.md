@@ -1,3 +1,11 @@
+## Owner-confirmed maid bot duties and delegated service
+
+The bot independently handles routine cleaning, laundry and household supply management, offers guest refreshments, and prepares food for guests. It naturally defers to Richard's instructions. Purchases and new guest access to private rooms or work information require Richard's authorization; routine supply management does not imply unlimited purchasing power. Actual supplies, prices, owner funds, preparation time and completed housekeeping jobs must be recorded.
+
+An actual offer from Richard is sufficient authorization within its scope. If he offers a guest a drink or lists food/drink choices, the guest's selection from that offer authorizes the bot to prepare and serve it without asking Richard again. Do not add a redundant approval interaction. The offer identifies its recipient, available choices and relevant visit/context; it does not grant access to unrelated possessions, rooms or documents. A general offer permits an available matching selection; it is not unlimited stock or unlimited repeat servings. The bot follows actual stock and preparation, makes the serving usable by its intended recipient, and cannot fulfill the same selection twice after reload. Missing stock or an out-of-scope request receives a natural explanation or an alternative within the offer rather than fictitious completion.
+
+Implementation should separate Richard's authorization, guest selection, preparation job and actual handover. Already authorized service survives ordinary UI changes/reload without another approval request; leaving the visit, cancellation, fulfillment or Richard's withdrawal closes the applicable offer. Exact UI and offer-expiry tuning remain implementation choices, not new owner-authored numerical rules.
+
 ## Owner-confirmed maid bot presentation
 
 Richard's initial personal maid bot is clearly mechanical, efficient and competent, with understated dry humor. It may speak courteously and make occasional concise observations; it is not a silent appliance or a flesh-covered humanlike model. Exact name, chassis styling and supported household duties remain to be refined. Do not infer unrestricted sentience, romantic behavior, combat abilities or access to private information from this presentation.

@@ -1,3 +1,7 @@
+## Delegated hospitality without duplicate approval
+
+An actual host offer authorizes a household assistant to fulfill the recipient's in-scope selection. Record host, guest, offered choices, visit/context, selection and fulfillment; do not ask the host to approve the same service again. Preserve real stock, funds, preparation and exactly-once item handover. Approval for refreshments does not grant unrelated private-room or computer access. Distinguish autonomous housekeeping/supply management from authorization to spend money. Richard's bot is the confirmed reference; apply this shared contract where a character actually delegates service.
+
 ## Residence classification and spatial specificity
 
 Record whether a residence is a regular unit or an explicitly confirmed suite. Follow [Applewood suite architecture](APPLEWOOD-SUITE-DESIGN.md) when applicable: expanded rooms/storage/floor space, guest bedroom and bathroom, private master bathroom and balcony. Distinguish positional relationships from doors and transit routes; a bedroom between two areas is not automatically a walkthrough. Do not infer suite status from wealth or give every resident the same extra rooms.
