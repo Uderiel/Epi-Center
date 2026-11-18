@@ -138,6 +138,14 @@ Owner accepts restrained upscale bathroom/wardrobe finishes, generous grooming s
 
 Dress shoes, socks, watches and colognes are Richard-owned items. Choosing a daily watch or shoes changes his recorded worn selection, not player inventory. Colognes need finite applications and saved chosen scent when used; inspection does not apply fragrance. Dresser drawers, tabletop display, watch choice and private changing must use actual reachable fixtures and existing private-area permission. Specific brands, prices and collection counts are implementation defaults, not newly approved real-world brands. No magical stat/authority/attraction bonus follows from expensive accessories.
 
+## Owner-confirmed conventional guest bedroom
+
+Guest room is a conventional, neutral room: comfortable double bed, bedside lamps, small dresser, hanging space and blackout blinds. No personal, private or intimate belongings are left there. Richard's private adult equipment remains elsewhere; an overnight guest does not discover it through ordinary guest storage.
+
+Artwork is generic and tasteful, with a subtly sensual suggestion rather than explicit imagery; a portrait of a beautiful adult woman is an acceptable example, not a finalized image asset. No new image is generated or claimed approved.
+
+Blackout blinds are motorized. A remote on the bedside table lets the guest open or close them. Implementation must save the actual blind position and update room lighting/descriptions; remote access does not imply access to other suite devices or private screens. Room entry follows the separate overnight invitation rule; operating the in-room remote does not require another host approval. Curtains/blinds do not change actual presence/hearing rules.
+
 ## Established foundation
 
 Richard is an adult, younger, charming, ambitious and controlling Sales and Marketing Manager. Erin is his valued secretary; Daniel leads sales and Nadia leads marketing. His dark brown hair, hazel eyes, lean athletic build and professional appearance remain. He knows he relies on Erin, and stress increases his requests for help. He considers thanks and extra pay sufficient, but payment is not consent. Existing refusal memory, exactly-once task pay, resource pools, ordinary Mental-primary civilian combat and current ten attributes remain unchanged. He never quotes the numerical bonus aloud. Home is Applewood floor 7 Suite A. Nadia does not know he lives above her; meeting her elsewhere must not disclose that automatically. No Richard form or transformation route is proposed.

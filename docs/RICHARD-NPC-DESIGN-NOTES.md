@@ -1,3 +1,11 @@
+## Owner-confirmed conventional guest bedroom
+
+Guest room is a conventional, neutral room: comfortable double bed, bedside lamps, small dresser, hanging space and blackout blinds. No personal, private or intimate belongings are left there. Richard's private adult equipment remains elsewhere; an overnight guest does not discover it through ordinary guest storage.
+
+Artwork is generic and tasteful, with a subtly sensual suggestion rather than explicit imagery; a portrait of a beautiful adult woman is an acceptable example, not a finalized image asset. No new image is generated or claimed approved.
+
+Blackout blinds are motorized. A remote on the bedside table lets the guest open or close them. Implementation must save the actual blind position and update room lighting/descriptions; remote access does not imply access to other suite devices or private screens. Room entry follows the separate overnight invitation rule; operating the in-room remote does not require another host approval. Curtains/blinds do not change actual presence/hearing rules.
+
 ## Owner-confirmed dressing and grooming details
 
 Owner accepts restrained upscale bathroom/wardrobe finishes, generous grooming space and organized clothes/accessories. Richard owns multiple pairs of dress shoes. Socks are stored in his dresser. Expensive colognes form a selection rather than one generic fragrance. A watch collection is displayed on top of the dresser so he can choose a watch for the day.

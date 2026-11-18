@@ -1,3 +1,9 @@
+## Richard guest bedroom confirmed — neutral, impersonal, motorized blinds
+
+Owner accepts conventional guest furnishings, tasteful generic subtly sensual artwork, and motorized blackout blinds with bedside remote. No personal/intimate belongings in guest room. Updated design and unpublished fixture catalog; remote state/controls and artwork asset remain pending. No new image or behavior test claimed.
+
+Branch `rebuild/1.0-foundations`; parent `ee9f713`. Syntax check only; no new release. Exact next action: finish remaining bathroom/balcony/bot-station walkthrough, then connect and test suite controls including blind persistence. Public remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 .
+
 ## Richard dressing details confirmed — shoes, socks, colognes and watches
 
 Owner accepts upscale restrained grooming/wardrobe and adds multiple dress shoes, dresser sock storage, expensive cologne choices and tabletop watch collection with daily selection. Added dresser/child fixtures and proposed unbranded sock/watch/cologne catalog entries. Ownership, selected wear/scent, finite applications and actual selection controls still require integration/tests; no runtime use or publication claimed.
