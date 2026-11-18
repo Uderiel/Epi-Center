@@ -1,3 +1,7 @@
+## Approval and integration
+
+Owner approved the revised Erin/Priya sets and all four utility views. All31images are approved. Room and hallway-utility illustrations are connected on the foundations development branch; UI publication remains pending the next tested gameplay build.
+
 # Household room-art review
 
 All 31 current illustrations are saved for owner review. Erin’s six and Priya’s six images replace rejected files in place. Accepted Richard/Nadia room images remain unchanged. Four utility-cupboard views show laundry and cleaning storage, including Richard’s bot charging stand. Floors: Priya 2F, Erin 3C, Nadia 6E, Richard 7A. Sources are approximately 3:2 for the 1100×733 display frame; per-file dimensions are in the manifest. Illustrations remain review concepts; written room graphs control gameplay.
