@@ -1,5 +1,13 @@
 # Burke’s Sweets implementation checkpoints
 
+## v1.0.113 — disposable takeaway cups
+
+Owner acceptance found 17/18 targeted v1.0.112 cases passing, with takeaway cups consumed at counter C incorrectly disappearing into the shop’s used-dish count. Disposable cups now bypass that reusable-dish branch and remain real carried empty containers in all locations. Items offers Dispose rather than hold/equip or return-for-washing; disposal removes that exact cup once, persists its disposed state, and returns to Play with a brief particles narration. The previous return-container action delegates to disposal for an already carried disposable cup. Reusable cups retain their existing washing behavior. Uncontained snacks do not create used dishes.
+
+No historical missing cup is fabricated from old used-dish totals: those totals do not distinguish disposable cups from reusable ones. New consumption and existing carried disposable cups use the corrected behavior.
+
+Regression coverage includes indoor/outdoor consumption, save/reload, one-time disposal, no resource/ownership changes, full-drink/reusable-cup rejection and preserved café dishes. See V1.0.113-OWNER-ACCEPTANCE.md for release status and owner checklist.
+
 ## v1.0.112 — checkout and preset drink preparation
 
 The public floor now supports actual goods selection into a physical shop-owned basket, register-only payment, exact owned goods, receipts, saved stock and serialized drink jobs. The existing shared drawer system handles product, cup and serving-preference selection. Successful payment empties the basket contents but leaves the borrowed basket to return. Failed payment grants nothing and preserves selections. Customers reaching C before closing may finish checkout; leaving invalidates that arrival and completed checkout cannot reopen the after-hours ticket indefinitely.

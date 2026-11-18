@@ -1,3 +1,7 @@
+## v1.0.113 takeaway-cup regression fix
+
+Owner tested v1.0.112: 17/18 targeted scenarios and existing-content spot checks passed. Takeaway consumption at C incorrectly used the reusable-dish path. Disposable cups now remain carried both indoors and outdoors, persist on reload, offer Dispose, and vanish with particles narration. Disposal is single-use, grants nothing and leaves reusable dishes unchanged. Candidate verification in progress; direct URL and owner checklist in V1.0.113-OWNER-ACCEPTANCE.md.
+
 ## v1.0.112 published and verified — Burke’s retail
 
 Checkout, physical basket contents, exact paid goods, saved preset/card drink preparation, collection, holding and free wrong-drink correction are implemented. Published and publicly verified v1.0.112: 1,376 automated cases across 82 suites, 277 local browser checks and 277 live browser checks passed. All 176 public files match gameplay commit 34fbaf95792325cbb3e67c24dfaea84dc0350204. Pages deployment 44415816678 succeeded. Existing owner saves and paid AI were not used in automated/browser testing. No owner input is pending. See V1.0.112-OWNER-ACCEPTANCE.md for direct play URL and testing checklist, and BURKES-SWEETS-IMPLEMENTATION.md for current scope and remaining work. Historical entries below must not be read as current release status.
