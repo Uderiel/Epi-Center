@@ -1,3 +1,9 @@
+## Burke’s template audit and approved wrong-order recovery
+
+Owner queried why existing templates were not being used. Apply `NPC-AND-FORM-DESIGN-TEMPLATE.md` and `FORM-LIVING-TEMPLATE.md`; reuse actual residence spatial/presence/object contracts, shared drawer frames, Cherished Touch retail and carried servings. Full character + business coverage matrix is now in `docs/BURKES-SWEETS-DESIGN.md`. No standalone fully generic business-controller/template was found; do not misrepresent existing patterns as one complete factory. Lead grouped drafts against the matrix, not isolated piecemeal questions or quest design.
+
+Also confirmed in intervening owner dialogue: actual wrong orders may arise from a random preparation roll; she apologizes/remakes for free when corrected. Rate/context modifiers remain unset; persist each resolved order outcome across reloads. Next missing character block: identity/appearance/work wardrobe, then capabilities, relationships/memory and work/service routines; approved personality need not be re-decided. Design only, public v1.0.111 unchanged.
+
 ## Burke hours approved; Daily Needs fatigue recovery added
 
 Owner approved weekday08:00–20:00, preopening fresh baking and occasional late openings after all-nighters. Tits also buys/uses specific fatigue-recovery items from Daily Needs when she misses sleep or cannot find/remember her home. These can genuinely reduce fatigue; do not equate them with mere caffeine stimulation or require sleep as the only recovery. Product details, prices, amounts and the real purchase/travel integration are deferred to the Daily Needs pass. Track her funds/items, not the player’s. Updated `docs/BURKES-SWEETS-DESIGN.md`; design only, public v1.0.111 unchanged.

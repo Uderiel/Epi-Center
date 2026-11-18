@@ -43,3 +43,38 @@ Owner approved normal weekday opening08:00 and closing20:00, with fresh baking b
 Owner clarified that Daily Needs sells specific items that genuinely reduce fatigue. Tits sometimes stops there and buys/uses those items to remain functional after staying out, forgetting to go home or forgetting where she lives. This is separate from caffeine stimulation at her own counter. Do not impose a rule that fatigue can only recover through sleep; apply the actual Daily Needs item effects once designed. Do not invent product names, prices, recovery amounts, stock, automatic free items or completed purchases. Future integration must track her own funds, actual travel, purchase and consumption, rather than charge the player or treat dialogue as a transaction.
 
 Pin this cross-location dependency for the Daily Needs location pass alongside her future residence/commute. Shop drinks remain stimulation unless their actual item design separately specifies recovery. No runtime implementation or publication in this design checkpoint.
+
+## Template coverage audit — use existing standards, not ad hoc questions
+
+Authoritative character checklist: `NPC-AND-FORM-DESIGN-TEMPLATE.md` (12 sections); validated living/body schema: `FORM-LIVING-TEMPLATE.md`. Use the existing character-home spatial/object/presence contract, shared apartment drawer frames, Cherished Touch retail validation and carried serving ownership as implementation references. A character-specific business controller is not yet a universal all-business runtime factory; do not claim a complete reusable business authoring template already exists as a standalone document.
+
+### Tits: existing NPC template application
+
+| Template section | Established | Remaining or deferred |
+| --- | --- | --- |
+| Identity/lifecycle | Named independent shop manager, only employee; earlier identity deferred | Detailed adult appearance/age, pronouns, stable actor ID, introduction/discovery; west-side home explicitly deferred |
+| Character/voice | Sincere literal-minded cheerfulness, forgetfulness, clumsiness; kindness/flirting/apology/rudeness responses and mannerisms | Contextual short dialogue across service states, interests and limits grouped in a coherent first pass; no repeated questionnaire |
+| Capabilities/profile | Human shop work, real cups/baskets/clothes; cannot lie or understand figurative language | Actual physical profile, senses, clothing/hand compatibility and engine-backed civilian resource/attribute proposal |
+| Rhythm/interruption | Weekdays08–20, baking beforehand, nightlife/missed sleep and Daily Needs dependency | Prep/cleanup durations, weekend hours, queue/interrupt/resume, meal/bathroom/rest windows and closed-shop behavior; home route deferred |
+| Home/belongings | Separate west-side home, D contains spare work clothes/heels | Home interior deferred; shop-owned belongings/custody and personal storage still need authored detail |
+| Wardrobe/care/diet | Spare clothes/heels, shop drinks, fatigue-recovery purchases later | Work/off-duty presets, grooming, meals, actual supplies; no invented complete wardrobe approval |
+| Relationships/social agency | Strong reactions to praise, direct interest, hostility/apology; only actual witnesses judge | Signed individual player relationship event defaults, familiarity/memory, contact/follow-up, access and interpersonal limits; no invented social contacts |
+| Work/public life | Real basket, A/B selections, C payment, price list and D preparation | Service state machine, order/preparation timing, stock/ingredients, fresh-baking quantities, interruption priorities and cleanup |
+| Quest/form route | Pink flavoring and BFBFF high-level effect are recorded | DEFERRED; not a requirement for ordinary shop/NPC completion |
+| Narration/AI | Literal simple voice, no dishonest intent, no invented bystanders/transactions | AI-off examples, context/privacy gates, bounded memory and feedback for actual service steps |
+| Persistence/adapters | Existing clock/inventory/relationships/navigation/retail frameworks available | Concrete Burke actor/location/order/basket records, additive migrations and exactly-once effects not implemented |
+| Completion/evidence | Source image plus owner-confirmed design decisions | No Burke gameplay implementation/tests/owner gameplay acceptance yet; track each promised slice honestly |
+
+### Business-location coverage
+
+| Area | Established | Remaining |
+| --- | --- | --- |
+| Shell/navigation | Tile63 and supplied A–D diagram, existing surface graph | Full room/fixture descriptions, entrances, public checkout path without inappropriate storage access, restricted D permission |
+| Fixtures/actions | Candy bins, bakery display, counter/register, machine, preparation equipment, real baskets | Per-object ownership, nested drawers, actions/durations, prerequisites and interruption/failure states |
+| Goods/stock | Approved ordinary menu/prices; pink flavoring excluded from ordinary sale | Portion/product definitions, finite bakery/ingredients/deliveries, spoilage if intended, lipstick/gloss details |
+| Service/transactions | Browse→basket→counter, payment→owned inventory; fresh drinks served as real items | Actual preparation queue, cup choice/handover, basket return/retention, funds/receipt/reload handling |
+| Manager/social presence | Approved personality/mood and hours | Actual legal movement, service availability, breaks, familiarity/relationship effects, departure/closure feedback |
+| Order correction | Owner APPROVED random mistakes can produce a real wrong order; on correction she apologizes and remakes it free | Roll rate and context modifiers unspecified. Keep the result on the actual order through reload, no extra charge or repeated reward/stock duplication. Implementation pending |
+| Verification | Existing common test patterns available | Complete shopping day, delays/interruptions, wrong-order correction, empty stock, held items, alternate bodies, permission barriers, reloads and mobile UI |
+
+Next review should follow this matrix in grouped character/location passes, beginning with the missing identity/appearance/work-wardrobe block, rather than treating an isolated answer as completion or asking the owner to choose what remains. Produce coherent labelled defaults and bring back consequential open decisions together. Keep all quest/residence dependencies deferred as agreed.
