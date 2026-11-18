@@ -1,3 +1,15 @@
+## v1.0.106 — finished, published and verified
+
+[Play v1.0.106](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.106). Runtime **`ad28cc1d3ba48a654f5ce15f1be6679a6e458abe`** is on `rebuild/1.0-foundations` and `main`. [Pages Actions run 44303324525](https://github.com/Uderiel/Epi-Center/actions/runs/44303324525) succeeded. All **25** checked deployed runtime files match the tested local bytes.
+
+**1,178 named automated cases across 64 suites; 143 local and 143 public browser checks pass** (78 existing/regression, 38 cat/household, 27 Erin refinement). Syntax, module paths, whitespace and current documentation links pass. Browser tests use isolated synthetic saves and mocked generation, not owner data or paid-provider calls.
+
+Implemented: ongoing Erin read/watch/bath/cook/eat/dishes/awake-rest/nap sessions and completion/satisfaction; couch blanket; revocable mastered interval/day/bedtime delegation through existing home/office adapters; occasional contextual private commentary; bounded natural departures for the four current NPCs; actual Priya writing/cat chatter; separate saved home personal email with Priya and AI expansion; day/state work inbox with stable references; separate Scheduler booking/cancellation. Existing art, original identity/resources, mastery, belongings and save slots remain intact. [Implementation](ERIN-REFINEMENT-IMPLEMENTATION.md) · [Owner checklist](V1.0.106-OWNER-ACCEPTANCE.md).
+
+Limits: no new automatic city commute, independent offscreen Erin, phone, full Maya/Lena actors, new shops/restaurants or new weekly social scheduler. Future form activity/delegation adapters need their own authored capabilities. Real Featherless quality, private Worker deployment, native Android and the owner’s long-running saves still need acceptance. Existing Priya cat/flats/visits remain covered by regression; no owner save was reset.
+
+Exact next action: owner acceptance when safely parked using the linked version/checklist, then reproduce corrections. In parallel, Nadia is the recommended next character-design review; established addresses remain Nadia 6E, Daniel/Crystal 4C and Richard 7A, with full interiors still to design. Universal template and Erin/handoff/design/README/changelog documents are updated. This following evidence commit changes no runtime; earlier pending notes below are historical.
+
 ## v1.0.106 — final verification candidate
 
 Branch `rebuild/1.0-foundations`; prior runtime checkpoint fae9c56. Approved Erin refinements are implemented: saved sustained activities and satisfaction, couch blanket, revocable mastered delegation, contextual commentary, natural NPC departure, Priya audible household chatter, personal email, state-specific work inbox and separate Scheduler. Existing saves/art/core mastery and resources are preserved. [Implementation](ERIN-REFINEMENT-IMPLEMENTATION.md) · [Owner checklist](V1.0.106-OWNER-ACCEPTANCE.md).

@@ -1,6 +1,6 @@
-## v1.0.106 candidate — Erin daily interaction refinement
+## v1.0.106 — published and verified
 
-Saved ongoing activities, reading satisfaction, couch blanket, revocable mastered delegation, contextual commentary, natural NPC departures, personal home email, day/state work inbox and separate Scheduler. [Implementation and limits](docs/ERIN-REFINEMENT-IMPLEMENTATION.md) · [Owner checklist](docs/V1.0.106-OWNER-ACCEPTANCE.md) · [Publication status](docs/CURRENT-STATUS.md).
+[Play v1.0.106](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.106). Passed 1,178 automated cases and 143 local/143 public browser checks. Saved ongoing activities, reading satisfaction, couch blanket, revocable mastered delegation, contextual commentary, natural NPC departures, personal home email, day/state work inbox and separate Scheduler. [Implementation and limits](docs/ERIN-REFINEMENT-IMPLEMENTATION.md) · [Owner checklist](docs/V1.0.106-OWNER-ACCEPTANCE.md) · [Publication status](docs/CURRENT-STATUS.md).
 
 ## v1.0.105 — published and verified
 
