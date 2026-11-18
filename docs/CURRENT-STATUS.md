@@ -1,3 +1,9 @@
+## Richard household refinement — draft ready for owner review
+
+Following published v1.0.107, Richard is the active next character; Nadia/Dart owner testing remains pending and does not block design work. Read [Richard household/refinement draft](RICHARD-HOUSEHOLD-REFINEMENT-DRAFT.md). Existing manager identity, Suite7A, secretary boundaries, task payments, office systems and civilian combat remain canon. New home atmosphere, routines, interests, wardrobe, food and social depth are explicitly proposed, not implemented or published. No new form, romance gate, faction allegiance or pet is assumed.
+
+Branch `rebuild/1.0-foundations`; parent `06adfb5`. Documentation only; no gameplay change or new test claim. Exact next action: review the broad Richard draft with the owner, capture refinements, then implement the agreed household slice using shared systems. Keep v1.0.107 owner checklist active and resolve reported regressions. Public game: https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 . Character queue: Richard → Daniel Mercer → sales employee.
+
 ## v1.0.107 — published and publicly verified
 
 [Play v1.0.107](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107). Tested runtime commit `a8e33b2a9d11c2e361bfca8819bda96d39ac6acf` on `rebuild/1.0-foundations` and `main`. Passed **1,235 automated cases across 70 suites**, **160 local and 160 public browser checks** (78 existing-world, 38 Priya-cat, 27 Erin, 17 Nadia), and **32 deployed runtime-file comparisons**. [Successful Pages deployment](https://github.com/Uderiel/Epi-Center/actions/runs/44319985615). Evidence: `docs/releases/v1.0.107-*`.

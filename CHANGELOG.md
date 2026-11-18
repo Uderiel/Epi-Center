@@ -1,3 +1,7 @@
+## Richard refinement draft — development only
+
+[Review draft](docs/RICHARD-HOUSEHOLD-REFINEMENT-DRAFT.md) prepared using the universal template. No new gameplay or publication; v1.0.107 remains live.
+
 ## v1.0.107 — published and publicly verified
 
 [Play v1.0.107](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107). Tested runtime commit `a8e33b2a9d11c2e361bfca8819bda96d39ac6acf` on `rebuild/1.0-foundations` and `main`. Passed **1,235 automated cases across 70 suites**, **160 local and 160 public browser checks** (78 existing-world, 38 Priya-cat, 27 Erin, 17 Nadia), and **32 deployed runtime-file comparisons**. [Successful Pages deployment](https://github.com/Uderiel/Epi-Center/actions/runs/44319985615). Evidence: `docs/releases/v1.0.107-*`.
