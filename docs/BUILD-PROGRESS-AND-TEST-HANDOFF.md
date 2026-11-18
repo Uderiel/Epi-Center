@@ -1,3 +1,7 @@
+## Burke public fixture/navigation foundation complete; retail authorized next
+
+Working foundation on foundations: A/B/C public route, D restriction, shared fixture drawers, generic business navigation/scene registration, physical tracked basket pickup/return/Items/reload, mapped location references. 1,361automated cases/81suites and27local browser checks pass. See BURKES-SWEETS-IMPLEMENTATION.md and burkes-foundation reports. Not published; v1.0.111 remains public. Owner explicitly asked to proceed with checkout and drink preparation next; do not ask for permission again or wait for owner input. Preserve paid ownership, exact receipt/basket state, real prepared servings and all settled design.
+
 ## Burke customer route drafted without prep-room shortcut
 
 Continue working independently; owner need not supply more general retail decisions. Proposed public flow: entrance/basket A↔bakery B; customer approaches C’s public-facing register position from sales floor, without stepping behind the counter. B↔D↔C staff circulation remains restricted; ordinary checkout never enters D. This is a service-position interpretation, not a newly approved door/new room or exact implemented graph. Concrete proposal recorded in BURKES-SWEETS-DESIGN.md, with any remaining physical counter-boundary ambiguity labelled. Next: fixture/action/permission inventory, then public-navigation implementation. Public v1.0.111 unchanged.

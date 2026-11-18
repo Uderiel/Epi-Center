@@ -8,5 +8,5 @@ function space(s,id,carried=false){if(extraActors.has(id))return extraActors.get
 function present(s,id){return !!defs[id]&&space(s,id)===player(s);}
 function listeners(s){return Object.entries(defs).filter(([id])=>present(s,id)).map(([id,d])=>({id:'npc:'+id,name:d.name})).concat((s.world?.localPlayers||[]).filter(p=>p.present&&p.space===player(s)).map(p=>({id:p.id,name:p.name})));}
 function speak(s,text,directedTo=null){if(s.world?.priyaFlats?.active)throw Error('An inanimate body cannot speak aloud.');const parsed=I.parse(text),spoken=parsed.expressed.replace(/^(?:speaking to (?:the )?(?:room|conference room)|to (?:the )?room)\s*[:,]?\s*/i,'').trim();if(!spoken)return null;const heard=listeners(s);if(directedTo&&!heard.some(x=>x.id===directedTo))throw Error('That recipient is no longer in your room or tile.');s.world||={};s.hub||={};const events=s.world.localSpeech||=[];const e={id:(s.hub.speechSequence=(s.hub.speechSequence||0)+1),at:s.worldClock?.minutes||0,space:player(s),speaker:s.name,text:spoken,directedTo,listeners:heard.map(x=>x.id)};events.push(e);s.world.localSpeech=events.slice(-40);return e;}
-return Object.freeze({registerHome,registerActor,defs,actor,player,space,present,listeners,speak});
+return Object.freeze({registerLocation:registerHome,registerHome,registerActor,defs,actor,player,space,present,listeners,speak});
 });

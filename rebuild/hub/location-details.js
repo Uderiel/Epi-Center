@@ -3,6 +3,15 @@
 'use strict';
 const room=(id,name,description,exits,level,x,y,w=170,h=100)=>({id,name,description,exits,level,box:[x,y,w,h]});
 const locations={
+ "Burke's Sweets":{
+  reference:63,source:['Owner-supplied Burke’s Sweets sheet'],interactive:true,hours:'Weekdays08:00–20:00; weekend hours not recorded',schedule:{weekdays:[480,1200],weekends:null},
+  summary:'Burke’s Sweets has a candy entrance, bakery display and customer-facing café/register. Its preparation/storage area is staff-only.',staff:[['Tits','Shop manager · only employee']],
+  entrance:'Enter through the candy area. The public floor reaches the bakery and customer side of the register. Staff circulation connects preparation/storage; it is not a checkout shortcut.',
+  levels:[{id:'ground',name:'Ground floor · public frontage and staff boundary',width:450,height:320}],
+  rooms:[room('A','Candy / Entrance','Candy bins, pink cosmetics, bracelet display and physical shop baskets.',['B','C'],'ground',20,20),room('B','Bakery display','Baked goods and decorating supplies; preparation access remains restricted.',['A','D'],'ground',20,180),room('C','Register / Café frontage','Customer service position at the pink-and-white counter; coffee equipment is behind the counter.',['A','D'],'ground',240,20),room('D','Preparation / Storage','Staff-only baking equipment, spare stock and work clothes.',['B','C'],'ground',240,180)],
+  offerings:['Public exploration, nested fixture drawers and tracked shop-basket pickup/return are available.','Candy5gold; cupcakes/cake pops8; truffle/slice12; whole cake60. Prices are previews until checkout is connected.','Coffee6gold; espresso10; double espresso16; flavored latte20. Drinks are not issued by viewing the menu.','Matching BFBFF bracelet pair1,000gold; purchasing and linked-wearer effects are not connected yet.'],
+  notes:['A-to-C is an approach to the customer-facing counter position, not a new door or permission behind the counter.','Daily courier stock count21:30, delivery06:00 and authorized courier key are design only; no courier spawned.','Character routines, real retail preparation and quests remain separate work.']
+ },
  'Form Repository':{
   reference:64,source:['4528.jpg'],hours:'Open 24 hours daily',schedule:{weekdays:[0,1440],weekends:[0,1440]},
   summary:'A round-the-clock facility for personally owned forms and cursed objects, with a waiting lobby, illuminated form displays, a service desk and secure sublevel suites.',
