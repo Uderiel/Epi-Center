@@ -1,3 +1,7 @@
+## Legacy recovery supersedes blank-slate questions
+
+See CHARITY-LEGACY-AUDIT.md. Charity’s kind/patient/mischievous/guarded personality, appearance, five quest concepts and two prices already exist. Expand those records rather than asking the owner to redesign her basic archetype. Earlier suggestions below are proposals only.
+
 # Cherished Touch expansion — review draft
 
 Owner redirects the next design from a sales employee to locations/economy, starting with Cherished Touch because of its early First Steps role. Existing v1.0.109 acceptance continues separately.

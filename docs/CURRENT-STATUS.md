@@ -1,3 +1,7 @@
+## Charity legacy recovered — next discussion grounded in existing design
+
+Owner explicitly requests legacy-first review of Charity “The Gifted Gabber.” Audit saved in CHARITY-LEGACY-AUDIT.md: established personality/appearance, Countess opposition and bounded resistance/knowledge, five existing quest concepts, posted50gold umbrella/150gold Mystery Box, Mon–Fri24h display, temporary-mask6-hour shop coverage safeguards. These designs are largely informational, not playable services. Next: refine her actual voice/routine and store-hours coverage, then catalogue/economy and Advertising Job, then Assist Charity. Preserve First Steps and concealed disclosure gates. No gameplay change.
+
 ## Next active design — Cherished Touch and the shop economy
 
 Owner redirects from a sales employee to Cherished Touch. Baseline/source audit and connected review proposal saved in CHERISHED-TOUCH-EXPANSION-DRAFT.md. No shop changes or prices implemented. Existing map, First Steps and concealed-feature restrictions preserved. Next: discuss service/operating style and entry-level versus premium pricing, then draft catalogue/transactions/Charity household in the universal template. v1.0.109 remains published; owner requests its acceptance checklist pasted directly in chat as basic text.
