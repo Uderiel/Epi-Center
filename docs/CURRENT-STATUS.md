@@ -1,3 +1,7 @@
+## Erin refinement implementation starting — correspondence and scheduler added
+
+Branch `rebuild/1.0-foundations`; parent 3d63b98. Owner adds day/state-specific work correspondence, a separate home personal email app for integrated contacts, and appointment booking through a distinct Scheduler. Prior approved scope includes sustained activities/satisfaction, contextual commentary, natural departures, couch blanket and revocable mastered delegation. Design notes saved; runtime implementation and new tests are starting. Public v1.0.105 remains unchanged. Exact next action: implement correspondence/scheduler and shared activity/delegation adapters, run targeted/full regression and browser checks, update handoff before tested publication. No runtime success or106release claimed yet.
+
 ## Voluntary mastered-form delegation — owner decision saved
 
 Branch `rebuild/1.0-foundations`; parent efdaea1. Owner authorizes a collaborative design where mastered active conscious forms may lead an agreed routine, interval or day until bedtime, with unconditional player reclaim and permanent mastery preserved. Recorded separate saved scope/expiry, physical interruption, body/authority boundaries and acceptance criteria in template and Erin draft. Existing routine delegation is not proof of full timed/day support. Documentation only; no new runtime/tests or publication. Exact next action: finish Erin design review, then implement agreed activity/delegation contracts through existing adapters and validate expiry/reclaim/reload/resource behavior. Public105 unchanged.
