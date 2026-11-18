@@ -31,6 +31,7 @@ const rooms={
 };
 const fixtures={
  F:{
+  scheduler:{name:'Scheduler & appointment book',description:'The dedicated scheduler shows agreed appointments, approved meeting requests, available booking times and cancellations. It uses the department’s shared calendar.'},
   desk:{name:'Reception desk & computer',description:'Erin’s mahogany desk runs parallel to the north wall. Its computer, phone and document trays organize the department’s daily work. Richard’s accepted report assignment can be prepared here.'},
   armchair:{name:'Leather waiting chairs',description:'Leather armchairs sit along the southern waiting area on either side of the central walkway.'},
   tables:{name:'Two small side tables',description:'Each waiting area has a small table with flowers and reading material. Both tables leave the center aisle clear.'},

@@ -1,3 +1,9 @@
+## Erin refinement runtime checkpoint — unpublished candidate
+
+Branch `rebuild/1.0-foundations`; parent936b41e. First runtime candidate adds actual saved Erin read/watch/bath/awake-rest/nap/cooking/eating/dishes sessions, continue/stop, real couch blanket, recent-reading satisfaction, mastered interval/day/bedtime delegation and reclaim, bounded private commentary, personal home email/drafts/threads/AI expansion, day/state work email and separate Scheduler. Shared NPC departure guards and actual Priya writing/cat chatter are wired.15targeted cases pass; prior full run passed1,159named cases before the latest departure/ambience hooks. Full rerun active. No public106 or browser-success claim.
+
+Exact next action: add direct departure/ambience/AI tests, inspect full regression, exercise actual UI with isolated browser saves, fix failures, then version/release docs and tested publication. Personal correspondence is in-game only. Public105/runtimeb55af9c remains unchanged. Owner saves untouched.
+
 ## Erin refinement implementation starting — correspondence and scheduler added
 
 Branch `rebuild/1.0-foundations`; parent 3d63b98. Owner adds day/state-specific work correspondence, a separate home personal email app for integrated contacts, and appointment booking through a distinct Scheduler. Prior approved scope includes sustained activities/satisfaction, contextual commentary, natural departures, couch blanket and revocable mastered delegation. Design notes saved; runtime implementation and new tests are starting. Public v1.0.105 remains unchanged. Exact next action: implement correspondence/scheduler and shared activity/delegation adapters, run targeted/full regression and browser checks, update handoff before tested publication. No runtime success or106release claimed yet.
