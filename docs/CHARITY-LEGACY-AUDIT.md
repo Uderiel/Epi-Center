@@ -1,3 +1,9 @@
+## Protected suits pinned; first profile and mandatory replacements recorded
+
+Owner defines Suit1at framework level: adult21-year-old Egyptian woman, about5ft1in, long raven-black hair/straight bangs, radiant bronze skin, striking brown eyes; strongly flirtatious Arousal archetype and permanent Fire and Ice service/bottle-worker NPC assignment, loyal/compelled to the venue’s managerial role. Captivating appearance is not a literal entrancement effect. Other two profiles and venue details are deferred by owner. Full essentials: CHARITY-PROTECTED-SUITS-DESIGN.md.
+
+Owner also confirms that wearing any protected trap suit triggers provision of a replacement, keeping Charity stocked with THREE whether she wants them or not. This is independent of retail/Monday deliveries and the sympathetic organiser. A prohibited-use path may be pursued despite warnings, but its details are pinned; do not turn it into free retail access or invent actual implementation. Exact replacement profile/mechanism remains unspecified. No gameplay change.
+
 ## Owner-confirmed protected skinsuits — three Countess-supplied NPC traps
 
 Charity holds EXACTLY THREE special skinsuits supplied by the Countess. Owner establishes the broader setting direction that almost every shop owner has a particular set of such intended traps for new players; do not generalise this to every merchant or invent other merchants’ specific stock/behavior. The three would permanently override a player’s base form and assign them an NPC role. They are NOT normal collectible forms, Mystery Box contents, regular enchanted clothing or Charity’s temporary coverage mask/twentieth-mastery trial.

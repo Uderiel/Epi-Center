@@ -1,3 +1,7 @@
+## Protected suit framework pinned for later
+
+Suit1FireandIceadult service/bottle-worker profile saved in CHARITY-PROTECTED-SUITS-DESIGN.md; other2undefined. Owner prioritises location foundations and defers suit/venue depth. Any actual worn trap suit is replaced so Charity keeps3regardless of her wishes; separate from Monday retail deliveries/helper. No implementation or save changes. Next return to Cherished Touch’s broader framework and already-approved enchanted coding, without reopening decided retail rules or asking for more suit profiles now.
+
 ## Charity protected suits defined
 
 Owner: exactly3Countess-supplied suits would permanently replace base form and assign NPC roles. Charity refuses sale/use, secures them and proactively warns admitted visitors of effects while withholding Countess provenance. Separate from coverage mask/20thtemporary trial. Owner suggests+70ordinary private-hall relationship threshold; not previously fixed (+75is lore,+90is coverage), so confirm precise value. No automatic room unlock/handling or NPC omniscience. No runtime changes; enchanted coding still outstanding on foundations.
