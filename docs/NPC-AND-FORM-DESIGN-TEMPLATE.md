@@ -183,3 +183,5 @@ Use the shared-activities registry/lifecycle for invitations, identity/location 
 ## Knowledge, resistance and enforced limitations
 
 Keep actual awareness/resistance, the system’s recognition of it, freedom of action and permissible disclosure as separate design fields. Charity is the confirmed example: greater resistance than the game detects, yet still captive and restricted. Do not infer omniscience, immunity or a new numerical mechanic. Define enforcement and observable responses before implementing restricted dialogue.
+
+Charity disclosure example: relationship75+is eligibility for selective sensitive conversation, not automatic full disclosure. Consequence reminders differ from direct speech censorship. Record reminder audience, trigger, cooldown and actual authored consequence separately. Preserve distinct quest-trust and world-progression gates.

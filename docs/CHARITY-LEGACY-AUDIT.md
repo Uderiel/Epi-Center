@@ -2,6 +2,12 @@
 
 Sources inspected: epi-center-v0.8.71-cherished-touch-foundation.html and epi-center-v0.8.84-attribute-foundation-corrections.html (CherishedTouch871 quests/charity/panel); docs/EPI-CENTER-CHANGELOG.md, October25Cherished Touch notes; docs/EPI-CENTER-PROJECT-HANDOFF.md; docs/Epi-Center-Character-Design-Gap-Audit.md CP013; docs/CHERISHED-TOUCH.md; current cherished-touch.js/UI, ai-context.js and interactCharity in index.html.
 
+## Owner refinement — disclosure relationship gate and consequence reminders
+
+Owner sets Charity’s sensitive disclosure threshold at relationship75or higher on the shared per-NPC/per-player signed−100to+100scale. She needs trust in the particular player because she does not know which side they will choose. Threshold eligibility permits selective disclosure; it does not automatically reveal every secret, force a conversation, grant private-area access or establish omniscience. Keep this relationship75gate distinct from the legacy Assist Charity100%trust design and unresolved Hub Cylinder gates.
+
+The system does not directly censor/block her speech in this design. Instead, it can remind her of consequences for being too explicit or honest about what can happen to players. Charity remains responsible for choosing her words and caution within that pressure. The form, audience, trigger cadence and actual consequences of reminders remain unresolved; do not invent punishments, stat loss, forced transformations, attacks, player knowledge or a new numerical resource. Next clarify whether reminders are private to Charity or perceptible to the player, then define authored limited disclosure topics.
+
 ## Owner refinement — voice and concealed resistance confirmed
 
 Owner confirms the proposed conversational direction: Charity is a big talker, makes conversation easily, remembers personal details, uses gentle teasing and steers unsafe questions away. Her capacity to resist exceeds what the game recognizes, but she remains captive to it and restricted in her options. Do not treat resistance as freedom from the system, omniscience, complete recovered memory or unrestricted disclosure. Exact enforcement of those restrictions (speech, actions, travel, warnings or consequences) remains to be clarified with the owner. This is a design confirmation, not an implemented mechanic or a new resistance statistic.

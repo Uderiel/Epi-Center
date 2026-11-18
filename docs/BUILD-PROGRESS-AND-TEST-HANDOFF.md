@@ -1,3 +1,7 @@
+## Charity disclosure refinement — relationship75+
+
+Owner sets sensitive disclosure eligibility at per-player relationship75or higher. No direct speech block; the game reminds Charity of consequences for excessive explicitness/honesty. Exact reminder visibility, triggers and consequences remain to be designed. Keep75relationship separate from Assist Charity100%trust and cylinder progression. Next clarify whether reminders are private or observable, then author bounded disclosure topics. Design only; no gameplay change.
+
 ## Charity refinement — concealed resistance and continued captivity
 
 Owner confirms big-talker conversational proposal and resistance beyond what the game detects, while Charity remains captive/restricted. Saved in CHARITY-LEGACY-AUDIT.md and universal template. Next: clarify how restrictions constrain disclosure/actions before designing actual enforcement. No gameplay changes or publication.
