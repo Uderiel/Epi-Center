@@ -1,3 +1,7 @@
+## v1.0.109 publication complete
+
+Shared activities, Priya feedback and approved room-art integration are live and publicly verified. See [owner checklist with playable link](V1.0.109-OWNER-ACCEPTANCE.md). No approval or deployment pending. Next: owner acceptance and concrete corrections; multiplayer/general restocking/additional NPC adapters remain future work.
+
 ## v1.0.109 authorized publication
 
 Release shared activities and approved household room art after final checks; no further owner approval pending. Owner checklist includes the playable109link. Verify Pages and public flows, then record the tested commit and results.

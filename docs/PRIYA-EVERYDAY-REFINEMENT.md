@@ -1,3 +1,7 @@
+## Published in v1.0.109
+
+This implementation is now live and publicly verified. [Playable link and checklist](V1.0.109-OWNER-ACCEPTANCE.md). Earlier development-only statements below are historical.
+
 # Priya everyday refinement
 
 ## Priya everyday interaction — first refinement implemented on development

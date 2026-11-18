@@ -1,0 +1,18 @@
+{
+  "version": "1.0.109",
+  "runtimeCommit": "383fc926b3fe3a1284a15fb068863a775e0d1597",
+  "origin": "https://uderiel.github.io/Epi-Center",
+  "passed": true,
+  "checks": 205,
+  "flows": {
+    "legacy": 78,
+    "cat": 38,
+    "erin": 27,
+    "nadia": 21,
+    "richard": 18,
+    "corrections": 10,
+    "shared": 8,
+    "everyday": 5
+  },
+  "scope": "Isolated synthetic saves, AI off/mocks; existing owner saves untouched"
+}

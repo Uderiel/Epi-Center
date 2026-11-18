@@ -1,6 +1,6 @@
 ## Approval and integration
 
-Owner approved the revised Erin/Priya sets and all four utility views. All31images are approved. Room and hallway-utility illustrations are connected on the foundations development branch; UI publication remains pending the next tested gameplay build.
+Owner approved the revised Erin/Priya sets and all four utility views. All31images are approved. All room and hallway-utility illustrations are connected in the published v1.0.109 game.
 
 # Household room-art review
 

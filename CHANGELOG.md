@@ -1,6 +1,10 @@
-## v1.0.109 — release candidate
+## v1.0.109 — published and publicly verified
 
-Shared home activities, contextual Priya feedback and approved household room art. [Playable link and testing checklist](docs/V1.0.109-OWNER-ACCEPTANCE.md). Publication verification is in progress; CURRENT-STATUS records final deployment evidence.
+**[Play v1.0.109](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.109)** · [Testing checklist](docs/V1.0.109-OWNER-ACCEPTANCE.md). Runtime `383fc926b3fe3a1284a15fb068863a775e0d1597` is published on main and foundations. [Pages deployment44364156631](https://github.com/Uderiel/Epi-Center/actions/runs/44364156631) succeeded. **1,295automated cases across76suites,205local and205public browser checks passed;166public runtime/image files match**. Evidence: `docs/releases/v1.0.109-release-summary.json`, `v1.0.109-tests.json`, `v1.0.109-public-browser-summary.json`, `v1.0.109-live-verification.json`.
+
+Included: reusable shared activities with Priya and equipped Erin in either home, saved invitations/progress/pause/departure, immediate delegation/reclaim lead updates, real meal preparation, local/private AI context, Priya’s mid-routine feedback and all31owner-approved room/utility illustrations connected in-game. No network multiplayer or additional NPC activity adapter is claimed. Existing owner saves were not modified; real AI prose, Android usability, owner saves and long-session balance remain owner acceptance. General restocking and additional recipes remain deferred.
+
+**Next exact action:** owner testing through the linked checklist, then reproduce and fix concrete findings. No deployment/check is still running or waiting on owner approval. Documents and universal design template reflect this implementation. Earlier candidate/development-only entries below are historical.
 
 ## v1.0.108 — published and publicly verified
 

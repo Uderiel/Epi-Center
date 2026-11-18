@@ -1,0 +1,25 @@
+{
+  "version": "1.0.109",
+  "runtimeCommit": "383fc926b3fe3a1284a15fb068863a775e0d1597",
+  "automatedCases": 1295,
+  "automatedSuites": 76,
+  "localBrowserChecks": 205,
+  "publicVerification": "passed",
+  "deploymentRun": 44364156631,
+  "playUrl": "https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.109",
+  "ownerChecklist": "docs/V1.0.109-OWNER-ACCEPTANCE.md",
+  "ownerAcceptancePending": [
+    "Existing owner saves",
+    "Live paid AI prose quality",
+    "Native Android usability",
+    "Long-session balance"
+  ],
+  "deferred": [
+    "Network multiplayer",
+    "Additional NPC activity adapters",
+    "General household restocking",
+    "Additional recipes and ingredient choices"
+  ],
+  "publicBrowserChecks": 205,
+  "matchedPublicFiles": 166
+}
