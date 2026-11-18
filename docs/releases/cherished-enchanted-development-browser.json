@@ -1,0 +1,188 @@
+{
+  "checkpoint": "Unpublished foundations enchanted counter checkpoint",
+  "runs": [
+    {
+      "scope": "enchanted",
+      "origin": "http://127.0.0.1:8767",
+      "checks": [
+        {
+          "name": "entry uses existing sales floor and preserves intro visit without requiring purchase",
+          "passed": true
+        },
+        {
+          "name": "enchanted display lists all seven approved items in shared drawer",
+          "passed": true
+        },
+        {
+          "name": "payment grants real gear and decrements finite stock",
+          "passed": true
+        },
+        {
+          "name": "cooldown rejects another display purchase without charging",
+          "passed": true
+        },
+        {
+          "name": "Mystery Box purchase remains available during cooldown",
+          "passed": true
+        },
+        {
+          "name": "equipping shirt raises displayed maximum to110 without healing current health",
+          "passed": true
+        },
+        {
+          "name": "reload preserves gear maximum and damage",
+          "passed": true
+        },
+        {
+          "name": "removal clamps healed excess and re-equip never refills",
+          "passed": true
+        },
+        {
+          "name": "re-equip keeps current health100 below maximum110",
+          "passed": true
+        },
+        {
+          "name": "sold-out item stays sold out before Monday06",
+          "passed": true
+        },
+        {
+          "name": "Monday06 refills to cap",
+          "passed": true
+        },
+        {
+          "name": "new purchase works after elapsed cooldown",
+          "passed": true
+        },
+        {
+          "name": "actual combat entry uses110 Health maximum without refilling current Health",
+          "passed": true
+        },
+        {
+          "name": "canonical outdoor time applies Dryweave rain protection and records a real trail",
+          "passed": true
+        },
+        {
+          "name": "scent-masked travel records a masked fresh trail and keeps speech and sight detectable",
+          "passed": true
+        },
+        {
+          "name": "enchanted drawer fits mobile viewport",
+          "passed": true
+        },
+        {
+          "name": "no uncaught browser errors",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "scope": "Synthetic local save; no owner data or AI calls",
+      "origin": "http://127.0.0.1:8767",
+      "checks": [
+        {
+          "name": "entry uses existing sales floor and preserves intro visit without requiring purchase",
+          "passed": true
+        },
+        {
+          "name": "category opens a single style drawer instead of multiple input fields",
+          "passed": true
+        },
+        {
+          "name": "Back retains selected color in the parent drawer",
+          "passed": true
+        },
+        {
+          "name": "basket selection grants no item or charge",
+          "passed": true
+        },
+        {
+          "name": "real closed fitting stall previews shop property without ownership",
+          "passed": true
+        },
+        {
+          "name": "register charges exact price and grants the selected owned variant",
+          "passed": true
+        },
+        {
+          "name": "purchased item receipt and currency survive reload without duplicate payment",
+          "passed": true
+        },
+        {
+          "name": "custom bundle charges45 and grants exactly five chosen pieces",
+          "passed": true
+        },
+        {
+          "name": "purchased clothing appears in actual Items tab",
+          "passed": true
+        },
+        {
+          "name": "owned item equips through existing inventory and appears in current appearance",
+          "passed": true
+        },
+        {
+          "name": "store controls fit phone viewport",
+          "passed": true
+        },
+        {
+          "name": "other save slot original item and resources remain intact",
+          "passed": true
+        },
+        {
+          "name": "no uncaught browser errors",
+          "passed": true
+        }
+      ],
+      "errors": []
+    },
+    {
+      "scope": "mystery",
+      "origin": "http://127.0.0.1:8767",
+      "checks": [
+        {
+          "name": "entry uses existing sales floor and preserves intro visit without requiring purchase",
+          "passed": true
+        },
+        {
+          "name": "counter opens Mystery Box quantity drawer",
+          "passed": true
+        },
+        {
+          "name": "three boxes enter basket without payment or rolling",
+          "passed": true
+        },
+        {
+          "name": "counter purchases three basic silver jewelry pieces",
+          "passed": true
+        },
+        {
+          "name": "paid jewelry rolls and lifetime counter persist through reload",
+          "passed": true
+        },
+        {
+          "name": "lifetime limit removes purchase buttons and backend rejects a fourth box without charge",
+          "passed": true
+        },
+        {
+          "name": "Items equips jewelry and current stats show its actual attribute bonus",
+          "passed": true
+        },
+        {
+          "name": "removing jewelry removes only its worn bonus",
+          "passed": true
+        },
+        {
+          "name": "jewelry drawer fits mobile viewport",
+          "passed": true
+        },
+        {
+          "name": "no uncaught browser errors",
+          "passed": true
+        }
+      ],
+      "errors": []
+    }
+  ],
+  "checks": 40,
+  "passed": true
+}
