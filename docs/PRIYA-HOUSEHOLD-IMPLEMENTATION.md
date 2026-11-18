@@ -1,3 +1,7 @@
+## v1.0.105 implementation update
+
+The approved first cat/daily-life package is implemented; see [current implementation and limits](PRIYA-CAT-IMPLEMENTATION.md) and [acceptance checklist](V1.0.105-OWNER-ACCEPTANCE.md). Earlier draft/deferred statements below describe previous checkpoints. Publication evidence belongs in CURRENT-STATUS.md.
+
 Published and verified: v1.0.103, runtime `76c4942`;1,090automated cases and65local/65public browser groups pass. Public source bytes match. See [current status](CURRENT-STATUS.md) and [owner checklist](V1.0.103-OWNER-ACCEPTANCE.md).
 
 # Priya household actions — v1.0.103

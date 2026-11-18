@@ -1,3 +1,7 @@
+## v1.0.105 implementation update
+
+The approved first cat/daily-life package is implemented; see [current implementation and limits](PRIYA-CAT-IMPLEMENTATION.md) and [acceptance checklist](V1.0.105-OWNER-ACCEPTANCE.md). Earlier draft/deferred statements below describe previous checkpoints. Publication evidence belongs in CURRENT-STATUS.md.
+
 # Priya daily life — broad review draft
 
 Status: overall rhythm approved by owner; implementation pending. Detailed implementation defaults remain proposals. Requested after v1.0.104 to finish Priya in coherent batches rather than choosing every minute/item individually. Public runtime remains1931b6c, evidence27acb49. No gameplay or public deployment changes in this checkpoint.

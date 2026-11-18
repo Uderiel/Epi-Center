@@ -1,3 +1,9 @@
+## v1.0.105 — tested completion candidate, publication pending
+
+Branch `rebuild/1.0-foundations`; previous checkpoint `923dba4`. The approved first Priya package is implemented: Common cat acquisition/mastery and stay agreement; voluntary contact, care, safe window route, collar belief/protest/removal, real basic boutique purchases and a scheduled home date; timed household routines and physical travel; real offered snack/drink inventory; permanent mastered-flats replay. Existing saves migrate additively. No owner save was opened or reset.
+
+Validation: 1,144 named automated cases across 63 suites, 78 legacy and 38 cat/household local browser checks pass. Syntax/module paths and whitespace pass. Exact runtime commit and public evidence follow publication. See [implementation](PRIYA-CAT-IMPLEMENTATION.md) and [owner checklist](V1.0.105-OWNER-ACCEPTANCE.md). Current public release remains v1.0.104 until confirmed below. Exact next action: finish regression, commit the tested candidate, publish, compare deployed bytes and run both public browser suites.
+
 ## Priya105 integration checkpoint — browser fixes in progress
 
 Branch `rebuild/1.0-foundations`; parentb6245cf; public104 unchanged. Daily controller now runs timed actual-room routines, pantry-backed meals/lunch/tea, private outfits, care, writing/TV, physical departures/returns, actual boutique trips/purchases and accepted guest refreshment preparation/handover.10daily-life and19cat-core targeted cases pass. Full automated run at the prior checkpoint passed1,132cases; one added retained-flats replay test has since passed separately. Existing78browser groups pass again after fixing irrelevant home-room state invalidating an office AI reply.

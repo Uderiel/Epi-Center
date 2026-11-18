@@ -1,3 +1,7 @@
+## v1.0.105 candidate
+
+Priya’s approved cat route, household routines, real refreshment inventory and permanent mastered-flats revisits are implemented. [Implementation](docs/PRIYA-CAT-IMPLEMENTATION.md) · [Testing checklist](docs/V1.0.105-OWNER-ACCEPTANCE.md) · [Publication status](docs/CURRENT-STATUS.md).
+
 ## v1.0.104 — live
 
 [Play](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.104) · [Owner checklist](docs/V1.0.104-OWNER-ACCEPTANCE.md) · [Status](docs/CURRENT-STATUS.md). Corrects local AI dialogue routing, NPC hearing/meetings/visits, Applewood floors, flats narration/art/feed and office tracking. Existing saves/ownership retained; real paid-provider prose quality remains owner acceptance. Runtime1931b6c:1,100automated cases;78local/78public browser checks;36published file comparisons pass. Deployment evidence is recorded in status.

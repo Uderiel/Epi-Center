@@ -1,3 +1,7 @@
+## v1.0.105 implementation update
+
+The approved first cat/daily-life package is implemented; see [current implementation and limits](PRIYA-CAT-IMPLEMENTATION.md) and [acceptance checklist](V1.0.105-OWNER-ACCEPTANCE.md). Earlier draft/deferred statements below describe previous checkpoints. Publication evidence belongs in CURRENT-STATUS.md.
+
 # Priya completion package — cat route review draft
 
 Status: owner-review proposal, not implementation or publication. Branch `rebuild/1.0-foundations`; public stays v1.0.104, runtime1931b6c. The daily-life rhythm in PRIYA-DAILY-LIFE-REVIEW-DRAFT.md is now approved in principle. New defaults below need review; preserved decisions are distinguished explicitly.

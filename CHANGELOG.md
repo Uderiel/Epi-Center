@@ -1,3 +1,7 @@
+## v1.0.105 candidate
+
+Priya’s approved cat route, household routines, real refreshment inventory and permanent mastered-flats revisits are implemented. [Implementation](docs/PRIYA-CAT-IMPLEMENTATION.md) · [Testing checklist](docs/V1.0.105-OWNER-ACCEPTANCE.md) · [Publication status](docs/CURRENT-STATUS.md).
+
 ## 1.0.104 — owner-tested dialogue, visits and workflow corrections
 
 - Explicit dialogue intent, shared local hearing/recipients, meeting exchanges, Priya invitations and physical escort.

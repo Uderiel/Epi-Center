@@ -1,3 +1,7 @@
+## v1.0.105 implementation update
+
+The approved first cat/daily-life package is implemented; see [current implementation and limits](PRIYA-CAT-IMPLEMENTATION.md) and [acceptance checklist](V1.0.105-OWNER-ACCEPTANCE.md). Earlier draft/deferred statements below describe previous checkpoints. Publication evidence belongs in CURRENT-STATUS.md.
+
 ## CP062 — actual same-space solitude supersedes workplace requirement
 
 Owner corrects CP061: **Priya does not need to be at work**. She must simply be out of her apartment when the player is reverting there; more generally **nobody else may occupy the same tile/space as the changing player**. This is an actual spatial-presence requirement, not an employment calendar, visibility, hearing or attention test. Out for errands, jogging or another real absence can qualify if the relevant space is otherwise empty. Being unworn while a wearer/person remains in that same space is insufficient.

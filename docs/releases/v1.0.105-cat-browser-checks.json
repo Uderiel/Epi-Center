@@ -1,0 +1,165 @@
+{
+  "version": "1.0.105",
+  "origin": "http://127.0.0.1:8767",
+  "checks": [
+    {
+      "name": "real cat offer is separate from form acquisition and collar consent",
+      "passed": true
+    },
+    {
+      "name": "accepted form is carried without changing body or losing original items",
+      "passed": true
+    },
+    {
+      "name": "actual enter button shows full transformation and feline capabilities",
+      "passed": true
+    },
+    {
+      "name": "starred and plain purring both resolve audible signals without forced petting",
+      "passed": true
+    },
+    {
+      "name": "negated signal and intended human dialogue stay private",
+      "passed": true
+    },
+    {
+      "name": "cat composer cannot send human words to an NPC",
+      "passed": true
+    },
+    {
+      "name": "actual acceptance produces authored contact without automatic purring",
+      "passed": true
+    },
+    {
+      "name": "accepted lifting changes walking capability until the player ends contact",
+      "passed": true
+    },
+    {
+      "name": "put-down restores independent movement without a penalty",
+      "passed": true
+    },
+    {
+      "name": "real litter-box fixture relieves bladder and preserves cleaning state",
+      "passed": true
+    },
+    {
+      "name": "cat food consumes a real prepared bowl portion exactly once",
+      "passed": true
+    },
+    {
+      "name": "window route reaches ground-level exterior through connected safe route",
+      "passed": true
+    },
+    {
+      "name": "same window route returns to actual Unit2F living room",
+      "passed": true
+    },
+    {
+      "name": "actual Resist button earns Common mastery with real costs and retained body",
+      "passed": true
+    },
+    {
+      "name": "cat mastery resources and original slot survive reload",
+      "passed": true
+    },
+    {
+      "name": "mastered reversion restores original identity and keeps cat ownership",
+      "passed": true
+    },
+    {
+      "name": "post-mastery agreement draws and saves three-to-five days only once",
+      "passed": true
+    },
+    {
+      "name": "repeat cat use keeps mastery and begins actual stay credit",
+      "passed": true
+    },
+    {
+      "name": "collar fitting is explicit and mastered reversion is actually blocked",
+      "passed": true
+    },
+    {
+      "name": "four-hour boundary lowers protest threshold before one hidden removal check",
+      "passed": true
+    },
+    {
+      "name": "successful actual removal clears recognition effect immediately",
+      "passed": true
+    },
+    {
+      "name": "cat controls and real fixtures fit mobile width",
+      "passed": true
+    },
+    {
+      "name": "fulfillment retains the drawn duration and does not automatically grant a date",
+      "passed": true
+    },
+    {
+      "name": "date requires a separate actual agreement in the restored identity",
+      "passed": true
+    },
+    {
+      "name": "rom-com date completes only after thirty actual shared minutes",
+      "passed": true
+    },
+    {
+      "name": "separate observed disruptive acts at75recognition create a shopping intent",
+      "passed": true
+    },
+    {
+      "name": "Priya physically shops during opening hours and returns with actual basic goods",
+      "passed": true
+    },
+    {
+      "name": "returned owner is actually in the cat room before fitting can be requested",
+      "passed": true
+    },
+    {
+      "name": "purchased tag is actually attached only after a separate accepted fitting",
+      "passed": true
+    },
+    {
+      "name": "purchased harness fitting is optional and uses feline equipment regions",
+      "passed": true
+    },
+    {
+      "name": "daily routine walks Priya to the real doorstep before entry permission",
+      "passed": true
+    },
+    {
+      "name": "present host offers actual stocked tea and a snack without minting items",
+      "passed": true
+    },
+    {
+      "name": "accepted drink remains in physical preparation before handover",
+      "passed": true
+    },
+    {
+      "name": "saved preparation resumes and issues exactly one usable inventory serving",
+      "passed": true
+    },
+    {
+      "name": "accepted drink is visible in the real Items tab after leaving the apartment",
+      "passed": true
+    },
+    {
+      "name": "actual Items use consumes once and retains a returnable container",
+      "passed": true
+    },
+    {
+      "name": "consumed serving and container ownership persist without duplicated food",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Isolated synthetic save; no owner data or paid-provider requests",
+    "Long mastery uses real cooldown advances with deterministic random values",
+    "Collar boundary tests use saved near-boundary fixtures; no claim of manually playing four hours",
+    "Legacy daily controller paused for cat isolation; daily integration has separate tests"
+  ]
+}

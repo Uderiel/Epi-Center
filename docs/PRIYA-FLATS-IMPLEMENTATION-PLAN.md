@@ -1,3 +1,7 @@
+## v1.0.105 implementation update
+
+The approved first cat/daily-life package is implemented; see [current implementation and limits](PRIYA-CAT-IMPLEMENTATION.md) and [acceptance checklist](V1.0.105-OWNER-ACCEPTANCE.md). Earlier draft/deferred statements below describe previous checkpoints. Publication evidence belongs in CURRENT-STATUS.md.
+
 ## v1.0.104 correction integration
 
 See [owner acceptance](V1.0.104-OWNER-ACCEPTANCE.md) and [current correction status](CURRENT-STATUS.md). This supersedes older entrance-only visits, omniscient apartment directory, keyword-based prose routing and trimmed flats text. Physical floors/local hearing, friend escort, immediate object-state updates and unchanged owner-uploaded worn/unworn art are implemented. Reception now has a live checklist and new reports use recorded ledger/campaign evidence. AI remains an optional prose layer with authored receipts preserved; private Worker publication and paid-model quality are separate acceptance items.

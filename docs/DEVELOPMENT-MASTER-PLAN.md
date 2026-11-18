@@ -1,3 +1,9 @@
+## v1.0.105 — tested completion candidate, publication pending
+
+Branch `rebuild/1.0-foundations`; previous checkpoint `923dba4`. The approved first Priya package is implemented: Common cat acquisition/mastery and stay agreement; voluntary contact, care, safe window route, collar belief/protest/removal, real basic boutique purchases and a scheduled home date; timed household routines and physical travel; real offered snack/drink inventory; permanent mastered-flats replay. Existing saves migrate additively. No owner save was opened or reset.
+
+Validation and exact runtime commit will be recorded after the final regression and publication checks. See [implementation](PRIYA-CAT-IMPLEMENTATION.md) and [owner checklist](V1.0.105-OWNER-ACCEPTANCE.md). Current public release remains v1.0.104 until confirmed below. Exact next action: finish regression, commit the tested candidate, publish, compare deployed bytes and run both public browser suites.
+
 ## v1.0.104 — published and publicly verified
 
 Runtime **`1931b6c7a34d8cd2719c8d9f2518a7ba8cfb07b1`**, pushed to `rebuild/1.0-foundations` and `main`; evidence-only commit follows. [Play v1.0.104](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.104). Pages build1379607652 / Actions44221789929 succeeded. All36changed runtime files (including both owner-uploaded JPEGs and approved portrait) byte-match the published candidate. Owner image commits were preserved via merge35daf0e; no owner save was reset.

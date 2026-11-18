@@ -11,7 +11,7 @@ function actorHere(s){const n=P.state(s);return n.location===s.hub?.location&&!n
 function ensureEvent(s,at){const q=state(s),d=day(at);if(!weekend(at)||q.active||q.held)return null;let e=q.events[d];if(!e){e=q.events[d]={day:d,start:d*1440+360,end:d*1440+392,phase:'approach',index:1};}return e;}
 function event(s,at){return state(s).events[day(at)]||null;}
 function goal(s,at){const q=state(s),n=P.state(s);let e=event(s,at);if(!e)e=ensureEvent(s,at);if(!e)return null;
- const approach=P.routeMinutes({location:'applewood',room:null},BENCH,null);
+ const approach=P.routeMinutes({location:'applewood',room:null,homeRoom:'closet'},BENCH,null,s);
  if(e.phase==='approach'&&at>=e.start-approach-1&&at<e.start)return {location:BENCH,room:null,activity:'Changing into jogging shoes'};
  if(e.phase==='approach'&&at>=e.start&&at<e.end){if(n.location!==BENCH||n.commute){e.phase='missed';return null;}e.phase='jog';e.startedAt=at;e.end=at+32;e.index=1;if(q.released)q.lastRelease={at:q.releasedAt,shoes:copy(q.shoes)};q.released=false;if(q.shoes)Object.assign(q.shoes,{location:BENCH,room:null,unit:null});q.source='park';q.discovered=false;q.sourceDay=e.day;q.parkLocation=BENCH;return {location:BENCH,room:null,activity:'Beginning the jogging loop'};}
  if(e.phase==='jog')return {location:RING[e.index],room:null,activity:'Jogging around the Central Hub',travelMode:'jog'};

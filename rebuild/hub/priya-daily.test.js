@@ -13,3 +13,5 @@ test('outings traverse hall corridor and lobby before outdoor journey and return
 test('boutique plan makes real purchases from NPC funds and has one set of transactions',()=>{const s=fresh(5*1440+600),q=Cat.state(s);q.linked=true;q.pet.food=1;advance(s,100);assert(q.wallet.transactions.some(t=>t.item==='food'));const count=q.wallet.transactions.length;advance(s,1);assert.equal(q.wallet.transactions.length,count);assert.equal(s.gold,37);});
 test('manual private outfit change receives conversation time instead of immediate routine overwrite',()=>{const s=fresh(1080);visit(s);House.outfit(s,'hosting');advance(s,14);assert.equal(P.state(s).attire.name,House.presets.hosting.name);assert(House.state(s).lastOutfit.status==='complete');});
 console.log(count+' daily life cases passed');
+
+test('weekend jog keeps its six-o-clock start and retrieval despite physical apartment departure',()=>{const Flats=require('./priya-flats');Flats.install();const s=fresh(5*1440+300);advance(s,110);const e=Flats.state(s).events[5];assert.equal(e.startedAt,5*1440+360);assert.equal(e.finishedAt,5*1440+392);assert.equal(e.retrievedAt,5*1440+409);assert.equal(e.phase,'complete');});
