@@ -1,0 +1,17 @@
+{
+  "version": "1.0.104",
+  "source": "Owner uploads on main efb2444, merged through 35daf0e; files unchanged",
+  "selection": "worn iff actual q.place is worn; all other object-body states use unworn",
+  "assets": [
+    {
+      "path": "rebuild/hub/assets/Priya-Flats-Worn.jpg",
+      "bytes": 255976,
+      "sha256": "1495198d044a773a2ece0b2dc19936636d1face2c73575f0454a4122918c4665"
+    },
+    {
+      "path": "rebuild/hub/assets/Priya-Flats-Unworn.jpg",
+      "bytes": 21499,
+      "sha256": "9a1ed62f453a92143a14bf38d3c03be65baf475fdcdba13168174bde5b4ce438"
+    }
+  ]
+}

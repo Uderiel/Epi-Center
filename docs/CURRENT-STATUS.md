@@ -1,6 +1,6 @@
-## v1.0.104 owner-tested corrections — candidate ready for public verification
+## v1.0.104 — published and publicly verified
 
-Branch `rebuild/1.0-foundations`; implementation checkpoints `928d23c`, `d4a2514`; owner image uploads from `main` `efb2444` preserved via merge `35daf0e`. Current release commit follows this entry. Public verification/promotion evidence will be recorded after deployment; do not mistake local results for live provider acceptance.
+Runtime **`1931b6c7a34d8cd2719c8d9f2518a7ba8cfb07b1`**, pushed to `rebuild/1.0-foundations` and `main`; evidence-only commit follows. [Play v1.0.104](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.104). Pages build1379607652 / Actions44221789929 succeeded. All36changed runtime files (including both owner-uploaded JPEGs and approved portrait) byte-match the published candidate. Owner image commits were preserved via merge35daf0e; no owner save was reset.
 
 Ordinary dialogue now stays dialogue unless an explicit game action is requested. Recipient options, audible local speech and response invalidation share actual room/tile/floor presence. Meetings include Daniel/Richard exchanges; room-address speech includes present listeners. Priya can offer a real later invitation despite an earlier greeting, normal home entry uses actual floor/door controls, and an accepted invitation to Erin’s home produces a physical escort. Departures and worn-object travel/activity changes are reported immediately.
 
@@ -10,11 +10,11 @@ The full three-stage flats passage remains visible before/during/after AI enrich
 
 Reception Work has one live checklist for daily source reports, document errands, meetings, current duties and lunch. Collection controls appear at the physical source; flags persist. New additional-report writing snapshots actual shipped/pending/cancelled ledger totals and marketing campaign; existing saved written answers retain their old source contract. No invented growth or returns. Dev supports current-form mastery fixtures and weekday/time selection (forward to next occurrence using normal elapsed simulation). A private, explicit non-graphic Erin action updates saved arousal; AI text does not grant consent or mechanical gains. Existing outfits, food/care ownership and finite stock remain intact.
 
-Validation: 1,100 named automated cases plus entity assertions across61suites, syntax/module paths,78local isolated Chromium groups PASS; final public rerun follows. [Owner checklist](V1.0.104-OWNER-ACCEPTANCE.md); [correction tracker](V1.0.104-CORRECTION-TRACKER.md). Tests use synthetic saves and mocked generation, never reset owner slots or spend provider credit.
+Validation: 1,100 named automated cases plus entity assertions across61suites, syntax/module paths,78local and78public isolated Chromium groups PASS;36deployed runtime file comparisons PASS. [Owner checklist](V1.0.104-OWNER-ACCEPTANCE.md); [correction tracker](V1.0.104-CORRECTION-TRACKER.md). Tests use synthetic saves and mocked generation, never reset owner slots or spend provider credit.
 
 Limits: paid Featherless prose quality and deployed private Worker revision are unverified. Source and self-contained Worker bundle are updated; Pages publishing does not deploy the Worker. Public health probe returned403 and is not evidence of an authenticated service failure. Current packets request expanded narration even with an older backend. Truly networked multiplayer delivery is not added: hearing applies to actual local presence records. No new NPC romance/climax system, cat/collar, automatically invented visits or household restocking. Native Android/owner-save acceptance remains necessary.
 
-Exact next action: finish final regression and source checks, commit/push candidate to rebuild and fast-forward main, verify Pages bytes/public browser flows, save final commit/build evidence, then take the next owner test corrections using the checklist.
+Exact next action: owner acceptance against this live version, especially actual Featherless dialogue/narration quality and native Android. Use V1.0.104-OWNER-ACCEPTANCE.md, preserve existing slots, reproduce further reported issues before the next change. Private Worker deployment requires the existing owner Cloudflare account; updated bundle is ready in services/ai/deploy-worker.mjs. No secrets should be sent in chat.
 
 ## v1.0.104 correction candidate — local checks passing, publication pending
 
