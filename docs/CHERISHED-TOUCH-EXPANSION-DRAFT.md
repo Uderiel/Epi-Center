@@ -1,3 +1,23 @@
+## Owner-approved ordinary catalogue prices and restricted legacy umbrella
+
+Owner doubles the proposed individual clothing prices because players can earn substantial money early. Exceptions: the new-arrival bundle stays45gold and Mystery Box stays150gold. The legacy umbrella is now OWNER-AWARDED ONLY to specifically selected players; it is not a retail product. Its old50gold reference is historical, not an active checkout price. Do not put it in ordinary shop stock, Mystery Box outcomes, NPC gifts, random loot or automatic quest rewards, or give an AI authority to grant it. Owner-grant tooling/authorization and item effects remain separate implementation work.
+
+| Item | Approved base gold |
+| --- | --- |
+| Basic top | 16 |
+| Underwear | 10 |
+| Socks | 6 |
+| Shorts | 24 |
+| Jeans/trousers | 36 |
+| Skirt | 36 |
+| Everyday dress | 60 |
+| Basic everyday shoes | 50 |
+| Light jacket/cardigan | 50 |
+| New-arrival outfit bundle (top, trousers, underwear, socks, shoes) | 45 |
+| Mystery Box | 150 (outcomes/effects still require design before functional sale) |
+
+These are approved BASE prices; player-specific discounts and posted final checkout price apply under the already approved schedule, with rounding/one-time-discount behavior still to define. Do not silently assume bundle repeat limits or resale policy. A one-bundle-per-player limit is a recommended next review question, not an approved rule. Actual variant catalogue, stock, checkout and owner umbrella grants are not implemented by this design record. Earlier proposed prices and shop-umbrella descriptions below are superseded.
+
 ## First catalogue and service proposal — NOT APPROVED
 
 Preserve existing price anchors: umbrella50gold, Mystery Box150gold. Mystery Box contents/effects must be designed before selling it as functional merchandise. Regular clothing prices below are proposed economy values, not recovered canon:

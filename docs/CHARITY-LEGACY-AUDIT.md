@@ -10,6 +10,26 @@ Accepting the job commits the player to the entire six in-game-hour shift. There
 
 The player need not initiate conversation or manually seek customer interactions. When an actual customer interacts, the resulting response/behavior must be what Charity would naturally do, including when routine service is left to proceed. This requires context-sensitive role expression, not fixed keyword replies or arbitrary actions unrelated to her shopkeeper persona. The displayed outward speech and resulting mechanical actions should agree. Customer sales/stock, authorized choices and receipts must remain grounded in actual implemented shop state; role narration alone cannot mint goods, money or quest outcomes. No real customer simulation, mask filter or commitment enforcement is implemented by this design entry.
 
+## Owner-approved ordinary catalogue prices and restricted legacy umbrella
+
+Owner doubles the proposed individual clothing prices because players can earn substantial money early. Exceptions: the new-arrival bundle stays45gold and Mystery Box stays150gold. The legacy umbrella is now OWNER-AWARDED ONLY to specifically selected players; it is not a retail product. Its old50gold reference is historical, not an active checkout price. Do not put it in ordinary shop stock, Mystery Box outcomes, NPC gifts, random loot or automatic quest rewards, or give an AI authority to grant it. Owner-grant tooling/authorization and item effects remain separate implementation work.
+
+| Item | Approved base gold |
+| --- | --- |
+| Basic top | 16 |
+| Underwear | 10 |
+| Socks | 6 |
+| Shorts | 24 |
+| Jeans/trousers | 36 |
+| Skirt | 36 |
+| Everyday dress | 60 |
+| Basic everyday shoes | 50 |
+| Light jacket/cardigan | 50 |
+| New-arrival outfit bundle (top, trousers, underwear, socks, shoes) | 45 |
+| Mystery Box | 150 (outcomes/effects still require design before functional sale) |
+
+These are approved BASE prices; player-specific discounts and posted final checkout price apply under the already approved schedule, with rounding/one-time-discount behavior still to define. Do not silently assume bundle repeat limits or resale policy. A one-bundle-per-player limit is a recommended next review question, not an approved rule. Actual variant catalogue, stock, checkout and owner umbrella grants are not implemented by this design record. Earlier proposed prices and shop-umbrella descriptions below are superseded.
+
 ## Owner addendum — cryptic familiarity before deeper disclosure
 
 At around+50relationship, Charity may answer concern about exhaustion with cryptic cautions such as “You don’t want to know” or “Sometimes knowing is the danger itself.” These are examples of meaning and voice, not mandatory keyword lines or an automatic exact50unlock. She does not directly identify the Countess or plainly explain the hidden threat at this stage. As relationship grows she may say a little more indirectly; retain the previously authored+75deeper-disclosure and world/privacy conditions without treating all guarded hints as forbidden below75.

@@ -1,3 +1,7 @@
+## Catalogue prices approved; legacy umbrella owner-only
+
+Owner doubles individual clothing proposal: tops16,underwear10,socks6,shorts24,trousers/skirts36,dresses60,shoes50,jackets/cardigans50gold. Bundle45andMysteryBox150unchanged. Legacy umbrella removed from retail and reserved solely for explicit owner awards to selected players; old50price historical. Variant stock/checkout/rounding/bundle repeat policy and MysteryBox effects remain to design. No shop gameplay or owner-grant mechanism implemented.
+
 ## Charity+50cryptic hints; catalogue review begins
 
 Owner permits guarded cryptic hints around+50without naming the threat, with gradual further disclosure. An actual Countess encounter provides legitimate knowledge for relationship-dependent private discussion; typed metagame name alone does not. Recorded in CHARITY-LEGACY-AUDIT.md. First ordinary catalogue/service proposal saved in CHERISHED-TOUCH-EXPANSION-DRAFT.md:8gold tops,18trousers,25shoes,45optional starter bundle; existing50umbrella/150Mystery Box anchors retained. New prices NOT approved or implemented. Next review catalogue price/style range and service/discount policies together.
