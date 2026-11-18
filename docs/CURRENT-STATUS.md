@@ -1,3 +1,7 @@
+## Resource enchantment maximum-only rule approved
+
+Owner confirms shirt+10maxHealth,pants+10maxStamina,hat+10maxResolveonly while validly worn. Normal recovery fills added capacity; equipping never refills or repeatedly accumulates bonuses. Removal restores underlying max and clamps excess current resource; preserve actual damage/spending. Next propose coherent pricing/Monday quantities for seven approved enchanted designs. Implementation still pending.
+
 ## First enchanted set approved; resource pieces added
 
 Owner approves Dryweave jacket, scent scarf, Lantern brooch and Quietstep shoes; adds shirt+10Health, pants+10Stamina, hat+10Resolve. Pool/max/current semantics unresolved; proposed maximum-only while worn with normal recovery/no equip refill requires clarification. Prices/weekly quantities remain open. Designs only; functional effects not yet implemented. Next clarify resource effect then propose coherent prices and Monday stock for seven items.

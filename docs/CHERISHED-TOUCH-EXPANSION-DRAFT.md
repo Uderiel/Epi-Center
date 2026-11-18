@@ -1,3 +1,9 @@
+## Owner-confirmed resource maximum semantics
+
+The enchanted shirt/pants/hat increase MAXIMUM Health/Stamina/Resolve respectively by10ONLY while actually worn. Owner explicitly approves normal recovery filling that extra capacity, no automatic current-resource grant/refill on equipping, and loss of the extra maximum when removed. Recompute from canonical body/form baseline plus valid worn modifiers; never add10again on each equip/render/reload, and never permanently mutate base pools.
+
+On removal or incompatible equipment state, remove that item’s modifier and restore the appropriate current underlying maximum. Clamp current resource only if it exceeds the recomputed maximum. Preserve actual damage/spending/recovery history; do not restore a stale pre-equip current-resource snapshot or refill the baseline pool. Form changes must use the new actual body baseline and valid equipment state, without carrying an incompatible worn bonus. This confirms the previously proposed maximum-only/no-refill interpretation. Prices and Monday limited stock quantities remain to be reviewed. No runtime effect implementation by this design record.
+
 ## Owner-approved initial enchanted selection and resource clothing
 
 Owner approves the proposed first four practical pieces/effect boundaries: Dryweave jacket, scent-masking scarf, Lantern brooch and Quietstep shoes. They are approved designs, not yet working runtime items; necessary weather/scent/light/sound hooks remain implementation dependencies. Keep their worn-state conditions, existing enchanted purchase limits and Monday deliveries.

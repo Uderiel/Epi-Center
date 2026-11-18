@@ -226,3 +226,5 @@ The drawer overlay pattern is a UNIVERSAL interface requirement for any item int
 
 This approves the Tops example as a reusable pattern; owner does not require another category sketch before continuing. Existing households/office/storage adapters must be assessed against the shared contract rather than assuming every legacy interaction already complies. Updating this design rule does not constitute a game-wide runtime migration. No new implementation/publication in this record.
 
+
+Resource-capacity equipment modifies the effective maximum while worn, derived once from canonical body/form baseline and actual equipment. Normal recovery fills additional capacity; equip/render/reload must not refill or accumulate bonuses. Removing an item recomputes the max and clamps only excess current resource, preserving damage/spending/recovery rather than restoring a historical snapshot. Cherished Touch’s+10Health shirt,+10Stamina pants,+10Resolve hat are confirmed maximum-only examples.
