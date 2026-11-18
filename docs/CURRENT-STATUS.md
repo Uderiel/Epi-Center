@@ -1,3 +1,9 @@
+## Nadia/Dart integration checkpoint — unpublished v1.0.107 candidate
+
+Branch `rebuild/1.0-foundations`; parent `70256be`. Household drawers, six-room navigation, floor/scene presence, ongoing guest activities, optional canine visit/collar/kennel choices, finite restocking and laundry are now wired in the development candidate. The earlier targeted core checks passed; a fresh full regression run is in progress. New integration and browser acceptance remain pending. These changes are not a published or owner-accepted release.
+
+Exact next action: verify guest permissions, collar/kennel cleanup on form release, real travel and save persistence; add integration coverage, run the full regression and browser suites, then update release evidence before promotion. Boutique boarding/daycare remains deferred. Public build remains [v1.0.106](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.106); owner saves are untouched. This checkpoint preserves unfinished implementation safely.
+
 ## Nadia/Dart runtime checkpoint — core routines pass, UI integration active
 
 Branch `rebuild/1.0-foundations`; parent5ce83d3. Implemented independent Dart state/needs/scent marks/greeting/play/AI-intent validation; Nadia household ownership,77piece wardrobe/presets/products/makeup/food/serving/ideas; physical morning/lunch/evening jobs and building/world travel.13Dart,12household and5daily targeted cases pass, alongside13canine-input and6lunch cases. Actual lunch trip returns Nadia to H_W before13:00in the new route test; morning reaches work and evening performs feed→shower→water→casual outfit→Hub walk. Restored existing shared Back-frame API after targeted tests caught a wrapper mismatch. Serving source now supports Nadia while Priya serving tests still pass.
