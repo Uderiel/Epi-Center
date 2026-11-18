@@ -215,3 +215,7 @@ Jewelry modifier stacking and physical equipment capacity are separate rules. Ch
 ## Persistent retail ownership and residence storage
 
 A purchased clothing variant is a real owned item across inventory, equipment, appearance, closet/dresser storage, laundry and presets. Ownership belongs to the player/actual owner and must not change merely because a form is equipped. Per-player introductory purchase limits survive form changes and storage/sale/reload. Apply and show discounts before atomic payment; keep no-return shop policy separate from failed-transaction rollback. Future residences are dependencies, not implicit destinations or already-functional storage. Route items to real permitted storage only when implemented.
+
+## Layered shop customization drawers
+
+Reuse the established drawer navigation hierarchy for category -> style/fit -> construction options -> color -> preview/cart/fitting. One active layer with Back restores selections; do not render an unmanageable full catalogue of controls at the room root. Item style selection does not transform or redefine the player. Keep the chosen variant consistent across bundle selectors, fitting, checkout, owned items and narrative appearance. Checkout-wide one-use discounts are consumed only by a successful atomic payment, not by browsing or failed attempts.

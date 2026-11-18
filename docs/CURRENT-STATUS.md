@@ -1,3 +1,7 @@
+## Shop drawer hierarchy and checkout discount approved
+
+Owner confirms one-time10%covers entire successful checkout. Consume only after payment; display before. Use existing drawer overlays: Tops -> male/female style -> V/crew-neck and long/short-sleeve choices -> basic color -> item preview/basket/fitting. One active layer, Back and retained selections; equivalent category/bundle navigation. No forced body/gender change. Duplicate voice input is the same approval, not another action. Next: round out checkout rounding/voucher records and remaining limited enchanted stock, then implement the approved shop slice. Design only.
+
 ## Original Cherished Touch drawing visually reviewed
 
 Owner reuploaded the drawing; visual comparison now completed. Current A–Jgraph appears consistent, including four stalls, bedroom-only bath/laundry, kitchen-dining link and distinct emergency/guild routes. See CHERISHED-TOUCH.md for room/fixture audit. The gap is functional shop/household/Charity/quest implementation, not an invented new layout. Original image visible in chat; no local image copy claimed. Next: finish remaining limited-enchantment/checkout/trial parameters and stage the approved shop build using this plan. Stay with Cherished Touch; personal residence remains future. No gameplay change.
