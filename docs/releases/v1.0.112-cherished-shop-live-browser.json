@@ -1,0 +1,59 @@
+{
+  "origin": "https://uderiel.github.io/Epi-Center",
+  "checks": [
+    {
+      "name": "entry uses existing sales floor and preserves intro visit without requiring purchase",
+      "passed": true
+    },
+    {
+      "name": "category opens a single style drawer instead of multiple input fields",
+      "passed": true
+    },
+    {
+      "name": "Back retains selected color in the parent drawer",
+      "passed": true
+    },
+    {
+      "name": "basket selection grants no item or charge",
+      "passed": true
+    },
+    {
+      "name": "real closed fitting stall previews shop property without ownership",
+      "passed": true
+    },
+    {
+      "name": "register charges exact price and grants the selected owned variant",
+      "passed": true
+    },
+    {
+      "name": "purchased item receipt and currency survive reload without duplicate payment",
+      "passed": true
+    },
+    {
+      "name": "custom bundle charges45 and grants exactly five chosen pieces",
+      "passed": true
+    },
+    {
+      "name": "purchased clothing appears in actual Items tab",
+      "passed": true
+    },
+    {
+      "name": "owned item equips through existing inventory and appears in current appearance",
+      "passed": true
+    },
+    {
+      "name": "store controls fit phone viewport",
+      "passed": true
+    },
+    {
+      "name": "other save slot original item and resources remain intact",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "scope": "Synthetic local save; no owner data or AI calls"
+}

@@ -10,7 +10,7 @@ Initial tuning, not additional owner-approved canon: opening stock quantities, 1
 
 Still deferred: full Tits NPC social/routine integration, live customer queues, daily courier stocktaking/restock, apartment/nightlife, quests, pink flavoring, cosmetics purchase prices and functional BFBFF linked bracelets. The latter remain previews and cannot be purchased as inert substitutes. Existing Cherished Touch retail remains independent.
 
-Validation and release status are recorded in V1.0.112-OWNER-ACCEPTANCE.md. The older checkpoints below are historical.
+Published and publicly verified v1.0.112: 1,376 automated cases across 82 suites, 277 local browser checks and 277 live browser checks passed. All 176 public files match gameplay commit 34fbaf95792325cbb3e67c24dfaea84dc0350204. Pages deployment 44415816678 succeeded. Existing owner saves and paid AI were not used in automated/browser testing. See V1.0.112-OWNER-ACCEPTANCE.md for the direct play link and owner checklist. The older checkpoints below are historical.
 
 ## Public fixtures, navigation and real baskets — development verified
 
