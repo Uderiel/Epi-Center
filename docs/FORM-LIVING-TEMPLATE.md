@@ -1,3 +1,7 @@
+## Universal authoring companion
+
+Use [NPC and form design template](NPC-AND-FORM-DESIGN-TEMPLATE.md) for complete character proposals, evidence/status tracking and completion reviews. The runtime schema below remains unchanged. [Erin refinement draft](ERIN-CHARACTER-REFINEMENT-DRAFT.md) is the first application; it is not new gameplay.
+
 # Form presence, body awareness and living profiles — v1.0.79
 
 Canonical names: **Erin Lillard** and **Richard Carter**. Stable IDs (`erin`, `richard`, `npc:richard`, `shoes-0`), saves, assignment state and reward ledgers are unchanged. Short names remain valid dialogue aliases.

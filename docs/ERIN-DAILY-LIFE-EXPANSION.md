@@ -1,3 +1,7 @@
+## Current Erin review
+
+See [holistic refinement draft](ERIN-CHARACTER-REFINEMENT-DRAFT.md) for the current proposal and [universal template](NPC-AND-FORM-DESIGN-TEMPLATE.md) for future characters. This older expansion includes unimplemented cast/venues and must not be read as current runtime evidence.
+
 ## Nadia and department checkpoint · v1.0.96
 
 Nadia’s owner-approved character and department cycle supersede the earlier proposed Nadia profile below. See [Nadia implementation](NADIA-VOSS-IMPLEMENTATION.md). Daniel and Nadia are implemented; other named staff remain proposals. Dart is Nadia’s purebred male Doberman; home6E; Richard’s corrected home is7A.

@@ -1,0 +1,69 @@
+# Universal NPC and form design template
+
+Authoring standard established from Priya’s first completion package and Erin’s refinement review. This is a design checklist, not a second runtime schema. Keep the validated living profile in [FORM-LIVING-TEMPLATE.md](FORM-LIVING-TEMPLATE.md); reuse existing clocks, inventory, navigation, encounters, relationships and mastery adapters.
+
+## Start from a broad brief
+
+Owner supplies a general vibe, role and any fixed constraints. Author a coherent complete first pass using the sections below; offer recommendations for missing details together, rather than asking the owner to choose every object or minute. Group review around character identity, daily life, relationships and special routes. Bring back only consequential unresolved choices. Do not manufacture past owner approval.
+
+For every section distinguish **established canon**, **proposed default**, **implemented evidence**, **owner acceptance**, and **deferred/not applicable**. A proposal may be detailed without being implemented. Record sources, stable IDs and superseding decisions. Do not turn a historical document’s old test count into current evidence.
+
+## 1. Identity and lifecycle
+
+Name/aliases; adult age where relevant; species/body; pronouns; appearance and approved art/provenance; occupation; stable IDs; residence/floor/unit and discovery rules; public versus private identity. Explain whether this is an independent NPC, a conscious form, an object form, or a linked NPC/form. Define what exists while unequipped, acquired, active, released and mastered. Never duplicate a person offscreen to service a schedule.
+
+## 2. Character and voice
+
+Three defining traits, a contrasting trait, strengths, flaws, values, ordinary worries, ambitions and boundaries. Specify speech rhythm, humor, work/private differences, changing mood and representative short dialogue. Include interests with usable conversational substance and remembered actual events. Avoid stock keyword monologues and repeated gestures. Original-player thoughts and undisclosed form history stay private.
+
+## 3. Capabilities and physical profile
+
+Anatomy, senses, locomotion, speech, manipulation, clothing and equipment compatibility; actual attributes, rarity and resource ownership; ordinary civilian combat or appropriate existing animal/object limitations. Explicitly state unavailable actions. Derive gameplay numbers from the current engine and label new tuning. No copied human hands/speech, resource refills or invented powers.
+
+## 4. Daily rhythm and interruption rules
+
+Provide a readable weekday/weekend rhythm, work/lunch/commute, sleep, personal care, meals, exercise, hobbies, errands and social availability. Use windows and priorities rather than a compulsory minute-by-minute script. Specify actual destinations, route costs, doors/floors, preparation time and legal movement.
+
+Resolve urgent needs, work commitments, agreed appointments, ongoing player engagement, optional routines and rest in an explicit order appropriate to the character. Describe greetings, departures, delays, cancellations and resuming interrupted work. Bulk time, live time and reload must not invent completed actions. Sleep/absence blocks unavailable interactions.
+
+## 5. Home and personal belongings
+
+Describe the shell separately from the character’s furniture and atmosphere. Cover living area, kitchen, bedroom, bathroom, clothing storage, entrance/hall storage and special spaces. Give a consistent palette, materials, lighting and personal keepsakes. Preserve real navigation and nested drawers/Back; do not clone another character’s decor.
+
+For each usable object define action, duration, prerequisites, owner, stock/custody, saved effect, feedback and failure state. Decorative items may be decorative, but must not advertise a nonexistent use. Include laundry/dishes/used containers and product use where applicable. Receiving food must create a usable inventory serving when intended, rather than merely describing one.
+
+## 6. Wardrobe, care and dietary preferences
+
+A curated individual wardrobe plus presets for the character’s actual roles: work, casual, hosting, exercise and bedtime as appropriate. Define worn/clean/dirty/stored ownership, footwear constraints, private changing and missing-stock behavior. Care includes relevant hair, skin, bathing, grooming and scent with actual effects; no medical claims from ambience.
+
+Meals, snacks and drinks need distinct preferences, real recipes/items, finite quantities, preparation, serving, consumption and cleanup. Purchases need funds, hours, travel and custody. No automatic pantry or wardrobe replacement unless expressly designed.
+
+## 7. Relationships, visits and social agency
+
+Map specific people, history sources, mutual attitudes, known identity, trust and unresolved tensions. Separate NPC relationship, internal-form trust, mastery and consent. Define introductions, invitation/acceptance, entry permission, actual travel, hosting, room access, follow/escort, departure and follow-up. Proposed friends are not spawned actors.
+
+Friendship, respectful dating and special transformation routes need independent eligibility. Neither high trust nor a purr is blanket consent. Define optional participation, refusal, ending contact and proportionate consequences for real actions. Do not punish ordinary declined attention as misconduct.
+
+## 8. Work and public life
+
+Actual workstation, tools, colleagues, products, meaningful work outputs and approachable task checklist. Track acceptance, progress, retrieved materials, meetings, submission and one-time rewards. Give meetings real turn-taking among present people, with interruption/room-directed speech. Employer property, expense allowances and wages stay separate from player inventory/funds.
+
+## 9. Special form or quest route
+
+Trigger versus safe examination/pickup; explicit agreement where relevant; authored transformation stages; preserved original state; physical capabilities and viewpoint; internal voice/instinct; opposition stat and meter; shared mastery/cost/cooldown/dice; gear/collar behavior; repeat acquisition; permanent completion; exact reversion conditions and reverse stages; safe placement and retained objects. Specify first-time and mastered-repeat flows separately. Mark this section not applicable when no special route is authored.
+
+## 10. Narration and AI contract
+
+For each important event supply an AI-off result and sensory description based on actual body/activity/presence. Emit timely movement, arrival, pressure/contact change and interruption feedback instead of long unexplained silence. Separate fictional media from world events.
+
+AI expands recorded facts and responds to the actual conversation; it cannot move actors, spend stock, grant progress, invent dialogue as completed history, disclose private thoughts or decide consent. Give it speaker, directed/local audience, real listeners, activity, relationships and bounded recent memory. Cover disabled/failing/stale AI and duplicate prevention. Clearly distinguish mock tests from real-provider prose acceptance.
+
+## 11. Persistence and implementation plan
+
+List canonical modules/adapters, additive fields/migration, old-save interpretation, unique item IDs, finite budgets, exactly-once effects, interrupted jobs, reload boundaries and three-slot isolation. Do not migrate unknown history into invented attendance or relationships. Identify dependencies on unimplemented venues/NPCs. Deliver coherent playable slices with explicit limits.
+
+## 12. Completion and verification matrix
+
+For each promised feature record design status, runtime location, automated evidence, actual browser flow and owner acceptance. Include a normal complete day, work→home, an interrupted visit, sleep/absence, time jumps, stocked/empty inventory, ownership, reloads, alternate body, mastery/repeat route and phone navigation. Add route-specific failure/reversion tests. Use meaningful tests, not assertions that merely repeat descriptions.
+
+Release handoff must state branch, exact runtime commit, tests, public link, blockers/limits and exact next action. Update this template whenever a character exposes a reusable missing category; keep character-specific taste and tuning in that character’s dossier. “First playable package complete” does not mean all future content or personal acceptance is finished.

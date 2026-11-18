@@ -1,3 +1,9 @@
+## Erin refinement and reusable authoring template — design checkpoint
+
+Branch `rebuild/1.0-foundations`; parent `5ee54e6`. Owner selects Erin next and requires future broad-vibe briefs to produce complete NPC/form drafts. Added NPC-AND-FORM-DESIGN-TEMPLATE.md as the universal authoring checklist alongside the unchanged runtime living schema. Added ERIN-CHARACTER-REFINEMENT-DRAFT.md, preserving established Erin identity, body lifecycle, authority, household and work systems while proposing coherent voice, daily/social rhythm, reciprocal hosting and meaningful personal interactions. New details are proposals for review, not implemented or individually approved.
+
+Public v1.0.105/runtime b55af9c remains unchanged. No runtime, save, artwork or balance edits; documentation whitespace/link checks only, no new gameplay tests. Exact next action: owner reviews Erin’s broad draft, then reconcile the agreed next slice against current runtime before implementation. Priya’s owner acceptance remains pending until safely parked. Checkpoint commit identifies these documents; no Pages promotion is needed for this design work.
+
 ## v1.0.105 — finished, published and verified
 
 [Play v1.0.105](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.105). Tested runtime **`b55af9c3c78b4110ed8dad572cde0ad18663f508`** is pushed to `rebuild/1.0-foundations` and `main`. [Pages Actions run 44295892437](https://github.com/Uderiel/Epi-Center/actions/runs/44295892437) succeeded; all **32** checked deployed runtime files match the tested bytes.
