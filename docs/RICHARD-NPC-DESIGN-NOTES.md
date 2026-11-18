@@ -1,3 +1,9 @@
+## Owner-confirmed master-bedroom aesthetic and private adult furnishings
+
+Richard's master bedroom remains professional and elegant but has a darker underlying edge. The owner specifies a steel four-poster bed with integrated foot-end stocks, an under-bed cage/storage compartment and mounting/suspension attachment points. A dedicated private equipment drawer stores whips, floggers, collars, leashes, pet-play apparel and gags. These are non-graphic furnishings/inventory design notes, not implemented sexual scenes, equipment-use mechanics or automatic interactions.
+
+The master bedroom and its private equipment retain Richard's separate explicit-access rules. Permission to enter, view storage, stay overnight or express interest does not itself authorize intimate contact or equipment use. No guest or player is automatically restrained, gagged, confined or affected by inspecting a fixture. Bot confidentiality and Richard's insistence on privacy remain in effect. Exact equipment models, capacities and interaction rules are not authored by this description.
+
 ## Owner-confirmed bar inventory and fitness breakfast supplies
 
 The suite inventory includes a selection of beers, wines, whiskeys, rums, vodkas and mixers, not one generic drink entry. Author individual finite stock/serving choices; actual availability constrains Richard's offered list and the bot's preparation. Varieties and starting quantities below are implementation defaults, not owner-selected brands. Keep explicit service authorization; stocked alcohol is not an automatic offer, consumption or implied guest preference.

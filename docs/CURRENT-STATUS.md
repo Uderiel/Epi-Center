@@ -1,3 +1,9 @@
+## Richard master bedroom — darker elegant private furnishings
+
+Owner specifies steel four-poster bed, integrated foot-end stocks, under-bed cage/storage, attachment points and a dedicated private adult-equipment drawer. Recorded non-graphically in design notes; unpublished fixture catalog updated. No equipment-use or sexual-scene mechanics implemented; inspection and room access do not initiate contact or confinement. Bot confidentiality/private-room rules remain.
+
+Branch `rebuild/1.0-foundations`; parent `68fabbb`. Documentation/catalog checkpoint only; syntax check, no behavior/browser/release claim. Exact next action: continue room walkthrough, then complete suite integration and permissions tests; private-equipment drawer must be included in private-storage guards before wiring UI. Public remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 .
+
 ## Richard bar selection and fitness breakfast inventory confirmed
 
 Owner requests distinct beers/wines/whiskeys/rums/vodkas/mixers plus whey, hemp hearts, berries and milk for varied fitness breakfasts, and suggests bot-organized personal vitamins. Saved requirements; expanded unpublished catalog with unbranded drink varieties, finite ingredients, shake/bowl/mixed-drink recipes and an organizer fixture. Actual UI selection, vitamin sorting/use and music controls remain pending. The spoken claim that sound controls were already added was premature; only the fixture was authored.
