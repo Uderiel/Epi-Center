@@ -1,3 +1,7 @@
+## Tits appearance confirmed
+
+Owner supplied the full adult visual:26years,about5foot3, exceptionally curvy/full chest/narrow waist/ample rear, slender neck, size6feet she is proud of, mid-back wavy blonde hair, blue heavy-lidded eyes, pouty lips, button nose and gently pointed narrow chin. Revealing pink/glitter/sparkle wardrobe, sparkling heels, clips/pulled-back hair, cotton-candy/bubblegum aroma, pink fingernails/toenails with optional glitter and occasional white accent nail. Recorded in `docs/BURKES-SWEETS-DESIGN.md`; do not ask for this profile again. Next grouped draft: actual garment/preset and care catalogue using that style, followed by familiarity/relationships and complete service routine. Quests/home remain deferred. Design only; public v1.0.111 unchanged.
+
 ## Burke’s template audit and approved wrong-order recovery
 
 Owner queried why existing templates were not being used. Apply `NPC-AND-FORM-DESIGN-TEMPLATE.md` and `FORM-LIVING-TEMPLATE.md`; reuse actual residence spatial/presence/object contracts, shared drawer frames, Cherished Touch retail and carried servings. Full character + business coverage matrix is now in `docs/BURKES-SWEETS-DESIGN.md`. No standalone fully generic business-controller/template was found; do not misrepresent existing patterns as one complete factory. Lead grouped drafts against the matrix, not isolated piecemeal questions or quest design.

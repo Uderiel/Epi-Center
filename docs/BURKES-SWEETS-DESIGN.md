@@ -52,7 +52,7 @@ Authoritative character checklist: `NPC-AND-FORM-DESIGN-TEMPLATE.md` (12 section
 
 | Template section | Established | Remaining or deferred |
 | --- | --- | --- |
-| Identity/lifecycle | Named independent shop manager, only employee; earlier identity deferred | Detailed adult appearance/age, pronouns, stable actor ID, introduction/discovery; west-side home explicitly deferred |
+| Identity/lifecycle | Named independent shop manager, only employee; earlier identity deferred | Adult age26 and appearance now confirmed below; stable actor ID and introduction/discovery remain; west-side home explicitly deferred |
 | Character/voice | Sincere literal-minded cheerfulness, forgetfulness, clumsiness; kindness/flirting/apology/rudeness responses and mannerisms | Contextual short dialogue across service states, interests and limits grouped in a coherent first pass; no repeated questionnaire |
 | Capabilities/profile | Human shop work, real cups/baskets/clothes; cannot lie or understand figurative language | Actual physical profile, senses, clothing/hand compatibility and engine-backed civilian resource/attribute proposal |
 | Rhythm/interruption | Weekdays08–20, baking beforehand, nightlife/missed sleep and Daily Needs dependency | Prep/cleanup durations, weekend hours, queue/interrupt/resume, meal/bathroom/rest windows and closed-shop behavior; home route deferred |
@@ -78,3 +78,13 @@ Authoritative character checklist: `NPC-AND-FORM-DESIGN-TEMPLATE.md` (12 section
 | Verification | Existing common test patterns available | Complete shopping day, delays/interruptions, wrong-order correction, empty stock, held items, alternate bodies, permission barriers, reloads and mobile UI |
 
 Next review should follow this matrix in grouped character/location passes, beginning with the missing identity/appearance/work-wardrobe block, rather than treating an isolated answer as completion or asking the owner to choose what remains. Produce coherent labelled defaults and bring back consequential open decisions together. Keep all quest/residence dependencies deferred as agreed.
+
+## Owner-confirmed appearance and style
+
+Tits is an adult woman,26years old, approximately5foot3. Her silhouette is exceptionally curvy: full chest, narrow waist and very ample rear. She has a slender neck and size6feet, which she is proud of; the owner did not specify the sizing region/system, so preserve “size6” without inventing a conversion.
+
+Mid-back-length wavy blonde hair, blue eyes with heavy/drooping lids, full pouty lips, button nose and a narrow, gently pointed chin (not sharply exaggerated). “Simple-looking” describes the intended uncomplicated facial expression, not a generic/unfinished appearance. Overall visual reference: stereotypical adult26-year-old Valley Girl bimbo.
+
+Her wardrobe is revealing/bimbo-esque, primarily shades of pink with glitter, sparkle, heels (including sparkling heels) and accessories such as hair clips. Hair may be clipped or pulled back. Cotton-candy/bubblegum aroma. Fingernails and toenails are pink, sometimes glittered and sometimes plain, occasionally with a plain white accent nail. Exact garments, makeup products and wardrobe presets are not yet owner-approved; propose a coherent work/prep/going-out/casual set using these established traits without changing her physical profile.
+
+This updates the template’s identity/appearance block; no illustration, runtime actor, wardrobe inventory or appearance implementation is claimed. Backstory/earlier identity remain deferred.
