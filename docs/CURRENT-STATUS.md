@@ -1,3 +1,15 @@
+## v1.0.105 — finished, published and verified
+
+[Play v1.0.105](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.105). Tested runtime **`b55af9c3c78b4110ed8dad572cde0ad18663f508`** is pushed to `rebuild/1.0-foundations` and `main`. [Pages Actions run 44295892437](https://github.com/Uderiel/Epi-Center/actions/runs/44295892437) succeeded; all **32** checked deployed runtime files match the tested bytes.
+
+**1,144 automated cases across 63 suites; 116 local and 116 public browser checks pass** (78 existing/regression plus 38 cat/household groups). Syntax, module paths and whitespace pass. Browser tests use isolated synthetic saves and mock AI; no owner saves or paid provider calls were used.
+
+Implemented: approved first cat route, Common mastery and actual stay credit; voluntary contact, purring/private thoughts, care/litter, safe window route, collar belief/protest/removal, basic boutique purchases and separate fitting, a real scheduled home date; physical daily routines and interruptions; stock-backed real refreshment inventory with saved preparation/consumption; permanent conquered-flats revisits. Approved assets remain unchanged. [Implementation and limits](PRIYA-CAT-IMPLEMENTATION.md) · [Owner testing checklist](V1.0.105-OWNER-ACCEPTANCE.md).
+
+Remaining limits: advanced boutique control products, full Maya/Lena NPCs, network multiplayer transport and automatic NPC income/general restocking are not implemented. Paid Featherless prose quality, private Worker deployment and native Android/established owner-save acceptance remain unverified. The home date is the implemented destination, with no automatic romance.
+
+Exact next action: owner acceptance on the linked version, focusing on real AI text, existing saves, phone controls, interrupting routines/visits and optional cat/collar progression. Record version, form, location, game day/time, action and expected/actual outcome for corrections. All relevant handoff/design/plan/README/changelog documents are updated. Earlier candidate/deferred notes below are historical; this evidence commit changes no runtime.
+
 ## v1.0.105 — tested completion candidate, publication pending
 
 Branch `rebuild/1.0-foundations`; previous checkpoint `923dba4`. The approved first Priya package is implemented: Common cat acquisition/mastery and stay agreement; voluntary contact, care, safe window route, collar belief/protest/removal, real basic boutique purchases and a scheduled home date; timed household routines and physical travel; real offered snack/drink inventory; permanent mastered-flats replay. Existing saves migrate additively. No owner save was opened or reset.

@@ -1,6 +1,6 @@
-## v1.0.105 candidate
+## v1.0.105 — published and verified
 
-Priya’s approved cat route, household routines, real refreshment inventory and permanent mastered-flats revisits are implemented. [Implementation](docs/PRIYA-CAT-IMPLEMENTATION.md) · [Testing checklist](docs/V1.0.105-OWNER-ACCEPTANCE.md) · [Publication status](docs/CURRENT-STATUS.md).
+[Play v1.0.105](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.105). Passed 1,144 automated cases and 116 local/116 public browser checks. Priya’s approved cat route, household routines, real refreshment inventory and permanent mastered-flats revisits are implemented. [Implementation](docs/PRIYA-CAT-IMPLEMENTATION.md) · [Testing checklist](docs/V1.0.105-OWNER-ACCEPTANCE.md) · [Publication status](docs/CURRENT-STATUS.md).
 
 ## v1.0.104 — live
 

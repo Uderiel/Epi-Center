@@ -1,0 +1,201 @@
+{
+  "version": "1.0.105",
+  "gameplayCommit": "b55af9c3c78b4110ed8dad572cde0ad18663f508",
+  "url": "https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.105",
+  "sourceChecks": [
+    {
+      "path": "rebuild/character-creation/index.html",
+      "matches": true,
+      "sha256": "4d1ab50a3d074d4097b22e1a78ae7f63ce4ae3a2d04003fd5c85374b73499d4e",
+      "bytes": 13917
+    },
+    {
+      "path": "rebuild/combat/civilian-encounter.js",
+      "matches": true,
+      "sha256": "86e0cd552585a87d0cace84098211426a8b884acd0899296d99b79055ef36731",
+      "bytes": 10902
+    },
+    {
+      "path": "rebuild/combat/kibbles-form.js",
+      "matches": true,
+      "sha256": "a6555a69de74dd65cde84caae4153215fae5e8b78f86b262b774f171af89cc60",
+      "bytes": 10185
+    },
+    {
+      "path": "rebuild/combat/play-encounter.js",
+      "matches": true,
+      "sha256": "c983343cd1ca817ef0900857b8d39169b50e606f21d634caf9f7f4b4280e2840",
+      "bytes": 20454
+    },
+    {
+      "path": "rebuild/hub/ai-context.js",
+      "matches": true,
+      "sha256": "53a6825d72eed6ba1cf09d5ac8fd35cbc7f68e68587833665e608b1eaf635d30",
+      "bytes": 26682
+    },
+    {
+      "path": "rebuild/hub/ai-ui.js",
+      "matches": true,
+      "sha256": "3696d514a87329696f61f2e8fceba269d68db23c012993b81f2b1ed8816f4dff",
+      "bytes": 17977
+    },
+    {
+      "path": "rebuild/hub/assets/priya-shah-approved.png",
+      "matches": true,
+      "sha256": "9eeb624f591999906691ca498f493f50b98566b4656112fffb504b5b6630a3e3",
+      "bytes": 2114271
+    },
+    {
+      "path": "rebuild/hub/department-ui.js",
+      "matches": true,
+      "sha256": "aa861388ef3f889c9b51f51a84dd19edbe321db9a7db3614100e2e07b455be2f",
+      "bytes": 8936
+    },
+    {
+      "path": "rebuild/hub/equipment-regions.js",
+      "matches": true,
+      "sha256": "810a6bde35b49ff0ca88aab0f7687a873e165e5e72b3bf7c994168d1ca6f40aa",
+      "bytes": 2834
+    },
+    {
+      "path": "rebuild/hub/equipment-ui.js",
+      "matches": true,
+      "sha256": "8626f540aafad55261f1fae970221fdb78317a1218a756f968648f9ab34e8d25",
+      "bytes": 5895
+    },
+    {
+      "path": "rebuild/hub/erin-restoration.js",
+      "matches": true,
+      "sha256": "a868e2ded94ac169051469edf47806e7bb95be33fc63d6522093bd8a70885763",
+      "bytes": 24194
+    },
+    {
+      "path": "rebuild/hub/form-body.js",
+      "matches": true,
+      "sha256": "5475faf1fbc4127fb875c1b516cbdf7a1023624587242fc4c32f15f7d364d9a4",
+      "bytes": 6554
+    },
+    {
+      "path": "rebuild/hub/form-living.js",
+      "matches": true,
+      "sha256": "47df96da64f964f99790faccb25bcda105e1c4a98652e9691bb77af098c9eca9",
+      "bytes": 9674
+    },
+    {
+      "path": "rebuild/hub/index.html",
+      "matches": true,
+      "sha256": "c70b187d53a2bf02c518e44bc82b5e36b91eb661b25c0837e2259512f0a24d2d",
+      "bytes": 134360
+    },
+    {
+      "path": "rebuild/hub/marketing-ui.js",
+      "matches": true,
+      "sha256": "4fc754ade506b434f3ece9d11009af8218b68710b8b886b33242047bbe43eb0c",
+      "bytes": 8627
+    },
+    {
+      "path": "rebuild/hub/navigation-ui.js",
+      "matches": true,
+      "sha256": "4b2802733d9f25e6625c2d90b6650d06351305c1d17ba5309501f88974236ecb",
+      "bytes": 9261
+    },
+    {
+      "path": "rebuild/hub/priya-cat-ui.js",
+      "matches": true,
+      "sha256": "79a4a06bd76536a4709db3bfe41492de689be43b7ea74c16b83fcfac9812c741",
+      "bytes": 8870
+    },
+    {
+      "path": "rebuild/hub/priya-cat.js",
+      "matches": true,
+      "sha256": "abd6449f1fdc420568cb8cf80613fb83ac2424decd1ec864df22f93a6ef80ecd",
+      "bytes": 33411
+    },
+    {
+      "path": "rebuild/hub/priya-daily-ui.js",
+      "matches": true,
+      "sha256": "e645759cf59e6a9aac78c270ce172e7f5df3298e5c23b87461968d69bafd0459",
+      "bytes": 1724
+    },
+    {
+      "path": "rebuild/hub/priya-daily.js",
+      "matches": true,
+      "sha256": "4b34ad9694c507467c60ee31355a16c5ee85124d7416e26ab6a74b59219978a8",
+      "bytes": 17816
+    },
+    {
+      "path": "rebuild/hub/priya-flats-ui.js",
+      "matches": true,
+      "sha256": "72c94b65d019ad6d9ce408bf048347da1b8ebaa1e8ec6368aea525e6e5f785f9",
+      "bytes": 9983
+    },
+    {
+      "path": "rebuild/hub/priya-flats.js",
+      "matches": true,
+      "sha256": "70ce44f8fe0e8476ba135da66b3f1ea25467354c5b5d664d3b69a3850caa8370",
+      "bytes": 17458
+    },
+    {
+      "path": "rebuild/hub/priya-home-navigation.js",
+      "matches": true,
+      "sha256": "045e18852e40468b612a0d2b00f80cb8c35059ddb56e5b0494ba41f2db976c60",
+      "bytes": 8020
+    },
+    {
+      "path": "rebuild/hub/priya-home.js",
+      "matches": true,
+      "sha256": "bfd6998d759d7d2ad35214e83eb0403fa4878c9f79d0a12797ff6a078607d0af",
+      "bytes": 8090
+    },
+    {
+      "path": "rebuild/hub/priya-household.js",
+      "matches": true,
+      "sha256": "4b5cb70dfea819de857506aa78bae2369eb00e5ac8b942148cd6844f5175c8e6",
+      "bytes": 17422
+    },
+    {
+      "path": "rebuild/hub/priya-ui.js",
+      "matches": true,
+      "sha256": "1067f78ec59c5cc5ac9c5f47ff896af861f72cb871b3827a658086fdb1f7a1f0",
+      "bytes": 5146
+    },
+    {
+      "path": "rebuild/hub/priya.js",
+      "matches": true,
+      "sha256": "9f443b74d6842e83dad9b046465741af3ef4bf84d5343f80fabda44c682e06a8",
+      "bytes": 22892
+    },
+    {
+      "path": "rebuild/hub/richard-ui.js",
+      "matches": true,
+      "sha256": "b8ffddd8bb755932a23e949d77362f72346665b0584308393031a2a9cc1696d5",
+      "bytes": 15579
+    },
+    {
+      "path": "rebuild/hub/served-items-ui.js",
+      "matches": true,
+      "sha256": "66ed1eb756c05145ccf429ad45e42f27049fe9e2438623bf1fe0bb2b776df16e",
+      "bytes": 1023
+    },
+    {
+      "path": "rebuild/hub/served-items.js",
+      "matches": true,
+      "sha256": "5ca2cb355ef24628dac79382822e6ae2e463329a0cd2f3b6731b033cc1adcf81",
+      "bytes": 2943
+    },
+    {
+      "path": "rebuild/hub/social-ui.js",
+      "matches": true,
+      "sha256": "bb5134d260ad48fad4bda6b877af3b905aeafc2d24065bacb1a7a5ea44f9a627",
+      "bytes": 7302
+    },
+    {
+      "path": "rebuild/title-screen/index.html",
+      "matches": true,
+      "sha256": "72bf3562d0083e22244ebb062d66f7254024371c1260a17388e9f42e94b70f4e",
+      "bytes": 6166
+    }
+  ],
+  "allMatched": true,
+  "scope": "Changed deployed runtime files and portrait; isolated public-browser evidence is separate."
+}
