@@ -129,3 +129,7 @@ An AI-directed animal can propose appropriate physical intentions, but canonical
 ## Household refinement lesson — presets and companion invitations
 
 A broad style brief should produce coordinated functional makeup/outfit presets plus individual item browsing, with ordinary versus cursed footwear explicit. Differentiate a pet’s usual resting/sleeping place, guest-context kennel use, daycare custody and a canine player’s separately resolved invitation/collar/visit permissions. Affection or protectiveness does not bypass actual physical reach, resources, travel, existing form authority or participation choices. Care may include fresh-food serving/stock and meaningful toy variety rather than generic bowl/Play text.
+
+## Shared service boundary
+
+Author a universal service contract at its venue (boarding, daycare, grooming, payment/custody/care/play), then attach character-specific preferences and schedules as clients. A character draft may record requirements without implementing a private copy. Deferred service dependencies must stay visible: requests are not accepted bookings, and unimplemented staff cannot complete care offscreen. Independent household work can proceed without falsely claiming dependent full-day services are finished.

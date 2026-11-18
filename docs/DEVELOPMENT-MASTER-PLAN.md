@@ -1,3 +1,7 @@
+## Boutique services moved to shared future venue project
+
+Branch `rebuild/1.0-foundations`; parent033705a. Owner chooses universal boutique service design during the boutique project rather than Nadia-specific boarding mechanics. Saved shared service/client boundary, confirmed hours and future canine-play requirements. Nadia/Dart home/behavior work can proceed independently; full workday care coverage remains explicit and unimplemented services cannot be reported as real bookings/care. Documentation only; no runtime/tests/publication. Exact next action: review/implement agreed independent Nadia household slice and retain shared boutique service/care dependency in backlog. Public106 unchanged.
+
 ## Nadia household/canine route expanded — owner decisions saved
 
 Branch `rebuild/1.0-foundations`; parent f23675a. Owner accepts coordinated direction and adds larger evening/outing wardrobe/designer heels, multiple makeup routines, charcuterie hosting, guest-context home kennel, gentle animal-focused side, Dart bed-sharing/protection/toys/fresh quality dog food and a possible actual Hub Kibbles-to-home/collar route. Consolidated at top of Nadia/Dart draft with ordinary-collar/kennel boundaries, existing form rules, real travel and proposed functional package. No runtime/tests/publication changes. Public106 unchanged. Exact next action: review cohesive package verbally and settle care coverage/ordinary collar/kennel mechanics, then implement the agreed tested slice; preserve existing saves and do not activate unrelated boutique systems.
