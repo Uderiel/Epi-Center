@@ -1,3 +1,9 @@
+## Scope correction and Charity interaction review
+
+Owner prioritises store exploration/transactions, not quest/hideout expansion. Hidden entrance is not a separate quest: Charity invitation requires+100relationship AND completed20thmask mastery challenge, superseding5shiftaccess. Hideout is anti-Countess NPC/player Resistance seeking Hub Crystals to activate Departure Spire; details deferred. Ordinary retail is implemented/tested but UNPUBLISHED; boxes/enchanted coding stillpending. Do not claim all store functionality complete or re-ask approved mechanics/branch.
+
+New personality proposal in CHERISHED-TOUCH-COMPLETE-LOCATION-DRAFT.md covers actual familiarity, kindness/rudeness/flirting/broken-trust reactions, forms and varied mannerisms; not yet owner-approved. Core traits/disclosure already established. Next actual work: implement agreed MysteryBox/enchanted purchase/equipment functionality on foundations; owner may refine new interaction defaults alongside it.
+
 ## Protected suit framework pinned for later
 
 Suit1FireandIceadult service/bottle-worker profile saved in CHARITY-PROTECTED-SUITS-DESIGN.md; other2undefined. Owner prioritises location foundations and defers suit/venue depth. Any actual worn trap suit is replaced so Charity keeps3regardless of her wishes; separate from Monday retail deliveries/helper. No implementation or save changes. Next return to Cherished Touch’s broader framework and already-approved enchanted coding, without reopening decided retail rules or asking for more suit profiles now.

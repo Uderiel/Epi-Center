@@ -1,3 +1,13 @@
+## Owner correction — Resistance hideout invitation, NOT a separate entrance quest
+
+The hidden route leads to a Resistance HIDEOUT: NPCs and players opposed to the Countess, aware Epi-Center is not what it seems, seeking all the Hub Crystals to activate the Departure Spire. These are owner-level faction/location goals, not a functioning new destination, implemented quest, named membership roster, universal omniscience or guaranteed endgame escape. Use owner’s current Hub Crystals/Departure Spire wording; older Hub Cylinder progression terminology is not automatically rewritten or equated by this note.
+
+There is NO separate quest specifically for the entrance. Charity may invite the player down once BOTH conditions are met: +100relationship (the same per-player meter previously called trust) AND successfully conquering the twentieth mask-wearing MASTERY CHALLENGE. Twenty ordinary shifts alone are insufficient while its trial is unfinished. This supersedes the prior five-shift hidden-access milestone; do not leave an alternate five-shift entrance unlock. Preserve all unrelated gold/discount/relationship rewards, including the existing third/tenth/fifteenth discount tiers. Do not invent an additional entrance quest or silently add extra crystal-count gates to this latest stated invitation condition.
+
+The actual invitation/disclosure remains Charity’s action; eligibility does not teleport the player, open every private room or let generic inspection/search/AI reveal the route. The route/Hideout itself remains later location work. Owner’s primary current goal is an explorable functional shop with transactions, not designing Charity’s entire quest catalogue or the Resistance now.
+
+Implementation correction: ordinary retail/fitting/checkout is a tested UNPUBLISHED foundations slice. Mystery Box and limited enchanted purchases/effects are still unimplemented even though their behavior/prices are agreed. Do not tell the owner that players can already buy boxes, that all store functionality is complete, or ask them to re-decide approved box/effect rules. Continue implementation on the SAME foundations branch; no branch-selection question is needed.
+
 ## Protected trap suits are not merchandise
 
 Owner confirms exactly3Countess-supplied skinsuits, secured by Charity and never sold/offered for fitting: permanent base-form replacement/NPC-role assignment. Charity warns admitted visitors about effects but not source. Distinct from her temporary work mask; not part of retail/MysteryBox/weekly stock. Precise hallway threshold remains to confirm (owner suggests+70); explicit invitation still required. Full rule in CHARITY-LEGACY-AUDIT.md.
