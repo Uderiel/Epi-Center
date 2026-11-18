@@ -1,3 +1,24 @@
+## Owner-approved clothing customization and configurable starter bundle
+
+All clothing supports player-selected colors and male/female options as appropriate; do not force a form/gender change or automatically choose an unwanted style. Exact fit/size policy and full color palettes remain to be defined. Preserve actual selected variant attributes in the item record so the rack/cart/receipt, inventory/equipment, appearance and narration agree. Do not replace chosen variants with a generic item after checkout or reload.
+
+| Category | Confirmed choices | Approved base gold |
+| --- | --- | --- |
+| Tops | Color; V-neck or crew neck; long or short sleeves | 16 |
+| Male underwear | Briefs or boxers; color | 10 |
+| Female underwear | Hipsters or regular briefs; color | 10 |
+| Socks | Ankle, crew-length (spoken as “crew neck socks”), or thigh-high; color | 6 |
+| Shorts | Cargo, booty/short-cut, or high-waisted; options include faded denim, black, gray, blue and other appropriate colors/finishes | 24 |
+| Jeans/trousers or skirt | Color/appropriate male-female selections confirmed generally; detailed cuts not yet specified | 36 |
+| Everyday dress | Color; detailed cuts not yet specified | 60 |
+| Basic everyday shoes | Color/appropriate selections; detailed styles not yet specified | 50 |
+| Male light jacket | Simple hoodie-like style, rain-resistant material; color | 50 |
+| Female light jacket | Rain-resistant material, fur trim around hood edges; color | 50 |
+
+Rain resistance/fur trim are approved product descriptions, not new weather-stat mechanics or an unapproved material sourcing claim. No variant surcharge was specified; keep approved category prices pending any further differentiated pricing decision.
+
+The45gold new-arrival bundle contains the previously listed top, trousers, underwear, socks and basic shoes. The player chooses the available type/style/color attributes for EACH included item instead of receiving a fixed generic outfit. Do not silently add jackets/dresses/shorts as extra or substitute slots without a later decision. Bundle per-player purchase limit was asked but not answered; remains unresolved. Mystery Box remains150gold and owner wants to design it next. Legacy umbrella remains owner-awarded only. No catalogue/variant/checkout runtime implemented by this record.
+
 ## Owner-approved ordinary catalogue prices and restricted legacy umbrella
 
 Owner doubles the proposed individual clothing prices because players can earn substantial money early. Exceptions: the new-arrival bundle stays45gold and Mystery Box stays150gold. The legacy umbrella is now OWNER-AWARDED ONLY to specifically selected players; it is not a retail product. Its old50gold reference is historical, not an active checkout price. Do not put it in ordinary shop stock, Mystery Box outcomes, NPC gifts, random loot or automatic quest rewards, or give an AI authority to grant it. Owner-grant tooling/authorization and item effects remain separate implementation work.

@@ -1,3 +1,7 @@
+## Clothing variants and selectable starter bundle approved
+
+Owner defines top neckline/sleeves/colors; briefs/boxers and hipsters/briefs; ankle/crew/thigh-high socks; cargo/booty/high-waisted shorts; male rain-resistant hoodie-like jacket and female rain-resistant fur-trim hood jacket; colors throughout.45gold bundle lets player customize each of its five included items. Category prices unchanged; selection must persist into real item/appearance/narration. Detailed remaining cuts/fit and one-bundle limit unresolved. Next: owner’s Mystery Box design. Design only; live109unchanged.
+
 ## Catalogue prices approved; legacy umbrella owner-only
 
 Owner doubles individual clothing proposal: tops16,underwear10,socks6,shorts24,trousers/skirts36,dresses60,shoes50,jackets/cardigans50gold. Bundle45andMysteryBox150unchanged. Legacy umbrella removed from retail and reserved solely for explicit owner awards to selected players; old50price historical. Variant stock/checkout/rounding/bundle repeat policy and MysteryBox effects remain to design. No shop gameplay or owner-grant mechanism implemented.
