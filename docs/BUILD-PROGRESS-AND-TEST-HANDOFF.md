@@ -1,3 +1,7 @@
+## Assist Charity reward schedule confirmed
+
+Successful shifts1–5pay250/300/350/400/450gold respectively. First two completions give one-time10%discounts; third unlocks permanent10%, which continues. Fifth meets hidden-location service requirement; other access gates remain. Individual saved rewards, no mastery points. Unused voucher/rounding and post-fifth repeat/payment policy remain unresolved. Design only; current live game109unchanged.
+
 ## Assist Charity correction — five shifts
 
 Owner confirms five successful completed shifts before the hidden-location service requirement is met. Replaces proposed three;250gold and10%discount remain proposals. Other trust/privacy/mask rules unchanged. Design only.

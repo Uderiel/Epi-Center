@@ -1,3 +1,7 @@
+## Confirmed Assist Charity rewards
+
+Per-player completed shifts1–5pay250,300,350,400,450gold. One-time10%discount on shifts1and2; permanent10%fromshift3. Five completed shifts for hidden-location service eligibility, alongside other authored gates. See CHARITY-LEGACY-AUDIT.md; older proposed reward values below are superseded.
+
 ## Updated coverage gate
 
 Owner changes Assist Charity mask coverage from legacy100%trust to90trust and permits inconvenient temporary rest closures. Relationship75+for selective sensitive disclosure remains separate. See CHARITY-LEGACY-AUDIT.md for the current rule.

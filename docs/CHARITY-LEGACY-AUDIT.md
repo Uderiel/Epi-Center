@@ -2,6 +2,20 @@
 
 Sources inspected: epi-center-v0.8.71-cherished-touch-foundation.html and epi-center-v0.8.84-attribute-foundation-corrections.html (CherishedTouch871 quests/charity/panel); docs/EPI-CENTER-CHANGELOG.md, October25Cherished Touch notes; docs/EPI-CENTER-PROJECT-HANDOFF.md; docs/Epi-Center-Character-Design-Gap-Audit.md CP013; docs/CHERISHED-TOUCH.md; current cherished-touch.js/UI, ai-context.js and interactCharity in index.html.
 
+## Owner-confirmed reward schedule — supersedes proposed values
+
+| Successful completed shift | Gold reward | Store discount | Hidden-location service milestone |
+| --- | --- | --- | --- |
+| 1 | 250 | One-time10%discount | 1of5 |
+| 2 | 300 | One-time10%discount | 2of5 |
+| 3 | 350 | Permanent10%discount unlocks | 3of5 |
+| 4 | 400 | Permanent10%continues | 4of5 |
+| 5 | 450 | Permanent10%continues | Five-completion requirement met |
+
+Owner confirms the above250/300/350/400/450gold progression (+50each successive completion), one-time10%discount before the third completion, permanent10%after the third, and five completions for hidden-location service eligibility. Rewards and counts are individual per player, saved and awarded once per successful quest completion; no form-mastery points. Six-hour coverage, trust90and other privacy/disclosure/world-progression conditions remain distinct. The permanent discount is10%, not repeated additive10%increments.
+
+Unresolved: whether and how unpaid/unused one-time discounts accumulate or expire, their transaction scope, rounding, stock funding, partial/failed shift terms, repeat interval and availability/pay beyond the fifth completion. Owner enumerated the first five increasing payments; do not silently extend the arithmetic progression indefinitely or assume a cap until that policy is decided. No new gameplay implementation in this design record.
+
 ## Owner correction — five completed shifts
 
 Owner sets the hidden-location service requirement to FIVE successfully completed Assist Charity shifts, replacing the proposed three. This confirms the shift count only.250gold per shift and10%persistent noncompounding discount remain proposed, not approved. Preserve trust90, six-hour coverage, safe mask return, no form-mastery reward and other disclosure/location/progression conditions. Five completions qualify the service requirement; they do not teleport the player or reveal every hidden area.
