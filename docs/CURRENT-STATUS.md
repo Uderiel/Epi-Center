@@ -1,3 +1,11 @@
+## 27-room art review batch complete — files verified and saved
+
+All **27 images** are saved in `rebuild/hub/assets/room-art-review/`: Richard 9, Nadia 6, Erin 6 and Priya 6. Each file decodes successfully; dimensions, byte sizes, SHA-256 and source briefs are recorded in `docs/releases/household-room-art-manifest.json`. Twenty-six sources are 1536×1024; Nadia’s closet is 1535×1024. They match the approximately 3:2 composition of the 1100×733 display frame but have not been resized. Gallery: `docs/HOUSEHOLD-ROOM-ART-REVIEW.md`. These are generated environment concepts, awaiting owner review; written layout/permission rules remain authoritative. Existing approved artwork is unchanged. Not wired into game or promoted to main.
+
+Branch `rebuild/1.0-foundations`; prior artwork commit `e913a16`. Richard’s implementation remains unfinished at checkpoint `3e4588e` plus later catalog refinements. Bot fee is confirmed **100 gold per week**, with entry-hall cupboard charging/cleaning supplies, laundry nearby and explicit spending permission before orders. Recurring billing is not implemented yet. No full new runtime regression/browser result is claimed by this art batch.
+
+Exact next action: take owner image corrections, then finish Richard suite root/scene/navigation/UI/private-AI integration, functional furnishing/grooming/accessory/bot/stock/billing controls, focused tests and full regression/browser checks before promotion. Do not describe Richard as published or release-ready. User will review hub assets later; stop further attempted inline image displays. Current public game remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 .
+
 ## Bot weekly cost and four-household room-art request
 
 Owner sets Richard's bot service to100gold/week, approves entry-hall utility charging cupboard/laundry nearby and reaffirms purchase authorization. Requests room illustrations for Richard/Nadia/Erin/Priya. Existing artwork frame verified1100×733 (~3:2), not730. Generating separate review assets for9Richard+6eachotherhome=27rooms; preserve approved artwork. No illustrations generated/wired/published yet at this checkpoint.

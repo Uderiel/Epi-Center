@@ -1,3 +1,7 @@
+## Household room artwork — development review batch
+
+[All 27 room illustrations](docs/HOUSEHOLD-ROOM-ART-REVIEW.md) are generated, saved and file-verified: Richard 9, Nadia 6, Erin 6, Priya 6. Native sources are approximately 3:2; exact dimensions/hashes are in the manifest. Owner review pending; existing approved artwork preserved. Richard suite integration/testing and recurring bot billing are unfinished. Live game remains v1.0.107.
+
 ## Richard refinement draft — development only
 
 [Review draft](docs/RICHARD-HOUSEHOLD-REFINEMENT-DRAFT.md) prepared using the universal template. No new gameplay or publication; v1.0.107 remains live.

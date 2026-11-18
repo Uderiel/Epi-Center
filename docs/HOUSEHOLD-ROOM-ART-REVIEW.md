@@ -1,6 +1,6 @@
 # Household room-art review
 
-All 27 room illustrations are generated and saved for owner review. They are not wired into the live game. Existing approved artwork is preserved. Source images are 1536×1024 (3:2) for the existing 1100×733 display frame; they have not been resized. Written room graphs control actual doors, ownership and travel; illustrations are architectural concepts, not exact floor plans. Inspect each before approval: generation may introduce visual details that are not authored gameplay.
+All 27 room illustrations are generated and saved for owner review. They are not wired into the live game. Existing approved artwork is preserved. Source images are 1536×1024 except Nadia’s closet at 1535×1024 (approximately 3:2) for the existing 1100×733 display frame; they have not been resized. Written room graphs control actual doors, ownership and travel; illustrations are architectural concepts, not exact floor plans. Inspect each before approval: generation may introduce visual details that are not authored gameplay.
 
 ## Richard
 

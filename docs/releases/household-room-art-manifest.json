@@ -4,32 +4,39 @@
     "height": 733
   },
   "source": {
-    "width": 1536,
-    "height": 1024
+    "note": "26 sources 1536x1024; Nadia closet 1535x1024. Per-room dimensions authoritative. No resizing applied."
   },
   "status": "generated, owner approval pending; not wired or published",
   "rooms": [
     {
       "person": "richard",
       "id": "hall",
-      "name": "Suite 7A · Entry hall",
+      "name": "Suite 7A \u00b7 Entry hall",
       "style": "Upscale executive suite, larger rooms than standard apartments; warm walnut, charcoal, off-white, restrained leather, brushed metal, subtle dark green; elegant professional masculine look. Advanced technology. No extreme palace luxury. Glass balcony railing panels with metal posts, never opaque railing.",
       "description": "Walnut storage and a restrained stone console open into a larger suite. The guest bedroom sits along the hall before the private master bedroom.",
       "fixtures": "Entry storage: Coats, shoes and household supplies have separate storage.; Maid-bot station: A clearly mechanical household attendant waits for authorized work. It does not initiate social conversation.",
       "extra": "Discreet utility cupboard containing mechanical bot charging dock, cleaning supplies, washer/dryer nearby, not a separate room. All cupboards closed or orderly; no humanoid figure needed.",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/richard-hall.png"
+      "image": "rebuild/hub/assets/room-art-review/richard-hall.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2537623,
+      "sha256": "2490b20dcde558e557479df710ee631cbe0eaaaa5105a8002fbfb625ec3cac45"
     },
     {
       "person": "richard",
       "id": "living",
       "name": "Living room and workspace",
       "style": "Upscale executive suite, larger rooms than standard apartments; warm walnut, charcoal, off-white, restrained leather, brushed metal, subtle dark green; elegant professional masculine look. Advanced technology. No extreme palace luxury. Glass balcony railing panels with metal posts, never opaque railing.",
-      "description": "Charcoal upholstery, walnut furniture and warm lighting frame an advanced entertainment screen networked to Richard’s workstation. A separate workout area leaves the guest seating clear.",
-      "fixtures": "Guest seating: A generous charcoal sofa and two leather armchairs face the entertainment center. A low walnut table, stone-topped side tables, warm dimmable lamps, coasters and a throw complete the seating area.; Networked entertainment system: A system more advanced than Nadia’s displays entertainment or explicitly shared work. Guests see no private work by default.; Ambient sound system: A soundbar and discreet speakers can fill the living room with selected background music. Controls and narration integration are pending.; Living-room workstation: Richard’s private work computer and scheduler connect to the main screen.; Home workout area: A mat, adjustable weights and exercise bench fit within the larger living area. Equipment selection is an implementation default.",
+      "description": "Charcoal upholstery, walnut furniture and warm lighting frame an advanced entertainment screen networked to Richard\u2019s workstation. A separate workout area leaves the guest seating clear.",
+      "fixtures": "Guest seating: A generous charcoal sofa and two leather armchairs face the entertainment center. A low walnut table, stone-topped side tables, warm dimmable lamps, coasters and a throw complete the seating area.; Networked entertainment system: A system more advanced than Nadia\u2019s displays entertainment or explicitly shared work. Guests see no private work by default.; Ambient sound system: A soundbar and discreet speakers can fill the living room with selected background music. Controls and narration integration are pending.; Living-room workstation: Richard\u2019s private work computer and scheduler connect to the main screen.; Home workout area: A mat, adjustable weights and exercise bench fit within the larger living area. Equipment selection is an implementation default.",
       "extra": "",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/richard-living.png"
+      "image": "rebuild/hub/assets/room-art-review/richard-living.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2765951,
+      "sha256": "cea219f88b9cd609efc14d03ff010cf3fed1e56a878a105aa8030fed9fc4fca8"
     },
     {
       "person": "richard",
@@ -37,21 +44,29 @@
       "name": "Kitchen and bar",
       "style": "Upscale executive suite, larger rooms than standard apartments; warm walnut, charcoal, off-white, restrained leather, brushed metal, subtle dark green; elegant professional masculine look. Advanced technology. No extreme palace luxury. Glass balcony railing panels with metal posts, never opaque railing.",
       "description": "A compact preparation counter emphasizes good drinks, snacks and quick meals. Glassware and a bar cabinet receive more space than elaborate cooking equipment. The guest bathroom is nearby.",
-      "fixtures": "Bar cabinet: Finite drinks and glassware for Richard’s authorized offers.; Coffee machine: Makes one drink from actual coffee and water.; Fridge and quick meals: Cold drinks, snacks and simple ingredients are tracked.; Preparation counter: The bot can prepare an authorized drink, snack or quick meal.; Personal vitamin organizer: The maid bot can organize Richard’s own finite supplements; sorting and use actions remain pending. No dosing or stat effect is specified.; Dishwasher: Used dishes require an actual cleaning job.",
+      "fixtures": "Bar cabinet: Finite drinks and glassware for Richard\u2019s authorized offers.; Coffee machine: Makes one drink from actual coffee and water.; Fridge and quick meals: Cold drinks, snacks and simple ingredients are tracked.; Preparation counter: The bot can prepare an authorized drink, snack or quick meal.; Personal vitamin organizer: The maid bot can organize Richard\u2019s own finite supplements; sorting and use actions remain pending. No dosing or stat effect is specified.; Dishwasher: Used dishes require an actual cleaning job.",
       "extra": "Bar cabinet with varied unbranded beer wine whiskey rum vodka mixers, organized glassware, espresso machine, protein-shake blender, berries milk whey and hemp hearts in modest tidy breakfast preparation. Closed personal vitamin organizer with no readable labels.",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/richard-kitchen.png"
+      "image": "rebuild/hub/assets/room-art-review/richard-kitchen.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2506590,
+      "sha256": "d613bdfd44f3c22c6f929088617c078cbe8b027ff73a9decf34e49ca6595894a"
     },
     {
       "person": "richard",
       "id": "guest",
       "name": "Guest bedroom",
       "style": "Upscale executive suite, larger rooms than standard apartments; warm walnut, charcoal, off-white, restrained leather, brushed metal, subtle dark green; elegant professional masculine look. Advanced technology. No extreme palace luxury. Glass balcony railing panels with metal posts, never opaque railing.",
-      "description": "A neutral guest room between the entry hall and master bedroom has a double bed, lamps, a small dresser and hanging space. Tasteful generic artwork and motorized blackout blinds complete the room; no personal or intimate belongings are left here. It is not a passage through Richard’s bedroom.",
+      "description": "A neutral guest room between the entry hall and master bedroom has a double bed, lamps, a small dresser and hanging space. Tasteful generic artwork and motorized blackout blinds complete the room; no personal or intimate belongings are left here. It is not a passage through Richard\u2019s bedroom.",
       "fixtures": "Guest bed: An overnight invitation is separate from a normal visit.; Guest storage: Storage for an invited overnight guest.; Guest bedside table: A lamp and the blackout-blind remote sit within reach.; Guest-room artwork: Tasteful generic artwork suggests understated sensuality without explicit imagery. No finalized image asset is attached.; Motorized blackout blinds: Guest-controlled blinds change light and privacy without changing actual co-presence.",
       "extra": "Ordinary impersonal guest bedroom: double bed, neutral bedding, lamps, dresser, hanging space, motorized blackout blinds, remote on bedside table, tasteful non-explicit portrait of adult woman. No personal or intimate belongings.",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/richard-guest.png"
+      "image": "rebuild/hub/assets/room-art-review/richard-guest.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2519926,
+      "sha256": "8c2e3540b28bc8683ea72d9beb4b1d298ad1b86e4e22237ad7afca13eb53f59e"
     },
     {
       "person": "richard",
@@ -62,18 +77,26 @@
       "fixtures": "Guest shower: Available care products need their own permission.; Guest basin: A practical basin and guest care shelf.; Guest toilet: A real fixture for an invited mobile human guest.",
       "extra": "",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/richard-guestbath.png"
+      "image": "rebuild/hub/assets/room-art-review/richard-guestbath.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2709446,
+      "sha256": "b0d7877cb3f0c79ce5f4bddf59eb4ca898dd6c2e9adaa7111241a0f75c3d2efc"
     },
     {
       "person": "richard",
       "id": "master",
       "name": "Master bedroom",
       "style": "Upscale executive suite, larger rooms than standard apartments; warm walnut, charcoal, off-white, restrained leather, brushed metal, subtle dark green; elegant professional masculine look. Advanced technology. No extreme palace luxury. Glass balcony railing panels with metal posts, never opaque railing.",
-      "description": "A larger, deliberately arranged bedroom keeps Richard’s private life away from guest circulation. The attached bathroom and walk-in wardrobe open from here.",
-      "fixtures": "Steel four-poster bed: An elegant steel four-poster bed has integrated foot-end stocks, an under-bed cage/storage compartment and discreet attachment points. These are inspectable furnishings only; no use or contact is initiated.; Bedside storage: Personal effects remain private.; Richard’s dresser: Socks occupy their own drawer. A watch collection rests on top beside a selection of expensive colognes.; Private equipment drawer: A concealed, private drawer for adult equipment. Viewing it requires Richard’s explicit private access. No use actions are implemented.",
+      "description": "A larger, deliberately arranged bedroom keeps Richard\u2019s private life away from guest circulation. The attached bathroom and walk-in wardrobe open from here.",
+      "fixtures": "Steel four-poster bed: An elegant steel four-poster bed has integrated foot-end stocks, an under-bed cage/storage compartment and discreet attachment points. These are inspectable furnishings only; no use or contact is initiated.; Bedside storage: Personal effects remain private.; Richard\u2019s dresser: Socks occupy their own drawer. A watch collection rests on top beside a selection of expensive colognes.; Private equipment drawer: A concealed, private drawer for adult equipment. Viewing it requires Richard\u2019s explicit private access. No use actions are implemented.",
       "extra": "Elegant dark steel four-poster bed, closed architectural footboard fittings, under-bed lockable storage, discreet attachment hardware; all private equipment stays inside closed storage, no exposed implements, no nudity, no person, no sexual act. Dresser with organized watch collection and cologne bottles; no explicit artwork.",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/richard-master.png"
+      "image": "rebuild/hub/assets/room-art-review/richard-master.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2789253,
+      "sha256": "78217d1281e331b1df88f904dfb0eb79d3af737650ecf7994b9e036beeb0898c"
     },
     {
       "person": "richard",
@@ -81,10 +104,14 @@
       "name": "Walk-in wardrobe",
       "style": "Upscale executive suite, larger rooms than standard apartments; warm walnut, charcoal, off-white, restrained leather, brushed metal, subtle dark green; elegant professional masculine look. Advanced technology. No extreme palace luxury. Glass balcony railing panels with metal posts, never opaque railing.",
       "description": "Restrained suits, polished semi-casual pieces and coordinated footwear fill organized rails and drawers. Gym clothes and sleepwear have their own shelves.",
-      "fixtures": "Richard’s wardrobe: Coherent work, outing, gym and sleep collections.; Laundry hamper: Worn garments await an actual laundry cycle.",
+      "fixtures": "Richard\u2019s wardrobe: Coherent work, outing, gym and sleep collections.; Laundry hamper: Worn garments await an actual laundry cycle.",
       "extra": "",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/richard-closet.png"
+      "image": "rebuild/hub/assets/room-art-review/richard-closet.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2900884,
+      "sha256": "1fc73a9814208498e262cc2ac45167bf1ef9393c78610b069cf2cf48b421da67"
     },
     {
       "person": "richard",
@@ -95,7 +122,11 @@
       "fixtures": "Master shower: Private grooming uses actual shampoo, conditioner and body wash.; Master soaking tub: A spacious tub for a deliberate bath; timed bathing controls remain pending.; Grooming cabinet: Private moisturizers, facial creams and other grooming products help Richard stay clean and presentable.; Trimmer and shaver: Richard keeps a grooming tool for deliberately managing stubble and hair. Use controls remain pending.",
       "extra": "",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/richard-masterbath.png"
+      "image": "rebuild/hub/assets/room-art-review/richard-masterbath.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2669265,
+      "sha256": "3c1170c9ffcfdfd2ef8d9f22738ebaa8a6166cdb4bae5ab5bc4bc54cb450edb3"
     },
     {
       "person": "richard",
@@ -106,29 +137,41 @@
       "fixtures": "Balcony seating: Sit outside without falling asleep or traveling.; Balcony drinks table: A small table for actual authorized drinks, shaded by small umbrellas.; Shade umbrellas: Small umbrellas shade the drinks table. Open/close controls remain pending.; Glass balcony railing: Glass panels are secured by metal support posts and mounting brackets, preserving the city view.; View over the city: Observe the changing city light; distant views do not reveal private occupants.",
       "extra": "Exactly two outdoor chairs, small drinks table shaded by small umbrellas, warm understated lighting and planters, transparent glass railing panels with brushed metal support posts and brackets, expansive city view.",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/richard-balcony.png"
+      "image": "rebuild/hub/assets/room-art-review/richard-balcony.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2752972,
+      "sha256": "769406bf9da15334095f74154eb62527f670b302d8a5eb65ca3bbe75823e2f08"
     },
     {
       "person": "nadia",
       "id": "hall",
       "name": "Entry hall",
       "style": "Understated inherited-money elegance, ivory and pale stone, charcoal, dark wood, restrained brass, sculptural upscale lighting; refined vanity and advanced home technology. Coordinated comfortable real apartment, not a palace. Doberman belongings may be present but no actual dog in image.",
-      "description": "Pale stone, a dark-wood console and restrained brass lighting suggest an established comfortable background. Dart’s walking equipment has its own tidy place.",
-      "fixtures": "Entry mirror: A full-length mirror reflects Nadia’s care over her appearance.; Hallway storage: A neat cupboard holds coats, walking equipment, a dog towel and household supplies.; Walking hooks: Dart’s real collar, lead and walking harness hang within reach; a separate spare ordinary canine collar is stored here.",
+      "description": "Pale stone, a dark-wood console and restrained brass lighting suggest an established comfortable background. Dart\u2019s walking equipment has its own tidy place.",
+      "fixtures": "Entry mirror: A full-length mirror reflects Nadia\u2019s care over her appearance.; Hallway storage: A neat cupboard holds coats, walking equipment, a dog towel and household supplies.; Walking hooks: Dart\u2019s real collar, lead and walking harness hang within reach; a separate spare ordinary canine collar is stored here.",
       "extra": "",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/nadia-hall.png"
+      "image": "rebuild/hub/assets/room-art-review/nadia-hall.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2644640,
+      "sha256": "68e053895de6fef89a5a1b263d02d4f8ab4222e77df21267c1eeebd787c0028e"
     },
     {
       "person": "nadia",
       "id": "living",
       "name": "Living room",
       "style": "Understated inherited-money elegance, ivory and pale stone, charcoal, dark wood, restrained brass, sculptural upscale lighting; refined vanity and advanced home technology. Coordinated comfortable real apartment, not a palace. Doberman belongings may be present but no actual dog in image.",
-      "description": "An elegant tailored sofa, stone-topped tables, art stands and sculptural warm lamps face a high-quality television. A polished marketing workstation and Dart’s bed and toy basket fit naturally into the room.",
-      "fixtures": "Tailored sofa & stone tables: A comfortable tailored sofa faces an advanced television. Pale stone tabletops and dark-wood accents keep the room elegant.; Sculptural lighting: Warm dimmable floor lamps, shaded side lamps and restrained brass fittings give the room a polished evening glow.; Art stands & keepsakes: Dark-wood and brass stands hold a few carefully chosen ceramics; quality rather than extravagant quantity.; High-resolution television: A higher-quality display and discreet sound system provide actual viewing rather than merely a channel switch.; Marketing home workstation: A well-equipped computer, precise display and organized desk support Nadia’s home marketing ideas.; Dart’s resting bed: A washable, deliberately coordinated dog bed sits near the seating.; Dart’s toy basket: A ball, tug toy, chew, puzzle feeder and soft toy each have a distinct use and real custody.; Dart’s home kennel: A comfortable appropriately sized kennel can be used when guests prefer space from Dart. It is not his default confinement.",
+      "description": "An elegant tailored sofa, stone-topped tables, art stands and sculptural warm lamps face a high-quality television. A polished marketing workstation and Dart\u2019s bed and toy basket fit naturally into the room.",
+      "fixtures": "Tailored sofa & stone tables: A comfortable tailored sofa faces an advanced television. Pale stone tabletops and dark-wood accents keep the room elegant.; Sculptural lighting: Warm dimmable floor lamps, shaded side lamps and restrained brass fittings give the room a polished evening glow.; Art stands & keepsakes: Dark-wood and brass stands hold a few carefully chosen ceramics; quality rather than extravagant quantity.; High-resolution television: A higher-quality display and discreet sound system provide actual viewing rather than merely a channel switch.; Marketing home workstation: A well-equipped computer, precise display and organized desk support Nadia\u2019s home marketing ideas.; Dart\u2019s resting bed: A washable, deliberately coordinated dog bed sits near the seating.; Dart\u2019s toy basket: A ball, tug toy, chew, puzzle feeder and soft toy each have a distinct use and real custody.; Dart\u2019s home kennel: A comfortable appropriately sized kennel can be used when guests prefer space from Dart. It is not his default confinement.",
       "extra": "",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/nadia-living.png"
+      "image": "rebuild/hub/assets/room-art-review/nadia-living.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2813397,
+      "sha256": "891299444e76af172be8434ad02ccfb37ef836b5da02f2a8aa79fddc615136cb"
     },
     {
       "person": "nadia",
@@ -139,7 +182,11 @@
       "fixtures": "Advanced kitchen: Induction hob, convection oven, quiet dishwasher, fine stone counters and coordinated cabinetry.; Dining table & charcuterie: An elegant table provides space to prepare, serve and consume a real charcuterie selection.",
       "extra": "",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/nadia-kitchen.png"
+      "image": "rebuild/hub/assets/room-art-review/nadia-kitchen.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2712418,
+      "sha256": "e5c009e4d7c1d713c31307ed02b1847a5db1836464bde34e258328e802832412"
     },
     {
       "person": "nadia",
@@ -147,10 +194,14 @@
       "name": "Bedroom",
       "style": "Understated inherited-money elegance, ivory and pale stone, charcoal, dark wood, restrained brass, sculptural upscale lighting; refined vanity and advanced home technology. Coordinated comfortable real apartment, not a palace. Doberman belongings may be present but no actual dog in image.",
       "description": "Elegant coordinated bedding and warm lamps soften the room. A dressing vanity stands nearby; Dart normally sleeps on the bed with Nadia.",
-      "fixtures": "Bedroom & Dart’s usual place: Coordinated bedding, warm reading light and Dart’s usual sleeping place beside Nadia leave the room comfortable.; Dressing vanity: A well-lit mirror, neat cosmetic tray and private drawers.; Laundry hamper: Worn clothing stays separate from clean storage.",
+      "fixtures": "Bedroom & Dart\u2019s usual place: Coordinated bedding, warm reading light and Dart\u2019s usual sleeping place beside Nadia leave the room comfortable.; Dressing vanity: A well-lit mirror, neat cosmetic tray and private drawers.; Laundry hamper: Worn clothing stays separate from clean storage.",
       "extra": "",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/nadia-bedroom.png"
+      "image": "rebuild/hub/assets/room-art-review/nadia-bedroom.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2670125,
+      "sha256": "a89caea5622bf9400d46bf545ad49b4f50e262dc79bf9c9bf0891754617ab7a9"
     },
     {
       "person": "nadia",
@@ -161,7 +212,11 @@
       "fixtures": "Shower & bath: A refined bathroom supports actual product use and bathing.; Basin & grooming light: A clear grooming mirror and practical tools.; Toilet: A private practical facility.",
       "extra": "",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/nadia-bath.png"
+      "image": "rebuild/hub/assets/room-art-review/nadia-bath.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2670684,
+      "sha256": "7825be68d1bab161b6448f1b26573c4246c6ba89c4583af8dab19cedf03ab077"
     },
     {
       "person": "nadia",
@@ -169,21 +224,29 @@
       "name": "Walk-in closet",
       "style": "Understated inherited-money elegance, ivory and pale stone, charcoal, dark wood, restrained brass, sculptural upscale lighting; refined vanity and advanced home technology. Coordinated comfortable real apartment, not a palace. Doberman belongings may be present but no actual dog in image.",
       "description": "Generous rails divide tailored workwear, elegant casual clothing and extensive evening attire. Ordinary designer-style heels occupy organized shoe shelves.",
-      "fixtures": "Expanded wardrobe: Nadia’s wardrobe is larger than Erin’s and Priya’s, with extensive eveningwear and designer-style heels.",
+      "fixtures": "Expanded wardrobe: Nadia\u2019s wardrobe is larger than Erin\u2019s and Priya\u2019s, with extensive eveningwear and designer-style heels.",
       "extra": "",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/nadia-closet.png"
+      "image": "rebuild/hub/assets/room-art-review/nadia-closet.png",
+      "width": 1535,
+      "height": 1024,
+      "bytes": 2736195,
+      "sha256": "ef85345321020a75d39a86f92307397e4456390c3e2dd1d953dfc940a8a70d64"
     },
     {
       "person": "erin",
       "id": "living",
       "name": "Living Room",
       "style": "Comfortable practical orderly home, modest secretary income, warm oatmeal and cream, medium natural wood, fabric upholstery, well-loved books and domestic details. Cozy and lived-in but tidy, never lavish, no crystal spiritual theme, no brass luxury showroom. Existing established architecture.",
-      "description": "The apartment opens into a tidy living room. Erin’s immaculate home desk is immediately visible ahead, while the sofa, television, bookcase and reading chair make a quieter retreat to the left.",
+      "description": "The apartment opens into a tidy living room. Erin\u2019s immaculate home desk is immediately visible ahead, while the sofa, television, bookcase and reading chair make a quieter retreat to the left.",
       "fixtures": "Home desk: The desk is carefully ordered: stationery aligned, paperwork squared, and a work calendar prominently placed.; Fabric sofa: A comfortably worn fabric sofa with a soft throw blanket folded over one arm. Erin chose it for comfort, not appearances.; Reading armchair: An upholstered armchair sits beside the tall bookcase and reading lamp. Its cushions have softened with years of quiet evenings.; Coffee table: A simple wooden coffee table holds a bookmarked novel, a television remote and a coaster.; Tall bookcase: An ordinary tall wooden bookcase holds nearly a hundred books, most carefully kept and some visibly reread. Two handcrafted keepsakes rest among the shelves.; Television: A modest 44-inch television rests on a plain media stand.; Reading lamp: A warm reading lamp stands beside the armchair.; Living room plants: A snake plant, a ZZ plant and a pothos bring greenery to the room. They tolerate indirect light and do not need constant attention.",
       "extra": "",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/erin-living.png"
+      "image": "rebuild/hub/assets/room-art-review/erin-living.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2894251,
+      "sha256": "c693641e3136ceb31bc21bee8116c54ae9687919afdf9fe9da033e65d8403950"
     },
     {
       "person": "erin",
@@ -191,65 +254,89 @@
       "name": "Kitchen & Dining",
       "style": "Comfortable practical orderly home, modest secretary income, warm oatmeal and cream, medium natural wood, fabric upholstery, well-loved books and domestic details. Cozy and lived-in but tidy, never lavish, no crystal spiritual theme, no brass luxury showroom. Existing established architecture.",
       "description": "A compact, orderly kitchen opens around a counter and small dining table. The refrigerator, stove, sink and wine cooler each have their own place.",
-      "fixtures": "Refrigerator: An orderly refrigerator stores Erin’s groceries.; Stove: The stove is clean and switched off.; Sink: The sink is clean and empty.; Counter: The counter is wiped down and ready for use.; Dining table: You take a seat at the dining table.; Wine cooler: A compact wine cooler sits neatly in its designated spot.",
+      "fixtures": "Refrigerator: An orderly refrigerator stores Erin\u2019s groceries.; Stove: The stove is clean and switched off.; Sink: The sink is clean and empty.; Counter: The counter is wiped down and ready for use.; Dining table: You take a seat at the dining table.; Wine cooler: A compact wine cooler sits neatly in its designated spot.",
       "extra": "",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/erin-kitchen.png"
+      "image": "rebuild/hub/assets/room-art-review/erin-kitchen.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2607642,
+      "sha256": "a616c20a85c88ba334d77dbc830f95c7707aff108dacf3d26f29591dabee02be"
     },
     {
       "person": "erin",
       "id": "bedroom",
       "name": "Bedroom",
       "style": "Comfortable practical orderly home, modest secretary income, warm oatmeal and cream, medium natural wood, fabric upholstery, well-loved books and domestic details. Cozy and lived-in but tidy, never lavish, no crystal spiritual theme, no brass luxury showroom. Existing established architecture.",
-      "description": "Erin’s carefully maintained bedroom feels quiet and private. Her neatly made bed, dresser, reading lamp, and ironing board are arranged for everyday comfort.",
+      "description": "Erin\u2019s carefully maintained bedroom feels quiet and private. Her neatly made bed, dresser, reading lamp, and ironing board are arranged for everyday comfort.",
       "fixtures": "Upholstered bed: A comfortable bed with an oatmeal upholstered headboard, a few throw pillows, and a lightweight blanket folded at its foot for reading in bed.; Six-drawer dresser: An orderly six-drawer dresser beneath a mirror. A lace runner, clean floral perfumes, and frequently used body lotions rest on top.; Bedside table: A reading lamp, bookmark, and water glass sit close to the bed.; Ironing board: An ironing board stands near the bedroom laundry basket.; Laundry basket: The bedroom laundry basket holds worn garments until they are carried to the hallway utility closet.; Bedroom window: Soft daylight filters into the warm, quiet bedroom.",
       "extra": "",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/erin-bedroom.png"
+      "image": "rebuild/hub/assets/room-art-review/erin-bedroom.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2997554,
+      "sha256": "ce01543d669d6a942d8afe7c26702016943c24056aaac2e0727f7c32c8984f8a"
     },
     {
       "person": "erin",
       "id": "bath",
       "name": "Bathroom",
       "style": "Comfortable practical orderly home, modest secretary income, warm oatmeal and cream, medium natural wood, fabric upholstery, well-loved books and domestic details. Cozy and lived-in but tidy, never lavish, no crystal spiritual theme, no brass luxury showroom. Existing established architecture.",
-      "description": "Erin’s bathroom is clean, practical, and stocked with everyday toiletries. The shower, sink, mirror, and linen shelf are all within reach.",
+      "description": "Erin\u2019s bathroom is clean, practical, and stocked with everyday toiletries. The shower, sink, mirror, and linen shelf are all within reach.",
       "fixtures": "Sink, mirror & makeup: Erin does her light professional makeup here: moisturizer, primer, foundation, blush, eyeshadow, mascara, eyelash curling, lipstick, and setting spray.; Shower & bathtub: A shower-and-bathtub combination. Erin showers when rushed but prefers a relaxing bath when time allows.; Bathroom cabinet: Skincare, clean floral bath oils and salts, bubble bath, pads and tampons, a heating pad, and modest over-the-counter pain relief are stored neatly.; Towel shelf: Clean towels and a soft bath pillow are within easy reach.",
       "extra": "",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/erin-bath.png"
+      "image": "rebuild/hub/assets/room-art-review/erin-bath.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2536598,
+      "sha256": "8f31ace3a94fd2864e10b7666856832ebc5acb8509d90d4b29d7d89d08fb5f69"
     },
     {
       "person": "erin",
       "id": "closet",
       "name": "Closet",
       "style": "Comfortable practical orderly home, modest secretary income, warm oatmeal and cream, medium natural wood, fabric upholstery, well-loved books and domestic details. Cozy and lived-in but tidy, never lavish, no crystal spiritual theme, no brass luxury showroom. Existing established architecture.",
-      "description": "An orderly wardrobe holds Erin’s work clothing, comfortable off-duty layers, shoes, accessories, and soft neutral socks. Clothing can be examined here; a full equipment overhaul is planned separately.",
+      "description": "An orderly wardrobe holds Erin\u2019s work clothing, comfortable off-duty layers, shoes, accessories, and soft neutral socks. Clothing can be examined here; a full equipment overhaul is planned separately.",
       "fixtures": "Professional wardrobe: Tailored blouses, skirts, and occasional formal work dresses. Erin values modest, polished office presentation.; Casual wardrobe: Comfortable sweaters, cardigans, leggings, jeans, plain fitted T-shirts and a brown leather jacket.; Shoe collection: Eight individual pairs, including her signature red work heels and practical weekend and winter options.; Accessories: Understated jewelry, belts, and hair accessories.; Hosiery & sleepwear: The main supplies of socks, pantyhose, tights, and sleepwear are kept in their assigned dresser drawers.",
       "extra": "",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/erin-closet.png"
+      "image": "rebuild/hub/assets/room-art-review/erin-closet.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2917179,
+      "sha256": "68e4cff2d4c25ab6d91a8597b293070c53af8ea0f1645f8c60f8db59abcf30bd"
     },
     {
       "person": "erin",
       "id": "hall",
       "name": "Entry Hall",
       "style": "Comfortable practical orderly home, modest secretary income, warm oatmeal and cream, medium natural wood, fabric upholstery, well-loved books and domestic details. Cozy and lived-in but tidy, never lavish, no crystal spiritual theme, no brass luxury showroom. Existing established architecture.",
-      "description": "The apartment entrance opens into the living room. Beyond this short interior hall is Erin’s private bedroom.",
+      "description": "The apartment entrance opens into the living room. Beyond this short interior hall is Erin\u2019s private bedroom.",
       "fixtures": "Apartment door: The entrance to Unit 3C leads to the shared Applewood Apartments corridor.",
       "extra": "",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/erin-hall.png"
+      "image": "rebuild/hub/assets/room-art-review/erin-hall.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2622031,
+      "sha256": "9bc60d84d907a83784f928c375ac5ca641a131887d88e1e7ee249a574f09c89b"
     },
     {
       "person": "priya",
       "id": "living",
       "name": "Living Room",
       "style": "Holistic calm crystal-themed home throughout: warm cream, oatmeal, ivory, pale stone, light natural wood, very soft sage. Himalayan pink salt lamps and modest softly lit crystal displays. Absolutely no saturated red/blue or sharp contrasting accents. Subdued chakra/acupuncture charts only in hall; no portraits there. Calm, personal, inviting and neutral.",
-      "description": "A large soft-sage sectional with separate storage ottomans, cream and oatmeal cushions and a pale oak table faces a modest television. Clear paths around the seating leave room for guests to move comfortably. Fantasy novels and romantic comedies share a bookcase. A writing desk beside the window holds a closed notebook; personal pages stay private. Himalayan pink salt lamps cast a warm rose-and-amber glow around softly lit crystal displays. The lighting reflects Priya’s interest in positive energy and makes the room feel calm and personal. A rolled yoga mat rests beside an uncluttered patch of floor, with a small crystal arrangement nearby.",
+      "description": "A large soft-sage sectional with separate storage ottomans, cream and oatmeal cushions and a pale oak table faces a modest television. Clear paths around the seating leave room for guests to move comfortably. Fantasy novels and romantic comedies share a bookcase. A writing desk beside the window holds a closed notebook; personal pages stay private. Himalayan pink salt lamps cast a warm rose-and-amber glow around softly lit crystal displays. The lighting reflects Priya\u2019s interest in positive energy and makes the room feel calm and personal. A rolled yoga mat rests beside an uncluttered patch of floor, with a small crystal arrangement nearby.",
       "fixtures": "",
       "extra": "Large sage sectional with separate storage ottomans, warm oak coffee table, bookcase, writing desk by window, yoga space, salt lamps and crystals. Neutral cushions only.",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/priya-living.png"
+      "image": "rebuild/hub/assets/room-art-review/priya-living.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2984335,
+      "sha256": "238029a0836d5810255121c30abc85e785498fbb6f97da6ff3c93df5cfb435fb"
     },
     {
       "person": "priya",
@@ -260,7 +347,11 @@
       "fixtures": "",
       "extra": "",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/priya-kitchen.png"
+      "image": "rebuild/hub/assets/room-art-review/priya-kitchen.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2516378,
+      "sha256": "d29c99f422c55a465b68b8259a2d38d948effa83ea7dfde63263fd4c2ec187fb"
     },
     {
       "person": "priya",
@@ -271,18 +362,26 @@
       "fixtures": "",
       "extra": "",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/priya-bedroom.png"
+      "image": "rebuild/hub/assets/room-art-review/priya-bedroom.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2633873,
+      "sha256": "b4936707f4f91d9b4cd04dc259966576295e7d87279bc6ca04fe5a11e8d7b510"
     },
     {
       "person": "priya",
       "id": "bath",
       "name": "Bathroom",
       "style": "Holistic calm crystal-themed home throughout: warm cream, oatmeal, ivory, pale stone, light natural wood, very soft sage. Himalayan pink salt lamps and modest softly lit crystal displays. Absolutely no saturated red/blue or sharp contrasting accents. Subdued chakra/acupuncture charts only in hall; no portraits there. Calm, personal, inviting and neutral.",
-      "description": "Warm pale-stone tile, softly brushed fittings and neatly folded cream and sage towels continue the neutral, calming palette. A small crystal display and diffused warm light echo the rest of the apartment. A shower, basin and mirror fit the apartment’s existing room arrangement.",
+      "description": "Warm pale-stone tile, softly brushed fittings and neatly folded cream and sage towels continue the neutral, calming palette. A small crystal display and diffused warm light echo the rest of the apartment. A shower, basin and mirror fit the apartment\u2019s existing room arrangement.",
       "fixtures": "",
       "extra": "Modest litter box discreetly placed clear of human fixtures; no cat in scene.",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/priya-bath.png"
+      "image": "rebuild/hub/assets/room-art-review/priya-bath.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2458717,
+      "sha256": "d5c3360d3ab6b7dd244c77e60abfb018c1090486102788d16124f984374da242"
     },
     {
       "person": "priya",
@@ -293,7 +392,11 @@
       "fixtures": "",
       "extra": "",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/priya-closet.png"
+      "image": "rebuild/hub/assets/room-art-review/priya-closet.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2600297,
+      "sha256": "e1682e03dd18092ebc6c35a6ee0667ba11277238db761678a1a17d5d2c5dfdd8"
     },
     {
       "person": "priya",
@@ -304,7 +407,19 @@
       "fixtures": "",
       "extra": "Subdued chakra and acupuncture charts, pale neutral coat closet.",
       "status": "generated",
-      "image": "rebuild/hub/assets/room-art-review/priya-hall.png"
+      "image": "rebuild/hub/assets/room-art-review/priya-hall.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2771786,
+      "sha256": "5635d9ab4ed46be51a36fc265fac3f713cd277c16d882551544233b101337163"
     }
-  ]
+  ],
+  "validation": {
+    "imageCount": 27,
+    "decode": "PASS",
+    "composition": "approximately 3:2",
+    "hashes": "recorded",
+    "ownerApproval": "pending",
+    "runtimeIntegration": false
+  }
 }
