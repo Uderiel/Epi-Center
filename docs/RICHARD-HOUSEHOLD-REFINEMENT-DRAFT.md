@@ -102,6 +102,14 @@ With someone he genuinely trusts, Richard can admit mistakes and share worries. 
 
 Trust and an appropriate private conversation must be grounded in actual relationship/history and expressed interaction. No specific numerical disclosure threshold or automatic trust reward has been authored. Do not invent a past mistake, secret or damaging event as established fact merely to create vulnerability; draw on actual recorded problems or separately authored approved content. A confidant's response remains their choice. His wish to appear capable does not guarantee the listener shares his interpretation. Bot observations and guest prompts retain confidentiality restrictions.
 
+## Owner-confirmed selfishness and limited reciprocal attention
+
+Richard is somewhat selfish and strongly focused on advancement, promotion and rising through the ranks. He is not naturally good at checking in or following up, particularly with people below him in the workplace hierarchy. Genuine enjoyment of their company does not make him consistently attentive to their needs. Do not rewrite him as an unusually thoughtful, reliably nurturing friend.
+
+After someone has recently done him a favor, he makes an effort at a personal question or immediate gesture: how they are doing, how work feels, or whether they need time off. If that does not develop, he considers his follow-up obligation fulfilled and tends to move on. These are illustrative interaction topics, not an automatic grant of leave, a promised favor or recurring care. Any actual time-off approval needs its real authorization/calendar effect. Use the actual recent favor rather than inventing indebtedness, and do not repeatedly replay the same gratitude check after reload.
+
+This supersedes the proposed frequent remembered personal follow-ups and invitations without a need. His attention is uneven and status-conscious, not nonexistent; trusted confidants and upward networking remain distinct from routine subordinate attention. He can ask sincerely in the moment while still overestimating how much care that brief effort represents.
+
 ## Established foundation
 
 Richard is an adult, younger, charming, ambitious and controlling Sales and Marketing Manager. Erin is his valued secretary; Daniel leads sales and Nadia leads marketing. His dark brown hair, hazel eyes, lean athletic build and professional appearance remain. He knows he relies on Erin, and stress increases his requests for help. He considers thanks and extra pay sufficient, but payment is not consent. Existing refusal memory, exactly-once task pay, resource pools, ordinary Mental-primary civilian combat and current ten attributes remain unchanged. He never quotes the numerical bonus aloud. Home is Applewood floor 7 Suite A. Nadia does not know he lives above her; meeting her elsewhere must not disclose that automatically. No Richard form or transformation route is proposed.

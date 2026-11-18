@@ -1,3 +1,9 @@
+## Richard limited reciprocity and selfish advancement focus confirmed
+
+Poor spontaneous personal follow-up, especially toward subordinates. A recent actual favor can prompt a personal check-in or immediate offer, but if it goes nowhere he considers his obligation fulfilled. Advancement/promotion remain central. Supersedes proposed consistently attentive friendship; no automatic leave grant or invented favor. Saved draft/design.
+
+Branch `rebuild/1.0-foundations`; parent `482bfe5`. Documentation only; no runtime/tests/release. Next exact action: consolidate confirmed social profile and identify only consequential remaining gaps before implementing Richard's agreed household/social slice. Public remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 .
+
 ## Richard selective vulnerability confirmed
 
 With a trusted confidant Richard admits mistakes/shares worries as a request for practical advice. He expects limited judgment and solutions to prevent recurrence or correct consequences, and guards against appearing weak. No automatic numerical trust threshold, invented past mistake or public confession. Saved draft/design.

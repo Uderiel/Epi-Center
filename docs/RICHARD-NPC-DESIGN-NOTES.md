@@ -1,3 +1,11 @@
+## Owner-confirmed selfishness and limited reciprocal attention
+
+Richard is somewhat selfish and strongly focused on advancement, promotion and rising through the ranks. He is not naturally good at checking in or following up, particularly with people below him in the workplace hierarchy. Genuine enjoyment of their company does not make him consistently attentive to their needs. Do not rewrite him as an unusually thoughtful, reliably nurturing friend.
+
+After someone has recently done him a favor, he makes an effort at a personal question or immediate gesture: how they are doing, how work feels, or whether they need time off. If that does not develop, he considers his follow-up obligation fulfilled and tends to move on. These are illustrative interaction topics, not an automatic grant of leave, a promised favor or recurring care. Any actual time-off approval needs its real authorization/calendar effect. Use the actual recent favor rather than inventing indebtedness, and do not repeatedly replay the same gratitude check after reload.
+
+This supersedes the proposed frequent remembered personal follow-ups and invitations without a need. His attention is uneven and status-conscious, not nonexistent; trusted confidants and upward networking remain distinct from routine subordinate attention. He can ask sincerely in the moment while still overestimating how much care that brief effort represents.
+
 ## Owner-confirmed trust and selective vulnerability
 
 With someone he genuinely trusts, Richard can admit mistakes and share worries. He does not want those disclosures perceived as weakness. He chooses people he believes will understand that he is seeking advice, avoid judging him too harshly, and offer practical ways to prevent recurrence or correct the effects of his mistakes. His openness is selective and solution-oriented, not an unsolicited public confession or constant need for reassurance.
