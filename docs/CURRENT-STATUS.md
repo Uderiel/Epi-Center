@@ -1,3 +1,7 @@
+## Charity privacy and gradual disclosure confirmed
+
+Initial consequence reminders are private to Charity; visible hesitation may reach the player. Owner references her arrival and brother history; exact lore not found in scoped local Markdown/0.8.71/0.8.84search, so preserve thread without inventing details. Relationship75+and first Hub Cylinder discovery open limited options gradually, not automatic full explanations. Sensitive discussion normally requires a genuinely private setting/audience, not floor/register chatter. Saved in CHARITY-LEGACY-AUDIT.md. Next: everyday shop operation/rest coverage; deeper lore details can wait. Design only.
+
 ## Charity disclosure refinement — relationship75+
 
 Owner sets sensitive disclosure eligibility at per-player relationship75or higher. No direct speech block; the game reminds Charity of consequences for excessive explicitness/honesty. Exact reminder visibility, triggers and consequences remain to be designed. Keep75relationship separate from Assist Charity100%trust and cylinder progression. Next clarify whether reminders are private or observable, then author bounded disclosure topics. Design only; no gameplay change.

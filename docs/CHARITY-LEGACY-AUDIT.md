@@ -2,6 +2,16 @@
 
 Sources inspected: epi-center-v0.8.71-cherished-touch-foundation.html and epi-center-v0.8.84-attribute-foundation-corrections.html (CherishedTouch871 quests/charity/panel); docs/EPI-CENTER-CHANGELOG.md, October25Cherished Touch notes; docs/EPI-CENTER-PROJECT-HANDOFF.md; docs/Epi-Center-Character-Design-Gap-Audit.md CP013; docs/CHERISHED-TOUCH.md; current cherished-touch.js/UI, ai-context.js and interactCharity in index.html.
 
+## Owner refinement — gradual private disclosure and initial reminder privacy
+
+System reminders are initially private to Charity, including reminders of her arrival in Epi-Center and what happened to her brother. Owner establishes that brother-related history exists as a lore thread; exact events were not found in this scoped search of local Markdown notes and the0.8.71/0.8.84HTMLsources. Do not invent his fate or her arrival history, treat absence from those sources as proof it was never designed, or ask the owner to recreate it before a broader recovery if later needed. Details may be expanded later.
+
+The player may observe hesitation, reluctance and topic changes, without hearing the private reminder or automatically learning its cause. Relationship75+does not produce a complete explanation. As trust develops and the first Hub Cylinder is found, more dialogue and options become available incrementally. Owner’s new wording concerns first discovery; retain the older restored-cylinder/deeper-access proposals as unresolved later gates, not an automatic override granting the full Resistance route.
+
+Sensitive conversation should normally occur privately, rather than on the sales floor or behind the register where others can overhear. High relationship and cylinder eligibility alone do not authorize a public lore dump or immediate disclosure. Separate eligibility, actual safe audience/location, Charity’s willingness and the limited topic revealed. A public question can receive a natural deflection or suggestion to talk privately later; it does not itself move either person or grant back-room access. Ordinary shop talk remains possible throughout.
+
+Unresolved: exact arrival/brother source, deeper disclosure topics and their progression, later reminder visibility, operating-hours staffing/rest, and precise private invitations. No gameplay or AI enforcement implemented by this record.
+
 ## Owner refinement — disclosure relationship gate and consequence reminders
 
 Owner sets Charity’s sensitive disclosure threshold at relationship75or higher on the shared per-NPC/per-player signed−100to+100scale. She needs trust in the particular player because she does not know which side they will choose. Threshold eligibility permits selective disclosure; it does not automatically reveal every secret, force a conversation, grant private-area access or establish omniscience. Keep this relationship75gate distinct from the legacy Assist Charity100%trust design and unresolved Hub Cylinder gates.
