@@ -1,3 +1,9 @@
+## Nadia and Dart holistic design started — review draft
+
+Branch `rebuild/1.0-foundations`; parent da2526f. Owner selects Nadia/Dart next: home routine, playable6E, independent dog behavior, boutique and potential kenneled-canine-player interaction. Added NADIA-AND-DART-HOUSEHOLD-REVIEW-DRAFT.md using the universal template; preserves approved Nadia personality/work, Dart identity and actual address. New apartment, daily life, food/wardrobe and boutique/play details are proposals, not implemented/approved facts. Identified real dependencies: no current boarding/interior actor services, midday care coverage and weekday24-hour reference versus narrower cat-shop prototype/weekend hours unspecified.
+
+Public v1.0.106/runtime ad28cc1 remains unchanged. Documentation only; no runtime/save/asset edits or gameplay tests. Exact next action: review broad household/Dart direction, settle care and service-hours design, then implement the agreed slice. Do not invent full Sal/Terrence/Trixie behavior, dog duplication, confinement effects or completed care from reference text.
+
 ## v1.0.106 — finished, published and verified
 
 [Play v1.0.106](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.106). Runtime **`ad28cc1d3ba48a654f5ce15f1be6679a6e458abe`** is on `rebuild/1.0-foundations` and `main`. [Pages Actions run 44303324525](https://github.com/Uderiel/Epi-Center/actions/runs/44303324525) succeeded. All **25** checked deployed runtime files match the tested local bytes.
