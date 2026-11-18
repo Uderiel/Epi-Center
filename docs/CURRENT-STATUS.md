@@ -1,3 +1,9 @@
+## Cat engagement approvals — design checkpoint
+
+Branch `rebuild/1.0-foundations`; parent `abddca2`; public remains v1.0.104/runtime1931b6c. Owner confirms Common mastery, roaming credit and safe window/fire-escape access. Adds a real usable apartment litter box; optional Priya and actual present guest/NPC interactions with the cat; prewritten sensory feedback; and player autonomy over accepting, avoiding and ending engagement. High Influence/instinct or collar belief must not stand in for interaction consent. No guest spawning, runtime implementation, new tests or publication in this documentation checkpoint.
+
+Updated PRIYA-CAT-ROUTE-REVIEW-DRAFT.md distinguishes these approvals from still-proposed six-day owned-cat duration, collar milestones/re-equip and exact route geometry. Exact next action: complete owner review of remaining cat defaults and interaction coverage, then implement the approved package with real inventory servings, durable flats replay and household routines before publishing. Saved locally; no remote publication.
+
 ## Priya completion design — review before implementation/publication
 
 Branch `rebuild/1.0-foundations`; parent draft checkpoint `46f3c8c`; public v1.0.104/runtime1931b6c unchanged. Owner approves the broad daily-life rhythm, repeatable per-save flats encounters with permanent conquered mastery and unchanged solitude gates, and real usable inventory servings for accepted snacks/drinks. Implementation has not started in this checkpoint. No new runtime tests or publication claimed.
