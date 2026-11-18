@@ -1,3 +1,9 @@
+## Owner acceptance and next location: Burke’s Sweets
+
+Owner confirmed no faults in v1.0.110 and successful fixes in v1.0.111, explicitly confirmed current version1.0.111, and will report further issues if found. Acceptance is recorded; do not request another title-screen confirmation or redundant test summary.
+
+Next selected location is **Burke’s Sweets, tile63**. Verified as mapped building(2,-1) with placeholder description and no playable retail interior. Source audit/design gaps: `docs/BURKES-SWEETS-LOCATION-AUDIT.md`. Start with the actual business/public layout and any owner diagram, then menu/service/stock using shared systems. Preserve the current surface graph and keep historical alley/quest material deferred. No new gameplay changes in this checkpoint.
+
 ## v1.0.111 patch published and publicly verified
 
 Play directly: https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.111
