@@ -1,3 +1,7 @@
+## Sustained activities and couch blanket — owner requirement saved
+
+Branch `rebuild/1.0-foundations`; parent 81a637a. Owner requires real player-initiated ongoing watch/read/bath/rest/nap activities with contextual dialogue, and Erin’s usable long-couch throw blanket. Added shared activity lifecycle/completion/reload/interruption requirements and Erin-specific restoration detail to template/refinement. Source distinguishes existing autonomous jobs/Priya watch segments from the still-missing unified manual activity experience. Documentation only; no new runtime/tests or release. Public105 unchanged. Exact next action: continue holistic Erin review, then reconcile legacy blanket data and implement shared manual/autonomous activity state without duplicating clocks, effects or inventory.
+
 ## Erin reading reminder mismatch — source diagnosis saved
 
 Branch `rebuild/1.0-foundations`; parent 7a522bc. Owner reports reading all short chapters but receiving another immediate generic reading desire. Manual/autonomous reading already saves lastReadAt; ordinary intention/preference generation does not consult it. Added completion-to-desire satisfaction requirement to Erin draft and universal template. No runtime fix or new tests yet. Public105 unchanged. Exact next action: continue owner review, then implement recent-reading acknowledgement and persisted reminder suppression with meaningful tests alongside agreed Erin refinements.

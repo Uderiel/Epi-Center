@@ -1,3 +1,7 @@
+## Sustained activities and couch blanket — owner requirement saved
+
+Branch `rebuild/1.0-foundations`; parent 81a637a. Owner requires real player-initiated ongoing watch/read/bath/rest/nap activities with contextual dialogue, and Erin’s usable long-couch throw blanket. Added shared activity lifecycle/completion/reload/interruption requirements and Erin-specific restoration detail to template/refinement. Source distinguishes existing autonomous jobs/Priya watch segments from the still-missing unified manual activity experience. Documentation only; no new runtime/tests or release. Public105 unchanged. Exact next action: continue holistic Erin review, then reconcile legacy blanket data and implement shared manual/autonomous activity state without duplicating clocks, effects or inventory.
+
 ## Erin refinement and reusable authoring template — design checkpoint
 
 Branch `rebuild/1.0-foundations`; parent `5ee54e6`. Owner selects Erin next and requires future broad-vibe briefs to produce complete NPC/form drafts. Added NPC-AND-FORM-DESIGN-TEMPLATE.md as the universal authoring checklist alongside the unchanged runtime living schema. Added ERIN-CHARACTER-REFINEMENT-DRAFT.md, preserving established Erin identity, body lifecycle, authority, household and work systems while proposing coherent voice, daily/social rhythm, reciprocal hosting and meaningful personal interactions. New details are proposals for review, not implemented or individually approved.
