@@ -1,3 +1,7 @@
+## Portraits revised using approved photographic references and distinct personality
+
+Owner wants the natural photographic style of Erin/Priya/Nadia and different character-specific poses; interiors may be used if consistent with actual layout. Actual reference images were viewed and supplied to generation. Latest canonical review assets replaced in place: Charity helping with folded clothing and an open gesture in a bounded H sales-floor view; Tits cheek-poking/distracted with her coffee in a bounded C cafe-equipment view. Both displayed directly in chat. No current owner approval or live integration assumed. Details/provenance: CHARACTER-ART-REVIEW.md. User said Freya; only Priya-named portrait was available and that distinction was stated. Public v1.0.111 unchanged.
+
 ## Charity/Tits artwork corrected to plain standalone body shots
 
 Owner explicitly rejected all shop/register-background attempts and requested only body shots. Canonical review assets `character-art-review/charity-v1.png` and `tits-v1.png` were replaced in place with full head-to-shoes portraits on plain light-gray studio backgrounds; all store scenery, counters, registers and cups removed. Actual images displayed directly in chat, Charity then Tits. These supersede the earlier contextual-background revisions. See CHARACTER-ART-REVIEW.md; updated universal portrait instructions. Unapproved review assets only; public v1.0.111 unchanged.

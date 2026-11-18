@@ -1,6 +1,17 @@
 # Character portrait review assets
 
-## Current revision — plain full-body character shots
+## Current revision — photographic references and individual personality
+
+Owner requested matching the successful Erin/Priya/Nadia photographic treatment, distinct natural poses, and character-specific expression/vocation. Interiors ARE allowed when relevant and consistent with known room functions; the earlier no-interior/plain-studio instruction was a response to failed backgrounds, not a permanent style requirement.
+
+Actual images opened and provided to generation as style references: `erin-legacy-portrait.jpg`, `priya-shah-approved.png`, `nadia-voss-dart.jpg`. Owner said “Freya”; no Freya-named file was found, and the available portrait filed as Priya was identified transparently rather than claiming an unseen Freya image was reviewed.
+
+Latest full-body Charity is a mature friendly shopkeeper holding folded clothing on one arm and offering an open helping gesture, with a softly blurred fragment of H public clothing racks. Latest Tits is playful/absent-minded, touching her cheek and glancing upward while holding her own coffee, with a softly blurred C coffee-equipment background. No depicted new doors or full room topology. Natural photographic light/skin/fabric, separate identities and different poses are the intended review criteria; owner approval is not presumed. Current canonical files replaced in place. Final generation originals: `exec-d1b52c89-2ca3-485d-96f0-e8c39002a482.png` and `exec-48e07c73-392b-466e-8b67-4dc3aa451e7e.png`. Displayed directly in chat. Not wired into public gameplay.
+
+Earlier revision notes below are historical and superseded.
+
+
+## Superseded revision — plain full-body character shots
 
 Owner rejected the shop/register backgrounds and explicitly requested standalone body shots. The two canonical review files have been replaced in place with head-to-shoes portraits on a seamless light-gray studio background, with all counters, registers, furniture, cups and scenery removed. Character identities/outfits are retained. Charity was generated as `exec-ab51e723-24f2-4405-9086-7dea2fd79407.png`; Tits as `exec-b8e4b0f2-8f40-476c-8077-29dbacd2121c.png`. Both were attached directly in chat. Generated originals remain preserved; no rejected duplicate files added to repository. These remain unapproved review portraits, not live-game assets.
 
