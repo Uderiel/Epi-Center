@@ -1,3 +1,24 @@
+## First catalogue and service proposal — NOT APPROVED
+
+Preserve existing price anchors: umbrella50gold, Mystery Box150gold. Mystery Box contents/effects must be designed before selling it as functional merchandise. Regular clothing prices below are proposed economy values, not recovered canon:
+
+| Everyday item | Proposed gold |
+| --- | --- |
+| Basic T-shirt/top | 8 |
+| Underwear, chosen appropriate style/fit | 5 |
+| Socks | 3 |
+| Shorts | 12 |
+| Jeans/trousers | 18 |
+| Skirt | 18 |
+| Simple everyday dress | 30 |
+| Basic everyday shoes | 25 |
+| Light jacket/cardigan | 25 |
+| New-arrival basics bundle: top, trousers, underwear, socks, basic shoes | 45 |
+
+The45gold bundle compares with59gold individual proposed pieces. It is an optional visible starter deal against the existing100gold starting budget; First Steps remains visit/report only, with no purchase required. Fit/style choices should not force a gender, form change or unwanted equipment. Broader casual/workwear and enhanced stock can be designed next; do not invent enhanced effects from display descriptions.
+
+Service proposal: browse actual racks and posted stock/prices; select size/style; optional try-on in an available real stall with stored belongings/ownership intact; return to counter for atomic payment/stock transfer and receipt; items become owned inventory/equipment only on purchase. Trying on does not acquire ownership. Customer payments enter shop funds; coverage rewards are separate. Checkout shows the applicable approved player-specific discount and final price before payment. Cart flow, one-time voucher transaction scope/stacking/expiry, return/buyback terms, stock funding/replenishment and fair rounding remain to review. No catalogue checkout implemented yet.
+
 ## Routine pressure clarified
 
 Charity pushes until she must close, with roughly6hours maximum recovery. Hidden Countess threat makes rest and replacement risky; discovery of substitution may bring the Countess physically to the shop. Treat as conditional lore/encounter design, not an automatic event. Ordinary visitors see strain without learning its cause. Details in CHARITY-LEGACY-AUDIT.md.

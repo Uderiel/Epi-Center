@@ -1,3 +1,7 @@
+## Charity+50cryptic hints; catalogue review begins
+
+Owner permits guarded cryptic hints around+50without naming the threat, with gradual further disclosure. An actual Countess encounter provides legitimate knowledge for relationship-dependent private discussion; typed metagame name alone does not. Recorded in CHARITY-LEGACY-AUDIT.md. First ordinary catalogue/service proposal saved in CHERISHED-TOUCH-EXPANSION-DRAFT.md:8gold tops,18trousers,25shoes,45optional starter bundle; existing50umbrella/150Mystery Box anchors retained. New prices NOT approved or implemented. Next review catalogue price/style range and service/discount policies together.
+
 ## Charity public exhaustion deflection confirmed
 
 Owner approves meals/tea at counter and chores/care in quiet windows. Asked about fatigue, she laughs and credits dedication to consistent customer service, with varied contextual deflections. Low-trust/unknowing players must not learn Countess pressure through narration; premature discussion itself may risk a physical Countess appearance. Preserve actual player knowledge, relationship75+, first-cylinder and privacy gates; no automatic spawn or keyword-script mandate. Next: draft ordinary catalogue/pricing and continue household/personality detail, leaving hidden encounter rules clearly pending. Design only.

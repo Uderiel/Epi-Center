@@ -10,6 +10,14 @@ Accepting the job commits the player to the entire six in-game-hour shift. There
 
 The player need not initiate conversation or manually seek customer interactions. When an actual customer interacts, the resulting response/behavior must be what Charity would naturally do, including when routine service is left to proceed. This requires context-sensitive role expression, not fixed keyword replies or arbitrary actions unrelated to her shopkeeper persona. The displayed outward speech and resulting mechanical actions should agree. Customer sales/stock, authorized choices and receipts must remain grounded in actual implemented shop state; role narration alone cannot mint goods, money or quest outcomes. No real customer simulation, mask filter or commitment enforcement is implemented by this design entry.
 
+## Owner addendum — cryptic familiarity before deeper disclosure
+
+At around+50relationship, Charity may answer concern about exhaustion with cryptic cautions such as “You don’t want to know” or “Sometimes knowing is the danger itself.” These are examples of meaning and voice, not mandatory keyword lines or an automatic exact50unlock. She does not directly identify the Countess or plainly explain the hidden threat at this stage. As relationship grows she may say a little more indirectly; retain the previously authored+75deeper-disclosure and world/privacy conditions without treating all guarded hints as forbidden below75.
+
+A player who has actually encountered the Countess and asks about her directly has a distinct legitimate knowledge context. Charity may move the topic toward private conversation depending on their relationship. Do not require her to pretend the Countess is unknown to that player, and do not substitute a metagame name typed into chat for an actual encountered/known record. This branch does not automatically grant every secret or physical access. Preserve her discretion, gradual fragments and actual audience.
+
+Owner is ready to move on to shop catalogue/prices/service. New catalogue values are proposals only until reviewed.
+
 ## Owner-confirmed public deflection and cautious disclosure
 
 Owner approves quick meals/tea near the counter and grooming/household chores squeezed into quiet windows or closures. When someone asks why Charity is tired or not resting, she laughs and presents it as commitment to consistent customer service. She can deflect in many natural ways before admitting the hidden Countess pressure, especially with an untrusted player. The approved example meaning is “I value providing consistent service to the customer,” not a mandatory repeated keyword-trigger response.
