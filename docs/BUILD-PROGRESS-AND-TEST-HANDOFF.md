@@ -1,3 +1,7 @@
+## Enchanted prices and weekly caps approved
+
+Owner accepts Dryweave350/cap2,scent scarf600/cap1,lantern250/cap2,Quietstep500/cap1,and+10Health/Stamina/Resolveclothing500/cap1each. Monday06:00refills UP TO caps, no unsold accumulation. Core retail design ready for first staged implementation: shared drawers/variants/fitting/cart/atomic checkout/discounts/owned items/box modifiers/stock/cooldowns. Utility enchantments require real functional hooks; Charity routines, coverage and20thtrial remain substantial later work. Current live109unchanged; no new gameplay implemented. Next exact action: build approved retail slice, then focused/full checks, with remaining major quest parameters explicit.
+
 ## Resource enchantment maximum-only rule approved
 
 Owner confirms shirt+10maxHealth,pants+10maxStamina,hat+10maxResolveonly while validly worn. Normal recovery fills added capacity; equipping never refills or repeatedly accumulates bonuses. Removal restores underlying max and clamps excess current resource; preserve actual damage/spending. Next propose coherent pricing/Monday quantities for seven approved enchanted designs. Implementation still pending.

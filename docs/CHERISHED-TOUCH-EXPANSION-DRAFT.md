@@ -1,3 +1,23 @@
+## Owner-approved enchanted prices and weekly stock caps
+
+Owner accepts the proposed seven-item pricing/availability set:
+
+| Enchanted item | Base gold | Shelf stock cap |
+| --- | --- | --- |
+| Dryweave jacket | 350 | 2 |
+| Scent-masking scarf | 600 | 1 |
+| Lantern brooch | 250 | 2 |
+| Quietstep shoes | 500 | 1 |
+| Shirt, +10maximumHealth while worn | 500 | 1 |
+| Pants, +10maximumStamina while worn | 500 | 1 |
+| Hat, +10maximumResolve while worn | 500 | 1 |
+
+Monday06:00deliveries replenish each of these items UP TO its cap, without accumulating unsold extras. This is not an additive shipment of another full cap every week. Apply approved shop discounts and the rolling24-hour per-player enchanted purchase restriction; at most one of these enchanted pieces in a transaction. Mystery Boxes remain separate/abundant with their lifetime3quantity cap and no enchanted cooldown; regular clothing replenishes immediately and does not sell out. Owner approval is captured in the follow-up voice transcript (“Yes, that works”).
+
+The ordinary and limited enchanted catalogue/price/availability rules are sufficiently defined to begin a staged retail implementation. Next build slice: reusable layered shop drawers, variant selection/configurable once-only bundle, fitting ownership, basket/atomic checkout/receipts, discounts/no returns, persistent bought items, capped Mystery Box random jewelry and worn modifiers, and weekly limited-stock/cooldown bookkeeping. Functional utility enchantments require actual weather/scent/light/noise adapters before being advertised/sold as working; do not fake them with descriptive text. Charity’s daily household/controller, dialogue/private disclosure, actual coverage quest and twentieth-mastery trial remain subsequent substantial implementation/design work, not completed by approving this table.
+
+No gameplay code or publication changed by this approval record. Current live version remains1.0.109. Do not say the shop is built or keep implying background execution after ending the turn. Next exact action is to implement the approved first retail slice, resolving routine reversible details consistently with existing systems; genuinely missing major quest/trial parameters remain flagged rather than invented.
+
 ## Owner-confirmed resource maximum semantics
 
 The enchanted shirt/pants/hat increase MAXIMUM Health/Stamina/Resolve respectively by10ONLY while actually worn. Owner explicitly approves normal recovery filling that extra capacity, no automatic current-resource grant/refill on equipping, and loss of the extra maximum when removed. Recompute from canonical body/form baseline plus valid worn modifiers; never add10again on each equip/render/reload, and never permanently mutate base pools.
