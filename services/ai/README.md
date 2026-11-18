@@ -1,3 +1,7 @@
+## v1.0.104 narration correction
+
+`core.mjs` and regenerated `deploy-worker.mjs` add role-specific developed narration while retaining brief character dialogue, existing secrets/bindings and budget ceilings. Frontend requests carry actual speaker/audience/meeting context and explicit transformation/experience expansion. Original transformation prose remains visible even while generation is pending. Worker deployment is separate from Pages and has not been verified in this candidate; no account credentials were requested or exposed. Public unauthenticated health probes returned403, not an authenticated generation result. Use the existing owner connection for real-model acceptance; no paid call was made by automated tests.
+
 ## v1.0.92 prompt update
 
 Prepared backend revision: **character-embodiment-v3**. Erin owns her human body/voice, has human needs and desires, and has no independent existence when unequipped. Deploy the current `deploy-worker.mjs` to the existing Worker; frontend publication alone does not update it. Keep secrets/bindings. See ../../docs/ERIN-IDENTITY-AND-RELEASE.md.

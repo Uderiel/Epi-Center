@@ -1,3 +1,12 @@
+## 1.0.104 — owner-tested dialogue, visits and workflow corrections
+
+- Explicit dialogue intent, shared local hearing/recipients, meeting exchanges, Priya invitations and physical escort.
+- Applewood lobby/floors/unknown occupants; real private-home entry and map exit boundaries.
+- Full flats passage preserved under AI enrichment, immediate wearer updates and exact owner-uploaded worn/unworn art.
+- One work checklist, source-backed new report writing, report collection flags and clearer lunch preparation/location.
+- Current-form mastery and weekday/time developer controls; explicit non-graphic arousal action.
+- Existing saves, finite stock, wardrobe ownership and completed answers preserved. Tests use mocks; private Worker and real-model acceptance separate. See current release reports and owner checklist.
+
 ## v1.0.103 — household interactions finished, published and verified
 
 **[Play v1.0.103](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.103)**. Branch `rebuild/1.0-foundations`; tested gameplay commit **`76c4942569facb569160e8b2b003ff4157932cf1`** is pushed to rebuild and main. Pages build1379469596 and [Actions run44213172819](https://github.com/Uderiel/Epi-Center/actions/runs/44213172819) succeeded. All14checked public runtime files, including the unchanged approved portrait, match the tested local bytes. Evidence: `docs/releases/v1.0.103-live-verification.json`.

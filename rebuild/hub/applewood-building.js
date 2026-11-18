@@ -8,10 +8,11 @@ function enter(s){guard(s);if(privateRoom(s))throw Error('Leave the apartment th
 function floor(s,id){guard(s);const b=state(s),n=Number(id);if(!b.inside||privateRoom(s)||!Number.isInteger(n)||n<0||n>7)throw Error('Use the building elevator outside private apartments.');const changed=b.floor!==n;Object.assign(b,{floor:n,door:null});return {minutes:changed?1:0,text:n?'You reach the quiet corridor on floor '+n+'.':'You return to the lobby.'};}
 function door(s,id){guard(s);const b=state(s);if(!b.inside||privateRoom(s)||!new RegExp('^'+b.floor+'[A-F]$').test(id))throw Error('That residence is not on your current floor.');b.door=id;return {minutes:0,text:label(s,id)+' · private apartment door.'};}
 function atDoor(s,id){const b=state(s);return s.hub?.location==='applewood'&&b.inside&&!privateRoom(s)&&b.floor===Number(id[0])&&b.door===id;}
+function knock(s,id){guard(s);if(!atDoor(s,id))throw Error('Approach that door on its floor first.');const d=residences[id],n=d&&(d.id==='richard'?s.world.richard:d.id==='daniel'?s.world.department?.daniel:d.id==='nadia'?s.world.marketing?.nadia:s.world.priya);if(!n||n.location!=='applewood'||n.commute)return {minutes:1,text:'You knock. Nobody answers; the occupant remains unconfirmed.'};learn(s,id);return {minutes:1,text:d.name+' answers from inside Unit '+id+'. The occupant is now recorded. This private residence has no playable interior yet.'};}
 function learn(s,id){state(s).known[id]=true;}
 function leaveUnit(s,id){Object.assign(state(s),{inside:true,floor:Number(id[0]),door:id});}
 function exit(s){guard(s);const b=state(s);if(privateRoom(s)||!b.inside||b.floor!==0)throw Error('Return through the apartment door and take the elevator to the lobby first.');b.inside=false;b.door=null;return {minutes:1,text:'You leave the lobby for the Applewood exterior.'};}
 function label(s,id){return 'Unit '+id+(state(s).known[id]&&residences[id]?' · '+residences[id].name:' · occupant unknown');}
 function occupants(s){const b=state(s);return 'ABCDEF'.split('').map(x=>({unit:b.floor+x,label:label(s,b.floor+x)}));}
-return Object.freeze({residences,state,enter,floor,door,atDoor,learn,leaveUnit,exit,label,occupants});
+return Object.freeze({residences,state,enter,floor,door,atDoor,knock,learn,leaveUnit,exit,label,occupants});
 });

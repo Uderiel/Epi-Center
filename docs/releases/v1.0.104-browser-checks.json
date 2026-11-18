@@ -164,11 +164,19 @@
       "passed": true
     },
     {
+      "name": "unworn object body displays exact uploaded 300px JPEG without cropping",
+      "passed": true
+    },
+    {
       "name": "inanimate typed speech remains private and grants no conversation",
       "passed": true
     },
     {
       "name": "real scheduler returns Priya and puts flats on at 06:49",
+      "passed": true
+    },
+    {
+      "name": "wearing state switches to exact uploaded 1080px worn JPEG",
       "passed": true
     },
     {
@@ -312,6 +320,6 @@
   "limitations": [
     "Synthetic existing-save fixture; not owner saves",
     "Normal gameplay checks use AI off; private sensory client uses an isolated mock; paid Featherless quality remains untested",
-    "Exact worn/unworn asset bytes unavailable; actual paid provider quality and private Worker deployment not verified"
+    "Exact owner-uploaded flats JPEGs used unchanged (300px unworn,1080px worn); actual paid-provider quality and private Worker deployment not verified"
   ]
 }

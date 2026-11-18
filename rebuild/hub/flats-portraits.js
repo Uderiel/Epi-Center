@@ -1,3 +1,3 @@
-/* Exact owner-approved originals only. Populate paths after original file bytes are available. */
-globalThis.EpiFlatsPortraits=Object.freeze({worn:null,unworn:null});
+/* Exact owner-approved originals only. Owner uploads merged unchanged from main efb2444. */
+globalThis.EpiFlatsPortraits=Object.freeze({worn:'assets/Priya-Flats-Worn.jpg?v=1.0.104',unworn:'assets/Priya-Flats-Unworn.jpg?v=1.0.104'});
 function flatsPortraitMarkup(q){const state=q.place==='worn'?'worn':'unworn',path=EpiFlatsPortraits[state];if(!path)return '';return '<figure class="flats-portrait"><img src="'+htmlEscape(path)+'" alt="Priya’s flats · '+state+'" style="max-width:100%;max-height:400px;object-fit:contain"><figcaption>'+htmlEscape(state==='worn'?'Being worn by Priya':'Your unworn object body')+'</figcaption></figure>';}

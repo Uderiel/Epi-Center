@@ -1,3 +1,7 @@
+## v1.0.104 correction integration
+
+See [owner acceptance](V1.0.104-OWNER-ACCEPTANCE.md) and [current correction status](CURRENT-STATUS.md). This supersedes older entrance-only visits, omniscient apartment directory, keyword-based prose routing and trimmed flats text. Physical floors/local hearing, friend escort, immediate object-state updates and unchanged owner-uploaded worn/unworn art are implemented. Reception now has a live checklist and new reports use recorded ledger/campaign evidence. AI remains an optional prose layer with authored receipts preserved; private Worker publication and paid-model quality are separate acceptance items.
+
 ## v1.0.102 published compatibility
 
 Apartment room/object/storage navigation and rom-com media are now live at runtime `93226d6`. Flats recovery/reversion/retained-pair rules remain unchanged. Full report: [current status](CURRENT-STATUS.md). Wardrobe, personal care and dietary/snack details are the owner-reserved next-build scope.
