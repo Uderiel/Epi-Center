@@ -116,6 +116,16 @@ Owner accepts the three-zone living-room proposal: generous charcoal sofa, two l
 
 Owner additionally requests a soundbar or sound system for ambient music. Equipment name/model is an implementation choice. Music must be an actual controllable state (on/off, selected available programme and volume) reflected in local descriptions/narration. It must not expose private work audio, invent copyrighted song lyrics, imply guests heard a conversation outside their actual space or bypass the bot's no-unsolicited-socializing rule. This confirms an in-world sound system; real audio assets/playback are not yet implemented or promised.
 
+## Owner-confirmed bar inventory and fitness breakfast supplies
+
+The suite inventory includes a selection of beers, wines, whiskeys, rums, vodkas and mixers, not one generic drink entry. Author individual finite stock/serving choices; actual availability constrains Richard's offered list and the bot's preparation. Varieties and starting quantities below are implementation defaults, not owner-selected brands. Keep explicit service authorization; stocked alcohol is not an automatic offer, consumption or implied guest preference.
+
+Breakfast supplies include whey protein, hemp hearts/seeds, berries and milk for varied protein shakes and simple fitness-oriented breakfasts. Additional practical staples may be proposed as compatible defaults. Preparations consume their actual ingredients; optional additions should affect the saved recipe/narrative rather than create free supplies. No training/stat gain follows merely from describing nutrition.
+
+Owner suggests pre-sorted, organized vitamins prepared by the maid bot. Treat this as Richard's optional personal organizer: finite owned supplements, actual sorting/restocking and a deliberate use choice. No invented prescription, individualized dosing, automatic administration to guests or unapproved gameplay/stat effect. Exact products/doses remain unspecified.
+
+Correction of spoken progress: the ambient sound fixture is in the draft catalog, but sound controls/audio playback are not yet wired; do not describe that as completed gameplay.
+
 ## Established foundation
 
 Richard is an adult, younger, charming, ambitious and controlling Sales and Marketing Manager. Erin is his valued secretary; Daniel leads sales and Nadia leads marketing. His dark brown hair, hazel eyes, lean athletic build and professional appearance remain. He knows he relies on Erin, and stress increases his requests for help. He considers thanks and extra pay sufficient, but payment is not consent. Existing refusal memory, exactly-once task pay, resource pools, ordinary Mental-primary civilian combat and current ten attributes remain unchanged. He never quotes the numerical bonus aloud. Home is Applewood floor 7 Suite A. Nadia does not know he lives above her; meeting her elsewhere must not disclose that automatically. No Richard form or transformation route is proposed.

@@ -1,3 +1,13 @@
+## Owner-confirmed bar inventory and fitness breakfast supplies
+
+The suite inventory includes a selection of beers, wines, whiskeys, rums, vodkas and mixers, not one generic drink entry. Author individual finite stock/serving choices; actual availability constrains Richard's offered list and the bot's preparation. Varieties and starting quantities below are implementation defaults, not owner-selected brands. Keep explicit service authorization; stocked alcohol is not an automatic offer, consumption or implied guest preference.
+
+Breakfast supplies include whey protein, hemp hearts/seeds, berries and milk for varied protein shakes and simple fitness-oriented breakfasts. Additional practical staples may be proposed as compatible defaults. Preparations consume their actual ingredients; optional additions should affect the saved recipe/narrative rather than create free supplies. No training/stat gain follows merely from describing nutrition.
+
+Owner suggests pre-sorted, organized vitamins prepared by the maid bot. Treat this as Richard's optional personal organizer: finite owned supplements, actual sorting/restocking and a deliberate use choice. No invented prescription, individualized dosing, automatic administration to guests or unapproved gameplay/stat effect. Exact products/doses remain unspecified.
+
+Correction of spoken progress: the ambient sound fixture is in the draft catalog, but sound controls/audio playback are not yet wired; do not describe that as completed gameplay.
+
 ## Owner-approved living-room furnishings and ambient sound
 
 Owner accepts the three-zone living-room proposal: generous charcoal sofa, two leather armchairs, low walnut table, stone-topped side tables, warm dimmable lamps, a few framed achievements and decorative pieces; large wall-mounted screen with discreet speakers and side workstation; window-side adjustable bench, weights and mat with organized storage and clear balcony route. Include a usable throw blanket, coasters and a drinks trolley for authorized bot service. Richard may explicitly share a report to the main screen; private work is concealed otherwise.

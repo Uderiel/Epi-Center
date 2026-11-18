@@ -1,3 +1,9 @@
+## Richard bar selection and fitness breakfast inventory confirmed
+
+Owner requests distinct beers/wines/whiskeys/rums/vodkas/mixers plus whey, hemp hearts, berries and milk for varied fitness breakfasts, and suggests bot-organized personal vitamins. Saved requirements; expanded unpublished catalog with unbranded drink varieties, finite ingredients, shake/bowl/mixed-drink recipes and an organizer fixture. Actual UI selection, vitamin sorting/use and music controls remain pending. The spoken claim that sound controls were already added was premature; only the fixture was authored.
+
+Branch `rebuild/1.0-foundations`; parent `ce93bcc`. Syntax check only, no new runtime/behavior/browser test or publication claim. Exact next action: finish owner room walkthrough, then implement stock/recipe choice and bot jobs with focused tests before suite release. Public remains https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.107 .
+
 ## Richard living-room furnishings accepted; ambient sound system added
 
 Owner accepts proposed seating/workspace/workout arrangement, throw/coasters/drinks trolley and adds soundbar/sound system for ambient music. Saved approval in draft/design and added sound-system fixture to the unpublished suite catalog. Music state/controls/narration and actual audio remain unimplemented; no playback or tests claimed. Living-room furnishings approved, not a new release.
