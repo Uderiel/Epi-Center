@@ -1,0 +1,20 @@
+{
+  "scope": "Published site; isolated synthetic saves; actual UI/controllers; intercepted AI transport; no paid calls.",
+  "checks": [
+    "ordinary Stats drawer contains separate signed NPC form and entity bars",
+    "relationship meters expose the full minus100 to plus100 range",
+    "Alice values survive full browser reload and remain distinct across entity types",
+    "Bob has independent NPC and form scores without inheriting Alice affinity",
+    "Bob signed values survive reload",
+    "switching back restores Alice exact scores and the Erin compatibility alias has one value",
+    "relationship changes do not heal resources alter possessions or revoke mastery",
+    "actual spoken positive and negative interactions update only the current player target once",
+    "reload cannot replay the same social reward and private thoughts cannot penalize an NPC",
+    "tier meanings distinguish friend distrust and close confidant",
+    "new registered actors use stable IDs without duplicate name rows or exposing a remote namesake",
+    "no browser script errors"
+  ],
+  "errors": [],
+  "origin": "https://uderiel.github.io/Epi-Center",
+  "certificateNote": "Chromium certificate trust workaround; independent HTTPS runtime comparison used validating Python HTTP client."
+}

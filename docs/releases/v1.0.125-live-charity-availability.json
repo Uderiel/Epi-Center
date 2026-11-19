@@ -1,0 +1,18 @@
+{
+  "scope": "Published site; isolated synthetic saves; actual UI/controllers; intercepted AI transport; no paid calls.",
+  "checks": [
+    "19:15 with absent employee refuses entry and displays an explicit message",
+    "19:15 staffed shop opens and Tits appears as an actual counter recipient",
+    "ordinary Tits dialogue produces a real feed response without spending gold",
+    "closed and unstaffed shop still permits existing visitor exit",
+    "20:00 closing boundary blocks entry even with the employee present",
+    "Cherished Touch uses the same explicit closure guard",
+    "repeat Charity conversation answers the actual fitting question",
+    "actual Charity AI packet includes established identity and live service context",
+    "public Charity AI packet contains no protected lore or private owner identity",
+    "no browser script errors"
+  ],
+  "errors": [],
+  "origin": "https://uderiel.github.io/Epi-Center",
+  "certificateNote": "Chromium certificate trust workaround; independent HTTPS runtime comparison used validating Python HTTP client."
+}

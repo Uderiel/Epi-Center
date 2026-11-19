@@ -1,0 +1,745 @@
+{
+  "version": "1.0.125",
+  "gameplayCommit": "9d99c834acaa353d16dc4c601d9ca7915514bbae",
+  "records": [
+    {
+      "file": "rebuild/title-screen/index.html",
+      "matched": true,
+      "sha256": "d2cb5ef86c66926b0fdeb7c7e3e5030a82a14fbbfa969177568eb3b2794d2a43"
+    },
+    {
+      "file": "rebuild/character-creation/index.html",
+      "matched": true,
+      "sha256": "11b38a97f7158baa72c1e52d767514021a3c1856368e120141c51fa985ac8e60"
+    },
+    {
+      "file": "rebuild/hub/index.html",
+      "matched": true,
+      "sha256": "2414528894249ac9e6f69772c59bd9ac106d18e9d4239b4cdd128569df66fc8c"
+    },
+    {
+      "file": "rebuild/hub/erin-ui.js",
+      "matched": true,
+      "sha256": "038950cb9b6cb9380da2dd34b83f8d36994a01007fb05b7129185ef77d0d6401"
+    },
+    {
+      "file": "rebuild/hub/erin-work.js",
+      "matched": true,
+      "sha256": "8391a9d02d3a9ae5f67507d07fab98484e96a14f63250bdb4cf2d7fa6c42ad7d"
+    },
+    {
+      "file": "rebuild/hub/priya-flats.js",
+      "matched": true,
+      "sha256": "a34a284dcc40d2240671b61497c06fa9c545f1a0213ee7c14cab68c400e31b8f"
+    },
+    {
+      "file": "rebuild/hub/marketing-ui.js",
+      "matched": true,
+      "sha256": "6f1394023c28c02ff41c48ce92646976305a55a7687a981c423f4e6dd7d2ebb1"
+    },
+    {
+      "file": "rebuild/hub/work-dashboard-ui.js",
+      "matched": true,
+      "sha256": "1d186f425204cdac9153a180ee33eaae820672957d95b991b51954f4d41a5ac3"
+    },
+    {
+      "file": "rebuild/hub/character-home.js",
+      "matched": true,
+      "sha256": "e3c080c6cc0837b71ab6df4395f07d88fd634da991c85f5ee25c60a26eb6b198"
+    },
+    {
+      "file": "rebuild/hub/world-clock.js",
+      "matched": true,
+      "sha256": "c8cb5f53dbd436c3c4d97a97b6455873d6ac75d48738771949bba7cd2d04cc7e"
+    },
+    {
+      "file": "rebuild/hub/internal-mastery.js",
+      "matched": true,
+      "sha256": "0703d62dc19896fb669d6a53b19c32c146dc5de97a4db5d997536e3c3b092e6a"
+    },
+    {
+      "file": "rebuild/hub/equipment-ui.js",
+      "matched": true,
+      "sha256": "db4101c0864854b117411b9de5321bc8d6dd7648b41b41ae9326cd3604baa169"
+    },
+    {
+      "file": "rebuild/hub/erin-office-ui.js",
+      "matched": true,
+      "sha256": "50efe0deabd40f10734c0cb811e59d81a4f1ea951c21ff0af4adecb58e742260"
+    },
+    {
+      "file": "rebuild/hub/richard-home-data.js",
+      "matched": true,
+      "sha256": "919bd7a076232223b89681476b1ce9d202f998ffc2bc62e95631625577d63ef0"
+    },
+    {
+      "file": "rebuild/hub/priya-ui.js",
+      "matched": true,
+      "sha256": "1067f78ec59c5cc5ac9c5f47ff896af861f72cb871b3827a658086fdb1f7a1f0"
+    },
+    {
+      "file": "rebuild/hub/ai-integration-ui.js",
+      "matched": true,
+      "sha256": "129ea2f3d93afacfeff26be040e9b762c9c08f90627ce8d12f691861489b6b70"
+    },
+    {
+      "file": "rebuild/hub/burkes-retail-ui.js",
+      "matched": true,
+      "sha256": "f3ef63ffa3fa8f2e552674aecb13e793185a80a5bd7d69be46a8c11114dcbdb4"
+    },
+    {
+      "file": "rebuild/hub/form-minds.js",
+      "matched": true,
+      "sha256": "d1926e6abc37cbcd9772083c5a0c14c3b8795c9fcb9cc0b1b4afb5f2772351d3"
+    },
+    {
+      "file": "rebuild/hub/nadia-home-ui.js",
+      "matched": true,
+      "sha256": "d43c1329fd747433444d55abd025f766d10fc65346668d78ae0f715c8e19235f"
+    },
+    {
+      "file": "rebuild/hub/player-feed.js",
+      "matched": true,
+      "sha256": "09835b2d299c332061aacd9a303f46caf3693d52e094e2b997c05066555dec87"
+    },
+    {
+      "file": "rebuild/hub/personal-mail-ui.js",
+      "matched": true,
+      "sha256": "19b4a981cfe9cb47a2a53b849d786545e03c27ecad775a791dc791cac5d5b061"
+    },
+    {
+      "file": "rebuild/hub/flats-portraits.js",
+      "matched": true,
+      "sha256": "8d352d23086d682436ef0b40e47d8d8e3133dd26a22be6f858cea953a8bdf451"
+    },
+    {
+      "file": "rebuild/hub/erin-daily.js",
+      "matched": true,
+      "sha256": "b1dfd22c2fc16ff0392d06a78e74c7547bd97e6cc8b618c8746db2f9f651c2ab"
+    },
+    {
+      "file": "rebuild/hub/conversation-continuity.js",
+      "matched": true,
+      "sha256": "a1ff0dddbb231b05df833e79e5d532bc49c16109ccb169069b52befcd6efccb4"
+    },
+    {
+      "file": "rebuild/hub/relationship-ui.js",
+      "matched": true,
+      "sha256": "5cfeffa9baaa9b53806697ebcfedc7900bcc0504c5db20242e8587fe4c06fde8"
+    },
+    {
+      "file": "rebuild/hub/equipment-regions.js",
+      "matched": true,
+      "sha256": "3991516738291b772457cef841df5a9e805292eb811c261ce13a17d16f6ec9ce"
+    },
+    {
+      "file": "rebuild/hub/ai-context.js",
+      "matched": true,
+      "sha256": "81be7eccfe1410414e51a084ab2d38e102be85e3ed09fc8ec76b47198612b641"
+    },
+    {
+      "file": "rebuild/hub/social-ui.js",
+      "matched": true,
+      "sha256": "37b9c2c1f94d027a31b412275d88c0279b759b7cf7ade1496595185b7fc806fe"
+    },
+    {
+      "file": "rebuild/hub/priya-daily-ui.js",
+      "matched": true,
+      "sha256": "06163c30bb870abe58f427851ce5b869a2eb7783f7281efc4e9b78834f63dcfc"
+    },
+    {
+      "file": "rebuild/hub/navigation-runtime.js",
+      "matched": true,
+      "sha256": "e1309b344226116cbb4815b72999be211d84a4a13cbf310f434482e584b25200"
+    },
+    {
+      "file": "rebuild/hub/burkes-retail.js",
+      "matched": true,
+      "sha256": "b5fdff96f27cb6c6fa9c0e107f2ee11c280fad2de53b2c5b813629980dcd6dc8"
+    },
+    {
+      "file": "rebuild/hub/cherished-touch.js",
+      "matched": true,
+      "sha256": "f8b2d2faa2cedcb2c496ce7622b23075464030bacdf6bdf6f1fff4bc18284772"
+    },
+    {
+      "file": "rebuild/hub/shared-activities-ui.js",
+      "matched": true,
+      "sha256": "2527deb19581b87493e6be9c1d1711374ce40f2fd99982cd40364fba153d77d4"
+    },
+    {
+      "file": "rebuild/hub/form-body.js",
+      "matched": true,
+      "sha256": "5b0ad0f4d6ed9843559399bffbd4f7779933effe22dd1b58425099fbaa928df7"
+    },
+    {
+      "file": "rebuild/hub/nadia-household.js",
+      "matched": true,
+      "sha256": "52eae15127bac2ba353d59e4151da631b31bc0a48f24d96eb44008bd019e9066"
+    },
+    {
+      "file": "rebuild/hub/priya-home.js",
+      "matched": true,
+      "sha256": "bfd6998d759d7d2ad35214e83eb0403fa4878c9f79d0a12797ff6a078607d0af"
+    },
+    {
+      "file": "rebuild/hub/priya-household-ui.js",
+      "matched": true,
+      "sha256": "476f2be77fa901bf3741baf5f96d9d09e6dec3456757812988a079bdc1f7f9ac"
+    },
+    {
+      "file": "rebuild/hub/nadia-activities.js",
+      "matched": true,
+      "sha256": "ebfcb6b9a19593fd0004d424045b0dc44f2df7e084662f4396200df4b7be89c6"
+    },
+    {
+      "file": "rebuild/hub/technology-center.js",
+      "matched": true,
+      "sha256": "b85da5b5aa60fcec1690401089971630b18abb16ac469f9d5252c6291653333e"
+    },
+    {
+      "file": "rebuild/hub/shared-home-activities.js",
+      "matched": true,
+      "sha256": "685c1914bbb02d775a3ad83575cecf179ca9e03e681e8010cb227321f4dd27ea"
+    },
+    {
+      "file": "rebuild/hub/legacy-0884-data.js",
+      "matched": true,
+      "sha256": "158eceb08f30fc1aa567e56cf7d7e71f602fd2ff1c2f4f7f6512fa6ffcacc0a3"
+    },
+    {
+      "file": "rebuild/hub/richard-ui.js",
+      "matched": true,
+      "sha256": "e6270e07ddf1b211129fbbe008ec02c49b6669abaf97425e59390421f43ea2ad"
+    },
+    {
+      "file": "rebuild/hub/legacy-autonomy.js",
+      "matched": true,
+      "sha256": "808f0536f7f09f6c4e645b6e09c391dd39eff8bd3e3d5d8b74a4eb6b3b17d34d"
+    },
+    {
+      "file": "rebuild/hub/flats-story.js",
+      "matched": true,
+      "sha256": "c5d71af00da3e00b01550eb0df8c05a7b260e001c968d704991616b10d749b8a"
+    },
+    {
+      "file": "rebuild/hub/personal-mail.js",
+      "matched": true,
+      "sha256": "465edd69c9beabe0aebdddf5001e653ef02ea83501c87250786638e579f868b5"
+    },
+    {
+      "file": "rebuild/hub/cherished-shop-ui.js",
+      "matched": true,
+      "sha256": "4970200b6f2b6b9fdd9c19ca697e12d0ef66597e5fc721c98c7904b346b2eb05"
+    },
+    {
+      "file": "rebuild/hub/technology-products.js",
+      "matched": true,
+      "sha256": "f57c44644e5eb28e957eb67752214bf40fd0574834a31347bb6605385f29fc1e"
+    },
+    {
+      "file": "rebuild/hub/household-ambience.js",
+      "matched": true,
+      "sha256": "7ced7985f86540060233c140280bf1b935ca193ced5d72176f260517fb7dd9ff"
+    },
+    {
+      "file": "rebuild/hub/department.js",
+      "matched": true,
+      "sha256": "2a1a89a481e94a4aab8326772ff340d36ba52b31ee2d0ec85cb7ef7ba543c4af"
+    },
+    {
+      "file": "rebuild/hub/applewood-building.js",
+      "matched": true,
+      "sha256": "ea100eb17f989539d5d4e896d9cf9a53a82569a54a159d226fb61d99f4720b8b"
+    },
+    {
+      "file": "rebuild/hub/department-ui.js",
+      "matched": true,
+      "sha256": "3f1bf3ee5b7eaec8547b097d5873a43879c74a0903eaf8cd79a1fa011e36393d"
+    },
+    {
+      "file": "rebuild/hub/authored-dialogue.js",
+      "matched": true,
+      "sha256": "ff5bb0a65b507652c9aa5bfaedd3b8e6a2b146bb2f250a063fa8cd2b87ffd5d5"
+    },
+    {
+      "file": "rebuild/hub/live-time.js",
+      "matched": true,
+      "sha256": "4b1305726841b6c06b7fcf398307bd47d2b4ef053616325812575444e6756258"
+    },
+    {
+      "file": "rebuild/hub/dart.js",
+      "matched": true,
+      "sha256": "41da2e3606df78840f1422ef661f3b9ac1bac192f2fe2f6e7edb41d7244f487f"
+    },
+    {
+      "file": "rebuild/hub/location-details.css",
+      "matched": true,
+      "sha256": "88358bc8d84d41781a1aede842cc45985d0bda7cee20a2a95b8c49994c718f11"
+    },
+    {
+      "file": "rebuild/hub/location-details.js",
+      "matched": true,
+      "sha256": "401f5bb76505b5cf9de4c2194ca1b6127d91ba86b441bb4d72bc83cf000cd791"
+    },
+    {
+      "file": "rebuild/hub/footwear-senses.js",
+      "matched": true,
+      "sha256": "09d584f1124b2e8ef6d26ce1316864842fba3dad6b20ef06d5246069983185cd"
+    },
+    {
+      "file": "rebuild/hub/technology-center-ui.js",
+      "matched": true,
+      "sha256": "cb20d6675b2d07bae5b118e4e7d4a6ddbc90e0c8eb961d901fc67bb43b1843b4"
+    },
+    {
+      "file": "rebuild/hub/apartment-navigation.js",
+      "matched": true,
+      "sha256": "41a4798482f5933cc5569bb0911949e3dc80ae4eb9febc8bc538b8f05d329de3"
+    },
+    {
+      "file": "rebuild/hub/burkes-sweets.js",
+      "matched": true,
+      "sha256": "3aa6997a03c6ab84e505d302c67846e24f4aa9d1cf8c62a6c1939006cb8678f6"
+    },
+    {
+      "file": "rebuild/hub/business-availability.js",
+      "matched": true,
+      "sha256": "ff5502cc647729970950d5ad4be3f62de01af310a421e58cd3785cfe47281074"
+    },
+    {
+      "file": "rebuild/hub/roleplay-input.js",
+      "matched": true,
+      "sha256": "19b6d0ed66df892e592149ee4fd2e88aa95c01548d67e8848e88b9f6793069c2"
+    },
+    {
+      "file": "rebuild/hub/burkes-sweets-ui.js",
+      "matched": true,
+      "sha256": "4045217b79a2b597dffec691bb4a87911bf2e8fa45987781196fd96a92fb74dc"
+    },
+    {
+      "file": "rebuild/hub/cherished-shop.js",
+      "matched": true,
+      "sha256": "4f5fdc0ec9cfdbe54b62646c480fe6a48d3faca90c626286ae503c9e8b654846"
+    },
+    {
+      "file": "rebuild/hub/form-minds-ui.js",
+      "matched": true,
+      "sha256": "92ebdc4d687b43a623ba997cedfca32360a9f4d4f03274634c2b949d74ffedca"
+    },
+    {
+      "file": "rebuild/hub/navigation-ui.js",
+      "matched": true,
+      "sha256": "ad90f53076042618213c9caf0aeed9e4157e68a36a24eef008e63d64c1a55491"
+    },
+    {
+      "file": "rebuild/hub/hub-art.js",
+      "matched": true,
+      "sha256": "e4738dbc047117a1441cb5dfbed0b1b489d8213439fa1dbd936fbcb4a562141e"
+    },
+    {
+      "file": "rebuild/hub/served-items-ui.js",
+      "matched": true,
+      "sha256": "890010fe9df246778bc6e3beeec7e998475d1b7a46860709e20c2eb16b8be0e6"
+    },
+    {
+      "file": "rebuild/hub/erin-restoration.js",
+      "matched": true,
+      "sha256": "ac185054a4fcc0e5ad650f39bb924507d121b8940b4eeaebddbd16cf3cb0882d"
+    },
+    {
+      "file": "rebuild/hub/erin-life-ui.js",
+      "matched": true,
+      "sha256": "3ee2b9b9a0e964c312e803b751c04006d2717b153468d3d52c1d9a52370bda89"
+    },
+    {
+      "file": "rebuild/hub/form-living.js",
+      "matched": true,
+      "sha256": "e7e3e4e584d6eb4f978799e1759f805d0c0906b73b1f5e2d5419d2d6b2e9ff1c"
+    },
+    {
+      "file": "rebuild/hub/world-objects.js",
+      "matched": true,
+      "sha256": "67debc26211a918e727fc4b4362a21bbdf6a068f29282ed9d8f692485faf4832"
+    },
+    {
+      "file": "rebuild/hub/hub-world.js",
+      "matched": true,
+      "sha256": "41ec61b35780ac723b1495eb3625e62c077e0673dcca770a6df9c0fd150ebc6c"
+    },
+    {
+      "file": "rebuild/hub/office-floor-ui.js",
+      "matched": true,
+      "sha256": "7ccec10afb7150ff0a4106fc04ec7e46fa25757ac6c9308eb309e8ef16bbffdc"
+    },
+    {
+      "file": "rebuild/hub/priya-household.js",
+      "matched": true,
+      "sha256": "4b5cb70dfea819de857506aa78bae2369eb00e5ac8b942148cd6844f5175c8e6"
+    },
+    {
+      "file": "rebuild/hub/dialogue-intents.js",
+      "matched": true,
+      "sha256": "337032b83abcb0ea5e5e66fbd9ae877c2196d9f0e7ca6dffce88aa32546341d7"
+    },
+    {
+      "file": "rebuild/hub/form-storage.js",
+      "matched": true,
+      "sha256": "f5f0274463d3fc1d2dc3e5214045d6dff7613104c158f60a07544c072e70ff50"
+    },
+    {
+      "file": "rebuild/hub/navigation-v1.0.66.css",
+      "matched": true,
+      "sha256": "f568bfe9063887af59395609aedad6482ce74e5c768092d2f264414002c914f5"
+    },
+    {
+      "file": "rebuild/hub/marketing.js",
+      "matched": true,
+      "sha256": "a8998ee55af301244dd690d8af97986d8e177ba091e67c531e09c6361845d204"
+    },
+    {
+      "file": "rebuild/hub/nadia-guests.js",
+      "matched": true,
+      "sha256": "68bbd970de29c0b1ea48856559424c8418a9c856936863ba7a66175d2b3439ca"
+    },
+    {
+      "file": "rebuild/hub/player-clothing.js",
+      "matched": true,
+      "sha256": "e8099be0a63250bb9e5b0bdcf0b1181ea20b9dea38b96d44b2c7b2f274e29546"
+    },
+    {
+      "file": "rebuild/hub/erin-activities.js",
+      "matched": true,
+      "sha256": "90a4f066c62c3b29b1500151f3c40cbb4fee2b997f603fca6d4ad35d9871d696"
+    },
+    {
+      "file": "rebuild/hub/easter-egg-ui.js",
+      "matched": true,
+      "sha256": "11c95f6d76f2811517cbe79f3bbfc6a1ffb48e3b6af447277111afd7ca51fd61"
+    },
+    {
+      "file": "rebuild/hub/served-items.js",
+      "matched": true,
+      "sha256": "340a8fd6435123276e8a156e96017259a87626d2a8c6e7f02a465cd1bed6f623"
+    },
+    {
+      "file": "rebuild/hub/location-details-ui.js",
+      "matched": true,
+      "sha256": "65d6b327dd0cc485997ea5e99b76b05686fd4bc40bf2b2a5c47def393a2e7e41"
+    },
+    {
+      "file": "rebuild/hub/interaction-state.js",
+      "matched": true,
+      "sha256": "bec35f1e42197c6874a5c3af0c605197a25c2f7babfaa639b3a50577a3bfd2bd"
+    },
+    {
+      "file": "rebuild/hub/priya-cat-ui.js",
+      "matched": true,
+      "sha256": "79a4a06bd76536a4709db3bfe41492de689be43b7ea74c16b83fcfac9812c741"
+    },
+    {
+      "file": "rebuild/hub/priya.js",
+      "matched": true,
+      "sha256": "bb66ca0f60047e1145c45e31c08cdd045fa126e4c70e532cd76e7779e0ac800a"
+    },
+    {
+      "file": "rebuild/hub/travel-modes.js",
+      "matched": true,
+      "sha256": "c11a640e54ecc1f5a7b120bf6bb5d7d8656a339d7aed76b43bbf83bddd609581"
+    },
+    {
+      "file": "rebuild/hub/room-art-ui.js",
+      "matched": true,
+      "sha256": "c17e50f843d2601998ed00019f85f3f0604e9ab65228291e54a87bd5f5c99d81"
+    },
+    {
+      "file": "rebuild/hub/relationships.js",
+      "matched": true,
+      "sha256": "bbe46749853a5bea9af6e9bab93a97ea46e2ac9fe30be8a9348b21d0fe975cb8"
+    },
+    {
+      "file": "rebuild/hub/richard-daily.js",
+      "matched": true,
+      "sha256": "26580dca8bbd103f3dc189a7f78d3c131ec2d74d4b28d3c1c27134e6a2c187e1"
+    },
+    {
+      "file": "rebuild/hub/feed-position.js",
+      "matched": true,
+      "sha256": "094a2fa1fdb81868b8e4c65edb6f77649706c7011329c0b4777d66e23b2c3e55"
+    },
+    {
+      "file": "rebuild/hub/cherished-touch-ui.js",
+      "matched": true,
+      "sha256": "2c126b303026a0d11b19f9ce7c8166cf8700a7109602b4c5a51a7ca2b7265c01"
+    },
+    {
+      "file": "rebuild/hub/workplace-schedule.js",
+      "matched": true,
+      "sha256": "93504e7a25c8c704f85ec8ad4df6a1897950252b286b1b4907550ae4cab5d08d"
+    },
+    {
+      "file": "rebuild/hub/enchanted-effects.js",
+      "matched": true,
+      "sha256": "66de4c4bd72968ec05ca41baf71d850a9657a4c0138162dbd2440a0a52e1a85a"
+    },
+    {
+      "file": "rebuild/hub/richard.js",
+      "matched": true,
+      "sha256": "8b05be529e6a317723abce719b4439a0b27ca11ccadbe1c33640c846a281f565"
+    },
+    {
+      "file": "rebuild/hub/ai-integration-cases.js",
+      "matched": true,
+      "sha256": "1d9757bd12a643d9f6cdd056ff2c2a416331e89ff87beac918a7fc7c61b5ff3f"
+    },
+    {
+      "file": "rebuild/hub/erin-household-data.js",
+      "matched": true,
+      "sha256": "8f6a48256a8bf1b0420c3dc3bbfa282937228641771807d51b3947874145e83e"
+    },
+    {
+      "file": "rebuild/hub/narration-grounding.js",
+      "matched": true,
+      "sha256": "b26bfbe7f0b34b10ab6487fb8da010a50155c5325ede1c13fbfee3e53b97e6de"
+    },
+    {
+      "file": "rebuild/hub/priya-home-navigation.js",
+      "matched": true,
+      "sha256": "045e18852e40468b612a0d2b00f80cb8c35059ddb56e5b0494ba41f2db976c60"
+    },
+    {
+      "file": "rebuild/hub/easter-egg.js",
+      "matched": true,
+      "sha256": "ec2fbb057e730ba3b9788a406bb42ab134a162f7f99d100c1f700c78e1b8a181"
+    },
+    {
+      "file": "rebuild/hub/richard-home.js",
+      "matched": true,
+      "sha256": "14b0fed751f789ac4aa3211ccf9524e4411e638f1d52b7b9526537f72e8f2715"
+    },
+    {
+      "file": "rebuild/hub/erin-activities-ui.js",
+      "matched": true,
+      "sha256": "88bf6045b3c21c1f943ff577c93208b1498c16367800baca0326a6d5187981cc"
+    },
+    {
+      "file": "rebuild/hub/live-time-ui.js",
+      "matched": true,
+      "sha256": "e8fa0c37e0125c9c6c2ccb7636b56abc2ab93a86a8fc1dc10eb760e59084aa05"
+    },
+    {
+      "file": "rebuild/hub/erin-life.js",
+      "matched": true,
+      "sha256": "b29b6d41b86462fcd5e88f1b0aad922cb5eae0fea2e8847acbfabfa840efb07c"
+    },
+    {
+      "file": "rebuild/hub/priya-cat.js",
+      "matched": true,
+      "sha256": "c6e031e1818556d86dd9e5442a039fd8e6f83183b5fde56b346530bbb14fd0b1"
+    },
+    {
+      "file": "rebuild/hub/location-context.js",
+      "matched": true,
+      "sha256": "fdf7a30071646a88c801594fe33fe0dcc9d7f9ad98acf65f2405fb6501cab8d9"
+    },
+    {
+      "file": "rebuild/hub/intimacy.js",
+      "matched": true,
+      "sha256": "44e8abb5fcd547162e49720f245d3b3e10c05170aac423c05e4d4c660d674c60"
+    },
+    {
+      "file": "rebuild/hub/reading-library.js",
+      "matched": true,
+      "sha256": "10cc2ae1435c251ccb95f0b313fa78d64cbce8449c363c557dbcd1b68d0b656a"
+    },
+    {
+      "file": "rebuild/hub/scene-presence.js",
+      "matched": true,
+      "sha256": "ebd21be9cf4c39b47807cc34012e2013bb0aa8022ed69672630d5c69a3ea5c21"
+    },
+    {
+      "file": "rebuild/hub/richard-home-ui.js",
+      "matched": true,
+      "sha256": "6d11bf66fa2c473999fa57e89b84eb11b11e16fa524c8a73eb12d1d5e6d25482"
+    },
+    {
+      "file": "rebuild/hub/cursed-exposure.js",
+      "matched": true,
+      "sha256": "a7489db4f890cecd79664ccaa67d3f934b742ab5f567c600902dc0f28dd8e39e"
+    },
+    {
+      "file": "rebuild/hub/nadia-home-data.js",
+      "matched": true,
+      "sha256": "e00bd1c87783882b633d5b2ad937ec22cb214f3de6667d7a454d64badd79b79b"
+    },
+    {
+      "file": "rebuild/hub/priya-flats-ui.js",
+      "matched": true,
+      "sha256": "03c793450c87e0e2347b3030152d0b5c2ea7b7e095128c9684ad15e74c8e31d7"
+    },
+    {
+      "file": "rebuild/hub/navigation.js",
+      "matched": true,
+      "sha256": "05e9b0762b5eece158458c90765ccdecd221e26061ecec8d4253e9f98033d0f9"
+    },
+    {
+      "file": "rebuild/hub/richard-office.js",
+      "matched": true,
+      "sha256": "0aa75bc6f05d4e9f233a7e50d1b9b0b7521ad814e36cb09e8dff874231a319b3"
+    },
+    {
+      "file": "rebuild/hub/hangry-fangs.js",
+      "matched": true,
+      "sha256": "d445b6ab71456482f882d2eb1e5d15505c8b44ed1af5ad8e4988eec5dcf2cd7d"
+    },
+    {
+      "file": "rebuild/hub/nadia-daily.js",
+      "matched": true,
+      "sha256": "c281efb606c3ffc6f7187473fe25c5a6f0ca8ce4274dab8f67781df7e5a275b9"
+    },
+    {
+      "file": "rebuild/hub/ai-ui.js",
+      "matched": true,
+      "sha256": "f8c9155ab9e66ee9bb90f49c5629d5524be48bb27a3f3674843d558313bef479"
+    },
+    {
+      "file": "rebuild/hub/charity.js",
+      "matched": true,
+      "sha256": "08e62115ecf86e0b09d507a6de46cf5bdc56d472eca08a2aaeba79992825bf3d"
+    },
+    {
+      "file": "rebuild/hub/office-floor.js",
+      "matched": true,
+      "sha256": "a50296a2617ee0fc41ab5bfc184df8bc9b8b59063e2d58bb7f3e49ed45659faf"
+    },
+    {
+      "file": "rebuild/hub/canine-expression.js",
+      "matched": true,
+      "sha256": "3eaa4bcdba3011386b5cf731f21dfae6e17ef0549332265add0abef97fdef915"
+    },
+    {
+      "file": "rebuild/hub/erin-office.js",
+      "matched": true,
+      "sha256": "1f852cb3fa708a51e385b6240cbffca142cfd8aa5dfb517c89067e73eb414af6"
+    },
+    {
+      "file": "rebuild/hub/canine-intent.js",
+      "matched": true,
+      "sha256": "444eb5d208cbacba9bea3996857493f706edf607316f4d8b46cfc09d295c654a"
+    },
+    {
+      "file": "rebuild/hub/priya-daily.js",
+      "matched": true,
+      "sha256": "9a11e152a2dd4a78c1e3a62af73dc84e83945c3c37ec6ed49e9564715252f58e"
+    },
+    {
+      "file": "rebuild/hub/erin-household.js",
+      "matched": true,
+      "sha256": "8a83e4ac20ad86431588ab0c2716d6635941fdc5838ae544f702b3f80f4469c7"
+    },
+    {
+      "file": "rebuild/hub/shared-activities.js",
+      "matched": true,
+      "sha256": "af2d48b7a586f061503b662cee5229318eb9b4068a61f51dd352a17c9ba5edd4"
+    },
+    {
+      "file": "rebuild/hub/kibbles-behavior.js",
+      "matched": true,
+      "sha256": "7c528b06989fe0e4b74441fa67bb98e99c4919a90c6f608a7ee7d9367d848834"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.37.js",
+      "matched": true,
+      "sha256": "83a8e47989c34f4c4eca5623cec5c05abe7eaab7268e1ff0be8961baf9bfb2d9"
+    },
+    {
+      "file": "rebuild/combat/play-encounter.js",
+      "matched": true,
+      "sha256": "c983343cd1ca817ef0900857b8d39169b50e606f21d634caf9f7f4b4280e2840"
+    },
+    {
+      "file": "rebuild/combat/kibbles-text.js",
+      "matched": true,
+      "sha256": "5116f1ab5c0e74b7b5b1f344ae4b25675261b745e46270f5ae7f78facaafc033"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.39.js",
+      "matched": true,
+      "sha256": "758a2c9d977b1dd07065750261bff8994ad1effdef273e689aa01b1773d283db"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.37.css",
+      "matched": true,
+      "sha256": "266de1273a1304b9e574a233ebb1a7d9a55d7d739515a52742dad9392e43f759"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.36.js",
+      "matched": true,
+      "sha256": "5a9743a9b4e530c459a7ddffa64c4a86b3553ff3a04cd3b9f60ebac4d7e841f6"
+    },
+    {
+      "file": "rebuild/combat/encounter-contract.js",
+      "matched": true,
+      "sha256": "51f31ec6cd3c74534d7d3c5d31be1c1c1ff2b4e562f06ee7497c0d4ff1c4a917"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.35.js",
+      "matched": true,
+      "sha256": "9d8dadb3eba611d9e32a4cf2b91bd67c2e3c3e615b6a202c2e55ec1f53578c65"
+    },
+    {
+      "file": "rebuild/combat/outcomes.js",
+      "matched": true,
+      "sha256": "cc6f0a00cb3006245bcc6c3694b899b329c53a646b7c82516decd478448e0a7f"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.39.css",
+      "matched": true,
+      "sha256": "09a5f094f927235581d1380c89fe2a6032143f9c914e51b2563e8b8471ccf362"
+    },
+    {
+      "file": "rebuild/combat/kibbles-ai.js",
+      "matched": true,
+      "sha256": "52a9be70b2763243cfffb7daaf15cc87e15a3ae15d70dd70df8d8253256e8ae2"
+    },
+    {
+      "file": "rebuild/combat/civilian-encounter.js",
+      "matched": true,
+      "sha256": "86e0cd552585a87d0cace84098211426a8b884acd0899296d99b79055ef36731"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.35.css",
+      "matched": true,
+      "sha256": "9eb9b66424155d3e88a90bfa55bbb91dfe3abcbe9b2a0337c732df146f7b0383"
+    },
+    {
+      "file": "rebuild/combat/engine.js",
+      "matched": true,
+      "sha256": "34ffcd8d0ca35d23923b8053ec35cd57eb9c289664e0f87ee4d65c398cc10f39"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.36.css",
+      "matched": true,
+      "sha256": "cf07d81967ff6559ebb4d81a14da784dc5eb11841c13d5cbd5a454a4a4c1901c"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.40.css",
+      "matched": true,
+      "sha256": "6ff1245113943839723745ddf6d5a39616d7e798a86812e514df90678ba3b507"
+    },
+    {
+      "file": "rebuild/combat/kibbles-form.js",
+      "matched": true,
+      "sha256": "5df1d452e2334300f91571e04e25d0d1cc3019dca54e6d4ce13cc421101dce7d"
+    },
+    {
+      "file": "rebuild/combat/entity-rules.js",
+      "matched": true,
+      "sha256": "7c13e54a6a1ff7e2473c9bec6f47179435eb1154e582bf0336910b21d8daaf2d"
+    }
+  ],
+  "limitations": [
+    "Cloudflare Worker unchanged; AI uses authored fallback until updated.",
+    "No paid model requests."
+  ]
+}
