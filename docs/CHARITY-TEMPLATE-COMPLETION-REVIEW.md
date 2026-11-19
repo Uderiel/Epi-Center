@@ -1,3 +1,17 @@
+## Owner-approved quick meals — current household design
+
+Owner accepts the proposed menu **provided preparation is quick and short**, given Charity’s limited coverage/rest window:
+
+- Breakfast: toast and eggs or oatmeal, with tea.
+- Counter lunch: a sandwich and fruit.
+- Dinner: reheatable soup or chicken-and-vegetable stew, with actual saved leftovers.
+
+No elaborate cooking is inserted into the protected rest window. Breakfast/tea, eating, showering, drying/changing and actual room travel must be budgeted around roughly five hours of sleep and the approved360minimum/420maximum coverage interval. Do not reinterpret the owner’s shorthand “about six hours” as revoking the separately confirmed seven-hour cap.
+
+Soup/stew is a quick meal **when an actual prepared portion/leftover exists**; reheating must not conjure a fresh batch. A longer batch-cooking session, if later proposed, needs its own feasible time outside this handover sequence or another approved supply arrangement. No restocking frequency, grocery spending authority, starting quantities, free delivery, meal duration or numerical relief effect is approved by accepting the menu. Real portions, ingredient consumption, preparation/consumption time, leftovers and cleanup still need implementation against approved quantities/timing.
+
+Next concrete decision: how her private food and care supplies are replenished. A shared shop courier exists and weekly enchanted delivery is already defined, but adding groceries/toiletries to that run would be a **new proposal**, not established delivery scope. Keep household stock distinct from shop till, public merchandise and player belongings.
+
 ## Current owner clarification — ordinary disguise; quest deferred
 
 Ordinary mask coverage is a voluntary **appearance-disguise service**, comparable to an advanced skinsuit, not an opposing living form trying to erase the player. The player borrows Charity’s appearance at her request. There is **no independent Charity consciousness, control contest, Resolve challenge, identity erosion or ordinary mastery challenge** from this mask. Preserve player agency and original identity. Do not copy Charity’s private memories or invent new compelled behavior from the disguise.

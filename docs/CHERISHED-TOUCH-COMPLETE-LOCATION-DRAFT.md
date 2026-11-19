@@ -1,3 +1,17 @@
+## Owner-approved quick meals — current household design
+
+Owner accepts the proposed menu **provided preparation is quick and short**, given Charity’s limited coverage/rest window:
+
+- Breakfast: toast and eggs or oatmeal, with tea.
+- Counter lunch: a sandwich and fruit.
+- Dinner: reheatable soup or chicken-and-vegetable stew, with actual saved leftovers.
+
+No elaborate cooking is inserted into the protected rest window. Breakfast/tea, eating, showering, drying/changing and actual room travel must be budgeted around roughly five hours of sleep and the approved360minimum/420maximum coverage interval. Do not reinterpret the owner’s shorthand “about six hours” as revoking the separately confirmed seven-hour cap.
+
+Soup/stew is a quick meal **when an actual prepared portion/leftover exists**; reheating must not conjure a fresh batch. A longer batch-cooking session, if later proposed, needs its own feasible time outside this handover sequence or another approved supply arrangement. No restocking frequency, grocery spending authority, starting quantities, free delivery, meal duration or numerical relief effect is approved by accepting the menu. Real portions, ingredient consumption, preparation/consumption time, leftovers and cleanup still need implementation against approved quantities/timing.
+
+Next concrete decision: how her private food and care supplies are replenished. A shared shop courier exists and weekly enchanted delivery is already defined, but adding groceries/toiletries to that run would be a **new proposal**, not established delivery scope. Keep household stock distinct from shop till, public merchandise and player belongings.
+
 ## Latest owner coverage revision — supersedes +90 / fixed-six-hour notes
 
 Canonical current rules: CHARITY-COVERAGE-DESIGN.md. **+75 relationship** qualifies for Charity’s actual mask-coverage offer. The coverage clock begins after transformation is complete and the player is ready at the counter. Charity sleeps promptly for roughly five hours, then showers (normal eight-minute shower), dries, dresses, eats a quick breakfast and returns. Owner confirms a **six-hour minimum / seven-hour maximum** with actual handover in that window; being ready earlier does not end the commitment before six hours. Her phase/return timing may vary within the cap, but exact distributions are not yet approved. Mask mechanics remain unresolved. The100relationship/twentieth-challenge hideout gate is unchanged.

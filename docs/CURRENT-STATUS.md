@@ -1,3 +1,7 @@
+## Charity quick menu approved
+
+Owner accepts toast/eggs or oatmeal/tea, sandwich/fruit, and reheatable soup or chicken-vegetable stew/leftovers, conditional on quick, short preparation. Fit actual breakfast/care/return around sleep within the approved6–7hour coverage; no long fresh stew cooking or fabricated leftovers in that window. Supply source/quantities/budget and exact timing remain to propose; no new delivery scope or runtime meal completion assumed. Next household checkpoint is restocking arrangements.
+
 ## Ordinary Charity mask resolved as disguise; quest deferred
 
 Owner clarifies appearance-only advanced-skinsuit-like use: no opposing mind, identity erasure, Resolve/control challenge or ordinary mask mastery. It is not an unmastered competing form and does not itself cause permanent Charity binding; unrelated underlying form/needs rules remain separate. The coverage is explicitly a quest and its framework is deferred. Retain settled mask/body/clothing/coverage inputs for later; resume Charity household/character design now. No mask runtime or publication added. See CHARITY-COVERAGE-DESIGN.md.
