@@ -264,6 +264,6 @@ The established100relationship requirement remains; the owner changes the twenty
 
 All quest, hatch-exception, restoration purchase and lock controllers remain deferred. No runtime access, shop price or live save was changed by this design update.
 
-## Fourth-shift progression draft prepared
+## Fourth-shift progression approved
 
-See `CHARITY-FOURTH-SHIFT-PROGRESSION-DRAFT.md` for the reviewable six-hour physical, speech and confinement sequence and separate hourly conserved-attribute-transfer proposal. Intermediate timings are drafts, not implemented or owner-approved policy.
+See `CHARITY-FOURTH-SHIFT-PROGRESSION-DRAFT.md` for the reviewable six-hour physical, speech and confinement sequence and separate hourly conserved-attribute-transfer proposal. The owner approves the six hourly physical groups, gradual speech progression, exit block at180elapsed minutes (start of hour4), and one conserved attribute transfer per completed hour. Exact within-hour sub-stage timestamps and attribute selection remain unresolved. Implementation remains deferred.
