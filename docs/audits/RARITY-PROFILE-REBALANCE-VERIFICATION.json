@@ -1,0 +1,24 @@
+{
+  "scope": "Development rarity metadata, authored NPC/form profiles and additive profile migration; unpublished",
+  "suites": 91,
+  "cases": 1498,
+  "failures": [],
+  "browser": {
+    "checks": {
+      "base": 10,
+      "effective": 11,
+      "combat": 11,
+      "npc": 10,
+      "unchanged": true
+    },
+    "errors": [],
+    "scope": "Synthetic isolated save; no provider calls"
+  },
+  "additionalBrowserCheck": "Eight runtime NPC/form profiles match approved budgets and per-stat cap.",
+  "limits": [
+    "No new NPC profile invented for an actor without authored stats.",
+    "Combat prototype fixtures remain simulation fixtures, not canonical NPC/form profiles.",
+    "Player original allocations, resources, mastery, identities and relationships are not rarity-rescaled.",
+    "Deferred Charity mask/quest controllers remain unimplemented."
+  ]
+}

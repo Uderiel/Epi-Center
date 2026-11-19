@@ -1,6 +1,6 @@
 const assert=require('node:assert/strict'),A=require('./play-encounter');let passed=0;
 const profiles={physical:{Endurance:7,Fitness:7,Reflexes:7,Intuition:1},mental:{Willpower:7,Reasoning:7,Stability:7,Reflexes:5},arousal:{Influence:7,Presence:7,Insight:7,Reflexes:5}};
-function start(kind='physical',resources={health:91,stamina:80,resolve:60,arousal:0}){for(let seed=1;seed<100;seed++){const s=A.start({attributes:profiles[kind],resources},seed);if(s.phase==='player')return s;}throw Error('No player-first seed');}
+function start(kind='physical',resources={health:91,stamina:80,resolve:60,arousal:0}){for(let seed=1;seed<10000;seed++){const s=A.start({attributes:profiles[kind],resources},seed);if(s.phase==='player')return s;}throw Error('No player-first seed');}
 function test(n,f){f();passed++;console.log('PASS '+n);}
 function text(s){return s.events.map(x=>typeof x==='string'?x:x.text).join('\n');}
 function end(s){if(s.phase==='player'&&s.mainUsed)s=A.continueTurn(s);if(s.phase==='opponent')s=A.continueTurn(s);return s;}

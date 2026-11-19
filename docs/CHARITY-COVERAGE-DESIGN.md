@@ -277,3 +277,7 @@ Example tone: “Warmth gathers through your fingers. Their familiar shape settl
 ## Universal base-attribute cap refinement
 
 Owner now approves10as the base per-attribute cap for players, NPCs and forms. Shared combat creation and NPC/form encounter reload normalization enforce that cap; current-body equipment calculations cap base before adding recorded jewelry effects. Existing authored direct-add profiles already fit0–10 and are not halved. Rarity budgets remain provisional; Charity’s separate numeric draft is revised to fit10but not promoted to approved stats. See `audits/UNIVERSAL-ATTRIBUTE-CAP-VERIFICATION.json` for verification. This runtime change does not implement the deferred mask quest.
+
+## Current numeric profile checkpoint — approved rarity rebalance implemented
+
+The owner accepts the revised75-point Charity profile and authorizes rebalancing existing authored NPC/form profiles. Charity.definition.attributes now holds Endurance5,Fitness3,Intuition7,Reflexes5,Willpower10,Reasoning10,Stability10,Presence10,Insight10,Influence5. This supersedes older statements that her numeric profile or rarity budgets remain unapproved. Her mask still conserves each player’s original total; none of this implements the deferred bleed/coverage quest.

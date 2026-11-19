@@ -1,3 +1,7 @@
+## Current required attribute allocation contract
+
+Use the shared0–10base scale and owner-approved rarity totals: **Common45,Uncommon55,Rare65,Epic75,Legendary85**. Record explicit rarity, all ten named base attributes, verified total and engine-derived specialty. Register authored profiles through the shared engine so saved-profile revisions can migrate idempotently without refilling resources or losing identity, mastery, relationships or original player allocations. Equipment bonuses remain separate. Do not use D&D20scores, invent stats for an unbuilt actor or copy an NPC rarity budget through a conserved-player-total disguise such as Charity’s mask. Current profile evidence: `audits/RARITY-PROFILE-REBALANCE-VERIFICATION.json`.
+
 ## Standing owner rule — check existing information before every question
 
 Before **every** question, inspect the relevant latest owner decisions, canonical design, actual code/shared systems and pertinent verification. Determine whether the answer or implementation already exists, reconcile superseded notes, and only then propose a genuinely unresolved consequential decision. Do this consistently; do not make the owner repeat information or select routine technical steps. This is also recorded in the repository AGENTS.md so it applies to later work, not merely this conversation.
