@@ -337,3 +337,7 @@ Existing handover settlement may already have paid the offending shift before Ch
 In addition to the50percent pay consequence, the offending shift earns **no+5Charity relationship bonus**. Charity chews the player out for being ungrateful to NPCs who have helped her for a long time. This disqualifies that particular shift’s positive reward; it is not an additional arbitrary negative relationship penalty or erasure of other earned gains. Actual shift count remains completed; do not silently remove its discount/count progression.
 
 For a late report after reward settlement, void that shift’s recorded relationship-reward event and reconcile the resulting capped relationship history. Do not blindly subtract5if the100cap meant fewer than5points were credited, or erase unrelated subsequent events. The original shift/incident and reward adjustment must be traceable and once-only. Show wage recovery and lost/voided reward clearly to the player. This ledger behavior is a design requirement for the deferred quest, not an implemented relationship replay engine.
+
+## Approved two-person household capacity
+
+The owner approves three extra days of food/care supplies for the locked player in addition to Charity’s one-week fallback supply. Consolidated ten-person-day quantity targets are drafted in `CHARITY-HOUSEHOLD-STOCK-DRAFT.md` for review. This does not activate offline care, create inventory, approve new delivery frequencies or make community meals guaranteed.

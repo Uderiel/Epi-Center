@@ -56,6 +56,20 @@ No hidden withdrawals from the till/player, fabricated free credit, automatic de
 
 Review the one-week fallback level and two distinct owned work outfits first. Numeric row quantities and top-up economics remain proposed until actually presented/approved; approval of a broad buffer is not approval of unseen item counts. Then finalize the concrete per-action stocks/recipes/cost proposal as one coherent package rather than repeatedly asking trivial item-by-item questions.
 
-## Next review proposal — locked-player care buffer
+## Approved locked-player care buffer
 
-The approved72-hour two-person rotation adds a second eater and care user to Charity’s household. Propose a distinct extra three-day food/care buffer for the locked player, alongside Charity’s approved one-week fallback stock. Community meals remain actual gifts rather than guaranteed supplies. This is a proposal, not an approved new inventory grant, supply delivery frequency, refill budget or claim that the existing one-person quantities already cover both. Exact portions/use quantities remain to finalize after this capacity choice.
+The owner approves a distinct extra **three-day food/care buffer for the locked player**, alongside Charity’s approved one-week fallback stock. Combined target capacity is ten person-days, not ten days for each of two people. Community meals remain actual gifts rather than guaranteed supplies. This approval establishes capacity, not a live inventory grant, automatic delivery frequency, free refill budget or new numerical need-restoration effects.
+
+## Consolidated ten-person-day quantity proposal — review required
+
+Use the existing quick-menu choices. Proposed combined stock targets:
+
+- Breakfasts: six eggs for three two-egg breakfasts, seven oatmeal portions, and bread for the three toast accompaniments: ten breakfasts total.
+- Lunches: ten sandwich-filling portions and ten fruit portions, with bread for ten sandwiches.
+- Bread: two twenty-slice loaves (forty slices). Three toast breakfasts and ten sandwiches use twenty-six slices; the extra fourteen are actual remaining stock, not a separate meal reward.
+- Dinners: ten individual ready-to-heat soup/real prepared meal portions, each tracked. Real community gifts/leftovers can replace consumption of a backup portion rather than duplicate it.
+- Tea: twenty servings; milk two small cartons, with recipe/use quantities and storage still to define.
+- Daily care: ten shower-use portions of mild soap, ten available shampoo/conditioner uses, twenty toothpaste uses, ten deodorant/moisturizer uses. Two personal toothbrushes, one for each actor; do not share a toothbrush or overwrite the player’s existing owned item.
+- Retain the approved two distinct work outfits and one half-gallon mint chocolate chip target. Clothing loan/laundry/ownership remain tracked; no automatic new outfit count or ice-cream-sharing permission follows from extra food/care.
+
+The quantities above are a single proposed stock target for review, not yet runtime inventory, approved product prices, recipes or numerical need relief. Normal replenishment remains the approved Monday Only on Time delivery paid from Charity’s personal funds; an additional emergency run or infinite free refill is not inferred. Current held stock is not reset/duplicated when a locked player arrives. Starting-stock migration and actual top-up/payment must use real item records when implemented.
