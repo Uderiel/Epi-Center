@@ -1,17 +1,29 @@
-## Handover interaction — proposal for review
+## Owner addition — voluntary consecutive coverage without reversion
 
-Owner is ready to review this interaction, while the actual coverage quest framework remains deferred. Established facts checked first:75eligibility, actual360–420minute counter coverage, ten-minute25-stage appearance disguise, actual worn-outfit loan, Charity’s approved clean spare outfit, and safe ordinary removal with no opposing mind/Resolve challenge. Historical +90/fixed-six-hour and five-shift hideout notes are superseded.
+At the actual end-of-shift handover point, the player may **volunteer to cover another six-hour shift if able**. **Charity may also offer/ask whether they would like to continue.** Acceptance must be explicit and voluntary; declining is a normal finish, not misconduct or automatic relationship loss.
 
-Proposed ordinary handover:
+When continuing, **do not force the player to remove the mask, reverse the disguise, return/change out of the outfit and transform again** just to begin the next accepted shift. Keep their actual disguise stage complete, same mask, same loaned outfit/custody/condition and actual resources/needs. Charity may return directly to her living quarters. Do not invent a cooldown or refuse merely because the player just completed coverage.
+
+This is another accepted shift, not an indefinite automatic extension: it gets its own start/completion state and uses the established six-hour minimum/seven-hour cap unless the owner later changes that rule. Recheck existing ability/eligibility/actual commitments; “if able” is not approval for arbitrary new minimum Health/Stamina/Resolve thresholds. No automatic resource refill, bladder relief, cleaned clothes or guaranteed extra sleep for Charity occurs through accepting. She returns to her quarters; her next actual activity follows her already-authored needs/preferences rather than assuming another five-hour sleep.
+
+The continuation option or actual player offer is resolved **before** the normal removal/reversion branch. Prevent automatic reversion at a timestamp from racing with an offered/accepted continuation. A declined/unaccepted extension follows the approved ordinary handover/private changing/ten-minute reversion path. No new special mind/control/Resolve contest is created.
+
+The quest implementation is deferred. In that later framework, distinguish each actually completed shift from the still-open physical equipment loan; otherwise requiring loan return as the only completion signal would incorrectly defeat this explicitly approved continuation. Exact reward settlement/loan-finalization and the historical twentieth-shift exception remain part of that deferred quest review. Preserve existing sourced reward amounts; do not invent new completion rewards or activate a twentieth-shift trap now.
+
+## Ordinary handover and ten-minute reversion — approved
+
+Owner approves the ordinary handover and ten-minute reverse-stage reversion, with the voluntary repeat-shift addition below. The actual coverage quest framework remains deferred. Established facts checked first:75eligibility, actual360–420minute counter coverage, ten-minute25-stage appearance disguise, actual worn-outfit loan, Charity’s approved clean spare outfit, and safe ordinary removal with no opposing mind/Resolve challenge. Historical +90/fixed-six-hour and five-shift hideout notes are superseded.
+
+Approved ordinary handover when the player finishes rather than extending:
 
 1. Charity actually returns by the room route, already dressed in her different clean spare outfit. She takes over the register at a suitable real handover moment at/after360minutes and no later than420. Do not narrate her as back while she is still eating or upstairs.
 2. Charity and the player explicitly acknowledge the takeover; the counter-coverage clock ends at that actual point. Shop receipts, stock, sales/till and outstanding orders keep their exact state and owner; nothing rerolls, disappears or becomes player money.
-3. With the real Charity now serving, the player uses an existing closed fitting stall to change out of the borrowed outfit, remove the mask, revert and dress in their retained original clothes. There is no requirement to continue service during private reversion. Return the same mask and loaned garments with their actual condition/identity, not new clean copies. Exact transition/reversion rules require approval below.
+3. With the real Charity now serving, the player uses an existing closed fitting stall to change out of the borrowed outfit, remove the mask, revert and dress in their retained original clothes. There is no requirement to continue service during private reversion. Return the same mask and loaned garments with their actual condition/identity, not new clean copies. The ten-minute reverse-stage reversion is approved below.
 4. Future quest completion/reward bookkeeping must distinguish actual takeover, returned loans and the once-only completed job record. Do not award twice on reload or invent a new reward schedule. Existing planned gold progression is250/300/350/400/450then500fromcompletion6onward; +5relationship capped100; early one-time and later permanent10/25/35percent discounts are already sourced. Those are deferred quest inputs, not live payouts or an excuse to revive obsolete90eligibility/five-shift secret access.
 
 The owner’s quick-swap continuity goal does not make other NPCs blind. Use real presence/line-of-sight and a quiet suitable handover; do not guarantee nobody notices two matching appearances or teleport either person to conceal them. An actual privacy/detection complication belongs to later quest design rather than being invented now.
 
-**Specific next proposal:** ordinary reversion takes **ten game minutes**, reversing the approved25physical stages, inside the closed fitting stall. This duration/order is not yet approved. It would occur after the counter takeover and outside the service-coverage clock, just as the initial transformation is before the ready-at-counter start. Explain that timing rather than silently extending the mandatory coverage interval. Ordinary mask removal is voluntary and has no Resolve/mastery contest. The historical twentieth-shift exception remains separately deferred.
+**Approved ordinary reversion:** **ten game minutes**, reversing the approved25physical stages, inside the closed fitting stall. It would occur after the counter takeover and outside the service-coverage clock, just as the initial transformation is before the ready-at-counter start. Explain that timing rather than silently extending the mandatory coverage interval. Ordinary mask removal is voluntary and has no Resolve/mastery contest. The historical twentieth-shift exception remains separately deferred.
 
 ## Current owner clarification — ordinary disguise; quest deferred
 

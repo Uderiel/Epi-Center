@@ -1,3 +1,7 @@
+## Charity handover/reversion approved; voluntary continuation added
+
+Owner approves ordinary takeover/private change/ten-minute reverse25stage reversion. At handover, the player may volunteer for another shift if able; Charity may offer the option too. Explicit acceptance keeps the same disguise, mask and real loaned clothes with actual needs/resources/condition; no forced reversion/retransformation or invented “you just worked” cooldown. The next accepted shift has separate timing/state under existing coverage rules. Declining follows normal finish. Quest/reward/loan-finalization implementation remains deferred. Source: CHARITY-COVERAGE-DESIGN.md. No runtime or publication added.
+
 ## Charity morning routine approved; handover review underway
 
 Owner accepts5–10minute dry/groom,8minute dressing,10–15minute breakfast and a distinct owned clean spare outfit for Charity; eight-minute shower and actualroomtravel preserved. CHARITY-MORNING-CARE-DRAFT.md is reconciled as approved. Owner is ready to review handover; CHARITY-COVERAGE-DESIGN.md contains the concrete counter-takeover/loan-return proposal and a not-yet-approved10minute reverse-stage reversion outside the coverage clock. Existing rewards were checked, not redefined. Quest runtime remains deferred.
