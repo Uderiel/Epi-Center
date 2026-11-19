@@ -20,3 +20,7 @@ Update the current canonical record when an approved rule changes. Clearly label
 Use focused verification for changes; repeat the broad suite when new changes/failures or unresolved concerns justify it. Preserve earlier release evidence. Do not use owner saves or paid model calls implicitly as test fixtures.
 
 End every user-facing reply with an explicit truthful status: work underway; finished and awaiting a specific decision; finished; or blocked for a stated reason. Do not imply work continues in the background after ending the turn. Let the owner finish their input; do not interject partial words, repeated acknowledgments or new questions while they are giving an addendum.
+
+## Continue with the next authorized step
+
+When a step finishes, identify and begin the next necessary step within the owner’s authorized scope rather than stopping with “no work is running” or asking for another general go-ahead. Tell the owner what that step is. If a substantive new decision genuinely requires approval, first check existing records/code, prepare a concrete reviewable proposal, and ask that specific question. Never ask permission merely to draft an already authorized next section. Continue to distinguish work actually running from finished work; do not imply background execution after the turn ends.

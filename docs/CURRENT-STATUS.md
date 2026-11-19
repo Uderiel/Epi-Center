@@ -1,3 +1,7 @@
+## Charity morning care draft prepared; automatic next-step rule
+
+Owner approves drafting shower/dressing now. CHARITY-MORNING-CARE-DRAFT.md reconciles confirmed8minute shower, real8minute total doorway travel, approximate5–5.5hour sleep and6–7hour coverage. Proposes5–10minutes dry/groom,8minutes changing (existing preset reference),10–15minutes breakfast, and a distinct clean spare outfit because the player still wears her original loan. Proposed timing/spare-outfit use await review; no controller or quest implemented. AGENTS.md now requires identifying/beginning the next authorized step, with specific review questions only for genuinely unresolved substantive choices.
+
 ## Standing owner rule — check existing information before every question
 
 Before **every** question, inspect the relevant latest owner decisions, canonical design, actual code/shared systems and pertinent verification. Determine whether the answer or implementation already exists, reconcile superseded notes, and only then propose a genuinely unresolved consequential decision. Do this consistently; do not make the owner repeat information or select routine technical steps. This is also recorded in the repository AGENTS.md so it applies to later work, not merely this conversation.

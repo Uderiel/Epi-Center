@@ -1,3 +1,7 @@
+## Current household review checkpoint
+
+See CHARITY-MORNING-CARE-DRAFT.md for the concrete covered-rest shower/dressing/breakfast draft. It preserves approved rules and flags the actual clothing dependency: the player is wearing Charity’s loaned outfit, so a different owned clean spare is proposed for her return. No exact new timing is treated as approved yet.
+
 ## Owner-approved short unattended breaks; −50 cutoff confirmed
 
 Owner accepts the proposed brief bathroom/personal-care break arrangement while Charity works alone: a “Back shortly” notice; temporarily pause new entry and checkout; customers already inside may ordinarily browse or leave; preserve their actual baskets, purchases, paid orders and safe exit; resume service on her actual return. This is a brief service pause within weekday24-hour operation, not a normal overnight shutdown.
