@@ -1,3 +1,13 @@
+## Current owner clarification — ordinary disguise; quest deferred
+
+Ordinary mask coverage is a voluntary **appearance-disguise service**, comparable to an advanced skinsuit, not an opposing living form trying to erase the player. The player borrows Charity’s appearance at her request. There is **no independent Charity consciousness, control contest, Resolve challenge, identity erosion or ordinary mastery challenge** from this mask. Preserve player agency and original identity. Do not copy Charity’s private memories or invent new compelled behavior from the disguise.
+
+This resolves the ordinary-mask binding question: the disguise is not an unmastered competing form, so it must not itself cause permanent Charity binding under the zeroResolve rule. Normal bodily needs/resource effects and any genuinely active underlying cursed form’s own rules remain separate; the mask is not blanket immunity from unrelated consequences. Do not fake a completed mastery flag to implement the distinction.
+
+The owner explicitly says covering Charity is **a quest** and defers building/fixing its quest framework until later. Retain the approved75offer threshold,10minute/25stage physical sequence, actual worn-clothing loan, and360–420minute coverage plan as design inputs, not a playable accepted quest or a completed implementation. Earlier mandatory role-expression/commitment/reward mechanics and the historical twentieth-shift challenge belong to that deferred quest review; no new active compulsion, reward, entrapment or automatic challenge is created now. This does not silently delete the historical twentieth-shift idea or declare its final mechanics settled.
+
+**Current next work:** return to Charity’s non-quest household/character completion. Draft the concrete meal/stock/care/wardrobe details still missing, using approved broad preferences and current twelve-section template. Do not keep asking mask/quest questions while the owner has deferred that work.
+
 ## Owner-approved clothing continuity — actual worn outfit
 
 The owner agrees the mask’s biological transformation **does not transform worn apparel**. The wearer changes separately in the existing private fitting-stall flow before taking over the counter. Charity hands over **the actual work clothes she was just wearing**, rather than a fresh uniform or magically generated duplicate, so a quick swap preserves the visible outfit and avoids an obvious change to observers.
@@ -6,9 +16,9 @@ Track the same real garment identities, ownership/loan custody and actual condit
 
 Coverage begins only once the ten-minute body transformation and actual change into Charity’s handed-over outfit are complete and the player is ready at the counter. The clothes exchange/preparation is outside the confirmed360–420minute counter-coverage interval. Do not make the character disappear/change outfit in public merely to call the swap quick.
 
-## Next consequential rule to reconcile
+## Resolved ordinary-mask question — historical context
 
-The original ordinary mask job promises safe end-of-shift removal, while the recently approved global rule permanently binds an **unmastered form** atzeroResolve. Whether an ordinary temporary coverage mask falls under that rule is **unresolved**; it must be explicitly decided/disclosed before implementing the mask. The twentieth mastery challenge is already a separate exception to ordinary removal. Do not silently grant a binding exemption, mark a temporary mask mastered, or add permanent entrapment to an otherwise safe job.
+The original ordinary mask job promises safe end-of-shift removal, while the recently approved global rule permanently binds an **unmastered form** atzeroResolve. The owner subsequently resolved this: ordinary coverage is an appearance-only disguise, with no opposing consciousness or Resolve/mastery challenge. The current clarification above takes precedence. The twentieth mastery challenge is already a separate exception to ordinary removal. Do not silently grant a binding exemption, mark a temporary mask mastered, or add permanent entrapment to an otherwise safe job.
 
 ## Owner approval checkpoint
 

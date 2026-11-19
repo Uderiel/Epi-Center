@@ -1,3 +1,7 @@
+## Ordinary Charity mask resolved as disguise; quest deferred
+
+Owner clarifies appearance-only advanced-skinsuit-like use: no opposing mind, identity erasure, Resolve/control challenge or ordinary mask mastery. It is not an unmastered competing form and does not itself cause permanent Charity binding; unrelated underlying form/needs rules remain separate. The coverage is explicitly a quest and its framework is deferred. Retain settled mask/body/clothing/coverage inputs for later; resume Charity household/character design now. No mask runtime or publication added. See CHARITY-COVERAGE-DESIGN.md.
+
 ## Charity mask work-clothing exchange approved
 
 Owner confirms body-only transformation and a real clothing change: Charity lends the exact work outfit she was just wearing so the twin replacement keeps visible continuity. Preserve actual item identities/condition/loan ownership and the player’s belongings; no generated uniform or hidden stock/key access. Coverage begins only after transformation/change/counter readiness. Source: CHARITY-COVERAGE-DESIGN.md. Next unresolved rule is ordinary safe mask removal versus the universal zeroResolve unmastered-form binding consequence; no exemption or new entrapment is assumed. Design only.

@@ -1,3 +1,13 @@
+## Current owner clarification — ordinary disguise; quest deferred
+
+Ordinary mask coverage is a voluntary **appearance-disguise service**, comparable to an advanced skinsuit, not an opposing living form trying to erase the player. The player borrows Charity’s appearance at her request. There is **no independent Charity consciousness, control contest, Resolve challenge, identity erosion or ordinary mastery challenge** from this mask. Preserve player agency and original identity. Do not copy Charity’s private memories or invent new compelled behavior from the disguise.
+
+This resolves the ordinary-mask binding question: the disguise is not an unmastered competing form, so it must not itself cause permanent Charity binding under the zeroResolve rule. Normal bodily needs/resource effects and any genuinely active underlying cursed form’s own rules remain separate; the mask is not blanket immunity from unrelated consequences. Do not fake a completed mastery flag to implement the distinction.
+
+The owner explicitly says covering Charity is **a quest** and defers building/fixing its quest framework until later. Retain the approved75offer threshold,10minute/25stage physical sequence, actual worn-clothing loan, and360–420minute coverage plan as design inputs, not a playable accepted quest or a completed implementation. Earlier mandatory role-expression/commitment/reward mechanics and the historical twentieth-shift challenge belong to that deferred quest review; no new active compulsion, reward, entrapment or automatic challenge is created now. This does not silently delete the historical twentieth-shift idea or declare its final mechanics settled.
+
+**Current next work:** return to Charity’s non-quest household/character completion. Draft the concrete meal/stock/care/wardrobe details still missing, using approved broad preferences and current twelve-section template. Do not keep asking mask/quest questions while the owner has deferred that work.
+
 ## Latest owner coverage revision — supersedes +90 / fixed-six-hour notes
 
 Canonical current rules: CHARITY-COVERAGE-DESIGN.md. **+75 relationship** qualifies for Charity’s actual mask-coverage offer. The coverage clock begins after transformation is complete and the player is ready at the counter. Charity sleeps promptly for roughly five hours, then showers (normal eight-minute shower), dries, dresses, eats a quick breakfast and returns. Owner confirms a **six-hour minimum / seven-hour maximum** with actual handover in that window; being ready earlier does not end the commitment before six hours. Her phase/return timing may vary within the cap, but exact distributions are not yet approved. Mask mechanics remain unresolved. The100relationship/twentieth-challenge hideout gate is unchanged.
