@@ -1,3 +1,7 @@
+## Next authorized household step drafted — starting stock
+
+After saving voluntary consecutive coverage, prepared CHARITY-HOUSEHOLD-STOCK-DRAFT.md using existing menu, community meals, Monday personal-funded supply and physical wardrobe/laundry contracts. Proposes one-week fallback food/care buffer and two distinct work outfits (loan plus spare), with explicit proposed counts/top-up economics pending actual review. No initial inventory, free money, new public permissions or quest runtime created.
+
 ## Charity handover/reversion approved; voluntary continuation added
 
 Owner approves ordinary takeover/private change/ten-minute reverse25stage reversion. At handover, the player may volunteer for another shift if able; Charity may offer the option too. Explicit acceptance keeps the same disguise, mask and real loaned clothes with actual needs/resources/condition; no forced reversion/retransformation or invented “you just worked” cooldown. The next accepted shift has separate timing/state under existing coverage rules. Declining follows normal finish. Quest/reward/loan-finalization implementation remains deferred. Source: CHARITY-COVERAGE-DESIGN.md. No runtime or publication added.
