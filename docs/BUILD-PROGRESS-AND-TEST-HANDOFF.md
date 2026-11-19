@@ -1,6 +1,6 @@
-## v1.0.118 footwear narration grounding — release candidate
+## v1.0.118 footwear narration grounding — published and verified
 
-Frozen recovery receipts, single-player consciousness, actual placement facts and bounded correction protect footwear narration from the three owner-reported contradictions. Mechanics unchanged. See NARRATION-GROUNDING-CORRECTIONS.md and V1.0.118-OWNER-ACCEPTANCE.md. Final verification underway; no owner input pending.
+Frozen recovery receipts, single-player consciousness, actual placement facts and bounded correction protect footwear narration from the three owner-reported contradictions. Mechanics unchanged. See NARRATION-GROUNDING-CORRECTIONS.md and V1.0.118-OWNER-ACCEPTANCE.md. Published v1.0.118 verified: 1,415 automated cases across 86 suites; 333 local and 333 live browser checks passed. All 178 public files match runtime commit 89e39abcd601861e0a2512d29aec5eee7de82f56. Pages deployment 44444959042 succeeded. Synthetic saves and mocked AI only; no owner saves or paid provider calls used. No owner input pending.
 
 ## v1.0.117 physical room headers and acknowledgment — published and verified
 

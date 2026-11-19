@@ -1,0 +1,119 @@
+{
+  "version": "1.0.118",
+  "origin": "https://uderiel.github.io/Epi-Center",
+  "checks": [
+    {
+      "name": "permanent-binding banner is absent from the top of the page",
+      "passed": true
+    },
+    {
+      "name": "object-body dock shows the approved current apartment room image",
+      "passed": true
+    },
+    {
+      "name": "washing physically removes flats and ends worn disadvantage",
+      "passed": true
+    },
+    {
+      "name": "Saturday21:30sleep removes flats and grants roll advantage without granting reversion",
+      "passed": true
+    },
+    {
+      "name": "sleeping wearer bedroom appears in the header while the removed player stays in the closet",
+      "passed": true
+    },
+    {
+      "name": "sleeping wearer bedroom illustration is separately labeled and loads",
+      "passed": true
+    },
+    {
+      "name": "all four character households resolve every actual room in the shared header context",
+      "passed": true
+    },
+    {
+      "name": "extended active wear records modest toe moisture and stronger scent in evening light",
+      "passed": true
+    },
+    {
+      "name": "AI sensory validation rejects afternoon light in an evening snapshot",
+      "passed": true
+    },
+    {
+      "name": "AI-off routine chatter does not request a generation",
+      "passed": true
+    },
+    {
+      "name": "active AI hides premade footwear prose while its mock backend response is pending",
+      "passed": true
+    },
+    {
+      "name": "AI completion displays generated footwear prose without a premade duplicate",
+      "passed": true
+    },
+    {
+      "name": "automatic surroundings updates request AI narration rather than premade feed prose",
+      "passed": true
+    },
+    {
+      "name": "unavailable AI restores the saved narrative fallback",
+      "passed": true
+    },
+    {
+      "name": "yoga removes the flats and gives removed-form roll advantage",
+      "passed": true
+    },
+    {
+      "name": "relaxing in worn flats uses a normal roll without automatic disadvantage",
+      "passed": true
+    },
+    {
+      "name": "actual resting weight restores disadvantage even while seated",
+      "passed": true
+    },
+    {
+      "name": "quiet home leisure removes the flats",
+      "passed": true
+    },
+    {
+      "name": "last-three action is blocked by a red live-feed acknowledgment before any spending or roll",
+      "passed": true
+    },
+    {
+      "name": "unacknowledged warning survives reload without spending Resolve",
+      "passed": true
+    },
+    {
+      "name": "acknowledgment alone spends no Resolve and does not commit the action",
+      "passed": true
+    },
+    {
+      "name": "last-three Resolve resistance binds permanently instead of granting simultaneous mastery",
+      "passed": true
+    },
+    {
+      "name": "binding survives reload with resistance and recovery controls disabled",
+      "passed": true
+    },
+    {
+      "name": "direct recovery cannot bypass permanent binding",
+      "passed": true
+    },
+    {
+      "name": "reversion cannot bypass permanent binding",
+      "passed": true
+    },
+    {
+      "name": "phone dock remains within viewport and unrelated belongings stay intact",
+      "passed": true
+    },
+    {
+      "name": "phone acknowledgment button is reachable and still does not spend Resolve",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}
