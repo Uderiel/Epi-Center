@@ -1,3 +1,7 @@
+## Alia / Tits familiarity confirmed — deferred design dependency
+
+Owner confirms Alia already knows Tits’s needs. This is recorded in DAILY-NEEDS-DESIGN.md and BURKES-SWEETS-DESIGN.md for the future Daily Needs design pass, including the existing fatigue-restorative context. Detailed service arrangements remain deferred; no gameplay change or publication.
+
 ## Going Out of Business — owner-corrected connections
 
 Owner explicitly adds A↔D (sales floor to register) and removes B↔C (alterations to supplies). Current graph: exterior↔A, A↔B, A↔D, D↔C, C↔E by stairs. This resolves the previously flagged checkout circulation issue and supersedes the original drawing on those edges. GOING-OUT-OF-BUSINESS-DESIGN.md is reconciled; no runtime navigation or publication change.

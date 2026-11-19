@@ -157,3 +157,7 @@ The earlier schematic adjacency list A↔B↔D↔C is insufficient by itself to 
 ## Daily Needs source dependency updated
 
 The owner has now supplied Daily Needs’ schematic; see DAILY-NEEDS-DESIGN.md. It explicitly includes fatigue/hunger/bladder restoratives. Tits’s approved purchase/use behavior remains linked to future real stock/payment/effect implementation, with no invented numerical effect or completed errand claimed.
+
+## Owner clarification — Alia knows Tits’s needs
+
+Alia is well aware of Tits’s needs, including the established Daily Needs fatigue-recovery dependency. Preserve this existing familiarity when designing Alia, Tits’s visits and the shop’s service dialogue. The owner explicitly defers the detailed arrangement to the Daily Needs design pass; no particular product selection, quantities, prices, discounts, credit, free supplies or automatic transaction is established by this clarification.

@@ -78,3 +78,7 @@ Use the shared location/navigation/object/ownership/access contracts and twelve-
 Required design gaps before a complete playable slice: staffing/“mostly” exceptions; public B access versus restricted stairs; door permissions and safe exit; exact product definitions/prices/effects/stock; waste/disposal behavior; water refill ownership; deliveries and shift/hiring service details. AI packets must include only the actual permitted room, visible actors and authorized product/service facts. Public store narration must not expose F’s notes, parasite facts or unseen locked cells. Hidden data requires separate controller-authorized discovery rather than dumping this document into a public dossier.
 
 Keep quest and basement mechanics deferred until separately designed. The first ordinary retail slice can use shared baskets, checkout, owned items and actual need restoratives without enabling research/confinement systems. Source capture alone is not gameplay completion or public publication.
+
+## Owner clarification — Alia knows Tits’s needs
+
+Alia is well aware of Tits’s needs, including the established Daily Needs fatigue-recovery dependency. Preserve this existing familiarity when designing Alia, Tits’s visits and the shop’s service dialogue. The owner explicitly defers the detailed arrangement to the Daily Needs design pass; no particular product selection, quantities, prices, discounts, credit, free supplies or automatic transaction is established by this clarification.
