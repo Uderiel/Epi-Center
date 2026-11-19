@@ -1,3 +1,7 @@
+## v1.0.116 AI-first narrative and pressure-based footwear rolls — release candidate
+
+Owner superseded115’s removed-but-not-alone normal-roll rule: removed flats now always receive advantage; release still requires solitude. Worn relaxed/unloaded contact is normal; walking/resting weight is disadvantage. Yoga and home leisure remove the flats. AI handles narrative updates when enabled/connected, with composing indicators and generated prose only; premade narrative is unavailable/off fallback, mechanical receipts remain authoritative. See AI-NARRATIVE-AND-FOOTWEAR-PRESSURE.md and V1.0.116-OWNER-ACCEPTANCE.md. Final verification underway; no owner input pending.
+
 ## v1.0.115 Resolve binding and footwear corrections — published and verified
 
 Owner requested permanent zero-Resolve binding for unmastered forms and reported Priya bathing/sleeping while still wearing the trapped player, missing room art and contradictory AI sensory/social text. Implemented saved irreversible binding, guarded existing release/equip/mastery paths, actual routine removal, object-dock art, neutral wear history, lighting validation and authored routine chatter while hidden. See RESOLVE-BINDING-AND-FOOTWEAR-CORRECTIONS.md and V1.0.115-OWNER-ACCEPTANCE.md. Published v1.0.115 verified: 1,393 automated cases across 84 suites; 308 local and 308 live browser checks passed. All 176 public files match runtime commit 9aa6d0d604f08a3faf834760d80f7b7902632a2e. Pages deployment 44438265894 succeeded. Tests used isolated synthetic saves and no paid AI. No owner input pending.

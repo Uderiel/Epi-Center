@@ -1,3 +1,5 @@
+> v1.0.116 supersedes the footwear dice/narration details below: removed flats receive advantage even when others are present; worn unloaded relaxation is normal, and walking/resting weight is disadvantage. Solitude remains a reversion requirement. Active AI supplies narrative prose; authored prose is fallback. See AI-NARRATIVE-AND-FOOTWEAR-PRESSURE.md.
+
 # Resolve binding and footwear routine corrections
 
 Owner report: zero Resolve before mastery must permanently bind the active form; Priya retained flats while bathing/sleeping, room art was absent from the object dock, and AI narration invented a greeting/book and afternoon light during evening.
