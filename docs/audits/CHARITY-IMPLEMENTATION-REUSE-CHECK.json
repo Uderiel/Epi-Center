@@ -1,0 +1,74 @@
+{
+  "scope": "Existing-system cross-check; no game changes",
+  "suites": 10,
+  "cases": 171,
+  "results": [
+    {
+      "file": "rebuild/hub/served-items.test.js",
+      "passed": true,
+      "cases": 6,
+      "failure": null
+    },
+    {
+      "file": "rebuild/hub/priya-household.test.js",
+      "passed": true,
+      "cases": 18,
+      "failure": null
+    },
+    {
+      "file": "rebuild/hub/nadia-household.test.js",
+      "passed": true,
+      "cases": 12,
+      "failure": null
+    },
+    {
+      "file": "rebuild/hub/erin-life.test.js",
+      "passed": true,
+      "cases": 41,
+      "failure": null
+    },
+    {
+      "file": "rebuild/hub/cursed-household-flow.test.js",
+      "passed": true,
+      "cases": 22,
+      "failure": null
+    },
+    {
+      "file": "rebuild/hub/needs-consequences.test.js",
+      "passed": true,
+      "cases": 19,
+      "failure": null
+    },
+    {
+      "file": "rebuild/hub/relationships.test.js",
+      "passed": true,
+      "cases": 22,
+      "failure": null
+    },
+    {
+      "file": "rebuild/hub/charity.test.js",
+      "passed": true,
+      "cases": 10,
+      "failure": null
+    },
+    {
+      "file": "rebuild/hub/charity-access.test.js",
+      "passed": true,
+      "cases": 12,
+      "failure": null
+    },
+    {
+      "file": "rebuild/hub/business-availability.test.js",
+      "passed": true,
+      "cases": 9,
+      "failure": null
+    }
+  ],
+  "notRun": [
+    "No paid provider generation",
+    "No owner save",
+    "No new browser/full-suite run",
+    "No offline multiplayer or deferred quest execution",
+    "No live deployment"
+  ]
+}

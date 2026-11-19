@@ -1,3 +1,7 @@
+## Follow-up reuse check — avoid rebuilding existing systems
+
+See CHARITY-IMPLEMENTATION-REUSE-CHECK.md and audits/CHARITY-IMPLEMENTATION-REUSE-CHECK.json. Household item/serving/needs infrastructure, job scheduling, directed memory and once-only office-pay patterns already exist. Remaining Charity work is primarily her own source/owner/room/controller integration. Actual offline multiplayer staffing/payroll remains missing shared infrastructure. Ten focused suites/171cases passed in this check; no new game logic, paid model, owner save or browser/deployment action.
+
 # Charity — current twelve-section template gap review
 
 ## Outcome and authority
