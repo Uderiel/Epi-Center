@@ -1,3 +1,5 @@
+> Owner rule update, v1.0.115: reaching zero Resolve while occupying an unmastered form permanently binds that form. This supersedes older zero-Resolve desperate-resistance/recovery/escape guidance below. Spending the last 3 Resolve also triggers binding before mastery is awarded. Base humans and already-mastered forms are exempt; later Resolve recovery does not undo binding. See [current rule and corrections](RESOLVE-BINDING-AND-FOOTWEAR-CORRECTIONS.md).
+
 ## v1.0.105 implementation update
 
 The approved first cat/daily-life package is implemented; see [current implementation and limits](PRIYA-CAT-IMPLEMENTATION.md) and [acceptance checklist](V1.0.105-OWNER-ACCEPTANCE.md). Earlier draft/deferred statements below describe previous checkpoints. Publication evidence belongs in CURRENT-STATUS.md.

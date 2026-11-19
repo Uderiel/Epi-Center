@@ -1,3 +1,5 @@
+> Owner rule update, v1.0.115: reaching zero Resolve while occupying an unmastered form permanently binds that form. This supersedes older zero-Resolve desperate-resistance/recovery/escape guidance below. Spending the last 3 Resolve also triggers binding before mastery is awarded. Base humans and already-mastered forms are exempt; later Resolve recovery does not undo binding. See [current rule and corrections](RESOLVE-BINDING-AND-FOOTWEAR-CORRECTIONS.md).
+
 ## v1.0.53 — publication verified; ready for owner acceptance
 
 [Play v1.0.53](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.53). Final gameplay commit `d482c119ac658a1f0091302945079295b2d08cb5` is on main and rebuild/1.0-foundations. [Pages run 41713854449](https://github.com/Uderiel/Epi-Center/actions/runs/41713854449) succeeded; all 33 checked deployed entrypoints/modules/styles match tested source. The live title screen reports v1.0.53. [Live verification](releases/v1.0.53-live-verification.json).

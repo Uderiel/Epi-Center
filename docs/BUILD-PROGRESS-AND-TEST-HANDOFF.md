@@ -1,6 +1,6 @@
-## v1.0.115 Resolve binding and footwear corrections — release candidate
+## v1.0.115 Resolve binding and footwear corrections — published and verified
 
-Owner requested permanent zero-Resolve binding for unmastered forms and reported Priya bathing/sleeping while still wearing the trapped player, missing room art and contradictory AI sensory/social text. Implemented saved irreversible binding, guarded existing release/equip/mastery paths, actual routine removal, object-dock art, neutral wear history, lighting validation and authored routine chatter while hidden. See RESOLVE-BINDING-AND-FOOTWEAR-CORRECTIONS.md and V1.0.115-OWNER-ACCEPTANCE.md. Final validation underway; no owner input pending.
+Owner requested permanent zero-Resolve binding for unmastered forms and reported Priya bathing/sleeping while still wearing the trapped player, missing room art and contradictory AI sensory/social text. Implemented saved irreversible binding, guarded existing release/equip/mastery paths, actual routine removal, object-dock art, neutral wear history, lighting validation and authored routine chatter while hidden. See RESOLVE-BINDING-AND-FOOTWEAR-CORRECTIONS.md and V1.0.115-OWNER-ACCEPTANCE.md. Published v1.0.115 verified: 1,393 automated cases across 84 suites; 308 local and 308 live browser checks passed. All 176 public files match runtime commit 9aa6d0d604f08a3faf834760d80f7b7902632a2e. Pages deployment 44438265894 succeeded. Tests used isolated synthetic saves and no paid AI. No owner input pending.
 
 ## v1.0.114 expanded map published and verified
 

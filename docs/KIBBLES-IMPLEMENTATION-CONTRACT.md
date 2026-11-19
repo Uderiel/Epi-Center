@@ -1,3 +1,5 @@
+> Owner rule update, v1.0.115: reaching zero Resolve while occupying an unmastered form permanently binds that form. This supersedes older zero-Resolve desperate-resistance/recovery/escape guidance below. Spending the last 3 Resolve also triggers binding before mastery is awarded. Base humans and already-mastered forms are exempt; later Resolve recovery does not undo binding. See [current rule and corrections](RESOLVE-BINDING-AND-FOOTWEAR-CORRECTIONS.md).
+
 # v1.0.52 form-mind implementation contract
 
 The owner answers in KIBBLES-BEHAVIOR-DESIGN and newest approved headings in COMBAT-FOUNDATIONS-GUIDE remain authoritative. This document distinguishes implemented behavior from explicit engineering defaults and future world content. Owner acceptance is pending.

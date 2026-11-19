@@ -1,3 +1,5 @@
+> Owner rule update, v1.0.115: reaching zero Resolve while occupying an unmastered form permanently binds that form. This supersedes older zero-Resolve desperate-resistance/recovery/escape guidance below. Spending the last 3 Resolve also triggers binding before mastery is awarded. Base humans and already-mastered forms are exempt; later Resolve recovery does not undo binding. See [current rule and corrections](RESOLVE-BINDING-AND-FOOTWEAR-CORRECTIONS.md).
+
 # Epi-Center — Player Attribute System (Owner Proposal, 2026-10-26)
 
 **Status:** Owner-proposed foundational mechanics; **not implemented or accepted as gameplay**. Priority moved ahead of UI reference drawers after v0.8.82 visibly displayed new toolbar. Do not modify accepted save key, original profile, or active form mechanics until migration and tests are designed.
