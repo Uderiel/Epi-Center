@@ -1,3 +1,7 @@
+## v1.0.125 — publication in progress
+
+Owner authorized publishing the verified shop staffing/entry checks and shared relationship changes. Tits is bound to Burke’s counter; closed or unstaffed shops refuse public entry while preserving exits. Shared relationship persistence and templates are included. GitHub Pages publication does not deploy Cloudflare: the updated Worker remains pending, and the client uses authored fallbacks until its required context/relationship version is available. No real-model acceptance is claimed.
+
 ## Universal relationship consolidation — local candidate
 
 Owner requires a single per-player/per-entity signed bar, explicit tier meanings and tailored positive/negative triggers. See [current contract](DIRECTED-RELATIONSHIP-SYSTEM.md). This supersedes earlier separate social/cooperative-trust wording. Shared schema migration, native/future-form binding, ordinary Stats bars, scoped social memory/history and Dev targeting are implemented locally; exact verification is recorded separately. The latest prepared Worker requires `relationshipVersion: directed-pair-v2`; the earlier code pasted in chat is superseded. No public deployment or real-model acceptance claimed; owner deployment remains paused while driving/working.

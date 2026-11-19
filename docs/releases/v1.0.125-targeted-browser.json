@@ -1,0 +1,40 @@
+{
+  "version": "1.0.125",
+  "scope": "Actual UI/controllers, synthetic saves, no paid AI requests",
+  "reports": {
+    "charity-availability": {
+      "scope": "Local isolated browser; AI intercepted, no provider request.",
+      "checks": [
+        "19:15 with absent employee refuses entry and displays an explicit message",
+        "19:15 staffed shop opens and Tits appears as an actual counter recipient",
+        "ordinary Tits dialogue produces a real feed response without spending gold",
+        "closed and unstaffed shop still permits existing visitor exit",
+        "20:00 closing boundary blocks entry even with the employee present",
+        "Cherished Touch uses the same explicit closure guard",
+        "repeat Charity conversation answers the actual fitting question",
+        "actual Charity AI packet includes established identity and live service context",
+        "public Charity AI packet contains no protected lore or private owner identity",
+        "no browser script errors"
+      ],
+      "errors": []
+    },
+    "relationship-isolation": {
+      "scope": "Synthetic saves, actual UI/controllers, no provider requests.",
+      "checks": [
+        "ordinary Stats drawer contains separate signed NPC form and entity bars",
+        "relationship meters expose the full minus100 to plus100 range",
+        "Alice values survive full browser reload and remain distinct across entity types",
+        "Bob has independent NPC and form scores without inheriting Alice affinity",
+        "Bob signed values survive reload",
+        "switching back restores Alice exact scores and the Erin compatibility alias has one value",
+        "relationship changes do not heal resources alter possessions or revoke mastery",
+        "actual spoken positive and negative interactions update only the current player target once",
+        "reload cannot replay the same social reward and private thoughts cannot penalize an NPC",
+        "tier meanings distinguish friend distrust and close confidant",
+        "new registered actors use stable IDs without duplicate name rows or exposing a remote namesake",
+        "no browser script errors"
+      ],
+      "errors": []
+    }
+  }
+}
