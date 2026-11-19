@@ -26,9 +26,10 @@ function validateDialogue(text,actor,history=[]){const t=String(text||''),issues
  if(tokens.size>=18)for(const h of history.filter(x=>x.role==='assistant')){const prev=new Set(words(h.content));if(prev.size<18)continue;const common=[...tokens].filter(x=>prev.has(x)).length;if(common/Math.max(tokens.size,prev.size)>=.78){issues.push('This repeats a previous reply. Answer the current question and continue the actual conversation without restarting.');break;}}
  return issues;
 }
+function validateCanine(text,identity){if(!identity?.savedName)return [];const t=String(text||''),issues=[];if(t.toLowerCase().includes(identity.savedName.toLowerCase())&&/\b(?:no recognition|name.{0,40}(?:unknown|unfamiliar|unrecognized)|doesn['’]t (?:understand|know) who|does not (?:understand|know) who)\b/i.test(t))issues.push('Recognize the saved form name '+identity.savedName+'; do not invent identity confusion.');if(/\b(?:distorted and unclear|struggles to reconcile|taking charge means|scent-marking routine isn['’]t relevant)\b/i.test(t))issues.push('Respond briefly to the actual private intention using recorded identity and authority, without invented confusion or unrelated routines.');return issues;}
 function validateRoom(text,record){const t=String(text||''),known=String(record||'').toLowerCase(),issues=[];
  // Concrete unsupported fixtures repeatedly observed in owner reports.
  for(const prop of ['gauzy curtains','textbooks','coffee cups','mailboxes','potted plant','overturned cushions','snack bags','vanilla air freshener','security guard','third-floor','apartment 407','new marketing associate','lavender sachet','cedar'])if(t.toLowerCase().includes(prop)&&!known.includes(prop))issues.push('Unrecorded scene detail: '+prop+'. Use only the recorded room and event.');
  return issues;
 }
-return Object.freeze({RULES,validate,validateDialogue,validateRoom});});
+return Object.freeze({RULES,validate,validateDialogue,validateCanine,validateRoom});});

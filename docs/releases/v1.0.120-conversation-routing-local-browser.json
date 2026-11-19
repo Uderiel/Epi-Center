@@ -1,0 +1,68 @@
+{
+  "version": "1.0.120",
+  "origin": "http://127.0.0.1:8767",
+  "checks": [
+    {
+      "name": "actual spoken date request carries Layla and Priya with no fallback script",
+      "passed": true
+    },
+    {
+      "name": "direct response is displayed and saved as player conversation",
+      "passed": true
+    },
+    {
+      "name": "ambient conversation receives its own history without date leakage",
+      "passed": true
+    },
+    {
+      "name": "Nadia speaking as Priya is withheld and corrected",
+      "passed": true
+    },
+    {
+      "name": "follow-up keeps previous personal reply and excludes ambient copy",
+      "passed": true
+    },
+    {
+      "name": "repeated work greeting triggers one correction instead of replacing the current answer",
+      "passed": true
+    },
+    {
+      "name": "reload preserves scoped personal continuity and possessions",
+      "passed": true
+    },
+    {
+      "name": "real feed entry without footwear metadata is grounded before request",
+      "passed": true
+    },
+    {
+      "name": "invented footwear objects are blocked on the real feed path",
+      "passed": true
+    },
+    {
+      "name": "corrected grounded narration remains available",
+      "passed": true
+    },
+    {
+      "name": "saved Bella identity and female profile reach actual private form packet",
+      "passed": true
+    },
+    {
+      "name": "saved-name denial is withheld for correction",
+      "passed": true
+    },
+    {
+      "name": "grounded canine reply leaves mastery and player identity unchanged",
+      "passed": true
+    },
+    {
+      "name": "reload retains Bella identity and the corrected reply",
+      "passed": true
+    },
+    {
+      "name": "browser reports no script errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "scope": "Synthetic save and mocked responses; actual runtime socialSpeak and feedEntry paths."
+}
