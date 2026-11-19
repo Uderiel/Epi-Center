@@ -1,3 +1,7 @@
+## Latest owner-supplied sheets — November 19, 2026
+
+Newly supplied: [Going Out of Business](GOING-OUT-OF-BUSINESS-DESIGN.md), reference69 (two photos of the same sheet), and [Groceries Aplenty](GROCERIES-APLENTY-DESIGN.md), reference99. Layout/staff/service/catalogue/quest transcription is preserved with ambiguities flagged. These are design records only, not new playable interiors or registered staff. Originals remain in chat; no local image-file copy claimed. Daily Needs and Zen Shop and Spa still have no dedicated schematic in the checked records.
+
 ## Applewood suite architecture confirmed
 
 [Shared suite contract](APPLEWOOD-SUITE-DESIGN.md): larger rooms/floor area/storage, extra guest bedroom between entry hall and master bedroom, guest bathroom nearest kitchen, attached master bathroom, better city views and a balcony for sitting outside. Richard7A is confirmed; do not infer other units' suite status from decor. Design only, room implementation pending.

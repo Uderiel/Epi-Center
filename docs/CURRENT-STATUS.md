@@ -1,3 +1,7 @@
+## New location sheets recorded — design only
+
+Owner supplied two views of Going Out of Business and one Groceries Aplenty sheet. See GOING-OUT-OF-BUSINESS-DESIGN.md and GROCERIES-APLENTY-DESIGN.md. Ground/sublevel graphs, staff readings, hours, services, grocery aisle catalogue and quest concepts are transcribed, with unclear names, point-type discrepancy, checkout access and door topology flagged. No NPCs/services/quests are activated and no new release is published. These supersede the previous “last supplied individual location was Burke’s” answer.
+
 ## Owner naming correction and Zen layout record check
 
 The coffee shop at reference218 is **Emergency Bean**, not Emergency Barn. Canonical map data and expanded-map notes are corrected; legacy location/visited/examined/discovered names migrate through the existing normalizer. Zen Shop and Spa remains mapped at reference68, coordinates(-2,-1); no dedicated schematic, room graph or supplied floor-plan asset was found in the current build records. Do not treat its exterior map placement as a completed interior design. This correction is saved on development, not a new published release.
