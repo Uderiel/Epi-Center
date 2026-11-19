@@ -1,0 +1,26 @@
+{
+  "scope": "Universal ten-point base cap; unpublished development change",
+  "automated": {
+    "suites": 90,
+    "cases": 1492,
+    "failures": []
+  },
+  "browser": {
+    "checks": {
+      "base": 10,
+      "effective": 11,
+      "combat": 11,
+      "npc": 10,
+      "unchanged": true
+    },
+    "errors": [],
+    "scope": "Synthetic isolated save; no provider calls"
+  },
+  "limitations": [
+    "Rarity budgets and Charity numeric allocation remain provisional.",
+    "Existing authored runtime profiles already fall within zero through ten; no blanket halving applied.",
+    "Legacy player active-encounter snapshots retain effective scores because historical gear/base split is unavailable; new encounters use explicit capped base and separate bonuses.",
+    "Legacy NPC/form combat over-cap values are capped with original values archived; resources, conditions and relationships are preserved.",
+    "No publication, provider calls, owner-save testing or deferred mask quest implementation."
+  ]
+}

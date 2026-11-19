@@ -2,7 +2,7 @@
 (function(root,factory){const n=typeof module==='object'&&module.exports;const api=factory(n?require('./engine'):root.EpiCombat,n?require('./play-encounter'):root.EpiPlayEncounter);if(n)module.exports=api;else root.EpiCivilianEncounter=api;})(globalThis,function(E,P){
 'use strict';
 const copy=x=>JSON.parse(JSON.stringify(x));
-function bind(s){s.engine.rng=()=>{s.seed=(1664525*s.seed+1013904223)>>>0;return s.seed/4294967296;};return s;}
+function bind(s){for(const unit of s.engine.units)E.enforceBaseCap(unit);s.engine.rng=()=>{s.seed=(1664525*s.seed+1013904223)>>>0;return s.seed/4294967296;};return s;}
 function units(s){return {p:s.engine.units.find(x=>x.id==='player'),e:s.engine.units.find(x=>x.id===s.opponentId)};}
 function disciplineOptions(s){if(s.playerForm==='kibbles'||s.playerBodyType==='feline')return ['physical'];const a=units(s).p.attributes,scores=E.specialization(a).scores,peak=Math.max(...Object.values(scores)),keys=Object.keys(scores).filter(k=>scores[k]===peak),off={physical:a.Fitness,mental:a.Reasoning,arousal:a.Influence},best=Math.max(...keys.map(k=>off[k]));return keys.filter(k=>off[k]===best);}
 function discipline(s){const o=disciplineOptions(s);return o.length===1?o[0]:o.includes(s.disciplineChoice)?s.disciplineChoice:null;}
