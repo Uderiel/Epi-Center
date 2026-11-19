@@ -1,8 +1,12 @@
-## Ten-minute duration approved; exact descending order proposed
+## Owner approval checkpoint
+
+Owner approves the ten-minute,25-stage body-part sequence recorded below. Do not re-ask its duration or order. Next unresolved design: clothing/custody/private changing, followed by mask control, removal and reversion. No runtime implementation or publication is claimed.
+
+## Ten-minute duration and 25-stage descending order approved
 
 Owner explicitly selects **ten in-game minutes total**, replacing the assistant’s unapproved three-minute suggestion. The purpose is to allow reading the separately narrated physical changes. Preserve individual body-part progression rather than one whole-body flash or a summary that skips intermediate changes. The clock remains actual game time; stages/history/body presentation must persist across reload.
 
-The following **25-stage order is a draft for the owner’s requested review**, not a final approved stage script or implemented controller:
+The owner explicitly approves the following **25-stage descending order** (“That works”). The order and ten-minute total are approved; detailed individual stage prose, timing distribution and the actual controller remain unimplemented.
 
 1. Facial structure: jaw, cheeks, nose and lips; Charity’s mid-thirties appearance.
 2. Scalp and hair: her wavy orangish-red hair.
@@ -46,7 +50,7 @@ The mask transforms the wearer **gradually over ten in-game minutes**, using the
 
 Preserve the original player identity and actual inventory/resources through the existing transformation contracts, record completed changes in order, and save partial progress so reloads do not restart/skip the process. Coverage starts only after the transformation is complete and the player is ready at the counter. The real Charity still exists separately: this is her temporary twin, not teleportation or replacement of her actual NPC.
 
-**Superseded proposal:** three game minutes was not approved; the owner subsequently selected ten. The earlier broad phase sketch was with visible descending phases for face/hair, voice/neck, shoulders/upper torso/arms/hands, waist/hips/lower torso, then legs/feet and final proportions. Exact duration, individual stage text, timing distribution, clothing handling and mask-removal/reversion details remain to resolve. No new runtime transformation is claimed by this source update.
+**Superseded proposal:** three game minutes was not approved; the owner subsequently selected ten. The earlier broad phase sketch used visible descending phases for face/hair, voice/neck, shoulders/upper torso/arms/hands, waist/hips/lower torso, then legs/feet and final proportions. Exact duration, individual stage text, timing distribution, clothing handling and mask-removal/reversion details remain to resolve. No new runtime transformation is claimed by this source update.
 
 # Charity mask coverage — current owner decisions
 

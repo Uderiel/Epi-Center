@@ -1,3 +1,7 @@
+## Charity mask 25-stage sequence approved
+
+Owner accepts the exact descending25-stage sequence and10game-minute duration in CHARITY-COVERAGE-DESIGN.md. These are settled design decisions, not an implemented mask. Next design checkpoint is clothing/custody/private changing before the counter handover; then mask control/removal/reversion. Preserve75eligibility and6–7hour actual coverage after readiness.
+
 ## Charity mask duration approved at ten game minutes
 
 Owner selects10in-game minutes to allow reading individual body-part changes. CHARITY-COVERAGE-DESIGN.md contains the requested proposed25-stage descending order, starting face/hair and ending feet/toes plus final skin/scent/proportions. Exact order/text is a draft pending review;10minutes is approved. Erin’s own23stage ordering/timing remains unchanged. No mask runtime or public release claimed.
