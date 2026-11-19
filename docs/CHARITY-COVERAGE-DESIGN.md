@@ -1,3 +1,7 @@
+## Chaining reaffirmed; remaining settlement/cap choices
+
+Owner explicitly reiterates that the second shift chains. Do not ask again whether chaining is permitted or force reversion. Source review finds that per-completion reward amounts are already set, but immediate settlement/counting at an intermediate chained handover and any maximum number of consecutive accepted shifts have not been finalized. Propose those specifics rather than re-asking shift duration or reward amounts. Existing needs/resources persist, and no arbitrary ability thresholds are approved.
+
 ## Owner addition — voluntary consecutive coverage without reversion
 
 At the actual end-of-shift handover point, the player may **volunteer to cover another six-hour shift if able**. **Charity may also offer/ask whether they would like to continue.** Acceptance must be explicit and voluntary; declining is a normal finish, not misconduct or automatic relationship loss.

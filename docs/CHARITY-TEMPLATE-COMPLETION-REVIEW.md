@@ -1,3 +1,11 @@
+## Owner-approved baseline and favorite treat
+
+Owner approves **one week of backup food/care supplies and two distinct owned work outfits**. Exact unpresented row quantities, prices and per-use amounts remain proposals; this approval does not create new runtime inventory or unlimited money.
+
+She always aims to keep **one half-gallon tub of mint chocolate chip ice cream** as personal household stock. It is her favorite treat and something she particularly looks forward to when she has time off while someone covers the shop. Include suitable freezer storage in the kitchen/fridge arrangement rather than leaving it on a shelf or inventing another room. Track real consumption; the container is not magically bottomless or refilled by a dialogue/render. Do not assume exact serving size, special stat/mood bonus, sharing policy or extra delivery frequency. Ordinary approved household replenishment must maintain the stock target through actual goods/payment records.
+
+This preference is now in Charity’s canonical definition, AI dossier and ordinary food dialogue; actual pantry/freezer consumption and replenishment still require the household controller.
+
 ## Current household review checkpoint
 
 See CHARITY-MORNING-CARE-DRAFT.md for the concrete covered-rest shower/dressing/breakfast draft. It preserves approved rules and flags the actual clothing dependency: the player is wearing Charity’s loaned outfit, so a different owned clean spare is proposed for her return. No exact new timing is treated as approved yet.

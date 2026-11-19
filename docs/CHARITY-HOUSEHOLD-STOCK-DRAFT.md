@@ -1,3 +1,11 @@
+## Owner-approved baseline and favorite treat
+
+Owner approves **one week of backup food/care supplies and two distinct owned work outfits**. Exact unpresented row quantities, prices and per-use amounts remain proposals; this approval does not create new runtime inventory or unlimited money.
+
+She always aims to keep **one half-gallon tub of mint chocolate chip ice cream** as personal household stock. It is her favorite treat and something she particularly looks forward to when she has time off while someone covers the shop. Include suitable freezer storage in the kitchen/fridge arrangement rather than leaving it on a shelf or inventing another room. Track real consumption; the container is not magically bottomless or refilled by a dialogue/render. Do not assume exact serving size, special stat/mood bonus, sharing policy or extra delivery frequency. Ordinary approved household replenishment must maintain the stock target through actual goods/payment records.
+
+This preference is now in Charity’s canonical definition, AI dossier and ordinary food dialogue; actual pantry/freezer consumption and replenishment still require the household controller.
+
 # Charity household starting stock — proposal for review
 
 ## Existing decisions checked
@@ -6,12 +14,13 @@ Approved menu: toast/eggs or oatmeal/tea; sandwich/fruit; reheatable soup or chi
 
 The approved morning sequence and private-room graph are retained. Existing player-clothing and household adapters track physical items, conditions, hampers, washing and collection; use those contracts for Charity’s own actor rather than inventing infinite replacement stock or moving the player when she does a chore. No household controller/start inventory is created by this draft.
 
-## Proposed baseline
+## Approved baseline; row quantities proposed
 
-A **one-week fallback food/care buffer** means community meal visits are welcome help, not a guarantee needed to make the inventory arithmetic work. Delivered meals reduce consumption only when an actual portion is received and eaten/stored. The baseline and quantities below are **proposals, not approved starter grants**.
+A **one-week fallback food/care buffer** means community meal visits are welcome help, not a guarantee needed to make the inventory arithmetic work. Delivered meals reduce consumption only when an actual portion is received and eaten/stored. The one-week baseline and two work outfits are approved; exact numeric allocations below remain **proposals, not approved starter grants**.
 
-| Food | Proposed target | Purpose |
+| Food | Proposed target unless marked approved | Purpose |
 | --- | --- | --- |
+| Mint chocolate chip ice cream | **One half-gallon tub, approved** | Her favorite personal time-off treat; actual finite contents |
 | Bread | One20slice loaf | Three toast breakfasts plus seven two-slice sandwiches |
 | Eggs | Six | Three quick two-egg breakfasts |
 | Oatmeal | Four portions | Other four breakfasts |

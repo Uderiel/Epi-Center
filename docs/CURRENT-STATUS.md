@@ -1,3 +1,7 @@
+## Charity stock baseline / mint chocolate chip preference approved
+
+Owner approves one-week backup food/care stock and two distinct work outfits; adds one half-gallon mint chocolate chip ice cream, her favorite anticipated treat during covered time off. Preference is connected to canonical profile/dossier/food dialogue without inventing a serving, pantry consumption, stock refill or bonus. Chaining is explicitly reaffirmed; checked existing reward notes before identifying open intermediate settlement/consecutive-limit choices. No publication or completed quest claimed.
+
 ## Next authorized household step drafted — starting stock
 
 After saving voluntary consecutive coverage, prepared CHARITY-HOUSEHOLD-STOCK-DRAFT.md using existing menu, community meals, Monday personal-funded supply and physical wardrobe/laundry contracts. Proposes one-week fallback food/care buffer and two distinct work outfits (loan plus spare), with explicit proposed counts/top-up economics pending actual review. No initial inventory, free money, new public permissions or quest runtime created.
