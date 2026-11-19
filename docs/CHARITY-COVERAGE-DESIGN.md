@@ -281,3 +281,7 @@ Owner now approves10as the base per-attribute cap for players, NPCs and forms. S
 ## Current numeric profile checkpoint — approved rarity rebalance implemented
 
 The owner accepts the revised75-point Charity profile and authorizes rebalancing existing authored NPC/form profiles. Charity.definition.attributes now holds Endurance5,Fitness3,Intuition7,Reflexes5,Willpower10,Reasoning10,Stability10,Presence10,Insight10,Influence5. This supersedes older statements that her numeric profile or rarity budgets remain unapproved. Her mask still conserves each player’s original total; none of this implements the deferred bleed/coverage quest.
+
+## Approved attribute-selection and player-awareness requirement
+
+Owner approves `CHARITY-ATTRIBUTE-TRANSFER-DRAFT.md`: highest eligible non-core-mental donor to lowest eligible Willpower/Reasoning/Stability/Insight recipient, fixed documented tie order, floor0/cap10, same total, no banking or duplicate ticks. Each actual transfer must clearly tell the player which base attribute lost a point, which gained it and the before/after values; Stats/history reflect the same saved result. This supersedes prior pending selection notes. Quest/controller implementation remains deferred.
