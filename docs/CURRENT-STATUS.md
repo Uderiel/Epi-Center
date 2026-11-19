@@ -1,3 +1,7 @@
+## Charity mask progression confirmed — design
+
+Owner requires a few-game-minute staged transformation like Erin’s heels, but face/hair first and downward through the body because the item is a mask. See CHARITY-COVERAGE-DESIGN.md. Three total minutes and a descending phase breakdown are a review proposal, not an approved timing rule. Original identity/state and partial progress must persist; the coverage clock starts after actual completion/counter readiness. No runtime or release change.
+
 ## Latest owner coverage revision — supersedes +90 / fixed-six-hour notes
 
 Canonical current rules: CHARITY-COVERAGE-DESIGN.md. **+75 relationship** qualifies for Charity’s actual mask-coverage offer. The coverage clock begins after transformation is complete and the player is ready at the counter. Charity sleeps promptly for roughly five hours, then showers (normal eight-minute shower), dries, dresses, eats a quick breakfast and returns. Owner confirms a **six-hour minimum / seven-hour maximum** with actual handover in that window; being ready earlier does not end the commitment before six hours. Her phase/return timing may vary within the cap, but exact distributions are not yet approved. Mask mechanics remain unresolved. The100relationship/twentieth-challenge hideout gate is unchanged.

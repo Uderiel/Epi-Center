@@ -1,3 +1,11 @@
+## Owner-confirmed mask transformation direction
+
+The mask transforms the wearer **gradually over a few in-game minutes**, using the same kind of staged physical transformation/presentation as Erin’s Cursed Heels. Because it attaches to the face, the sequence **starts with face and hair and proceeds downward through the body**. Do not reuse the heels’ feet-first order or hourly stage pacing. Erin’s current implementation has23authored stages; reuse the staged progression/state/appearance/feed principles without assuming Charity needs exactly23identical steps or Erin’s anatomy, attributes, memories or independent NPC state.
+
+Preserve the original player identity and actual inventory/resources through the existing transformation contracts, record completed changes in order, and save partial progress so reloads do not restart/skip the process. Coverage starts only after the transformation is complete and the player is ready at the counter. The real Charity still exists separately: this is her temporary twin, not teleportation or replacement of her actual NPC.
+
+**Draft for review, not approved:** roughly three game minutes total, with visible descending phases for face/hair, voice/neck, shoulders/upper torso/arms/hands, waist/hips/lower torso, then legs/feet and final proportions. Exact duration, individual stage text, timing distribution, clothing handling and mask-removal/reversion details remain to resolve. No new runtime transformation is claimed by this source update.
+
 # Charity mask coverage — current owner decisions
 
 ## Current authority
