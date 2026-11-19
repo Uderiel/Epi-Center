@@ -1,0 +1,472 @@
+{
+  "scope": "Local synthetic saves only; unpublished; no paid model calls",
+  "focused": [
+    {
+      "file": "rebuild/hub/charity-delivery.test.js",
+      "passed": true,
+      "summary": [
+        "6 Charity delivery cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/charity-household.test.js",
+      "passed": true,
+      "summary": [
+        "21 Charity household cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/cherished-shop.test.js",
+      "passed": true,
+      "summary": [
+        "19 retail cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/enchanted-counter.test.js",
+      "passed": true,
+      "summary": [
+        "19 enchanted counter cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/charity.test.js",
+      "passed": true,
+      "summary": [
+        "10 / 10 Charity cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/charity-access.test.js",
+      "passed": true,
+      "summary": [
+        "12 / 12 Charity access/memory cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/ai-context.test.js",
+      "passed": true,
+      "summary": [
+        "PASS registered NPC and saved form retain long authored dossier and communication details"
+      ]
+    }
+  ],
+  "regression": [
+    {
+      "file": "rebuild/combat/attribute-cap.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/combat/civilian-encounter.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/combat/dice-advantage.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/combat/entity-rules.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/combat/kibbles-ai.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/combat/kibbles-form.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/combat/kibbles-presentation.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/combat/play-encounter.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/combat/rarity-profiles.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/ai-client.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/ai-context.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/apartment-navigation.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/authored-dialogue.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/binding-and-footwear.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/burkes-retail.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/burkes-sweets.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/business-availability.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/canine-conversation.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/canine-expression.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/canine-routines.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/character-conversation.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/charity-access.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/charity-delivery.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/charity-household.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/charity.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/cherished-shop.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/cherished-touch.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/cubicle-layout.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/cursed-household-flow.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/dart.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/department.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/easter-egg.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/enchanted-counter.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/equipment-storage.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/erin-agency.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/erin-daily-office.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/erin-life.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/erin-refinement.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/erin-release.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/erin-restoration.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/erin-shower-products.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/erin-wellbeing.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/expanded-map.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/footwear-senses.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/form-minds.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/form-presence.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/form-reference.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/hangry-fangs.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/high-influence.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/hub-world.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/interaction-state.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/intro-target-appearance.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/kibbles-state-flow.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/live-time.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/location-and-resolve-ack.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/location-details.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/lunch-migration.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/marketing.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/mystery-box.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/nadia-daily.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/nadia-household.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/nadia-integration.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/narration-grounding.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/navigation.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/needs-consequences.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/office-batch-work.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/office-floor.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/office-layers.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/office-workflow.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/owner-corrections.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/priya-cat.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/priya-daily.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/priya-flats.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/priya-home-navigation.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/priya-household.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/priya-media.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/priya-visits.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/priya.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/relationships.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/resistance-needs.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/richard-daily.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/richard-home.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/richard-office.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/richard-report-ui.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/richard.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/roleplay-footwear.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/served-items.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/shared-activities.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/shared-home-activities.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/technology-center.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/workplace-schedule.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/world-clock.test.js",
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/world-objects.test.js",
+      "passed": true
+    }
+  ],
+  "browser": {
+    "passed": true,
+    "result": {
+      "laptop": "The clean, seldom-used dining room has a solid oak table, four chairs and dinner settings. Charity keeps her laptop at the table for Friday orders replacing sold enchanted clothing and items. A television is mounted on the wall by the hallway. A soft floral scent, especially roses, lends Charity\u2019s personal space a familiar warmth.",
+      "order": {
+        "id": "charity-stock-0",
+        "week": 0,
+        "orderedAt": 6368,
+        "dueAt": 10440,
+        "items": {
+          "health": 1
+        },
+        "status": "received",
+        "source": "dining-table-laptop",
+        "receipt": {
+          "id": "charity-stock-0-receipt",
+          "at": 10440,
+          "items": {
+            "health": 1
+          },
+          "supplierPaidHundredths": 0,
+          "carrier": "Only on Time"
+        }
+      },
+      "receipt": {
+        "id": "charity-stock-0-receipt",
+        "at": 10440,
+        "items": {
+          "health": 1
+        },
+        "supplierPaidHundredths": 0,
+        "carrier": "Only on Time"
+      },
+      "health": 1,
+      "replayed": 0,
+      "originalGold": 1000
+    },
+    "scope": "Real browser modules; isolated synthetic state, no owner saves or paid AI"
+  },
+  "backend": "53 / 53 passed",
+  "limitations": [
+    "Household source-price catalogs and automatic household dispatch remain unbuilt; priced receipt adapter preserved.",
+    "Mask quest and authoritative offline multiplayer execution remain deferred."
+  ]
+}

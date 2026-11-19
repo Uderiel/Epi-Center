@@ -7,7 +7,7 @@ const rooms={
  B:{name:'Charity’s Bathroom',exits:['A'],private:true,description:'A clean, cozy bathroom with a full-sized bathtub with a shower-head attachment, toilet, sink, towel and toiletries cabinet, and hamper. Candles and nice soaps soften the room.'},
  C:{name:'Front Counter / Register',exits:['H','G'],description:'A long oak counter holds the cash register. Shelves behind it protect valuable stock; a wall display carries a few enhanced and enchanted pieces of apparel and jewelry. Charity, the gifted gabber, serves customers here.'},
  D:{name:'Kitchen',exits:['G','E'],private:true,description:'Charity’s fully stocked home kitchen has a stove, oven, refrigerator, sink, dishwasher and a pantry for snacks and hearty meals.'},
- E:{name:'Dining Room',exits:['G','D'],private:true,description:'The clean, seldom-used dining room has a solid oak table, four chairs and dinner settings. A television is mounted on the wall by the hallway.'},
+ E:{name:'Dining Room',exits:['G','D'],private:true,description:'The clean, seldom-used dining room has a solid oak table, four chairs and dinner settings. Charity keeps her laptop at the table for Friday orders replacing sold enchanted clothing and items. A television is mounted on the wall by the hallway.'},
  F:{name:'Storage Closet',exits:['G'],private:true,description:'Spare clothes, skirts and useful enchanted stock occupy the storage room. Heavy bolts of fabric are stacked carefully on shelving.'},
  G:{name:'Central Hallway',exits:['H','C','A','D','E','F'],private:true,description:'Photographs of earlier Epi-Center locations and previous city layouts line the connecting hallway. Doors lead to Charity’s living quarters, kitchen, dining room and storage.'},
  H:{name:'Sales Floor / Entrance',exits:['C','G','I1','I2','I3','I4'],description:'Racks of jeans, shorts, shirts, socks and basic shoes fill the sales floor. Broad storefront windows and striped awnings frame the entrance. The oak counter is ahead on the left; four changing stalls line the right.'},
@@ -19,7 +19,7 @@ const fixtures={
  B:{bath:'Full-sized bathtub',toilet:'Toilet',sink:'Sink',cabinet:'Towels & toiletries',hamper:'Hamper',candles:'Candles & nice soaps'},
  C:{register:'Oak counter & register',display:'Enhanced apparel & jewelry display',offer:'New arrival clothing offer'},
  D:{stove:'Stove & oven',fridge:'Refrigerator',sink:'Kitchen sink',dishwasher:'Dishwasher',pantry:'Snack pantry'},
- E:{table:'Oak dining table & four chairs',tv:'Wall-mounted television'},F:{stock:'Spare clothing & skirts',fabric:'Heavy fabric bolts'},G:{photos:'Photographs of earlier city layouts'},H:{racks:'Basic clothing racks',windows:'Storefront windows & awnings'},J:{linens:'Folded linens',laundry:'Laundry storage'}
+ E:{table:'Oak dining table & four chairs',laptop:'Charity’s laptop for Friday enchanted-stock orders, at the dining table',tv:'Wall-mounted television'},F:{stock:'Spare clothing & skirts',fabric:'Heavy fabric bolts'},G:{photos:'Photographs of earlier city layouts'},H:{racks:'Basic clothing racks',windows:'Storefront windows & awnings'},J:{linens:'Folded linens',laundry:'Laundry storage'}
 };
 for(let i=1;i<=4;i++)fixtures['I'+i]={curtain:'Changing curtain',mirror:'Mirror',hooks:'Clothing hooks',bench:'Small bench'};
 for(const id of ['A','B','D','E','G','J'])rooms[id].description+=' A soft floral scent, especially roses, lends Charity’s personal space a familiar warmth.';
