@@ -252,3 +252,14 @@ An NPC/location refinement must track frontage/approach, room-by-room appearance
 ## Protected dangerous stock and warning knowledge
 
 Separate existence, provenance, functional hazard knowledge, access, handling authority and actual use. An NPC may secure an item and warn a visitor about its danger while concealing its supplier/motive. Private-room permission must not automatically add equip/take/purchase actions. Charity’s three Countess-supplied permanent NPC-assignment suits are explicitly not retail/loot or her temporary quest mask. Model ordinary form ownership, temporary mastery trials and authored permanent role-assignment consequences separately; inspect/entry alone cannot trigger them.
+
+## Shared AI context implementation checklist
+
+Apply section 10 through the existing scene/living-profile registrations; do not create a second character design template. See [context repair handoff](audits/AI-CONTEXT-REPAIRS.md).
+
+- Keep stable actor/form IDs and saved aliases distinct from the owner's original name. External NPC context uses apparent identity; private internal dialogue can identify both minds within one body.
+- Register an authored AI dossier/communication style with a new scene actor (`ai: {dossier, communication}`), or flag the missing profile before treating it as AI-ready. Registration alone does not invent personality.
+- Supply location `rooms` and a room selector with the existing scene adapter. Verify the actual room name/description reaches provider facts, separately from venue summaries.
+- Declare form consciousness in the existing validated living profile. A non-conscious object gets authored sensations, never an invented second mind.
+- Check co-present actors/players, private-room and remote-viewpoint filtering, actual body/travel/action facts, queue history privacy, reload and stale-response behavior. A rendered image is not automatically visible to the model.
+- Capture provider facts, not only frontend intent. Exercise both a newly registered actor and location. Separate local assembly/mocked controls, deployed assembly inspection, and actual model prose acceptance in every status update.

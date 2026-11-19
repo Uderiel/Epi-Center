@@ -1,3 +1,7 @@
+## Shared AI context repairs — candidate, not published
+
+The owner requested an audit of our integration before replacing Cydonia, then authorized repairs. The audit reproduced context loss in our code. Repairs and a read-only authenticated provider-request inspection route are implemented; see [audit and evidence](audits/AI-CONTEXT-AUDIT.md) and [repair handoff](audits/AI-CONTEXT-REPAIRS.md). The prior model-comparison preference question is superseded by this audit-first instruction. Keep the current model and sampling settings. Local test evidence is separate from deployed request capture and actual model acceptance, which remain pending. No pull request or new public release is claimed. Public production remains v1.0.124.
+
 ## v1.0.124 actual model acceptance — failed; next experiment choice pending
 
 Owner’s real two-case report still invents Burke’s opening/reputation and a park fountain. Source-level context audit confirms the supplied service/participant facts; no causal isolation of model/sampling/deployed prompt yet. No new runtime release or model change made. See REAL-MODEL-GROUNDING-INVESTIGATION.md. Owner preference requested: controlled instruction-focused model comparison (recommended) or keep Cydonia and investigate a grounding-validation pass. Do not claim the AI integration passes acceptance.

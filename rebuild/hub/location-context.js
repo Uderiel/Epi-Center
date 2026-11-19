@@ -5,6 +5,7 @@ function describe(s,{homes=[],facilities=[]}={}){const homeRoom=(h,room)=>{const
  const cat=s.world?.priyaCat;if(cat?.carriedBy){const c=bySpace(Scene.space(s,String(cat.carriedBy).replace(/^npc:/,''),true));if(c)return c;}
  for(const h of homes)if(h.inside(s)){const c=homeRoom(h,h.room(s));if(c)return c;}
  for(const f of facilities)if(f.inside(s)){const room=f.room(s),d=f.rooms[room];if(d)return {location:f.id,room,roomName:d.name,heading:f.title+' · '+d.name,description:d.description||'',space:(f.prefix||f.id+':')+room};}
+ const registered=Scene.registeredLocation?.(s);if(registered)return registered;
  const b=s.world?.applewoodBuilding;if(s.hub?.location==='applewood'&&b?.inside)return {location:'applewood',heading:'Applewood Apartments · '+(b.floor?'Floor '+b.floor+' corridor':'Lobby'),space:'applewood:floor:'+b.floor};
  return {location:s.hub?.location,heading:W.display(s.hub?.location,!!s.devShowLocationRefs),space:(s.hub?.location||W.SPIRE)+':outside'};
 }

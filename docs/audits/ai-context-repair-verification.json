@@ -1,0 +1,463 @@
+{
+  "scope": "Local implementation candidate. No authenticated deployed-provider capture or paid real-model acceptance.",
+  "unitCases": 1463,
+  "unitSuites": 86,
+  "unitResults": [
+    {
+      "file": "rebuild/combat/civilian-encounter.test.js",
+      "cases": 14,
+      "passed": true
+    },
+    {
+      "file": "rebuild/combat/dice-advantage.test.js",
+      "cases": 14,
+      "passed": true
+    },
+    {
+      "file": "rebuild/combat/entity-rules.test.js",
+      "cases": 0,
+      "passed": true
+    },
+    {
+      "file": "rebuild/combat/kibbles-ai.test.js",
+      "cases": 38,
+      "passed": true
+    },
+    {
+      "file": "rebuild/combat/kibbles-form.test.js",
+      "cases": 21,
+      "passed": true
+    },
+    {
+      "file": "rebuild/combat/kibbles-presentation.test.js",
+      "cases": 27,
+      "passed": true
+    },
+    {
+      "file": "rebuild/combat/play-encounter.test.js",
+      "cases": 35,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/ai-client.test.js",
+      "cases": 44,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/ai-context.test.js",
+      "cases": 37,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/apartment-navigation.test.js",
+      "cases": 9,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/authored-dialogue.test.js",
+      "cases": 5,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/binding-and-footwear.test.js",
+      "cases": 9,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/burkes-retail.test.js",
+      "cases": 15,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/burkes-sweets.test.js",
+      "cases": 14,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/canine-conversation.test.js",
+      "cases": 9,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/canine-expression.test.js",
+      "cases": 15,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/canine-routines.test.js",
+      "cases": 15,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/character-conversation.test.js",
+      "cases": 14,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/cherished-shop.test.js",
+      "cases": 15,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/cherished-touch.test.js",
+      "cases": 19,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/cubicle-layout.test.js",
+      "cases": 4,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/cursed-household-flow.test.js",
+      "cases": 22,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/dart.test.js",
+      "cases": 14,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/department.test.js",
+      "cases": 25,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/easter-egg.test.js",
+      "cases": 21,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/enchanted-counter.test.js",
+      "cases": 19,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/equipment-storage.test.js",
+      "cases": 27,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/erin-agency.test.js",
+      "cases": 26,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/erin-daily-office.test.js",
+      "cases": 24,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/erin-life.test.js",
+      "cases": 41,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/erin-refinement.test.js",
+      "cases": 32,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/erin-release.test.js",
+      "cases": 11,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/erin-restoration.test.js",
+      "cases": 25,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/erin-shower-products.test.js",
+      "cases": 9,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/erin-wellbeing.test.js",
+      "cases": 24,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/expanded-map.test.js",
+      "cases": 7,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/footwear-senses.test.js",
+      "cases": 10,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/form-minds.test.js",
+      "cases": 43,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/form-presence.test.js",
+      "cases": 28,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/form-reference.test.js",
+      "cases": 9,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/hangry-fangs.test.js",
+      "cases": 20,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/high-influence.test.js",
+      "cases": 16,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/hub-world.test.js",
+      "cases": 18,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/interaction-state.test.js",
+      "cases": 5,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/intro-target-appearance.test.js",
+      "cases": 8,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/kibbles-state-flow.test.js",
+      "cases": 12,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/live-time.test.js",
+      "cases": 8,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/location-and-resolve-ack.test.js",
+      "cases": 9,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/location-details.test.js",
+      "cases": 11,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/lunch-migration.test.js",
+      "cases": 2,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/marketing.test.js",
+      "cases": 28,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/mystery-box.test.js",
+      "cases": 11,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/nadia-daily.test.js",
+      "cases": 5,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/nadia-household.test.js",
+      "cases": 12,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/nadia-integration.test.js",
+      "cases": 8,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/narration-grounding.test.js",
+      "cases": 10,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/navigation.test.js",
+      "cases": 27,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/office-batch-work.test.js",
+      "cases": 18,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/office-floor.test.js",
+      "cases": 25,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/office-layers.test.js",
+      "cases": 5,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/office-workflow.test.js",
+      "cases": 17,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/owner-corrections.test.js",
+      "cases": 8,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/priya-cat.test.js",
+      "cases": 28,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/priya-daily.test.js",
+      "cases": 17,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/priya-flats.test.js",
+      "cases": 40,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/priya-home-navigation.test.js",
+      "cases": 10,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/priya-household.test.js",
+      "cases": 18,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/priya-media.test.js",
+      "cases": 8,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/priya-visits.test.js",
+      "cases": 8,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/priya.test.js",
+      "cases": 26,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/relationships.test.js",
+      "cases": 8,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/resistance-needs.test.js",
+      "cases": 21,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/richard-daily.test.js",
+      "cases": 5,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/richard-home.test.js",
+      "cases": 13,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/richard-office.test.js",
+      "cases": 19,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/richard-report-ui.test.js",
+      "cases": 4,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/richard.test.js",
+      "cases": 30,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/roleplay-footwear.test.js",
+      "cases": 7,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/served-items.test.js",
+      "cases": 6,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/shared-activities.test.js",
+      "cases": 7,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/shared-home-activities.test.js",
+      "cases": 16,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/technology-center.test.js",
+      "cases": 19,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/workplace-schedule.test.js",
+      "cases": 6,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/world-clock.test.js",
+      "cases": 15,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/world-objects.test.js",
+      "cases": 13,
+      "passed": true
+    },
+    {
+      "file": "services/ai/test.mjs",
+      "cases": 46,
+      "passed": true
+    }
+  ],
+  "finalFocusedClientCases": 44,
+  "browserFixtures": 24,
+  "contextRepairAssertions": 22,
+  "browserIntegrationControls": 14,
+  "browserInspectionControls": 8,
+  "syntax": "PASS",
+  "sourceSHA256": {
+    "rebuild/hub/ai-client.test.js": "9610e47c31feb31e654a5e81b316ede73e62fd980adb90a71d5029758c03f79c",
+    "rebuild/hub/ai-context.js": "4e0c0b7757d84d41c0290c27751f9a2bd0e353a3789f61244b5afe2feaa9f074",
+    "rebuild/hub/ai-context.test.js": "27e2c02c1a2daa8ab5c517d38b12f36ed084fea8b08b3701e51bddfda6357d32",
+    "rebuild/hub/ai-integration-ui.js": "a537528891181d1ffc24a6e1e9fc266f97c7c2c3541b15b066726a89516f1eb4",
+    "rebuild/hub/ai-ui.js": "d0a3b0b0aff7aade9f47806ae644b6846e8833fcbe57d5b4c0f410608cca87af",
+    "rebuild/hub/character-conversation.test.js": "efcf222e9fb43a5799ff19f35c6a3bc7a27a28a985ba1cb795e600097acfe471",
+    "rebuild/hub/index.html": "8ca3a02e9d005a773371fdae72c68760660d71a1d64871bf4e1a5e0a9aea9c96",
+    "rebuild/hub/location-context.js": "fdf7a30071646a88c801594fe33fe0dcc9d7f9ad98acf65f2405fb6501cab8d9",
+    "rebuild/hub/scene-presence.js": "c409da86fc762bdd5c7bcdaa289ec327f115deae55dd329552af5898409ae9b0",
+    "services/ai/core.mjs": "971b41bb6c69512b631b62a916a146963682f1fa2bb0803e35351156c54567d9",
+    "services/ai/deploy-worker.mjs": "8867bf3325707efdf643e80e9bfb0fbcd75ac26c7831e29b65901c5f36720838",
+    "services/ai/test.mjs": "ebec9b5c9c9bf91a8446a83702a49276d43a94b6fda90846eaa22394862e07f5",
+    "services/ai/worker.mjs": "3304a49d36f0a35ee4d431292335c9180849dd4a7c12d1884f64154277cd6d34",
+    "scripts/audit-ai-context.mjs": "260594201b1dc38be99678d7c2716068a7588715da6cd85361b69984d675fa36",
+    "scripts/browser-ai-context-inspection.cjs": "eac4d1b06dd83d73a3e1e671f11d52612ada021fa35c1ef0d2a57207168fae03"
+  },
+  "liveAcceptance": "Pending existing Cloudflare Worker update and authenticated owner-session testing; public health fetch returned HTTP 403.",
+  "modelChanged": false,
+  "published": false
+}
