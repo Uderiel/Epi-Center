@@ -1,3 +1,7 @@
+## Needs consequences must be verified
+
+A displayed hunger/bladder/fatigue meter is not a completed needs system. Identify actual consequences, physiology applicability, recovery, public facility availability, persistent timing and AI-resolved outcomes; distinguish generic player effects from character-specific routine priorities. New consequence thresholds/penalties require owner approval. Private-room permissions are not automatically bypassed by urgent needs.
+
 ## Owner scope and approval rule
 
 Retrieve approved decisions first. Propose new gameplay permissions, exact room-access scopes, costs/rewards and substantive design additions for approval before implementing them. Broad task authorization does not make an unreviewed character-specific policy owner-approved. Implement and verify already approved rules without repeatedly seeking the same permission. Keep drafts distinct from active controls; a relationship threshold is eligibility, not universal access.

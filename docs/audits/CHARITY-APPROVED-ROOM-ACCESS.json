@@ -1,0 +1,27 @@
+{
+  "scope": "Development; owner-approved75gate includes bathroom/dining; no urgent-needs bypass",
+  "focusedCases": {
+    "access": 12,
+    "dialogue": 8,
+    "roomRegression": 19
+  },
+  "browser": {
+    "scope": "Synthetic saves; actual UI; no paid model requests",
+    "checks": [
+      "phone UI exposes owner-approved hallway bathroom and dining requests",
+      "below75 actual permission button refuses without a grant or inventory change",
+      "75plus actual request grants approved hallway purpose and records the safety warning",
+      "hallway invitation excludes all other private rooms",
+      "same-player invitation survives browser reload",
+      "actual stated preference survives reload without inventory or resource rewards",
+      "switching player inside private room keeps UI renderable without granting fixtures",
+      "uninvited player can leave physically and reentry has no inherited private access",
+      "leaving ends earlier-player invitation as well through visit identity",
+      "phone layout stays within screen width",
+      "no uncaught page errors"
+    ],
+    "errors": []
+  },
+  "needsConsequences": "Draft only; no new penalties implemented",
+  "published": false
+}

@@ -1,3 +1,11 @@
+## Latest owner access clarification — all behind-counter areas
+
+Every area behind Charity’s counter requires **relationship75+**, including dining and bathroom access. Her actual explicit permission remains required; a high score is not automatic entry or permission to handle stock/secrets. The public-facing customer position at registerC stays available for checkout. No low-relationship/full-bladder emergency exception is authorized. Players needing public facilities must use an establishment that actually offers them; do not invent a usable nearby restroom before its controller exists.
+
+This clarification approves applying the same gate to bathroom/dining requests. Those purposes are now enabled under75+ and scoped invitations; older draft-only statements below are superseded. Invitations are rechecked against the current score. Loss of permission still preserves physical exit.
+
+The owner also identifies the missing universal needs-consequence system. Existing normal-player meters and form-specific routines do not constitute full universal penalties. See NEEDS-CONSEQUENCES-DRAFT.md; no new needs penalties were implemented without approval.
+
 ## Owner clarification — permissions and early fatigue help
 
 New gameplay permissions, access scopes, costs, rewards and other substantive design additions must be proposed for owner review before implementation. The approved +75 eligibility and explicit purpose-specific invitation remain, but the assistant had selected bathroom and dining-room permission scopes without separate approval. Those are now **draft only**, absent from player controls and rejected by the public permission controller. Only the established hallway invitation is currently enabled; its threshold does not grant stock, other private rooms or secrets. Existing authored fixture test scopes are not player-facing permissions.

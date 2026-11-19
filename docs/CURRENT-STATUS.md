@@ -1,3 +1,7 @@
+## Charity behind-counter access and needs gap — current owner clarification
+
+All behind-counter areas, including dining and bathroom, require75+relationship plus Charity’s actual permission. No full-bladder exception. Public register checkout remains available; protected stock/secrets are not granted. Bathroom/dining invitation purposes are now enabled under this explicit clarification; permission rechecks75and preserves safe exit on loss. Universal hunger/bladder/fatigue consequences remain a design gap; NEEDS-CONSEQUENCES-DRAFT.md records proposed directions for approval, not runtime penalties. Development only, not published.
+
 ## Owner scope correction and Charity fatigue request
 
 Owner requires substantive permission/design additions to be proposed rather than assumed. Unapproved bathroom/dining grants are now draft-only and not available through the player controller; approved75plus explicit hallway invitation remains. Charity can request Daily Needs fatigue-reducing items in a bounded concern exchange before coverage is available; no product, reward, payment or recovery mechanics invented. Early Burke completion rows are reconciled against published retail/staffing/order behavior, and obsolete Cherished Mystery Box/enchanted status is corrected. Development only.
