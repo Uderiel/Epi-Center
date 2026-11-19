@@ -14,3 +14,6 @@ console.log(n+' shared canine expression cases passed');
 
 test('third-person dog narration and remembered dialogue do not become the player action',()=>{for(const text of ['Dart growls','Nadia told Dart to bark','I barked yesterday','I might bark','I do not want to growl'])assert.deepEqual(ids(text),[],text);});
 test('common roleplay verb inflections work without requiring first-person spelling',()=>{assert.deepEqual(ids('*growls*'),['growl']);assert.deepEqual(ids('*barks*'),['bark']);assert.deepEqual(ids('*whimpers*'),['whine']);});
+
+test('panting licking and alert ears are observable actions with a named target',()=>{assert.deepEqual(ids('I pant'),['pant']);assert.deepEqual(ids('*I pant*'),['pant']);const r=X.translate('Panting I lick Nadia');assert.deepEqual(r.signals.map(x=>x.id),['pant','lick']);assert.equal(r.target,'nadia');assert.equal(X.translate('*I sniff at Nadia, ears alert*').target,'nadia');});
+test('negated and private physical descriptions cannot become public panting or licking',()=>{for(const text of ['I do not pant','I am not licking Nadia','*I think about licking Nadia*'])assert.deepEqual(ids(text),[],text);assert.equal(X.translate('*I think about licking Nadia* *I bark*').target,null);});

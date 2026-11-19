@@ -1,3 +1,7 @@
+## v1.0.121 canine physical input and animal dialogue routing — release candidate
+
+Owner exact composer inputs exposed physical actions being swallowed by a speech restriction and Dart included in human office exchanges. Physical inspection, panting, targeted signals/lick attempts, private canine dialogue and noncontact sniffing are routed correctly; animal events use a dedicated Doberman narrator. See CANINE-PHYSICAL-INPUT-CORRECTIONS.md and V1.0.121-OWNER-ACCEPTANCE.md. Final verification underway; no owner input pending.
+
 ## v1.0.120 personalized canine AI identity — published and verified
 
 Saved canine name/gender now reach the AI identity, with Kibbles retained as the underlying form alias. Older identity-confused generation is excluded from new context. Known saved-name denials get one correction, preserving player identity and actual authority. See CANINE-AI-IDENTITY-CORRECTIONS.md and V1.0.120-OWNER-ACCEPTANCE.md. Published v1.0.120 verified: 1,427 automated cases across 86 suites; 348 local and 348 live browser checks passed. All 178 public files match runtime commit a92156f487c7def908264b41d61459d3d056ae2a. Pages deployment 44448324837 succeeded. Synthetic saves and mocked AI only; no owner saves or paid provider calls used. No owner input pending.

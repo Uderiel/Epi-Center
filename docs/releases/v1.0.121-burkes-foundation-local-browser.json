@@ -1,0 +1,62 @@
+{
+  "origin": "http://127.0.0.1:8767",
+  "checks": [
+    {
+      "name": "tile63 entrance reaches actual candy zone with indoor scene boundary",
+      "passed": true
+    },
+    {
+      "name": "fixture selection uses one shared drawer and no charge",
+      "passed": true
+    },
+    {
+      "name": "Back restores the actual parent fixture",
+      "passed": true
+    },
+    {
+      "name": "basket is a unique actual carried shop-owned inventory item",
+      "passed": true
+    },
+    {
+      "name": "Items exposes basket identity and return instructions",
+      "passed": true
+    },
+    {
+      "name": "bakery fixture has approved price without granting a product",
+      "passed": true
+    },
+    {
+      "name": "layout marks storage staff-only and plans legal B-A-C public route",
+      "passed": true
+    },
+    {
+      "name": "actual queued navigation reaches register without visiting storage",
+      "passed": true
+    },
+    {
+      "name": "counter approach stays public and blocks storage",
+      "passed": true
+    },
+    {
+      "name": "counter position and carried basket persist after reload",
+      "passed": true
+    },
+    {
+      "name": "exit retains the physical borrowed basket",
+      "passed": true
+    },
+    {
+      "name": "return empties only the basket custody with gold and keepsake intact",
+      "passed": true
+    },
+    {
+      "name": "fixture controls fit phone viewport and other save stays untouched",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}
