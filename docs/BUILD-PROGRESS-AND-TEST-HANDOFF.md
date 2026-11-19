@@ -1,6 +1,6 @@
-## v1.0.117 physical room headers and acknowledgment — release candidate
+## v1.0.117 physical room headers and acknowledgment — published and verified
 
-Owner requested room-aware headers/images across characters and replacement of the zero-Resolve banner with a red acknowledged feed warning. Shared physical-location context, separately labeled removed-player/wearer rooms, header art, stale wear reconciliation and a pre-cost acknowledgment gate are implemented. All prior116AI-first/pressure rules remain. See PHYSICAL-LOCATION-AND-RESOLVE-ACKNOWLEDGMENT.md and V1.0.117-OWNER-ACCEPTANCE.md. Final verification underway; no owner input pending.
+Owner requested room-aware headers/images across characters and replacement of the zero-Resolve banner with a red acknowledged feed warning. Shared physical-location context, separately labeled removed-player/wearer rooms, header art, stale wear reconciliation and a pre-cost acknowledgment gate are implemented. All prior116AI-first/pressure rules remain. See PHYSICAL-LOCATION-AND-RESOLVE-ACKNOWLEDGMENT.md and V1.0.117-OWNER-ACCEPTANCE.md. Published v1.0.117 verified: 1,406 automated cases across 85 suites; 323 local and 323 live browser checks passed. All 177 public files match runtime commit b46ce759b0c8655f01525a356cf78c5180125944. Pages deployment 44442414123 succeeded. Synthetic saves and mocked AI only; no owner saves or paid provider calls used. No owner input pending.
 
 ## v1.0.116 AI-first narrative and pressure-based footwear rolls — published and verified
 
