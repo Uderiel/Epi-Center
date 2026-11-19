@@ -137,3 +137,17 @@ Immutable baseline v0.8.82 preserved. v0.8.83 introduced the first non-destructi
 ## Owner-approved universal NPC/form base cap — current refinement
 
 NPCs and forms share the player’s **10per-base-attribute cap**. Do not use a20point/D&D-style base scale or halve already-valid0–10profiles. Equipment and other separately authorized bonuses remain separate from capped base values. Rarity budgets remain provisional pending owner approval; this cap does not approve the prototype totals. Existing authored profiles below10retain their values and budgets; the Charity numeric proposal remains unapproved.
+
+## Owner-approved rarity budgets — supersedes prototype totals
+
+| Rarity | Total base allocation |
+| --- | ---: |
+| Common |45|
+| Uncommon |55|
+| Rare |65|
+| Epic |75|
+| Legendary |85|
+
+All retain the universal10per-base-attribute cap. The owner’s final Common45and Uncommon55supersede the intermediate spoken40values. Player character creation remains40and earnable/lifetime limits remain35/75; these NPC/form rarity totals do not rewrite player creation. Charity’s mask remains an explicit conserved-player-total exception.
+
+Implementation status: approved design totals, not yet migrated into existing authored profiles or combat rarity metadata. Current Common Erin profile totals30and Kibbles profile totals35; setting metadata alone would leave these inconsistent. Prepare reviewed allocations before claiming the rarity migration complete. Do not fill missing points randomly or change existing saves/resources/mastery through a partial metadata edit.

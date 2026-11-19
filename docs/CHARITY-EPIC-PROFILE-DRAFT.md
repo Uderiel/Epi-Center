@@ -1,23 +1,21 @@
-# Charity Epic mental profile — numeric proposal, not approved
+# Charity attribute allocation — approved baseline and75-point revision draft
 
-Owner confirms Charity’s own strength is Epic-equivalent and mentally specialized. Current engine Epic budget is60base points, with a owner-approved per-attribute cap10. The owner subsequently clarifies that higher-rarity allocations have not been established: these code values are provisional, not proof of approval. This table is parked pending that review. Her numeric allocation is not previously finalized. This proposed allocation is for the **actual Charity NPC**, not a60point grant/replacement for a masked player.
+The owner accepts the earlier60-point distribution, then raises Epic’s budget to75. Keep the approved mental-specialist emphasis; the extra15points need allocation review. All attributes cap at10. This is actual Charity’s profile, never a75-point grant to the player wearing her mask.
 
-| Attribute | Proposed value |
-| --- | ---: |
-| Endurance | 2 |
-| Fitness | 1 |
-| Intuition | 3 |
-| Reflexes | 2 |
-| Willpower | 10 |
-| Reasoning | 10 |
-| Stability | 10 |
-| Presence | 7 |
-| Insight | 10 |
-| Influence | 5 |
-| **Total** | **60** |
+| Attribute | Accepted60-point baseline | Proposed75-point revision |
+| --- | ---: | ---: |
+| Endurance |2|5|
+| Fitness |1|3|
+| Intuition |3|7|
+| Reflexes |2|5|
+| Willpower |10|10|
+| Reasoning |10|10|
+| Stability |10|10|
+| Presence |7|10|
+| Insight |10|10|
+| Influence |5|5|
+| **Total** |**60**|**75**|
 
-Existing specialization calculation classifies this as Mental. It emphasizes will, reasoning and steadiness with perceptive, warm interpersonal strengths; it does not add an unapproved ability list, new resource maxima or a public lore disclosure. Proposed numbers require review before a combat/bleed controller reads them as canonical.
+Proposed additions: Endurance+3,Fitness+2,Intuition+4,Reflexes+3,Presence+3. Mental specialty remains primary using the existing engine calculation. These added values are a proposal, not owner-approved or applied at runtime. They add no resource maxima, techniques, equipment or new permissions.
 
-For player bleed, retain the player’s conserved base total and move one point per approved interval toward her strengths. A temporary disguise does not call Erin’s full-form attribute-substitution function to copy this table. Exact donor/recipient selection, ties, floor/caps and behavior when no legal transfer exists still need a reviewed rule; never generate points, alter equipment bonuses or edit another player/form’s actual profile. Fractional target weights/normalization are not silently approved by this table.
-
-Owner now approves the universal10base-attribute cap for NPCs/forms as for players. This revised draft shifts the proposed two excess Willpower points to Insight to retain the provisional60total. The allocation and rarity total remain drafts, not approved by the cap change.
+Player bleed conserves the player’s base total recorded at first coverage start; no NPC budget/profile substitution. Attribute donor/recipient selection remains to review against the approved final profile.
