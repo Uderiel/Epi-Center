@@ -1,3 +1,7 @@
+## Charity mask duration approved at ten game minutes
+
+Owner selects10in-game minutes to allow reading individual body-part changes. CHARITY-COVERAGE-DESIGN.md contains the requested proposed25-stage descending order, starting face/hair and ending feet/toes plus final skin/scent/proportions. Exact order/text is a draft pending review;10minutes is approved. Erin’s own23stage ordering/timing remains unchanged. No mask runtime or public release claimed.
+
 ## Charity mask appearance/age addendum; Kibbles age deferred
 
 Owner requires mask progression and final appearance to reflect Charity’s actual canonical profile, including apparent age mid-thirties. Stage descriptions, body/HUD and AI facts must agree with completed changes; do not borrow Tits/Erin’s appearance or erase original-player identity. Kibbles’s missing age portrayal is pinned for later by explicit owner instruction, with no age invented and no sidetrack now. Source: CHARITY-COVERAGE-DESIGN.md. Design record only.
