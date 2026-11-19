@@ -1,3 +1,15 @@
+## Owner-approved clothing continuity — actual worn outfit
+
+The owner agrees the mask’s biological transformation **does not transform worn apparel**. The wearer changes separately in the existing private fitting-stall flow before taking over the counter. Charity hands over **the actual work clothes she was just wearing**, rather than a fresh uniform or magically generated duplicate, so a quick swap preserves the visible outfit and avoids an obvious change to observers.
+
+Track the same real garment identities, ownership/loan custody and actual condition. Do not clean, resize, duplicate, sell or permanently gift them through a transformation description. The player retains their own original clothing/belongings. This is an outfit loan for the coverage, not a new permission to take stock, valuables, cash, keys or all personal accessories. Exact garment list, private exchange choreography and return/changing details still need authoring against Charity’s actual wardrobe. Charity’s practical rest clothing is already approved as a household default; it is not a magically spawned substitute.
+
+Coverage begins only once the ten-minute body transformation and actual change into Charity’s handed-over outfit are complete and the player is ready at the counter. The clothes exchange/preparation is outside the confirmed360–420minute counter-coverage interval. Do not make the character disappear/change outfit in public merely to call the swap quick.
+
+## Next consequential rule to reconcile
+
+The original ordinary mask job promises safe end-of-shift removal, while the recently approved global rule permanently binds an **unmastered form** atzeroResolve. Whether an ordinary temporary coverage mask falls under that rule is **unresolved**; it must be explicitly decided/disclosed before implementing the mask. The twentieth mastery challenge is already a separate exception to ordinary removal. Do not silently grant a binding exemption, mark a temporary mask mastered, or add permanent entrapment to an otherwise safe job.
+
 ## Owner approval checkpoint
 
 Owner approves the ten-minute,25-stage body-part sequence recorded below. Do not re-ask its duration or order. Next unresolved design: clothing/custody/private changing, followed by mask control, removal and reversion. No runtime implementation or publication is claimed.

@@ -1,3 +1,7 @@
+## Charity mask work-clothing exchange approved
+
+Owner confirms body-only transformation and a real clothing change: Charity lends the exact work outfit she was just wearing so the twin replacement keeps visible continuity. Preserve actual item identities/condition/loan ownership and the player’s belongings; no generated uniform or hidden stock/key access. Coverage begins only after transformation/change/counter readiness. Source: CHARITY-COVERAGE-DESIGN.md. Next unresolved rule is ordinary safe mask removal versus the universal zeroResolve unmastered-form binding consequence; no exemption or new entrapment is assumed. Design only.
+
 ## Charity mask 25-stage sequence approved
 
 Owner accepts the exact descending25-stage sequence and10game-minute duration in CHARITY-COVERAGE-DESIGN.md. These are settled design decisions, not an implemented mask. Next design checkpoint is clothing/custody/private changing before the counter handover; then mask control/removal/reversion. Preserve75eligibility and6–7hour actual coverage after readiness.
