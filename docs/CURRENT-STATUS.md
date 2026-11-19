@@ -1,6 +1,6 @@
-## v1.0.122 AI integration contract — prepared, blocked before deployment
+## v1.0.122 AI integration contract — worker deployed, client publication underway
 
-Systemic audit and server/client replacement prepared: role-specific prompts, selected recorded facts, plain latest turns, separate repair issues, invalid-scene rejection and explicit four-request real-model diagnostic. Public game remains v1.0.121; observed backend still character-embodiment-v3. No authenticated Cloudflare deployment connection or owner game connection is available here. Backend deployment and real-provider acceptance remain outstanding. See AI-INTEGRATION-AUDIT.md and V1.0.122-OWNER-ACCEPTANCE.md. Do not describe this candidate as published or the AI integration as fixed.
+Owner deployed the prepared Cloudflare worker. Public /health confirms grounded-turn-v1 and configured:true. Matching client publication/live verification underway. 1,441 automated cases and 369 local browser checks passed with mocked completions. Actual authenticated Cydonia acceptance remains pending; use Settings’ four-request diagnostic with the existing owner connection. See AI-INTEGRATION-AUDIT.md and V1.0.122-OWNER-ACCEPTANCE.md. Do not claim actual model quality has passed.
 
 ## v1.0.121 canine physical input and animal dialogue routing — published and verified
 

@@ -1,16 +1,21 @@
 {
   "candidate": "1.0.122",
   "publicGame": "1.0.121",
-  "checkedAt": "2026-11-19T03:32:09.075030+00:00",
+  "checkedAt": "2026-11-19T09:54:53.705360+00:00",
   "healthURL": "https://epi-center-ai.jermil2008.workers.dev/health",
   "observedHealth": {
     "service": "Epi-Center AI",
-    "protocolVersion": "character-embodiment-v3",
+    "protocolVersion": "grounded-turn-v1",
     "configured": true
   },
   "requiredProtocol": "grounded-turn-v1",
-  "backendReady": false,
+  "backendReady": true,
   "realModelAcceptance": "Not performed; no authenticated owner game connection available in this execution environment.",
-  "deploymentAccess": "No available authenticated Cloudflare deployment connection. GitHub integration cannot access deployment-secret metadata (403).",
-  "publicRelease": "Held: backend deployment and real-model acceptance pending. No paid inference attempted."
+  "deploymentAccess": "Owner deployed the prepared bundle through the Cloudflare editor; public health revision/configuration verified.",
+  "publicRelease": "Matching client publication underway; authenticated model acceptance remains pending.",
+  "previousObservation": {
+    "service": "Epi-Center AI",
+    "protocolVersion": "character-embodiment-v3",
+    "configured": true
+  }
 }

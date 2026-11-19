@@ -1,3 +1,7 @@
+## grounded-turn-v1 deployment confirmed
+
+The owner deployed the prepared bundle. Public /health reports grounded-turn-v1 and configured:true. Matching v1.0.122 client publication is underway. Actual provider acceptance remains pending through the owner’s existing game connection and the explicit four-request Settings diagnostic. Previous deployment notes below are historical.
+
 ## Prepared grounded-turn-v1 integration replacement — deployment pending
 
 See ../../docs/AI-INTEGRATION-AUDIT.md and ../../docs/V1.0.122-OWNER-ACCEPTANCE.md. The bundle has been rebuilt and tested; frontend publication alone does not deploy this worker. Current public health still reports character-embodiment-v3. Do not claim real-model acceptance until the existing worker is updated and authenticated provider replies are reviewed. Keep current secrets/bindings/budget. No migration is required.

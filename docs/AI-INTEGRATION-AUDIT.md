@@ -1,3 +1,7 @@
+## Deployment update
+
+The owner deployed the prepared worker in Cloudflare. Its public /health now reports grounded-turn-v1 with configured:true. Matching v1.0.122 client publication is underway. Actual authenticated Cydonia acceptance has not been performed; the local checks below remain mocked-provider evidence. Earlier blocked-state notes are retained below as audit history.
+
 # AI integration audit and replacement turn contract
 
 Status: v1.0.122 candidate; not published. Public game remains v1.0.121. The public AI health endpoint reports character-embodiment-v3, not the prepared grounded-turn-v1 contract. That endpoint proves the revision label/configuration only; the deployed prompt text and actual model quality have not been authenticated or inspected.
