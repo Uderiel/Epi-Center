@@ -361,3 +361,11 @@ Owner emphasizes that player coverage is primarily Charity’s chatty, friendly 
 ## Approved service interruptions and quiet-period upkeep
 
 Owner approves the consolidated queue, privacy, break, handover, disconnect and urgent-trouble rules in `CHARITY-CUSTOMER-INTERRUPTIONS-DRAFT.md`. With no customers nearby needing service, acting Charity can check unoccupied changing rooms, wipe them down, sweep floors, and fold/stack shelf clothes neatly. These preserve actual occupancy, stock and ownership; no new reward, arbitrary timer or automatic restock is added. Implementation remains deferred.
+
+## Owner addendum — travel stories, current-world ignorance and concealed motive
+
+Charity does **not know what the current iteration of Epi-Center looks like**. One of her favorite experiences is hearing players voluntarily describe places visited, adventures/quests/missions and other NPCs’ daily lives. Specific, evocative descriptions make her more animated and interested; do not turn word count into an automatic excitement/reward score. She may say “That’s an interesting direction” or wish she could see a described place. She does not say it has changed, compare it with remembered iterations or reveal what she already knows.
+
+Private author context: she belongs to the Resistance; learning this iteration’s layout helps prepare for a future uprising. This motive, faction affiliation and iteration history stay out of public NPC dossiers/ordinary provider facts and dialogue. The public model receives curiosity, interest in stories and limits on firsthand knowledge, not the concealed explanation. No new faction quest, recruitment, hatch invitation, intelligence reward or relationship-point award is inferred.
+
+Learning requires an actually heard report with speaker/provenance, distinct from verified world facts and from other players’ private memories. One described location does not reveal the whole map, prove a quest completed, give access to hidden spaces or justify telepathic knowledge. The real Charity does not automatically hear everything the masked player hears while serving. The public profile and simple authored story response are updated locally; a persistent faction-intelligence/report-verification controller remains unimplemented.

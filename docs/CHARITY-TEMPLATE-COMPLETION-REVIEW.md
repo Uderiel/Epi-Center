@@ -1,3 +1,7 @@
+## Current story-listening portrayal and knowledge boundary
+
+Owner establishes eager interest in voluntarily shared travel/adventure/quest stories and NPC daily life. Charity lacks firsthand knowledge of this current city layout, wishes she could see described places and must not compare iterations aloud. Her concealed Resistance motive stays in private author notes, not the public AI dossier. Current public profile/story fallback updated locally; no automatic verified map knowledge, quest completion or new intelligence reward. See CHARITY-COVERAGE-DESIGN.md.
+
 ## Current weekend-hours approval
 
 Owner approves24-hour weekend service as well as weekdays. Cherished Touch is scheduled24/7, subject to actual working coverage and recorded closure/short-break state. The local availability adapter now permits staffed weekend entry; absent/nonworking staff and explicit closure still block entry, and safe exit remains. This supersedes all historical “weekend unresolved/conservatively unavailable” statements below. Autonomous staffing, care, mask coverage and offline payroll remain deferred, not implemented by changing hours.
