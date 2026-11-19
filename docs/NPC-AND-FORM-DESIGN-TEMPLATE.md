@@ -1,48 +1,61 @@
-## Current portrait standard — approved visual references and individuality
+# NPC and form design — current completion standard
 
-Use actual approved images as visual references when requested, after viewing them. Owner’s successful examples are Erin, the available portrait filed as Priya, and Nadia. Match natural photographic light, realistic skin/hair/fabric and believable relaxed presence, not generic polished renders. Different characters must have distinct expressions, posture and useful actions grounded in personality/vocation: Charity mature/helpful; Tits playful/distracted/goofy. Do not repeat an identical model pose across characters. Relevant interiors are allowed; keep room functions and background fixtures consistent with the actual plan, using bounded blur rather than inventing a floorplan. Plain studio is not mandatory: the owner explicitly clarified this after rejecting inaccurate store backgrounds. Preserve full-body visibility when requested. Never claim missing reference assets were inspected. Display actual images directly, not only link labels. Latest user directions supersede historical portrait attempts below.
+This is the canonical authoring checklist. Its twelve core sections remain in force; the implementation contract below makes omissions and evidence visible. Character-specific history later in this file is supporting context, not a substitute for a current character sheet. It is not an instruction to load the entire document into a model request.
 
-## Standalone body-shot override
+**Rule precedence:** latest explicit owner direction → current reconciled character sheet and runtime evidence → historical proposals. Apply superseding decisions by subject, not merely by file date. If two approved rules still conflict, record the conflict and keep the affected behavior unresolved; do not silently select one or turn a proposal into canon. Existing source code proves behavior, not owner approval. Old test counts are historical evidence, not proof of current completeness.
 
-When the owner requests a plain character/body portrait, use full head-to-shoes framing and a simple studio background. Do not add a store, counter, register, cup or other scenery to a standalone body shot. Preserve established character identity and clothing. This instruction supersedes earlier contextual-backdrop attempts for Charity and Tits; those store-background revisions were rejected. Display actual images directly in chat, rather than only naming files or reading link labels aloud.
+## Required completion record
 
-## Character portraits grounded in actual location layouts
+Every character review must supply one row for each of the twelve sections, with: source/canon; confirmed facts; proposals; unresolved/deferred/not-applicable items; runtime module/controller; actual AI fields/projection; tests; owner acceptance. An unchecked or untraceable section is incomplete. “Designed,” “implemented,” “locally verified,” “published,” and “owner accepted” are separate states. A working shop is not proof that its owner has a working daily life, and a full biography is not proof that the AI receives it.
 
-When a character portrait includes a known home/business background, use the supplied floor plan and confirmed fixtures as constraints. Do not substitute a generic interior, merge separate retail/preparation rooms, invent doors/windows or imply a different public/private layout. Use a bounded counter/fixture view when a full spatial reconstruction is not supported. Preserve full-body framing where requested. Standing on the customer side is acceptable for showing a character’s whole outfit; do not infer the owner requires behind-counter placement. Distinguish geometry/fixtures confirmed by sources from proposed finishes/decor. On revisions replace rejected review files in place when keeping the same intended asset, preserve generated originals, and keep portraits out of public gameplay until integration is authorized.
+Before declaring completion, check the specific name/aliases, pronouns, appearance, approved image identity, handedness or gesture side, unit/room, item IDs, exact durations, thresholds, reward amounts and exceptions against the current source. Do not replace small details with a broad personality summary. Keep an explicit no-invention list for missing family history, destinations, routines and mechanics.
 
-## Individual directed relationship meters — owner amendment
+## Operational behavior contract: what, when and how
 
-All NPCs, including animal companions, use individual directed relationships toward each individual player on the signed−100…+100scale. A shared event/migration system is not a shared meter. Original-player identity persists across forms; appearance recognition, introductions and remembered body-specific contact remain separate. Preserve legacy saved scores and record provenance rather than resetting or summing unrelated NPCs. Separate Erin cooperative trust/mastery from signed social relationship. Resolve positive/negative effects from actual workflow reliability, favors, praise, criticism, care, play, rejection and conflict using character-specific rules; AI prose alone never changes scores. Deduplicate resolved events across reloads and limit repeat farming. Richard's personal rejection is−3once per actual offer; existing extra-work refusals remain separate. Display and Dev tools must read the same canonical pair record. Multiplayer identity transport remains outside the current local-save build; do not claim networking implemented.
+For each implemented activity or interaction record:
 
-## Conditional report reviews and future schedule correspondence
+| Required field | What the author must settle |
+| --- | --- |
+| Trigger and eligibility | Actual event/need/request; identity, current body, progression and permission prerequisites |
+| Place and presence | Reachable destination, room/space, actual actor/worker, real listeners and usable fixtures |
+| Priority | Hard commitment or urgent need versus customer/guest engagement, discretionary chores, rest and leisure |
+| Start and cost | Controller action, time, stock/funds/tools, reservation and confirmation required before commitment |
+| Progress | Visible ongoing activity, posture/equipment, saved progress and cadence; discussion is not completion |
+| Interruption | Player response, queue/customer handling, stop/departure acknowledgment, partial use/effects and resumption |
+| Outcome and cleanup | Exactly-once resources/items/payment, dishes/containers/laundry, satisfaction and saved receipt |
+| Memory and portrayal | What was actually witnessed/said, who knows it, elapsed time, matching voice/mood and contextual variety |
+| Failure and absence | Closed/unstaffed, blocked room/body, missing supplies, refusal, interrupted travel, offline/stale AI and safe exit |
 
-NPC review should react to actual updated report versions, not replay unchanged inbox tasks every evening. Separate observing a report, sending a proposed schedule change, recipient response and actual Scheduler booking. Weekend correspondence does not imply immediate work, consent or availability. Preserve authorship and real department sources; keep private report content out of unrelated guest/assistant dialogue. Richard's pre-bed update checks and weekend Monday-addendum messages are the confirmed reference.
+Availability and mood need their own facts. Being physically present does not imply being awake, working, willing to socialize, available for romance or authorized to disclose information. Waiting in a queue does not grant an appointment or permission. A schedule describes intent until the controller records reachable movement and work. Urgent needs and hard commitments can interrupt, but ordinary departure must be acknowledged naturally. Quiet or a short answer is valid; no mandatory chatter or model request every minute.
 
-## Household assistant initiative and confidential observations
+## Representation and memory checklist
 
-Author social initiative, guest-offer authority, financial authority, private-area access and information disclosure separately. Richard's confirmed bot does not initiate socializing or guest offers; he requests social engagement, explicitly authorizes offers/access and approves spending. His prior host offer authorizes matching service without duplicate approval. Overheard conversation and witnessed work are confidential; filter recipient-specific prompts and descriptions before AI generation, not merely with a prose instruction afterward. Requested conversation or hospitality never automatically grants private information or room access. Retain each character's explicit policy rather than generalizing these strict preferences to all bots.
+- Give stable public identity and form aliases; keep original-player identity and undisclosed history private. Separate directed relationship from appearance recognition, internal trust, mastery and consent.
+- Supply current clothing/appearance, actual location/time/light, ongoing activity, fatigue/needs when recorded, actual audience and the latest expressed message. Follow-up questions stay on the current topic; background work must not replace the answer.
+- Distinguish player claims, witnessed facts, accepted commitments, proposals and resolved outcomes. Recognizing a name typed by the player is not knowledge of hidden events. Record confirmed nicknames/preferences only through an authored memory event; do not invent personal familiarity.
+- Give a voice range: public/private, relaxed/busy/tired, welcome/complaint/refusal/apology/repair/parting, praise/criticism/flirting as relevant. Examples demonstrate meaning, not repeated keyword scripts. Mannerisms are optional and specific to that character.
+- Keep secrets in author/controller data. Select only the particular authorized disclosure fragment for a recipient; never send a full secret dossier and rely solely on “do not reveal it.” Numeric eligibility does not force disclosure or grant room access.
+- Use approved room text/layout and asset provenance. Text-only requests do not see image pixels. Narration respects body senses, room barriers and permitted viewpoint, even when the owner interface can display more information.
 
-## Delegated hospitality without duplicate approval
+## Business/location extension — mandatory for shopkeepers
 
-An actual host offer authorizes a household assistant to fulfill the recipient's in-scope selection. Record host, guest, offered choices, visit/context, selection and fulfillment; do not ask the host to approve the same service again. Preserve real stock, funds, preparation and exactly-once item handover. Approval for refreshments does not grant unrelated private-room or computer access. Distinguish autonomous housekeeping/supply management from authorization to spend money. Richard's bot is the confirmed reference; apply this shared contract where a character actually delegates service.
+A business uses the same character standard plus a room/fixture/service matrix. Record exterior/entry, exact public route to checkout, staff work area, private residence/storage, ownership, security, delivery and emergency access separately. Every advertised usable fixture needs an actual action or an honest decorative label.
 
-## Residence classification and spatial specificity
+**Owner-confirmed public-entry rule:** closed businesses or businesses without a present working employee must refuse new public entry and explain that the shop is not open at this time. Posted hours alone do not prove staffing. Bind the established sole employee to the business automatically in its canonical adapter; this is implementation work, not a decision to ask the owner to repeat. Verify the actual counter recipient and dialogue, not merely the existence of a name in a design note. Staff/key/delivery authorization is separate from public admission. Public inspection, typed movement, Layout/Path and direct controller entry must use the same guard. Closing must not trap existing customers or erase their inventory/baskets/paid orders. Define finishing an existing queue, cancellation/refund of an unfulfillable paid order, safe exit and reopening explicitly; do not invent a shop-specific refund policy from this integrity requirement.
 
-Record whether a residence is a regular unit or an explicitly confirmed suite. Follow [Applewood suite architecture](APPLEWOOD-SUITE-DESIGN.md) when applicable: expanded rooms/storage/floor space, guest bedroom and bathroom, private master bathroom and balcony. Distinguish positional relationships from doors and transit routes; a bedroom between two areas is not automatically a walkthrough. Do not infer suite status from wealth or give every resident the same extra rooms.
+List regular hours and time zone/clock, weekends/holidays if authored, exceptional closure, actual staff identity/location/shift, break coverage, queue priorities, stock/receipts/prices/discounts, service errors/corrections, delivery inventory/key access, personal versus till funds and closing cleanup. Undefined operating hours are a design gap; do not describe them as owner-approved closures or create imaginary cover staff. New business adapters must declare both hours and actual staff availability before being called playable.
 
-## Suite and household automation authoring
+## AI handoff and acceptance gate
 
-A shared residence adapter does not require every character to have six rooms. Explicitly author extra guest rooms and workout areas when confirmed. For owned household bots, record identity/appliance status, location, supported duties, finite supplies, job time/progress and access boundaries. Cleaning must alter actual dishes/laundry state only after resolved work. Connected screens display recorded information and do not grant guests access to private computers. Do not assume bot sentience, combat, surveillance or player-control powers from domestic assistance alone.
+For each relevant field identify its author source, runtime source, permitted audience, frontend packet path and backend provider-fact path. Test the assembled provider messages, not just the authoring notes. Required physical/identity facts must survive budgets, queue refresh and server projection. Missing information remains explicitly unknown. NPCs can express intentions; only validated controllers execute actions or alter resources.
 
-## Reusable implementation requirements from Nadia/Dart
+Use the existing scene/living-profile/relationship/inventory/time systems. Required checks include first meeting and repeat/follow-up, alternate form/public identity, another player, busy/absent/asleep/closed, interruption, time jump, no supplies/funds, exact ownership and payment, secret/privacy barriers, offline/failed/stale AI, reload and body-specific actions. Add a newly registered actor and location to shared integration tests. Separate automated/mocked controls from deployed request inspection and real-model prose acceptance. No completion or publishing claim without the corresponding evidence.
 
-Use the shared character-home adapter for distinct authored rooms and nested drawers; per-character stock, clothing ownership, private changing, care permissions, ongoing guest activities and actual timed supplies. Keep the common physical presence/hearing/navigation boundary. Animal companions have independent location, needs and learned familiarity. Canine input exposes only resolved body signals; player thoughts stay private. Attention, play, visits, collaring and confinement are separate choices; cleanup on body release must preserve existing mastery. Validate bounded AI proposals against the current scene before applying effects and retain authored fallback. Test room/floor barriers, reloads, interrupted activities, inventory transfer, finite stock/payment, ordinary gear release and mobile controls. Keep venue services universal and explicitly deferred until implemented. Character personality and decor are authored separately; do not copy Nadia’s wealth or Priya’s preferences into every household.
+The remaining sections preserve the twelve-category checklist and historical amendments. Reconcile each character into a current completion record before implementation or AI prompt compilation.
 
-## v1.0.106 implementation checkpoint
+---
 
-See [implemented Erin/shared refinements and limits](ERIN-REFINEMENT-IMPLEMENTATION.md) and [acceptance checklist](V1.0.106-OWNER-ACCEPTANCE.md). Sustained activities, satisfaction, voluntary mastered delegation, correspondence/Scheduler and shared conversation continuity now have runtime implementations. Broader draft proposals outside that implementation list remain proposals. Exact release/test evidence is in CURRENT-STATUS.md; historical notes below do not override it.
-
-# Universal NPC and form design template
+## Twelve-category authoring checklist
 
 Authoring standard established from Priya’s first completion package and Erin’s refinement review. This is a design checklist, not a second runtime schema. Keep the validated living profile in [FORM-LIVING-TEMPLATE.md](FORM-LIVING-TEMPLATE.md); reuse existing clocks, inventory, navigation, encounters, relationships and mastery adapters.
 
@@ -111,6 +124,56 @@ List canonical modules/adapters, additive fields/migration, old-save interpretat
 For each promised feature record design status, runtime location, automated evidence, actual browser flow and owner acceptance. Include a normal complete day, work→home, an interrupted visit, sleep/absence, time jumps, stocked/empty inventory, ownership, reloads, alternate body, mastery/repeat route and phone navigation. Add route-specific failure/reversion tests. Use meaningful tests, not assertions that merely repeat descriptions.
 
 Release handoff must state branch, exact runtime commit, tests, public link, blockers/limits and exact next action. Update this template whenever a character exposes a reusable missing category; keep character-specific taste and tuning in that character’s dossier. “First playable package complete” does not mean all future content or personal acceptance is finished.
+
+
+# Supporting requirements and historical checkpoints
+
+Confirmed requirements below remain binding within their stated scope. Old implementation checkpoints are historical; current per-character completion records resolve superseded values and establish actual implementation. Do not use an old status paragraph as a fresh test result.
+
+
+## Current portrait standard — approved visual references and individuality
+
+Use actual approved images as visual references when requested, after viewing them. Owner’s successful examples are Erin, the available portrait filed as Priya, and Nadia. Match natural photographic light, realistic skin/hair/fabric and believable relaxed presence, not generic polished renders. Different characters must have distinct expressions, posture and useful actions grounded in personality/vocation: Charity mature/helpful; Tits playful/distracted/goofy. Do not repeat an identical model pose across characters. Relevant interiors are allowed; keep room functions and background fixtures consistent with the actual plan, using bounded blur rather than inventing a floorplan. Plain studio is not mandatory: the owner explicitly clarified this after rejecting inaccurate store backgrounds. Preserve full-body visibility when requested. Never claim missing reference assets were inspected. Display actual images directly, not only link labels. Latest user directions supersede historical portrait attempts below.
+
+## Standalone body-shot override
+
+When the owner requests a plain character/body portrait, use full head-to-shoes framing and a simple studio background. Do not add a store, counter, register, cup or other scenery to a standalone body shot. Preserve established character identity and clothing. This instruction supersedes earlier contextual-backdrop attempts for Charity and Tits; those store-background revisions were rejected. Display actual images directly in chat, rather than only naming files or reading link labels aloud.
+
+## Character portraits grounded in actual location layouts
+
+When a character portrait includes a known home/business background, use the supplied floor plan and confirmed fixtures as constraints. Do not substitute a generic interior, merge separate retail/preparation rooms, invent doors/windows or imply a different public/private layout. Use a bounded counter/fixture view when a full spatial reconstruction is not supported. Preserve full-body framing where requested. Standing on the customer side is acceptable for showing a character’s whole outfit; do not infer the owner requires behind-counter placement. Distinguish geometry/fixtures confirmed by sources from proposed finishes/decor. On revisions replace rejected review files in place when keeping the same intended asset, preserve generated originals, and keep portraits out of public gameplay until integration is authorized.
+
+## Individual directed relationship meters — owner amendment
+
+All NPCs, including animal companions, use individual directed relationships toward each individual player on the signed−100…+100scale. A shared event/migration system is not a shared meter. Original-player identity persists across forms; appearance recognition, introductions and remembered body-specific contact remain separate. Preserve legacy saved scores and record provenance rather than resetting or summing unrelated NPCs. Separate Erin cooperative trust/mastery from signed social relationship. Resolve positive/negative effects from actual workflow reliability, favors, praise, criticism, care, play, rejection and conflict using character-specific rules; AI prose alone never changes scores. Deduplicate resolved events across reloads and limit repeat farming. Richard's personal rejection is−3once per actual offer; existing extra-work refusals remain separate. Display and Dev tools must read the same canonical pair record. Multiplayer identity transport remains outside the current local-save build; do not claim networking implemented.
+
+## Conditional report reviews and future schedule correspondence
+
+NPC review should react to actual updated report versions, not replay unchanged inbox tasks every evening. Separate observing a report, sending a proposed schedule change, recipient response and actual Scheduler booking. Weekend correspondence does not imply immediate work, consent or availability. Preserve authorship and real department sources; keep private report content out of unrelated guest/assistant dialogue. Richard's pre-bed update checks and weekend Monday-addendum messages are the confirmed reference.
+
+## Household assistant initiative and confidential observations
+
+Author social initiative, guest-offer authority, financial authority, private-area access and information disclosure separately. Richard's confirmed bot does not initiate socializing or guest offers; he requests social engagement, explicitly authorizes offers/access and approves spending. His prior host offer authorizes matching service without duplicate approval. Overheard conversation and witnessed work are confidential; filter recipient-specific prompts and descriptions before AI generation, not merely with a prose instruction afterward. Requested conversation or hospitality never automatically grants private information or room access. Retain each character's explicit policy rather than generalizing these strict preferences to all bots.
+
+## Delegated hospitality without duplicate approval
+
+An actual host offer authorizes a household assistant to fulfill the recipient's in-scope selection. Record host, guest, offered choices, visit/context, selection and fulfillment; do not ask the host to approve the same service again. Preserve real stock, funds, preparation and exactly-once item handover. Approval for refreshments does not grant unrelated private-room or computer access. Distinguish autonomous housekeeping/supply management from authorization to spend money. Richard's bot is the confirmed reference; apply this shared contract where a character actually delegates service.
+
+## Residence classification and spatial specificity
+
+Record whether a residence is a regular unit or an explicitly confirmed suite. Follow [Applewood suite architecture](APPLEWOOD-SUITE-DESIGN.md) when applicable: expanded rooms/storage/floor space, guest bedroom and bathroom, private master bathroom and balcony. Distinguish positional relationships from doors and transit routes; a bedroom between two areas is not automatically a walkthrough. Do not infer suite status from wealth or give every resident the same extra rooms.
+
+## Suite and household automation authoring
+
+A shared residence adapter does not require every character to have six rooms. Explicitly author extra guest rooms and workout areas when confirmed. For owned household bots, record identity/appliance status, location, supported duties, finite supplies, job time/progress and access boundaries. Cleaning must alter actual dishes/laundry state only after resolved work. Connected screens display recorded information and do not grant guests access to private computers. Do not assume bot sentience, combat, surveillance or player-control powers from domestic assistance alone.
+
+## Reusable implementation requirements from Nadia/Dart
+
+Use the shared character-home adapter for distinct authored rooms and nested drawers; per-character stock, clothing ownership, private changing, care permissions, ongoing guest activities and actual timed supplies. Keep the common physical presence/hearing/navigation boundary. Animal companions have independent location, needs and learned familiarity. Canine input exposes only resolved body signals; player thoughts stay private. Attention, play, visits, collaring and confinement are separate choices; cleanup on body release must preserve existing mastery. Validate bounded AI proposals against the current scene before applying effects and retain authored fallback. Test room/floor barriers, reloads, interrupted activities, inventory transfer, finite stock/payment, ordinary gear release and mobile controls. Keep venue services universal and explicitly deferred until implemented. Character personality and decor are authored separately; do not copy Nadia’s wealth or Priya’s preferences into every household.
+
+## v1.0.106 implementation checkpoint
+
+See [implemented Erin/shared refinements and limits](ERIN-REFINEMENT-IMPLEMENTATION.md) and [acceptance checklist](V1.0.106-OWNER-ACCEPTANCE.md). Sustained activities, satisfaction, voluntary mastered delegation, correspondence/Scheduler and shared conversation continuity now have runtime implementations. Broader draft proposals outside that implementation list remain proposals. Exact release/test evidence is in CURRENT-STATUS.md; historical notes below do not override it.
 
 ## Owner-confirmed conversation and departure rule
 

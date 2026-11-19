@@ -1,0 +1,490 @@
+{
+  "scope": "Local template/Charity/service-presence candidate. Browser AI transport intercepted; no paid model calls or owner saves.",
+  "unitCases": 1479,
+  "unitSuites": 88,
+  "unitResults": [
+    {
+      "file": "rebuild/combat/civilian-encounter.test.js",
+      "cases": 14,
+      "passed": true
+    },
+    {
+      "file": "rebuild/combat/dice-advantage.test.js",
+      "cases": 14,
+      "passed": true
+    },
+    {
+      "file": "rebuild/combat/entity-rules.test.js",
+      "cases": 0,
+      "passed": true
+    },
+    {
+      "file": "rebuild/combat/kibbles-ai.test.js",
+      "cases": 38,
+      "passed": true
+    },
+    {
+      "file": "rebuild/combat/kibbles-form.test.js",
+      "cases": 21,
+      "passed": true
+    },
+    {
+      "file": "rebuild/combat/kibbles-presentation.test.js",
+      "cases": 27,
+      "passed": true
+    },
+    {
+      "file": "rebuild/combat/play-encounter.test.js",
+      "cases": 35,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/ai-client.test.js",
+      "cases": 44,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/ai-context.test.js",
+      "cases": 37,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/apartment-navigation.test.js",
+      "cases": 9,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/authored-dialogue.test.js",
+      "cases": 5,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/binding-and-footwear.test.js",
+      "cases": 9,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/burkes-retail.test.js",
+      "cases": 15,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/burkes-sweets.test.js",
+      "cases": 14,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/business-availability.test.js",
+      "cases": 8,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/canine-conversation.test.js",
+      "cases": 9,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/canine-expression.test.js",
+      "cases": 15,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/canine-routines.test.js",
+      "cases": 15,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/character-conversation.test.js",
+      "cases": 14,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/charity.test.js",
+      "cases": 8,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/cherished-shop.test.js",
+      "cases": 15,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/cherished-touch.test.js",
+      "cases": 19,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/cubicle-layout.test.js",
+      "cases": 4,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/cursed-household-flow.test.js",
+      "cases": 22,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/dart.test.js",
+      "cases": 14,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/department.test.js",
+      "cases": 25,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/easter-egg.test.js",
+      "cases": 21,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/enchanted-counter.test.js",
+      "cases": 19,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/equipment-storage.test.js",
+      "cases": 27,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/erin-agency.test.js",
+      "cases": 26,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/erin-daily-office.test.js",
+      "cases": 24,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/erin-life.test.js",
+      "cases": 41,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/erin-refinement.test.js",
+      "cases": 32,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/erin-release.test.js",
+      "cases": 11,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/erin-restoration.test.js",
+      "cases": 25,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/erin-shower-products.test.js",
+      "cases": 9,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/erin-wellbeing.test.js",
+      "cases": 24,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/expanded-map.test.js",
+      "cases": 7,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/footwear-senses.test.js",
+      "cases": 10,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/form-minds.test.js",
+      "cases": 43,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/form-presence.test.js",
+      "cases": 28,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/form-reference.test.js",
+      "cases": 9,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/hangry-fangs.test.js",
+      "cases": 20,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/high-influence.test.js",
+      "cases": 16,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/hub-world.test.js",
+      "cases": 18,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/interaction-state.test.js",
+      "cases": 5,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/intro-target-appearance.test.js",
+      "cases": 8,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/kibbles-state-flow.test.js",
+      "cases": 12,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/live-time.test.js",
+      "cases": 8,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/location-and-resolve-ack.test.js",
+      "cases": 9,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/location-details.test.js",
+      "cases": 11,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/lunch-migration.test.js",
+      "cases": 2,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/marketing.test.js",
+      "cases": 28,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/mystery-box.test.js",
+      "cases": 11,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/nadia-daily.test.js",
+      "cases": 5,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/nadia-household.test.js",
+      "cases": 12,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/nadia-integration.test.js",
+      "cases": 8,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/narration-grounding.test.js",
+      "cases": 10,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/navigation.test.js",
+      "cases": 27,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/office-batch-work.test.js",
+      "cases": 18,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/office-floor.test.js",
+      "cases": 25,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/office-layers.test.js",
+      "cases": 5,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/office-workflow.test.js",
+      "cases": 17,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/owner-corrections.test.js",
+      "cases": 8,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/priya-cat.test.js",
+      "cases": 28,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/priya-daily.test.js",
+      "cases": 17,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/priya-flats.test.js",
+      "cases": 40,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/priya-home-navigation.test.js",
+      "cases": 10,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/priya-household.test.js",
+      "cases": 18,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/priya-media.test.js",
+      "cases": 8,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/priya-visits.test.js",
+      "cases": 8,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/priya.test.js",
+      "cases": 26,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/relationships.test.js",
+      "cases": 8,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/resistance-needs.test.js",
+      "cases": 21,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/richard-daily.test.js",
+      "cases": 5,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/richard-home.test.js",
+      "cases": 13,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/richard-office.test.js",
+      "cases": 19,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/richard-report-ui.test.js",
+      "cases": 4,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/richard.test.js",
+      "cases": 30,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/roleplay-footwear.test.js",
+      "cases": 7,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/served-items.test.js",
+      "cases": 6,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/shared-activities.test.js",
+      "cases": 7,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/shared-home-activities.test.js",
+      "cases": 16,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/technology-center.test.js",
+      "cases": 19,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/workplace-schedule.test.js",
+      "cases": 6,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/world-clock.test.js",
+      "cases": 15,
+      "passed": true
+    },
+    {
+      "file": "rebuild/hub/world-objects.test.js",
+      "cases": 13,
+      "passed": true
+    },
+    {
+      "file": "services/ai/test.mjs",
+      "cases": 46,
+      "passed": true
+    }
+  ],
+  "browser": {
+    "scope": "Local isolated browser; AI intercepted, no provider request.",
+    "checks": [
+      "19:15 with absent employee refuses entry and displays an explicit message",
+      "19:15 staffed shop opens and Tits appears as an actual counter recipient",
+      "ordinary Tits dialogue produces a real feed response without spending gold",
+      "closed and unstaffed shop still permits existing visitor exit",
+      "20:00 closing boundary blocks entry even with the employee present",
+      "Cherished Touch uses the same explicit closure guard",
+      "repeat Charity conversation answers the actual fitting question",
+      "actual Charity AI packet includes established identity and live service context",
+      "public Charity AI packet contains no protected lore or private owner identity",
+      "no browser script errors"
+    ],
+    "errors": []
+  },
+  "syntax": "PASS",
+  "sourceSHA256": {
+    "rebuild/hub/ai-context.js": "2546c5cd596d9ecd980aad934b5ea290de9d95f12509c0c83ab26ab1e01919b5",
+    "rebuild/hub/ai-ui.js": "6e7facdfcc2a65f06f019085dfe89545a8ec70882c9922988c950d784fa3fbae",
+    "rebuild/hub/burkes-retail.js": "b5fdff96f27cb6c6fa9c0e107f2ee11c280fad2de53b2c5b813629980dcd6dc8",
+    "rebuild/hub/burkes-sweets-ui.js": "4045217b79a2b597dffec691bb4a87911bf2e8fa45987781196fd96a92fb74dc",
+    "rebuild/hub/burkes-sweets.js": "3aa6997a03c6ab84e505d302c67846e24f4aa9d1cf8c62a6c1939006cb8678f6",
+    "rebuild/hub/burkes-sweets.test.js": "b26a5c51ba0189a02d58677086af362001014f3f8d7cda9670d68cb98ce13d91",
+    "rebuild/hub/cherished-touch-ui.js": "2c126b303026a0d11b19f9ce7c8166cf8700a7109602b4c5a51a7ca2b7265c01",
+    "rebuild/hub/cherished-touch.js": "f8b2d2faa2cedcb2c496ce7622b23075464030bacdf6bdf6f1fff4bc18284772",
+    "rebuild/hub/index.html": "468e10fa59e701f464a6add934800b934509f0c7a9dac317f01449025d316f52",
+    "rebuild/hub/business-availability.js": "ff5502cc647729970950d5ad4be3f62de01af310a421e58cd3785cfe47281074",
+    "rebuild/hub/business-availability.test.js": "502bf325083c0be556c340aaae73707f6554d8d963fa054fe86266979a92831f",
+    "rebuild/hub/charity.js": "f818039c853da60c21b2f5b172d390fa5b59fb012a6db7db50b64cb45f947683",
+    "rebuild/hub/charity.test.js": "0aab5711fd53ba17445a80b59d38f1e0c63a98a44c339f9c0934f163e3627412",
+    "scripts/browser-charity-availability.cjs": "c4e79ece031ed9998766fcd6a616b101f5e9cbd701df11db9e3fd3a3b69811f5"
+  },
+  "published": false,
+  "workerChanged": false,
+  "charityFullyComplete": false,
+  "remaining": [
+    "autonomous daily routine and rest/coverage",
+    "household fixtures, supplies and care jobs",
+    "purpose-scoped private invitations and warnings",
+    "authored mask/quest controllers and unresolved milestone parameters",
+    "deployed and real-model acceptance"
+  ]
+}

@@ -1,3 +1,7 @@
+## Current character/availability review — implementation candidate
+
+See [Charity template completion review](CHARITY-TEMPLATE-COMPLETION-REVIEW.md). Ordinary retail is already implemented in later releases; historical no-price/no-checkout statements below are not current behavior. The new candidate adds ordinary contextual Charity dialogue/public AI representation and closed/unstaffed admission guards. It does not complete her household/routines/mask quests or replace the legacy blanket private-permission adapter. No new public release is claimed here.
+
 ## Visual review of owner-reuploaded drawing — November18,2026
 
 The original hand-drawn Cherished Touch sheet has now been visually reviewed in the conversation, rather than relying solely on its prior transcription. It includes an upper-left pathing diagram, a lower-left furnished floor plan, A–J legend, open-entry/doorway symbols, storefront sketch and written room briefs. The supplied image itself is present in chat; do not falsely claim a new local/repository image copy was saved.
