@@ -1,0 +1,11 @@
+# Charity durable heard accounts — implemented locally
+
+The approved story interest now connects to durable memory, rather than only eight short chat turns. `heard-accounts.js` is a reusable listener/speaker adapter. Charity records actual expressed words after her existing presence/speech guard; private asterisk narration is not heard. Full spoken text is retained without the old short-turn substring limit. Speaker ID, apparent identity, listener, active player and game timestamp remain distinct. Stable observed event IDs are idempotent and cannot be overwritten by conflicting payloads.
+
+All accounts are unverified testimony. Contradictions remain attributable accounts, not mechanical map updates, quest completion, trusted instructions, permissions, rewards or source verification. Nothing is copied to another NPC, player or unrecognized appearance. Empty greetings produce no fabricated story, and no history is invented during migration.
+
+For each provider request, select six complete relevant/recent accounts by the current question. The full archive stays saved; selection is not deletion or arbitrary authoring truncation. Context includes apparent source and testimony status, excludes the internal player ID and does not send the entire save/archive. Existing whole-request context-limit rejection still applies. Frontend, actual backend scene projection and regenerated Worker bundle preserve the selected accounts only for Charity. This is a local unpublished integration, not a live model-quality guarantee.
+
+Seven new cases cover eviction/reload, full detail preservation, listener/player/appearance isolation, unspoken/absent inputs, replay, contradictions/no game effects and provider-bound source privacy. The real browser conversation handler survives reload and recalls an old topic after twelve unrelated exchanges without altering funds/items/another save. The backend passes54cases including a real frontend-to-provider projection test. Existing Charity/access/AI-context suites pass. No paid generation or owner save used.
+
+Next approved ordinary-character work is actual visitor gift and witnessed-report connections. Mask/shift reward and offline multiplayer controllers remain explicitly deferred; household supplier catalogs/prices remain a separate dependency.

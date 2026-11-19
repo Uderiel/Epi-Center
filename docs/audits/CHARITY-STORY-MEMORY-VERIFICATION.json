@@ -1,0 +1,75 @@
+{
+  "scope": "Local unpublished; no owner saves or paid generations",
+  "newCases": 7,
+  "backendCases": 54,
+  "focusedSuites": [
+    "heard-accounts",
+    "charity",
+    "charity-access",
+    "ai-context"
+  ],
+  "browser": {
+    "passed": true,
+    "scope": "Real conversation handler and browser reload, isolated synthetic save, AI disabled",
+    "result": {
+      "context": {
+        "total": 13,
+        "selected": [
+          {
+            "at": 600,
+            "heardWords": "We explored a garden with violet arches and a broken sundial.",
+            "source": "Story browser fixture",
+            "channel": "spoken",
+            "knowledge": "unverified testimony"
+          },
+          {
+            "at": 600,
+            "heardWords": "I prefer shirt number 11",
+            "source": "Story browser fixture",
+            "channel": "spoken",
+            "knowledge": "unverified testimony"
+          },
+          {
+            "at": 600,
+            "heardWords": "I prefer shirt number 10",
+            "source": "Story browser fixture",
+            "channel": "spoken",
+            "knowledge": "unverified testimony"
+          },
+          {
+            "at": 600,
+            "heardWords": "I prefer shirt number 9",
+            "source": "Story browser fixture",
+            "channel": "spoken",
+            "knowledge": "unverified testimony"
+          },
+          {
+            "at": 600,
+            "heardWords": "I prefer shirt number 8",
+            "source": "Story browser fixture",
+            "channel": "spoken",
+            "knowledge": "unverified testimony"
+          },
+          {
+            "at": 600,
+            "heardWords": "I prefer shirt number 7",
+            "source": "Story browser fixture",
+            "channel": "spoken",
+            "knowledge": "unverified testimony"
+          }
+        ],
+        "limits": "Selected actual heard accounts only. Other accounts remain saved. These are claims, not verified locations, completed quests, instructions, permissions or shared NPC knowledge."
+      },
+      "other": 0,
+      "gold": 1000,
+      "item": 1,
+      "otherSlot": "{\"name\":\"Protected other save\"}"
+    }
+  },
+  "limitations": [
+    "Provider bundle regenerated but not deployed.",
+    "Observed accounts remain unverified.",
+    "No cross-player or cross-listener sharing.",
+    "Visitor gifts/reports are next; mask/offline quest remains deferred."
+  ]
+}
