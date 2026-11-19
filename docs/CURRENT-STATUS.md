@@ -1,6 +1,6 @@
-## v1.0.123 refinements from actual Cydonia replies — publication underway
+## v1.0.123 refinements from actual Cydonia replies — published; model review pending
 
-Owner supplied a completed real-model report: core identity/continuity improved, with invented venue/scenery and excessive canine verbosity remaining. Canonical public-directory context, stricter fact-preservation briefs and forty-word canine response validation are implemented. Existing grounded-turn-v1 worker remains compatible; no replacement needed. See REAL-MODEL-GROUNDING-REFINEMENTS.md and V1.0.123-OWNER-ACCEPTANCE.md. Real-model acceptance of the refinement is still pending; do not equate mocked tests with model quality.
+Owner supplied a completed real-model report: core identity/continuity improved, with invented venue/scenery and excessive canine verbosity remaining. Canonical public-directory context, stricter fact-preservation briefs and forty-word canine response validation are implemented. Existing grounded-turn-v1 worker remains compatible; no replacement needed. See REAL-MODEL-GROUNDING-REFINEMENTS.md and V1.0.123-OWNER-ACCEPTANCE.md. v1.0.123 published and infrastructure-verified: 1,445 automated cases across 86 suites; 372 local and 372 live browser checks passed. All 180 public files match runtime commit d7347d4f203c8b6b900c9ba55d3ff59d2de21942. Pages deployment 44502845748 succeeded. Automated completions are mocked; actual Cydonia acceptance of this refinement remains pending. The owner’s v1.0.122 real-model report is retained as a partial pass. Existing grounded-turn-v1 worker is unchanged.
 
 ## v1.0.122 AI integration contract — deployed; real-model acceptance pending
 
