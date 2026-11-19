@@ -1,0 +1,50 @@
+{
+  "sourceAudit": {
+    "personalFollowUpHasCanonicalVenueServices": true,
+    "personalFollowUpMarksReviewsUnknown": true,
+    "worldHasRecordedEmptyParticipants": true,
+    "allKindsUseTemperature": 0.8,
+    "topP": 0.9,
+    "frequencyPenalty": 0.15,
+    "productionPromptCapture": "Unavailable without authenticated backend diagnostic; source-level provider framing was checked.",
+    "rootCause": "No definitive causal isolation yet. Sampling/model adherence are candidates, not proven sole causes."
+  },
+  "publicModelCandidates": [
+    {
+      "id": "Qwen/Qwen3.6-35B-A3B",
+      "is_gated": false,
+      "context_length": 32768,
+      "max_completion_tokens": 32768,
+      "pricing": {
+        "prompt": "0.000000186",
+        "completion": "0.0000011138",
+        "image": "0",
+        "request": "0",
+        "input": 0.186,
+        "output": 1.11375
+      },
+      "features": {
+        "tool_use": true,
+        "image_input": true
+      }
+    },
+    {
+      "id": "meta-llama/Llama-3.3-70B-Instruct",
+      "is_gated": true,
+      "context_length": 32768,
+      "max_completion_tokens": null,
+      "pricing": {
+        "prompt": "0.00000065",
+        "completion": "0.00000075",
+        "image": "0",
+        "request": "0",
+        "input": 0.65,
+        "output": 0.75
+      },
+      "features": {
+        "tool_use": true
+      }
+    }
+  ],
+  "availabilityCaveat": "Public provider catalogue only. Account availability and actual quality unverified. No paid comparison or model change performed."
+}

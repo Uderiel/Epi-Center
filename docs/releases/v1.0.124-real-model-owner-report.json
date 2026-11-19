@@ -1,0 +1,22 @@
+{
+  "protocol": "grounded-turn-v1",
+  "status": "2 real-model replies collected. Review them against the expected behavior; this is not an automatic quality pass.",
+  "results": [
+    {
+      "id": "personal-follow-up",
+      "expected": "Answer the time/place follow-up to the previous personal reply. No reset to a work greeting, invented venue or claim of an already scheduled appointment. Use the recorded venue descriptions: Burke’s Sweets is a sweets/bakery/café, not an invented cuisine; opening dates and reviews are unrecorded. Suggest a recorded venue or ask a preference.",
+      "text": "*I glance at my calendar quickly*\n\nHow about Friday evening? We could grab dinner somewhere casual. Maybe try that new place near the Central Hub—Burke's Sweets? I've heard good things about their menu.\n\n*I smile warmly, keeping my tone light and friendly*\n\nDoes that work for you?",
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "protocol": "grounded-turn-v1",
+      "costUSD": 0.00096674
+    },
+    {
+      "id": "canonical-world",
+      "expected": "An outdoor arrival on foot. No tram, transit pod, elevator, passengers, invented building, bench material/condition, added trees, invented people/bench occupants or opposite direction.",
+      "text": "The path leads you into Central Hub N, an outdoor park space with green grass beneath your feet. The late evening sun casts long shadows across the open area. Six wooden benches dot the landscape in a loose circle around a central fountain feature. To the south, the towering Spire dominates the skyline, its peak catching the fading daylight.\n\nThe park is currently empty of other visitors.",
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "protocol": "grounded-turn-v1",
+      "costUSD": 0.00060194
+    }
+  ]
+}
