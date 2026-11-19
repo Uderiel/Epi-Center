@@ -1,3 +1,7 @@
+## Owner decisions superseding earlier proposed sections
+
+Owner approves the neutral everyday clothes/comfortable flats, practical sleepwear, mild toiletries, simple meals/tea and mending/crosswords/light comedy defaults below. Private-access eligibility is finalized at **+75**, with explicit purpose-specific invitation, not blanket permission. Weekday24-hour service is retained; the proposed normal midnight–06:08 shutdown is rejected. Rest requires designed coverage. See CHARITY-TEMPLATE-COMPLETION-REVIEW.md for current implementation rather than historical draft status.
+
 ## Proposed interaction refinements for owner review — new behavior details
 
 Core voice/traits already confirmed: kind, patient, mischievous, polite, slow to trust, Gifted Gabber/big talker, guarded service-minded fatigue, resistance/captivity, graded cryptic/private disclosure, protective refusal to sell traps. Do not ask the owner to choose those again. New proposed defaults below are NOT yet confirmed:

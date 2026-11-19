@@ -1,0 +1,68 @@
+{
+  "scope": "Charity scoped access and conversation stage, not full NPC completion. Development only; no paid model calls.",
+  "automated": {
+    "cases": 1510,
+    "suites": 89,
+    "passed": true,
+    "syntax": "PASS",
+    "modulePaths": "PASS"
+  },
+  "browser": {
+    "charity-access": {
+      "scope": "Synthetic saves; actual UI; no paid model requests",
+      "checks": [
+        "phone UI exposes separate hallway bathroom and company requests",
+        "below75 actual permission button refuses without a grant or inventory change",
+        "75plus actual request grants bathroom purpose and records the safety warning",
+        "bathroom invitation excludes stock laundry kitchen and dining",
+        "same-player invitation survives browser reload",
+        "actual stated preference survives reload without inventory or resource rewards",
+        "switching player inside private room keeps UI renderable without granting fixtures",
+        "uninvited player can leave physically and reentry has no inherited private access",
+        "leaving ends earlier-player invitation as well through visit identity",
+        "phone layout stays within screen width",
+        "no uncaught page errors"
+      ],
+      "errors": []
+    },
+    "charity-availability": {
+      "scope": "Local isolated browser; AI intercepted, no provider request.",
+      "checks": [
+        "19:15 with absent employee refuses entry and displays an explicit message",
+        "19:15 staffed shop opens and Tits appears as an actual counter recipient",
+        "ordinary Tits dialogue produces a real feed response without spending gold",
+        "closed and unstaffed shop still permits existing visitor exit",
+        "20:00 closing boundary blocks entry even with the employee present",
+        "Cherished Touch uses the same explicit closure guard",
+        "repeat Charity conversation answers the actual fitting question",
+        "actual Charity AI packet includes established identity and live service context",
+        "public Charity AI packet contains no protected lore or private owner identity",
+        "no browser script errors"
+      ],
+      "errors": []
+    }
+  },
+  "decisions": {
+    "privateAccessRelationshipMinimum": 75,
+    "householdDefaults": "approved",
+    "weekday24HourService": "retained",
+    "normalOvernightClosure": "rejected"
+  },
+  "incomplete": [
+    "Household stocks, wardrobe and timed care/meal/laundry jobs",
+    "Actual coverage, six-hour handover, covered rest and quest lifecycle",
+    "Twentieth mastery challenge and later hidden destination",
+    "Real-model portrayal acceptance"
+  ],
+  "sha256": {
+    "rebuild/hub/charity.js": "125a91b7f106db48b67cdf81a3e1dd461804539f797687e59946584ac875e0b0",
+    "rebuild/hub/charity.test.js": "9c0a1393787b08a83349d2e4b6eb5c959126da18f86ed8dae86fadd09187557e",
+    "rebuild/hub/cherished-touch-ui.js": "a4f3ca312923bee844a636c7e261b9e0f7cc67232de25c7f70a73bd55972b5fc",
+    "rebuild/hub/cherished-touch.js": "2ec3c960495fa1c42fc5c3d23ecf3db8e6d6f4851be653fe323bb90e68acb61a",
+    "rebuild/hub/cherished-touch.test.js": "a211079890e6a5fd0d9d761cf6a2404d47678027f0baa12b798d75d00d656883",
+    "rebuild/hub/erin-restoration.test.js": "b2981473fb8fa6f998bad7999f91effff97a6c321e283df76fa4dd90a73a8221",
+    "rebuild/hub/technology-center.test.js": "1aca1442bee184899c111a83dd887ce4fbc8a2993620ada7448b5133a859aa58",
+    "rebuild/hub/charity-access.test.js": "98ba53b95d1c7bd2deab78a2660a8584b2051df9aafbedf6efc44e6914e3afc8",
+    "scripts/browser-charity-access.cjs": "bf16dd244a9a7c300eb3d9e7e93d5b268e90546c3e140fe49b67b789cb50c38b"
+  }
+}

@@ -1,3 +1,7 @@
+## Current owner priority — November 19, 2026
+
+**Finish Charity → finish Tits → functional surrounding Hub shops and fully authored NPCs → Erin’s coworkers.** Follow HUB-NPC-COMPLETION-ORDER.md and the current NPC template; do not ask the owner to choose the next project. Charity household defaults and75private-invitation eligibility are now approved. Keep24-hour weekday service and design genuine rest coverage.
+
 ## Cherished Touch ordinary retail slice — development
 
 Implemented and locally verified: nested rack drawers, chosen bundle, private fitting, basket/register payment and owned carried clothes.1,310automated/118browser checks pass; not published. Next counter/Mystery Box/equipment modifiers and limited enchanted stock/effects, then Charity routines/quests. See CHERISHED-SALES-FLOOR-IMPLEMENTATION.md.

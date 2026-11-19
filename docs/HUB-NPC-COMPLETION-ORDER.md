@@ -1,0 +1,31 @@
+# Owner-directed build order — November 19, 2026
+
+The owner directs: **finish Charity → finish Tits → make the other Hub businesses visitable with purchasable goods and fully authored NPCs → return to Erin’s coworkers**. This is an active implementation sequence, not permission to skip character work because checkout functions. Do not ask the owner to select the next project again. Use the current NPC template for every character, with design/runtime/AI/evidence distinguished.
+
+## 1. Charity — current work
+
+Reconcile the twelve-section completion record and finish the ordinary living-character and service behavior before moving on. Owner now approves the existing household draft’s neutral everyday clothing/comfortable flats, practical sleepwear, mild toiletries, simple meals/tea, and mending/crosswords/light comedy. Eight-minute shower remains confirmed. Private-room eligibility is **+75**, not the earlier proposed +70, and still requires Charity’s real purpose-specific invitation. Stock and secret access are not implied.
+
+The owner explicitly keeps **24-hour weekday service**, rejecting a proposed midnight–06:08 closure. Design actual rest coverage; do not silently impose overnight closing. Existing approved +90 six-hour mask-coverage route is a dependency for real cover/rest. Its acceptance, disguise/role expression, actual customer/service state, six-hour commitment, return/removal and exactly-once rewards remain a substantial implementation stage. Existing occasional temporary closures do not constitute a normal approved nightly schedule. Weekend operation remains unresolved.
+
+Current implemented stage: scoped hallway/bathroom/dining visits, per-player and current-appearance isolation, end-on-exit, safe physical egress after revocation, protected-stock safety warning on actual admission, explicit spoken preference/history memory, contextual payment and approved personal-interest dialogue. No claim of completed household needs/jobs, coverage quests, full daily routine or final template acceptance.
+
+Next concrete implementation: real Charity household stocks/jobs and authored covered-rest handover using existing clock, ownership, physical room and service systems; then comprehensive day/coverage/privacy/empty-stock/reload/browser verification. Record open twentieth-trial/hidden-destination work separately instead of fabricating it.
+
+## 2. Tits
+
+Retain all approved character and service decisions. Reconcile the stale early design matrix against the existing actor, retail/order/reload systems before adding features. Connect complete appearance/wardrobe/grooming, actual familiarity cues/nicknames/distinctive orders and kindness, social boundaries, prep/cleanup/needs/coverage and delivery records to the AI and controllers. Current home is **Wet Lily Apartments #233 Unit1**, design pending. Alia knows her needs; Daily Needs fatigue-restorative behavior must use real stock/payment/effects once available. Do not fabricate a completed home interior or offscreen errand.
+
+## 3. Remaining surrounding Hub businesses
+
+Immediate ring: Form Repository #64, Pet Boutique #65, Daily Needs #66, Neko Cafe #67, Zen Shop and Spa #68, Going Out of Business #69. Existing sheets/data are available for all except Zen’s interior. Use the latest owner-corrected Going Out of Business edges (A–D present, B–C absent). Groceries Aplenty #99 and Only on Time #322 are recorded surrounding-service dependencies, not invented completed services.
+
+For each deliver a coherent playable package: correct exterior and physical entrances/interiors, room/fixture navigation, actual registered/on-duty staff, shared closed/unstaffed admission and safe exit, finite/explicitly replenishing goods, prices/ownership/atomic checkout, supported service outcomes, per-player relationship/memory, complete NPC-template profiles and audience-filtered AI facts. Source schematics are not completed gameplay. Reuse shared systems; each location supplies its geometry/catalogue/policies and each NPC its identity/personality/reaction data.
+
+## 4. Erin’s coworkers
+
+Return after the preceding Hub work. Recover existing office authoring and unresolved personal work/household/relationship records before drafting new content. Preserve stable worker/form identities, genuine visible coworkers, player-specific saved history and existing work controllers. Similar names are not shared identities.
+
+## Release and evidence
+
+Current public release remains v1.0.125 until a later publication. The owner has connected Cloudflare Builds: repository pushes to the production branch can deploy the Worker; its required context/relationship versions were verified live. Real Cydonia portrayal quality still needs authenticated acceptance, separate from synthetic tests. Do not repeat the obsolete claim that all Worker updates must be manually pasted by the owner.

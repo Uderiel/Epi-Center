@@ -1,3 +1,7 @@
+## Owner build order and Charity completion work — development
+
+Fixed order: Charity, Tits, other Hub businesses/NPCs, then Erin’s coworkers. See HUB-NPC-COMPLETION-ORDER.md. Owner approves Charity’s existing household taste defaults and finalizes private-access eligibility at75, with purpose-specific invitation. Weekday24-hour service remains; no normal overnight shutdown. Charity now has scoped per-player/current-appearance visit permission, persistent heard safety warnings, explicit preference memory and improved follow-up/personal dialogue. Real household jobs/needs and covered rest remain unfinished. No new release. The Cloudflare Worker is now automatically deployed via GitHub and its required versions were verified; older manual-update-blocked statements are historical.
+
 ## Only on Time delivery service placed — tile322
 
 Owner assigns **Only on Time** to **tile322, (1,8)**, directly right/east of tile112 (0,8) and above/north of tile151 (1,9). The square was empty; map data now includes this exterior and preserves the other321 tiles. Interior, courier identities, schedules and service simulation remain pending. Previously established shared courier/service dependencies remain; do not invent a distribution-center identity or active delivery jobs. Development change only, not published.

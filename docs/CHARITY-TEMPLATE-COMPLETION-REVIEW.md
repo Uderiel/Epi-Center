@@ -1,3 +1,18 @@
+## Current owner decisions and implementation stage — November 19, 2026
+
+Current stage evidence: **1,510 automated cases across 89 suites**, all passed; **11 access/memory browser checks plus 10 Charity/business-presence checks**, all passed with isolated saves and intercepted/offline AI. See audits/CHARITY-ACCESS-AND-MEMORY-VERIFICATION.json. The original v1.0.125 release evidence is preserved. This does not certify the unfinished household/coverage stages.
+
+This update supersedes conflicting historical review rows below. See HUB-NPC-COMPLETION-ORDER.md for the owner’s fixed build order.
+
+- **Household defaults approved:** neutral everyday clothing and comfortable flats, practical sleepwear, mild toiletries, simple meals/tea and mending/crosswords/light comedy. Eight-minute shower remains required. These are now approved tastes/design inputs; household jobs and stocks are still not fully implemented.
+- **Private access:** +75 relationship and a real, purpose-specific invitation; eligibility alone never grants entry. Current implementation supports hallway, bathroom (including necessary bedroom transit), and dining-room company. Invitation belongs to the individual player/current appearance/current visit; leaving ends it. Legacy blanket privateAccess no longer authorizes every room. Storage, laundry and personal belongings are not automatically included. Lost permission preserves the physical route out and prevents new private fixture use.
+- **Safety:** actually admitted visitors hear the protective permanent-form/NPC-role warning without the concealed supplier. Heard warnings persist per player/apparent identity; past warning is not present access or secret-route knowledge.
+- **Dialogue/memory:** explicitly spoken clothing preferences and bounded actual exchanges persist separately per player/apparent identity. Payment follow-ups answer payment. Household interests/preferences now reach the public character portrayal; prose does not create performed care/rest or stock.
+- **Hours/rest:** owner retains 24-hour weekday service and rejects normal midnight–06:08 closure. Actual covered rest must be designed/implemented through the established coverage route. No normal overnight shutdown was added; weekends remain unresolved.
+- **Release/AI:** v1.0.125 is already published and its Worker’s required versions are now live through Cloudflare Builds. This new access/memory work is development only. Real-model acceptance of Charity’s expanded portrayal remains unverified.
+
+**Completion remains partial:** physical needs, actual owned wardrobe/food/care stocks, timed household/laundry jobs, covered rest and service/quest handover must still be built and verified before calling Charity template-complete. Do not promote a proposal, a dossier sentence or an access test into proof of a functioning whole day.
+
 ## Later owner relationship clarification
 
 The universal [directed relationship contract](DIRECTED-RELATIONSHIP-SYSTEM.md) now defines the common signed bar and tier meanings. Social trust is a meaning of relationship, not a second meter. Charity's existing +75 selective-disclosure eligibility, +90 mask-job gate and +100 twentieth-trial invitation gate remain separate authored conditions; reaching an affinity tier does not execute those actions. The earlier completion review below remains scoped to its own candidate and test evidence.
