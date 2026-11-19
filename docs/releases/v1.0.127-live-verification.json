@@ -1,0 +1,136 @@
+{
+  "runtimeCommit": "ba5b64e180d581f564e66b2cffefd5b2778d219a",
+  "records": [
+    {
+      "file": "rebuild/hub/assets/cherished-touch/day/outside.jpg",
+      "matched": true,
+      "sha256": "7c57f18f0b654bf9d20fa4524b0ef4fdfb11c03e78a1c29dab5610eb52d2fe7c"
+    },
+    {
+      "file": "rebuild/hub/assets/cherished-touch/day/a.jpg",
+      "matched": true,
+      "sha256": "c3fa4b9b1e19fcb33847241d26db450d5e87208ccb8297a4f27cc100d76a9dd6"
+    },
+    {
+      "file": "rebuild/hub/assets/cherished-touch/day/b.jpg",
+      "matched": true,
+      "sha256": "f2e480bf3f69b443120c240b7785e1ae4517618a311d674155b8a60c54a95ff8"
+    },
+    {
+      "file": "rebuild/hub/assets/cherished-touch/day/c.jpg",
+      "matched": true,
+      "sha256": "08889e9537759f3e2a893fa39a75359ed6b72db6a3464bd66a7c66c81e4b1c5b"
+    },
+    {
+      "file": "rebuild/hub/assets/cherished-touch/day/d.jpg",
+      "matched": true,
+      "sha256": "8b4375c06a5a4ecb17ed2fd6d174d9ce868831cde56659673e826cf7c0277e75"
+    },
+    {
+      "file": "rebuild/hub/assets/cherished-touch/day/e.jpg",
+      "matched": true,
+      "sha256": "acd8f5465d87d74646604e9efa0f5968541af2e74d24ea0ad1779962b8aaaba5"
+    },
+    {
+      "file": "rebuild/hub/assets/cherished-touch/day/f.jpg",
+      "matched": true,
+      "sha256": "0e449a9d082ba8797c0d1f7387268b07df1a9599778fb5d58beb46e4149755be"
+    },
+    {
+      "file": "rebuild/hub/assets/cherished-touch/day/g.jpg",
+      "matched": true,
+      "sha256": "e269feb687af3e00a2df69490341ead1661b1c9f1d36b07a1a643befdaba2071"
+    },
+    {
+      "file": "rebuild/hub/assets/cherished-touch/day/h.jpg",
+      "matched": true,
+      "sha256": "66c0ea42e755bbd3a5c067683d39760cb5e457a3551aae109fdefc6b71f0b892"
+    },
+    {
+      "file": "rebuild/hub/assets/cherished-touch/day/changing.jpg",
+      "matched": true,
+      "sha256": "574ff3731f195562db399b69a1a3161a73a0ed2e5333e73d186a378d64784aa4"
+    },
+    {
+      "file": "rebuild/hub/assets/cherished-touch/day/j.jpg",
+      "matched": true,
+      "sha256": "10a14d4dc2fc5743346367c9a28cfcea342cd08a66713ed7a33aa1dd54ebacf0"
+    },
+    {
+      "file": "rebuild/hub/assets/cherished-touch/night/outside.jpg",
+      "matched": true,
+      "sha256": "1b8c4a6a4dc46ea1b1bc65b8c0a81dc29c6b9dbc56d3bff1a5835a64e9167244"
+    },
+    {
+      "file": "rebuild/hub/assets/cherished-touch/night/a.jpg",
+      "matched": true,
+      "sha256": "4788278bd7f95325202ecb637e58ac89bf1c9b94d67fdebb270327b5c959d5ba"
+    },
+    {
+      "file": "rebuild/hub/assets/cherished-touch/night/b.jpg",
+      "matched": true,
+      "sha256": "1cd0eaad7f64cc67ee6e159a8feafc5df72b0a97ef1da5b4d705ec062357a833"
+    },
+    {
+      "file": "rebuild/hub/assets/cherished-touch/night/c.jpg",
+      "matched": true,
+      "sha256": "ebe758a105bb37196b79890d3ba6eba8f655ad11df58fac853e0445ea523550e"
+    },
+    {
+      "file": "rebuild/hub/assets/cherished-touch/night/d.jpg",
+      "matched": true,
+      "sha256": "f3656792d4ebd1d11adb19f3e56044111411c208a375a31ead8b1284fefe3d07"
+    },
+    {
+      "file": "rebuild/hub/assets/cherished-touch/night/e.jpg",
+      "matched": true,
+      "sha256": "3f861ee41d38fb2f125d2f012e99543b6fc5e8fd9816a01da588a134171a0443"
+    },
+    {
+      "file": "rebuild/hub/assets/cherished-touch/night/f.jpg",
+      "matched": true,
+      "sha256": "00d60846b52622e2d9fa76dbc655b3606107fe9c7b5cfa9f32910382e70d53e7"
+    },
+    {
+      "file": "rebuild/hub/assets/cherished-touch/night/g.jpg",
+      "matched": true,
+      "sha256": "d13c3a70081ba154b7a7375f8e4cf29261de0737232a6d7904147f22fee902c3"
+    },
+    {
+      "file": "rebuild/hub/assets/cherished-touch/night/h.jpg",
+      "matched": true,
+      "sha256": "e4a7fcd1f8334447a0b4dc24cb38c792ce5407dfdc154f7f7e85586e353edfcf"
+    },
+    {
+      "file": "rebuild/hub/assets/cherished-touch/night/changing.jpg",
+      "matched": true,
+      "sha256": "ad8d8be19dac3178f4e8b93379050eed9685e9b0a12eac788b8fa28763ffb1f8"
+    },
+    {
+      "file": "rebuild/hub/assets/cherished-touch/night/j.jpg",
+      "matched": true,
+      "sha256": "e23721c324cc39d074df3d2ce482f5d62747a5a6aaa6896b25f89b7167fb952e"
+    },
+    {
+      "file": "rebuild/hub/index.html",
+      "matched": true,
+      "sha256": "4cd8640bff218500e6e3b0bb2c42eb1c50dcac02c4a52ac8183626d309383ad2"
+    },
+    {
+      "file": "rebuild/title-screen/index.html",
+      "matched": true,
+      "sha256": "af64f4b15179851da2dbe424c8963dc8c5118d16f259eafe1d6a2e96cfe09045"
+    },
+    {
+      "file": "rebuild/character-creation/index.html",
+      "matched": true,
+      "sha256": "9effb899a4580840902df44728d921c2aab2f948e696b9146525561d3e492d68"
+    },
+    {
+      "file": "rebuild/hub/cherished-art.js",
+      "matched": true,
+      "sha256": "b4f3c8f976f26bd3a4f1e5b3c427020babcdcc54f773f1f8c0e93af0f96da961"
+    }
+  ],
+  "passed": true
+}

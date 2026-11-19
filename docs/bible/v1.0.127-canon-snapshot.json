@@ -1,7 +1,7 @@
 {
   "version": "1.0.127",
   "illustrations": {
-    "status": "Generated, visually reviewed, local integration; not published",
+    "status": "Published in v1.0.127; local and public header checks passed",
     "style": "Photoreal apartment-style interiors; NE Hub landscape continuity; fixed-camera day/night pairs",
     "placement": "Visible location header; four changing rooms share one overview per phase",
     "assets": [

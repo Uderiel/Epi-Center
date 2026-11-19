@@ -1,8 +1,8 @@
-## v1.0.127 — Cherished Touch artwork candidate; deployment pending
+## v1.0.127 — Cherished Touch artwork published and verified
 
 Owner-authorized Charity follow-up adds22photographic-style1100×733images:11day/night pairs for storefront and all interior views, with one shared changing-room-bank illustration per phase. Northeast Hub landscaping/architecture carries into the storefront; cream/oak/deep-green shop finishes and Charity's modest rose-accented home follow established descriptions. Images appear directly in the location header, switch by actual room/phase and use the existing full-image control. Private-room images disappear with lost permission; no new access, actions, NPC presence, stock or hidden routes are granted. Hub/art-apartment redesign is deferred.
 
-Assets, manifest, source-backed Bible and focused/browser evidence are included. No backend code or paid generation changes; Worker126remains the verified compatible backend. Existing127release reports record actual deployment outcome. Next: owner’s remaining Cherished Touch feedback, then Tits review; do not automatically start Tits during a requested pause.
+Assets, manifest, source-backed Bible and focused/browser evidence are included. **[Play v1.0.127](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.127)**. Pages deployment44589453004succeeded for runtimeba5b64e. **1,626automated cases,32local/32public header checks and26published-file comparisons pass.** Evidence: `docs/releases/v1.0.127-release-summary.json`. AI source is unchanged; the automatic Cloudflare rebuild failed, while the existing126Worker remains configured/healthy. Root cause is not exposed by its GitHub check. No paid dialogue request or new Worker success is claimed. Next: owner’s remaining Cherished Touch feedback, then Tits review; do not automatically start Tits during a requested pause.
 
 ## v1.0.126 — published and publicly verified
 

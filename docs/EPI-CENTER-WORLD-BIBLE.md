@@ -1,14 +1,14 @@
 # Epi-Center World Bible — current canon and release backup
 
-Current verified published release: **v1.0.126**. This section reconciles actual source with owner-approved design; it supersedes older numeric profiles and implementation-status claims below. Publication is recorded separately in CURRENT-STATUS.md and release evidence. Keep implemented, verified, published, approved-but-deferred and unknown distinct.
+Current verified published release: **v1.0.127**. This section reconciles actual source with owner-approved design; it supersedes older numeric profiles and implementation-status claims below. Publication is recorded separately in CURRENT-STATUS.md and release evidence. Keep implemented, verified, published, approved-but-deferred and unknown distinct.
 
 ## Complete source-backed backup
 
-[Machine-readable v1.0.126 canon snapshot](bible/v1.0.126-canon-snapshot.json) contains exact runtime character definitions/public dossiers, numeric profiles, mapped locations and authored room records, Charity’s actual stock/recipes/outfits, registered actors, and complete reference-document text with content hashes. The design documents retain chronological owner decisions and their deferrals. This is an owner backup, not a public-character prompt: concealed lore must remain separated when constructing AI context. Rebuild it with `node scripts/build-world-bible.cjs` on every release, never by inventing missing fields.
+[Machine-readable v1.0.127 canon snapshot](bible/v1.0.127-canon-snapshot.json) contains exact runtime character definitions/public dossiers, numeric profiles, mapped locations and authored room records, Charity’s actual stock/recipes/outfits, registered actors, and complete reference-document text with content hashes. The design documents retain chronological owner decisions and their deferrals. This is an owner backup, not a public-character prompt: concealed lore must remain separated when constructing AI context. Rebuild it with `node scripts/build-world-bible.cjs` on every release, never by inventing missing fields.
 
-## Owner-approved artwork update — v1.0.127 candidate
+## Owner-approved artwork update — published v1.0.127
 
-Cherished Touch now has22generated photographic-style1100×733illustrations:11day/night pairs for the storefront, each distinct interior room and one shared bank-of-four changing-room overview. The top location header selects the actual room and game phase; private access remains enforced. [Full art record](CHARITY-ROOM-ART.md) and [checksum manifest](art/CHERISHED-TOUCH-ART-MANIFEST.json). Original Hub/apartment images are unchanged. Publication verification is separate from this local implementation record.
+Cherished Touch now has22generated photographic-style1100×733illustrations:11day/night pairs for the storefront, each distinct interior room and one shared bank-of-four changing-room overview. The top location header selects the actual room and game phase; private access remains enforced. [Full art record](CHARITY-ROOM-ART.md) and [checksum manifest](art/CHERISHED-TOUCH-ART-MANIFEST.json). Original Hub/apartment images are unchanged. Local/public header and deployed-image verification passed; see the v1.0.127release summary.
 
 ## Shared attributes — current approved rules
 

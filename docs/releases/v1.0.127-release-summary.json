@@ -1,0 +1,52 @@
+{
+  "version": "1.0.127",
+  "runtimeCommit": "ba5b64e180d581f564e66b2cffefd5b2778d219a",
+  "pagesRun": "https://github.com/Uderiel/Epi-Center/actions/runs/44589453004",
+  "scope": "Front-end Cherished Touch images and visible header only; no AI backend code change",
+  "images": 22,
+  "dimensions": [
+    1100,
+    733
+  ],
+  "localBrowserChecks": 32,
+  "publicBrowserChecks": 32,
+  "automatedCases": 1626,
+  "matchedPublishedFiles": 26,
+  "workerHealth": {
+    "service": "Epi-Center AI",
+    "releaseVersion": "1.0.126",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "configured": true
+  },
+  "checks": [
+    {
+      "name": "Workers Builds: epi-center-ai",
+      "status": "completed",
+      "conclusion": "failure",
+      "url": "https://dash.cloudflare.com/7dff926f4e48921aecf343cfeb49a698/workers/services/view/epi-center-ai/production/builds/70fd1e9b-f874-4abe-ae99-8a5e93fa6fc7"
+    },
+    {
+      "name": "deploy",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Uderiel/Epi-Center/actions/runs/44589453004/job/135791588785"
+    },
+    {
+      "name": "report-build-status",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Uderiel/Epi-Center/actions/runs/44589453004/job/135791588733"
+    },
+    {
+      "name": "build",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Uderiel/Epi-Center/actions/runs/44589453004/job/135791183054"
+    }
+  ],
+  "backendBuildNote": "Automatic Cloudflare rebuild reported failure. AI source is unchanged from verified126 and live126health remains configured/healthy. Failure reason is not available from the GitHub check output; no paid generation or new backend deployment success is claimed.",
+  "next": "Wait for owner\u2019s remaining Cherished Touch feedback; Tits review remains paused."
+}

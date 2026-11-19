@@ -1,0 +1,134 @@
+{
+  "scope": "Actual header/controllers, isolated synthetic save and recorded household fixture. No AI calls or owner saves.",
+  "checks": [
+    {
+      "name": "storefront appears before entry directly in visible header",
+      "passed": true
+    },
+    {
+      "name": "actual night phase switches the storefront image",
+      "passed": true
+    },
+    {
+      "name": "day header loads actual H illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "day header loads actual C illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "day header loads actual G illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "day header loads actual A illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "day header loads actual B illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "day header loads actual J illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "day header loads actual D illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "day header loads actual E illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "day header loads actual F illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "day header loads actual I1 illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "day header loads actual I2 illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "day header loads actual I3 illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "day header loads actual I4 illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "night header loads actual H illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "night header loads actual C illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "night header loads actual G illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "night header loads actual A illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "night header loads actual B illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "night header loads actual J illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "night header loads actual D illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "night header loads actual E illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "night header loads actual F illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "night header loads actual I1 illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "night header loads actual I2 illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "night header loads actual I3 illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "night header loads actual I4 illustration at full aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "header tap opens the same full image",
+      "passed": true
+    },
+    {
+      "name": "losing private access removes header image rather than previewing another private room",
+      "passed": true
+    },
+    {
+      "name": "phone header remains visible without horizontal overflow or state changes",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}
