@@ -75,3 +75,7 @@ Use the existing quick-menu choices. Owner-approved combined stock targets:
 The owner approves the combined quantities above. They are not yet runtime inventory, approved product prices, recipes or numerical need relief. Normal replenishment remains the approved Monday Only on Time delivery paid from Charity’s personal funds; an additional emergency run or infinite free refill is not inferred. Current held stock is not reset/duplicated when a locked player arrives. Starting-stock migration and actual top-up/payment must use real item records when implemented.
 
 Monday top-ups use actual missing quantities and Charity’s personal funds. Existing stock carries forward; no weekly duplicate stock, invisible shop-till withdrawal or free refill is authorized.
+
+## Latest approved towels, basic care and shared use
+
+Owner approves **two towels total (one soft working towel plus one spare), one washcloth, hand soap, toothpaste and shampoo**. This supersedes the earlier unapproved table proposal of three towels/two washcloths. Existing approved finite soap/hair-care/toothpaste use targets remain; do not turn product presence into unlimited uses. Ordinary household stock may be shared during the three-day lock under `CHARITY-WARDROBE-DRAFT.md`, including actual available food/treats. The player may prefer separate items. Sharing does not duplicate portions, reset dirty towels, transfer money or change the normal Monday top-up rule.

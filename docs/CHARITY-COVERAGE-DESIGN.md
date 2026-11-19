@@ -345,3 +345,7 @@ The owner approves three extra days of food/care supplies for the locked player 
 ## Approved household replenishment
 
 Owner approves Monday Only on Time deliveries topping up only missing quantities to the approved combined targets, paid from Charity’s personal funds. Existing stock carries forward; no full duplicate weekly grant. Actual prices, available budget, recipe effects, courier execution and household inventory controller remain unresolved/unimplemented.
+
+## Approved minimalist household and shared locked-period belongings
+
+The owner approves the exact wardrobe draft, two towels/one washcloth/basic care products, and light daily tidying/short weekly cleaning without blocking exits. Charity is minimalist and knows she cannot leave Cherished Touch. During the three-day stay she and the player may share practically all ordinary household things unless the player prefers separation. See `CHARITY-WARDROBE-DRAFT.md` for the approved scope and real-item tracking. They remain distinct identities; no duplicated belongings, extra wealth, secret-route disclosure or automatic permanent ownership transfer follows from shared appearance.
