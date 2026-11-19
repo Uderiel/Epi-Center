@@ -1,3 +1,18 @@
+## Handover interaction — proposal for review
+
+Owner is ready to review this interaction, while the actual coverage quest framework remains deferred. Established facts checked first:75eligibility, actual360–420minute counter coverage, ten-minute25-stage appearance disguise, actual worn-outfit loan, Charity’s approved clean spare outfit, and safe ordinary removal with no opposing mind/Resolve challenge. Historical +90/fixed-six-hour and five-shift hideout notes are superseded.
+
+Proposed ordinary handover:
+
+1. Charity actually returns by the room route, already dressed in her different clean spare outfit. She takes over the register at a suitable real handover moment at/after360minutes and no later than420. Do not narrate her as back while she is still eating or upstairs.
+2. Charity and the player explicitly acknowledge the takeover; the counter-coverage clock ends at that actual point. Shop receipts, stock, sales/till and outstanding orders keep their exact state and owner; nothing rerolls, disappears or becomes player money.
+3. With the real Charity now serving, the player uses an existing closed fitting stall to change out of the borrowed outfit, remove the mask, revert and dress in their retained original clothes. There is no requirement to continue service during private reversion. Return the same mask and loaned garments with their actual condition/identity, not new clean copies. Exact transition/reversion rules require approval below.
+4. Future quest completion/reward bookkeeping must distinguish actual takeover, returned loans and the once-only completed job record. Do not award twice on reload or invent a new reward schedule. Existing planned gold progression is250/300/350/400/450then500fromcompletion6onward; +5relationship capped100; early one-time and later permanent10/25/35percent discounts are already sourced. Those are deferred quest inputs, not live payouts or an excuse to revive obsolete90eligibility/five-shift secret access.
+
+The owner’s quick-swap continuity goal does not make other NPCs blind. Use real presence/line-of-sight and a quiet suitable handover; do not guarantee nobody notices two matching appearances or teleport either person to conceal them. An actual privacy/detection complication belongs to later quest design rather than being invented now.
+
+**Specific next proposal:** ordinary reversion takes **ten game minutes**, reversing the approved25physical stages, inside the closed fitting stall. This duration/order is not yet approved. It would occur after the counter takeover and outside the service-coverage clock, just as the initial transformation is before the ready-at-counter start. Explain that timing rather than silently extending the mandatory coverage interval. Ordinary mask removal is voluntary and has no Resolve/mastery contest. The historical twentieth-shift exception remains separately deferred.
+
 ## Current owner clarification — ordinary disguise; quest deferred
 
 Ordinary mask coverage is a voluntary **appearance-disguise service**, comparable to an advanced skinsuit, not an opposing living form trying to erase the player. The player borrows Charity’s appearance at her request. There is **no independent Charity consciousness, control contest, Resolve challenge, identity erosion or ordinary mastery challenge** from this mask. Preserve player agency and original identity. Do not copy Charity’s private memories or invent new compelled behavior from the disguise.

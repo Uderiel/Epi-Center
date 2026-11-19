@@ -1,3 +1,7 @@
+## Charity morning routine approved; handover review underway
+
+Owner accepts5–10minute dry/groom,8minute dressing,10–15minute breakfast and a distinct owned clean spare outfit for Charity; eight-minute shower and actualroomtravel preserved. CHARITY-MORNING-CARE-DRAFT.md is reconciled as approved. Owner is ready to review handover; CHARITY-COVERAGE-DESIGN.md contains the concrete counter-takeover/loan-return proposal and a not-yet-approved10minute reverse-stage reversion outside the coverage clock. Existing rewards were checked, not redefined. Quest runtime remains deferred.
+
 ## Charity morning care draft prepared; automatic next-step rule
 
 Owner approves drafting shower/dressing now. CHARITY-MORNING-CARE-DRAFT.md reconciles confirmed8minute shower, real8minute total doorway travel, approximate5–5.5hour sleep and6–7hour coverage. Proposes5–10minutes dry/groom,8minutes changing (existing preset reference),10–15minutes breakfast, and a distinct clean spare outfit because the player still wears her original loan. Proposed timing/spare-outfit use await review; no controller or quest implemented. AGENTS.md now requires identifying/beginning the next authorized step, with specific review questions only for genuinely unresolved substantive choices.

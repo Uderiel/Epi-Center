@@ -1,4 +1,4 @@
-# Charity covered-rest morning care — review draft
+# Charity covered-rest morning care — owner-approved sequence
 
 ## What is already settled
 
@@ -25,20 +25,20 @@ The existing `erin-household.js` outfit preset uses8minutes to collect/change an
 | Sleep | Her own bed inA | About300–330min; approximate owner range, exact distribution unresolved |
 | Go to the shower | A→B | 1min, existing doorway cost |
 | Shower | B, tub/shower attachment | **8min, confirmed** |
-| Dry and quick grooming | B | **Propose5–10min** for towel-drying, teeth, deodorant, a quick hair brush and simple already-approved care |
+| Dry and quick grooming | B | **5–10min, approved** for towel-drying, teeth, deodorant, a quick hair brush and simple already-approved care |
 | Return to clothes | B→A | 1min |
-| Change for work | A/dresser; clothes prepared in advance | **Propose8min**, using existing outfit-preset timing as the reference |
+| Change for work | A/dresser; clothes prepared in advance | **8min, approved**, using existing outfit-preset timing as the reference |
 | Go for breakfast | A→G→D | 2min |
-| Prepare/heat and eat breakfast/tea | D; use actual stock or an actual suitable brought portion | **Propose10–15min total**; no full stew preparation |
+| Prepare/heat and eat breakfast/tea | D; use actual stock or an actual suitable brought portion | **10–15min total, approved**; no full stew preparation |
 | Return for counter handover | D→G→C | 2min |
 
 The illustrated preparation sequence totals **5h39m to6h19m** including the approximate sleep range and actual routes. This is readiness timing, not approval of early release: actual handover remains **at or after6h and by7h**. The gap up to7h is a limit/buffer for real bounded variation, not an extra random delay automatically added. Do not insert a forced minute360handover while Charity is elsewhere.
 
-Five-to-ten grooming,8minute dressing and10–15minute breakfast are a concrete proposal for review, not newly approved owner numbers. The approved8minute shower must not silently become10or25minutes.
+Owner accepts five-to-ten-minute grooming,8minute dressing,10–15minute breakfast and the separate clean spare-outfit arrangement (“That fits. Thank you”). Exact variance distribution is not thereby specified. The approved8minute shower must not silently become10or25minutes.
 
 ## Clothing continuity that must be addressed
 
-The player is still wearing the actual outfit Charity lent them. Charity cannot dress in that same item instance while they are covering her. **Proposal:** Charity dresses in a different clean, real spare work outfit from her already-planned wardrobe after showering. The loaned outfit remains on the player until the authorized end-of-shift change/return. No duplicate garments, teleporting clothes or forced early undressing is allowed. Exact loan-return and disguise reversion belong to the deferred quest framework.
+The player is still wearing the actual outfit Charity lent them. Charity cannot dress in that same item instance while they are covering her. **Approved:** Charity dresses in a different clean, real spare work outfit from her already-planned wardrobe after showering. The loaned outfit remains on the player until the authorized end-of-shift change/return. No duplicate garments, teleporting clothes or forced early undressing is allowed. Exact loan-return and disguise reversion belong to the deferred quest framework.
 
 The fresh spare can use her approved ordinary jeans/plain tee/cardigan/comfortable-footwear style. No new magical outfit, free public stock, new color preference or exact garment count is made canon by this proposal. Matching the original clothes is important for the initial unnoticed swap; after her rest, a genuinely fresh outfit need not be a duplicate of the loan.
 
@@ -48,6 +48,6 @@ Use Charity-owned towels, mild soap, shampoo/conditioner as actually selected/av
 
 Only on Time’s Monday groceries/toiletries and community prepared-meal visits are established sources; starting amounts, order quantities, spending amounts, delivered portions and exact missing-stock behavior are separate unresolved inventory design. Do not erase inventory constraints, invent food, charge the player or take shop money to guarantee this proposal’s timing. Household implementation must support a feasible reviewed fallback rather than breaking the420minute coverage cap.
 
-## Review checkpoint
+## Approved checkpoint and next step
 
-Review the concrete grooming/dressing/breakfast timing and **the distinct clean spare outfit** together. After that, the next authorized household step is the concrete supply/portion/wardrobe starting-stock draft using those approved sources; do not re-ask the menu, eight-minute shower, +75threshold or coverage window.
+The timing and distinct clean spare outfit are settled. Owner next accepts discussing the handover interaction. Keep this as quest design only, since its playable framework was explicitly deferred; do not re-ask these morning timings. After the handover/removal decision, resume concrete household stock rather than inventing a completed quest.
