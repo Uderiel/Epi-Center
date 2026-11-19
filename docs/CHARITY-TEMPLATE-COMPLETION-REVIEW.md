@@ -1,3 +1,7 @@
+## Later owner relationship clarification
+
+The universal [directed relationship contract](DIRECTED-RELATIONSHIP-SYSTEM.md) now defines the common signed bar and tier meanings. Social trust is a meaning of relationship, not a second meter. Charity's existing +75 selective-disclosure eligibility, +90 mask-job gate and +100 twentieth-trial invitation gate remain separate authored conditions; reaching an affinity tier does not execute those actions. The earlier completion review below remains scoped to its own candidate and test evidence.
+
 # Charity and Cherished Touch — current template completion review
 
 Owner requested a comprehensive template review, then revisiting Charity against that standard. The additional closed/unstaffed-shop rule applies to public entry across businesses. This review supersedes historical “what works now” summaries for the topics below. It preserves approved canon and does not declare Charity fully complete.

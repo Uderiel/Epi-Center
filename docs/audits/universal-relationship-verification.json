@@ -1,0 +1,72 @@
+{
+  "scope": "Local candidate; public v1.0.124 unchanged. No paid model requests or deployment.",
+  "fullRegression": {
+    "gameCases": 1449,
+    "gameSuites": 87,
+    "backendCases": 48,
+    "backendSuites": 1,
+    "failures": 0
+  },
+  "subsequentFocusedCoverage": {
+    "additionalCases": 3,
+    "description": "Two stable identity routing cases and one pending response player isolation case. Last focused AI client run 45/45 passed; AI context log contains no failed cases."
+  },
+  "browser": {
+    "browser-relationship-isolation": {
+      "checks": 12,
+      "errors": []
+    },
+    "browser-ai-context-inspection": {
+      "checks": 8,
+      "errors": []
+    },
+    "browser-charity-availability": {
+      "checks": 10,
+      "errors": []
+    }
+  },
+  "limitations": [
+    "Live Cydonia replies not tested against updated backend.",
+    "Establishment refusals and hostility require authored controllers.",
+    "Local player isolation does not implement multiplayer authentication."
+  ],
+  "sha256": {
+    "docs/BUILD-PROGRESS-AND-TEST-HANDOFF.md": "fc045ba7533f19a630a5942e31df7a48306973397658286c8814f2d00bfeae0b",
+    "docs/CHARITY-TEMPLATE-COMPLETION-REVIEW.md": "1cc6375d2817932f007c73ec474bb9abe52ce3a039fd420b5e589fed0441864b",
+    "docs/CURRENT-STATUS.md": "a183cc3b7ec5b21b95143d90efde56126bc66e00242d758bbb5d23fa1464a73c",
+    "docs/FORM-LIVING-TEMPLATE.md": "13926b118c1557f7e57d946a05c420e39b8170bf4c0c7b971f0b01e870ad0e38",
+    "docs/NPC-AND-FORM-DESIGN-TEMPLATE.md": "6a6aa2c1d4f5d4901432dc71e2ede31d325dd47e4313ac1255b87022109c7d63",
+    "rebuild/combat/kibbles-form.js": "5df1d452e2334300f91571e04e25d0d1cc3019dca54e6d4ce13cc421101dce7d",
+    "rebuild/hub/ai-client.test.js": "a4e2446170e02393b0d85bd29695d89cb2cd04b7cb4daa8f44233deac2caf550",
+    "rebuild/hub/ai-context.js": "81be7eccfe1410414e51a084ab2d38e102be85e3ed09fc8ec76b47198612b641",
+    "rebuild/hub/ai-context.test.js": "04f77998eaaab478f7c9d2d94cde5976957c8694b209bb7d5205a86007c8abfc",
+    "rebuild/hub/ai-integration-ui.js": "129ea2f3d93afacfeff26be040e9b762c9c08f90627ce8d12f691861489b6b70",
+    "rebuild/hub/ai-ui.js": "f8c9155ab9e66ee9bb90f49c5629d5524be48bb27a3f3674843d558313bef479",
+    "rebuild/hub/character-conversation.test.js": "7627d49c8fe080d53d8771ed85f317d586a23ec215d1cb958f56d3d81a424329",
+    "rebuild/hub/charity.js": "08e62115ecf86e0b09d507a6de46cf5bdc56d472eca08a2aaeba79992825bf3d",
+    "rebuild/hub/erin-agency.test.js": "156f58fd78c130347dc5dbd86e50b9f7be6a1131e46b4503d2e814d4407c85ca",
+    "rebuild/hub/erin-life-ui.js": "3ee2b9b9a0e964c312e803b751c04006d2717b153468d3d52c1d9a52370bda89",
+    "rebuild/hub/erin-life.js": "b29b6d41b86462fcd5e88f1b0aad922cb5eae0fea2e8847acbfabfa840efb07c",
+    "rebuild/hub/erin-restoration.js": "ac185054a4fcc0e5ad650f39bb924507d121b8940b4eeaebddbd16cf3cb0882d",
+    "rebuild/hub/form-body.js": "5b0ad0f4d6ed9843559399bffbd4f7779933effe22dd1b58425099fbaa928df7",
+    "rebuild/hub/form-living.js": "e7e3e4e584d6eb4f978799e1759f805d0c0906b73b1f5e2d5419d2d6b2e9ff1c",
+    "rebuild/hub/form-minds-ui.js": "92ebdc4d687b43a623ba997cedfca32360a9f4d4f03274634c2b949d74ffedca",
+    "rebuild/hub/form-minds.js": "d1926e6abc37cbcd9772083c5a0c14c3b8795c9fcb9cc0b1b4afb5f2772351d3",
+    "rebuild/hub/form-reference.test.js": "230c85da56f81b546ea61d7e82fc2b125a592ecee58f9dfe9391482521f534e6",
+    "rebuild/hub/index.html": "0f774206cc634f584c430c561770197a4b80ab9346b79a427b76456dbf8fa306",
+    "rebuild/hub/kibbles-behavior.js": "7c528b06989fe0e4b74441fa67bb98e99c4919a90c6f608a7ee7d9367d848834",
+    "rebuild/hub/nadia-home-ui.js": "d43c1329fd747433444d55abd025f766d10fc65346668d78ae0f715c8e19235f",
+    "rebuild/hub/relationships.js": "bbe46749853a5bea9af6e9bab93a97ea46e2ac9fe30be8a9348b21d0fe975cb8",
+    "rebuild/hub/relationships.test.js": "e4c9523d8f2fe661308a7bf70c6a894ea6c9751281d097cdc7d656bed1b8b62a",
+    "rebuild/hub/scene-presence.js": "ebd21be9cf4c39b47807cc34012e2013bb0aa8022ed69672630d5c69a3ea5c21",
+    "rebuild/hub/social-ui.js": "37b9c2c1f94d027a31b412275d88c0279b759b7cf7ade1496595185b7fc806fe",
+    "rebuild/hub/world-objects.test.js": "dd0297121d8a3bae0222af6e2a633cdd7708922548f9ab3102726a45b08195ac",
+    "scripts/browser-ai-context-inspection.cjs": "8d88ab105a893ed2ebd0e9605c82ac133d5411f50b70513951114c7b372f3533",
+    "services/ai/core.mjs": "24146bae23621a4641612f5fda450d6ca74f5da9dd5ae3638fc74047050426c0",
+    "services/ai/deploy-worker.mjs": "264a45e995b4a0f41b9c9a3d830109cf82b85e40dc5a2f1c000089151f71b453",
+    "services/ai/test.mjs": "c34a196399b821aa88915f4ff064bfcbf8ea166602ff5e9e264afa5f32030392",
+    "services/ai/worker.mjs": "0cf42c157edd80f770405180d63a6ce029012afcbf6d2bccc41bfe7daf9dfae4",
+    "rebuild/hub/relationship-ui.js": "5cfeffa9baaa9b53806697ebcfedc7900bcc0504c5db20242e8587fe4c06fde8",
+    "scripts/browser-relationship-isolation.cjs": "cbc32499a9376f4bad972a0a72726d7280b43b4a9fd6b7d98c9f05a8046315cd"
+  }
+}

@@ -1,3 +1,7 @@
+## Current owner clarification — one universal relationship bar
+
+Use [the current relationship contract](DIRECTED-RELATIONSHIP-SYSTEM.md). Every NPC, form and encountered entity has a persistent −100…+100 score toward each individual player. Trust is derived from that score, never a second social value. Apply the owner's ±25/±50/±75/±100 interpretations, with form-specific positive meanings and schedule/permission/mastery boundaries. Historical instructions below separating Erin social relationship from a cooperative trust meter are superseded for the social value; earned mastery and influence remain distinct. Each character definition must specify positive/negative triggers, actual controller events/deltas, exceptions and persistence evidence. The shared storage, bars, tiers, event deduplication and player/entity isolation are universal infrastructure, not work to repeat for every character.
+
 > Owner rule update, v1.0.115: reaching zero Resolve while occupying an unmastered form permanently binds that form. This supersedes older zero-Resolve desperate-resistance/recovery/escape guidance below. Spending the last 3 Resolve also triggers binding before mastery is awarded. Base humans and already-mastered forms are exempt; later Resolve recovery does not undo binding. See [current rule and corrections](RESOLVE-BINDING-AND-FOOTWEAR-CORRECTIONS.md).
 
 ## v1.0.106 implementation checkpoint

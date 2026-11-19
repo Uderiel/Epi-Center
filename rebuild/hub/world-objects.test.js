@@ -1,7 +1,7 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
 const O=require('./world-objects'),E=require('./erin-restoration'),W=require('./hub-world'),T=require('./world-clock');
 let count=0;function test(name,fn){fn();count++;console.log('PASS '+name);}
-const fresh=()=>({hub:{location:'Central Hub NW'},world:{},attributes:{Reflexes:4},inventory:{},equipment:{},appearance:{},forms:{}});
+const fresh=()=>({playerId:'inspection-comparison-player',hub:{location:'Central Hub NW'},world:{},attributes:{Reflexes:4},inventory:{},equipment:{},appearance:{},forms:{}});
 const discover=s=>{W.inspect(s);E.discoverHeels(s);};
 test('undiscovered heels cannot be inspected or remotely collected',()=>{const s=fresh();assert.equal(O.list(s).length,0);assert.throws(()=>O.act(s,E.ITEM,'take'));discover(s);s.hub.location=W.SPIRE;assert.throws(()=>O.act(s,E.ITEM,'take'));});
 test('discovery and repeated examination do not acquire equip or identify',()=>{const s=fresh();discover(s);assert.equal(O.list(s)[0].name,'Red Heels');for(let i=0;i<3;i++)assert.match(O.act(s,E.ITEM,'examine'),/polished/);assert.equal(E.state(s).heels.location,'world');assert.equal(s.inventory[E.ITEM],undefined);assert.equal(s.equipment.feet,undefined);assert.equal(E.itemName(s),'Red Heels');});

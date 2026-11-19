@@ -1,8 +1,18 @@
+## Current owner clarification — one universal relationship bar
+
+Use [the current relationship contract](DIRECTED-RELATIONSHIP-SYSTEM.md). Every NPC, form and encountered entity has a persistent −100…+100 score toward each individual player. Trust is derived from that score, never a second social value. Apply the owner's ±25/±50/±75/±100 interpretations, with form-specific positive meanings and schedule/permission/mastery boundaries. Historical instructions below separating Erin social relationship from a cooperative trust meter are superseded for the social value; earned mastery and influence remain distinct. Each character definition must specify positive/negative triggers, actual controller events/deltas, exceptions and persistence evidence. The shared storage, bars, tiers, event deduplication and player/entity isolation are universal infrastructure, not work to repeat for every character.
+
 # NPC and form design — current completion standard
 
 This is the canonical authoring checklist. Its twelve core sections remain in force; the implementation contract below makes omissions and evidence visible. Character-specific history later in this file is supporting context, not a substitute for a current character sheet. It is not an instruction to load the entire document into a model request.
 
 **Rule precedence:** latest explicit owner direction → current reconciled character sheet and runtime evidence → historical proposals. Apply superseding decisions by subject, not merely by file date. If two approved rules still conflict, record the conflict and keep the affected behavior unresolved; do not silently select one or turn a proposal into canon. Existing source code proves behavior, not owner approval. Old test counts are historical evidence, not proof of current completeness.
+
+### Required relationship card for every entity
+
+Record a stable entity/instance ID, stable player-ID source, initial-score provenance, and the shared signed bar. Supply positive and negative trigger descriptions plus actual event/delta, prerequisites, repeat/cooldown/daily limits, physical/channel perception, who performed the action, and exactly-once save receipt. Define recognition evidence separately from affinity. State how the common ±25/±50/±75/±100 tiers appear in this character's voice, attention and choices; identify any establishment-specific −75 refusal and possible −100 hostility controller. For forms, +75 friendliness can support schedule-compatible requests but cannot silently grant control, consent, ownership or mastery.
+
+Use existing `relationshipPolicy` metadata/registration and shared APIs; do not author another bar, per-form global score or separate social trust meter. Missing authored trigger metadata remains a completion gap. Validate two players, two same-named entities, NPC/form IDs with the same suffix, positive/negative values, re-equipping, save/reload, legacy import, Dev controls and private conversation memory. No copied score/history/care quota or blanket reward from generated prose.
 
 ## Required completion record
 
@@ -30,7 +40,7 @@ Availability and mood need their own facts. Being physically present does not im
 
 ## Representation and memory checklist
 
-- Give stable public identity and form aliases; keep original-player identity and undisclosed history private. Separate directed relationship from appearance recognition, internal trust, mastery and consent.
+- Give stable public identity and form aliases; keep original-player identity and undisclosed history private. Separate directed relationship from appearance recognition, mastery and consent; trust describes the relationship tier.
 - Supply current clothing/appearance, actual location/time/light, ongoing activity, fatigue/needs when recorded, actual audience and the latest expressed message. Follow-up questions stay on the current topic; background work must not replace the answer.
 - Distinguish player claims, witnessed facts, accepted commitments, proposals and resolved outcomes. Recognizing a name typed by the player is not knowledge of hidden events. Record confirmed nicknames/preferences only through an authored memory event; do not invent personal familiarity.
 - Give a voice range: public/private, relaxed/busy/tired, welcome/complaint/refusal/apology/repair/parting, praise/criticism/flirting as relevant. Examples demonstrate meaning, not repeated keyword scripts. Mannerisms are optional and specific to that character.
@@ -97,7 +107,7 @@ Meals, snacks and drinks need distinct preferences, real recipes/items, finite q
 
 ## 7. Relationships, visits and social agency
 
-Map specific people, history sources, mutual attitudes, known identity, trust and unresolved tensions. Separate NPC relationship, internal-form trust, mastery and consent. Define introductions, invitation/acceptance, entry permission, actual travel, hosting, room access, follow/escort, departure and follow-up. Proposed friends are not spawned actors.
+Map specific people, history sources, mutual attitudes, known identity, trust and unresolved tensions. Use the one directed relationship value; keep recognition, mastery and consent separate. Define introductions, invitation/acceptance, entry permission, actual travel, hosting, room access, follow/escort, departure and follow-up. Proposed friends are not spawned actors.
 
 Friendship, respectful dating and special transformation routes need independent eligibility. Neither high trust nor a purr is blanket consent. Define optional participation, refusal, ending contact and proportionate consequences for real actions. Do not punish ordinary declined attention as misconduct.
 
@@ -145,7 +155,7 @@ When a character portrait includes a known home/business background, use the sup
 
 ## Individual directed relationship meters — owner amendment
 
-All NPCs, including animal companions, use individual directed relationships toward each individual player on the signed−100…+100scale. A shared event/migration system is not a shared meter. Original-player identity persists across forms; appearance recognition, introductions and remembered body-specific contact remain separate. Preserve legacy saved scores and record provenance rather than resetting or summing unrelated NPCs. Separate Erin cooperative trust/mastery from signed social relationship. Resolve positive/negative effects from actual workflow reliability, favors, praise, criticism, care, play, rejection and conflict using character-specific rules; AI prose alone never changes scores. Deduplicate resolved events across reloads and limit repeat farming. Richard's personal rejection is−3once per actual offer; existing extra-work refusals remain separate. Display and Dev tools must read the same canonical pair record. Multiplayer identity transport remains outside the current local-save build; do not claim networking implemented.
+All NPCs, including animal companions, use individual directed relationships toward each individual player on the signed−100…+100scale. A shared event/migration system is not a shared meter. Original-player identity persists across forms; appearance recognition, introductions and remembered body-specific contact remain separate. Preserve legacy saved scores and record provenance rather than resetting or summing unrelated NPCs. Erin cooperative trust uses the same signed relationship value; mastery remains separate. Resolve positive/negative effects from actual workflow reliability, favors, praise, criticism, care, play, rejection and conflict using character-specific rules; AI prose alone never changes scores. Deduplicate resolved events across reloads and limit repeat farming. Richard's personal rejection is−3once per actual offer; existing extra-work refusals remain separate. Display and Dev tools must read the same canonical pair record. Multiplayer identity transport remains outside the current local-save build; do not claim networking implemented.
 
 ## Conditional report reviews and future schedule correspondence
 
