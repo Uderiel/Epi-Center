@@ -1,3 +1,7 @@
+## v1.0.124 venue facts and visible participants — publication underway
+
+The owner’s v1.0.123 real-model report passes core Bella/Dart behavior but still invents Burke’s services/reviews and park occupants. Actual venue descriptions/hours now reach NPC context, and world-event packets retain visible actors. A two-request venue/park recheck avoids repeating the passing cases. Existing grounded-turn-v1 worker is unchanged. See VENUE-FACTS-AND-VISIBLE-PARTICIPANTS.md and V1.0.124-OWNER-ACCEPTANCE.md. Model acceptance of this update is still pending.
+
 ## v1.0.123 refinements from actual Cydonia replies — published; model review pending
 
 Owner supplied a completed real-model report: core identity/continuity improved, with invented venue/scenery and excessive canine verbosity remaining. Canonical public-directory context, stricter fact-preservation briefs and forty-word canine response validation are implemented. Existing grounded-turn-v1 worker remains compatible; no replacement needed. See REAL-MODEL-GROUNDING-REFINEMENTS.md and V1.0.123-OWNER-ACCEPTANCE.md. v1.0.123 published and infrastructure-verified: 1,445 automated cases across 86 suites; 372 local and 372 live browser checks passed. All 180 public files match runtime commit d7347d4f203c8b6b900c9ba55d3ff59d2de21942. Pages deployment 44502845748 succeeded. Automated completions are mocked; actual Cydonia acceptance of this refinement remains pending. The owner’s v1.0.122 real-model report is retained as a partial pass. Existing grounded-turn-v1 worker is unchanged.

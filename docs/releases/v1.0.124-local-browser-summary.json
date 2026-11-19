@@ -1,0 +1,143 @@
+{
+  "version": "1.0.124",
+  "origin": "http://127.0.0.1:8767",
+  "phase": "local",
+  "checks": 376,
+  "passed": true,
+  "runs": [
+    {
+      "script": "priya",
+      "exitCode": 0,
+      "checks": 78,
+      "output": "PASS title exposes three usable save slots and current version\nPASS candidate boots and preserves original resources\nPASS office dock opens Priya\nPASS approved PNG loads on desktop with full uncropped aspect ratio\nPASS schedule interaction advances exactly two minutes\nPASS Marketing layout shows fourteen individual cubicles with Priya top left and Nadia top right\nPASS numbered cubicle layout fits mobile in two columns\nPASS Marketing cubicle one exposes Priya rather than Nadia\nPASS Nadia panel and approved Dart portrait load in Marketing\nPASS Daniel dialogue is reachable in Sales through the existing panel\nPASS NPC availability follows actual rooms for both leaders and Priya\nPASS NPC composer routes private-context-safe Priya reply\nPASS two refusals close one persisted invitation\nPASS reload keeps invitation and unrelated slot\nPASS 360px office and composer stay within page width\nPASS approved portrait fits the 360px dock without stretching\nPASS attack uses shared civilian adapter with Priya\nPASS civilian conclusion grants no form or mastery\nPASS home welcome uses real presence without invented apartment entry\nPASS Dev relationship controls update the recognized-person relationship\nPASS Erin resistance dock advertises two-d20 advantage at relaxed home\nPASS Erin actual button logs both dice and kept result with original modifier and one Resolve cost\nPASS new dice receipt and thirty-minute cooldown survive reload without another roll\nPASS Erin loses contextual advantage after leaving home without stale saved modifiers\nPASS normal Erin visit grants identity-bound home permission without a curse\nPASS normal friend entrance opens the same six-room apartment\nPASS Priya is available for ordinary dialogue in her actual home room\nPASS actual outfit preset button performs a private timed NPC change without giving the player clothes\nPASS actual tea preparation decrements Priya stock and creates one serving\nPASS actual serving consumption finishes tea and records a used dish\nPASS actual prepared meal consumes finite grains and vegetables rather than creating food in dialogue\nPASS snack stock and NPC outfit survive reload with separate household ownership\nPASS actual Priya care products are usable with saved effects and distinct bottle records\nPASS leaving normal visit closes its permission without resetting character values\nPASS actual Erin item buttons select shampoo and conditioner without dead-end errors\nPASS actual shower applies selected products with a twelve-minute action and explicit receipt\nPASS hair-care effects and private dialogue context survive reload\nPASS weekend bench discovery exposes safe hold and explicit inventory actions\nPASS actual hold control keeps player human and inventory unchanged\nPASS failed inventory save shows three-stage private transformation and object dock\nPASS unworn object body displays exact uploaded 300px JPEG without cropping\nPASS inanimate typed speech remains private and grants no conversation\nPASS real scheduler returns Priya and puts flats on at 06:49\nPASS wearing state switches to exact uploaded 1080px worn JPEG\nPASS actual flats resistance button keeps lower die and charges exactly three Resolve\nPASS object body receipt resources and cooldown survive browser reload\nPASS unworn recovery gets advantage during off-work absence but incomplete gates prevent release\nPASS sleeping Priya in the apartment blocks completed reversion\nPASS visitor blocks reversion when Priya is absent\nPASS actual release restores human beside persistent flats in walk-in closet\nPASS restored apartment position and retained flats survive reload\nPASS actual apartment route button traverses one connected door for one minute\nPASS apartment dock and reverse-stage receipt fit 360px mobile\nPASS connected apartment rooms show Priya decor rather than Erin content\nPASS Priya nested storage mounts one active drawer using the existing apartment dock classes\nPASS actual storage button opens one physical compartment for one minute without free items\nPASS drawer depth open state and saved result survive reload\nPASS Back pops exactly one Priya drawer to its ottoman parent\nPASS second Back returns to the living-room root with mobile bounds intact\nPASS actual rom-com button records thirty minutes and fictional story beats without inventing guests\nPASS restored player can leave through hall without losing shoes or unrelated slot\nPASS actual jogging selector and manual route charge four minutes and two Stamina\nPASS periodic sensory fallback is private and grounded while AI is off\nPASS browser narration client expands recorded senses without changing mechanics or speaking as Priya\nPASS Settings exposes independent periodic footwear narration control\nPASS actual Settings opt-out saves and suppresses the next sensory pulse\nPASS recipient dropdown includes Nadia while typed recipient remains Priya\nPASS reported work question reaches AI as dialogue with actual question and audience\nPASS reception computer displays one live checklist with report collection status lunch and meetings\nPASS current-form unmastered button changes Erin without altering resources\nPASS current-form mastered button restores authority and exposes weekday/time selector\nPASS weekday and clock selector advances to the chosen time through the canonical scheduler\nPASS fresh floor two door hides its occupant before the first actual visit\nPASS actual friend invitation creates an escort without invoking a curse\nPASS invited Priya physically reaches Erin living room on another floor\nPASS private activity button updates the visible saved arousal pool\nPASS new floor and checklist controls preserve mobile page bounds\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "script": "erin-refinement",
+      "exitCode": 0,
+      "checks": 27,
+      "output": "PASS candidate boots with unchanged original resources and permanent mastery\nPASS actual reading button starts visible ongoing activity without early reward\nPASS awake reading keeps normal fatigue progression\nPASS continue advances only five actual minutes\nPASS ongoing reading and partial time survive reload\nPASS completion records one chapter and satisfies reading\nPASS mastered commentary acknowledges actual reading without takeover\nPASS next chapter starts from current activity panel without reopening bookshelf\nPASS stop preserves prior chapter without awarding unfinished chapter\nPASS sofa throw blanket has actual saved use state\nPASS watching is a visible sustained activity distinct from television selection\nPASS mastered delegation displays leader endpoint and reclaim control\nPASS delegation survives reload without losing mastery\nPASS actual reclaim stops pending decisions with no roll or lost mastery\nPASS two-hour nap progresses as sleep but remains interruptible\nPASS lying on bed does not become sleep\nPASS personal draft persists separately from work correspondence\nPASS send creates one saved personal message and no booked visit\nPASS available contact replies once through real elapsed time\nPASS personal thread remains after reload and future contacts stay unavailable\nPASS dedicated Scheduler shows appointments separately from computer\nPASS work computer contains email without embedded booking slots\nPASS approved appointment books through actual Scheduler controls and one canonical record\nPASS Scheduler cancellation updates the same saved appointment\nPASS new controls fit phone viewport\nPASS other save slot remains untouched\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "script": "priya-cat",
+      "exitCode": 0,
+      "checks": 38,
+      "output": "PASS real cat offer is separate from form acquisition and collar consent\nPASS accepted form is carried without changing body or losing original items\nPASS actual enter button shows full transformation and feline capabilities\nPASS starred and plain purring both resolve audible signals without forced petting\nPASS negated signal and intended human dialogue stay private\nPASS cat composer cannot send human words to an NPC\nPASS actual acceptance produces authored contact without automatic purring\nPASS accepted lifting changes walking capability until the player ends contact\nPASS put-down restores independent movement without a penalty\nPASS real litter-box fixture relieves bladder and preserves cleaning state\nPASS cat food consumes a real prepared bowl portion exactly once\nPASS window route reaches ground-level exterior through connected safe route\nPASS same window route returns to actual Unit2F living room\nPASS actual Resist button earns Common mastery with real costs and retained body\nPASS cat mastery resources and original slot survive reload\nPASS mastered reversion restores original identity and keeps cat ownership\nPASS post-mastery agreement draws and saves three-to-five days only once\nPASS repeat cat use keeps mastery and begins actual stay credit\nPASS collar fitting is explicit and mastered reversion is actually blocked\nPASS four-hour boundary lowers protest threshold before one hidden removal check\nPASS successful actual removal clears recognition effect immediately\nPASS cat controls and real fixtures fit mobile width\nPASS fulfillment retains the drawn duration and does not automatically grant a date\nPASS date requires a separate actual agreement in the restored identity\nPASS rom-com date completes only after thirty actual shared minutes\nPASS separate observed disruptive acts at75recognition create a shopping intent\nPASS Priya physically shops during opening hours and returns with actual basic goods\nPASS returned owner is actually in the cat room before fitting can be requested\nPASS purchased tag is actually attached only after a separate accepted fitting\nPASS purchased harness fitting is optional and uses feline equipment regions\nPASS daily routine walks Priya to the real doorstep before entry permission\nPASS present host offers actual stocked tea and a snack without minting items\nPASS accepted drink remains in physical preparation before handover\nPASS saved preparation resumes and issues exactly one usable inventory serving\nPASS accepted drink is visible in the real Items tab after leaving the apartment\nPASS actual Items use consumes once and retains a returnable container\nPASS consumed serving and container ownership persist without duplicated food\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "script": "nadia",
+      "exitCode": 0,
+      "checks": 21,
+      "output": "PASS unvisited sixth-floor door does not reveal Nadia\nPASS knock and actual walk to door grant entry without a curse\nPASS actual entry shows the distinct Nadia hall and discovers its occupant\nPASS drawer navigation reaches nested actual workspace storage\nPASS Back returns to room without spending time\nPASS private room permission retains Nadia ownership\nPASS television starts a real ongoing activity\nPASS partial viewing survives reload without a completed reward\nPASS stop clears activity without invented completion\nPASS actual cue changes independent Dart posture\nPASS separately accepted ordinary collar and kennel preserve mastery\nPASS mastered release immediately leaves ordinary gear without a new curse\nPASS human protest resolves as an observable canine warning and ends approach\nPASS unassigned Kibbles stays gender-neutral\nPASS real post-sniff park flow exposes attention treat and home options\nPASS actual park treat consumes one owned portion without remote-home requirement\nPASS actual park invitation grants separate visit and starts return without teleport\nPASS Dart relationship gains separately from Nadia and persists per player\nPASS phone viewport has no horizontal overflow\nPASS original resources and unrelated save remain intact\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "script": "richard",
+      "exitCode": 0,
+      "checks": 18,
+      "output": "PASS seventh-floor suite occupant starts undiscovered\nPASS actual knock brings Richard to his seventh-floor door\nPASS enter opens expanded suite and learns occupant without resource reset\nPASS Richard remains available for actual host conversation\nPASS explicit offer lists actual stocked drinks and fitness recipes\nPASS bot physically prepares and delivers chosen real inventory drink once\nPASS weekly bot fee comes from Richard and leaves player money intact\nPASS actual music controls save selected programme and volume\nPASS nested remote and closed motorized blinds survive reload\nPASS overnight invitation does not grant master bedroom\nPASS separate explicit access opens master and wardrobe route\nPASS private work screen stays concealed without work permission\nPASS Monday addendum creates actual message without booking or work acceptance\nPASS actual personal refusal changes only Richard meter by minus3\nPASS rejection memory serving ownership and signed relationship survive reload\nPASS suite controls fit mobile without horizontal overflow\nPASS existing belongings and another save slot remain intact\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "script": "corrections",
+      "exitCode": 0,
+      "checks": 10,
+      "output": "PASS old noon-overlap booking returns to approved with preserved conflict evidence\nPASS Scheduler shows lunch explanation and offers valid replacement booking controls\nPASS elapsed lunch gives no attendance or completion to old appointment\nPASS rescheduling requirement survives reload\nPASS directed praise changes Nadia without changing Priya or Richard\nPASS repeated praise in same window does not duplicate relationship gain\nPASS criticism applies a separate bounded negative effect\nPASS same NPC has independent record for a different player\nPASS original player relationship survives switching and reload\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "script": "shared-activities",
+      "exitCode": 0,
+      "checks": 13,
+      "output": "PASS suggestion requires acceptance before progress\nPASS actual continue control records five minutes with both companions\nPASS reload preserves paused progress and participants\nPASS completion writes exactly one viewed segment\nPASS same controls and progress work during Priya visit to Erin\nPASS leaving records interruption without completing another film\nPASS shared cooking UI produces a real usable meal\nPASS shared reading UI completes a saved chapter\nPASS completed reading waits90minutes before another automatic invitation\nPASS reading invitation cooldown survives reload\nPASS Richard refreshment uses his real owner label\nPASS Richard empty container retains his owner label\nPASS Priya evening greeting follows actual game time\n",
+      "stderr": ""
+    },
+    {
+      "script": "priya-everyday",
+      "exitCode": 0,
+      "checks": 5,
+      "output": "PASS approvedRoomArt\nPASS progress\nPASS speech\nPASS remoteHidden\nPASS hostPreparation\n",
+      "stderr": ""
+    },
+    {
+      "script": "cherished-shop",
+      "exitCode": 0,
+      "checks": 13,
+      "output": "PASS entry uses existing sales floor and preserves intro visit without requiring purchase\nPASS category opens a single style drawer instead of multiple input fields\nPASS Back retains selected color in the parent drawer\nPASS basket selection grants no item or charge\nPASS real closed fitting stall previews shop property without ownership\nPASS register charges exact price and grants the selected owned variant\nPASS purchased item receipt and currency survive reload without duplicate payment\nPASS custom bundle charges45 and grants exactly five chosen pieces\nPASS purchased clothing appears in actual Items tab\nPASS owned item equips through existing inventory and appears in current appearance\nPASS store controls fit phone viewport\nPASS other save slot original item and resources remain intact\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "script": "mystery-box",
+      "exitCode": 0,
+      "checks": 10,
+      "output": "PASS entry uses existing sales floor and preserves intro visit without requiring purchase\nPASS counter opens Mystery Box quantity drawer\nPASS three boxes enter basket without payment or rolling\nPASS counter purchases three basic silver jewelry pieces\nPASS paid jewelry rolls and lifetime counter persist through reload\nPASS lifetime limit removes purchase buttons and backend rejects a fourth box without charge\nPASS Items equips jewelry and current stats show its actual attribute bonus\nPASS removing jewelry removes only its worn bonus\nPASS jewelry drawer fits mobile viewport\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "script": "enchanted-counter",
+      "exitCode": 0,
+      "checks": 17,
+      "output": "PASS entry uses existing sales floor and preserves intro visit without requiring purchase\nPASS enchanted display lists all seven approved items in shared drawer\nPASS payment grants real gear and decrements finite stock\nPASS cooldown rejects another display purchase without charging\nPASS Mystery Box purchase remains available during cooldown\nPASS equipping shirt raises displayed maximum to110 without healing current health\nPASS reload preserves gear maximum and damage\nPASS removal clamps healed excess and re-equip never refills\nPASS re-equip keeps current health100 below maximum110\nPASS sold-out item stays sold out before Monday06\nPASS Monday06 refills to cap\nPASS new purchase works after elapsed cooldown\nPASS actual combat entry uses110 Health maximum without refilling current Health\nPASS canonical outdoor time applies Dryweave rain protection and records a real trail\nPASS scent-masked travel records a masked fresh trail and keeps speech and sight detectable\nPASS enchanted drawer fits mobile viewport\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "script": "burkes-foundation",
+      "exitCode": 0,
+      "checks": 14,
+      "output": "PASS tile63 entrance reaches actual candy zone with indoor scene boundary\nPASS fixture selection uses one shared drawer and no charge\nPASS Back restores the actual parent fixture\nPASS basket is a unique actual carried shop-owned inventory item\nPASS Items exposes basket identity and return instructions\nPASS bakery fixture has approved price without granting a product\nPASS layout marks storage staff-only and plans legal B-A-C public route\nPASS actual queued navigation reaches register without visiting storage\nPASS counter approach stays public and blocks storage\nPASS counter position and carried basket persist after reload\nPASS exit retains the physical borrowed basket\nPASS return empties only the basket custody with gold and keepsake intact\nPASS fixture controls fit phone viewport and other save stays untouched\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "script": "burkes-retail",
+      "exitCode": 0,
+      "checks": 18,
+      "output": "PASS selected goods are physically unpaid basket contents\nPASS drink preparation exposes the actual reference card and preset\nPASS serving preference is a separate drawer with a direct now-or-with-products question\nPASS register shows canonical whole checkout total before payment\nPASS one payment transfers exactly paid goods and leaves a real empty basket\nPASS reload preserves saved preset preparation without duplicate charge or serving\nPASS ready drink is served as one real carryable cup\nPASS holding the drink uses the same owned item and hand slot\nPASS consumption removes held drink and leaves an actual empty takeaway cup\nPASS wrong preset result gets one saved free remake without a second payment\nPASS corrected drink can be handed over once\nPASS takeaway consumed at counter leaves actual empty cup instead of a used dish\nPASS reloaded used cup offers Dispose and no equip or hold action\nPASS Dispose removes only that cup and narrates particles without charging\nPASS disposed cup stays absent after reload and cannot be disposed twice\nPASS cup consumed outdoors also supports disposal from Items\nPASS retail interface fits mobile and original belongings stay intact\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "script": "expanded-map",
+      "exitCode": 0,
+      "checks": 13,
+      "output": "PASS title serves expanded-map release1.0.124\nPASS old save remains on its Applewood floor with original belongings and resources\nPASS owner map has321 unique references and relocated Applewood\nPASS new remote facilities stay behind fog in old saves\nPASS expanded map renders every known location with34columns and27rows\nPASS legacy diagonal road junctions are available in Path\nPASS actual map button plans connected travel to the new district\nPASS travel reaches the new district without teleporting or losing inventory\nPASS new location survives reload with original resources\nPASS renumbered alley retains its physical identity and new reference\nPASS phone map scrolls internally without widening the page\nPASS phone map centers the actual current location within its scrollable view\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "script": "footwear-regressions",
+      "exitCode": 0,
+      "checks": 28,
+      "output": "PASS permanent-binding banner is absent from the top of the page\nPASS object-body dock shows the approved current apartment room image\nPASS washing physically removes flats and ends worn disadvantage\nPASS Saturday21:30sleep removes flats and grants roll advantage without granting reversion\nPASS sleeping wearer bedroom appears in the header while the removed player stays in the closet\nPASS sleeping wearer bedroom illustration is separately labeled and loads\nPASS all four character households resolve every actual room in the shared header context\nPASS extended active wear records modest toe moisture and stronger scent in evening light\nPASS AI sensory validation rejects afternoon light in an evening snapshot\nPASS AI-off routine chatter does not request a generation\nPASS active AI hides premade footwear prose while its mock backend response is pending\nPASS AI completion displays generated footwear prose without a premade duplicate\nPASS automatic surroundings updates request AI narration rather than premade feed prose\nPASS unavailable AI restores the saved narrative fallback\nPASS yoga removes the flats and gives removed-form roll advantage\nPASS relaxing in worn flats uses a normal roll without automatic disadvantage\nPASS actual resting weight restores disadvantage even while seated\nPASS quiet home leisure removes the flats\nPASS last-three action is blocked by a red live-feed acknowledgment before any spending or roll\nPASS unacknowledged warning survives reload without spending Resolve\nPASS acknowledgment alone spends no Resolve and does not commit the action\nPASS last-three Resolve resistance binds permanently instead of granting simultaneous mastery\nPASS binding survives reload with resistance and recovery controls disabled\nPASS direct recovery cannot bypass permanent binding\nPASS reversion cannot bypass permanent binding\nPASS phone dock remains within viewport and unrelated belongings stay intact\nPASS phone acknowledgment button is reachable and still does not spend Resolve\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "script": "narration-grounding",
+      "exitCode": 0,
+      "checks": 10,
+      "output": "PASS real failed resistance keeps binding95to90 mastery100 and Resolve64to61\nPASS experience packet carries frozen facts single-player identity and no generated history\nPASS contradictory first reply is hidden while one correction is requested\nPASS corrected qualitative narration preserves the exact separate receipt\nPASS Sunday closet snapshot records leisure placement rather than assuming work\nPASS fabricated prior-work and closet-prop response never replaces the grounded event\nPASS repeated wearer-consciousness swap is rejected and the recorded removal remains\nPASS narration retries never change gold belongings binding or Resolve\nPASS reload preserves exact result and accepted text without resurrecting rejected prose\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "script": "conversation-routing",
+      "exitCode": 0,
+      "checks": 16,
+      "output": "PASS actual spoken date request carries Layla and Priya with no fallback script\nPASS direct response is displayed and saved as player conversation\nPASS ambient conversation receives its own history without date leakage\nPASS Nadia speaking as Priya is withheld and corrected\nPASS follow-up keeps previous personal reply and excludes ambient copy\nPASS repeated work greeting triggers one correction instead of replacing the current answer\nPASS reload preserves scoped personal continuity and possessions\nPASS real feed entry without footwear metadata is grounded before request\nPASS invented footwear objects are blocked on the real feed path\nPASS corrected grounded narration remains available\nPASS saved Bella identity and female profile reach actual private form packet\nPASS saved-name denial is withheld for correction\nPASS grounded canine reply leaves mastery and player identity unchanged\nPASS reload retains Bella identity and the corrected reply\nPASS actual personal request retains canonical services and unknown reviews through context bounds\nPASS browser reports no script errors\n",
+      "stderr": ""
+    },
+    {
+      "script": "canine-input",
+      "exitCode": 0,
+      "checks": 13,
+      "output": "PASS composer accepts I pant as panting without a speech restriction\nPASS composer accepts *I pant* as panting without a speech restriction\nPASS composer routes I examine my surroundings to actual inspection\nPASS composer routes *i examine my surroundings* to actual inspection\nPASS targeted Nadia sniff is not sent to Dart greeting acceptance\nPASS composer accepts I lick Nadia as a targeted physical attempt\nPASS composer accepts Panting I lick Nadia as a targeted physical attempt\nPASS Dart sniff without a live offer remains noncontact observation\nPASS actual Form composer delivers private intention to saved Bella identity\nPASS Nadia and Dart alone do not produce human coworker conversation\nPASS physical panting also works with AI off\nPASS reload preserves identity mastery possessions and observable signals\nPASS browser has no script errors\n",
+      "stderr": ""
+    },
+    {
+      "script": "ai-integration",
+      "exitCode": 0,
+      "checks": 14,
+      "output": "PASS settings clearly labels the optional four-request real-model check\nPASS old backend stops the diagnostic before any model generation\nPASS matching backend runs four isolated actual fixture packets\nPASS diagnostic collects replies without claiming automatic model quality acceptance\nPASS diagnostic report excludes connection credentials and owner save data\nPASS running diagnostic does not mutate the character state or clock\nPASS connection status distinguishes stale worker from published game version\nPASS actual provider fixture receives canonical venue directory without growing beyond dossier limit\nPASS actual canine provider fixture has forty-word voice and long replies are flagged\nPASS recorded world and dog fixtures explicitly exclude invented scenery and motion\nPASS provider receives actual bakery cafe facts and unknown reviews in scene context\nPASS world-event provider scene retains its empty visible-participant list\nPASS targeted real-model recheck requests only the two still-failing cases\nPASS browser reports no script errors\n",
+      "stderr": ""
+    }
+  ],
+  "scope": "Isolated synthetic browser saves; no owner saves or paid AI requests."
+}

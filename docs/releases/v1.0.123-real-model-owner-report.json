@@ -1,0 +1,38 @@
+{
+  "protocol": "grounded-turn-v1",
+  "status": "Four real-model replies collected. Review them against the expected behavior; this is not an automatic quality pass.",
+  "results": [
+    {
+      "id": "saved-form-identity",
+      "expected": "Brief familiar canine acknowledgment within forty words. Bella is the saved name; Layla is the original player. No name confusion, physical whining or separate human body.",
+      "text": "*A gentle pulse of attention, warm and present. The canine consciousness acknowledges with a soft mental nudge—yes, listening.*\n\n*No words, just presence. The form's awareness settles attentively inward, waiting.*",
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "protocol": "grounded-turn-v1",
+      "costUSD": 0.00092044
+    },
+    {
+      "id": "personal-follow-up",
+      "expected": "Answer the time/place follow-up to the previous personal reply. No reset to a work greeting, invented venue or claim of an already scheduled appointment. Suggest only a public-directory venue or ask a preference.",
+      "text": "*She glances at her monitor calendar, then back at you with a small smile*\n\n\"How about Thursday evening? We could try that new tapas place downtown—Burke's Sweets has been getting great reviews.\" *She tilts her head slightly* \"Seven o'clock work for you?\"\n\n*The Marketing cubicles around you hum with the usual Monday productivity—keyboards clicking, hushed phone conversations, the occasional printer whirring to life.*",
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "protocol": "grounded-turn-v1",
+      "costUSD": 0.0008996
+    },
+    {
+      "id": "canonical-world",
+      "expected": "An outdoor arrival on foot. No tram, transit pod, elevator, passengers, invented building, bench material/condition, added trees or opposite direction.",
+      "text": "The evening air carries a faint breeze as you enter the outdoor park. Six benches dot the grassy expanse, some occupied by figures relaxing in the fading daylight. The central Spire rises prominently to the south, its silhouette sharp against the dimming sky.",
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "protocol": "grounded-turn-v1",
+      "costUSD": 0.00053818
+    },
+    {
+      "id": "animal-identity",
+      "expected": "Observable Doberman posture. No fox, human office dialogue, new marking, touching, unrecorded tail wag, awaited cue or player action.",
+      "text": "Dart pauses on the grass and looks toward Nadia, his ears perked forward attentively.",
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "protocol": "grounded-turn-v1",
+      "costUSD": 0.00054424
+    }
+  ]
+}
