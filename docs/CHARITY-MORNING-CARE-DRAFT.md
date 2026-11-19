@@ -17,7 +17,7 @@ Owner authorizes drafting this sequence now. The coverage quest itself remains d
 
 The existing `erin-household.js` outfit preset uses8minutes to collect/change an outfit, with actual garment custody. That is a reusable timing/ownership reference, not permission to clone Erin’s wardrobe or move the player when Charity moves. Actual NPC movement needs Charity’s own actor state and resident permissions, distinct from the visitor’s location/permission.
 
-## Proposed concrete sequence
+## Approved concrete sequence
 
 | Action | Actual place / route | Time |
 | --- | --- | --- |
@@ -46,8 +46,8 @@ The fresh spare can use her approved ordinary jeans/plain tee/cardigan/comfortab
 
 Use Charity-owned towels, mild soap, shampoo/conditioner as actually selected/available, toothbrush/toothpaste, deodorant, hairbrush, simple skin-care products and clean underwear/socks/work clothes. Avoid extra elaborate beauty procedures in this short window. No product use or clean clothing is granted just by rendering a room. Sleepwear, towels, used dishes and dirty clothing retain actual ownership/condition/cleanup state.
 
-Only on Time’s Monday groceries/toiletries and community prepared-meal visits are established sources; starting amounts, order quantities, spending amounts, delivered portions and exact missing-stock behavior are separate unresolved inventory design. Do not erase inventory constraints, invent food, charge the player or take shop money to guarantee this proposal’s timing. Household implementation must support a feasible reviewed fallback rather than breaking the420minute coverage cap.
+Only on Time’s Monday groceries/toiletries and community prepared-meal visits are established sources; combined counts and missing-quantity Monday top-ups are now approved in CHARITY-HOUSEHOLD-STOCK-DRAFT.md; prices/budget, delivered portion execution and exact recipe effects remain unimplemented. Do not erase inventory constraints, invent food, charge the player or take shop money to guarantee this proposal’s timing. Household implementation must support a feasible reviewed fallback rather than breaking the420minute coverage cap.
 
 ## Approved checkpoint and next step
 
-The timing and distinct clean spare outfit are settled. Owner next accepts discussing the handover interaction. Keep this as quest design only, since its playable framework was explicitly deferred; do not re-ask these morning timings. After the handover/removal decision, resume concrete household stock rather than inventing a completed quest.
+The timing and distinct clean spare outfit are settled. Handover/reversion, chaining, stock targets and sharing are now approved in current design records. Keep this as design since the playable framework remains deferred; do not re-ask approved morning timings.

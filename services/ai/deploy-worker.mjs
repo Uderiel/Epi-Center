@@ -13,7 +13,7 @@ function packet(raw){
  if(String(raw.message??'').length>1600)throw new AIError('Message exceeds 1,600 characters; no generation was attempted.',413);
  if(String(raw.scene??'').length>10000)throw new AIError('Scene exceeds the context limit; no generation was attempted.',413);
  const history=Array.isArray(raw.history)?raw.history.filter(x=>['user','assistant'].includes(x.role)&&(raw.kind!=='form'||x.contextVersion===FORM_CONTEXT_VERSION)).slice(-12).map(x=>({role:x.role,content:clip(x.content,900)})):[];
- return {kind:raw.kind,actor:{id:clip(raw.actor.id,80),name:clip(raw.actor.name,80),dossier:clip(raw.actor.dossier,3200),communication:clip(raw.actor.communication,600)},scene:clip(raw.scene,10000),message:clip(raw.message,1600),event:clip(raw.event,2600),repair:Array.isArray(raw.repair?.issues)?raw.repair.issues.slice(0,8).map(x=>clip(x,220)):[],history};
+ return {kind:raw.kind,actor:{id:clip(raw.actor.id,80),name:clip(raw.actor.name,80),dossier:String(raw.actor.dossier??''),communication:String(raw.actor.communication??'')},scene:clip(raw.scene,10000),message:clip(raw.message,1600),event:clip(raw.event,2600),repair:Array.isArray(raw.repair?.issues)?raw.repair.issues.slice(0,8).map(x=>clip(x,220)):[],history};
 }
 // The provider receives one clearly framed turn, not a save-shaped JSON task to roleplay.
 function sceneFacts(p){let state={},description='';try{const lines=p.scene.split('\n');state=JSON.parse(lines.shift());description=lines.join('\n');if(!state||Array.isArray(state)||typeof state!=='object')state={};}catch{if(p.scene.trim().startsWith('{'))throw new AIError('The structured scene record is incomplete. No generation was attempted.',400);description=p.scene;}
@@ -53,7 +53,7 @@ async function prepareGeneration(raw,env,fetcher=fetch){
  let detail;try{const res=await fetcher('https://api.featherless.ai/v1/models/'+encodeURIComponent(modelId),{headers,signal:AbortSignal.timeout(15000)});if(!res.ok)throw Error();detail=await res.json();}catch{throw new AIError('The selected model is unavailable. No generation was attempted.');}
  if(detail.id!==modelId||detail.available_on_current_plan===false||detail.status&&detail.status!=='active')throw new AIError('The selected model is not available on this account.');
  const rate=pricing(detail,env),bytes=new TextEncoder().encode(JSON.stringify(messages)).length;
- if(bytes+128*messages.length+rate.maxTokens>rate.context)throw new AIError('This conversation is too large. Shorten the context before retrying.',413);
+ if(bytes+128*messages.length+rate.maxTokens>rate.context)throw new AIError('The complete request exceeds the selected model’s context capacity. No generation was attempted and no character facts were silently removed. Use a larger-context model or explicitly select relevant turn context.',413);
  return {headers,rate,body:{model:modelId,messages,max_tokens:rate.maxTokens,temperature:0.8,top_p:0.9,repetition_penalty:1.05,frequency_penalty:0.15,stream:false}};
 }
 async function inspectRequest(raw,env,fetcher=fetch){

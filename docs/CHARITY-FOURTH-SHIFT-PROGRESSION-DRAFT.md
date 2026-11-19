@@ -23,14 +23,14 @@ Apply one conserved base-point transfer at each completed hour of the fourth shi
 
 ## Boundaries and pending work
 
-- Existing third-shift two checks at300/330minutes and natural1 rule are not silently repeated or strengthened here. Fourth-shift speech/confinement is the separately approved gradual restriction, with intermediate timings proposed above.
+- Existing third-shift two checks at300/330minutes and natural1 rule are not silently repeated or strengthened here. Fourth-shift speech/confinement is the separately approved gradual restriction, with intermediate timings approved above.
 - No automatic identity erasure, secret memory copying, new permanent binding, relationship reset or forced economic action.
 - Actual completed fourth coverage receives its existing once-only+5relationship. Lock time alone does not mint rewards; later owner-approved scheduled online/offline coverage can generate actual paid shift completions under the recorded rotation design.
 - Full interior access during the locked state is approved; this draft does not add earlier private access beyond existing invitations.
 - At72-hour expiry, privacy compulsion leads to actual privacy, then mask falls off and confinement/forced speech end. Appearance persists until paid surgical restoration; attributes need deliberate reallocation. No timer restart while seeking privacy.
 - Offline real-time lock expiry needs authoritative per-player persistence in eventual multiplayer. No controller or multiplayer service is implemented here.
 
-Approved: intermediate physical grouping, first hard exit restriction at **180elapsed minutes, the start of hour4**, speech progression and six hourly attribute transfers. Final six-hour completion and72-hour lock duration remain approved. Remaining details include exact sub-stage timestamps and attribute donor/recipient selection against an approved Charity distribution.
+Approved: intermediate physical grouping, first hard exit restriction at **180elapsed minutes, the start of hour4**, speech progression and six hourly attribute transfers. Final six-hour completion and72-hour lock duration remain approved. Remaining details include exact sub-stage timestamps and implementation of the approved selection in CHARITY-ATTRIBUTE-TRANSFER-DRAFT.md.
 
 ## Approved narration — settling, not a repeated transformation
 

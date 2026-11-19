@@ -1,0 +1,50 @@
+{
+  "scope": "Twelve-section review, full authored dossiers preserved end to end; synthetic requests, no model call",
+  "beforeFix": {
+    "frontendCharacters": 4592,
+    "backendLimit": 3200,
+    "privateInvitationLost": true,
+    "bundleLost": true
+  },
+  "afterFix": [
+    {
+      "case": "ordinary",
+      "frontendCharacters": 4303,
+      "backendCharacters": 4303,
+      "unchanged": true,
+      "hasAppearance": true,
+      "hasLeftEar": true,
+      "hasTravelInterest": true,
+      "hasFavorite": true,
+      "hasBundle": true,
+      "hasPrivateGate": true,
+      "noPrivateLore": true
+    },
+    {
+      "case": "many-mentioned-venues",
+      "frontendCharacters": 4303,
+      "backendCharacters": 4303,
+      "unchanged": true,
+      "hasAppearance": true,
+      "hasLeftEar": true,
+      "hasTravelInterest": true,
+      "hasFavorite": true,
+      "hasBundle": true,
+      "hasPrivateGate": true,
+      "noPrivateLore": true
+    }
+  ],
+  "policy": "No arbitrary per-character/form authored-detail cut. Complete selected public dossier and voice pass frontend/backend; whole-request transport/model-context guards reject explicitly before budget reservation or generation. No unlimited-context claim or undeveloped retrieval system.",
+  "evidence": {
+    "charityCases": 10,
+    "backendCases": 52,
+    "aiContext": "Focused suite passed including long registered-NPC and saved-form profiles"
+  },
+  "notRun": [
+    "No fresh full regression run",
+    "No owner saves",
+    "No real provider generation",
+    "No deferred household/coverage/offline execution",
+    "No live deployment verification"
+  ]
+}

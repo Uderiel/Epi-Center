@@ -10,13 +10,13 @@ The visible disguise already looks like Charity while worn. Therefore the hourly
 
 Attribute bleed preserves the player’s **total base attribute points**. Every two hours of the risk phase, transfer one point from a player strength toward a Charity strength. Equipment bonuses are excluded even though the loaned outfit normally replaces other clothes; do not treat taking clothes off as a loophole for modifying equipment/base allocations. No automatic grant of Charity’s stronger NPC stats or rarity budget.
 
-**Charity herself is Epic-equivalent and a mental specialist**, not Common. Her apparent age remains mid-thirties; true chronological age is not established merely by the owner saying she has been around a long time. The prototype previously contained an Epic budget of60 and per-attribute cap20; the owner now approves a universal10base cap, but code values are not evidence of owner approval. The owner explicitly notes that higher-rarity allocations have not been established. Treat those existing numbers and the separate numeric profile as provisional references only; do not finalize rarity budgets here. Actual numeric allocation remains to propose and approve.
+**Charity is Epic and a mental specialist**, with an approved75-point profile and universal10base cap. Current allocation: Endurance5,Fitness3,Intuition7,Reflexes5,Willpower10,Reasoning10,Stability10,Presence10,Insight10,Influence5. Apparent age is mid-thirties; chronological age remains unspecified. Approved rarity totals are45/55/65/75/85; none grant the masked player extra points.
 
 Behavioral bleed initially supplies **Charity-like private inner-monologue impressions** appropriate to her personality and current observed service: anticipation of a conversation, another long day, hopes for good sales. These are not telepathy into the real Charity, copied secret memories or speech heard by external NPCs. Compulsion may occur before the third handover on a very low player roll. The owner specifies the existing influence-control style: the player’s resisting stat against Charity’s mental stat. This supersedes the fixed-DC8 draft below. The latest owner decision requires a natural1 on the player die for compulsion; ordinary opposed failure alone cannot trigger it. Action scope is now approved below as one brief service action followed by normal control. Exact resistance costs remain unresolved. The owner approves that private inner commentary stops when the mask is removed; redistributed base attributes persist until deliberately reallocated.
 
 The mask cannot be removed before the third shift’s actual handover completes; this remains the existing accepted coverage commitment, not automatic permanent entrapment. The older twentieth-shift quest exception remains separately deferred. Appearance restoration is explicitly authorized at cosmetic surgery. The owner separately approves that inner commentary stops on mask removal and shifted attributes remain until deliberately reallocated; cosmetic appearance restoration does not implicitly undo attribute redistribution. Existing Going Out of Business design includes attribute reallocation, so do not silently make every clinic/respec/cleaning action cure every system.
 
-### Owner-selected residual order; later hours still draft
+### Approved third-shift residual order
 
 | Hour within third consecutive shift | Residual feature |
 | --- | --- |
@@ -28,27 +28,19 @@ The mask cannot be removed before the third shift’s actual handover completes;
 | 6 | Voice matches hers; the earlier neck component remains associated with this stage |
 
 The owner explicitly revises the sequence to **eyes, ears, nose, mouth, hair, voice**. This replaces earlier orders. No seventh residual feature is approved.
-This keeps the early effects small and concentrated near the mask. It does not silently add body-wide residual transformation, a new apparent-age change or a post-removal hourly clock. Exact same-timestamp handover-versus-hour7 ordering and progression beyond the third shift remain to review later.
+This keeps the early effects small and concentrated near the mask. It does not silently add body-wide residual transformation, a new apparent-age change or a post-removal hourly clock. Fourth-shift progression is separately approved below. No seventh third-shift residual feature is authorized.
 
 ### Control clarification — supersedes fixed-DC draft
 
-The owner selects opposed influence-control-style resistance, not the prior proposed1Resolve/fixedDC8 mechanic. Use player Willpower against **one-quarter of Charity’s eventual approved Reasoning**, not her full mental specialization aggregate. Charity’s actual Reasoning remains unchanged; only this mask-pressure opposition is reduced. Her numeric profile and higher-rarity allocations remain unapproved, so do not manufacture a final opposing value or rounding rule.
+The owner selects opposed influence-control-style resistance, not the prior proposed1Resolve/fixedDC8 mechanic. Use player Willpower against **one-quarter of Charity’s approved Reasoning10**, not her full mental specialization aggregate. Charity’s actual Reasoning remains unchanged; only this mask-pressure opposition is reduced. Her profile and rarity budgets are approved. The quarter value is2.5; no unreviewed integer rounding convention is established.
 
 **A player natural1 is required for compulsion**, retaining the proposed natural1 plus lost-contest condition. Ordinary failures on other natural results cannot take control. Existing `internal-mastery.js` opposed rolls treat a player natural1 as failure already, so this makes the eligible-event trigger5% for an ordinary unmodified d20, not5% per minute or per shift; the owner now specifies exactly two scheduled checks during the third shift’s sixth hour: **300 elapsed game minutes (start of hour6)** and **330 elapsed game minutes (halfway through hour6)**, measured from that shift’s actual counter-coverage start. The six-hour minimum is360minutes; these are not checks at360/390minutes. A delayed handover up to420minutes does not add extra checks. Record each scheduled result once in the eventual persistent shift state; reloading, refreshing dialogue or revisiting the counter must not reroll it. Time skips must process due checks chronologically. No further-shift check schedule is inferred. Do not widen the trigger because Charity is Epic or import high-influence automatic control. This is a limited compulsion event, not permanent identity replacement. No compulsion controller, new cost or automatic binding is implemented; quest work remains deferred.
 
-## Prior prolonged-wear proposal — clarified by latest owner decisions above
+## Prolonged-wear scope and deferred implementation
 
-Owner approves settling/counting each completed chained shift and no arbitrary consecutive-shift cap, then adds a **new prolonged-wear risk from starting the third consecutive shift**, after two completed coverage periods. This qualifies the earlier appearance-only/no-identity-erosion rule for prolonged use; do not retroactively apply bleed to the first two ordinary shifts. The third period is the second extension after the initial shift, not a third extra shift.
+Third-shift risk starts after two completed consecutive shifts. Hourly residual features, private commentary, two rare compulsion checks and two-hour conserved attribute transfers are approved. Fourth-shift progression,72-hour lock and restoration/hatch exception are separately approved below. First-two-shift disguise rules remain intact. No independent duplicate consciousness, original identity erasure or copied private memories is authorized.
 
-During prolonged use, the mask begins producing Charity-like identity/behavior and residual appearance bleed. It is not a newly invented second independent Charity consciousness. The owner says Charity notices after the “third handoff,” when some effect already exists. Preserve that phrasing; do not silently count initial readiness as an extra completed shift or declare her intentionally trapping the player. The precise notice event should be reconciled with actual shift timing.
-
-Working owner cadences: roughly **one attribute point transferred every two hours**, from an attribute where the player is strong toward one where Charity is strong; roughly **one appearance detail per hour**, starting with eye color, then hair color and other features most directly transmitted by the mask. These are transfers toward Charity’s distribution, not a free added point each interval. Starting clock, residual behavior after removal, persistence/recovery and exact donor/recipient tie-breaking still need specification. Do not conflate the earlier approved full25stage disguise with the new list of residual features that may fail to revert.
-
-Historical ambiguity, now resolved by the latest owner clarification above: the spoken clause concerning mask removal/hourly change was ambiguous: it may mean hourly accumulation while worn that becomes visible after removal, or a progression continuing after removal. **Do not choose either silently.** Also clarify whether original saved attributes/appearance change permanently, recover after unmasking or need a specific remedy, and whether behavior is an influence/portrayal bias or compelled control. No new Resolve/mastery challenge or zeroResolve mask binding is inferred without an explicit rule.
-
-Code/design check: Erin’s current attribute resolver substitutes ERIN_ATTRIBUTES while full without modifying base attributes. Deliberate base redistribution is a separate mechanic. Charity’s current canonical profile has **no finalized numeric attribute allocation**, as already identified in her template review; draft that profile for approval before implementing transfers. Use actual base attributes rather than clothing bonuses, preserve total points, and do not write another NPC/form/player’s profile. The tenth/twentieth quest events remain separately deferred; this early prolonged-wear risk is not automatically identical to the historical twentieth-shift challenge.
-
-The coverage quest framework is still deferred; record this design direction and resolve questions before implementing a bleed controller. No current player save, attribute, appearance, reward or mind-state is changed by this note.
+Charity’s mask uses the approved highest non-core donor/lowest core mental recipient rule in CHARITY-ATTRIBUTE-TRANSFER-DRAFT.md, not Erin’s full-form stat substitution. Her numeric profile is finalized. The historical twentieth challenge remains deferred. No live save, reward, disguise or mental state is changed by this design record.
 
 ## Chaining and ordinary settlement approved; prolonged-use details pending
 
@@ -270,7 +262,7 @@ All quest, hatch-exception, restoration purchase and lock controllers remain def
 
 ## Fourth-shift progression approved
 
-See `CHARITY-FOURTH-SHIFT-PROGRESSION-DRAFT.md` for the reviewable six-hour physical, speech and confinement sequence and separate hourly conserved-attribute-transfer proposal. The owner approves the six hourly physical groups, gradual speech progression, exit block at180elapsed minutes (start of hour4), and one conserved attribute transfer per completed hour. Exact within-hour sub-stage timestamps and attribute selection remain unresolved. Implementation remains deferred.
+See `CHARITY-FOURTH-SHIFT-PROGRESSION-DRAFT.md` for the reviewable six-hour physical, speech and confinement sequence and separate hourly conserved-attribute-transfer proposal. The owner approves the six hourly physical groups, gradual speech progression, exit block at180elapsed minutes (start of hour4), and one conserved attribute transfer per completed hour. Exact within-hour sub-stage timestamps remain to implement; attribute selection is approved in CHARITY-ATTRIBUTE-TRANSFER-DRAFT.md. Implementation remains deferred.
 
 ## Approved narration — settling, not a repeated transformation
 
@@ -280,7 +272,7 @@ Example tone: “Warmth gathers through your fingers. Their familiar shape settl
 
 ## Universal base-attribute cap refinement
 
-Owner now approves10as the base per-attribute cap for players, NPCs and forms. Shared combat creation and NPC/form encounter reload normalization enforce that cap; current-body equipment calculations cap base before adding recorded jewelry effects. Existing authored direct-add profiles already fit0–10 and are not halved. Rarity budgets remain provisional; Charity’s separate numeric draft is revised to fit10but not promoted to approved stats. See `audits/UNIVERSAL-ATTRIBUTE-CAP-VERIFICATION.json` for verification. This runtime change does not implement the deferred mask quest.
+Owner now approves10as the base per-attribute cap for players, NPCs and forms. Shared combat creation and NPC/form encounter reload normalization enforce that cap; current-body equipment calculations cap base before adding recorded jewelry effects. Existing authored direct-add profiles already fit0–10 and are not halved. The owner subsequently approves rarity budgets45/55/65/75/85and Charity’s75-point profile, as recorded below. See `audits/UNIVERSAL-ATTRIBUTE-CAP-VERIFICATION.json` for verification. This runtime change does not implement the deferred mask quest.
 
 ## Current numeric profile checkpoint — approved rarity rebalance implemented
 
@@ -312,7 +304,7 @@ Clock check: the current single-player foreground clock advances one game minute
 
 Existing pay progression, assuming four prior completed shifts and no other counted completions, gives450for the first locked-period player shift (completion5), then500each for the next five: **2950gold across the six covered blocks**. This is arithmetic from the approved schedule and existing rewards, not a new hourly wage or a grant before work occurs. Each actual completed coverage shift retains its existing+5relationship capped100; resting blocks are not paid completed player shifts.
 
-Next review remains the locked player’s actual off-duty care: authorized household rest, meals and bathroom access are available, but automated offline care/supply consumption must not be inferred from payroll alone or silently waive approved needs consequences. Draft an explicit schedule before implementing offline simulation.
+Locked-player off-duty care now follows the approved shared routine below. Automated offline care/supply consumption still needs authoritative clock integration and implementation; payroll alone cannot clear needs.
 
 ## Approved locked-period care and community-meal conduct
 
