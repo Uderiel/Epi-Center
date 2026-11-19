@@ -1,0 +1,59 @@
+{
+  "version": "1.0.118",
+  "origin": "http://127.0.0.1:8767",
+  "checks": [
+    {
+      "name": "title serves expanded-map release1.0.118",
+      "passed": true
+    },
+    {
+      "name": "old save remains on its Applewood floor with original belongings and resources",
+      "passed": true
+    },
+    {
+      "name": "owner map has321 unique references and relocated Applewood",
+      "passed": true
+    },
+    {
+      "name": "new remote facilities stay behind fog in old saves",
+      "passed": true
+    },
+    {
+      "name": "expanded map renders every known location with34columns and27rows",
+      "passed": true
+    },
+    {
+      "name": "legacy diagonal road junctions are available in Path",
+      "passed": true
+    },
+    {
+      "name": "actual map button plans connected travel to the new district",
+      "passed": true
+    },
+    {
+      "name": "travel reaches the new district without teleporting or losing inventory",
+      "passed": true
+    },
+    {
+      "name": "new location survives reload with original resources",
+      "passed": true
+    },
+    {
+      "name": "renumbered alley retains its physical identity and new reference",
+      "passed": true
+    },
+    {
+      "name": "phone map scrolls internally without widening the page",
+      "passed": true
+    },
+    {
+      "name": "phone map centers the actual current location within its scrollable view",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}
