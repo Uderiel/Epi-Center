@@ -6,29 +6,31 @@ The visible disguise already looks like Charity while worn. Therefore the hourly
 
 Attribute bleed preserves the player’s **total base attribute points**. Every two hours of the risk phase, transfer one point from a player strength toward a Charity strength. Equipment bonuses are excluded even though the loaned outfit normally replaces other clothes; do not treat taking clothes off as a loophole for modifying equipment/base allocations. No automatic grant of Charity’s stronger NPC stats or rarity budget.
 
-**Charity herself is Epic-equivalent and a mental specialist**, not Common. Her apparent age remains mid-thirties; true chronological age is not established merely by the owner saying she has been around a long time. The current shared engine’s Epic budget is60 and per-attribute cap20. Those are references for drafting her own profile, not free points for the masked player. Actual numeric allocation remains to propose and approve.
+**Charity herself is Epic-equivalent and a mental specialist**, not Common. Her apparent age remains mid-thirties; true chronological age is not established merely by the owner saying she has been around a long time. The current shared engine contains an Epic budget of60 and per-attribute cap20, but code values are not evidence of owner approval. The owner explicitly notes that higher-rarity allocations have not been established. Treat those existing numbers and the separate numeric profile as provisional references only; do not finalize rarity budgets here. Actual numeric allocation remains to propose and approve.
 
-Behavioral bleed initially supplies **Charity-like private inner-monologue impressions** appropriate to her personality and current observed service: anticipation of a conversation, another long day, hopes for good sales. These are not telepathy into the real Charity, copied secret memories or speech heard by external NPCs. Toward the end of hour6 of the third shift, it can begin attempting Charity-like actions, with low resistance cost/easy opposition. Exact attempt timing, action whitelist, roll/DC/cost and off-mask persistence need a concrete reviewed rule; do not silently use her full Epic mental power against the player.
+Behavioral bleed initially supplies **Charity-like private inner-monologue impressions** appropriate to her personality and current observed service: anticipation of a conversation, another long day, hopes for good sales. These are not telepathy into the real Charity, copied secret memories or speech heard by external NPCs. Compulsion may occur before the third handover on a very low player roll. The owner specifies the existing influence-control style: the player’s resisting stat against Charity’s mental stat. This supersedes the fixed-DC8 draft below. The latest owner decision requires a natural1 on the player die for compulsion; ordinary opposed failure alone cannot trigger it. Costs, action scope and off-mask persistence remain unresolved.
 
 The mask cannot be removed before the third shift’s actual handover completes; this remains the existing accepted coverage commitment, not automatic permanent entrapment. The older twentieth-shift quest exception remains separately deferred. Appearance restoration is explicitly authorized at cosmetic surgery; whether that also undoes attribute redistribution or lingering identity effects is **not automatically established** by an appearance-restoration instruction. Existing Going Out of Business design includes attribute reallocation, so do not silently make every clinic/respec/cleaning action cure every system.
 
-### Proposed hourly residual order — review draft
+### Owner-selected residual order; later hours still draft
 
 | Hour within third consecutive shift | Residual feature |
 | --- | --- |
-| 1 | Iris color becomes Charity’s hazel |
-| 2 | Hair color becomes her orangish-red |
-| 3 | Lip shape matches hers |
-| 4 | Voice matches hers |
-| 5 | Ear shape matches hers |
-| 6 | Nose shape matches hers |
-| 7, only if still wearing through that hour | Cheek/jaw facial contour moves toward hers |
+| 1 | Eyes: iris color becomes Charity’s hazel |
+| 2 | Ears match hers |
+| 3 | Nose matches hers |
+| 4 | Mouth/lips match hers |
+| 5 | Hair becomes her orangish-red |
+| 6 | Voice matches hers; the earlier neck component remains associated with this stage |
 
+The owner explicitly revises the sequence to **eyes, ears, nose, mouth, hair, voice**. This replaces earlier orders. No seventh residual feature is approved.
 This keeps the early effects small and concentrated near the mask. It does not silently add body-wide residual transformation, a new apparent-age change or a post-removal hourly clock. Exact same-timestamp handover-versus-hour7 ordering and progression beyond the third shift remain to review later.
 
-### Weak-pressure resistance proposal — not approved
+### Control clarification — supersedes fixed-DC draft
 
-Propose1Resolve per explicit resistance attempt using the player’s current base Willpower+d20 against low fixedDC8, rather than Charity’s full Epic opposed profile. No roll grants mastery points or regenerates resources, and existing equipment rules should remain separately accounted for. Costs/DC/trigger frequency are proposals; no control attempt or player-stat edit is implemented while the quest framework is deferred. Do not infer a new zeroResolve mask-binding rule from adding a weak compulsion effect.
+The owner selects opposed influence-control-style resistance, not the prior proposed1Resolve/fixedDC8 mechanic. Use player Willpower against **one-quarter of Charity’s eventual approved Reasoning**, not her full mental specialization aggregate. Charity’s actual Reasoning remains unchanged; only this mask-pressure opposition is reduced. Her numeric profile and higher-rarity allocations remain unapproved, so do not manufacture a final opposing value or rounding rule.
+
+**A player natural1 is required for compulsion**, retaining the proposed natural1 plus lost-contest condition. Ordinary failures on other natural results cannot take control. Existing `internal-mastery.js` opposed rolls treat a player natural1 as failure already, so this makes the eligible-event trigger5% for an ordinary unmodified d20, not5% per minute or per shift; attempt frequency is still unset. Do not widen the trigger because Charity is Epic or import high-influence automatic control. This is a limited compulsion event, not permanent identity replacement. No compulsion controller, new cost or automatic binding is implemented; quest work remains deferred.
 
 ## Prior prolonged-wear proposal — clarified by latest owner decisions above
 
@@ -38,7 +40,7 @@ During prolonged use, the mask begins producing Charity-like identity/behavior a
 
 Working owner cadences: roughly **one attribute point transferred every two hours**, from an attribute where the player is strong toward one where Charity is strong; roughly **one appearance detail per hour**, starting with eye color, then hair color and other features most directly transmitted by the mask. These are transfers toward Charity’s distribution, not a free added point each interval. Starting clock, residual behavior after removal, persistence/recovery and exact donor/recipient tie-breaking still need specification. Do not conflate the earlier approved full25stage disguise with the new list of residual features that may fail to revert.
 
-The spoken clause concerning mask removal/hourly change is ambiguous: it may mean hourly accumulation while worn that becomes visible after removal, or a progression continuing after removal. **Do not choose either silently.** Also clarify whether original saved attributes/appearance change permanently, recover after unmasking or need a specific remedy, and whether behavior is an influence/portrayal bias or compelled control. No new Resolve/mastery challenge or zeroResolve mask binding is inferred without an explicit rule.
+Historical ambiguity, now resolved by the latest owner clarification above: the spoken clause concerning mask removal/hourly change was ambiguous: it may mean hourly accumulation while worn that becomes visible after removal, or a progression continuing after removal. **Do not choose either silently.** Also clarify whether original saved attributes/appearance change permanently, recover after unmasking or need a specific remedy, and whether behavior is an influence/portrayal bias or compelled control. No new Resolve/mastery challenge or zeroResolve mask binding is inferred without an explicit rule.
 
 Code/design check: Erin’s current attribute resolver substitutes ERIN_ATTRIBUTES while full without modifying base attributes. Deliberate base redistribution is a separate mechanic. Charity’s current canonical profile has **no finalized numeric attribute allocation**, as already identified in her template review; draft that profile for approval before implementing transfers. Use actual base attributes rather than clothing bonuses, preserve total points, and do not write another NPC/form/player’s profile. The tenth/twentieth quest events remain separately deferred; this early prolonged-wear risk is not automatically identical to the historical twentieth-shift challenge.
 

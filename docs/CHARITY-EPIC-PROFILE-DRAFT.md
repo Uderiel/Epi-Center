@@ -1,6 +1,6 @@
 # Charity Epic mental profile — numeric proposal, not approved
 
-Owner confirms Charity’s own strength is Epic-equivalent and mentally specialized. Current engine Epic budget is60base points, with a per-attribute cap20. Her numeric allocation is not previously finalized. This proposed allocation is for the **actual Charity NPC**, not a60point grant/replacement for a masked player.
+Owner confirms Charity’s own strength is Epic-equivalent and mentally specialized. Current engine Epic budget is60base points, with a per-attribute cap20. The owner subsequently clarifies that higher-rarity allocations have not been established: these code values are provisional, not proof of approval. This table is parked pending that review. Her numeric allocation is not previously finalized. This proposed allocation is for the **actual Charity NPC**, not a60point grant/replacement for a masked player.
 
 | Attribute | Proposed value |
 | --- | ---: |
