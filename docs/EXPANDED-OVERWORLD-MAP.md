@@ -229,7 +229,7 @@ Map rendering covers34columns ×27rows, scrolls within the viewport, retains dis
 | 215 | Residential Walkway (2) | -1 | -7 |
 | 216 | Residential Walkway (3) | 1 | -7 |
 | 217 | Residential Walkway (4) | 2 | -6 |
-| 218 | Emergency Barn | 3 | -6 |
+| 218 | Emergency Bean | 3 | -6 |
 | 219 | Library | 4 | -6 |
 | 220 | Deans Office / Admin | -7 | -7 |
 | 221 | Sorority House | -8 | -8 |

@@ -1,3 +1,7 @@
+## Owner naming correction and Zen layout record check
+
+The coffee shop at reference218 is **Emergency Bean**, not Emergency Barn. Canonical map data and expanded-map notes are corrected; legacy location/visited/examined/discovered names migrate through the existing normalizer. Zen Shop and Spa remains mapped at reference68, coordinates(-2,-1); no dedicated schematic, room graph or supplied floor-plan asset was found in the current build records. Do not treat its exterior map placement as a completed interior design. This correction is saved on development, not a new published release.
+
 ## v1.0.125 — published and verified
 
 Published runtime commit 9d99c834acaa353d16dc4c601d9ca7915514bbae; GitHub Pages deployment 44528555355 succeeded. All 1,500 automated cases across 88 suites, 22 local browser checks and 22 live browser checks passed. All 147 checked public runtime files match the release. Owner authorized publishing the verified shop staffing/entry checks and shared relationship changes. Tits is bound to Burke’s counter; closed or unstaffed shops refuse public entry while preserving exits. Shared relationship persistence and templates are included. GitHub Pages publication does not deploy Cloudflare: the updated Worker remains pending, and the client uses authored fallbacks until its required context/relationship version is available. No real-model acceptance is claimed.
