@@ -1,3 +1,7 @@
+## Owner confirms Charity’s own mechanical class
+
+Charity is Epic-equivalent and a mental specialist, with mid-thirties apparent age and unspecified chronological age. This supersedes the older ordinary/Common assumption. Her own numeric allocation still needs an engine-backed60point draft/approval; masked players do not inherit that budget. The profile now records this author-level classification without giving it to players or inventing combat abilities. Latest prolonged third-shift bleed rules and proposed facial sequence are in CHARITY-COVERAGE-DESIGN.md; quest runtime remains deferred.
+
 ## Owner-approved baseline and favorite treat
 
 Owner approves **one week of backup food/care supplies and two distinct owned work outfits**. Exact unpresented row quantities, prices and per-use amounts remain proposals; this approval does not create new runtime inventory or unlimited money.

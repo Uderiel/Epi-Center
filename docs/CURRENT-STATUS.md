@@ -1,3 +1,7 @@
+## Third-shift bleed clarified; Charity Epic/Mental
+
+Hourly residual appearance changes accumulate while wearing the mask in the third shift and persist after removal until cosmetic restoration; no off-mask progression clock. Private Charity-like inner commentary may lead to easily resisted compulsion near hour6. Attributes transfer one-for-one per2hours toward Charity strengths without changing the player’s total or equipment bonuses. Charity herself is Epic/Mental (engine budget60), not a free Epic-stat transformation. Definition records rarity/specialty/apparent age, but exact stats/resistance mechanics remain draft and no bleed controller is implemented. Proposed hours1–7 facial order and unresolved restoration scope/clinic spelling are recorded in CHARITY-COVERAGE-DESIGN.md.
+
 ## Third consecutive Charity shift — bleed design direction pending clarification
 
 Owner approves ordinary per-shift settlement/counting and no arbitrary chain cap, but introduces identity/appearance/attribute bleed starting with the third consecutive coverage period. Working cadence:1point transferred toward Charity’s strengths per2hours;1residual cosmetic detail perhour, eyes then hair/direct-mask features. Removal timing/persistence/agency and exact notice event remain unclear; no implementation or save mutation. Current source confirms Charity has no finalized numeric stat profile; Erin’s resolver normally substitutes rather than rewrites base stats. See CHARITY-COVERAGE-DESIGN.md.

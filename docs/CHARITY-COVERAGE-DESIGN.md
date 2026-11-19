@@ -1,4 +1,36 @@
-## Prolonged consecutive wearing — new owner direction, details pending
+## Latest owner clarification — third-shift residue, private thoughts and Epic Charity
+
+The hourly progression runs **while the mask is worn in the third consecutive shift**, not after it is removed. Two ordinary shifts are completed first; risk begins on the third accepted consecutive coverage period. Accumulated appearance changes remain after ordinary unmasking/reversion and **do not fade on their own**. Owner names cosmetic surgery (“Nip-Tite” in the transcript) to restore the original appearance/remove the residue. Existing reference96 is currently labeled **Nip Tuck Cosmetics**; do not create a duplicate clinic or silently rename the map from ambiguous voice spelling. Exact service name can be reconciled at its location review.
+
+The visible disguise already looks like Charity while worn. Therefore the hourly feature list is **residue in the underlying appearance that will fail to return to normal**, not repeated recoloring of an already-hazel masked eye. Owner examples: eye color, hair color, lips, voice, ears, primarily head/face where the mask is strongest. The full25stage disguise/reverse sequence remains distinct from this residual feature ledger. Preserve an immutable pre-bleed appearance baseline for the later authorized restoration; surgery must not erase unrelated earned progress, identity, inventory or legitimate modifications.
+
+Attribute bleed preserves the player’s **total base attribute points**. Every two hours of the risk phase, transfer one point from a player strength toward a Charity strength. Equipment bonuses are excluded even though the loaned outfit normally replaces other clothes; do not treat taking clothes off as a loophole for modifying equipment/base allocations. No automatic grant of Charity’s stronger NPC stats or rarity budget.
+
+**Charity herself is Epic-equivalent and a mental specialist**, not Common. Her apparent age remains mid-thirties; true chronological age is not established merely by the owner saying she has been around a long time. The current shared engine’s Epic budget is60 and per-attribute cap20. Those are references for drafting her own profile, not free points for the masked player. Actual numeric allocation remains to propose and approve.
+
+Behavioral bleed initially supplies **Charity-like private inner-monologue impressions** appropriate to her personality and current observed service: anticipation of a conversation, another long day, hopes for good sales. These are not telepathy into the real Charity, copied secret memories or speech heard by external NPCs. Toward the end of hour6 of the third shift, it can begin attempting Charity-like actions, with low resistance cost/easy opposition. Exact attempt timing, action whitelist, roll/DC/cost and off-mask persistence need a concrete reviewed rule; do not silently use her full Epic mental power against the player.
+
+The mask cannot be removed before the third shift’s actual handover completes; this remains the existing accepted coverage commitment, not automatic permanent entrapment. The older twentieth-shift quest exception remains separately deferred. Appearance restoration is explicitly authorized at cosmetic surgery; whether that also undoes attribute redistribution or lingering identity effects is **not automatically established** by an appearance-restoration instruction. Existing Going Out of Business design includes attribute reallocation, so do not silently make every clinic/respec/cleaning action cure every system.
+
+### Proposed hourly residual order — review draft
+
+| Hour within third consecutive shift | Residual feature |
+| --- | --- |
+| 1 | Iris color becomes Charity’s hazel |
+| 2 | Hair color becomes her orangish-red |
+| 3 | Lip shape matches hers |
+| 4 | Voice matches hers |
+| 5 | Ear shape matches hers |
+| 6 | Nose shape matches hers |
+| 7, only if still wearing through that hour | Cheek/jaw facial contour moves toward hers |
+
+This keeps the early effects small and concentrated near the mask. It does not silently add body-wide residual transformation, a new apparent-age change or a post-removal hourly clock. Exact same-timestamp handover-versus-hour7 ordering and progression beyond the third shift remain to review later.
+
+### Weak-pressure resistance proposal — not approved
+
+Propose1Resolve per explicit resistance attempt using the player’s current base Willpower+d20 against low fixedDC8, rather than Charity’s full Epic opposed profile. No roll grants mastery points or regenerates resources, and existing equipment rules should remain separately accounted for. Costs/DC/trigger frequency are proposals; no control attempt or player-stat edit is implemented while the quest framework is deferred. Do not infer a new zeroResolve mask-binding rule from adding a weak compulsion effect.
+
+## Prior prolonged-wear proposal — clarified by latest owner decisions above
 
 Owner approves settling/counting each completed chained shift and no arbitrary consecutive-shift cap, then adds a **new prolonged-wear risk from starting the third consecutive shift**, after two completed coverage periods. This qualifies the earlier appearance-only/no-identity-erosion rule for prolonged use; do not retroactively apply bleed to the first two ordinary shifts. The third period is the second extension after the initial shift, not a third extra shift.
 
