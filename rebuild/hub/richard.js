@@ -81,7 +81,8 @@ function relationship(save){return clamp(save.devVitals?.relationships?.['npc:Ri
 function changeRelationship(save,amount){const n=clamp(relationship(save)+amount,-100,100);state(save).relationship=n;if(save.devVitals?.relationships&&Object.hasOwn(save.devVitals.relationships,'npc:Richard'))save.devVitals.relationships['npc:Richard']=n;}
 function path(start,target,neighbors){const q=[[start]],seen=new Set([start]);while(q.length){const p=q.shift(),id=p.at(-1);if(id===target)return p;for(const n of neighbors(id))if(!seen.has(n)){seen.add(n);q.push([...p,n]);}}return [];}
 function roomPath(a,b){return path(a,b,id=>T.rooms[id]?.exits||[]);}
-function worldPath(a,b){return path(a,b,id=>W.edges.flatMap(([x,y])=>x===id?[y]:y===id?[x]:[]));}
+const worldNeighbors=new Map(),worldPaths=new Map();for(const [a,b]of W.edges){if(!worldNeighbors.has(a))worldNeighbors.set(a,[]);if(!worldNeighbors.has(b))worldNeighbors.set(b,[]);worldNeighbors.get(a).push(b);worldNeighbors.get(b).push(a);}
+function worldPath(a,b){const key=a+'\0'+b;if(!worldPaths.has(key))worldPaths.set(key,path(a,b,id=>worldNeighbors.get(id)||[]));return worldPaths.get(key).slice();}
 function step(s,g){if(s.location===T.id&&s.room){const target=g.location===T.id?g.room:'A';if(s.room!==target){s.room=roomPath(s.room,target)[1]||s.room;s.activity='Walking to '+(T.rooms[target]?.name||target);return;}if(g.location!==T.id){s.room=null;s.activity='Taking the elevator downstairs';return;}}
  if(s.location!==g.location){const next=worldPath(s.location,g.location)[1];if(!next){s.activity='Route unavailable';return;}if(!s.commute||s.commute.to!==next)s.commute={to:next,remaining:8};s.activity='Commuting';if(--s.commute.remaining<=0){s.location=next;s.commute=null;}return;}
  if(g.location===T.id&&!s.room){s.room='A';s.activity='Taking the elevator to the third floor';return;}s.activity=g.activity;}

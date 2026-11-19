@@ -2,48 +2,54 @@
 (function(root,factory){const api=factory(typeof module==='object'&&module.exports?require('./location-details'):root.EpiLocationDetails);if(typeof module==='object'&&module.exports)module.exports=api;else root.EpiHubWorld=api;})(globalThis,function(L){
 'use strict';
 const SPIRE='Central Hub Spire',STORE='Cherished Touch';
-// Temporary placement approved 2026-11-01. Interiors never depend on coordinates.
-const APPLEWOOD=Object.freeze({id:'applewood',number:97,x:1,y:-4,temporary:true});
+// Owner expansion approved 2026-11-19. Stable identities keep interiors and saves independent of coordinates.
+const APPLEWOOD=Object.freeze({id:'applewood',number:97,x:2,y:-7,temporary:false});
 const positions=[['NW',1,-1,-1,4],['N',2,0,-1,6],['NE',3,1,-1,4],['W',4,-1,0,6],['C',5,0,0,0],['E',6,1,0,6],['SW',7,-1,1,4],['S',8,0,1,6],['SE',9,1,1,4]];
 const directions={NW:'Northwest',N:'North',NE:'Northeast',W:'West',C:'Center',E:'East',SW:'Southwest',S:'South',SE:'Southeast'};
 const nodes=positions.map(([direction,number,x,y,benches])=>Object.freeze({id:direction==='C'?SPIRE:'Central Hub '+direction,direction,number,x,y,benches,kind:'hub'}));
 const ring=['NW','N','NE','E','SE','S','SW','W'].map(d=>nodes.find(n=>n.direction===d));
 const normalize=id=>['Zed Shoe and Spa','Zed shoe and spa','Zed Shop and Spa'].includes(id)?'Zen Shop and Spa':!id||id==='hub'||id==='Central Hub'?SPIRE:id;
-// Reference numbers stay in source only. The owner's downward arrows move NW
-// alley labels 90/92/93 into the next row, replacing the crossed-out entries.
-const layout=[
-[57,58,59,60,61,13,26,27,28,29,30],
-[56,94,0,0,0,12,0,0,0,0,31],
-[55,0,90,92,93,11,70,71,72,0,32],
-[54,0,89,91,69,10,62,73,74,0,33],
-[53,0,88,68,1,2,3,63,75,0,34],
-[25,24,23,22,4,5,6,14,15,16,17],
-[52,0,82,67,7,8,9,64,76,0,35],
-[51,0,83,84,66,18,65,77,78,95,36],
-[50,96,85,86,87,19,79,80,81,0,37],
-[49,0,0,0,0,20,0,0,0,0,38],
-[48,47,46,45,44,21,43,42,41,40,39]
-];
-if(layout[APPLEWOOD.y+5][APPLEWOOD.x+5]!==0)throw Error('Applewood placement must use a blank square');
-layout[APPLEWOOD.y+5][APPLEWOOD.x+5]=APPLEWOOD.number;
-// New businesses use vacant squares; legacy district geometry stays unchanged.
-if(layout[APPLEWOOD.y+5][APPLEWOOD.x+6]!==0||layout[APPLEWOOD.y+5][APPLEWOOD.x+7]!==0)throw Error('New business placements must use blank squares');
-layout[APPLEWOOD.y+5][APPLEWOOD.x+6]=99;
-layout[APPLEWOOD.y+5][APPLEWOOD.x+7]=100;
-layout.forEach(Object.freeze);
+// Coordinates transcribed from the owner’s expanded map; Sanitarium Way is #300.
+const coordinates=[[1,-1,-1],[2,0,-1],[3,1,-1],[4,-1,0],[5,0,0],[6,1,0],[7,-1,1],[8,0,1],[9,1,1],[10,0,-2],[11,0,-3],[12,0,-4],[13,0,-5],[14,2,0],[15,3,0],[16,4,0],[17,5,0],[18,0,2],[19,0,3],[20,0,4],[21,0,5],[22,-2,0],[23,-3,0],[24,-4,0],[25,-5,0],[26,1,-5],[27,2,-5],[28,3,-5],[29,4,-5],[30,5,-5],[31,5,-4],[32,5,-3],[33,5,-2],[34,5,-1],[35,5,1],[36,5,2],[37,5,3],[38,5,4],[39,5,5],[40,4,5],[41,3,5],[42,2,5],[43,1,5],[44,-1,5],[45,-2,5],[46,-3,5],[47,-4,5],[48,-5,5],[49,-5,4],[50,-5,3],[51,-5,2],[52,-5,1],[53,-5,-1],[54,-5,-2],[55,-5,-3],[56,-5,-4],[57,-5,-5],[58,-4,-5],[59,-3,-5],[60,-2,-5],[61,-1,-5],[62,1,-2],[63,2,-1],[64,2,1],[65,1,2],[66,-1,2],[67,-2,1],[68,-2,-1],[69,-1,-2],[70,1,-3],[71,2,-3],[72,3,-3],[73,2,-2],[74,3,-2],[75,3,-1],[76,3,1],[77,2,2],[78,3,2],[79,1,3],[80,2,3],[81,3,3],[82,-3,1],[83,-3,2],[84,-2,2],[85,-3,3],[86,-2,3],[87,-1,3],[88,-3,-1],[89,-3,-2],[90,-2,-2],[91,-3,-3],[92,-2,-3],[93,-1,-3],[94,-4,-3],[95,4,-3],[96,-4,3],[97,2,-7],[98,1,-6],[99,2,-4],[100,3,-4],[101,-1,-6],[102,0,-6],[103,0,-7],[104,0,-8],[105,0,-9],[106,6,0],[107,7,0],[108,8,0],[109,9,0],[110,0,6],[111,0,7],[112,0,8],[113,0,9],[114,-6,0],[115,-7,0],[116,-8,0],[117,-9,0],[118,1,-9],[119,2,-9],[120,3,-9],[121,4,-9],[122,5,-9],[123,6,-9],[124,7,-9],[125,8,-9],[126,9,-9],[127,9,-8],[128,9,-7],[129,9,-6],[130,9,-5],[131,9,-4],[132,9,-3],[133,9,-2],[134,9,-1],[135,9,1],[136,9,2],[137,9,3],[138,9,4],[139,9,5],[140,9,6],[141,9,7],[142,9,8],[143,9,9],[144,8,9],[145,7,9],[146,6,9],[147,5,9],[148,4,9],[149,3,9],[150,2,9],[151,1,9],[152,-1,9],[153,-2,9],[154,-3,9],[155,-4,9],[156,-5,9],[157,-6,9],[158,-7,9],[159,-8,9],[160,-9,9],[161,-9,8],[162,-9,7],[163,-9,6],[164,-9,5],[165,-9,4],[166,-9,3],[167,-9,2],[168,-9,1],[169,-9,-1],[170,-9,-2],[171,-9,-3],[172,-9,-4],[173,-9,-5],[174,-9,-6],[175,-9,-7],[176,-9,-8],[177,-9,-9],[178,-8,-9],[179,-7,-9],[180,-6,-9],[181,-5,-9],[182,-4,-9],[183,-3,-9],[184,-2,-9],[185,-1,-9],[186,5,-8],[187,5,-7],[188,5,-6],[189,6,-5],[190,7,-5],[191,8,-5],[192,6,5],[193,7,5],[194,8,5],[195,5,6],[196,5,7],[197,5,8],[198,-5,6],[199,-5,7],[200,-5,8],[201,-8,5],[202,-7,5],[203,-6,5],[204,-8,-5],[205,-7,-5],[206,-6,-5],[207,-5,-8],[208,-5,-7],[209,-5,-6],[210,-2,-7],[211,8,-1],[212,8,1],[213,6,1],[214,-2,-6],[215,-1,-7],[216,1,-7],[217,2,-6],[218,3,-6],[219,4,-6],[220,-7,-7],[221,-8,-8],[222,-6,-8],[223,-8,-6],[224,-6,-6],[225,-7,-8],[226,-8,-7],[227,-6,-7],[228,-7,-6],[229,-8,-4],[230,-8,-3],[231,-7,1],[232,-7,4],[233,-6,3],[234,10,-4],[235,10,-3],[236,10,-2],[237,10,-1],[238,10,0],[239,10,1],[240,10,2],[241,10,3],[242,10,4],[243,11,-1],[244,12,-1],[245,13,-1],[246,14,-1],[247,11,1],[248,12,1],[249,13,1],[250,14,1],[251,0,10],[252,0,11],[253,0,12],[254,1,12],[255,2,12],[256,3,12],[257,4,12],[258,-4,12],[259,-3,12],[260,-2,12],[261,-1,12],[262,10,10],[263,11,10],[264,12,10],[265,13,10],[266,14,10],[267,14,11],[268,14,12],[269,14,13],[270,14,14],[271,-10,10],[272,-11,10],[273,-12,10],[274,-13,10],[275,-14,10],[276,-14,11],[277,-14,12],[278,-14,13],[279,-14,14],[280,-5,10],[281,-5,11],[282,-5,12],[283,-5,13],[284,-5,14],[285,-5,15],[286,-4,15],[287,-3,15],[288,-2,15],[289,-1,15],[290,0,15],[291,1,15],[292,2,15],[293,3,15],[294,4,15],[295,5,15],[296,5,14],[297,5,13],[298,5,12],[299,5,11],[300,5,10],[301,14,9],[302,15,10],[303,15,14],[304,15,13],[305,-15,14],[306,-17,13],[307,-16,13],[308,-16,14],[309,-16,15],[310,-17,15],[311,-18,15],[312,-18,14],[313,-18,13],[314,-17,14],[315,-2,16],[316,-1,16],[317,-2,17],[318,-1,17],[319,3,16],[320,4,16],[321,1,-4]];
+const bounds=Object.freeze({minX:-18,maxX:15,minY:-9,maxY:17});
+const layout=Array.from({length:27},()=>Array(34).fill(0));
+for(const [n,x,y]of coordinates)layout[y-bounds.minY][x-bounds.minX]=n;
+layout.forEach(Object.freeze);Object.freeze(layout);
 const buildings={62:STORE,63:"Burke's Sweets",64:'Form Repository',65:'Pet Boutique',66:'Daily Needs',67:'Neko Cafe',68:'Zen Shop and Spa',69:'Going Out of Business',94:'The Doll House',95:'The Cloistered Madame',96:'Nip Tuck Cosmetics',99:'Groceries Aplenty',100:'Prim and Proper Dry Cleaners'};
-function record(number,x,y){const hub=nodes.find(n=>n.number===number);if(hub)return hub;if(number===APPLEWOOD.number)return Object.freeze({...APPLEWOOD,name:'Applewood Apartments',kind:'building'});let id,kind='road',alley;
+Object.assign(buildings,{"98": "Technology Center", "101": "Research Center", "210": "Cherrywood Apartments", "211": "Fire and Ice Nightclub", "212": "Heartbreak Hotel", "213": "Craft Ink and Piercings", "218": "Emergency Barn", "219": "Library", "220": "Deans Office / Admin", "221": "Sorority House", "222": "Fraternity House", "223": "Sports Facility", "224": "Sports Field", "225": "Psychology Building", "226": "Science / Biology Center", "227": "Technology / S.T.E.M. Labs", "228": "College Dorms", "229": "Silver Shackle Casino", "230": "Gilded Key Apartments", "231": "Bimbo 365", "232": "Sin-Thetic Pleasures", "233": "Wet Lily Apartments", "238": "Ferris Wheel", "246": "Dock Gazebo", "250": "Popcorn Stand", "301": "Splash Kingdom", "302": "Derelict Drive-in", "303": "Water Treatment", "304": "Water Pump House", "305": "Cybernetics Gate", "314": "Cybernetics Nexus", "315": "Sanitarium Admin", "316": "Sanitarium Wards", "317": "Max Lockdown", "318": "Sanitarium Yard", "319": "Memorium", "320": "Memorium (2)", "321": "Leaf and Laurel"});
+function record(number,x,y){const hub=nodes.find(n=>n.number===number);if(hub)return hub;if(number===97)return Object.freeze({...APPLEWOOD,name:'Applewood Apartments',kind:'building'});let id,kind='road',alley;
 if(buildings[number]){id=buildings[number];kind='building';}
 else if(number<=13)id='N. Main Street ('+(number-9)+')';
 else if(number<=17)id='E. Docks Street ('+(number-13)+')';
 else if(number<=21)id='S. Farm Road ('+(number-17)+')';
 else if(number<=25)id='Entertainment Row ('+(number-21)+')';
 else if(number<=61)id='Outerloop Road ('+(number-25)+')';
-else {kind='alley';alley=number<=75?'NE':number<=81?'SE':number<=87?'SW':'NW';const start={NE:70,SE:76,SW:82,NW:88}[alley];id=alley+' Alley ('+(number-start+1)+')';}
+else if(number<=93){kind='alley';alley=number<=75?'NE':number<=81?'SE':number<=87?'SW':'NW';const stable=number===90?91:number===91?90:number,start={NE:70,SE:76,SW:82,NW:88}[alley];id=alley+' Alley ('+(stable-start+1)+')';}
+else if(number<=105)id='N. Main Street ('+(number-97)+')';
+else if(number<=109)id='E. Docks Street ('+(number-101)+')';
+else if(number<=113)id='S. Farm Road ('+(number-105)+')';
+else if(number<=117)id='Entertainment Row ('+(number-109)+')';
+else if(number<=185)id='City Loop Road ('+(number-117)+')';
+else if(number<=188)id='Kent Street ('+(number-185)+')';
+else if(number<=191)id='Mini Street ('+(number-188)+')';
+else if(number<=194)id='Lily Street ('+(number-191)+')';
+else if(number<=197)id='Otter Street ('+(number-194)+')';
+else if(number<=200)id='Haley Street ('+(number-197)+')';
+else if(number<=203)id='Nariel Street ('+(number-200)+')';
+else if(number<=206)id='Morgan Street ('+(number-203)+')';
+else if(number<=209)id='Keith Street ('+(number-206)+')';
+else if(number<=217)id='Residential Walkway ('+(number-213)+')';
+else if(number<=249)id='Docks ('+number+')';
+else if(number<=253)id='Friendly Farms Dirt Road ('+(number-250)+')';
+else if(number<=257)id='Friendly Farms East Road ('+(number-253)+')';
+else if(number<=261)id='Friendly Farms West Road ('+(number-257)+')';
+else if(number<=270)id='Waterway Road ('+(number-261)+')';
+else if(number<=279)id='Old Concrete Route ('+(number-270)+')';
+else if(number<=300)id='Sanitarium Way ('+(number-279)+')';
+else if(number<=313)id='Cybernetics Periphery ('+(number-305)+')';
+else throw Error('Unclassified owner map reference '+number);
 return Object.freeze({id,name:id,number,x,y,kind,alley});}
-// Technology Center is immediately north of Outerloop Road #26, beyond the original 11-row map boundary.
-const technologyCenter=Object.freeze({id:'Technology Center',name:'Technology Center',number:98,x:1,y:-6,kind:'building'});
-const worldNodes=Object.freeze([...layout.flatMap((row,y)=>row.flatMap((number,x)=>number?[record(number,x-5,y-5)]:[])),technologyCenter]);
+const worldNodes=Object.freeze(coordinates.map(([number,x,y])=>record(number,x,y)));
 const node=id=>worldNodes.find(n=>n.id===normalize(id));
 const isHub=id=>node(id)?.kind==='hub';
 function direction(a,b){const dx=Math.sign(b.x-a.x),dy=Math.sign(b.y-a.y);return (dy<0?'N':dy>0?'S':'')+(dx<0?'W':dx>0?'E':'');}
@@ -54,10 +60,10 @@ function routes(save){migrate(save);const location=save.hub.location,from=node(l
 function travel(save,destination){if(save.world?.applewoodBuilding?.inside)throw Error('Take the elevator to the lobby and leave the building before district travel.');if(save.world?.priyaHome?.inside)throw Error('Leave Priya’s apartment through its entry hall before district travel.');if(save.world?.priyaFlats?.active)throw Error('An inanimate object cannot travel independently.');if(save.hub?.location===STORE&&save.world?.cherishedTouch?.inside)throw Error('Exit Cherished Touch before district travel.');if(save.hub?.location==='Technology Center'&&save.world?.technologyCenter?.inside)throw Error('Exit the Technology Center before district travel.');const route=routes(save).find(r=>r.id===normalize(destination));if(!route)throw Error('That destination is not a directly connected route.');if(save.world?.priyaFlats?.held){save.world.priyaFlats.held=false;save.world.priyaFlats.source=save.world.priyaFlats.source==='held'?'awaiting-retrieval':'park';}save.hub.location=route.id;const h=migrate(save);save.world.visited[route.id]=true;h.moves++;h.squirrelIndex=(h.squirrelIndex+([1,1,-1,1,-1,-1,1,1][(h.moves-1)%8])+8)%8;return route;}
 function survey(save){migrate(save);if(!isHub(save.hub.location))return 'The Path drawer shows adjacent routes, including diagonals. Open Map to view the whole district. Alleys connect along their passages and to street exits, never directly into neighboring buildings.';const fresh=!save.world.discovered.cherishedTouch;save.world.discovered.cherishedTouch=true;return (fresh?'You discover':'You can still see')+' Cherished Touch north of Central Hub NE. All adjacent locations, including diagonals, appear in Path. Open Map for the whole district.';}
 function features(save){const n=node(save.hub.location);if(!n||n.kind!=='hub')return [];if(n.id===SPIRE)return ['A towering black monolithic Spire, with spokes extending toward the eight surrounding Hub areas.','Faint red lines glow sporadically along the Spire.','Floral arrangements, grass and a smaller ring path lead to the eight park paths.'];return [n.benches+' park benches among shrubbery, bushes and floral arrangements.','A peaceful grassy park with clear sight lines between nearby stores and the central Spire.','Evenly spaced lamp posts provide illumination at night.','Eve may appear here as a holographic projection.'];}
-function description(id){const n=node(id),details=L.get(n?.id);if(details)return details.summary+' '+details.hours+'.';if(!n)return 'Location details have not been recorded.';if(n.id==='Technology Center')return 'Technology Center. The office building houses the sales and marketing department; its third floor contains offices, cubicles, conference space, and employee facilities.';if(n.id==='Groceries Aplenty')return 'Groceries Aplenty. A neighborhood grocery store east of Applewood Apartments.';if(n.id==='Prim and Proper Dry Cleaners')return 'Prim and Proper Dry Cleaners. A dry-cleaning business east of Groceries Aplenty.';if(n.id===APPLEWOOD.id)return 'Applewood Apartments. The shared corridor leads to the closed door of Unit 3C. The apartment is a private residence.';if(n.id===SPIRE)return 'The central Spire stands at the heart of the Hub, surrounded by eight park areas.';if(n.kind==='alley')return 'A passage in the '+n.alley+' alley. Follow the alley or return to a street exit; adjacent buildings cannot be entered from this passage.';if(n.kind==='building')return display(n.id)+'. This location is mapped; its detailed description and interactions are awaiting development.';if(n.kind==='road')return display(n.id)+'. The Path drawer shows neighboring locations; the Map shows the surrounding district.';return 'A peaceful grassy park '+directions[n.direction].toLowerCase()+' of the central Spire. Shrubbery and flowers frame clear sight lines toward nearby stores and the Spire.';}
+function description(id){const n=node(id),details=L.get(n?.id);if(details)return details.summary+' '+details.hours+'.';if(!n)return 'Location details have not been recorded.';if(n.id==='Technology Center')return 'Technology Center. The office building houses the sales and marketing department; its third floor contains offices, cubicles, conference space, and employee facilities.';if(n.id==='Groceries Aplenty')return 'Groceries Aplenty. A neighborhood grocery store east of Leaf and Laurel, with a loading dock for high-volume deliveries.';if(n.id==='Prim and Proper Dry Cleaners')return 'Prim and Proper Dry Cleaners. A dry-cleaning business east of Groceries Aplenty.';if(n.id===APPLEWOOD.id)return 'Applewood Apartments. The shared corridor leads to the closed door of Unit 3C. The apartment is a private residence.';if(n.id===SPIRE)return 'The central Spire stands at the heart of the Hub, surrounded by eight park areas.';if(n.kind==='alley')return 'A passage in the '+n.alley+' alley. Follow the alley or return to a street exit; adjacent buildings cannot be entered from this passage.';if(n.kind==='building')return display(n.id)+'. This location is mapped; its detailed description and interactions are awaiting development.';if(n.kind==='road')return display(n.id)+(n.number>=262&&n.number<=279?' survives from a prior iteration and feeds into the current road system.':'.')+' The Path drawer shows neighboring locations; the Map shows the surrounding district.';return 'A peaceful grassy park '+directions[n.direction].toLowerCase()+' of the central Spire. Shrubbery and flowers frame clear sight lines toward nearby stores and the Spire.';}
 function inspect(save){const h=migrate(save),n=node(save.hub.location);save.world.examined[save.hub.location]=true;if(!n||n.kind!=='hub')return description(save.hub.location);h.inspected[n.id]=true;let text=features(save).join(' ');if(n.id!==SPIRE){text+=' A manhole-sized circular cover bears an arrow pointing '+directions[direction(n,node(SPIRE))].toLowerCase()+' toward the Spire.';if(n.id===ring[h.squirrelIndex].id){h.squirrelDiscovered=true;save.world.npcsDiscovered.Squirrel=true;text+=' You discover a squirrel moving through the shrubs.';}}return text;}
 function display(id,refs=false){const n=node(id),name=id===APPLEWOOD.id?'Applewood Apartments':id==='NE Alley (4)'?'NE Alley Crate':String(normalize(id)).replace(/ \(\d+\)$/,'');return refs&&n?'#'+n.number+' · '+name:name;}
 function knowledge(save){migrate(save);const seen=new Set(Object.keys(save.world.visited).filter(id=>save.world.visited[id]&&node(id)));for(const [id,v] of Object.entries(save.world.hubExpansion.visited))if(v&&node(id))seen.add(id);if(save.world.visited.cherishedTouch)seen.add(STORE);const known=new Set(seen);for(const [a,b] of edges){if(seen.has(a))known.add(b);if(seen.has(b))known.add(a);}return {visited:seen,known};}
 function npcs(save){migrate(save);if(!isHub(save.hub.location))return save.hub.location===STORE&&(!save.world.cherishedTouch?.inside||['C','H'].includes(save.world.cherishedTouch.room))&&save.world.npcsDiscovered.Charity?['Charity']:[];return ['Eve',...(save.world.hubExpansion.squirrelDiscovered&&save.hub.location===ring[save.world.hubExpansion.squirrelIndex].id?['Squirrel']:[])];}
-return Object.freeze({SPIRE,STORE,APPLEWOOD,nodes,worldNodes,layout,edges,directions,normalize,node,isHub,migrate,routes,travel,survey,features,inspect,npcs,description,display,knowledge});
+return Object.freeze({SPIRE,STORE,APPLEWOOD,nodes,worldNodes,layout,bounds,edges,directions,normalize,node,isHub,migrate,routes,travel,survey,features,inspect,npcs,description,display,knowledge});
 });
