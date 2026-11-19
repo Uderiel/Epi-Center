@@ -12,17 +12,17 @@ Sheet: Monday–Friday **09:00–17:00**, Saturday **10:00–16:00**. Sunday is 
 
 ## Physical layout
 
-The upper-left connection diagram and upper-right furnished view are complementary. Ground-floor A/B are the left column, D/C the right column. The explicit connections shown are:
+The upper-left connection diagram and upper-right furnished view are complementary. Ground-floor A/B are the left column, D/C the right column. The owner subsequently corrected the drawing: **add A↔D and remove B↔C**. This explicit clarification supersedes the original photograph on those two edges. The current connections are:
 
-| Area | Name | Shown connections |
+| Area | Name | Current confirmed connections |
 | --- | --- | --- |
-| A | Lobby / Sales Floor | Exterior entrance, B |
-| B | Alterations Room | A, C |
-| C | Supplies / Stairs | B, D, stairs to E |
-| D | Register | C |
+| A | Lobby / Sales Floor | Exterior entrance, B, D |
+| B | Alterations Room | A |
+| C | Supplies / Stairs | D, stairs to E |
+| D | Register | A, C |
 | E | Electronics Lab | Sublevel, stairs to C |
 
-There is **no drawn direct A–D doorway**. Do not add one for checkout convenience or route a player through a wall. The graph presently makes the route to D pass through B and C: public circulation versus staff/service access is an explicit unresolved operational issue, not an inferred open-storage permission. The down arrow below A denotes the entrance edge, not a second staircase: the stairs are drawn at C and in E.
+Customers can now reach the register directly **A↔D** without traversing alterations or supplies. B has no connection to C. The remaining route is D↔C↔E, with the C–E transition using the stairs. Public checkout access does not authorize entry into supplies or the lab; the counter/staff boundary and restricted permissions still need implementation. The down arrow below A denotes the exterior entrance edge, not a second staircase.
 
 A is dusty and smells of grease and oil. The front windows carrying “going out of business” signs are mostly uncleaned. Goods and services are displayed, including large replacement quick-charge batteries, servos and other common robotics items.
 
@@ -57,4 +57,4 @@ Punctuation is a readable transcription, not exact finalized quest IDs. No encou
 
 Use the shared location/spatial/action/ownership contracts and twelve-section NPC template. Lena currently has a name, workplace and faction connection, not a completed NPC profile. Appearance, voice, memory cues, positive/negative relationship events/deltas, schedule/home, permissions, resources and boundaries remain unauthored. All relationships must use the universal per-player/per-entity score and stable IDs.
 
-Resolve public access to B/C/D against the drawing, point-type terminology and transactional respec rules before building the shop service loop. Prices, escalation scope (per player/form/service), stock/delivery, installed-item persistence, reset/rollback behavior and actual staff coverage must be explicit. The AI can describe recorded facts and pending requests, but cannot execute purchases, edit a form, grant security access, invent staff or expose an unvisited lab. No full service or AI integration completion is claimed.
+The checkout connection is resolved by the owner’s A↔D correction. Define service access to B and restricted permissions for C/E, and resolve point-type terminology and transactional respec rules before building the shop service loop. Prices, escalation scope (per player/form/service), stock/delivery, installed-item persistence, reset/rollback behavior and actual staff coverage must be explicit. The AI can describe recorded facts and pending requests, but cannot execute purchases, edit a form, grant security access, invent staff or expose an unvisited lab. No full service or AI integration completion is claimed.

@@ -1,3 +1,7 @@
+## Going Out of Business — owner-corrected connections
+
+Owner explicitly adds A↔D (sales floor to register) and removes B↔C (alterations to supplies). Current graph: exterior↔A, A↔B, A↔D, D↔C, C↔E by stairs. This resolves the previously flagged checkout circulation issue and supersedes the original drawing on those edges. GOING-OUT-OF-BUSINESS-DESIGN.md is reconciled; no runtime navigation or publication change.
+
 ## Daily Needs schematic received — design only
 
 Owner supplied the Daily Needs sheet. See DAILY-NEEDS-DESIGN.md for reference66, rotated cardinal orientation/north entrance, A/B/C ground-floor connections, B–D stairs, six separate E cells, F research, Alia, hours/stock/quest transcriptions and open implementation requirements. Supersedes the prior no-Daily-Needs-layout finding. Tits’s fatigue-recovery purchase dependency is retained; private basement material is explicitly excluded from public AI context until authorized discovery. No runtime changes or new publication.
