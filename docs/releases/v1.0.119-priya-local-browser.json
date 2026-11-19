@@ -1,0 +1,326 @@
+{
+  "version": "1.0.119",
+  "origin": "http://127.0.0.1:8767",
+  "profile": "fresh isolated browser context; synthetic saves only",
+  "checks": [
+    {
+      "name": "title exposes three usable save slots and current version",
+      "passed": true
+    },
+    {
+      "name": "candidate boots and preserves original resources",
+      "passed": true
+    },
+    {
+      "name": "office dock opens Priya",
+      "passed": true
+    },
+    {
+      "name": "approved PNG loads on desktop with full uncropped aspect ratio",
+      "passed": true
+    },
+    {
+      "name": "schedule interaction advances exactly two minutes",
+      "passed": true
+    },
+    {
+      "name": "Marketing layout shows fourteen individual cubicles with Priya top left and Nadia top right",
+      "passed": true
+    },
+    {
+      "name": "numbered cubicle layout fits mobile in two columns",
+      "passed": true
+    },
+    {
+      "name": "Marketing cubicle one exposes Priya rather than Nadia",
+      "passed": true
+    },
+    {
+      "name": "Nadia panel and approved Dart portrait load in Marketing",
+      "passed": true
+    },
+    {
+      "name": "Daniel dialogue is reachable in Sales through the existing panel",
+      "passed": true
+    },
+    {
+      "name": "NPC availability follows actual rooms for both leaders and Priya",
+      "passed": true
+    },
+    {
+      "name": "NPC composer routes private-context-safe Priya reply",
+      "passed": true
+    },
+    {
+      "name": "two refusals close one persisted invitation",
+      "passed": true
+    },
+    {
+      "name": "reload keeps invitation and unrelated slot",
+      "passed": true
+    },
+    {
+      "name": "360px office and composer stay within page width",
+      "passed": true
+    },
+    {
+      "name": "approved portrait fits the 360px dock without stretching",
+      "passed": true
+    },
+    {
+      "name": "attack uses shared civilian adapter with Priya",
+      "passed": true
+    },
+    {
+      "name": "civilian conclusion grants no form or mastery",
+      "passed": true
+    },
+    {
+      "name": "home welcome uses real presence without invented apartment entry",
+      "passed": true
+    },
+    {
+      "name": "Dev relationship controls update the recognized-person relationship",
+      "passed": true
+    },
+    {
+      "name": "Erin resistance dock advertises two-d20 advantage at relaxed home",
+      "passed": true
+    },
+    {
+      "name": "Erin actual button logs both dice and kept result with original modifier and one Resolve cost",
+      "passed": true
+    },
+    {
+      "name": "new dice receipt and thirty-minute cooldown survive reload without another roll",
+      "passed": true
+    },
+    {
+      "name": "Erin loses contextual advantage after leaving home without stale saved modifiers",
+      "passed": true
+    },
+    {
+      "name": "normal Erin visit grants identity-bound home permission without a curse",
+      "passed": true
+    },
+    {
+      "name": "normal friend entrance opens the same six-room apartment",
+      "passed": true
+    },
+    {
+      "name": "Priya is available for ordinary dialogue in her actual home room",
+      "passed": true
+    },
+    {
+      "name": "actual outfit preset button performs a private timed NPC change without giving the player clothes",
+      "passed": true
+    },
+    {
+      "name": "actual tea preparation decrements Priya stock and creates one serving",
+      "passed": true
+    },
+    {
+      "name": "actual serving consumption finishes tea and records a used dish",
+      "passed": true
+    },
+    {
+      "name": "actual prepared meal consumes finite grains and vegetables rather than creating food in dialogue",
+      "passed": true
+    },
+    {
+      "name": "snack stock and NPC outfit survive reload with separate household ownership",
+      "passed": true
+    },
+    {
+      "name": "actual Priya care products are usable with saved effects and distinct bottle records",
+      "passed": true
+    },
+    {
+      "name": "leaving normal visit closes its permission without resetting character values",
+      "passed": true
+    },
+    {
+      "name": "actual Erin item buttons select shampoo and conditioner without dead-end errors",
+      "passed": true
+    },
+    {
+      "name": "actual shower applies selected products with a twelve-minute action and explicit receipt",
+      "passed": true
+    },
+    {
+      "name": "hair-care effects and private dialogue context survive reload",
+      "passed": true
+    },
+    {
+      "name": "weekend bench discovery exposes safe hold and explicit inventory actions",
+      "passed": true
+    },
+    {
+      "name": "actual hold control keeps player human and inventory unchanged",
+      "passed": true
+    },
+    {
+      "name": "failed inventory save shows three-stage private transformation and object dock",
+      "passed": true
+    },
+    {
+      "name": "unworn object body displays exact uploaded 300px JPEG without cropping",
+      "passed": true
+    },
+    {
+      "name": "inanimate typed speech remains private and grants no conversation",
+      "passed": true
+    },
+    {
+      "name": "real scheduler returns Priya and puts flats on at 06:49",
+      "passed": true
+    },
+    {
+      "name": "wearing state switches to exact uploaded 1080px worn JPEG",
+      "passed": true
+    },
+    {
+      "name": "actual flats resistance button keeps lower die and charges exactly three Resolve",
+      "passed": true
+    },
+    {
+      "name": "object body receipt resources and cooldown survive browser reload",
+      "passed": true
+    },
+    {
+      "name": "unworn recovery gets advantage during off-work absence but incomplete gates prevent release",
+      "passed": true
+    },
+    {
+      "name": "sleeping Priya in the apartment blocks completed reversion",
+      "passed": true
+    },
+    {
+      "name": "visitor blocks reversion when Priya is absent",
+      "passed": true
+    },
+    {
+      "name": "actual release restores human beside persistent flats in walk-in closet",
+      "passed": true
+    },
+    {
+      "name": "restored apartment position and retained flats survive reload",
+      "passed": true
+    },
+    {
+      "name": "actual apartment route button traverses one connected door for one minute",
+      "passed": true
+    },
+    {
+      "name": "apartment dock and reverse-stage receipt fit 360px mobile",
+      "passed": true
+    },
+    {
+      "name": "connected apartment rooms show Priya decor rather than Erin content",
+      "passed": true
+    },
+    {
+      "name": "Priya nested storage mounts one active drawer using the existing apartment dock classes",
+      "passed": true
+    },
+    {
+      "name": "actual storage button opens one physical compartment for one minute without free items",
+      "passed": true
+    },
+    {
+      "name": "drawer depth open state and saved result survive reload",
+      "passed": true
+    },
+    {
+      "name": "Back pops exactly one Priya drawer to its ottoman parent",
+      "passed": true
+    },
+    {
+      "name": "second Back returns to the living-room root with mobile bounds intact",
+      "passed": true
+    },
+    {
+      "name": "actual rom-com button records thirty minutes and fictional story beats without inventing guests",
+      "passed": true
+    },
+    {
+      "name": "restored player can leave through hall without losing shoes or unrelated slot",
+      "passed": true
+    },
+    {
+      "name": "actual jogging selector and manual route charge four minutes and two Stamina",
+      "passed": true
+    },
+    {
+      "name": "periodic sensory fallback is private and grounded while AI is off",
+      "passed": true
+    },
+    {
+      "name": "browser narration client expands recorded senses without changing mechanics or speaking as Priya",
+      "passed": true
+    },
+    {
+      "name": "Settings exposes independent periodic footwear narration control",
+      "passed": true
+    },
+    {
+      "name": "actual Settings opt-out saves and suppresses the next sensory pulse",
+      "passed": true
+    },
+    {
+      "name": "recipient dropdown includes Nadia while typed recipient remains Priya",
+      "passed": true
+    },
+    {
+      "name": "reported work question reaches AI as dialogue with actual question and audience",
+      "passed": true
+    },
+    {
+      "name": "reception computer displays one live checklist with report collection status lunch and meetings",
+      "passed": true
+    },
+    {
+      "name": "current-form unmastered button changes Erin without altering resources",
+      "passed": true
+    },
+    {
+      "name": "current-form mastered button restores authority and exposes weekday/time selector",
+      "passed": true
+    },
+    {
+      "name": "weekday and clock selector advances to the chosen time through the canonical scheduler",
+      "passed": true
+    },
+    {
+      "name": "fresh floor two door hides its occupant before the first actual visit",
+      "passed": true
+    },
+    {
+      "name": "actual friend invitation creates an escort without invoking a curse",
+      "passed": true
+    },
+    {
+      "name": "invited Priya physically reaches Erin living room on another floor",
+      "passed": true
+    },
+    {
+      "name": "private activity button updates the visible saved arousal pool",
+      "passed": true
+    },
+    {
+      "name": "new floor and checklist controls preserve mobile page bounds",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Synthetic existing-save fixture; not owner saves",
+    "Normal gameplay checks use AI off; private sensory client uses an isolated mock; paid Featherless quality remains untested",
+    "Exact owner-uploaded flats JPEGs used unchanged (300px unworn,1080px worn); actual paid-provider quality and private Worker deployment not verified",
+    "Cloud Chromium certificate trust workaround enabled for public-site test; source hash verification used the validating HTTP client."
+  ]
+}

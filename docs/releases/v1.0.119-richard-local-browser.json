@@ -1,0 +1,84 @@
+{
+  "version": "1.0.119",
+  "origin": "http://127.0.0.1:8767",
+  "checks": [
+    {
+      "name": "seventh-floor suite occupant starts undiscovered",
+      "passed": true
+    },
+    {
+      "name": "actual knock brings Richard to his seventh-floor door",
+      "passed": true
+    },
+    {
+      "name": "enter opens expanded suite and learns occupant without resource reset",
+      "passed": true
+    },
+    {
+      "name": "Richard remains available for actual host conversation",
+      "passed": true
+    },
+    {
+      "name": "explicit offer lists actual stocked drinks and fitness recipes",
+      "passed": true
+    },
+    {
+      "name": "bot physically prepares and delivers chosen real inventory drink once",
+      "passed": true
+    },
+    {
+      "name": "weekly bot fee comes from Richard and leaves player money intact",
+      "passed": true
+    },
+    {
+      "name": "actual music controls save selected programme and volume",
+      "passed": true
+    },
+    {
+      "name": "nested remote and closed motorized blinds survive reload",
+      "passed": true
+    },
+    {
+      "name": "overnight invitation does not grant master bedroom",
+      "passed": true
+    },
+    {
+      "name": "separate explicit access opens master and wardrobe route",
+      "passed": true
+    },
+    {
+      "name": "private work screen stays concealed without work permission",
+      "passed": true
+    },
+    {
+      "name": "Monday addendum creates actual message without booking or work acceptance",
+      "passed": true
+    },
+    {
+      "name": "actual personal refusal changes only Richard meter by minus3",
+      "passed": true
+    },
+    {
+      "name": "rejection memory serving ownership and signed relationship survive reload",
+      "passed": true
+    },
+    {
+      "name": "suite controls fit mobile without horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "existing belongings and another save slot remain intact",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Synthetic save; no owner data or paid provider calls",
+    "Routine graph coverage is separate automated evidence",
+    "Generated room illustrations remain review assets"
+  ]
+}

@@ -13,10 +13,22 @@ function validate(text,facts,experience=null){if(facts?.source!=='priya-flats')r
  const placed=facts.lastPlacement,daysApart=placed?Math.floor(facts.at/1440)-Math.floor(placed.at/1440):null;
  if(/\b(?:after (?:returning|coming) (?:home )?from work|after work|returned from work|returning from work|commute home)\b/i.test(t)&&placed?.reason!=='work')issues.push('No work-related placement was recorded; do not invent a commute or prior workday.');
  if(/\byesterday\b/i.test(t)&&daysApart!==1||/\blast night\b/i.test(t)&&(daysApart!==1||placed.at%1440<1080)||/\bearlier today\b/i.test(t)&&daysApart!==0)issues.push('That placement history is not supported by the recorded date.');
- if(/\b(?:cedar|sachet|ajar|dust motes|shaft of|closet door|polished leather|gleaming leather)\b/i.test(t))issues.push('Those room objects, door/light-source details or material finishes are not in the recorded snapshot.');
+ if(/\b(?:cedar|sachet|ajar|dust motes|shaft of|closet door|polished leather|gleaming leather|laces|shoelaces|sneakers|coffee maker|leather conditioner|rosemary|sage)\b/i.test(t))issues.push('Those room objects, door/light-source details or material finishes are not in the recorded snapshot.');
  if(/\b(?:flats|shoes)[^.!?\n]{0,90}(?:waiting patiently|hopes?|wishes?|wants?)\b/i.test(t))issues.push('Do not give the footwear a personality or wishes.');
  if((!facts.material||facts.material==='unrecorded')&&/\b(?:leather|suede|polished|gleaming)\b/i.test(t))issues.push('The footwear material is unrecorded; do not invent leather or suede.');
  if(experience?.after?.binding<experience?.before?.binding&&/\b(?:binding|pressure|control)[^.!?\n]{0,50}(?:intensif|increase|tighten|deepen)|\bdeeper\s+(?:into\s+)?submission/i.test(t))issues.push('Binding decreased; do not describe it tightening or increasing.');
  if(!(experience?.permanentBound||facts.permanentBound)&&/\b(?:forever bound|permanently bound|no possibility of resistance|any possibility of resistance)\b/i.test(t))issues.push('No permanent binding was recorded.');
  return [...new Set(issues)];}
-return Object.freeze({RULES,validate});});
+function validateDialogue(text,actor,history=[]){const t=String(text||''),issues=[];
+ const first=/^\s*(?:[*_]+)?(Priya|Nadia|Richard|Daniel|Charity|Eve)\s+(?:looks?|looked|glances?|glanced|smiles?|smiled|says?|said|leans?|leaned|adjusts?|adjusted|pushes?|pushed|swivels?|swiveled)\b/i.exec(t);
+ if(first&&!actor.name.toLowerCase().startsWith(first[1].toLowerCase()))issues.push('The reply speaks as another character. Speak only as '+actor.name+'.');
+ const words=value=>String(value||'').toLowerCase().replace(/[^a-z0-9 ]/g,' ').split(/\s+/).filter(Boolean),tokens=new Set(words(t));
+ if(tokens.size>=18)for(const h of history.filter(x=>x.role==='assistant')){const prev=new Set(words(h.content));if(prev.size<18)continue;const common=[...tokens].filter(x=>prev.has(x)).length;if(common/Math.max(tokens.size,prev.size)>=.78){issues.push('This repeats a previous reply. Answer the current question and continue the actual conversation without restarting.');break;}}
+ return issues;
+}
+function validateRoom(text,record){const t=String(text||''),known=String(record||'').toLowerCase(),issues=[];
+ // Concrete unsupported fixtures repeatedly observed in owner reports.
+ for(const prop of ['gauzy curtains','textbooks','coffee cups','mailboxes','potted plant','overturned cushions','snack bags','vanilla air freshener','security guard','third-floor','apartment 407','new marketing associate','lavender sachet','cedar'])if(t.toLowerCase().includes(prop)&&!known.includes(prop))issues.push('Unrecorded scene detail: '+prop+'. Use only the recorded room and event.');
+ return issues;
+}
+return Object.freeze({RULES,validate,validateDialogue,validateRoom});});
