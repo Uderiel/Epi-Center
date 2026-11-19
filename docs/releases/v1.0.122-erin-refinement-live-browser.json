@@ -1,0 +1,119 @@
+{
+  "version": "1.0.122",
+  "origin": "https://uderiel.github.io/Epi-Center",
+  "checks": [
+    {
+      "name": "candidate boots with unchanged original resources and permanent mastery",
+      "passed": true
+    },
+    {
+      "name": "actual reading button starts visible ongoing activity without early reward",
+      "passed": true
+    },
+    {
+      "name": "awake reading keeps normal fatigue progression",
+      "passed": true
+    },
+    {
+      "name": "continue advances only five actual minutes",
+      "passed": true
+    },
+    {
+      "name": "ongoing reading and partial time survive reload",
+      "passed": true
+    },
+    {
+      "name": "completion records one chapter and satisfies reading",
+      "passed": true
+    },
+    {
+      "name": "mastered commentary acknowledges actual reading without takeover",
+      "passed": true
+    },
+    {
+      "name": "next chapter starts from current activity panel without reopening bookshelf",
+      "passed": true
+    },
+    {
+      "name": "stop preserves prior chapter without awarding unfinished chapter",
+      "passed": true
+    },
+    {
+      "name": "sofa throw blanket has actual saved use state",
+      "passed": true
+    },
+    {
+      "name": "watching is a visible sustained activity distinct from television selection",
+      "passed": true
+    },
+    {
+      "name": "mastered delegation displays leader endpoint and reclaim control",
+      "passed": true
+    },
+    {
+      "name": "delegation survives reload without losing mastery",
+      "passed": true
+    },
+    {
+      "name": "actual reclaim stops pending decisions with no roll or lost mastery",
+      "passed": true
+    },
+    {
+      "name": "two-hour nap progresses as sleep but remains interruptible",
+      "passed": true
+    },
+    {
+      "name": "lying on bed does not become sleep",
+      "passed": true
+    },
+    {
+      "name": "personal draft persists separately from work correspondence",
+      "passed": true
+    },
+    {
+      "name": "send creates one saved personal message and no booked visit",
+      "passed": true
+    },
+    {
+      "name": "available contact replies once through real elapsed time",
+      "passed": true
+    },
+    {
+      "name": "personal thread remains after reload and future contacts stay unavailable",
+      "passed": true
+    },
+    {
+      "name": "dedicated Scheduler shows appointments separately from computer",
+      "passed": true
+    },
+    {
+      "name": "work computer contains email without embedded booking slots",
+      "passed": true
+    },
+    {
+      "name": "approved appointment books through actual Scheduler controls and one canonical record",
+      "passed": true
+    },
+    {
+      "name": "Scheduler cancellation updates the same saved appointment",
+      "passed": true
+    },
+    {
+      "name": "new controls fit phone viewport",
+      "passed": true
+    },
+    {
+      "name": "other save slot remains untouched",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Synthetic browser saves only; no owner save or paid-provider calls",
+    "Long activity endpoints are deterministic tested mechanics, not claims of personal long-session acceptance"
+  ]
+}

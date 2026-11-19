@@ -1,6 +1,6 @@
 ## Deployment update
 
-The owner deployed the prepared worker in Cloudflare. Its public /health now reports grounded-turn-v1 with configured:true. Matching v1.0.122 client publication is underway. Actual authenticated Cydonia acceptance has not been performed; the local checks below remain mocked-provider evidence. Earlier blocked-state notes are retained below as audit history.
+The owner deployed the prepared worker in Cloudflare. Its public /health now reports grounded-turn-v1 with configured:true. The matching v1.0.122 client is live and browser-verified. Actual authenticated Cydonia acceptance has not been performed; the local checks below remain mocked-provider evidence. Earlier blocked-state notes are retained below as audit history.
 
 # AI integration audit and replacement turn contract
 
@@ -34,3 +34,5 @@ No authenticated Cloudflare deployment connection is available in this session. 
 Automated prompt/transport/ledger tests and mocked browser tests are completed separately from real-provider acceptance. See v1.0.122 reports. Current production is intentionally unchanged while backend deployment and real-model acceptance remain outstanding.
 
 Candidate validation: 1,441 automated cases across 86 suites and 369 local browser checks passed. Provider replies were mocked. Backend deployment, live candidate checks and actual Cydonia quality acceptance remain blocked/unverified.
+
+v1.0.122 published: 1,441 automated cases across 86 suites, 369 local and 369 live browser checks passed; all 180 published files match runtime commit 2ac2f8c8ccf1ac81cef93e2bcf497e1b4f1efe93. Pages deployment 44500767952 succeeded. Owner-deployed worker health confirms grounded-turn-v1 and configured:true. Browser completions are mocked; authenticated real-model acceptance remains pending. No owner save or paid provider calls used by automated verification.

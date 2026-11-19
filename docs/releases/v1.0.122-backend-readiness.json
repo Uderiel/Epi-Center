@@ -1,6 +1,5 @@
 {
-  "candidate": "1.0.122",
-  "publicGame": "1.0.121",
+  "publicGame": "1.0.122",
   "checkedAt": "2026-11-19T09:54:53.705360+00:00",
   "healthURL": "https://epi-center-ai.jermil2008.workers.dev/health",
   "observedHealth": {
@@ -12,10 +11,11 @@
   "backendReady": true,
   "realModelAcceptance": "Not performed; no authenticated owner game connection available in this execution environment.",
   "deploymentAccess": "Owner deployed the prepared bundle through the Cloudflare editor; public health revision/configuration verified.",
-  "publicRelease": "Matching client publication underway; authenticated model acceptance remains pending.",
+  "publicRelease": "Published and browser-verified. Worker revision matches. Authenticated real-model quality acceptance is still pending through Settings diagnostic.",
   "previousObservation": {
     "service": "Epi-Center AI",
     "protocolVersion": "character-embodiment-v3",
     "configured": true
-  }
+  },
+  "version": "1.0.122"
 }

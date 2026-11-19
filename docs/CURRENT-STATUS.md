@@ -1,6 +1,6 @@
-## v1.0.122 AI integration contract — worker deployed, client publication underway
+## v1.0.122 AI integration contract — deployed; real-model acceptance pending
 
-Owner deployed the prepared Cloudflare worker. Public /health confirms grounded-turn-v1 and configured:true. Matching client publication/live verification underway. 1,441 automated cases and 369 local browser checks passed with mocked completions. Actual authenticated Cydonia acceptance remains pending; use Settings’ four-request diagnostic with the existing owner connection. See AI-INTEGRATION-AUDIT.md and V1.0.122-OWNER-ACCEPTANCE.md. Do not claim actual model quality has passed.
+Owner deployed the prepared Cloudflare worker. Public /health confirms grounded-turn-v1 and configured:true. v1.0.122 published: 1,441 automated cases across 86 suites, 369 local and 369 live browser checks passed; all 180 published files match runtime commit 2ac2f8c8ccf1ac81cef93e2bcf497e1b4f1efe93. Pages deployment 44500767952 succeeded. Owner-deployed worker health confirms grounded-turn-v1 and configured:true. Browser completions are mocked; authenticated real-model acceptance remains pending. No owner save or paid provider calls used by automated verification. Actual authenticated Cydonia acceptance remains pending; use Settings’ four-request diagnostic with the existing owner connection. See AI-INTEGRATION-AUDIT.md and V1.0.122-OWNER-ACCEPTANCE.md. Do not claim actual model quality has passed.
 
 ## v1.0.121 canine physical input and animal dialogue routing — published and verified
 

@@ -1,0 +1,78 @@
+{
+  "origin": "https://uderiel.github.io/Epi-Center",
+  "checks": [
+    {
+      "name": "selected goods are physically unpaid basket contents",
+      "passed": true
+    },
+    {
+      "name": "drink preparation exposes the actual reference card and preset",
+      "passed": true
+    },
+    {
+      "name": "serving preference is a separate drawer with a direct now-or-with-products question",
+      "passed": true
+    },
+    {
+      "name": "register shows canonical whole checkout total before payment",
+      "passed": true
+    },
+    {
+      "name": "one payment transfers exactly paid goods and leaves a real empty basket",
+      "passed": true
+    },
+    {
+      "name": "reload preserves saved preset preparation without duplicate charge or serving",
+      "passed": true
+    },
+    {
+      "name": "ready drink is served as one real carryable cup",
+      "passed": true
+    },
+    {
+      "name": "holding the drink uses the same owned item and hand slot",
+      "passed": true
+    },
+    {
+      "name": "consumption removes held drink and leaves an actual empty takeaway cup",
+      "passed": true
+    },
+    {
+      "name": "wrong preset result gets one saved free remake without a second payment",
+      "passed": true
+    },
+    {
+      "name": "corrected drink can be handed over once",
+      "passed": true
+    },
+    {
+      "name": "takeaway consumed at counter leaves actual empty cup instead of a used dish",
+      "passed": true
+    },
+    {
+      "name": "reloaded used cup offers Dispose and no equip or hold action",
+      "passed": true
+    },
+    {
+      "name": "Dispose removes only that cup and narrates particles without charging",
+      "passed": true
+    },
+    {
+      "name": "disposed cup stays absent after reload and cannot be disposed twice",
+      "passed": true
+    },
+    {
+      "name": "cup consumed outdoors also supports disposal from Items",
+      "passed": true
+    },
+    {
+      "name": "retail interface fits mobile and original belongings stay intact",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}

@@ -1,6 +1,6 @@
 ## grounded-turn-v1 deployment confirmed
 
-The owner deployed the prepared bundle. Public /health reports grounded-turn-v1 and configured:true. Matching v1.0.122 client publication is underway. Actual provider acceptance remains pending through the owner’s existing game connection and the explicit four-request Settings diagnostic. Previous deployment notes below are historical.
+The owner deployed the prepared bundle. Public /health reports grounded-turn-v1 and configured:true. The matching v1.0.122 client is live and browser-verified. Actual provider acceptance remains pending through the owner’s existing game connection and the explicit four-request Settings diagnostic. Previous deployment notes below are historical.
 
 ## Prepared grounded-turn-v1 integration replacement — deployment pending
 
