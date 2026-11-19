@@ -1,3 +1,7 @@
+## Owner scope and approval rule
+
+Retrieve approved decisions first. Propose new gameplay permissions, exact room-access scopes, costs/rewards and substantive design additions for approval before implementing them. Broad task authorization does not make an unreviewed character-specific policy owner-approved. Implement and verify already approved rules without repeatedly seeking the same permission. Keep drafts distinct from active controls; a relationship threshold is eligibility, not universal access.
+
 ## Current owner clarification — one universal relationship bar
 
 Use [the current relationship contract](DIRECTED-RELATIONSHIP-SYSTEM.md). Every NPC, form and encountered entity has a persistent −100…+100 score toward each individual player. Trust is derived from that score, never a second social value. Apply the owner's ±25/±50/±75/±100 interpretations, with form-specific positive meanings and schedule/permission/mastery boundaries. Historical instructions below separating Erin social relationship from a cooperative trust meter are superseded for the social value; earned mastery and influence remain distinct. Each character definition must specify positive/negative triggers, actual controller events/deltas, exceptions and persistence evidence. The shared storage, bars, tiers, event deduplication and player/entity isolation are universal infrastructure, not work to repeat for every character.

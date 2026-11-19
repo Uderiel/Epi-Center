@@ -1,0 +1,34 @@
+{
+  "scope": "Owner permission-scope correction and Daily Needs request; development only",
+  "focusedTests": {
+    "charity": 8,
+    "accessAndMemory": 11,
+    "cherishedRooms": 19,
+    "passed": true
+  },
+  "browser": {
+    "scope": "Synthetic saves; actual UI; no paid model requests",
+    "checks": [
+      "phone UI exposes only approved hallway permission and keeps other scopes in draft",
+      "below75 actual permission button refuses without a grant or inventory change",
+      "75plus actual request grants approved hallway purpose and records the safety warning",
+      "hallway invitation excludes all other private rooms",
+      "same-player invitation survives browser reload",
+      "actual stated preference survives reload without inventory or resource rewards",
+      "switching player inside private room keeps UI renderable without granting fixtures",
+      "uninvited player can leave physically and reentry has no inherited private access",
+      "leaving ends earlier-player invitation as well through visit identity",
+      "phone layout stays within screen width",
+      "no uncaught page errors"
+    ],
+    "errors": []
+  },
+  "fullRegression": "Previous stage1510cases passed; not rerun for this scoped correction.",
+  "approved": "75relationship plus explicit hallway invitation; household defaults; Charity asks for fatigue-reducing Daily Needs items",
+  "draftOnly": [
+    "Bathroom invitation scope",
+    "Dining-room invitation scope",
+    "Exact restorative item/payment/reward/effect design"
+  ],
+  "published": false
+}

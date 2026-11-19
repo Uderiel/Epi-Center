@@ -24,7 +24,7 @@ There is NO separate quest specifically for the entrance. Charity may invite the
 
 The actual invitation/disclosure remains Charity’s action; eligibility does not teleport the player, open every private room or let generic inspection/search/AI reveal the route. The route/Hideout itself remains later location work. Owner’s primary current goal is an explorable functional shop with transactions, not designing Charity’s entire quest catalogue or the Resistance now.
 
-Implementation correction: ordinary retail/fitting/checkout is a tested UNPUBLISHED foundations slice. Mystery Box and limited enchanted purchases/effects are still unimplemented even though their behavior/prices are agreed. Do not tell the owner that players can already buy boxes, that all store functionality is complete, or ask them to re-decide approved box/effect rules. Continue implementation on the SAME foundations branch; no branch-selection question is needed.
+Current implementation correction: ordinary retail/fitting/checkout, Mystery Boxes and limited enchanted purchases/effects are implemented and were published in earlier releases. The former unpublished/unimplemented status was an obsolete checkpoint. Players can purchase boxes under the actual stock/account rules. This does not mean the entire household/NPC/quest design is complete; do not ask the owner to re-decide approved box/effect rules. Continue implementation on the SAME foundations branch; no branch-selection question is needed.
 
 ## Protected suits pinned; first profile and mandatory replacements recorded
 

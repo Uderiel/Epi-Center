@@ -1,3 +1,7 @@
+## Owner scope correction and Charity fatigue request
+
+Owner requires substantive permission/design additions to be proposed rather than assumed. Unapproved bathroom/dining grants are now draft-only and not available through the player controller; approved75plus explicit hallway invitation remains. Charity can request Daily Needs fatigue-reducing items in a bounded concern exchange before coverage is available; no product, reward, payment or recovery mechanics invented. Early Burke completion rows are reconciled against published retail/staffing/order behavior, and obsolete Cherished Mystery Box/enchanted status is corrected. Development only.
+
 ## Owner build order and Charity completion work — development
 
 Fixed order: Charity, Tits, other Hub businesses/NPCs, then Erin’s coworkers. See HUB-NPC-COMPLETION-ORDER.md. Owner approves Charity’s existing household taste defaults and finalizes private-access eligibility at75, with purpose-specific invitation. Weekday24-hour service remains; no normal overnight shutdown. Charity now has scoped per-player/current-appearance visit permission, persistent heard safety warnings, explicit preference memory and improved follow-up/personal dialogue. Real household jobs/needs and covered rest remain unfinished. No new release. The Cloudflare Worker is now automatically deployed via GitHub and its required versions were verified; older manual-update-blocked statements are historical.

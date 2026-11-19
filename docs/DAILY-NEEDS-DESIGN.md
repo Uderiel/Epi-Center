@@ -82,3 +82,7 @@ Keep quest and basement mechanics deferred until separately designed. The first 
 ## Owner clarification — Alia knows Tits’s needs
 
 Alia is well aware of Tits’s needs, including the established Daily Needs fatigue-recovery dependency. Preserve this existing familiarity when designing Alia, Tits’s visits and the shop’s service dialogue. The owner explicitly defers the detailed arrangement to the Daily Needs design pass; no particular product selection, quantities, prices, discounts, credit, free supplies or automatic transaction is established by this clarification.
+
+## Charity’s pre-coverage fatigue help — owner addition
+
+Charity will ask players to bring fatigue-reducing Daily Needs items before shop coverage is available. This is separate from Alia’s established familiarity with Tits. Eligible item definitions, actual purchase/handover, any reimbursement/reward and exact effects require an approved service design; no named product, quantity or price is inferred.

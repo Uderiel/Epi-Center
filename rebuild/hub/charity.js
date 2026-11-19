@@ -28,6 +28,7 @@ function talk(s,raw,{publicIdentity='unidentified visitor'}={}){
  else if(!m.introduced){topic='introduction';reply='Welcome to Cherished Touch. I’m Charity. Have a look around—what can I help you find?';}
  else reply='What have you got in mind? I can help you look through the racks or sort out a fit.';
  if(topic==='concern')reply=variation(m,topic,[reply,'I like to keep the shop dependable. It is kind of you to notice me as well as the clothes.','Oh, I get caught up keeping everything going. Thank you for asking so kindly.']);
+ if(topic==='concern'&&m.fatigueRequestAt==null){reply+=' Could you bring me a fatigue-reducing item from Daily Needs? It would help while I’m waiting for someone to cover the shop.';m.fatigueRequestAt=s.worldClock?.minutes||0;}
  if(topic==='conversation')reply=variation(m,topic,[reply,'You needn’t be buying anything to say hello. What’s on your mind?','Have a browse while we chat. Is there something you wanted to ask me?']);
  R.react(s,'npc:charity',text);if(/\b(?:good work|well done|thank you|I appreciate)\b/i.test(text))R.social(s,'charity','praise');
  m.introduced=true;m.lastTopic=topic;m.lastAt=s.worldClock?.minutes||0;m.turns||=[];m.turns.push({at:m.lastAt,heard:text.slice(0,400),reply});m.turns=m.turns.slice(-8);if(topic==='preference'&&/\b(?:i prefer|my favou?rite|i usually wear|i like wearing)\b/i.test(text)){m.preferences||=[];const value=text.slice(0,240);if(!m.preferences.some(p=>p.value===value))m.preferences.push({at:m.lastAt,value});m.preferences=m.preferences.slice(-5);}
