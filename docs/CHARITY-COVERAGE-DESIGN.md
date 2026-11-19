@@ -357,3 +357,7 @@ Owner approves initial light teasing about sharing everything/their identical ap
 ## Approved customer-service focus
 
 Owner emphasizes that player coverage is primarily Charity’s chatty, friendly Gifted Gabber service: welcome, ask about an actual customer’s day, offer help, examine/check items are accounted for, offer to check genuinely available changing rooms and make visitors feel welcome. Register pricing/payment remains authoritative; no random failure/minigame or new wage penalty is added. See `CHARITY-CUSTOMER-SERVICE-DUTIES.md` for the authored duty menu and actual implementation boundaries.
+
+## Approved service interruptions and quiet-period upkeep
+
+Owner approves the consolidated queue, privacy, break, handover, disconnect and urgent-trouble rules in `CHARITY-CUSTOMER-INTERRUPTIONS-DRAFT.md`. With no customers nearby needing service, acting Charity can check unoccupied changing rooms, wipe them down, sweep floors, and fold/stack shelf clothes neatly. These preserve actual occupancy, stock and ownership; no new reward, arbitrary timer or automatic restock is added. Implementation remains deferred.

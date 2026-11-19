@@ -13,7 +13,8 @@ The register handles correct prices, authorized discounts and payment. Coverage 
 - Offer to check which fitting stall is available. Verify actual occupancy/privacy rather than declaring any curtained stall free; no entering/opening an occupied stall to check. Current room/curtain data is not a complete multiplayer occupancy controller.
 - Help the customer find a genuinely available stall or return to the counter; respect decline/need for quiet.
 - Complete the actual checkout through the existing purchase controller, thank them and offer a friendly farewell. No dialogue-only transaction, unapproved discount or transfer of another player’s basket.
-- During quiet moments, do the approved light tidying, keep track of real received meals, and thank community meal-givers.
+- When no customers nearby need service, check genuinely unoccupied changing rooms, wipe them down, sweep the stalls/sales floor, and fold/stack clothing neatly on shelves. Preserve privacy, ownership and actual stock counts.
+- Keep track of real received meals and thank community meal-givers.
 
 These are useful choices rather than mandatory identical lines or a fixed sequence that blocks a quick purchase. Follow actual customer presence, order and availability. A simple friendly interaction counts as role portrayal, not an invented guaranteed reward, stat bonus or relationship change. The locked player’s speech/compulsion rules remain their own approved system, not permission to invent customer consent or reword rude intentions into polite behavior automatically.
 
@@ -22,3 +23,5 @@ These are useful choices rather than mandatory identical lines or a fixed sequen
 Offline authored coverage uses the same courteous service duties with authoritative customer/stock/work records. No imaginary player reply, privacy inspection, purchase, gift or payroll completion is created merely because the actor is offline. The real Charity remains responsible for financial ordering. Optional role duties must not break the approved six-hour work/rest rotation or duplicate counter staffing.
 
 Implementation remains deferred with the quest/customer queue/offline simulation framework. Existing retail checkout and fitting room graph are implemented; a scanning duty UI, NPC customer queue and multiplayer stall occupancy are not implemented by this document.
+
+Owner approves the interaction/interruption rules in `CHARITY-CUSTOMER-INTERRUPTIONS-DRAFT.md` and adds the quiet-period upkeep above. Do not treat these design approvals as implemented queue, occupancy or cleaning controllers.

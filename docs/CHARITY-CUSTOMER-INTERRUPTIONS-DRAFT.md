@@ -1,12 +1,12 @@
-# Charity customer interactions and interruptions — consolidated review proposal
+# Charity customer interactions and interruptions — approved design
 
 ## Already approved; not being reopened
 
 Gifted Gabber service; authoritative register prices/payment; privacy-respecting fitting-room checks; meals received from real visitors and appreciative service; initial six-to-seven-hour coverage; real-world six-hour locked-period rotation; safe release after72hours; no blanket player identity/relationship transfer. Short lone-staff breaks pause entry/checkout while existing shoppers browse/exit; recognized relationship−50or worse visitors are asked to leave first and she waits for actual departure. Quest, customer queue, offline simulation and real multiplayer occupancy are not implemented.
 
-## Proposed remaining interaction rules
+## Approved interaction rules
 
-| Situation | Proposed behavior |
+| Situation | Approved behavior |
 | --- | --- |
 | Another shopper arrives during a conversation | Briefly acknowledge them, then finish the current transaction. Pause optional personal chatter and offer the waiting shopper help next. Arrival alone does not erase the ongoing speaker’s latest question. |
 | Several shoppers need service | Maintain a simple first-come counter queue; browsing and optional conversation do not reserve every service indefinitely. Each basket/order/receipt belongs to the actual customer. No invented impatient exit timer, automatic sale, premium priority or relationship penalty. |
@@ -20,4 +20,8 @@ Gifted Gabber service; authoritative register prices/payment; privacy-respecting
 
 ## Limits
 
-These are draft rules for owner review, not new implemented controls or penalties. Third-party speech, intentions, private knowledge, stock or consent are never authored solely to make the service flow succeed. Keep the already approved half-pay/no-relationship-reward consequence specific to rudeness toward helping meal-givers until broader misconduct consequences are separately approved. No new numerical action duration, patience threshold, payment fee or arbitrary score is proposed here.
+The owner approves this group of rules. They are design requirements, not new implemented controls or penalties. Third-party speech, intentions, private knowledge, stock or consent are never authored solely to make the service flow succeed. Keep the already approved half-pay/no-relationship-reward consequence specific to rudeness toward helping meal-givers until broader misconduct consequences are separately approved. No new numerical action duration, patience threshold, payment fee or arbitrary score is proposed here.
+
+## Approved quiet-period upkeep
+
+When no customers are nearby needing service, the acting Charity can check actually unoccupied changing rooms, make sure they are clean, give them a quick wipe-down, sweep around the stalls and sales floor, and fold/stack shop clothes neatly on shelves. These are modest routine duties to keep the shop tidy, not a separate automatic reward, invented mess or fixed chore minigame. Existing occupancy/privacy checks still apply; an empty sales floor alone does not establish that every changing room is empty. Respond to actual approaching customers rather than ignoring them until every chore is finished. Preserve real stock counts/ownership and record actual cleaning rather than restocking or laundering all clothes through narration. Task durations and supplies are not newly assigned numerical values here. Implementation remains deferred with customer-service/coverage controllers.
