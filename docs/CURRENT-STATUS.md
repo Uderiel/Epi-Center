@@ -1,3 +1,7 @@
+## Approved player needs consequences — development
+
+Owner selects1Health/Resolve/Stamina damage per5minutes at100hunger/bladder/fatigue,25%accident checks per10minutes of full bladder, accident-first on coincident deadlines, and retained zeroResolve binding. PLAYER-NEEDS-CONSEQUENCES.md records the controller, saved checks, exact worn-garment soiling, increasing wear-scent evidence, existing washer integration and AI/privacy boundaries. Danger-area creature encounter/detection balancing remains unimplemented; no creature/attack rules invented. No new publication or paid model call. Charity/Tits/Hub/coworker completion order remains in force.
+
 ## Charity behind-counter access and needs gap — current owner clarification
 
 All behind-counter areas, including dining and bathroom, require75+relationship plus Charity’s actual permission. No full-bladder exception. Public register checkout remains available; protected stock/secrets are not granted. Bathroom/dining invitation purposes are now enabled under this explicit clarification; permission rechecks75and preserves safe exit on loss. Universal hunger/bladder/fatigue consequences remain a design gap; NEEDS-CONSEQUENCES-DRAFT.md records proposed directions for approval, not runtime penalties. Development only, not published.

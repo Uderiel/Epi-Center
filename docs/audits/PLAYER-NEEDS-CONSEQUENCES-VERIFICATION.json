@@ -1,0 +1,203 @@
+{
+  "scope": "Owner-approved player needs/accident/clothing stage, development only",
+  "approved": {
+    "damage": 1,
+    "damageInterval": 5,
+    "maximumNeed": 100,
+    "accidentChance": 0.25,
+    "checkInterval": 10,
+    "sameMinuteOrder": "accident first; relief stops the coincident bladder drain",
+    "zeroResolveBinding": "retained under existing unmastered-form rule"
+  },
+  "automated": {
+    "cases": 1533,
+    "suites": 90,
+    "passed": true,
+    "syntax": "PASS",
+    "modulePaths": "PASS"
+  },
+  "browser": {
+    "needs": {
+      "scope": "Isolated synthetic save; actual runtime; no paid model requests",
+      "checks": [
+        "needs module loads without advancing or damaging resources on render",
+        "canonical four-minute advance does not drain early",
+        "canonical fifth minute drains exactlyone from each approved pool",
+        "reload preserves ten-minute check and exact second damage event",
+        "damage feed is recorded once with correct timestamps and remaining resources",
+        "real pipeline accident soils the existing owned item and relieves bladder without Resolve refund",
+        "continued wear increases scent while pressure drain stays stopped",
+        "owned item drawer exposes soiling and current continued wear",
+        "soiled condition and growing scent survive browser reload",
+        "real private changing removes worn scent but preserves the dirty carried garment",
+        "existing bedroom offers owned dirty garment deposit rather than creating a new laundry location",
+        "actual washer returns the same clean owned garment with no odor metadata or duplication",
+        "real clock drain tozero immediately binds the unmastered active form",
+        "binding caused by need damage persists after browser reload",
+        "minute-by-minute needs preserve exactlyone alternating2then3Wait transformation advance per hour",
+        "phone layout remains within390pixels and no page errors occur"
+      ],
+      "errors": []
+    },
+    "cherishedRetail": {
+      "origin": "http://127.0.0.1:8767",
+      "checks": [
+        {
+          "name": "entry uses existing sales floor and preserves intro visit without requiring purchase",
+          "passed": true
+        },
+        {
+          "name": "category opens a single style drawer instead of multiple input fields",
+          "passed": true
+        },
+        {
+          "name": "Back retains selected color in the parent drawer",
+          "passed": true
+        },
+        {
+          "name": "basket selection grants no item or charge",
+          "passed": true
+        },
+        {
+          "name": "real closed fitting stall previews shop property without ownership",
+          "passed": true
+        },
+        {
+          "name": "register charges exact price and grants the selected owned variant",
+          "passed": true
+        },
+        {
+          "name": "purchased item receipt and currency survive reload without duplicate payment",
+          "passed": true
+        },
+        {
+          "name": "custom bundle charges45 and grants exactly five chosen pieces",
+          "passed": true
+        },
+        {
+          "name": "purchased clothing appears in actual Items tab",
+          "passed": true
+        },
+        {
+          "name": "owned item equips through existing inventory and appears in current appearance",
+          "passed": true
+        },
+        {
+          "name": "store controls fit phone viewport",
+          "passed": true
+        },
+        {
+          "name": "other save slot original item and resources remain intact",
+          "passed": true
+        },
+        {
+          "name": "no uncaught browser errors",
+          "passed": true
+        }
+      ],
+      "errors": [],
+      "scope": "Synthetic local save; no owner data or AI calls"
+    },
+    "burkesRetail": {
+      "origin": "http://127.0.0.1:8767",
+      "checks": [
+        {
+          "name": "selected goods are physically unpaid basket contents",
+          "passed": true
+        },
+        {
+          "name": "drink preparation exposes the actual reference card and preset",
+          "passed": true
+        },
+        {
+          "name": "serving preference is a separate drawer with a direct now-or-with-products question",
+          "passed": true
+        },
+        {
+          "name": "register shows canonical whole checkout total before payment",
+          "passed": true
+        },
+        {
+          "name": "one payment transfers exactly paid goods and leaves a real empty basket",
+          "passed": true
+        },
+        {
+          "name": "reload preserves saved preset preparation without duplicate charge or serving",
+          "passed": true
+        },
+        {
+          "name": "ready drink is served as one real carryable cup",
+          "passed": true
+        },
+        {
+          "name": "holding the drink uses the same owned item and hand slot",
+          "passed": true
+        },
+        {
+          "name": "consumption removes held drink and leaves an actual empty takeaway cup",
+          "passed": true
+        },
+        {
+          "name": "wrong preset result gets one saved free remake without a second payment",
+          "passed": true
+        },
+        {
+          "name": "corrected drink can be handed over once",
+          "passed": true
+        },
+        {
+          "name": "takeaway consumed at counter leaves actual empty cup instead of a used dish",
+          "passed": true
+        },
+        {
+          "name": "reloaded used cup offers Dispose and no equip or hold action",
+          "passed": true
+        },
+        {
+          "name": "Dispose removes only that cup and narrates particles without charging",
+          "passed": true
+        },
+        {
+          "name": "disposed cup stays absent after reload and cannot be disposed twice",
+          "passed": true
+        },
+        {
+          "name": "cup consumed outdoors also supports disposal from Items",
+          "passed": true
+        },
+        {
+          "name": "retail interface fits mobile and original belongings stay intact",
+          "passed": true
+        },
+        {
+          "name": "no uncaught browser errors",
+          "passed": true
+        }
+      ],
+      "errors": []
+    }
+  },
+  "browserChecks": 47,
+  "limitations": [
+    "No production deployment or paid model calls",
+    "No completed danger-area creature encounters or numerical scent sensitivity escalation",
+    "No new public restroom location/access or general NPC accident controller",
+    "No new collapse/death/hostility rule from empty Health or Stamina"
+  ],
+  "sha256": {
+    "rebuild/hub/ai-context.js": "57c431bf8bf5d712ce1ba3a2c1ae5c4eb1df8e5f7605805b52d2d31d1d2c4335",
+    "rebuild/hub/ai-context.test.js": "acca24df705d4dbefeeb917bbc729b492d4b13f2aa52bce5c7212de4559126dd",
+    "rebuild/hub/cherished-shop-ui.js": "90191330b78cb2212b293548593a156d995b0b970a306fe527292653144c90d3",
+    "rebuild/hub/enchanted-effects.js": "875e1c6ee659345b0c310d42f801452a01dfe0300e66e40ec40a404aa702f372",
+    "rebuild/hub/erin-household.js": "406887827d0a45f1ac4eab28b674cbfe7283c519e0edaf2fa6fe55d0e17141c4",
+    "rebuild/hub/erin-restoration.js": "e6d4a5a073514b461c5d3ae094dc7d8495d250556d39dc4e3500da1db9d8c058",
+    "rebuild/hub/index.html": "3c71c3b13e976d8e4e4fec4dfb124208895f08b25ba4c87a592e4f1261f801a8",
+    "rebuild/hub/player-clothing.js": "8787dee258f5e95d95ace51b0f6e3edb5e20bff1407934a2b85264cd878ce3ee",
+    "services/ai/core.mjs": "3c20c44fea6830db11e2f3970fad6232ea0d672cfc2897bc6dbb5e0d3213a4e9",
+    "services/ai/deploy-worker.mjs": "051f831e6cb635d60ef2712f584ec8e3392a7ea180127511e5bee87e8a568cb6",
+    "services/ai/test.mjs": "dcb20856763f829a836c39f1caf40cd430fa2545964a43a22e81efdad08b2c59",
+    "rebuild/hub/needs-consequences.js": "f4f8b281157e1d9a03713953a3d384192877945843f7d2eada9f59965a510825",
+    "rebuild/hub/needs-consequences.test.js": "f4f90f5470825414fe495d2ece02d0b29fb14760e0076025225bf51ef70759ea",
+    "scripts/browser-needs-consequences.cjs": "40fc05ec136d8d12e77f63a3819953bd46bf92b32fc6a7931cda9dfab994949d"
+  }
+}

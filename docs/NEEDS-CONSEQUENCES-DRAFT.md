@@ -1,3 +1,7 @@
+## Approved subset now implemented — November19,2026
+
+See PLAYER-NEEDS-CONSEQUENCES.md. Owner approves1point per5minutes at100,25%bladder accident check per10minutes, accident-first on coincident deadlines, zeroResolve permanent-binding consequence, persistent clothing soiling and stronger scent with continued wear. The proposed1Resolve safety floor is rejected. Other earlier draft penalty ideas/thresholds are not thereby approved. This is development work, not a publication.
+
 # Universal needs consequences — proposal, not approved or implemented
 
 ## Owner issue and observed implementation

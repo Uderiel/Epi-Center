@@ -1,3 +1,7 @@
+## Current player-needs mechanics reference
+
+Use PLAYER-NEEDS-CONSEQUENCES.md for the owner-approved player drains, accident-first checks, physical garment soiling and scent evidence. Do not invent NPC accidents or declare all actor needs complete from the player controller. Character-specific stock, access, recovery and actual routines still require their own authored/approved adapters and verification.
+
 ## Needs consequences must be verified
 
 A displayed hunger/bladder/fatigue meter is not a completed needs system. Identify actual consequences, physiology applicability, recovery, public facility availability, persistent timing and AI-resolved outcomes; distinguish generic player effects from character-specific routine priorities. New consequence thresholds/penalties require owner approval. Private-room permissions are not automatically bypassed by urgent needs.

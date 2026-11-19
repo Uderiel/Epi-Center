@@ -1,3 +1,7 @@
+## Current prerequisite — approved player needs consequences
+
+Owner has now approved the player drains/accident/soiling rules in PLAYER-NEEDS-CONSEQUENCES.md while discussing Charity’s private-facility boundary. This development stage does not complete Charity’s household/coverage or make undeveloped public restrooms usable. Resume Charity’s remaining work next, preserving the order below. Danger-area creature sensitivity remains an authored system dependency.
+
 ## Latest owner access clarification — all behind-counter areas
 
 Every area behind Charity’s counter requires **relationship75+**, including dining and bathroom access. Her actual explicit permission remains required; a high score is not automatic entry or permission to handle stock/secrets. The public-facing customer position at registerC stays available for checkout. No low-relationship/full-bladder emergency exception is authorized. Players needing public facilities must use an establishment that actually offers them; do not invent a usable nearby restroom before its controller exists.
