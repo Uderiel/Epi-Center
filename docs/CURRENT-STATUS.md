@@ -1,3 +1,7 @@
+## Charity brief service pauses approved; negative cutoff unresolved
+
+Owner accepts “Back shortly” bathroom/personal-care pauses that stop entry/checkout while preserving existing customers’ browsing, baskets, paid property and safe exit. Exception: recognized sufficiently negative-relationship players may be asked to leave before she steps away. Owner mentions−25/−50but has not fixed the cutoff; no arbitrary exclusion/forced removal/combat implemented. Next proposal is−50or lower, with actual departure/refusal behavior still to settle. Design record only.
+
 ## Charity community meals and household supplies confirmed
 
 Owner confirms Charity is known by many, not all, Epi-Center characters, who often bring meals from their establishments throughout the day. Include those real prepared-meal visits in household design rather than assuming all meals require her cooking. No named giver/schedule/automatic relationship credit or private access inferred. Owner also approves Monday groceries/toiletries via Only on Time, paid from personal funds, separate from shop money. Source: CHERISHED-TOUCH-COMPLETE-LOCATION-DRAFT.md. Design update only; no new simulation/publication.

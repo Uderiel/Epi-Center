@@ -1,3 +1,13 @@
+## Owner-approved short unattended breaks; negative-relationship exception pending cutoff
+
+Owner accepts the proposed brief bathroom/personal-care break arrangement while Charity works alone: a “Back shortly” notice; temporarily pause new entry and checkout; customers already inside may ordinarily browse or leave; preserve their actual baskets, purchases, paid orders and safe exit; resume service on her actual return. This is a brief service pause within weekday24-hour operation, not a normal overnight shutdown.
+
+Owner adds an exception: sufficiently negatively regarded players must not be left in the shop unattended. **If she sees/recognizes such a player before her break, she may ask them to leave first.** The owner mentioned−25or−50as candidate severity thresholds, without choosing one. Interpret “or higher” in context as more severe negative relationship, not mathematically all values above a negative number. The exact cutoff is **not settled** and no new automated exclusion policy is implemented.
+
+Preserve per-player relationships and actual visible recognition; no omniscient detection of a hidden identity or automatic hostile status for everybody sharing a form. This does not create a universal ban on entry/service, a teleport/forced exit, a theft attempt, combat or an authority NPC. Behavior if the visitor refuses, exact departure/queue handling and any sanctions require a reviewed rule rather than an assumed punishment. Existing baskets/property cannot disappear with a leave request.
+
+**Proposal for next review:** use−50or lower, matching the owner’s heavily-distrusted tier;−25remains unfavorable recognition and closer attention. Ask the cutoff directly instead of silently enabling both thresholds. Whether Charity waits to take the break until the visitor has actually left must be reviewed with that behavior.
+
 ## Owner addition — community meal visits and approved household supply
 
 Charity is **well known to many characters around Epi-Center**, but not everyone knows her. People from other establishments **often bring her meals from their establishments throughout the day**. This is a meaningful recurring source of prepared meals and company; the household design must not assume she always cooks or buys every meal herself. Neko Cafe’s people were mentioned in the owner’s preceding addendum; no specific named visitor, dish or exact timetable was established.
