@@ -1,0 +1,55 @@
+{
+  "version": "1.0.126",
+  "runtimeCommit": "6ee373cd4b8838899a446e39359e44759fb1f35d",
+  "previousPublished": "1.0.125",
+  "pagesRun": "https://github.com/Uderiel/Epi-Center/actions/runs/44583734019",
+  "checks": [
+    {
+      "name": "Workers Builds: epi-center-ai",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://dash.cloudflare.com/7dff926f4e48921aecf343cfeb49a698/workers/services/view/epi-center-ai/production/builds/c69db796-60c4-4273-b356-5920cba0eb41"
+    },
+    {
+      "name": "report-build-status",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Uderiel/Epi-Center/actions/runs/44583734019/job/135771444704"
+    },
+    {
+      "name": "deploy",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Uderiel/Epi-Center/actions/runs/44583734019/job/135771444623"
+    },
+    {
+      "name": "build",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/Uderiel/Epi-Center/actions/runs/44583734019/job/135770963385"
+    }
+  ],
+  "workerHealth": {
+    "service": "Epi-Center AI",
+    "releaseVersion": "1.0.126",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "configured": true
+  },
+  "automatedCases": 1620,
+  "suiteRuns": 98,
+  "localBrowserChecks": 120,
+  "publicBrowserChecks": 120,
+  "matchedPublishedFiles": 160,
+  "bibleSnapshot": "docs/bible/v1.0.126-canon-snapshot.json",
+  "scope": "All implemented changes since125; owner-authorized main and foundations publication. Separate original source, source-backed canon, deployment and public-control verification.",
+  "limits": [
+    "Real Cydonia prose quality not tested by these automated/mocked checks.",
+    "Mask/coverage quest and authoritative offline multiplayer remain explicitly deferred.",
+    "Shift incidents record approved policy; deferred payroll adjustments are not claimed implemented.",
+    "Tits full template/home review remains next; current established record preserved."
+  ],
+  "next": "Tits template review; then remaining Hub shops, then Erin coworkers."
+}

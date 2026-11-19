@@ -1,6 +1,6 @@
 # Epi-Center World Bible — current canon and release backup
 
-Current release candidate: **v1.0.126**. This section reconciles actual source with owner-approved design; it supersedes older numeric profiles and implementation-status claims below. Publication is recorded separately in CURRENT-STATUS.md and release evidence. Keep implemented, verified, published, approved-but-deferred and unknown distinct.
+Current verified published release: **v1.0.126**. This section reconciles actual source with owner-approved design; it supersedes older numeric profiles and implementation-status claims below. Publication is recorded separately in CURRENT-STATUS.md and release evidence. Keep implemented, verified, published, approved-but-deferred and unknown distinct.
 
 ## Complete source-backed backup
 

@@ -1,6 +1,6 @@
 # Charity — current twelve-section template completion review
 
-Charity is substantially implemented locally, but not a completed multiplayer NPC/quest. Nothing in this review claims publication or real-model prose acceptance. See CHARITY-APPROVAL-IMPLEMENTATION-LEDGER.md for every checked approval group and concrete remaining dependency. Previous pre-household/pre-service tables are archived in audits/CHARITY-TEMPLATE-PRE-SERVICE-REVIEW.md and are superseded, rather than left as contradictory active instructions.
+Charity’s implemented local systems are published in v1.0.126; this is not a completed multiplayer NPC/quest or a real-model prose acceptance claim. See CHARITY-APPROVAL-IMPLEMENTATION-LEDGER.md for every checked approval group and concrete remaining dependency. Previous pre-household/pre-service tables are archived in audits/CHARITY-TEMPLATE-PRE-SERVICE-REVIEW.md and are superseded, rather than left as contradictory active instructions.
 
 | Template section | Implemented / verified locally | Actual remaining work |
 | --- | --- | --- |

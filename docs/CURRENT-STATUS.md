@@ -1,10 +1,10 @@
-## v1.0.126 — implemented release candidate; publication verification pending
+## v1.0.126 — published and publicly verified
 
 Owner authorizes publishing all implemented work since v1.0.125 before Tits’s review. Includes Charity’s full household/real supplies and role-safe access, care/laundry/routines and700/day income;65/35sales accounting; actual Friday laptop ordering/Monday merchandise and personal top-ups; customer queue/clerk duties/privacy/quiet cleaning; durable sourced testimony; actual food gifts and witnessed reports; shared household supplier prices; universal need consequences; NPC/form base10cap and45/55/65/75/85rarity budgets; rebalanced existing profiles and preserved save migration. Final release check also enforces the already-approved75original-player allocation cap at spending, without deleting banked points or applying form/equipment totals.
 
 The Bible/current canon snapshot, relevant character records, combat guide, changelog, status and handoff are part of this release. Tits retains established details and assigned Wet Lily Unit1home; her full template completion waits until the next character review. No mask/coverage quest activation, offline multiplayer service, new home design or paid-model prose acceptance is claimed.
 
-Public entrypoints and AI Worker health identify v1.0.126. Publication status and deployment evidence are recorded in `docs/releases/v1.0.126-*`; until those checks finish this is a candidate, not a live claim. Next after verified publication: Tits template review, then remaining Hub businesses, then Erin’s coworkers, preserving owner-approved order.
+**[Play v1.0.126](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.126)**. Runtime `6ee373cd4b8838899a446e39359e44759fb1f35d` is published on main/foundations. Pages run44583734019and Cloudflare Worker Builds succeeded; public Worker health reports126/configured. **1,620automated cases across98suite runs,120local and120public browser checks pass;160public files match**, including Bible/canon backup/combat guide. Evidence: `docs/releases/v1.0.126-release-summary.json`, `v1.0.126-tests.json`, `v1.0.126-live-verification.json` and browser summaries. No owner save or paid generation used. Next after verified publication: Tits template review, then remaining Hub businesses, then Erin’s coworkers, preserving owner-approved order.
 
 ## Historical checkpoints — superseded where inconsistent with the current release record
 

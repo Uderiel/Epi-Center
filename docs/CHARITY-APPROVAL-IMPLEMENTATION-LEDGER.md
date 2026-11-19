@@ -1,6 +1,6 @@
 # Charity approval → implementation ledger
 
-This is the current status after owner requests immediate implementation of approved work and a check for overlooked approvals. Approval is not proof of runtime completion. All changes described here are local and unpublished. Explicitly deferred quests stay deferred.
+This is the current status after owner requests immediate implementation of approved work and a check for overlooked approvals. Approval is not proof of runtime completion. Implemented changes listed here are published and publicly verified in v1.0.126; explicitly deferred controllers remain unimplemented. Explicitly deferred quests stay deferred.
 
 | Approved subject | Actual state | Remaining work / concrete boundary |
 | --- | --- | --- |
