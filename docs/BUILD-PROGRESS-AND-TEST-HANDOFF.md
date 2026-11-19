@@ -1,6 +1,6 @@
-## v1.0.114 expanded-map release candidate
+## v1.0.114 expanded map published and verified
 
-Owner authorized publication of the expanded overworld.321 references transcribed; #300 corrected, Applewood relocated, intended building moves applied, physical alley identities preserved. New facilities are exterior placeholders pending their own layouts/services. No water or delivery-service location invented. See EXPANDED-OVERWORLD-MAP.md and V1.0.114-OWNER-ACCEPTANCE.md. Final verification underway; no owner input pending.
+Owner authorized publication of the expanded overworld.321 references transcribed; #300 corrected, Applewood relocated, intended building moves applied, physical alley identities preserved. New facilities are exterior placeholders pending their own layouts/services. No water or delivery-service location invented. See EXPANDED-OVERWORLD-MAP.md and V1.0.114-OWNER-ACCEPTANCE.md. Published v1.0.114 verified: 1,386 automated cases across 83 suites; 295 local and 295 live browser checks passed. All 176 public files match runtime commit 77ceb14e7f3c37cdd48ace6811f030a43c338b26. Pages deployment 44427968310 succeeded. Tests used isolated synthetic saves and no paid AI. No owner input pending.
 
 ## v1.0.113 takeaway-cup regression fix
 

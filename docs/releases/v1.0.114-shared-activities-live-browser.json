@@ -1,0 +1,20 @@
+{
+  "checks": [
+    "suggestion requires acceptance before progress",
+    "actual continue control records five minutes with both companions",
+    "reload preserves paused progress and participants",
+    "completion writes exactly one viewed segment",
+    "same controls and progress work during Priya visit to Erin",
+    "leaving records interruption without completing another film",
+    "shared cooking UI produces a real usable meal",
+    "shared reading UI completes a saved chapter",
+    "completed reading waits90minutes before another automatic invitation",
+    "reading invitation cooldown survives reload",
+    "Richard refreshment uses his real owner label",
+    "Richard empty container retains his owner label",
+    "Priya evening greeting follows actual game time"
+  ],
+  "limitations": [
+    "Local synthetic save, AI off; no owner data or multiplayer"
+  ]
+}

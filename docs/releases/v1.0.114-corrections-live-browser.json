@@ -1,0 +1,51 @@
+{
+  "version": "1.0.114",
+  "origin": "https://uderiel.github.io/Epi-Center",
+  "checks": [
+    {
+      "name": "old noon-overlap booking returns to approved with preserved conflict evidence",
+      "passed": true
+    },
+    {
+      "name": "Scheduler shows lunch explanation and offers valid replacement booking controls",
+      "passed": true
+    },
+    {
+      "name": "elapsed lunch gives no attendance or completion to old appointment",
+      "passed": true
+    },
+    {
+      "name": "rescheduling requirement survives reload",
+      "passed": true
+    },
+    {
+      "name": "directed praise changes Nadia without changing Priya or Richard",
+      "passed": true
+    },
+    {
+      "name": "repeated praise in same window does not duplicate relationship gain",
+      "passed": true
+    },
+    {
+      "name": "criticism applies a separate bounded negative effect",
+      "passed": true
+    },
+    {
+      "name": "same NPC has independent record for a different player",
+      "passed": true
+    },
+    {
+      "name": "original player relationship survives switching and reload",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Synthetic saved booking and player fixtures; no owner save modified",
+    "No multiplayer transport or paid AI tested"
+  ]
+}
