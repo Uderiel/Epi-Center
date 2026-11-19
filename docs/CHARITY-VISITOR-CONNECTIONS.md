@@ -8,4 +8,4 @@ Charity's provider context receives only actual received gifts and reported comp
 
 Six focused cases cover gift transfer/replay, consuming donated food before pantry ingredients, genuine donor-held meals, gratitude without rewards, witnessed rudeness, delayed/private complaints and reload ownership. Five actual browser-control checks verify donation, explicit rude choice, incident/serving persistence, unchanged other save and no uncaught errors using isolated synthetic fixtures. All96frontend suites pass in the broader story/visitor run; final affected tests were rerun after provider/privacy/appearance checks. Backend55cases pass. No owner save or paid model request used; unpublished.
 
-Next: approve the proposed personal household source prices, then connect the existing missing-stock/funded receipt adapter to the Monday order/receipt controller. This is separate from completed enchanted merchandise fulfillment.
+Personal household source prices are now approved and wired through the shared supplier authority to the Monday order/receipt controller. This is separate from completed enchanted merchandise fulfillment.

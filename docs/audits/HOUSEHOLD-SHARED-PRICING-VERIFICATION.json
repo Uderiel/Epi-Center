@@ -1,0 +1,731 @@
+{
+  "scope": "Local unpublished; synthetic saves only; no paid generation",
+  "newPriceCases": 7,
+  "frontendRegression": [
+    {
+      "file": "rebuild/combat/attribute-cap.test.js",
+      "passed": true,
+      "summary": [
+        "7 attribute cap cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/combat/civilian-encounter.test.js",
+      "passed": true,
+      "summary": [
+        "PASS successful player flight retains the escape outcome instead of being overwritten by draw"
+      ]
+    },
+    {
+      "file": "rebuild/combat/dice-advantage.test.js",
+      "passed": true,
+      "summary": [
+        "PASS combat action roll mode uses the universal helper and leaves ordinary action rules intact"
+      ]
+    },
+    {
+      "file": "rebuild/combat/entity-rules.test.js",
+      "passed": true,
+      "summary": [
+        "entity rules: all assertions passed"
+      ]
+    },
+    {
+      "file": "rebuild/combat/kibbles-ai.test.js",
+      "passed": true,
+      "summary": [
+        "38 / 38 AI tests passed"
+      ]
+    },
+    {
+      "file": "rebuild/combat/kibbles-form.test.js",
+      "passed": true,
+      "summary": [
+        "21 / 21 form/help tests passed"
+      ]
+    },
+    {
+      "file": "rebuild/combat/kibbles-presentation.test.js",
+      "passed": true,
+      "summary": [
+        "27 / 27 presentation/text tests passed"
+      ]
+    },
+    {
+      "file": "rebuild/combat/play-encounter.test.js",
+      "passed": true,
+      "summary": [
+        "PASS feline body reuses physical rolls with claws and bite instead of human hands or dog wrapping"
+      ]
+    },
+    {
+      "file": "rebuild/combat/rarity-profiles.test.js",
+      "passed": true,
+      "summary": [
+        "6 rarity profile cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/ai-client.test.js",
+      "passed": true,
+      "summary": [
+        "45 / 45 AI client cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/ai-context.test.js",
+      "passed": true,
+      "summary": [
+        "PASS registered NPC and saved form retain long authored dossier and communication details"
+      ]
+    },
+    {
+      "file": "rebuild/hub/apartment-navigation.test.js",
+      "passed": true,
+      "summary": [
+        "9 apartment navigation cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/authored-dialogue.test.js",
+      "passed": true,
+      "summary": [
+        "5 / 5 authored dialogue cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/binding-and-footwear.test.js",
+      "passed": true,
+      "summary": [
+        "9 binding and footwear cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/burkes-retail.test.js",
+      "passed": true,
+      "summary": [
+        "15 Burke retail cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/burkes-sweets.test.js",
+      "passed": true,
+      "summary": [
+        "14 Burke foundation cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/business-availability.test.js",
+      "passed": true,
+      "summary": [
+        "9 / 9 business availability cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/canine-conversation.test.js",
+      "passed": true,
+      "summary": [
+        "9 canine conversation cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/canine-expression.test.js",
+      "passed": true,
+      "summary": [
+        "PASS negated and private physical descriptions cannot become public panting or licking"
+      ]
+    },
+    {
+      "file": "rebuild/hub/canine-routines.test.js",
+      "passed": true,
+      "summary": [
+        "15 canine routine and mastery gate cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/character-conversation.test.js",
+      "passed": true,
+      "summary": [
+        "PASS actual shampoo conditioner and bath additives enter private Erin context without leaking to NPCs"
+      ]
+    },
+    {
+      "file": "rebuild/hub/charity-access.test.js",
+      "passed": true,
+      "summary": [
+        "12 / 12 Charity access/memory cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/charity-delivery.test.js",
+      "passed": true,
+      "summary": [
+        "6 Charity delivery cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/charity-household.test.js",
+      "passed": true,
+      "summary": [
+        "21 Charity household cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/charity-service.test.js",
+      "passed": true,
+      "summary": [
+        "12 Charity service cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/charity-visitors.test.js",
+      "passed": true,
+      "summary": [
+        "6 Charity visitor cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/charity.test.js",
+      "passed": true,
+      "summary": [
+        "10 / 10 Charity cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/cherished-shop.test.js",
+      "passed": true,
+      "summary": [
+        "19 retail cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/cherished-touch.test.js",
+      "passed": true,
+      "summary": [
+        "19 / 19 Cherished Touch cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/cubicle-layout.test.js",
+      "passed": true,
+      "summary": [
+        "PASS cubicle layout renders ordered two-column choices with only the assigned occupant at each desk"
+      ]
+    },
+    {
+      "file": "rebuild/hub/cursed-household-flow.test.js",
+      "passed": true,
+      "summary": [
+        "22 cursed exposure and household flow cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/dart.test.js",
+      "passed": true,
+      "summary": [
+        "PASS sniffing nearby Dart without an open greeting is a distant observation not an acceptance error"
+      ]
+    },
+    {
+      "file": "rebuild/hub/department.test.js",
+      "passed": true,
+      "summary": [
+        "25 department integration cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/easter-egg.test.js",
+      "passed": true,
+      "summary": [
+        "21 / 21 Easter Egg cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/enchanted-counter.test.js",
+      "passed": true,
+      "summary": [
+        "19 enchanted counter cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/equipment-storage.test.js",
+      "passed": true,
+      "summary": [
+        "PASS both successful and rejected inventory equip attempts return to Play with visible feed response"
+      ]
+    },
+    {
+      "file": "rebuild/hub/erin-agency.test.js",
+      "passed": true,
+      "summary": [
+        "26 agency and interface cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/erin-daily-office.test.js",
+      "passed": true,
+      "summary": [
+        "24 daily and office cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/erin-life.test.js",
+      "passed": true,
+      "summary": [
+        "41 / 41 Erin life and equipment cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/erin-refinement.test.js",
+      "passed": true,
+      "summary": [
+        "PASS awake sustained activity retains the existing elapsed fatigue rate"
+      ]
+    },
+    {
+      "file": "rebuild/hub/erin-release.test.js",
+      "passed": true,
+      "summary": [
+        "11 Erin release and identity cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/erin-restoration.test.js",
+      "passed": true,
+      "summary": [
+        "25 / 25 Erin restoration cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/erin-shower-products.test.js",
+      "passed": true,
+      "summary": [
+        "9 Erin product cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/erin-wellbeing.test.js",
+      "passed": true,
+      "summary": [
+        "24 Erin wellbeing cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/expanded-map.test.js",
+      "passed": true,
+      "summary": [
+        "7 expanded map cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/footwear-senses.test.js",
+      "passed": true,
+      "summary": [
+        "10 footwear narration cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/form-minds.test.js",
+      "passed": true,
+      "summary": [
+        "43 / 43 Form mind cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/form-presence.test.js",
+      "passed": true,
+      "summary": [
+        "28 form-presence cases passed."
+      ]
+    },
+    {
+      "file": "rebuild/hub/form-reference.test.js",
+      "passed": true,
+      "summary": [
+        "9 form-reference cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/hangry-fangs.test.js",
+      "passed": true,
+      "summary": [
+        "20 / 20 Hangry Fangs and fog cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/heard-accounts.test.js",
+      "passed": true,
+      "summary": [
+        "7 heard-account cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/high-influence.test.js",
+      "passed": true,
+      "summary": [
+        "16 high-influence cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/household-prices.test.js",
+      "passed": true,
+      "summary": [
+        "7 household price cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/hub-world.test.js",
+      "passed": true,
+      "summary": [
+        "PASS Technology Center and groceries remain fixed while Applewood moves to owner reference97"
+      ]
+    },
+    {
+      "file": "rebuild/hub/interaction-state.test.js",
+      "passed": true,
+      "summary": [
+        "PASS restore keeps explicit collapsed choices instead of reopening every available field"
+      ]
+    },
+    {
+      "file": "rebuild/hub/intro-target-appearance.test.js",
+      "passed": true,
+      "summary": [
+        "8 / 8 interaction regression cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/kibbles-state-flow.test.js",
+      "passed": true,
+      "summary": [
+        "12 Kibbles state and text flow cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/live-time.test.js",
+      "passed": true,
+      "summary": [
+        "8 live-time cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/location-and-resolve-ack.test.js",
+      "passed": true,
+      "summary": [
+        "9 location and acknowledgment cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/location-details.test.js",
+      "passed": true,
+      "summary": [
+        "11 location detail cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/lunch-migration.test.js",
+      "passed": true,
+      "summary": [
+        "2 lunch migration cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/marketing.test.js",
+      "passed": true,
+      "summary": [
+        "28 marketing integration cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/mystery-box.test.js",
+      "passed": true,
+      "summary": [
+        "11 Mystery Box cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/nadia-daily.test.js",
+      "passed": true,
+      "summary": [
+        "5 Nadia daily cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/nadia-household.test.js",
+      "passed": true,
+      "summary": [
+        "12 Nadia household cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/nadia-integration.test.js",
+      "passed": true,
+      "summary": [
+        "8 Nadia integration cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/narration-grounding.test.js",
+      "passed": true,
+      "summary": [
+        "10 narration grounding cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/navigation.test.js",
+      "passed": true,
+      "summary": [
+        "PASS navigation drawer switches Layout indoors and Path again after leaving each interior"
+      ]
+    },
+    {
+      "file": "rebuild/hub/needs-consequences.test.js",
+      "passed": true,
+      "summary": [
+        "19 / 19 needs consequence cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/office-batch-work.test.js",
+      "passed": true,
+      "summary": [
+        "PASS typed fax handovers route to equipment rules and preserve negations and report summary controls"
+      ]
+    },
+    {
+      "file": "rebuild/hub/office-floor.test.js",
+      "passed": true,
+      "summary": [
+        "PASS all room artwork assets are exact 1100 by 733 and original F/G assets remain selected"
+      ]
+    },
+    {
+      "file": "rebuild/hub/office-layers.test.js",
+      "passed": true,
+      "summary": [
+        "PASS windows group retains independent saved blinds and direct typed access returns to its group"
+      ]
+    },
+    {
+      "file": "rebuild/hub/office-workflow.test.js",
+      "passed": true,
+      "summary": [
+        "PASS Work opens directly on decisions and writing without furniture inspection content above them"
+      ]
+    },
+    {
+      "file": "rebuild/hub/owner-corrections.test.js",
+      "passed": true,
+      "summary": [
+        "PASS explicit private intimacy changes the saved active arousal pool without healing or invented consent"
+      ]
+    },
+    {
+      "file": "rebuild/hub/priya-cat.test.js",
+      "passed": true,
+      "summary": [
+        "PASS strained relationship can block affection while purchased care gear still needs explicit acceptance"
+      ]
+    },
+    {
+      "file": "rebuild/hub/priya-daily.test.js",
+      "passed": true,
+      "summary": [
+        "17 daily life cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/priya-flats.test.js",
+      "passed": true,
+      "summary": [
+        "PASS retained mastered flats allow voluntary closet revisit without another binding grind"
+      ]
+    },
+    {
+      "file": "rebuild/hub/priya-home-navigation.test.js",
+      "passed": true,
+      "summary": [
+        "10 Priya drawer cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/priya-household.test.js",
+      "passed": true,
+      "summary": [
+        "PASS legacy prepared serving migrates once and keeps additions and finite stock"
+      ]
+    },
+    {
+      "file": "rebuild/hub/priya-media.test.js",
+      "passed": true,
+      "summary": [
+        "PASS moving to another room or leaving Priya\u2019s apartment invalidates late viewing narration"
+      ]
+    },
+    {
+      "file": "rebuild/hub/priya-visits.test.js",
+      "passed": true,
+      "summary": [
+        "8 Priya visit cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/priya.test.js",
+      "passed": true,
+      "summary": [
+        "26 / 26 Priya cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/relationships.test.js",
+      "passed": true,
+      "summary": [
+        "22 isolated relationship cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/resistance-needs.test.js",
+      "passed": true,
+      "summary": [
+        "PASS bulk Wait emits chronological action timestamps and preserves four-minute toilet duration"
+      ]
+    },
+    {
+      "file": "rebuild/hub/richard-daily.test.js",
+      "passed": true,
+      "summary": [
+        "5 Richard daily cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/richard-home.test.js",
+      "passed": true,
+      "summary": [
+        "13 Richard household cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/richard-office.test.js",
+      "passed": true,
+      "summary": [
+        "PASS typed fixtures bypass generic text timing and preserve once-only report payment rules"
+      ]
+    },
+    {
+      "file": "rebuild/hub/richard-report-ui.test.js",
+      "passed": true,
+      "summary": [
+        "PASS pending review prevents duplicate requests and cannot submit after room departure"
+      ]
+    },
+    {
+      "file": "rebuild/hub/richard.test.js",
+      "passed": true,
+      "summary": [
+        "PASS a report answer cannot be submitted from another room or a combat encounter"
+      ]
+    },
+    {
+      "file": "rebuild/hub/roleplay-footwear.test.js",
+      "passed": true,
+      "summary": [
+        "7 roleplay and footwear cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/served-items.test.js",
+      "passed": true,
+      "summary": [
+        "6 served item cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/shared-activities.test.js",
+      "passed": true,
+      "summary": [
+        "7 shared activity cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/shared-home-activities.test.js",
+      "passed": true,
+      "summary": [
+        "16 shared home cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/technology-center.test.js",
+      "passed": true,
+      "summary": [
+        "19 Technology Center cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/workplace-schedule.test.js",
+      "passed": true,
+      "summary": [
+        "6 shared workplace lunch cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/world-clock.test.js",
+      "passed": true,
+      "summary": [
+        "15 / 15 clock/art cases passed"
+      ]
+    },
+    {
+      "file": "rebuild/hub/world-objects.test.js",
+      "passed": true,
+      "summary": [
+        "13 / 13 World object cases passed"
+      ]
+    }
+  ],
+  "browser": {
+    "passed": true,
+    "scope": "Actual browser modules; isolated synthetic household, no owner saves or paid AI",
+    "result": {
+      "receivedSoup": 9,
+      "receivedIceCream": 1,
+      "personalGold": 90,
+      "playerGold": 123,
+      "receipt": {
+        "contents": {
+          "soup": 2,
+          "iceCream": 1
+        },
+        "prices": {
+          "soup": 1,
+          "iceCream": 8
+        },
+        "cost": 10,
+        "at": 360,
+        "catalogRevision": "provisional-1",
+        "carrier": "Only on Time",
+        "orderedAt": 360
+      },
+      "quote": {
+        "contents": {
+          "soup": 1
+        },
+        "prices": {
+          "soup": 4
+        },
+        "catalogRevision": "groceries-browser-update",
+        "total": 4
+      },
+      "replayedReceipts": 1,
+      "oldReceiptCost": 10
+    }
+  },
+  "backend": "55 / 55 AI backend cases passed",
+  "existingHouseholds": [
+    "Charity",
+    "Erin",
+    "Nadia",
+    "Richard"
+  ],
+  "futureSource": "Groceries Aplenty publishes shared unit-aware supplier prices; existing fallback costs remain until overridden.",
+  "history": "Placed orders and paid receipts retain quoted unit prices and catalog revision; new orders use updated catalog."
+}

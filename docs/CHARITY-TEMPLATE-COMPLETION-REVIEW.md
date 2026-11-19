@@ -8,8 +8,8 @@ Charity is substantially implemented locally, but not a completed multiplayer NP
 |2Character/voice|Gifted Gabber warmth, mannerisms, favorites, minimalist sharing, story curiosity and concealed-lore filtering|Deployed real-model acceptance; context-sensitive quest confrontation controller|
 |3Capabilities/stats|Epic75,10base cap, specialties, shared profile rebalance|No new combat powers authorized; approved conserved mask transfers remain quest design|
 |4Daily rhythm|Actual room walking, care/rest jobs, working-staff checks, quiet cleanup and Friday laptop ordering|Authoritative offline schedule and coverage quest activation|
-|5Home/belongings|Actual shared pantry, servings, garments/custody, laundry/dishes, towels, care, personal account, room controls and rose atmosphere|Automatic household purchases need real supplier catalogs/prices|
-|6Wardrobe/care/diet|Approved styles/counts, finite consumption, actual sleep/shower/outfit jobs, tracked favorite ice cream|Actual NPC meal/visit source schedules and production household fulfillment; no free supply refill|
+|5Home/belongings|Actual shared pantry, servings, garments/custody, laundry/dishes, towels, care, personal account, room controls and rose atmosphere|Monday personal purchases now implemented with approved provisional shared prices; future Groceries Aplenty replaces those defaults|
+|6Wardrobe/care/diet|Approved styles/counts, finite consumption, actual sleep/shower/outfit jobs, tracked favorite ice cream|Actual NPC meal/visit source schedules; household fulfillment now implemented; no free supply refill|
 |7Relationships/social agency|Isolated per-player score, identity-specific bounded chat, durable sourced heard accounts, preference/invitation history, voluntary quiet/service requests|Local witnessed reports/private follow-up implemented; actual NPC visit sources still need authored events|
 |8Work/public life|Real retail/receipts, ordinary auto-stock, enchanted orders/receipts,65/35ledger,700/day, FIFO, clerk buttons, scans, local stall checks, housekeeping|Actual NPC visitor/intent sources; network occupancy; quest wages/penalties and offline payroll|
 |9Form/quest routes|Detailed approved progression; recorded coverage/locked household adapter hooks, hatch exclusion|Mask, transformation/bleed, compulsion, release, restoration and hatch quest controllers explicitly deferred|
@@ -23,4 +23,11 @@ Keep the complete canonical public profile and separate concealed lore. Existing
 
 ## Current evidence and next ordinary-character gap
 
-CHARITY-SERVICE-IMPLEMENTATION.md and audits/CHARITY-SERVICE-VERIFICATION.json describe the new local controls and limits. Household, supplier and Friday-delivery evidence remain in their existing scoped reports. No owner save or paid generation is used. Durable source-aware story memory is now implemented. The next approved ordinary-character gap is automatic priced household fulfillment; do not reopen approved personality, hours, stock, wardrobe or coverage design. Quest/offline work stays explicitly deferred.
+CHARITY-SERVICE-IMPLEMENTATION.md and audits/CHARITY-SERVICE-VERIFICATION.json describe the new local controls and limits. Household, supplier and Friday-delivery evidence remain in their existing scoped reports. No owner save or paid generation is used. Durable source-aware story memory is now implemented. Automatic priced household fulfillment is now implemented; do not reopen approved personality, hours, stock, wardrobe or coverage design. Quest/offline work stays explicitly deferred.
+
+
+## Ordinary-character closeout after approved provisional pricing
+
+Shared supplier pricing now connects Monday household orders, actual staffed receipt, missing-stock reconciliation, finite funds and once-only invoice payment. Full97frontend suites pass; dedicated browser checks verify future supplier revisions and immutable historical receipts. Other existing household purchasing adapters read the same supplier authority while preserving their current fallback costs.
+
+The remaining boundaries are explicit: actual meal-giver NPC visit schedules come with those establishments, mask/coverage/shift payroll and real-time offline service remain deferred, and real deployed-model acceptance/publication remain undone. None is a reason to reopen Charity’s approved hours, appearance, personality, household style, prices or routine. Next character in the approved build order is Tits; review her template and Burke’s/Wet Lily Unit1 links next.
