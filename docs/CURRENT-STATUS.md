@@ -1,3 +1,9 @@
+## Current local Charity household integration
+
+Owner-authorized system connections are implemented locally: finite shared pantry/care, actual player/NPC servings, NPC-owned garment custody through existing equipment, laundry, connected rest/care through the existing autonomy scheduler, room UI, staffing and700gold/day personal base-income ledger. Temporary Charity role preserves player ID and cannot reveal/access the hatch. Personal rooms carry the approved floral/rose atmosphere. See CHARITY-HOUSEHOLD-INTEGRATION.md.
+
+Final regression1575named cases/93suites and11isolated browser checks pass. No paid model or owner save used; no publication. Deferred limits: actual mask quest/rewards, authoritative multiplayer/offline world simulation, production household delivery prices/fulfillment and sales net-profit settlement. Actual participant/ordinary-coverage hooks are implemented; no public lock-start control or implied live quest. Evidence: audits/CHARITY-HOUSEHOLD-INTEGRATION-VERIFICATION.json.
+
 ## Current Charity template review and complete-profile preservation
 
 Completed twelve-section source/design review: CHARITY-TEMPLATE-COMPLETION-REVIEW.md. Prior inconsistent checkpoints are archived, not current rules. Major missing runtime work is ordinary household item/need fulfillment, autonomous routines, offline/customer staffing/payroll and lasting sourced report memory; approved mask quest remains deferred. Settled thresholds, hours, stats, wardrobe, stock and rotation are not reopened.

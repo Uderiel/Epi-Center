@@ -1,3 +1,7 @@
+## Current household integration checkpoint
+
+Owner authorizes the household connections after the reuse review. CHARITY-HOUSEHOLD-INTEGRATION.md records actual local stock/serving/custody/laundry/routine/player-control/staffing and700gold/day base-income implementation. Role tag preserves player identity and explicitly excludes the hatch. Floral/rose household preference implemented. Final regression1575cases/93suites and11browser checks pass with isolated saves. Earlier “no Charity household adapter” findings below are historical pre-integration gaps; mask quest/rewards, authoritative offline multiplayer, production courier pricing/fulfillment and net-profit settlement still remain. This is local/unpublished, not a claim of a completed whole multiplayer day.
+
 ## Follow-up reuse check — avoid rebuilding existing systems
 
 See CHARITY-IMPLEMENTATION-REUSE-CHECK.md and audits/CHARITY-IMPLEMENTATION-REUSE-CHECK.json. Household item/serving/needs infrastructure, job scheduling, directed memory and once-only office-pay patterns already exist. Remaining Charity work is primarily her own source/owner/room/controller integration. Actual offline multiplayer staffing/payroll remains missing shared infrastructure. Ten focused suites/171cases passed in this check; no new game logic, paid model, owner save or browser/deployment action.

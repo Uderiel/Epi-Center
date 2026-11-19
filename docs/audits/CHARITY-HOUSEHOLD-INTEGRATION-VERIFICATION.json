@@ -1,0 +1,64 @@
+{
+  "scope": "Local household systems integration, not playable mask quest or live multiplayer",
+  "automated": {
+    "suites": 93,
+    "cases": 1575,
+    "failed": []
+  },
+  "browser": {
+    "checks": [
+      {
+        "name": "actual page loads shared module without offering a public lock-start control",
+        "passed": true
+      },
+      {
+        "name": "resident sees real pantry controls in the kitchen and rose atmosphere",
+        "passed": true
+      },
+      {
+        "name": "prepare consumes one real household portion and creates one held serving",
+        "passed": true
+      },
+      {
+        "name": "eat changes real needs removes serving and leaves household dish without moving player original stats",
+        "passed": true
+      },
+      {
+        "name": "actual shower action uses care quantities and towel in correct room",
+        "passed": true
+      },
+      {
+        "name": "borrowed outfit equips through existing clothing system with NPC ownership and visible body",
+        "passed": true
+      },
+      {
+        "name": "reload retains stock garment custody stable identity and player property",
+        "passed": true
+      },
+      {
+        "name": "laundry actual time advances cycle and returns same clean towel",
+        "passed": true
+      },
+      {
+        "name": "actual game clock credits daily salary to Charity once without changing player funds",
+        "passed": true
+      },
+      {
+        "name": "phone layout fits and protected other save remains intact",
+        "passed": true
+      },
+      {
+        "name": "no uncaught browser errors",
+        "passed": true
+      }
+    ],
+    "errors": [],
+    "scope": "Synthetic isolated local save; no AI provider calls; locked-state fixture, not a playable quest trigger"
+  },
+  "limits": [
+    "Synthetic recorded lock fixture; no public quest trigger",
+    "No authoritative multiplayer/offline simulation",
+    "Household price catalog/courier fulfillment and net-profit settlement still pending",
+    "No owner save, provider generation or publication"
+  ]
+}
