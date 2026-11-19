@@ -1,6 +1,20 @@
-## Chaining reaffirmed; remaining settlement/cap choices
+## Prolonged consecutive wearing — new owner direction, details pending
 
-Owner explicitly reiterates that the second shift chains. Do not ask again whether chaining is permitted or force reversion. Source review finds that per-completion reward amounts are already set, but immediate settlement/counting at an intermediate chained handover and any maximum number of consecutive accepted shifts have not been finalized. Propose those specifics rather than re-asking shift duration or reward amounts. Existing needs/resources persist, and no arbitrary ability thresholds are approved.
+Owner approves settling/counting each completed chained shift and no arbitrary consecutive-shift cap, then adds a **new prolonged-wear risk from starting the third consecutive shift**, after two completed coverage periods. This qualifies the earlier appearance-only/no-identity-erosion rule for prolonged use; do not retroactively apply bleed to the first two ordinary shifts. The third period is the second extension after the initial shift, not a third extra shift.
+
+During prolonged use, the mask begins producing Charity-like identity/behavior and residual appearance bleed. It is not a newly invented second independent Charity consciousness. The owner says Charity notices after the “third handoff,” when some effect already exists. Preserve that phrasing; do not silently count initial readiness as an extra completed shift or declare her intentionally trapping the player. The precise notice event should be reconciled with actual shift timing.
+
+Working owner cadences: roughly **one attribute point transferred every two hours**, from an attribute where the player is strong toward one where Charity is strong; roughly **one appearance detail per hour**, starting with eye color, then hair color and other features most directly transmitted by the mask. These are transfers toward Charity’s distribution, not a free added point each interval. Starting clock, residual behavior after removal, persistence/recovery and exact donor/recipient tie-breaking still need specification. Do not conflate the earlier approved full25stage disguise with the new list of residual features that may fail to revert.
+
+The spoken clause concerning mask removal/hourly change is ambiguous: it may mean hourly accumulation while worn that becomes visible after removal, or a progression continuing after removal. **Do not choose either silently.** Also clarify whether original saved attributes/appearance change permanently, recover after unmasking or need a specific remedy, and whether behavior is an influence/portrayal bias or compelled control. No new Resolve/mastery challenge or zeroResolve mask binding is inferred without an explicit rule.
+
+Code/design check: Erin’s current attribute resolver substitutes ERIN_ATTRIBUTES while full without modifying base attributes. Deliberate base redistribution is a separate mechanic. Charity’s current canonical profile has **no finalized numeric attribute allocation**, as already identified in her template review; draft that profile for approval before implementing transfers. Use actual base attributes rather than clothing bonuses, preserve total points, and do not write another NPC/form/player’s profile. The tenth/twentieth quest events remain separately deferred; this early prolonged-wear risk is not automatically identical to the historical twentieth-shift challenge.
+
+The coverage quest framework is still deferred; record this design direction and resolve questions before implementing a bleed controller. No current player save, attribute, appearance, reward or mind-state is changed by this note.
+
+## Chaining and ordinary settlement approved; prolonged-use details pending
+
+Owner explicitly reiterates that the second shift chains. Do not ask again whether chaining is permitted or force reversion. Owner subsequently approves immediate per-completed-shift settlement/counting and no arbitrary consecutive-shift cap, adding the third-shift prolonged-use risk in the current clarification above. Do not re-ask ordinary chaining, settlement or shift duration. Existing needs/resources persist, and no arbitrary ability thresholds are approved.
 
 ## Owner addition — voluntary consecutive coverage without reversion
 

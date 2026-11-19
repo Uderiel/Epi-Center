@@ -1,3 +1,7 @@
+## Third consecutive Charity shift — bleed design direction pending clarification
+
+Owner approves ordinary per-shift settlement/counting and no arbitrary chain cap, but introduces identity/appearance/attribute bleed starting with the third consecutive coverage period. Working cadence:1point transferred toward Charity’s strengths per2hours;1residual cosmetic detail perhour, eyes then hair/direct-mask features. Removal timing/persistence/agency and exact notice event remain unclear; no implementation or save mutation. Current source confirms Charity has no finalized numeric stat profile; Erin’s resolver normally substitutes rather than rewrites base stats. See CHARITY-COVERAGE-DESIGN.md.
+
 ## Charity stock baseline / mint chocolate chip preference approved
 
 Owner approves one-week backup food/care stock and two distinct work outfits; adds one half-gallon mint chocolate chip ice cream, her favorite anticipated treat during covered time off. Preference is connected to canonical profile/dossier/food dialogue without inventing a serving, pantry consumption, stock refill or bonus. Chaining is explicitly reaffirmed; checked existing reward notes before identifying open intermediate settlement/consecutive-limit choices. No publication or completed quest claimed.
