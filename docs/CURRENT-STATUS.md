@@ -1,3 +1,7 @@
+## Only on Time delivery service placed — tile322
+
+Owner assigns **Only on Time** to **tile322, (1,8)**, directly right/east of tile112 (0,8) and above/north of tile151 (1,9). The square was empty; map data now includes this exterior and preserves the other321 tiles. Interior, courier identities, schedules and service simulation remain pending. Previously established shared courier/service dependencies remain; do not invent a distribution-center identity or active delivery jobs. Development change only, not published.
+
 ## Tits residence assigned — Wet Lily Apartments Unit 1
 
 Owner assigns Tits’s current home to **Wet Lily Apartments, tile233, Unit1**, superseding the earlier unspecified west-side residence. BURKES-SWEETS-DESIGN.md is reconciled. Unit design, access and actual home/commute behavior remain pending; no apartment shell or runtime travel is invented and no release is published.

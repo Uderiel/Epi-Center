@@ -1,12 +1,12 @@
 # Expanded overworld — owner map, November 2026
 
-Approved for publication as v1.0.114. Coordinates use the Central Spire as (0,0), north negative Y. All 321 references are transcribed from the owner’s supplied map/list. #300 completes Sanitarium Way; #306 remains Cybernetics Periphery. Blank cells are unassigned, not implicitly water or walkable land.
+Approved for publication as v1.0.114. Coordinates use the Central Spire as (0,0), north negative Y. The original 321 references are transcribed from the owner’s supplied map/list; the owner subsequently added #322, Only on Time. #300 completes Sanitarium Way; #306 remains Cybernetics Periphery. Blank cells are unassigned, not implicitly water or walkable land.
 
 Applewood #97 moves to (2,-7); Leaf and Laurel #321 occupies its previous square. Technology Center #98 and groceries/dry cleaner #99/#100 retain their coordinates. Doll House #94 and Cloistered Madame #95 move as drawn. NW alley references90/91 exchange, but their existing location IDs remain at their original physical squares. Existing apartment floors, rooms, property, NPCs, relationships and inventory retain their identities.
 
 All current map squares have exterior routes using the existing eight-direction movement and alley boundaries. Old Concrete Route connects160–271 diagonally; Waterway Road connects143–262 diagonally. These are surviving prior-iteration road connections. Facility layouts will define entrances and interior permissions; adding an exterior node grants no private interior. New facility interiors, services and NPC populations are not invented by this map release.
 
-The delivery service is not placed yet. Cherished Touch and Burke’s can receive dollied supplies. Groceries Aplenty has a loading dock due to its volume; its interior and actual delivery simulation remain future work. Water placement and further map expansion remain on the owner’s to-do list.
+The owner has placed delivery service **Only on Time** at **#322, (1,8)**: immediately east of #112 and north of #151. Its interior, staff identities and service implementation remain pending. This does not establish that its premises are the previously mentioned distribution center. Cherished Touch and Burke’s can receive dollied supplies. Groceries Aplenty has a loading dock due to its volume; its interior and actual delivery simulation remain future work. Water placement and further map expansion remain on the owner’s to-do list.
 
 Map rendering covers34columns ×27rows, scrolls within the viewport, retains discovery/fog and reference-label settings, and routes to known destinations only. Old saves keep stable location IDs; invalid saved journeys stop under the existing route-validation guard and can be replanned. Daniel/Nadia departure timing uses actual route length to preserve intended morning arrivals after the relocation. NPC shortest paths reuse the static graph to avoid rescanning the expanded network every simulated minute.
 
@@ -333,3 +333,4 @@ Map rendering covers34columns ×27rows, scrolls within the viewport, retains dis
 | 319 | Memorium | 3 | 16 |
 | 320 | Memorium (2) | 4 | 16 |
 | 321 | Leaf and Laurel | 1 | -4 |
+| 322 | Only on Time | 1 | 8 |
