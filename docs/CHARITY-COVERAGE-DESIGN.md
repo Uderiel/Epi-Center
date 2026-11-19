@@ -263,3 +263,7 @@ The established100relationship requirement remains; the owner changes the twenty
 **No advance hint, promise or reassurance that the fourth shift is safe or will earn hatch access.** The player chooses despite Charity’s initial warning and two dissuasion attempts. Do not turn those into coy encouragement, advertise the alternate reward in her dialogue or disclose the72-hour recovery guarantee as reassurance before acceptance. This is narrative uncertainty, not permission to falsify interface state or make the earlier warnings disappear. The designer-facing rules remain recorded; the hidden-route qualification is not public NPC knowledge supplied to ordinary AI dialogue. Do not make Charity automatically know private restoration/payment evidence without an authored observation or report.
 
 All quest, hatch-exception, restoration purchase and lock controllers remain deferred. No runtime access, shop price or live save was changed by this design update.
+
+## Fourth-shift progression draft prepared
+
+See `CHARITY-FOURTH-SHIFT-PROGRESSION-DRAFT.md` for the reviewable six-hour physical, speech and confinement sequence and separate hourly conserved-attribute-transfer proposal. Intermediate timings are drafts, not implemented or owner-approved policy.
