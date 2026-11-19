@@ -1,3 +1,7 @@
+## Standing owner rule — check existing information before every question
+
+Before **every** question, inspect the relevant latest owner decisions, canonical design, actual code/shared systems and pertinent verification. Determine whether the answer or implementation already exists, reconcile superseded notes, and only then propose a genuinely unresolved consequential decision. Do this consistently; do not make the owner repeat information or select routine technical steps. This is also recorded in the repository AGENTS.md so it applies to later work, not merely this conversation.
+
 ## Explicit end-of-reply status and current Charity coverage
 
 Owner requires each reply to end by stating whether work is underway, finished and waiting for the next prompt, or blocked on a specific answer. Never imply continued background work after the turn ends. Charity-specific current coverage decisions are in CHARITY-COVERAGE-DESIGN.md (+75, six-hour minimum, seven-hour cap); historical +90/fixed-six-hour references are superseded. This does not impose Charity’s thresholds or shift duration on other NPCs.

@@ -1,12 +1,12 @@
-## Owner-approved short unattended breaks; negative-relationship exception pending cutoff
+## Owner-approved short unattended breaks; −50 cutoff confirmed
 
 Owner accepts the proposed brief bathroom/personal-care break arrangement while Charity works alone: a “Back shortly” notice; temporarily pause new entry and checkout; customers already inside may ordinarily browse or leave; preserve their actual baskets, purchases, paid orders and safe exit; resume service on her actual return. This is a brief service pause within weekday24-hour operation, not a normal overnight shutdown.
 
-Owner adds an exception: sufficiently negatively regarded players must not be left in the shop unattended. **If she sees/recognizes such a player before her break, she may ask them to leave first.** The owner mentioned−25or−50as candidate severity thresholds, without choosing one. Interpret “or higher” in context as more severe negative relationship, not mathematically all values above a negative number. The exact cutoff is **not settled** and no new automated exclusion policy is implemented.
+Owner adds an exception: sufficiently negatively regarded players must not be left in the shop unattended. **If she sees/recognizes such a player before her break, she may ask them to leave first.** The owner subsequently fixes the cutoff at **−50or lower** and confirms Charity waits until the recognized visitor actually leaves before taking the break. At−25, unfavorable recognition/closer attention alone does not trigger this break-specific leave rule. No new automated exclusion controller is implemented by recording the decision.
 
 Preserve per-player relationships and actual visible recognition; no omniscient detection of a hidden identity or automatic hostile status for everybody sharing a form. This does not create a universal ban on entry/service, a teleport/forced exit, a theft attempt, combat or an authority NPC. Behavior if the visitor refuses, exact departure/queue handling and any sanctions require a reviewed rule rather than an assumed punishment. Existing baskets/property cannot disappear with a leave request.
 
-**Proposal for next review:** use−50or lower, matching the owner’s heavily-distrusted tier;−25remains unfavorable recognition and closer attention. Ask the cutoff directly instead of silently enabling both thresholds. Whether Charity waits to take the break until the visitor has actually left must be reviewed with that behavior.
+**Settled:**−50or lower triggers the break-specific leave request; Charity waits for actual departure. Do not ask the threshold or waiting policy again. This does not automatically create a permanent store ban, forced movement, combat or a penalty for refusal.
 
 ## Owner addition — community meal visits and approved household supply
 

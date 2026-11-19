@@ -1,3 +1,11 @@
+## Standing owner rule — check existing information before every question
+
+Before **every** question, inspect the relevant latest owner decisions, canonical design, actual code/shared systems and pertinent verification. Determine whether the answer or implementation already exists, reconcile superseded notes, and only then propose a genuinely unresolved consequential decision. Do this consistently; do not make the owner repeat information or select routine technical steps. This is also recorded in the repository AGENTS.md so it applies to later work, not merely this conversation.
+
+## Charity break cutoff and implementation audit
+
+Owner confirms−50or lower and waiting for actual departure before an unattended break. Reconciled current household/review records. Code inspection confirms shared signed relationship/tier logic already exists in relationships.js, and staff/availability/entry guards in cherished-touch.js and business-availability.js. A full Charity short-break scheduling/visitor-recognition/handover controller is not yet present; reuse those systems rather than recreate them. No new permission/threshold question is needed. This update records decisions and workflow, not completed break runtime or a public release.
+
 ## Charity brief service pauses approved; negative cutoff unresolved
 
 Owner accepts “Back shortly” bathroom/personal-care pauses that stop entry/checkout while preserving existing customers’ browsing, baskets, paid property and safe exit. Exception: recognized sufficiently negative-relationship players may be asked to leave before she steps away. Owner mentions−25/−50but has not fixed the cutoff; no arbitrary exclusion/forced removal/combat implemented. Next proposal is−50or lower, with actual departure/refusal behavior still to settle. Design record only.
