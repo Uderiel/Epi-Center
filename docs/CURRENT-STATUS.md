@@ -1,3 +1,9 @@
+## Latest owner coverage revision — supersedes +90 / fixed-six-hour notes
+
+Canonical current rules: CHARITY-COVERAGE-DESIGN.md. **+75 relationship** qualifies for Charity’s actual mask-coverage offer. The coverage clock begins after transformation is complete and the player is ready at the counter. Charity sleeps promptly for roughly five hours, then showers (normal eight-minute shower), dries, dresses, eats a quick breakfast and returns. Owner confirms a **six-hour minimum / seven-hour maximum** with actual handover in that window; being ready earlier does not end the commitment before six hours. Her phase/return timing may vary within the cap, but exact distributions are not yet approved. Mask mechanics remain unresolved. The100relationship/twentieth-challenge hideout gate is unchanged.
+
+Current action: design decisions saved only; no mask/coverage runtime or publication claimed.
+
 ## Approved player needs consequences — development
 
 Owner selects1Health/Resolve/Stamina damage per5minutes at100hunger/bladder/fatigue,25%accident checks per10minutes of full bladder, accident-first on coincident deadlines, and retained zeroResolve binding. PLAYER-NEEDS-CONSEQUENCES.md records the controller, saved checks, exact worn-garment soiling, increasing wear-scent evidence, existing washer integration and AI/privacy boundaries. Danger-area creature encounter/detection balancing remains unimplemented; no creature/attack rules invented. No new publication or paid model call. Charity/Tits/Hub/coworker completion order remains in force.

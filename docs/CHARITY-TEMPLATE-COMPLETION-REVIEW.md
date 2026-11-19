@@ -1,3 +1,7 @@
+## Latest owner coverage revision — supersedes +90 / fixed-six-hour notes
+
+Canonical current rules: CHARITY-COVERAGE-DESIGN.md. **+75 relationship** qualifies for Charity’s actual mask-coverage offer. The coverage clock begins after transformation is complete and the player is ready at the counter. Charity sleeps promptly for roughly five hours, then showers (normal eight-minute shower), dries, dresses, eats a quick breakfast and returns. Owner confirms a **six-hour minimum / seven-hour maximum** with actual handover in that window; being ready earlier does not end the commitment before six hours. Her phase/return timing may vary within the cap, but exact distributions are not yet approved. Mask mechanics remain unresolved. The100relationship/twentieth-challenge hideout gate is unchanged.
+
 ## Latest owner access clarification — all behind-counter areas
 
 Every area behind Charity’s counter requires **relationship75+**, including dining and bathroom access. Her actual explicit permission remains required; a high score is not automatic entry or permission to handle stock/secrets. The public-facing customer position at registerC stays available for checkout. No low-relationship/full-bladder emergency exception is authorized. Players needing public facilities must use an establishment that actually offers them; do not invent a usable nearby restroom before its controller exists.

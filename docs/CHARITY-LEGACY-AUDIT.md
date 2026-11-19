@@ -1,3 +1,7 @@
+## Latest owner coverage revision — supersedes +90 / fixed-six-hour notes
+
+Canonical current rules: CHARITY-COVERAGE-DESIGN.md. **+75 relationship** qualifies for Charity’s actual mask-coverage offer. The coverage clock begins after transformation is complete and the player is ready at the counter. Charity sleeps promptly for roughly five hours, then showers (normal eight-minute shower), dries, dresses, eats a quick breakfast and returns. Owner confirms a **six-hour minimum / seven-hour maximum** with actual handover in that window; being ready earlier does not end the commitment before six hours. Her phase/return timing may vary within the cap, but exact distributions are not yet approved. Mask mechanics remain unresolved. The100relationship/twentieth-challenge hideout gate is unchanged.
+
 ## Owner correction — Resistance hideout invitation, NOT a separate entrance quest
 
 The hidden route leads to a Resistance HIDEOUT: NPCs and players opposed to the Countess, aware Epi-Center is not what it seems, seeking all the Hub Crystals to activate the Departure Spire. These are owner-level faction/location goals, not a functioning new destination, implemented quest, named membership roster, universal omniscience or guaranteed endgame escape. Use owner’s current Hub Crystals/Departure Spire wording; older Hub Cylinder progression terminology is not automatically rewritten or equated by this note.

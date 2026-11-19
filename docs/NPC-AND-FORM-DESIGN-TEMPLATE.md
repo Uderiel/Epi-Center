@@ -1,3 +1,7 @@
+## Explicit end-of-reply status and current Charity coverage
+
+Owner requires each reply to end by stating whether work is underway, finished and waiting for the next prompt, or blocked on a specific answer. Never imply continued background work after the turn ends. Charity-specific current coverage decisions are in CHARITY-COVERAGE-DESIGN.md (+75, six-hour minimum, seven-hour cap); historical +90/fixed-six-hour references are superseded. This does not impose Charity’s thresholds or shift duration on other NPCs.
+
 ## Current player-needs mechanics reference
 
 Use PLAYER-NEEDS-CONSEQUENCES.md for the owner-approved player drains, accident-first checks, physical garment soiling and scent evidence. Do not invent NPC accidents or declare all actor needs complete from the player controller. Character-specific stock, access, recovery and actual routines still require their own authored/approved adapters and verification.
