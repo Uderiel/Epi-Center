@@ -208,6 +208,16 @@ At the third completed-shift handover, Charity points out effects she can actual
 
 This is an authored conversation sequence, not an invented acceptance probability, relationship cutoff, persuasion-stat gate or automatic extension. A single request, unrelated dialogue or elapsed time must not count as the full sequence of persistent requests. The player can decline the fourth shift and finish under the approved ordinary handover/recovery rules. Existing eligibility and explicit agreement remain; no new gameplay exception is inferred. Quest/controller implementation remains deferred.
 
-### Next proposal — fourth-shift acceleration, not approved
+### Superseded cadence proposal — not approved
 
 For review, double the residual appearance cadence from one feature per60minutes to one per30minutes, and the conserved attribute-transfer cadence from one point per120minutes to one per60minutes. Exact next features, behavior escalation and fourth-shift compulsion remain separately unresolved; approving these two cadences would not approve extra effects or stronger control.
+
+## Latest owner direction — fourth-shift completion and permanent role confinement
+
+The owner directs the fourth consecutive shift to **finish the remaining physical transformation/residual appearance**, rather than simply approving the earlier twice-speed proposal. Progress continues downward through the remaining body features to toes, natural scent and final settling. The exact remaining-stage timing must be drafted to fit this completion objective; neither30minute appearance ticks nor hourly attribute transfers were approved by this response. Base attribute totals remain conserved under the earlier rule; finishing the physical result must not silently copy Charity’s Epic point budget or numeric allocation.
+
+The fourth shift introduces confinement to **Cherished Touch**, inability to leave, and player speech being rendered in Charity’s manner. The described completed state is **permanently locked**, unlike ordinary first-two-shift disguise use or the third shift’s brief single-action compulsion. Do not reinterpret this as the real Charity sharing her private memories, authorize unrelated NPC/player state changes, or silently broaden restriction to existing inventory/private-area permissions.
+
+The owner’s final spoken sentence about toes/scent/final changes was incomplete. Exact onset of confinement and speech restriction versus the permanent-lock completion point is **pending clarification**: do not implement immediate lock at fourth-shift acceptance or assume automatic escape/restoration. Existing third-shift cosmetic recovery remains its own rule and is not automatically a cure for the fourth-shift permanent state. The historical twentieth-shift mastery/hideout quest remains deferred and must be reconciled later, not silently removed or used to negate this new fourth-shift direction.
+
+No permanent-lock controller, speech rewriting, movement restriction, fourth-shift schedule or quest has been implemented by this design update.
