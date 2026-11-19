@@ -353,3 +353,7 @@ The owner approves the exact wardrobe draft, two towels/one washcloth/basic care
 ## Sharing humor and real Charity’s financial role
 
 Owner approves initial light teasing about sharing everything/their identical appearance, followed by relenting when the player persists. This adds no numerical penalty or compulsory sharing. Real Charity handles most financial ordering; household supply shortages and possible clerk undercharging are distinct issues. Current checkout uses calculated fixed prices/discounts; no clerk-error controller or till-shortage penalty is implemented or approved.
+
+## Approved customer-service focus
+
+Owner emphasizes that player coverage is primarily Charity’s chatty, friendly Gifted Gabber service: welcome, ask about an actual customer’s day, offer help, examine/check items are accounted for, offer to check genuinely available changing rooms and make visitors feel welcome. Register pricing/payment remains authoritative; no random failure/minigame or new wage penalty is added. See `CHARITY-CUSTOMER-SERVICE-DUTIES.md` for the authored duty menu and actual implementation boundaries.
