@@ -30,11 +30,11 @@ She loves praise/compliments. She wishes she could give a discount but says she 
 
 ## After closing and pinned residence dependency
 
-Owner confirmed she has a separate home, planned for future apartments on the WEST side of the map. No building/unit/address/interior or route exists yet. Pin this for the later housing expansion and when returning to finish Burke’s quests. Research-center employee apartments, other apartments and possible houses are broader future map work; do not place Tits in one of those buildings without owner design.
+Current owner assignment: **Wet Lily Apartments, tile #233, Unit 1**. This is Tits’s home for now and supersedes the earlier unspecified west-side apartment plan. The unit interior, entry/access details and actual home/commute controller remain design pending. Preserve this address when completing her NPC template and returning to housing/quest work; do not substitute research-center housing or invent a completed unit layout.
 
 She may travel home after closing, but often neglects it or forgets where it is. She enjoys clubs, the casino, Fire and Ice, and Bimbos365, where she has her best social contacts. Some nights she stays out all night and forgets to sleep, then comes back to work and gets hyped up on the drinks she serves. These are habits/preferences, not proof of implemented venue interiors, named contacts, invitations or a real housing commute. Caffeine may provide stimulation but must not silently erase accrued fatigue or count as sleep.
 
-**Pinned follow-up:** resolve west-side residence, entrance/address, real commute, sleep/recovery and venue routing once those locations are established; revisit with deferred quest work. Do not invent offscreen quest completion or teleport her to an unspecified home. Next routine decision is normal shop opening/closing and preopening fresh baking, with fatigue/late-opening exceptions; exact times remain proposals.
+**Pinned follow-up:** design Wet Lily Apartments Unit 1’s entrance/interior and real commute, sleep/recovery and venue routing once those locations are established; revisit with deferred quest work. Do not invent offscreen quest completion or teleport her to an unspecified home. Next routine decision is normal shop opening/closing and preopening fresh baking, with fatigue/late-opening exceptions; exact times remain proposals.
 
 ## Approved hours and Daily Needs recovery dependency
 
@@ -52,11 +52,11 @@ Authoritative character checklist: `NPC-AND-FORM-DESIGN-TEMPLATE.md` (12 section
 
 | Template section | Established | Remaining or deferred |
 | --- | --- | --- |
-| Identity/lifecycle | Named independent shop manager, only employee; earlier identity deferred | Adult age26 and appearance now confirmed below; stable actor ID and introduction/discovery remain; west-side home explicitly deferred |
+| Identity/lifecycle | Named independent shop manager, only employee; earlier identity deferred | Adult age26 and appearance now confirmed below; stable actor ID and introduction/discovery remain; Wet Lily Apartments #233 Unit 1 assigned; interior/access design pending |
 | Character/voice | Sincere literal-minded cheerfulness, forgetfulness, clumsiness; kindness/flirting/apology/rudeness responses and mannerisms | Contextual short dialogue across service states, interests and limits grouped in a coherent first pass; no repeated questionnaire |
 | Capabilities/profile | Human shop work, real cups/baskets/clothes; cannot lie or understand figurative language | Actual physical profile, senses, clothing/hand compatibility and engine-backed civilian resource/attribute proposal |
 | Rhythm/interruption | Weekdays08–20, baking beforehand, nightlife/missed sleep and Daily Needs dependency | Prep/cleanup durations, weekend hours, queue/interrupt/resume, meal/bathroom/rest windows and closed-shop behavior; home route deferred |
-| Home/belongings | Separate west-side home, D contains spare work clothes/heels | Home interior deferred; shop-owned belongings/custody and personal storage still need authored detail |
+| Home/belongings | Wet Lily Apartments #233 Unit 1; D contains spare work clothes/heels | Home interior deferred; shop-owned belongings/custody and personal storage still need authored detail |
 | Wardrobe/care/diet | Spare clothes/heels, shop drinks, fatigue-recovery purchases later | Work/off-duty presets, grooming, meals, actual supplies; no invented complete wardrobe approval |
 | Relationships/social agency | Strong reactions to praise, direct interest, hostility/apology; only actual witnesses judge | Signed individual player relationship event defaults, familiarity/memory, contact/follow-up, access and interpersonal limits; no invented social contacts |
 | Work/public life | Real basket, A/B selections, C payment, price list and D preparation | Service state machine, order/preparation timing, stock/ingredients, fresh-baking quantities, interruption priorities and cleanup |
@@ -123,7 +123,7 @@ During baking Tits makes messes and does not prioritize hygiene. She may lick fr
 
 When setting out products she is energetic, shimmies/shakes happily, talks to herself about being excited and hopes customers like her goodies. Keep these remarks contextual and varied, not constant repeated gestures or guaranteed narration every tick. During service she is friendly/chatty when she can afford to be and tries to keep herself on task, using the approved distraction, saved mistake, recheck and free-remake rules.
 
-After service she wipes down. At closing she finishes customers already in line before leaving because she would feel guilty about disappointing them or making them feel bad. Do not silently discard queued customers/paid orders to meet the clock. New arrivals after closing are a separate future service rule, not permission to keep the shop open indefinitely. Actual queue completion, cleaning and departure take time; no teleport to her still-undefined home. No runtime changes in this design checkpoint.
+After service she wipes down. At closing she finishes customers already in line before leaving because she would feel guilty about disappointing them or making them feel bad. Do not silently discard queued customers/paid orders to meet the clock. New arrivals after closing are a separate future service rule, not permission to keep the shop open indefinitely. Actual queue completion, cleaning and departure take time; no teleport to her assigned but still-unimplemented Wet Lily Apartments Unit 1. No runtime changes in this design checkpoint.
 
 ## Owner-confirmed shared delivery person and daily distribution supply
 

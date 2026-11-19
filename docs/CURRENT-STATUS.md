@@ -1,3 +1,7 @@
+## Tits residence assigned — Wet Lily Apartments Unit 1
+
+Owner assigns Tits’s current home to **Wet Lily Apartments, tile233, Unit1**, superseding the earlier unspecified west-side residence. BURKES-SWEETS-DESIGN.md is reconciled. Unit design, access and actual home/commute behavior remain pending; no apartment shell or runtime travel is invented and no release is published.
+
 ## Alia / Tits familiarity confirmed — deferred design dependency
 
 Owner confirms Alia already knows Tits’s needs. This is recorded in DAILY-NEEDS-DESIGN.md and BURKES-SWEETS-DESIGN.md for the future Daily Needs design pass, including the existing fatigue-restorative context. Detailed service arrangements remain deferred; no gameplay change or publication.
