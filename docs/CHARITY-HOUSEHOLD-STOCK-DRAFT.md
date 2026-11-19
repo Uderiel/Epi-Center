@@ -55,3 +55,7 @@ No hidden withdrawals from the till/player, fabricated free credit, automatic de
 ## Next review
 
 Review the one-week fallback level and two distinct owned work outfits first. Numeric row quantities and top-up economics remain proposed until actually presented/approved; approval of a broad buffer is not approval of unseen item counts. Then finalize the concrete per-action stocks/recipes/cost proposal as one coherent package rather than repeatedly asking trivial item-by-item questions.
+
+## Next review proposal — locked-player care buffer
+
+The approved72-hour two-person rotation adds a second eater and care user to Charity’s household. Propose a distinct extra three-day food/care buffer for the locked player, alongside Charity’s approved one-week fallback stock. Community meals remain actual gifts rather than guaranteed supplies. This is a proposal, not an approved new inventory grant, supply delivery frequency, refill budget or claim that the existing one-person quantities already cover both. Exact portions/use quantities remain to finalize after this capacity choice.

@@ -1,3 +1,7 @@
+## Current weekend-hours approval
+
+Owner approves24-hour weekend service as well as weekdays. Cherished Touch is scheduled24/7, subject to actual working coverage and recorded closure/short-break state. The local availability adapter now permits staffed weekend entry; absent/nonworking staff and explicit closure still block entry, and safe exit remains. This supersedes all historical “weekend unresolved/conservatively unavailable” statements below. Autonomous staffing, care, mask coverage and offline payroll remain deferred, not implemented by changing hours.
+
 ## Latest owner clarification — third-shift residue, private thoughts and Epic Charity
 
 The hourly progression runs **while the mask is worn in the third consecutive shift**, not after it is removed. Two ordinary shifts are completed first; risk begins on the third accepted consecutive coverage period. Accumulated appearance changes remain after ordinary unmasking/reversion and **do not fade on their own**. Owner names cosmetic surgery (“Nip-Tite” in the transcript) to restore the original appearance/remove the residue. Existing reference96 is currently labeled **Nip Tuck Cosmetics**; do not create a duplicate clinic or silently rename the map from ambiguous voice spelling. Exact service name can be reconciled at its location review.

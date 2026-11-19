@@ -1,3 +1,7 @@
+## Current weekend-hours approval
+
+Owner approves24-hour weekend service as well as weekdays. Cherished Touch is scheduled24/7, subject to actual working coverage and recorded closure/short-break state. The local availability adapter now permits staffed weekend entry; absent/nonworking staff and explicit closure still block entry, and safe exit remains. This supersedes all historical “weekend unresolved/conservatively unavailable” statements below. Autonomous staffing, care, mask coverage and offline payroll remain deferred, not implemented by changing hours.
+
 ## Owner confirms Charity’s own mechanical class
 
 Charity is Epic-equivalent and a mental specialist, with mid-thirties apparent age and unspecified chronological age. This supersedes the older ordinary/Common assumption. Her own numeric allocation still needs an engine-backed60point draft/approval; masked players do not inherit that budget. The profile now records this author-level classification without giving it to players or inventing combat abilities. Latest prolonged third-shift bleed rules and proposed facial sequence are in CHARITY-COVERAGE-DESIGN.md; quest runtime remains deferred.
