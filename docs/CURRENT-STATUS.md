@@ -1,3 +1,7 @@
+## Daily Needs schematic received — design only
+
+Owner supplied the Daily Needs sheet. See DAILY-NEEDS-DESIGN.md for reference66, rotated cardinal orientation/north entrance, A/B/C ground-floor connections, B–D stairs, six separate E cells, F research, Alia, hours/stock/quest transcriptions and open implementation requirements. Supersedes the prior no-Daily-Needs-layout finding. Tits’s fatigue-recovery purchase dependency is retained; private basement material is explicitly excluded from public AI context until authorized discovery. No runtime changes or new publication.
+
 ## New location sheets recorded — design only
 
 Owner supplied two views of Going Out of Business and one Groceries Aplenty sheet. See GOING-OUT-OF-BUSINESS-DESIGN.md and GROCERIES-APLENTY-DESIGN.md. Ground/sublevel graphs, staff readings, hours, services, grocery aisle catalogue and quest concepts are transcribed, with unclear names, point-type discrepancy, checkout access and door topology flagged. No NPCs/services/quests are activated and no new release is published. These supersede the previous “last supplied individual location was Burke’s” answer.

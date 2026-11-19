@@ -1,6 +1,10 @@
+## Daily Needs sheet received — November 19, 2026
+
+[Daily Needs design record](DAILY-NEEDS-DESIGN.md), reference66, now includes the original ground/downstairs layout transcription, Alia, “24 hours (mostly),” product categories, six individually represented testing cells, restricted research notes and four quest concepts. North is the page-right edge. Tits’s approved fatigue-restorative dependency is cross-linked. Design only; original image remains in chat, and no local original file, playable service or NPC implementation is claimed. This supersedes earlier missing-Daily-Needs-schematic statements.
+
 ## Latest owner-supplied sheets — November 19, 2026
 
-Newly supplied: [Going Out of Business](GOING-OUT-OF-BUSINESS-DESIGN.md), reference69 (two photos of the same sheet), and [Groceries Aplenty](GROCERIES-APLENTY-DESIGN.md), reference99. Layout/staff/service/catalogue/quest transcription is preserved with ambiguities flagged. These are design records only, not new playable interiors or registered staff. Originals remain in chat; no local image-file copy claimed. Daily Needs and Zen Shop and Spa still have no dedicated schematic in the checked records.
+Newly supplied: [Going Out of Business](GOING-OUT-OF-BUSINESS-DESIGN.md), reference69 (two photos of the same sheet), and [Groceries Aplenty](GROCERIES-APLENTY-DESIGN.md), reference99. Layout/staff/service/catalogue/quest transcription is preserved with ambiguities flagged. These are design records only, not new playable interiors or registered staff. Originals remain in chat; no local image-file copy claimed. Daily Needs was supplied subsequently; see the newer entry above. Zen Shop and Spa still has no dedicated schematic in the checked records.
 
 ## Applewood suite architecture confirmed
 

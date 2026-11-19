@@ -153,3 +153,7 @@ Owner asked whether work is proceeding or further help is needed. Continue indep
 - Checkout transfers only paid goods/servings to inventory; the emptied shop basket is still a physical item to return. Public exit returns through A. No new room, rear exit, hidden route, extra exterior entrance or direct B↔C doorway is added by this proposal.
 
 The earlier schematic adjacency list A↔B↔D↔C is insufficient by itself to define the customer-side register approach; retain that distinction rather than claiming customers must enter storage. If visual implementation reveals the counter boundary cannot support this interpretation, flag that exact geometric point instead of silently altering the drawing. Next concrete work is a fixture/action/permission inventory and this bounded public-navigation slice; no Burke implementation or new release is claimed yet.
+
+## Daily Needs source dependency updated
+
+The owner has now supplied Daily Needs’ schematic; see DAILY-NEEDS-DESIGN.md. It explicitly includes fatigue/hunger/bladder restoratives. Tits’s approved purchase/use behavior remains linked to future real stock/payment/effect implementation, with no invented numerical effect or completed errand claimed.
