@@ -250,7 +250,7 @@ Proposed next review: after automatic mask release, special locked-state interio
 
 ### Relationship retention after coverage and lock release
 
-The owner reiterates that each completed coverage shift earns+5relationship, including all four completed shifts leading into the72-hour lock. Preserve the earned increase on mask release: four shifts yield+20 relative to the actual starting score, capped at100. Example:75at first-shift acceptance becomes95after four completions, absent other relationship changes. Neither disguise, lock expiry nor original-appearance restoration resets this relationship or transfers it to another entity/player. Seventy-two hours of locked time is not automatically additional completed reward-bearing shifts.
+The owner reiterates that each completed coverage shift earns+5relationship, including all four completed shifts leading into the72-hour lock. Preserve the earned increase on mask release: four shifts yield+20 relative to the actual starting score, capped at100. Example:75at first-shift acceptance becomes95after four completions, absent other relationship changes. Neither disguise, lock expiry nor original-appearance restoration resets this relationship or transfers it to another entity/player. Elapsed lock time alone does not mint shifts; the later owner-approved actual online/offline coverage rotation below can create paid completed coverage records.
 
 Post-release ordinary invitation eligibility must use that retained current score, not the pre-first-shift score. Existing ordinary personal-room threshold is75or higher **plus an actual purpose-specific invitation**. Existing hidden-hatch/hideout invitation requires100relationship **and successful completion of the separately deferred twentieth-shift mastery challenge**;100alone is not the currently recorded full gate. The owner asks for confirmation of these thresholds, not automatic removal of the mastery condition. Fourth-shift lock changes and the historical twentieth-shift quest need a later explicit reconciliation, without silently granting secret access.
 
@@ -285,3 +285,21 @@ The owner accepts the revised75-point Charity profile and authorizes rebalancing
 ## Approved attribute-selection and player-awareness requirement
 
 Owner approves `CHARITY-ATTRIBUTE-TRANSFER-DRAFT.md`: highest eligible non-core-mental donor to lowest eligible Willpower/Reasoning/Stability/Insight recipient, fixed documented tie order, floor0/cap10, same total, no banking or duplicate ticks. Each actual transfer must clearly tell the player which base attribute lost a point, which gained it and the before/after values; Stats/history reflect the same saved result. This supersedes prior pending selection notes. Quest/controller implementation remains deferred.
+
+## Approved Charity response and paid online/offline lock rotation
+
+When the player notices the effects and asks, Charity reacts with fright, nervousness and anxiety. She eagerly tries to help remove the mask; failure frustrates her and her eyes may water. Do not portray effortless removal or falsely mark the removal attempt successful. Her response follows the player’s actual expressed manner:
+
+- If stressed, she comforts them and assures them she will see that they are taken care of. This is a promise of care, not knowledge of an unobserved cure or a new payment commitment.
+- If angry, her sarcastic/witty response references her actual warnings against the extra shift. Keep her established character; this does not authorize automatically punishing relationship changes.
+- If kind/gentle/reassuring, she may ask whether that is genuinely how they feel or whether her influence is making them respond that way. She does not declare that all kindness is compelled or read hidden player thoughts.
+
+Once the player is stuck for the72-hour period, Charity sets up a rotation at her first private opportunity. Their character continues actual shop coverage while offline as well as online, alternating with the real Charity so she can rest/spend time in the back. The locked character cannot leave for their safe house. **They are paid for actual coverage time**, superseding the earlier blanket statement that the lock cannot contain additional shifts/rewards. Merely being logged out or locked is not proof of continuous counter work. Completed scheduled coverage uses actual saved work records and once-only settlement; reconnecting must not replay payroll or treat every offline minute as another full shift.
+
+Rotation durations, phase at lock onset, and payment for a partial final interval need a reviewed schedule. Existing ordinary completed-shift pay progression is250/300/350/400/450and500fromshift6; do not invent a new hourly wage, assume all72hours are paid work, or pay for Charity’s own coverage. Actual staffing must remain coherent in multiplayer; per-player lock/reward records do not duplicate Charity or imply unlimited counter slots. Rest/meal/needs handling remains actual scheduled activity, not automatic unlimited supplies or erased needs consequences.
+
+### Next rotation proposal — not approved
+
+Propose alternating six hours of real Charity at the counter (the player rests first after four consecutive shifts) and six hours of the locked player covering, repeating while the lock lasts. This is six hours on/six off for each, with completed player shifts paid under the existing progression. Exact synchronization with world-time versus real-time work intervals and any final partial shift remain to review; this proposal does not silently choose those policies or implement offline simulation.
+
+Quest, dialogue-controller, NPC rest, offline coverage and payroll implementation remain deferred; this is approved characterization/coverage direction plus a schedule proposal.
