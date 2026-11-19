@@ -1,12 +1,12 @@
 ## Owner-approved baseline and favorite treat
 
-Owner approves **one week of backup food/care supplies and two distinct owned work outfits**. Exact unpresented row quantities, prices and per-use amounts remain proposals; this approval does not create new runtime inventory or unlimited money.
+Owner approves **one week of backup food/care supplies and two distinct owned work outfits**. The combined food/care quantities below are now approved. Prices, detailed recipe/use effects and unapproved clothing/care row quantities remain unresolved; this approval does not create runtime inventory or unlimited money.
 
 She always aims to keep **one half-gallon tub of mint chocolate chip ice cream** as personal household stock. It is her favorite treat and something she particularly looks forward to when she has time off while someone covers the shop. Include suitable freezer storage in the kitchen/fridge arrangement rather than leaving it on a shelf or inventing another room. Track real consumption; the container is not magically bottomless or refilled by a dialogue/render. Do not assume exact serving size, special stat/mood bonus, sharing policy or extra delivery frequency. Ordinary approved household replenishment must maintain the stock target through actual goods/payment records.
 
 This preference is now in Charity’s canonical definition, AI dossier and ordinary food dialogue; actual pantry/freezer consumption and replenishment still require the household controller.
 
-# Charity household starting stock — proposal for review
+# Charity household stock — approved quantities; implementation deferred
 
 ## Existing decisions checked
 
@@ -14,7 +14,7 @@ Approved menu: toast/eggs or oatmeal/tea; sandwich/fruit; reheatable soup or chi
 
 The approved morning sequence and private-room graph are retained. Existing player-clothing and household adapters track physical items, conditions, hampers, washing and collection; use those contracts for Charity’s own actor rather than inventing infinite replacement stock or moving the player when she does a chore. No household controller/start inventory is created by this draft.
 
-## Approved baseline; row quantities proposed
+## Historical one-person quantity draft — superseded by approved combined targets below
 
 A **one-week fallback food/care buffer** means community meal visits are welcome help, not a guarantee needed to make the inventory arithmetic work. Delivered meals reduce consumption only when an actual portion is received and eaten/stored. The one-week baseline and two work outfits are approved; exact numeric allocations below remain **proposals, not approved starter grants**.
 
@@ -60,9 +60,9 @@ Review the one-week fallback level and two distinct owned work outfits first. Nu
 
 The owner approves a distinct extra **three-day food/care buffer for the locked player**, alongside Charity’s approved one-week fallback stock. Combined target capacity is ten person-days, not ten days for each of two people. Community meals remain actual gifts rather than guaranteed supplies. This approval establishes capacity, not a live inventory grant, automatic delivery frequency, free refill budget or new numerical need-restoration effects.
 
-## Consolidated ten-person-day quantity proposal — review required
+## Approved consolidated ten-person-day stock targets
 
-Use the existing quick-menu choices. Proposed combined stock targets:
+Use the existing quick-menu choices. Owner-approved combined stock targets:
 
 - Breakfasts: six eggs for three two-egg breakfasts, seven oatmeal portions, and bread for the three toast accompaniments: ten breakfasts total.
 - Lunches: ten sandwich-filling portions and ten fruit portions, with bread for ten sandwiches.
@@ -72,4 +72,4 @@ Use the existing quick-menu choices. Proposed combined stock targets:
 - Daily care: ten shower-use portions of mild soap, ten available shampoo/conditioner uses, twenty toothpaste uses, ten deodorant/moisturizer uses. Two personal toothbrushes, one for each actor; do not share a toothbrush or overwrite the player’s existing owned item.
 - Retain the approved two distinct work outfits and one half-gallon mint chocolate chip target. Clothing loan/laundry/ownership remain tracked; no automatic new outfit count or ice-cream-sharing permission follows from extra food/care.
 
-The quantities above are a single proposed stock target for review, not yet runtime inventory, approved product prices, recipes or numerical need relief. Normal replenishment remains the approved Monday Only on Time delivery paid from Charity’s personal funds; an additional emergency run or infinite free refill is not inferred. Current held stock is not reset/duplicated when a locked player arrives. Starting-stock migration and actual top-up/payment must use real item records when implemented.
+The owner approves the combined quantities above. They are not yet runtime inventory, approved product prices, recipes or numerical need relief. Normal replenishment remains the approved Monday Only on Time delivery paid from Charity’s personal funds; an additional emergency run or infinite free refill is not inferred. Current held stock is not reset/duplicated when a locked player arrives. Starting-stock migration and actual top-up/payment must use real item records when implemented.

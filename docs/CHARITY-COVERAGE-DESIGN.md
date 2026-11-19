@@ -340,4 +340,4 @@ For a late report after reward settlement, void that shift’s recorded relation
 
 ## Approved two-person household capacity
 
-The owner approves three extra days of food/care supplies for the locked player in addition to Charity’s one-week fallback supply. Consolidated ten-person-day quantity targets are drafted in `CHARITY-HOUSEHOLD-STOCK-DRAFT.md` for review. This does not activate offline care, create inventory, approve new delivery frequencies or make community meals guaranteed.
+The owner approves three extra days of food/care supplies for the locked player in addition to Charity’s one-week fallback supply. The owner also approves the consolidated ten-person-day food/care quantities in `CHARITY-HOUSEHOLD-STOCK-DRAFT.md`. This does not activate offline care, create inventory, approve new delivery frequencies or make community meals guaranteed.
