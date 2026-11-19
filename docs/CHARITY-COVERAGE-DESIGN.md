@@ -230,6 +230,12 @@ The owner approves **three real-world days /72elapsed hours, counting while offl
 
 Intermediate restriction stages and conserved attribute-transfer frequency still need a concrete design. Quest/controller implementation remains deferred.
 
-### Next review draft — expiry effects
+### Approved expiry — compelled privacy and automatic mask release
 
-At the72-hour expiry, propose ending shop confinement, compelled Charity-style speech and the mask-removal restriction. The player may then remove the mask; original identity/control are retained. Residual appearance would still require cosmetic restoration, and shifted base attributes deliberate reallocation, consistent with the approved third-shift recovery rule. This expiry scope is a draft awaiting review, not an automatic full-body/stat reset or a settled additional restoration fee.
+At72real-world hours, the player is compelled to seek somewhere private; once actually in a private location, **the mask falls off automatically**. This replaces the earlier draft of merely permitting voluntary removal. Do not narrate public mask release before privacy is reached. The exact advance-notice interval, eligible private destination and safe movement/access handling remain to draft against actual permissions; this compulsion does not automatically grant entry into Charity’s private rooms or teleport the player.
+
+**No physical changes revert when the mask falls off.** The resulting Charity-like body remains the player’s current base appearance until restored at a surgery center. Retain a protected pre-bleed appearance baseline for that restoration; “base overwritten” means current physical appearance, not erasure of player ID, account, original identity, relationship history, inventory ownership or restoration data. Scope/timing of ending confinement and forced speech around the privacy transition still need an explicit transition rule; do not restart the72-hour timer while seeking privacy.
+
+The player retains exactly the same **total base attribute points they had when beginning the first Charity shift**, throughout disguise, prolonged wear and after mask release. Redistribution changes allocation only. Charity’s Epic classification grants no additional points, substituted NPC attribute table or Epic resource/stat budget. The owner explicitly corrects the spoken name Erin to **Charity**; do not change Erin’s mechanics from this statement. Equipment bonuses remain separately accounted for, never folded into the conserved base total. Shifted allocations still require deliberate reallocation under the approved recovery rule.
+
+Quest/controller implementation remains deferred; no multiplayer expiry, compelled movement, automatic mask removal or base-appearance/stat migration is implemented by this record.
