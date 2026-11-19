@@ -1,3 +1,9 @@
+## v1.0.127 — Cherished Touch artwork candidate; deployment pending
+
+Owner-authorized Charity follow-up adds22photographic-style1100×733images:11day/night pairs for storefront and all interior views, with one shared changing-room-bank illustration per phase. Northeast Hub landscaping/architecture carries into the storefront; cream/oak/deep-green shop finishes and Charity's modest rose-accented home follow established descriptions. Images appear directly in the location header, switch by actual room/phase and use the existing full-image control. Private-room images disappear with lost permission; no new access, actions, NPC presence, stock or hidden routes are granted. Hub/art-apartment redesign is deferred.
+
+Assets, manifest, source-backed Bible and focused/browser evidence are included. No backend code or paid generation changes; Worker126remains the verified compatible backend. Existing127release reports record actual deployment outcome. Next: owner’s remaining Cherished Touch feedback, then Tits review; do not automatically start Tits during a requested pause.
+
 ## v1.0.126 — published and publicly verified
 
 Owner authorizes publishing all implemented work since v1.0.125 before Tits’s review. Includes Charity’s full household/real supplies and role-safe access, care/laundry/routines and700/day income;65/35sales accounting; actual Friday laptop ordering/Monday merchandise and personal top-ups; customer queue/clerk duties/privacy/quiet cleaning; durable sourced testimony; actual food gifts and witnessed reports; shared household supplier prices; universal need consequences; NPC/form base10cap and45/55/65/75/85rarity budgets; rebalanced existing profiles and preserved save migration. Final release check also enforces the already-approved75original-player allocation cap at spending, without deleting banked points or applying form/equipment totals.

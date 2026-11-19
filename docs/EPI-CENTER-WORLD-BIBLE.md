@@ -6,6 +6,10 @@ Current verified published release: **v1.0.126**. This section reconciles actual
 
 [Machine-readable v1.0.126 canon snapshot](bible/v1.0.126-canon-snapshot.json) contains exact runtime character definitions/public dossiers, numeric profiles, mapped locations and authored room records, Charity’s actual stock/recipes/outfits, registered actors, and complete reference-document text with content hashes. The design documents retain chronological owner decisions and their deferrals. This is an owner backup, not a public-character prompt: concealed lore must remain separated when constructing AI context. Rebuild it with `node scripts/build-world-bible.cjs` on every release, never by inventing missing fields.
 
+## Owner-approved artwork update — v1.0.127 candidate
+
+Cherished Touch now has22generated photographic-style1100×733illustrations:11day/night pairs for the storefront, each distinct interior room and one shared bank-of-four changing-room overview. The top location header selects the actual room and game phase; private access remains enforced. [Full art record](CHARITY-ROOM-ART.md) and [checksum manifest](art/CHERISHED-TOUCH-ART-MANIFEST.json). Original Hub/apartment images are unchanged. Publication verification is separate from this local implementation record.
+
 ## Shared attributes — current approved rules
 
 Ten attributes; **base cap10** for player, NPC and form alike. Rarity budgets: Common45, Uncommon55, Rare65, Epic75, Legendary85. These replace the earlier30/40/50/60/75prototypes and20-point NPC base ceiling. Player creation remains40points with creation cap7per stat; lifetime allocation cap75and base cap10remain separate from the Legendary85form budget. Equipment bonuses remain separate and can make an effective stat exceed10. Migration preserves archived prior values and earned differences under the cap, without resetting resources, mastery, identity or unrelated relationships. Charity’s disguise never grants her75points to the player; approved transfers conserve that player’s original total.

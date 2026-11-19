@@ -1,0 +1,212 @@
+{
+  "scope": "Generated architecture, exact exports and real local header; isolated synthetic saves only. No paid dialogue requests.",
+  "assets": [
+    {
+      "room": "outside",
+      "phase": "day",
+      "file": "rebuild/hub/assets/cherished-touch/day/outside.jpg",
+      "width": 1100,
+      "height": 733,
+      "sha256": "7c57f18f0b654bf9d20fa4524b0ef4fdfb11c03e78a1c29dab5610eb52d2fe7c",
+      "sourceGeneration": "exec-3a234617-ae3e-47ae-9fd2-2e09ceadf4ae.png"
+    },
+    {
+      "room": "A",
+      "phase": "day",
+      "file": "rebuild/hub/assets/cherished-touch/day/a.jpg",
+      "width": 1100,
+      "height": 733,
+      "sha256": "c3fa4b9b1e19fcb33847241d26db450d5e87208ccb8297a4f27cc100d76a9dd6",
+      "sourceGeneration": "exec-be9b5b2c-769f-411b-916c-6ae94899ed6a.png"
+    },
+    {
+      "room": "B",
+      "phase": "day",
+      "file": "rebuild/hub/assets/cherished-touch/day/b.jpg",
+      "width": 1100,
+      "height": 733,
+      "sha256": "f2e480bf3f69b443120c240b7785e1ae4517618a311d674155b8a60c54a95ff8",
+      "sourceGeneration": "exec-ec115782-e96d-43f6-838d-393ff687b0f7.png"
+    },
+    {
+      "room": "C",
+      "phase": "day",
+      "file": "rebuild/hub/assets/cherished-touch/day/c.jpg",
+      "width": 1100,
+      "height": 733,
+      "sha256": "08889e9537759f3e2a893fa39a75359ed6b72db6a3464bd66a7c66c81e4b1c5b",
+      "sourceGeneration": "exec-e6f75891-158a-46e0-88e2-324327889b1d.png"
+    },
+    {
+      "room": "D",
+      "phase": "day",
+      "file": "rebuild/hub/assets/cherished-touch/day/d.jpg",
+      "width": 1100,
+      "height": 733,
+      "sha256": "8b4375c06a5a4ecb17ed2fd6d174d9ce868831cde56659673e826cf7c0277e75",
+      "sourceGeneration": "exec-2813b17f-a910-4862-ae1d-4f0edf871cbc.png"
+    },
+    {
+      "room": "E",
+      "phase": "day",
+      "file": "rebuild/hub/assets/cherished-touch/day/e.jpg",
+      "width": 1100,
+      "height": 733,
+      "sha256": "acd8f5465d87d74646604e9efa0f5968541af2e74d24ea0ad1779962b8aaaba5",
+      "sourceGeneration": "exec-5a65f4dc-2caf-4afc-8baa-22dbd8f44055.png"
+    },
+    {
+      "room": "F",
+      "phase": "day",
+      "file": "rebuild/hub/assets/cherished-touch/day/f.jpg",
+      "width": 1100,
+      "height": 733,
+      "sha256": "0e449a9d082ba8797c0d1f7387268b07df1a9599778fb5d58beb46e4149755be",
+      "sourceGeneration": "exec-613c0837-faa4-4526-93ab-e5220b4a4a62.png"
+    },
+    {
+      "room": "G",
+      "phase": "day",
+      "file": "rebuild/hub/assets/cherished-touch/day/g.jpg",
+      "width": 1100,
+      "height": 733,
+      "sha256": "e269feb687af3e00a2df69490341ead1661b1c9f1d36b07a1a643befdaba2071",
+      "sourceGeneration": "exec-17c19d3e-0adb-4661-90f5-b32f022d900a.png"
+    },
+    {
+      "room": "H",
+      "phase": "day",
+      "file": "rebuild/hub/assets/cherished-touch/day/h.jpg",
+      "width": 1100,
+      "height": 733,
+      "sha256": "66c0ea42e755bbd3a5c067683d39760cb5e457a3551aae109fdefc6b71f0b892",
+      "sourceGeneration": "exec-7a6f8865-a6a9-4d01-8e31-4f1f0c003daa.png"
+    },
+    {
+      "room": "I",
+      "phase": "day",
+      "file": "rebuild/hub/assets/cherished-touch/day/changing.jpg",
+      "width": 1100,
+      "height": 733,
+      "sha256": "574ff3731f195562db399b69a1a3161a73a0ed2e5333e73d186a378d64784aa4",
+      "sourceGeneration": "exec-821b1ee0-cf2f-4122-b8ff-63f63b2d1943.png"
+    },
+    {
+      "room": "J",
+      "phase": "day",
+      "file": "rebuild/hub/assets/cherished-touch/day/j.jpg",
+      "width": 1100,
+      "height": 733,
+      "sha256": "10a14d4dc2fc5743346367c9a28cfcea342cd08a66713ed7a33aa1dd54ebacf0",
+      "sourceGeneration": "exec-3d1eac31-924b-4c8a-ac3f-d340ed9eed70.png"
+    },
+    {
+      "room": "outside",
+      "phase": "night",
+      "file": "rebuild/hub/assets/cherished-touch/night/outside.jpg",
+      "width": 1100,
+      "height": 733,
+      "sha256": "1b8c4a6a4dc46ea1b1bc65b8c0a81dc29c6b9dbc56d3bff1a5835a64e9167244",
+      "sourceGeneration": "exec-1709419a-3bb3-45a8-91b4-499f17cd215f.png"
+    },
+    {
+      "room": "A",
+      "phase": "night",
+      "file": "rebuild/hub/assets/cherished-touch/night/a.jpg",
+      "width": 1100,
+      "height": 733,
+      "sha256": "4788278bd7f95325202ecb637e58ac89bf1c9b94d67fdebb270327b5c959d5ba",
+      "sourceGeneration": "exec-2755b69e-2d96-4aaf-bf56-3c969e55b972.png"
+    },
+    {
+      "room": "B",
+      "phase": "night",
+      "file": "rebuild/hub/assets/cherished-touch/night/b.jpg",
+      "width": 1100,
+      "height": 733,
+      "sha256": "1cd0eaad7f64cc67ee6e159a8feafc5df72b0a97ef1da5b4d705ec062357a833",
+      "sourceGeneration": "exec-557f3a1a-8283-4c18-8030-cb9f41c7ed7d.png"
+    },
+    {
+      "room": "C",
+      "phase": "night",
+      "file": "rebuild/hub/assets/cherished-touch/night/c.jpg",
+      "width": 1100,
+      "height": 733,
+      "sha256": "ebe758a105bb37196b79890d3ba6eba8f655ad11df58fac853e0445ea523550e",
+      "sourceGeneration": "exec-1a794529-ebbd-4534-b186-37ce496f97ba.png"
+    },
+    {
+      "room": "D",
+      "phase": "night",
+      "file": "rebuild/hub/assets/cherished-touch/night/d.jpg",
+      "width": 1100,
+      "height": 733,
+      "sha256": "f3656792d4ebd1d11adb19f3e56044111411c208a375a31ead8b1284fefe3d07",
+      "sourceGeneration": "exec-21265e24-b701-4dca-be77-1b808d32f458.png"
+    },
+    {
+      "room": "E",
+      "phase": "night",
+      "file": "rebuild/hub/assets/cherished-touch/night/e.jpg",
+      "width": 1100,
+      "height": 733,
+      "sha256": "3f861ee41d38fb2f125d2f012e99543b6fc5e8fd9816a01da588a134171a0443",
+      "sourceGeneration": "exec-32f4dd93-5f2e-4879-8da7-4ee717f56e5a.png"
+    },
+    {
+      "room": "F",
+      "phase": "night",
+      "file": "rebuild/hub/assets/cherished-touch/night/f.jpg",
+      "width": 1100,
+      "height": 733,
+      "sha256": "00d60846b52622e2d9fa76dbc655b3606107fe9c7b5cfa9f32910382e70d53e7",
+      "sourceGeneration": "exec-75836d3c-9672-48f7-91f4-8703e5ff79b7.png"
+    },
+    {
+      "room": "G",
+      "phase": "night",
+      "file": "rebuild/hub/assets/cherished-touch/night/g.jpg",
+      "width": 1100,
+      "height": 733,
+      "sha256": "d13c3a70081ba154b7a7375f8e4cf29261de0737232a6d7904147f22fee902c3",
+      "sourceGeneration": "exec-8b19e25c-ffa2-4217-bdd9-59805368a3a5.png"
+    },
+    {
+      "room": "H",
+      "phase": "night",
+      "file": "rebuild/hub/assets/cherished-touch/night/h.jpg",
+      "width": 1100,
+      "height": 733,
+      "sha256": "e4a7fcd1f8334447a0b4dc24cb38c792ce5407dfdc154f7f7e85586e353edfcf",
+      "sourceGeneration": "exec-ed74c4ba-dba9-4672-a520-e2b06a98dcd2.png"
+    },
+    {
+      "room": "I",
+      "phase": "night",
+      "file": "rebuild/hub/assets/cherished-touch/night/changing.jpg",
+      "width": 1100,
+      "height": 733,
+      "sha256": "ad8d8be19dac3178f4e8b93379050eed9685e9b0a12eac788b8fa28763ffb1f8",
+      "sourceGeneration": "exec-21317ed3-3d07-446c-86fd-a82fc35988c3.png"
+    },
+    {
+      "room": "J",
+      "phase": "night",
+      "file": "rebuild/hub/assets/cherished-touch/night/j.jpg",
+      "width": 1100,
+      "height": 733,
+      "sha256": "e23721c324cc39d074df3d2ce482f5d62747a5a6aaa6896b25f89b7167fb952e",
+      "sourceGeneration": "exec-2d41d685-1e81-4a13-b07d-14a1add8c30b.png"
+    }
+  ],
+  "browserChecks": 32,
+  "automatedCases": 1626,
+  "limits": [
+    "Static art is not occupancy/stock/NPC presence.",
+    "No private room access or hidden route granted.",
+    "Hub artwork unchanged."
+  ],
+  "visuallyReviewed": true,
+  "passed": true
+}
