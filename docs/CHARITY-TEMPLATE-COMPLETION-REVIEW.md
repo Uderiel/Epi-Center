@@ -1,3 +1,13 @@
+## Owner addition — community meal visits and approved household supply
+
+Charity is **well known to many characters around Epi-Center**, but not everyone knows her. People from other establishments **often bring her meals from their establishments throughout the day**. This is a meaningful recurring source of prepared meals and company; the household design must not assume she always cooks or buys every meal herself. Neko Cafe’s people were mentioned in the owner’s preceding addendum; no specific named visitor, dish or exact timetable was established.
+
+Preserve real food ownership/servings, actual handover, arrival/route/time and suitable storage/leftovers when implemented. Meals must not duplicate by rendering or reloading. The social fact alone is not a spawned visitor roster, completed delivery, universal friendship, public knowledge of private lore or automatic behind-counter access. Do not assign particular NPC histories, reward player relationship points or invent payment/reciprocity conditions merely because food is brought.
+
+The owner also approved the preceding proposal: **Only on Time brings groceries and toiletries with the Monday delivery, paid from Charity’s personal funds rather than shop money**. Those supplies support her own quick meals/care and backup stock alongside actual brought meals. Exact order quantities, prices, standing-order mechanics and named courier remain to design; ready-meal visits do not silently cancel the approved supply arrangement.
+
+These additions change the design record, not a claim that community visitors, pantry stock, spending or food handovers are already simulated. Do not turn the unfinished voice-transcription spelling into a new NPC or establishment name.
+
 ## Owner-approved quick meals — current household design
 
 Owner accepts the proposed menu **provided preparation is quick and short**, given Charity’s limited coverage/rest window:

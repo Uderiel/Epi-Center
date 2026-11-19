@@ -1,3 +1,7 @@
+## Charity community meals and household supplies confirmed
+
+Owner confirms Charity is known by many, not all, Epi-Center characters, who often bring meals from their establishments throughout the day. Include those real prepared-meal visits in household design rather than assuming all meals require her cooking. No named giver/schedule/automatic relationship credit or private access inferred. Owner also approves Monday groceries/toiletries via Only on Time, paid from personal funds, separate from shop money. Source: CHERISHED-TOUCH-COMPLETE-LOCATION-DRAFT.md. Design update only; no new simulation/publication.
+
 ## Charity quick menu approved
 
 Owner accepts toast/eggs or oatmeal/tea, sandwich/fruit, and reheatable soup or chicken-vegetable stew/leftovers, conditional on quick, short preparation. Fit actual breakfast/care/return around sleep within the approved6–7hour coverage; no long fresh stew cooking or fabricated leftovers in that window. Supply source/quantities/budget and exact timing remain to propose; no new delivery scope or runtime meal completion assumed. Next household checkpoint is restocking arrangements.
