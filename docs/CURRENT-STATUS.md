@@ -1,3 +1,7 @@
+## v1.0.123 refinements from actual Cydonia replies — publication underway
+
+Owner supplied a completed real-model report: core identity/continuity improved, with invented venue/scenery and excessive canine verbosity remaining. Canonical public-directory context, stricter fact-preservation briefs and forty-word canine response validation are implemented. Existing grounded-turn-v1 worker remains compatible; no replacement needed. See REAL-MODEL-GROUNDING-REFINEMENTS.md and V1.0.123-OWNER-ACCEPTANCE.md. Real-model acceptance of the refinement is still pending; do not equate mocked tests with model quality.
+
 ## v1.0.122 AI integration contract — deployed; real-model acceptance pending
 
 Owner deployed the prepared Cloudflare worker. Public /health confirms grounded-turn-v1 and configured:true. v1.0.122 published: 1,441 automated cases across 86 suites, 369 local and 369 live browser checks passed; all 180 published files match runtime commit 2ac2f8c8ccf1ac81cef93e2bcf497e1b4f1efe93. Pages deployment 44500767952 succeeded. Owner-deployed worker health confirms grounded-turn-v1 and configured:true. Browser completions are mocked; authenticated real-model acceptance remains pending. No owner save or paid provider calls used by automated verification. Actual authenticated Cydonia acceptance remains pending; use Settings’ four-request diagnostic with the existing owner connection. See AI-INTEGRATION-AUDIT.md and V1.0.122-OWNER-ACCEPTANCE.md. Do not claim actual model quality has passed.

@@ -1,0 +1,60 @@
+{
+  "version": "1.0.123",
+  "origin": "http://127.0.0.1:8767",
+  "checks": [
+    {
+      "name": "composer accepts I pant as panting without a speech restriction",
+      "passed": true
+    },
+    {
+      "name": "composer accepts *I pant* as panting without a speech restriction",
+      "passed": true
+    },
+    {
+      "name": "composer routes I examine my surroundings to actual inspection",
+      "passed": true
+    },
+    {
+      "name": "composer routes *i examine my surroundings* to actual inspection",
+      "passed": true
+    },
+    {
+      "name": "targeted Nadia sniff is not sent to Dart greeting acceptance",
+      "passed": true
+    },
+    {
+      "name": "composer accepts I lick Nadia as a targeted physical attempt",
+      "passed": true
+    },
+    {
+      "name": "composer accepts Panting I lick Nadia as a targeted physical attempt",
+      "passed": true
+    },
+    {
+      "name": "Dart sniff without a live offer remains noncontact observation",
+      "passed": true
+    },
+    {
+      "name": "actual Form composer delivers private intention to saved Bella identity",
+      "passed": true
+    },
+    {
+      "name": "Nadia and Dart alone do not produce human coworker conversation",
+      "passed": true
+    },
+    {
+      "name": "physical panting also works with AI off",
+      "passed": true
+    },
+    {
+      "name": "reload preserves identity mastery possessions and observable signals",
+      "passed": true
+    },
+    {
+      "name": "browser has no script errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "scope": "Actual composer submissions, isolated synthetic save, mocked AI."
+}

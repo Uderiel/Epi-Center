@@ -1,0 +1,48 @@
+{
+  "version": "1.0.123",
+  "origin": "http://127.0.0.1:8767",
+  "checks": [
+    {
+      "name": "real failed resistance keeps binding95to90 mastery100 and Resolve64to61",
+      "passed": true
+    },
+    {
+      "name": "experience packet carries frozen facts single-player identity and no generated history",
+      "passed": true
+    },
+    {
+      "name": "contradictory first reply is hidden while one correction is requested",
+      "passed": true
+    },
+    {
+      "name": "corrected qualitative narration preserves the exact separate receipt",
+      "passed": true
+    },
+    {
+      "name": "Sunday closet snapshot records leisure placement rather than assuming work",
+      "passed": true
+    },
+    {
+      "name": "fabricated prior-work and closet-prop response never replaces the grounded event",
+      "passed": true
+    },
+    {
+      "name": "repeated wearer-consciousness swap is rejected and the recorded removal remains",
+      "passed": true
+    },
+    {
+      "name": "narration retries never change gold belongings binding or Resolve",
+      "passed": true
+    },
+    {
+      "name": "reload preserves exact result and accepted text without resurrecting rejected prose",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "mockedAI": true
+}
