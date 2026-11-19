@@ -1,0 +1,40 @@
+{
+  "version": "1.0.122-candidate",
+  "origin": "http://127.0.0.1:8767",
+  "checks": [
+    {
+      "name": "settings clearly labels the optional four-request real-model check",
+      "passed": true
+    },
+    {
+      "name": "old backend stops the diagnostic before any model generation",
+      "passed": true
+    },
+    {
+      "name": "matching backend runs four isolated actual fixture packets",
+      "passed": true
+    },
+    {
+      "name": "diagnostic collects replies without claiming automatic model quality acceptance",
+      "passed": true
+    },
+    {
+      "name": "diagnostic report excludes connection credentials and owner save data",
+      "passed": true
+    },
+    {
+      "name": "running diagnostic does not mutate the character state or clock",
+      "passed": true
+    },
+    {
+      "name": "connection status distinguishes stale worker from published game version",
+      "passed": true
+    },
+    {
+      "name": "browser reports no script errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "scope": "Mocked provider, actual Settings UI; no paid inference or owner saves."
+}

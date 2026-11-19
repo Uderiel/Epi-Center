@@ -1,3 +1,7 @@
+## v1.0.122 AI integration contract — prepared, blocked before deployment
+
+Systemic audit and server/client replacement prepared: role-specific prompts, selected recorded facts, plain latest turns, separate repair issues, invalid-scene rejection and explicit four-request real-model diagnostic. Public game remains v1.0.121; observed backend still character-embodiment-v3. No authenticated Cloudflare deployment connection or owner game connection is available here. Backend deployment and real-provider acceptance remain outstanding. See AI-INTEGRATION-AUDIT.md and V1.0.122-OWNER-ACCEPTANCE.md. Do not describe this candidate as published or the AI integration as fixed.
+
 ## v1.0.121 canine physical input and animal dialogue routing — published and verified
 
 Owner exact composer inputs exposed physical actions being swallowed by a speech restriction and Dart included in human office exchanges. Physical inspection, panting, targeted signals/lick attempts, private canine dialogue and noncontact sniffing are routed correctly; animal events use a dedicated Doberman narrator. See CANINE-PHYSICAL-INPUT-CORRECTIONS.md and V1.0.121-OWNER-ACCEPTANCE.md. Published v1.0.121 verified: 1,432 automated cases across 86 suites; 361 local and 361 live browser checks passed. All 178 public files match runtime commit 408d3e44167a59de8266729bdfbf863ef5c3b3dd. Pages deployment 44450808636 succeeded. Synthetic saves and mocked AI only; no owner saves or paid provider calls used. No owner input pending.

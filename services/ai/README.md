@@ -1,3 +1,7 @@
+## Prepared grounded-turn-v1 integration replacement — deployment pending
+
+See ../../docs/AI-INTEGRATION-AUDIT.md and ../../docs/V1.0.122-OWNER-ACCEPTANCE.md. The bundle has been rebuilt and tested; frontend publication alone does not deploy this worker. Current public health still reports character-embodiment-v3. Do not claim real-model acceptance until the existing worker is updated and authenticated provider replies are reviewed. Keep current secrets/bindings/budget. No migration is required.
+
 ## v1.0.104 narration correction
 
 `core.mjs` and regenerated `deploy-worker.mjs` add role-specific developed narration while retaining brief character dialogue, existing secrets/bindings and budget ceilings. Frontend requests carry actual speaker/audience/meeting context and explicit transformation/experience expansion. Original transformation prose remains visible even while generation is pending. Worker deployment is separate from Pages and has not been verified in this candidate; no account credentials were requested or exposed. Public unauthenticated health probes returned403, not an authenticated generation result. Use the existing owner connection for real-model acceptance; no paid call was made by automated tests.
