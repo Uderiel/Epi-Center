@@ -19,7 +19,7 @@ At final settling, match actual Charity’s apparent mid-thirties body, approxim
 
 ## Approved hourly attribute-transfer cadence
 
-Apply one conserved base-point transfer at each completed hour of the fourth shift (60,120,180,240,300,360minutes): six transfers at most, and only where a legal donor/recipient exists. This doubles the third shift’s two-hour cadence without granting Epic points. The owner explicitly approves this cadence alongside the physical schedule. Charity’s numeric distribution, safe donor floors, recipient targets/ties and no-legal-transfer handling still require a concrete approved rule. Never copy the unapproved60-point NPC draft or take equipment bonuses. The total stays equal to the player’s total at the first shift’s start.
+Apply one conserved base-point transfer at each completed hour of the fourth shift (60,120,180,240,300,360minutes): six transfers at most, and only where a legal donor/recipient exists. This doubles the third shift’s two-hour cadence without granting Epic points. The owner explicitly approves this cadence alongside the physical schedule. Charity’s75-point numeric distribution is now approved. Donor floors, recipient selection/ties and no-legal-transfer handling remain proposed in `CHARITY-ATTRIBUTE-TRANSFER-DRAFT.md`. Never copy the NPC allocation into the player or take equipment bonuses. The total stays equal to the player’s total at the first shift’s start.
 
 ## Boundaries and pending work
 
