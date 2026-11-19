@@ -1,3 +1,7 @@
+# Historical pre-household reuse inspection
+
+The findings below record the earlier reuse inspection, not current missing work. Household and service adapters now exist. Use CHARITY-TEMPLATE-COMPLETION-REVIEW.md and CHARITY-APPROVAL-IMPLEMENTATION-LEDGER.md for current status.
+
 # Charity — existing-system reuse cross-check
 
 ## Result

@@ -262,7 +262,7 @@ All quest, hatch-exception, restoration purchase and lock controllers remain def
 
 ## Fourth-shift progression approved
 
-See `CHARITY-FOURTH-SHIFT-PROGRESSION-DRAFT.md` for the reviewable six-hour physical, speech and confinement sequence and separate hourly conserved-attribute-transfer proposal. The owner approves the six hourly physical groups, gradual speech progression, exit block at180elapsed minutes (start of hour4), and one conserved attribute transfer per completed hour. Exact within-hour sub-stage timestamps remain to implement; attribute selection is approved in CHARITY-ATTRIBUTE-TRANSFER-DRAFT.md. Implementation remains deferred.
+See `CHARITY-FOURTH-SHIFT-PROGRESSION-DRAFT.md` for the reviewable six-hour physical, speech and confinement sequence and separate hourly conserved-attribute-transfer proposal. The owner approves the six hourly physical groups, gradual speech progression, exit block at180elapsed minutes (start of hour4), and one conserved attribute transfer per completed hour. Exact within-hour sub-stage timestamps remain to implement; attribute selection is approved in CHARITY-ATTRIBUTE-TRANSFER-DRAFT.md. The local customer-service/quiet-cleaning controller is now implemented; mask quest activation remains deferred. See CHARITY-SERVICE-IMPLEMENTATION.md.
 
 ## Approved narration — settling, not a repeated transformation
 
@@ -352,7 +352,7 @@ Owner emphasizes that player coverage is primarily Charity’s chatty, friendly 
 
 ## Approved service interruptions and quiet-period upkeep
 
-Owner approves the consolidated queue, privacy, break, handover, disconnect and urgent-trouble rules in `CHARITY-CUSTOMER-INTERRUPTIONS-DRAFT.md`. With no customers nearby needing service, acting Charity can check unoccupied changing rooms, wipe them down, sweep floors, and fold/stack shelf clothes neatly. These preserve actual occupancy, stock and ownership; no new reward, arbitrary timer or automatic restock is added. Implementation remains deferred.
+Owner approves the consolidated queue, privacy, break, handover, disconnect and urgent-trouble rules in `CHARITY-CUSTOMER-INTERRUPTIONS-DRAFT.md`. With no customers nearby needing service, acting Charity can check unoccupied changing rooms, wipe them down, sweep floors, and fold/stack shelf clothes neatly. These preserve actual occupancy, stock and ownership; no new reward, arbitrary timer or automatic restock is added. The local customer-service/quiet-cleaning controller is now implemented; mask quest activation remains deferred. See CHARITY-SERVICE-IMPLEMENTATION.md.
 
 ## Owner addendum — travel stories, current-world ignorance and concealed motive
 
@@ -373,3 +373,8 @@ Local integration now exists in `charity-household.js`: finite shared stock/serv
 Owner approves65percent supplier/35percent Charity on actual paid merchandise revenue, replacing the proposed90/10. Local checkout now records and distributes her share once, keeps supplier payable backed by retained till cash and preserves customer prices/discounts/bundles. Daily700base income and player wages stay separate. See CHARITY-DELIVERY-AND-PRICING-PROPOSAL.md.
 
 Owner adds paid grocery/personal-care favor quests once Charity trusts a player, including Groceries Aplenty errands because she cannot leave. Exact eligibility/rewards, purchase funding/reimbursement, proof and repeat rules remain unapproved; quest implementation is deferred. This does not cancel Monday deliveries or invent prices/quests through dialogue.
+
+
+## Current implementation status after service authorization
+
+Use CHARITY-APPROVAL-IMPLEMENTATION-LEDGER.md for current runtime status; earlier design checkpoints are not current missing-work lists. Local household, supplier-split, Friday laptop/Monday receipt and customer-service/quiet-cleaning controllers are now implemented. Mask quests, associated shift wages/penalties, authoritative offline multiplayer, real gift/report sources and durable story learning remain separately identified. Approval means proceed with implementation/testing unless explicitly deferred or blocked by a stated dependency.

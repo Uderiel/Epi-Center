@@ -24,3 +24,7 @@ End every user-facing reply with an explicit truthful status: work underway; fin
 ## Continue with the next authorized step
 
 When a step finishes, identify and begin the next necessary step within the owner’s authorized scope rather than stopping with “no work is running” or asking for another general go-ahead. Tell the owner what that step is. If a substantive new decision genuinely requires approval, first check existing records/code, prepare a concrete reviewable proposal, and ask that specific question. Never ask permission merely to draft an already authorized next section. Continue to distinguish work actually running from finished work; do not imply background execution after the turn ends.
+
+## Approval means implementation
+
+After the owner approves an in-scope feature, implement and test it without waiting for a second general go-ahead. Explicitly deferred work stays deferred. If a concrete dependency prevents implementation, identify it and keep the feature visibly marked approved-but-blocked; never describe documented approval as completed runtime behavior. Report implemented, verified, published and deferred states separately.

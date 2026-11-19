@@ -1,0 +1,19 @@
+# Charity customer service — local implementation
+
+Owner authorizes implementing the approved duties and interruption rules. This is working local code, not merely a design approval, and is not published.
+
+`charity-service.js` stores typed customer identities, actual presence/room, voluntary requests, first-come queue, quiet preference, basket scan revisions, service events and per-room upkeep revisions. Actual entrance/movement/exit hooks maintain local presence and protect occupied stalls. NPC customers use the same explicit presence/request adapter; no named shopper, speech, gift or purchase is spawned automatically. Closed curtains remain unavailable unless actual use resolves them; cleanup never opens them to inspect.
+
+Customer controls request help, day conversation, clothing assistance, stalls, scan check, checkout, quiet browsing or ending a request. Charity acknowledges arrivals, responds to the actual request and leaves the customer free to reply. Chatter yields when the customer ends it; no invented impatience timeout is added. Requests survive normal staff handover. Disconnect releases the customer’s queue position/occupancy without discarding their real basket; a resumed visit must request service again.
+
+Recorded on-duty coverage exposes the clerk menu. It can welcome, ask about a day, offer item help, check actual stalls, inspect the actual customer’s basket revision, acknowledge waiting customers and finish service. It cannot charge a different customer, move their goods, generate replies or claim a sale through dialogue. Existing checkout enforces the first customer’s turn, uses the actual basket/payment controller and releases that request only on a real receipt. Prior receipts cannot settle a newly queued request. These optional duties add no reward, fee, random pricing failure or mandatory scan minigame.
+
+Quiet-time upkeep checks and wipes confirmed empty stalls, sweeps and folds shelf stock without changing stock counts, laundering owned clothes or transferring ownership. Real Charity walks the existing room graph to unchecked areas; a customer arrival interrupts the housekeeping route and brings her back toward the front. The queue and current occupancy are checked again at execution. A recorded use makes the area eligible for a new check, rather than repeated cleaning on render. No new numeric chore duration or supply cost is imposed. Tidying public stalls keeps the entrance staffed; actual register checkout waits for the worker to return. Existing bathroom pauses, negative-50 departure handling, private invitations and safe exits remain in their existing controllers.
+
+## Verification
+
+Twelve new automated cases cover duty authority, real presence, FIFO, quiet/optional conversations, basket scans, actual payment linkage, privacy, cleaning/stock conservation, real-room autonomous routes, interruption, handover, disconnect/reload and open entrance versus actual register presence. Eight browser checks use the real controls with isolated coverage/customer fixtures, including phone layout and an untouched other save. The regression run passes all94frontend suites; focused household/retail/access/delivery suites were rerun after the entrance-presence correction. No paid AI calls or owner saves used.
+
+## Explicit remaining dependencies
+
+The approved mask/coverage quest remains deferred; there is no public debug button to manufacture a shift. Existing recorded coverage can use these duties. There is no authoritative multiplayer server or offline customer simulation, so saved local occupancy is not presented as cross-device locking. Real NPC schedules/visits and purchase intentions must supply actual events to the adapter; this change does not invent a visiting roster or a generic NPC shopping economy. Meal-giver reports, quest wage/relationship adjustments and persistent source-aware adventure memory remain separate unimplemented controllers, as shown in the approval ledger.

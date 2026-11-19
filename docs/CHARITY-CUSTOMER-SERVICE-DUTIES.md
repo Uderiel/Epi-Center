@@ -4,7 +4,7 @@
 
 The register handles correct prices, authorized discounts and payment. Coverage is primarily **being the Gifted Gabber**: chatty, friendly, eager to smile, trying to stay cheerful even when tired, and wanting everyone who comes into the shop to have a better day. This is her effort and manner, not a guarantee that every customer becomes happy, reveals personal information or changes relationship. Serve actual players and NPCs without taking over their dialogue/actions.
 
-## Approved duty menu for the eventual coverage quest
+## Approved duty menu — controller implemented locally
 
 - Welcome a customer warmly and offer help.
 - Ask how their day is going and listen/respond to what they actually say; do not restart greetings or force personal conversation.
@@ -22,6 +22,6 @@ These are useful choices rather than mandatory identical lines or a fixed sequen
 
 Offline authored coverage uses the same courteous service duties with authoritative customer/stock/work records. No imaginary player reply, privacy inspection, purchase, gift or payroll completion is created merely because the actor is offline. The real Charity remains responsible for financial ordering. Optional role duties must not break the approved six-hour work/rest rotation or duplicate counter staffing.
 
-Implementation remains deferred with the quest/customer queue/offline simulation framework. Existing retail checkout and fitting room graph are implemented; a scanning duty UI, NPC customer queue and multiplayer stall occupancy are not implemented by this document.
+Local implementation now exists in `charity-service.js` and `charity-service-ui.js`: recorded-customer FIFO, clerk duties, saved basket scan checks, stall occupancy checks, voluntary quiet/finished requests and recorded cleaning. Actual room hooks and retail checkout enforce the same queue/privacy rules. The clerk UI requires an existing valid coverage record; this does not activate the deferred mask quest. NPCs must enter through real presence/request events; the controller does not invent customer arrivals. Authoritative network occupancy and offline service still require the multiplayer backend.
 
-Owner approves the interaction/interruption rules in `CHARITY-CUSTOMER-INTERRUPTIONS-DRAFT.md` and adds the quiet-period upkeep above. Do not treat these design approvals as implemented queue, occupancy or cleaning controllers.
+Owner approves the interaction/interruption rules in `CHARITY-CUSTOMER-INTERRUPTIONS-DRAFT.md` and adds the quiet-period upkeep above. See `CHARITY-SERVICE-IMPLEMENTATION.md` for the verified local controller and remaining network/quest boundaries.
