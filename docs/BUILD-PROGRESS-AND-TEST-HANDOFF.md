@@ -1,3 +1,7 @@
+## v1.0.115 Resolve binding and footwear corrections — release candidate
+
+Owner requested permanent zero-Resolve binding for unmastered forms and reported Priya bathing/sleeping while still wearing the trapped player, missing room art and contradictory AI sensory/social text. Implemented saved irreversible binding, guarded existing release/equip/mastery paths, actual routine removal, object-dock art, neutral wear history, lighting validation and authored routine chatter while hidden. See RESOLVE-BINDING-AND-FOOTWEAR-CORRECTIONS.md and V1.0.115-OWNER-ACCEPTANCE.md. Final validation underway; no owner input pending.
+
 ## v1.0.114 expanded map published and verified
 
 Owner authorized publication of the expanded overworld.321 references transcribed; #300 corrected, Applewood relocated, intended building moves applied, physical alley identities preserved. New facilities are exterior placeholders pending their own layouts/services. No water or delivery-service location invented. See EXPANDED-OVERWORLD-MAP.md and V1.0.114-OWNER-ACCEPTANCE.md. Published v1.0.114 verified: 1,386 automated cases across 83 suites; 295 local and 295 live browser checks passed. All 176 public files match runtime commit 77ceb14e7f3c37cdd48ace6811f030a43c338b26. Pages deployment 44427968310 succeeded. Tests used isolated synthetic saves and no paid AI. No owner input pending.

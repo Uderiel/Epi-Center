@@ -1,0 +1,59 @@
+{
+  "version": "1.0.115",
+  "origin": "http://127.0.0.1:8767",
+  "checks": [
+    {
+      "name": "unmastered object body displays permanent-binding warning before spending Resolve",
+      "passed": true
+    },
+    {
+      "name": "object-body dock shows the approved current apartment room image",
+      "passed": true
+    },
+    {
+      "name": "washing physically removes flats and ends worn disadvantage",
+      "passed": true
+    },
+    {
+      "name": "Saturday21:30sleep cannot leave the flats worn or grant false solitude",
+      "passed": true
+    },
+    {
+      "name": "extended active wear records modest toe moisture and stronger scent in evening light",
+      "passed": true
+    },
+    {
+      "name": "AI sensory validation rejects afternoon light in an evening snapshot",
+      "passed": true
+    },
+    {
+      "name": "routine Priya chatter cannot launch an AI greeting to an unseen footwear player",
+      "passed": true
+    },
+    {
+      "name": "last-three Resolve resistance binds permanently instead of granting simultaneous mastery",
+      "passed": true
+    },
+    {
+      "name": "binding survives reload with resistance and recovery controls disabled",
+      "passed": true
+    },
+    {
+      "name": "direct recovery cannot bypass permanent binding",
+      "passed": true
+    },
+    {
+      "name": "reversion cannot bypass permanent binding",
+      "passed": true
+    },
+    {
+      "name": "phone dock remains within viewport and unrelated belongings stay intact",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "passed": true
+    }
+  ],
+  "errors": []
+}
