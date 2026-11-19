@@ -48,7 +48,7 @@ Exact wardrobe pieces/presets must match Charity’s accepted style, not Erin’
 
 ## Replenishment and missing stock
 
-Propose Monday **top-up to the approved target**, paying only for missing supplied items from her actual personal funds; do not add another full week to unlimited unsold stock every render. Her existing community visitors and actual leftovers remain independent sources. This top-up method, exact initial counts, prices/budget and recipe/use quantities require owner review before implementation.
+Owner approves Monday **top-up to the approved target**, paying only for missing supplied items from her actual personal funds; do not add another full week to unlimited unsold stock every render. Her existing community visitors and actual leftovers remain independent sources. The top-up method and combined food/care counts are approved. Prices/personal budget and recipe/use quantities still need review before implementation.
 
 No hidden withdrawals from the till/player, fabricated free credit, automatic delivery completion or guaranteed replacement for a missing courier is approved. Record shortages and use only genuine available alternatives; do not claim an unprepared meal or an unworn clean outfit exists. Quest coverage remains deferred and household stock implementation cannot silently activate it.
 
@@ -73,3 +73,5 @@ Use the existing quick-menu choices. Owner-approved combined stock targets:
 - Retain the approved two distinct work outfits and one half-gallon mint chocolate chip target. Clothing loan/laundry/ownership remain tracked; no automatic new outfit count or ice-cream-sharing permission follows from extra food/care.
 
 The owner approves the combined quantities above. They are not yet runtime inventory, approved product prices, recipes or numerical need relief. Normal replenishment remains the approved Monday Only on Time delivery paid from Charity’s personal funds; an additional emergency run or infinite free refill is not inferred. Current held stock is not reset/duplicated when a locked player arrives. Starting-stock migration and actual top-up/payment must use real item records when implemented.
+
+Monday top-ups use actual missing quantities and Charity’s personal funds. Existing stock carries forward; no weekly duplicate stock, invisible shop-till withdrawal or free refill is authorized.

@@ -341,3 +341,7 @@ For a late report after reward settlement, void that shift’s recorded relation
 ## Approved two-person household capacity
 
 The owner approves three extra days of food/care supplies for the locked player in addition to Charity’s one-week fallback supply. The owner also approves the consolidated ten-person-day food/care quantities in `CHARITY-HOUSEHOLD-STOCK-DRAFT.md`. This does not activate offline care, create inventory, approve new delivery frequencies or make community meals guaranteed.
+
+## Approved household replenishment
+
+Owner approves Monday Only on Time deliveries topping up only missing quantities to the approved combined targets, paid from Charity’s personal funds. Existing stock carries forward; no full duplicate weekly grant. Actual prices, available budget, recipe effects, courier execution and household inventory controller remain unresolved/unimplemented.
