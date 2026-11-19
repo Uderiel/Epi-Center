@@ -1,3 +1,5 @@
+> Owner refinement, v1.0.116: removed flats receive advantage even with Priya/visitors present; worn relaxed/unloaded contact is normal; walking or resting weight is disadvantage. Yoga and relaxed home leisure remove footwear. Solitude is still required for reversion. AI handles enabled narrative feed updates, with authored prose only as off/unavailable fallback. See [current narrative and pressure rules](AI-NARRATIVE-AND-FOOTWEAR-PRESSURE.md).
+
 ## v1.0.105 implementation update
 
 The approved first cat/daily-life package is implemented; see [current implementation and limits](PRIYA-CAT-IMPLEMENTATION.md) and [acceptance checklist](V1.0.105-OWNER-ACCEPTANCE.md). Earlier draft/deferred statements below describe previous checkpoints. Publication evidence belongs in CURRENT-STATUS.md.

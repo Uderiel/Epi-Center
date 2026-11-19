@@ -1,6 +1,6 @@
-## v1.0.116 AI-first narrative and pressure-based footwear rolls — release candidate
+## v1.0.116 AI-first narrative and pressure-based footwear rolls — published and verified
 
-Owner superseded115’s removed-but-not-alone normal-roll rule: removed flats now always receive advantage; release still requires solitude. Worn relaxed/unloaded contact is normal; walking/resting weight is disadvantage. Yoga and home leisure remove the flats. AI handles narrative updates when enabled/connected, with composing indicators and generated prose only; premade narrative is unavailable/off fallback, mechanical receipts remain authoritative. See AI-NARRATIVE-AND-FOOTWEAR-PRESSURE.md and V1.0.116-OWNER-ACCEPTANCE.md. Final verification underway; no owner input pending.
+Owner superseded115’s removed-but-not-alone normal-roll rule: removed flats now always receive advantage; release still requires solitude. Worn relaxed/unloaded contact is normal; walking/resting weight is disadvantage. Yoga and home leisure remove the flats. AI handles narrative updates when enabled/connected, with composing indicators and generated prose only; premade narrative is unavailable/off fallback, mechanical receipts remain authoritative. See AI-NARRATIVE-AND-FOOTWEAR-PRESSURE.md and V1.0.116-OWNER-ACCEPTANCE.md. Published v1.0.116 verified: 1,397 automated cases across 84 suites; 316 local and 316 live browser checks passed. All 176 public files match runtime commit b4669e3f4a8ec6864e839ec34326ea1f0ae8f09c. Pages deployment 44439904920 succeeded. Tests used isolated synthetic saves and no paid AI. No owner input pending.
 
 ## v1.0.115 Resolve binding and footwear corrections — published and verified
 
