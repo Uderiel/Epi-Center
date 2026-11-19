@@ -1,3 +1,5 @@
+> Release status: implemented controllers in this record shipped in **v1.0.126**. Explicitly deferred mask/payroll/offline features remain deferred. Current publication evidence: [release summary](releases/v1.0.126-release-summary.json). Earlier verification counts describe their original checkpoints.
+
 # Charity personal household pricing — approved temporary catalog, implemented locally
 
 This concerns her own food and toiletries only. Enchanted merchandise pricing, Friday laptop ordering, Monday receipt and65/35sales settlement are already approved and implemented; this proposal does not reopen them.

@@ -1,4 +1,6 @@
-# Charity household integration — implemented locally, unpublished
+> Release status: implemented controllers in this record shipped in **v1.0.126**. Explicitly deferred mask/payroll/offline features remain deferred. Current publication evidence: [release summary](releases/v1.0.126-release-summary.json). Earlier verification counts describe their original checkpoints.
+
+# Charity household integration — implemented locally, published in v1.0.126
 
 ## Connected behavior
 
@@ -22,7 +24,7 @@ The role grants neither hidden-hatch discovery nor access. `revealGuildEntrance`
 
 Owner adds a flat **700gold per completed game day** to real Charity’s personal manager/owner account, separate from the player’s wages and shop till/sales revenue. Tick boundary settlement is once-only and does not invent pay for days before this account was initialized. Existing account funds begin at0rather than creating an unapproved historical balance.
 
-An actual priced delivery receipt can replenish only missing approved stock using Charity’s funds, once per receipt. Monday checks record what is missing; they do not conjure goods or debit player money. Production household price catalogs/courier delivery fulfillment and calculation/distribution of sales **profit** remain unbuilt; the existing till tracks revenue, not an invented net-profit figure. Player shift wages/penalties remain deferred with the coverage quest.
+An actual priced delivery receipt can replenish only missing approved stock using Charity’s funds, once per receipt. Monday checks record what is missing; they do not conjure goods or debit player money. Shared approved supplier prices, actual Monday household delivery,65/35sales distribution and once-only supplier remittance are now implemented. Future Groceries Aplenty public retail/catalog authoring remains pending; actual sales revenue and source costs remain separately accounted. Player shift wages/penalties remain deferred with the coverage quest.
 
 ## Shared-system changes
 
@@ -40,4 +42,4 @@ The actual mask transformation/quest/reward controller is still deferred. The ne
 
 ## Subsequent65/35accounting update
 
-Owner approves65supplier/35Charity after existing customer discounts. Checkout records exact hundredth-gold shares against a real sale receipt; her35percent moves to personal funds and retained till cash backs supplier payable. Base700salary remains distinct. This supersedes earlier wording that the basic sales-share calculation is wholly unbuilt. The Friday laptop / Monday enchanted delivery controller now settles supplier remittance once; production priced household courier fulfillment remains pending; paid favor quests are newly approved as direction without reward/eligibility details.
+Owner approves65supplier/35Charity after existing customer discounts. Checkout records exact hundredth-gold shares against a real sale receipt; her35percent moves to personal funds and retained till cash backs supplier payable. Base700salary remains distinct. This supersedes earlier wording that the basic sales-share calculation is wholly unbuilt. The Friday laptop / Monday enchanted delivery controller now settles supplier remittance once; approved provisional priced household fulfillment is now implemented; future public supplier-store authoring remains pending; paid favor quests are newly approved as direction without reward/eligibility details.

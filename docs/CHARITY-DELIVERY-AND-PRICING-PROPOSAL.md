@@ -1,3 +1,5 @@
+> Release status: implemented controllers in this record shipped in **v1.0.126**. Explicitly deferred mask/payroll/offline features remain deferred. Current publication evidence: [release summary](releases/v1.0.126-release-summary.json). Earlier verification counts describe their original checkpoints.
+
 # Charity supplier split and enchanted-stock deliveries — implemented locally
 
 ## Approved merchandise accounting
@@ -28,7 +30,7 @@ No exact relationship threshold, purchase list, reward amount, advance versus re
 
 ## Current evidence and limits
 
-Sales splitting is local runtime in `cherished-shop.js` and `charity-household.js`; focused tests cover exact shares, discounted receipts, bundles, cash conservation, replay, fabricated receipts and legacy balances. No paid errand controller, actual source-shop grocery prices, new finite merchandise cap or physical courier fulfillment is claimed. Not published.
+Sales splitting is local runtime in `cherished-shop.js` and `charity-household.js`; focused tests cover exact shares, discounted receipts, bundles, cash conservation, replay, fabricated receipts and legacy balances. Paid errands and supplier-shop public retail remain unbuilt. Actual Friday/Monday enchanted delivery and approved provisional household delivery are now implemented; no new finite ordinary-clothing cap is introduced. Published in v1.0.126.
 
 
 ## Approved Friday laptop flow — current implementation

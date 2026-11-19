@@ -1,6 +1,8 @@
+> Release status: implemented controllers in this record shipped in **v1.0.126**. Explicitly deferred mask/payroll/offline features remain deferred. Current publication evidence: [release summary](releases/v1.0.126-release-summary.json). Earlier verification counts describe their original checkpoints.
+
 # Charity customer service — local implementation
 
-Owner authorizes implementing the approved duties and interruption rules. This is working local code, not merely a design approval, and is not published.
+Owner authorizes implementing the approved duties and interruption rules. This is working local code, not merely a design approval, and is published in v1.0.126.
 
 `charity-service.js` stores typed customer identities, actual presence/room, voluntary requests, first-come queue, quiet preference, basket scan revisions, service events and per-room upkeep revisions. Actual entrance/movement/exit hooks maintain local presence and protect occupied stalls. NPC customers use the same explicit presence/request adapter; no named shopper, speech, gift or purchase is spawned automatically. Closed curtains remain unavailable unless actual use resolves them; cleanup never opens them to inspect.
 
