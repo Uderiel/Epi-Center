@@ -1,3 +1,11 @@
+## Owner addendum — Charity’s actual appearance and apparent age
+
+The mask must match **Charity’s established individual appearance**, including her **mid-thirties apparent age**, rather than a generic woman, Tits’s26-year-old body, Erin’s body or only Charity’s name. Current canonical profile is Charity.definition/dossier in rebuild/hub/charity.js: approximately5ft6in/122lb, wavy orangish-red hair, hazel eyes, warm smile/subtle smile lines and mature nurturing presence. No exact numerical age beyond mid-thirties is newly established.
+
+Use this canonical identity for authored stage descriptions, settled current-body appearance, HUD/Form presentation and permitted AI facts. The transformation begins at face/hair and descends; display only the changes already completed at an intermediate stage, not the fully transformed body from the first minute. Apparent age must be represented in the physical transformation/result while preserving the original player’s saved identity/history/chronological profile for eventual reversion. Do not create a separate contradictory Charity-mask target profile or claim clothing handling is already decided.
+
+Owner separately flags Kibbles’s missing narrated/described age, **explicitly deferred** so Charity work is not interrupted. Revisit the actual authored canine age and its presentation later; do not invent an age or change Kibbles now.
+
 ## Owner-confirmed mask transformation direction
 
 The mask transforms the wearer **gradually over a few in-game minutes**, using the same kind of staged physical transformation/presentation as Erin’s Cursed Heels. Because it attaches to the face, the sequence **starts with face and hair and proceeds downward through the body**. Do not reuse the heels’ feet-first order or hourly stage pacing. Erin’s current implementation has23authored stages; reuse the staged progression/state/appearance/feed principles without assuming Charity needs exactly23identical steps or Erin’s anatomy, attributes, memories or independent NPC state.

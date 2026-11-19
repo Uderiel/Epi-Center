@@ -51,3 +51,7 @@ Return after the preceding Hub work. Recover existing office authoring and unres
 ## Release and evidence
 
 Current public release remains v1.0.125 until a later publication. The owner has connected Cloudflare Builds: repository pushes to the production branch can deploy the Worker; its required context/relationship versions were verified live. Real Cydonia portrayal quality still needs authenticated acceptance, separate from synthetic tests. Do not repeat the obsolete claim that all Worker updates must be manually pasted by the owner.
+
+## Deferred age-portrayal follow-up
+
+Owner flags Kibbles’s missing narrated/described age and explicitly says not to work on it during Charity design. Reconcile the existing canine age source before adding consistent Form/HUD/AI portrayal later. No age is supplied by this addendum and none is inferred from the original human player. Keep current Charity-first priorities.

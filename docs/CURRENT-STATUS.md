@@ -1,3 +1,7 @@
+## Charity mask appearance/age addendum; Kibbles age deferred
+
+Owner requires mask progression and final appearance to reflect Charity’s actual canonical profile, including apparent age mid-thirties. Stage descriptions, body/HUD and AI facts must agree with completed changes; do not borrow Tits/Erin’s appearance or erase original-player identity. Kibbles’s missing age portrayal is pinned for later by explicit owner instruction, with no age invented and no sidetrack now. Source: CHARITY-COVERAGE-DESIGN.md. Design record only.
+
 ## Charity mask progression confirmed — design
 
 Owner requires a few-game-minute staged transformation like Erin’s heels, but face/hair first and downward through the body because the item is a mask. See CHARITY-COVERAGE-DESIGN.md. Three total minutes and a descending phase breakdown are a review proposal, not an approved timing rule. Original identity/state and partial progress must persist; the coverage clock starts after actual completion/counter readiness. No runtime or release change.
