@@ -31,3 +31,9 @@ Apply one conserved base-point transfer at each completed hour of the fourth shi
 - Offline real-time lock expiry needs authoritative per-player persistence in eventual multiplayer. No controller or multiplayer service is implemented here.
 
 Approved: intermediate physical grouping, first hard exit restriction at **180elapsed minutes, the start of hour4**, speech progression and six hourly attribute transfers. Final six-hour completion and72-hour lock duration remain approved. Remaining details include exact sub-stage timestamps and attribute donor/recipient selection against an approved Charity distribution.
+
+## Approved narration — settling, not a repeated transformation
+
+The owner explicitly requires prolonged-wear narration to describe the already-transformed body **tightening, growing warm, settling or feeling increasingly natural**, focused on the particular part whose residue is becoming lasting. Do not replay the initial ten-minute transformation, narrate already-completed growth/recoloring as new, or describe a second body appearing. The player already visibly resembles Charity; progression changes how that existing shape feels and persists beneath the mask. Use varied, locally appropriate sensations rather than repeating every cue at every stage. Keep this physical familiarity distinct from erasing the player’s identity or asserting chosen emotions. Appearance/state and chronology must match the completed stages.
+
+Example tone: “Warmth gathers through your fingers. Their familiar shape settles more comfortably, as though it takes less effort to hold.” Not a new change in finger length, a repeated first transformation or knowledge of the hidden release outcome. Existing warnings and uncertainty remain intact.

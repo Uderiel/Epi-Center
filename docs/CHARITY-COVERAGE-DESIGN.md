@@ -267,3 +267,9 @@ All quest, hatch-exception, restoration purchase and lock controllers remain def
 ## Fourth-shift progression approved
 
 See `CHARITY-FOURTH-SHIFT-PROGRESSION-DRAFT.md` for the reviewable six-hour physical, speech and confinement sequence and separate hourly conserved-attribute-transfer proposal. The owner approves the six hourly physical groups, gradual speech progression, exit block at180elapsed minutes (start of hour4), and one conserved attribute transfer per completed hour. Exact within-hour sub-stage timestamps and attribute selection remain unresolved. Implementation remains deferred.
+
+## Approved narration — settling, not a repeated transformation
+
+The owner explicitly requires prolonged-wear narration to describe the already-transformed body **tightening, growing warm, settling or feeling increasingly natural**, focused on the particular part whose residue is becoming lasting. Do not replay the initial ten-minute transformation, narrate already-completed growth/recoloring as new, or describe a second body appearing. The player already visibly resembles Charity; progression changes how that existing shape feels and persists beneath the mask. Use varied, locally appropriate sensations rather than repeating every cue at every stage. Keep this physical familiarity distinct from erasing the player’s identity or asserting chosen emotions. Appearance/state and chronology must match the completed stages.
+
+Example tone: “Warmth gathers through your fingers. Their familiar shape settles more comfortably, as though it takes less effort to hold.” Not a new change in finger length, a repeated first transformation or knowledge of the hidden release outcome. Existing warnings and uncertainty remain intact.
