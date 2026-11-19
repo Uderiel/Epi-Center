@@ -1,6 +1,6 @@
-## v1.0.119 named conversation turns and narration paths — release candidate
+## v1.0.119 named conversation turns and narration paths — published and verified
 
-Owner transcript exposed repeated workplace replies, Nadia speaking as Priya, invented room/footwear details and unchanged shelf spam. Personal/ambient histories are separated, latest named turns explicit, queued same-actor history refreshed, known bad replies corrected once, hidden event snapshots completed and unchanged unworn updates suppressed. See AI-CONVERSATION-ROUTING-CORRECTIONS.md and V1.0.119-OWNER-ACCEPTANCE.md. Final verification underway; no owner input pending.
+Owner transcript exposed repeated workplace replies, Nadia speaking as Priya, invented room/footwear details and unchanged shelf spam. Personal/ambient histories are separated, latest named turns explicit, queued same-actor history refreshed, known bad replies corrected once, hidden event snapshots completed and unchanged unworn updates suppressed. See AI-CONVERSATION-ROUTING-CORRECTIONS.md and V1.0.119-OWNER-ACCEPTANCE.md. Published v1.0.119 verified: 1,424 automated cases across 86 suites; 344 local and 344 live browser checks passed. All 178 public files match runtime commit 625df64009a29c67cbc176cefc64b1d7aba55de1. Pages deployment 44447320820 succeeded. Synthetic saves and mocked AI only; no owner saves or paid provider calls used. No owner input pending.
 
 ## v1.0.118 footwear narration grounding — published and verified
 
