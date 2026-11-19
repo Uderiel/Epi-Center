@@ -28,3 +28,7 @@ When a step finishes, identify and begin the next necessary step within the owne
 ## Approval means implementation
 
 After the owner approves an in-scope feature, implement and test it without waiting for a second general go-ahead. Explicitly deferred work stays deferred. If a concrete dependency prevents implementation, identify it and keep the feature visibly marked approved-but-blocked; never describe documented approval as completed runtime behavior. Report implemented, verified, published and deferred states separately.
+
+## Every release includes canonical documentation
+
+Before publishing any release, reconcile the World Bible/current canon backup, relevant NPC/form/entity/location records, applicable combat/attribute guide, changelog, status and handoff with actual runtime changes. Preserve earlier history with explicit supersession; distinguish design, implementation, verification, deployment and owner acceptance. Regenerate the source-backed Bible snapshot with `node scripts/build-world-bible.cjs`, run the release verification, and record deployment evidence. This is required for every release without a separate reminder from the owner.

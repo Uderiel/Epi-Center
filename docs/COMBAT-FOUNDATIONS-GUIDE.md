@@ -1,3 +1,15 @@
+## Current attribute rules — v1.0.126
+
+Owner-approved and implemented: Common45, Uncommon55, Rare65, Epic75, Legendary85base allocation budgets; every player/NPC/form base attribute is capped at10. These supersede older30/40/50/60/75budgets and20-point NPC bases below. Player creation stays40points/max7at creation; original player spending stops at75total/max10per attribute. Banked points are retained if blocked. Equipped-form totals and equipment bonuses are not original-player allocation; bonuses remain separate and may raise effective scores above10. No free Charity Epic points through disguise.
+
+Rebalanced authored Common45profiles: Richard, Daniel, Nadia, Priya, Erin, Kibbles and Priya’s offered cat form. Charity is Epic75and mental-focused. Exact ten-attribute vectors are in [the current World Bible](EPI-CENTER-WORLD-BIBLE.md) and its versioned source-backed snapshot. Legacy migration archives earlier values and preserves earned differences under the cap, resources, mastery, identity and unrelated state. A rarity metadata budget does not invent an unauthored NPC’s stat distribution, powers or encounter.
+
+Existing Health/Resolve/Stamina and zero-Resolve binding rules remain as approved. Universal100need consequences are−1to the corresponding resource each five game minutes; bladder accident25%each ten minutes, accident first. Charity’s voluntary first-two-shift disguise and later approved quest exceptions remain explicitly deferred, not activated by the attribute rebalance. See [current Charity status](CHARITY-TEMPLATE-COMPLETION-REVIEW.md).
+
+## Historical rule/design checkpoints
+
+Older entries retain original context; current approved rules above supersede conflicting numeric drafts.
+
 > Owner rule update, v1.0.115: reaching zero Resolve while occupying an unmastered form permanently binds that form. This supersedes older zero-Resolve desperate-resistance/recovery/escape guidance below. Spending the last 3 Resolve also triggers binding before mastery is awarded. Base humans and already-mastered forms are exempt; later Resolve recovery does not undo binding. See [current rule and corrections](RESOLVE-BINDING-AND-FOOTWEAR-CORRECTIONS.md).
 
 ## v1.0.105 implementation update

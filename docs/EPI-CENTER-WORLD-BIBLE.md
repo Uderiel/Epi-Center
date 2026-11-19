@@ -1,3 +1,55 @@
+# Epi-Center World Bible — current canon and release backup
+
+Current release candidate: **v1.0.126**. This section reconciles actual source with owner-approved design; it supersedes older numeric profiles and implementation-status claims below. Publication is recorded separately in CURRENT-STATUS.md and release evidence. Keep implemented, verified, published, approved-but-deferred and unknown distinct.
+
+## Complete source-backed backup
+
+[Machine-readable v1.0.126 canon snapshot](bible/v1.0.126-canon-snapshot.json) contains exact runtime character definitions/public dossiers, numeric profiles, mapped locations and authored room records, Charity’s actual stock/recipes/outfits, registered actors, and complete reference-document text with content hashes. The design documents retain chronological owner decisions and their deferrals. This is an owner backup, not a public-character prompt: concealed lore must remain separated when constructing AI context. Rebuild it with `node scripts/build-world-bible.cjs` on every release, never by inventing missing fields.
+
+## Shared attributes — current approved rules
+
+Ten attributes; **base cap10** for player, NPC and form alike. Rarity budgets: Common45, Uncommon55, Rare65, Epic75, Legendary85. These replace the earlier30/40/50/60/75prototypes and20-point NPC base ceiling. Player creation remains40points with creation cap7per stat; lifetime allocation cap75and base cap10remain separate from the Legendary85form budget. Equipment bonuses remain separate and can make an effective stat exceed10. Migration preserves archived prior values and earned differences under the cap, without resetting resources, mastery, identity or unrelated relationships. Charity’s disguise never grants her75points to the player; approved transfers conserve that player’s original total.
+
+| Entity | Rarity | Endurance | Fitness | Intuition | Reflexes | Willpower | Reasoning | Stability | Presence | Insight | Influence | Total |
+| --- | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Richard Carter | Common | 3 | 3 | 4 | 3 | 6 | 7 | 6 | 5 | 4 | 4 | 45 |
+| Daniel Mercer | Common | 5 | 4 | 4 | 4 | 5 | 7 | 5 | 4 | 4 | 3 | 45 |
+| Nadia Voss | Common | 3 | 3 | 4 | 3 | 5 | 6 | 5 | 6 | 5 | 5 | 45 |
+| Priya Shah | Common | 4 | 4 | 4 | 4 | 5 | 6 | 4 | 4 | 6 | 4 | 45 |
+| Charity | Epic | 5 | 3 | 7 | 5 | 10 | 10 | 10 | 10 | 10 | 5 | 75 |
+| Erin | Common | 4 | 3 | 5 | 3 | 6 | 6 | 6 | 4 | 6 | 2 | 45 |
+| Kibbles | Common | 6 | 7 | 7 | 9 | 3 | 2 | 4 | 2 | 4 | 1 | 45 |
+| Priya offered cat form | Common | 3 | 4 | 7 | 8 | 4 | 3 | 4 | 5 | 4 | 3 | 45 |
+
+## Character and form records
+
+- **Erin:** source-backed Common45mental profile above; adult human body, ordinary needs/household/office routines, player consciousness distinct from Erin’s identity. [Current identity/release](ERIN-IDENTITY-AND-RELEASE.md), [daily life](ERIN-DAILY-LIFE-AND-OFFICE.md), [refinement](ERIN-REFINEMENT-IMPLEMENTATION.md). Original feet-up heels progression, control/mastery and saved body ownership are not replaced by Charity’s voluntary mask design.
+- **Priya Shah:** Common45; [NPC implementation](PRIYA-NPC-IMPLEMENTATION.md), [household](PRIYA-HOUSEHOLD-IMPLEMENTATION.md), [cat form](PRIYA-CAT-IMPLEMENTATION.md), [everyday portrayal](PRIYA-EVERYDAY-REFINEMENT.md). Priya herself, her offered cat form and her cursed flats remain separate entity/item identities and records. Cat form Common45is its own profile above; exact saved form names remain player-owned facts.
+- **Daniel Mercer:** Common45, Sales Team Lead; [complete authored character design](DANIEL-MERCER-CHARACTER-DESIGN.md), [implementation](DANIEL-IMPLEMENTATION.md). Source preserves Crystal, workplace/social boundaries, interests and observed support of Erin; no automatic omniscient office gossip.
+- **Nadia Voss:** Common45, Marketing Team Lead, Applewood6E; [NPC implementation](NADIA-VOSS-IMPLEMENTATION.md), [Nadia/Dart household review](NADIA-AND-DART-HOUSEHOLD-REVIEW-DRAFT.md), [household implementation](NADIA-DART-IMPLEMENTATION.md). Distinct owned supplies, routines, responses and ambitions remain in source-backed records.
+- **Dart:** independent adult male purebred Doberman Pinscher, Nadia’s dog; [implementation](NADIA-DART-IMPLEMENTATION.md), `rebuild/hub/dart.js`. Actual animal posture, scent/familiarity, play, kennel and observed-space rules are implemented. Exact age and numeric combat allocation are not invented; Dart is not Kibbles or a fox.
+- **Richard Carter:** Common45; [NPC design](RICHARD-NPC-DESIGN-NOTES.md), [household/service](RICHARD-HOUSEHOLD-IMPLEMENTATION.md). His suite, bot authorizations, private/public behavior and witnessed information remain distinct.
+- **Kibbles:** Common45German Shepherd form; adult canine, exact age unknown. Gender-specific body and player-saved name are distinct from canonical form ID; no separate human body. [Identity corrections](CANINE-AI-IDENTITY-CORRECTIONS.md) and runtime entity/form records are included in the backup.
+- **Charity:** Epic75mental specialist, apparent mid-thirties; complete [coverage and character record](CHARITY-COVERAGE-DESIGN.md), [current template review](CHARITY-TEMPLATE-COMPLETION-REVIEW.md), [approval/runtime ledger](CHARITY-APPROVAL-IMPLEMENTATION-LEDGER.md). Full implemented household, role/identity-safe access, real food/care/garments/laundry,700/day owner income,65/35merchandise settlement, Friday laptop orders/Monday receipt, local service/cleaning, durable sourced testimony and witnessed visitor reports are retained. Personal rooms favor floral/rose atmosphere; half-gallon mint chocolate chip is her finite favorite. Mask/bleed/72real-hour lock/offline shift payroll/hatch quest remain approved but explicitly deferred. Public portrayal never reveals concealed Resistance motives or earlier iterations.
+- **Tits:** adult26, Burke’s sole employee/manager, current presence and retail service implemented. [Established full design record](BURKES-SWEETS-DESIGN.md), [shop implementation](BURKES-SWEETS-IMPLEMENTATION.md). Wet Lily Apartments tile233Unit1is assigned; home interior/commute remain pending. Full template completion and final Bible reconciliation wait until her upcoming review; do not present that review as completed or invent attributes now.
+- **Eve and other registered entities:** current authored dossiers/registry are included in the snapshot. Unauthored numeric attributes, histories and implementations remain unknown instead of being filled by generic defaults.
+
+## Locations and household economy
+
+All322mapped nodes and available authored location/room descriptions are preserved in the snapshot. **Emergency Bean** is the canonical coffee-shop name. Only on Time is tile322, right of112/above151. Going Out of Business uses owner-corrected A–D connection and no B–Cconnection. Daily Needs/Alia, Groceries Aplenty/staff/aisles and supplied schematics retain their actual reference-only versus interactive status. Mapped artwork/plans are not proof of built retail services. Zen’s unprovided interior is not invented.
+
+Ordinary clothing at Cherished Touch remains continuously available after purchase. Enchanted stock uses actual saved Friday orders and Monday receipts. Personal pantry/care Monday top-ups pay from Charity’s own funds, only missing quantities, with replay-safe receipts. Approved provisional source prices:1gold per tracked pantry portion/care use,8per half-gallon mint chocolate chip, no added delivery fee. Existing household purchasing adapters now consult the shared unit-aware supplier catalog; later Groceries Aplenty prices update new orders in one place without rewriting historical invoices or confusing per-use supplies with full packages. These personal costs are separate from65/35merchandise revenue and700/day base income.
+
+## Relationships, needs and knowledge
+
+Every player–entity relationship remains independent and persistent on−100..100, with approved25/50/75/100positive/negative tiers. Trust is an interpretation, not a second social bar. No cross-player/form/NPC transfer. At100hunger/bladder/fatigue, the corresponding Health/Resolve/Stamina loses1each five game minutes. Bladder100checks25%accident each ten minutes, accident first. Preserve saved rolls, clothing/scent consequences and existing zero-Resolve binding rules; no unapproved new recovery or NPC penalty.
+
+Charity’s full authored portrayal is preserved; real request/context limits fail explicitly rather than cutting character facts silently. Heard accounts retain full spoken text and apparent source; selected relevant testimony is not verified map knowledge, completed quests or instructions. Actual gifts transfer real servings. Complaints require actual witnesses and real later contact; half-pay/no+5policy is recorded against the offending shift, but applying deferred quest payroll remains unimplemented. Local queue/occupancy is not a claim of authoritative multiplayer/offline simulation.
+
+## Historical canon and decision history — preserved verbatim
+
+The material below retains its original checkpoints and original wording for traceability. Its old version markers, numeric drafts and implementation-status claims are historical; current records above and the latest explicit owner decision govern. No older hidden-lore passage is permission to disclose it in public NPC context.
+
 ## Current implementation correction — v1.0.63
 
 Technology Center is **#98 north of #26**, not historical #97. Applewood remains #97. Latest owner drawing and doorway correction supersede provisional adjacency below. See [baseline contract](TECHNOLOGY-CENTER-BASELINE-CONTRACT.md). Historical design notes are retained.

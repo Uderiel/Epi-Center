@@ -1,3 +1,13 @@
+## v1.0.126 — implemented release candidate; publication verification pending
+
+Owner authorizes publishing all implemented work since v1.0.125 before Tits’s review. Includes Charity’s full household/real supplies and role-safe access, care/laundry/routines and700/day income;65/35sales accounting; actual Friday laptop ordering/Monday merchandise and personal top-ups; customer queue/clerk duties/privacy/quiet cleaning; durable sourced testimony; actual food gifts and witnessed reports; shared household supplier prices; universal need consequences; NPC/form base10cap and45/55/65/75/85rarity budgets; rebalanced existing profiles and preserved save migration. Final release check also enforces the already-approved75original-player allocation cap at spending, without deleting banked points or applying form/equipment totals.
+
+The Bible/current canon snapshot, relevant character records, combat guide, changelog, status and handoff are part of this release. Tits retains established details and assigned Wet Lily Unit1home; her full template completion waits until the next character review. No mask/coverage quest activation, offline multiplayer service, new home design or paid-model prose acceptance is claimed.
+
+Public entrypoints and AI Worker health identify v1.0.126. Publication status and deployment evidence are recorded in `docs/releases/v1.0.126-*`; until those checks finish this is a candidate, not a live claim. Next after verified publication: Tits template review, then remaining Hub businesses, then Erin’s coworkers, preserving owner-approved order.
+
+## Historical checkpoints — superseded where inconsistent with the current release record
+
 ## v1.0.54 — published and deployed-source verified
 
 [Play v1.0.54](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.54). Gameplay commit `f9ddef11748604322f01f380996b2294c7cd47aa` is on main and rebuild/1.0-foundations. [Pages deployment 41729145057](https://github.com/Uderiel/Epi-Center/actions/runs/41729145057) succeeded. All 39 checked deployed entrypoints, modules, styles and original Erin portrait match tested source; the live title visibly reports v1.0.54. [Verification](releases/v1.0.54-live-verification.json).
