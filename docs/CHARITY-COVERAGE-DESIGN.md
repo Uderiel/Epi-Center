@@ -367,3 +367,9 @@ Learning requires an actually heard report with speaker/provenance, distinct fro
 Owner authorizes tying Charity and a recorded72-hour participant to the same actual household. Temporary `charity-coverage` role preserves the original player ID; owner explicitly denies hidden-hatch access through this role, while storage-room entry remains allowed. Owner adds700gold/day base manager/owner income before separately accounted sales profit. Owner adds floral scents, especially roses, to her personal rooms, without a body-scent/odor-gameplay effect.
 
 Local integration now exists in `charity-household.js`: finite shared stock/servings, real clothing custody, laundry, NPC care routines through the existing scheduler, player room controls and once-only daily income. See CHARITY-HOUSEHOLD-INTEGRATION.md and audits/CHARITY-HOUSEHOLD-INTEGRATION-VERIFICATION.json. This supersedes earlier blanket statements that none of those Charity connections exist. Actual mask quest/transform/rewards, authoritative offline multiplayer, production priced courier fulfillment and sales net-profit settlement remain deferred/unimplemented. Not published.
+
+## Approved supplier split and future paid errands
+
+Owner approves65percent supplier/35percent Charity on actual paid merchandise revenue, replacing the proposed90/10. Local checkout now records and distributes her share once, keeps supplier payable backed by retained till cash and preserves customer prices/discounts/bundles. Daily700base income and player wages stay separate. See CHARITY-DELIVERY-AND-PRICING-PROPOSAL.md.
+
+Owner adds paid grocery/personal-care favor quests once Charity trusts a player, including Groceries Aplenty errands because she cannot leave. Exact eligibility/rewards, purchase funding/reimbursement, proof and repeat rules remain unapproved; quest implementation is deferred. This does not cancel Monday deliveries or invent prices/quests through dialogue.

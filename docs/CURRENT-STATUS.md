@@ -1,3 +1,9 @@
+## Current local Charity65/35sales accounting
+
+Owner approves65percent supplier/35percent Charity, applied to actual paid merchandise totals after existing discounts/bundle prices. Checkout now records each settlement once; Charity’s35percent transfers to her personal account and65percent remains in the till backing supplier payable. Gross revenue is separate. Exact hundredth-gold accounting retains fractional shares. Daily700base income and player wages remain independent; no customer price change or extra upfront supplier debit.
+
+Final regression1579cases/93suites and isolated retail browser checks pass. Evidence: audits/CHARITY-SUPPLIER-SPLIT-VERIFICATION.json. Owner also records future paid grocery/care favor quests for trusted players; eligibility/reward/funding details remain to design in deferred quest work. Physical courier fulfillment, source-shop household prices and actual supplier remittance are still pending. Not published; no owner saves or paid provider calls.
+
 ## Current local Charity household integration
 
 Owner-authorized system connections are implemented locally: finite shared pantry/care, actual player/NPC servings, NPC-owned garment custody through existing equipment, laundry, connected rest/care through the existing autonomy scheduler, room UI, staffing and700gold/day personal base-income ledger. Temporary Charity role preserves player ID and cannot reveal/access the hatch. Personal rooms carry the approved floral/rose atmosphere. See CHARITY-HOUSEHOLD-INTEGRATION.md.

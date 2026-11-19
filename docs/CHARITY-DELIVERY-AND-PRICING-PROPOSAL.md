@@ -1,27 +1,31 @@
-# Charity Monday fulfillment and supplier pricing — proposal, not approved
+# Charity supplier split — approved and implemented; physical delivery proposal remains
 
-## Existing decisions checked
+## Approved merchandise accounting
 
-Only on Time handles Monday household replenishment; replace only missing quantities, use real Charity’s personal funds, preserve real received stock and community gifts. Existing enchanted merchandise restock is Monday06:00. Approved customer discounts are10/25/35percent; the starter bundle costs45although its separately sold components total118(16+36+10+6+50). Daily base manager income700is separate from sales profit and player wages. Grocery/Daily Needs supplier item prices are not yet authored.
+Owner selects **65percent supplier /35percent Charity**, confirming the bulk-purchasing arrangement. Use the amount actually paid after authorized discounts and bundle pricing, following the previously explained sale-based split. This supersedes the proposed90/10split. It does not change customer prices or add a second upfront wholesale debit.
 
-## Proposed fulfillment
+On a100gold actual sale,65gold is supplier payable and35gold is Charity’s share before other operating expenses. Both shares are recorded in integer hundredths of gold so small sales preserve the exact ratio without a new rounding policy or invented physical currency. The customer’s existing whole-gold quote is unchanged. The actual sale receipt links the split, owner profit and supplier payable; replay/reload cannot settle it twice. Unrecorded/fabricated receipts are rejected.
 
-Use a combined Monday06:00drop for the household and merchandise route, with separately recorded invoice lines/accounts. Take the actual missing-stock snapshot; place a real supplier order; deliver actual available quantities; the on-duty authorized worker checks/receives it; put household items in pantry/fridge/freezer/care storage and merchandise on shop shelves. Receipt/order IDs prevent repeated payment or stock on reload. Incoming gifts/consumption are reconciled before final acceptance to avoid overfilling. A busy counter may accept/retain the package without immediate unpacking. No travel teleport, invented new courier identity, extra emergency run or unapproved delivery fee is established.
+Cash is not counted twice: the register receives the customer payment, Charity’s35percent moves to her personal account, and the remaining65percent stays in the till backing supplier payable. A separate recorded-sales counter preserves gross revenue. Old till balances are preserved without inventing old profits. Actual supplier remittance still needs the delivery/account settlement controller; a payable is not proof of a completed external transfer. Her700daily base income remains a distinct ledger entry, as do player shift wages.
 
-Existing immediate weekly enchanted restock must be replaced/integrated, not left running alongside paid delivery to duplicate stock. Default regular clothing is presently purchasable without finite supplier stock: expanding that to a supplier-backed inventory needs explicit item targets and migration, not a claim that every item already has a delivery controller.
+Approved discounts10/25/35percent and the45gold starter bundle remain intact. Its separate pieces total118, but a45gold bundle sale splits29.25supplier/15.75Charity, not a percentage of118. No new minimum price or compensation/subsidy is inferred.
 
-## Owner-suggested10percent difference — exact basis matters
+## Existing Monday decisions
 
-A fixed supplier price at90percent of the normal shelf price creates losses when combined with approved discounts. Example:100normal price,90supplier cost,65receipt after35percent discount gives−25gross result. Bundle components at90percent of118cost106.2against45bundle revenue, before any further discount. Do not silently alter existing bundle/customer discount terms to hide this.
+Only on Time handles Monday household replenishment: replace missing quantities, pay from real Charity’s personal account, keep real stock/community gifts. Enchanted merchandise already restocks Monday06:00. Household groceries and care supplies require their source catalogs; Charity does not sell those supplies to her customers, so the merchandise65/35split does not automatically set their prices.
 
-### Recommended pricing model for review
+## Proposed physical fulfillment — not yet implemented
 
-For merchandise, use a **sale-based supplier settlement**: supplier gets90percent of the actual amount paid after authorized discounts; Charity keeps10percent before other operating expenses. This is consignment/revenue-sharing rather than ordinary fixed upfront wholesale. It matches the owner’s suggested10percent difference while handling bundles/discounts without automatically loss-making purchases. Monday merchandise deliveries therefore do not also incur an upfront90percent debit: supplier cost is settled exactly once against the actual sale receipt. Supplier/Charity ownership terms, gold rounding and return/loss responsibilities require review before implementation; no rounding or cash creation is inferred.
+Align the household drop with Monday06:00merchandise delivery, with separate lines/accounts. Snapshot actual missing stock, place a genuine supplier order, deliver available quantities, have the on-duty authorized worker receive/check it, then put household goods in pantry/fridge/freezer/care storage and merchandise on shop shelves. Use one order/receipt/payment identity; reconcile intervening gifts/consumption to avoid duplicate/refilled stock. A busy counter may retain the actual package for later unpacking. No invented named courier, vehicle, new fee or emergency run is approved here.
 
-For household goods, use the source shop’s authored item prices, separately from Charity’s merchandise margin. She does not sell her groceries/toiletries to customers, so those items have no Charity retail price to multiply. A bulk10percent supplier discount could be proposed separately once actual supplier catalogs exist. Her700daily income can fund genuine household purchases; it is not a reason to charge the player or grant free stock.
+Existing immediate weekly enchanted refill must be integrated with that receipt flow, not duplicated beside it. Regular clothing currently has no finite supplier inventory; new finite quantities/caps and migration require their own approved plan. Supplier consignment/bulk ownership, remittance cadence and damaged/missing deliveries are still separate unresolved fulfillment policies.
 
-Alternative if the owner prefers ordinary upfront wholesale: use fixed per-SKU supplier costs, explicitly account for approved promotion/bundle subsidies or lower costs, and present those numbers for review. Do not apply a blanket60percent of individual prices and claim it solves the45gold bundle problem.
+## New owner direction — paid trusted-player errands
 
-## Status
+Charity will offer favors/quests to players she actually trusts: explain she cannot leave, ask for specified groceries or personal-care supplies from **Groceries Aplenty** or another actually authored supplier, and pay the player for the errand. Keep the canonical store name despite speech transcription variations. These quests supplement household fulfillment; do not silently cancel the approved Monday route or require every restock to be a player quest.
 
-Design/pricing proposal only. Existing payment/top-up hooks remain; no new supplier cost, profit margin, fee, order quantity, finite merchandise stock policy or delivery outcome was implemented by this document.
+No exact relationship threshold, purchase list, reward amount, advance versus reimbursement, receipts/proof, repeat frequency, time limit or failure penalty is approved yet. “Trusts” does not automatically grant private-room access or mean all players already accepted a quest. The existing bounded Daily Needs fatigue-item request remains its own approved behavior. Grocery/quest frameworks and source catalogs remain dependencies. Do not turn a conversation into money, purchased items, completed travel or an automatically accepted quest.
+
+## Current evidence and limits
+
+Sales splitting is local runtime in `cherished-shop.js` and `charity-household.js`; focused tests cover exact shares, discounted receipts, bundles, cash conservation, replay, fabricated receipts and legacy balances. No paid errand controller, actual source-shop grocery prices, new finite merchandise cap or physical courier fulfillment is claimed. Not published.
