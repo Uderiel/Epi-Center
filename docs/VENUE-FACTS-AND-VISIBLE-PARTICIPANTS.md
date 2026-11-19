@@ -11,3 +11,5 @@ World-event packets now retain recorded visible participants. Hidden footwear ke
 Settings adds an explicit two-request venue/park recheck, preserving the full four-case check. It reuses the existing authenticated connection/allowance, does not auto-run, and does not alter saves. The deployed grounded-turn-v1 worker is unchanged and accepts these context fields; no Cloudflare replacement is required.
 
 These changes establish that actual services and participant facts reach the model. They do not establish that Cydonia obeys them. If a fresh report still contradicts these supplied facts, treat that as model constraint-adherence failure rather than another missing-context explanation. Model-quality acceptance remains pending.
+
+v1.0.124 published and infrastructure-verified: 1,449 automated cases across 86 suites; 376 local and 376 live browser checks passed. All 180 public files match runtime commit 378e27d06879b4c827113d3477feb4ce3e44dbf1. Pages deployment 44504738393 succeeded. Automated completions are mocked; actual model adherence to the new venue/participant facts remains pending. Existing grounded-turn-v1 worker is unchanged.
