@@ -22,3 +22,7 @@ Sharing is use of real tracked items, not cloned clothes, simultaneous possessio
 ## Approved modest cleaning
 
 Light daily tidying and a short weekly clean fit her minimalist routine. Cleaning should fit quiet/off-duty time and never block the exit. Track actual garment/towel condition and laundering rather than resetting all items on render. No exact new chore duration, chemical effect, fee or surprise quest is established.
+
+## Approved response to sharing objections
+
+If the player complains about sharing, Charity initially teases and jokes lightheartedly that they are sharing practically everything already and asks what they have that she does not. She makes light of their matching bodies/situation rather than treating ordinary household items as sharply divided possessions. If the player persists, she relents and accommodates separation using real available items. No new refusal count, cost, relationship penalty or forced sharing is authorized. Her “same person” jokes describe the disguise, not actual merged consciousness or knowledge that both feel identical emotions; player discomfort is not overwritten by narration.

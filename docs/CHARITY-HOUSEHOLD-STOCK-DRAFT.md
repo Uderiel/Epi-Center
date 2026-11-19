@@ -79,3 +79,9 @@ Monday top-ups use actual missing quantities and Charity’s personal funds. Exi
 ## Latest approved towels, basic care and shared use
 
 Owner approves **two towels total (one soft working towel plus one spare), one washcloth, hand soap, toothpaste and shampoo**. This supersedes the earlier unapproved table proposal of three towels/two washcloths. Existing approved finite soap/hair-care/toothpaste use targets remain; do not turn product presence into unlimited uses. Ordinary household stock may be shared during the three-day lock under `CHARITY-WARDROBE-DRAFT.md`, including actual available food/treats. The player may prefer separate items. Sharing does not duplicate portions, reset dirty towels, transfer money or change the normal Monday top-up rule.
+
+## Financial responsibility and the meaning of shortages
+
+The real Charity handles most financial ordering and household replenishment. The masked player covering the counter is not automatically the household purchasing authority. “Shortages” in this household plan means actual food/care supplies running low, an unavailable delivery or insufficient available supplies; it does not establish a cash-register shortfall or accuse the player of undercharging.
+
+Current Cherished Touch retail quote/checkout computes recorded prices and approved discounts, deducts the calculated customer total and credits that same amount to the till. No player-clerk undercharge/change-making mechanic is currently implemented. The owner raises undercharging as a possible distinct work issue; no cash-shortage penalty, till access, reimbursement liability, new wage deduction or relationship loss is approved by this question. Keep any eventual service-error design separate from household supply availability and the already approved meal-giver rudeness consequence.

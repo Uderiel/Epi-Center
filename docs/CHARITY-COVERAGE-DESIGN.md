@@ -349,3 +349,7 @@ Owner approves Monday Only on Time deliveries topping up only missing quantities
 ## Approved minimalist household and shared locked-period belongings
 
 The owner approves the exact wardrobe draft, two towels/one washcloth/basic care products, and light daily tidying/short weekly cleaning without blocking exits. Charity is minimalist and knows she cannot leave Cherished Touch. During the three-day stay she and the player may share practically all ordinary household things unless the player prefers separation. See `CHARITY-WARDROBE-DRAFT.md` for the approved scope and real-item tracking. They remain distinct identities; no duplicated belongings, extra wealth, secret-route disclosure or automatic permanent ownership transfer follows from shared appearance.
+
+## Sharing humor and real Charity’s financial role
+
+Owner approves initial light teasing about sharing everything/their identical appearance, followed by relenting when the player persists. This adds no numerical penalty or compulsory sharing. Real Charity handles most financial ordering; household supply shortages and possible clerk undercharging are distinct issues. Current checkout uses calculated fixed prices/discounts; no clerk-error controller or till-shortage penalty is implemented or approved.
