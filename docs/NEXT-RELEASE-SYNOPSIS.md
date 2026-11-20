@@ -1,6 +1,6 @@
 # Next publication — reviewed change synopsis
 
-Reviewed 2026-11-20. Baseline: publicly verified v1.0.130, runtime `8a0f2f9`, release evidence `90ec3ff`. Scope includes committed changes after that baseline **and the current uncommitted implementation**, not only changes since HEAD. Candidate version: v1.0.131. Owner authorized publication; local release verification passed; deployment/public verification is underway.
+Reviewed 2026-11-20. Baseline: publicly verified v1.0.130, runtime `8a0f2f9`, release evidence `90ec3ff`. Scope includes committed changes after that baseline **and the current uncommitted implementation**, not only changes since HEAD. Published version: v1.0.131. Owner-authorized release is publicly verified:225 exact-file comparisons, four public browser suites, healthy configured v1.0.131 Worker; Pages run44806977905 succeeded.
 
 | Item | What this update adds or changes |
 | --- | --- |
@@ -35,8 +35,8 @@ Reviewed 2026-11-20. Baseline: publicly verified v1.0.130, runtime `8a0f2f9`, re
 - Five current carrier text/menu refusal checks, encounter-arousal browser checks, Appearance-tab checks and milestone retrieval after200 routine messages/reload pass. Earlier targeted Room D, kissing, language, relationship and sleep reports remain scoped evidence, not proof of every dynamic combination.
 - No owner saves or paid-model generation. Frozen v1.0.130 Bible verifies byte-for-byte unchanged. No new artwork, Underworld cure acquisition, general dating scenes or multiplayer/offline service is claimed.
 
-## Required before publication
+## Release checklist (completed for v1.0.131)
 
-Reconcile and regenerate the **new** release's source-backed World Bible/snapshot; select/bump release version; run release-specific verification and save evidence; freeze that new version; deploy only with authorization and verify public assets/Bible/worker afterward. The historical v1.0.130 Bible must remain unchanged. This review does not authorize deployment.
+Reconcile and regenerate the **new** release's source-backed World Bible/snapshot; select/bump release version; run release-specific verification and save evidence; freeze that new version; deploy only with authorization and verify public assets/Bible/worker afterward. The historical v1.0.130 Bible must remain unchanged. Owner subsequently authorized deployment; publication and public verification are complete. See releases/v1.0.131-release-summary.json.
 
 See DEFERRED-SYSTEMS-TRACKER.md for remaining work and revisit triggers. Already published v1.0.130 directory/sucker-warning/Bible fixes are baseline, not new features in this candidate.

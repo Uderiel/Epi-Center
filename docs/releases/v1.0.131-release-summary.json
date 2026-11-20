@@ -1,6 +1,6 @@
 {
   "version": "1.0.131",
-  "status": "Owner-authorized; locally verified; deployment pending",
+  "status": "Published and publicly verified",
   "baseline": "1.0.130",
   "implementedGroups": 23,
   "synopsis": "docs/NEXT-RELEASE-SYNOPSIS.md",
@@ -11,5 +11,17 @@
   "browserChecks": "docs/releases/v1.0.131-browser-checks.json",
   "paidModelCalls": false,
   "ownerSaves": false,
-  "correctedDuringRelease": "Directed I say to Priya: framing prevented interest-question detection; stripped address framing before scoring, added regression, full suite/browser reruns pass."
+  "correctedDuringRelease": "Directed I say to Priya: framing prevented interest-question detection; stripped address framing before scoring, added regression, full suite/browser reruns pass.",
+  "runtimeCommit": "d4534e1b22b0680bf5c45c62b88afff8413a6295",
+  "pagesRun": "https://github.com/Uderiel/Epi-Center/actions/runs/44806977905",
+  "publicMatchedFiles": 225,
+  "publicBrowserSuites": 4,
+  "workerHealth": {
+    "releaseVersion": "1.0.131",
+    "configured": true
+  },
+  "publicEvidence": [
+    "docs/releases/v1.0.131-live-verification.json",
+    "docs/releases/v1.0.131-live-browser-checks.json"
+  ]
 }

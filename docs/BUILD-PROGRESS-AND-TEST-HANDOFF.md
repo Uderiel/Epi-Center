@@ -1,3 +1,7 @@
+## v1.0.131 — published and publicly verified
+
+All23 reviewed implementation groups are published. Runtime `d4534e1b22b0680bf5c45c62b88afff8413a6295`; Pages run44806977905 succeeded and Worker build succeeded. All1,977 automated cases, eight local browser suites and four public browser suites pass. All225 compared public files match, including canonical/frozen Bible and integrity manifest. Worker health reports1.0.131/configured. No paid model calls or owner saves. See releases/v1.0.131-release-summary.json. Deferred work remains in DEFERRED-SYSTEMS-TRACKER.md; earlier pending checkpoints below are historical.
+
 ## v1.0.131 — release candidate verified, deployment pending
 
 Owner-authorized23-group release:1,977 automated cases and eight browser suites pass. Directed speech scoring was corrected and fully retested. See releases/v1.0.131-release-summary.json and NEXT-RELEASE-SYNOPSIS.md. Deferred scope remains in DEFERRED-SYSTEMS-TRACKER.md. Public verification will be recorded separately; no paid model calls or owner saves. Earlier local-only status below is historical.
