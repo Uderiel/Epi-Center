@@ -1,6 +1,6 @@
 {
   "version": "1.0.133",
-  "status": "Locally verified; publication in progress",
+  "status": "Published and publicly verified",
   "baseline": "1.0.132",
   "scope": "UI and Eve help only",
   "automatedCases": 1986,
@@ -21,5 +21,11 @@
     "rebuild/hub/player-guide.test.js",
     "rebuild/hub/text-actions-ui.js",
     "rebuild/title-screen/index.html"
-  ]
+  ],
+  "runtimeCommit": "6c283342b21010985579c944788ed91ad35f6da4",
+  "pagesRun": "https://github.com/Uderiel/Epi-Center/actions/runs/44836651593",
+  "publicMatchedFiles": 216,
+  "liveMobileChecks": 6,
+  "liveJournalChecks": 5,
+  "excludedBaselineChecks": 6
 }

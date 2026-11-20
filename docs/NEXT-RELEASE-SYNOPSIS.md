@@ -1,3 +1,7 @@
+## v1.0.133 publication complete
+
+UI-only release `6c28334` is live and publicly verified. Pages run44836651593 succeeded. Both live browser suites pass; exact published gameplay files, frozen Bible and excluded Repository/Worker baseline files match. No unpublished Repository, staff or dialogue follow-up changes are included. See releases/v1.0.133-release-summary.json.
+
 # v1.0.133 — UI and help cleanup
 
 Scope: mobile quick-reference layout, player-facing room names, Journal navigation and AI-off Eve help only. No Form Repository implementation, staff profiles/controllers, feeding, ownership, security, arousal, AI Worker or other gameplay changes.

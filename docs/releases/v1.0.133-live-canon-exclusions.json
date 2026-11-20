@@ -1,0 +1,32 @@
+[
+  {
+    "path": "docs/EPI-CENTER-WORLD-BIBLE.md",
+    "matched": true,
+    "sha256": "e6ab07f7aea42baeedaf08c1289fff91f032db61dc888ce7099b6758457407ba"
+  },
+  {
+    "path": "docs/bible/v1.0.133-world-bible.md",
+    "matched": true,
+    "sha256": "e6ab07f7aea42baeedaf08c1289fff91f032db61dc888ce7099b6758457407ba"
+  },
+  {
+    "path": "docs/releases/v1.0.133-bible-integrity.json",
+    "matched": true,
+    "sha256": "db49b97135dc417d9fb639397dd8a350e59830e00f31fa8da3e86bdaf8f0ae66"
+  },
+  {
+    "path": "services/ai/worker.mjs",
+    "matched": true,
+    "sha256": "15d31f0a70440e7f9f1ca782479789f080fd628908e08103db86b88969e9229e"
+  },
+  {
+    "path": "rebuild/hub/location-details.js",
+    "matched": true,
+    "sha256": "401f5bb76505b5cf9de4c2194ca1b6127d91ba86b441bb4d72bc83cf000cd791"
+  },
+  {
+    "path": "rebuild/hub/form-storage.js",
+    "matched": true,
+    "sha256": "f5f0274463d3fc1d2dc3e5214045d6dff7613104c158f60a07544c072e70ff50"
+  }
+]

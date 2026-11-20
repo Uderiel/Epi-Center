@@ -1,3 +1,7 @@
+## v1.0.133 publication complete
+
+UI-only release `6c28334` is live and publicly verified. Pages run44836651593 succeeded. Both live browser suites pass; exact published gameplay files, frozen Bible and excluded Repository/Worker baseline files match. No unpublished Repository, staff or dialogue follow-up changes are included. See releases/v1.0.133-release-summary.json.
+
 # v1.0.133 UI-only release candidate
 
 # v1.0.133 — UI and help cleanup
@@ -12,7 +16,7 @@ Scope: mobile quick-reference layout, player-facing room names, Journal navigati
 
 Unpublished Form Repository and Lee work remains outside this release. Existing v1.0.132 repository references remain unchanged. Earlier release evidence and frozen canon remain intact.
 
-Publication validation underway. Prior checkpoints below are historical.
+Publication validation completed; records below retain the prepared scope. Prior checkpoints below are historical.
 
 ## v1.0.132 — published and publicly verified
 
