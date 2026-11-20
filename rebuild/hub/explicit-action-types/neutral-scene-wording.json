@@ -82,7 +82,8 @@
     "This reference adds no parser routes, NPC permissions, transmission triggers or automatic outcomes.",
     "Fluid names and contact-record field definitions are reference vocabulary only; they add no infectiousness, exposure thresholds, barriers or resistance rules.",
     "Drooling alone establishes no recipient contact. Consuming drool requires a resolved ingestion event; brief contact or a single swallow does not automatically satisfy a timed threshold.",
-    "Consumption vocabulary maps to ingestion only when actual fluid consumption is resolved. Sweat on skin is not ingestion until consumed; dry skin contact adds no ingestion time."
+    "Consumption vocabulary maps to ingestion only when actual fluid consumption is resolved. Sweat on skin is not ingestion until consumed; dry skin contact adds no ingestion time.",
+    "An intimate encounter does not by itself establish sweating, fluid transfer or ingestion. Direct saliva consumption and skin-sweat consumption share the approved ingestion threshold; no separate rate multiplier is approved."
   ],
   "fluidNames": [
     "saliva",
@@ -154,5 +155,46 @@
     "condition": "Actual consumption of a recorded fresh infectious fluid, with participant decisions and contact established by the interaction controller.",
     "notImpliedByVerb": "Licking or skin-sucking alone does not establish fluid presence, consumption, infectiousness or permission.",
     "runtimeStatus": "Exposure route already implemented; these natural-language action triggers are not wired."
-  }
+  },
+  "consumptionVariants": [
+    {
+      "id": "direct-saliva-consumption",
+      "fluidType": "saliva",
+      "fluidAliases": [
+        "drool"
+      ],
+      "sourceSite": "source mouth",
+      "recipientSite": "recipient mouth",
+      "transferLabels": [
+        "direct drool transfer",
+        "direct spit transfer"
+      ],
+      "requires": [
+        "resolved participant agreement",
+        "actual fresh infectious saliva transfer",
+        "actual consumption"
+      ],
+      "routeWhenConsumed": "ingestion",
+      "routeWithoutConsumption": "mucous",
+      "eventSummary": "The consenting adult participants complete a direct saliva transfer; the controller records whether consumption occurred."
+    },
+    {
+      "id": "skin-sweat-consumption",
+      "fluidType": "sweat",
+      "sourceSite": "source skin",
+      "recipientSite": "recipient mouth",
+      "transferLabels": [
+        "licking skin",
+        "skin-sucking"
+      ],
+      "requires": [
+        "resolved participant agreement",
+        "actual fresh infectious sweat present on the contacted skin",
+        "actual consumption"
+      ],
+      "routeWhenConsumed": "ingestion",
+      "routeWithoutConsumption": "determined by actual contact; no ingestion inferred",
+      "eventSummary": "The consenting adult participants share skin contact; the controller records whether fresh sweat was consumed."
+    }
+  ]
 }
