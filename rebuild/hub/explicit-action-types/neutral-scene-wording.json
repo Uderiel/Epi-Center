@@ -1,5 +1,5 @@
 {
-  "version": "neutral-scene-wording-v1",
+  "version": "neutral-scene-wording-v2",
   "purpose": "Non-graphic wording reference for controller-resolved scene summaries; not an executable action registry.",
   "runtimeActionsAdded": false,
   "verbs": [
@@ -79,6 +79,30 @@
     "A posture, body region or broad verb alone establishes neither a specific act nor fluid exchange.",
     "Duration, willingness, acceptance, fluid route and resistance outcomes require separately resolved records.",
     "Do not combine labels into explicit sexual instructions or direct a narrative model to reconstruct omitted acts.",
-    "This reference adds no parser routes, NPC permissions, transmission triggers or automatic outcomes."
-  ]
+    "This reference adds no parser routes, NPC permissions, transmission triggers or automatic outcomes.",
+    "Fluid names and contact-record field definitions are reference vocabulary only; they add no infectiousness, exposure thresholds, barriers or resistance rules."
+  ],
+  "fluidNames": [
+    "saliva",
+    "sweat",
+    "blood",
+    "semen",
+    "pre-ejaculate",
+    "vaginal secretions",
+    "cervical mucus",
+    "female ejaculate"
+  ],
+  "summaryPhrases": [
+    "consensual adult intimacy",
+    "private, consensual intimate encounter"
+  ],
+  "contactRecordFields": {
+    "source": "Controller-resolved source participant or sample identifier.",
+    "fluidType": "Recorded fluid name; terminology alone establishes no exposure.",
+    "freshness": "Recorded sample age or live-source status under existing rules.",
+    "contactRoute": "Actual route established by the contact controller.",
+    "contactDuration": "Actual qualifying contact duration in game minutes.",
+    "barrierPresent": "Recorded clothing or barrier status; does not independently decide protection.",
+    "contactEndedAt": "Game-clock timestamp when actual contact ended."
+  }
 }

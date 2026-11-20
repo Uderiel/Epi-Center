@@ -1,3 +1,7 @@
+## Unpublished — clinical fluid vocabulary
+
+Added the owner-approved clinical fluid names and contact-record field definitions to the neutral wording reference. Existing authored `explicit_adult` classification and non-graphic encounter summary remain. Reference-only change; no runtime payload, transmission rules or action routing changed. JSON and required vocabulary validated.
+
 ## Unpublished — neutral scene wording reference
 
 Added `explicit-action-types/neutral-scene-wording.json` and indexed it in the shared library: neutral verbs, chest/contact terms, general posture labels, modifiers, statuses and short authored-tone summaries. This is reference data only; no new commands, NPC permissions or transmission triggers. JSON and index references validated.

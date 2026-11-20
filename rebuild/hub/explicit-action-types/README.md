@@ -7,3 +7,5 @@ Entries contain neutral technique labels, actor parts, target part, accepted-con
 ## Neutral scene wording
 
 `neutral-scene-wording.json` records the approved non-graphic verbs, chest/contact terminology, general postures, modifiers, statuses and short scene summaries. It preserves the authored `standard`, `suggestive` and `explicit_adult` classifications. These are reference terms, not newly executable commands. Labels never establish consent, a specific act, fluid exchange or infection. The existing kissing controller remains the only executable interaction defined by this folder.
+
+The wording reference also lists clinical fluid names and defines source, fluid type, freshness, route, duration, barrier and end-time fields. These definitions describe existing controller facts; they do not create a new runtime payload contract or infer fluid contact from an encounter summary.
