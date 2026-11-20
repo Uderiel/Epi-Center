@@ -1,3 +1,11 @@
+## v1.0.129 — audit repairs published and publicly verified
+
+[Play v1.0.129](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.129). Owner-requested follow-up audit is complete for the implemented/defined scope; source runtime `4d0c935cdaf0fa2c1d00ce0a8cf83e03d7a62134` is on main/development. Pages deployment44711535536succeeded.1,795automated cases,7local browser suites and3public follow-up suites pass;191public files match. Cherished Touch’s22day/night images pass32public visible-header assertions. All Tits/Burke’s v128implementations remain included.
+
+Repairs: resolved-contact exposure timing/resistance/clock linkage, persisted random tied-archetype selection, carrier disclosure/permission/quest guards, omitted descriptive symptom feedback and base-combat display-name synchronization. Full scope, concrete dependencies and deferred/unapproved cases are in [the approval audit](APPROVAL-IMPLEMENTATION-AUDIT.md). No unbuilt prolonged-fluid source scene, enemy modifier, Underworld laboratory route/acquisition or other deferred location content is claimed playable.
+
+Worker health independently reports129/configured. One automatic Worker build succeeded and one failed; active version is healthy. Initial public503/page-load issues passed unchanged-source reruns and are recorded. No paid model acceptance call was made. Evidence: `docs/releases/v1.0.129-release-summary.json`, tests, local/public browser checks and live-file verification. Bible, combat guide, canon records and handoff are updated. Reminder for Burke’s Sweets day/night/storefront artwork is enabled for November21; no automatic image generation/publishing is implied. Earlier candidate entries remain historical.
+
 ## v1.0.129 — approval audit repair candidate
 
 Owner requests all implemented changes be published and all earlier approvals audited. The v128release already contains Tits/Burke’s systems and the Cherished Touch header artwork. The follow-up audit repairs approved exposure/resistance timing and game-clock integration, random tied-archetype assignment (owner confirmed), carrier disclosure/paired-contact/quest guards, omitted descriptive symptom feedback and active base-combat display naming. All1,795automated cases and7targeted browser scripts pass. Cherished Touch’s public artwork recheck passes32assertions across22images.

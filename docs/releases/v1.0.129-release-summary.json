@@ -1,6 +1,6 @@
 {
   "version": "1.0.129",
-  "status": "local verified; deployment pending",
+  "status": "Published and publicly verified",
   "automatedCases": 1795,
   "browserScripts": 7,
   "cherishedPublicHeaderAssertions": 32,
@@ -20,5 +20,34 @@
     "Enemy avoidance/slime modifiers need authored enemy behavior/numerical decisions",
     "Previously deferred locations, source items and quests remain deferred"
   ],
-  "paidModelCalls": false
+  "paidModelCalls": false,
+  "runtimeCommit": "4d0c935cdaf0fa2c1d00ce0a8cf83e03d7a62134",
+  "pagesRun": "https://github.com/Uderiel/Epi-Center/actions/runs/44711535536",
+  "matchedPublishedFiles": 191,
+  "publicBrowserScripts": 3,
+  "workerHealth": {
+    "service": "Epi-Center AI",
+    "releaseVersion": "1.0.129",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "configured": true
+  },
+  "workerBuilds": [
+    {
+      "conclusion": "success",
+      "buildId": "a03a5f3a-2023-4232-94d8-753862255a72"
+    },
+    {
+      "conclusion": "failure",
+      "buildId": "b6dbf52e-dc2d-4dcf-b366-360e046d9e45",
+      "reason": "Not supplied in GitHub check output"
+    }
+  ],
+  "initialPublicIssues": [
+    "HTTP503loading one module during the initial static comparison",
+    "Initial full-sequence browser page-load timeout; unchanged-source rerun passed"
+  ],
+  "reminder": "November21: Burke Sweets known-layout room/storefront day/night images, realistic apartment style and Hub-compatible facade"
 }

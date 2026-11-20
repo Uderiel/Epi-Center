@@ -38,3 +38,7 @@ Reminder scheduled for November21: Burke’s Sweets header images based on the e
 ## Verification
 
 Use v1.0.129 release tests and browser evidence for final counts. The new exposure browser flow uses a resolved QA contact event and actual wait controls, simulates the real incubation boundary, runs the actual progression/sleep/disclosure/cure controls, and checks persistence. Historical v128evidence is preserved. Do not call all world content complete when the concrete dependencies above remain open.
+
+### Final v1.0.129 verification
+
+Runtime4d0c935is published on main/development.1,795automated cases and7targeted local browser suites pass. All3public follow-up suites pass, including the resolved-source full sequence and32Cherished Touch header assertions;191public files match. Active Worker health reports129/configured. An initial public request returned503and the first full-sequence page load timed out; unchanged-source reruns passed and both outcomes are retained in release evidence. One automatic Worker build succeeded and one failed; successful active deployment is independently verified. No paid model call or owner save was used.

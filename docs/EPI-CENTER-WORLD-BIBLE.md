@@ -1,4 +1,4 @@
-## Current canon — v1.0.129 audit candidate
+## Current canon — v1.0.129 published audit
 
 The complete approval-to-implementation audit is now included in the source-backed snapshot. Exposure/resistance math and persisted random tie selection are connected to resolved mechanical contact events and normal game time. Carrier warning/quest/contact permission gates and descriptive illness feedback are added; active base combat names follow completed renaming without changing IDs. No dialogue creates fluids/contact or consent. Source scenes and enemy modifiers without authored rules remain explicitly listed dependencies. Existing Tits/Burke’s implementations and22Cherished Touch day/night header images remain in the release.
 

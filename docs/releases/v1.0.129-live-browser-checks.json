@@ -1,0 +1,30 @@
+{
+  "scope": "Fresh synthetic public-site browser storage; explicit QA infections/personal cure doses; no paid model calls",
+  "results": [
+    {
+      "file": "browser-virus-audit.cjs",
+      "passed": true,
+      "output": "PASS resolved QA fluid-contact event + actual wait control triggers hidden infection once; simulated real incubation + actual milestones/sleep controls finish base conversion; actual disclosure informs without consent; quest guard blocks intimate requirements; actual cure removes active effects; reload preserves identity; no paid calls\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-tits-social.cjs",
+      "passed": true,
+      "output": "PASS actual arrival offer, decline and reload without repeated hug\nPASS negative visit has no hug; positive visit accepts explicitly and remembers simple appearance nickname\nPASS actual payment rewards quantities and actual expressed compliment grants one\nPASS third disruptive touch refuses, survives reload, patience grants one, paid correction stays free and available\nPASS real preferred gift keeps five, resets refusal/incident and preserves nickname after reload\nPASS locally stubbed provider acceptance updates actual dialogue memory across reload without a paid request\nPASS no browser errors\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-cherished-art.cjs",
+      "passed": true,
+      "output": "PASS storefront appears before entry directly in visible header\nPASS actual night phase switches the storefront image\nPASS day header loads actual H illustration at full aspect ratio\nPASS day header loads actual C illustration at full aspect ratio\nPASS day header loads actual G illustration at full aspect ratio\nPASS day header loads actual A illustration at full aspect ratio\nPASS day header loads actual B illustration at full aspect ratio\nPASS day header loads actual J illustration at full aspect ratio\nPASS day header loads actual D illustration at full aspect ratio\nPASS day header loads actual E illustration at full aspect ratio\nPASS day header loads actual F illustration at full aspect ratio\nPASS day header loads actual I1 illustration at full aspect ratio\nPASS day header loads actual I2 illustration at full aspect ratio\nPASS day header loads actual I3 illustration at full aspect ratio\nPASS day header loads actual I4 illustration at full aspect ratio\nPASS night header loads actual H illustration at full aspect ratio\nPASS night header loads actual C illustration at full aspect ratio\nPASS night header loads actual G illustration at full aspect ratio\nPASS night header loads actual A illustration at full aspect ratio\nPASS night header loads actual B illustration at full aspect ratio\nPASS night header loads actual J illustration at full aspect ratio\nPASS night header loads actual D illustration at full aspect ratio\nPASS night header loads actual E illustration at full aspect ratio\nPASS night header loads actual F illustration at full aspect ratio\nPASS night header loads actual I1 illustration at full aspect ratio\nPASS night header loads actual I2 illustration at full aspect ratio\nPASS night header loads actual I3 illustration at full aspect ratio\nPASS night header loads actual I4 illustration at full aspect ratio\nPASS header tap opens the same full image\nPASS losing private access removes header image rather than previewing another private room\nPASS phone header remains visible without horizontal overflow or state changes\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    }
+  ],
+  "passed": true,
+  "initialFailures": [
+    {
+      "file": "browser-virus-audit.cjs",
+      "stderr": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#compose') to be visible\u001b[22m\n\n    at [eval]:1:1064 {\n  log: [ \"  - waiting for locator('#compose') to be visible\" ],\n  name: 'TimeoutError'\n}\n"
+    }
+  ]
+}
