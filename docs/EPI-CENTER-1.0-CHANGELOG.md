@@ -1,3 +1,7 @@
+## Unpublished — concurrent exposure resistance
+
+Confirmed separate hidden checks for simultaneous qualifying contamination points, suppression of subsequent rolls after infection, and source/route/site-specific renewed-contact qualification. Shared resistance escalation and existing thresholds remain. No new interaction permissions or publication.
+
 ## Unpublished — regional perspiration and footwear integration
 
 Implemented approved activity timing and regional moisture, saved actor/body state, inactivity drying, local qualitative observation and garment sweat-soiling. Priya-flats senses now share her actual foot moisture. Shoes retain moisture descriptions but cannot be sweat-soiled or deposited in the hamper. See PERSPIRATION-DESIGN.md for scope and verification. Nothing deployed.

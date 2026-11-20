@@ -1,3 +1,7 @@
+## Unpublished — separate checks for concurrent contamination points
+
+Each qualifying exposure point rolls separately, including simultaneous thresholds; the first failure begins incubation and suppresses every later exposure roll. Renewed-contact qualification is now source/route/site-specific, preserving shared difficulty escalation. Focused tests cover simultaneous passes, early infection, reload suppression and a newly started different route retaining its own threshold. Full verification recorded in verification/concurrent-exposure-summary.json. No publication or new natural-language ingestion triggers.
+
 ## Unpublished — regional body sweat implemented
 
 Canonical clock/travel and per-minute NPC schedulers now persist regional body sweat, inactivity drying, local qualitative visibility, garment moisture/soiling and shared Priya-flats sensory moisture. Shoes are exempt from sweat soiling and hamper access. No new ingestion triggers, NPC advice or publication. See PERSPIRATION-DESIGN.md and verification/perspiration-summary.json. 1,861 automated cases and eight targeted browser checks pass; existing kissing/language browser checks pass.

@@ -1,3 +1,13 @@
+## Current unpublished rule — concurrent exposure points
+
+Each qualifying contamination point has its own resistance check, including when several thresholds are reached in the same game minute. Do not merge simultaneous routes into one roll or blend their elapsed minutes into a faster combined threshold. Existing hidden Endurance difficulty escalation remains shared (+2 per further check, two-hour quiet reset).
+
+Renewed-contact qualification is scoped to the same source, route, recorded site and kissing/contact kind. Passing a mucous/kissing point cannot immediately qualify a newly started skin/ingestion point. Site is taken from controller-resolved metadata when available, not invented from prose. Historical saves reconstruct point qualification from successful persisted checks and contact records.
+
+The first failed resistance check starts incubation once. No later simultaneous, continued or newly started exposure can roll again after that infection record exists. This persists through reloads. Cured-player reinfection remains subject to its existing unresolved-rule block; this does not invent a reinfection policy.
+
+This implements the owner’s correction to the rejected single-roll-for-colliding-thresholds proposal. Existing exposure thresholds, rolling windows, fluid freshness and 72-real-hour incubation are unchanged. Natural-language ingestion and skin-contact interaction triggers remain separate unfinished work.
+
 ## Current unpublished kissing update
 
 Accepted French/open-mouth kissing is now text-driven with Tits’s willingness/work checks, brief disclosure and player confirmation. Actual contact accumulates toward twenty game minutes inside a rolling120-game-minute window; each minute expires individually. This supersedes historical continuous-only kissing descriptions below; generic non-kissing mucous exposure is unchanged. See KISSING-INTERACTION.md for implementation and evidence. Other NPC acceptance and further vocabulary remain separate.

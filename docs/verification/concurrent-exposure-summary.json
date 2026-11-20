@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "published": false,
+  "automatedCases": 1864,
+  "exposureCases": 12,
+  "kissingBrowserChecks": 7,
+  "rules": [
+    "Separate checks per qualifying point, including simultaneous thresholds",
+    "Stop all later resistance rolls once incubation starts",
+    "Same-point renewed contact retains escalation; unrelated routes retain their thresholds"
+  ],
+  "scope": "Controller tests and isolated kissing browser regression; no paid calls or owner saves; natural-language ingestion triggers remain unfinished"
+}
