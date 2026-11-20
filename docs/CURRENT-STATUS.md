@@ -1,3 +1,7 @@
+## Approved, not implemented — perspiration visibility
+
+Recorded the owner’s hidden numeric perspiration score and locally observable50+/dripping100 descriptions, without automatic comments or rest advice. Body-region and garment effects are location-specific. See PERSPIRATION-DESIGN.md for approved exertion timing, remaining region/decay details and proposed clothing-soiling probabilities. Runtime integration is unfinished.
+
 ## Unpublished — clinical fluid vocabulary
 
 Added the owner-approved clinical fluid names and contact-record field definitions to the neutral wording reference. Existing authored `explicit_adult` classification and non-graphic encounter summary remain. Reference-only change; no runtime payload, transmission rules or action routing changed. JSON and required vocabulary validated.
