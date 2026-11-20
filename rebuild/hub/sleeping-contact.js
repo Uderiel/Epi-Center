@@ -1,0 +1,27 @@
+/* Detect existing agreed skin contact during actual sleep. No bed-sharing or contact is invented. */
+(function(r,f){const n=typeof module==='object'&&module.exports,a=f(...(n?['./relationships','./scene-presence','./bimbo-virus-policy','./world-clock'].map(require):[r.EpiRelationships,r.EpiScene,r.EpiBimboVirusPolicy,r.EpiWorldClock]));if(n)module.exports=a;else r.EpiSleepingContact=a;})(globalThis,function(R,S,P,T){
+const body=s=>JSON.stringify([s.activeForm||null,s.erinRestoration?.stage>0&&!s.erinRestoration.released?'erin':null]);
+function state(s){s.world||={};return s.world.sleepingContact||={schema:1,sleepers:{},players:{}};}
+function recordSleep(s,event){if(event?.resolved!==true||typeof event.sleeping!=='boolean')throw Error('Use a controller-resolved sleep transition.');const id=event.actorId||R.player(s);if(id!==R.player(s)&&(!id.startsWith('npc:')||!P.near(s,id)))throw Error('Record sleep only for an actual local participant.');state(s).sleepers[id]={sleeping:event.sleeping,body:id===R.player(s)?body(s):null,space:S.player(s),at:T.ensure(s).minutes};}
+function sleeping(s,id){if(id===R.player(s)){const room=S.player(s),h=s.world?.cherishedTouch?.household;if(typeof h?.actors?.[id]?.sleeping==='boolean')return s.world?.cherishedTouch?.inside===true&&s.world.cherishedTouch.room==='A'&&h.actors[id].sleeping;if(s.erinRestoration?.stage>0&&!s.erinRestoration.released&&typeof s.erinRestoration.life?.sleeping==='boolean')return s.erinRestoration.life.sleeping;const q=s.world?.sleepingContact?.sleepers?.[id];return q?.sleeping===true&&q.body===body(s)&&q.space===room;}const key=String(id).replace(/^npc:/,''),a=key==='charity'?s.world?.cherishedTouch?.household?.actor:S.defs[key]?S.actor(s,key):null;return !!a&&!a.commute&&!a.travel?.active&&(a.sleeping===true||/^(?:At home · sleeping|Sleeping\b|Asleep\b)/i.test(a.activity||''));}
+function pairedRegions(a){return [{actorId:a.npcId,region:a.region},...(a.recipientRegion?[{actorId:'player',region:a.recipientRegion}]:[])];}
+function blocked(s,a){const Sweat=typeof module==='object'&&module.exports?require('./perspiration'):globalThis.EpiPerspiration,Q=typeof module==='object'&&module.exports?require('./equipment-regions'):globalThis.EpiEquipmentRegions;const covered=(garments,region)=>garments.some(g=>{const cover=g.coverage||Q.coverage(g);return cover.includes(Sweat.regions[region])||region==='innerThighs'&&cover.includes('hips');});return covered(Sweat.npcGarments(s,a.npcId.slice(4)),a.region)||!!a.recipientRegion&&covered(Sweat.playerGarments(s),a.recipientRegion);}
+function eligible(s,a){if(!a||a.action!=='skin'||a.status!=='accepted'||a.body!==body(s)||a.space!==S.player(s)||!P.near(s,a.npcId))return false;if(!sleeping(s,R.player(s))||!sleeping(s,a.npcId)||blocked(s,a))return false;return true;}
+function contacts(s){const C=typeof module==='object'&&module.exports?require('./fluid-contact'):globalThis.EpiFluidContact;return (C?.sessions(s)||[]).filter(a=>eligible(s,a));}
+function pressedRegions(s,actorId){const out=new Set();for(const a of contacts(s))for(const part of pairedRegions(a)){const id=part.actorId==='player'?(typeof module==='object'&&module.exports?require('./perspiration'):globalThis.EpiPerspiration).playerId(s):part.actorId;if(id===actorId)out.add(part.region);}return [...out];}
+function tick(s,at=T.ensure(s).minutes){
+ const id=R.player(s),previous=s.world?.sleepingContact?.players?.[id];if(previous?.lastAt!==null&&previous?.lastAt!==undefined&&at<previous.lastAt)return [];
+ const paused=[];for(const row of Object.values(s.world?.intimateEncounters?.[id]?.records||{})){
+  if(row.result||row.cancelled||row.activityPausedForSleep||row.space!==S.player(s)||row.body!==(s.activeForm||null))continue;
+  if(sleeping(s,id)||sleeping(s,row.npcId)){row.activityPausedForSleep=true;(typeof module==='object'&&module.exports?require('./encounter-continuity'):globalThis.EpiEncounterContinuity)?.sharedRest(s,row.id);const X=typeof module==='object'&&module.exports?require('./bimbo-virus-exposure'):globalThis.EpiBimboVirusExposure;paused.push(...X.end(s,row.contactId,{at}));}
+ }
+ const current=Object.fromEntries(contacts(s).map(a=>[a.id,{npcId:a.npcId,region:a.region,recipientRegion:a.recipientRegion||null}]));
+ if(!Object.keys(current).length&&!Object.keys(previous?.active||{}).length)return paused;
+ const all=state(s),q=all.players[id]||={active:{},lastAt:null},events=[];
+ for(const [key,row]of Object.entries(current))if(!q.active[key])events.push({kind:'sleeping-contact',at,text:'The sleeping participants remain in their accepted direct skin contact. Moisture dries at half speed only at the pressed contact regions.',audience:'owner',sleepingContact:{status:'pressed',sourceId:row.npcId,sourceRegion:row.region,recipientRegion:row.recipientRegion}});
+ for(const [key,row]of Object.entries(q.active))if(!current[key])events.push({kind:'sleeping-contact',at,text:'The sleeping-contact condition ends. Remaining regional moisture now dries at the normal exposed rate.',audience:'owner',sleepingContact:{status:'released',sourceId:row.npcId,sourceRegion:row.region}});
+ q.active=current;q.lastAt=at;return [...paused,...events];
+}
+
+return Object.freeze({state,body,recordSleep,sleeping,eligible,contacts,pressedRegions,blocked,tick});
+});

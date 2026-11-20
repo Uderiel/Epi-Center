@@ -13,6 +13,7 @@ function begin(s,event,options={}){
  X.fluid(s,{id:fluidId,sourceId:event.npcId,resolved:true,bodilyFluid:true,infectious:true,createdAt:now});
  const events=X.begin(s,{id:contactId,fluidId,route:event.route,resolved:true},{...options,at:now});
  q.records[event.id]={id:event.id,npcId:event.npcId,archetype:event.archetype,space:S.player(s),body:s.activeForm||null,at:now,contactId,firstCheck:checks,wasInfected,events};
+ (typeof module==='object'&&module.exports?require('./encounter-continuity'):globalThis.EpiEncounterContinuity).begin(s,event);
  return {id:event.id,events};
 }
 function observe(s,id,event){
@@ -33,10 +34,11 @@ function complete(s,event,options={}){
  const outcome=status==='infected'?'Transmission occurred; incubation has begun.':status==='resisted'?'The transmission check was resisted; no infection began.':['already_infected','infected_elsewhere'].includes(status)?'The player has an existing infection; this encounter did not begin a new incubation.':'Exposure did not reach a transmission check; no infection began.';
  if(event.climax===true)pool.arousal=0;
  row.completedAt=T.ensure(s).minutes;row.privateChecks=JSON.parse(JSON.stringify(checks));row.result={tone:'explicit_adult',eventStatus:'resolved',audience:'owner',archetype:row.archetype,transmission:resolution,privatePerspiration:Object.values(row.regionalObservations||{}),event:'The player and '+name+' share a private, consensual intimate encounter. NPC archetype: '+row.archetype+'. '+outcome+(event.climax===true?' Climax occurred; Arousal resets to 0.':''),events:[...row.events,...events]};
+ (typeof module==='object'&&module.exports?require('./encounter-continuity'):globalThis.EpiEncounterContinuity).sharedRest(s,row.id);
  return JSON.parse(JSON.stringify(row.result));
 }
-function cancel(s,id,options={}){const row=state(s).records[id];if(!row||row.result||row.cancelled)return {events:[]};const events=X.end(s,row.contactId,{...options,at:T.ensure(s).minutes});row.cancelled=true;row.cancelledAt=T.ensure(s).minutes;return {events};}
+function cancel(s,id,options={}){const row=state(s).records[id];if(!row||row.result||row.cancelled)return {events:[]};const events=X.end(s,row.contactId,{...options,at:T.ensure(s).minutes});(typeof module==='object'&&module.exports?require('./encounter-continuity'):globalThis.EpiEncounterContinuity).end(s,id,'The accepted encounter was cancelled.');row.cancelled=true;row.cancelledAt=T.ensure(s).minutes;return {events};}
 function payload(s,id){const row=state(s).records[id];if(!row?.result)throw Error('Complete the recorded encounter before building its payload.');const A=typeof module==='object'&&module.exports?require('./ai-context'):globalThis.EpiAIContext;return A.build(s,{id:'narrator:world-event',kind:'narration',name:'World',dossier:'Summarize the recorded outcome in non-graphic terms. Do not add actions or change the outcome.',communication:'A brief fade-to-black summary.'},{tone:row.result.tone,event:row.result.event,eventStatus:'resolved',message:'Summarize only the recorded outcome.',location:s.hub?.location,physicalContext:{intimateEncounter:{archetype:row.archetype,transmission:row.result.transmission,privatePerspiration:row.result.privatePerspiration}},visibleParticipants:[],hiddenObserver:true});}
-function active(s){return Object.values(s.world?.intimateEncounters?.[R.player(s)]?.records||{}).some(r=>!r.result&&!r.cancelled&&r.space===S.player(s)&&r.body===(s.activeForm||null)&&P.near(s,r.npcId));}
+function active(s){return Object.values(s.world?.intimateEncounters?.[R.player(s)]?.records||{}).some(r=>!r.result&&!r.cancelled&&!r.activityPausedForSleep&&r.space===S.player(s)&&r.body===(s.activeForm||null)&&P.near(s,r.npcId));}
 return Object.freeze({archetypes,begin,complete,cancel,payload,active,observe});
 });

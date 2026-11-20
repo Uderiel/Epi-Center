@@ -1,0 +1,12 @@
+/* Routine priority for an already controller-accepted private encounter; grants no encounter or access. */
+(function(r,f){const n=typeof module==='object'&&module.exports,a=f(...(n?['./relationships','./scene-presence','./bimbo-virus-policy','./world-clock'].map(require):[r.EpiRelationships,r.EpiScene,r.EpiBimboVirusPolicy,r.EpiWorldClock]));if(n)module.exports=a;else r.EpiEncounterContinuity=a;})(globalThis,function(R,S,P,T){
+const body=s=>JSON.stringify([s.activeForm||null,s.erinRestoration?.stage>0&&!s.erinRestoration.released?'erin':null]);
+function records(s){return s.world?.encounterContinuity?.[R.player(s)]?.records||{};}
+function begin(s,event){if(event?.resolved!==true||!event.id||event.playerAgreed!==true||event.npcAgreed!==true||event.private!==true||!P.near(s,event.npcId))throw Error('An already accepted, local, private encounter is required for a routine hold.');s.world||={};s.world.encounterContinuity||={};const q=s.world.encounterContinuity[R.player(s)]||={records:{}};if(q.records[event.id])return q.records[event.id];return q.records[event.id]={id:event.id,npcId:event.npcId,body:body(s),space:S.player(s),phase:'active',at:T.ensure(s).minutes,overnightActors:{},releasedActors:{}};}
+function sameScene(s,row){return !!row&&!s.encounter?.active&&row.phase!=='ended'&&row.body===body(s)&&row.space===S.player(s)&&P.near(s,row.npcId);}
+function sharedRest(s,id){const row=records(s)[id];if(!row||row.phase==='ended'||row.phase==='shared-rest')return;row.phase='shared-rest';row.completedAt=T.ensure(s).minutes;}
+function end(s,id,reason='The accepted encounter ended.'){const row=records(s)[id];if(row){row.phase='ended';row.endedAt=T.ensure(s).minutes;row.reason=reason;}}
+function permitsRest(s,id){const row=records(s)[id];return sameScene(s,row)&&row.phase==='shared-rest'&&!row.releasedActors[row.npcId];}
+function hold(s,actorId,at,{evening=false,morningReady=false}={}){for(const row of Object.values(records(s)).reverse()){if(actorId!=='player'&&row.npcId!==actorId)continue;if(!sameScene(s,row)){end(s,row.id,'The participants changed body or separated.');continue;}if(row.releasedActors[actorId])continue;if(evening)row.overnightActors[actorId]=true;if(row.phase==='active')return row;if(morningReady){row.releasedActors[actorId]=at;continue;}if(row.overnightActors[actorId])return row;}return null;}
+return Object.freeze({begin,records,sharedRest,end,hold,permitsRest,sameScene});
+});

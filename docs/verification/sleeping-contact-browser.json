@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checks": [
+    "Actual sleeping states plus an accepted skin-contact session activate the detector in an authored QA private space",
+    "Canonical clock dries exposed forehead after thirty-five minutes while the pressed neck remains moist",
+    "Reload preserves regional drying clocks without simulating offline perspiration",
+    "Sixty actual game minutes of sleeping contact reach one hidden resistance check at the intact-skin threshold",
+    "Pressed moisture dries at seventy inactive minutes, confirming the doubled interval",
+    "Sleeping-contact observations stay in private feed entries",
+    "Separating through the existing stop controller removes the sleeping-contact condition"
+  ],
+  "errors": [],
+  "scope": "Isolated QA slot, authored private-space and accepted contact fixtures, actual NPC/night routine and canonical game clock; no new production bed permission, owner save or paid model call"
+}

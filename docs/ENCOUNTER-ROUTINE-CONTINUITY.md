@@ -1,0 +1,13 @@
+# Accepted-encounter routine priority — implemented locally, unpublished
+
+`encounter-continuity.js` records priority only for an already controller-resolved, mutually accepted, private, local encounter. It creates no encounter permission, contact, fluid, clothing change or transport. The existing private encounter adapter registers acceptance, transitions to shared rest at completion or actual sleep, and releases on cancellation. The same bridge is available to other authored encounter controllers; player narration alone cannot register it.
+
+Priya’s actual per-minute scheduler defers routine goals, household grooming, clothing changes, outings and refreshment jobs while this context is active. In-progress nighttime jobs are interrupted without applying a later completion or claiming rewards. Her actual attire remains as the encounter controller left it. After an evening encounter ends, shared rest is preserved across midnight and reload, and her native6:30 AM morning routine can resume. Unfinished nighttime clothes are not replayed as catch-up work.
+
+Erin’s form-life controller similarly prevents high-influence bedtime autonomy, automatic grooming, redressing and ordinary travel from interrupting accepted encounters. It clears stale ordinary bedtime/daily jobs without changing actual clothing. Existing urgent-need handling and resource accounting remain. After completed overnight rest, her existing weekday7 AM/weekend8 AM morning rules resume; this grants no new autonomy consent. An encounter still actually in progress takes priority until it ends.
+
+Tits’s private-encounter context also defers her scheduled evening clothing/travel. If she stays at Burke’s overnight, the next morning uses the existing preparation controller rather than performing yesterday’s nightlife outfit change. Existing off-site return plans remain responsible for their normal route. Physical presence is independent of working status, so an off-duty NPC still physically in the private room is not made invisible by ending her shift.
+
+Actual separation, a changed body or combat invalidates the hold. Routine priority never grants ordinary staff access, a new guest invitation, bed access, infection or a new NPC acceptance rule. Other NPC schedulers without authored private encounters do not gain one from this bridge.
+
+Ten focused native-controller checks cover Priya’s nightwear, pending jobs, midnight/reload and morning return; Erin’s high-influence routine and pending nightwear; ordinary control behavior without an encounter; separation; and Tits’s evening outfit/preparation boundary with actual staff permission. See verification/encounter-continuity-summary.json. Nothing published.

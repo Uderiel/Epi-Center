@@ -1,6 +1,10 @@
-## Unpublished — sweat-contact viability calculation and source timing fix
+## Unpublished — sleeping contact and overnight encounter continuity
 
-Calculated exposed vs proposed2x pressed-skin drying. Twenty minutes activity yields35 exposed drying minutes or70 under the proposed regional occlusion rule, making60 continuous minutes possible in the latter. The2x rule and sleep-contact detection remain proposed/unimplemented. Fixed new sweat failing to start an already active contact timer;18 contact cases and existing exposure/kissing/browser checks pass. See PERSPIRATION-DESIGN.md and verification/sweat-transmission-math.json. Nothing published.
+Implemented actual shared-sleep/direct-contact detection and regional doubled drying, documented reproducible math, and preserved standard sample freshness and thresholds. Nighttime routines no longer redress or move Priya/Erin/Tits during accepted encounters or overnight rest; native morning routines resume afterward. Automatic Tits illness advice is once per stable player across reloads and action families; explicit follow-up questions remain available. 1,909 automated cases, sixteen sleeping-contact cases, ten native routine cases and seven sleeping browser checks pass; ingestion/kissing browser regressions also pass. See SLEEPING-CONTACT.md, ENCOUNTER-ROUTINE-CONTINUITY.md and verification summaries. Nothing published.
+
+## Historical checkpoint — sweat-contact calculation before sleeping-contact implementation
+
+Calculated exposed vs proposed2x pressed-skin drying. Twenty minutes activity yields35 exposed drying minutes or70 under the proposed regional occlusion rule, making60 continuous minutes possible in the latter. That checkpoint is superseded by implemented SLEEPING-CONTACT.md. Fixed new sweat failing to start an already active contact timer;18 contact cases and existing exposure/kissing/browser checks pass. See PERSPIRATION-DESIGN.md and verification/sweat-transmission-math.json. Nothing published.
 
 ## Unpublished — typed fluid ingestion/contact wired
 

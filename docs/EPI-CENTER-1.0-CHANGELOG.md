@@ -1,3 +1,7 @@
+## Unpublished — pressed-skin sleep and encounter routine priority
+
+Implemented doubled regional drying during actual sleeping contact, exact threshold/freshness checks, private observations and reload-safe clocks. Accepted encounters/overnight rest now defer Priya/Erin/Tits routine redressing and movement until appropriate morning resumption. Tits gives one automatic illness advisory per player; explicit follow-ups remain. No publication or new bed/encounter permissions.
+
 ## Unpublished — typed fluid ingestion and skin contact
 
 Connected Tits’s public saliva/sweat requests to warning/confirmation, actual region/source availability, separate live exposure timers, stopping and neutral narrator metadata. Genital-fluid requests require an accepted private encounter and recorded source; no automatic movement or new source-production scene. Per-point ingestion windows retain old save progress. See FLUID-CONTACT-INTERACTIONS.md for validation and limits. Nothing deployed.

@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "published": false,
+  "automatedCases": 1909,
+  "focusedSleepingCases": 16,
+  "browserChecks": 7,
+  "existingFluidBrowserChecks": 8,
+  "existingKissingBrowserChecks": 7,
+  "scope": "Actual sleeping/contact state with canonical clock in isolated QA fixture; no new production bed permission or paid calls"
+}

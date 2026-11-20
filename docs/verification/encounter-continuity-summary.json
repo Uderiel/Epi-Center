@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "published": false,
+  "automatedCases": 1909,
+  "nativeRoutineCases": 10,
+  "actorsTested": [
+    "Priya native daily scheduler",
+    "Erin form-life high-influence autonomy",
+    "Tits closing and preparation scheduler"
+  ],
+  "checks": [
+    "No nighttime redressing or ordinary movement during accepted encounters",
+    "Shared rest across midnight and reload",
+    "Existing native morning rules resume",
+    "Pending nightwear cannot complete later as catch-up",
+    "Ordinary routines still work without a resolved accepted encounter"
+  ],
+  "warningCap": "One automatic advisory per stable player; follow-up questions remain available"
+}

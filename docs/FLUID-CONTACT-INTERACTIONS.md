@@ -29,3 +29,7 @@ This implements typed requests for the authored Tits policy and shared controlle
 ## Verification
 
 Seventeen focused contact cases cover warning/confirmation, exact timing, dry/fresh/expired sweat, implicit consumption, simultaneous sessions, separate point timers, legacy migration, privacy/source requirements, accessible regions, work/absence/participant stops, body restrictions, wording/modalities and reload. Eight browser cases exercise the real composer, canonical clock, perspiration scheduler, live feed, stop shortcut and serialized narrator options in an isolated QA slot. No owner saves or paid calls. Full current regression and browser counts are recorded in `verification/fluid-contact-summary.json`. Published v1.0.130 and its frozen Bible remain unchanged.
+
+## Current sleep and warning integration
+
+The first automatic Tits advisory is once per stable player, shared across kissing, fluid actions and forthcoming private invitations, and persists through reloads. Known players can ask follow-up questions even below+50, without another mandatory warning or choice prompt. New actions still require willingness and the player’s actual choice. Sleeping participants cannot answer a new request; active kissing/consumption stops, while an already accepted passive skin contact may continue under SLEEPING-CONTACT.md. Broken-skin classification uses the explicitly recorded recipient region where known.

@@ -1,3 +1,7 @@
+## Current unpublished warning and overnight updates
+
+Automatic illness advice is once per stable player across interactions/reloads, while direct follow-up discussion remains available. Accepted private encounters and overnight rest take priority over automatic evening outfit/travel, with native morning preparation afterward. Physical presence remains distinct from on-duty service. See SLEEPING-CONTACT.md and ENCOUNTER-ROUTINE-CONTINUITY.md.
+
 ## Current unpublished fluid-contact acceptance
 
 The owner approved public saliva/sweat requests when the shop is quiet, after her infectiousness warning and player choice. Her literal, simple and personally enthusiastic view of the condition remains. Genital-fluid requests require privacy; no auto transport/staff access. Supported typed requests are now wired to actual sources and timers; see FLUID-CONTACT-INTERACTIONS.md.

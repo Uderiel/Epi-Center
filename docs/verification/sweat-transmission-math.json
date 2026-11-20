@@ -1,51 +1,48 @@
 {
   "clock": "game minutes",
-  "assumptions": "Initially dry, no footwear or renewed exertion; neck region; intact skin; continuous actual contact. Pressed-skin x2 drying is an owner-proposed model, not current runtime behavior.",
+  "status": "Implemented local controller calculation; unpublished",
+  "formula": "For starting regional body-equivalent score S>0: exposed D=10+5*ceil(S/5), pressed sleeping D=2*D. Initially dry S=0 stays dry.",
+  "assumptions": "Initially dry; neck region; no clothing barrier, renewed exertion, nervousness or footwear enclosure. Pressed cases have actual sleep plus a previously accepted skin-contact session. Same room/bed alone is insufficient. Sample freshness is not extended.",
   "results": [
     {
       "activityGameMinutes": 10,
       "scoreAtStop": 0,
-      "exposedNeckDryAfterMinutes": 0,
-      "proposedPressedSkinDryAfterMinutes": 0,
-      "pressedSkinCanReach60AfterActivity": false,
-      "duringExposedResistanceCheckAt": null,
-      "afterExposedResistanceCheckAt": null
+      "exposedRegionDryAfterGameMinutes": 0,
+      "pressedSleepingRegionDryAfterGameMinutes": 0,
+      "resistanceCheckAtTotalGameMinute": null,
+      "freshFluidLifetimeGameMinutes": 120
     },
     {
       "activityGameMinutes": 20,
       "scoreAtStop": 25,
-      "exposedNeckDryAfterMinutes": 35,
-      "proposedPressedSkinDryAfterMinutes": 70,
-      "pressedSkinCanReach60AfterActivity": true,
-      "duringExposedResistanceCheckAt": null,
-      "afterExposedResistanceCheckAt": null
+      "exposedRegionDryAfterGameMinutes": 35,
+      "pressedSleepingRegionDryAfterGameMinutes": 70,
+      "resistanceCheckAtTotalGameMinute": 80,
+      "freshFluidLifetimeGameMinutes": 120
     },
     {
       "activityGameMinutes": 30,
       "scoreAtStop": 35,
-      "exposedNeckDryAfterMinutes": 45,
-      "proposedPressedSkinDryAfterMinutes": 90,
-      "pressedSkinCanReach60AfterActivity": true,
-      "duringExposedResistanceCheckAt": null,
-      "afterExposedResistanceCheckAt": null
+      "exposedRegionDryAfterGameMinutes": 45,
+      "pressedSleepingRegionDryAfterGameMinutes": 90,
+      "resistanceCheckAtTotalGameMinute": 90,
+      "freshFluidLifetimeGameMinutes": 120
     },
     {
       "activityGameMinutes": 40,
       "scoreAtStop": 45,
-      "exposedNeckDryAfterMinutes": 55,
-      "proposedPressedSkinDryAfterMinutes": 110,
-      "pressedSkinCanReach60AfterActivity": true,
-      "duringExposedResistanceCheckAt": 80,
-      "afterExposedResistanceCheckAt": null
+      "exposedRegionDryAfterGameMinutes": 55,
+      "pressedSleepingRegionDryAfterGameMinutes": 110,
+      "resistanceCheckAtTotalGameMinute": 100,
+      "freshFluidLifetimeGameMinutes": 120
     },
     {
       "activityGameMinutes": 50,
       "scoreAtStop": 55,
-      "exposedNeckDryAfterMinutes": 65,
-      "proposedPressedSkinDryAfterMinutes": 130,
-      "pressedSkinCanReach60AfterActivity": true,
-      "duringExposedResistanceCheckAt": 80,
-      "afterExposedResistanceCheckAt": 110
+      "exposedRegionDryAfterGameMinutes": 65,
+      "pressedSleepingRegionDryAfterGameMinutes": 130,
+      "resistanceCheckAtTotalGameMinute": 110,
+      "freshFluidLifetimeGameMinutes": 120
     }
   ]
 }

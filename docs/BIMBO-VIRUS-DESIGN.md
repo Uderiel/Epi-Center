@@ -1,3 +1,7 @@
+## Current unpublished sleeping-contact implementation
+
+Actual shared sleep plus existing accepted direct-skin contact now applies regional2x drying without extending the two-hour infectious-fluid lifetime. No contact is inferred from bed/room sharing. Existing60/30-minute continuous skin thresholds and separate resistance checks remain. See SLEEPING-CONTACT.md for implementation/math and ENCOUNTER-ROUTINE-CONTINUITY.md for nighttime-routine priority.
+
 ## Current unpublished rule — Tits public/private fluid requests
 
 After her warning and player choice, Tits can accept public saliva/sweat contact in a quiet shop, subject to actual work, willingness, source and regional access. Genital-fluid requests require an accepted private encounter and recorded actual source. Typed requests now route through fluid-contact.js; see FLUID-CONTACT-INTERACTIONS.md for verified scope and explicit limits.

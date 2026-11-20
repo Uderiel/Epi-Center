@@ -1,0 +1,3 @@
+# Private-encounter initiation — approved next implementation
+
+Owner selected Burke’s prep/storage room D with a separate temporary, scene-only invitation. Ordinary +75 staff invitations remain separate; no lending/access thresholds are merged. The first automatic warning is once per stable player; the player must actually choose to accept an offered private invitation. Movement must use the existing C–D route and normal body/pathing/permission checks; no teleport or new room. This decision is approved, but the invitation/escort/initiation runtime is not implemented by this design note. Actual private fluid-production outcome rules and other NPC acceptance policies remain subsequent work.
