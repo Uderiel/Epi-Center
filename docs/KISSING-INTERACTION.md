@@ -21,3 +21,7 @@ Resolved events preserve authored `tone: explicit_adult` with neutral technique,
 ## Verification
 
 `kissing.test.js` covers exact threshold, rolling expiration, overlaps, reload, renewed resistance, work interruption, both participants stopping, body restrictions and technique parsing. `scripts/browser-kissing.cjs` exercises the actual composer, warning/confirmation, live clock, stop/resume, resolved feed metadata and reload in an isolated QA save without paid calls. See `docs/verification/kissing-browser.json` for recorded browser evidence.
+
+## Drool reference addition
+
+Drool is an alias for saliva. Direct consumption uses the existing ten-minute ingestion route within a rolling120-game-minute window; non-ingested mucous contact uses the existing twenty-minute continuous route, and intact-skin contact uses sixty continuous minutes. Naming drool does not establish a recipient, actual contact or a completed threshold. These conditions are recorded in the wording reference; natural-language drool interaction triggers are not yet implemented.

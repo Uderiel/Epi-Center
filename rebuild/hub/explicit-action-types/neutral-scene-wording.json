@@ -80,7 +80,8 @@
     "Duration, willingness, acceptance, fluid route and resistance outcomes require separately resolved records.",
     "Do not combine labels into explicit sexual instructions or direct a narrative model to reconstruct omitted acts.",
     "This reference adds no parser routes, NPC permissions, transmission triggers or automatic outcomes.",
-    "Fluid names and contact-record field definitions are reference vocabulary only; they add no infectiousness, exposure thresholds, barriers or resistance rules."
+    "Fluid names and contact-record field definitions are reference vocabulary only; they add no infectiousness, exposure thresholds, barriers or resistance rules.",
+    "Drooling alone establishes no recipient contact. Consuming drool requires a resolved ingestion event; brief contact or a single swallow does not automatically satisfy a timed threshold."
   ],
   "fluidNames": [
     "saliva",
@@ -104,5 +105,32 @@
     "contactDuration": "Actual qualifying contact duration in game minutes.",
     "barrierPresent": "Recorded clothing or barrier status; does not independently decide protection.",
     "contactEndedAt": "Game-clock timestamp when actual contact ended."
-  }
+  },
+  "fluidAliases": {
+    "drool": "saliva"
+  },
+  "contactRouteReference": [
+    {
+      "condition": "direct consumption of fresh infectious drool",
+      "route": "ingestion",
+      "requiredGameMinutes": 10,
+      "windowGameMinutes": 120,
+      "accumulation": "rolling; each minute expires individually",
+      "status": "existing exposure controller; natural-language interaction trigger not yet implemented"
+    },
+    {
+      "condition": "fresh infectious drool contacting mucous membranes without consumption",
+      "route": "mucous",
+      "requiredGameMinutes": 20,
+      "accumulation": "continuous; not the kissing-specific rolling rule",
+      "status": "existing exposure controller; natural-language interaction trigger not yet implemented"
+    },
+    {
+      "condition": "fresh infectious drool contacting intact skin",
+      "route": "skin",
+      "requiredGameMinutes": 60,
+      "accumulation": "continuous",
+      "status": "existing exposure controller; natural-language interaction trigger not yet implemented"
+    }
+  ]
 }
