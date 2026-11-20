@@ -22,3 +22,7 @@ Verification: scene-tone unit cases, worker projection/validation tests, AI-clie
 ## Local unpublished private-encounter adapter
 
 See [INTIMATE-ENCOUNTER-CONTROLLER.md](INTIMATE-ENCOUNTER-CONTROLLER.md). The authored completion result uses `explicit_adult`, a non-graphic event and actual transmission outcome. Both direct payload construction and the private-feed path preserve this classification. The provider is instructed to summarize the recorded outcome without added actions. Natural-play invitations and kissing are not implemented by the metadata adapter.
+
+## Unpublished regional perspiration context
+
+Shared physical context provides locally visible qualitative perspiration only; no hidden numerical sweat score or covered-region survey is projected to nearby NPCs. The worn-flats private sensory path retains actual foot moisture observations. Controller-resolved private encounter regional observations, when present, are carried separately inside the owner-only `intimateEncounter.privatePerspiration` metadata. No generated prose can create exposure, permission or additional regional access.

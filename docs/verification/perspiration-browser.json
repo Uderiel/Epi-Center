@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    "Real mapped jogging routes accumulate perspiration through the canonical clock",
+    "Player status shows qualitative perspiration without a numeric meter",
+    "Worn shoes retain sensory moisture without soiling or hamper eligibility",
+    "Inactivity dries body perspiration through normal game time",
+    "Reload and rendering do not advance moisture or reroll clothing checks",
+    "Narrator receives local visible observations without covered regions or hidden scores",
+    "Absent NPC perspiration is not observable",
+    "Participant-only contact observations reach private scene metadata without public-region disclosure"
+  ],
+  "errors": [],
+  "scope": "Isolated slot, actual mapped travel and canonical clock; no owner saves or paid calls"
+}

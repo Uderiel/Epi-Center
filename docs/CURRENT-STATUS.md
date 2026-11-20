@@ -1,4 +1,8 @@
-## Approved, not implemented — perspiration visibility
+## Unpublished — regional body sweat implemented
+
+Canonical clock/travel and per-minute NPC schedulers now persist regional body sweat, inactivity drying, local qualitative visibility, garment moisture/soiling and shared Priya-flats sensory moisture. Shoes are exempt from sweat soiling and hamper access. No new ingestion triggers, NPC advice or publication. See PERSPIRATION-DESIGN.md and verification/perspiration-summary.json. 1,861 automated cases and eight targeted browser checks pass; existing kissing/language browser checks pass.
+
+## Historical design checkpoint — superseded by implemented perspiration
 
 Recorded the owner’s hidden numeric perspiration score and locally observable50+/dripping100 descriptions, without automatic comments or rest advice. Body-region and garment effects are location-specific. See PERSPIRATION-DESIGN.md for approved exertion timing, remaining region/decay details and proposed clothing-soiling probabilities. Runtime integration is unfinished.
 

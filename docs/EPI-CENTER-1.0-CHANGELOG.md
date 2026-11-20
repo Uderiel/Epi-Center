@@ -1,3 +1,7 @@
+## Unpublished — regional perspiration and footwear integration
+
+Implemented approved activity timing and regional moisture, saved actor/body state, inactivity drying, local qualitative observation and garment sweat-soiling. Priya-flats senses now share her actual foot moisture. Shoes retain moisture descriptions but cannot be sweat-soiled or deposited in the hamper. See PERSPIRATION-DESIGN.md for scope and verification. Nothing deployed.
+
 ## Unpublished — approved kissing vocabulary and contact exposure
 
 Added the shared body-part-indexed kissing library and Tits’s text-driven acceptance, warning/confirmation, stopping and work interruption. French/open-mouth exposure uses actual game-clock contact in a rolling two-hour window; individual minutes expire. Authored tone and neutral contact facts reach serialized scene options. 1,846 automated cases and targeted browser checks pass. Not deployed.

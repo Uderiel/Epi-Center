@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "published": false,
+  "automatedCases": 1861,
+  "focusedCases": 14,
+  "browserChecks": 8,
+  "existingKissingBrowserChecks": 7,
+  "existingLanguageBrowserChecks": 8,
+  "scope": "Current local save, canonical mapped travel and isolated QA fixtures; no owner saves or paid calls; no new ingestion interaction triggers",
+  "privateEncounterObservationCase": true
+}
