@@ -1,0 +1,3 @@
+/* Authored scene controllers call this after resolving the private outcome.
+   No menu, text keyword or model response grants NPC agreement. */
+function completeIntimateEncounter(event){const result=EpiIntimateEncounter.complete(save,event);if(!result.duplicate){for(const e of result.events)feedEntry('Game result',e.text,undefined,{origin:'mechanics',audience:'owner'});feedEntry('Private encounter',result.event,undefined,{origin:'narration',narrativeEvent:true,tone:result.tone,eventStatus:result.eventStatus,audience:'owner',intimateEncounter:{archetype:result.archetype,transmission:result.transmission}});}store();render();return result;}

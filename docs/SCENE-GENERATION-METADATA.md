@@ -18,3 +18,7 @@ Example (metadata only):
 On the wire, `scene` is JSON serialized to a string in the existing worker payload; `event` remains the existing separate string field. Do not send an incompatible nested object instead of the serialized scene.
 
 Verification: scene-tone unit cases, worker projection/validation tests, AI-client regression and actual browser feed-to-payload checks with local provider stubs. No paid inference, explicit scene generation or publication is claimed.
+
+## Local unpublished private-encounter adapter
+
+See [INTIMATE-ENCOUNTER-CONTROLLER.md](INTIMATE-ENCOUNTER-CONTROLLER.md). The authored completion result uses `explicit_adult`, a non-graphic event and actual transmission outcome. Both direct payload construction and the private-feed path preserve this classification. The provider is instructed to summarize the recorded outcome without added actions. Natural-play invitations and kissing are not implemented by the metadata adapter.

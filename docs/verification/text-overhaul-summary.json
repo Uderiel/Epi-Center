@@ -1,0 +1,20 @@
+{
+  "status": "Finished locally, unpublished",
+  "automatedCases": 1822,
+  "sourceInventory": {
+    "attributeFamilies": 94,
+    "idOnlyButtonSites": 18,
+    "forms": 8,
+    "existingTextAdapters": 72
+  },
+  "composerBrowserChecks": 12,
+  "catalogContexts": 9,
+  "catalogCandidates": 412,
+  "incorrectControllerSelections": 0,
+  "catalogSaveMutations": 0,
+  "missingOwnLabels": 0,
+  "ambiguousLabelsRequireClarification": 37,
+  "publishedVersionUnchanged": "1.0.130",
+  "paidModelCalls": false,
+  "ownerSavesUsed": false
+}

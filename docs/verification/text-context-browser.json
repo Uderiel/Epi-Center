@@ -1,0 +1,130 @@
+{
+  "rows": [
+    {
+      "context": "hub",
+      "candidates": 18,
+      "fields": 0,
+      "sideEffects": false,
+      "missing": [],
+      "wrong": [],
+      "ambiguous": []
+    },
+    {
+      "context": "burkes-A",
+      "candidates": 27,
+      "fields": 0,
+      "sideEffects": false,
+      "missing": [],
+      "wrong": [],
+      "ambiguous": [
+        "Put one in basket",
+        "Put one in basket",
+        "Put one in basket",
+        "Put one in basket"
+      ]
+    },
+    {
+      "context": "burkes-C",
+      "candidates": 51,
+      "fields": 0,
+      "sideEffects": false,
+      "missing": [],
+      "wrong": [],
+      "ambiguous": []
+    },
+    {
+      "context": "charity-H",
+      "candidates": 72,
+      "fields": 0,
+      "sideEffects": false,
+      "missing": [],
+      "wrong": [],
+      "ambiguous": [
+        "Help",
+        "Ask for help",
+        "V-neck",
+        "V-neck",
+        "Crew neck",
+        "Crew neck"
+      ]
+    },
+    {
+      "context": "priya-living",
+      "candidates": 42,
+      "fields": 0,
+      "sideEffects": false,
+      "missing": [],
+      "wrong": [],
+      "ambiguous": []
+    },
+    {
+      "context": "nadia-living",
+      "candidates": 52,
+      "fields": 4,
+      "sideEffects": false,
+      "missing": [],
+      "wrong": [],
+      "ambiguous": [
+        "Kitchen & dining",
+        "Save her current outfit 1",
+        "Save her current outfit 2",
+        "Save her current outfit 3",
+        "Kitchen & Dining"
+      ]
+    },
+    {
+      "context": "richard-living",
+      "candidates": 37,
+      "fields": 0,
+      "sideEffects": false,
+      "missing": [],
+      "wrong": [],
+      "ambiguous": [
+        "Suite 7A",
+        "Kitchen and bar",
+        "City-view balcony",
+        "Suite 7A",
+        "Kitchen and bar",
+        "City-view balcony",
+        "Living room and workspace"
+      ]
+    },
+    {
+      "context": "office-F",
+      "candidates": 79,
+      "fields": 1,
+      "sideEffects": false,
+      "missing": [],
+      "wrong": [],
+      "ambiguous": [
+        "\u25a4 Work",
+        "Examine",
+        "Examine",
+        "Examine",
+        "Work",
+        "Unread",
+        "Unread",
+        "Unread",
+        "Examine",
+        "Examine",
+        "Examine",
+        "Examine",
+        "Examine",
+        "Examine",
+        "Examine"
+      ]
+    },
+    {
+      "context": "combat",
+      "candidates": 34,
+      "fields": 0,
+      "sideEffects": false,
+      "missing": [],
+      "wrong": [],
+      "ambiguous": []
+    }
+  ],
+  "errors": [],
+  "scope": "Read-only contextual catalog checks on isolated QA scenes, no owner saves or paid calls",
+  "passed": true
+}

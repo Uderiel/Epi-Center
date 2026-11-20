@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checks": [
+    "Plain doorstep narration invokes the actual Priya knock/visit controller without opening a menu",
+    "Date request to actually present Priya produces her optional cat offer",
+    "Erin receives a direct date discussion and no cat condition",
+    "Borrow wording discovers the register action and runs the real saved loan controller",
+    "Carried-item start/pause text works from Play without the Items menu",
+    "Eve helps remotely without a remote hologram; learned database survives reload",
+    "Remote help payload uses A.S.S. without fictional co-presence; 360px Play layout remains usable"
+  ],
+  "errors": [],
+  "scope": "Isolated QA save, actual composer submissions, no paid calls"
+}

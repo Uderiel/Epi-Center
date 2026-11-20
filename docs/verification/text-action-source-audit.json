@@ -1,0 +1,1216 @@
+{
+  "scope": "All rebuild hub/combat/title/creation JS/HTML source button families, form entry points and existing text adapters",
+  "limitations": [
+    "Static attributes include both actions and parameter metadata; counts do not equal distinct actions.",
+    "Parameterized forms and deeper navigation branches require dedicated text/provider checks.",
+    "No claim every natural-language phrase or every dynamic scene has browser coverage."
+  ],
+  "buttonAttributeFamilies": 94,
+  "rows": [
+    {
+      "attribute": "data-activity-id",
+      "files": [
+        "rebuild/hub/erin-activities-ui.js"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-apartment-item",
+      "files": [
+        "rebuild/hub/erin-life-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-apartment-object",
+      "files": [
+        "rebuild/hub/erin-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-apartment-storage",
+      "files": [
+        "rebuild/hub/erin-life-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-apartment-view",
+      "files": [
+        "rebuild/hub/erin-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-book",
+      "files": [
+        "rebuild/hub/erin-life-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-building",
+      "files": [
+        "rebuild/hub/social-ui.js"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-building-id",
+      "files": [
+        "rebuild/hub/social-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-burkes",
+      "files": [
+        "rebuild/hub/burkes-sweets-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-burkes-id",
+      "files": [
+        "rebuild/hub/burkes-sweets-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-burkes-retail",
+      "files": [
+        "rebuild/hub/burkes-retail-ui.js"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-cat",
+      "files": [
+        "rebuild/hub/equipment-ui.js",
+        "rebuild/hub/priya-cat-ui.js"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-cat-arg",
+      "files": [
+        "rebuild/hub/priya-cat-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-channel",
+      "files": [
+        "rebuild/hub/index.html"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Interface/developer control or selector metadata"
+    },
+    {
+      "attribute": "data-charity-household",
+      "files": [
+        "rebuild/hub/charity-household-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-charity-household-id",
+      "files": [
+        "rebuild/hub/charity-household-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-charity-service",
+      "files": [
+        "rebuild/hub/charity-service-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-charity-service-id",
+      "files": [
+        "rebuild/hub/charity-service-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-cherished",
+      "files": [
+        "rebuild/hub/cherished-shop-ui.js",
+        "rebuild/hub/cherished-touch-ui.js"
+      ],
+      "sourceOccurrences": 13,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-cherished-id",
+      "files": [
+        "rebuild/hub/cherished-shop-ui.js",
+        "rebuild/hub/cherished-touch-ui.js"
+      ],
+      "sourceOccurrences": 6,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-clothing-id",
+      "files": [
+        "rebuild/hub/cherished-shop-ui.js"
+      ],
+      "sourceOccurrences": 3,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-department",
+      "files": [
+        "rebuild/hub/department-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-department-arg",
+      "files": [
+        "rebuild/hub/department-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-department-id",
+      "files": [
+        "rebuild/hub/department-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-dev",
+      "files": [
+        "rebuild/hub/index.html"
+      ],
+      "sourceOccurrences": 20,
+      "classification": "Interface/developer control or selector metadata"
+    },
+    {
+      "attribute": "data-drawer",
+      "files": [
+        "rebuild/hub/index.html"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Interface/developer control or selector metadata"
+    },
+    {
+      "attribute": "data-easter",
+      "files": [
+        "rebuild/hub/easter-egg-ui.js"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-ec-action",
+      "files": [
+        "rebuild/combat/encounter-ui-v1.0.35.js",
+        "rebuild/combat/encounter-ui-v1.0.36.js",
+        "rebuild/combat/encounter-ui-v1.0.37.js",
+        "rebuild/combat/encounter-ui-v1.0.39.js"
+      ],
+      "sourceOccurrences": 4,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-ec-discipline",
+      "files": [
+        "rebuild/combat/encounter-ui-v1.0.37.js",
+        "rebuild/combat/encounter-ui-v1.0.39.js"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-ec-tab",
+      "files": [
+        "rebuild/combat/encounter-ui-v1.0.35.js",
+        "rebuild/combat/encounter-ui-v1.0.36.js",
+        "rebuild/combat/encounter-ui-v1.0.37.js",
+        "rebuild/combat/encounter-ui-v1.0.39.js"
+      ],
+      "sourceOccurrences": 4,
+      "classification": "Interface/developer control or selector metadata"
+    },
+    {
+      "attribute": "data-erin",
+      "files": [
+        "rebuild/hub/erin-life-ui.js",
+        "rebuild/hub/erin-ui.js"
+      ],
+      "sourceOccurrences": 8,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-erin-activity",
+      "files": [
+        "rebuild/hub/erin-activities-ui.js"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-erin-office",
+      "files": [
+        "rebuild/hub/erin-office-ui.js",
+        "rebuild/hub/richard-ui.js"
+      ],
+      "sourceOccurrences": 4,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-flats",
+      "files": [
+        "rebuild/hub/priya-flats-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-floor-action",
+      "files": [
+        "rebuild/hub/office-floor-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-floor-arg",
+      "files": [
+        "rebuild/hub/office-floor-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-form-id",
+      "files": [
+        "rebuild/hub/equipment-ui.js"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-form-transfer",
+      "files": [
+        "rebuild/hub/equipment-ui.js"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-guide",
+      "files": [
+        "rebuild/hub/index.html"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-hangry",
+      "files": [
+        "rebuild/hub/index.html"
+      ],
+      "sourceOccurrences": 9,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-info",
+      "files": [
+        "rebuild/hub/index.html"
+      ],
+      "sourceOccurrences": 5,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-item-id",
+      "files": [
+        "rebuild/hub/tits-ui.js"
+      ],
+      "sourceOccurrences": 3,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-life",
+      "files": [
+        "rebuild/hub/erin-life-ui.js"
+      ],
+      "sourceOccurrences": 7,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-life-id",
+      "files": [
+        "rebuild/hub/erin-life-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-lip-cosmetic",
+      "files": [
+        "rebuild/hub/lip-cosmetics-ui.js"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-lip-item",
+      "files": [
+        "rebuild/hub/lip-cosmetics-ui.js"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-location-reference",
+      "files": [
+        "rebuild/hub/location-details-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-mail-id",
+      "files": [
+        "rebuild/hub/personal-mail-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-mail-key",
+      "files": [
+        "rebuild/hub/personal-mail-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-map-location",
+      "files": [
+        "rebuild/hub/index.html"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-map-zoom",
+      "files": [
+        "rebuild/hub/index.html"
+      ],
+      "sourceOccurrences": 3,
+      "classification": "Interface/developer control or selector metadata"
+    },
+    {
+      "attribute": "data-marketing",
+      "files": [
+        "rebuild/hub/marketing-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-marketing-arg",
+      "files": [
+        "rebuild/hub/marketing-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-mind",
+      "files": [
+        "rebuild/hub/form-minds-ui.js",
+        "rebuild/hub/index.html"
+      ],
+      "sourceOccurrences": 5,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-nadia-home",
+      "files": [
+        "rebuild/hub/nadia-home-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-nadia-id",
+      "files": [
+        "rebuild/hub/nadia-home-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-nav-scope",
+      "files": [
+        "rebuild/hub/cherished-touch-ui.js",
+        "rebuild/hub/navigation-ui.js",
+        "rebuild/hub/office-floor-ui.js",
+        "rebuild/hub/priya-flats-ui.js",
+        "rebuild/hub/richard-home-ui.js",
+        "rebuild/hub/technology-center-ui.js",
+        "rebuild/hub/work-dashboard-ui.js"
+      ],
+      "sourceOccurrences": 12,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-nav-target",
+      "files": [
+        "rebuild/hub/cherished-touch-ui.js",
+        "rebuild/hub/navigation-ui.js",
+        "rebuild/hub/office-floor-ui.js",
+        "rebuild/hub/priya-flats-ui.js",
+        "rebuild/hub/richard-home-ui.js",
+        "rebuild/hub/technology-center-ui.js",
+        "rebuild/hub/work-dashboard-ui.js"
+      ],
+      "sourceOccurrences": 12,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-object",
+      "files": [
+        "rebuild/hub/erin-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-object-action",
+      "files": [
+        "rebuild/hub/erin-life-ui.js",
+        "rebuild/hub/erin-ui.js",
+        "rebuild/hub/index.html"
+      ],
+      "sourceOccurrences": 4,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-object-id",
+      "files": [
+        "rebuild/hub/erin-life-ui.js",
+        "rebuild/hub/erin-ui.js",
+        "rebuild/hub/index.html"
+      ],
+      "sourceOccurrences": 4,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-office-action",
+      "files": [
+        "rebuild/hub/office-floor-ui.js",
+        "rebuild/hub/richard-ui.js",
+        "rebuild/hub/technology-center-ui.js",
+        "rebuild/hub/work-dashboard-ui.js"
+      ],
+      "sourceOccurrences": 15,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-office-fixture-action",
+      "files": [
+        "rebuild/hub/office-floor-ui.js",
+        "rebuild/hub/technology-center-ui.js"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-office-id",
+      "files": [
+        "rebuild/hub/erin-office-ui.js"
+      ],
+      "sourceOccurrences": 3,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-office-room",
+      "files": [
+        "rebuild/hub/office-floor-ui.js",
+        "rebuild/hub/richard-ui.js",
+        "rebuild/hub/technology-center-ui.js",
+        "rebuild/hub/work-dashboard-ui.js"
+      ],
+      "sourceOccurrences": 10,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-personal-action",
+      "files": [
+        "rebuild/hub/personal-mail-ui.js"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-player-clothing",
+      "files": [
+        "rebuild/hub/cherished-shop-ui.js"
+      ],
+      "sourceOccurrences": 3,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-preview-gender",
+      "files": [
+        "rebuild/hub/index.html"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Interface/developer control or selector metadata"
+    },
+    {
+      "attribute": "data-priya",
+      "files": [
+        "rebuild/hub/priya-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-priya-drawer",
+      "files": [
+        "rebuild/hub/priya-flats-ui.js"
+      ],
+      "sourceOccurrences": 4,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-priya-home",
+      "files": [
+        "rebuild/hub/priya-flats-ui.js"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-priya-house",
+      "files": [
+        "rebuild/hub/priya-household-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-priya-house-id",
+      "files": [
+        "rebuild/hub/priya-household-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-priya-object",
+      "files": [
+        "rebuild/hub/priya-flats-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-priya-routine",
+      "files": [
+        "rebuild/hub/priya-daily-ui.js"
+      ],
+      "sourceOccurrences": 3,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-retail-id",
+      "files": [
+        "rebuild/hub/burkes-retail-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-richard",
+      "files": [
+        "rebuild/hub/index.html",
+        "rebuild/hub/richard-ui.js"
+      ],
+      "sourceOccurrences": 10,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-richard-home",
+      "files": [
+        "rebuild/hub/richard-home-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-richard-home-id",
+      "files": [
+        "rebuild/hub/richard-home-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-route",
+      "files": [
+        "rebuild/hub/index.html"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-routine-offer",
+      "files": [
+        "rebuild/hub/priya-daily-ui.js"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-serving",
+      "files": [
+        "rebuild/hub/served-items-ui.js"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-serving-action",
+      "files": [
+        "rebuild/hub/served-items-ui.js"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-shared-activity",
+      "files": [
+        "rebuild/hub/shared-activities-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-shared-id",
+      "files": [
+        "rebuild/hub/shared-activities-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-shop",
+      "files": [
+        "rebuild/hub/cherished-shop-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-shop-id",
+      "files": [
+        "rebuild/hub/cherished-shop-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-storage-name",
+      "files": [
+        "rebuild/hub/erin-life-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-tits-hug",
+      "files": [
+        "rebuild/hub/tits-ui.js"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-tits-permission",
+      "files": [
+        "rebuild/hub/tits-ui.js"
+      ],
+      "sourceOccurrences": 4,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-travel-mode",
+      "files": [
+        "rebuild/hub/priya-flats-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-virus-arg",
+      "files": [
+        "rebuild/hub/bimbo-virus-social-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-virus-cure",
+      "files": [
+        "rebuild/hub/index.html"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-virus-social",
+      "files": [
+        "rebuild/hub/bimbo-virus-social-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    }
+  ],
+  "idOnly": [
+    {
+      "file": "rebuild/hub/equipment-ui.js",
+      "id": "releaseKibbles",
+      "classification": "Gameplay bridge"
+    },
+    {
+      "file": "rebuild/hub/equipment-ui.js",
+      "id": "equipKibbles",
+      "classification": "Gameplay bridge"
+    },
+    {
+      "file": "rebuild/hub/index.html",
+      "id": "resumeKibbles",
+      "classification": "Developer/presentation/account control"
+    },
+    {
+      "file": "rebuild/hub/index.html",
+      "id": "startKibbles",
+      "classification": "Developer/presentation/account control"
+    },
+    {
+      "file": "rebuild/hub/index.html",
+      "id": "releaseKibbles",
+      "classification": "Gameplay bridge"
+    },
+    {
+      "file": "rebuild/hub/index.html",
+      "id": "logoutButton",
+      "classification": "Developer/presentation/account control"
+    },
+    {
+      "file": "rebuild/hub/index.html",
+      "id": "feedKibbles",
+      "classification": "Gameplay bridge"
+    },
+    {
+      "file": "rebuild/hub/index.html",
+      "id": "openHubArt",
+      "classification": "Developer/presentation/account control"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.36.js",
+      "id": "ecContinue",
+      "classification": "Gameplay bridge"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.37.js",
+      "id": "ecContinue",
+      "classification": "Gameplay bridge"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.37.js",
+      "id": "ecContinue",
+      "classification": "Gameplay bridge"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.39.js",
+      "id": "ecContinue",
+      "classification": "Gameplay bridge"
+    },
+    {
+      "file": "rebuild/combat/encounter-ui-v1.0.39.js",
+      "id": "ecContinue",
+      "classification": "Gameplay bridge"
+    },
+    {
+      "file": "rebuild/character-creation/index.html",
+      "id": "back",
+      "classification": "Pre-game character confirmation (no live composer)"
+    },
+    {
+      "file": "rebuild/character-creation/index.html",
+      "id": "reviewbtn",
+      "classification": "Pre-game character confirmation (no live composer)"
+    },
+    {
+      "file": "rebuild/character-creation/index.html",
+      "id": "edit",
+      "classification": "Pre-game character confirmation (no live composer)"
+    },
+    {
+      "file": "rebuild/character-creation/index.html",
+      "id": "confirm",
+      "classification": "Pre-game character confirmation (no live composer)"
+    },
+    {
+      "file": "rebuild/character-creation/index.html",
+      "id": "title",
+      "classification": "Pre-game character confirmation (no live composer)"
+    }
+  ],
+  "forms": [
+    {
+      "file": "rebuild/hub/ai-ui.js",
+      "attributes": " id=\"aiConnectionForm\""
+    },
+    {
+      "file": "rebuild/hub/easter-egg-ui.js",
+      "attributes": " id=\"earnedAttributeForm\""
+    },
+    {
+      "file": "rebuild/hub/index.html",
+      "attributes": " class=\"v815-compose\" id=\"compose\""
+    },
+    {
+      "file": "rebuild/hub/index.html",
+      "attributes": " id=\"tierXPForm\""
+    },
+    {
+      "file": "rebuild/hub/index.html",
+      "attributes": " id=\"curedReallocation\""
+    },
+    {
+      "file": "rebuild/hub/index.html",
+      "attributes": " id=\"kibblesIdentityForm\" class=\"form-identity\""
+    },
+    {
+      "file": "rebuild/title-screen/illustrated.html",
+      "attributes": " method=\"dialog\""
+    },
+    {
+      "file": "rebuild/title-screen/index.html",
+      "attributes": " method=\"dialog\""
+    }
+  ],
+  "existingTextAdapters": [
+    {
+      "file": "rebuild/hub/ai-ui.js",
+      "name": "aiFeedText"
+    },
+    {
+      "file": "rebuild/hub/ai-ui.js",
+      "name": "aiPhysicalContext"
+    },
+    {
+      "file": "rebuild/hub/apartment-navigation.js",
+      "name": "intent"
+    },
+    {
+      "file": "rebuild/hub/bimbo-virus-policy.js",
+      "name": "context"
+    },
+    {
+      "file": "rebuild/hub/bimbo-virus-sleep.js",
+      "name": "context"
+    },
+    {
+      "file": "rebuild/hub/bimbo-virus-social.js",
+      "name": "consequenceText"
+    },
+    {
+      "file": "rebuild/hub/bimbo-virus-social.js",
+      "name": "recognitionContext"
+    },
+    {
+      "file": "rebuild/hub/canine-intent.js",
+      "name": "parse"
+    },
+    {
+      "file": "rebuild/hub/charity-visitors.js",
+      "name": "context"
+    },
+    {
+      "file": "rebuild/hub/charity.js",
+      "name": "context"
+    },
+    {
+      "file": "rebuild/hub/cherished-touch.js",
+      "name": "intent"
+    },
+    {
+      "file": "rebuild/hub/dart.js",
+      "name": "aiIntent"
+    },
+    {
+      "file": "rebuild/hub/department-ui.js",
+      "name": "danielIntent"
+    },
+    {
+      "file": "rebuild/hub/department.js",
+      "name": "context"
+    },
+    {
+      "file": "rebuild/hub/dialogue-intents.js",
+      "name": "intent"
+    },
+    {
+      "file": "rebuild/hub/easter-egg.js",
+      "name": "intent"
+    },
+    {
+      "file": "rebuild/hub/erin-activities.js",
+      "name": "intent"
+    },
+    {
+      "file": "rebuild/hub/erin-daily.js",
+      "name": "context"
+    },
+    {
+      "file": "rebuild/hub/erin-life-ui.js",
+      "name": "householdIntent"
+    },
+    {
+      "file": "rebuild/hub/erin-life.js",
+      "name": "numberText"
+    },
+    {
+      "file": "rebuild/hub/erin-life.js",
+      "name": "needContext"
+    },
+    {
+      "file": "rebuild/hub/erin-life.js",
+      "name": "context"
+    },
+    {
+      "file": "rebuild/hub/erin-office.js",
+      "name": "intent"
+    },
+    {
+      "file": "rebuild/hub/footwear-senses.js",
+      "name": "text"
+    },
+    {
+      "file": "rebuild/hub/form-body.js",
+      "name": "intent"
+    },
+    {
+      "file": "rebuild/hub/form-living.js",
+      "name": "context"
+    },
+    {
+      "file": "rebuild/hub/form-minds-ui.js",
+      "name": "formMindIntent"
+    },
+    {
+      "file": "rebuild/hub/form-minds.js",
+      "name": "context"
+    },
+    {
+      "file": "rebuild/hub/index.html",
+      "name": "currentLocationContext"
+    },
+    {
+      "file": "rebuild/hub/index.html",
+      "name": "safeText"
+    },
+    {
+      "file": "rebuild/hub/index.html",
+      "name": "handleBodyIntent"
+    },
+    {
+      "file": "rebuild/hub/index.html",
+      "name": "isInspectionIntent"
+    },
+    {
+      "file": "rebuild/hub/index.html",
+      "name": "isWaitIntent"
+    },
+    {
+      "file": "rebuild/hub/internal-mastery.js",
+      "name": "controlText"
+    },
+    {
+      "file": "rebuild/hub/marketing-ui.js",
+      "name": "nadiaIntent"
+    },
+    {
+      "file": "rebuild/hub/marketing.js",
+      "name": "context"
+    },
+    {
+      "file": "rebuild/hub/nadia-home-ui.js",
+      "name": "canineText"
+    },
+    {
+      "file": "rebuild/hub/navigation.js",
+      "name": "intent"
+    },
+    {
+      "file": "rebuild/hub/needs-consequences.js",
+      "name": "context"
+    },
+    {
+      "file": "rebuild/hub/office-floor.js",
+      "name": "intent"
+    },
+    {
+      "file": "rebuild/hub/player-feed.js",
+      "name": "text"
+    },
+    {
+      "file": "rebuild/hub/player-guide-ui.js",
+      "name": "playerGuideText"
+    },
+    {
+      "file": "rebuild/hub/player-guide-ui.js",
+      "name": "intrinsicCharacterText"
+    },
+    {
+      "file": "rebuild/hub/player-guide.js",
+      "name": "intent"
+    },
+    {
+      "file": "rebuild/hub/priya-cat-ui.js",
+      "name": "catText"
+    },
+    {
+      "file": "rebuild/hub/priya-cat.js",
+      "name": "parse"
+    },
+    {
+      "file": "rebuild/hub/priya-flats-ui.js",
+      "name": "flatsText"
+    },
+    {
+      "file": "rebuild/hub/priya-flats.js",
+      "name": "rollContext"
+    },
+    {
+      "file": "rebuild/hub/priya-flats.js",
+      "name": "intent"
+    },
+    {
+      "file": "rebuild/hub/priya-home-navigation.js",
+      "name": "intent"
+    },
+    {
+      "file": "rebuild/hub/priya-home.js",
+      "name": "intent"
+    },
+    {
+      "file": "rebuild/hub/priya-household.js",
+      "name": "intent"
+    },
+    {
+      "file": "rebuild/hub/priya-ui.js",
+      "name": "priyaIntent"
+    },
+    {
+      "file": "rebuild/hub/priya.js",
+      "name": "context"
+    },
+    {
+      "file": "rebuild/hub/richard-office.js",
+      "name": "intent"
+    },
+    {
+      "file": "rebuild/hub/richard.js",
+      "name": "taskText"
+    },
+    {
+      "file": "rebuild/hub/richard.js",
+      "name": "parse"
+    },
+    {
+      "file": "rebuild/hub/richard.js",
+      "name": "worldIntent"
+    },
+    {
+      "file": "rebuild/hub/roleplay-input.js",
+      "name": "parse"
+    },
+    {
+      "file": "rebuild/hub/technology-center.js",
+      "name": "intent"
+    },
+    {
+      "file": "rebuild/hub/text-actions-ui.js",
+      "name": "textActionDescriptor"
+    },
+    {
+      "file": "rebuild/hub/text-actions-ui.js",
+      "name": "textActionPreviewView"
+    },
+    {
+      "file": "rebuild/hub/text-actions-ui.js",
+      "name": "textActionCandidates"
+    },
+    {
+      "file": "rebuild/hub/text-actions-ui.js",
+      "name": "sameTextAction"
+    },
+    {
+      "file": "rebuild/hub/text-actions-ui.js",
+      "name": "textActionRun"
+    },
+    {
+      "file": "rebuild/hub/text-actions-ui.js",
+      "name": "textActionSetField"
+    },
+    {
+      "file": "rebuild/hub/text-actions-ui.js",
+      "name": "textActionRestoreFields"
+    },
+    {
+      "file": "rebuild/hub/tits.js",
+      "name": "context"
+    },
+    {
+      "file": "rebuild/hub/world-clock.js",
+      "name": "formatText"
+    },
+    {
+      "file": "rebuild/hub/world-objects.js",
+      "name": "intent"
+    },
+    {
+      "file": "rebuild/combat/kibbles-text.js",
+      "name": "movementIntent"
+    },
+    {
+      "file": "rebuild/combat/play-encounter.js",
+      "name": "costText"
+    }
+  ]
+}

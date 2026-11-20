@@ -1,3 +1,7 @@
+## Unpublished — text-first gameplay, Eve help and learned database
+
+The comprehensive source inventory and shared contextual text/controller bridge are implemented locally. Menus remain optional shortcuts. Actual composer tests cover the 2F knock, Priya’s optional stranger cat offer and Erin exception, loans, nested shopping/payment, carried candy, earned-point selection, remote Eve help and durable learned facts. Full scope, tested contexts and explicit language/availability limits are in TEXT-INPUT-PARITY-AUDIT.md and EVE-HELP-AND-PLAYER-DATABASE.md. v1.0.130 remains live; no follow-up changes are published.
+
 ## v1.0.130 — directory persistence and timed-binding warning
 
 Priya’s directory/address disclosure now records Applewood 2F as known and survives reloads without granting apartment access. Existing saves recover the address from an authoritative saved directory/address reply; player-authored text cannot teach it.

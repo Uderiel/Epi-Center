@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "Text selects a real basket and nested display item while preserving separate payment",
+    "Text checkout follows register quote and transfers actual paid stock once",
+    "Text parameter selection and form submission preserve the actual attribute allocation controller",
+    "Cured baseline field selection and explicit submit preserve the allocated total through the real controller",
+    "Negated and hypothetical date requests do not trigger the cat offer"
+  ],
+  "errors": [],
+  "scope": "Isolated QA, real composer/buttons/controllers; no owner saves or paid calls"
+}

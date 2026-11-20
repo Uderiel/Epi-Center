@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "scope": "Author-resolved QA scene only, isolated slot; all prose calls locally stubbed; no natural NPC invitation claimed",
+  "checks": [
+    "Browser completion reaches serialized worker payload with explicit_adult and non-graphic resolved event",
+    "Actual failed exposure roll begins incubation and resets current arousal",
+    "Reload replay does not duplicate feed, reset or roll"
+  ],
+  "errors": []
+}

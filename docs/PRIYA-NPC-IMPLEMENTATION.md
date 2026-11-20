@@ -1,3 +1,7 @@
+## Local text-access follow-up (unpublished)
+
+At the actual 2F door, plain knocking narration invokes the same visit controller. Date requests during actual conversation invoke the existing optional cat offer for strangers; recognized Erin is explicitly exempt from any cat condition. Asking never auto-accepts or transforms the player, books a date, or grants entry. See TEXT-INPUT-PARITY-AUDIT.md.
+
 ## v1.0.130 correction
 
 Directory and direct address replies persist Applewood 2F as discovered without granting apartment entry. Saved authoritative replies backfill previously missed discovery on reload.
