@@ -1,3 +1,7 @@
+## Unpublished — sweat-contact viability calculation and source timing fix
+
+Calculated exposed vs proposed2x pressed-skin drying. Twenty minutes activity yields35 exposed drying minutes or70 under the proposed regional occlusion rule, making60 continuous minutes possible in the latter. The2x rule and sleep-contact detection remain proposed/unimplemented. Fixed new sweat failing to start an already active contact timer;18 contact cases and existing exposure/kissing/browser checks pass. See PERSPIRATION-DESIGN.md and verification/sweat-transmission-math.json. Nothing published.
+
 ## Unpublished — typed fluid ingestion/contact wired
 
 Tits’s approved public saliva/sweat requests now resolve through actual warnings, choice, willingness, regional fluid state, live-clock exposure and feed metadata. Private genital-fluid requests require an accepted private encounter and actual source. Separate contamination-point ingestion windows, stop/withdraw controls and legacy interval migration are wired. Other NPC policies, private transport and new genital-fluid/injury production are outside this implementation. 1,881 automated cases and eight new browser checks pass, along with existing kissing and language browser checks. See FLUID-CONTACT-INTERACTIONS.md and verification/fluid-contact-summary.json. Nothing published.

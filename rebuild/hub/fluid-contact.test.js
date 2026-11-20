@@ -21,3 +21,5 @@ test('common wording distinguishes target fluid and region while desire negation
 test('a prior completed ingestion point does not complete a different source-region timer',()=>{const s=fresh();ask(s);advance(s,10);C.stop(s);wet(s,'hands',10);ask(s,'sweat','consume','hands');advance(s,9);A.equal(exp(s).checks.length,1);advance(s,1);A.equal(exp(s).checks.length,2);});
 
 test('older saved ingestion intervals reconstruct per-point progress without losing accrued minutes',()=>{let s=fresh();ask(s);advance(s,5);C.stop(s);delete exp(s).ingestedByPoint;delete exp(s).pointQualifications;s=JSON.parse(JSON.stringify(s));ask(s);advance(s,5);A.equal(exp(s).checks.length,1);});
+
+test('contact begun on dry skin starts tracking when fresh sweat is produced during ongoing activity',()=>{const s=fresh();ask(s,'sweat','skin','neck');for(let at=1;at<=100;at++){s.worldClock.minutes=at;W.advance(s,'npc:tits',at-1,at,{activity:at<=40?'intimate':'rest'});C.tick(s,at,{realAt:real,rng:()=>.999});X.tick(s,at,{realAt:real,rng:()=>.999});}A.equal(exp(s).checks.length,1);A.equal(exp(s).checks[0].at,80);});

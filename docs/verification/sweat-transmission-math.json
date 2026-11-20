@@ -1,0 +1,51 @@
+{
+  "clock": "game minutes",
+  "assumptions": "Initially dry, no footwear or renewed exertion; neck region; intact skin; continuous actual contact. Pressed-skin x2 drying is an owner-proposed model, not current runtime behavior.",
+  "results": [
+    {
+      "activityGameMinutes": 10,
+      "scoreAtStop": 0,
+      "exposedNeckDryAfterMinutes": 0,
+      "proposedPressedSkinDryAfterMinutes": 0,
+      "pressedSkinCanReach60AfterActivity": false,
+      "duringExposedResistanceCheckAt": null,
+      "afterExposedResistanceCheckAt": null
+    },
+    {
+      "activityGameMinutes": 20,
+      "scoreAtStop": 25,
+      "exposedNeckDryAfterMinutes": 35,
+      "proposedPressedSkinDryAfterMinutes": 70,
+      "pressedSkinCanReach60AfterActivity": true,
+      "duringExposedResistanceCheckAt": null,
+      "afterExposedResistanceCheckAt": null
+    },
+    {
+      "activityGameMinutes": 30,
+      "scoreAtStop": 35,
+      "exposedNeckDryAfterMinutes": 45,
+      "proposedPressedSkinDryAfterMinutes": 90,
+      "pressedSkinCanReach60AfterActivity": true,
+      "duringExposedResistanceCheckAt": null,
+      "afterExposedResistanceCheckAt": null
+    },
+    {
+      "activityGameMinutes": 40,
+      "scoreAtStop": 45,
+      "exposedNeckDryAfterMinutes": 55,
+      "proposedPressedSkinDryAfterMinutes": 110,
+      "pressedSkinCanReach60AfterActivity": true,
+      "duringExposedResistanceCheckAt": 80,
+      "afterExposedResistanceCheckAt": null
+    },
+    {
+      "activityGameMinutes": 50,
+      "scoreAtStop": 55,
+      "exposedNeckDryAfterMinutes": 65,
+      "proposedPressedSkinDryAfterMinutes": 130,
+      "pressedSkinCanReach60AfterActivity": true,
+      "duringExposedResistanceCheckAt": 80,
+      "afterExposedResistanceCheckAt": 110
+    }
+  ]
+}
