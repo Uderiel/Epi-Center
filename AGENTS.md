@@ -31,7 +31,7 @@ After the owner approves an in-scope feature, implement and test it without wait
 
 ## Every release includes canonical documentation
 
-Before publishing any release, reconcile the World Bible/current canon backup, relevant NPC/form/entity/location records, applicable combat/attribute guide, changelog, status and handoff with actual runtime changes. Preserve earlier history with explicit supersession; distinguish design, implementation, verification, deployment and owner acceptance. Regenerate the source-backed Bible snapshot with `node scripts/build-world-bible.cjs`, run the release verification, and record deployment evidence. This is required for every release without a separate reminder from the owner.
+Before publishing any release, reconcile the World Bible/current canon backup, relevant NPC/form/entity/location records, applicable combat/attribute guide, changelog, status and handoff with actual runtime changes. Preserve earlier history with explicit supersession; distinguish design, implementation, verification, deployment and owner acceptance. Regenerate the source-backed Bible snapshot with `node scripts/build-world-bible.cjs`, run the release verification, and record deployment evidence. This is required for every release without a separate reminder from the owner. Freeze the final canonical World Bible into the versioned Markdown copy and integrity manifest before deployment. After freezing, record deployment status in status/handoff/release evidence; do not edit the Bible heading after verification. Verify the published canonical and frozen copies byte-for-byte against the manifest.
 
 ## Scene prose metadata contract
 

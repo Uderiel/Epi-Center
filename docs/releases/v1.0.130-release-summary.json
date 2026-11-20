@@ -1,6 +1,6 @@
 {
   "version": "1.0.130",
-  "status": "Locally verified; deployment pending",
+  "status": "Published and publicly verified",
   "automatedCases": 1804,
   "browserChecks": 3,
   "additionalBrowserRegression": "Purchased sucker start/pause/resume, exact thresholds, reload and expiry",
@@ -21,5 +21,31 @@
     "No apartment access changes",
     "No reversal or removal of zero-Resolve permanent binding",
     "No paid model calls or owner saves used"
-  ]
+  ],
+  "runtimeCommit": "8a0f2f93a503e5a1e4b191cc515c6db14601ccab",
+  "pagesRun": "https://github.com/Uderiel/Epi-Center/actions/runs/44714044374",
+  "matchedPublishedFiles": 193,
+  "publicBrowserChecks": 3,
+  "workerHealth": {
+    "service": "Epi-Center AI",
+    "releaseVersion": "1.0.130",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "configured": true
+  },
+  "workerBuilds": [
+    {
+      "id": "819142a8-e590-46e0-81c2-9c2ff5d8e562",
+      "conclusion": "failure",
+      "reason": "Not supplied in GitHub check output"
+    },
+    {
+      "id": "6994b70e-3e08-4b6a-ba9e-0a5aad4c1db2",
+      "conclusion": "success",
+      "workerVersion": "14a55f9b-40c4-4423-a72e-9f9dff0844d6"
+    }
+  ],
+  "initialVerification": "Static comparisons passed before Worker rollout completed; health mismatch resolved after successful automatic build."
 }

@@ -6,7 +6,7 @@ The cotton-candy sucker warns in red before starting/resuming when its remaining
 
 The World Bible now has an immutable versioned Markdown copy and SHA-256/byte manifest. Release verification rejects differences instead of silently rewriting the frozen copy. Lifecycle metadata belongs in status/handoff, so publication does not modify frozen canon afterward. Earlier release evidence remains historical.
 
-Local verification passes: 1,804 automated cases and three targeted browser checks, including reload and mobile controls. Deployment and public verification are next; nothing from this follow-up is published yet.
+Published and publicly verified as v1.0.130 (runtime `8a0f2f93a503e5a1e4b191cc515c6db14601ccab`). 1,804 automated cases, three local/public browser checks and the existing purchased-sucker browser regression pass. All 193 compared public files match exact bytes, including canonical/frozen Bible and manifest; Worker reports 1.0.130/configured. Pages run44714044374succeeded. One automatic Worker build failed, then build6994b70e succeeded; both are recorded without inferring a failure cause. Evidence is in `docs/releases/v1.0.130-*`. No owner saves or paid model calls were used.
 
 ## v1.0.127 — Cherished Touch artwork published and verified
 

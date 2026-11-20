@@ -1,6 +1,6 @@
 ## v1.0.130 — directory persistence and advance binding warning
 
-Repairs Priya’s saved 2F discovery and adds red advance warnings for the sucker’s timed last-Resolve drain while retaining permanent binding. World Bible releases now include an immutable exact-byte Markdown copy and integrity manifest. 1,804 automated cases and three targeted browser checks pass locally; public verification is pending.
+Repairs Priya’s saved 2F discovery and adds red advance warnings for the sucker’s timed last-Resolve drain while retaining permanent binding. World Bible releases now include an immutable exact-byte Markdown copy and integrity manifest. Published and live-verified: 1,804 automated cases, three local/public browser checks and 193 exact-byte public file comparisons pass. Worker130 is configured. [Play v1.0.130](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.130).
 
 ## v1.0.129 — audit repairs published and publicly verified
 
