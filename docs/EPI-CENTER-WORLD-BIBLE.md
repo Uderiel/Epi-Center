@@ -1,3 +1,11 @@
+## Current canon for v1.0.133
+
+This release changes UI navigation and help only. The header retains Form, Stats, Path/Layout, Help and Database; duplicate Location and Quests controls are removed. Journal follows Items, then Power, Settings and Dev. Existing quest objectives and reward descriptions appear under Active Quests; available and completed records remain separate. Room codes stay internal in the Cherished Touch and Burke’s layout display. Mobile quick-reference row sizing prevents the Live Feed title covering Help. Eve explains actual combat Stamina recovery and the currently missing general outside-combat refill. No resource mechanics or quest rewards change.
+
+No unpublished Form Repository or staff work is included; those remain at v1.0.132 behavior and design status. AI Worker code is unchanged. See EVE-HELP-AND-UI-CLEANUP.md.
+
+## Historical canon checkpoints
+
 ## Current canon for v1.0.132
 
 Burke’s Sweets has ten photorealistic1100×733 headers: storefront and roomsA–D, each day/night. Current location, actual room, clock phase and invitation determine the illustration; images grant no staff access, stock, contamination or NPC presence. RoomD has the owner-approved subtle seated impression in flour on the stainless prep table, without a person shown, in both phases. Asset provenance/hashes are in art/BURKES-SWEETS-ART-MANIFEST.json.

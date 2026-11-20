@@ -1,3 +1,21 @@
+# v1.0.133 UI-only publication handoff
+
+# v1.0.133 — UI and help cleanup
+
+Scope: mobile quick-reference layout, player-facing room names, Journal navigation and AI-off Eve help only. No Form Repository implementation, staff profiles/controllers, feeding, ownership, security, arousal, AI Worker or other gameplay changes.
+
+- At390×844 quick-reference controls size to their wrapped contents. Live Feed heading does not cover Help.
+- Remove redundant Location and Quests controls below the header; retain the location/interactions popup and five regular header controls.
+- Place Journal then Power after Items, ahead of Settings and Dev. Journal shows Active Quests with existing objectives/rewards, Available Quests where applicable, and Completed Quests. Text access uses the same Journal navigation.
+- Hide internal room-letter prefixes in Cherished Touch and Burke’s layouts without changing room IDs, routes or permission checks.
+- Eve explains actual Stamina recovery moves and the absence of a general outside-combat refill command; no recovery mechanics change.
+
+Unpublished Form Repository and Lee work remains outside this release. Existing v1.0.132 repository references remain unchanged. Earlier release evidence and frozen canon remain intact.
+
+The authoring workspace separately retains unpublished Form Repository/Lee work. Do not copy it into this release.
+
+## Historical checkpoints
+
 ## v1.0.132 — published and publicly verified
 
 Burke’s ten matched day/night headers and virus developer controls are live. Runtime `3daf221cc6f327d97cd6e9a367effc6860c66679`; Pages run44811674993 and Worker build succeeded. All1,985 automated cases, seven local browser checks and four public artwork/debug checks pass. All239 compared public files match, including ten images and frozen Bible/manifest. Worker reports1.0.132/configured. Initial deployment-timing and image-download harness checks passed on rerun; see releases/v1.0.132-release-summary.json. No owner saves or paid narrative calls. D17 artwork is complete; D10 Wet Lily/Tits’s apartment layouts remain deferred. Next owner-directed build: Form Repository. Earlier local/pending checkpoints below are historical.

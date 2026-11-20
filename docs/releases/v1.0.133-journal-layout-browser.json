@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "Journal and Power follow Items before Settings and Dev; redundant Quests button removed",
+    "Real Journal tab and typed journal command show active objectives and rewards without awarding them; Power remains reachable",
+    "Completed quest archives once across reload without repeated rewards",
+    "Cherished layout displays room names and numbered stalls; internal targets and private-room locks remain intact",
+    "Burke’s layout removes reference letters while preserving room names and restrictions"
+  ],
+  "errors": []
+}

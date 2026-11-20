@@ -1,0 +1,25 @@
+{
+  "version": "1.0.133",
+  "status": "Locally verified; publication in progress",
+  "baseline": "1.0.132",
+  "scope": "UI and Eve help only",
+  "automatedCases": 1986,
+  "mobileBrowserChecks": 6,
+  "journalBrowserChecks": 5,
+  "repositoryRuntimeIncluded": false,
+  "repositoryStaffIncluded": false,
+  "aiWorkerChanged": false,
+  "paidNarrativeModelCalls": false,
+  "ownerSaves": false,
+  "runtimeAllowlist": [
+    "rebuild/character-creation/index.html",
+    "rebuild/hub/burkes-sweets-ui.js",
+    "rebuild/hub/cherished-touch-ui.js",
+    "rebuild/hub/index.html",
+    "rebuild/hub/navigation-v1.0.66.css",
+    "rebuild/hub/player-guide.js",
+    "rebuild/hub/player-guide.test.js",
+    "rebuild/hub/text-actions-ui.js",
+    "rebuild/title-screen/index.html"
+  ]
+}

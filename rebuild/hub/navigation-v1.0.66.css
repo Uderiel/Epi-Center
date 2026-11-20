@@ -1,6 +1,6 @@
 /* Room selection is a floor map. Interaction bodies overlay the feed above the pinned composer. */
-body.combat-active #app .v882-shell,body.combat-active #app .v882-shell:not(:has(.ec-encounter)),body.combat-active #app .v882-shell:has(.apartment-dock),body.combat-active #app .v882-shell:has(.apartment-dock):not(:has(.mind-dock)){grid-template-rows:30px minmax(90px,1fr) var(--compose-height,160px)!important}
-body.combat-active #app .v882-shell:has(.ec-encounter){grid-template-rows:30px minmax(90px,1fr) auto var(--compose-height,160px)!important}
+body.combat-active #app .v882-shell,body.combat-active #app .v882-shell:not(:has(.ec-encounter)),body.combat-active #app .v882-shell:has(.apartment-dock),body.combat-active #app .v882-shell:has(.apartment-dock):not(:has(.mind-dock)){grid-template-rows:auto minmax(90px,1fr) var(--compose-height,160px)!important}
+body.combat-active #app .v882-shell:has(.ec-encounter){grid-template-rows:auto minmax(90px,1fr) auto var(--compose-height,160px)!important}
 .play-docks{position:relative;min-width:0;margin-bottom:5px}.play-docks>details{position:static;min-height:36px;overflow:visible;margin:3px 0;border:1px solid #426277;border-radius:6px;background:#102132}
 .play-docks>details>summary{list-style:none;display:flex;gap:8px;align-items:center;justify-content:space-between;min-height:34px;padding:5px 8px;font-size:12px;font-weight:700;color:#d7e5f4;touch-action:manipulation;cursor:pointer}
 .play-docks>details>summary::-webkit-details-marker{display:none}.play-docks>details>summary:after{content:'▲';color:#70e6ed}.play-docks>details[open]>summary:after{content:'▼'}.dock-room{font-weight:400;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;margin-left:auto;color:#a8bfcc}
@@ -21,3 +21,6 @@ body.combat-active #app .v882-shell:has(.ec-encounter){grid-template-rows:30px m
 [data-ui-key^="group:"]>summary,.compact-row>summary,.household-item>summary{display:flex;align-items:center;justify-content:space-between;list-style:none;gap:8px}[data-ui-key^="group:"]>summary::-webkit-details-marker,.compact-row>summary::-webkit-details-marker,.household-item>summary::-webkit-details-marker{display:none}
 
 .cherished-plan{grid-template-rows:repeat(8,minmax(24px,auto))}.cherished-plan .floor-room{font-size:11px}.cherished-plan .floor-room[disabled]:not(.is-here){opacity:.5;cursor:default}
+
+/* Quick-reference controls may wrap: their grid row must grow before the feed starts. */
+.v882-tools{flex-shrink:0;min-height:min-content;align-self:stretch}.v882-feed{isolation:isolate}.v882-feed .v815-title{top:0}
