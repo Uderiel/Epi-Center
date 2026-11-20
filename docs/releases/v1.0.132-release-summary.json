@@ -1,0 +1,22 @@
+{
+  "version": "1.0.132",
+  "status": "Owner-authorized; locally verified; deployment pending",
+  "baseline": "1.0.131",
+  "implemented": [
+    "10 photorealistic storefront/room day-night headers with full-image view and actual room/phase/invitation selection",
+    "Room D seated flour impression in both phases",
+    "Developer infection/archetype, incubation bypass, normal progression and actual test cure controls",
+    "D17 artwork completed; D10 Wet Lily/Tits apartment design explicitly deferred"
+  ],
+  "automatedCases": 1985,
+  "localBrowserChecks": 7,
+  "tests": "docs/releases/v1.0.132-tests.json",
+  "browserEvidence": [
+    "docs/releases/v1.0.132-art-debug-browser.json",
+    "docs/releases/v1.0.132-baseline-browser.json"
+  ],
+  "artManifest": "docs/art/BURKES-SWEETS-ART-MANIFEST.json",
+  "paidNarrativeModelCalls": false,
+  "ownerSaves": false,
+  "nextBuild": "Form Repository; no repository gameplay added in this release"
+}

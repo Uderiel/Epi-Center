@@ -1,3 +1,11 @@
+## Local artwork completion — not published
+
+Storefront and roomsA–D now have matched photorealistic day/night headers, selected by actual location, room, clock and invitation state. RoomD includes the approved flour impression. Static imagery grants no stock, exposure or permission. Ten assets and four browser checks are documented in BURKES-ART-AND-VIRUS-DEBUG.md; D17 is closed locally.
+
+## Current owner clarification — apartment design remains deferred
+
+Wet Lily Apartments layouts and Tits’s assigned Unit1 apartment interior remain undesigned and explicitly deferred. The assigned address, mapped routines and Burke’s artwork do not supply an apartment plan. Revisit during Wet Lily location design; see DEFERRED-SYSTEMS-TRACKER.md D10.
+
 # Burke’s Sweets — owner-confirmed location and character design
 
 Current work is LOCAL AND UNPUBLISHED; public baseline is v1.0.127. Current implementation status is reconciled in TITS-TEMPLATE-COMPLETION-REVIEW.md. The numbered owner addenda below preserve history and supersede earlier entries by topic. Statements such as “design only,” “weekend unset” and “no runtime implementation” in old checkpoints are historical, not current completion claims. Owner supplied the handwritten diagram; do not re-ask settled layout or shared retail decisions.

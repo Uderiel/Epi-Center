@@ -1,0 +1,16 @@
+/* Explicit developer fixtures only. No ordinary command, narrator or interaction invokes these. */
+(function(r,f){const n=typeof module==='object'&&module.exports,a=f(...(n?['./bimbo-virus-timeline','./bimbo-virus-resources','./relationships','./bimbo-virus-cure','../combat/engine'].map(require):[r.EpiBimboVirusTimeline,r.EpiBimboVirusResources,r.EpiRelationships,r.EpiBimboVirusCure,r.EpiCombat]));if(n)module.exports=a;else r.EpiBimboVirusDebug=a;})(globalThis,function(T,V,R,C,E){
+function audit(s,action,at,details={}){s.devVirus||={events:[]};s.devVirus.events||=[];s.devVirus.events.push({action,realAt:at,gameAt:s.worldClock?.minutes||0,...details});}
+function run(s,action,{archetype='auto',realAt=Date.now(),rng=Math.random}={}){if(s.encounter?.active)throw Error('Finish combat before using virus developer fixtures.');if(!['start','skip-incubation','cure'].includes(action))throw Error('Unknown virus developer fixture.');const r=V.record(s),who=R.player(s);if(action==='start'){
+ if(r&&!r.cured)throw Error('An infection already exists. Skip incubation or advance its progression.');
+ if(!['auto','physical','mental','arousal'].includes(archetype))throw Error('Choose a valid test archetype.');
+ const next=T.create(realAt);if(archetype==='auto'){const scores=E.specialization(s.attributes||{}).scores,peak=Math.max(...Object.values(scores)),ties=Object.keys(scores).filter(k=>scores[k]===peak);archetype=ties[Math.floor(Math.max(0,Math.min(.999999999,rng()))*ties.length)];}next.archetype=archetype;next.developerFixture=true;
+ s.world||={};const q=s.world.bimboVirus||={};q.infections||={};if(r){s.devVirus||={events:[]};s.devVirus.archivedInfections||=[];s.devVirus.archivedInfections.push(JSON.parse(JSON.stringify(r)));if(q.cureRecipients)delete q.cureRecipients[who];}q.infections[who]=next;audit(s,action,realAt,{archetype});return 'Developer test infection started ('+archetype+'). Current appearance, name and belongings are retained; normal 72-hour incubation applies until skipped.';
+ }
+ if(!r||r.cured)throw Error('Start an active test infection first.');
+ if(action==='skip-incubation'){if(r.onsetGameMinute!==null||r.courseCompleted)throw Error('Incubation has already ended.');r.debugOriginalInfectedAtMs??=r.infectedAtMs;r.infectedAtMs=Math.min(r.infectedAtMs,realAt-T.INCUBATION);r.lastObservedAtMs=Math.min(r.lastObservedAtMs,realAt);audit(s,action,realAt);return 'Developer incubation bypass applied. Symptoms begin now; the world clock and normal game-time progression are unchanged.';}
+ if(!r.courseCompleted||!r.baseReplaced)throw Error('The test cure requires completed carrier transformation.');
+ const q=s.world.bimboVirus;if(q.cureRecipients?.[who]?.used)throw Error('This infection already used its personal cure.');
+ s.devVirus||={events:[]};const id='debug-bvc-cure:'+who+':'+realAt+':'+(s.devVirus.events?.length||0);s.inventory||={};q.cureItems||={};if(s.inventory[id]||q.cureItems[id])throw Error('Duplicate developer fixture.');s.inventory[id]=1;q.cureItems[id]={kind:'bvc-cure',source:C.SOURCE,ownerId:who,recipientId:who,bloodDonorId:who,bloodDrops:1,developerFixture:true};const event=C.use(s,id);audit(s,action,realAt,{doseId:id});return 'Developer test cure applied. '+event.text;
+}
+return Object.freeze({run});});

@@ -1,3 +1,11 @@
+## v1.0.132 — owner-authorized publication underway
+
+Burke’s ten day/night headers and developer infection/incubation/progression/cure controls are approved for publication. Local1,985-case and four-browser-check evidence passes; release verification is running. D17 is complete locally; Wet Lily/Tits’s apartment design remains deferred. Form Repository is next after publication. See BURKES-ART-AND-VIRUS-DEBUG.md; earlier pending checkpoints are historical.
+
+## Current local work — Burke’s headers and virus developer controls
+
+Ten photorealistic day/night storefront/room headers and explicit infection/incubation/progression/cure QA controls are implemented locally. Broad regression:1,985 cases and four browser checks pass. D17 artwork is complete locally; developer infection/incubation/progression/cure controls are verified, including reload and immediate final-sleep controls. See BURKES-ART-AND-VIRUS-DEBUG.md. Public release remains v1.0.131; nothing new published. Wet Lily layouts/Tits’s Unit1 remain explicitly deferred.
+
 ## v1.0.131 — published and publicly verified
 
 All23 reviewed implementation groups are published. Runtime `d4534e1b22b0680bf5c45c62b88afff8413a6295`; Pages run44806977905 succeeded and Worker build succeeded. All1,977 automated cases, eight local browser suites and four public browser suites pass. All225 compared public files match, including canonical/frozen Bible and integrity manifest. Worker health reports1.0.131/configured. No paid model calls or owner saves. See releases/v1.0.131-release-summary.json. Deferred work remains in DEFERRED-SYSTEMS-TRACKER.md; earlier pending checkpoints below are historical.

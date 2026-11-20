@@ -1,3 +1,13 @@
+## Current canon for v1.0.132
+
+Burke’s Sweets has ten photorealistic1100×733 headers: storefront and roomsA–D, each day/night. Current location, actual room, clock phase and invitation determine the illustration; images grant no staff access, stock, contamination or NPC presence. RoomD has the owner-approved subtle seated impression in flour on the stainless prep table, without a person shown, in both phases. Asset provenance/hashes are in art/BURKES-SWEETS-ART-MANIFEST.json.
+
+Dev → Bimbo virus QA exposes explicit test infection/archetype selection, incubation skip, normal150-game-minute progression and test cure. Fixtures affect only the current save and are recorded as developer events. Incubation bypass changes only the infection timestamp; ordinary gameplay retains72real-hour incubation. Progression runs actual world schedules/costs and returns to Play for completion sleep. Test cure uses the normal cure consequences, retains transformed appearance/name/current points/ID, and grants no Underworld access or ordinary cure acquisition. See BURKES-ART-AND-VIRUS-DEBUG.md.
+
+Deferred artwork D17 is complete; Wet Lily layouts and Tits’s Unit1 apartment remain undesigned/deferred under D10. Form Repository is the next owner-directed build; it is not implemented by this release. Publication evidence is recorded separately.
+
+## Historical canon checkpoints
+
 ## Current canon for v1.0.131
 
 This release includes the following implemented changes since v1.0.130. Historical checkpoints below retain their original scope and are superseded where this section differs. Natural contact/source scenes and end-to-end carrier completion are now implemented. Standard combat remains; previous generic carrier-avoidance proposals are superseded. Underworld cure acquisition, further dating scenes and other deferred systems remain recorded in DEFERRED-SYSTEMS-TRACKER.md. Publication status belongs in release evidence, not this frozen canon.

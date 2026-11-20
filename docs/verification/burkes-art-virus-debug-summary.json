@@ -1,0 +1,28 @@
+{
+  "published": false,
+  "baselineRelease": "1.0.131",
+  "automatedCases": 1985,
+  "automatedPassed": true,
+  "browser": {
+    "passed": true,
+    "checks": [
+      "All ten actual storefront/room/day-night header files load; full-size overlay uses the current image",
+      "Artwork never grants staff access; Room D remains behind its existing invitation rule",
+      "Developer start and incubation bypass use actual controls, preserve world time, disable premature cure and survive reload",
+      "Developer progression completes through normal timing; actual test cure retains transformed body/name/ID/current points and survives reload"
+    ],
+    "errors": [],
+    "scope": "Synthetic QA slot3, AI off, actual developer buttons and normal progression; no owner save or paid model call"
+  },
+  "artManifest": "docs/art/BURKES-SWEETS-ART-MANIFEST.json",
+  "artHeaders": 10,
+  "deferredArtworkItem": "D17 completed locally",
+  "apartmentLayouts": "D10 remains undesigned/deferred",
+  "correctedDuringVerification": [
+    "Debug script moved after its dependencies",
+    "Final sleep assertions follow remaining sleep time",
+    "Progression completion returns to Play so sleep controls are available immediately"
+  ],
+  "narrativeProviderCalls": false,
+  "ownerSavesUsed": false
+}

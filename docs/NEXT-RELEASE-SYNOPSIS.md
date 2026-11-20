@@ -1,3 +1,11 @@
+## v1.0.132 — owner-authorized publication underway
+
+- Burke’s Sweets: ten matched photorealistic day/night headers, actual room/clock selection and invitation privacy, full-image view; RoomD flour detail.
+- Developer QA: start infection/archetype selection, skip real incubation without advancing global clocks, advance normal progression and apply actual test cure.
+- Deferred tracker: D17 closed as completed locally after verification; retain Wet Lily/Tits’s apartment layouts as explicit D10 dependency.
+
+See BURKES-ART-AND-VIRUS-DEBUG.md for verification and limits. The23-group synopsis below is the historical published v1.0.131 scope, not a list of new pending changes.
+
 # Next publication — reviewed change synopsis
 
 Reviewed 2026-11-20. Baseline: publicly verified v1.0.130, runtime `8a0f2f9`, release evidence `90ec3ff`. Scope includes committed changes after that baseline **and the current uncommitted implementation**, not only changes since HEAD. Published version: v1.0.131. Owner-authorized release is publicly verified:225 exact-file comparisons, four public browser suites, healthy configured v1.0.131 Worker; Pages run44806977905 succeeded.

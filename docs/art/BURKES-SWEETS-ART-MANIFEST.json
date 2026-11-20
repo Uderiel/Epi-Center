@@ -1,0 +1,107 @@
+{
+  "status": "Generated, wired and verified locally; not published",
+  "style": "Photorealistic, matched to apartments and Cherished Touch",
+  "roomD": "Seated impression in flour on central stainless prep table, unoccupied room, present in both phases",
+  "images": [
+    {
+      "room": "outside",
+      "phase": "day",
+      "path": "rebuild/hub/assets/burkes-sweets/day/outside.jpg",
+      "source": "exec-204d5b2c-bc43-49a9-8023-463950886d2f.png",
+      "width": 1100,
+      "height": 733,
+      "bytes": 235045,
+      "sha256": "663ddf071f2320e85f668c1a767b2ae527cfb3c5ab3b5c000954449d8266f4bd"
+    },
+    {
+      "room": "outside",
+      "phase": "night",
+      "path": "rebuild/hub/assets/burkes-sweets/night/outside.jpg",
+      "source": "exec-dc34c235-8a5c-4832-bc7c-979251734617.png",
+      "width": 1100,
+      "height": 733,
+      "bytes": 242580,
+      "sha256": "6eddd2b97bae35e25992e705409b255c44ff6bc0baee5d5594e57fe393efb0ff"
+    },
+    {
+      "room": "a",
+      "phase": "day",
+      "path": "rebuild/hub/assets/burkes-sweets/day/a.jpg",
+      "source": "exec-fc488f8d-c7f0-4236-a9e8-af604afbc33a.png",
+      "width": 1100,
+      "height": 733,
+      "bytes": 209575,
+      "sha256": "a37016d14207a352a9a6aa145e1dc5ef16141b9b93a68ecc5bb55dc74e76c72f"
+    },
+    {
+      "room": "a",
+      "phase": "night",
+      "path": "rebuild/hub/assets/burkes-sweets/night/a.jpg",
+      "source": "exec-f0136869-1921-4c28-a509-aa4fa650b7cd.png",
+      "width": 1100,
+      "height": 733,
+      "bytes": 203374,
+      "sha256": "dbb002bcfb4f006c3da6ac804329705d6164e7da8e4d38905affc5f5e53a471e"
+    },
+    {
+      "room": "b",
+      "phase": "day",
+      "path": "rebuild/hub/assets/burkes-sweets/day/b.jpg",
+      "source": "exec-09db2456-6996-46d9-a984-66f06102b8c2.png",
+      "width": 1100,
+      "height": 733,
+      "bytes": 189298,
+      "sha256": "f71a6bba6a872492ff51741ad8c90bcc1c59c2e24e5e6e82fb597d2dc134cf56"
+    },
+    {
+      "room": "b",
+      "phase": "night",
+      "path": "rebuild/hub/assets/burkes-sweets/night/b.jpg",
+      "source": "exec-a02b95c0-ba76-4e45-92fd-04a51347a280.png",
+      "width": 1100,
+      "height": 733,
+      "bytes": 179166,
+      "sha256": "282ca4033c2d0b69ba6e8f286ab33c98b2e0e5681e45ed2e31ca212a52b068e3"
+    },
+    {
+      "room": "c",
+      "phase": "day",
+      "path": "rebuild/hub/assets/burkes-sweets/day/c.jpg",
+      "source": "exec-058457b6-b7c0-4124-aea6-9e44970c9d9f.png",
+      "width": 1100,
+      "height": 733,
+      "bytes": 165149,
+      "sha256": "c6871c0e222425ec4430cda7b83b28510e776c8e6ed44d63ee9de74aa7ab4445"
+    },
+    {
+      "room": "c",
+      "phase": "night",
+      "path": "rebuild/hub/assets/burkes-sweets/night/c.jpg",
+      "source": "exec-3d18840c-c564-40dd-9911-9b4a00d9ed18.png",
+      "width": 1100,
+      "height": 733,
+      "bytes": 151896,
+      "sha256": "d22aaa1dc27c91975a967f8acb21e5bdb83e325a3f580c78016f98f9b129f9eb"
+    },
+    {
+      "room": "d",
+      "phase": "day",
+      "path": "rebuild/hub/assets/burkes-sweets/day/d.jpg",
+      "source": "exec-55efa602-a0a7-4965-9861-fd03f581faf8.png",
+      "width": 1100,
+      "height": 733,
+      "bytes": 200518,
+      "sha256": "cd522d27701e952f3530a7e3402f26565a676207c6ddaef06a0a9c343a236429"
+    },
+    {
+      "room": "d",
+      "phase": "night",
+      "path": "rebuild/hub/assets/burkes-sweets/night/d.jpg",
+      "source": "exec-89982aea-df96-48d9-ba59-55422b238ede.png",
+      "width": 1100,
+      "height": 733,
+      "bytes": 192758,
+      "sha256": "3f5979df9120ecaf085c264ec185c550becd8e402566993f67ff54cdf6c15714"
+    }
+  ]
+}
