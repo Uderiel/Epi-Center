@@ -1,0 +1,26 @@
+{
+  "version": "1.0.128",
+  "status": "local verified; deployment pending",
+  "automatedCases": 1782,
+  "browserScripts": 27,
+  "browserEvidence": "v1.0.128-browser-checks.json",
+  "testsEvidence": "v1.0.128-tests.json",
+  "cure": {
+    "facility": "Underworld Research Center laboratory (separate facility from overworld Research Center)",
+    "onePerPerson": true,
+    "bloodDrops": 1,
+    "patientSpecific": true,
+    "activeCarrierSurgeryAndAllocationBlocked": true,
+    "oldAppearanceRestored": false,
+    "acquisition": "not implemented; laboratory route and quest remain future work"
+  },
+  "scope": "Implemented Tits/Burke Sweets and BVC components since v1.0.127",
+  "unfinished": [
+    "Natural fresh-fluid exposure/resistance interactions",
+    "Some onset symptom and age/gender decisions",
+    "Remaining carrier NPC/quest/enemy consequences",
+    "Underworld Research Center acquisition route, laboratory and quest",
+    "Location-dependent Daily Needs/home/venue content and eligible hidden quest treasures"
+  ],
+  "paidModelCalls": false
+}

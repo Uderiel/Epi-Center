@@ -1,3 +1,11 @@
+## Current canon — v1.0.128 candidate
+
+Tits is an adult26Common45NPC: Endurance6/Fitness5/Intuition5/Reflexes5/Willpower2/Reasoning1/Stability2/Presence9/Insight1/Influence9; Health110/Stamina110/Resolve90. Her approved template, Burke’s Sweets systems and source-backed profile are included in this release snapshot. See TITS-TEMPLATE-COMPLETION-REVIEW.md and BURKES-SWEETS-DESIGN.md for implemented/deferred boundaries.
+
+The full BVC design, appearance, consequences and scene-metadata records are now included in the Bible backup. Permanent converted base/name retain stable playerID. Cure is one patient-specific dose per person, requiring one drop of that carrier’s blood at the distinct **Underworld Research Center laboratory**. Cure ends active contagion/compulsions/feed alterations and reopens baseline allocation/surgery without automatically restoring old appearance/name or lost points. Actual lab acquisition and natural infection interactions remain unfinished.
+
+Player creation uses40points; the currently discoverable Easter egg can add1. Virus transfers and cured reallocation preserve the actual current allocated total, keeping unspent points separate. Historical internal allocation ceiling75is not a grant of obtainable points.
+
 # Epi-Center World Bible — current canon and release backup
 
 Current verified published release: **v1.0.127**. This section reconciles actual source with owner-approved design; it supersedes older numeric profiles and implementation-status claims below. Publication is recorded separately in CURRENT-STATUS.md and release evidence. Keep implemented, verified, published, approved-but-deferred and unknown distinct.
@@ -169,3 +177,5 @@ Created `rebuild/hub/technology-center.js` and `technology-center.test.js`: auth
 
 ## 2026-11-04 — Owner-approved location numbering correction
 Canonical district assignments: **#97 Applewood Apartments** (unchanged); **#98 Technology Center**, directly north of #26; **#99 Groceries Aplenty**, one tile east of #97; **#100 Prim and Proper Dry Cleaners**, one tile east of #99. The Technology Center's third-floor data and map reference use #98. #99/#100 are mapped exterior placeholders only; store services and Richard's errands are not yet implemented. Because #26 sits at the north edge of the 11x11 map, #98 is represented as an additional north-edge node rather than shifting legacy coordinates. Tests were updated but not executed in this session. No publication claim.
+
+Release128clarification: the Underworld Research Center is distinct from the overworld facility. One patient-specific cure per person requires one recorded drop of the patient’s blood. Active carriers cannot reallocate or spend banked baseline points before cure; unspent points are retained. Laboratory access/acquisition remains unbuilt.

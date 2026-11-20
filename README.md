@@ -1,3 +1,13 @@
+## v1.0.128 — release candidate, publication authorized
+
+Owner authorizes publishing the implemented Tits/Burke’s Sweets and BVC work after confirming the cure rules. Includes Tits’s full approved profile/attributes and per-player memory/social interactions; real equipment/clothing loans and invitations; gifts and queue/corrections; meals, needs, bathroom trips, fatigue mistakes, preparation/baking/cleanup, courier payments, opening hours and mapped evening/return routines; functional cosmetics/candies/gum; scene tone preservation; mixed-clock disease progression, approved base appearance/attribute transfers, name/pink feed identity, permanent base, sleep/dreams, presentation and daily consequences.
+
+Cure is personal, one per person, made with one drop of that carrier’s blood at the **Underworld Research Center laboratory**, a different facility from the overworld Research Center. Source/blood/patient/dose/one-use provenance and post-cure baseline reallocation are enforced by the implemented adapters. Active carriers cannot have surgery or reallocate baseline points; cure restores those permissions while retaining transformed appearance/name and prior point losses.
+
+**Known unfinished content:** natural fresh-fluid exposure/resistance interactions, some onset/age/gender decisions, full carrier NPC/quest/enemy reactions, eligible quest-treasure content, actual cure acquisition and the Underworld Research Center route/interior/quest. These are not claimed playable by this release. Some component/browser tests use explicitly seeded QA infections and cure doses. No paid-provider acceptance call is claimed.
+
+Bible, source snapshot, relevant character/design records, combat guide, status, handoff and new release evidence accompany this release. Historical local checkpoints below retain their original unpublished status; this authorization supersedes the publishing hold for implemented work. Deployment verification is pending.
+
 ## v1.0.127 — Cherished Touch artwork published and verified
 
 Owner-authorized Charity follow-up adds22photographic-style1100×733images:11day/night pairs for storefront and all interior views, with one shared changing-room-bank illustration per phase. Northeast Hub landscaping/architecture carries into the storefront; cream/oak/deep-green shop finishes and Charity's modest rose-accented home follow established descriptions. Images appear directly in the location header, switch by actual room/phase and use the existing full-image control. Private-room images disappear with lost permission; no new access, actions, NPC presence, stock or hidden routes are granted. Hub/art-apartment redesign is deferred.

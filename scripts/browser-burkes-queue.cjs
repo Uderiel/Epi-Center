@@ -1,0 +1,27 @@
+const {chromium}=require('playwright'),assert=require('node:assert/strict');
+(async()=>{const browser=await chromium.launch({executablePath:'/usr/bin/chromium',args:['--no-sandbox']});try{
+ const p=await browser.newPage({viewport:{width:1100,height:850}}),errors=[];p.on('pageerror',e=>errors.push(e.message));
+ const expose=()=>p.evaluate(()=>{const dock=document.querySelector('#accessibleRooms');if(dock){dock.open=true;dock.classList.add('dock-front');}for(const d of document.querySelectorAll('details'))d.open=true;});
+ async function click(selector){await expose();await p.locator(selector).first().click();}
+ async function b(action,id){await click('[data-burkes="'+action+'"]'+(id?'[data-burkes-id="'+id+'"]':''));}
+ async function r(action,id){await click('[data-burkes-retail="'+action+'"]'+(id!==undefined?'[data-retail-id="'+id+'"]':''));}
+ async function room(){await p.evaluate(()=>{while(EpiBurkesSweets.current(save).view!=='room')EpiBurkesSweets.back(save);store();render();});}
+ async function drink(id){await room();await b('fixture','machine');await b('fixture',id);await r('drink',id);await r('cup','cafe');await r('timing','now');}
+ await p.goto('http://127.0.0.1:8767/rebuild/title-screen/');await p.evaluate(()=>localStorage.setItem('epicenter_v1_slot_3',JSON.stringify({schema:1,slot:3,status:'ready',playerId:'alice',name:'Queue QA',hub:{location:"Burke's Sweets",feed:[]},world:{localPlayers:[{id:'bob',name:'Synthetic peer fixture',present:true,space:"Burke's Sweets:C"}]},forms:{},inventory:{keepsake:1},gold:100,worldClock:{minutes:540,elapsed:0},settings:{liveTime:false,aiEnabled:false}})));
+ await p.goto('http://127.0.0.1:8767/rebuild/hub/?slot=3');await p.waitForSelector('#compose');await b('enter');await b('move','C');await p.evaluate(()=>EpiBurkesRetail.state(save).mistakeRate=0);await drink('coffee');
+ const own=await p.evaluate(()=>EpiBurkesQueue.state(save).entries.find(e=>e.customerId==='alice').id);
+ await p.evaluate(()=>{save.hub.qaPeerRequest=EpiBurkesQueue.request(save,'checkout',null,{customerId:'bob'}).id;store();});await room();await b('move','A');assert.equal(await p.evaluate(()=>EpiBurkesQueue.next(save).customerId),'bob');
+ await p.evaluate(()=>{EpiBurkesQueue.begin(save,EpiBurkesQueue.next(save));store();});await p.reload();await p.waitForSelector('#compose');await b('move','C');await b('fixture','register');await r('pay');
+ assert(await p.evaluate(own=>save.gold===100&&EpiBurkesRetail.state(save).orders.length===0&&EpiBurkesQueue.state(save).entries.some(e=>e.id===own)&&EpiBurkesQueue.next(save).customerId==='bob',own));console.log('PASS real step-away, reload and payment control preserve place without interrupting active peer transaction');
+ await p.evaluate(()=>{EpiBurkesQueue.finish(save,save.hub.qaPeerRequest);store();render();});await r('pay');assert.equal(await p.evaluate(()=>save.gold),94);console.log('PASS returning customer pays through real control once previous transaction completes');
+ await p.evaluate(()=>EpiBurkesRetail.state(save).mistakeRate=1);await drink('vanilla');await r('pay');
+ while(await p.evaluate(()=>EpiBurkesRetail.state(save).orders.at(-1).status==='preparing'))await r('wait');
+ const wrong=await p.evaluate(()=>EpiBurkesRetail.state(save).orders.at(-1).id);
+ await p.evaluate(()=>{const e=EpiBurkesQueue.request(save,'checkout',null,{customerId:'bob'});save.hub.qaPeerRequest=e.id;EpiBurkesQueue.begin(save,e);store();render();});
+ await r('correct',wrong);assert(await p.evaluate(id=>!EpiBurkesRetail.state(save).orders.find(o=>o.id===id).corrected&&EpiBurkesQueue.state(save).entries.some(e=>e.kind==='correction'&&e.orderId===id),wrong));
+ await p.reload();await p.waitForSelector('#compose');const before=await p.evaluate(()=>({gold:save.gold,cups:EpiBurkesRetail.state(save).supplies.cups}));
+ await p.evaluate(()=>{EpiBurkesQueue.finish(save,save.hub.qaPeerRequest);advanceGameTime(1,'Queue correction QA');store();render();});assert(await p.evaluate(({wrong,before})=>{const o=EpiBurkesRetail.state(save).orders.find(o=>o.id===wrong);return o.corrected&&o.actual==='vanilla'&&save.gold===before.gold&&EpiBurkesRetail.state(save).supplies.cups===before.cups-1;},{wrong,before}));console.log('PASS real correction request waits, persists through reload and automatically remakes once without charging');
+ await drink('espresso');await r('pay');assert(await p.evaluate(id=>{const orders=EpiBurkesRetail.state(save).orders,fix=orders.find(o=>o.id===id),next=orders.at(-1);return next.startedAt>=fix.readyAt;},wrong));console.log('PASS new paid preparation cannot start ahead of the confirmed correction');
+ await drink('coffee');const paid=await p.evaluate(()=>EpiBurkesRetail.state(save).orders.map(o=>o.id));await room();await b('move','A');await b('leave');assert(await p.evaluate(paid=>!EpiBurkesQueue.state(save).entries.some(e=>e.customerId==='alice')&&paid.every(id=>EpiBurkesRetail.state(save).orders.some(o=>o.id===id)),paid));await p.reload();await p.waitForSelector('#compose');assert(await p.evaluate(()=>!EpiBurkesQueue.state(save).entries.some(e=>e.customerId==='alice')));console.log('PASS actual exit cancels only queue request and retains paid orders across reload');
+ await p.setViewportSize({width:390,height:844});assert(await p.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2));assert.equal(errors.length,0);console.log('PASS mobile layout and no uncaught browser errors');
+}finally{await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1;});

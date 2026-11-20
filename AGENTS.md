@@ -32,3 +32,7 @@ After the owner approves an in-scope feature, implement and test it without wait
 ## Every release includes canonical documentation
 
 Before publishing any release, reconcile the World Bible/current canon backup, relevant NPC/form/entity/location records, applicable combat/attribute guide, changelog, status and handoff with actual runtime changes. Preserve earlier history with explicit supersession; distinguish design, implementation, verification, deployment and owner acceptance. Regenerate the source-backed Bible snapshot with `node scripts/build-world-bible.cjs`, run the release verification, and record deployment evidence. This is required for every release without a separate reminder from the owner.
+
+## Scene prose metadata contract
+
+Use the authored feed event's `tone` when constructing the serialized scene JSON: `standard` by default, `suggestive` for explicitly authored flirtation, or the supported opaque `explicit_adult` classification where authored. Preserve the label through worker projection; reject unsupported labels before generation. Do not infer tone from player prompt instructions or resource values. Use concise neutral terms in `event` for actual resolved actions, positions and body facts; never invent an event, permission or consent, or use metadata to direct an external generator to reconstruct omitted compelled sexual acts. Prose cannot mutate game state. See docs/SCENE-GENERATION-METADATA.md.

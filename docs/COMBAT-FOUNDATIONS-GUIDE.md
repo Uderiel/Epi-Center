@@ -1,3 +1,9 @@
+## v1.0.128 — current implemented additions
+
+Tits uses the authored Common45profile (6/5/5/5/2/1/2/9/1/9 in engine attribute order), maxHealth110/Stamina110/Resolve90. Players start with40points; current discoverable Easter egg adds1. NPC rarity budget is not a player allocation grant. BVC conversion redistributes the player’s existing base total using the three owner-approved percentage rules; cap10, whole points, overflow retained at source, physical/mental rules preserve Intuition. Club uses25%mental/50%physical surplus above1, not a scaled Tits allocation.
+
+Recorded infections use72real-hour incubation and live-arousal-driven progression (baseline36game hours). Completion names/base lock/six-game-hour sleep/presentation/daily consequences are connected. Natural exposure handlers and remaining carrier quest/NPC/enemy consequences are unfinished. Cure provenance is patient-specific to one blood drop/one dose per person at the distinct Underworld Research Center laboratory; acquisition remains unbuilt. Active carriers cannot reallocate baseline attributes or receive surgery. Cure reopens those permissions, preserving current allocated total/losses/unspent points and transformed base/name. Historical daily-penalty damage is not refunded.
+
 ## Current attribute rules — v1.0.126
 
 Owner-approved and implemented: Common45, Uncommon55, Rare65, Epic75, Legendary85base allocation budgets; every player/NPC/form base attribute is capped at10. These supersede older30/40/50/60/75budgets and20-point NPC bases below. Player creation stays40points/max7at creation; original player spending stops at75total/max10per attribute. Banked points are retained if blocked. Equipped-form totals and equipment bonuses are not original-player allocation; bonuses remain separate and may raise effective scores above10. No free Charity Epic points through disguise.
@@ -1013,3 +1019,5 @@ The prior connected-anatomy simulation incorrectly canceled Kibbles Bite/Pouncin
 
 ## Owner-approved encounter UI clarification (2026-10-29)
 Surrender/Submit is the **sixth Main action**, displayed inside the existing Main action drawer alongside Basic Attack, Strong Attack, archetype-specific third action, recovery posture, and Attempt to Flee. It is **not** a separate section or drawer. Choosing it consumes the current turn's Main action and forfeits any remaining Minor action and Reaction for that initiative turn only; it does not award an automatic Skin Wrap or other enemy action. On the next eligible initiative turn the player may act, subject to actual encounter conditions. This supersedes earlier UI concepts that placed Submit outside the Main actions. Owner-approved sketch keeps live feed, collapsible encounter/condition, action cost labels, persistent text input, and context-sensitive reactions.
+
+Release128clarification: the Underworld Research Center is distinct from the overworld facility. One patient-specific cure per person requires one recorded drop of the patient’s blood. Active carriers cannot reallocate or spend banked baseline points before cure; unspent points are retained. Laboratory access/acquisition remains unbuilt.

@@ -1,0 +1,178 @@
+{
+  "scope": "Explicit QA fixtures; no owner saves or paid model calls",
+  "results": [
+    {
+      "file": "browser-burkes-baking.cjs",
+      "passed": true,
+      "output": "PASS actual preopening clock starts approved production with finite starting supply\nPASS dish cleanup finishes inside approved hour and reload preserves progress\nPASS normal daytime replacement consumes real inputs and visibly carries messier presentation\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-burkes-foundation.cjs",
+      "passed": true,
+      "output": "PASS tile63 entrance reaches actual candy zone with indoor scene boundary\nPASS fixture selection uses one shared drawer and no charge\nPASS Back restores the actual parent fixture\nPASS basket is a unique actual carried shop-owned inventory item\nPASS Items exposes basket identity and return instructions\nPASS bakery fixture has approved price without granting a product\nPASS layout marks storage staff-only and plans legal B-A-C public route\nPASS actual queued navigation reaches register without visiting storage\nPASS counter approach stays public and blocks storage\nPASS counter position and carried basket persist after reload\nPASS exit retains the physical borrowed basket\nPASS return empties only the basket custody with gold and keepsake intact\nPASS fixture controls fit phone viewport and other save stays untouched\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-burkes-payment.cjs",
+      "passed": true,
+      "output": "PASS actual sale funds till and courier counts real ingredient depletion\nPASS real six-AM delivery automatically drafts actual till and preserves player money and owner salary\nPASS reload and next tick do not duplicate payment or delivery\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-burkes-queue.cjs",
+      "passed": true,
+      "output": "PASS real step-away, reload and payment control preserve place without interrupting active peer transaction\nPASS returning customer pays through real control once previous transaction completes\nPASS real correction request waits, persists through reload and automatically remakes once without charging\nPASS new paid preparation cannot start ahead of the confirmed correction\nPASS actual exit cancels only queue request and retains paid orders across reload\nPASS mobile layout and no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-burkes-retail.cjs",
+      "passed": true,
+      "output": "PASS selected goods are physically unpaid basket contents\nPASS drink preparation exposes the actual reference card and preset\nPASS serving preference is a separate drawer with a direct now-or-with-products question\nPASS register shows canonical whole checkout total before payment\nPASS one payment transfers exactly paid goods and leaves a real empty basket\nPASS reload preserves saved preset preparation without duplicate charge or serving\nPASS ready drink is served as one real carryable cup\nPASS holding the drink uses the same owned item and hand slot\nPASS consumption removes held drink and leaves an actual empty takeaway cup\nPASS wrong preset result gets one saved free remake without a second payment\nPASS corrected drink can be handed over once\nPASS takeaway consumed at counter leaves actual empty cup instead of a used dish\nPASS reloaded used cup offers Dispose and no equip or hold action\nPASS Dispose removes only that cup and narrates particles without charging\nPASS disposed cup stays absent after reload and cannot be disposed twice\nPASS cup consumed outdoors also supports disposal from Items\nPASS retail interface fits mobile and original belongings stay intact\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-candy-effects.cjs",
+      "passed": true,
+      "output": "PASS real purchased sucker start/pause/resume controls, clock thresholds, reload, expiry and no browser errors\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-gum-effects.cjs",
+      "passed": true,
+      "output": "PASS manual destination uses actual extra mapped travel and preserves original destination\nPASS real purchased gum start/pause/resume controls, ten-minute checks, reload persistence, no depletion and no browser errors\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-lip-cosmetics.cjs",
+      "passed": true,
+      "output": "PASS real shelf selections and payment issue both ten-use tubes at approved prices\nPASS actual apply/wipe controls, clock, visible body and reload preserve lasting stage without further progression\nPASS actual gloss controls add one Arousal per five worn minutes and stop after wiping\nPASS actual counted restock buys cheap bases for two gold, then Tits customizes them during prep without resetting owned tubes\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-scene-tone.cjs",
+      "passed": true,
+      "output": "PASS authored feed metadata reaches serialized worker payload for each tone\nPASS invalid tone stops before a provider request\nPASS authored direct-interest dialogue uses suggestive tone through actual UI adapter\nPASS no browser errors; all provider responses were local stubs\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-tits-rest.cjs",
+      "passed": true,
+      "output": "PASS hidden rest-night roll chooses nearest venue and two hours starts at arrival\nPASS actual mapped return reaches home then begins six-hour sleep\nPASS sleep survives reload, does not end early, recovers actual fatigue and leaves player unchanged\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-tits-return.cjs",
+      "passed": true,
+      "output": "PASS real clock return with Daily Needs and full prep for nightly outcome 10\nPASS actual public entry reopens after completed return/preparation 10\nPASS real clock return with Daily Needs and full prep for nightly outcome 50\nPASS actual public entry reopens after completed return/preparation 50\nPASS real clock return with Daily Needs and full prep for nightly outcome 90\nPASS actual public entry reopens after completed return/preparation 90\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-tits-routine.cjs",
+      "passed": true,
+      "output": "PASS actual clock triggers announcement and pauses new public entry\nPASS actual trip and hidden forget check persist without moving player\nPASS actual reminder button starts return and restores staffing without player resource changes\nPASS actual-clock snack reserves one portion, survives reload, pauses for customer and consumes once\nPASS actual closing, planned wardrobe, saved mapped travel and placeholder venue entry without moving player\nPASS automatic hidden nightly decision chooses approved destination, starts travel and persists\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-tits-social.cjs",
+      "passed": true,
+      "output": "PASS actual arrival offer, decline and reload without repeated hug\nPASS negative visit has no hug; positive visit accepts explicitly and remembers simple appearance nickname\nPASS actual payment rewards quantities and actual expressed compliment grants one\nPASS third disruptive touch refuses, survives reload, patience grants one, paid correction stays free and available\nPASS real preferred gift keeps five, resets refusal/incident and preserves nickname after reload\nPASS locally stubbed provider acceptance updates actual dialogue memory across reload without a paid request\nPASS no browser errors\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-tits.cjs",
+      "passed": true,
+      "output": "PASS loaded UI invokes Tits dialogue and approved profile\nPASS dialogue reload and player/appearance isolation through actual browser\nPASS ordinary touch through visible control has no penalty\nPASS third disruptive touch through real control after reload pouts and applies minus five without staff entry\nPASS saved penalty is not reapplied by reload\nPASS actual composer discloses at fifty and warns before intimate requests at zero, persisting after reload\nPASS explicit invitation through visible control permits staff room and survives reload\nPASS all eight approved bakery fixtures are visible in authorized D and mixer inspection works\nPASS visible borrowing and return controls preserve actual equipment across reload\nPASS actual worn dress borrowing and return through visible controls and shared clothing adapter\nPASS visible preferred gift transfers actual item and awards five once across reload\nPASS fatigue percentile outcome stays hidden and persists without reroll\nPASS real game-clock advance pays owner seven hundred once and persists after reload\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-virus-appearance.cjs",
+      "passed": true,
+      "output": "PASS physical neutral external anatomy and previously approved appearance fields reach live base fields and visible panel, persisting once through reload\nPASS mental neutral external anatomy and previously approved appearance fields reach live base fields and visible panel, persisting once through reload\nPASS arousal neutral external anatomy and previously approved appearance fields reach live base fields and visible panel, persisting once through reload\nPASS no browser errors; only explicitly seeded QA infections were used\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-virus-attributes.cjs",
+      "passed": true,
+      "output": "PASS gym-bunny transfers at actual completion, preserves total and physical attributes, survives reload without repeat; completion assigns one saved name; stable ID/save unchanged; post-completion player name pink in feed and after reload; earlier entries unchanged; no browser errors or paid calls\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-virus-base-lock.cjs",
+      "passed": true,
+      "output": "PASS actual completion permanently locks converted base, visible lock status, real owned-form equip/release returns to new base, reload without duplicate lock; club transfers, preserves total and Intuition, survives reload without repeat; completion assigns one saved name; stable ID/save unchanged; post-completion player name pink in feed and after reload; earlier entries unchanged; no browser errors or paid calls\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-virus-club.cjs",
+      "passed": true,
+      "output": "PASS club transfers at actual completion, preserves total and Intuition, survives reload without repeat; completion assigns one saved name; stable ID/save unchanged; post-completion player name pink in feed and after reload; earlier entries unchanged; no browser errors or paid calls\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-virus-cure.cjs",
+      "passed": true,
+      "output": "PASS physical real cure UI consumes explicitly source-tracked QA dose; active effects and new pink feed marking stop; body/name/stats/ID unchanged; surgery permission returns; actual Stats reallocation conserves total; persists after reload\nPASS mental real cure UI consumes explicitly source-tracked QA dose; active effects and new pink feed marking stop; body/name/stats/ID unchanged; surgery permission returns; actual Stats reallocation conserves total; persists after reload\nPASS arousal real cure UI consumes explicitly source-tracked QA dose; active effects and new pink feed marking stop; body/name/stats/ID unchanged; surgery permission returns; actual Stats reallocation conserves total; persists after reload\nPASS no browser errors or paid model calls\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-virus-identity.cjs",
+      "passed": true,
+      "output": "PASS actual completion assigns one saved name; stable ID/save unchanged; post-completion player name pink in feed and after reload; earlier entries unchanged; no browser errors or paid calls\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-virus-penalties.cjs",
+      "passed": true,
+      "output": "PASS real Ignore controls enforce twenty-five/fifty floors and manual outdoor travel takes twelve minutes\nPASS two actual indoor movements carry fractional timing and total fifty-percent longer\nPASS seventy-five floor produces actual gibberish and intended speech does not leak to NPC payload\nPASS fourth miss removes one point and soils actual lower clothes; reload preserves it and fifth miss restarts at twenty-five\nPASS actual midnight clock hook applies missed deadline consequence\nPASS no browser errors; only converted QA fixtures were used\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-virus-presentation.cjs",
+      "passed": true,
+      "output": "PASS physical actual composer displays archetype wording, visible recorded mannerism and pink identity; original input remains saved; matching translated NPC payload and personality; stable through reload\nPASS mental actual composer displays archetype wording, visible recorded mannerism and pink identity; original input remains saved; matching translated NPC payload and personality; stable through reload\nPASS arousal actual composer displays archetype wording, visible recorded mannerism and pink identity; original input remains saved; matching translated NPC payload and personality; stable through reload\nPASS no browser errors or paid model calls\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-virus-recovery.cjs",
+      "passed": true,
+      "output": "PASS actual daily activity controls lower three-to-two-to-one-to-zero, preserve active timers and stay zero after further completion\nPASS reload does not repeat recovery or lose base points; no browser errors\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-virus-resources.cjs",
+      "passed": true,
+      "output": "PASS real inventory apply and wait commands update live meter while suppressing gloss gain\nPASS clock-driven hundred-percent crossing resets actual pool and survives reload without duplicate feedback\nPASS external live-meter crossing advances early once through the render hook\nPASS this resource-only step does not pretend appearance/name replacement is connected\nPASS no browser errors; only an explicitly seeded QA infection was used\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-virus-sleep.cjs",
+      "passed": true,
+      "output": "PASS completion sleep gates input; six real UI hour advances wake in same location; reload does not reroll; private dream tone reaches serialized scene; waking presentation reaches AI physical context; no paid calls\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-virus-social.cjs",
+      "passed": true,
+      "output": "PASS actual activity controls count thirty game minutes across reload without free resources\nPASS next game day requires a new activity\nPASS real explanation control verifies identity and supplies only the recognized fact to AI after reload\nPASS no browser errors; only an explicitly converted QA fixture was used\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-virus-sorority.cjs",
+      "passed": true,
+      "output": "PASS sorority transfers at actual completion, preserves total and Intuition, survives reload without repeat; completion assigns one saved name; stable ID/save unchanged; post-completion player name pink in feed and after reload; earlier entries unchanged; no browser errors or paid calls\n",
+      "stderr": ""
+    }
+  ],
+  "passed": true,
+  "initialFailures": [
+    {
+      "file": "browser-virus-penalties.cjs",
+      "reason": "Older completed-carrier QA fixture omitted the newly authored completed-sleep state."
+    },
+    {
+      "file": "browser-virus-recovery.cjs",
+      "reason": "Older completed-carrier QA fixture omitted the newly authored completed-sleep state."
+    }
+  ]
+}
