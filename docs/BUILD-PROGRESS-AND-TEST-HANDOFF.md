@@ -1,3 +1,7 @@
+## Unpublished — shared lexicon and structured language intents
+
+39 action families and113 shared examples now connect the parser and Eve’s suggestions. Action, desire, quoted speech and purpose clauses are distinct. Actual pathing/body/ownership/participant restrictions and controller live-feed results remain authoritative. 1,834 automated cases and targeted browser checks pass locally, including actual flats restrictions, Dart’s reciprocal sniff and serialized AI context. See ACTION-LEXICON.md, LANGUAGE-INTENT-RECOGNITION.md and verification/language-lexicon-summary.json. The owner’s transmission-specific vocabulary process is explicitly next, not started. Nothing from this follow-up is published.
+
 ## Unpublished — text-first gameplay, Eve help and learned database
 
 The comprehensive source inventory and shared contextual text/controller bridge are implemented locally. Menus remain optional shortcuts. Actual composer tests cover the 2F knock, Priya’s optional stranger cat offer and Erin exception, loans, nested shopping/payment, carried candy, earned-point selection, remote Eve help and durable learned facts. Full scope, tested contexts and explicit language/availability limits are in TEXT-INPUT-PARITY-AUDIT.md and EVE-HELP-AND-PLAYER-DATABASE.md. v1.0.130 remains live; no follow-up changes are published.

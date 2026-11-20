@@ -1,0 +1,33 @@
+{
+  "status": "Finished locally, unpublished",
+  "actionFamilies": 39,
+  "sharedExamples": 113,
+  "automatedCases": 1834,
+  "newParserCases": 12,
+  "newBrowserChecks": 8,
+  "verified": [
+    "Action vs desire: no implicit purchase or travel",
+    "Purpose stays context, not queued commands",
+    "Travel capability queries preview without movement",
+    "Actual flats transformation retains movement and speech restrictions",
+    "Existing pathing and controller live-feed results",
+    "Typed request/social-act metadata reaches serialized AI scene without private purpose",
+    "Dart reciprocal sniff uses original greeting and barriers",
+    "Eve displays the same shared lexicon"
+  ],
+  "regressions": [
+    "Existing contextual text/Eve/database browser suite",
+    "Nested shopping and earned/cured allocation browser suite",
+    "Nine contextual catalog fixtures",
+    "v1.0.130 directory and timed-binding warning browser checks",
+    "Non-graphic private-encounter payload browser checks"
+  ],
+  "boundaries": [
+    "Unknown actions do not invent outcomes",
+    "Kiss recognition is request-only; natural NPC decision and timed-contact source scenes remain separate",
+    "Owner-led transmission/body-target vocabulary is next and has not started"
+  ],
+  "paidCalls": false,
+  "ownerSavesUsed": false,
+  "publishedVersionUnchanged": "1.0.130"
+}

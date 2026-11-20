@@ -6,7 +6,7 @@ The composer is a gameplay access point, not merely a transcript. Menus remain o
 
 ## Comprehensive source inventory
 
-`scripts/audit-text-actions.cjs` inventories every hub/combat/title/creation JS/HTML button site, form and text adapter. Current source inventory: **94 attribute families, 18 ID-only button sites, eight forms and 72 existing text adapters**. This includes parameter metadata, interface controls and historical files; these are not counts of distinct playable actions. The full file-by-file record is `verification/text-action-source-audit.json`.
+`scripts/audit-text-actions.cjs` inventories every hub/combat/title/creation JS/HTML button site, form and text adapter. Initial overhaul source inventory: **94 attribute families, 18 ID-only button sites, eight forms and 72 existing text adapters**. This includes parameter metadata, interface controls and historical files; these are not counts of distinct playable actions. The full file-by-file record is `verification/text-action-source-audit.json`.
 
 | Area | Implemented access |
 | --- | --- |
@@ -44,3 +44,5 @@ Unbuilt natural NPC intimate invitations, kissing/exposure sources, Underworld l
 Published release remains v1.0.130. Frozen Bible/release evidence are preserved. Before the next publication, reconcile this pending record and `EVE-HELP-AND-PLAYER-DATABASE.md` into the new version’s canon snapshot; do not rewrite the frozen v1.0.130 Bible.
 
 Final verification: **1,822 automated cases pass**, **12 composer/browser checks pass**, and **nine contextual catalog fixtures pass** (no missing own-label routes, wrong controller selections or matching-time save mutations). Ambiguous labels require clarification. Saved evidence: `verification/text-overhaul-summary.json`, `text-overhaul-tests.json`, `text-actions-browser.json`, `text-shopping-browser.json` and `text-context-browser.json`. The v1.0.130 directory/binding-warning browser regression and earlier private-encounter payload browser checks also pass.
+
+The subsequent structured-language follow-up adds the shared lexicon, modality/purpose handling and neutral AI request context. See LANGUAGE-INTENT-RECOGNITION.md for the newer verification checkpoint.

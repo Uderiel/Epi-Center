@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checks": [
+    "Desire statements change neither clock, wallet, items nor travel",
+    "A travel capability question previews the actual route without starting it",
+    "Travel action uses real pathing while the purpose never buys candy",
+    "Actual flats transformation blocks typed travel and audible speech",
+    "Typed intent and controller-resolved social metadata reach the serialized AI payload",
+    "Targeted social act reaches the NPC controller; quoted desire is dialogue, not a purchase",
+    "Eve displays the shared live lexicon in the feed",
+    "Reciprocal sniff resolves through Dart\u2019s existing presence, barrier and greeting controller"
+  ],
+  "errors": [],
+  "scope": "Isolated QA save and real composer, actual flats transformation, no paid calls"
+}

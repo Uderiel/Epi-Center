@@ -925,6 +925,10 @@
   ],
   "existingTextAdapters": [
     {
+      "file": "rebuild/hub/action-lexicon.js",
+      "name": "parse"
+    },
+    {
       "file": "rebuild/hub/ai-ui.js",
       "name": "aiFeedText"
     },
@@ -1059,6 +1063,10 @@
     {
       "file": "rebuild/hub/internal-mastery.js",
       "name": "controlText"
+    },
+    {
+      "file": "rebuild/hub/language-actions-ui.js",
+      "name": "languageActionText"
     },
     {
       "file": "rebuild/hub/marketing-ui.js",
