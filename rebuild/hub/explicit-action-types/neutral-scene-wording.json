@@ -1,5 +1,5 @@
 {
-  "version": "neutral-scene-wording-v2",
+  "version": "neutral-scene-wording-v3",
   "purpose": "Non-graphic wording reference for controller-resolved scene summaries; not an executable action registry.",
   "runtimeActionsAdded": false,
   "verbs": [
@@ -81,7 +81,8 @@
     "Do not combine labels into explicit sexual instructions or direct a narrative model to reconstruct omitted acts.",
     "This reference adds no parser routes, NPC permissions, transmission triggers or automatic outcomes.",
     "Fluid names and contact-record field definitions are reference vocabulary only; they add no infectiousness, exposure thresholds, barriers or resistance rules.",
-    "Drooling alone establishes no recipient contact. Consuming drool requires a resolved ingestion event; brief contact or a single swallow does not automatically satisfy a timed threshold."
+    "Drooling alone establishes no recipient contact. Consuming drool requires a resolved ingestion event; brief contact or a single swallow does not automatically satisfy a timed threshold.",
+    "Consumption vocabulary maps to ingestion only when actual fluid consumption is resolved. Sweat on skin is not ingestion until consumed; dry skin contact adds no ingestion time."
   ],
   "fluidNames": [
     "saliva",
@@ -132,5 +133,26 @@
       "accumulation": "continuous",
       "status": "existing exposure controller; natural-language interaction trigger not yet implemented"
     }
-  ]
+  ],
+  "consumptionVocabulary": {
+    "actions": [
+      "lick",
+      "licking",
+      "suck on skin",
+      "skin-sucking",
+      "consume",
+      "ingest"
+    ],
+    "fluidTerms": [
+      "fresh saliva",
+      "fresh drool",
+      "fresh sweat"
+    ],
+    "resolvedRoute": "ingestion",
+    "requiredGameMinutes": 10,
+    "rollingWindowGameMinutes": 120,
+    "condition": "Actual consumption of a recorded fresh infectious fluid, with participant decisions and contact established by the interaction controller.",
+    "notImpliedByVerb": "Licking or skin-sucking alone does not establish fluid presence, consumption, infectiousness or permission.",
+    "runtimeStatus": "Exposure route already implemented; these natural-language action triggers are not wired."
+  }
 }

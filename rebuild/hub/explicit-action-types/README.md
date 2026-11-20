@@ -13,3 +13,5 @@ The wording reference also lists clinical fluid names and defines source, fluid 
 ## Audience context
 
 The game is intended for adults knowingly choosing mature fictional themes. This audience context is recorded in the repository's AGENTS.md. Player willingness to experience a theme is distinct from the participants' agreement within a scene; wording and metadata must preserve that distinction. No consent gates or gameplay rules are changed by this note.
+
+Approved consumption wording includes licking and skin-sucking when the controller resolves actual consumption of fresh saliva, drool or sweat. This maps to the existing ten-minute ingestion threshold in a rolling two-hour window. The vocabulary is recorded; natural-language triggers for these actions are not implemented by the reference.
