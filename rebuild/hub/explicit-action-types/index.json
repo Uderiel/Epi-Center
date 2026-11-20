@@ -16,5 +16,8 @@
         ]
       }
     }
+  },
+  "wordingReferences": {
+    "neutralScenes": "neutral-scene-wording.json"
   }
 }

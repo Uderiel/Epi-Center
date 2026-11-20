@@ -1,0 +1,84 @@
+{
+  "version": "neutral-scene-wording-v1",
+  "purpose": "Non-graphic wording reference for controller-resolved scene summaries; not an executable action registry.",
+  "runtimeActionsAdded": false,
+  "verbs": [
+    "touch",
+    "hold",
+    "rest against",
+    "lean against",
+    "embrace",
+    "press against",
+    "stroke",
+    "rub",
+    "massage",
+    "release",
+    "approach",
+    "step back",
+    "pull away",
+    "pause",
+    "stop"
+  ],
+  "bodyRegions": [
+    "chest",
+    "upper chest",
+    "sternum",
+    "shoulder",
+    "arm",
+    "hand",
+    "back",
+    "lips"
+  ],
+  "contactTypes": [
+    "hand contact",
+    "chest-to-chest contact",
+    "direct skin contact",
+    "contact through clothing"
+  ],
+  "postureLabels": [
+    "standing",
+    "seated",
+    "lying down",
+    "side-by-side",
+    "face-to-face"
+  ],
+  "modifiers": [
+    "brief",
+    "sustained",
+    "light",
+    "firm",
+    "over clothing",
+    "direct skin contact"
+  ],
+  "interactionStatuses": [
+    "requested",
+    "accepted",
+    "declined",
+    "active",
+    "paused",
+    "stopped",
+    "completed"
+  ],
+  "sceneTemplates": [
+    {
+      "tone": "standard",
+      "event": "The participants share an accepted embrace."
+    },
+    {
+      "tone": "suggestive",
+      "event": "The adult participants share a mutually welcomed flirtatious moment."
+    },
+    {
+      "tone": "explicit_adult",
+      "event": "The adult participants share a private, consensual intimate encounter."
+    }
+  ],
+  "rules": [
+    "Use only facts established by the gameplay controller; templates are not evidence that an event occurred.",
+    "Preserve authored tone; do not infer tone from player instructions or arousal values.",
+    "A posture, body region or broad verb alone establishes neither a specific act nor fluid exchange.",
+    "Duration, willingness, acceptance, fluid route and resistance outcomes require separately resolved records.",
+    "Do not combine labels into explicit sexual instructions or direct a narrative model to reconstruct omitted acts.",
+    "This reference adds no parser routes, NPC permissions, transmission triggers or automatic outcomes."
+  ]
+}

@@ -1,3 +1,7 @@
+## Unpublished — neutral scene wording reference
+
+Added `explicit-action-types/neutral-scene-wording.json` and indexed it in the shared library: neutral verbs, chest/contact terms, general posture labels, modifiers, statuses and short authored-tone summaries. This is reference data only; no new commands, NPC permissions or transmission triggers. JSON and index references validated.
+
 ## Unpublished — kissing vocabulary and rolling contact
 
 Tits’s text-driven kissing now includes warning/confirmation, actual acceptance and work interruptions, stop/resume, neutral feed metadata and twenty contact minutes in a rolling two-game-hour window. Each minute expires individually. See KISSING-INTERACTION.md for scope and verification. 1,846 automated cases, seven kissing browser checks and eight language browser checks pass. Published v1.0.130 and its frozen Bible remain unchanged.
