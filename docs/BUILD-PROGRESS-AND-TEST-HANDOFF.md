@@ -1,3 +1,7 @@
+## v1.0.132 — published and publicly verified
+
+Burke’s ten matched day/night headers and virus developer controls are live. Runtime `3daf221cc6f327d97cd6e9a367effc6860c66679`; Pages run44811674993 and Worker build succeeded. All1,985 automated cases, seven local browser checks and four public artwork/debug checks pass. All239 compared public files match, including ten images and frozen Bible/manifest. Worker reports1.0.132/configured. Initial deployment-timing and image-download harness checks passed on rerun; see releases/v1.0.132-release-summary.json. No owner saves or paid narrative calls. D17 artwork is complete; D10 Wet Lily/Tits’s apartment layouts remain deferred. Next owner-directed build: Form Repository. Earlier local/pending checkpoints below are historical.
+
 ## v1.0.132 — owner-authorized publication underway
 
 Burke’s ten day/night headers and developer infection/incubation/progression/cure controls are approved for publication. Local1,985-case and four-browser-check evidence passes; release verification is running. D17 is complete locally; Wet Lily/Tits’s apartment design remains deferred. Form Repository is next after publication. See BURKES-ART-AND-VIRUS-DEBUG.md; earlier pending checkpoints are historical.

@@ -1,6 +1,6 @@
 {
   "version": "1.0.132",
-  "status": "Owner-authorized; locally verified; deployment pending",
+  "status": "Published and publicly verified",
   "baseline": "1.0.131",
   "implemented": [
     "10 photorealistic storefront/room day-night headers with full-image view and actual room/phase/invitation selection",
@@ -18,5 +18,21 @@
   "artManifest": "docs/art/BURKES-SWEETS-ART-MANIFEST.json",
   "paidNarrativeModelCalls": false,
   "ownerSaves": false,
-  "nextBuild": "Form Repository; no repository gameplay added in this release"
+  "nextBuild": "Form Repository; no repository gameplay added in this release",
+  "runtimeCommit": "3daf221cc6f327d97cd6e9a367effc6860c66679",
+  "pagesRun": "https://github.com/Uderiel/Epi-Center/actions/runs/44811674993",
+  "publicMatchedFiles": 239,
+  "publicArtDebugChecks": 4,
+  "workerHealth": {
+    "releaseVersion": "1.0.132",
+    "configured": true
+  },
+  "publicEvidence": [
+    "docs/releases/v1.0.132-live-verification.json",
+    "docs/releases/v1.0.132-live-art-debug-browser.json"
+  ],
+  "verificationNotes": [
+    "Initial file verification reached the still-deploying Worker at1.0.131; unchanged runtime rerun passed after the Worker build succeeded.",
+    "Initial public image assertion ran before download completion; browser harness now awaits img.decode(); rerun passed with unchanged game runtime."
+  ]
 }

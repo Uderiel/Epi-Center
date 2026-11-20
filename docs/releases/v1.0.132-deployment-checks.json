@@ -1,0 +1,29 @@
+{
+  "runtimeCommit": "3daf221cc6f327d97cd6e9a367effc6860c66679",
+  "checks": [
+    {
+      "name": "Workers Builds: epi-center-ai",
+      "status": "completed",
+      "conclusion": "success",
+      "detailsUrl": "https://dash.cloudflare.com/7dff926f4e48921aecf343cfeb49a698/workers/services/view/epi-center-ai/production/builds/2778a73e-135f-47b7-b8be-8ad70b4d6db3"
+    },
+    {
+      "name": "deploy",
+      "status": "completed",
+      "conclusion": "success",
+      "detailsUrl": "https://github.com/Uderiel/Epi-Center/actions/runs/44811674993/job/136549922989"
+    },
+    {
+      "name": "report-build-status",
+      "status": "completed",
+      "conclusion": "success",
+      "detailsUrl": "https://github.com/Uderiel/Epi-Center/actions/runs/44811674993/job/136549922951"
+    },
+    {
+      "name": "build",
+      "status": "completed",
+      "conclusion": "success",
+      "detailsUrl": "https://github.com/Uderiel/Epi-Center/actions/runs/44811674993/job/136549564760"
+    }
+  ]
+}

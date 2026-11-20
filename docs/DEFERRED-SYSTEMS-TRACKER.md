@@ -25,7 +25,7 @@ Reviewed 2026-11-20 against this conversation, current code, completion records 
 
 ## Closed or intentionally excluded — do not reopen as missing work
 
-- **D17 — completed locally, not published (Nov20):** Burke’s storefront and all four rooms now have matched photorealistic day/night headers (10 total), including RoomD’s flour detail. Room/clock/private-access selection and full-image view pass browser verification. See BURKES-ART-AND-VIRUS-DEBUG.md and art/BURKES-SWEETS-ART-MANIFEST.json. The historical reminder’s scheduler status was not changed.
+- **D17 — completed and published in v1.0.132 (Nov20):** Burke’s storefront and all four rooms now have matched photorealistic day/night headers (10 total), including RoomD’s flour detail. Room/clock/private-access selection and full-image view pass browser verification. See BURKES-ART-AND-VIRUS-DEBUG.md and art/BURKES-SWEETS-ART-MANIFEST.json. The historical reminder’s scheduler status was not changed.
 
 - Natural typed kissing/ingestion/contact, saliva/fresh source production, sweat, pressed-skin sleep contact, overnight holds, Room D invitation/source-method flow, resistance and complete infection-to-carrier testing are implemented locally.
 - Universal positive/negative relationship gains and real preferred gifts, required future-NPC template fields, readiness baselines, Priya's end-of-date +10 kiss, carrier social/shared-item rules, double positive arousal and retrievable concrete milestones are implemented locally.

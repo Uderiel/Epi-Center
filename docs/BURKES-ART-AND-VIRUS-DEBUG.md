@@ -1,6 +1,6 @@
 # Burke’s artwork and virus developer testing
 
-Local implementation after published v1.0.131; not published. Owner requested completing deferred artwork D17 and adding virus test/cure/incubation controls.
+Published and publicly verified in v1.0.132; release evidence: releases/v1.0.132-release-summary.json. Initial local implementation followed v1.0.131. Owner requested completing deferred artwork D17 and adding virus test/cure/incubation controls.
 
 ## Artwork
 
@@ -21,8 +21,8 @@ Actions change the selected save: use a QA slot. They are developer controls, ex
 
 ## Deferred follow-up
 
-D17 artwork is closed as completed locally after browser verification; publication is tracked separately. D10 explicitly retains **Wet Lily apartment layouts and Tits’s Unit1 interior** as undesigned/deferred. No apartment artwork or layout is created by the Burke’s work. No scheduling tool was available to verify/cancel the historical Nov21 artwork reminder; do not claim it was changed.
+D17 artwork is closed as completed and published in v1.0.132. D10 explicitly retains **Wet Lily apartment layouts and Tits’s Unit1 interior** as undesigned/deferred. No apartment artwork or layout is created by the Burke’s work. No scheduling tool was available to verify/cancel the historical Nov21 artwork reminder; do not claim it was changed.
 
 ## Verification
 
-Three artwork and five debug-controller cases cover phase selection, invitation privacy, real assets, unchanged clocks/ownership, incubation boundary, persistence, actual cure consequences, repeat-test history and combat/invalid guards. Broad suite:1,985 named cases pass. Four browser checks pass, including all ten headers/full-image view/privacy, actual developer buttons, incubation bypass without world-time change, natural progression with immediate final-sleep controls, actual cure consequences and reload; evidence is recorded in verification/burkes-art-virus-debug-summary.json; local only, synthetic slot3, AI off, no owner saves or paid narrative calls. Image generation was used for the requested artwork.
+Three artwork and five debug-controller cases cover phase selection, invitation privacy, real assets, unchanged clocks/ownership, incubation boundary, persistence, actual cure consequences, repeat-test history and combat/invalid guards. Broad suite:1,985 named cases pass. Four browser checks pass, including all ten headers/full-image view/privacy, actual developer buttons, incubation bypass without world-time change, natural progression with immediate final-sleep controls, actual cure consequences and reload; evidence is recorded in verification/burkes-art-virus-debug-summary.json; local and public verification, synthetic slot3, AI off, no owner saves or paid narrative calls. Image generation was used for the requested artwork.

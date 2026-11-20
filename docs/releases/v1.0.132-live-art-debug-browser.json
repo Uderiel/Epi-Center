@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "All ten actual storefront/room/day-night header files load; full-size overlay uses the current image",
+    "Artwork never grants staff access; Room D remains behind its existing invitation rule",
+    "Developer start and incubation bypass use actual controls, preserve world time, disable premature cure and survive reload",
+    "Developer progression completes through normal timing; actual test cure retains transformed body/name/ID/current points and survives reload"
+  ],
+  "errors": [],
+  "scope": "Synthetic QA slot3, AI off, actual developer buttons and normal progression; no owner save or paid model call"
+}
