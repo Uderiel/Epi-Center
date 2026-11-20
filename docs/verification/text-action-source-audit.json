@@ -5,7 +5,7 @@
     "Parameterized forms and deeper navigation branches require dedicated text/provider checks.",
     "No claim every natural-language phrase or every dynamic scene has browser coverage."
   ],
-  "buttonAttributeFamilies": 95,
+  "buttonAttributeFamilies": 96,
   "rows": [
     {
       "attribute": "data-activity-id",
@@ -303,6 +303,14 @@
       "attribute": "data-floor-arg",
       "files": [
         "rebuild/hub/office-floor-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-fluid-contact",
+      "files": [
+        "rebuild/hub/fluid-contact-ui.js"
       ],
       "sourceOccurrences": 1,
       "classification": "Contextual text bridge + original controller; per-scene availability applies"
@@ -1027,6 +1035,10 @@
     {
       "file": "rebuild/hub/erin-office.js",
       "name": "intent"
+    },
+    {
+      "file": "rebuild/hub/fluid-contact-lexicon.js",
+      "name": "parse"
     },
     {
       "file": "rebuild/hub/footwear-senses.js",

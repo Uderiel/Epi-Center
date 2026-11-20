@@ -1,3 +1,7 @@
+## Current unpublished rule — Tits public/private fluid requests
+
+After her warning and player choice, Tits can accept public saliva/sweat contact in a quiet shop, subject to actual work, willingness, source and regional access. Genital-fluid requests require an accepted private encounter and recorded actual source. Typed requests now route through fluid-contact.js; see FLUID-CONTACT-INTERACTIONS.md for verified scope and explicit limits.
+
 ## Current unpublished rule — concurrent exposure points
 
 Each qualifying contamination point has its own resistance check, including when several thresholds are reached in the same game minute. Do not merge simultaneous routes into one roll or blend their elapsed minutes into a faster combined threshold. Existing hidden Endurance difficulty escalation remains shared (+2 per further check, two-hour quiet reset).

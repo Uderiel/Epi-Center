@@ -26,3 +26,7 @@ See [INTIMATE-ENCOUNTER-CONTROLLER.md](INTIMATE-ENCOUNTER-CONTROLLER.md). The au
 ## Unpublished regional perspiration context
 
 Shared physical context provides locally visible qualitative perspiration only; no hidden numerical sweat score or covered-region survey is projected to nearby NPCs. The worn-flats private sensory path retains actual foot moisture observations. Controller-resolved private encounter regional observations, when present, are carried separately inside the owner-only `intimateEncounter.privatePerspiration` metadata. No generated prose can create exposure, permission or additional regional access.
+
+## Unpublished resolved fluid-contact metadata
+
+`recordedFluidContact` preserves neutral controller-resolved source/fluid/region/route, contact status and actual qualifying-fluid availability, along with authored tone. This differs from an input interpretation and does not include hidden resistance dice. Missing actual fluid never becomes consumption simply because a request was accepted.

@@ -1,0 +1,56 @@
+{
+  "version": "fluid-contact-v1",
+  "tone": "explicit_adult",
+  "fluidAliases": {
+    "drool": "saliva",
+    "saliva": "saliva",
+    "sweat": "sweat",
+    "semen": "semen",
+    "pre-ejaculate": "pre-ejaculate",
+    "vaginal secretions": "vaginal secretions",
+    "cervical mucus": "cervical mucus"
+  },
+  "examples": [
+    "I consume saliva from {person}",
+    "I consume {person}'s drool",
+    "I ask {person} to drool into my mouth",
+    "I lick {person}'s hand",
+    "I lick sweat from {person} at the neck",
+    "I hold {person}'s hand",
+    "I keep skin contact with {person} at the forehead",
+    "I accept the fluid contact",
+    "I stop contact"
+  ],
+  "rules": [
+    "Requests require actual target, NPC response and warning/confirmation.",
+    "Sweat ingestion requires actual fresh sweat on the named accessible region.",
+    "Genital-fluid requests require a private accepted encounter and a recorded actual source.",
+    "Body injuries, fluid availability and exposed regions are controller facts; player wording does not create them."
+  ],
+  "bodyType": "humanoid",
+  "regionAliases": {
+    "hand": "hands",
+    "hands": "hands",
+    "palm": "hands",
+    "palms": "hands",
+    "forehead": "forehead",
+    "neck": "neck",
+    "nape": "neck",
+    "back": "spine",
+    "spine": "spine",
+    "foot": "feet",
+    "feet": "feet",
+    "armpit": "armpits",
+    "armpits": "armpits",
+    "underarm": "armpits",
+    "underarms": "armpits",
+    "thigh": "innerThighs",
+    "inner thigh": "innerThighs",
+    "thighs": "innerThighs",
+    "inner thighs": "innerThighs",
+    "under chest": "underChest",
+    "under-chest": "underChest"
+  },
+  "source": "rebuild/hub/fluid-contact-lexicon.js",
+  "controller": "rebuild/hub/fluid-contact.js"
+}

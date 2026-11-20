@@ -333,6 +333,14 @@ Remote A.S.S. help uses the same live lexicon.
 
 Only learned/owned knowledge is shown.
 
+### fluid-contact — Fluid-contact requests
+
+- `I consume saliva from {person}`
+- `I lick {person}'s hand`
+- `I hold {person}'s hand`
+
+Actual fluid, warning, target agreement and accessible region are checked; only resolved contact time counts.
+
 ### fields — Decisions
 
 - `Set {field} to {value}`
@@ -343,6 +351,6 @@ Select actual available fields/options, then explicitly submit.
 
 ## Implementation boundary
 
-The language layer routes supported actions to existing controllers and live-feed outcomes. A recognized verb does not create a missing controller, a target’s agreement, a new item, an infection or a physical act. Kissing now uses the approved terminology library, warning/confirmation, Tits’s availability policy and actual rolling contact exposure. See KISSING-INTERACTION.md. Other NPC acceptance policies and additional body-target vocabulary remain separate.
+The language layer routes supported actions to existing controllers and live-feed outcomes. A recognized verb does not create a missing controller, a target’s agreement, a new item, an infection or a physical act. Kissing now uses the approved terminology library, warning/confirmation, Tits’s availability policy and actual rolling contact exposure. See KISSING-INTERACTION.md. Tits’s saliva/sweat requests now use actual fluid-contact controllers; genital-fluid requests require an accepted private encounter and recorded source. See FLUID-CONTACT-INTERACTIONS.md. Other NPC policies, automatic private transport and further vocabulary remain separate.
 
 Verification and implementation details: LANGUAGE-INTENT-RECOGNITION.md. Publication remains at v1.0.130; this reference is local pending the next authorized release.

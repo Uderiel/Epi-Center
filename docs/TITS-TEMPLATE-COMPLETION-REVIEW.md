@@ -1,3 +1,7 @@
+## Current unpublished fluid-contact acceptance
+
+The owner approved public saliva/sweat requests when the shop is quiet, after her infectiousness warning and player choice. Her literal, simple and personally enthusiastic view of the condition remains. Genital-fluid requests require privacy; no auto transport/staff access. Supported typed requests are now wired to actual sources and timers; see FLUID-CONTACT-INTERACTIONS.md.
+
 ## Current unpublished kissing update
 
 Accepted French/open-mouth kissing is now text-driven with Tits’s willingness/work checks, brief disclosure and player confirmation. Actual contact accumulates toward twenty game minutes inside a rolling120-game-minute window; each minute expires individually. This supersedes historical continuous-only kissing descriptions below; generic non-kissing mucous exposure is unchanged. See KISSING-INTERACTION.md for implementation and evidence. Other NPC acceptance and further vocabulary remain separate.

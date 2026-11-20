@@ -14,10 +14,14 @@
         "typeIds": [
           "air"
         ]
+      },
+      "skin": {
+        "library": "fluid-contact.json"
       }
     }
   },
   "wordingReferences": {
-    "neutralScenes": "neutral-scene-wording.json"
+    "neutralScenes": "neutral-scene-wording.json",
+    "fluidContact": "fluid-contact.json"
   }
 }

@@ -28,7 +28,7 @@ Sweat-soiled garments record a separate cause/affected-region entry. Existing ur
 
 ## Infection boundary
 
-Sweating alone creates neither contact nor ingestion nor infection. Regional state is available through a surface accessor, including last actual production time. Existing exposure thresholds remain unchanged. Typed saliva/sweat consumption triggers are still separate unfinished work.
+Sweating alone creates neither contact nor ingestion nor infection. Regional state is available through a surface accessor, including last actual production time. Existing exposure thresholds remain unchanged. Tits’s typed saliva/sweat consumption triggers now use the actual regional surface accessor; see FLUID-CONTACT-INTERACTIONS.md.
 
 ## Verification
 

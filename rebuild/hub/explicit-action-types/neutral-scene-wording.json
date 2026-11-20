@@ -118,21 +118,21 @@
       "requiredGameMinutes": 10,
       "windowGameMinutes": 120,
       "accumulation": "rolling; each minute expires individually",
-      "status": "existing exposure controller; natural-language interaction trigger not yet implemented"
+      "status": "Exposure controller implemented; Tits saliva/sweat typed triggers wired through fluid-contact.js, subject to actual source and route."
     },
     {
       "condition": "fresh infectious drool contacting mucous membranes without consumption",
       "route": "mucous",
       "requiredGameMinutes": 20,
       "accumulation": "continuous; not the kissing-specific rolling rule",
-      "status": "existing exposure controller; natural-language interaction trigger not yet implemented"
+      "status": "Exposure controller implemented; Tits saliva/sweat typed triggers wired through fluid-contact.js, subject to actual source and route."
     },
     {
       "condition": "fresh infectious drool contacting intact skin",
       "route": "skin",
       "requiredGameMinutes": 60,
       "accumulation": "continuous",
-      "status": "existing exposure controller; natural-language interaction trigger not yet implemented"
+      "status": "Exposure controller implemented; Tits saliva/sweat typed triggers wired through fluid-contact.js, subject to actual source and route."
     }
   ],
   "consumptionVocabulary": {
@@ -154,7 +154,7 @@
     "rollingWindowGameMinutes": 120,
     "condition": "Actual consumption of a recorded fresh infectious fluid, with participant decisions and contact established by the interaction controller.",
     "notImpliedByVerb": "Licking or skin-sucking alone does not establish fluid presence, consumption, infectiousness or permission.",
-    "runtimeStatus": "Exposure route already implemented; these natural-language action triggers are not wired."
+    "runtimeStatus": "Typed saliva/sweat requests wired for Tits with actual sources, warning, confirmation and her acceptance policy. Genital-fluid requests enforce an accepted private encounter and a recorded actual source. Other NPC policies are unbuilt."
   },
   "consumptionVariants": [
     {

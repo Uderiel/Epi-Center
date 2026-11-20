@@ -1,3 +1,7 @@
+## Unpublished — typed fluid ingestion/contact wired
+
+Tits’s approved public saliva/sweat requests now resolve through actual warnings, choice, willingness, regional fluid state, live-clock exposure and feed metadata. Private genital-fluid requests require an accepted private encounter and actual source. Separate contamination-point ingestion windows, stop/withdraw controls and legacy interval migration are wired. Other NPC policies, private transport and new genital-fluid/injury production are outside this implementation. 1,881 automated cases and eight new browser checks pass, along with existing kissing and language browser checks. See FLUID-CONTACT-INTERACTIONS.md and verification/fluid-contact-summary.json. Nothing published.
+
 ## Unpublished — separate checks for concurrent contamination points
 
 Each qualifying exposure point rolls separately, including simultaneous thresholds; the first failure begins incubation and suppresses every later exposure roll. Renewed-contact qualification is now source/route/site-specific, preserving shared difficulty escalation. Focused tests cover simultaneous passes, early infection, reload suppression and a newly started different route retaining its own threshold. Full verification recorded in verification/concurrent-exposure-summary.json. No publication or new natural-language ingestion triggers.

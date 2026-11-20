@@ -1,3 +1,7 @@
+## Unpublished — typed fluid ingestion and skin contact
+
+Connected Tits’s public saliva/sweat requests to warning/confirmation, actual region/source availability, separate live exposure timers, stopping and neutral narrator metadata. Genital-fluid requests require an accepted private encounter and recorded source; no automatic movement or new source-production scene. Per-point ingestion windows retain old save progress. See FLUID-CONTACT-INTERACTIONS.md for validation and limits. Nothing deployed.
+
 ## Unpublished — concurrent exposure resistance
 
 Confirmed separate hidden checks for simultaneous qualifying contamination points, suppression of subsequent rolls after infection, and source/route/site-specific renewed-contact qualification. Shared resistance escalation and existing thresholds remain. No new interaction permissions or publication.
