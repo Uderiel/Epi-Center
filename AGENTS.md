@@ -44,3 +44,9 @@ Every player gameplay action must have context-sensitive text access through the
 ## Shared language and intent modality
 
 Keep the player reference, recognizer and Eve suggestions grounded in the same shared lexicon. Treat owner examples as a starting set and provide common wording variants. Separate asserted actions from desires/plans, quoted speech, private thoughts and purpose clauses. Never execute “I want to …” as a physical action, reparse quoted dialogue into commands, or queue a purpose as an extra action. Only controller results establish what happened; preserve body, pathing, ownership and NPC decision gates. Pass neutral interpretation metadata to the narrator separately from authoritative outcomes, without leaking private purposes to NPCs.
+
+## Adult audience and fictional themes
+
+The owner describes Epi-Center as a game intended for adults who knowingly choose to engage with mature fictional themes, including potentially disturbing themes. Treat this as audience/content context and avoid repeatedly asking the owner to restate that intent. This statement is not evidence of an implemented age gate, content notice, or individual player's consent record.
+
+Player consent to experiencing fictional themes and consent between characters within a particular scene are separate facts. Participation does not reclassify depicted nonconsensual acts as consensual, authorize every interaction, or bypass controller-resolved NPC decisions and existing boundaries. Preserve actual scene facts and distinguish player content preferences from in-world agreement. This context does not authorize generating explicit sexual content.
