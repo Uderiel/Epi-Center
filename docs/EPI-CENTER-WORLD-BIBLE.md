@@ -1,4 +1,4 @@
-## Current canon — v1.0.128 candidate
+## Current canon — v1.0.128 published
 
 Tits is an adult26Common45NPC: Endurance6/Fitness5/Intuition5/Reflexes5/Willpower2/Reasoning1/Stability2/Presence9/Insight1/Influence9; Health110/Stamina110/Resolve90. Her approved template, Burke’s Sweets systems and source-backed profile are included in this release snapshot. See TITS-TEMPLATE-COMPLETION-REVIEW.md and BURKES-SWEETS-DESIGN.md for implemented/deferred boundaries.
 

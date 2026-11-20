@@ -1,6 +1,6 @@
 {
   "version": "1.0.128",
-  "status": "local verified; deployment pending",
+  "status": "Published and publicly verified",
   "automatedCases": 1782,
   "browserScripts": 27,
   "browserEvidence": "v1.0.128-browser-checks.json",
@@ -22,5 +22,31 @@
     "Underworld Research Center acquisition route, laboratory and quest",
     "Location-dependent Daily Needs/home/venue content and eligible hidden quest treasures"
   ],
-  "paidModelCalls": false
+  "paidModelCalls": false,
+  "runtimeCommit": "dec6b7c5073264efee60b72911dae65f73025776",
+  "pagesRun": "https://github.com/Uderiel/Epi-Center/actions/runs/44668512593",
+  "matchedPublishedFiles": 188,
+  "publicBrowserScripts": 6,
+  "workerHealth": {
+    "service": "Epi-Center AI",
+    "releaseVersion": "1.0.128",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "configured": true
+  },
+  "backendBuildNote": "One automatic Worker build succeeded and deployed v128; a second automatic build reported failure with no diagnostic reason in GitHub. Active public health independently verifies v128/configured. Both outcomes are retained; no paid generation called.",
+  "workerBuilds": [
+    {
+      "conclusion": "success",
+      "buildId": "73968a52-b09b-4e07-a3e7-2af523e59b45",
+      "deployedVersionId": "3b67ea53-d5aa-4dea-a25d-82c5c6787dfb"
+    },
+    {
+      "conclusion": "failure",
+      "buildId": "743a502a-28c3-402a-8d41-66b93361910c",
+      "reason": "Not supplied in the GitHub check output"
+    }
+  ]
 }
