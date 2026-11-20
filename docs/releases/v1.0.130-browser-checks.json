@@ -1,0 +1,11 @@
+{
+  "checks": [
+    "Priya directory control saves 2F across reload without apartment access",
+    "Resumed last-point sucker shows red advance warning before its fatal tick and retains binding after reload",
+    "Active sucker warning remains visible beside time controls on desktop and mobile"
+  ],
+  "passed": true,
+  "errors": [],
+  "scope": "Isolated QA save; no owner saves or paid calls",
+  "additionalRegression": "PASS real purchased sucker start/pause/resume controls, clock thresholds, reload, expiry and no browser errors"
+}

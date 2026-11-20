@@ -1,3 +1,7 @@
+## v1.0.130 — directory persistence and advance binding warning
+
+Repairs Priya’s saved 2F discovery and adds red advance warnings for the sucker’s timed last-Resolve drain while retaining permanent binding. World Bible releases now include an immutable exact-byte Markdown copy and integrity manifest. 1,804 automated cases and three targeted browser checks pass locally; public verification is pending.
+
 ## v1.0.129 — audit repairs published and publicly verified
 
 [Play v1.0.129](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.129). Owner-requested follow-up audit is complete for the implemented/defined scope; source runtime `4d0c935cdaf0fa2c1d00ce0a8cf83e03d7a62134` is on main/development. Pages deployment44711535536succeeded.1,795automated cases,7local browser suites and3public follow-up suites pass;191public files match. Cherished Touch’s22day/night images pass32public visible-header assertions. All Tits/Burke’s v128implementations remain included.

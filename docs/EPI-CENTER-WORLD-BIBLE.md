@@ -1,3 +1,13 @@
+## Current canon for v1.0.130
+
+Priya’s directory/address disclosure now records Applewood 2F as known and survives reloads without granting apartment access. Existing saves recover the address from an authoritative saved directory/address reply; player-authored text cannot teach it.
+
+The cotton-candy sucker warns in red before starting/resuming when its remaining drains can exhaust an unmastered form’s Resolve. An active warning remains beside time controls, and a newly risky active sucker emits a warning before its next drain. Resolve still drains at 30 and 60 active minutes and zero still permanently binds the form. Direct last-point mastery actions retain their separate acknowledgment requirement.
+
+The World Bible now has an immutable versioned Markdown copy and SHA-256/byte manifest. Release verification rejects differences instead of silently rewriting the frozen copy. Lifecycle metadata belongs in status/handoff, so publication does not modify frozen canon afterward. Earlier release evidence remains historical.
+
+Publication and verification status are recorded separately in CURRENT-STATUS.md and versioned release evidence.
+
 ## Current canon — v1.0.129 published audit
 
 The complete approval-to-implementation audit is now included in the source-backed snapshot. Exposure/resistance math and persisted random tie selection are connected to resolved mechanical contact events and normal game time. Carrier warning/quest/contact permission gates and descriptive illness feedback are added; active base combat names follow completed renaming without changing IDs. No dialogue creates fluids/contact or consent. Source scenes and enemy modifiers without authored rules remain explicitly listed dependencies. Existing Tits/Burke’s implementations and22Cherished Touch day/night header images remain in the release.
@@ -12,7 +22,7 @@ Player creation uses40points; the currently discoverable Easter egg can add1. Vi
 
 # Epi-Center World Bible — current canon and release backup
 
-Current verified published release: **v1.0.127**. This section reconciles actual source with owner-approved design; it supersedes older numeric profiles and implementation-status claims below. Publication is recorded separately in CURRENT-STATUS.md and release evidence. Keep implemented, verified, published, approved-but-deferred and unknown distinct.
+Historical v1.0.127 reconciliation. This section reconciles actual source with owner-approved design; it supersedes older numeric profiles and implementation-status claims below. Publication is recorded separately in CURRENT-STATUS.md and release evidence. Keep implemented, verified, published, approved-but-deferred and unknown distinct.
 
 ## Complete source-backed backup
 

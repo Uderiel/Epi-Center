@@ -1,6 +1,7 @@
 /* Writes a separate current release report; preserves release evidence. */
 const fs=require('node:fs'),vm=require('node:vm'),cp=require('node:child_process'),path=require('node:path');
 const version=fs.readFileSync('rebuild/hub/index.html','utf8').match(/EPI-CENTER v(1\.0\.\d+)/)?.[1];if(!version)throw Error('Missing build version.');
+require('./freeze-world-bible.cjs')(process.cwd(),{verifyOnly:true});
 const results=[];let failed=false,namedCases=0;
 for(const dir of ['rebuild/combat','rebuild/hub'])for(const file of fs.readdirSync(dir).filter(n=>n.endsWith('.test.js'))){
  const r=cp.spawnSync(process.execPath,[path.join(dir,file)],{encoding:'utf8'});results.push({file:path.join(dir,file),exitCode:r.status,output:r.stdout,stderr:r.stderr});

@@ -1,3 +1,7 @@
+## v1.0.130 timed-sucker correction
+
+The 30/60-minute drain remains unchanged. Risky start/resume shows a red advance permanent-binding warning before time advances, and an active warning remains beside time controls. Zero Resolve still permanently binds an unmastered form; this does not add an acknowledgment requirement to passive drains.
+
 ## v1.0.128 publication checkpoint
 
 Owner now authorizes release of implemented work. Core Tits/Burke’s approvals below are connected; current release tests/evidence supersede older local-only counts. BVC completion/cure components are also implemented as scoped in BIMBO-VIRUS-DESIGN.md. Natural exposure interactions, Underworld Research Center acquisition, remaining carrier consequences, and location-dependent content are still unfinished. No paid-model acceptance or complete multiplayer service is claimed. Deployment verification is pending; earlier publishing-hold entries are historical.

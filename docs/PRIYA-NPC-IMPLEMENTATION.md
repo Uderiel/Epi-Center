@@ -1,3 +1,7 @@
+## v1.0.130 correction
+
+Directory and direct address replies persist Applewood 2F as discovered without granting apartment entry. Saved authoritative replies backfill previously missed discovery on reload.
+
 ## v1.0.105 implementation update
 
 The approved first cat/daily-life package is implemented; see [current implementation and limits](PRIYA-CAT-IMPLEMENTATION.md) and [acceptance checklist](V1.0.105-OWNER-ACCEPTANCE.md). Earlier draft/deferred statements below describe previous checkpoints. Publication evidence belongs in CURRENT-STATUS.md.

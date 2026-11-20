@@ -1,3 +1,13 @@
+## v1.0.130 — directory persistence and timed-binding warning
+
+Priya’s directory/address disclosure now records Applewood 2F as known and survives reloads without granting apartment access. Existing saves recover the address from an authoritative saved directory/address reply; player-authored text cannot teach it.
+
+The cotton-candy sucker warns in red before starting/resuming when its remaining drains can exhaust an unmastered form’s Resolve. An active warning remains beside time controls, and a newly risky active sucker emits a warning before its next drain. Resolve still drains at 30 and 60 active minutes and zero still permanently binds the form. Direct last-point mastery actions retain their separate acknowledgment requirement.
+
+The World Bible now has an immutable versioned Markdown copy and SHA-256/byte manifest. Release verification rejects differences instead of silently rewriting the frozen copy. Lifecycle metadata belongs in status/handoff, so publication does not modify frozen canon afterward. Earlier release evidence remains historical.
+
+Local verification passes: 1,804 automated cases and three targeted browser checks, including reload and mobile controls. Deployment and public verification are next; nothing from this follow-up is published yet.
+
 ## v1.0.127 — Cherished Touch artwork published and verified
 
 Owner-authorized Charity follow-up adds22photographic-style1100×733images:11day/night pairs for storefront and all interior views, with one shared changing-room-bank illustration per phase. Northeast Hub landscaping/architecture carries into the storefront; cream/oak/deep-green shop finishes and Charity's modest rose-accented home follow established descriptions. Images appear directly in the location header, switch by actual room/phase and use the existing full-image control. Private-room images disappear with lost permission; no new access, actions, NPC presence, stock or hidden routes are granted. Hub/art-apartment redesign is deferred.

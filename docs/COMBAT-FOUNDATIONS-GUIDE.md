@@ -1,3 +1,7 @@
+## v1.0.130 correction
+
+Timed sucker drains retain zero-Resolve permanent binding. A red advance warning appears before risky start/resume and beside time controls while active; direct mastery spending still uses its separate acknowledgment.
+
 ## v1.0.129 — exposure and permission audit repairs
 
 Resolved fresh-fluid contacts use60/30/20continuous game minutes (intact/broken skin/mucous) or10cumulative ingestion minutes in a rolling120-minute window. Fresh samples expire after120game minutes; processed products and brief hugs do not infect. Hidden d20+currentEndurance vs12increases by2on renewed qualifying episodes after success and resets after120quiet minutes. Failure creates the72-real-hour incubation record. Category selection uses baseline attributes; ties randomly choose once among the leaders. Current owned-body/equipment attributes supply resistance. Exposure and forced contacts cannot be invented by prose.

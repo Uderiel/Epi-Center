@@ -1,3 +1,13 @@
+## v1.0.130 — directory persistence and timed-binding warning
+
+Priya’s directory/address disclosure now records Applewood 2F as known and survives reloads without granting apartment access. Existing saves recover the address from an authoritative saved directory/address reply; player-authored text cannot teach it.
+
+The cotton-candy sucker warns in red before starting/resuming when its remaining drains can exhaust an unmastered form’s Resolve. An active warning remains beside time controls, and a newly risky active sucker emits a warning before its next drain. Resolve still drains at 30 and 60 active minutes and zero still permanently binds the form. Direct last-point mastery actions retain their separate acknowledgment requirement.
+
+The World Bible now has an immutable versioned Markdown copy and SHA-256/byte manifest. Release verification rejects differences instead of silently rewriting the frozen copy. Lifecycle metadata belongs in status/handoff, so publication does not modify frozen canon afterward. Earlier release evidence remains historical.
+
+Local verification passes: 1,804 automated cases and three targeted browser checks, including reload and mobile controls. Deployment and public verification are next; nothing from this follow-up is published yet.
+
 ## v1.0.129 — audit repairs published and publicly verified
 
 [Play v1.0.129](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.129). Owner-requested follow-up audit is complete for the implemented/defined scope; source runtime `4d0c935cdaf0fa2c1d00ce0a8cf83e03d7a62134` is on main/development. Pages deployment44711535536succeeded.1,795automated cases,7local browser suites and3public follow-up suites pass;191public files match. Cherished Touch’s22day/night images pass32public visible-header assertions. All Tits/Burke’s v128implementations remain included.

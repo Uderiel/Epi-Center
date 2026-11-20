@@ -1,0 +1,25 @@
+{
+  "version": "1.0.130",
+  "status": "Locally verified; deployment pending",
+  "automatedCases": 1804,
+  "browserChecks": 3,
+  "additionalBrowserRegression": "Purchased sucker start/pause/resume, exact thresholds, reload and expiry",
+  "implemented": [
+    "Priya 2F directory/address persistence and authoritative-history backfill",
+    "Red timed-sucker advance warning, preserving permanent lock and direct-action acknowledgment",
+    "Immutable exact-byte versioned World Bible and SHA-256 manifest with drift rejection"
+  ],
+  "paidModelCalls": false,
+  "bibleIntegrity": "docs/releases/v1.0.130-bible-integrity.json",
+  "historicalBibleMismatch": {
+    "release": "1.0.128",
+    "cause": "Canon heading changed from candidate to published after initial comparison",
+    "frozenRuntimeSha256": "67331eabbf90f6fedb7d714721bdf01c7601e9af65f0ec6bada476aeb952290c",
+    "finalDocsSha256": "6b800a24f57a1107b10905c26185d8552b999f75b31670e918a15bc42a2a76c6"
+  },
+  "boundaries": [
+    "No apartment access changes",
+    "No reversal or removal of zero-Resolve permanent binding",
+    "No paid model calls or owner saves used"
+  ]
+}

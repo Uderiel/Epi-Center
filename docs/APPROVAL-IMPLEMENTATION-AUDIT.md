@@ -1,3 +1,7 @@
+## v1.0.130 correction
+
+Reported directory persistence and sucker advance-warning defects are repaired in runtime. No permanent-binding consequence or apartment permission has been weakened. Bible release freezing now rejects post-freeze byte drift.
+
 # Approval-to-implementation audit — 2026-11-20
 
 Owner requested publication of all implemented changes, a review of prior approvals, repairs for omitted approved wiring, and tomorrow’s Burke’s Sweets artwork reminder. Baseline is publicly verified v1.0.128, runtime dec6b7c and evidence/handoff a97cf1e. The initial audit working tree contained no uncommitted source changes: v128 included the full Tits/Burke’s implementation, not just the latest cure patch. This follow-up is v1.0.129.
