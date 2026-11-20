@@ -1,6 +1,6 @@
 # Fictional bimbo virus — current design authority
 
-This is fictional game biology, not real-world transmission guidance. Local design/profile work only; publication is on hold.
+This is fictional game biology, not real-world transmission guidance. Current implementation and approved design record. v1.0.128 is published; the v1.0.129 approval audit repairs additional exposure/permission wiring. Historical checkpoints retain their earlier status.
 
 ## Current live-resource and permanent-base authority
 
@@ -25,7 +25,7 @@ With an NPC they have a good relationship with, the player can explain their for
 
 - Gum, sweets, lipstick and lip gloss do **not** transmit infection. Their established weaker effects persist because the fictional effect-producing component remains in stale/processed saliva while infectious activity does not. Existing approved product strengths, timing and lasting changes are unchanged.
 - Owner-approved freshness lifetime: infectious bodily fluids remain viable for120game minutes after production. At age120minutes or later they cannot initiate infection; subsequent contact does not reset fluid age. Older fluids in small quantities (one or two drops) may be used in products with the already-approved weaker product effects; this is not a new generic craft action or permission to infect through those products.
-- Broken-skin contact uses30continuous game minutes, half the60minute intact-skin threshold. Contact breaks reset this timer as for other skin contact. These are approved exposure design rules; actual exposure handlers are still unfinished.
+- Broken-skin contact uses30continuous game minutes, half the60minute intact-skin threshold. Contact breaks reset this timer as for other skin contact. These thresholds are now implemented in the shared resolved-contact controller. Actual source scenes remain an authoring dependency.
 - All fresh bodily fluids can be transmission sources, explicitly including sweat. Transmission uses the exposure thresholds below and a hidden Endurance resistance check, not automatic infection from every contact.
 - Fresh-fluid exposure through intact, healed skin requires60minutes. This fictional virus can cross intact skin after that prolonged exposure, regardless of whether the contact is intimate.
 - Fresh saliva exchange or exposure of mucous membranes/intimate areas to fresh fluids uses a20minute continuous-contact threshold.
@@ -37,7 +37,7 @@ With an NPC they have a good relationship with, the player can explain their for
 
 At the first qualifying exposure threshold, one hidden Endurance resistance check is made. Success prevents infection from that exposure; failure begins incubation. After successful resistance, renewed infectious-fluid contact or ingestion is the repeat-check trigger rather than a periodic background timer. Each repeat check is harder. Noninfectious products and ordinary conversation cannot trigger repeats; preserve the explicit exclusion of brief hugs.
 
-Owner approves hidden d20 + current Endurance versus difficulty12, increasing by2per repeat check (12,14,16,18,…). After120continuous game minutes without infectious exposure, the escalation resets to difficulty12. New infectious exposure restarts that exposure-free reset period; harmless contact and noninfectious products do not. The precise repeat qualification must preserve the brief-hug exclusion; do not silently roll on every harmless interaction. No infection roll is implemented yet.
+Owner approves hidden d20 + current Endurance versus difficulty12, increasing by2per repeat check (12,14,16,18,…). After120continuous game minutes without infectious exposure, the escalation resets to difficulty12. New infectious exposure restarts that exposure-free reset period; harmless contact and noninfectious products do not. The resolved-contact controller preserves the brief-hug exclusion and does not roll on ordinary dry contact. Qualifying renewed fresh-fluid episodes after a successful resistance trigger one check, not repeated background checks.
 
 ## Approved incubation and contagiousness
 
@@ -51,7 +51,7 @@ Repeat exposure qualification, acute-reaction numbers/duration, individual sympt
 
 ## Runtime scope
 
-The NPC profile contains these exposure constraints. Existing products retain their coded effects and have no infection hook. A general transmission/infection controller is not yet implemented; it requires the unresolved rules above. Recording this authority does not constitute a completed disease system.
+The NPC profile contains these exposure constraints. Existing products retain their coded effects and have no infection hook. The general resolved-contact transmission controller is now connected to the game clock. It creates an infection only from actual recorded viable-fluid contacts. Tits’s source-episode timing and real prolonged-contact scenes remain unbuilt; source events are explicit QA fixtures in the full-sequence browser test.
 
 ## Current approved progression timing — mixed-clock controller
 
@@ -228,3 +228,7 @@ The cured infection record is retained for history with cured=true, carrier=fals
 Owner confirms the cure is in the **Underworld Research Center**, not the overworld Research Center; reaching the underworld and its laboratories is separate future gameplay. Each cure is specific to one patient and requires one actual drop of that BVC’s blood. One cure may be prepared per person, and it cannot be used on another player. The runtime preparation adapter enforces distinct underworld-lab presence, recorded blood donor/drop quantity, unique dose and per-person preparation/use ledger. It does not create a reachable laboratory, invent its complete recipe/reagent/cost/access rules or grant a blood sample. Ordinary gameplay has no cure-acquisition route until that facility is built.
 
 Active carriers cannot obtain surgical alterations or reallocate their baseline attribute scores; cure reopens both permissions. Original appearance and previous name are not automatically restored, and lost attribute points remain lost. The baseline editor retains the current point total.
+
+## v1.0.129 audit repairs
+
+See APPROVAL-IMPLEMENTATION-AUDIT.md. Exposure timing, viable samples, continuous/cumulative contact, hidden resistance/escalation, failed-check infection creation and persisted random tied-archetype assignment are now connected. Shared carrier disclosure/quest/paired-contact guards and descriptive symptom feedback are also wired. Active base combat name now follows completion naming while keeping unit IDs and other form names intact. No fresh-fluid scene, NPC acceptance, unbuilt quest/lab or enemy modifier is invented.

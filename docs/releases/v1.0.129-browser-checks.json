@@ -1,0 +1,48 @@
+{
+  "scope": "Explicit isolated QA contact events and simulated real incubation; no owner saves or paid calls",
+  "results": [
+    {
+      "file": "browser-virus-audit.cjs",
+      "passed": true,
+      "output": "PASS resolved QA fluid-contact event + actual wait control triggers hidden infection once; simulated real incubation + actual milestones/sleep controls finish base conversion; actual disclosure informs without consent; quest guard blocks intimate requirements; actual cure removes active effects; reload preserves identity; no paid calls\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-tits-social.cjs",
+      "passed": true,
+      "output": "PASS actual arrival offer, decline and reload without repeated hug\nPASS negative visit has no hug; positive visit accepts explicitly and remembers simple appearance nickname\nPASS actual payment rewards quantities and actual expressed compliment grants one\nPASS third disruptive touch refuses, survives reload, patience grants one, paid correction stays free and available\nPASS real preferred gift keeps five, resets refusal/incident and preserves nickname after reload\nPASS locally stubbed provider acceptance updates actual dialogue memory across reload without a paid request\nPASS no browser errors\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-tits.cjs",
+      "passed": true,
+      "output": "PASS loaded UI invokes Tits dialogue and approved profile\nPASS dialogue reload and player/appearance isolation through actual browser\nPASS ordinary touch through visible control has no penalty\nPASS third disruptive touch through real control after reload pouts and applies minus five without staff entry\nPASS saved penalty is not reapplied by reload\nPASS actual composer discloses at fifty and warns before intimate requests at zero, persisting after reload\nPASS explicit invitation through visible control permits staff room and survives reload\nPASS all eight approved bakery fixtures are visible in authorized D and mixer inspection works\nPASS visible borrowing and return controls preserve actual equipment across reload\nPASS actual worn dress borrowing and return through visible controls and shared clothing adapter\nPASS visible preferred gift transfers actual item and awards five once across reload\nPASS fatigue percentile outcome stays hidden and persists without reroll\nPASS real game-clock advance pays owner seven hundred once and persists after reload\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-virus-presentation.cjs",
+      "passed": true,
+      "output": "PASS physical actual composer displays archetype wording, visible recorded mannerism and pink identity; original input remains saved; matching translated NPC payload and personality; stable through reload\nPASS mental actual composer displays archetype wording, visible recorded mannerism and pink identity; original input remains saved; matching translated NPC payload and personality; stable through reload\nPASS arousal actual composer displays archetype wording, visible recorded mannerism and pink identity; original input remains saved; matching translated NPC payload and personality; stable through reload\nPASS no browser errors or paid model calls\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-virus-cure.cjs",
+      "passed": true,
+      "output": "PASS physical real cure UI consumes explicitly source-tracked QA dose; active effects and new pink feed marking stop; body/name/stats/ID unchanged; surgery permission returns; actual Stats reallocation conserves total; persists after reload\nPASS mental real cure UI consumes explicitly source-tracked QA dose; active effects and new pink feed marking stop; body/name/stats/ID unchanged; surgery permission returns; actual Stats reallocation conserves total; persists after reload\nPASS arousal real cure UI consumes explicitly source-tracked QA dose; active effects and new pink feed marking stop; body/name/stats/ID unchanged; surgery permission returns; actual Stats reallocation conserves total; persists after reload\nPASS no browser errors or paid model calls\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-virus-resources.cjs",
+      "passed": true,
+      "output": "PASS real inventory apply and wait commands update live meter while suppressing gloss gain\nPASS clock-driven hundred-percent crossing resets actual pool and survives reload without duplicate feedback\nPASS external live-meter crossing advances early once through the render hook\nPASS this resource-only step does not pretend appearance/name replacement is connected\nPASS no browser errors; only an explicitly seeded QA infection was used\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-cherished-art.cjs",
+      "passed": true,
+      "output": "PASS storefront appears before entry directly in visible header\nPASS actual night phase switches the storefront image\nPASS day header loads actual H illustration at full aspect ratio\nPASS day header loads actual C illustration at full aspect ratio\nPASS day header loads actual G illustration at full aspect ratio\nPASS day header loads actual A illustration at full aspect ratio\nPASS day header loads actual B illustration at full aspect ratio\nPASS day header loads actual J illustration at full aspect ratio\nPASS day header loads actual D illustration at full aspect ratio\nPASS day header loads actual E illustration at full aspect ratio\nPASS day header loads actual F illustration at full aspect ratio\nPASS day header loads actual I1 illustration at full aspect ratio\nPASS day header loads actual I2 illustration at full aspect ratio\nPASS day header loads actual I3 illustration at full aspect ratio\nPASS day header loads actual I4 illustration at full aspect ratio\nPASS night header loads actual H illustration at full aspect ratio\nPASS night header loads actual C illustration at full aspect ratio\nPASS night header loads actual G illustration at full aspect ratio\nPASS night header loads actual A illustration at full aspect ratio\nPASS night header loads actual B illustration at full aspect ratio\nPASS night header loads actual J illustration at full aspect ratio\nPASS night header loads actual D illustration at full aspect ratio\nPASS night header loads actual E illustration at full aspect ratio\nPASS night header loads actual F illustration at full aspect ratio\nPASS night header loads actual I1 illustration at full aspect ratio\nPASS night header loads actual I2 illustration at full aspect ratio\nPASS night header loads actual I3 illustration at full aspect ratio\nPASS night header loads actual I4 illustration at full aspect ratio\nPASS header tap opens the same full image\nPASS losing private access removes header image rather than previewing another private room\nPASS phone header remains visible without horizontal overflow or state changes\nPASS no uncaught browser errors\n",
+      "stderr": ""
+    }
+  ],
+  "passed": true
+}

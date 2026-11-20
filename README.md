@@ -1,3 +1,13 @@
+## v1.0.129 — approval audit repair candidate
+
+Owner requests all implemented changes be published and all earlier approvals audited. The v128release already contains Tits/Burke’s systems and the Cherished Touch header artwork. The follow-up audit repairs approved exposure/resistance timing and game-clock integration, random tied-archetype assignment (owner confirmed), carrier disclosure/paired-contact/quest guards, omitted descriptive symptom feedback and active base-combat display naming. All1,795automated cases and7targeted browser scripts pass. Cherished Touch’s public artwork recheck passes32assertions across22images.
+
+Read [the complete approval audit](docs/APPROVAL-IMPLEMENTATION-AUDIT.md) for sources, implementation scope and concrete blockers. Resolved-contact tests use explicit QA source events; Tits’s unbuilt source-episode/contact scenes are not invented. Underworld laboratory acquisition, exact enemy-contact-avoidance behavior/slime modifiers, and other previously deferred location content remain open. No paid-model acceptance call or full natural-contact scene is claimed.
+
+Reminder is scheduled for November21to design Burke’s Sweets room-header/day-night/storefront artwork from its known layout, in realistic apartment style with Hub-compatible storefront architecture. This is not an automatic art-generation/publishing task.
+
+Bible, combat guide, status/handoff and release evidence accompany this candidate. Deployment verification pending; earlier records below are historical.
+
 ## v1.0.128 — published and publicly verified
 
 [Play v1.0.128](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.128). Owner-authorized runtime commit `dec6b7c5073264efee60b72911dae65f73025776` is on main and development; Pages deployment44668512593succeeded. All1,782automated cases,27local browser scripts,6public browser scripts pass;188public files match the release. Active AI Worker health reports1.0.128/configured with existing protocol/context contracts. One automatic Worker build succeeded/deployed128; another reported failure. Both outcomes are recorded without inventing a cause; live health independently verifies the active version. No paid generation/provider acceptance call is claimed.

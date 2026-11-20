@@ -1,3 +1,7 @@
+## Current canon — v1.0.129 audit candidate
+
+The complete approval-to-implementation audit is now included in the source-backed snapshot. Exposure/resistance math and persisted random tie selection are connected to resolved mechanical contact events and normal game time. Carrier warning/quest/contact permission gates and descriptive illness feedback are added; active base combat names follow completed renaming without changing IDs. No dialogue creates fluids/contact or consent. Source scenes and enemy modifiers without authored rules remain explicitly listed dependencies. Existing Tits/Burke’s implementations and22Cherished Touch day/night header images remain in the release.
+
 ## Current canon — v1.0.128 published
 
 Tits is an adult26Common45NPC: Endurance6/Fitness5/Intuition5/Reflexes5/Willpower2/Reasoning1/Stability2/Presence9/Insight1/Influence9; Health110/Stamina110/Resolve90. Her approved template, Burke’s Sweets systems and source-backed profile are included in this release snapshot. See TITS-TEMPLATE-COMPLETION-REVIEW.md and BURKES-SWEETS-DESIGN.md for implemented/deferred boundaries.

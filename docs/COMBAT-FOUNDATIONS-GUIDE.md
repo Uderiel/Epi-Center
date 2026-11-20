@@ -1,3 +1,9 @@
+## v1.0.129 — exposure and permission audit repairs
+
+Resolved fresh-fluid contacts use60/30/20continuous game minutes (intact/broken skin/mucous) or10cumulative ingestion minutes in a rolling120-minute window. Fresh samples expire after120game minutes; processed products and brief hugs do not infect. Hidden d20+currentEndurance vs12increases by2on renewed qualifying episodes after success and resets after120quiet minutes. Failure creates the72-real-hour incubation record. Category selection uses baseline attributes; ties randomly choose once among the leaders. Current owned-body/equipment attributes supply resistance. Exposure and forced contacts cannot be invented by prose.
+
+Carrier disclosure informs the actual nearby recipient without granting consent. Intimacy-required quests and unauthorized paired contact are blocked; existing ordinary quests and solo actions keep their authored rules. Mecha/slime enemy behavior and quantitative avoidance/susceptibility modifiers remain undefined, not fabricated. Full scope is in APPROVAL-IMPLEMENTATION-AUDIT.md.
+
 ## v1.0.128 — current implemented additions
 
 Tits uses the authored Common45profile (6/5/5/5/2/1/2/9/1/9 in engine attribute order), maxHealth110/Stamina110/Resolve90. Players start with40points; current discoverable Easter egg adds1. NPC rarity budget is not a player allocation grant. BVC conversion redistributes the player’s existing base total using the three owner-approved percentage rules; cap10, whole points, overflow retained at source, physical/mental rules preserve Intuition. Club uses25%mental/50%physical surplus above1, not a scaled Tits allocation.

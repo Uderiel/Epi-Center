@@ -1,0 +1,24 @@
+{
+  "version": "1.0.129",
+  "status": "local verified; deployment pending",
+  "automatedCases": 1795,
+  "browserScripts": 7,
+  "cherishedPublicHeaderAssertions": 32,
+  "cherishedImages": 22,
+  "scope": "Repairs found by owner-requested approval audit; preserves all v128 implementations",
+  "audit": "docs/APPROVAL-IMPLEMENTATION-AUDIT.md",
+  "implemented": [
+    "Resolved-event exposure timing/viability/resistance and clock linkage",
+    "Persistent random tied-archetype choice",
+    "Disclosure and paired-contact/quest permission guards",
+    "Onset/milestone descriptive feedback",
+    "Active base-body combat name synchronization"
+  ],
+  "boundaries": [
+    "Ordinary-play prolonged fluid-source scenes still require authored NPC episodes/contact mechanics",
+    "Underworld laboratory route/acquisition remains unbuilt",
+    "Enemy avoidance/slime modifiers need authored enemy behavior/numerical decisions",
+    "Previously deferred locations, source items and quests remain deferred"
+  ],
+  "paidModelCalls": false
+}
