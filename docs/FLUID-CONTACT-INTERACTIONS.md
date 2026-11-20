@@ -33,3 +33,11 @@ Seventeen focused contact cases cover warning/confirmation, exact timing, dry/fr
 ## Current sleep and warning integration
 
 The first automatic Tits advisory is once per stable player, shared across kissing, fluid actions and forthcoming private invitations, and persists through reloads. Known players can ask follow-up questions even below+50, without another mandatory warning or choice prompt. New actions still require willingness and the player’s actual choice. Sleeping participants cannot answer a new request; active kissing/consumption stops, while an already accepted passive skin contact may continue under SLEEPING-CONTACT.md. Broken-skin classification uses the explicitly recorded recipient region where known.
+
+## Agreed source and transfer records (local implementation)
+
+Specific requests persist source, transfer method, player/NPC agreement and actual emission facts separately. Drool and spit requests retain distinct method labels through text recognition, saved sessions and narrator metadata; sweat surface consumption is separate. Changing method does not confirm an older warning-pending request. A vague “I exchange fluids with Tits” requests in-character clarification without contact or a sample.
+
+The resolved recordEmission adapter accepts only a current, matching, agreed private source-specific session and an actual current-time controller outcome. It rejects mismatched source/type, missing agreement, changed place/body and stale/private-ended context; duplicate recording is idempotent. The exposure timer starts from actual qualifying fluid contact, not agreement. This adapter is not an authorization for narration to create emissions. The subsequent ENCOUNTER-AROUSAL.md implementation provides the approved gameplay producer at a participant’s actual threshold; room entry, suggestions and generated prose remain unable to create an emission.
+
+Verification: dedicated source/method, reload, mismatched emission, idempotency, timing and vague-request tests added. Existing fluid and Room D browser scripts pass. Nothing published.

@@ -1,0 +1,40 @@
+{
+  "published": false,
+  "automatedCases": 1976,
+  "automatedPassed": true,
+  "browserReports": {
+    "transmission-end-to-end-browser.json": {
+      "passed": true,
+      "checks": [
+        "Typed accepted contact reaches the actual twenty-minute hidden resistance failure; menu stop ends it",
+        "Exactly seventy-two controlled real hours trigger onset; reload preserves the original infection without rerolling",
+        "Actual hourly wait controls complete all fourteen stages, apply appearance/base/name changes, preserve player ID and possessions, and start final sleep",
+        "Six final-sleep menu steps apply the archetype presentation; reload retains completed carrier status and exactly one infection roll",
+        "Fourteen concrete milestones remain retrievable in History after routine feed overflow and reload; no extra live Appearance panel"
+      ],
+      "errors": [],
+      "controlledRealIncubationHours": 72,
+      "progressionGameHoursWaited": 35,
+      "scope": "Single QA save; infection from actual typed accepted contact and failed roll, no seeded infection or forced milestones; actual wait/stop/sleep menus; controlled wall clock; no owner save or paid AI call"
+    },
+    "carrier-interaction-browser.json": {
+      "passed": true,
+      "checks": [
+        "Active carrier still earns ordinary positive social affinity",
+        "Typed and shortcut personal-clothing offers refuse before item score time or exposure mutation",
+        "Typed and existing cat-date shortcuts both block new mixed-carrier relationships without consuming the earned quest route",
+        "Typed and actual nested tea-preparation shortcut both refuse shared tableware before spending stock or creating a serving",
+        "Reload preserves carrier status and every refused action leaves ownership and social score intact"
+      ],
+      "errors": [],
+      "scope": "Isolated QA carrier fixture; actual composer and visible shortcut controls; no owner saves or paid AI calls"
+    }
+  },
+  "additionalBrowserChecks": [
+    "browser-encounter-arousal.cjs passed",
+    "browser-appearance-tab-only.cjs passed"
+  ],
+  "ownerSavesUsed": false,
+  "paidModelCalls": false,
+  "frozenRelease": "v1.0.130 unchanged"
+}

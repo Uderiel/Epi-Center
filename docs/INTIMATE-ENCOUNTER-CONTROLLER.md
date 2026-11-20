@@ -25,9 +25,9 @@ Owner request: provide a non-graphic controller-resolved private encounter recor
 
 The worker wire format remains compatible: `scene` is JSON serialized to a string, containing `tone` and the outcome context; `event` is the separate string. This example's outcome must never be substituted for an actual roll.
 
-## Explicit remaining connection
+## Current gameplay connection (supersedes original adapter-only checkpoint)
 
-This is the shared controller-to-exposure/feed/payload adapter, not a newly authored natural-play NPC invitation scene. No menu was added, and no text keyword grants agreement or silently starts an encounter. A resolved NPC scene must call this adapter. Tits's ordinary invitation/location/acceptance rules and the separate text-driven kissing flow have not been invented here. Do not claim that typing an encounter already triggers natural-play transmission.
+Natural typed kissing and ingestion/contact are now connected through KISSING-INTERACTIONS.md, FLUID-CONTACT-INTERACTIONS.md and PRIVATE-ENCOUNTER-INITIATION.md. Room D invitations grant scene-only access, with actual agreement and source/contact facts. ENCOUNTER-AROUSAL.md covers timed gains, recovery and fresh source production. The original adapter-only verification below is historical; current end-to-end reports verify actual typed contact and menu controls.
 
 ## Verification and publication
 

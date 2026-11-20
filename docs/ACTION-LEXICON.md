@@ -309,6 +309,23 @@ Refuses an actual offer without inventing a penalty.
 
 At a real doorstep, resolve the actual knock/visit response.
 
+### dating-request — Relationships
+
+- `I ask {person} on a date`
+- `I invite {person} out`
+- `I tell {person} I own {name} canine form`
+
+Dating readiness uses the NPC’s authored archetype and exceptions. An actual disclosure requires an owned form and a nearby listener; possession alone does not inform an NPC.
+
+### relationship-conversation — Relationships
+
+- `I say to {person}: "What do you enjoy about your hobby?"`
+- `I say to {person}: "Your writing is thoughtful and creative."`
+- `I give {owned item} to {person}`
+- `I listen to Priya`
+
+Actual heard conversation, relevant follow-ups and preferred gifts can change relationship. Repeating a category does not farm points. Gifts transfer real owned items; unknown preferences do not guarantee acceptance.
+
 ### speech — Conversation
 
 - `I speak aloud: "Hello, everyone."`
@@ -332,6 +349,38 @@ Remote A.S.S. help uses the same live lexicon.
 - `What have I learned about {subject}?`
 
 Only learned/owned knowledge is shown.
+
+### private-request — Private invitations
+
+- `I ask for a private encounter with {person}`
+- `I ask {person} to go somewhere private`
+
+An actual NPC invitation is required; requesting grants no access or physical action.
+
+### private-accept — Private invitations
+
+- `I accept the private invitation`
+
+Explicit choice after an actual offer; movement and body restrictions apply.
+
+### private-decline — Private invitations
+
+- `I decline the private invitation`
+
+Declines the actual pending invitation without movement.
+
+### private-finish — Private encounters
+
+- `I finish the private encounter`
+- `I end the private encounter`
+
+Concludes the accepted scene; no fluid or climax outcome is invented.
+
+### private-leave — Private encounters
+
+- `I return to the counter`
+
+Uses the actual return route and ends scene-only access.
 
 ### fluid-contact — Fluid-contact requests
 

@@ -1,0 +1,56 @@
+{
+  "version": "1.0.131",
+  "passed": true,
+  "results": [
+    {
+      "file": "browser-release-regressions.cjs",
+      "passed": true,
+      "output": "PASS Priya directory control saves 2F across reload without apartment access\nPASS Resumed last-point sucker shows red advance warning before its fatal tick and retains binding after reload\nPASS Active sucker warning remains visible beside time controls on desktop and mobile\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-private-encounter.cjs",
+      "passed": true,
+      "output": "PASS Typed invitation warns once but creates neither access nor movement before acceptance\nPASS Acceptance uses the real C-D route and one game minute with a scene-only grant at zero relationship\nPASS Actual serialized AI worker payload preserves explicit_adult and resolved neutral private-scene facts\nPASS Private dialogue and explicit follow-up work without a second automatic warning\nPASS Reload preserves body-bound scene access and actual private-room occupancy\nPASS Entering privately does not invent a genital-fluid sample or transmission\nPASS Finishing preserves private rest; explicit return follows the route and revokes scene-only access\nPASS Reinvitation does not repeat the advisory and the decline shortcut matches typed refusal\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-encounter-arousal.cjs",
+      "passed": true,
+      "output": "PASS actual Room D clock produces private climax feed and fresh NPC source\nPASS five-minute recovery resumes without repeated commands\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-relationship-interactions.cjs",
+      "passed": true,
+      "output": "PASS Paraphrased and replayed compliments do not farm relationship across reload\nPASS Real typed conversation earns ten; kiss offer waits for the completed first date\nPASS Typed preferred gift transfers one owned unit and credits five without changing ownership of the remaining unit\nPASS Gift shortcut uses the same real transfer and preferred-gift reward as typed input\nPASS Actual boundary pressure and dismissive speech produce distinct negative outcomes\nPASS Typed fox gift reaches Erin’s existing form relationship and transfers the real item\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-priya-date-kiss.cjs",
+      "passed": true,
+      "output": "PASS first-date offer appears with matching shortcut and typed acceptance\nPASS actual kiss feed and accepted state survive reload\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-carrier-interactions.cjs",
+      "passed": true,
+      "output": "PASS Active carrier still earns ordinary positive social affinity\nPASS Typed and shortcut personal-clothing offers refuse before item score time or exposure mutation\nPASS Typed and existing cat-date shortcuts both block new mixed-carrier relationships without consuming the earned quest route\nPASS Typed and actual nested tea-preparation shortcut both refuse shared tableware before spending stock or creating a serving\nPASS Reload preserves carrier status and every refused action leaves ownership and social score intact\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-appearance-tab-only.cjs",
+      "passed": true,
+      "output": "PASS live appearance expander is absent while the Appearance tab displays and refreshes actual transformed fields\n",
+      "stderr": ""
+    },
+    {
+      "file": "browser-transmission-end-to-end.cjs",
+      "passed": true,
+      "output": "PASS Typed accepted contact reaches the actual twenty-minute hidden resistance failure; menu stop ends it\nPASS Exactly seventy-two controlled real hours trigger onset; reload preserves the original infection without rerolling\nPASS Actual hourly wait controls complete all fourteen stages, apply appearance/base/name changes, preserve player ID and possessions, and start final sleep\nPASS Six final-sleep menu steps apply the archetype presentation; reload retains completed carrier status and exactly one infection roll\nPASS Fourteen concrete milestones remain retrievable in History after routine feed overflow and reload; no extra live Appearance panel\n",
+      "stderr": ""
+    }
+  ],
+  "paidModelCalls": false,
+  "ownerSaves": false
+}

@@ -50,3 +50,7 @@ Keep the player reference, recognizer and Eve suggestions grounded in the same s
 The owner describes Epi-Center as a game intended for adults who knowingly choose to engage with mature fictional themes, including potentially disturbing themes. Treat this as audience/content context and avoid repeatedly asking the owner to restate that intent. This statement is not evidence of an implemented age gate, content notice, or individual player's consent record.
 
 Player consent to experiencing fictional themes and consent between characters within a particular scene are separate facts. Participation does not reclassify depicted nonconsensual acts as consensual, authorize every interaction, or bypass controller-resolved NPC decisions and existing boundaries. Preserve actual scene facts and distinguish player content preferences from in-world agreement. This context does not authorize generating explicit sexual content.
+
+## Deferred work and release summaries
+
+Maintain docs/DEFERRED-SYSTEMS-TRACKER.md when a system/choice is deferred or resolved. Check its revisit triggers at each pertinent location/system build and before release; do not reopen settled choices or revive superseded combat changes. Before publication, update docs/NEXT-RELEASE-SYNOPSIS.md against the last publicly verified release plus committed and uncommitted runtime changes, with a brief item-by-item synopsis and actual verification limits.

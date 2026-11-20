@@ -1,3 +1,7 @@
+## v1.0.131 — carrier gains and combat boundary
+
+Active carriers receive twice positive Arousal gains, including successful rolled combat effects and passive items, capped normally. Roll resolution, costs, reductions and resets remain unchanged. Timed private/kissing encounter gains stop during combat with no catch-up. Standard combat adds no virus transmission or generic carrier avoidance. Earlier enemy-avoidance/slime proposals remain superseded unless a future case-specific rule is approved. Natural text/contact infection and full carrier completion are now implemented; Underworld cure acquisition remains deferred.
+
 ## v1.0.130 correction
 
 Timed sucker drains retain zero-Resolve permanent binding. A red advance warning appears before risky start/resume and beside time controls while active; direct mastery spending still uses its separate acknowledgment.

@@ -39,7 +39,7 @@ The source audit covers the complete source tree described above. Functional bro
 
 This is deterministic contextual language support, not a promise to understand arbitrary sentences. Unknown wording remains unresolved; it must never be described as a completed action. Complex selections may take several text turns, just as their actual actions require several decisions. The catalog's bounded view search is not an exhaustive planner for every possible outfit combination. Source inventory is not a claim every dynamic action/permission combination has received an individual browser test.
 
-Unbuilt natural NPC intimate invitations, kissing/exposure sources, Underworld lab acquisition and other previously deferred gameplay are not created by adding text access. The earlier non-graphic encounter adapter remains separately documented.
+Current scope correction: natural Tits invitations, kissing and exposure sources are now connected through their dedicated controllers; see PRIVATE-ENCOUNTER-INITIATION.md, KISSING-INTERACTION.md and ENCOUNTER-AROUSAL.md. Underworld lab acquisition and further NPC scenes remain deferred. Text access itself creates no new gameplay permissions.
 
 Published release remains v1.0.130. Frozen Bible/release evidence are preserved. Before the next publication, reconcile this pending record and `EVE-HELP-AND-PLAYER-DATABASE.md` into the new version’s canon snapshot; do not rewrite the frozen v1.0.130 Bible.
 

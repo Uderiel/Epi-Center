@@ -13,3 +13,9 @@ This implements the approved first playable package, rather than every future ex
 - Flats remain the same unique pair. Permanent conquered mastery survives optional weekend or retained-closet revisits. Reversion still requires unworn shoes and genuine solitude; original flats remain afterward.
 
 Limits: advanced boutique control products remain reference-only pending their own functional designs. Full Maya/Lena NPCs and network multiplayer transport are not added. NPC funds and household stock are finite; there is no automatic income/general restocking, medical effect or washing-machine simulation. The date uses the implemented home location. Tests use isolated synthetic saves and mock AI; paid Featherless prose quality, private Worker deployment and native Android acceptance remain unverified. AI-off sensory text and actual mechanical receipts are implemented.
+
+## First-date kiss offer (approved local addition)
+
+On the first agreed rom-com date, capture the starting relationship. A ten-point net gain during that date produces one optional kiss offer at the end of the completed thirty shared minutes, only while the original presented identity is actually sharing the living room with awake Priya. Existing score before the date does not qualify. Acceptance and decline share the same controller through text (“I accept Priya’s offered kiss” / “I decline Priya’s offered kiss”) and shortcuts. Acceptance records one kiss; it does not infer a technique, saliva exchange, generalized intimacy permission or relationship bonus. Refusal consumes the offer without a penalty. Existing carrier disclosure/contact guards remain applicable. Reload retains the starting score and offer decision. Existing in-progress dates without a captured baseline do not receive retroactive offers. Erin’s separate date-discussion exception is unchanged.
+
+Focused threshold, one-off offer, decline, reload, presence and acceptance tests pass. Publication remains on hold.

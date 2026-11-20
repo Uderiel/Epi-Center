@@ -1,0 +1,42 @@
+# Next publication — reviewed change synopsis
+
+Reviewed 2026-11-20. Baseline: publicly verified v1.0.130, runtime `8a0f2f9`, release evidence `90ec3ff`. Scope includes committed changes after that baseline **and the current uncommitted implementation**, not only changes since HEAD. Candidate version: v1.0.131. Owner authorized publication; local release verification passed; deployment/public verification is underway.
+
+| Item | What this update adds or changes |
+| --- | --- |
+| Text-first actions | Shared context-sensitive text access invokes existing menu controllers with common wording variants, room/item/NPC targeting, ambiguity checks and identical permissions/costs. Menus remain shortcuts. This is deterministic recognition, not unrestricted language understanding. |
+| Intent parsing | Separates asserted action from desire, quoted speech, thoughts and purpose clauses. “I travel to Burke's because I want candy” travels without buying; “I want to travel” does not move. Body movement/speech restrictions remain. |
+| Priya text access | Typed doorstep knocks and relationship requests reach her existing route; stranger/cat and Erin identity exceptions remain distinct. |
+| Eve and learned database | Remote guidance, shared action examples and player-scoped learned NPC/location/form information, without publishing secret dossiers. |
+| Neutral action/source vocabulary | Structured kissing/contact terminology and clinical fluid names with source, route, target, freshness and resolved scene metadata. Authored tone classifications survive payload serialization; labels create no permissions or events. |
+| Kissing | Accepted typed kisses with Tits's willingness/work gates; French/open-mouth exposure tracks actual contact toward20 game minutes in a rolling120-minute window. Individual minutes expire; either side can stop. |
+| Ingestion and skin exposure | Real fresh-source contact/consumption reaches the existing route timers. Ingestion10 rolling minutes; intact skin60 continuous; broken skin30; ordinary mucous contact20 continuous. Dry skin/source-free requests create no exposure. |
+| Concurrent resistance | Separate qualifying contamination points get separate hidden rolls even when simultaneous. First failure starts incubation and stops further rolls; one route cannot qualify another prematurely. |
+| Regional perspiration | Activity-driven moisture, drying, body-region/clothing contact and visibility. Observers see appropriate exposed regions; worn-flat players and actual participants receive private direct-contact information. |
+| Garment effects | Moisture and persistent soiling remain separate and region-specific. Shoes retain descriptive moisture but receive no dirty/soiled tags and never enter the hamper. |
+| Sleeping contact | Actual accepted pressed-skin contact can persist during shared sleep; affected regions dry at half normal rate. Dry-skin contacts start when sweat appears. Separation/barriers end relevant exposure. Documented math covers viability. |
+| Routine continuity | Priya/Erin/Tits ordinary routines defer through accepted encounter/shared rest and resume afterward; urgent needs retain their existing handling. No bed-sharing permission is invented. |
+| Tits warning and speech | Automatic infectiousness warning once per stable player across interaction types/reload; questions remain possible. Default dialogue uses the existing club speech overlay, with authoritative choices/facts separate from voice. |
+| Room D private flow | Offer, explicit acceptance, actual movement and scene-only temporary access; no permanent staff permission. Entry alone creates no sample/exposure. Source and transfer method are separately agreed and resolved. |
+| Encounter arousal and sources | Ongoing accepted kissing/private activity uses actual game time, per-participant bars, threshold outcome/reset, actual fresh source records and five-minute recovery. Combat suppresses encounter-clock gains without catching up afterward; passive items retain their effects. |
+| Universal relationships and gifts | Shared contextual gains/losses, repetition protection, owned-item preferred gifts and saved history. Preserves Tits's existing +5 gift/reset and other character rules. Future-NPC template requires gifts and relationship exceptions. |
+| Priya date ending | Optional first-date kiss is offered only after the completed date and net +10 gained during it; typed/menu accept/decline and reload are supported. |
+| Readiness policy | Mental75/physical65/arousal55; Charity90; Priya cat exception; Erin/Richard defaults. Nadia actual companion65 versus separately known canine-form55 route; private motive excluded from public/AI projections. Further dating scenes remain deferred. |
+| Carrier social policy and context fix | Ordinary affinity still works; mixed-status dating/deeper contact and shared personal clothing/tableware are restricted through text and menus. Preparing AI context no longer mutates saved relationship data. Speech overlay does not erase intended social gains. |
+| Double carrier gains | Active carriers receive double positive arousal from interactions, passive effects and successful rolled combat gains; caps remain. Cure ends modifier. Resets/floors/pre-carrier transformation timing are not doubled; dice and standard combat behavior remain. |
+| Transformation presentation | Concrete saved-field line for each stage, highlighted milestones, coalesced routine transformation updates and persistent milestone archive reachable from History/Live Feed. Works with AI off and after feed overflow/reload. |
+| Appearance UI | Removes the duplicate expandable live Appearance panel. Current fields remain available in the existing Appearance tab. |
+| Canon and review records | Source-backed design/template updates, current verification evidence, this release synopsis and deferred-systems index. Historical release evidence remains immutable. |
+
+## Evidence and limits
+
+- 1,977 automated cases pass (including the added directed-speech framing regression); entity suites also run their internal assertions.
+- Latest AI-off browser sequence: actual typed contact → failed resistance → controlled72-real-hour incubation → fourteen stages using actual Wait controls → final sleep/carrier; stable player ID/possessions and reload checked.
+- Five current carrier text/menu refusal checks, encounter-arousal browser checks, Appearance-tab checks and milestone retrieval after200 routine messages/reload pass. Earlier targeted Room D, kissing, language, relationship and sleep reports remain scoped evidence, not proof of every dynamic combination.
+- No owner saves or paid-model generation. Frozen v1.0.130 Bible verifies byte-for-byte unchanged. No new artwork, Underworld cure acquisition, general dating scenes or multiplayer/offline service is claimed.
+
+## Required before publication
+
+Reconcile and regenerate the **new** release's source-backed World Bible/snapshot; select/bump release version; run release-specific verification and save evidence; freeze that new version; deploy only with authorization and verify public assets/Bible/worker afterward. The historical v1.0.130 Bible must remain unchanged. This review does not authorize deployment.
+
+See DEFERRED-SYSTEMS-TRACKER.md for remaining work and revisit triggers. Already published v1.0.130 directory/sucker-warning/Bible fixes are baseline, not new features in this candidate.

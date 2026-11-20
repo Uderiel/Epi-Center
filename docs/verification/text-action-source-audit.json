@@ -5,7 +5,7 @@
     "Parameterized forms and deeper navigation branches require dedicated text/provider checks.",
     "No claim every natural-language phrase or every dynamic scene has browser coverage."
   ],
-  "buttonAttributeFamilies": 96,
+  "buttonAttributeFamilies": 99,
   "rows": [
     {
       "attribute": "data-activity-id",
@@ -604,6 +604,14 @@
       "classification": "Interface/developer control or selector metadata"
     },
     {
+      "attribute": "data-private-encounter",
+      "files": [
+        "rebuild/hub/private-encounter-ui.js"
+      ],
+      "sourceOccurrences": 5,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
       "attribute": "data-priya",
       "files": [
         "rebuild/hub/priya-ui.js"
@@ -657,6 +665,22 @@
         "rebuild/hub/priya-daily-ui.js"
       ],
       "sourceOccurrences": 3,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-relationship-gift",
+      "files": [
+        "rebuild/hub/relationship-interactions-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-relationship-recipient",
+      "files": [
+        "rebuild/hub/relationship-interactions-ui.js"
+      ],
+      "sourceOccurrences": 1,
       "classification": "Contextual text bridge + original controller; per-scene availability applies"
     },
     {
@@ -1169,6 +1193,10 @@
       "name": "context"
     },
     {
+      "file": "rebuild/hub/relationship-interactions-ui.js",
+      "name": "relationshipGiftText"
+    },
+    {
       "file": "rebuild/hub/richard-office.js",
       "name": "intent"
     },
@@ -1223,6 +1251,10 @@
     {
       "file": "rebuild/hub/tits.js",
       "name": "context"
+    },
+    {
+      "file": "rebuild/hub/transformation-history.js",
+      "name": "text"
     },
     {
       "file": "rebuild/hub/world-clock.js",

@@ -1,0 +1,31 @@
+{
+  "status": "implemented and verified locally; unpublished",
+  "publishedVersionUnchanged": "1.0.130",
+  "automatedCases": 1954,
+  "focusedRelationshipCases": 18,
+  "browserChecks": [
+    "Paraphrased and replayed compliments do not farm relationship across reload",
+    "Real typed conversation earns ten; kiss offer waits for the completed first date",
+    "Typed preferred gift transfers one owned unit and credits five without changing ownership of the remaining unit",
+    "Gift shortcut uses the same real transfer and preferred-gift reward as typed input",
+    "Actual boundary pressure and dismissive speech produce distinct negative outcomes",
+    "Typed fox gift reaches Erin\u2019s existing form relationship and transfers the real item"
+  ],
+  "browserPassed": true,
+  "regressionPassed": true,
+  "additionalBrowserRegressions": [
+    "Room D invitation/access/serialization (8 checks)",
+    "Typed fluid-contact lifecycle (8 checks)"
+  ],
+  "proseProvider": "not called",
+  "ownerSaves": "not accessed",
+  "scopeDocument": "docs/UNIVERSAL-RELATIONSHIP-INTERACTIONS.md",
+  "coverageDocument": "docs/UNIVERSAL-RELATIONSHIP-COVERAGE.md",
+  "limitations": [
+    "Contextual phrase recognition is not unrestricted natural-language understanding.",
+    "Unspecified character-specific tastes and private-encounter policies remain unauthored.",
+    "Dart retains animal-specific care interactions; Eve receives no physical gifts."
+  ],
+  "endOfDateKissVerified": true,
+  "boundaryContinuityVerified": true
+}

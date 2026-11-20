@@ -1,3 +1,25 @@
+## v1.0.131 — release candidate verified, deployment pending
+
+Owner-authorized23-group release:1,977 automated cases and eight browser suites pass. Directed speech scoring was corrected and fully retested. See releases/v1.0.131-release-summary.json and NEXT-RELEASE-SYNOPSIS.md. Deferred scope remains in DEFERRED-SYSTEMS-TRACKER.md. Public verification will be recorded separately; no paid model calls or owner saves. Earlier local-only status below is historical.
+
+## v1.0.131 — owner-authorized release preparation
+
+Owner authorized publishing all23 reviewed implementation groups, including neutral vocabulary documents. NEXT-RELEASE-SYNOPSIS.md lists scope; DEFERRED-SYSTEMS-TRACKER.md lists exclusions. Local evidence:1,976 automated cases, full AI-off contact-to-carrier and text/menu browser checks. Version/canon/release verification and deployment are underway; this heading does not claim publication. Older pending/unfinished checkpoints below are historical.
+
+## Unpublished — carrier gains, milestones and live Appearance cleanup
+
+Active carriers now receive double positive arousal gains through shared runtime paths, including passive effects, NPC encounters and rolled combat gains. Combat rolls and standard combat rules remain unchanged. Transformation stages use concrete recorded appearance descriptions, highlighted live entries and a durable list under History. The redundant live Appearance expander is removed. Ordinary carrier affinity and text/menu shared-item refusals remain enforced. See CARRIER-GAINS-AND-MILESTONES.md for rules and verification scope. 1,976 automated cases and focused encounter/Appearance browser checks pass. The final AI-off typed contact → 72-real-hour incubation → fourteen stages → sleep → carrier browser run passes, including milestone retrieval after 200 routine messages and reload. Five text/menu carrier-refusal checks pass. Nothing published.
+
+## Unpublished correction — Priya’s end-of-date kiss
+
+The owner clarified that the +10 first-date kiss is offered at the end of the date. Reaching +10 early does not trigger it: all thirty shared minutes must finish, then the offer is made if the net date gain qualifies. Accept/decline remain optional and require actual co-presence. Verified with real typed relationship gains, the full date clock, shortcut/text acceptance and reloads. Ambient conversation no longer clears a recorded boundary used by the pressure rule. All 1,954 automated cases, the six relationship browser checks and the dedicated date-kiss browser checks pass. Nothing published.
+
+## Unpublished — universal relationship interactions and preferred gifts
+
+Implemented the owner-approved shared relationship template for current/future NPCs through the existing stable-player/entity ledger and actual hearing/dialogue controllers. Contextual interest follow-ups, personal sharing, shared media, considerate kindness, specific compliments, dismissal, pressure after an actual boundary and broken accepted commitments have saved outcomes and repetition protection. Actual preferred gifts transfer owned items; Priya crystals, Erin fox items, Charity rose/mint-chocolate-chip items, Daniel wine and Tits’s established gifts are supported. Tits’s +5/reset and other existing character rules remain intact. The real typed Priya date reaches +10 and offers an optional kiss. Text/shortcut gifts, history, body/presence guards, future actor registration and old-save scores are verified.
+
+**1,954 automated cases and six new browser checks pass**, plus Room D and fluid-contact browser regressions. See UNIVERSAL-RELATIONSHIP-INTERACTIONS.md, UNIVERSAL-RELATIONSHIP-COVERAGE.md and verification/universal-relationships-summary.json. No owner saves or paid model calls. Nothing published; v1.0.130 and its frozen Bible are unchanged. Older checkpoints below are historical.
+
 ## v1.0.130 — directory persistence and advance binding warning
 
 Repairs Priya’s saved 2F discovery and adds red advance warnings for the sucker’s timed last-Resolve drain while retaining permanent binding. World Bible releases now include an immutable exact-byte Markdown copy and integrity manifest. Published and live-verified: 1,804 automated cases, three local/public browser checks and 193 exact-byte public file comparisons pass. Worker130 is configured. [Play v1.0.130](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.130).
