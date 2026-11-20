@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checks": [
+    "First typed request gives warning before contact",
+    "Typed confirmation starts accepted contact at nonnegative relationship",
+    "Breaking contact pauses accumulation during intervening clock time",
+    "Resumed contact reaches the hidden resistance check at twenty contact minutes",
+    "Authoritative feed retains neutral kissing metadata and authored tone",
+    "Reload preserves the single resolved resistance result",
+    "Serialized scene options preserve tone and actual contact metadata"
+  ],
+  "errors": [],
+  "scope": "Isolated QA slot, real composer and game clock, no paid model calls"
+}

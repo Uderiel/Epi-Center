@@ -1,0 +1,9 @@
+{
+  "published": false,
+  "automatedCases": 1846,
+  "passed": true,
+  "kissingControllerCases": 12,
+  "kissingBrowserChecks": 7,
+  "languageBrowserChecks": 8,
+  "scope": "Current local controller, composer and serialized scene options; no paid model calls; other NPC acceptance policies unbuilt"
+}

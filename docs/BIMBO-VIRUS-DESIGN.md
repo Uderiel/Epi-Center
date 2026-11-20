@@ -1,3 +1,7 @@
+## Current unpublished kissing update
+
+Accepted French/open-mouth kissing is now text-driven with Tits’s willingness/work checks, brief disclosure and player confirmation. Actual contact accumulates toward twenty game minutes inside a rolling120-game-minute window; each minute expires individually. This supersedes historical continuous-only kissing descriptions below; generic non-kissing mucous exposure is unchanged. See KISSING-INTERACTION.md for implementation and evidence. Other NPC acceptance and further vocabulary remain separate.
+
 # Fictional bimbo virus — current design authority
 
 This is fictional game biology, not real-world transmission guidance. Current implementation and approved design record. v1.0.128 is published; the v1.0.129 approval audit repairs additional exposure/permission wiring. Historical checkpoints retain their earlier status.

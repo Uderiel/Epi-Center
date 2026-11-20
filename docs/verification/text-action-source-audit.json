@@ -5,7 +5,7 @@
     "Parameterized forms and deeper navigation branches require dedicated text/provider checks.",
     "No claim every natural-language phrase or every dynamic scene has browser coverage."
   ],
-  "buttonAttributeFamilies": 94,
+  "buttonAttributeFamilies": 95,
   "rows": [
     {
       "attribute": "data-activity-id",
@@ -353,6 +353,14 @@
         "rebuild/hub/tits-ui.js"
       ],
       "sourceOccurrences": 3,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-kissing",
+      "files": [
+        "rebuild/hub/kissing-ui.js"
+      ],
+      "sourceOccurrences": 1,
       "classification": "Contextual text bridge + original controller; per-scene availability applies"
     },
     {

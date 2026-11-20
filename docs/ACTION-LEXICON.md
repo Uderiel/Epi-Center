@@ -343,6 +343,6 @@ Select actual available fields/options, then explicitly submit.
 
 ## Implementation boundary
 
-The language layer routes supported actions to existing controllers and live-feed outcomes. A recognized verb does not create a missing controller, a target’s agreement, a new item, an infection or a physical act. Kiss requests currently record the warning/request and await an authored NPC decision; timed contact/transmission source scenes remain separate. The owner has explicitly queued the transmission-specific vocabulary process for after this phase. It has not been started here.
+The language layer routes supported actions to existing controllers and live-feed outcomes. A recognized verb does not create a missing controller, a target’s agreement, a new item, an infection or a physical act. Kissing now uses the approved terminology library, warning/confirmation, Tits’s availability policy and actual rolling contact exposure. See KISSING-INTERACTION.md. Other NPC acceptance policies and additional body-target vocabulary remain separate.
 
 Verification and implementation details: LANGUAGE-INTENT-RECOGNITION.md. Publication remains at v1.0.130; this reference is local pending the next authorized release.

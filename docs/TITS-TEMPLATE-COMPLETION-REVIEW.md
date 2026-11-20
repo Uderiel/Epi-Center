@@ -1,3 +1,7 @@
+## Current unpublished kissing update
+
+Accepted French/open-mouth kissing is now text-driven with Tits’s willingness/work checks, brief disclosure and player confirmation. Actual contact accumulates toward twenty game minutes inside a rolling120-game-minute window; each minute expires individually. This supersedes historical continuous-only kissing descriptions below; generic non-kissing mucous exposure is unchanged. See KISSING-INTERACTION.md for implementation and evidence. Other NPC acceptance and further vocabulary remain separate.
+
 ## v1.0.128 publication checkpoint
 
 Owner now authorizes release of implemented work. Core Tits/Burke’s approvals below are connected; current release tests/evidence supersede older local-only counts. BVC completion/cure components are also implemented as scoped in BIMBO-VIRUS-DESIGN.md. Natural exposure interactions, Underworld Research Center acquisition, remaining carrier consequences, and location-dependent content are still unfinished. No paid-model acceptance or complete multiplayer service is claimed. Deployment verification is pending; earlier publishing-hold entries are historical.

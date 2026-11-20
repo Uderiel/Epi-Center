@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "bodyTypes": {
+    "humanoid": {
+      "lips": "lips/kissing.json",
+      "eyelashes": {
+        "library": "lips/kissing.json",
+        "typeIds": [
+          "butterfly"
+        ]
+      },
+      "gestures": {
+        "library": "lips/kissing.json",
+        "typeIds": [
+          "air"
+        ]
+      }
+    }
+  }
+}

@@ -1,6 +1,10 @@
+## Unpublished — kissing vocabulary and rolling contact
+
+Tits’s text-driven kissing now includes warning/confirmation, actual acceptance and work interruptions, stop/resume, neutral feed metadata and twenty contact minutes in a rolling two-game-hour window. Each minute expires individually. See KISSING-INTERACTION.md for scope and verification. 1,846 automated cases, seven kissing browser checks and eight language browser checks pass. Published v1.0.130 and its frozen Bible remain unchanged.
+
 ## Unpublished — shared lexicon and structured language intents
 
-39 action families and113 shared examples now connect the parser and Eve’s suggestions. Action, desire, quoted speech and purpose clauses are distinct. Actual pathing/body/ownership/participant restrictions and controller live-feed results remain authoritative. 1,834 automated cases and targeted browser checks pass locally, including actual flats restrictions, Dart’s reciprocal sniff and serialized AI context. See ACTION-LEXICON.md, LANGUAGE-INTENT-RECOGNITION.md and verification/language-lexicon-summary.json. The owner’s transmission-specific vocabulary process is explicitly next, not started. Nothing from this follow-up is published.
+39 action families and113 shared examples now connect the parser and Eve’s suggestions. Action, desire, quoted speech and purpose clauses are distinct. Actual pathing/body/ownership/participant restrictions and controller live-feed results remain authoritative. 1,834 automated cases and targeted browser checks pass locally, including actual flats restrictions, Dart’s reciprocal sniff and serialized AI context. See ACTION-LEXICON.md, LANGUAGE-INTENT-RECOGNITION.md and verification/language-lexicon-summary.json. This checkpoint is superseded for kissing by KISSING-INTERACTION.md; additional body-target vocabulary remains owner-led. Nothing from this follow-up is published.
 
 ## Unpublished — text-first gameplay, Eve help and learned database
 

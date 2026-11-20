@@ -1,3 +1,7 @@
+## Unpublished — approved kissing vocabulary and contact exposure
+
+Added the shared body-part-indexed kissing library and Tits’s text-driven acceptance, warning/confirmation, stopping and work interruption. French/open-mouth exposure uses actual game-clock contact in a rolling two-hour window; individual minutes expire. Authored tone and neutral contact facts reach serialized scene options. 1,846 automated cases and targeted browser checks pass. Not deployed.
+
 ## Unpublished — shared lexicon and structured language intents
 
 39 action families and113 shared examples now connect the parser and Eve’s suggestions. Action, desire, quoted speech and purpose clauses are distinct. Actual pathing/body/ownership/participant restrictions and controller live-feed results remain authoritative. 1,834 automated cases and targeted browser checks pass locally, including actual flats restrictions, Dart’s reciprocal sniff and serialized AI context. See ACTION-LEXICON.md, LANGUAGE-INTENT-RECOGNITION.md and verification/language-lexicon-summary.json. The owner’s transmission-specific vocabulary process is explicitly next, not started. Nothing from this follow-up is published.

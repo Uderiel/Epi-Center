@@ -27,7 +27,7 @@ Controller-generated live-feed results remain authoritative for success, refusal
 
 ## Scope still separate
 
-Kiss vocabulary recognizes a request and Tits’s required disclosure. It does not implement an authored natural NPC acceptance policy, a completed kiss or a timed fluid-contact source. Those mechanics and the owner’s next transmission/body-target vocabulary process remain separate. New sexual/body-target verb definitions have not been added independently.
+Kissing now uses the shared approved library, Tits’s actual availability policy, warning/confirmation, accepted contact and rolling exposure. See KISSING-INTERACTION.md. Other NPC acceptance policies and further owner-led body-target vocabulary remain separate.
 
 ## Evidence
 
