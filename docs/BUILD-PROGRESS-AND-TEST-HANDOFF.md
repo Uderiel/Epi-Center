@@ -1,3 +1,7 @@
+## Completed-turn dialogue writer — request-handoff-v7
+
+The deployed v6/source-frame probe still failed: the actual offer and player-mastery facts reached Cydonia, but the reply restarted an introduction. This repair separates completed NPC dialogue writing from action selection and presents supplied context once, retaining the full character dossier, history, body/permission facts and offer conditions. No canned dialogue, added prose quota or gameplay decision rule is introduced. Existing production settings and credentials are unchanged. Public client/UI changes remain held. Local worker tests pass; real Cydonia acceptance is pending. See releases/ai-request-handoff-v7-release.json and verification/request-handoff-repair/completed-writer-review.md. Prior checkpoints below retain their historical scope.
+
 ## Corrective AI worker maintenance — request-handoff-v6
 
 The v5 real test presented Priya’s offer and recognized agreed entry, but omitted mastery and invented body history. This correction keeps every supplied offer condition as a separate writing point and focuses acceptance on the present agreement. Household access retains its actual scope and the supplied employment context. Local worker tests pass; real-model acceptance remains pending. Production configuration, credentials, public client and canon mechanics are unchanged. See releases/ai-request-handoff-v6-release.json. Earlier checkpoints below preserve their actual scope.

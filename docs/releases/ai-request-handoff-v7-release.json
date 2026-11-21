@@ -1,0 +1,17 @@
+{
+  "id": "ai-request-handoff-v7",
+  "baselineWorkerCommit": "b364a90",
+  "status": "Local checks passed; deployment and real-model verification pending",
+  "requestAssemblyVersion": "request-handoff-v7",
+  "workerTests": 76,
+  "changes": [
+    "Dedicated prose-writing path after resolved NPC actions; existing action interpretation unchanged",
+    "Keep projected facts/history/dossier, remove exact duplicate result text and competing action-decision guidance"
+  ],
+  "gameClientChanged": false,
+  "productionSettingsChanged": false,
+  "credentialsChanged": false,
+  "realProviderAcceptance": false,
+  "preTestReview": "verification/request-handoff-repair/completed-writer-review.md",
+  "knownLimit": "Client source-frame fixes remain local and are used in the directed candidate test; not a complete public-client acceptance claim"
+}
