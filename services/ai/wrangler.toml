@@ -16,3 +16,18 @@ class_name = "AIBudget"
 [[migrations]]
 tag = "v1"
 new_sqlite_classes = ["AIBudget"]
+
+# Non-production branch previews. Secrets belong in Cloudflare Previews Base,
+# never in this file. A zero limit prevents paid calls until test billing is set.
+[previews.vars]
+AI_MODEL = "TheDrummer/Cydonia-24B-v4.3"
+AI_MONTHLY_LIMIT_USD = "0"
+AI_MAX_INPUT_PRICE_PER_MILLION = "2"
+AI_MAX_OUTPUT_PRICE_PER_MILLION = "5"
+ALLOWED_ORIGINS = "https://uderiel.github.io"
+
+# Same-Worker binding: Cloudflare gives each Preview its own namespace.
+# Do not add script_name here (that would target another Worker's resources).
+[[previews.durable_objects.bindings]]
+name = "AI_BUDGET"
+class_name = "AIBudget"
