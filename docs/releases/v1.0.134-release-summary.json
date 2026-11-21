@@ -1,6 +1,6 @@
 {
   "version": "1.0.134",
-  "status": "Owner-authorized; verified locally; publication pending",
+  "status": "Published and publicly verified",
   "baseline": "1.0.133",
   "automatedCases": 2001,
   "localBrowserChecks": 32,
@@ -9,5 +9,24 @@
   "aiWorkerChanged": true,
   "realProviderQualityVerified": false,
   "paidNarrativeModelCalls": false,
-  "ownerSaves": false
+  "ownerSaves": false,
+  "runtimeCommit": "34422a69fde2b7377e54b3dc22bb15820eed7259",
+  "pagesRun": "https://github.com/Uderiel/Epi-Center/actions/runs/44843070612",
+  "pagesConclusion": "success",
+  "workerBuildConclusion": "success",
+  "workerHealth": {
+    "service": "Epi-Center AI",
+    "releaseVersion": "1.0.134",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "configured": true
+  },
+  "publicMatchedFiles": 218,
+  "publicBrowserChecks": 32,
+  "verificationNotes": [
+    "Initial file check ran while Pages was still deploying and saw older files; the unchanged runtime passed after deployment completed.",
+    "Real Cydonia writing quality remains unverified: browser AI-on flows used simulated responses, not a paid provider call."
+  ]
 }

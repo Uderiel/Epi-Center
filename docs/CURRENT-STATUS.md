@@ -1,3 +1,9 @@
+## v1.0.134 publication complete
+
+Runtime `34422a69fde2b7377e54b3dc22bb15820eed7259` is live. Pages run44843070612 and the Cloudflare Worker build succeeded. All2,001 automated cases,32 local browser checks and32 public browser checks pass; all218 compared public files match, including canonical/frozen Bible and integrity manifest. Worker reports1.0.134 and configured. No unpublished Form Repository/staff changes were included; existing Repository reference files match the prior public baseline. Real Cydonia prose quality remains unverified: transport tests use simulated replies; no paid model calls or owner saves were used. See releases/v1.0.134-release-summary.json and v1.0.134-live-verification.json.
+
+Repository and Lee authoring remain separate and unpublished. Original authoring workspace must reconcile the published baseline before any future broad release; do not publish it wholesale.
+
 # v1.0.134 — dialogue continuity, learned records and household UI
 
 Owner authorized publication of recent changes excluding all unpublished Form Repository and staff work. Baseline: publicly verified v1.0.133 / 621b8da.

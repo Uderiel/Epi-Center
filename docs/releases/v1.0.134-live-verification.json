@@ -1,0 +1,1544 @@
+{
+  "version": "1.0.134",
+  "runtimeCommit": "34422a69fde2b7377e54b3dc22bb15820eed7259",
+  "matched": 218,
+  "total": 218,
+  "workerHealth": {
+    "service": "Epi-Center AI",
+    "releaseVersion": "1.0.134",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "configured": true
+  },
+  "files": [
+    {
+      "path": "rebuild/hub/ai-integration-ui.js",
+      "status": 200,
+      "expected": "02ce9a27945b71a32f2256f2f7bb85239b071a6aa4f7e07d98cd420b026b2840",
+      "actual": "02ce9a27945b71a32f2256f2f7bb85239b071a6aa4f7e07d98cd420b026b2840",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/arousal-effects.js",
+      "status": 200,
+      "expected": "e96154827880c33469a72b04cee7f1b73f42d42650b564406dda4d310971b324",
+      "actual": "e96154827880c33469a72b04cee7f1b73f42d42650b564406dda4d310971b324",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/action-lexicon.js",
+      "status": 200,
+      "expected": "10ca03af96adcd7230e00cd58147f41a8a10c88580afa26812b3f542a4284594",
+      "actual": "10ca03af96adcd7230e00cd58147f41a8a10c88580afa26812b3f542a4284594",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/applewood-building.js",
+      "status": 200,
+      "expected": "46b43f7b1f7e56be3eafb8699b1864591196456d60da0e9adca98b8df5288fd2",
+      "actual": "46b43f7b1f7e56be3eafb8699b1864591196456d60da0e9adca98b8df5288fd2",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/ai-ui.js",
+      "status": 200,
+      "expected": "cda03edf0e45dcac26f9e0b7e1db8abab30fde8aa0071731569f8cb457fe8404",
+      "actual": "cda03edf0e45dcac26f9e0b7e1db8abab30fde8aa0071731569f8cb457fe8404",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/apartment-navigation.js",
+      "status": 200,
+      "expected": "41a4798482f5933cc5569bb0911949e3dc80ae4eb9febc8bc538b8f05d329de3",
+      "actual": "41a4798482f5933cc5569bb0911949e3dc80ae4eb9febc8bc538b8f05d329de3",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/ai-integration-cases.js",
+      "status": 200,
+      "expected": "1d9757bd12a643d9f6cdd056ff2c2a416331e89ff87beac918a7fc7c61b5ff3f",
+      "actual": "1d9757bd12a643d9f6cdd056ff2c2a416331e89ff87beac918a7fc7c61b5ff3f",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/ai-context.js",
+      "status": 200,
+      "expected": "61982b3da5e6fdea8c09996cc3992eda695baf0d52af772caba2f6d6223bbe56",
+      "actual": "61982b3da5e6fdea8c09996cc3992eda695baf0d52af772caba2f6d6223bbe56",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/authored-dialogue.js",
+      "status": 200,
+      "expected": "ff5bb0a65b507652c9aa5bfaedd3b8e6a2b146bb2f250a063fa8cd2b87ffd5d5",
+      "actual": "ff5bb0a65b507652c9aa5bfaedd3b8e6a2b146bb2f250a063fa8cd2b87ffd5d5",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-appearance.js",
+      "status": 200,
+      "expected": "81fdd5e05defb719786340b85c74fb0662e4e602d03b0ebfe21c7b3b9d2c5335",
+      "actual": "81fdd5e05defb719786340b85c74fb0662e4e602d03b0ebfe21c7b3b9d2c5335",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-attributes.js",
+      "status": 200,
+      "expected": "8f9f025edc97975e5f67b271e4ac1f741e10b62638d926e3ac6af1d27fe12d92",
+      "actual": "8f9f025edc97975e5f67b271e4ac1f741e10b62638d926e3ac6af1d27fe12d92",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-cure.js",
+      "status": 200,
+      "expected": "add357b36f04c6290b2204578292b3dcfd7c82372848942c05856ddb8b673878",
+      "actual": "add357b36f04c6290b2204578292b3dcfd7c82372848942c05856ddb8b673878",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-exposure.js",
+      "status": 200,
+      "expected": "c5e9aed9d796a7fdb7794488e3877fe474174a1632b43b810c0cd04c4182007a",
+      "actual": "c5e9aed9d796a7fdb7794488e3877fe474174a1632b43b810c0cd04c4182007a",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-penalties.js",
+      "status": 200,
+      "expected": "bb87f9f3039485368a7676184f0a768d13cf9171c1fb23b24c0e5dbe6c974684",
+      "actual": "bb87f9f3039485368a7676184f0a768d13cf9171c1fb23b24c0e5dbe6c974684",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-identity.js",
+      "status": 200,
+      "expected": "9e6121c8207c352ef3065786c910e98bb93d4ee9fb13b67e30956398e99bb4a3",
+      "actual": "9e6121c8207c352ef3065786c910e98bb93d4ee9fb13b67e30956398e99bb4a3",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-base-lock.js",
+      "status": 200,
+      "expected": "ffadf90c1e7d690ed35a7d06e64abd19e9d31a32eb9630566a950f0ad07633ed",
+      "actual": "ffadf90c1e7d690ed35a7d06e64abd19e9d31a32eb9630566a950f0ad07633ed",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-presentation.js",
+      "status": 200,
+      "expected": "c2e636910d0ba582e17b893a6598afd8633089237621fb9c3ff497951388fbe7",
+      "actual": "c2e636910d0ba582e17b893a6598afd8633089237621fb9c3ff497951388fbe7",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-policy.js",
+      "status": 200,
+      "expected": "b1c842b9ba88062465ac62a2fe23015a0dd0f49040c1ded4da403cf9e2bfc323",
+      "actual": "b1c842b9ba88062465ac62a2fe23015a0dd0f49040c1ded4da403cf9e2bfc323",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-resources.js",
+      "status": 200,
+      "expected": "22153eb4bf9fb690ffbc791a8b187773f748128bc732a2532c9b22a22dedb278",
+      "actual": "22153eb4bf9fb690ffbc791a8b187773f748128bc732a2532c9b22a22dedb278",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-debug.js",
+      "status": 200,
+      "expected": "2d4dc1123457f33d2476b1d730c1ba04e8ed179bcb782aeae0bff47ad1657205",
+      "actual": "2d4dc1123457f33d2476b1d730c1ba04e8ed179bcb782aeae0bff47ad1657205",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-sleep.js",
+      "status": 200,
+      "expected": "45c121516e80742cd1d3e7e4d001251450bea11671e90236ff502118651c73b3",
+      "actual": "45c121516e80742cd1d3e7e4d001251450bea11671e90236ff502118651c73b3",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-social.js",
+      "status": 200,
+      "expected": "0c826c806a405c0765c80c7ac57ac8245184d1a13f926163266590e11c60e7c5",
+      "actual": "0c826c806a405c0765c80c7ac57ac8245184d1a13f926163266590e11c60e7c5",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/burkes-art.js",
+      "status": 200,
+      "expected": "62cec4be6418f1cc95f5916517e8b923709aceb03a056e0f32bce9999fce9700",
+      "actual": "62cec4be6418f1cc95f5916517e8b923709aceb03a056e0f32bce9999fce9700",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-social-ui.js",
+      "status": 200,
+      "expected": "56181bdf7189f346b9a7df5cc5013788d220efcbdb299baabebdd7d29bf8b04f",
+      "actual": "56181bdf7189f346b9a7df5cc5013788d220efcbdb299baabebdd7d29bf8b04f",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/burkes-retail-ui.js",
+      "status": 200,
+      "expected": "695e485c10cd9fbb247cfcbcefbc70e4996ee9fb6a5d2626f4be82fec11bea0c",
+      "actual": "695e485c10cd9fbb247cfcbcefbc70e4996ee9fb6a5d2626f4be82fec11bea0c",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/burkes-baking.js",
+      "status": 200,
+      "expected": "be801096a50bc3097d4ca41863534e1ff34e8099575bac4f5dfb4799cb1dda37",
+      "actual": "be801096a50bc3097d4ca41863534e1ff34e8099575bac4f5dfb4799cb1dda37",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-timeline.js",
+      "status": 200,
+      "expected": "726f85c8c5ac197760d5f30b040ee7595127798ccd797c543b9cb762ea35193d",
+      "actual": "726f85c8c5ac197760d5f30b040ee7595127798ccd797c543b9cb762ea35193d",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/burkes-sweets.js",
+      "status": 200,
+      "expected": "faec0667fdb9242530d2cd2e6eea12bfea4be707b89349f40f0737ccb7abcc2a",
+      "actual": "faec0667fdb9242530d2cd2e6eea12bfea4be707b89349f40f0737ccb7abcc2a",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/burkes-delivery.js",
+      "status": 200,
+      "expected": "adbfeaab252ee8ddc0273da1f946022f6f6c3ad58db54dac67ce5f51f34227f3",
+      "actual": "adbfeaab252ee8ddc0273da1f946022f6f6c3ad58db54dac67ce5f51f34227f3",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/candy-effects.js",
+      "status": 200,
+      "expected": "6c0f93d74d7355e89e98b78d0d8f3103135a01e3b70a4da0a2758eee85cc5c59",
+      "actual": "6c0f93d74d7355e89e98b78d0d8f3103135a01e3b70a4da0a2758eee85cc5c59",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/burkes-sweets-ui.js",
+      "status": 200,
+      "expected": "e6ffc0f4767de1aa2c0db17a5219bd271aba344e1aaba6810e7b9b5d647b0bba",
+      "actual": "e6ffc0f4767de1aa2c0db17a5219bd271aba344e1aaba6810e7b9b5d647b0bba",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/canine-expression.js",
+      "status": 200,
+      "expected": "3eaa4bcdba3011386b5cf731f21dfae6e17ef0549332265add0abef97fdef915",
+      "actual": "3eaa4bcdba3011386b5cf731f21dfae6e17ef0549332265add0abef97fdef915",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/canine-intent.js",
+      "status": 200,
+      "expected": "444eb5d208cbacba9bea3996857493f706edf607316f4d8b46cfc09d295c654a",
+      "actual": "444eb5d208cbacba9bea3996857493f706edf607316f4d8b46cfc09d295c654a",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/burkes-retail.js",
+      "status": 200,
+      "expected": "403b4f4c680aae17458bca63fd62e7b335a6dcbfd6ba400c23cf89d2df8281c2",
+      "actual": "403b4f4c680aae17458bca63fd62e7b335a6dcbfd6ba400c23cf89d2df8281c2",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/burkes-queue.js",
+      "status": 200,
+      "expected": "a8fbd06d5f17681d44e62dafa16d7dac868fb2e7d348a5a987f4d73fba3ff954",
+      "actual": "a8fbd06d5f17681d44e62dafa16d7dac868fb2e7d348a5a987f4d73fba3ff954",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/business-availability.js",
+      "status": 200,
+      "expected": "ff5502cc647729970950d5ad4be3f62de01af310a421e58cd3785cfe47281074",
+      "actual": "ff5502cc647729970950d5ad4be3f62de01af310a421e58cd3785cfe47281074",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/charity-household-ui.js",
+      "status": 200,
+      "expected": "ce064b064b80d7afabb4ecea7e9eeea07a186e5a561b5ecdabb80f06f38fbabb",
+      "actual": "ce064b064b80d7afabb4ecea7e9eeea07a186e5a561b5ecdabb80f06f38fbabb",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/charity-household.js",
+      "status": 200,
+      "expected": "6c480d4fb539e747ff520da86d4453e24addbcfd77e65c788bf068183a58f984",
+      "actual": "6c480d4fb539e747ff520da86d4453e24addbcfd77e65c788bf068183a58f984",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/character-home.js",
+      "status": 200,
+      "expected": "29add3243b650fb3183f9965df6b707774ea1938f2ce06e5cb29d9ac73f43641",
+      "actual": "29add3243b650fb3183f9965df6b707774ea1938f2ce06e5cb29d9ac73f43641",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/charity-service-ui.js",
+      "status": 200,
+      "expected": "e03efd78c6286338615bb661d1af7a5e1315759935f06a399f12201010a04e79",
+      "actual": "e03efd78c6286338615bb661d1af7a5e1315759935f06a399f12201010a04e79",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/charity-visitors.js",
+      "status": 200,
+      "expected": "9d74f3a5aa63dc2e3717c6147266e92977885300f555fdc2e801b7c39bf25810",
+      "actual": "9d74f3a5aa63dc2e3717c6147266e92977885300f555fdc2e801b7c39bf25810",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/cherished-shop-ui.js",
+      "status": 200,
+      "expected": "86bc10f786348ee8b53e758dd9ec7b201bbaa2fcf3c743635a8492a2ca538878",
+      "actual": "86bc10f786348ee8b53e758dd9ec7b201bbaa2fcf3c743635a8492a2ca538878",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/cherished-touch.js",
+      "status": 200,
+      "expected": "179d906b3cb54e9dbd03cbff1c2014694969568f12f9c065f3282a5ccd46f83e",
+      "actual": "179d906b3cb54e9dbd03cbff1c2014694969568f12f9c065f3282a5ccd46f83e",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/charity.js",
+      "status": 200,
+      "expected": "2e6901625071b56809f3775debaec4cfaf28cd8dc3feef085b42b0ea17c2a0f6",
+      "actual": "2e6901625071b56809f3775debaec4cfaf28cd8dc3feef085b42b0ea17c2a0f6",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/charity-service.js",
+      "status": 200,
+      "expected": "b2cc409090a69da99ba6cd9b3e516ccdcfdf08985c0f50e3f69c4e8b1e401d63",
+      "actual": "b2cc409090a69da99ba6cd9b3e516ccdcfdf08985c0f50e3f69c4e8b1e401d63",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/cursed-exposure.js",
+      "status": 200,
+      "expected": "a7489db4f890cecd79664ccaa67d3f934b742ab5f567c600902dc0f28dd8e39e",
+      "actual": "a7489db4f890cecd79664ccaa67d3f934b742ab5f567c600902dc0f28dd8e39e",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/cherished-art.js",
+      "status": 200,
+      "expected": "b4f3c8f976f26bd3a4f1e5b3c427020babcdcc54f773f1f8c0e93af0f96da961",
+      "actual": "b4f3c8f976f26bd3a4f1e5b3c427020babcdcc54f773f1f8c0e93af0f96da961",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/cherished-shop.js",
+      "status": 200,
+      "expected": "c3051d9e4bdac3dc38d31f8c5247df5d01a54e727777fd011e6f71e67bb622f2",
+      "actual": "c3051d9e4bdac3dc38d31f8c5247df5d01a54e727777fd011e6f71e67bb622f2",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/conversation-continuity.js",
+      "status": 200,
+      "expected": "a1ff0dddbb231b05df833e79e5d532bc49c16109ccb169069b52befcd6efccb4",
+      "actual": "a1ff0dddbb231b05df833e79e5d532bc49c16109ccb169069b52befcd6efccb4",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/dart.js",
+      "status": 200,
+      "expected": "41da2e3606df78840f1422ef661f3b9ac1bac192f2fe2f6e7edb41d7244f487f",
+      "actual": "41da2e3606df78840f1422ef661f3b9ac1bac192f2fe2f6e7edb41d7244f487f",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/cherished-touch-ui.js",
+      "status": 200,
+      "expected": "27e43e805ef3c05de63dc741764bd115b9faf78226193095111b44c0d09e2264",
+      "actual": "27e43e805ef3c05de63dc741764bd115b9faf78226193095111b44c0d09e2264",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/dialogue-intents.js",
+      "status": 200,
+      "expected": "337032b83abcb0ea5e5e66fbd9ae877c2196d9f0e7ca6dffce88aa32546341d7",
+      "actual": "337032b83abcb0ea5e5e66fbd9ae877c2196d9f0e7ca6dffce88aa32546341d7",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/department-ui.js",
+      "status": 200,
+      "expected": "3470d5841180668d0202b79ee6560376dfe60067f905da89e522c8e69181f0b2",
+      "actual": "3470d5841180668d0202b79ee6560376dfe60067f905da89e522c8e69181f0b2",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/dating-readiness.js",
+      "status": 200,
+      "expected": "afee60d9625f65d769c2c58c6153ece7f6286b4cb0a686bac509f68f4edb2182",
+      "actual": "afee60d9625f65d769c2c58c6153ece7f6286b4cb0a686bac509f68f4edb2182",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/enchanted-effects.js",
+      "status": 200,
+      "expected": "b89fdbe729b6ce8fbf163585c8f23a05a5dcbf4095df045ef4a86af7985931d6",
+      "actual": "b89fdbe729b6ce8fbf163585c8f23a05a5dcbf4095df045ef4a86af7985931d6",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/department.js",
+      "status": 200,
+      "expected": "1982e61b719d6171e758374593672df7cd358909c745b09f2afb645338082e2f",
+      "actual": "1982e61b719d6171e758374593672df7cd358909c745b09f2afb645338082e2f",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/easter-egg-ui.js",
+      "status": 200,
+      "expected": "11c95f6d76f2811517cbe79f3bbfc6a1ffb48e3b6af447277111afd7ca51fd61",
+      "actual": "11c95f6d76f2811517cbe79f3bbfc6a1ffb48e3b6af447277111afd7ca51fd61",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/equipment-ui.js",
+      "status": 200,
+      "expected": "db4101c0864854b117411b9de5321bc8d6dd7648b41b41ae9326cd3604baa169",
+      "actual": "db4101c0864854b117411b9de5321bc8d6dd7648b41b41ae9326cd3604baa169",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/easter-egg.js",
+      "status": 200,
+      "expected": "5fbc817fa64f0c944f2bbcf8c10a5b5febcdf36506a425a8c0a8b0cdf0223af0",
+      "actual": "5fbc817fa64f0c944f2bbcf8c10a5b5febcdf36506a425a8c0a8b0cdf0223af0",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/encounter-arousal.js",
+      "status": 200,
+      "expected": "738eec511447582d19b69845889226799492eb39e44d4faf3eaddab2ac84f44e",
+      "actual": "738eec511447582d19b69845889226799492eb39e44d4faf3eaddab2ac84f44e",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/erin-activities-ui.js",
+      "status": 200,
+      "expected": "88bf6045b3c21c1f943ff577c93208b1498c16367800baca0326a6d5187981cc",
+      "actual": "88bf6045b3c21c1f943ff577c93208b1498c16367800baca0326a6d5187981cc",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/equipment-regions.js",
+      "status": 200,
+      "expected": "ae125bebc53aba83c95a5b3e4572cd121851aee8278cea084a7129c88d47c6a8",
+      "actual": "ae125bebc53aba83c95a5b3e4572cd121851aee8278cea084a7129c88d47c6a8",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/erin-activities.js",
+      "status": 200,
+      "expected": "90a4f066c62c3b29b1500151f3c40cbb4fee2b997f603fca6d4ad35d9871d696",
+      "actual": "90a4f066c62c3b29b1500151f3c40cbb4fee2b997f603fca6d4ad35d9871d696",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/encounter-continuity.js",
+      "status": 200,
+      "expected": "e72b87a2e59c781b8e435fd7b3b1e78bfd5ea6ef94e7572a0eb55cd0f5ef3925",
+      "actual": "e72b87a2e59c781b8e435fd7b3b1e78bfd5ea6ef94e7572a0eb55cd0f5ef3925",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/erin-household-data.js",
+      "status": 200,
+      "expected": "8f6a48256a8bf1b0420c3dc3bbfa282937228641771807d51b3947874145e83e",
+      "actual": "8f6a48256a8bf1b0420c3dc3bbfa282937228641771807d51b3947874145e83e",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/erin-daily.js",
+      "status": 200,
+      "expected": "b1dfd22c2fc16ff0392d06a78e74c7547bd97e6cc8b618c8746db2f9f651c2ab",
+      "actual": "b1dfd22c2fc16ff0392d06a78e74c7547bd97e6cc8b618c8746db2f9f651c2ab",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/erin-life-ui.js",
+      "status": 200,
+      "expected": "3ee2b9b9a0e964c312e803b751c04006d2717b153468d3d52c1d9a52370bda89",
+      "actual": "3ee2b9b9a0e964c312e803b751c04006d2717b153468d3d52c1d9a52370bda89",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/erin-household.js",
+      "status": 200,
+      "expected": "79215ef70256dc46bbe097bc2a714278904071a5705cfe76c5e71b4cf0a650bd",
+      "actual": "79215ef70256dc46bbe097bc2a714278904071a5705cfe76c5e71b4cf0a650bd",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/erin-office-ui.js",
+      "status": 200,
+      "expected": "50efe0deabd40f10734c0cb811e59d81a4f1ea951c21ff0af4adecb58e742260",
+      "actual": "50efe0deabd40f10734c0cb811e59d81a4f1ea951c21ff0af4adecb58e742260",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/erin-life.js",
+      "status": 200,
+      "expected": "4800aa9feb541de60ec435694eca15b6a8b33cd807bc62ccbbea08dd95088bdf",
+      "actual": "4800aa9feb541de60ec435694eca15b6a8b33cd807bc62ccbbea08dd95088bdf",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/erin-office.js",
+      "status": 200,
+      "expected": "1f852cb3fa708a51e385b6240cbffca142cfd8aa5dfb517c89067e73eb414af6",
+      "actual": "1f852cb3fa708a51e385b6240cbffca142cfd8aa5dfb517c89067e73eb414af6",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/erin-ui.js",
+      "status": 200,
+      "expected": "5fed190c71c2a7b72fbd5b3033bc7adf6c07c70cb3e7dbd3899f717d76624257",
+      "actual": "5fed190c71c2a7b72fbd5b3033bc7adf6c07c70cb3e7dbd3899f717d76624257",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/erin-restoration.js",
+      "status": 200,
+      "expected": "e5fdcd4f2f0f849713edee26e9658e55c8bb724312b20b8ccaaefeaf06dfa383",
+      "actual": "e5fdcd4f2f0f849713edee26e9658e55c8bb724312b20b8ccaaefeaf06dfa383",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/feed-position.js",
+      "status": 200,
+      "expected": "094a2fa1fdb81868b8e4c65edb6f77649706c7011329c0b4777d66e23b2c3e55",
+      "actual": "094a2fa1fdb81868b8e4c65edb6f77649706c7011329c0b4777d66e23b2c3e55",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/erin-work.js",
+      "status": 200,
+      "expected": "8391a9d02d3a9ae5f67507d07fab98484e96a14f63250bdb4cf2d7fa6c42ad7d",
+      "actual": "8391a9d02d3a9ae5f67507d07fab98484e96a14f63250bdb4cf2d7fa6c42ad7d",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/flats-story.js",
+      "status": 200,
+      "expected": "c5d71af00da3e00b01550eb0df8c05a7b260e001c968d704991616b10d749b8a",
+      "actual": "c5d71af00da3e00b01550eb0df8c05a7b260e001c968d704991616b10d749b8a",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/fluid-contact-lexicon.js",
+      "status": 200,
+      "expected": "6ba44d33e6ea89a838325eb94133314e53d7301121696831e8c88006489cf0ca",
+      "actual": "6ba44d33e6ea89a838325eb94133314e53d7301121696831e8c88006489cf0ca",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/flats-portraits.js",
+      "status": 200,
+      "expected": "8d352d23086d682436ef0b40e47d8d8e3133dd26a22be6f858cea953a8bdf451",
+      "actual": "8d352d23086d682436ef0b40e47d8d8e3133dd26a22be6f858cea953a8bdf451",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/fluid-contact-ui.js",
+      "status": 200,
+      "expected": "66a900d3c12f0d2bec490d0e96b03349cca65b5e6faa297c97df7b7b8489483c",
+      "actual": "66a900d3c12f0d2bec490d0e96b03349cca65b5e6faa297c97df7b7b8489483c",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/fluid-contact.js",
+      "status": 200,
+      "expected": "72fdf89380cdbbf7799dd36a977ae16c7ebe0418a4493ddac348b44d962a57c7",
+      "actual": "72fdf89380cdbbf7799dd36a977ae16c7ebe0418a4493ddac348b44d962a57c7",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/footwear-senses.js",
+      "status": 200,
+      "expected": "5b9a813d5deb7030e13f42d27425e3aa97b1033406275c600fe18c723174fff0",
+      "actual": "5b9a813d5deb7030e13f42d27425e3aa97b1033406275c600fe18c723174fff0",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/form-minds-ui.js",
+      "status": 200,
+      "expected": "92ebdc4d687b43a623ba997cedfca32360a9f4d4f03274634c2b949d74ffedca",
+      "actual": "92ebdc4d687b43a623ba997cedfca32360a9f4d4f03274634c2b949d74ffedca",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/form-living.js",
+      "status": 200,
+      "expected": "e7e3e4e584d6eb4f978799e1759f805d0c0906b73b1f5e2d5419d2d6b2e9ff1c",
+      "actual": "e7e3e4e584d6eb4f978799e1759f805d0c0906b73b1f5e2d5419d2d6b2e9ff1c",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/gum-effects.js",
+      "status": 200,
+      "expected": "7c333ca6ed3747ea364065abd7c8816ad8501fa4d699497b4196791d192a4ec4",
+      "actual": "7c333ca6ed3747ea364065abd7c8816ad8501fa4d699497b4196791d192a4ec4",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/household-ambience.js",
+      "status": 200,
+      "expected": "7ced7985f86540060233c140280bf1b935ca193ced5d72176f260517fb7dd9ff",
+      "actual": "7ced7985f86540060233c140280bf1b935ca193ced5d72176f260517fb7dd9ff",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/form-storage.js",
+      "status": 200,
+      "expected": "f5f0274463d3fc1d2dc3e5214045d6dff7613104c158f60a07544c072e70ff50",
+      "actual": "f5f0274463d3fc1d2dc3e5214045d6dff7613104c158f60a07544c072e70ff50",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/heard-accounts.js",
+      "status": 200,
+      "expected": "d826df373159ab7517c352579645944e2ee8c2615937450f2538ac2385554091",
+      "actual": "d826df373159ab7517c352579645944e2ee8c2615937450f2538ac2385554091",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/hangry-fangs.js",
+      "status": 200,
+      "expected": "90d8db26ed5702c7ff59fe5ca04d0479d60a7b546f0e3bda63790040651e07fe",
+      "actual": "90d8db26ed5702c7ff59fe5ca04d0479d60a7b546f0e3bda63790040651e07fe",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/form-minds.js",
+      "status": 200,
+      "expected": "d1926e6abc37cbcd9772083c5a0c14c3b8795c9fcb9cc0b1b4afb5f2772351d3",
+      "actual": "d1926e6abc37cbcd9772083c5a0c14c3b8795c9fcb9cc0b1b4afb5f2772351d3",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/household-prices.js",
+      "status": 200,
+      "expected": "2ce8cfd4e2d8c9f55aba113fbcd082bbb0bd55a7cc435ddf35b88fdacb2d7369",
+      "actual": "2ce8cfd4e2d8c9f55aba113fbcd082bbb0bd55a7cc435ddf35b88fdacb2d7369",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/hub-art.js",
+      "status": 200,
+      "expected": "e4738dbc047117a1441cb5dfbed0b1b489d8213439fa1dbd936fbcb4a562141e",
+      "actual": "e4738dbc047117a1441cb5dfbed0b1b489d8213439fa1dbd936fbcb4a562141e",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/internal-mastery.js",
+      "status": 200,
+      "expected": "932dc909f9d5623cc596700750209b58dd2186ad1e930fee289c580dc9ffce4b",
+      "actual": "932dc909f9d5623cc596700750209b58dd2186ad1e930fee289c580dc9ffce4b",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/interaction-state.js",
+      "status": 200,
+      "expected": "bec35f1e42197c6874a5c3af0c605197a25c2f7babfaa639b3a50577a3bfd2bd",
+      "actual": "bec35f1e42197c6874a5c3af0c605197a25c2f7babfaa639b3a50577a3bfd2bd",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/hub-world.js",
+      "status": 200,
+      "expected": "f4aa0ba221e1b4c9bdf70aa616be664fa0f4c9a1741e1570d0172741fadabd52",
+      "actual": "f4aa0ba221e1b4c9bdf70aa616be664fa0f4c9a1741e1570d0172741fadabd52",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/intimacy.js",
+      "status": 200,
+      "expected": "2d0dca19e2de4daf8c7ee1e1d4dc299234f469053eb23271f6616f7c83bc1ee7",
+      "actual": "2d0dca19e2de4daf8c7ee1e1d4dc299234f469053eb23271f6616f7c83bc1ee7",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/form-body.js",
+      "status": 200,
+      "expected": "5b0ad0f4d6ed9843559399bffbd4f7779933effe22dd1b58425099fbaa928df7",
+      "actual": "5b0ad0f4d6ed9843559399bffbd4f7779933effe22dd1b58425099fbaa928df7",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/intimate-encounter.js",
+      "status": 200,
+      "expected": "a7dcbb259d2a656f5ab9e280268b924aab65d421d29eca94697a4f19455b9a6c",
+      "actual": "a7dcbb259d2a656f5ab9e280268b924aab65d421d29eca94697a4f19455b9a6c",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/intimate-encounter-ui.js",
+      "status": 200,
+      "expected": "029883ec65250f247015d4c9ea9abddd944555e9f7179a490e85e1daf1ad6f46",
+      "actual": "029883ec65250f247015d4c9ea9abddd944555e9f7179a490e85e1daf1ad6f46",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/kissing-ui.js",
+      "status": 200,
+      "expected": "e2bcf8aba3c6a80acbc4ac5685f56e36c440bc0263ed60b0ece1a96ccaa35747",
+      "actual": "e2bcf8aba3c6a80acbc4ac5685f56e36c440bc0263ed60b0ece1a96ccaa35747",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/kissing.js",
+      "status": 200,
+      "expected": "195a8d44bcad4ffda5b27d075880b295f07451c4565bdd33188633fc7b28d9c6",
+      "actual": "195a8d44bcad4ffda5b27d075880b295f07451c4565bdd33188633fc7b28d9c6",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/kissing-types.js",
+      "status": 200,
+      "expected": "87334be90831f648468875bfd6cd264176c35cce28c7d59328e1285ed5a4cb79",
+      "actual": "87334be90831f648468875bfd6cd264176c35cce28c7d59328e1285ed5a4cb79",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/kibbles-behavior.js",
+      "status": 200,
+      "expected": "7c528b06989fe0e4b74441fa67bb98e99c4919a90c6f608a7ee7d9367d848834",
+      "actual": "7c528b06989fe0e4b74441fa67bb98e99c4919a90c6f608a7ee7d9367d848834",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/language-actions.js",
+      "status": 200,
+      "expected": "ae098d79319391805fc1aad9c90057f78937c77ff939bc003de12c8207d89cd2",
+      "actual": "ae098d79319391805fc1aad9c90057f78937c77ff939bc003de12c8207d89cd2",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/legacy-0884-data.js",
+      "status": 200,
+      "expected": "158eceb08f30fc1aa567e56cf7d7e71f602fd2ff1c2f4f7f6512fa6ffcacc0a3",
+      "actual": "158eceb08f30fc1aa567e56cf7d7e71f602fd2ff1c2f4f7f6512fa6ffcacc0a3",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/language-actions-ui.js",
+      "status": 200,
+      "expected": "e8afeb19f302bb916450efb0f5de86423fcf498d4f6e1fad92710f07206fde37",
+      "actual": "e8afeb19f302bb916450efb0f5de86423fcf498d4f6e1fad92710f07206fde37",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/lip-cosmetics-ui.js",
+      "status": 200,
+      "expected": "974d78263c3b946bfe87b9dcc76f056e1ad4f5aab2970717a6d40db411912b3d",
+      "actual": "974d78263c3b946bfe87b9dcc76f056e1ad4f5aab2970717a6d40db411912b3d",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/legacy-autonomy.js",
+      "status": 200,
+      "expected": "808f0536f7f09f6c4e645b6e09c391dd39eff8bd3e3d5d8b74a4eb6b3b17d34d",
+      "actual": "808f0536f7f09f6c4e645b6e09c391dd39eff8bd3e3d5d8b74a4eb6b3b17d34d",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/lip-cosmetics.js",
+      "status": 200,
+      "expected": "ef0c1534a32658a3533a3b6bae0614c2561e780e9a833e58d60c3e958c3d0f6d",
+      "actual": "ef0c1534a32658a3533a3b6bae0614c2561e780e9a833e58d60c3e958c3d0f6d",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/index.html",
+      "status": 200,
+      "expected": "eed9cbd0490d2ce7450c1dcadee10c2736d74de93e89d712d64a66ad7d2e6b7e",
+      "actual": "eed9cbd0490d2ce7450c1dcadee10c2736d74de93e89d712d64a66ad7d2e6b7e",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/live-time-ui.js",
+      "status": 200,
+      "expected": "e8fa0c37e0125c9c6c2ccb7636b56abc2ab93a86a8fc1dc10eb760e59084aa05",
+      "actual": "e8fa0c37e0125c9c6c2ccb7636b56abc2ab93a86a8fc1dc10eb760e59084aa05",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/location-details-ui.js",
+      "status": 200,
+      "expected": "65d6b327dd0cc485997ea5e99b76b05686fd4bc40bf2b2a5c47def393a2e7e41",
+      "actual": "65d6b327dd0cc485997ea5e99b76b05686fd4bc40bf2b2a5c47def393a2e7e41",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/live-time.js",
+      "status": 200,
+      "expected": "4b1305726841b6c06b7fcf398307bd47d2b4ef053616325812575444e6756258",
+      "actual": "4b1305726841b6c06b7fcf398307bd47d2b4ef053616325812575444e6756258",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/location-context.js",
+      "status": 200,
+      "expected": "fdf7a30071646a88c801594fe33fe0dcc9d7f9ad98acf65f2405fb6501cab8d9",
+      "actual": "fdf7a30071646a88c801594fe33fe0dcc9d7f9ad98acf65f2405fb6501cab8d9",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/marketing-ui.js",
+      "status": 200,
+      "expected": "676b8fe916a5f593e10cf713926923610e9485b251b20204d348f7a78be1cf0e",
+      "actual": "676b8fe916a5f593e10cf713926923610e9485b251b20204d348f7a78be1cf0e",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/marketing.js",
+      "status": 200,
+      "expected": "33e059e63557eba2388fbdda5c66e7b7cef069f33da2941a7c8072089d558414",
+      "actual": "33e059e63557eba2388fbdda5c66e7b7cef069f33da2941a7c8072089d558414",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/location-details.css",
+      "status": 200,
+      "expected": "88358bc8d84d41781a1aede842cc45985d0bda7cee20a2a95b8c49994c718f11",
+      "actual": "88358bc8d84d41781a1aede842cc45985d0bda7cee20a2a95b8c49994c718f11",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/nadia-daily.js",
+      "status": 200,
+      "expected": "d31d5de1a3802087efba3e497ab3f726924673c59f73d2490c6133ef22ab140f",
+      "actual": "d31d5de1a3802087efba3e497ab3f726924673c59f73d2490c6133ef22ab140f",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/nadia-activities.js",
+      "status": 200,
+      "expected": "ebfcb6b9a19593fd0004d424045b0dc44f2df7e084662f4396200df4b7be89c6",
+      "actual": "ebfcb6b9a19593fd0004d424045b0dc44f2df7e084662f4396200df4b7be89c6",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/location-details.js",
+      "status": 200,
+      "expected": "401f5bb76505b5cf9de4c2194ca1b6127d91ba86b441bb4d72bc83cf000cd791",
+      "actual": "401f5bb76505b5cf9de4c2194ca1b6127d91ba86b441bb4d72bc83cf000cd791",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/nadia-guests.js",
+      "status": 200,
+      "expected": "68bbd970de29c0b1ea48856559424c8418a9c856936863ba7a66175d2b3439ca",
+      "actual": "68bbd970de29c0b1ea48856559424c8418a9c856936863ba7a66175d2b3439ca",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/nadia-home-ui.js",
+      "status": 200,
+      "expected": "66fd54a8f45202fb2ccf9efcecbf7330b7505f73849629d4ad94fa3ab082b6d5",
+      "actual": "66fd54a8f45202fb2ccf9efcecbf7330b7505f73849629d4ad94fa3ab082b6d5",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/narration-grounding.js",
+      "status": 200,
+      "expected": "60bef7e9e75fcdd5067878fa219d7d99e41c8d3d29a779af4a1bfabdd26289d6",
+      "actual": "60bef7e9e75fcdd5067878fa219d7d99e41c8d3d29a779af4a1bfabdd26289d6",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/nadia-home-data.js",
+      "status": 200,
+      "expected": "e00bd1c87783882b633d5b2ad937ec22cb214f3de6667d7a454d64badd79b79b",
+      "actual": "e00bd1c87783882b633d5b2ad937ec22cb214f3de6667d7a454d64badd79b79b",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/navigation-runtime.js",
+      "status": 200,
+      "expected": "e1309b344226116cbb4815b72999be211d84a4a13cbf310f434482e584b25200",
+      "actual": "e1309b344226116cbb4815b72999be211d84a4a13cbf310f434482e584b25200",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/navigation-v1.0.66.css",
+      "status": 200,
+      "expected": "57ccde7a6e1c50b4993773dfef0e0f82e6b90437b0827efbb0258076dd775109",
+      "actual": "57ccde7a6e1c50b4993773dfef0e0f82e6b90437b0827efbb0258076dd775109",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/navigation-ui.js",
+      "status": 200,
+      "expected": "a572f0f834e79f8355d209c85ad48867bd9439930e0c594466e591a03b947729",
+      "actual": "a572f0f834e79f8355d209c85ad48867bd9439930e0c594466e591a03b947729",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/nadia-household.js",
+      "status": 200,
+      "expected": "b84f28a5d408303760fa067e2c004aa571bfb88d1d908507db6650eb39112414",
+      "actual": "b84f28a5d408303760fa067e2c004aa571bfb88d1d908507db6650eb39112414",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/navigation.js",
+      "status": 200,
+      "expected": "448edcf38a156ab1521e0944154a8b6f4a5f08268a3888034de0cdc955d456ad",
+      "actual": "448edcf38a156ab1521e0944154a8b6f4a5f08268a3888034de0cdc955d456ad",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/needs-consequences.js",
+      "status": 200,
+      "expected": "4d286013f748e6923fd7ce8ca7c49d5ce88789d94e9abe4b9c7e2a8582d81a26",
+      "actual": "4d286013f748e6923fd7ce8ca7c49d5ce88789d94e9abe4b9c7e2a8582d81a26",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/npc-needs.js",
+      "status": 200,
+      "expected": "2ffb419b2235955e13215dcd437305bc8547240d41963794fb8f32b80c4022a8",
+      "actual": "2ffb419b2235955e13215dcd437305bc8547240d41963794fb8f32b80c4022a8",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/npc-travel.js",
+      "status": 200,
+      "expected": "e46079e5837fca0674ec43b866337f01a861f8464ca6804caaa5ec648ac843af",
+      "actual": "e46079e5837fca0674ec43b866337f01a861f8464ca6804caaa5ec648ac843af",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/owner-income.js",
+      "status": 200,
+      "expected": "677843fa8e23651e6292e4f613427a2550f08a4278c91af5f9407ed8b153f20b",
+      "actual": "677843fa8e23651e6292e4f613427a2550f08a4278c91af5f9407ed8b153f20b",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/office-floor.js",
+      "status": 200,
+      "expected": "a50296a2617ee0fc41ab5bfc184df8bc9b8b59063e2d58bb7f3e49ed45659faf",
+      "actual": "a50296a2617ee0fc41ab5bfc184df8bc9b8b59063e2d58bb7f3e49ed45659faf",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/personal-mail-ui.js",
+      "status": 200,
+      "expected": "19b4a981cfe9cb47a2a53b849d786545e03c27ecad775a791dc791cac5d5b061",
+      "actual": "19b4a981cfe9cb47a2a53b849d786545e03c27ecad775a791dc791cac5d5b061",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/personal-mail.js",
+      "status": 200,
+      "expected": "465edd69c9beabe0aebdddf5001e653ef02ea83501c87250786638e579f868b5",
+      "actual": "465edd69c9beabe0aebdddf5001e653ef02ea83501c87250786638e579f868b5",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/perspiration.js",
+      "status": 200,
+      "expected": "c8c3e1325f447e09a55ca73c799c4537c0da1dd70ffcdfd72316274b16847f03",
+      "actual": "c8c3e1325f447e09a55ca73c799c4537c0da1dd70ffcdfd72316274b16847f03",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/office-floor-ui.js",
+      "status": 200,
+      "expected": "7ccec10afb7150ff0a4106fc04ec7e46fa25757ac6c9308eb309e8ef16bbffdc",
+      "actual": "7ccec10afb7150ff0a4106fc04ec7e46fa25757ac6c9308eb309e8ef16bbffdc",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/player-feed.js",
+      "status": 200,
+      "expected": "c3c1193413648f0bc5ce4f15681c31cce8ab1d6f470cf096cab44e841b5b6ff8",
+      "actual": "c3c1193413648f0bc5ce4f15681c31cce8ab1d6f470cf096cab44e841b5b6ff8",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/player-clothing.js",
+      "status": 200,
+      "expected": "a46d0549c8f67fee9791cec4ffec34bf3a8f0384520bd52ebf9e360b6de7260a",
+      "actual": "a46d0549c8f67fee9791cec4ffec34bf3a8f0384520bd52ebf9e360b6de7260a",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/player-guide-ui.js",
+      "status": 200,
+      "expected": "b88e5117bb77da98a880a6bd19c1a7689d4cc59f352ef47dae9d7834dee1b976",
+      "actual": "b88e5117bb77da98a880a6bd19c1a7689d4cc59f352ef47dae9d7834dee1b976",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/private-encounter.js",
+      "status": 200,
+      "expected": "3b43b42797e0c2944e81b87ee7e2e89444c664ccce3e48ed9308c2f67b9e25d0",
+      "actual": "3b43b42797e0c2944e81b87ee7e2e89444c664ccce3e48ed9308c2f67b9e25d0",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/priya-cat.js",
+      "status": 200,
+      "expected": "6f68446869b85b5cab3895da2bd5b45650caf0df80fe529b1aa17ef4a0014565",
+      "actual": "6f68446869b85b5cab3895da2bd5b45650caf0df80fe529b1aa17ef4a0014565",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/priya-cat-ui.js",
+      "status": 200,
+      "expected": "e40e9027d9de388c8bb0033562e02154a77a0b302845b078bd2dba6c02e96642",
+      "actual": "e40e9027d9de388c8bb0033562e02154a77a0b302845b078bd2dba6c02e96642",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/player-guide.js",
+      "status": 200,
+      "expected": "80608901b77194db3da46f9d5d2c74ef150d27488077abff883f3769a0fe79a5",
+      "actual": "80608901b77194db3da46f9d5d2c74ef150d27488077abff883f3769a0fe79a5",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/private-encounter-ui.js",
+      "status": 200,
+      "expected": "7e2da178bebfe42ebfce51f554eaaa97be56f37e985984dc60435283bce4cabd",
+      "actual": "7e2da178bebfe42ebfce51f554eaaa97be56f37e985984dc60435283bce4cabd",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/priya-daily-ui.js",
+      "status": 200,
+      "expected": "06163c30bb870abe58f427851ce5b869a2eb7783f7281efc4e9b78834f63dcfc",
+      "actual": "06163c30bb870abe58f427851ce5b869a2eb7783f7281efc4e9b78834f63dcfc",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/priya-flats.js",
+      "status": 200,
+      "expected": "a34a284dcc40d2240671b61497c06fa9c545f1a0213ee7c14cab68c400e31b8f",
+      "actual": "a34a284dcc40d2240671b61497c06fa9c545f1a0213ee7c14cab68c400e31b8f",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/priya-home.js",
+      "status": 200,
+      "expected": "bfd6998d759d7d2ad35214e83eb0403fa4878c9f79d0a12797ff6a078607d0af",
+      "actual": "bfd6998d759d7d2ad35214e83eb0403fa4878c9f79d0a12797ff6a078607d0af",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/priya-flats-ui.js",
+      "status": 200,
+      "expected": "43037211e3d34f2ce9b95614661539168dfec818b08b06eeb6dd29adaa2340a2",
+      "actual": "43037211e3d34f2ce9b95614661539168dfec818b08b06eeb6dd29adaa2340a2",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/priya-home-navigation.js",
+      "status": 200,
+      "expected": "045e18852e40468b612a0d2b00f80cb8c35059ddb56e5b0494ba41f2db976c60",
+      "actual": "045e18852e40468b612a0d2b00f80cb8c35059ddb56e5b0494ba41f2db976c60",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/priya-daily.js",
+      "status": 200,
+      "expected": "ee0d99b98bf39a751bc1093e44ceb4bb2a9ebe6bc8c1f5833077f813d658d3fc",
+      "actual": "ee0d99b98bf39a751bc1093e44ceb4bb2a9ebe6bc8c1f5833077f813d658d3fc",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/priya-household.js",
+      "status": 200,
+      "expected": "fb70b2405170b40b4a4c2b2eb1c2d9478bd7edcd8f622ac8587770a357be8bda",
+      "actual": "fb70b2405170b40b4a4c2b2eb1c2d9478bd7edcd8f622ac8587770a357be8bda",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/priya-household-ui.js",
+      "status": 200,
+      "expected": "476f2be77fa901bf3741baf5f96d9d09e6dec3456757812988a079bdc1f7f9ac",
+      "actual": "476f2be77fa901bf3741baf5f96d9d09e6dec3456757812988a079bdc1f7f9ac",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/priya-ui.js",
+      "status": 200,
+      "expected": "f477de4ac9074799d1f126ebed07a07bea266b7249435690ef18f68a197016a2",
+      "actual": "f477de4ac9074799d1f126ebed07a07bea266b7249435690ef18f68a197016a2",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/priya.js",
+      "status": 200,
+      "expected": "58afc207ca4aba0a53d92daa73bb771cca4bac509d50804526a9bfb95bbba00b",
+      "actual": "58afc207ca4aba0a53d92daa73bb771cca4bac509d50804526a9bfb95bbba00b",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/relationship-interactions-ui.js",
+      "status": 200,
+      "expected": "a24d34404321c443acf579303100b7dfb120679c6e33ec0ce797f609e464d5ce",
+      "actual": "a24d34404321c443acf579303100b7dfb120679c6e33ec0ce797f609e464d5ce",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/relationship-interactions.js",
+      "status": 200,
+      "expected": "c981305a3b329a2a32b591a07afdd9734fe486d53d0c705339d5f960a76a6ee7",
+      "actual": "c981305a3b329a2a32b591a07afdd9734fe486d53d0c705339d5f960a76a6ee7",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/reading-library.js",
+      "status": 200,
+      "expected": "10cc2ae1435c251ccb95f0b313fa78d64cbce8449c363c557dbcd1b68d0b656a",
+      "actual": "10cc2ae1435c251ccb95f0b313fa78d64cbce8449c363c557dbcd1b68d0b656a",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/relationship-ui.js",
+      "status": 200,
+      "expected": "2d4a1273a1defa7e34d810dae191ecf6ab61a87d54c01cda5188d90cd82e60dd",
+      "actual": "2d4a1273a1defa7e34d810dae191ecf6ab61a87d54c01cda5188d90cd82e60dd",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/relationships.js",
+      "status": 200,
+      "expected": "a08d25f7fd785744085509313d0f7ae67abd938d8b679a263ffb3d36e05c35c0",
+      "actual": "a08d25f7fd785744085509313d0f7ae67abd938d8b679a263ffb3d36e05c35c0",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/richard-home-data.js",
+      "status": 200,
+      "expected": "919bd7a076232223b89681476b1ce9d202f998ffc2bc62e95631625577d63ef0",
+      "actual": "919bd7a076232223b89681476b1ce9d202f998ffc2bc62e95631625577d63ef0",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/richard-daily.js",
+      "status": 200,
+      "expected": "26580dca8bbd103f3dc189a7f78d3c131ec2d74d4b28d3c1c27134e6a2c187e1",
+      "actual": "26580dca8bbd103f3dc189a7f78d3c131ec2d74d4b28d3c1c27134e6a2c187e1",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/richard-home-ui.js",
+      "status": 200,
+      "expected": "cbd9f9882dcba9d438ab1475af9310b598e3aa8e2ef5d71b2932d8bae0ca2650",
+      "actual": "cbd9f9882dcba9d438ab1475af9310b598e3aa8e2ef5d71b2932d8bae0ca2650",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/richard-office.js",
+      "status": 200,
+      "expected": "0aa75bc6f05d4e9f233a7e50d1b9b0b7521ad814e36cb09e8dff874231a319b3",
+      "actual": "0aa75bc6f05d4e9f233a7e50d1b9b0b7521ad814e36cb09e8dff874231a319b3",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/richard-home.js",
+      "status": 200,
+      "expected": "ab6f33d2e8ed062e824977301af53d3165c7984ab9073fb7eff54744078e64f9",
+      "actual": "ab6f33d2e8ed062e824977301af53d3165c7984ab9073fb7eff54744078e64f9",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/roleplay-input.js",
+      "status": 200,
+      "expected": "19b6d0ed66df892e592149ee4fd2e88aa95c01548d67e8848e88b9f6793069c2",
+      "actual": "19b6d0ed66df892e592149ee4fd2e88aa95c01548d67e8848e88b9f6793069c2",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/scene-presence.js",
+      "status": 200,
+      "expected": "efbedf341592f1436baff2cbd59111d9bb43084dcdf2af68789a37bf75d8884f",
+      "actual": "efbedf341592f1436baff2cbd59111d9bb43084dcdf2af68789a37bf75d8884f",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/room-art-ui.js",
+      "status": 200,
+      "expected": "c17e50f843d2601998ed00019f85f3f0604e9ab65228291e54a87bd5f5c99d81",
+      "actual": "c17e50f843d2601998ed00019f85f3f0604e9ab65228291e54a87bd5f5c99d81",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/served-items.js",
+      "status": 200,
+      "expected": "6815e0c068304b76990708f6950699aa8c68cec4832c8001f98b50103f081723",
+      "actual": "6815e0c068304b76990708f6950699aa8c68cec4832c8001f98b50103f081723",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/richard.js",
+      "status": 200,
+      "expected": "2b6add66b86eca99bccbf98c302adf11274ea7fa6aaf18699fab3e64ebf9425b",
+      "actual": "2b6add66b86eca99bccbf98c302adf11274ea7fa6aaf18699fab3e64ebf9425b",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/served-items-ui.js",
+      "status": 200,
+      "expected": "ccd0d0dba576f803cb6b8d320fc0de546185c9a95f3a59f54fdb68b0fad64e9c",
+      "actual": "ccd0d0dba576f803cb6b8d320fc0de546185c9a95f3a59f54fdb68b0fad64e9c",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/shared-activities-ui.js",
+      "status": 200,
+      "expected": "2527deb19581b87493e6be9c1d1711374ce40f2fd99982cd40364fba153d77d4",
+      "actual": "2527deb19581b87493e6be9c1d1711374ce40f2fd99982cd40364fba153d77d4",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/richard-ui.js",
+      "status": 200,
+      "expected": "3ff2cf1b1b3af596a8e517b51abc077dfa069dfeb814e19454863d353be9fb21",
+      "actual": "3ff2cf1b1b3af596a8e517b51abc077dfa069dfeb814e19454863d353be9fb21",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/shared-activities.js",
+      "status": 200,
+      "expected": "af2d48b7a586f061503b662cee5229318eb9b4068a61f51dd352a17c9ba5edd4",
+      "actual": "af2d48b7a586f061503b662cee5229318eb9b4068a61f51dd352a17c9ba5edd4",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/shared-home-activities.js",
+      "status": 200,
+      "expected": "685c1914bbb02d775a3ad83575cecf179ca9e03e681e8010cb227321f4dd27ea",
+      "actual": "685c1914bbb02d775a3ad83575cecf179ca9e03e681e8010cb227321f4dd27ea",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/technology-products.js",
+      "status": 200,
+      "expected": "f57c44644e5eb28e957eb67752214bf40fd0574834a31347bb6605385f29fc1e",
+      "actual": "f57c44644e5eb28e957eb67752214bf40fd0574834a31347bb6605385f29fc1e",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/social-ui.js",
+      "status": 200,
+      "expected": "7a8db97a4c5f2fd3a703f9585517b131f7ae5c13c6cbe78639d15851652271c4",
+      "actual": "7a8db97a4c5f2fd3a703f9585517b131f7ae5c13c6cbe78639d15851652271c4",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/technology-center.js",
+      "status": 200,
+      "expected": "b85da5b5aa60fcec1690401089971630b18abb16ac469f9d5252c6291653333e",
+      "actual": "b85da5b5aa60fcec1690401089971630b18abb16ac469f9d5252c6291653333e",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/sleeping-contact.js",
+      "status": 200,
+      "expected": "7a0a537a97f67b8470edf5d0003cb2e7d4b011721213ba000f87c71168294771",
+      "actual": "7a0a537a97f67b8470edf5d0003cb2e7d4b011721213ba000f87c71168294771",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/technology-center-ui.js",
+      "status": 200,
+      "expected": "cb20d6675b2d07bae5b118e4e7d4a6ddbc90e0c8eb961d901fc67bb43b1843b4",
+      "actual": "cb20d6675b2d07bae5b118e4e7d4a6ddbc90e0c8eb961d901fc67bb43b1843b4",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/tits-routine.js",
+      "status": 200,
+      "expected": "ee1b6a247d93543bfe195abb0b27a2c42b69f220242dae6b3593090115ca47fc",
+      "actual": "ee1b6a247d93543bfe195abb0b27a2c42b69f220242dae6b3593090115ca47fc",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/text-actions-ui.js",
+      "status": 200,
+      "expected": "639f50ec7cc47d5e717790eb273e8054a4da9aed9c760d59465a437d04a36fba",
+      "actual": "639f50ec7cc47d5e717790eb273e8054a4da9aed9c760d59465a437d04a36fba",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/tits-ui.js",
+      "status": 200,
+      "expected": "74e4bb361407ac171288966b46d8c507ae53b9caa3e0e1d5467c5f9a0decb260",
+      "actual": "74e4bb361407ac171288966b46d8c507ae53b9caa3e0e1d5467c5f9a0decb260",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/text-actions.js",
+      "status": 200,
+      "expected": "52463c5c9cbb5684206744a7463211fc9cbbaafb03622e385d8bb2da02ed392d",
+      "actual": "52463c5c9cbb5684206744a7463211fc9cbbaafb03622e385d8bb2da02ed392d",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/transformation-history-ui.js",
+      "status": 200,
+      "expected": "4c5b9eca9664d27301f9f4472e41be045e60867f24a781a3b30aa2f20d2ea2e7",
+      "actual": "4c5b9eca9664d27301f9f4472e41be045e60867f24a781a3b30aa2f20d2ea2e7",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/tits-return.js",
+      "status": 200,
+      "expected": "80d8b3fc9a93b803dcaace5a0d99dc9882150a0c940c22c48fc598a111e7f152",
+      "actual": "80d8b3fc9a93b803dcaace5a0d99dc9882150a0c940c22c48fc598a111e7f152",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/tits-evening.js",
+      "status": 200,
+      "expected": "5990c87576d1c0835fceb14710535c7b85f9372b0c82ca1232dfac04e2ac33e0",
+      "actual": "5990c87576d1c0835fceb14710535c7b85f9372b0c82ca1232dfac04e2ac33e0",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/tits.js",
+      "status": 200,
+      "expected": "d09b69c80c9f7d13d32dc8d0fd36c9cd581de40833746d4c89320d98ff2be181",
+      "actual": "d09b69c80c9f7d13d32dc8d0fd36c9cd581de40833746d4c89320d98ff2be181",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/transformation-history.js",
+      "status": 200,
+      "expected": "39c83a55c699bebd3d8039046ae007c27dc7503d90775364dc7e2a6e665a2353",
+      "actual": "39c83a55c699bebd3d8039046ae007c27dc7503d90775364dc7e2a6e665a2353",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/world-clock.js",
+      "status": 200,
+      "expected": "c8cb5f53dbd436c3c4d97a97b6455873d6ac75d48738771949bba7cd2d04cc7e",
+      "actual": "c8cb5f53dbd436c3c4d97a97b6455873d6ac75d48738771949bba7cd2d04cc7e",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/workplace-schedule.js",
+      "status": 200,
+      "expected": "93504e7a25c8c704f85ec8ad4df6a1897950252b286b1b4907550ae4cab5d08d",
+      "actual": "93504e7a25c8c704f85ec8ad4df6a1897950252b286b1b4907550ae4cab5d08d",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/encounter-contract.js",
+      "status": 200,
+      "expected": "51f31ec6cd3c74534d7d3c5d31be1c1c1ff2b4e562f06ee7497c0d4ff1c4a917",
+      "actual": "51f31ec6cd3c74534d7d3c5d31be1c1c1ff2b4e562f06ee7497c0d4ff1c4a917",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/work-dashboard-ui.js",
+      "status": 200,
+      "expected": "1d186f425204cdac9153a180ee33eaae820672957d95b991b51954f4d41a5ac3",
+      "actual": "1d186f425204cdac9153a180ee33eaae820672957d95b991b51954f4d41a5ac3",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/world-objects.js",
+      "status": 200,
+      "expected": "67debc26211a918e727fc4b4362a21bbdf6a068f29282ed9d8f692485faf4832",
+      "actual": "67debc26211a918e727fc4b4362a21bbdf6a068f29282ed9d8f692485faf4832",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/travel-modes.js",
+      "status": 200,
+      "expected": "9521ac5154651432b9e342f0985b3361ace2671fd86d354184088e548dc58bdf",
+      "actual": "9521ac5154651432b9e342f0985b3361ace2671fd86d354184088e548dc58bdf",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/civilian-encounter.js",
+      "status": 200,
+      "expected": "d3d13371e88cb2f0385904f75021e5f25968358f8738b4c3c44a3c7d6e49a47c",
+      "actual": "d3d13371e88cb2f0385904f75021e5f25968358f8738b4c3c44a3c7d6e49a47c",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.36.css",
+      "status": 200,
+      "expected": "cf07d81967ff6559ebb4d81a14da784dc5eb11841c13d5cbd5a454a4a4c1901c",
+      "actual": "cf07d81967ff6559ebb4d81a14da784dc5eb11841c13d5cbd5a454a4a4c1901c",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.35.js",
+      "status": 200,
+      "expected": "9d8dadb3eba611d9e32a4cf2b91bd67c2e3c3e615b6a202c2e55ec1f53578c65",
+      "actual": "9d8dadb3eba611d9e32a4cf2b91bd67c2e3c3e615b6a202c2e55ec1f53578c65",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.37.js",
+      "status": 200,
+      "expected": "83a8e47989c34f4c4eca5623cec5c05abe7eaab7268e1ff0be8961baf9bfb2d9",
+      "actual": "83a8e47989c34f4c4eca5623cec5c05abe7eaab7268e1ff0be8961baf9bfb2d9",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.35.css",
+      "status": 200,
+      "expected": "9eb9b66424155d3e88a90bfa55bbb91dfe3abcbe9b2a0337c732df146f7b0383",
+      "actual": "9eb9b66424155d3e88a90bfa55bbb91dfe3abcbe9b2a0337c732df146f7b0383",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.37.css",
+      "status": 200,
+      "expected": "266de1273a1304b9e574a233ebb1a7d9a55d7d739515a52742dad9392e43f759",
+      "actual": "266de1273a1304b9e574a233ebb1a7d9a55d7d739515a52742dad9392e43f759",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.36.js",
+      "status": 200,
+      "expected": "5a9743a9b4e530c459a7ddffa64c4a86b3553ff3a04cd3b9f60ebac4d7e841f6",
+      "actual": "5a9743a9b4e530c459a7ddffa64c4a86b3553ff3a04cd3b9f60ebac4d7e841f6",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.39.css",
+      "status": 200,
+      "expected": "09a5f094f927235581d1380c89fe2a6032143f9c914e51b2563e8b8471ccf362",
+      "actual": "09a5f094f927235581d1380c89fe2a6032143f9c914e51b2563e8b8471ccf362",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.39.js",
+      "status": 200,
+      "expected": "758a2c9d977b1dd07065750261bff8994ad1effdef273e689aa01b1773d283db",
+      "actual": "758a2c9d977b1dd07065750261bff8994ad1effdef273e689aa01b1773d283db",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.40.css",
+      "status": 200,
+      "expected": "6ff1245113943839723745ddf6d5a39616d7e798a86812e514df90678ba3b507",
+      "actual": "6ff1245113943839723745ddf6d5a39616d7e798a86812e514df90678ba3b507",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/engine.js",
+      "status": 200,
+      "expected": "19ae87dc7253930aeb8581f685c51039091100ee5fce9245891a684fc7e8e4ca",
+      "actual": "19ae87dc7253930aeb8581f685c51039091100ee5fce9245891a684fc7e8e4ca",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/entity-rules.js",
+      "status": 200,
+      "expected": "58dc8ae0f49b0aeb4934c7f715e9601b27dc2d41cc482b9aafa41b23e9964bbc",
+      "actual": "58dc8ae0f49b0aeb4934c7f715e9601b27dc2d41cc482b9aafa41b23e9964bbc",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/kibbles-ai.js",
+      "status": 200,
+      "expected": "52a9be70b2763243cfffb7daaf15cc87e15a3ae15d70dd70df8d8253256e8ae2",
+      "actual": "52a9be70b2763243cfffb7daaf15cc87e15a3ae15d70dd70df8d8253256e8ae2",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/play-encounter.js",
+      "status": 200,
+      "expected": "cc61e7ece0ecb19b3e84915c568492264dcd733c4b32058656d6f79826425f3c",
+      "actual": "cc61e7ece0ecb19b3e84915c568492264dcd733c4b32058656d6f79826425f3c",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/outcomes.js",
+      "status": 200,
+      "expected": "cc6f0a00cb3006245bcc6c3694b899b329c53a646b7c82516decd478448e0a7f",
+      "actual": "cc6f0a00cb3006245bcc6c3694b899b329c53a646b7c82516decd478448e0a7f",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/kibbles-text.js",
+      "status": 200,
+      "expected": "5116f1ab5c0e74b7b5b1f344ae4b25675261b745e46270f5ae7f78facaafc033",
+      "actual": "5116f1ab5c0e74b7b5b1f344ae4b25675261b745e46270f5ae7f78facaafc033",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/kibbles-form.js",
+      "status": 200,
+      "expected": "63441f3165002cbcc571cd71fd9997c7c377c0c732c03e950e6c71b105c6bd03",
+      "actual": "63441f3165002cbcc571cd71fd9997c7c377c0c732c03e950e6c71b105c6bd03",
+      "match": true
+    },
+    {
+      "path": "rebuild/title-screen/index.html",
+      "status": 200,
+      "expected": "5d5fcce559159498f59e882ebf476d9037227ece021c375dbe53ae057bdac90a",
+      "actual": "5d5fcce559159498f59e882ebf476d9037227ece021c375dbe53ae057bdac90a",
+      "match": true
+    },
+    {
+      "path": "docs/bible/v1.0.134-world-bible.md",
+      "status": 200,
+      "expected": "6ba821722fc1049c517024d62fe1685cb03e48b9ae0a6e82d32c38b6f03a9fa0",
+      "actual": "6ba821722fc1049c517024d62fe1685cb03e48b9ae0a6e82d32c38b6f03a9fa0",
+      "match": true
+    },
+    {
+      "path": "rebuild/character-creation/index.html",
+      "status": 200,
+      "expected": "f14918b974eb53f8c08a9e6cb29bf4e59a675bef9f2e5127872695f57f09268d",
+      "actual": "f14918b974eb53f8c08a9e6cb29bf4e59a675bef9f2e5127872695f57f09268d",
+      "match": true
+    },
+    {
+      "path": "docs/EPI-CENTER-WORLD-BIBLE.md",
+      "status": 200,
+      "expected": "6ba821722fc1049c517024d62fe1685cb03e48b9ae0a6e82d32c38b6f03a9fa0",
+      "actual": "6ba821722fc1049c517024d62fe1685cb03e48b9ae0a6e82d32c38b6f03a9fa0",
+      "match": true
+    },
+    {
+      "path": "docs/releases/v1.0.134-bible-integrity.json",
+      "status": 200,
+      "expected": "1d56b1fdb0ba55a2142cfe1988db936065cc6442f38c1d87edc616c74c80cae4",
+      "actual": "1d56b1fdb0ba55a2142cfe1988db936065cc6442f38c1d87edc616c74c80cae4",
+      "match": true
+    },
+    {
+      "path": "docs/bible/v1.0.134-canon-snapshot.json",
+      "status": 200,
+      "expected": "ad0830118527ed17f3a2104a8e292b845a7e566c2be491565d28bd000937fb6a",
+      "actual": "ad0830118527ed17f3a2104a8e292b845a7e566c2be491565d28bd000937fb6a",
+      "match": true
+    }
+  ],
+  "passed": true
+}
