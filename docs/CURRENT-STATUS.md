@@ -1,3 +1,7 @@
+## Current worker-only v9 candidate — 2026-11-21
+
+Menu intent/speaker separation and compact topic packets are implemented. See verification/request-handoff-repair/menu-packet-v9-review.md for review and evidence. Client gameplay, appearance, settings and credentials are unchanged. Prior v8 real acceptance failed; new real verification pending. Earlier checkpoints below are historical.
+
 ## Optional NPC response handoff — request-handoff-v8
 
 The v7 real test still contradicted its preselected cat offer. The client-side review found the earlier decision error: an optional NPC offer was created before the model chose a response. This worker adds a separate structured social-response mode for the corrected local client; ordinary completed-result prose and legacy clients remain supported. It does not itself change game state. Local worker tests pass. Live verification and full integration acceptance remain pending. Existing production settings/credentials and public game client are unchanged. Source/API review: verification/request-handoff-repair/optional-response-review.md. Historical checkpoints below retain their original scope.

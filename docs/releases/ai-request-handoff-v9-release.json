@@ -1,0 +1,11 @@
+{
+  "id": "ai-request-handoff-v9",
+  "baselineWorkerCommit": "987eb13",
+  "status": "Local candidate; real verification pending",
+  "requestAssemblyVersion": "request-handoff-v9",
+  "gameClientChanged": false,
+  "productionSettingsChanged": false,
+  "credentialsChanged": false,
+  "realProviderAcceptance": false,
+  "preTestReview": "verification/request-handoff-repair/menu-packet-v9-review.md"
+}
