@@ -1,0 +1,15 @@
+# Provider-response and deadline repair v10
+
+Necessary worker-side repair after an actual v9 HTTP503: successful provider HTTP response could not be read as JSON, request375c69bd-5f7e-457c-8650-1b4135b13db5. Exact historical cause is unknown because the prior handler discarded error type/status/body metadata. No assertion that SSE or timeout caused that particular failure. No replay or removal of its reserved allowance.
+
+Audit covered browser request timeout/body parsing; worker metadata fetch, completion fetch and body read; non-streaming provider contract; documented SSE chunks/usage/DONE; budget reservation/settlement/uncertain status; duplicate identities; stale UI response; shared test gate. Confirmed independent deadline defect: old browser70sec could expire before metadata15sec plus completion60sec.
+
+Changes: repaired local client advertises120sec wait; worker uses90sec only for that exact client declaration. Legacy clients keep existing60sec behavior, avoiding an uncoordinated timeout increase. New body reader separates empty/invalid/interrupted responses and records status/content type/byte count/provider request ID without body or secrets. A complete documented SSE response with final usage/finish/DONE is recovered from the SAME response without another provider request. Incomplete data stays uncertain. Server5xx/timeouts now retain allowance; definite refusals retain existing behavior. No automatic paid retry, model/pricing/sampling/output limit or production settings change.
+
+Verification:86 worker cases and53 client cases pass; broad development run before last client test2151 cases, subsequent focused checks pass. Full old/new client deadline contract checked. Source body-reader tests cover ordinary JSON, empty/malformed/non-object JSON, complete/incomplete SSE, interrupted read, duplicate protection and uncertain server errors. Local tests are not live acceptance.
+
+Deployment is worker-only via original Git main integration. The120sec client change remains in held client batch and is used by frozen local testing; public client behavior is not claimed repaired. Existing unknown reservation remains. Read-only production usage reports blocked=false, limit50, remaining48.259013, reserved0.085907 including older0.052984. Test gate's0.09136 upper reservation for this failed call is more conservative than its new production reservation0.032923.
+
+After version10 identity and free inspect pass, a fresh independent fixture may resume under the original test allowance with that full conservative upper reservation STILL counted. Do not resend the old request ID, claim its exact cost, clear it, or call the blocked payment/Eve cases tested. Fresh targeted tests cover unpaid coffee, paid-but-preparing fulfillment and remote-only Eve; at most remaining6 calls in the8-call follow-up, $0.25 including the held upper reservation.
+
+Provider contract checked: https://featherless.ai/docs/completions (2026-11-21). It documents JSON responses and complete SSE with usage in final chunk.

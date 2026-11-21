@@ -1,3 +1,7 @@
+## Worker-only v10 response-handling candidate — 2026-11-21
+
+Necessary transport/body-read repair,86 worker tests passed. v9 menu primary topics improved but prose accuracy failed. Unknown charge remains reserved; paid verification waits for exact deployed v10. Public client unchanged. See verification/request-handoff-repair/provider-response-v10-review.md. Earlier candidate/pending checkpoints below are historical.
+
 ## Current worker-only v9 candidate — 2026-11-21
 
 Menu intent/speaker separation and compact topic packets are implemented. See verification/request-handoff-repair/menu-packet-v9-review.md for review and evidence. Client gameplay, appearance, settings and credentials are unchanged. Prior v8 real acceptance failed; new real verification pending. Earlier checkpoints below are historical.

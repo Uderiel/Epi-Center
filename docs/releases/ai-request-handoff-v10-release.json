@@ -1,0 +1,14 @@
+{
+  "id": "ai-request-handoff-v10",
+  "baselineWorkerCommit": "0de9247",
+  "status": "Local verified; deployment and live checks pending",
+  "requestAssemblyVersion": "request-handoff-v10",
+  "workerTests": 86,
+  "gameClientChanged": false,
+  "productionSettingsChanged": false,
+  "credentialsChanged": false,
+  "automaticPaidRetry": false,
+  "unknownReservationPreserved": true,
+  "realProviderAcceptance": false,
+  "preTestReview": "verification/request-handoff-repair/provider-response-v10-review.md"
+}
