@@ -1,0 +1,184 @@
+{
+  "tests": [
+    {
+      "name": "Cancel leaves trapped save unchanged",
+      "pass": true,
+      "data": {
+        "pass": true
+      }
+    },
+    {
+      "name": "Bound held collared cat returns human without reward or mastery",
+      "pass": true,
+      "data": {
+        "pass": true,
+        "cap": {
+          "speech": true,
+          "walking": true,
+          "manipulation": true,
+          "posture": "humanoid",
+          "mastered": false
+        },
+        "q": {
+          "schema": 1,
+          "phase": "ready",
+          "formId": "priya-cat",
+          "linked": true,
+          "lastMinute": 1080,
+          "sequence": 0,
+          "history": [
+            {
+              "at": 1080,
+              "kind": "developer-interruption",
+              "text": "Developer return to human (out of story)"
+            }
+          ],
+          "signals": [],
+          "offers": [],
+          "counts": {},
+          "collar": {
+            "equipped": false,
+            "belief": 0,
+            "presentMinutes": 0,
+            "checkMinutes": 0,
+            "protestMinutes": 0,
+            "threshold": 50,
+            "protesting": false
+          },
+          "pet": {
+            "food": 12,
+            "bowl": 0,
+            "water": true,
+            "litterDirty": 0,
+            "items": {},
+            "filled": {}
+          },
+          "wallet": {
+            "gold": 60,
+            "transactions": []
+          },
+          "progress": 0,
+          "duration": 4320,
+          "startedAt": null,
+          "carriedBy": null,
+          "carryName": null,
+          "contact": null,
+          "pending": null,
+          "harnessWorn": false
+        },
+        "base": {
+          "hair": "current base brown",
+          "voice": "human voice"
+        }
+      }
+    },
+    {
+      "name": "Reload remains human, base pools and possessions preserved",
+      "pass": true,
+      "data": {
+        "pass": true,
+        "receipts": 1
+      }
+    },
+    {
+      "name": "Actual composer delivers human speech to Eve",
+      "pass": true,
+      "data": {
+        "pass": true,
+        "last": {
+          "speaker": "Eve",
+          "text": "There is currently no general way to refill spent Stamina outside combat. Sleeping can lower Fatigue, but it does not refill Stamina. During combat, Physical characters can use Defensive Posture (+12 Stamina); Arousal characters can use Clear Mind (+6 Stamina).",
+          "gameAt": "Mon \u00b7 18:00",
+          "at": "2026-11-21T09:20:29.107Z",
+          "origin": "dialogue",
+          "actorId": "npc:eve",
+          "remoteHelp": true,
+          "projection": "within-spire-ring",
+          "helpReference": {
+            "source": "authored-player-guide",
+            "text": "There is currently no general way to refill spent Stamina outside combat. Sleeping can lower Fatigue, but it does not refill Stamina. During combat, Physical characters can use Defensive Posture (+12 Stamina); Arousal characters can use Clear Mind (+6 Stamina)."
+          },
+          "replyTo": {
+            "speaker": "Recovery QA",
+            "text": "Eve, how do I restore Stamina?"
+          },
+          "recordedRoom": "A central starting point for every new player that passes into the overworld. The place where perhaps you fell asleep, or put on a pair of panties that didn't belong to you. Perhaps one of the simplest and most peaceful location in the overworld. It's probably a good thing that there are no secrets or discoveries to be made at this location.",
+          "dialogueTurnId": "a6ced66b-75fb-498a-9704-31728a39b7b9",
+          "feedId": "feed-4"
+        }
+      }
+    },
+    {
+      "name": "Actual Path control walks out of Spire",
+      "pass": true,
+      "data": {
+        "pass": true,
+        "location": "Central Hub N",
+        "last": {
+          "speaker": "World",
+          "text": "You travel north to Central Hub N. (8 minutes)",
+          "gameAt": "Mon \u00b7 18:08",
+          "at": "2026-11-21T09:20:29.273Z",
+          "recordedRoom": "A peaceful grassy park north of the central Spire. Shrubbery and flowers frame clear sight lines toward nearby stores and the Spire.",
+          "narrativeEvent": true,
+          "feedId": "feed-5"
+        }
+      }
+    },
+    {
+      "name": "Worn bound flats recover persistently without earning mastery",
+      "pass": true,
+      "data": {
+        "pass": true,
+        "flats": {
+          "schema": 1,
+          "active": false,
+          "released": true,
+          "source": "unavailable",
+          "discovered": false,
+          "held": false,
+          "events": {},
+          "lastMinute": 1088,
+          "stage": 0,
+          "mastered": false,
+          "rarity": "Common",
+          "history": [],
+          "relationship": 0,
+          "place": "released",
+          "resources": {
+            "health": 40,
+            "stamina": 30,
+            "resolve": 0,
+            "arousal": 0
+          },
+          "internal": {
+            "influence": 80,
+            "progress": 20
+          }
+        }
+      }
+    },
+    {
+      "name": "Unmastered Erin heels retained unequipped; current base appearance restored",
+      "pass": true,
+      "data": {
+        "pass": true,
+        "appearance": {
+          "hair": "current base brown",
+          "voice": "human voice"
+        }
+      }
+    },
+    {
+      "name": "No browser errors or external requests",
+      "pass": true,
+      "data": {
+        "pass": true,
+        "errors": [],
+        "blocked": []
+      }
+    }
+  ],
+  "errors": [],
+  "blocked": []
+}

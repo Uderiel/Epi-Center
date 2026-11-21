@@ -1,6 +1,6 @@
 {
   "version": "1.0.136",
-  "status": "Prepared; deployment pending",
+  "status": "Published and publicly verified",
   "baseline": "1.0.135",
   "automatedCases": 2064,
   "localBrowserChecks": 12,
@@ -9,5 +9,19 @@
   "realProviderQualityVerified": false,
   "ownerSaves": false,
   "repositoryRuntimeIncluded": false,
-  "repositoryStaffIncluded": false
+  "repositoryStaffIncluded": false,
+  "runtimeCommit": "6da8a7cf595ab1b56cde97d5a69c0a09c372bc78",
+  "publicMatchedFiles": 221,
+  "publicBrowserChecks": 13,
+  "workerHealth": {
+    "service": "Epi-Center AI",
+    "releaseVersion": "1.0.135",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "actionProtocol": "npc-actions-v1",
+    "configured": true
+  },
+  "pagesConclusion": "success"
 }

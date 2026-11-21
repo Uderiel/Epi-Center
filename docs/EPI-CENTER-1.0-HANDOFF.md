@@ -1,3 +1,9 @@
+## v1.0.136 publication complete
+
+Runtime `6da8a7cf595ab1b56cde97d5a69c0a09c372bc78` is live. All 221 compared public files match, including the frozen/canonical Bible and integrity manifest. The versioned automated run passed 2,064 cases; 12 local browser scenarios and 13 public browser checks passed, including recovery during a private escort and Tits returning to C. Synthetic saves only; bridge responses were simulated. No owner saves or real provider calls were used. Worker remains unchanged at configured v1.0.135 / npc-actions-v1. Form Repository/staff work is excluded.
+
+Next repair: the separately reported Eve-help directional-routing bug remains pending, alongside real authenticated Cydonia acceptance testing. Dev recovery is published; it does not claim to fix those issues. No work continues after this publication handoff. Evidence: releases/v1.0.136-release-summary.json and v1.0.136-live-verification.json. Earlier pending/preparation labels below are historical checkpoints.
+
 # v1.0.136 — Dev recovery and private escort cleanup
 
 Owner authorized publication of the Dev recovery tool and its reviewed escort fix. Baseline: publicly verified v1.0.135. No Form Repository/staff work is included. The AI worker is unchanged at v1.0.135 with npc-actions-v1.

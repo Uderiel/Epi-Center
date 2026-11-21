@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "result": {
+    "ended": "ended",
+    "room": "C",
+    "location": "Central Hub Spire"
+  },
+  "realProvider": false
+}
