@@ -1,0 +1,15 @@
+{
+  "id": "ai-request-handoff-v11",
+  "baselineWorkerCommit": "ce19d67",
+  "status": "Verified worker candidate; deployment pending",
+  "requestAssemblyVersion": "request-handoff-v11",
+  "gameClientChanged": false,
+  "productionSettingsChanged": false,
+  "credentialsChanged": false,
+  "automaticPaidRetry": false,
+  "unknownReservationPreserved": true,
+  "realProviderAcceptance": false,
+  "preTestReview": "verification/request-handoff-repair/nadia-offer-review.md",
+  "workerTests": 87,
+  "worldBibleUnchanged": true
+}

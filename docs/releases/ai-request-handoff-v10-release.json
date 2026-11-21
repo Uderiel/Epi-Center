@@ -1,7 +1,7 @@
 {
   "id": "ai-request-handoff-v10",
   "baselineWorkerCommit": "0de9247",
-  "status": "Local verified; deployment and live checks pending",
+  "status": "Deployed at ce19d67; transport checks passed; broader model acceptance still incomplete",
   "requestAssemblyVersion": "request-handoff-v10",
   "workerTests": 86,
   "gameClientChanged": false,
@@ -10,5 +10,6 @@
   "automaticPaidRetry": false,
   "unknownReservationPreserved": true,
   "realProviderAcceptance": false,
-  "preTestReview": "verification/request-handoff-repair/provider-response-v10-review.md"
+  "preTestReview": "verification/request-handoff-repair/provider-response-v10-review.md",
+  "deploymentCommit": "ce19d67"
 }

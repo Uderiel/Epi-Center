@@ -1,3 +1,9 @@
+## Current worker maintenance: v11 optional-offer candidate — 2026-11-21
+
+Worker v10 is deployed at commit ce19d67; its transport retests completed without another unreadable response, but broader dialogue accuracy is not accepted. The new v11 candidate removes cat-specific instructions from the shared optional-response writer for Nadia's existing household choices. Public game client remains v1.0.136; local gameplay/UI/appearance changes remain held. Settings and credentials are unchanged. See verification/request-handoff-repair/nadia-offer-review.md for source ownership, test evidence and bounded live plan. Deployment and real v11 testing are pending.
+
+Earlier candidate headings below are historical checkpoints, not current deployment status.
+
 ## Worker-only v10 response-handling candidate — 2026-11-21
 
 Necessary transport/body-read repair,86 worker tests passed. v9 menu primary topics improved but prose accuracy failed. Unknown charge remains reserved; paid verification waits for exact deployed v10. Public client unchanged. See verification/request-handoff-repair/provider-response-v10-review.md. Earlier candidate/pending checkpoints below are historical.
