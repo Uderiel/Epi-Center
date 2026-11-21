@@ -1,0 +1,899 @@
+{
+  "version": "1.0.135",
+  "runtimeCommit": "4df3b3fdbbaac916337f6ed582ded50dc92f5dbd",
+  "files": [
+    {
+      "path": "rebuild/hub/erin-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/erin-work.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/priya-flats.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/encounter-arousal.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/marketing-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/work-dashboard-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/character-home.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/world-clock.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/internal-mastery.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/equipment-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/erin-office-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/richard-home-data.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/charity-service-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/priya-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/ai-integration-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/burkes-retail-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/form-minds.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/private-encounter-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/arousal-effects.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/nadia-home-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/player-feed.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/personal-mail-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/household-prices.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/transformation-history.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-sleep.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/owner-income.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/flats-portraits.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-base-lock.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/lip-cosmetics.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/erin-daily.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/tits-evening.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/conversation-continuity.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-timeline.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/relationship-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/equipment-regions.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/ai-context.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/charity-household.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/action-lexicon.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/social-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/priya-daily-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/tits-return.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/navigation-runtime.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-penalties.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/burkes-art.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/burkes-retail.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/cherished-touch.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/shared-activities-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/form-body.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/nadia-household.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/priya-home.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/priya-household-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/nadia-activities.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/technology-center.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/shared-home-activities.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/legacy-0884-data.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/richard-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/legacy-autonomy.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/player-guide-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/transformation-history-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/encounter-continuity.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/relationship-interactions-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/flats-story.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/personal-mail.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/cherished-shop-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/technology-products.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/household-ambience.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/department.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/charity-service.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/cherished-art.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/language-actions.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/applewood-building.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-appearance.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/department-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/authored-dialogue.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/live-time.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/dart.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/location-details.css",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/location-details.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/footwear-senses.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/needs-consequences.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/technology-center-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/apartment-navigation.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/fluid-contact.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/burkes-sweets.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/business-availability.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/npc-actions.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-presentation.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/roleplay-input.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/burkes-sweets-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/cherished-shop.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/text-actions-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-cure.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-debug.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/form-minds-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/navigation-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/hub-art.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/served-items-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-attributes.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/relationship-interactions.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/lip-cosmetics-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/erin-restoration.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/erin-life-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/form-living.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/world-objects.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-policy.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/hub-world.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/office-floor-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/priya-household.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/dialogue-intents.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/form-storage.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/navigation-v1.0.66.css",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-social.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/kissing-types.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/marketing.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/nadia-guests.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/player-clothing.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/erin-activities.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/easter-egg-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/npc-travel.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/served-items.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/location-details-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-resources.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/gum-effects.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-identity.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/interaction-state.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/priya-cat-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/priya.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/travel-modes.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/room-art-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/relationships.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/fluid-contact-lexicon.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/richard-daily.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/kissing-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/feed-position.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/sleeping-contact.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/cherished-touch-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/workplace-schedule.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/npc-needs.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/enchanted-effects.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/richard.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/ai-integration-cases.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/erin-household-data.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-exposure.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/index.html",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/narration-grounding.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/text-actions.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/priya-home-navigation.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/charity-household-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/easter-egg.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/richard-home.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/language-actions-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/private-encounter.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/dating-readiness.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/erin-activities-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/heard-accounts.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/live-time-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/erin-life.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/npc-actions-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/perspiration.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/priya-cat.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/location-context.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/burkes-queue.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/intimacy.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/reading-library.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/scene-presence.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/richard-home-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/tits-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/fluid-contact-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/candy-effects.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/cursed-exposure.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/nadia-home-data.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/priya-flats-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/navigation.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/richard-office.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/player-guide.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-social-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/hangry-fangs.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/charity-visitors.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/nadia-daily.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/ai-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/charity.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/tits-routine.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/intimate-encounter.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/office-floor.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/canine-expression.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/erin-office.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/canine-intent.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/burkes-baking.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/priya-daily.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/kissing.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/burkes-delivery.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/erin-household.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/intimate-encounter-ui.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/shared-activities.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/kibbles-behavior.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/hub/tits.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.37.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/play-encounter.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/kibbles-text.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.39.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.37.css",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.36.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/encounter-contract.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.35.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/outcomes.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.39.css",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/kibbles-ai.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/civilian-encounter.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.35.css",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/engine.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.36.css",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.40.css",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/kibbles-form.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/combat/entity-rules.js",
+      "match": true
+    },
+    {
+      "path": "rebuild/title-screen/index.html",
+      "match": true
+    },
+    {
+      "path": "rebuild/character-creation/index.html",
+      "match": true
+    },
+    {
+      "path": "docs/EPI-CENTER-WORLD-BIBLE.md",
+      "match": true
+    },
+    {
+      "path": "docs/bible/v1.0.135-world-bible.md",
+      "match": true
+    },
+    {
+      "path": "docs/bible/v1.0.135-canon-snapshot.json",
+      "match": true
+    },
+    {
+      "path": "docs/releases/v1.0.135-bible-integrity.json",
+      "match": true
+    }
+  ],
+  "matched": 220,
+  "total": 220,
+  "workerHealth": {
+    "service": "Epi-Center AI",
+    "releaseVersion": "1.0.135",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "actionProtocol": "npc-actions-v1",
+    "configured": true
+  },
+  "passed": true
+}

@@ -1,3 +1,11 @@
+## v1.0.135 publication complete
+
+Runtime `4df3b3fdbbaac916337f6ed582ded50dc92f5dbd` is live. GitHub Pages and the AI Worker builds succeeded. All 220 compared public runtime/canonical files match; the worker reports v1.0.135, configured, with npc-actions-v1. The versioned automated run passed 2,058 cases; 44 local browser checks and 18 public browser checks passed using synthetic saves and simulated AI transport. Real authenticated Cydonia dialogue quality remains unverified. No owner save was used. No unpublished Form Repository/staff work was included.
+
+Next authorized repair session: validate actual Cydonia conversations against the deployed worker using an authenticated test connection; exercise the reported Tits follow-up/contact, Charity question, Eve remote help, Nadia demonstration/routine, and Priya cat agreement/resistance conversations. The real-provider gate is still open; simulated tests do not establish model interpretation or prose quality. Do not resume Repository authoring before that repair review unless the owner changes priorities. No work is running after this handoff.
+
+See releases/v1.0.135-release-summary.json and v1.0.135-live-verification.json. The pre-publication repair reports remain historical local evidence; their unpublished flags describe when those reports were captured.
+
 # v1.0.135 — action bridge and experience repairs
 
 Owner authorized publication of the reviewed fixes. Baseline: publicly verified v1.0.134. Deployment verification is pending.
