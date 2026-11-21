@@ -1,0 +1,17 @@
+{
+  "id": "ai-request-handoff-v5",
+  "status": "Corrective worker deployment authorized; local tests passed; real-model verification pending",
+  "baselineWorkerCommit": "bf624fa",
+  "requestAssemblyVersion": "request-handoff-v5",
+  "workerTests": 71,
+  "reason": "Real v4 trial retained a false accepted-guest/cat perception in an unaccepted offer; generated offer and acceptance replies failed.",
+  "changes": [
+    "Normalize legacy cat offer identity and current-body facts without changing save state",
+    "Give the writer a current controller-derived reply purpose for offers, agreement acceptance and entry"
+  ],
+  "gameClientChanged": false,
+  "credentialsChanged": false,
+  "productionSettingsChanged": false,
+  "canonicalBackup": "Regenerated unchanged; existing frozen Bible integrity verified",
+  "realProviderAcceptance": false
+}

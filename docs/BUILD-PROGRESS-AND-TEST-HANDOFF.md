@@ -1,3 +1,7 @@
+## Corrective AI worker maintenance — request-handoff-v5
+
+The real v4 test improved the shop catalogue but failed Priya offer/acceptance continuity. Inspection exposed an unaccepted offer simultaneously labelled as an accepted guest/agreed cat. This correction normalizes those legacy description facts without changing save state and gives generation the actual current reply purpose. Local worker tests pass; real-model acceptance is pending. Existing production configuration/credentials and the public game client remain unchanged. See releases/ai-request-handoff-v5-release.json. The v4 deployment succeeded; it is not a complete quality pass.
+
 ## AI worker maintenance — request-handoff-v4
 
 Owner authorized the worker-only deployment and real Cydonia verification on 2026-11-21. The public game remains v1.0.136. The worker retains its existing release label and exposes requestAssemblyVersion request-handoff-v4 to identify this patch. Deployment and real-provider acceptance are pending until recorded in releases/ai-request-handoff-v4-release.json.
