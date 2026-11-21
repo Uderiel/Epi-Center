@@ -1,3 +1,23 @@
+# v1.0.136 — Dev recovery and private escort cleanup
+
+Owner authorized publication of the Dev recovery tool and its reviewed escort fix. Baseline: publicly verified v1.0.135. No Form Repository/staff work is included. The AI worker is unchanged at v1.0.135 with npc-actions-v1.
+
+- Dev → Return to human at Central Spire requires confirmation and operates on a copied save. It restores the current base body, clears form binding/restraints and relocates to Spire without healing, granting mastery or awarding completion. Identity, owned belongings/forms, earned progress, resources and clock remain. Unrelated illness is not cured. Normal gameplay binding/reversion is unchanged.
+- Interrupted cat stays retain their chosen duration without completion. Combat and ongoing activities are interrupted without victory/reward resolution. Pending NPC action turns/offers/watches are cancelled; already resolved receipts remain and delayed AI replies cannot execute stale actions.
+- Recovery closes private invitations, escorts, active scenes and rest, revokes scene access and schedules Tits back to the counter. This fixes the reviewed case where an interrupted escort remained stuck in D.
+
+Verification before version preparation: 2,064 automated cases and 12 synthetic-save browser scenarios passed. AI transport was simulated; no paid model calls or owner saves were used. Final versioned and public results are recorded separately. Existing Eve-help directional-routing and real Cydonia acceptance work remain open; this release does not claim to fix them. Deployment pending.
+
+## Historical checkpoints
+
+## Pending next release — Dev recovery tool
+
+Owner approved local integration after reviewing the v1.0.135 recovery package. Dev → Return to human at Central Spire requires confirmation, operates on a copied save and preserves recorded identity, possessions, earned progress, resources and time. It interrupts form restraints, unfinished stays and encounters without completion rewards. Pending action-bridge work is cancelled while completed receipts remain. Unrelated illness is not cured. Normal gameplay reversion and binding rules remain unchanged.
+
+Review correction: recovery now closes the actual private encounter controller for offered, escorting, active and shared-rest states, revokes its room invitation and schedules Tits’s return to the counter. Ending only the continuity record left an interrupted escort stuck in D. A regression covers all four states.
+
+Not published. No Form Repository/staff changes. The independently reported Eve-help/“go north” routing defect remains a separate pending repair; this tool update does not claim to fix it. Real Cydonia validation remains open.
+
 ## v1.0.135 publication complete
 
 Runtime `4df3b3fdbbaac916337f6ed582ded50dc92f5dbd` is live. GitHub Pages and the AI Worker builds succeeded. All 220 compared public runtime/canonical files match; the worker reports v1.0.135, configured, with npc-actions-v1. The versioned automated run passed 2,058 cases; 44 local browser checks and 18 public browser checks passed using synthetic saves and simulated AI transport. Real authenticated Cydonia dialogue quality remains unverified. No owner save was used. No unpublished Form Repository/staff work was included.

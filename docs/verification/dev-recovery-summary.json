@@ -1,0 +1,10 @@
+{
+  "status": "Implemented locally; queued for next publication",
+  "published": false,
+  "automatedCases": 2064,
+  "browserScenarios": 12,
+  "realProviderTested": false,
+  "ownerSaveUsed": false,
+  "privateEscortRegression": "Passed for offered, escorting, active and shared-rest phases",
+  "eveMovementRouting": "Separate pending defect"
+}
