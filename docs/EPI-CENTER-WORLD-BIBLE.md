@@ -1,3 +1,17 @@
+## Current canon for v1.0.134
+
+Journal contains Quests and Database. Database groups the player's actual learned records and encountered relationships, with character/location/form filters, search, and name/recent/relationship sorting. Notes retain their speaker/source; the public Database does not expose private dossiers or raw saves. Relationship records use the existing signed pair values and history. Live toolbar has Form, Stats, Layout/Path and Help (plus contextual Work where available); Database is accessed through Journal or typed commands. Stats and Character do not duplicate relationship bars.
+
+Room artwork is displayed directly in the top location panel, not behind the Room illustration disclosure; household interaction popups do not duplicate it. Eve distinguishes Fatigue from Stamina and explains the absence of general outside-combat Stamina recovery without inventing recovery.
+
+Nadia requires +25 relationship for human home invitations. Below +25, available Nadia can answer and converse at the actual open door without inviting entry. Entry rechecks saved invitations and current relationship. Existing canine invitations remain a separate rule. Repeated knocks do not reset an approach. Actual arrival is visible and supports local conversation only while she is present and the doorway is open.
+
+NPC model dialogue preserves character identity, knowledge boundaries and resolved mechanics while allowing natural length, paragraphs and small in-place gestures. Repetition alone is not rejected. Actual authored fallback turns remain in history after a provider failure; a successful generation replaces its own turn. Current placeholders and future queued turns are excluded from prior history. Tits understands direct compliments/attraction and retains her actual disclosure and pending conversation without inventing accepted contact. Provider capacity, input bounds, authentication, price ceilings and the $50 monthly allowance remain enforced. Diagnostics expose the matching client failure without secrets.
+
+All unpublished Form Repository and staff work is excluded; prior published references remain unchanged. See releases/v1.0.134-synopsis.md for scope and separate verification records for evidence.
+
+## Historical canon checkpoints
+
 ## Current canon for v1.0.133
 
 This release changes UI navigation and help only. The header retains Form, Stats, Path/Layout, Help and Database; duplicate Location and Quests controls are removed. Journal follows Items, then Power, Settings and Dev. Existing quest objectives and reward descriptions appear under Active Quests; available and completed records remain separate. Room codes stay internal in the Cherished Touch and Burke’s layout display. Mobile quick-reference row sizing prevents the Live Feed title covering Help. Eve explains actual combat Stamina recovery and the currently missing general outside-combat refill. No resource mechanics or quest rewards change.

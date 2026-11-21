@@ -1,3 +1,7 @@
+## Current v1.0.134 human doorstep rule
+
+Human home invitations require +25 relationship. Below that, Nadia may answer and talk at the actual open doorway, without entry permission. Arrival emits a visible reply; repeated requests do not restart her approach. Saved invitations recheck the current threshold. Existing canine invitations are unchanged. This supersedes any older neutral-affinity human invitation behavior.
+
 # Nadia and Dart — first playable household implementation
 
 Published v1.0.107 adds Nadia’s distinct Unit 6E household and independent Dart behavior using shared residence, presence, canine-expression and item-serving systems. It preserves existing save keys, form mastery, personalized identities, player possessions and the approved portraits. It is a first playable household slice; it does not complete the deferred boutique venue.

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "Base form at zero affinity: knock and typed wait reach a visible open-door conversation without entry permission and Nadia hears the follow-up",
+    "Database uses searchable grouped collapsed records with source labels and no private-save dump",
+    "Stats drawer has no relationship bars; Journal Database owns signed relationship meters; Stats and Character contain none",
+    "Typed database opens Journal; learned facts survive reload; form filtering excludes other subjects",
+    "Household popup contains no room illustration while header retains the room artwork",
+    "Erin, Priya and Richard popups also have no duplicated room images"
+  ],
+  "errors": [],
+  "version": "1.0.134"
+}

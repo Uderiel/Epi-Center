@@ -1,0 +1,10 @@
+{
+  "baseline": "621b8dabdcc13488740b0f8698a301645908f236",
+  "excludedBaselineFiles": [
+    "rebuild/hub/form-storage.js",
+    "rebuild/hub/location-details.js"
+  ],
+  "repositoryRuntimeIncluded": false,
+  "repositoryStaffIncluded": false,
+  "checks": "byte-for-byte match against published baseline"
+}

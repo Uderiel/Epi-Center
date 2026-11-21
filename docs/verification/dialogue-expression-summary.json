@@ -1,0 +1,28 @@
+{
+  "submitted": false,
+  "published": false,
+  "reviewPending": true,
+  "scope": "Remove response style gates; keep character/fact/identity/controller and operational boundaries",
+  "fullIsolatedNamedCases": 1996,
+  "realProviderTested": false,
+  "browserTests": [
+    "browser-npc-followup.cjs",
+    "browser-conversation-routing.cjs"
+  ],
+  "removed": [
+    "sentence and word quotas",
+    "gesture and paragraph stripping",
+    "900/1500 reply clipping",
+    "8000-character response rejection",
+    "punctuation completeness rejection",
+    "600-token output cap",
+    "style-only repetition repair retry"
+  ],
+  "remaining": [
+    "provider and available context output ceiling",
+    "50USD monthly ceiling and model-price guards",
+    "request input/transport/history bounds",
+    "wrong identity and recorded context checks",
+    "actual scene transition safeguards"
+  ]
+}

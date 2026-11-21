@@ -1,0 +1,13 @@
+{
+  "version": "1.0.134",
+  "status": "Owner-authorized; verified locally; publication pending",
+  "baseline": "1.0.133",
+  "automatedCases": 2001,
+  "localBrowserChecks": 32,
+  "repositoryRuntimeIncluded": false,
+  "repositoryStaffIncluded": false,
+  "aiWorkerChanged": true,
+  "realProviderQualityVerified": false,
+  "paidNarrativeModelCalls": false,
+  "ownerSaves": false
+}

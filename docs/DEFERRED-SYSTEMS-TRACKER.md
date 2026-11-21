@@ -1,5 +1,7 @@
 # Deferred systems and unresolved decisions
 
+Release review v1.0.134: no deferred systems are implemented by this release. Repository/staff work stays in the separate unpublished authoring workspace. Real authenticated Cydonia writing-quality acceptance remains unverified; deterministic controller and simulated transport tests do not close that item.
+
 Reviewed 2026-11-20 against this conversation, current code, completion records and the unpublished candidate after v1.0.130. This is the active index; historical “unfinished” checkpoints are not a current backlog. No new mechanics are approved by this list.
 
 **Labels:** Build = approved direction, implementation pending; Decide = substantive details unresolved; Verify = implemented scope needs additional evidence. Revisit at the listed trigger, not during unrelated work. On return, read the linked record, check runtime, present only remaining decisions, then update this row. At each location/system build and pre-release review, check this index. No scheduled automation is created.

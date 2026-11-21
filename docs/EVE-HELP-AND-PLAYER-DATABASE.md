@@ -1,3 +1,7 @@
+## Current v1.0.134 presentation
+
+Journal → Database contains searchable collapsed records of actual learned information and encountered relationships. Filter characters, locations or forms; sort by name, recent learning or relationship. Source-attributed notes and existing relationship history remain inside each record. The Live toolbar, Stats and Character do not duplicate Database/relationship controls. Eve gives concise help appropriate to combat state: there is no general outside-combat Stamina refill; sleep reduces Fatigue but does not refill Stamina. Older placements and verbose help examples below are historical.
+
 # Eve help and learned-information database — local, unpublished
 
 Eve’s already-approved remote-help role is implemented through A.S.S. from any gameplay location: “Eve, how do I …?”, “help”, and similar explicit help requests. This route supplies contextual guidance from actual currently offered actions. It does not accept a quest or create physical Eve presence. The AI context distinguishes remote communication from holographic projection: no projection outside the Spire outer ring. Existing identity/presentation rules remain. Private form thoughts and player-to-player channels do not silently become external NPC speech.

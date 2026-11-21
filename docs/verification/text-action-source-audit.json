@@ -5,7 +5,7 @@
     "Parameterized forms and deeper navigation branches require dedicated text/provider checks.",
     "No claim every natural-language phrase or every dynamic scene has browser coverage."
   ],
-  "buttonAttributeFamilies": 99,
+  "buttonAttributeFamilies": 100,
   "rows": [
     {
       "attribute": "data-activity-id",
@@ -336,7 +336,7 @@
       "files": [
         "rebuild/hub/index.html"
       ],
-      "sourceOccurrences": 2,
+      "sourceOccurrences": 1,
       "classification": "Contextual text bridge + original controller; per-scene availability applies"
     },
     {
@@ -361,6 +361,14 @@
         "rebuild/hub/tits-ui.js"
       ],
       "sourceOccurrences": 3,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-journal-view",
+      "files": [
+        "rebuild/hub/player-guide-ui.js"
+      ],
+      "sourceOccurrences": 2,
       "classification": "Contextual text bridge + original controller; per-scene availability applies"
     },
     {

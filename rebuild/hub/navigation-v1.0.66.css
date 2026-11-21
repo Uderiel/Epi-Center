@@ -24,3 +24,9 @@ body.combat-active #app .v882-shell:has(.ec-encounter){grid-template-rows:auto m
 
 /* Quick-reference controls may wrap: their grid row must grow before the feed starts. */
 .v882-tools{flex-shrink:0;min-height:min-content;align-self:stretch}.v882-feed{isolation:isolate}.v882-feed .v815-title{top:0}
+
+.relationship-meter{position:relative}.relationship-meter::after{content:"";position:absolute;left:50%;top:0;bottom:0;border-left:1px solid var(--muted)}.relationship-row{padding:10px 0;border-top:1px solid var(--line)}#knowledgeResults .household-item{background:var(--panel2)}#knowledgeResults li+li{margin-top:12px}
+
+.knowledge-controls{display:grid;grid-template-columns:2fr 1fr 1fr;gap:12px;margin:16px 0}.knowledge-controls label{display:grid;gap:6px;min-width:0}.knowledge-record summary{cursor:pointer;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}.knowledge-record-body{padding-top:12px}.knowledge-record-body li{margin:12px 0}.knowledge-record-body li p{margin-bottom:4px}.knowledge-relationship{padding-bottom:12px;border-bottom:1px solid var(--line)}@media(max-width:600px){.knowledge-controls{grid-template-columns:1fr 1fr}.knowledge-controls label:first-child{grid-column:1/-1}.knowledge-record summary{flex-direction:column;align-items:flex-start}}
+
+.knowledge-record{margin:10px 0}.knowledge-record summary strong{overflow-wrap:anywhere}

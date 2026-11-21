@@ -1,3 +1,21 @@
+# v1.0.134 — dialogue continuity, learned records and household UI
+
+Owner authorized publication of recent changes excluding all unpublished Form Repository and staff work. Baseline: publicly verified v1.0.133 / 621b8da.
+
+1. NPC dialogue continuity: retain actual authored/failure turns, upsert accepted model responses, exclude the current fallback and future queued turns from prior history, use the actual addressee, and prevent unrelated actor state from discarding replies.
+2. Tits dialogue: recognize direct compliments and attraction; retain the actual first illness advisory and pending conversation offer across follow-up turns. Desire or risk acknowledgment never starts contact by itself.
+3. AI expression: remove arbitrary sentence/word quotas, gesture stripping, response clipping and repetition-only repair rejection. Preserve character identity, private knowledge, resolved mechanics, scene freshness, provider/model capacity, authentication, pricing and the $50 monthly allowance. No paid real-model quality claim is made.
+4. AI diagnostics: request inspection includes matching client generation/failure status. Partial provider output is retained and marked truncated rather than silently clipped to a complete sentence. Worker release marker is updated; existing secrets and bindings stay in place.
+5. Nadia doorstep: repeat requests do not restart her approach; actual arrival appears in the feed and permits local conversation at the open door. Human home invitations require +25 relationship and entry rechecks current eligibility, including saved invitations. Below +25 she talks at the door. Existing canine invitations remain separate.
+6. Journal Database: searchable collapsed subject records hold relationships, recent relationship changes and attributed learned information. Filter characters/locations/forms; sort by name, recently learned or relationship. Typed database commands open the same Journal section. Remove Database from the Live toolbar and relationships from Stats/Character.
+7. Household artwork and help: display the current room image directly in the top location panel, remove duplicate popup room images for Erin/Priya/Nadia/Richard, and match Help to the toolbar style. Eve gives short context-specific help and explains that outside-combat general Stamina recovery is currently missing; sleep lowering Fatigue does not refill Stamina.
+
+Verification: 2,001 automated cases and twelve mobile household/Database/help browser checks passed before release preparation. Final versioned checks and public deployment evidence are recorded separately. Synthetic saves only; simulated AI transport is explicitly distinguished from real provider calls. No owner saves or paid model calls were used.
+
+No new Repository storage routing, Lee/Anya/Aniya/Spectra profiles, feeding, security, staff routines or permissions are included. Previously published Repository references remain unchanged. Repository work and Lee's remaining template sections stay pending in the separate authoring workspace.
+
+## Earlier checkpoints (historical)
+
 ## v1.0.133 publication complete
 
 UI-only release `6c28334` is live and publicly verified. Pages run44836651593 succeeded. Both live browser suites pass; exact published gameplay files, frozen Bible and excluded Repository/Worker baseline files match. No unpublished Repository, staff or dialogue follow-up changes are included. See releases/v1.0.133-release-summary.json.
