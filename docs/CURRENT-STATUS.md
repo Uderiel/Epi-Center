@@ -1,3 +1,7 @@
+## Optional NPC response handoff — request-handoff-v8
+
+The v7 real test still contradicted its preselected cat offer. The client-side review found the earlier decision error: an optional NPC offer was created before the model chose a response. This worker adds a separate structured social-response mode for the corrected local client; ordinary completed-result prose and legacy clients remain supported. It does not itself change game state. Local worker tests pass. Live verification and full integration acceptance remain pending. Existing production settings/credentials and public game client are unchanged. Source/API review: verification/request-handoff-repair/optional-response-review.md. Historical checkpoints below retain their original scope.
+
 ## Completed-turn dialogue writer — request-handoff-v7
 
 The deployed v6/source-frame probe still failed: the actual offer and player-mastery facts reached Cydonia, but the reply restarted an introduction. This repair separates completed NPC dialogue writing from action selection and presents supplied context once, retaining the full character dossier, history, body/permission facts and offer conditions. No canned dialogue, added prose quota or gameplay decision rule is introduced. Existing production settings and credentials are unchanged. Public client/UI changes remain held. Local worker tests pass; real Cydonia acceptance is pending. See releases/ai-request-handoff-v7-release.json and verification/request-handoff-repair/completed-writer-review.md. Prior checkpoints below retain their historical scope.

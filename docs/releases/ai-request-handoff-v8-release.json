@@ -1,0 +1,17 @@
+{
+  "id": "ai-request-handoff-v8",
+  "baselineWorkerCommit": "716e4f7",
+  "status": "Local checks passed; deployment and real-model verification pending",
+  "requestAssemblyVersion": "request-handoff-v8",
+  "workerTests": 78,
+  "changes": [
+    "Structured NPC response choice paired with dialogue, distinct from player-intent interpretation and completed-result prose",
+    "Preserve original request/menu origin, actual allowed responses and player mastery roles without preselecting an optional offer"
+  ],
+  "gameClientChanged": false,
+  "productionSettingsChanged": false,
+  "credentialsChanged": false,
+  "realProviderAcceptance": false,
+  "clientDependency": "Corrected request preparation/choice commit is in the held local client candidate. Public client behavior is not claimed fixed by worker publication alone.",
+  "preTestReview": "verification/request-handoff-repair/optional-response-review.md"
+}
