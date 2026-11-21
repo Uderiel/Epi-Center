@@ -1,0 +1,22 @@
+{
+  "id": "ai-request-handoff-v4",
+  "status": "Authorized; local checks passed; deployment and real-model verification pending",
+  "baselineMain": "3383c945e7353a1574791562ef73e4a2061ec9e8",
+  "gameVersion": "1.0.136",
+  "workerReleaseLabel": "1.0.135",
+  "requestAssemblyVersion": "request-handoff-v4",
+  "scope": "AI worker request assembly only; gameplay/client/UI/character creation/Form Repository/staff excluded",
+  "workerTests": 69,
+  "canonicalSnapshot": "Regenerated from unchanged published gameplay sources; byte-identical to existing snapshot",
+  "bibleIntegrity": {
+    "version": "1.0.136",
+    "canonical": "docs/EPI-CENTER-WORLD-BIBLE.md",
+    "frozen": "docs/bible/v1.0.136-world-bible.md",
+    "bytes": 50210,
+    "sha256": "15d7019740d86202f8449de144b592791e843820d71814dcbcb49bee277fe2b6"
+  },
+  "aiCredentialsChanged": false,
+  "productionSettingsChanged": false,
+  "realProviderAcceptance": false,
+  "preparedAt": "2026-11-21T13:22:10.272724+00:00"
+}

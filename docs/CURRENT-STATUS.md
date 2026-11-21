@@ -1,3 +1,11 @@
+## AI worker maintenance — request-handoff-v4
+
+Owner authorized the worker-only deployment and real Cydonia verification on 2026-11-21. The public game remains v1.0.136. The worker retains its existing release label and exposes requestAssemblyVersion request-handoff-v4 to identify this patch. Deployment and real-provider acceptance are pending until recorded in releases/ai-request-handoff-v4-release.json.
+
+The interpreter receives an internal action-decision role. Final replies receive the actual latest message, resolved controller result, existing cat agreement, shop catalogue and Eve guide in the current turn. Departure and witnessed-change turns retain the actual subject. Recorded transformation frames stay beside the reached event. This changes request assembly, not body rules, costs, ownership or controller decisions. Existing model freedom over prose length remains.
+
+The isolated worker tests pass. The canon snapshot was regenerated and the existing frozen Bible/integrity remain unchanged. Production credentials, budget configuration and the established deployment command remain unchanged. Unpublished client/UI fixes and the appearance-template proposal are excluded. Historical statuses below retain their original release scope.
+
 ## v1.0.136 publication complete
 
 Runtime `6da8a7cf595ab1b56cde97d5a69c0a09c372bc78` is live. All 221 compared public files match, including the frozen/canonical Bible and integrity manifest. The versioned automated run passed 2,064 cases; 12 local browser scenarios and 13 public browser checks passed, including recovery during a private escort and Tits returning to C. Synthetic saves only; bridge responses were simulated. No owner saves or real provider calls were used. Worker remains unchanged at configured v1.0.135 / npc-actions-v1. Form Repository/staff work is excluded.
