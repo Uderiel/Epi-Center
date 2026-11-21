@@ -1,4 +1,21 @@
-## v1.0.134 publication complete
+# v1.0.135 — action bridge and experience repairs
+
+Owner authorized publication of the reviewed fixes. Baseline: publicly verified v1.0.134. Deployment verification is pending.
+
+- AI conversation/action bridge: interpret ordinary NPC speech before phrase handlers, propose existing actions, resolve through the shared controllers, and send the actual outcome back for character prose. Preserve current work/visit procedures, gifts, contact, privacy, orders, payment, and duplicate/stale-state checks. See NPC-ACTION-BRIDGE-REVIEW.md for the implemented scope and live-test blocker.
+- Tits shop continuity and room layout: public hearing versus physical contact, connected pending kiss choices, no competing hug substitution, standard room grid, and known-directory contacts separated from physical participants.
+- Nadia continuity: preserve the actual departure event, record physically witnessed body changes, and honor an accepted demonstration wait. The existing next-day park rotation was reproduced, not changed.
+- Help and presentation: usable remote Eve follow-ups, actual shop presence, varied carrier presentation, route/AI timing, and compact handling of legacy Database snapshots.
+- Transformation experience: AI receives actual milestones and current symptoms, base-body inspection handles the reported input, approved symptomatic travel uses twelve-minute walks with jogging unavailable, and milestone prose survives feed eviction.
+- Cat identity and ownership: keep Chastity/Preeti/Priya distinct, project Priya’s actual cat agreement, resolve entry before prose, preserve real resistance outcomes and property ownership, keep human words private, and disable closed-window shortcuts.
+- Learned information: record delivered NPC speech and mandatory advisories; never learn pending AI placeholders as character statements.
+
+Verification: 2,058 automated cases and 44 browser checks passed locally using synthetic saves. AI transport was simulated. Actual Cydonia generation remains unverified. No unpublished Form Repository or staff work is included. Current evidence is in docs/verification/npc-actions-summary.json.
+
+
+## Historical checkpoints
+
+
 
 Runtime `34422a69fde2b7377e54b3dc22bb15820eed7259` is live. Pages run44843070612 and the Cloudflare Worker build succeeded. All2,001 automated cases,32 local browser checks and32 public browser checks pass; all218 compared public files match, including canonical/frozen Bible and integrity manifest. Worker reports1.0.134 and configured. No unpublished Form Repository/staff changes were included; existing Repository reference files match the prior public baseline. Real Cydonia prose quality remains unverified: transport tests use simulated replies; no paid model calls or owner saves were used. See releases/v1.0.134-release-summary.json and v1.0.134-live-verification.json.
 

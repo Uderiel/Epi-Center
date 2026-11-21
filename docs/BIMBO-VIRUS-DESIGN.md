@@ -1,3 +1,11 @@
+## Current local repair — unpublished
+
+Local presentation revision after v1.0.134: approved carrier fillers and non-contact mannerisms vary per actual utterance, with quiet turns. Saved presentation is stable across reloads and reused for heard/model speech; intent and safety-critical words remain unchanged. This adds no contact, arousal, resources or permissions. See HELP-PRESENCE-CARRIER-REPAIR.md for evidence and limits.
+
+## Approved local revision after v1.0.134
+
+Symptomatic outdoor walking takes twelve game minutes per tile; jogging is unavailable from symptom onset through the end of final settling. This is implemented locally for controllers, text, menus and route estimates. Other previously unapproved numeric illness penalties remain deferred. Disease onset/milestone narration and base-body awareness are now connected locally; current symptoms and reached body changes are supplied to the narrator. Expanded prose persists in milestone history. See TRANSFORMATION-EXPERIENCE-REPAIR.md for exact scope, tests and real-model limitations. Not published. Older implementation-status statements below are historical.
+
 ## Current unpublished sleeping-contact implementation
 
 Actual shared sleep plus existing accepted direct-skin contact now applies regional2x drying without extending the two-hour infectious-fluid lifetime. No contact is inferred from bed/room sharing. Existing60/30-minute continuous skin thresholds and separate resistance checks remain. See SLEEPING-CONTACT.md for implementation/math and ENCOUNTER-ROUTINE-CONTINUITY.md for nighttime-routine priority.

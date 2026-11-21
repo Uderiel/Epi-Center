@@ -1,3 +1,22 @@
+# v1.0.135 — action bridge and experience repairs
+
+Owner authorized publication of the reviewed fixes. Baseline: publicly verified v1.0.134. Deployment verification is pending.
+
+- AI conversation/action bridge: interpret ordinary NPC speech before phrase handlers, propose existing actions, resolve through the shared controllers, and send the actual outcome back for character prose. Preserve current work/visit procedures, gifts, contact, privacy, orders, payment, and duplicate/stale-state checks. See NPC-ACTION-BRIDGE-REVIEW.md for the implemented scope and live-test blocker.
+- Tits shop continuity and room layout: public hearing versus physical contact, connected pending kiss choices, no competing hug substitution, standard room grid, and known-directory contacts separated from physical participants.
+- Nadia continuity: preserve the actual departure event, record physically witnessed body changes, and honor an accepted demonstration wait. The existing next-day park rotation was reproduced, not changed.
+- Help and presentation: usable remote Eve follow-ups, actual shop presence, varied carrier presentation, route/AI timing, and compact handling of legacy Database snapshots.
+- Transformation experience: AI receives actual milestones and current symptoms, base-body inspection handles the reported input, approved symptomatic travel uses twelve-minute walks with jogging unavailable, and milestone prose survives feed eviction.
+- Cat identity and ownership: keep Chastity/Preeti/Priya distinct, project Priya’s actual cat agreement, resolve entry before prose, preserve real resistance outcomes and property ownership, keep human words private, and disable closed-window shortcuts.
+- Learned information: record delivered NPC speech and mandatory advisories; never learn pending AI placeholders as character statements.
+
+Verification: 2,058 automated cases and 44 browser checks passed locally using synthetic saves. AI transport was simulated. Actual Cydonia generation remains unverified. No unpublished Form Repository or staff work is included. Current evidence is in docs/verification/npc-actions-summary.json.
+
+
+Current rules: symptomatic outdoor walking takes twelve game minutes; jogging is unavailable until the symptom course settles. Prose does not change outcomes. Existing controllers resolve AI-proposed actions. The original player, active feline form and external Priya remain separate; an agreed cat stay does not transfer household property. Remote Eve is a help contact, not an invented physical park participant. See the release synopsis and repair records for exact implementation scope.
+
+## Earlier canon checkpoints
+
 ## Current canon for v1.0.134
 
 Journal contains Quests and Database. Database groups the player's actual learned records and encountered relationships, with character/location/form filters, search, and name/recent/relationship sorting. Notes retain their speaker/source; the public Database does not expose private dossiers or raw saves. Relationship records use the existing signed pair values and history. Live toolbar has Form, Stats, Layout/Path and Help (plus contextual Work where available); Database is accessed through Journal or typed commands. Stats and Character do not duplicate relationship bars.

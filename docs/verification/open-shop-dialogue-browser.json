@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checks": [
+    "Speech from the entrance reaches the real counter NPC and Tits is selectable before approaching",
+    "Desire language reaches AI dialogue without a command error or remote physical contact",
+    "Burke’s uses the established grid/route controls, keeps storage locked and preserves the pending kiss over a new hug",
+    "A normal affirmative reply confirms the actual pending kiss, updates AI context and never performs a hug",
+    "Cherished Touch retains the same established room-grid family and permission-aware navigation",
+    "Eve is offered as remote help; directory knowledge cannot spawn her on a bench in narrator context"
+  ],
+  "errors": [],
+  "realProvider": false,
+  "syntheticSave": true
+}

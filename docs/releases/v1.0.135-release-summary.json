@@ -1,0 +1,11 @@
+{
+  "version": "1.0.135",
+  "status": "Prepared; deployment pending",
+  "baseline": "1.0.134",
+  "automatedCases": 2058,
+  "localBrowserChecks": 44,
+  "realProviderQualityVerified": false,
+  "ownerSaves": false,
+  "repositoryRuntimeIncluded": false,
+  "repositoryStaffIncluded": false
+}

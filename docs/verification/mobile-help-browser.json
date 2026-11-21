@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "checks": [
+    "applewood pass 1: four controls in one row without duplicate Location; Help unobscured and real click answers",
+    "applewood pass 2: four controls in one row without duplicate Location; Help unobscured and real click answers",
+    "Central Hub N pass 1: four controls in one row without duplicate Location; Help unobscured and real click answers",
+    "Central Hub N pass 2: four controls in one row without duplicate Location; Help unobscured and real click answers",
+    "Typed Stamina question gives specific recovery guidance without changing resources",
+    "Existing location/interactions popup still opens with its contents"
+  ],
+  "errors": []
+}

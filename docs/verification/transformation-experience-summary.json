@@ -1,0 +1,11 @@
+{
+  "baseline": "v1.0.134",
+  "published": false,
+  "automatedCases": 2012,
+  "passed": true,
+  "browserChecks": 10,
+  "realProvider": false,
+  "ownerSaves": false,
+  "movementRuleApproved": true,
+  "repositoryIncluded": false
+}

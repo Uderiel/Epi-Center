@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "realProvider": false,
+  "checks": [
+    "Carrier-styled latest request reaches Charity with actual addressee Chastity",
+    "Known friendship and shop connection reach her dossier; no live whereabouts invented",
+    "Current raw-word fallback is excluded despite carrier restyling",
+    "Accepted model response remains a response to the request without a forced introduction"
+  ],
+  "errors": []
+}

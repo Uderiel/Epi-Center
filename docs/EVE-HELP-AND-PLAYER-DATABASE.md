@@ -1,3 +1,7 @@
+## Current local repair — unpublished
+
+Local revision after v1.0.134: Help selects an ongoing remote Eve conversation, with Eve available in the NPC recipient list anywhere. Typed follow-ups use authored current-question help facts; no physical hologram or new programs are inferred. Explicit Database commands still open Journal. Legacy Database dumps are compact in the feed; invalid ordinary-dog human speech is withheld from learned records without deleting history. See HELP-PRESENCE-CARRIER-REPAIR.md for evidence and limits.
+
 ## Current v1.0.134 presentation
 
 Journal → Database contains searchable collapsed records of actual learned information and encountered relationships. Filter characters, locations or forms; sort by name, recent learning or relationship. Source-attributed notes and existing relationship history remain inside each record. The Live toolbar, Stats and Character do not duplicate Database/relationship controls. Eve gives concise help appropriate to combat state: there is no general outside-combat Stamina refill; sleep reduces Fatigue but does not refill Stamina. Older placements and verbose help examples below are historical.

@@ -1,0 +1,9 @@
+{
+  "published": false,
+  "automatedCases": 2030,
+  "passed": true,
+  "browserChecks": 12,
+  "realProviderTested": false,
+  "excluded": "Form Repository and staff changes",
+  "notes": "Six open-shop checks plus six remote-help/presence checks; AI enabled with simulated transport."
+}

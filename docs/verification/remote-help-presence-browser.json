@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checks": [
+    "At03:15, an absent Tits is not described as serving or offered as a local recipient",
+    "Help selects a usable remote Eve conversation outside the Spire",
+    "A plain follow-up reaches Eve with authored help facts and remote context, without local presence or invented whereabouts",
+    "Typing Eve into the recipient field works and a follow-up Stamina question uses the same guide",
+    "Explicit Database commands still open Journal while remote Eve is selected",
+    "Routes wait for pending narration; plan/arrival notices do not call AI and completed steps retain valid narration"
+  ],
+  "errors": [],
+  "realProvider": false,
+  "syntheticSave": true
+}

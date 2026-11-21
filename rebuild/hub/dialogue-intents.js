@@ -5,5 +5,6 @@ function intent(id,raw){const q=I.parse(raw).expressed.trim().toLowerCase().repl
  if(id==='daniel'){if(/^(?:show|open|view|retrieve) (?:your |the )?(?:sales report|sales figures|reports)$/.test(q))return 'reports';if(/^(?:show|view) (?:the )?product catalog$/.test(q))return 'products';}
  if(id==='richard'){if(/^(?:i )?(?:deliver|hand (?:you|richard))\b.*\b(?:report|summary)\b/.test(q))return 'deliver';if(/^(?:i )?(?:start|prepare|write|resume|continue|work on) (?:the |my )?(?:extra |additional )?(?:report|summary)$/.test(q))return 'work';if(/^(?:do you have|may i have|can i have|give me|i'd like) (?:any |some )?(?:extra|additional) work\??$/.test(q))return 'extra';if(/^(?:stop asking|respect my boundary|no more extra work)$/.test(q))return 'boundary';}
  if(id==='nadia'&&/^(?:i )?(?:praise|compliment) (?:you|nadia|your work)$/.test(q))return 'praise';return 'talk';}
-return Object.freeze({intent});
+function response(raw){const p=I.parse(raw);if(p.privateNarration||!p.expressed)return null;const text=p.expressed.toLowerCase().replace(/[’']/g,'').replace(/[^a-z ]/g,' ').replace(/\b(?:like|um|uhm|uh|er|well)\b/g,' ').replace(/\s+/g,' ').trim();if(/^(?:no|nope|nah|not now|no thanks|i decline)(?: thank you| please)?$/.test(text))return 'decline';if(/^(?:(?:yes|yea|yeah|yep|yup|sure|totally|absolutely|okay|ok|definitely)(?: |$))+$/.test(text)||/^(?:sure thing|of course|id love to|i accept)$/.test(text))return 'accept';return null;}
+return Object.freeze({intent,response});
 });

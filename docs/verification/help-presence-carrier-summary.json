@@ -1,0 +1,10 @@
+{
+  "baseline": "1.0.134",
+  "published": false,
+  "automatedCases": 2023,
+  "newBrowserChecks": 6,
+  "combinedBrowserChecks": 26,
+  "realProvider": false,
+  "ownerSave": false,
+  "repositoryStaffIncluded": false
+}

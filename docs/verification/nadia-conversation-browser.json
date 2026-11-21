@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "Typed disclosure reaches Nadia as the ongoing player conversation",
+    "The park timer sends the real departure event to AI instead of a generic greeting task",
+    "Menu equipment triggers a witnessed transformation reaction without resetting the conversation, granting an invitation or canine speech",
+    "Typed equip uses the same witnessed-change path as the Items shortcut",
+    "The witnessed transition survives reload without duplicate reaction"
+  ],
+  "errors": [],
+  "realProvider": false
+}

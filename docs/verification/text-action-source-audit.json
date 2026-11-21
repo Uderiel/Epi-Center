@@ -5,7 +5,7 @@
     "Parameterized forms and deeper navigation branches require dedicated text/provider checks.",
     "No claim every natural-language phrase or every dynamic scene has browser coverage."
   ],
-  "buttonAttributeFamilies": 100,
+  "buttonAttributeFamilies": 102,
   "rows": [
     {
       "attribute": "data-activity-id",
@@ -495,6 +495,7 @@
     {
       "attribute": "data-nav-scope",
       "files": [
+        "rebuild/hub/burkes-sweets-ui.js",
         "rebuild/hub/cherished-touch-ui.js",
         "rebuild/hub/navigation-ui.js",
         "rebuild/hub/office-floor-ui.js",
@@ -503,12 +504,13 @@
         "rebuild/hub/technology-center-ui.js",
         "rebuild/hub/work-dashboard-ui.js"
       ],
-      "sourceOccurrences": 12,
+      "sourceOccurrences": 13,
       "classification": "Contextual text bridge + original controller; per-scene availability applies"
     },
     {
       "attribute": "data-nav-target",
       "files": [
+        "rebuild/hub/burkes-sweets-ui.js",
         "rebuild/hub/cherished-touch-ui.js",
         "rebuild/hub/navigation-ui.js",
         "rebuild/hub/office-floor-ui.js",
@@ -517,7 +519,23 @@
         "rebuild/hub/technology-center-ui.js",
         "rebuild/hub/work-dashboard-ui.js"
       ],
-      "sourceOccurrences": 12,
+      "sourceOccurrences": 13,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-npc-controller",
+      "files": [
+        "rebuild/hub/npc-actions-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-npc-controller-id",
+      "files": [
+        "rebuild/hub/npc-actions-ui.js"
+      ],
+      "sourceOccurrences": 1,
       "classification": "Contextual text bridge + original controller; per-scene availability applies"
     },
     {
@@ -982,6 +1000,10 @@
     },
     {
       "file": "rebuild/hub/ai-ui.js",
+      "name": "aiPropertyContext"
+    },
+    {
+      "file": "rebuild/hub/ai-ui.js",
       "name": "aiPhysicalContext"
     },
     {
@@ -1141,6 +1163,10 @@
       "name": "context"
     },
     {
+      "file": "rebuild/hub/npc-actions.js",
+      "name": "parse"
+    },
+    {
       "file": "rebuild/hub/office-floor.js",
       "name": "intent"
     },
@@ -1263,6 +1289,10 @@
     {
       "file": "rebuild/hub/transformation-history.js",
       "name": "text"
+    },
+    {
+      "file": "rebuild/hub/transformation-history.js",
+      "name": "context"
     },
     {
       "file": "rebuild/hub/world-clock.js",

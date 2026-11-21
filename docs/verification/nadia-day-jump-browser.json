@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "realProvider": false,
+  "before": {
+    "time": "Thu · 18:40",
+    "actor": "N. Main Street (1)",
+    "walk": {
+      "kind": "evening",
+      "phase": "outbound",
+      "target": "Central Hub NE",
+      "startedAt": 5395,
+      "parkMinutes": 10,
+      "key": "evening-walk"
+    },
+    "player": "Central Hub NW"
+  },
+  "after": {
+    "time": "Thu · 18:50",
+    "actor": "Central Hub NE",
+    "dog": "Central Hub NE",
+    "walk": {
+      "kind": "evening",
+      "phase": "park",
+      "target": "Central Hub NE",
+      "startedAt": 5395,
+      "parkMinutes": 10,
+      "key": "evening-walk",
+      "parkAt": 5446
+    },
+    "present": false,
+    "calls": 0
+  },
+  "errors": []
+}

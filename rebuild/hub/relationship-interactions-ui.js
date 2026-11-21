@@ -7,6 +7,6 @@ function relationshipInteractionsMarkup(){const R=EpiRelationshipInteractions,pe
 
 document.addEventListener('click',e=>{const b=e.target.closest?.('[data-relationship-gift]');if(!b)return;const person=relationshipPeople().find(p=>p.id===b.dataset.relationshipRecipient);if(person)relationshipGift(person,b.dataset.relationshipGift);});
 
-function relationshipObserveReply(s,entry){if(entry.origin!=='dialogue')return;const people=relationshipPeople(),target=people.find(p=>p.id===entry.actorId||p.name===entry.speaker||p.id==='form:erin'&&['Erin','Erin Lillard'].includes(entry.speaker));if(target)EpiRelationshipInteractions.observeReply(s,target.id,entry.text);}
+function relationshipObserveReply(s,entry){if(entry.origin!=='dialogue'||entry.npcActionTurn&&!entry.aiGenerated)return;const people=relationshipPeople(),target=people.find(p=>p.id===entry.actorId||p.name===entry.speaker||p.id==='form:erin'&&['Erin','Erin Lillard'].includes(entry.speaker));if(target)EpiRelationshipInteractions.observeReply(s,target.id,entry.text);}
 
 document.addEventListener('click',e=>{const b=e.target.closest?.('[data-dating-request]');if(!b)return;const p=relationshipPeople().find(p=>p.id===b.dataset.datingRequest);if(p)datingRequestAction(p);});

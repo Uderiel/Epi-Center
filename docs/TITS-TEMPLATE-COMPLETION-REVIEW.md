@@ -1,3 +1,7 @@
+## Current local repair — unpublished
+
+Local presence revision after v1.0.134: public service labels and conversation guards use Tits’s actual venue, counter room, travel, sleep and working state rather than opening hours alone. Physical presence is separate from an awake listener, preserving already accepted sleeping contact. No home interior or new route is created. See HELP-PRESENCE-CARRIER-REPAIR.md for evidence and limits.
+
 ## Current unpublished warning and overnight updates
 
 Automatic illness advice is once per stable player across interactions/reloads, while direct follow-up discussion remains available. Accepted private encounters and overnight rest take priority over automatic evening outfit/travel, with native morning preparation afterward. Physical presence remains distinct from on-duty service. See SLEEPING-CONTACT.md and ENCOUNTER-ROUTINE-CONTINUITY.md.

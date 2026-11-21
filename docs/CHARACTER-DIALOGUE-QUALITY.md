@@ -1,3 +1,7 @@
+## Local carrier continuity correction after v1.0.134
+
+The current-fallback filter now compares against both actual source speech and carrier-restyled model speech, preventing the current authored reply from masquerading as earlier dialogue. This shared change covers structured NPC contexts without altering source memory or adding style rejection. Charity’s already-established friendship/shop connection to Tits is included, with no live whereabouts invented. See CHARITY-CONTACT-REPAIR.md for reproduction and simulated-transport evidence. Not published.
+
 ## Current v1.0.134 expression and continuity
 
 No fixed sentence/word quotas, gesture stripping, response clipping or repetition-only rejection. Identity, knowledge privacy, scene freshness and resolved mechanics remain authoritative. Actual fallback dialogue survives provider failure in history; accepted AI replaces the same turn. Current placeholders are not sent as completed prior replies. Model output is bounded by verified provider capacity and existing accounting. Tits receives her actual disclosure/offer facts; direct compliments are not inherently unclear. Real paid-provider writing quality remains unverified here. Earlier restrictive style checkpoints below are superseded.
@@ -55,3 +59,7 @@ Server defaults: temperature0.8, top_p0.9, repetition_penalty1.05, frequency_pen
 6. Check any cutoff: new Worker reports output limit in status and displays only complete thoughts. No automatic paid continuation/retry is made. Cost/accounting and the existing50-dollar monthly limit stay enforced.
 
 810 named automated cases plus entity assertions passed. Mock provider tests validate completion handling and accounting; no paid model or native Android result is claimed. The separate daily-outfit availability error in the owner log remains open and is not diagnosed as an AI personality problem.
+
+Unpublished Nadia continuity repair: preserve the actual NPC-initiated event and goal through provider assembly; record only physically witnessed form changes during an engaged conversation. Existing bounded departure remains authoritative. See NADIA-CONVERSATION-CONTINUITY-REPAIR.md for verification limits.
+
+Unpublished action-bridge implementation: AI-on NPC speech can propose existing controller operations through npc-actions-v1. Resolve mechanics before final prose; keep normal dialogue independent of phrase recognition. Pending offers, demonstration waits, duplicate/stale results, and actual learned speech are tracked separately. See NPC-ACTION-BRIDGE-REVIEW.md; real Cydonia acceptance remains unverified.

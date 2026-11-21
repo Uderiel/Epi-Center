@@ -1,0 +1,37 @@
+{
+  "published": false,
+  "submitted": false,
+  "automatedPassed": true,
+  "automatedCases": 2058,
+  "browserChecks": 44,
+  "browserReports": [
+    {
+      "report": "npc-actions-browser.json",
+      "checks": 12
+    },
+    {
+      "report": "cat-narrative-frame-browser.json",
+      "checks": 6
+    },
+    {
+      "report": "mobile-help-browser.json",
+      "checks": 6
+    },
+    {
+      "report": "charity-contact-browser.json",
+      "checks": 4
+    },
+    {
+      "report": "transformation-experience-browser.json",
+      "checks": 10
+    },
+    {
+      "report": "remote-help-presence-browser.json",
+      "checks": 6
+    }
+  ],
+  "realProviderTested": false,
+  "ownerSaveUsed": false,
+  "formRepositoryWorkIncluded": false,
+  "liveValidationBlocker": "Candidate worker and an authenticated AI test connection are required. This environment has no configured AI secrets or authenticated session."
+}

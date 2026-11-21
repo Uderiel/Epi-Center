@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "checks": [
+    "Unlisted conversational wording reaches the model before phrase routing and displays its own reply",
+    "Asking the selected character for help stays with that character instead of being hijacked by Eve",
+    "A model-selected kiss offer reaches the existing controller, gives one advisory and clears the competing hug",
+    "Public shop speech reaches Tits across the room; only an explicit approach starts the real counter route",
+    "Contextual acceptance starts only the pending kiss; the final model reply receives its resolved contact facts",
+    "Stopping and accepting via the shortcut use the same controllers; the illness advisory stays once per player",
+    "Plain model prose stays dialogue; an unsupported proposal receives a natural response without inventing travel",
+    "Actual gifts and fluid offer/accept/stop resolve through the shared controllers and remain active through the response",
+    "Drink ordering adds no imaginary purchase; explicit payment spends the actual price once",
+    "A model-selected demonstration agreement holds the routine, reacts to actual menu equipment, then releases the wait without granting home access",
+    "Encounter facts and witnessed continuity survive reload without replaying an action",
+    "Richard’s actual work offer and conversational acceptance stay connected through the same action bridge"
+  ],
+  "errors": [],
+  "realProvider": false
+}

@@ -1,0 +1,11 @@
+# Nadia conversation continuity — unpublished repair
+
+The reported park interaction exposed a mismatch between scheduled departure and AI prose. The existing departure guard supplies a closing remark and bounded pause. Request construction discarded that actual remark and substituted a generic initiation instruction; provider assembly then treated the initiative like an empty player turn. This could produce a greeting while the schedule proceeded toward departure.
+
+The candidate preserves the actual initiating event and supplies its goal as an initiative, rather than an empty player question. A witnessed equipment change during a recent physically shared conversation now records an observable transition, refreshes the existing conversation safeguard, and offers an NPC reaction through the normal AI channel. This observation persists across reload. It does not identify an unseen transformation, let an animal speak human words, confer home access or ownership, or make the NPC follow the player. Existing bounded departure rules remain in effect.
+
+Verification: park-boundary controller reproduction, form-change and remote/privacy cases; provider assembly checks; mobile browser typed conversation, departure request, menu equipment, typed equipment and reload. AI transport is simulated; live Cydonia prose is not verified. Full regression: 2,034 named cases passed. No owner save was used. No Form Repository or staff work is included. Nothing is committed, submitted or published.
+
+## Developer next-day reproduction
+
+The current evening destination cycles through Central Hub NE, N, NW using day index modulo three. A Wednesday-to-Thursday developer day/time jump was exercised through the actual UI with AI enabled and simulated transport. At Thursday 18:40 Nadia and Dart were outbound toward NE; they reached NE at 18:46. The player remained in NW, so there was no local arrival or dialogue. No provider call was made in this reproduction. This establishes that the tested jump did not stop the routine; it does not establish the state of the owner's save or guarantee a fixed daily arrival time. No runtime route change was made. Evidence: verification/nadia-day-jump-browser.json.

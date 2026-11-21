@@ -1,3 +1,7 @@
+## Approved local revision after v1.0.134
+
+Symptomatic outdoor walking takes twelve game minutes per tile; jogging is unavailable from symptom onset through the end of final settling. This is implemented locally for controllers, text, menus and route estimates. Other previously unapproved numeric illness penalties remain deferred. Disease onset/milestone narration and base-body awareness are now connected locally; current symptoms and reached body changes are supplied to the narrator. Expanded prose persists in milestone history. See TRANSFORMATION-EXPERIENCE-REPAIR.md for exact scope, tests and real-model limitations. Not published. Older implementation-status statements below are historical.
+
 # Approved symptom progression — non-graphic event outline
 
 The timing is approved and implemented in the schedule controller. The owner has approved the fourteen symptom/appearance milestone assignments. Their descriptions, field lists and section tone are now emitted by the schedule controller, but live body/resource application is not connected. No compelled sexual behavior, required self-contact or80/90action restriction is included. Automatic cycle outcomes are recorded non-graphically by the separate timeline controller.
