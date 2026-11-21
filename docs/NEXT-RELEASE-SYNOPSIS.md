@@ -1,3 +1,7 @@
+## Corrective AI worker maintenance — request-handoff-v6
+
+The v5 real test presented Priya’s offer and recognized agreed entry, but omitted mastery and invented body history. This correction keeps every supplied offer condition as a separate writing point and focuses acceptance on the present agreement. Household access retains its actual scope and the supplied employment context. Local worker tests pass; real-model acceptance remains pending. Production configuration, credentials, public client and canon mechanics are unchanged. See releases/ai-request-handoff-v6-release.json. Earlier checkpoints below preserve their actual scope.
+
 ## Corrective AI worker maintenance — request-handoff-v5
 
 The real v4 test improved the shop catalogue but failed Priya offer/acceptance continuity. Inspection exposed an unaccepted offer simultaneously labelled as an accepted guest/agreed cat. This correction normalizes those legacy description facts without changing save state and gives generation the actual current reply purpose. Local worker tests pass; real-model acceptance is pending. Existing production configuration/credentials and the public game client remain unchanged. See releases/ai-request-handoff-v5-release.json. The v4 deployment succeeded; it is not a complete quality pass.

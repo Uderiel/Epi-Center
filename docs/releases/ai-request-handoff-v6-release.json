@@ -1,0 +1,18 @@
+{
+  "id": "ai-request-handoff-v6",
+  "status": "Local checks passed; corrective deployment and real-provider verification pending",
+  "baselineWorkerCommit": "877a313",
+  "requestAssemblyVersion": "request-handoff-v6",
+  "workerTests": 73,
+  "reason": "v5 real test delivered the offer/entry but omitted mastery and added unrecorded form-history claims. Household permission context also needed explicit scope.",
+  "changes": [
+    "Keep each supplied offer condition as an individual present-tense writing point",
+    "Remove a misleading legacy form-creation history cue",
+    "Retain supplied player employment context and household permission scope"
+  ],
+  "gameClientChanged": false,
+  "productionSettingsChanged": false,
+  "credentialsChanged": false,
+  "canonicalBackup": "Regenerated unchanged; existing frozen Bible integrity verified",
+  "realProviderAcceptance": false
+}
