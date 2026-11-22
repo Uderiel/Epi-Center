@@ -1,0 +1,48 @@
+{
+  "baselineCalls": 338,
+  "sameWorker": "request-handoff-v11",
+  "sourceManifest": "source-manifest-v3.json",
+  "limits": {
+    "maxCalls": 390,
+    "maxUSD": 2
+  },
+  "oldUncertainty": [
+    [
+      "52adc75c-26bb-42d7-82af-a80bf5cde819",
+      0.110302
+    ],
+    [
+      "432e418f-18c4-4f42-9dd1-05978731ce66",
+      0.138721
+    ],
+    [
+      "07dcc342-53f0-4289-b085-7b50b0a86da7",
+      0.13885899999999998
+    ]
+  ],
+  "capturedIssues": [
+    "Age correct but birthday month invented",
+    "Correct Eve weight denial falsely rejected",
+    "Pet breed used to infer pedigree/acquisition",
+    "Current-only feet answer invented earlier comparison/coverage/shape",
+    "Foot sensation spread falsely interpreted as width change",
+    "Ordinary stories staged unknown mug/tea or a spouse family origin",
+    "Failed prose left a generic response in history instead of the actual shown fallback"
+  ],
+  "repairs": [
+    "Birthday/pedigree guards, natural no-weight language",
+    "Clause-bound transformation predicates, reached-feature scope and read-only body projection",
+    "Only unsupported prop stage segments removed; other expression, spoken personality and ordinary gestures retained",
+    "Story-specific source fallback and actual fallback memory update behind freshness and ownership gates"
+  ],
+  "tests": [
+    "Actual Erin equip/hour/body inspection",
+    "Daniel source facts and ordinary tram story",
+    "Nadia own facts and Dart facts",
+    "Priya measurements and theatre story",
+    "Eve avatar answers",
+    "Tits wish/literal idiom/clarification/reload meaning"
+  ],
+  "noUnknownReplay": true,
+  "time": "2026-11-22T12:15:35.503305+00:00"
+}

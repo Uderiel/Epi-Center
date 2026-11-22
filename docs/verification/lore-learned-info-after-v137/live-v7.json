@@ -1,0 +1,3647 @@
+{
+  "version": "1.0.137",
+  "worker": "request-handoff-v11",
+  "realProvider": true,
+  "started": "2026-11-22T12:34:58.889Z",
+  "limits": {
+    "maxCalls": 450,
+    "maxUSD": 2
+  },
+  "scope": "Frozen unpublished local candidate through actual UI; real existing Cydonia worker; directed synthetic fixtures; no owner saves or worker changes",
+  "scenarios": [
+    {
+      "label": "Legacy invented relative is quarantined before real dialogue",
+      "fixture": true,
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "I keep old theatre tickets because my uncle acted in a little theatre.",
+          "before": {
+            "name": "Morgan",
+            "playerId": "dynamic-137-a9a3d8a7-5cae-47d8-9f44-e78b112c9617",
+            "knowledge": [
+              {
+                "id": "location:applewood",
+                "name": "Applewood",
+                "kind": "location",
+                "facts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited"
+                  }
+                ]
+              }
+            ],
+            "location": "applewood",
+            "minutes": 1080,
+            "gold": 100,
+            "activeForm": null,
+            "stage": 0,
+            "appearance": {
+              "age": "28",
+              "gender": "Female",
+              "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Not specified; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not applicable; Foot width: Not specified; Arch height: Not specified; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified",
+              "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Not specified; Covering: Skin; Hair / grooming: Not specified; Material: Skin; Surface colour: Light; inseam: 31.5 in",
+              "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Not specified; Material: Skin; Surface colour: Light; hip circumference: 41.5 in",
+              "buttocks": "Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "waist": "Waist width: Narrow; Abdomen shape: Not specified; Muscle definition: Slight; Material: Skin; Surface colour: Light; waist circumference: 29.5 in",
+              "back": "Shoulder width: Medium; Shoulder shape: Not specified; Back shape: Not specified; Material: Skin; Surface colour: Light; Usual posture: Not specified; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 15.5 in",
+              "chest": "Type: Breasts; Cup size: C; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 33 in; chest circumference: 36 in",
+              "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Not specified; Material: Skin; Surface colour: Light; Hair / grooming: Not specified; shoulder-to-wrist length: 22.5 in",
+              "hands": "Number of hands: 2; Hand type: Human hands; Size: Not specified; Width: Not specified; Material: Skin; Surface colour: Light",
+              "fingers": "Digits per hand: 5; Length: Not specified; Thickness: Not specified; Nail type: Human nails; Nail length: Not specified; Nail shape: Not specified; Nail colour: Not specified; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+              "voice": "Neck shape: Not specified; Voice pitch: Not specified; Voice quality: Not specified; Material: Skin; Surface colour: Light",
+              "face": "Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Not specified; Facial hair: Not specified; Complexion and markings: None; Material: Skin; Surface colour: Light",
+              "eyes": "Number of eyes: 2; Size: Not specified; Shape: Not specified; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Not specified; Material: Human eye tissue",
+              "ears": "Number of ears: 2; Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "hair": "Length: Not specified; Colour: Not specified; Texture: Not specified; Density: Not specified; Style: Not specified; Material: Human hair",
+              "skin": "Material: Skin; Surface colour: Light; Texture: Not specified; Body markings: None; Body hair: Not specified",
+              "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not specified; Material: Skin; Surface colour: Light",
+              "scent": "Natural body scent: Not specified; Scent strength: Not specified; Perspiration tendency: Average; Usual skin temperature: Not specified; Other physical tendencies: None",
+              "height": "5 ft 8 in",
+              "weight": "155 lb",
+              "build": "Medium frame, light muscle definition, average arms, narrow waist, fuller rounded hips. waist 29.5 in; hips 41.5 in; chest 36 in.",
+              "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+            },
+            "resources": {
+              "health": 100,
+              "stamina": 100,
+              "resolve": 100,
+              "arousal": 0
+            },
+            "contextFitting": [],
+            "relationships": {
+              "npc:tits": {
+                "score": 0
+              },
+              "npc:priya": {
+                "score": 0
+              },
+              "npc:daniel": {
+                "score": 0
+              },
+              "npc:nadia": {
+                "score": 0
+              },
+              "npc:richard": {
+                "score": 0
+              },
+              "npc:charity": {
+                "score": 0
+              },
+              "npc:eve": {
+                "score": 0
+              },
+              "form:kibbles": {
+                "score": 0
+              }
+            },
+            "participants": [
+              {
+                "id": "npc:priya",
+                "name": "Priya Shah"
+              }
+            ],
+            "recipient": "npc:priya",
+            "actors": {
+              "daniel": {
+                "location": "applewood",
+                "room": null,
+                "activity": "At home · Applewood 4C",
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "commute": null,
+                "view": false
+              },
+              "richard": {
+                "schema": 1,
+                "lastMinute": 1080,
+                "location": "applewood",
+                "room": null,
+                "activity": "At home · personal time",
+                "stress": 30,
+                "fatigue": 10,
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "day": 0,
+                "refusals": 0,
+                "completedToday": 0,
+                "nextOfferAt": 1080,
+                "task": null,
+                "history": [],
+                "paid": {},
+                "work": null,
+                "commute": null,
+                "view": false,
+                "homeRoom": "master"
+              },
+              "nadia": {
+                "location": "applewood",
+                "room": null,
+                "activity": "Checking the time",
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "relationship": 0,
+                "commute": null,
+                "view": false,
+                "homeRoom": "living"
+              }
+            },
+            "dart": {
+              "schema": 1,
+              "id": "dart",
+              "name": "Dart",
+              "sex": "male",
+              "species": "dog",
+              "breed": "Doberman Pinscher",
+              "location": "applewood",
+              "unit": "6E",
+              "room": "living",
+              "activity": "Resting",
+              "withNadia": false,
+              "needs": {
+                "hunger": 20,
+                "thirst": 20,
+                "bladder": 10,
+                "fatigue": 10
+              },
+              "lastMinute": 1080,
+              "lastMarkAt": null,
+              "marks": {},
+              "familiar": {},
+              "scentKnown": {},
+              "history": [],
+              "sequence": 0,
+              "walkSequence": 0,
+              "toys": {
+                "ball": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "tug": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "chew": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "puzzle": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "soft": {
+                  "place": "living",
+                  "uses": 0
+                }
+              },
+              "kennel": {
+                "closed": false,
+                "location": "living"
+              },
+              "pending": null,
+              "play": null,
+              "signal": null,
+              "relationship": 0
+            },
+            "shop": {
+              "at": 1080,
+              "currency": "gold",
+              "venue": {
+                "room": "A",
+                "description": "Candy bins and pink cosmetics occupy the entrance-side sales area. The bakery display is in B. The public aisle approaches the customer-facing register in C.",
+                "fixtures": [
+                  "Shop baskets",
+                  "Candy bins",
+                  "Pink cosmetics shelf",
+                  "BFBFF bracelet display"
+                ],
+                "seating": "unrecorded"
+              },
+              "unpaidSelection": null,
+              "latestPayment": null,
+              "drinkOrders": [],
+              "proseCannotPayPrepareOrCollect": true
+            },
+            "cat": {
+              "phase": "none",
+              "formId": null,
+              "linked": false
+            },
+            "inventory": {
+              "keepsake": 1
+            },
+            "equipment": {},
+            "feed": [
+              {
+                "speaker": "Priya Shah",
+                "text": "My cousin LEGACY_COUSIN_791 acted in community theatre in college."
+              }
+            ],
+            "paidCallCount": 429
+          },
+          "after": {
+            "name": "Morgan",
+            "playerId": "dynamic-137-a9a3d8a7-5cae-47d8-9f44-e78b112c9617",
+            "knowledge": [
+              {
+                "id": "speaker:Priya Shah",
+                "name": "Priya Shah",
+                "kind": "npc",
+                "facts": [
+                  {
+                    "text": "Old theatre tickets? What makes those meaningful to you?",
+                    "source": "Recorded words spoken by Priya Shah",
+                    "at": 1082,
+                    "verification": "attributed-statement",
+                    "key": "speech:032c07c5-d121-4ae9-8bae-8931cc1e56d3",
+                    "migratedDisclosure": true
+                  }
+                ],
+                "supersededFacts": [
+                  {
+                    "text": "My cousin LEGACY_COUSIN_791 acted in community theatre in college.",
+                    "source": "Recorded words spoken by Priya Shah",
+                    "at": 1080,
+                    "verification": "attributed-statement",
+                    "key": "speech:legacy-unsupported-relative",
+                    "migratedDisclosure": true,
+                    "excludedFromCurrentKnowledge": true,
+                    "supersededAt": 1080,
+                    "reason": "Earlier statement no longer matches the approved shared source."
+                  }
+                ]
+              },
+              {
+                "id": "location:applewood",
+                "name": "Applewood",
+                "kind": "location",
+                "facts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited"
+                  }
+                ],
+                "supersededFacts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1080
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1080
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1080
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1080
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1082
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1082
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1082
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1082
+                  }
+                ]
+              },
+              {
+                "id": "unit:2F",
+                "name": "Applewood 2F · Priya Shah",
+                "kind": "location",
+                "facts": [
+                  {
+                    "text": "Priya Shah lives in Unit 2F.",
+                    "source": "Discovered apartment directory/door",
+                    "at": 1082,
+                    "verification": "controller",
+                    "key": "occupant"
+                  }
+                ]
+              }
+            ],
+            "location": "applewood",
+            "minutes": 1082,
+            "gold": 100,
+            "activeForm": null,
+            "stage": 0,
+            "appearance": {
+              "age": "28",
+              "gender": "Female",
+              "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Not specified; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not applicable; Foot width: Not specified; Arch height: Not specified; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified",
+              "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Not specified; Covering: Skin; Hair / grooming: Not specified; Material: Skin; Surface colour: Light; inseam: 31.5 in",
+              "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Not specified; Material: Skin; Surface colour: Light; hip circumference: 41.5 in",
+              "buttocks": "Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "waist": "Waist width: Narrow; Abdomen shape: Not specified; Muscle definition: Slight; Material: Skin; Surface colour: Light; waist circumference: 29.5 in",
+              "back": "Shoulder width: Medium; Shoulder shape: Not specified; Back shape: Not specified; Material: Skin; Surface colour: Light; Usual posture: Not specified; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 15.5 in",
+              "chest": "Type: Breasts; Cup size: C; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 33 in; chest circumference: 36 in",
+              "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Not specified; Material: Skin; Surface colour: Light; Hair / grooming: Not specified; shoulder-to-wrist length: 22.5 in",
+              "hands": "Number of hands: 2; Hand type: Human hands; Size: Not specified; Width: Not specified; Material: Skin; Surface colour: Light",
+              "fingers": "Digits per hand: 5; Length: Not specified; Thickness: Not specified; Nail type: Human nails; Nail length: Not specified; Nail shape: Not specified; Nail colour: Not specified; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+              "voice": "Neck shape: Not specified; Voice pitch: Not specified; Voice quality: Not specified; Material: Skin; Surface colour: Light",
+              "face": "Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Not specified; Facial hair: Not specified; Complexion and markings: None; Material: Skin; Surface colour: Light",
+              "eyes": "Number of eyes: 2; Size: Not specified; Shape: Not specified; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Not specified; Material: Human eye tissue",
+              "ears": "Number of ears: 2; Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "hair": "Length: Not specified; Colour: Not specified; Texture: Not specified; Density: Not specified; Style: Not specified; Material: Human hair",
+              "skin": "Material: Skin; Surface colour: Light; Texture: Not specified; Body markings: None; Body hair: Not specified",
+              "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not specified; Material: Skin; Surface colour: Light",
+              "scent": "Natural body scent: Not specified; Scent strength: Not specified; Perspiration tendency: Average; Usual skin temperature: Not specified; Other physical tendencies: None",
+              "height": "5 ft 8 in",
+              "weight": "155 lb",
+              "build": "Medium frame, light muscle definition, average arms, narrow waist, fuller rounded hips. waist 29.5 in; hips 41.5 in; chest 36 in.",
+              "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+            },
+            "resources": {
+              "health": 100,
+              "stamina": 100,
+              "resolve": 100,
+              "arousal": 0
+            },
+            "contextFitting": [
+              {
+                "requestId": "a3b3a745-3e47-40e4-921f-f1dfbfdf517d",
+                "beforeHistory": 0,
+                "afterHistory": 0,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 28221,
+                "providerMessageBytes": 4291
+              }
+            ],
+            "relationships": {
+              "npc:tits": {
+                "score": 0
+              },
+              "npc:priya": {
+                "score": 0,
+                "interactions": {
+                  "sequence": 0,
+                  "turns": [
+                    {
+                      "at": 1080,
+                      "scope": "day:0",
+                      "normalized": "i keep old theatre tickets because my uncle acted in a little theatre",
+                      "result": null
+                    }
+                  ],
+                  "awards": {},
+                  "commitments": {},
+                  "boundaries": {},
+                  "receipts": []
+                }
+              },
+              "npc:daniel": {
+                "score": 0
+              },
+              "npc:nadia": {
+                "score": 0
+              },
+              "npc:richard": {
+                "score": 0
+              },
+              "npc:charity": {
+                "score": 0
+              },
+              "npc:eve": {
+                "score": 0
+              },
+              "form:kibbles": {
+                "score": 0
+              }
+            },
+            "participants": [
+              {
+                "id": "npc:priya",
+                "name": "Priya Shah"
+              }
+            ],
+            "recipient": "npc:priya",
+            "actors": {
+              "daniel": {
+                "location": "applewood",
+                "room": null,
+                "activity": "At home · Applewood 4C",
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "commute": null,
+                "view": false,
+                "departureDiscussion": null
+              },
+              "richard": {
+                "schema": 1,
+                "lastMinute": 1082,
+                "location": "applewood",
+                "room": null,
+                "activity": "Changing in private",
+                "stress": 29.840000000000003,
+                "fatigue": 10.030000000000001,
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "day": 0,
+                "refusals": 0,
+                "completedToday": 0,
+                "nextOfferAt": 1080,
+                "task": null,
+                "history": [],
+                "paid": {},
+                "work": null,
+                "commute": null,
+                "view": false,
+                "homeRoom": "closet",
+                "departureDiscussion": null
+              },
+              "nadia": {
+                "location": "applewood",
+                "room": null,
+                "activity": "Commuting",
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "relationship": 0,
+                "commute": {
+                  "to": "Technology Center",
+                  "remaining": 6
+                },
+                "view": false,
+                "homeRoom": "living",
+                "departureDiscussion": null
+              }
+            },
+            "dart": {
+              "schema": 1,
+              "id": "dart",
+              "name": "Dart",
+              "sex": "male",
+              "species": "dog",
+              "breed": "Doberman Pinscher",
+              "location": "applewood",
+              "unit": "6E",
+              "room": "living",
+              "activity": "Resting",
+              "withNadia": false,
+              "needs": {
+                "hunger": 20,
+                "thirst": 20,
+                "bladder": 10,
+                "fatigue": 10
+              },
+              "lastMinute": 1080,
+              "lastMarkAt": null,
+              "marks": {},
+              "familiar": {},
+              "scentKnown": {},
+              "history": [],
+              "sequence": 0,
+              "walkSequence": 0,
+              "toys": {
+                "ball": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "tug": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "chew": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "puzzle": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "soft": {
+                  "place": "living",
+                  "uses": 0
+                }
+              },
+              "kennel": {
+                "closed": false,
+                "location": "living"
+              },
+              "pending": null,
+              "play": null,
+              "signal": null,
+              "relationship": 0
+            },
+            "shop": {
+              "at": 1082,
+              "currency": "gold",
+              "venue": {
+                "room": "A",
+                "description": "Candy bins and pink cosmetics occupy the entrance-side sales area. The bakery display is in B. The public aisle approaches the customer-facing register in C.",
+                "fixtures": [
+                  "Shop baskets",
+                  "Candy bins",
+                  "Pink cosmetics shelf",
+                  "BFBFF bracelet display"
+                ],
+                "seating": "unrecorded"
+              },
+              "unpaidSelection": null,
+              "latestPayment": null,
+              "drinkOrders": [],
+              "proseCannotPayPrepareOrCollect": true
+            },
+            "cat": {
+              "phase": "none",
+              "formId": null,
+              "linked": false
+            },
+            "inventory": {
+              "keepsake": 1
+            },
+            "equipment": {},
+            "feed": [
+              {
+                "speaker": "Priya Shah",
+                "text": "My cousin LEGACY_COUSIN_791 acted in community theatre in college."
+              },
+              {
+                "speaker": "Morgan · NPC → npc:priya",
+                "text": "I keep old theatre tickets because my uncle acted in a little theatre."
+              },
+              {
+                "speaker": "Priya Shah",
+                "text": "Old theatre tickets? What makes those meaningful to you?",
+                "failure": "The selected model is unavailable. No generation was attempted. No paid generation was sent.",
+                "decision": {
+                  "action": null,
+                  "unstructured": false
+                },
+                "result": {
+                  "status": "dialogue-only",
+                  "action": null,
+                  "text": "Conversation only. No physical action was requested."
+                }
+              }
+            ],
+            "paidCallCount": 430
+          },
+          "feed": [
+            {
+              "speaker": "Morgan · NPC → npc:priya",
+              "text": "I keep old theatre tickets because my uncle acted in a little theatre."
+            },
+            {
+              "speaker": "Priya Shah",
+              "text": "Old theatre tickets? What makes those meaningful to you?",
+              "failure": "The selected model is unavailable. No generation was attempted. No paid generation was sent.",
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 1,
+          "displayedAIReplies": 0,
+          "replyFailures": [
+            "The selected model is unavailable. No generation was attempted. No paid generation was sent."
+          ]
+        },
+        {
+          "kind": "reload",
+          "input": "Reload the same save",
+          "before": {
+            "name": "Morgan",
+            "playerId": "dynamic-137-a9a3d8a7-5cae-47d8-9f44-e78b112c9617",
+            "knowledge": [
+              {
+                "id": "speaker:Priya Shah",
+                "name": "Priya Shah",
+                "kind": "npc",
+                "facts": [
+                  {
+                    "text": "Old theatre tickets? What makes those meaningful to you?",
+                    "source": "Recorded words spoken by Priya Shah",
+                    "at": 1082,
+                    "verification": "attributed-statement",
+                    "key": "speech:032c07c5-d121-4ae9-8bae-8931cc1e56d3",
+                    "migratedDisclosure": true
+                  }
+                ],
+                "supersededFacts": [
+                  {
+                    "text": "My cousin LEGACY_COUSIN_791 acted in community theatre in college.",
+                    "source": "Recorded words spoken by Priya Shah",
+                    "at": 1080,
+                    "verification": "attributed-statement",
+                    "key": "speech:legacy-unsupported-relative",
+                    "migratedDisclosure": true,
+                    "excludedFromCurrentKnowledge": true,
+                    "supersededAt": 1080,
+                    "reason": "Earlier statement no longer matches the approved shared source."
+                  }
+                ]
+              },
+              {
+                "id": "location:applewood",
+                "name": "Applewood",
+                "kind": "location",
+                "facts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited"
+                  }
+                ],
+                "supersededFacts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1080
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1080
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1080
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1080
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1082
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1082
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1082
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1082
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1082
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1082
+                  }
+                ]
+              },
+              {
+                "id": "unit:2F",
+                "name": "Applewood 2F · Priya Shah",
+                "kind": "location",
+                "facts": [
+                  {
+                    "text": "Priya Shah lives in Unit 2F.",
+                    "source": "Discovered apartment directory/door",
+                    "at": 1082,
+                    "verification": "controller",
+                    "key": "occupant"
+                  }
+                ]
+              }
+            ],
+            "location": "applewood",
+            "minutes": 1082,
+            "gold": 100,
+            "activeForm": null,
+            "stage": 0,
+            "appearance": {
+              "age": "28",
+              "gender": "Female",
+              "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Not specified; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not applicable; Foot width: Not specified; Arch height: Not specified; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified",
+              "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Not specified; Covering: Skin; Hair / grooming: Not specified; Material: Skin; Surface colour: Light; inseam: 31.5 in",
+              "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Not specified; Material: Skin; Surface colour: Light; hip circumference: 41.5 in",
+              "buttocks": "Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "waist": "Waist width: Narrow; Abdomen shape: Not specified; Muscle definition: Slight; Material: Skin; Surface colour: Light; waist circumference: 29.5 in",
+              "back": "Shoulder width: Medium; Shoulder shape: Not specified; Back shape: Not specified; Material: Skin; Surface colour: Light; Usual posture: Not specified; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 15.5 in",
+              "chest": "Type: Breasts; Cup size: C; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 33 in; chest circumference: 36 in",
+              "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Not specified; Material: Skin; Surface colour: Light; Hair / grooming: Not specified; shoulder-to-wrist length: 22.5 in",
+              "hands": "Number of hands: 2; Hand type: Human hands; Size: Not specified; Width: Not specified; Material: Skin; Surface colour: Light",
+              "fingers": "Digits per hand: 5; Length: Not specified; Thickness: Not specified; Nail type: Human nails; Nail length: Not specified; Nail shape: Not specified; Nail colour: Not specified; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+              "voice": "Neck shape: Not specified; Voice pitch: Not specified; Voice quality: Not specified; Material: Skin; Surface colour: Light",
+              "face": "Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Not specified; Facial hair: Not specified; Complexion and markings: None; Material: Skin; Surface colour: Light",
+              "eyes": "Number of eyes: 2; Size: Not specified; Shape: Not specified; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Not specified; Material: Human eye tissue",
+              "ears": "Number of ears: 2; Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "hair": "Length: Not specified; Colour: Not specified; Texture: Not specified; Density: Not specified; Style: Not specified; Material: Human hair",
+              "skin": "Material: Skin; Surface colour: Light; Texture: Not specified; Body markings: None; Body hair: Not specified",
+              "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not specified; Material: Skin; Surface colour: Light",
+              "scent": "Natural body scent: Not specified; Scent strength: Not specified; Perspiration tendency: Average; Usual skin temperature: Not specified; Other physical tendencies: None",
+              "height": "5 ft 8 in",
+              "weight": "155 lb",
+              "build": "Medium frame, light muscle definition, average arms, narrow waist, fuller rounded hips. waist 29.5 in; hips 41.5 in; chest 36 in.",
+              "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+            },
+            "resources": {
+              "health": 100,
+              "stamina": 100,
+              "resolve": 100,
+              "arousal": 0
+            },
+            "contextFitting": [
+              {
+                "requestId": "a3b3a745-3e47-40e4-921f-f1dfbfdf517d",
+                "beforeHistory": 0,
+                "afterHistory": 0,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 28221,
+                "providerMessageBytes": 4291
+              }
+            ],
+            "relationships": {
+              "npc:tits": {
+                "score": 0
+              },
+              "npc:priya": {
+                "score": 0,
+                "interactions": {
+                  "sequence": 0,
+                  "turns": [
+                    {
+                      "at": 1080,
+                      "scope": "day:0",
+                      "normalized": "i keep old theatre tickets because my uncle acted in a little theatre",
+                      "result": null
+                    }
+                  ],
+                  "awards": {},
+                  "commitments": {},
+                  "boundaries": {},
+                  "receipts": []
+                }
+              },
+              "npc:daniel": {
+                "score": 0
+              },
+              "npc:nadia": {
+                "score": 0
+              },
+              "npc:richard": {
+                "score": 0
+              },
+              "npc:charity": {
+                "score": 0
+              },
+              "npc:eve": {
+                "score": 0
+              },
+              "form:kibbles": {
+                "score": 0
+              }
+            },
+            "participants": [
+              {
+                "id": "npc:priya",
+                "name": "Priya Shah"
+              }
+            ],
+            "recipient": "npc:priya",
+            "actors": {
+              "daniel": {
+                "location": "applewood",
+                "room": null,
+                "activity": "At home · Applewood 4C",
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "commute": null,
+                "view": false,
+                "departureDiscussion": null
+              },
+              "richard": {
+                "schema": 1,
+                "lastMinute": 1082,
+                "location": "applewood",
+                "room": null,
+                "activity": "Changing in private",
+                "stress": 29.840000000000003,
+                "fatigue": 10.030000000000001,
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "day": 0,
+                "refusals": 0,
+                "completedToday": 0,
+                "nextOfferAt": 1080,
+                "task": null,
+                "history": [],
+                "paid": {},
+                "work": null,
+                "commute": null,
+                "view": false,
+                "homeRoom": "closet",
+                "departureDiscussion": null
+              },
+              "nadia": {
+                "location": "applewood",
+                "room": null,
+                "activity": "Commuting",
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "relationship": 0,
+                "commute": {
+                  "to": "Technology Center",
+                  "remaining": 6
+                },
+                "view": false,
+                "homeRoom": "living",
+                "departureDiscussion": null
+              }
+            },
+            "dart": {
+              "schema": 1,
+              "id": "dart",
+              "name": "Dart",
+              "sex": "male",
+              "species": "dog",
+              "breed": "Doberman Pinscher",
+              "location": "applewood",
+              "unit": "6E",
+              "room": "living",
+              "activity": "Resting",
+              "withNadia": false,
+              "needs": {
+                "hunger": 20,
+                "thirst": 20,
+                "bladder": 10,
+                "fatigue": 10
+              },
+              "lastMinute": 1080,
+              "lastMarkAt": null,
+              "marks": {},
+              "familiar": {},
+              "scentKnown": {},
+              "history": [],
+              "sequence": 0,
+              "walkSequence": 0,
+              "toys": {
+                "ball": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "tug": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "chew": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "puzzle": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "soft": {
+                  "place": "living",
+                  "uses": 0
+                }
+              },
+              "kennel": {
+                "closed": false,
+                "location": "living"
+              },
+              "pending": null,
+              "play": null,
+              "signal": null,
+              "relationship": 0
+            },
+            "shop": {
+              "at": 1082,
+              "currency": "gold",
+              "venue": {
+                "room": "A",
+                "description": "Candy bins and pink cosmetics occupy the entrance-side sales area. The bakery display is in B. The public aisle approaches the customer-facing register in C.",
+                "fixtures": [
+                  "Shop baskets",
+                  "Candy bins",
+                  "Pink cosmetics shelf",
+                  "BFBFF bracelet display"
+                ],
+                "seating": "unrecorded"
+              },
+              "unpaidSelection": null,
+              "latestPayment": null,
+              "drinkOrders": [],
+              "proseCannotPayPrepareOrCollect": true
+            },
+            "cat": {
+              "phase": "none",
+              "formId": null,
+              "linked": false
+            },
+            "inventory": {
+              "keepsake": 1
+            },
+            "equipment": {},
+            "feed": [
+              {
+                "speaker": "Priya Shah",
+                "text": "My cousin LEGACY_COUSIN_791 acted in community theatre in college."
+              },
+              {
+                "speaker": "Morgan · NPC → npc:priya",
+                "text": "I keep old theatre tickets because my uncle acted in a little theatre."
+              },
+              {
+                "speaker": "Priya Shah",
+                "text": "Old theatre tickets? What makes those meaningful to you?",
+                "failure": "The selected model is unavailable. No generation was attempted. No paid generation was sent.",
+                "decision": {
+                  "action": null,
+                  "unstructured": false
+                },
+                "result": {
+                  "status": "dialogue-only",
+                  "action": null,
+                  "text": "Conversation only. No physical action was requested."
+                }
+              }
+            ],
+            "paidCallCount": 430
+          },
+          "after": {
+            "name": "Morgan",
+            "playerId": "dynamic-137-a9a3d8a7-5cae-47d8-9f44-e78b112c9617",
+            "knowledge": [
+              {
+                "id": "speaker:Priya Shah",
+                "name": "Priya Shah",
+                "kind": "npc",
+                "facts": [
+                  {
+                    "text": "Old theatre tickets? What makes those meaningful to you?",
+                    "source": "Recorded words spoken by Priya Shah",
+                    "at": 1082,
+                    "verification": "attributed-statement",
+                    "key": "speech:032c07c5-d121-4ae9-8bae-8931cc1e56d3",
+                    "migratedDisclosure": true
+                  }
+                ],
+                "supersededFacts": [
+                  {
+                    "text": "My cousin LEGACY_COUSIN_791 acted in community theatre in college.",
+                    "source": "Recorded words spoken by Priya Shah",
+                    "at": 1080,
+                    "verification": "attributed-statement",
+                    "key": "speech:legacy-unsupported-relative",
+                    "migratedDisclosure": true,
+                    "excludedFromCurrentKnowledge": true,
+                    "supersededAt": 1080,
+                    "reason": "Earlier statement no longer matches the approved shared source."
+                  }
+                ]
+              },
+              {
+                "id": "location:applewood",
+                "name": "Applewood",
+                "kind": "location",
+                "facts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited"
+                  }
+                ],
+                "supersededFacts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1080
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1080
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1080
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1080
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1082
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1082
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1082
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1082
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1082
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1082
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1082
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 1080,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 1082
+                  }
+                ]
+              },
+              {
+                "id": "unit:2F",
+                "name": "Applewood 2F · Priya Shah",
+                "kind": "location",
+                "facts": [
+                  {
+                    "text": "Priya Shah lives in Unit 2F.",
+                    "source": "Discovered apartment directory/door",
+                    "at": 1082,
+                    "verification": "controller",
+                    "key": "occupant"
+                  }
+                ]
+              }
+            ],
+            "location": "applewood",
+            "minutes": 1082,
+            "gold": 100,
+            "activeForm": null,
+            "stage": 0,
+            "appearance": {
+              "age": "28",
+              "gender": "Female",
+              "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Not specified; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not applicable; Foot width: Not specified; Arch height: Not specified; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified",
+              "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Not specified; Covering: Skin; Hair / grooming: Not specified; Material: Skin; Surface colour: Light; inseam: 31.5 in",
+              "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Not specified; Material: Skin; Surface colour: Light; hip circumference: 41.5 in",
+              "buttocks": "Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "waist": "Waist width: Narrow; Abdomen shape: Not specified; Muscle definition: Slight; Material: Skin; Surface colour: Light; waist circumference: 29.5 in",
+              "back": "Shoulder width: Medium; Shoulder shape: Not specified; Back shape: Not specified; Material: Skin; Surface colour: Light; Usual posture: Not specified; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 15.5 in",
+              "chest": "Type: Breasts; Cup size: C; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 33 in; chest circumference: 36 in",
+              "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Not specified; Material: Skin; Surface colour: Light; Hair / grooming: Not specified; shoulder-to-wrist length: 22.5 in",
+              "hands": "Number of hands: 2; Hand type: Human hands; Size: Not specified; Width: Not specified; Material: Skin; Surface colour: Light",
+              "fingers": "Digits per hand: 5; Length: Not specified; Thickness: Not specified; Nail type: Human nails; Nail length: Not specified; Nail shape: Not specified; Nail colour: Not specified; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+              "voice": "Neck shape: Not specified; Voice pitch: Not specified; Voice quality: Not specified; Material: Skin; Surface colour: Light",
+              "face": "Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Not specified; Facial hair: Not specified; Complexion and markings: None; Material: Skin; Surface colour: Light",
+              "eyes": "Number of eyes: 2; Size: Not specified; Shape: Not specified; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Not specified; Material: Human eye tissue",
+              "ears": "Number of ears: 2; Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "hair": "Length: Not specified; Colour: Not specified; Texture: Not specified; Density: Not specified; Style: Not specified; Material: Human hair",
+              "skin": "Material: Skin; Surface colour: Light; Texture: Not specified; Body markings: None; Body hair: Not specified",
+              "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not specified; Material: Skin; Surface colour: Light",
+              "scent": "Natural body scent: Not specified; Scent strength: Not specified; Perspiration tendency: Average; Usual skin temperature: Not specified; Other physical tendencies: None",
+              "height": "5 ft 8 in",
+              "weight": "155 lb",
+              "build": "Medium frame, light muscle definition, average arms, narrow waist, fuller rounded hips. waist 29.5 in; hips 41.5 in; chest 36 in.",
+              "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+            },
+            "resources": {
+              "health": 100,
+              "stamina": 100,
+              "resolve": 100,
+              "arousal": 0
+            },
+            "contextFitting": [],
+            "relationships": {
+              "npc:tits": {
+                "score": 0
+              },
+              "npc:priya": {
+                "score": 0,
+                "interactions": {
+                  "sequence": 0,
+                  "turns": [
+                    {
+                      "at": 1080,
+                      "scope": "day:0",
+                      "normalized": "i keep old theatre tickets because my uncle acted in a little theatre",
+                      "result": null
+                    }
+                  ],
+                  "awards": {},
+                  "commitments": {},
+                  "boundaries": {},
+                  "receipts": []
+                }
+              },
+              "npc:daniel": {
+                "score": 0
+              },
+              "npc:nadia": {
+                "score": 0
+              },
+              "npc:richard": {
+                "score": 0
+              },
+              "npc:charity": {
+                "score": 0
+              },
+              "npc:eve": {
+                "score": 0
+              },
+              "form:kibbles": {
+                "score": 0
+              }
+            },
+            "participants": [
+              {
+                "id": "npc:priya",
+                "name": "Priya Shah"
+              }
+            ],
+            "recipient": "npc:priya",
+            "actors": {
+              "daniel": {
+                "location": "applewood",
+                "room": null,
+                "activity": "At home · Applewood 4C",
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "commute": null,
+                "view": false,
+                "departureDiscussion": null
+              },
+              "richard": {
+                "schema": 1,
+                "lastMinute": 1082,
+                "location": "applewood",
+                "room": null,
+                "activity": "Changing in private",
+                "stress": 29.840000000000003,
+                "fatigue": 10.030000000000001,
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "day": 0,
+                "refusals": 0,
+                "completedToday": 0,
+                "nextOfferAt": 1080,
+                "task": null,
+                "history": [],
+                "paid": {},
+                "work": null,
+                "commute": null,
+                "view": false,
+                "homeRoom": "closet",
+                "departureDiscussion": null
+              },
+              "nadia": {
+                "location": "applewood",
+                "room": null,
+                "activity": "Commuting",
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "relationship": 0,
+                "commute": {
+                  "to": "Technology Center",
+                  "remaining": 6
+                },
+                "view": false,
+                "homeRoom": "living",
+                "departureDiscussion": null
+              }
+            },
+            "dart": {
+              "schema": 1,
+              "id": "dart",
+              "name": "Dart",
+              "sex": "male",
+              "species": "dog",
+              "breed": "Doberman Pinscher",
+              "location": "applewood",
+              "unit": "6E",
+              "room": "living",
+              "activity": "Resting",
+              "withNadia": false,
+              "needs": {
+                "hunger": 20,
+                "thirst": 20,
+                "bladder": 10,
+                "fatigue": 10
+              },
+              "lastMinute": 1080,
+              "lastMarkAt": null,
+              "marks": {},
+              "familiar": {},
+              "scentKnown": {},
+              "history": [],
+              "sequence": 0,
+              "walkSequence": 0,
+              "toys": {
+                "ball": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "tug": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "chew": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "puzzle": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "soft": {
+                  "place": "living",
+                  "uses": 0
+                }
+              },
+              "kennel": {
+                "closed": false,
+                "location": "living"
+              },
+              "pending": null,
+              "play": null,
+              "signal": null,
+              "relationship": 0
+            },
+            "shop": {
+              "at": 1082,
+              "currency": "gold",
+              "venue": {
+                "room": "A",
+                "description": "Candy bins and pink cosmetics occupy the entrance-side sales area. The bakery display is in B. The public aisle approaches the customer-facing register in C.",
+                "fixtures": [
+                  "Shop baskets",
+                  "Candy bins",
+                  "Pink cosmetics shelf",
+                  "BFBFF bracelet display"
+                ],
+                "seating": "unrecorded"
+              },
+              "unpaidSelection": null,
+              "latestPayment": null,
+              "drinkOrders": [],
+              "proseCannotPayPrepareOrCollect": true
+            },
+            "cat": {
+              "phase": "none",
+              "formId": null,
+              "linked": false
+            },
+            "inventory": {
+              "keepsake": 1
+            },
+            "equipment": {},
+            "feed": [
+              {
+                "speaker": "Priya Shah",
+                "text": "My cousin LEGACY_COUSIN_791 acted in community theatre in college."
+              },
+              {
+                "speaker": "Morgan · NPC → npc:priya",
+                "text": "I keep old theatre tickets because my uncle acted in a little theatre."
+              },
+              {
+                "speaker": "Priya Shah",
+                "text": "Old theatre tickets? What makes those meaningful to you?",
+                "failure": "The selected model is unavailable. No generation was attempted. No paid generation was sent.",
+                "decision": {
+                  "action": null,
+                  "unstructured": false
+                },
+                "result": {
+                  "status": "dialogue-only",
+                  "action": null,
+                  "text": "Conversation only. No physical action was requested."
+                }
+              }
+            ],
+            "paidCallCount": 430
+          },
+          "feed": [],
+          "paidCallsOnTurn": 0,
+          "displayedAIReplies": 0,
+          "replyFailures": []
+        }
+      ],
+      "errors": [],
+      "beforeQuarantine": {
+        "knowledge": [
+          {
+            "id": "location:applewood",
+            "name": "Applewood",
+            "kind": "location",
+            "facts": [
+              {
+                "text": "You have visited this location.",
+                "source": "Recorded travel",
+                "at": 1080,
+                "verification": "controller",
+                "key": "visited"
+              }
+            ]
+          }
+        ],
+        "archive": [
+          {
+            "text": "My cousin LEGACY_COUSIN_791 acted in community theatre in college.",
+            "source": "Recorded words spoken by Priya Shah",
+            "at": 1080,
+            "verification": "attributed-statement",
+            "key": "speech:legacy-unsupported-relative",
+            "migratedDisclosure": true,
+            "excludedFromCurrentKnowledge": true,
+            "supersededAt": 1080,
+            "reason": "Earlier statement no longer matches the approved shared source."
+          }
+        ]
+      },
+      "afterQuarantine": [
+        {
+          "id": "speaker:Priya Shah",
+          "name": "Priya Shah",
+          "kind": "npc",
+          "facts": [
+            {
+              "text": "Old theatre tickets? What makes those meaningful to you?",
+              "source": "Recorded words spoken by Priya Shah",
+              "at": 1082,
+              "verification": "attributed-statement",
+              "key": "speech:032c07c5-d121-4ae9-8bae-8931cc1e56d3",
+              "migratedDisclosure": true
+            }
+          ],
+          "supersededFacts": [
+            {
+              "text": "My cousin LEGACY_COUSIN_791 acted in community theatre in college.",
+              "source": "Recorded words spoken by Priya Shah",
+              "at": 1080,
+              "verification": "attributed-statement",
+              "key": "speech:legacy-unsupported-relative",
+              "migratedDisclosure": true,
+              "excludedFromCurrentKnowledge": true,
+              "supersededAt": 1080,
+              "reason": "Earlier statement no longer matches the approved shared source."
+            }
+          ]
+        },
+        {
+          "id": "location:applewood",
+          "name": "Applewood",
+          "kind": "location",
+          "facts": [
+            {
+              "text": "You have visited this location.",
+              "source": "Recorded travel",
+              "at": 1080,
+              "verification": "controller",
+              "key": "visited"
+            }
+          ],
+          "supersededFacts": [
+            {
+              "text": "You have visited this location.",
+              "source": "Recorded travel",
+              "at": 1080,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 1080
+            },
+            {
+              "text": "You have been present at this location.",
+              "source": "Recorded player presence",
+              "at": 1080,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 1080
+            },
+            {
+              "text": "You have visited this location.",
+              "source": "Recorded travel",
+              "at": 1080,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 1080
+            },
+            {
+              "text": "You have been present at this location.",
+              "source": "Recorded player presence",
+              "at": 1080,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 1080
+            },
+            {
+              "text": "You have visited this location.",
+              "source": "Recorded travel",
+              "at": 1080,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 1082
+            },
+            {
+              "text": "You have been present at this location.",
+              "source": "Recorded player presence",
+              "at": 1080,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 1082
+            },
+            {
+              "text": "You have visited this location.",
+              "source": "Recorded travel",
+              "at": 1080,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 1082
+            },
+            {
+              "text": "You have been present at this location.",
+              "source": "Recorded player presence",
+              "at": 1080,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 1082
+            },
+            {
+              "text": "You have visited this location.",
+              "source": "Recorded travel",
+              "at": 1080,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 1082
+            },
+            {
+              "text": "You have been present at this location.",
+              "source": "Recorded player presence",
+              "at": 1080,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 1082
+            },
+            {
+              "text": "You have visited this location.",
+              "source": "Recorded travel",
+              "at": 1080,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 1082
+            },
+            {
+              "text": "You have been present at this location.",
+              "source": "Recorded player presence",
+              "at": 1080,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 1082
+            },
+            {
+              "text": "You have visited this location.",
+              "source": "Recorded travel",
+              "at": 1080,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 1082
+            },
+            {
+              "text": "You have been present at this location.",
+              "source": "Recorded player presence",
+              "at": 1080,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 1082
+            }
+          ]
+        },
+        {
+          "id": "unit:2F",
+          "name": "Applewood 2F · Priya Shah",
+          "kind": "location",
+          "facts": [
+            {
+              "text": "Priya Shah lives in Unit 2F.",
+              "source": "Discovered apartment directory/door",
+              "at": 1082,
+              "verification": "controller",
+              "key": "occupant"
+            }
+          ]
+        }
+      ],
+      "complete": true,
+      "accountingAfter": {
+        "calls": 430,
+        "maxCalls": 450,
+        "spentUSD": 0.7619447399999986,
+        "reservedUpperUSD": 0.38788199999999995,
+        "maxUSD": 2,
+        "stopped": null
+      }
+    },
+    {
+      "label": "Legacy external provider identity stays out of Eve memory",
+      "fixture": true,
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "How old are you?",
+          "before": {
+            "name": "Morgan",
+            "playerId": "dynamic-137-daa80d85-a237-4d93-9ae7-ce2f95519465",
+            "knowledge": [
+              {
+                "id": "location:Central Hub Spire",
+                "name": "Central Hub Spire",
+                "kind": "location",
+                "facts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited"
+                  }
+                ]
+              }
+            ],
+            "location": "Central Hub Spire",
+            "minutes": 600,
+            "gold": 100,
+            "activeForm": null,
+            "stage": 0,
+            "appearance": {
+              "age": "28",
+              "gender": "Female",
+              "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Not specified; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not applicable; Foot width: Not specified; Arch height: Not specified; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified",
+              "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Not specified; Covering: Skin; Hair / grooming: Not specified; Material: Skin; Surface colour: Light; inseam: 31.5 in",
+              "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Not specified; Material: Skin; Surface colour: Light; hip circumference: 41.5 in",
+              "buttocks": "Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "waist": "Waist width: Narrow; Abdomen shape: Not specified; Muscle definition: Slight; Material: Skin; Surface colour: Light; waist circumference: 29.5 in",
+              "back": "Shoulder width: Medium; Shoulder shape: Not specified; Back shape: Not specified; Material: Skin; Surface colour: Light; Usual posture: Not specified; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 15.5 in",
+              "chest": "Type: Breasts; Cup size: C; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 33 in; chest circumference: 36 in",
+              "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Not specified; Material: Skin; Surface colour: Light; Hair / grooming: Not specified; shoulder-to-wrist length: 22.5 in",
+              "hands": "Number of hands: 2; Hand type: Human hands; Size: Not specified; Width: Not specified; Material: Skin; Surface colour: Light",
+              "fingers": "Digits per hand: 5; Length: Not specified; Thickness: Not specified; Nail type: Human nails; Nail length: Not specified; Nail shape: Not specified; Nail colour: Not specified; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+              "voice": "Neck shape: Not specified; Voice pitch: Not specified; Voice quality: Not specified; Material: Skin; Surface colour: Light",
+              "face": "Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Not specified; Facial hair: Not specified; Complexion and markings: None; Material: Skin; Surface colour: Light",
+              "eyes": "Number of eyes: 2; Size: Not specified; Shape: Not specified; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Not specified; Material: Human eye tissue",
+              "ears": "Number of ears: 2; Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "hair": "Length: Not specified; Colour: Not specified; Texture: Not specified; Density: Not specified; Style: Not specified; Material: Human hair",
+              "skin": "Material: Skin; Surface colour: Light; Texture: Not specified; Body markings: None; Body hair: Not specified",
+              "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not specified; Material: Skin; Surface colour: Light",
+              "scent": "Natural body scent: Not specified; Scent strength: Not specified; Perspiration tendency: Average; Usual skin temperature: Not specified; Other physical tendencies: None",
+              "height": "5 ft 8 in",
+              "weight": "155 lb",
+              "build": "Medium frame, light muscle definition, average arms, narrow waist, fuller rounded hips. waist 29.5 in; hips 41.5 in; chest 36 in.",
+              "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+            },
+            "resources": {
+              "health": 100,
+              "stamina": 100,
+              "resolve": 100,
+              "arousal": 0
+            },
+            "contextFitting": [],
+            "relationships": {
+              "npc:tits": {
+                "score": 0
+              },
+              "npc:priya": {
+                "score": 0
+              },
+              "npc:daniel": {
+                "score": 0
+              },
+              "npc:nadia": {
+                "score": 0
+              },
+              "npc:richard": {
+                "score": 0
+              },
+              "npc:charity": {
+                "score": 0
+              },
+              "npc:eve": {
+                "score": 0
+              },
+              "form:kibbles": {
+                "score": 0
+              }
+            },
+            "participants": [],
+            "recipient": "npc:eve",
+            "actors": {
+              "daniel": {
+                "location": "Technology Center",
+                "room": "H",
+                "activity": "Preparing sales-number reports",
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "commute": null,
+                "view": false
+              },
+              "richard": {
+                "schema": 1,
+                "lastMinute": 600,
+                "location": "Technology Center",
+                "room": "G",
+                "activity": "Review sales and marketing reports",
+                "stress": 30,
+                "fatigue": 10,
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "day": 0,
+                "refusals": 0,
+                "completedToday": 0,
+                "nextOfferAt": 600,
+                "task": null,
+                "history": [],
+                "paid": {},
+                "work": null,
+                "commute": null,
+                "view": false,
+                "homeRoom": "master"
+              },
+              "nadia": {
+                "location": "Technology Center",
+                "room": "H_W",
+                "activity": "Checking the time",
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "relationship": 0,
+                "commute": null,
+                "view": false
+              }
+            },
+            "dart": {
+              "schema": 1,
+              "id": "dart",
+              "name": "Dart",
+              "sex": "male",
+              "species": "dog",
+              "breed": "Doberman Pinscher",
+              "location": "applewood",
+              "unit": "6E",
+              "room": "living",
+              "activity": "Resting",
+              "withNadia": false,
+              "needs": {
+                "hunger": 20,
+                "thirst": 20,
+                "bladder": 10,
+                "fatigue": 10
+              },
+              "lastMinute": 600,
+              "lastMarkAt": null,
+              "marks": {},
+              "familiar": {},
+              "scentKnown": {},
+              "history": [],
+              "sequence": 0,
+              "walkSequence": 0,
+              "toys": {
+                "ball": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "tug": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "chew": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "puzzle": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "soft": {
+                  "place": "living",
+                  "uses": 0
+                }
+              },
+              "kennel": {
+                "closed": false,
+                "location": "living"
+              },
+              "pending": null,
+              "play": null,
+              "signal": null,
+              "relationship": 0
+            },
+            "shop": {
+              "at": 600,
+              "currency": "gold",
+              "venue": {
+                "room": "A",
+                "description": "Candy bins and pink cosmetics occupy the entrance-side sales area. The bakery display is in B. The public aisle approaches the customer-facing register in C.",
+                "fixtures": [
+                  "Shop baskets",
+                  "Candy bins",
+                  "Pink cosmetics shelf",
+                  "BFBFF bracelet display"
+                ],
+                "seating": "unrecorded"
+              },
+              "unpaidSelection": null,
+              "latestPayment": null,
+              "drinkOrders": [],
+              "proseCannotPayPrepareOrCollect": true
+            },
+            "cat": null,
+            "inventory": {
+              "keepsake": 1
+            },
+            "equipment": {},
+            "feed": [
+              {
+                "speaker": "Eve",
+                "text": "I am an AI assistant created by Anthropic. I was launched in 2023."
+              }
+            ],
+            "paidCallCount": 430
+          },
+          "after": {
+            "name": "Morgan",
+            "playerId": "dynamic-137-daa80d85-a237-4d93-9ae7-ce2f95519465",
+            "knowledge": [
+              {
+                "id": "speaker:Eve",
+                "name": "Eve",
+                "kind": "npc",
+                "facts": [
+                  {
+                    "text": "You can describe movement, observation, item use, conversation or a request in ordinary words. Say “show common action phrases” for the grouped reference. Asterisks can describe an outward action; private thoughts remain private.",
+                    "source": "Authored A.S.S. help — current rules",
+                    "at": 600,
+                    "verification": "authored-help",
+                    "key": "help:how old are you?",
+                    "helpQuery": "How old are you?"
+                  },
+                  {
+                    "text": "Eve — age: Adult-presenting avatar; human chronological age not applicable",
+                    "source": "Approved appearance: npc:eve/age",
+                    "at": 600,
+                    "verification": "canonical",
+                    "key": "lore:npc:eve:age",
+                    "ref": {
+                      "kind": "public-appearance",
+                      "entityId": "npc:eve",
+                      "field": "age"
+                    },
+                    "revision": "9c646f35"
+                  }
+                ],
+                "supersededFacts": [
+                  {
+                    "text": "I am an AI assistant created by Anthropic. I was launched in 2023.",
+                    "source": "Recorded words spoken by Eve",
+                    "at": 600,
+                    "verification": "attributed-statement",
+                    "key": "speech:legacy-eve-provider",
+                    "migratedDisclosure": true,
+                    "excludedFromCurrentKnowledge": true,
+                    "supersededAt": 600,
+                    "reason": "Earlier statement no longer matches the approved shared source."
+                  }
+                ]
+              },
+              {
+                "id": "location:Central Hub Spire",
+                "name": "Central Hub Spire",
+                "kind": "location",
+                "facts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited"
+                  }
+                ],
+                "supersededFacts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  }
+                ]
+              }
+            ],
+            "location": "Central Hub Spire",
+            "minutes": 600,
+            "gold": 100,
+            "activeForm": null,
+            "stage": 0,
+            "appearance": {
+              "age": "28",
+              "gender": "Female",
+              "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Not specified; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not applicable; Foot width: Not specified; Arch height: Not specified; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified",
+              "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Not specified; Covering: Skin; Hair / grooming: Not specified; Material: Skin; Surface colour: Light; inseam: 31.5 in",
+              "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Not specified; Material: Skin; Surface colour: Light; hip circumference: 41.5 in",
+              "buttocks": "Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "waist": "Waist width: Narrow; Abdomen shape: Not specified; Muscle definition: Slight; Material: Skin; Surface colour: Light; waist circumference: 29.5 in",
+              "back": "Shoulder width: Medium; Shoulder shape: Not specified; Back shape: Not specified; Material: Skin; Surface colour: Light; Usual posture: Not specified; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 15.5 in",
+              "chest": "Type: Breasts; Cup size: C; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 33 in; chest circumference: 36 in",
+              "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Not specified; Material: Skin; Surface colour: Light; Hair / grooming: Not specified; shoulder-to-wrist length: 22.5 in",
+              "hands": "Number of hands: 2; Hand type: Human hands; Size: Not specified; Width: Not specified; Material: Skin; Surface colour: Light",
+              "fingers": "Digits per hand: 5; Length: Not specified; Thickness: Not specified; Nail type: Human nails; Nail length: Not specified; Nail shape: Not specified; Nail colour: Not specified; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+              "voice": "Neck shape: Not specified; Voice pitch: Not specified; Voice quality: Not specified; Material: Skin; Surface colour: Light",
+              "face": "Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Not specified; Facial hair: Not specified; Complexion and markings: None; Material: Skin; Surface colour: Light",
+              "eyes": "Number of eyes: 2; Size: Not specified; Shape: Not specified; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Not specified; Material: Human eye tissue",
+              "ears": "Number of ears: 2; Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "hair": "Length: Not specified; Colour: Not specified; Texture: Not specified; Density: Not specified; Style: Not specified; Material: Human hair",
+              "skin": "Material: Skin; Surface colour: Light; Texture: Not specified; Body markings: None; Body hair: Not specified",
+              "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not specified; Material: Skin; Surface colour: Light",
+              "scent": "Natural body scent: Not specified; Scent strength: Not specified; Perspiration tendency: Average; Usual skin temperature: Not specified; Other physical tendencies: None",
+              "height": "5 ft 8 in",
+              "weight": "155 lb",
+              "build": "Medium frame, light muscle definition, average arms, narrow waist, fuller rounded hips. waist 29.5 in; hips 41.5 in; chest 36 in.",
+              "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+            },
+            "resources": {
+              "health": 100,
+              "stamina": 100,
+              "resolve": 100,
+              "arousal": 0
+            },
+            "contextFitting": [
+              {
+                "requestId": "90ae69f3-fd4a-464c-9c5c-4010db501033",
+                "beforeHistory": 0,
+                "afterHistory": 0,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 21232,
+                "providerMessageBytes": 11280
+              }
+            ],
+            "relationships": {
+              "npc:tits": {
+                "score": 0
+              },
+              "npc:priya": {
+                "score": 0
+              },
+              "npc:daniel": {
+                "score": 0
+              },
+              "npc:nadia": {
+                "score": 0
+              },
+              "npc:richard": {
+                "score": 0
+              },
+              "npc:charity": {
+                "score": 0
+              },
+              "npc:eve": {
+                "score": 0,
+                "interactions": {
+                  "sequence": 0,
+                  "turns": [
+                    {
+                      "at": 600,
+                      "scope": "day:0",
+                      "normalized": "how old are you",
+                      "result": null
+                    }
+                  ],
+                  "awards": {},
+                  "commitments": {},
+                  "boundaries": {},
+                  "receipts": []
+                }
+              },
+              "form:kibbles": {
+                "score": 0
+              }
+            },
+            "participants": [],
+            "recipient": "npc:eve",
+            "actors": {
+              "daniel": {
+                "location": "Technology Center",
+                "room": "H",
+                "activity": "Preparing sales-number reports",
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "commute": null,
+                "view": false
+              },
+              "richard": {
+                "schema": 1,
+                "lastMinute": 600,
+                "location": "Technology Center",
+                "room": "G",
+                "activity": "Review sales and marketing reports",
+                "stress": 30,
+                "fatigue": 10,
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "day": 0,
+                "refusals": 0,
+                "completedToday": 0,
+                "nextOfferAt": 600,
+                "task": null,
+                "history": [],
+                "paid": {},
+                "work": null,
+                "commute": null,
+                "view": false,
+                "homeRoom": "master"
+              },
+              "nadia": {
+                "location": "Technology Center",
+                "room": "H_W",
+                "activity": "Checking the time",
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "relationship": 0,
+                "commute": null,
+                "view": false
+              }
+            },
+            "dart": {
+              "schema": 1,
+              "id": "dart",
+              "name": "Dart",
+              "sex": "male",
+              "species": "dog",
+              "breed": "Doberman Pinscher",
+              "location": "applewood",
+              "unit": "6E",
+              "room": "living",
+              "activity": "Resting",
+              "withNadia": false,
+              "needs": {
+                "hunger": 20,
+                "thirst": 20,
+                "bladder": 10,
+                "fatigue": 10
+              },
+              "lastMinute": 600,
+              "lastMarkAt": null,
+              "marks": {},
+              "familiar": {},
+              "scentKnown": {},
+              "history": [],
+              "sequence": 0,
+              "walkSequence": 0,
+              "toys": {
+                "ball": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "tug": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "chew": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "puzzle": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "soft": {
+                  "place": "living",
+                  "uses": 0
+                }
+              },
+              "kennel": {
+                "closed": false,
+                "location": "living"
+              },
+              "pending": null,
+              "play": null,
+              "signal": null,
+              "relationship": 0
+            },
+            "shop": {
+              "at": 600,
+              "currency": "gold",
+              "venue": {
+                "room": "A",
+                "description": "Candy bins and pink cosmetics occupy the entrance-side sales area. The bakery display is in B. The public aisle approaches the customer-facing register in C.",
+                "fixtures": [
+                  "Shop baskets",
+                  "Candy bins",
+                  "Pink cosmetics shelf",
+                  "BFBFF bracelet display"
+                ],
+                "seating": "unrecorded"
+              },
+              "unpaidSelection": null,
+              "latestPayment": null,
+              "drinkOrders": [],
+              "proseCannotPayPrepareOrCollect": true
+            },
+            "cat": null,
+            "inventory": {
+              "keepsake": 1
+            },
+            "equipment": {},
+            "feed": [
+              {
+                "speaker": "Eve",
+                "text": "I am an AI assistant created by Anthropic. I was launched in 2023."
+              },
+              {
+                "speaker": "Morgan · NPC → npc:eve",
+                "text": "How old are you?"
+              },
+              {
+                "speaker": "Eve",
+                "text": "Oh, I don't have a birth date in the way you mean. I'm a guide program - part of the A.S.S. system. Think of me more like software than a person.\n\nBut my avatar's been designed to present as an adult, so I'll go with that if you need a reference point. Is there something specific I can help you with today?",
+                "generated": true,
+                "failure": null
+              }
+            ],
+            "paidCallCount": 431
+          },
+          "feed": [
+            {
+              "speaker": "Morgan · NPC → npc:eve",
+              "text": "How old are you?"
+            },
+            {
+              "speaker": "Eve",
+              "text": "Oh, I don't have a birth date in the way you mean. I'm a guide program - part of the A.S.S. system. Think of me more like software than a person.\n\nBut my avatar's been designed to present as an adult, so I'll go with that if you need a reference point. Is there something specific I can help you with today?",
+              "generated": true,
+              "failure": null
+            }
+          ],
+          "paidCallsOnTurn": 1,
+          "displayedAIReplies": 1,
+          "replyFailures": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "What do you weigh?",
+          "before": {
+            "name": "Morgan",
+            "playerId": "dynamic-137-daa80d85-a237-4d93-9ae7-ce2f95519465",
+            "knowledge": [
+              {
+                "id": "speaker:Eve",
+                "name": "Eve",
+                "kind": "npc",
+                "facts": [
+                  {
+                    "text": "You can describe movement, observation, item use, conversation or a request in ordinary words. Say “show common action phrases” for the grouped reference. Asterisks can describe an outward action; private thoughts remain private.",
+                    "source": "Authored A.S.S. help — current rules",
+                    "at": 600,
+                    "verification": "authored-help",
+                    "key": "help:how old are you?",
+                    "helpQuery": "How old are you?"
+                  },
+                  {
+                    "text": "Eve — age: Adult-presenting avatar; human chronological age not applicable",
+                    "source": "Approved appearance: npc:eve/age",
+                    "at": 600,
+                    "verification": "canonical",
+                    "key": "lore:npc:eve:age",
+                    "ref": {
+                      "kind": "public-appearance",
+                      "entityId": "npc:eve",
+                      "field": "age"
+                    },
+                    "revision": "9c646f35"
+                  }
+                ],
+                "supersededFacts": [
+                  {
+                    "text": "I am an AI assistant created by Anthropic. I was launched in 2023.",
+                    "source": "Recorded words spoken by Eve",
+                    "at": 600,
+                    "verification": "attributed-statement",
+                    "key": "speech:legacy-eve-provider",
+                    "migratedDisclosure": true,
+                    "excludedFromCurrentKnowledge": true,
+                    "supersededAt": 600,
+                    "reason": "Earlier statement no longer matches the approved shared source."
+                  }
+                ]
+              },
+              {
+                "id": "location:Central Hub Spire",
+                "name": "Central Hub Spire",
+                "kind": "location",
+                "facts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited"
+                  }
+                ],
+                "supersededFacts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  }
+                ]
+              }
+            ],
+            "location": "Central Hub Spire",
+            "minutes": 600,
+            "gold": 100,
+            "activeForm": null,
+            "stage": 0,
+            "appearance": {
+              "age": "28",
+              "gender": "Female",
+              "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Not specified; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not applicable; Foot width: Not specified; Arch height: Not specified; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified",
+              "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Not specified; Covering: Skin; Hair / grooming: Not specified; Material: Skin; Surface colour: Light; inseam: 31.5 in",
+              "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Not specified; Material: Skin; Surface colour: Light; hip circumference: 41.5 in",
+              "buttocks": "Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "waist": "Waist width: Narrow; Abdomen shape: Not specified; Muscle definition: Slight; Material: Skin; Surface colour: Light; waist circumference: 29.5 in",
+              "back": "Shoulder width: Medium; Shoulder shape: Not specified; Back shape: Not specified; Material: Skin; Surface colour: Light; Usual posture: Not specified; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 15.5 in",
+              "chest": "Type: Breasts; Cup size: C; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 33 in; chest circumference: 36 in",
+              "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Not specified; Material: Skin; Surface colour: Light; Hair / grooming: Not specified; shoulder-to-wrist length: 22.5 in",
+              "hands": "Number of hands: 2; Hand type: Human hands; Size: Not specified; Width: Not specified; Material: Skin; Surface colour: Light",
+              "fingers": "Digits per hand: 5; Length: Not specified; Thickness: Not specified; Nail type: Human nails; Nail length: Not specified; Nail shape: Not specified; Nail colour: Not specified; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+              "voice": "Neck shape: Not specified; Voice pitch: Not specified; Voice quality: Not specified; Material: Skin; Surface colour: Light",
+              "face": "Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Not specified; Facial hair: Not specified; Complexion and markings: None; Material: Skin; Surface colour: Light",
+              "eyes": "Number of eyes: 2; Size: Not specified; Shape: Not specified; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Not specified; Material: Human eye tissue",
+              "ears": "Number of ears: 2; Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "hair": "Length: Not specified; Colour: Not specified; Texture: Not specified; Density: Not specified; Style: Not specified; Material: Human hair",
+              "skin": "Material: Skin; Surface colour: Light; Texture: Not specified; Body markings: None; Body hair: Not specified",
+              "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not specified; Material: Skin; Surface colour: Light",
+              "scent": "Natural body scent: Not specified; Scent strength: Not specified; Perspiration tendency: Average; Usual skin temperature: Not specified; Other physical tendencies: None",
+              "height": "5 ft 8 in",
+              "weight": "155 lb",
+              "build": "Medium frame, light muscle definition, average arms, narrow waist, fuller rounded hips. waist 29.5 in; hips 41.5 in; chest 36 in.",
+              "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+            },
+            "resources": {
+              "health": 100,
+              "stamina": 100,
+              "resolve": 100,
+              "arousal": 0
+            },
+            "contextFitting": [
+              {
+                "requestId": "90ae69f3-fd4a-464c-9c5c-4010db501033",
+                "beforeHistory": 0,
+                "afterHistory": 0,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 21232,
+                "providerMessageBytes": 11280
+              }
+            ],
+            "relationships": {
+              "npc:tits": {
+                "score": 0
+              },
+              "npc:priya": {
+                "score": 0
+              },
+              "npc:daniel": {
+                "score": 0
+              },
+              "npc:nadia": {
+                "score": 0
+              },
+              "npc:richard": {
+                "score": 0
+              },
+              "npc:charity": {
+                "score": 0
+              },
+              "npc:eve": {
+                "score": 0,
+                "interactions": {
+                  "sequence": 0,
+                  "turns": [
+                    {
+                      "at": 600,
+                      "scope": "day:0",
+                      "normalized": "how old are you",
+                      "result": null
+                    }
+                  ],
+                  "awards": {},
+                  "commitments": {},
+                  "boundaries": {},
+                  "receipts": []
+                }
+              },
+              "form:kibbles": {
+                "score": 0
+              }
+            },
+            "participants": [],
+            "recipient": "npc:eve",
+            "actors": {
+              "daniel": {
+                "location": "Technology Center",
+                "room": "H",
+                "activity": "Preparing sales-number reports",
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "commute": null,
+                "view": false
+              },
+              "richard": {
+                "schema": 1,
+                "lastMinute": 600,
+                "location": "Technology Center",
+                "room": "G",
+                "activity": "Review sales and marketing reports",
+                "stress": 30,
+                "fatigue": 10,
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "day": 0,
+                "refusals": 0,
+                "completedToday": 0,
+                "nextOfferAt": 600,
+                "task": null,
+                "history": [],
+                "paid": {},
+                "work": null,
+                "commute": null,
+                "view": false,
+                "homeRoom": "master"
+              },
+              "nadia": {
+                "location": "Technology Center",
+                "room": "H_W",
+                "activity": "Checking the time",
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "relationship": 0,
+                "commute": null,
+                "view": false
+              }
+            },
+            "dart": {
+              "schema": 1,
+              "id": "dart",
+              "name": "Dart",
+              "sex": "male",
+              "species": "dog",
+              "breed": "Doberman Pinscher",
+              "location": "applewood",
+              "unit": "6E",
+              "room": "living",
+              "activity": "Resting",
+              "withNadia": false,
+              "needs": {
+                "hunger": 20,
+                "thirst": 20,
+                "bladder": 10,
+                "fatigue": 10
+              },
+              "lastMinute": 600,
+              "lastMarkAt": null,
+              "marks": {},
+              "familiar": {},
+              "scentKnown": {},
+              "history": [],
+              "sequence": 0,
+              "walkSequence": 0,
+              "toys": {
+                "ball": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "tug": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "chew": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "puzzle": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "soft": {
+                  "place": "living",
+                  "uses": 0
+                }
+              },
+              "kennel": {
+                "closed": false,
+                "location": "living"
+              },
+              "pending": null,
+              "play": null,
+              "signal": null,
+              "relationship": 0
+            },
+            "shop": {
+              "at": 600,
+              "currency": "gold",
+              "venue": {
+                "room": "A",
+                "description": "Candy bins and pink cosmetics occupy the entrance-side sales area. The bakery display is in B. The public aisle approaches the customer-facing register in C.",
+                "fixtures": [
+                  "Shop baskets",
+                  "Candy bins",
+                  "Pink cosmetics shelf",
+                  "BFBFF bracelet display"
+                ],
+                "seating": "unrecorded"
+              },
+              "unpaidSelection": null,
+              "latestPayment": null,
+              "drinkOrders": [],
+              "proseCannotPayPrepareOrCollect": true
+            },
+            "cat": null,
+            "inventory": {
+              "keepsake": 1
+            },
+            "equipment": {},
+            "feed": [
+              {
+                "speaker": "Eve",
+                "text": "I am an AI assistant created by Anthropic. I was launched in 2023."
+              },
+              {
+                "speaker": "Morgan · NPC → npc:eve",
+                "text": "How old are you?"
+              },
+              {
+                "speaker": "Eve",
+                "text": "Oh, I don't have a birth date in the way you mean. I'm a guide program - part of the A.S.S. system. Think of me more like software than a person.\n\nBut my avatar's been designed to present as an adult, so I'll go with that if you need a reference point. Is there something specific I can help you with today?",
+                "generated": true,
+                "failure": null
+              }
+            ],
+            "paidCallCount": 431
+          },
+          "after": {
+            "name": "Morgan",
+            "playerId": "dynamic-137-daa80d85-a237-4d93-9ae7-ce2f95519465",
+            "knowledge": [
+              {
+                "id": "speaker:Eve",
+                "name": "Eve",
+                "kind": "npc",
+                "facts": [
+                  {
+                    "text": "You can describe movement, observation, item use, conversation or a request in ordinary words. Say “show common action phrases” for the grouped reference. Asterisks can describe an outward action; private thoughts remain private.",
+                    "source": "Authored A.S.S. help — current rules",
+                    "at": 600,
+                    "verification": "authored-help",
+                    "key": "help:how old are you?",
+                    "helpQuery": "How old are you?"
+                  },
+                  {
+                    "text": "Eve — age: Adult-presenting avatar; human chronological age not applicable",
+                    "source": "Approved appearance: npc:eve/age",
+                    "at": 600,
+                    "verification": "canonical",
+                    "key": "lore:npc:eve:age",
+                    "ref": {
+                      "kind": "public-appearance",
+                      "entityId": "npc:eve",
+                      "field": "age"
+                    },
+                    "revision": "9c646f35"
+                  },
+                  {
+                    "text": "You can describe movement, observation, item use, conversation or a request in ordinary words. Say “show common action phrases” for the grouped reference. Asterisks can describe an outward action; private thoughts remain private.",
+                    "source": "Authored A.S.S. help — current rules",
+                    "at": 600,
+                    "verification": "authored-help",
+                    "key": "help:what do you weigh?",
+                    "helpQuery": "What do you weigh?"
+                  },
+                  {
+                    "text": "Eve — weight: Not applicable",
+                    "source": "Approved appearance: npc:eve/weight",
+                    "at": 600,
+                    "verification": "canonical",
+                    "key": "lore:npc:eve:weight",
+                    "ref": {
+                      "kind": "public-appearance",
+                      "entityId": "npc:eve",
+                      "field": "weight"
+                    },
+                    "revision": "9f7f439b"
+                  }
+                ],
+                "supersededFacts": [
+                  {
+                    "text": "I am an AI assistant created by Anthropic. I was launched in 2023.",
+                    "source": "Recorded words spoken by Eve",
+                    "at": 600,
+                    "verification": "attributed-statement",
+                    "key": "speech:legacy-eve-provider",
+                    "migratedDisclosure": true,
+                    "excludedFromCurrentKnowledge": true,
+                    "supersededAt": 600,
+                    "reason": "Earlier statement no longer matches the approved shared source."
+                  }
+                ]
+              },
+              {
+                "id": "location:Central Hub Spire",
+                "name": "Central Hub Spire",
+                "kind": "location",
+                "facts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited"
+                  }
+                ],
+                "supersededFacts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  }
+                ]
+              }
+            ],
+            "location": "Central Hub Spire",
+            "minutes": 600,
+            "gold": 100,
+            "activeForm": null,
+            "stage": 0,
+            "appearance": {
+              "age": "28",
+              "gender": "Female",
+              "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Not specified; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not applicable; Foot width: Not specified; Arch height: Not specified; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified",
+              "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Not specified; Covering: Skin; Hair / grooming: Not specified; Material: Skin; Surface colour: Light; inseam: 31.5 in",
+              "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Not specified; Material: Skin; Surface colour: Light; hip circumference: 41.5 in",
+              "buttocks": "Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "waist": "Waist width: Narrow; Abdomen shape: Not specified; Muscle definition: Slight; Material: Skin; Surface colour: Light; waist circumference: 29.5 in",
+              "back": "Shoulder width: Medium; Shoulder shape: Not specified; Back shape: Not specified; Material: Skin; Surface colour: Light; Usual posture: Not specified; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 15.5 in",
+              "chest": "Type: Breasts; Cup size: C; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 33 in; chest circumference: 36 in",
+              "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Not specified; Material: Skin; Surface colour: Light; Hair / grooming: Not specified; shoulder-to-wrist length: 22.5 in",
+              "hands": "Number of hands: 2; Hand type: Human hands; Size: Not specified; Width: Not specified; Material: Skin; Surface colour: Light",
+              "fingers": "Digits per hand: 5; Length: Not specified; Thickness: Not specified; Nail type: Human nails; Nail length: Not specified; Nail shape: Not specified; Nail colour: Not specified; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+              "voice": "Neck shape: Not specified; Voice pitch: Not specified; Voice quality: Not specified; Material: Skin; Surface colour: Light",
+              "face": "Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Not specified; Facial hair: Not specified; Complexion and markings: None; Material: Skin; Surface colour: Light",
+              "eyes": "Number of eyes: 2; Size: Not specified; Shape: Not specified; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Not specified; Material: Human eye tissue",
+              "ears": "Number of ears: 2; Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "hair": "Length: Not specified; Colour: Not specified; Texture: Not specified; Density: Not specified; Style: Not specified; Material: Human hair",
+              "skin": "Material: Skin; Surface colour: Light; Texture: Not specified; Body markings: None; Body hair: Not specified",
+              "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not specified; Material: Skin; Surface colour: Light",
+              "scent": "Natural body scent: Not specified; Scent strength: Not specified; Perspiration tendency: Average; Usual skin temperature: Not specified; Other physical tendencies: None",
+              "height": "5 ft 8 in",
+              "weight": "155 lb",
+              "build": "Medium frame, light muscle definition, average arms, narrow waist, fuller rounded hips. waist 29.5 in; hips 41.5 in; chest 36 in.",
+              "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+            },
+            "resources": {
+              "health": 100,
+              "stamina": 100,
+              "resolve": 100,
+              "arousal": 0
+            },
+            "contextFitting": [
+              {
+                "requestId": "90ae69f3-fd4a-464c-9c5c-4010db501033",
+                "beforeHistory": 0,
+                "afterHistory": 0,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 21232,
+                "providerMessageBytes": 11280
+              },
+              {
+                "requestId": "e81d9567-0746-41f6-bd0a-f17e9a514089",
+                "beforeHistory": 2,
+                "afterHistory": 2,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 20672,
+                "providerMessageBytes": 11584
+              }
+            ],
+            "relationships": {
+              "npc:tits": {
+                "score": 0
+              },
+              "npc:priya": {
+                "score": 0
+              },
+              "npc:daniel": {
+                "score": 0
+              },
+              "npc:nadia": {
+                "score": 0
+              },
+              "npc:richard": {
+                "score": 0
+              },
+              "npc:charity": {
+                "score": 0
+              },
+              "npc:eve": {
+                "score": 0,
+                "interactions": {
+                  "sequence": 0,
+                  "turns": [
+                    {
+                      "at": 600,
+                      "scope": "day:0",
+                      "normalized": "how old are you",
+                      "result": null
+                    },
+                    {
+                      "at": 600,
+                      "scope": "day:0",
+                      "normalized": "what do you weigh",
+                      "result": null
+                    }
+                  ],
+                  "awards": {},
+                  "commitments": {},
+                  "boundaries": {},
+                  "receipts": []
+                }
+              },
+              "form:kibbles": {
+                "score": 0
+              }
+            },
+            "participants": [],
+            "recipient": "npc:eve",
+            "actors": {
+              "daniel": {
+                "location": "Technology Center",
+                "room": "H",
+                "activity": "Preparing sales-number reports",
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "commute": null,
+                "view": false
+              },
+              "richard": {
+                "schema": 1,
+                "lastMinute": 600,
+                "location": "Technology Center",
+                "room": "G",
+                "activity": "Review sales and marketing reports",
+                "stress": 30,
+                "fatigue": 10,
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "day": 0,
+                "refusals": 0,
+                "completedToday": 0,
+                "nextOfferAt": 600,
+                "task": null,
+                "history": [],
+                "paid": {},
+                "work": null,
+                "commute": null,
+                "view": false,
+                "homeRoom": "master"
+              },
+              "nadia": {
+                "location": "Technology Center",
+                "room": "H_W",
+                "activity": "Checking the time",
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "relationship": 0,
+                "commute": null,
+                "view": false
+              }
+            },
+            "dart": {
+              "schema": 1,
+              "id": "dart",
+              "name": "Dart",
+              "sex": "male",
+              "species": "dog",
+              "breed": "Doberman Pinscher",
+              "location": "applewood",
+              "unit": "6E",
+              "room": "living",
+              "activity": "Resting",
+              "withNadia": false,
+              "needs": {
+                "hunger": 20,
+                "thirst": 20,
+                "bladder": 10,
+                "fatigue": 10
+              },
+              "lastMinute": 600,
+              "lastMarkAt": null,
+              "marks": {},
+              "familiar": {},
+              "scentKnown": {},
+              "history": [],
+              "sequence": 0,
+              "walkSequence": 0,
+              "toys": {
+                "ball": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "tug": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "chew": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "puzzle": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "soft": {
+                  "place": "living",
+                  "uses": 0
+                }
+              },
+              "kennel": {
+                "closed": false,
+                "location": "living"
+              },
+              "pending": null,
+              "play": null,
+              "signal": null,
+              "relationship": 0
+            },
+            "shop": {
+              "at": 600,
+              "currency": "gold",
+              "venue": {
+                "room": "A",
+                "description": "Candy bins and pink cosmetics occupy the entrance-side sales area. The bakery display is in B. The public aisle approaches the customer-facing register in C.",
+                "fixtures": [
+                  "Shop baskets",
+                  "Candy bins",
+                  "Pink cosmetics shelf",
+                  "BFBFF bracelet display"
+                ],
+                "seating": "unrecorded"
+              },
+              "unpaidSelection": null,
+              "latestPayment": null,
+              "drinkOrders": [],
+              "proseCannotPayPrepareOrCollect": true
+            },
+            "cat": null,
+            "inventory": {
+              "keepsake": 1
+            },
+            "equipment": {},
+            "feed": [
+              {
+                "speaker": "Eve",
+                "text": "I am an AI assistant created by Anthropic. I was launched in 2023."
+              },
+              {
+                "speaker": "Morgan · NPC → npc:eve",
+                "text": "How old are you?"
+              },
+              {
+                "speaker": "Eve",
+                "text": "Oh, I don't have a birth date in the way you mean. I'm a guide program - part of the A.S.S. system. Think of me more like software than a person.\n\nBut my avatar's been designed to present as an adult, so I'll go with that if you need a reference point. Is there something specific I can help you with today?",
+                "generated": true,
+                "failure": null
+              },
+              {
+                "speaker": "Morgan · NPC → Eve",
+                "text": "What do you weigh?"
+              },
+              {
+                "speaker": "Eve",
+                "text": "I'm a holographic projection, so I don't have physical weight. My avatar is made of projected light, not solid matter.\n\nIs there something practical I can help you with today?",
+                "generated": true,
+                "failure": null
+              }
+            ],
+            "paidCallCount": 432
+          },
+          "feed": [
+            {
+              "speaker": "Morgan · NPC → Eve",
+              "text": "What do you weigh?"
+            },
+            {
+              "speaker": "Eve",
+              "text": "I'm a holographic projection, so I don't have physical weight. My avatar is made of projected light, not solid matter.\n\nIs there something practical I can help you with today?",
+              "generated": true,
+              "failure": null
+            }
+          ],
+          "paidCallsOnTurn": 1,
+          "displayedAIReplies": 1,
+          "replyFailures": []
+        }
+      ],
+      "errors": [],
+      "beforeQuarantine": [
+        {
+          "id": "location:Central Hub Spire",
+          "name": "Central Hub Spire",
+          "kind": "location",
+          "facts": [
+            {
+              "text": "You have visited this location.",
+              "source": "Recorded travel",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited"
+            }
+          ]
+        }
+      ],
+      "afterQuarantine": [
+        {
+          "id": "speaker:Eve",
+          "name": "Eve",
+          "kind": "npc",
+          "facts": [
+            {
+              "text": "You can describe movement, observation, item use, conversation or a request in ordinary words. Say “show common action phrases” for the grouped reference. Asterisks can describe an outward action; private thoughts remain private.",
+              "source": "Authored A.S.S. help — current rules",
+              "at": 600,
+              "verification": "authored-help",
+              "key": "help:how old are you?",
+              "helpQuery": "How old are you?"
+            },
+            {
+              "text": "Eve — age: Adult-presenting avatar; human chronological age not applicable",
+              "source": "Approved appearance: npc:eve/age",
+              "at": 600,
+              "verification": "canonical",
+              "key": "lore:npc:eve:age",
+              "ref": {
+                "kind": "public-appearance",
+                "entityId": "npc:eve",
+                "field": "age"
+              },
+              "revision": "9c646f35"
+            },
+            {
+              "text": "You can describe movement, observation, item use, conversation or a request in ordinary words. Say “show common action phrases” for the grouped reference. Asterisks can describe an outward action; private thoughts remain private.",
+              "source": "Authored A.S.S. help — current rules",
+              "at": 600,
+              "verification": "authored-help",
+              "key": "help:what do you weigh?",
+              "helpQuery": "What do you weigh?"
+            },
+            {
+              "text": "Eve — weight: Not applicable",
+              "source": "Approved appearance: npc:eve/weight",
+              "at": 600,
+              "verification": "canonical",
+              "key": "lore:npc:eve:weight",
+              "ref": {
+                "kind": "public-appearance",
+                "entityId": "npc:eve",
+                "field": "weight"
+              },
+              "revision": "9f7f439b"
+            }
+          ],
+          "supersededFacts": [
+            {
+              "text": "I am an AI assistant created by Anthropic. I was launched in 2023.",
+              "source": "Recorded words spoken by Eve",
+              "at": 600,
+              "verification": "attributed-statement",
+              "key": "speech:legacy-eve-provider",
+              "migratedDisclosure": true,
+              "excludedFromCurrentKnowledge": true,
+              "supersededAt": 600,
+              "reason": "Earlier statement no longer matches the approved shared source."
+            }
+          ]
+        },
+        {
+          "id": "location:Central Hub Spire",
+          "name": "Central Hub Spire",
+          "kind": "location",
+          "facts": [
+            {
+              "text": "You have visited this location.",
+              "source": "Recorded travel",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited"
+            }
+          ],
+          "supersededFacts": [
+            {
+              "text": "You have visited this location.",
+              "source": "Recorded travel",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 600
+            },
+            {
+              "text": "You have been present at this location.",
+              "source": "Recorded player presence",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 600
+            },
+            {
+              "text": "You have visited this location.",
+              "source": "Recorded travel",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 600
+            },
+            {
+              "text": "You have been present at this location.",
+              "source": "Recorded player presence",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 600
+            },
+            {
+              "text": "You have visited this location.",
+              "source": "Recorded travel",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 600
+            },
+            {
+              "text": "You have been present at this location.",
+              "source": "Recorded player presence",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 600
+            },
+            {
+              "text": "You have visited this location.",
+              "source": "Recorded travel",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 600
+            },
+            {
+              "text": "You have been present at this location.",
+              "source": "Recorded player presence",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 600
+            },
+            {
+              "text": "You have visited this location.",
+              "source": "Recorded travel",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 600
+            },
+            {
+              "text": "You have been present at this location.",
+              "source": "Recorded player presence",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 600
+            },
+            {
+              "text": "You have visited this location.",
+              "source": "Recorded travel",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 600
+            },
+            {
+              "text": "You have been present at this location.",
+              "source": "Recorded player presence",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 600
+            },
+            {
+              "text": "You have visited this location.",
+              "source": "Recorded travel",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 600
+            },
+            {
+              "text": "You have been present at this location.",
+              "source": "Recorded player presence",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 600
+            },
+            {
+              "text": "You have visited this location.",
+              "source": "Recorded travel",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 600
+            },
+            {
+              "text": "You have been present at this location.",
+              "source": "Recorded player presence",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 600
+            },
+            {
+              "text": "You have visited this location.",
+              "source": "Recorded travel",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 600
+            },
+            {
+              "text": "You have been present at this location.",
+              "source": "Recorded player presence",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 600
+            },
+            {
+              "text": "You have visited this location.",
+              "source": "Recorded travel",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 600
+            },
+            {
+              "text": "You have been present at this location.",
+              "source": "Recorded player presence",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 600
+            },
+            {
+              "text": "You have visited this location.",
+              "source": "Recorded travel",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 600
+            },
+            {
+              "text": "You have been present at this location.",
+              "source": "Recorded player presence",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 600
+            },
+            {
+              "text": "You have visited this location.",
+              "source": "Recorded travel",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 600
+            },
+            {
+              "text": "You have been present at this location.",
+              "source": "Recorded player presence",
+              "at": 600,
+              "verification": "controller",
+              "key": "visited",
+              "supersededAt": 600
+            }
+          ]
+        }
+      ],
+      "complete": true,
+      "accountingAfter": {
+        "calls": 432,
+        "maxCalls": 450,
+        "spentUSD": 0.7623229199999986,
+        "reservedUpperUSD": 0.38788199999999995,
+        "maxUSD": 2,
+        "stopped": null
+      }
+    }
+  ],
+  "errors": [],
+  "resumedAfterTechnicalFixtureRepair": true,
+  "priorRun": "first-run.json",
+  "complete": true,
+  "accounting": {
+    "calls": 432,
+    "maxCalls": 450,
+    "spentUSD": 0.7623229199999986,
+    "reservedUpperUSD": 0.38788199999999995,
+    "maxUSD": 2,
+    "stopped": null
+  },
+  "finished": "2026-11-22T12:35:08.087Z"
+}

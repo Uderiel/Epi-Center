@@ -1,0 +1,27 @@
+{
+  "baselineCalls": 442,
+  "sourceManifest": "source-manifest-v10.json",
+  "sameWorker": "request-handoff-v11",
+  "limits": {
+    "maxCalls": 470,
+    "maxUSD": 2
+  },
+  "oldUncertainty": [
+    [
+      "52adc75c-26bb-42d7-82af-a80bf5cde819",
+      0.110302
+    ],
+    [
+      "432e418f-18c4-4f42-9dd1-05978731ce66",
+      0.138721
+    ],
+    [
+      "07dcc342-53f0-4289-b085-7b50b0a86da7",
+      0.13885899999999998
+    ]
+  ],
+  "rootCause": "Planner-completed dialogue did not call Tits.talk, so standalone talk tests did not prove UI memory persisted. Actual captured recall packet showed wish:null.",
+  "repair": "Dedicated idempotent recordUnderstanding records actual heard text after dialogue-only controller resolution and on direct heard dialogue, without replaying talk or score/actions. Both current and clarified meanings reach recall.",
+  "verification": "Actual browser planner/writer flow with deliberately wrong responses, reload, initial wish recall and confidence correction passes. Final paid test uses same frozen bytes.",
+  "time": "2026-11-22T12:44:29.374457+00:00"
+}

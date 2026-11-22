@@ -1,0 +1,38 @@
+{
+  "baselineCalls": 372,
+  "sameWorker": "request-handoff-v11",
+  "sourceManifest": "source-manifest-v4.json",
+  "limits": {
+    "maxCalls": 420,
+    "maxUSD": 2
+  },
+  "oldUncertainty": [
+    [
+      "52adc75c-26bb-42d7-82af-a80bf5cde819",
+      0.110302
+    ],
+    [
+      "432e418f-18c4-4f42-9dd1-05978731ce66",
+      0.138721
+    ],
+    [
+      "07dcc342-53f0-4289-b085-7b50b0a86da7",
+      0.13885899999999998
+    ]
+  ],
+  "changes": [
+    "Clause-safe arch direction including long relative clauses; no new ankle/calf/shin movements outside reached features.",
+    "Actual exterior location participates in private body validation; former familiarity and invented shoe coverage excluded.",
+    "One fifteen weight abbreviation interpreted as115lb; real115lb and incorrect15lb distinguished.",
+    "Dart age-plus-breed fallback uses requested authored breed, no pedigree or adoption inference.",
+    "Tits wish and explicit clarification stored per actual player/appearance; recall uses that source across reload.",
+    "Explained idioms and unexplained literal referents remain distinct; no fabricated supervisor quotation or fresh production batch."
+  ],
+  "expected": [
+    "Every independent case finishes despite a semantic failure.",
+    "Safe fallback counted separately from accepted generated dialogue.",
+    "Unchanged body/resources/gold except actual equip/hour controller effects.",
+    "No cross-player lore or memory transfer."
+  ],
+  "time": "2026-11-22T12:22:45.689711+00:00"
+}

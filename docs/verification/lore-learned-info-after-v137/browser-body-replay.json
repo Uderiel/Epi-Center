@@ -1,0 +1,154 @@
+{
+  "realModel": false,
+  "callsForwarded": 0,
+  "checks": [
+    {
+      "which": "erin",
+      "passed": true,
+      "interceptedRequests": 2
+    }
+  ],
+  "packets": [
+    {
+      "which": "erin",
+      "request": {
+        "kind": "transformation",
+        "actor": {
+          "id": "narrator:transformation",
+          "name": "Transformation narrator",
+          "dossier": "Asterisks depict actions, thoughts or inner dialogue, NEVER spoken words or commands. External NPCs cannot hear private narration. Forms may understand internal thoughts and imagery. Dreams remain dreams: never answer as if spoken, wake the player or urge sleep because of dream content. Only the game confirms physical actions. In mixed input, distinguish expressed words from narration. Describe only physical changes explicitly recorded in this event and the current body. No extra stage, clothing, anatomy, loss of agency or new consequence.",
+          "communication": "Vivid, coherent second-person prose grounded in recorded changes."
+        },
+        "scene": "{\"contextVersion\":\"scene-contract-v1\",\"publicVenues\":[],\"publicVenueNotes\":\"Reviews and opening dates are unrecorded\",\"visibleParticipants\":[],\"physicalContext\":{\"space\":\"Technology Center:outside\",\"roomId\":null,\"publicIdentity\":\"Erin Lillard\",\"wornItems\":[{\"name\":\"Erin’s Favorite Red Heels (Cursed)\",\"slot\":\"shoes\"}],\"clothingKnowledge\":\"Only the listed items are recorded as worn; unlisted socks, shoes or garments are unknown, not implied.\",\"activeForm\":null,\"body\":{\"name\":\"Erin Lillard\",\"bodyType\":\"human\",\"senses\":[\"human touch\",\"balance\",\"pressure\"]},\"property\":null,\"travelMode\":{\"id\":\"walk\",\"minutes\":8,\"stamina\":0},\"perspiration\":{\"playerVisible\":null,\"nearby\":[]},\"playerBodyExperience\":{\"source\":\"recorded-erin-heels\",\"fromStage\":0,\"stage\":1,\"totalStages\":23,\"milestones\":[{\"stage\":1,\"region\":\"feet\",\"change\":\"Arches reshaping to fit the heels\"}],\"changedFields\":[\"footSize\"],\"appearance\":{\"footSize\":\"Arches reshaping to fit the heels\"},\"projectedRegionTargets\":{\"footSize\":\"High arches; arches reshaping to fit the heels\"},\"featureScope\":{\"protocol\":\"reached-milestone-features-v1\",\"details\":[\"Arches reshaping to fit the heels\"],\"limits\":\"Only these reached features change now. Other visible current features may be described but do not acquire another transformation or voluntary movement.\"},\"comparison\":{\"transition\":{\"footSize\":{\"priorKnown\":true,\"direction\":\"changes\",\"dimensions\":{\"length\":\"unrecorded\",\"width\":\"unrecorded\",\"toeLength\":\"unrecorded\",\"toeSpread\":\"unrecorded\"}}},\"after\":{\"footSize\":\"Arches reshaping to fit the heels\"},\"changedRegionsOnly\":[\"footSize\"]},\"presentation\":\"Describe these reached non-explicit physical changes as a continuous embodied transition. Use relevant sight, touch, balance and changes in sound or voice where supported. Smell and taste need a recorded source. Do not force every sense, invent injury or add later stages.\",\"limits\":\"These are physical milestones only; identity, mastery, permission, resources and control do not change through prose.\",\"currentReachedRegionsOnly\":true}},\"eventStatus\":\"unrecorded\",\"playerInput\":{\"expressed\":\"\",\"narration\":[],\"onlyNarration\":false,\"privateNarration\":false,\"expressedChannel\":\"spoken words\",\"narrationIsNotSpeech\":true},\"location\":\"Technology Center\",\"room\":null,\"time\":\"Mon · 10:01\",\"currentForm\":null,\"visibleNPCs\":[],\"eventOutcomeIsFinal\":false,\"conversation\":{\"mode\":\"reply-to-latest-player-thought\"},\"currentAppearance\":\"{\\\"footSize\\\":\\\"Arches reshaping to fit the heels\\\"}\",\"transformationExperience\":{\"source\":\"recorded-erin-heels\",\"fromStage\":0,\"stage\":1,\"totalStages\":23,\"milestones\":[{\"stage\":1,\"region\":\"feet\",\"change\":\"Arches reshaping to fit the heels\"}],\"changedFields\":[\"footSize\"],\"appearance\":{\"footSize\":\"Arches reshaping to fit the heels\"},\"projectedRegionTargets\":{\"footSize\":\"High arches; arches reshaping to fit the heels\"},\"featureScope\":{\"protocol\":\"reached-milestone-features-v1\",\"details\":[\"Arches reshaping to fit the heels\"],\"limits\":\"Only these reached features change now. Other visible current features may be described but do not acquire another transformation or voluntary movement.\"},\"comparison\":{\"transition\":{\"footSize\":{\"priorKnown\":true,\"direction\":\"changes\",\"dimensions\":{\"length\":\"unrecorded\",\"width\":\"unrecorded\",\"toeLength\":\"unrecorded\",\"toeSpread\":\"unrecorded\"}}},\"after\":{\"footSize\":\"Arches reshaping to fit the heels\"},\"changedRegionsOnly\":[\"footSize\"]},\"presentation\":\"Describe these reached non-explicit physical changes as a continuous embodied transition. Use relevant sight, touch, balance and changes in sound or voice where supported. Smell and taste need a recorded source. Do not force every sense, invent injury or add later stages.\",\"limits\":\"These are physical milestones only; identity, mastery, permission, resources and control do not change through prose.\",\"currentReachedRegionsOnly\":true},\"bodyInspection\":null,\"tone\":\"standard\"}\nTechnology Center. The office building houses the sales and marketing department; its third floor contains offices, cubicles, conference space, and employee facilities.",
+        "message": "Describe this specific recorded milestone as an unfolding bodily experience, using its changed regions, current symptoms and already-reached appearance. Center the actual physical change rather than reciting a stat line or describing scenery. Describe only changedFields as changing now. Other regions referenced by a proportion are not thereby transformed. Use comparison.transition to establish direction; projectedRegionTargets supplies the intended regional outcome, not proof it is already reached. An unknown direction must not be described as growth or shrinking. Previous body values are not retained as a restoration copy. Only physicalContext.wornItems establishes worn clothing. Do not jump to later stages, invent garments or symptoms, or force player thoughts, actions or emotions.",
+        "event": "Identified: Erin’s Favorite Red Heels (Cursed). You put on the red heels; the curse activates. A gentle pressure gathers where your feet meet the heels. Your arches begin to reshape around their steep angle.",
+        "history": [],
+        "requestId": "85a675cb-3374-4f67-af39-b0cb16aae6c0",
+        "clientTimeoutMs": 120000
+      }
+    },
+    {
+      "which": "erin",
+      "request": {
+        "kind": "transformation",
+        "actor": {
+          "id": "narrator:transformation",
+          "name": "Transformation narrator",
+          "dossier": "Asterisks depict actions, thoughts or inner dialogue, NEVER spoken words or commands. External NPCs cannot hear private narration. Forms may understand internal thoughts and imagery. Dreams remain dreams: never answer as if spoken, wake the player or urge sleep because of dream content. Only the game confirms physical actions. In mixed input, distinguish expressed words from narration. Describe only physical changes explicitly recorded in this event and the current body. No extra stage, clothing, anatomy, loss of agency or new consequence.",
+          "communication": "Vivid, coherent second-person prose grounded in recorded changes."
+        },
+        "scene": "{\"contextVersion\":\"scene-contract-v1\",\"publicVenues\":[],\"publicVenueNotes\":\"Reviews and opening dates are unrecorded\",\"visibleParticipants\":[],\"physicalContext\":{\"space\":\"Technology Center:outside\",\"roomId\":null,\"publicIdentity\":\"Erin Lillard\",\"wornItems\":[{\"name\":\"Erin’s Favorite Red Heels (Cursed)\",\"slot\":\"shoes\"}],\"clothingKnowledge\":\"Only the listed items are recorded as worn; unlisted socks, shoes or garments are unknown, not implied.\",\"activeForm\":null,\"body\":{\"name\":\"Erin Lillard\",\"bodyType\":\"human\",\"senses\":[\"human touch\",\"balance\",\"pressure\"]},\"property\":null,\"travelMode\":{\"id\":\"walk\",\"minutes\":8,\"stamina\":0},\"perspiration\":{\"playerVisible\":null,\"nearby\":[]},\"playerBodyExperience\":{\"source\":\"recorded-erin-heels\",\"fromStage\":0,\"stage\":1,\"totalStages\":23,\"milestones\":[{\"stage\":1,\"region\":\"feet\",\"change\":\"Arches reshaping to fit the heels\"}],\"changedFields\":[\"footSize\"],\"appearance\":{\"footSize\":\"Arches reshaping to fit the heels\"},\"projectedRegionTargets\":{\"footSize\":\"High arches; arches reshaping to fit the heels\"},\"featureScope\":{\"protocol\":\"reached-milestone-features-v1\",\"details\":[\"Arches reshaping to fit the heels\"],\"limits\":\"Only these reached features change now. Other visible current features may be described but do not acquire another transformation or voluntary movement.\"},\"comparison\":{\"transition\":{\"footSize\":{\"priorKnown\":true,\"direction\":\"changes\",\"dimensions\":{\"length\":\"unrecorded\",\"width\":\"unrecorded\",\"toeLength\":\"unrecorded\",\"toeSpread\":\"unrecorded\"}}},\"after\":{\"footSize\":\"Arches reshaping to fit the heels\"},\"changedRegionsOnly\":[\"footSize\"]},\"presentation\":\"Describe these reached non-explicit physical changes as a continuous embodied transition. Use relevant sight, touch, balance and changes in sound or voice where supported. Smell and taste need a recorded source. Do not force every sense, invent injury or add later stages.\",\"limits\":\"These are physical milestones only; identity, mastery, permission, resources and control do not change through prose.\",\"currentReachedRegionsOnly\":true}},\"eventStatus\":\"unrecorded\",\"playerInput\":{\"expressed\":\"\",\"narration\":[],\"onlyNarration\":false,\"privateNarration\":false,\"expressedChannel\":\"spoken words\",\"narrationIsNotSpeech\":true},\"location\":\"Technology Center\",\"room\":null,\"time\":\"Mon · 10:01\",\"currentForm\":null,\"visibleNPCs\":[],\"eventOutcomeIsFinal\":false,\"conversation\":{\"mode\":\"reply-to-latest-player-thought\"},\"currentAppearance\":\"{\\\"footSize\\\":\\\"Arches reshaping to fit the heels\\\"}\",\"transformationExperience\":{\"source\":\"recorded-erin-heels\",\"fromStage\":0,\"stage\":1,\"totalStages\":23,\"milestones\":[{\"stage\":1,\"region\":\"feet\",\"change\":\"Arches reshaping to fit the heels\"}],\"changedFields\":[\"footSize\"],\"appearance\":{\"footSize\":\"Arches reshaping to fit the heels\"},\"projectedRegionTargets\":{\"footSize\":\"High arches; arches reshaping to fit the heels\"},\"featureScope\":{\"protocol\":\"reached-milestone-features-v1\",\"details\":[\"Arches reshaping to fit the heels\"],\"limits\":\"Only these reached features change now. Other visible current features may be described but do not acquire another transformation or voluntary movement.\"},\"comparison\":{\"transition\":{\"footSize\":{\"priorKnown\":true,\"direction\":\"changes\",\"dimensions\":{\"length\":\"unrecorded\",\"width\":\"unrecorded\",\"toeLength\":\"unrecorded\",\"toeSpread\":\"unrecorded\"}}},\"after\":{\"footSize\":\"Arches reshaping to fit the heels\"},\"changedRegionsOnly\":[\"footSize\"]},\"presentation\":\"Describe these reached non-explicit physical changes as a continuous embodied transition. Use relevant sight, touch, balance and changes in sound or voice where supported. Smell and taste need a recorded source. Do not force every sense, invent injury or add later stages.\",\"limits\":\"These are physical milestones only; identity, mastery, permission, resources and control do not change through prose.\",\"currentReachedRegionsOnly\":true},\"bodyInspection\":null,\"tone\":\"standard\"}\nTechnology Center. The office building houses the sales and marketing department; its third floor contains offices, cubicles, conference space, and employee facilities.",
+        "message": "Describe this specific recorded milestone as an unfolding bodily experience, using its changed regions, current symptoms and already-reached appearance. Center the actual physical change rather than reciting a stat line or describing scenery. Describe only changedFields as changing now. Other regions referenced by a proportion are not thereby transformed. Use comparison.transition to establish direction; projectedRegionTargets supplies the intended regional outcome, not proof it is already reached. An unknown direction must not be described as growth or shrinking. Previous body values are not retained as a restoration copy. Only physicalContext.wornItems establishes worn clothing. Do not jump to later stages, invent garments or symptoms, or force player thoughts, actions or emotions.",
+        "event": "Identified: Erin’s Favorite Red Heels (Cursed). You put on the red heels; the curse activates. A gentle pressure gathers where your feet meet the heels. Your arches begin to reshape around their steep angle.",
+        "history": [],
+        "requestId": "35e120d2-9272-4e24-8151-6faa1a60f1eb",
+        "repair": {
+          "issues": [
+            "This milestone does not change ankles. Describe only the supplied reached feature details.",
+            "The reached foot target has high arches; do not describe the arches flattening or lowering."
+          ]
+        },
+        "clientTimeoutMs": 120000
+      }
+    }
+  ],
+  "errors": [],
+  "knownFailureReplay": {
+    "stage": 1,
+    "gold": 100,
+    "entry": {
+      "speaker": "Physical transformation",
+      "text": "Identified: Erin’s Favorite Red Heels (Cursed). You put on the red heels; the curse activates. A gentle pressure gathers where your feet meet the heels. Your arches begin to reshape around their steep angle.",
+      "gameAt": "Mon · 10:01",
+      "at": "2026-11-22T12:20:29.784Z",
+      "origin": "transformation",
+      "audience": "owner",
+      "appearance": {
+        "age": "28",
+        "gender": "Female",
+        "footSize": "Feet present: Not specified; Number of feet: Not specified; Foot type: Not specified; Describe foot size using: Not specified; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not applicable; Foot width: Not specified; Arch height: Not specified; Sole or pads: Not specified; Toes per foot: Not specified; Nails or claws: Not specified; Covering: Not specified; Material: Not specified; Surface colour: Not specified; Surface texture: Not specified; Markings: Not specified; Recorded details: Arches reshaping to fit the heels",
+        "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Not specified; Covering: Skin; Hair / grooming: Not specified; Material: Skin; Surface colour: Light; inseam: 31.5 in",
+        "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Not specified; Material: Skin; Surface colour: Light; hip circumference: 41.5 in",
+        "buttocks": "Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+        "waist": "Waist width: Narrow; Abdomen shape: Not specified; Muscle definition: Slight; Material: Skin; Surface colour: Light; waist circumference: 29.5 in",
+        "back": "Shoulder width: Medium; Shoulder shape: Not specified; Back shape: Not specified; Material: Skin; Surface colour: Light; Usual posture: Not specified; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 15.5 in",
+        "chest": "Type: Breasts; Cup size: C; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 33 in; chest circumference: 36 in",
+        "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Not specified; Material: Skin; Surface colour: Light; Hair / grooming: Not specified; shoulder-to-wrist length: 22.5 in",
+        "hands": "Number of hands: 2; Hand type: Human hands; Size: Not specified; Width: Not specified; Material: Skin; Surface colour: Light",
+        "fingers": "Digits per hand: 5; Length: Not specified; Thickness: Not specified; Nail type: Human nails; Nail length: Not specified; Nail shape: Not specified; Nail colour: Not specified; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+        "voice": "Neck shape: Not specified; Voice pitch: Not specified; Voice quality: Not specified; Material: Skin; Surface colour: Light",
+        "face": "Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Not specified; Facial hair: Not specified; Complexion and markings: None; Material: Skin; Surface colour: Light",
+        "eyes": "Number of eyes: 2; Size: Not specified; Shape: Not specified; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Not specified; Material: Human eye tissue",
+        "ears": "Number of ears: 2; Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+        "hair": "Length: Not specified; Colour: Not specified; Texture: Not specified; Density: Not specified; Style: Not specified; Material: Human hair",
+        "skin": "Material: Skin; Surface colour: Light; Texture: Not specified; Body markings: None; Body hair: Not specified",
+        "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not specified; Material: Skin; Surface colour: Light",
+        "scent": "Natural body scent: Not specified; Scent strength: Not specified; Perspiration tendency: Average; Usual skin temperature: Not specified; Other physical tendencies: None",
+        "height": "5 ft 8 in",
+        "weight": "155 lb",
+        "build": "Medium frame, light muscle definition, average arms, narrow waist, fuller rounded hips. waist 29.5 in; hips 41.5 in; chest 36 in.",
+        "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+      },
+      "transformationFacts": {
+        "source": "recorded-erin-heels",
+        "fromStage": 0,
+        "stage": 1,
+        "totalStages": 23,
+        "milestones": [
+          {
+            "stage": 1,
+            "region": "feet",
+            "change": "Arches reshaping to fit the heels"
+          }
+        ],
+        "changedFields": [
+          "footSize"
+        ],
+        "appearance": {
+          "footSize": "Arches reshaping to fit the heels"
+        },
+        "projectedRegionTargets": {
+          "footSize": "High arches; arches reshaping to fit the heels"
+        },
+        "featureScope": {
+          "protocol": "reached-milestone-features-v1",
+          "details": [
+            "Arches reshaping to fit the heels"
+          ],
+          "limits": "Only these reached features change now. Other visible current features may be described but do not acquire another transformation or voluntary movement."
+        },
+        "comparison": {
+          "transition": {
+            "footSize": {
+              "priorKnown": true,
+              "direction": "changes",
+              "dimensions": {
+                "length": "unrecorded",
+                "width": "unrecorded",
+                "toeLength": "unrecorded",
+                "toeSpread": "unrecorded"
+              }
+            }
+          },
+          "after": {
+            "footSize": "Arches reshaping to fit the heels"
+          },
+          "changedRegionsOnly": [
+            "footSize"
+          ]
+        },
+        "presentation": "Describe these reached non-explicit physical changes as a continuous embodied transition. Use relevant sight, touch, balance and changes in sound or voice where supported. Smell and taste need a recorded source. Do not force every sense, invent injury or add later stages.",
+        "limits": "These are physical milestones only; identity, mastery, permission, resources and control do not change through prose."
+      },
+      "knowledgeOwnerId": "free-path-erin",
+      "knowledgeLocation": "Technology Center",
+      "knowledgeEventId": "2731f508-698e-4ea3-a2f1-87ff4e379d77",
+      "recordedRoom": "Technology Center. The office building houses the sales and marketing department; its third floor contains offices, cubicles, conference space, and employee facilities.",
+      "aiRequestId": "85a675cb-3374-4f67-af39-b0cb16aae6c0",
+      "aiFailure": "AI response contradicted recorded context after one correction; the recorded response is preserved.",
+      "feedId": "feed-1"
+    },
+    "history": null
+  },
+  "passed": true
+}

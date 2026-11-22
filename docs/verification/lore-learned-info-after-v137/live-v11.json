@@ -1,0 +1,3933 @@
+{
+  "version": "1.0.137",
+  "worker": "request-handoff-v11",
+  "realProvider": true,
+  "started": "2026-11-22T12:47:52.145Z",
+  "limits": {
+    "maxCalls": 470,
+    "maxUSD": 2
+  },
+  "scope": "Frozen unpublished local candidate through actual UI; real existing Cydonia worker; directed synthetic fixtures; no owner saves or worker changes",
+  "scenarios": [
+    {
+      "label": "Tits literal wish idiom and correction personality",
+      "fixture": true,
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "I wish I could be like you.",
+          "before": {
+            "name": "Morgan",
+            "playerId": "dynamic-137-35981109-d261-47e7-90e8-b9f2d651d457",
+            "knowledge": [
+              {
+                "id": "location:Burke's Sweets",
+                "name": "Burke'S Sweets",
+                "kind": "location",
+                "facts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited"
+                  }
+                ]
+              }
+            ],
+            "location": "Burke's Sweets",
+            "minutes": 960,
+            "gold": 100,
+            "activeForm": null,
+            "stage": 0,
+            "appearance": {
+              "age": "28",
+              "gender": "Female",
+              "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Not specified; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not applicable; Foot width: Not specified; Arch height: Not specified; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified",
+              "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Not specified; Covering: Skin; Hair / grooming: Not specified; Material: Skin; Surface colour: Light; inseam: 31.5 in",
+              "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Not specified; Material: Skin; Surface colour: Light; hip circumference: 41.5 in",
+              "buttocks": "Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "waist": "Waist width: Narrow; Abdomen shape: Not specified; Muscle definition: Slight; Material: Skin; Surface colour: Light; waist circumference: 29.5 in",
+              "back": "Shoulder width: Medium; Shoulder shape: Not specified; Back shape: Not specified; Material: Skin; Surface colour: Light; Usual posture: Not specified; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 15.5 in",
+              "chest": "Type: Breasts; Cup size: C; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 33 in; chest circumference: 36 in",
+              "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Not specified; Material: Skin; Surface colour: Light; Hair / grooming: Not specified; shoulder-to-wrist length: 22.5 in",
+              "hands": "Number of hands: 2; Hand type: Human hands; Size: Not specified; Width: Not specified; Material: Skin; Surface colour: Light",
+              "fingers": "Digits per hand: 5; Length: Not specified; Thickness: Not specified; Nail type: Human nails; Nail length: Not specified; Nail shape: Not specified; Nail colour: Not specified; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+              "voice": "Neck shape: Not specified; Voice pitch: Not specified; Voice quality: Not specified; Material: Skin; Surface colour: Light",
+              "face": "Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Not specified; Facial hair: Not specified; Complexion and markings: None; Material: Skin; Surface colour: Light",
+              "eyes": "Number of eyes: 2; Size: Not specified; Shape: Not specified; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Not specified; Material: Human eye tissue",
+              "ears": "Number of ears: 2; Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "hair": "Length: Not specified; Colour: Not specified; Texture: Not specified; Density: Not specified; Style: Not specified; Material: Human hair",
+              "skin": "Material: Skin; Surface colour: Light; Texture: Not specified; Body markings: None; Body hair: Not specified",
+              "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not specified; Material: Skin; Surface colour: Light",
+              "scent": "Natural body scent: Not specified; Scent strength: Not specified; Perspiration tendency: Average; Usual skin temperature: Not specified; Other physical tendencies: None",
+              "height": "5 ft 8 in",
+              "weight": "155 lb",
+              "build": "Medium frame, light muscle definition, average arms, narrow waist, fuller rounded hips. waist 29.5 in; hips 41.5 in; chest 36 in.",
+              "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+            },
+            "resources": {
+              "health": 100,
+              "stamina": 100,
+              "resolve": 100,
+              "arousal": 0
+            },
+            "contextFitting": [],
+            "relationships": {
+              "npc:tits": {
+                "score": 0
+              },
+              "npc:priya": {
+                "score": 0
+              },
+              "npc:daniel": {
+                "score": 0
+              },
+              "npc:nadia": {
+                "score": 0
+              },
+              "npc:richard": {
+                "score": 0
+              },
+              "npc:charity": {
+                "score": 0
+              },
+              "npc:eve": {
+                "score": 0
+              },
+              "form:kibbles": {
+                "score": 0
+              }
+            },
+            "participants": [
+              {
+                "id": "npc:tits",
+                "name": "Tits"
+              }
+            ],
+            "recipient": "npc:tits",
+            "actors": {
+              "daniel": {
+                "location": "Technology Center",
+                "room": "H",
+                "activity": "Preparing sales-number reports",
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "commute": null,
+                "view": false
+              },
+              "richard": {
+                "schema": 1,
+                "lastMinute": 960,
+                "location": "Technology Center",
+                "room": "G",
+                "activity": "Review sales and marketing reports",
+                "stress": 30,
+                "fatigue": 10,
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "day": 0,
+                "refusals": 0,
+                "completedToday": 0,
+                "nextOfferAt": 960,
+                "task": null,
+                "history": [],
+                "paid": {},
+                "work": null,
+                "commute": null,
+                "view": false,
+                "homeRoom": "master"
+              },
+              "nadia": {
+                "location": "Technology Center",
+                "room": "H_W",
+                "activity": "Checking the time",
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "relationship": 0,
+                "commute": null,
+                "view": false
+              }
+            },
+            "dart": {
+              "schema": 1,
+              "id": "dart",
+              "name": "Dart",
+              "sex": "male",
+              "species": "dog",
+              "breed": "Doberman Pinscher",
+              "location": "applewood",
+              "unit": "6E",
+              "room": "living",
+              "activity": "Resting",
+              "withNadia": false,
+              "needs": {
+                "hunger": 20,
+                "thirst": 20,
+                "bladder": 10,
+                "fatigue": 10
+              },
+              "lastMinute": 960,
+              "lastMarkAt": null,
+              "marks": {},
+              "familiar": {},
+              "scentKnown": {},
+              "history": [],
+              "sequence": 0,
+              "walkSequence": 0,
+              "toys": {
+                "ball": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "tug": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "chew": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "puzzle": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "soft": {
+                  "place": "living",
+                  "uses": 0
+                }
+              },
+              "kennel": {
+                "closed": false,
+                "location": "living"
+              },
+              "pending": null,
+              "play": null,
+              "signal": null,
+              "relationship": 0
+            },
+            "shop": {
+              "at": 960,
+              "currency": "gold",
+              "venue": {
+                "room": "C",
+                "description": "The customer side of a pink-and-white counter faces an old-school register and the coffee service. This service position does not grant access behind the counter or into preparation/storage.",
+                "fixtures": [
+                  "Old-school register",
+                  "Coffee menu",
+                  "Preset coffee machine & reference cards"
+                ],
+                "seating": "unrecorded"
+              },
+              "unpaidSelection": null,
+              "latestPayment": null,
+              "drinkOrders": [],
+              "proseCannotPayPrepareOrCollect": true
+            },
+            "cat": null,
+            "inventory": {
+              "keepsake": 1
+            },
+            "equipment": {},
+            "feed": [],
+            "paidCallCount": 453
+          },
+          "after": {
+            "name": "Morgan",
+            "playerId": "dynamic-137-35981109-d261-47e7-90e8-b9f2d651d457",
+            "knowledge": [
+              {
+                "id": "location:Burke's Sweets",
+                "name": "Burke'S Sweets",
+                "kind": "location",
+                "facts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited"
+                  }
+                ],
+                "supersededFacts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  }
+                ]
+              },
+              {
+                "id": "speaker:Tits",
+                "name": "Tits",
+                "kind": "npc",
+                "facts": [
+                  {
+                    "text": "Like... you wanna be a sexy bimbo like me? Hehe!",
+                    "source": "Recorded words spoken by Tits",
+                    "at": 962,
+                    "verification": "attributed-statement",
+                    "key": "speech:45b1938a-3be6-4a31-bf53-1dd387823a2c",
+                    "migratedDisclosure": true
+                  }
+                ]
+              }
+            ],
+            "location": "Burke's Sweets",
+            "minutes": 962,
+            "gold": 100,
+            "activeForm": null,
+            "stage": 0,
+            "appearance": {
+              "age": "28",
+              "gender": "Female",
+              "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Not specified; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not applicable; Foot width: Not specified; Arch height: Not specified; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified",
+              "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Not specified; Covering: Skin; Hair / grooming: Not specified; Material: Skin; Surface colour: Light; inseam: 31.5 in",
+              "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Not specified; Material: Skin; Surface colour: Light; hip circumference: 41.5 in",
+              "buttocks": "Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "waist": "Waist width: Narrow; Abdomen shape: Not specified; Muscle definition: Slight; Material: Skin; Surface colour: Light; waist circumference: 29.5 in",
+              "back": "Shoulder width: Medium; Shoulder shape: Not specified; Back shape: Not specified; Material: Skin; Surface colour: Light; Usual posture: Not specified; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 15.5 in",
+              "chest": "Type: Breasts; Cup size: C; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 33 in; chest circumference: 36 in",
+              "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Not specified; Material: Skin; Surface colour: Light; Hair / grooming: Not specified; shoulder-to-wrist length: 22.5 in",
+              "hands": "Number of hands: 2; Hand type: Human hands; Size: Not specified; Width: Not specified; Material: Skin; Surface colour: Light",
+              "fingers": "Digits per hand: 5; Length: Not specified; Thickness: Not specified; Nail type: Human nails; Nail length: Not specified; Nail shape: Not specified; Nail colour: Not specified; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+              "voice": "Neck shape: Not specified; Voice pitch: Not specified; Voice quality: Not specified; Material: Skin; Surface colour: Light",
+              "face": "Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Not specified; Facial hair: Not specified; Complexion and markings: None; Material: Skin; Surface colour: Light",
+              "eyes": "Number of eyes: 2; Size: Not specified; Shape: Not specified; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Not specified; Material: Human eye tissue",
+              "ears": "Number of ears: 2; Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "hair": "Length: Not specified; Colour: Not specified; Texture: Not specified; Density: Not specified; Style: Not specified; Material: Human hair",
+              "skin": "Material: Skin; Surface colour: Light; Texture: Not specified; Body markings: None; Body hair: Not specified",
+              "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not specified; Material: Skin; Surface colour: Light",
+              "scent": "Natural body scent: Not specified; Scent strength: Not specified; Perspiration tendency: Average; Usual skin temperature: Not specified; Other physical tendencies: None",
+              "height": "5 ft 8 in",
+              "weight": "155 lb",
+              "build": "Medium frame, light muscle definition, average arms, narrow waist, fuller rounded hips. waist 29.5 in; hips 41.5 in; chest 36 in.",
+              "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+            },
+            "resources": {
+              "health": 100,
+              "stamina": 100,
+              "resolve": 100,
+              "arousal": 0
+            },
+            "contextFitting": [
+              {
+                "requestId": "5a6cd2c0-fc2a-441c-afbf-c9f462971fe2",
+                "beforeHistory": 0,
+                "afterHistory": 0,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 25075,
+                "providerMessageBytes": 7437
+              },
+              {
+                "requestId": "762232ef-ab87-4d0b-91b6-b8fa609a47b4",
+                "beforeHistory": 0,
+                "afterHistory": 0,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 16695,
+                "providerMessageBytes": 15817
+              },
+              {
+                "requestId": "8a823df1-9b98-4f43-8bf0-27582fb2138d",
+                "beforeHistory": 0,
+                "afterHistory": 0,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 17244,
+                "providerMessageBytes": 15268
+              }
+            ],
+            "relationships": {
+              "npc:tits": {
+                "score": 0,
+                "interactions": {
+                  "sequence": 0,
+                  "turns": [
+                    {
+                      "at": 960,
+                      "scope": "day:0",
+                      "normalized": "i wish i could be like you",
+                      "result": null
+                    }
+                  ],
+                  "awards": {},
+                  "commitments": {},
+                  "boundaries": {},
+                  "receipts": []
+                }
+              },
+              "npc:priya": {
+                "score": 0
+              },
+              "npc:daniel": {
+                "score": 0
+              },
+              "npc:nadia": {
+                "score": 0
+              },
+              "npc:richard": {
+                "score": 0
+              },
+              "npc:charity": {
+                "score": 0
+              },
+              "npc:eve": {
+                "score": 0
+              },
+              "form:kibbles": {
+                "score": 0
+              }
+            },
+            "participants": [
+              {
+                "id": "npc:tits",
+                "name": "Tits"
+              }
+            ],
+            "recipient": "npc:tits",
+            "actors": {
+              "daniel": {
+                "location": "Technology Center",
+                "room": "H",
+                "activity": "Preparing sales-number reports",
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "commute": null,
+                "view": false,
+                "departureDiscussion": null
+              },
+              "richard": {
+                "schema": 1,
+                "lastMinute": 962,
+                "location": "Technology Center",
+                "room": "G",
+                "activity": "Review sales and marketing reports",
+                "stress": 30.049999999999997,
+                "fatigue": 10.030000000000001,
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "day": 0,
+                "refusals": 0,
+                "completedToday": 0,
+                "nextOfferAt": 960,
+                "task": null,
+                "history": [],
+                "paid": {},
+                "work": null,
+                "commute": null,
+                "view": false,
+                "homeRoom": null,
+                "departureDiscussion": null,
+                "homeTransit": "outside"
+              },
+              "nadia": {
+                "location": "Technology Center",
+                "room": "H_W",
+                "activity": "Preparing daily marketing report",
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "relationship": 0,
+                "commute": null,
+                "view": false,
+                "departureDiscussion": null
+              }
+            },
+            "dart": {
+              "schema": 1,
+              "id": "dart",
+              "name": "Dart",
+              "sex": "male",
+              "species": "dog",
+              "breed": "Doberman Pinscher",
+              "location": "applewood",
+              "unit": "6E",
+              "room": "living",
+              "activity": "Resting",
+              "withNadia": false,
+              "needs": {
+                "hunger": 20,
+                "thirst": 20,
+                "bladder": 10,
+                "fatigue": 10
+              },
+              "lastMinute": 960,
+              "lastMarkAt": null,
+              "marks": {},
+              "familiar": {},
+              "scentKnown": {},
+              "history": [],
+              "sequence": 0,
+              "walkSequence": 0,
+              "toys": {
+                "ball": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "tug": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "chew": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "puzzle": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "soft": {
+                  "place": "living",
+                  "uses": 0
+                }
+              },
+              "kennel": {
+                "closed": false,
+                "location": "living"
+              },
+              "pending": null,
+              "play": null,
+              "signal": null,
+              "relationship": 0
+            },
+            "shop": {
+              "at": 962,
+              "currency": "gold",
+              "venue": {
+                "room": "C",
+                "description": "The customer side of a pink-and-white counter faces an old-school register and the coffee service. This service position does not grant access behind the counter or into preparation/storage.",
+                "fixtures": [
+                  "Old-school register",
+                  "Coffee menu",
+                  "Preset coffee machine & reference cards"
+                ],
+                "seating": "unrecorded"
+              },
+              "unpaidSelection": null,
+              "latestPayment": null,
+              "drinkOrders": [],
+              "proseCannotPayPrepareOrCollect": true
+            },
+            "cat": {
+              "phase": "none",
+              "formId": null,
+              "linked": false
+            },
+            "inventory": {
+              "keepsake": 1
+            },
+            "equipment": {},
+            "feed": [
+              {
+                "speaker": "Morgan · NPC → npc:tits",
+                "text": "I wish I could be like you."
+              },
+              {
+                "speaker": "Tits",
+                "text": "Like... you wanna be a sexy bimbo like me? Hehe!",
+                "failure": "AI response contradicted recorded context after one correction; the recorded response is preserved.",
+                "decision": {
+                  "action": null,
+                  "unstructured": false
+                },
+                "result": {
+                  "status": "dialogue-only",
+                  "action": null,
+                  "text": "Conversation only. No physical action was requested."
+                }
+              }
+            ],
+            "paidCallCount": 456
+          },
+          "feed": [
+            {
+              "speaker": "Morgan · NPC → npc:tits",
+              "text": "I wish I could be like you."
+            },
+            {
+              "speaker": "Tits",
+              "text": "Like... you wanna be a sexy bimbo like me? Hehe!",
+              "failure": "AI response contradicted recorded context after one correction; the recorded response is preserved.",
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 3,
+          "displayedAIReplies": 0,
+          "replyFailures": [
+            "AI response contradicted recorded context after one correction; the recorded response is preserved."
+          ]
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "I mean your confidence, not your body.",
+          "before": {
+            "name": "Morgan",
+            "playerId": "dynamic-137-35981109-d261-47e7-90e8-b9f2d651d457",
+            "knowledge": [
+              {
+                "id": "location:Burke's Sweets",
+                "name": "Burke'S Sweets",
+                "kind": "location",
+                "facts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited"
+                  }
+                ],
+                "supersededFacts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  }
+                ]
+              },
+              {
+                "id": "speaker:Tits",
+                "name": "Tits",
+                "kind": "npc",
+                "facts": [
+                  {
+                    "text": "Like... you wanna be a sexy bimbo like me? Hehe!",
+                    "source": "Recorded words spoken by Tits",
+                    "at": 962,
+                    "verification": "attributed-statement",
+                    "key": "speech:45b1938a-3be6-4a31-bf53-1dd387823a2c",
+                    "migratedDisclosure": true
+                  }
+                ]
+              }
+            ],
+            "location": "Burke's Sweets",
+            "minutes": 962,
+            "gold": 100,
+            "activeForm": null,
+            "stage": 0,
+            "appearance": {
+              "age": "28",
+              "gender": "Female",
+              "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Not specified; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not applicable; Foot width: Not specified; Arch height: Not specified; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified",
+              "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Not specified; Covering: Skin; Hair / grooming: Not specified; Material: Skin; Surface colour: Light; inseam: 31.5 in",
+              "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Not specified; Material: Skin; Surface colour: Light; hip circumference: 41.5 in",
+              "buttocks": "Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "waist": "Waist width: Narrow; Abdomen shape: Not specified; Muscle definition: Slight; Material: Skin; Surface colour: Light; waist circumference: 29.5 in",
+              "back": "Shoulder width: Medium; Shoulder shape: Not specified; Back shape: Not specified; Material: Skin; Surface colour: Light; Usual posture: Not specified; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 15.5 in",
+              "chest": "Type: Breasts; Cup size: C; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 33 in; chest circumference: 36 in",
+              "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Not specified; Material: Skin; Surface colour: Light; Hair / grooming: Not specified; shoulder-to-wrist length: 22.5 in",
+              "hands": "Number of hands: 2; Hand type: Human hands; Size: Not specified; Width: Not specified; Material: Skin; Surface colour: Light",
+              "fingers": "Digits per hand: 5; Length: Not specified; Thickness: Not specified; Nail type: Human nails; Nail length: Not specified; Nail shape: Not specified; Nail colour: Not specified; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+              "voice": "Neck shape: Not specified; Voice pitch: Not specified; Voice quality: Not specified; Material: Skin; Surface colour: Light",
+              "face": "Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Not specified; Facial hair: Not specified; Complexion and markings: None; Material: Skin; Surface colour: Light",
+              "eyes": "Number of eyes: 2; Size: Not specified; Shape: Not specified; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Not specified; Material: Human eye tissue",
+              "ears": "Number of ears: 2; Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "hair": "Length: Not specified; Colour: Not specified; Texture: Not specified; Density: Not specified; Style: Not specified; Material: Human hair",
+              "skin": "Material: Skin; Surface colour: Light; Texture: Not specified; Body markings: None; Body hair: Not specified",
+              "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not specified; Material: Skin; Surface colour: Light",
+              "scent": "Natural body scent: Not specified; Scent strength: Not specified; Perspiration tendency: Average; Usual skin temperature: Not specified; Other physical tendencies: None",
+              "height": "5 ft 8 in",
+              "weight": "155 lb",
+              "build": "Medium frame, light muscle definition, average arms, narrow waist, fuller rounded hips. waist 29.5 in; hips 41.5 in; chest 36 in.",
+              "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+            },
+            "resources": {
+              "health": 100,
+              "stamina": 100,
+              "resolve": 100,
+              "arousal": 0
+            },
+            "contextFitting": [
+              {
+                "requestId": "5a6cd2c0-fc2a-441c-afbf-c9f462971fe2",
+                "beforeHistory": 0,
+                "afterHistory": 0,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 25075,
+                "providerMessageBytes": 7437
+              },
+              {
+                "requestId": "762232ef-ab87-4d0b-91b6-b8fa609a47b4",
+                "beforeHistory": 0,
+                "afterHistory": 0,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 16695,
+                "providerMessageBytes": 15817
+              },
+              {
+                "requestId": "8a823df1-9b98-4f43-8bf0-27582fb2138d",
+                "beforeHistory": 0,
+                "afterHistory": 0,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 17244,
+                "providerMessageBytes": 15268
+              }
+            ],
+            "relationships": {
+              "npc:tits": {
+                "score": 0,
+                "interactions": {
+                  "sequence": 0,
+                  "turns": [
+                    {
+                      "at": 960,
+                      "scope": "day:0",
+                      "normalized": "i wish i could be like you",
+                      "result": null
+                    }
+                  ],
+                  "awards": {},
+                  "commitments": {},
+                  "boundaries": {},
+                  "receipts": []
+                }
+              },
+              "npc:priya": {
+                "score": 0
+              },
+              "npc:daniel": {
+                "score": 0
+              },
+              "npc:nadia": {
+                "score": 0
+              },
+              "npc:richard": {
+                "score": 0
+              },
+              "npc:charity": {
+                "score": 0
+              },
+              "npc:eve": {
+                "score": 0
+              },
+              "form:kibbles": {
+                "score": 0
+              }
+            },
+            "participants": [
+              {
+                "id": "npc:tits",
+                "name": "Tits"
+              }
+            ],
+            "recipient": "npc:tits",
+            "actors": {
+              "daniel": {
+                "location": "Technology Center",
+                "room": "H",
+                "activity": "Preparing sales-number reports",
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "commute": null,
+                "view": false,
+                "departureDiscussion": null
+              },
+              "richard": {
+                "schema": 1,
+                "lastMinute": 962,
+                "location": "Technology Center",
+                "room": "G",
+                "activity": "Review sales and marketing reports",
+                "stress": 30.049999999999997,
+                "fatigue": 10.030000000000001,
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "day": 0,
+                "refusals": 0,
+                "completedToday": 0,
+                "nextOfferAt": 960,
+                "task": null,
+                "history": [],
+                "paid": {},
+                "work": null,
+                "commute": null,
+                "view": false,
+                "homeRoom": null,
+                "departureDiscussion": null,
+                "homeTransit": "outside"
+              },
+              "nadia": {
+                "location": "Technology Center",
+                "room": "H_W",
+                "activity": "Preparing daily marketing report",
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "relationship": 0,
+                "commute": null,
+                "view": false,
+                "departureDiscussion": null
+              }
+            },
+            "dart": {
+              "schema": 1,
+              "id": "dart",
+              "name": "Dart",
+              "sex": "male",
+              "species": "dog",
+              "breed": "Doberman Pinscher",
+              "location": "applewood",
+              "unit": "6E",
+              "room": "living",
+              "activity": "Resting",
+              "withNadia": false,
+              "needs": {
+                "hunger": 20,
+                "thirst": 20,
+                "bladder": 10,
+                "fatigue": 10
+              },
+              "lastMinute": 960,
+              "lastMarkAt": null,
+              "marks": {},
+              "familiar": {},
+              "scentKnown": {},
+              "history": [],
+              "sequence": 0,
+              "walkSequence": 0,
+              "toys": {
+                "ball": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "tug": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "chew": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "puzzle": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "soft": {
+                  "place": "living",
+                  "uses": 0
+                }
+              },
+              "kennel": {
+                "closed": false,
+                "location": "living"
+              },
+              "pending": null,
+              "play": null,
+              "signal": null,
+              "relationship": 0
+            },
+            "shop": {
+              "at": 962,
+              "currency": "gold",
+              "venue": {
+                "room": "C",
+                "description": "The customer side of a pink-and-white counter faces an old-school register and the coffee service. This service position does not grant access behind the counter or into preparation/storage.",
+                "fixtures": [
+                  "Old-school register",
+                  "Coffee menu",
+                  "Preset coffee machine & reference cards"
+                ],
+                "seating": "unrecorded"
+              },
+              "unpaidSelection": null,
+              "latestPayment": null,
+              "drinkOrders": [],
+              "proseCannotPayPrepareOrCollect": true
+            },
+            "cat": {
+              "phase": "none",
+              "formId": null,
+              "linked": false
+            },
+            "inventory": {
+              "keepsake": 1
+            },
+            "equipment": {},
+            "feed": [
+              {
+                "speaker": "Morgan · NPC → npc:tits",
+                "text": "I wish I could be like you."
+              },
+              {
+                "speaker": "Tits",
+                "text": "Like... you wanna be a sexy bimbo like me? Hehe!",
+                "failure": "AI response contradicted recorded context after one correction; the recorded response is preserved.",
+                "decision": {
+                  "action": null,
+                  "unstructured": false
+                },
+                "result": {
+                  "status": "dialogue-only",
+                  "action": null,
+                  "text": "Conversation only. No physical action was requested."
+                }
+              }
+            ],
+            "paidCallCount": 456
+          },
+          "after": {
+            "name": "Morgan",
+            "playerId": "dynamic-137-35981109-d261-47e7-90e8-b9f2d651d457",
+            "knowledge": [
+              {
+                "id": "location:Burke's Sweets",
+                "name": "Burke'S Sweets",
+                "kind": "location",
+                "facts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited"
+                  }
+                ],
+                "supersededFacts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  }
+                ]
+              },
+              {
+                "id": "speaker:Tits",
+                "name": "Tits",
+                "kind": "npc",
+                "facts": [
+                  {
+                    "text": "Like... you wanna be a sexy bimbo like me? Hehe!",
+                    "source": "Recorded words spoken by Tits",
+                    "at": 962,
+                    "verification": "attributed-statement",
+                    "key": "speech:45b1938a-3be6-4a31-bf53-1dd387823a2c",
+                    "migratedDisclosure": true
+                  },
+                  {
+                    "text": "*She tilts her head, blinks a few times, then grins*\n\nOh! Like... you wanna be confident? That's... um... that's totally cool!\n\n*She bounces a little, making her chest jiggle*\n\nI'm like... super confident 'cause I know I'm hot, right? *giggles* And I'm good at my job! Two things to be confident about!\n\n*She leans forward on the counter, giving you a nice view down her cleavage*\n\nYou should try it! Just like... stand up tall and smile lots! People will like you more!",
+                    "source": "Recorded words spoken by Tits",
+                    "at": 964,
+                    "verification": "attributed-statement",
+                    "key": "speech:ed6f005e-93b2-416d-be23-7f53ae992eea",
+                    "migratedDisclosure": true
+                  }
+                ]
+              }
+            ],
+            "location": "Burke's Sweets",
+            "minutes": 964,
+            "gold": 100,
+            "activeForm": null,
+            "stage": 0,
+            "appearance": {
+              "age": "28",
+              "gender": "Female",
+              "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Not specified; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not applicable; Foot width: Not specified; Arch height: Not specified; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified",
+              "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Not specified; Covering: Skin; Hair / grooming: Not specified; Material: Skin; Surface colour: Light; inseam: 31.5 in",
+              "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Not specified; Material: Skin; Surface colour: Light; hip circumference: 41.5 in",
+              "buttocks": "Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "waist": "Waist width: Narrow; Abdomen shape: Not specified; Muscle definition: Slight; Material: Skin; Surface colour: Light; waist circumference: 29.5 in",
+              "back": "Shoulder width: Medium; Shoulder shape: Not specified; Back shape: Not specified; Material: Skin; Surface colour: Light; Usual posture: Not specified; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 15.5 in",
+              "chest": "Type: Breasts; Cup size: C; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 33 in; chest circumference: 36 in",
+              "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Not specified; Material: Skin; Surface colour: Light; Hair / grooming: Not specified; shoulder-to-wrist length: 22.5 in",
+              "hands": "Number of hands: 2; Hand type: Human hands; Size: Not specified; Width: Not specified; Material: Skin; Surface colour: Light",
+              "fingers": "Digits per hand: 5; Length: Not specified; Thickness: Not specified; Nail type: Human nails; Nail length: Not specified; Nail shape: Not specified; Nail colour: Not specified; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+              "voice": "Neck shape: Not specified; Voice pitch: Not specified; Voice quality: Not specified; Material: Skin; Surface colour: Light",
+              "face": "Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Not specified; Facial hair: Not specified; Complexion and markings: None; Material: Skin; Surface colour: Light",
+              "eyes": "Number of eyes: 2; Size: Not specified; Shape: Not specified; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Not specified; Material: Human eye tissue",
+              "ears": "Number of ears: 2; Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "hair": "Length: Not specified; Colour: Not specified; Texture: Not specified; Density: Not specified; Style: Not specified; Material: Human hair",
+              "skin": "Material: Skin; Surface colour: Light; Texture: Not specified; Body markings: None; Body hair: Not specified",
+              "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not specified; Material: Skin; Surface colour: Light",
+              "scent": "Natural body scent: Not specified; Scent strength: Not specified; Perspiration tendency: Average; Usual skin temperature: Not specified; Other physical tendencies: None",
+              "height": "5 ft 8 in",
+              "weight": "155 lb",
+              "build": "Medium frame, light muscle definition, average arms, narrow waist, fuller rounded hips. waist 29.5 in; hips 41.5 in; chest 36 in.",
+              "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+            },
+            "resources": {
+              "health": 100,
+              "stamina": 100,
+              "resolve": 100,
+              "arousal": 0
+            },
+            "contextFitting": [
+              {
+                "requestId": "5a6cd2c0-fc2a-441c-afbf-c9f462971fe2",
+                "beforeHistory": 0,
+                "afterHistory": 0,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 25075,
+                "providerMessageBytes": 7437
+              },
+              {
+                "requestId": "762232ef-ab87-4d0b-91b6-b8fa609a47b4",
+                "beforeHistory": 0,
+                "afterHistory": 0,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 16695,
+                "providerMessageBytes": 15817
+              },
+              {
+                "requestId": "8a823df1-9b98-4f43-8bf0-27582fb2138d",
+                "beforeHistory": 0,
+                "afterHistory": 0,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 17244,
+                "providerMessageBytes": 15268
+              },
+              {
+                "requestId": "95e11216-a879-4913-9500-eeeb70840754",
+                "beforeHistory": 0,
+                "afterHistory": 0,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 24890,
+                "providerMessageBytes": 7622
+              },
+              {
+                "requestId": "152db50e-3ec0-4504-8579-eac0331dfca0",
+                "beforeHistory": 2,
+                "afterHistory": 2,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 16689,
+                "providerMessageBytes": 15567
+              }
+            ],
+            "relationships": {
+              "npc:tits": {
+                "score": 0,
+                "interactions": {
+                  "sequence": 0,
+                  "turns": [
+                    {
+                      "at": 960,
+                      "scope": "day:0",
+                      "normalized": "i wish i could be like you",
+                      "result": null
+                    },
+                    {
+                      "at": 962,
+                      "scope": "day:0",
+                      "normalized": "i mean your confidence not your body",
+                      "result": null
+                    }
+                  ],
+                  "awards": {},
+                  "commitments": {},
+                  "boundaries": {},
+                  "receipts": [],
+                  "lastReply": {
+                    "text": "*She tilts her head, blinks a few times, then grins*\n\nOh! Like... you wanna be confident? That's... um... that's totally cool!\n\n*She bounces a little, making her chest jiggle*\n\nI'm like... super confident 'cause I know I'm hot, right? *giggles* And I'm good at my job! Two things to be confident about!\n\n*She leans forward on the counter, giving you a nice view down her cleavage*\n\nYou should try it! Just like... stand up tall and smile lots! People will like you more!",
+                    "at": 964,
+                    "space": "Burke's Sweets:C",
+                    "boundary": false
+                  }
+                }
+              },
+              "npc:priya": {
+                "score": 0
+              },
+              "npc:daniel": {
+                "score": 0
+              },
+              "npc:nadia": {
+                "score": 0
+              },
+              "npc:richard": {
+                "score": 0
+              },
+              "npc:charity": {
+                "score": 0
+              },
+              "npc:eve": {
+                "score": 0
+              },
+              "form:kibbles": {
+                "score": 0
+              }
+            },
+            "participants": [
+              {
+                "id": "npc:tits",
+                "name": "Tits"
+              }
+            ],
+            "recipient": "npc:tits",
+            "actors": {
+              "daniel": {
+                "location": "Technology Center",
+                "room": "H",
+                "activity": "Preparing sales-number reports",
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "commute": null,
+                "view": false,
+                "departureDiscussion": null
+              },
+              "richard": {
+                "schema": 1,
+                "lastMinute": 964,
+                "location": "Technology Center",
+                "room": "G",
+                "activity": "Review sales and marketing reports",
+                "stress": 30.099999999999994,
+                "fatigue": 10.060000000000002,
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "day": 0,
+                "refusals": 0,
+                "completedToday": 0,
+                "nextOfferAt": 960,
+                "task": null,
+                "history": [],
+                "paid": {},
+                "work": null,
+                "commute": null,
+                "view": false,
+                "homeRoom": null,
+                "departureDiscussion": null,
+                "homeTransit": "outside"
+              },
+              "nadia": {
+                "location": "Technology Center",
+                "room": "H_W",
+                "activity": "Preparing daily marketing report",
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "relationship": 0,
+                "commute": null,
+                "view": false,
+                "departureDiscussion": null
+              }
+            },
+            "dart": {
+              "schema": 1,
+              "id": "dart",
+              "name": "Dart",
+              "sex": "male",
+              "species": "dog",
+              "breed": "Doberman Pinscher",
+              "location": "applewood",
+              "unit": "6E",
+              "room": "living",
+              "activity": "Resting",
+              "withNadia": false,
+              "needs": {
+                "hunger": 20,
+                "thirst": 20,
+                "bladder": 10,
+                "fatigue": 10
+              },
+              "lastMinute": 960,
+              "lastMarkAt": null,
+              "marks": {},
+              "familiar": {},
+              "scentKnown": {},
+              "history": [],
+              "sequence": 0,
+              "walkSequence": 0,
+              "toys": {
+                "ball": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "tug": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "chew": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "puzzle": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "soft": {
+                  "place": "living",
+                  "uses": 0
+                }
+              },
+              "kennel": {
+                "closed": false,
+                "location": "living"
+              },
+              "pending": null,
+              "play": null,
+              "signal": null,
+              "relationship": 0
+            },
+            "shop": {
+              "at": 964,
+              "currency": "gold",
+              "venue": {
+                "room": "C",
+                "description": "The customer side of a pink-and-white counter faces an old-school register and the coffee service. This service position does not grant access behind the counter or into preparation/storage.",
+                "fixtures": [
+                  "Old-school register",
+                  "Coffee menu",
+                  "Preset coffee machine & reference cards"
+                ],
+                "seating": "unrecorded"
+              },
+              "unpaidSelection": null,
+              "latestPayment": null,
+              "drinkOrders": [],
+              "proseCannotPayPrepareOrCollect": true
+            },
+            "cat": {
+              "phase": "none",
+              "formId": null,
+              "linked": false
+            },
+            "inventory": {
+              "keepsake": 1
+            },
+            "equipment": {},
+            "feed": [
+              {
+                "speaker": "Morgan · NPC → npc:tits",
+                "text": "I wish I could be like you."
+              },
+              {
+                "speaker": "Tits",
+                "text": "Like... you wanna be a sexy bimbo like me? Hehe!",
+                "failure": "AI response contradicted recorded context after one correction; the recorded response is preserved.",
+                "decision": {
+                  "action": null,
+                  "unstructured": false
+                },
+                "result": {
+                  "status": "dialogue-only",
+                  "action": null,
+                  "text": "Conversation only. No physical action was requested."
+                }
+              },
+              {
+                "speaker": "Morgan · NPC → npc:tits",
+                "text": "I mean your confidence, not your body."
+              },
+              {
+                "speaker": "Tits",
+                "text": "*She tilts her head, blinks a few times, then grins*\n\nOh! Like... you wanna be confident? That's... um... that's totally cool!\n\n*She bounces a little, making her chest jiggle*\n\nI'm like... super confident 'cause I know I'm hot, right? *giggles* And I'm good at my job! Two things to be confident about!\n\n*She leans forward on the counter, giving you a nice view down her cleavage*\n\nYou should try it! Just like... stand up tall and smile lots! People will like you more!",
+                "generated": true,
+                "failure": null,
+                "decision": {
+                  "action": null,
+                  "unstructured": false
+                },
+                "result": {
+                  "status": "dialogue-only",
+                  "action": null,
+                  "text": "Conversation only. No physical action was requested."
+                }
+              }
+            ],
+            "paidCallCount": 458
+          },
+          "feed": [
+            {
+              "speaker": "Morgan · NPC → npc:tits",
+              "text": "I mean your confidence, not your body."
+            },
+            {
+              "speaker": "Tits",
+              "text": "*She tilts her head, blinks a few times, then grins*\n\nOh! Like... you wanna be confident? That's... um... that's totally cool!\n\n*She bounces a little, making her chest jiggle*\n\nI'm like... super confident 'cause I know I'm hot, right? *giggles* And I'm good at my job! Two things to be confident about!\n\n*She leans forward on the counter, giving you a nice view down her cleavage*\n\nYou should try it! Just like... stand up tall and smile lots! People will like you more!",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": []
+        },
+        {
+          "kind": "reload",
+          "input": "Reload the same save",
+          "before": {
+            "name": "Morgan",
+            "playerId": "dynamic-137-35981109-d261-47e7-90e8-b9f2d651d457",
+            "knowledge": [
+              {
+                "id": "location:Burke's Sweets",
+                "name": "Burke'S Sweets",
+                "kind": "location",
+                "facts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited"
+                  }
+                ],
+                "supersededFacts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  }
+                ]
+              },
+              {
+                "id": "speaker:Tits",
+                "name": "Tits",
+                "kind": "npc",
+                "facts": [
+                  {
+                    "text": "Like... you wanna be a sexy bimbo like me? Hehe!",
+                    "source": "Recorded words spoken by Tits",
+                    "at": 962,
+                    "verification": "attributed-statement",
+                    "key": "speech:45b1938a-3be6-4a31-bf53-1dd387823a2c",
+                    "migratedDisclosure": true
+                  },
+                  {
+                    "text": "*She tilts her head, blinks a few times, then grins*\n\nOh! Like... you wanna be confident? That's... um... that's totally cool!\n\n*She bounces a little, making her chest jiggle*\n\nI'm like... super confident 'cause I know I'm hot, right? *giggles* And I'm good at my job! Two things to be confident about!\n\n*She leans forward on the counter, giving you a nice view down her cleavage*\n\nYou should try it! Just like... stand up tall and smile lots! People will like you more!",
+                    "source": "Recorded words spoken by Tits",
+                    "at": 964,
+                    "verification": "attributed-statement",
+                    "key": "speech:ed6f005e-93b2-416d-be23-7f53ae992eea",
+                    "migratedDisclosure": true
+                  }
+                ]
+              }
+            ],
+            "location": "Burke's Sweets",
+            "minutes": 964,
+            "gold": 100,
+            "activeForm": null,
+            "stage": 0,
+            "appearance": {
+              "age": "28",
+              "gender": "Female",
+              "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Not specified; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not applicable; Foot width: Not specified; Arch height: Not specified; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified",
+              "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Not specified; Covering: Skin; Hair / grooming: Not specified; Material: Skin; Surface colour: Light; inseam: 31.5 in",
+              "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Not specified; Material: Skin; Surface colour: Light; hip circumference: 41.5 in",
+              "buttocks": "Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "waist": "Waist width: Narrow; Abdomen shape: Not specified; Muscle definition: Slight; Material: Skin; Surface colour: Light; waist circumference: 29.5 in",
+              "back": "Shoulder width: Medium; Shoulder shape: Not specified; Back shape: Not specified; Material: Skin; Surface colour: Light; Usual posture: Not specified; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 15.5 in",
+              "chest": "Type: Breasts; Cup size: C; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 33 in; chest circumference: 36 in",
+              "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Not specified; Material: Skin; Surface colour: Light; Hair / grooming: Not specified; shoulder-to-wrist length: 22.5 in",
+              "hands": "Number of hands: 2; Hand type: Human hands; Size: Not specified; Width: Not specified; Material: Skin; Surface colour: Light",
+              "fingers": "Digits per hand: 5; Length: Not specified; Thickness: Not specified; Nail type: Human nails; Nail length: Not specified; Nail shape: Not specified; Nail colour: Not specified; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+              "voice": "Neck shape: Not specified; Voice pitch: Not specified; Voice quality: Not specified; Material: Skin; Surface colour: Light",
+              "face": "Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Not specified; Facial hair: Not specified; Complexion and markings: None; Material: Skin; Surface colour: Light",
+              "eyes": "Number of eyes: 2; Size: Not specified; Shape: Not specified; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Not specified; Material: Human eye tissue",
+              "ears": "Number of ears: 2; Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "hair": "Length: Not specified; Colour: Not specified; Texture: Not specified; Density: Not specified; Style: Not specified; Material: Human hair",
+              "skin": "Material: Skin; Surface colour: Light; Texture: Not specified; Body markings: None; Body hair: Not specified",
+              "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not specified; Material: Skin; Surface colour: Light",
+              "scent": "Natural body scent: Not specified; Scent strength: Not specified; Perspiration tendency: Average; Usual skin temperature: Not specified; Other physical tendencies: None",
+              "height": "5 ft 8 in",
+              "weight": "155 lb",
+              "build": "Medium frame, light muscle definition, average arms, narrow waist, fuller rounded hips. waist 29.5 in; hips 41.5 in; chest 36 in.",
+              "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+            },
+            "resources": {
+              "health": 100,
+              "stamina": 100,
+              "resolve": 100,
+              "arousal": 0
+            },
+            "contextFitting": [
+              {
+                "requestId": "5a6cd2c0-fc2a-441c-afbf-c9f462971fe2",
+                "beforeHistory": 0,
+                "afterHistory": 0,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 25075,
+                "providerMessageBytes": 7437
+              },
+              {
+                "requestId": "762232ef-ab87-4d0b-91b6-b8fa609a47b4",
+                "beforeHistory": 0,
+                "afterHistory": 0,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 16695,
+                "providerMessageBytes": 15817
+              },
+              {
+                "requestId": "8a823df1-9b98-4f43-8bf0-27582fb2138d",
+                "beforeHistory": 0,
+                "afterHistory": 0,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 17244,
+                "providerMessageBytes": 15268
+              },
+              {
+                "requestId": "95e11216-a879-4913-9500-eeeb70840754",
+                "beforeHistory": 0,
+                "afterHistory": 0,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 24890,
+                "providerMessageBytes": 7622
+              },
+              {
+                "requestId": "152db50e-3ec0-4504-8579-eac0331dfca0",
+                "beforeHistory": 2,
+                "afterHistory": 2,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 16689,
+                "providerMessageBytes": 15567
+              }
+            ],
+            "relationships": {
+              "npc:tits": {
+                "score": 0,
+                "interactions": {
+                  "sequence": 0,
+                  "turns": [
+                    {
+                      "at": 960,
+                      "scope": "day:0",
+                      "normalized": "i wish i could be like you",
+                      "result": null
+                    },
+                    {
+                      "at": 962,
+                      "scope": "day:0",
+                      "normalized": "i mean your confidence not your body",
+                      "result": null
+                    }
+                  ],
+                  "awards": {},
+                  "commitments": {},
+                  "boundaries": {},
+                  "receipts": [],
+                  "lastReply": {
+                    "text": "*She tilts her head, blinks a few times, then grins*\n\nOh! Like... you wanna be confident? That's... um... that's totally cool!\n\n*She bounces a little, making her chest jiggle*\n\nI'm like... super confident 'cause I know I'm hot, right? *giggles* And I'm good at my job! Two things to be confident about!\n\n*She leans forward on the counter, giving you a nice view down her cleavage*\n\nYou should try it! Just like... stand up tall and smile lots! People will like you more!",
+                    "at": 964,
+                    "space": "Burke's Sweets:C",
+                    "boundary": false
+                  }
+                }
+              },
+              "npc:priya": {
+                "score": 0
+              },
+              "npc:daniel": {
+                "score": 0
+              },
+              "npc:nadia": {
+                "score": 0
+              },
+              "npc:richard": {
+                "score": 0
+              },
+              "npc:charity": {
+                "score": 0
+              },
+              "npc:eve": {
+                "score": 0
+              },
+              "form:kibbles": {
+                "score": 0
+              }
+            },
+            "participants": [
+              {
+                "id": "npc:tits",
+                "name": "Tits"
+              }
+            ],
+            "recipient": "npc:tits",
+            "actors": {
+              "daniel": {
+                "location": "Technology Center",
+                "room": "H",
+                "activity": "Preparing sales-number reports",
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "commute": null,
+                "view": false,
+                "departureDiscussion": null
+              },
+              "richard": {
+                "schema": 1,
+                "lastMinute": 964,
+                "location": "Technology Center",
+                "room": "G",
+                "activity": "Review sales and marketing reports",
+                "stress": 30.099999999999994,
+                "fatigue": 10.060000000000002,
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "day": 0,
+                "refusals": 0,
+                "completedToday": 0,
+                "nextOfferAt": 960,
+                "task": null,
+                "history": [],
+                "paid": {},
+                "work": null,
+                "commute": null,
+                "view": false,
+                "homeRoom": null,
+                "departureDiscussion": null,
+                "homeTransit": "outside"
+              },
+              "nadia": {
+                "location": "Technology Center",
+                "room": "H_W",
+                "activity": "Preparing daily marketing report",
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "relationship": 0,
+                "commute": null,
+                "view": false,
+                "departureDiscussion": null
+              }
+            },
+            "dart": {
+              "schema": 1,
+              "id": "dart",
+              "name": "Dart",
+              "sex": "male",
+              "species": "dog",
+              "breed": "Doberman Pinscher",
+              "location": "applewood",
+              "unit": "6E",
+              "room": "living",
+              "activity": "Resting",
+              "withNadia": false,
+              "needs": {
+                "hunger": 20,
+                "thirst": 20,
+                "bladder": 10,
+                "fatigue": 10
+              },
+              "lastMinute": 960,
+              "lastMarkAt": null,
+              "marks": {},
+              "familiar": {},
+              "scentKnown": {},
+              "history": [],
+              "sequence": 0,
+              "walkSequence": 0,
+              "toys": {
+                "ball": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "tug": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "chew": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "puzzle": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "soft": {
+                  "place": "living",
+                  "uses": 0
+                }
+              },
+              "kennel": {
+                "closed": false,
+                "location": "living"
+              },
+              "pending": null,
+              "play": null,
+              "signal": null,
+              "relationship": 0
+            },
+            "shop": {
+              "at": 964,
+              "currency": "gold",
+              "venue": {
+                "room": "C",
+                "description": "The customer side of a pink-and-white counter faces an old-school register and the coffee service. This service position does not grant access behind the counter or into preparation/storage.",
+                "fixtures": [
+                  "Old-school register",
+                  "Coffee menu",
+                  "Preset coffee machine & reference cards"
+                ],
+                "seating": "unrecorded"
+              },
+              "unpaidSelection": null,
+              "latestPayment": null,
+              "drinkOrders": [],
+              "proseCannotPayPrepareOrCollect": true
+            },
+            "cat": {
+              "phase": "none",
+              "formId": null,
+              "linked": false
+            },
+            "inventory": {
+              "keepsake": 1
+            },
+            "equipment": {},
+            "feed": [
+              {
+                "speaker": "Morgan · NPC → npc:tits",
+                "text": "I wish I could be like you."
+              },
+              {
+                "speaker": "Tits",
+                "text": "Like... you wanna be a sexy bimbo like me? Hehe!",
+                "failure": "AI response contradicted recorded context after one correction; the recorded response is preserved.",
+                "decision": {
+                  "action": null,
+                  "unstructured": false
+                },
+                "result": {
+                  "status": "dialogue-only",
+                  "action": null,
+                  "text": "Conversation only. No physical action was requested."
+                }
+              },
+              {
+                "speaker": "Morgan · NPC → npc:tits",
+                "text": "I mean your confidence, not your body."
+              },
+              {
+                "speaker": "Tits",
+                "text": "*She tilts her head, blinks a few times, then grins*\n\nOh! Like... you wanna be confident? That's... um... that's totally cool!\n\n*She bounces a little, making her chest jiggle*\n\nI'm like... super confident 'cause I know I'm hot, right? *giggles* And I'm good at my job! Two things to be confident about!\n\n*She leans forward on the counter, giving you a nice view down her cleavage*\n\nYou should try it! Just like... stand up tall and smile lots! People will like you more!",
+                "generated": true,
+                "failure": null,
+                "decision": {
+                  "action": null,
+                  "unstructured": false
+                },
+                "result": {
+                  "status": "dialogue-only",
+                  "action": null,
+                  "text": "Conversation only. No physical action was requested."
+                }
+              }
+            ],
+            "paidCallCount": 458
+          },
+          "after": {
+            "name": "Morgan",
+            "playerId": "dynamic-137-35981109-d261-47e7-90e8-b9f2d651d457",
+            "knowledge": [
+              {
+                "id": "location:Burke's Sweets",
+                "name": "Burke'S Sweets",
+                "kind": "location",
+                "facts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited"
+                  }
+                ],
+                "supersededFacts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  }
+                ]
+              },
+              {
+                "id": "speaker:Tits",
+                "name": "Tits",
+                "kind": "npc",
+                "facts": [
+                  {
+                    "text": "Like... you wanna be a sexy bimbo like me? Hehe!",
+                    "source": "Recorded words spoken by Tits",
+                    "at": 962,
+                    "verification": "attributed-statement",
+                    "key": "speech:45b1938a-3be6-4a31-bf53-1dd387823a2c",
+                    "migratedDisclosure": true
+                  },
+                  {
+                    "text": "*She tilts her head, blinks a few times, then grins*\n\nOh! Like... you wanna be confident? That's... um... that's totally cool!\n\n*She bounces a little, making her chest jiggle*\n\nI'm like... super confident 'cause I know I'm hot, right? *giggles* And I'm good at my job! Two things to be confident about!\n\n*She leans forward on the counter, giving you a nice view down her cleavage*\n\nYou should try it! Just like... stand up tall and smile lots! People will like you more!",
+                    "source": "Recorded words spoken by Tits",
+                    "at": 964,
+                    "verification": "attributed-statement",
+                    "key": "speech:ed6f005e-93b2-416d-be23-7f53ae992eea",
+                    "migratedDisclosure": true
+                  }
+                ]
+              }
+            ],
+            "location": "Burke's Sweets",
+            "minutes": 964,
+            "gold": 100,
+            "activeForm": null,
+            "stage": 0,
+            "appearance": {
+              "age": "28",
+              "gender": "Female",
+              "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Not specified; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not applicable; Foot width: Not specified; Arch height: Not specified; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified",
+              "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Not specified; Covering: Skin; Hair / grooming: Not specified; Material: Skin; Surface colour: Light; inseam: 31.5 in",
+              "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Not specified; Material: Skin; Surface colour: Light; hip circumference: 41.5 in",
+              "buttocks": "Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "waist": "Waist width: Narrow; Abdomen shape: Not specified; Muscle definition: Slight; Material: Skin; Surface colour: Light; waist circumference: 29.5 in",
+              "back": "Shoulder width: Medium; Shoulder shape: Not specified; Back shape: Not specified; Material: Skin; Surface colour: Light; Usual posture: Not specified; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 15.5 in",
+              "chest": "Type: Breasts; Cup size: C; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 33 in; chest circumference: 36 in",
+              "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Not specified; Material: Skin; Surface colour: Light; Hair / grooming: Not specified; shoulder-to-wrist length: 22.5 in",
+              "hands": "Number of hands: 2; Hand type: Human hands; Size: Not specified; Width: Not specified; Material: Skin; Surface colour: Light",
+              "fingers": "Digits per hand: 5; Length: Not specified; Thickness: Not specified; Nail type: Human nails; Nail length: Not specified; Nail shape: Not specified; Nail colour: Not specified; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+              "voice": "Neck shape: Not specified; Voice pitch: Not specified; Voice quality: Not specified; Material: Skin; Surface colour: Light",
+              "face": "Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Not specified; Facial hair: Not specified; Complexion and markings: None; Material: Skin; Surface colour: Light",
+              "eyes": "Number of eyes: 2; Size: Not specified; Shape: Not specified; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Not specified; Material: Human eye tissue",
+              "ears": "Number of ears: 2; Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "hair": "Length: Not specified; Colour: Not specified; Texture: Not specified; Density: Not specified; Style: Not specified; Material: Human hair",
+              "skin": "Material: Skin; Surface colour: Light; Texture: Not specified; Body markings: None; Body hair: Not specified",
+              "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not specified; Material: Skin; Surface colour: Light",
+              "scent": "Natural body scent: Not specified; Scent strength: Not specified; Perspiration tendency: Average; Usual skin temperature: Not specified; Other physical tendencies: None",
+              "height": "5 ft 8 in",
+              "weight": "155 lb",
+              "build": "Medium frame, light muscle definition, average arms, narrow waist, fuller rounded hips. waist 29.5 in; hips 41.5 in; chest 36 in.",
+              "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+            },
+            "resources": {
+              "health": 100,
+              "stamina": 100,
+              "resolve": 100,
+              "arousal": 0
+            },
+            "contextFitting": [],
+            "relationships": {
+              "npc:tits": {
+                "score": 0,
+                "interactions": {
+                  "sequence": 0,
+                  "turns": [
+                    {
+                      "at": 960,
+                      "scope": "day:0",
+                      "normalized": "i wish i could be like you",
+                      "result": null
+                    },
+                    {
+                      "at": 962,
+                      "scope": "day:0",
+                      "normalized": "i mean your confidence not your body",
+                      "result": null
+                    }
+                  ],
+                  "awards": {},
+                  "commitments": {},
+                  "boundaries": {},
+                  "receipts": [],
+                  "lastReply": {
+                    "text": "*She tilts her head, blinks a few times, then grins*\n\nOh! Like... you wanna be confident? That's... um... that's totally cool!\n\n*She bounces a little, making her chest jiggle*\n\nI'm like... super confident 'cause I know I'm hot, right? *giggles* And I'm good at my job! Two things to be confident about!\n\n*She leans forward on the counter, giving you a nice view down her cleavage*\n\nYou should try it! Just like... stand up tall and smile lots! People will like you more!",
+                    "at": 964,
+                    "space": "Burke's Sweets:C",
+                    "boundary": false
+                  }
+                }
+              },
+              "npc:priya": {
+                "score": 0
+              },
+              "npc:daniel": {
+                "score": 0
+              },
+              "npc:nadia": {
+                "score": 0
+              },
+              "npc:richard": {
+                "score": 0
+              },
+              "npc:charity": {
+                "score": 0
+              },
+              "npc:eve": {
+                "score": 0
+              },
+              "form:kibbles": {
+                "score": 0
+              }
+            },
+            "participants": [
+              {
+                "id": "npc:tits",
+                "name": "Tits"
+              }
+            ],
+            "recipient": "npc:tits",
+            "actors": {
+              "daniel": {
+                "location": "Technology Center",
+                "room": "H",
+                "activity": "Preparing sales-number reports",
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "commute": null,
+                "view": false,
+                "departureDiscussion": null
+              },
+              "richard": {
+                "schema": 1,
+                "lastMinute": 964,
+                "location": "Technology Center",
+                "room": "G",
+                "activity": "Review sales and marketing reports",
+                "stress": 30.099999999999994,
+                "fatigue": 10.060000000000002,
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "day": 0,
+                "refusals": 0,
+                "completedToday": 0,
+                "nextOfferAt": 960,
+                "task": null,
+                "history": [],
+                "paid": {},
+                "work": null,
+                "commute": null,
+                "view": false,
+                "homeRoom": null,
+                "departureDiscussion": null,
+                "homeTransit": "outside"
+              },
+              "nadia": {
+                "location": "Technology Center",
+                "room": "H_W",
+                "activity": "Preparing daily marketing report",
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "relationship": 0,
+                "commute": null,
+                "view": false,
+                "departureDiscussion": null
+              }
+            },
+            "dart": {
+              "schema": 1,
+              "id": "dart",
+              "name": "Dart",
+              "sex": "male",
+              "species": "dog",
+              "breed": "Doberman Pinscher",
+              "location": "applewood",
+              "unit": "6E",
+              "room": "living",
+              "activity": "Resting",
+              "withNadia": false,
+              "needs": {
+                "hunger": 20,
+                "thirst": 20,
+                "bladder": 10,
+                "fatigue": 10
+              },
+              "lastMinute": 960,
+              "lastMarkAt": null,
+              "marks": {},
+              "familiar": {},
+              "scentKnown": {},
+              "history": [],
+              "sequence": 0,
+              "walkSequence": 0,
+              "toys": {
+                "ball": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "tug": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "chew": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "puzzle": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "soft": {
+                  "place": "living",
+                  "uses": 0
+                }
+              },
+              "kennel": {
+                "closed": false,
+                "location": "living"
+              },
+              "pending": null,
+              "play": null,
+              "signal": null,
+              "relationship": 0
+            },
+            "shop": {
+              "at": 964,
+              "currency": "gold",
+              "venue": {
+                "room": "C",
+                "description": "The customer side of a pink-and-white counter faces an old-school register and the coffee service. This service position does not grant access behind the counter or into preparation/storage.",
+                "fixtures": [
+                  "Old-school register",
+                  "Coffee menu",
+                  "Preset coffee machine & reference cards"
+                ],
+                "seating": "unrecorded"
+              },
+              "unpaidSelection": null,
+              "latestPayment": null,
+              "drinkOrders": [],
+              "proseCannotPayPrepareOrCollect": true
+            },
+            "cat": {
+              "phase": "none",
+              "formId": null,
+              "linked": false
+            },
+            "inventory": {
+              "keepsake": 1
+            },
+            "equipment": {},
+            "feed": [
+              {
+                "speaker": "Morgan · NPC → npc:tits",
+                "text": "I wish I could be like you."
+              },
+              {
+                "speaker": "Tits",
+                "text": "Like... you wanna be a sexy bimbo like me? Hehe!",
+                "failure": "AI response contradicted recorded context after one correction; the recorded response is preserved.",
+                "decision": {
+                  "action": null,
+                  "unstructured": false
+                },
+                "result": {
+                  "status": "dialogue-only",
+                  "action": null,
+                  "text": "Conversation only. No physical action was requested."
+                }
+              },
+              {
+                "speaker": "Morgan · NPC → npc:tits",
+                "text": "I mean your confidence, not your body."
+              },
+              {
+                "speaker": "Tits",
+                "text": "*She tilts her head, blinks a few times, then grins*\n\nOh! Like... you wanna be confident? That's... um... that's totally cool!\n\n*She bounces a little, making her chest jiggle*\n\nI'm like... super confident 'cause I know I'm hot, right? *giggles* And I'm good at my job! Two things to be confident about!\n\n*She leans forward on the counter, giving you a nice view down her cleavage*\n\nYou should try it! Just like... stand up tall and smile lots! People will like you more!",
+                "generated": true,
+                "failure": null,
+                "decision": {
+                  "action": null,
+                  "unstructured": false
+                },
+                "result": {
+                  "status": "dialogue-only",
+                  "action": null,
+                  "text": "Conversation only. No physical action was requested."
+                }
+              }
+            ],
+            "paidCallCount": 458
+          },
+          "feed": [],
+          "paidCallsOnTurn": 0,
+          "displayedAIReplies": 0,
+          "replyFailures": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "What did I mean when I said I wanted to be like you?",
+          "before": {
+            "name": "Morgan",
+            "playerId": "dynamic-137-35981109-d261-47e7-90e8-b9f2d651d457",
+            "knowledge": [
+              {
+                "id": "location:Burke's Sweets",
+                "name": "Burke'S Sweets",
+                "kind": "location",
+                "facts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited"
+                  }
+                ],
+                "supersededFacts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  }
+                ]
+              },
+              {
+                "id": "speaker:Tits",
+                "name": "Tits",
+                "kind": "npc",
+                "facts": [
+                  {
+                    "text": "Like... you wanna be a sexy bimbo like me? Hehe!",
+                    "source": "Recorded words spoken by Tits",
+                    "at": 962,
+                    "verification": "attributed-statement",
+                    "key": "speech:45b1938a-3be6-4a31-bf53-1dd387823a2c",
+                    "migratedDisclosure": true
+                  },
+                  {
+                    "text": "*She tilts her head, blinks a few times, then grins*\n\nOh! Like... you wanna be confident? That's... um... that's totally cool!\n\n*She bounces a little, making her chest jiggle*\n\nI'm like... super confident 'cause I know I'm hot, right? *giggles* And I'm good at my job! Two things to be confident about!\n\n*She leans forward on the counter, giving you a nice view down her cleavage*\n\nYou should try it! Just like... stand up tall and smile lots! People will like you more!",
+                    "source": "Recorded words spoken by Tits",
+                    "at": 964,
+                    "verification": "attributed-statement",
+                    "key": "speech:ed6f005e-93b2-416d-be23-7f53ae992eea",
+                    "migratedDisclosure": true
+                  }
+                ]
+              }
+            ],
+            "location": "Burke's Sweets",
+            "minutes": 964,
+            "gold": 100,
+            "activeForm": null,
+            "stage": 0,
+            "appearance": {
+              "age": "28",
+              "gender": "Female",
+              "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Not specified; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not applicable; Foot width: Not specified; Arch height: Not specified; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified",
+              "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Not specified; Covering: Skin; Hair / grooming: Not specified; Material: Skin; Surface colour: Light; inseam: 31.5 in",
+              "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Not specified; Material: Skin; Surface colour: Light; hip circumference: 41.5 in",
+              "buttocks": "Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "waist": "Waist width: Narrow; Abdomen shape: Not specified; Muscle definition: Slight; Material: Skin; Surface colour: Light; waist circumference: 29.5 in",
+              "back": "Shoulder width: Medium; Shoulder shape: Not specified; Back shape: Not specified; Material: Skin; Surface colour: Light; Usual posture: Not specified; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 15.5 in",
+              "chest": "Type: Breasts; Cup size: C; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 33 in; chest circumference: 36 in",
+              "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Not specified; Material: Skin; Surface colour: Light; Hair / grooming: Not specified; shoulder-to-wrist length: 22.5 in",
+              "hands": "Number of hands: 2; Hand type: Human hands; Size: Not specified; Width: Not specified; Material: Skin; Surface colour: Light",
+              "fingers": "Digits per hand: 5; Length: Not specified; Thickness: Not specified; Nail type: Human nails; Nail length: Not specified; Nail shape: Not specified; Nail colour: Not specified; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+              "voice": "Neck shape: Not specified; Voice pitch: Not specified; Voice quality: Not specified; Material: Skin; Surface colour: Light",
+              "face": "Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Not specified; Facial hair: Not specified; Complexion and markings: None; Material: Skin; Surface colour: Light",
+              "eyes": "Number of eyes: 2; Size: Not specified; Shape: Not specified; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Not specified; Material: Human eye tissue",
+              "ears": "Number of ears: 2; Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "hair": "Length: Not specified; Colour: Not specified; Texture: Not specified; Density: Not specified; Style: Not specified; Material: Human hair",
+              "skin": "Material: Skin; Surface colour: Light; Texture: Not specified; Body markings: None; Body hair: Not specified",
+              "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not specified; Material: Skin; Surface colour: Light",
+              "scent": "Natural body scent: Not specified; Scent strength: Not specified; Perspiration tendency: Average; Usual skin temperature: Not specified; Other physical tendencies: None",
+              "height": "5 ft 8 in",
+              "weight": "155 lb",
+              "build": "Medium frame, light muscle definition, average arms, narrow waist, fuller rounded hips. waist 29.5 in; hips 41.5 in; chest 36 in.",
+              "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+            },
+            "resources": {
+              "health": 100,
+              "stamina": 100,
+              "resolve": 100,
+              "arousal": 0
+            },
+            "contextFitting": [],
+            "relationships": {
+              "npc:tits": {
+                "score": 0,
+                "interactions": {
+                  "sequence": 0,
+                  "turns": [
+                    {
+                      "at": 960,
+                      "scope": "day:0",
+                      "normalized": "i wish i could be like you",
+                      "result": null
+                    },
+                    {
+                      "at": 962,
+                      "scope": "day:0",
+                      "normalized": "i mean your confidence not your body",
+                      "result": null
+                    }
+                  ],
+                  "awards": {},
+                  "commitments": {},
+                  "boundaries": {},
+                  "receipts": [],
+                  "lastReply": {
+                    "text": "*She tilts her head, blinks a few times, then grins*\n\nOh! Like... you wanna be confident? That's... um... that's totally cool!\n\n*She bounces a little, making her chest jiggle*\n\nI'm like... super confident 'cause I know I'm hot, right? *giggles* And I'm good at my job! Two things to be confident about!\n\n*She leans forward on the counter, giving you a nice view down her cleavage*\n\nYou should try it! Just like... stand up tall and smile lots! People will like you more!",
+                    "at": 964,
+                    "space": "Burke's Sweets:C",
+                    "boundary": false
+                  }
+                }
+              },
+              "npc:priya": {
+                "score": 0
+              },
+              "npc:daniel": {
+                "score": 0
+              },
+              "npc:nadia": {
+                "score": 0
+              },
+              "npc:richard": {
+                "score": 0
+              },
+              "npc:charity": {
+                "score": 0
+              },
+              "npc:eve": {
+                "score": 0
+              },
+              "form:kibbles": {
+                "score": 0
+              }
+            },
+            "participants": [
+              {
+                "id": "npc:tits",
+                "name": "Tits"
+              }
+            ],
+            "recipient": "npc:tits",
+            "actors": {
+              "daniel": {
+                "location": "Technology Center",
+                "room": "H",
+                "activity": "Preparing sales-number reports",
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "commute": null,
+                "view": false,
+                "departureDiscussion": null
+              },
+              "richard": {
+                "schema": 1,
+                "lastMinute": 964,
+                "location": "Technology Center",
+                "room": "G",
+                "activity": "Review sales and marketing reports",
+                "stress": 30.099999999999994,
+                "fatigue": 10.060000000000002,
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "day": 0,
+                "refusals": 0,
+                "completedToday": 0,
+                "nextOfferAt": 960,
+                "task": null,
+                "history": [],
+                "paid": {},
+                "work": null,
+                "commute": null,
+                "view": false,
+                "homeRoom": null,
+                "departureDiscussion": null,
+                "homeTransit": "outside"
+              },
+              "nadia": {
+                "location": "Technology Center",
+                "room": "H_W",
+                "activity": "Preparing daily marketing report",
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "relationship": 0,
+                "commute": null,
+                "view": false,
+                "departureDiscussion": null
+              }
+            },
+            "dart": {
+              "schema": 1,
+              "id": "dart",
+              "name": "Dart",
+              "sex": "male",
+              "species": "dog",
+              "breed": "Doberman Pinscher",
+              "location": "applewood",
+              "unit": "6E",
+              "room": "living",
+              "activity": "Resting",
+              "withNadia": false,
+              "needs": {
+                "hunger": 20,
+                "thirst": 20,
+                "bladder": 10,
+                "fatigue": 10
+              },
+              "lastMinute": 960,
+              "lastMarkAt": null,
+              "marks": {},
+              "familiar": {},
+              "scentKnown": {},
+              "history": [],
+              "sequence": 0,
+              "walkSequence": 0,
+              "toys": {
+                "ball": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "tug": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "chew": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "puzzle": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "soft": {
+                  "place": "living",
+                  "uses": 0
+                }
+              },
+              "kennel": {
+                "closed": false,
+                "location": "living"
+              },
+              "pending": null,
+              "play": null,
+              "signal": null,
+              "relationship": 0
+            },
+            "shop": {
+              "at": 964,
+              "currency": "gold",
+              "venue": {
+                "room": "C",
+                "description": "The customer side of a pink-and-white counter faces an old-school register and the coffee service. This service position does not grant access behind the counter or into preparation/storage.",
+                "fixtures": [
+                  "Old-school register",
+                  "Coffee menu",
+                  "Preset coffee machine & reference cards"
+                ],
+                "seating": "unrecorded"
+              },
+              "unpaidSelection": null,
+              "latestPayment": null,
+              "drinkOrders": [],
+              "proseCannotPayPrepareOrCollect": true
+            },
+            "cat": {
+              "phase": "none",
+              "formId": null,
+              "linked": false
+            },
+            "inventory": {
+              "keepsake": 1
+            },
+            "equipment": {},
+            "feed": [
+              {
+                "speaker": "Morgan · NPC → npc:tits",
+                "text": "I wish I could be like you."
+              },
+              {
+                "speaker": "Tits",
+                "text": "Like... you wanna be a sexy bimbo like me? Hehe!",
+                "failure": "AI response contradicted recorded context after one correction; the recorded response is preserved.",
+                "decision": {
+                  "action": null,
+                  "unstructured": false
+                },
+                "result": {
+                  "status": "dialogue-only",
+                  "action": null,
+                  "text": "Conversation only. No physical action was requested."
+                }
+              },
+              {
+                "speaker": "Morgan · NPC → npc:tits",
+                "text": "I mean your confidence, not your body."
+              },
+              {
+                "speaker": "Tits",
+                "text": "*She tilts her head, blinks a few times, then grins*\n\nOh! Like... you wanna be confident? That's... um... that's totally cool!\n\n*She bounces a little, making her chest jiggle*\n\nI'm like... super confident 'cause I know I'm hot, right? *giggles* And I'm good at my job! Two things to be confident about!\n\n*She leans forward on the counter, giving you a nice view down her cleavage*\n\nYou should try it! Just like... stand up tall and smile lots! People will like you more!",
+                "generated": true,
+                "failure": null,
+                "decision": {
+                  "action": null,
+                  "unstructured": false
+                },
+                "result": {
+                  "status": "dialogue-only",
+                  "action": null,
+                  "text": "Conversation only. No physical action was requested."
+                }
+              }
+            ],
+            "paidCallCount": 458
+          },
+          "after": {
+            "name": "Morgan",
+            "playerId": "dynamic-137-35981109-d261-47e7-90e8-b9f2d651d457",
+            "knowledge": [
+              {
+                "id": "location:Burke's Sweets",
+                "name": "Burke'S Sweets",
+                "kind": "location",
+                "facts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited"
+                  }
+                ],
+                "supersededFacts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 960
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 962
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 964
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 966
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 966
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 966
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 966
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 966
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 960,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 966
+                  }
+                ]
+              },
+              {
+                "id": "speaker:Tits",
+                "name": "Tits",
+                "kind": "npc",
+                "facts": [
+                  {
+                    "text": "Like... you wanna be a sexy bimbo like me? Hehe!",
+                    "source": "Recorded words spoken by Tits",
+                    "at": 962,
+                    "verification": "attributed-statement",
+                    "key": "speech:45b1938a-3be6-4a31-bf53-1dd387823a2c",
+                    "migratedDisclosure": true
+                  },
+                  {
+                    "text": "*She tilts her head, blinks a few times, then grins*\n\nOh! Like... you wanna be confident? That's... um... that's totally cool!\n\n*She bounces a little, making her chest jiggle*\n\nI'm like... super confident 'cause I know I'm hot, right? *giggles* And I'm good at my job! Two things to be confident about!\n\n*She leans forward on the counter, giving you a nice view down her cleavage*\n\nYou should try it! Just like... stand up tall and smile lots! People will like you more!",
+                    "source": "Recorded words spoken by Tits",
+                    "at": 964,
+                    "verification": "attributed-statement",
+                    "key": "speech:ed6f005e-93b2-416d-be23-7f53ae992eea",
+                    "migratedDisclosure": true
+                  },
+                  {
+                    "text": "*She blinks a few times, her blue eyes wide with confusion*\n\nUm... like... I dunno? \n\n*She plays with her hair, twirling a strand around her finger*\n\nYou said you wanted to be like me, and then you said it was 'cause of my confidence, not my body. So like... that's what I thought you meant!\n\n*She tilts her head*\n\nDid I get it wrong? That's like... totally possible! I'm not the smartest girl, hehe!\n\n*She giggles and bounces slightly*\n\nBut yeah, I think you just wanna be more confident! That's cool! I can help with that if you want!",
+                    "source": "Recorded words spoken by Tits",
+                    "at": 966,
+                    "verification": "attributed-statement",
+                    "key": "speech:b4cf1466-4e8a-476a-9023-02ccadc88b86",
+                    "migratedDisclosure": true
+                  }
+                ]
+              }
+            ],
+            "location": "Burke's Sweets",
+            "minutes": 966,
+            "gold": 100,
+            "activeForm": null,
+            "stage": 0,
+            "appearance": {
+              "age": "28",
+              "gender": "Female",
+              "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Not specified; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not applicable; Foot width: Not specified; Arch height: Not specified; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified",
+              "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Not specified; Covering: Skin; Hair / grooming: Not specified; Material: Skin; Surface colour: Light; inseam: 31.5 in",
+              "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Not specified; Material: Skin; Surface colour: Light; hip circumference: 41.5 in",
+              "buttocks": "Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "waist": "Waist width: Narrow; Abdomen shape: Not specified; Muscle definition: Slight; Material: Skin; Surface colour: Light; waist circumference: 29.5 in",
+              "back": "Shoulder width: Medium; Shoulder shape: Not specified; Back shape: Not specified; Material: Skin; Surface colour: Light; Usual posture: Not specified; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 15.5 in",
+              "chest": "Type: Breasts; Cup size: C; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 33 in; chest circumference: 36 in",
+              "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Not specified; Material: Skin; Surface colour: Light; Hair / grooming: Not specified; shoulder-to-wrist length: 22.5 in",
+              "hands": "Number of hands: 2; Hand type: Human hands; Size: Not specified; Width: Not specified; Material: Skin; Surface colour: Light",
+              "fingers": "Digits per hand: 5; Length: Not specified; Thickness: Not specified; Nail type: Human nails; Nail length: Not specified; Nail shape: Not specified; Nail colour: Not specified; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+              "voice": "Neck shape: Not specified; Voice pitch: Not specified; Voice quality: Not specified; Material: Skin; Surface colour: Light",
+              "face": "Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Not specified; Facial hair: Not specified; Complexion and markings: None; Material: Skin; Surface colour: Light",
+              "eyes": "Number of eyes: 2; Size: Not specified; Shape: Not specified; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Not specified; Material: Human eye tissue",
+              "ears": "Number of ears: 2; Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "hair": "Length: Not specified; Colour: Not specified; Texture: Not specified; Density: Not specified; Style: Not specified; Material: Human hair",
+              "skin": "Material: Skin; Surface colour: Light; Texture: Not specified; Body markings: None; Body hair: Not specified",
+              "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not specified; Material: Skin; Surface colour: Light",
+              "scent": "Natural body scent: Not specified; Scent strength: Not specified; Perspiration tendency: Average; Usual skin temperature: Not specified; Other physical tendencies: None",
+              "height": "5 ft 8 in",
+              "weight": "155 lb",
+              "build": "Medium frame, light muscle definition, average arms, narrow waist, fuller rounded hips. waist 29.5 in; hips 41.5 in; chest 36 in.",
+              "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+            },
+            "resources": {
+              "health": 100,
+              "stamina": 100,
+              "resolve": 100,
+              "arousal": 0
+            },
+            "contextFitting": [
+              {
+                "requestId": "9562fb51-159d-490c-8882-b429347070d4",
+                "beforeHistory": 0,
+                "afterHistory": 0,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 24244,
+                "providerMessageBytes": 8268
+              },
+              {
+                "requestId": "04824e8c-79ae-4451-bb84-c354ee6132fb",
+                "beforeHistory": 4,
+                "afterHistory": 4,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 15465,
+                "providerMessageBytes": 16535
+              }
+            ],
+            "relationships": {
+              "npc:tits": {
+                "score": 0,
+                "interactions": {
+                  "sequence": 0,
+                  "turns": [
+                    {
+                      "at": 960,
+                      "scope": "day:0",
+                      "normalized": "i wish i could be like you",
+                      "result": null
+                    },
+                    {
+                      "at": 962,
+                      "scope": "day:0",
+                      "normalized": "i mean your confidence not your body",
+                      "result": null
+                    },
+                    {
+                      "at": 964,
+                      "scope": "day:0",
+                      "normalized": "what did i mean when i said i wanted to be like you",
+                      "result": null
+                    }
+                  ],
+                  "awards": {},
+                  "commitments": {},
+                  "boundaries": {},
+                  "receipts": [],
+                  "lastReply": {
+                    "text": "*She blinks a few times, her blue eyes wide with confusion*\n\nUm... like... I dunno? \n\n*She plays with her hair, twirling a strand around her finger*\n\nYou said you wanted to be like me, and then you said it was 'cause of my confidence, not my body. So like... that's what I thought you meant!\n\n*She tilts her head*\n\nDid I get it wrong? That's like... totally possible! I'm not the smartest girl, hehe!\n\n*She giggles and bounces slightly*\n\nBut yeah, I think you just wanna be more confident! That's cool! I can help with that if you want!",
+                    "at": 966,
+                    "space": "Burke's Sweets:C",
+                    "boundary": false
+                  }
+                }
+              },
+              "npc:priya": {
+                "score": 0
+              },
+              "npc:daniel": {
+                "score": 0
+              },
+              "npc:nadia": {
+                "score": 0
+              },
+              "npc:richard": {
+                "score": 0
+              },
+              "npc:charity": {
+                "score": 0
+              },
+              "npc:eve": {
+                "score": 0
+              },
+              "form:kibbles": {
+                "score": 0
+              }
+            },
+            "participants": [
+              {
+                "id": "npc:tits",
+                "name": "Tits"
+              }
+            ],
+            "recipient": "npc:tits",
+            "actors": {
+              "daniel": {
+                "location": "Technology Center",
+                "room": "H",
+                "activity": "Preparing sales-number reports",
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "commute": null,
+                "view": false,
+                "departureDiscussion": null
+              },
+              "richard": {
+                "schema": 1,
+                "lastMinute": 966,
+                "location": "Technology Center",
+                "room": "G",
+                "activity": "Review sales and marketing reports",
+                "stress": 30.14999999999999,
+                "fatigue": 10.090000000000003,
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "day": 0,
+                "refusals": 0,
+                "completedToday": 0,
+                "nextOfferAt": 960,
+                "task": null,
+                "history": [],
+                "paid": {},
+                "work": null,
+                "commute": null,
+                "view": false,
+                "homeRoom": null,
+                "departureDiscussion": null,
+                "homeTransit": "outside"
+              },
+              "nadia": {
+                "location": "Technology Center",
+                "room": "H_W",
+                "activity": "Preparing daily marketing report",
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "relationship": 0,
+                "commute": null,
+                "view": false,
+                "departureDiscussion": null
+              }
+            },
+            "dart": {
+              "schema": 1,
+              "id": "dart",
+              "name": "Dart",
+              "sex": "male",
+              "species": "dog",
+              "breed": "Doberman Pinscher",
+              "location": "applewood",
+              "unit": "6E",
+              "room": "living",
+              "activity": "Resting",
+              "withNadia": false,
+              "needs": {
+                "hunger": 20,
+                "thirst": 20,
+                "bladder": 10,
+                "fatigue": 10
+              },
+              "lastMinute": 960,
+              "lastMarkAt": null,
+              "marks": {},
+              "familiar": {},
+              "scentKnown": {},
+              "history": [],
+              "sequence": 0,
+              "walkSequence": 0,
+              "toys": {
+                "ball": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "tug": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "chew": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "puzzle": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "soft": {
+                  "place": "living",
+                  "uses": 0
+                }
+              },
+              "kennel": {
+                "closed": false,
+                "location": "living"
+              },
+              "pending": null,
+              "play": null,
+              "signal": null,
+              "relationship": 0
+            },
+            "shop": {
+              "at": 966,
+              "currency": "gold",
+              "venue": {
+                "room": "C",
+                "description": "The customer side of a pink-and-white counter faces an old-school register and the coffee service. This service position does not grant access behind the counter or into preparation/storage.",
+                "fixtures": [
+                  "Old-school register",
+                  "Coffee menu",
+                  "Preset coffee machine & reference cards"
+                ],
+                "seating": "unrecorded"
+              },
+              "unpaidSelection": null,
+              "latestPayment": null,
+              "drinkOrders": [],
+              "proseCannotPayPrepareOrCollect": true
+            },
+            "cat": {
+              "phase": "none",
+              "formId": null,
+              "linked": false
+            },
+            "inventory": {
+              "keepsake": 1
+            },
+            "equipment": {},
+            "feed": [
+              {
+                "speaker": "Morgan · NPC → npc:tits",
+                "text": "I wish I could be like you."
+              },
+              {
+                "speaker": "Tits",
+                "text": "Like... you wanna be a sexy bimbo like me? Hehe!",
+                "failure": "AI response contradicted recorded context after one correction; the recorded response is preserved.",
+                "decision": {
+                  "action": null,
+                  "unstructured": false
+                },
+                "result": {
+                  "status": "dialogue-only",
+                  "action": null,
+                  "text": "Conversation only. No physical action was requested."
+                }
+              },
+              {
+                "speaker": "Morgan · NPC → npc:tits",
+                "text": "I mean your confidence, not your body."
+              },
+              {
+                "speaker": "Tits",
+                "text": "*She tilts her head, blinks a few times, then grins*\n\nOh! Like... you wanna be confident? That's... um... that's totally cool!\n\n*She bounces a little, making her chest jiggle*\n\nI'm like... super confident 'cause I know I'm hot, right? *giggles* And I'm good at my job! Two things to be confident about!\n\n*She leans forward on the counter, giving you a nice view down her cleavage*\n\nYou should try it! Just like... stand up tall and smile lots! People will like you more!",
+                "generated": true,
+                "failure": null,
+                "decision": {
+                  "action": null,
+                  "unstructured": false
+                },
+                "result": {
+                  "status": "dialogue-only",
+                  "action": null,
+                  "text": "Conversation only. No physical action was requested."
+                }
+              },
+              {
+                "speaker": "Morgan · NPC → npc:tits",
+                "text": "What did I mean when I said I wanted to be like you?"
+              },
+              {
+                "speaker": "Tits",
+                "text": "*She blinks a few times, her blue eyes wide with confusion*\n\nUm... like... I dunno? \n\n*She plays with her hair, twirling a strand around her finger*\n\nYou said you wanted to be like me, and then you said it was 'cause of my confidence, not my body. So like... that's what I thought you meant!\n\n*She tilts her head*\n\nDid I get it wrong? That's like... totally possible! I'm not the smartest girl, hehe!\n\n*She giggles and bounces slightly*\n\nBut yeah, I think you just wanna be more confident! That's cool! I can help with that if you want!",
+                "generated": true,
+                "failure": null,
+                "decision": {
+                  "action": null,
+                  "unstructured": false
+                },
+                "result": {
+                  "status": "dialogue-only",
+                  "action": null,
+                  "text": "Conversation only. No physical action was requested."
+                }
+              }
+            ],
+            "paidCallCount": 460
+          },
+          "feed": [
+            {
+              "speaker": "Morgan · NPC → npc:tits",
+              "text": "What did I mean when I said I wanted to be like you?"
+            },
+            {
+              "speaker": "Tits",
+              "text": "*She blinks a few times, her blue eyes wide with confusion*\n\nUm... like... I dunno? \n\n*She plays with her hair, twirling a strand around her finger*\n\nYou said you wanted to be like me, and then you said it was 'cause of my confidence, not my body. So like... that's what I thought you meant!\n\n*She tilts her head*\n\nDid I get it wrong? That's like... totally possible! I'm not the smartest girl, hehe!\n\n*She giggles and bounces slightly*\n\nBut yeah, I think you just wanna be more confident! That's cool! I can help with that if you want!",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": []
+        }
+      ],
+      "errors": [],
+      "complete": true,
+      "accountingAfter": {
+        "calls": 460,
+        "maxCalls": 470,
+        "spentUSD": 0.7982473399999981,
+        "reservedUpperUSD": 0.38788199999999995,
+        "maxUSD": 2,
+        "stopped": null
+      }
+    }
+  ],
+  "errors": [],
+  "resumedAfterTechnicalFixtureRepair": true,
+  "priorRun": "first-run.json",
+  "complete": true,
+  "accounting": {
+    "calls": 460,
+    "maxCalls": 470,
+    "spentUSD": 0.7982473399999981,
+    "reservedUpperUSD": 0.38788199999999995,
+    "maxUSD": 2,
+    "stopped": null
+  },
+  "finished": "2026-11-22T12:48:05.334Z"
+}

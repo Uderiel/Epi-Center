@@ -1,0 +1,34 @@
+{
+  "baselineCalls": 434,
+  "sourceManifest": "source-manifest-v8.json",
+  "sameWorker": "request-handoff-v11",
+  "limits": {
+    "maxCalls": 450,
+    "maxUSD": 2
+  },
+  "oldUncertainty": [
+    [
+      "52adc75c-26bb-42d7-82af-a80bf5cde819",
+      0.110302
+    ],
+    [
+      "432e418f-18c4-4f42-9dd1-05978731ce66",
+      0.138721
+    ],
+    [
+      "07dcc342-53f0-4289-b085-7b50b0a86da7",
+      0.13885899999999998
+    ]
+  ],
+  "review": [
+    "Wish validation now binds the understood desire to the player, rather than accepting a generic mention of bimbo later in a job/trait explanation.",
+    "A former workplace is not evidence of a training story; legacy source quarantine uses that rule too.",
+    "Final body-only post-processing normalized emphasis and projects known paid baseline/style/material mistakes before display; actual current feet preserved in order."
+  ],
+  "tests": [
+    "Actual wish and recall across reload with existing real worker",
+    "Independent final browser replay of exact paid current-body failures",
+    "All previous seven batches retained, no uncertain request replay"
+  ],
+  "time": "2026-11-22T12:38:53.585831+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "sourceManifest": "source-manifest.json",
+  "baselineCalls": 234,
+  "limits": {
+    "maxCalls": 340,
+    "maxUSD": 2
+  },
+  "pendingUncertaintyPreserved": [
+    [
+      "52adc75c-26bb-42d7-82af-a80bf5cde819",
+      0.110302
+    ],
+    [
+      "432e418f-18c4-4f42-9dd1-05978731ce66",
+      0.138721
+    ],
+    [
+      "07dcc342-53f0-4289-b085-7b50b0a86da7",
+      0.13885899999999998
+    ]
+  ],
+  "scope": "Unpublished frozen client, same live worker/model; disposable saves only. Cross-player switching retains the same feed to test actual owner scoping.",
+  "audit": [
+    "Public canonical reader existed but was unused by dialogue; now source-scoped age/height/weight frames and unsolicited explicit self claims validate against one registry.",
+    "Learned words were append-only and form-status duplicates stale; event keys and canonical refs replace/refresh with archive.",
+    "Unowned retained feed and discovery flags could be absorbed by a new player; metadata and conservative legacy owner prevent transfer.",
+    "Question/refusal alone does not admit a canonical ref; delivered text must validate.",
+    "Eve help records derive authored rules; unverified prose remains explicitly attributed.",
+    "Safe numeric fallback carries the actual source values without repeating actions.",
+    "Mixed age/height, metric equivalents, negative corrections, relative/dog subject, private/reported inputs and stale source revisions tested.",
+    "Existing full transformation and canine cases are independent acceptance tests; semantic failure does not stop the other scenarios."
+  ],
+  "expected": [
+    "Shared canonical values agree across players and all learned numeric refs match current source.",
+    "Alpha/Beta collections and relationship scores remain isolated across switches and reloads.",
+    "Model claims, menus and learned updates retain body/presence/privacy/permission guards."
+  ],
+  "time": "2026-11-22T11:27:24.638537+00:00"
+}

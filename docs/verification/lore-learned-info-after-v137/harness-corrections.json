@@ -1,0 +1,14 @@
+{
+  "realModelCallsForBrowserReplays": 0,
+  "corrections": [
+    "Opened closed inventory details before clicking the actual Equip control.",
+    "Read persisted conversation history from its actual per-player save record, rather than a non-exported helper.",
+    "Used the actual world composer channel, replacing invalid location/local fixture values.",
+    "The structured current-foot replay supplies a known9 shoe-size value rather than expecting one from an unspecified fixture."
+  ],
+  "preservedFailures": [
+    "Earlier complete paid batches remain available with source manifests and per-turn failure flags.",
+    "The initial legacy-Priya writer returned model unavailable before forwarding generation; separate targeted retry retained.",
+    "Purebred rejection was an overly narrow source-reader mistake; authored marketing biography already established it."
+  ]
+}

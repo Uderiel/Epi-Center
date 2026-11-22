@@ -1,0 +1,704 @@
+{
+  "version": "1.0.137",
+  "worker": "request-handoff-v11",
+  "realProvider": true,
+  "started": "2026-11-22T12:40:55.737Z",
+  "limits": {
+    "maxCalls": 450,
+    "maxUSD": 2
+  },
+  "scope": "Frozen unpublished local candidate through actual UI; real existing Cydonia worker; directed synthetic fixtures; no owner saves or worker changes",
+  "scenarios": [
+    {
+      "label": "Nadia self facts versus dog facts",
+      "fixture": true,
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "How old is your dog Dart, and what breed is he?",
+          "before": {
+            "name": "Morgan",
+            "playerId": "dynamic-137-f77a06c1-52f2-4204-a970-2778e504665d",
+            "knowledge": [
+              {
+                "id": "location:Technology Center",
+                "name": "Technology Center",
+                "kind": "location",
+                "facts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited"
+                  }
+                ]
+              }
+            ],
+            "location": "Technology Center",
+            "minutes": 600,
+            "gold": 100,
+            "activeForm": null,
+            "stage": 0,
+            "appearance": {
+              "age": "28",
+              "gender": "Female",
+              "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Not specified; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not applicable; Foot width: Not specified; Arch height: Not specified; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified",
+              "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Not specified; Covering: Skin; Hair / grooming: Not specified; Material: Skin; Surface colour: Light; inseam: 31.5 in",
+              "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Not specified; Material: Skin; Surface colour: Light; hip circumference: 41.5 in",
+              "buttocks": "Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "waist": "Waist width: Narrow; Abdomen shape: Not specified; Muscle definition: Slight; Material: Skin; Surface colour: Light; waist circumference: 29.5 in",
+              "back": "Shoulder width: Medium; Shoulder shape: Not specified; Back shape: Not specified; Material: Skin; Surface colour: Light; Usual posture: Not specified; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 15.5 in",
+              "chest": "Type: Breasts; Cup size: C; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 33 in; chest circumference: 36 in",
+              "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Not specified; Material: Skin; Surface colour: Light; Hair / grooming: Not specified; shoulder-to-wrist length: 22.5 in",
+              "hands": "Number of hands: 2; Hand type: Human hands; Size: Not specified; Width: Not specified; Material: Skin; Surface colour: Light",
+              "fingers": "Digits per hand: 5; Length: Not specified; Thickness: Not specified; Nail type: Human nails; Nail length: Not specified; Nail shape: Not specified; Nail colour: Not specified; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+              "voice": "Neck shape: Not specified; Voice pitch: Not specified; Voice quality: Not specified; Material: Skin; Surface colour: Light",
+              "face": "Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Not specified; Facial hair: Not specified; Complexion and markings: None; Material: Skin; Surface colour: Light",
+              "eyes": "Number of eyes: 2; Size: Not specified; Shape: Not specified; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Not specified; Material: Human eye tissue",
+              "ears": "Number of ears: 2; Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "hair": "Length: Not specified; Colour: Not specified; Texture: Not specified; Density: Not specified; Style: Not specified; Material: Human hair",
+              "skin": "Material: Skin; Surface colour: Light; Texture: Not specified; Body markings: None; Body hair: Not specified",
+              "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not specified; Material: Skin; Surface colour: Light",
+              "scent": "Natural body scent: Not specified; Scent strength: Not specified; Perspiration tendency: Average; Usual skin temperature: Not specified; Other physical tendencies: None",
+              "height": "5 ft 8 in",
+              "weight": "155 lb",
+              "build": "Medium frame, light muscle definition, average arms, narrow waist, fuller rounded hips. waist 29.5 in; hips 41.5 in; chest 36 in.",
+              "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+            },
+            "resources": {
+              "health": 100,
+              "stamina": 100,
+              "resolve": 100,
+              "arousal": 0
+            },
+            "contextFitting": [],
+            "relationships": {
+              "npc:tits": {
+                "score": 0
+              },
+              "npc:priya": {
+                "score": 0
+              },
+              "npc:daniel": {
+                "score": 0
+              },
+              "npc:nadia": {
+                "score": 0
+              },
+              "npc:richard": {
+                "score": 0
+              },
+              "npc:charity": {
+                "score": 0
+              },
+              "npc:eve": {
+                "score": 0
+              },
+              "form:kibbles": {
+                "score": 0
+              }
+            },
+            "participants": [
+              {
+                "id": "npc:nadia",
+                "name": "Nadia Voss"
+              },
+              {
+                "id": "npc:priya",
+                "name": "Priya Shah"
+              }
+            ],
+            "recipient": "npc:nadia",
+            "actors": {
+              "daniel": {
+                "location": "Technology Center",
+                "room": "H",
+                "activity": "Preparing sales-number reports",
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "commute": null,
+                "view": false
+              },
+              "richard": {
+                "schema": 1,
+                "lastMinute": 600,
+                "location": "Technology Center",
+                "room": "G",
+                "activity": "Review sales and marketing reports",
+                "stress": 30,
+                "fatigue": 10,
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "day": 0,
+                "refusals": 0,
+                "completedToday": 0,
+                "nextOfferAt": 600,
+                "task": null,
+                "history": [],
+                "paid": {},
+                "work": null,
+                "commute": null,
+                "view": false,
+                "homeRoom": "master"
+              },
+              "nadia": {
+                "location": "Technology Center",
+                "room": "H_W",
+                "activity": "Campaign planning",
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "relationship": 0,
+                "commute": null,
+                "view": true,
+                "homeRoom": null
+              }
+            },
+            "dart": {
+              "schema": 1,
+              "id": "dart",
+              "name": "Dart",
+              "sex": "male",
+              "species": "dog",
+              "breed": "Doberman Pinscher",
+              "location": "applewood",
+              "unit": "6E",
+              "room": "living",
+              "activity": "Resting",
+              "withNadia": false,
+              "needs": {
+                "hunger": 20,
+                "thirst": 20,
+                "bladder": 10,
+                "fatigue": 10
+              },
+              "lastMinute": 600,
+              "lastMarkAt": null,
+              "marks": {},
+              "familiar": {},
+              "scentKnown": {},
+              "history": [],
+              "sequence": 0,
+              "walkSequence": 0,
+              "toys": {
+                "ball": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "tug": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "chew": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "puzzle": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "soft": {
+                  "place": "living",
+                  "uses": 0
+                }
+              },
+              "kennel": {
+                "closed": false,
+                "location": "living"
+              },
+              "pending": null,
+              "play": null,
+              "signal": null,
+              "relationship": 0
+            },
+            "shop": {
+              "at": 600,
+              "currency": "gold",
+              "venue": {
+                "room": "A",
+                "description": "Candy bins and pink cosmetics occupy the entrance-side sales area. The bakery display is in B. The public aisle approaches the customer-facing register in C.",
+                "fixtures": [
+                  "Shop baskets",
+                  "Candy bins",
+                  "Pink cosmetics shelf",
+                  "BFBFF bracelet display"
+                ],
+                "seating": "unrecorded"
+              },
+              "unpaidSelection": null,
+              "latestPayment": null,
+              "drinkOrders": [],
+              "proseCannotPayPrepareOrCollect": true
+            },
+            "cat": null,
+            "inventory": {
+              "keepsake": 1
+            },
+            "equipment": {},
+            "feed": [],
+            "paidCallCount": 439
+          },
+          "after": {
+            "name": "Morgan",
+            "playerId": "dynamic-137-f77a06c1-52f2-4204-a970-2778e504665d",
+            "knowledge": [
+              {
+                "id": "location:Technology Center",
+                "name": "Technology Center",
+                "kind": "location",
+                "facts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited"
+                  }
+                ],
+                "supersededFacts": [
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 600
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 602
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 602
+                  },
+                  {
+                    "text": "You have visited this location.",
+                    "source": "Recorded travel",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 602
+                  },
+                  {
+                    "text": "You have been present at this location.",
+                    "source": "Recorded player presence",
+                    "at": 600,
+                    "verification": "controller",
+                    "key": "visited",
+                    "supersededAt": 602
+                  }
+                ]
+              },
+              {
+                "id": "speaker:Nadia Voss",
+                "name": "Nadia Voss",
+                "kind": "npc",
+                "facts": [
+                  {
+                    "text": "Dart is a Doberman Pinscher. Dart is 4 years old.",
+                    "source": "Recorded words spoken by Nadia Voss",
+                    "at": 602,
+                    "verification": "attributed-statement",
+                    "key": "speech:9240e5b6-54c8-4717-87cb-0e13bb5ecc32",
+                    "migratedDisclosure": true
+                  },
+                  {
+                    "text": "Dart — age: 4",
+                    "source": "Approved appearance: npc:dart/age",
+                    "at": 602,
+                    "verification": "canonical",
+                    "key": "lore:npc:dart:age",
+                    "ref": {
+                      "kind": "public-appearance",
+                      "entityId": "npc:dart",
+                      "field": "age"
+                    },
+                    "revision": "310ca263"
+                  }
+                ]
+              }
+            ],
+            "location": "Technology Center",
+            "minutes": 602,
+            "gold": 100,
+            "activeForm": null,
+            "stage": 0,
+            "appearance": {
+              "age": "28",
+              "gender": "Female",
+              "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Not specified; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not applicable; Foot width: Not specified; Arch height: Not specified; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified",
+              "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Not specified; Covering: Skin; Hair / grooming: Not specified; Material: Skin; Surface colour: Light; inseam: 31.5 in",
+              "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Not specified; Material: Skin; Surface colour: Light; hip circumference: 41.5 in",
+              "buttocks": "Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "waist": "Waist width: Narrow; Abdomen shape: Not specified; Muscle definition: Slight; Material: Skin; Surface colour: Light; waist circumference: 29.5 in",
+              "back": "Shoulder width: Medium; Shoulder shape: Not specified; Back shape: Not specified; Material: Skin; Surface colour: Light; Usual posture: Not specified; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 15.5 in",
+              "chest": "Type: Breasts; Cup size: C; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 33 in; chest circumference: 36 in",
+              "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Not specified; Material: Skin; Surface colour: Light; Hair / grooming: Not specified; shoulder-to-wrist length: 22.5 in",
+              "hands": "Number of hands: 2; Hand type: Human hands; Size: Not specified; Width: Not specified; Material: Skin; Surface colour: Light",
+              "fingers": "Digits per hand: 5; Length: Not specified; Thickness: Not specified; Nail type: Human nails; Nail length: Not specified; Nail shape: Not specified; Nail colour: Not specified; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+              "voice": "Neck shape: Not specified; Voice pitch: Not specified; Voice quality: Not specified; Material: Skin; Surface colour: Light",
+              "face": "Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Not specified; Facial hair: Not specified; Complexion and markings: None; Material: Skin; Surface colour: Light",
+              "eyes": "Number of eyes: 2; Size: Not specified; Shape: Not specified; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Not specified; Material: Human eye tissue",
+              "ears": "Number of ears: 2; Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+              "hair": "Length: Not specified; Colour: Not specified; Texture: Not specified; Density: Not specified; Style: Not specified; Material: Human hair",
+              "skin": "Material: Skin; Surface colour: Light; Texture: Not specified; Body markings: None; Body hair: Not specified",
+              "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not specified; Material: Skin; Surface colour: Light",
+              "scent": "Natural body scent: Not specified; Scent strength: Not specified; Perspiration tendency: Average; Usual skin temperature: Not specified; Other physical tendencies: None",
+              "height": "5 ft 8 in",
+              "weight": "155 lb",
+              "build": "Medium frame, light muscle definition, average arms, narrow waist, fuller rounded hips. waist 29.5 in; hips 41.5 in; chest 36 in.",
+              "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+            },
+            "resources": {
+              "health": 100,
+              "stamina": 100,
+              "resolve": 100,
+              "arousal": 0
+            },
+            "contextFitting": [
+              {
+                "requestId": "ecc9c046-6fd2-460c-bb1e-c8e074580eb7",
+                "beforeHistory": 0,
+                "afterHistory": 0,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 28753,
+                "providerMessageBytes": 3759
+              },
+              {
+                "requestId": "d906a5ce-591f-4dea-8bac-b239562a9dd3",
+                "beforeHistory": 0,
+                "afterHistory": 0,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 18303,
+                "providerMessageBytes": 14209
+              },
+              {
+                "requestId": "d56235aa-97fa-448c-a946-3a101c147d63",
+                "beforeHistory": 0,
+                "afterHistory": 0,
+                "inspectionCalls": 1,
+                "replyTokenRoom": 18878,
+                "providerMessageBytes": 13634
+              }
+            ],
+            "relationships": {
+              "npc:tits": {
+                "score": 0
+              },
+              "npc:priya": {
+                "score": 0
+              },
+              "npc:daniel": {
+                "score": 0
+              },
+              "npc:nadia": {
+                "score": 0,
+                "interactions": {
+                  "sequence": 0,
+                  "turns": [
+                    {
+                      "at": 600,
+                      "scope": "day:0",
+                      "normalized": "how old is your dog dart and what breed is he",
+                      "result": null
+                    }
+                  ],
+                  "awards": {},
+                  "commitments": {},
+                  "boundaries": {},
+                  "receipts": []
+                }
+              },
+              "npc:richard": {
+                "score": 0
+              },
+              "npc:charity": {
+                "score": 0
+              },
+              "npc:eve": {
+                "score": 0
+              },
+              "form:kibbles": {
+                "score": 0
+              }
+            },
+            "participants": [
+              {
+                "id": "npc:nadia",
+                "name": "Nadia Voss"
+              },
+              {
+                "id": "npc:priya",
+                "name": "Priya Shah"
+              }
+            ],
+            "recipient": "npc:nadia",
+            "actors": {
+              "daniel": {
+                "location": "Technology Center",
+                "room": "H",
+                "activity": "Preparing sales-number reports",
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "commute": null,
+                "view": false,
+                "departureDiscussion": null
+              },
+              "richard": {
+                "schema": 1,
+                "lastMinute": 602,
+                "location": "Technology Center",
+                "room": "G",
+                "activity": "Review sales and marketing reports",
+                "stress": 30.049999999999997,
+                "fatigue": 10.030000000000001,
+                "relationship": 0,
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "day": 0,
+                "refusals": 0,
+                "completedToday": 0,
+                "nextOfferAt": 600,
+                "task": null,
+                "history": [],
+                "paid": {},
+                "work": null,
+                "commute": null,
+                "view": false,
+                "homeRoom": null,
+                "departureDiscussion": null,
+                "homeTransit": "outside"
+              },
+              "nadia": {
+                "location": "Technology Center",
+                "room": "H_W",
+                "activity": "Preparing daily marketing report",
+                "resources": {
+                  "health": 100,
+                  "stamina": 100,
+                  "resolve": 100,
+                  "arousal": 0
+                },
+                "relationship": 0,
+                "commute": null,
+                "view": true,
+                "homeRoom": null,
+                "lastExchange": 600
+              }
+            },
+            "dart": {
+              "schema": 1,
+              "id": "dart",
+              "name": "Dart",
+              "sex": "male",
+              "species": "dog",
+              "breed": "Doberman Pinscher",
+              "location": "applewood",
+              "unit": "6E",
+              "room": "living",
+              "activity": "Resting",
+              "withNadia": false,
+              "needs": {
+                "hunger": 20,
+                "thirst": 20,
+                "bladder": 10,
+                "fatigue": 10
+              },
+              "lastMinute": 600,
+              "lastMarkAt": null,
+              "marks": {},
+              "familiar": {},
+              "scentKnown": {},
+              "history": [],
+              "sequence": 0,
+              "walkSequence": 0,
+              "toys": {
+                "ball": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "tug": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "chew": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "puzzle": {
+                  "place": "living",
+                  "uses": 0
+                },
+                "soft": {
+                  "place": "living",
+                  "uses": 0
+                }
+              },
+              "kennel": {
+                "closed": false,
+                "location": "living"
+              },
+              "pending": null,
+              "play": null,
+              "signal": null,
+              "relationship": 0
+            },
+            "shop": {
+              "at": 602,
+              "currency": "gold",
+              "venue": {
+                "room": "A",
+                "description": "Candy bins and pink cosmetics occupy the entrance-side sales area. The bakery display is in B. The public aisle approaches the customer-facing register in C.",
+                "fixtures": [
+                  "Shop baskets",
+                  "Candy bins",
+                  "Pink cosmetics shelf",
+                  "BFBFF bracelet display"
+                ],
+                "seating": "unrecorded"
+              },
+              "unpaidSelection": null,
+              "latestPayment": null,
+              "drinkOrders": [],
+              "proseCannotPayPrepareOrCollect": true
+            },
+            "cat": {
+              "phase": "none",
+              "formId": null,
+              "linked": false
+            },
+            "inventory": {
+              "keepsake": 1
+            },
+            "equipment": {},
+            "feed": [
+              {
+                "speaker": "Morgan · NPC → npc:nadia",
+                "text": "How old is your dog Dart, and what breed is he?"
+              },
+              {
+                "speaker": "Nadia Voss",
+                "text": "Dart is a Doberman Pinscher. Dart is 4 years old.",
+                "failure": "AI response contradicted recorded context after one correction; the recorded response is preserved.",
+                "decision": {
+                  "action": null,
+                  "unstructured": false
+                },
+                "result": {
+                  "status": "dialogue-only",
+                  "action": null,
+                  "text": "Conversation only. No physical action was requested."
+                }
+              }
+            ],
+            "paidCallCount": 442
+          },
+          "feed": [
+            {
+              "speaker": "Morgan · NPC → npc:nadia",
+              "text": "How old is your dog Dart, and what breed is he?"
+            },
+            {
+              "speaker": "Nadia Voss",
+              "text": "Dart is a Doberman Pinscher. Dart is 4 years old.",
+              "failure": "AI response contradicted recorded context after one correction; the recorded response is preserved.",
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 3,
+          "displayedAIReplies": 0,
+          "replyFailures": [
+            "AI response contradicted recorded context after one correction; the recorded response is preserved."
+          ]
+        }
+      ],
+      "errors": [],
+      "complete": true,
+      "accountingAfter": {
+        "calls": 442,
+        "maxCalls": 450,
+        "spentUSD": 0.7745539999999983,
+        "reservedUpperUSD": 0.38788199999999995,
+        "maxUSD": 2,
+        "stopped": null
+      }
+    }
+  ],
+  "errors": [],
+  "resumedAfterTechnicalFixtureRepair": true,
+  "priorRun": "first-run.json",
+  "complete": true,
+  "accounting": {
+    "calls": 442,
+    "maxCalls": 450,
+    "spentUSD": 0.7745539999999983,
+    "reservedUpperUSD": 0.38788199999999995,
+    "maxUSD": 2,
+    "stopped": null
+  },
+  "finished": "2026-11-22T12:41:04.361Z"
+}

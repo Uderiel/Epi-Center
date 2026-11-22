@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-22T12:50:08.251216+00:00",
+  "baseCommit": "bdce3656a282223ba616b8a9da1c7002e8ef0a2d",
+  "publishedVersion": "1.0.137",
+  "workerUnchanged": "request-handoff-v11",
+  "modelUnchanged": "TheDrummer/Cydonia-24B-v4.3",
+  "newAdmissions": 226,
+  "newKnownCostUSD": 0.37813934,
+  "httpStatuses": {
+    "200": 226
+  },
+  "newUncertainRequests": [],
+  "totalAccounting": {
+    "calls": 460,
+    "maxCalls": 470,
+    "spentUSD": 0.7982473399999981,
+    "reservedUpperUSD": 0.38788199999999995,
+    "maxUSD": 2,
+    "stopped": null
+  },
+  "oldUncertaintyUnchanged": [
+    [
+      "52adc75c-26bb-42d7-82af-a80bf5cde819",
+      0.110302
+    ],
+    [
+      "432e418f-18c4-4f42-9dd1-05978731ce66",
+      0.138721
+    ],
+    [
+      "07dcc342-53f0-4289-b085-7b50b0a86da7",
+      0.13885899999999998
+    ]
+  ],
+  "batches": [
+    {
+      "version": 1,
+      "scenarios": 10,
+      "turns": 37,
+      "technicalErrors": []
+    },
+    {
+      "version": 2,
+      "scenarios": 8,
+      "turns": 23,
+      "technicalErrors": []
+    },
+    {
+      "version": 3,
+      "scenarios": 6,
+      "turns": 19,
+      "technicalErrors": []
+    },
+    {
+      "version": 4,
+      "scenarios": 4,
+      "turns": 14,
+      "technicalErrors": []
+    },
+    {
+      "version": 5,
+      "scenarios": 3,
+      "turns": 12,
+      "technicalErrors": []
+    },
+    {
+      "version": 6,
+      "scenarios": 2,
+      "turns": 11,
+      "technicalErrors": []
+    },
+    {
+      "version": 7,
+      "scenarios": 2,
+      "turns": 4,
+      "technicalErrors": []
+    },
+    {
+      "version": 8,
+      "scenarios": 1,
+      "turns": 3,
+      "technicalErrors": []
+    },
+    {
+      "version": 9,
+      "scenarios": 1,
+      "turns": 1,
+      "technicalErrors": []
+    },
+    {
+      "version": 10,
+      "scenarios": 1,
+      "turns": 6,
+      "technicalErrors": []
+    },
+    {
+      "version": 11,
+      "scenarios": 1,
+      "turns": 4,
+      "technicalErrors": []
+    }
+  ],
+  "finalRegression": 2408,
+  "bibleHashesUnchanged": {
+    "docs/EPI-CENTER-WORLD-BIBLE.md": "3af749381de9294d61808f94cdbc71c351021455b7e247d28a2f69665cb87dce",
+    "docs/bible/v1.0.137-world-bible.md": "3af749381de9294d61808f94cdbc71c351021455b7e247d28a2f69665cb87dce"
+  },
+  "publication": "None; local candidate only",
+  "ownerSaves": "Unused; disposable synthetic saves only",
+  "verificationLimit": "Safe fallback is not a successful generated reply. Source/claim checks are bounded; arbitrary factual and personality correctness is not established."
+}
