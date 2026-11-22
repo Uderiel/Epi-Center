@@ -1,3 +1,7 @@
+## v1.0.138 publication disposition
+
+The approved implemented fixes described here are now published and publicly verified. The earlier local labels and test-cost/checkpoint counts below are historical. Final release verification passes2,416 cases across all170 suites and14 public browser suites;the earlier incorrect full-pass classification is corrected and preserved in release evidence. General generated-prose acceptance remains limited;truthful fallbacks remain necessary. Current record:releases/v1.0.138-release-summary.json.
+
 ## v1.0.138 release audit correction
 
 The previous full-pass summary was incorrect:the saved regression report actually has `passed:false`. Its2,408 count was passing assertions,with npc-followup.test.js stopping on an outdated duplicate-transcript expectation. Release verification now checks preceding conversation through scoped history while retaining mechanical events and excluding the current placeholder. Production code is unchanged by the test correction. Original evidence is retained;the corrected full run is in releases/v1.0.138-tests.json.

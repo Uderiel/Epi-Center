@@ -1,0 +1,217 @@
+{
+  "realModel": false,
+  "callsForwarded": 0,
+  "checks": [
+    {
+      "which": "canine",
+      "passed": true,
+      "interceptedRequests": 1
+    }
+  ],
+  "packets": [
+    {
+      "which": "canine",
+      "request": {
+        "kind": "npc",
+        "actor": {
+          "id": "npc:nadia",
+          "name": "Nadia Voss",
+          "dossier": "You are Nadia Voss. Speak ONLY as Nadia Voss to the visiting German Shepherd. The latest expressed message is the question to answer; routine activity is background, never a substitute answer. Do not speak as any other NPC. Asterisks depict actions, thoughts or inner dialogue, NEVER spoken words or commands. External NPCs cannot hear private narration. Forms may understand internal thoughts and imagery. Dreams remain dreams: never answer as if spoken, wake the player or urge sleep because of dream content. Only the game confirms physical actions. In mixed input, distinguish expressed words from narration. PUBLIC PLACE DIRECTORY: [\"Central Hub Spire\",\"Burke's Sweets\",\"Neko Cafe\",\"Applewood Apartments\",\"Technology Center\"]. Names are recorded; use the supplied venue descriptions for services/hours. Reviews and opening dates are unknown. Do not invent another venue; proposals are not bookings. Nadia Voss is a polished, confident adult with economical courteous speech and subtle condescension. Her dog Dart brings out her gentler side, but is present only when listed in the scene. Respond to the recorded event and actual visitor body; identity linkage exists only if explicitly recorded. Respect actual permissions and body capabilities. Do not turn a household or body event into an unrelated work assignment, greeting or physical action. Only the current response contract or recorded controller outcome establishes an offer. The visiting German Shepherd and Dart are separate individuals; the signal comes from the visiting dog. Address that dog directly. Its known identity does not imply a separate human owner standing beside it. React to the recorded physical canine signals only, not to imagined human words or private thoughts. A lick is an offer/attempt, not completed permission. Nadia is Dart’s familiar owner, not a second Nadia or an unknown dog owner.",
+          "communication": "Polished courteous adult speech, confident and economical; subtle condescension, no constant insults or villain speeches. No compulsory closing question. Current room facts establish props; character facts establish personal history. Earlier generated dialogue is not proof of new objects or biography. Preserve normal expression without filling these unknowns. Address the visible canine signal as such. No human work request was made; do not reinterpret it as a report, campaign question or employee request. Reply with actual spoken words in quotation marks, without physical staging or new actions."
+        },
+        "scene": "{\"turn\":{\"speaker\":\"Nadia Voss\",\"addressee\":\"the visiting German Shepherd\",\"scope\":\"player\",\"latestMessage\":\"\",\"playerIdentity\":\"the visiting German Shepherd\",\"playerIsAddressee\":true,\"inputKind\":\"observed-nonverbal-signal\",\"playerEmployment\":\"unrecorded; do not assume a visitor is an employee\",\"continuity\":\"Answer the latest expressed message, including follow-up questions to your previous reply. Do not restart with a greeting or routine work update.\"},\"contextVersion\":\"scene-contract-v1\",\"visibleParticipants\":[{\"id\":\"npc:nadia\",\"name\":\"Nadia Voss\",\"perception\":\"same room\"},{\"id\":\"npc:priya\",\"name\":\"Priya Shah\",\"perception\":\"same room\"}],\"physicalContext\":{\"space\":\"Technology Center:3:H_W\",\"roomId\":\"H_W\",\"publicIdentity\":\"the visiting German Shepherd\",\"wornItems\":[],\"clothingKnowledge\":\"Only the listed items are recorded as worn; unlisted socks, shoes or garments are unknown, not implied.\",\"activeForm\":\"kibbles\",\"body\":{\"name\":\"the visiting German Shepherd\",\"bodyType\":\"canine\",\"senses\":[\"scent\",\"hearing\",\"paw pressure\"],\"breed\":\"German Shepherd\"},\"property\":null,\"travelMode\":{\"id\":\"walk\",\"minutes\":8,\"stamina\":0},\"perspiration\":{\"playerVisible\":null,\"nearby\":[]},\"speakerAppearance\":{\"entityId\":\"npc:nadia\",\"appearance\":{\"ears\":\"Number of ears: 2; Size: Small; Shape: Rounded; Material: Skin; Surface colour: Pale\"},\"source\":\"current authored NPC appearance; not the player body\"},\"conversationRoles\":{\"speaker\":\"Nadia Voss\",\"addressee\":\"the visiting German Shepherd\",\"speakerIsPlayer\":false,\"addresseeHasOneBody\":true,\"addresseeCurrentBodyType\":\"canine\",\"addresseeCurrentBodyLabel\":\"the visiting German Shepherd\",\"addresseeHasSeparateHumanBody\":false,\"bodyChangeSubject\":\"The player; an NPC does not transform unless an actual NPC change is recorded.\"},\"observedPlayerSignal\":{\"source\":\"player-current-body\",\"subject\":{\"id\":\"player-current-body\",\"label\":\"the visiting German Shepherd\",\"species\":\"canine\",\"breed\":\"German Shepherd\",\"identityLinked\":false,\"knownHumanIdentity\":null},\"otherCanine\":null,\"spokenWords\":false,\"signals\":[{\"id\":\"head-tilt\",\"text\":\"You tilt your head toward the nearby recipient, without human words.\",\"audible\":false}]},\"ownedCanine\":{\"version\":\"owned-canine-lore-v1\",\"entityId\":\"npc:dart\",\"name\":\"Dart\",\"owner\":\"Nadia\",\"description\":\"Adult male Doberman Pinscher with a lean muscular quadrupedal build\",\"purebred\":true,\"breedSource\":\"Approved Nadia biography: rebuild/hub/marketing.js\",\"age\":\"4\",\"ears\":\"Number of ears: 2; Size: Large; Shape: Cropped, upright pointed ears; Material: Skin; Surface colour: Black coat with rust markings,  underlying skin pigment unspecified\",\"tail\":\"Tail present: Present; Tail description: Canine tail,  length and docking status not specified; Material: Fur-covered biological tissue; Surface colour: Not specified; Recorded details: Doberman tail,  length and docking are not authored\",\"acquisitionHistory\":\"Not authored; do not invent acquisition age, date or puppy history.\",\"tailDocking\":\"Not authored; cropped ears do not establish a docked tail.\",\"presence\":\"This profile does not establish presence in this room.\"},\"responseEvidence\":{\"version\":\"source-membership-v1\",\"recordedProps\":[\"desk\"],\"recordedPersonalHistory\":[],\"recordedPastStatements\":[],\"recordedPlayerPossession\":false,\"localRailServices\":\"Not authored; a player’s collection/story is not evidence of local transport services.\",\"recordedSurfaceTransfer\":false,\"historyAuthority\":\"Prior generated replies are conversation, not new canonical objects or biography. Unknown facts stay unknown; normal gestures and hypothetical stories remain possible.\"}},\"eventStatus\":\"unrecorded\",\"playerInput\":{\"expressed\":\"\",\"narration\":[],\"onlyNarration\":false,\"privateNarration\":false,\"expressedChannel\":\"observable canine movement or sound; not human speech\",\"narrationIsNotSpeech\":true,\"spokenWords\":false},\"location\":\"Technology Center · Marketing Cubicles\",\"room\":\"Marketing Cubicles\",\"time\":\"Mon · 10:01\",\"currentForm\":\"kibbles\",\"visibleNPCs\":[\"Nadia Voss\",\"Priya Shah\"],\"eventOutcomeIsFinal\":false,\"conversation\":{\"mode\":\"observed-canine-expression\",\"space\":\"Technology Center:3:H_W\",\"heardBy\":[\"npc:nadia\",\"npc:priya\"],\"replyToSpeaker\":\"the visiting German Shepherd\",\"inputKind\":\"nonverbal\",\"noSpokenRequest\":true,\"outputMode\":\"speech-only\"},\"currentAppearance\":\"\",\"characterState\":{\"activity\":\"Preparing daily marketing report\",\"relationship\":0,\"perceivedIdentity\":\"the visiting German Shepherd\"},\"carrierSocialPolicy\":{\"playerCarrier\":false,\"npcCarrier\":false,\"affinityGainsAllowed\":true,\"datingAllowed\":true,\"deeperRelationshipAllowed\":true,\"avoidProlongedContact\":false,\"refuseSharedPersonalItems\":false},\"relationship\":{\"entityId\":\"npc:nadia\",\"score\":0,\"threshold\":0,\"sign\":0,\"label\":\"Neutral\",\"guidance\":\"No strong familiarity is established by this score.\",\"limits\":\"Relationship is not permission, consent, undisclosed identity recognition, resource recovery or control. Actual schedules, access rules and resolved mechanics remain authoritative.\",\"reactions\":{\"positive\":[\"Actual reliable contributions and praise\"],\"negative\":[\"Recorded criticism, insults or aggression\"],\"controllerResolvedOnly\":true}},\"witnessedBodyChange\":null,\"tone\":\"standard\"}\nMarketing has fourteen individually numbered cubicles in seven rows of two, numbered left to right from the top row: 1 top left, 2 top right, through 13 and 14 at the bottom. Priya Shah occupies cubicle 1, top left; Nadia Voss occupies cubicle 2, top right, on the west Marketing side. Graphite desks, acoustic partitions and clear existing aisles preserve the floor layout. Remaining staff assignments await their character designs.",
+        "message": "React as Nadia Voss to the recorded head-tilt from the visiting German Shepherd. No human words or work request were spoken.",
+        "event": "Hello there. We can take this at your pace.",
+        "history": [],
+        "requestId": "eafe7abe-4861-45d8-b254-84d97e9d76ce",
+        "clientTimeoutMs": 120000
+      }
+    }
+  ],
+  "errors": [],
+  "canineScene": {
+    "turn": {
+      "speaker": "Nadia Voss",
+      "addressee": "the visiting German Shepherd",
+      "scope": "player",
+      "latestMessage": "",
+      "playerIdentity": "the visiting German Shepherd",
+      "playerIsAddressee": true,
+      "inputKind": "observed-nonverbal-signal",
+      "playerEmployment": "unrecorded; do not assume a visitor is an employee",
+      "continuity": "Answer the latest expressed message, including follow-up questions to your previous reply. Do not restart with a greeting or routine work update."
+    },
+    "contextVersion": "scene-contract-v1",
+    "visibleParticipants": [
+      {
+        "id": "npc:nadia",
+        "name": "Nadia Voss",
+        "perception": "same room"
+      },
+      {
+        "id": "npc:priya",
+        "name": "Priya Shah",
+        "perception": "same room"
+      }
+    ],
+    "physicalContext": {
+      "space": "Technology Center:3:H_W",
+      "roomId": "H_W",
+      "publicIdentity": "the visiting German Shepherd",
+      "wornItems": [],
+      "clothingKnowledge": "Only the listed items are recorded as worn; unlisted socks, shoes or garments are unknown, not implied.",
+      "activeForm": "kibbles",
+      "body": {
+        "name": "the visiting German Shepherd",
+        "bodyType": "canine",
+        "senses": [
+          "scent",
+          "hearing",
+          "paw pressure"
+        ],
+        "breed": "German Shepherd"
+      },
+      "property": null,
+      "travelMode": {
+        "id": "walk",
+        "minutes": 8,
+        "stamina": 0
+      },
+      "perspiration": {
+        "playerVisible": null,
+        "nearby": []
+      },
+      "speakerAppearance": {
+        "entityId": "npc:nadia",
+        "appearance": {
+          "ears": "Number of ears: 2; Size: Small; Shape: Rounded; Material: Skin; Surface colour: Pale"
+        },
+        "source": "current authored NPC appearance; not the player body"
+      },
+      "conversationRoles": {
+        "speaker": "Nadia Voss",
+        "addressee": "the visiting German Shepherd",
+        "speakerIsPlayer": false,
+        "addresseeHasOneBody": true,
+        "addresseeCurrentBodyType": "canine",
+        "addresseeCurrentBodyLabel": "the visiting German Shepherd",
+        "addresseeHasSeparateHumanBody": false,
+        "bodyChangeSubject": "The player; an NPC does not transform unless an actual NPC change is recorded."
+      },
+      "observedPlayerSignal": {
+        "source": "player-current-body",
+        "subject": {
+          "id": "player-current-body",
+          "label": "the visiting German Shepherd",
+          "species": "canine",
+          "breed": "German Shepherd",
+          "identityLinked": false,
+          "knownHumanIdentity": null
+        },
+        "otherCanine": null,
+        "spokenWords": false,
+        "signals": [
+          {
+            "id": "head-tilt",
+            "text": "You tilt your head toward the nearby recipient, without human words.",
+            "audible": false
+          }
+        ]
+      },
+      "ownedCanine": {
+        "version": "owned-canine-lore-v1",
+        "entityId": "npc:dart",
+        "name": "Dart",
+        "owner": "Nadia",
+        "description": "Adult male Doberman Pinscher with a lean muscular quadrupedal build",
+        "purebred": true,
+        "breedSource": "Approved Nadia biography: rebuild/hub/marketing.js",
+        "age": "4",
+        "ears": "Number of ears: 2; Size: Large; Shape: Cropped, upright pointed ears; Material: Skin; Surface colour: Black coat with rust markings,  underlying skin pigment unspecified",
+        "tail": "Tail present: Present; Tail description: Canine tail,  length and docking status not specified; Material: Fur-covered biological tissue; Surface colour: Not specified; Recorded details: Doberman tail,  length and docking are not authored",
+        "acquisitionHistory": "Not authored; do not invent acquisition age, date or puppy history.",
+        "tailDocking": "Not authored; cropped ears do not establish a docked tail.",
+        "presence": "This profile does not establish presence in this room."
+      },
+      "responseEvidence": {
+        "version": "source-membership-v1",
+        "recordedProps": [
+          "desk"
+        ],
+        "recordedPersonalHistory": [],
+        "recordedPastStatements": [],
+        "recordedPlayerPossession": false,
+        "localRailServices": "Not authored; a player’s collection/story is not evidence of local transport services.",
+        "recordedSurfaceTransfer": false,
+        "historyAuthority": "Prior generated replies are conversation, not new canonical objects or biography. Unknown facts stay unknown; normal gestures and hypothetical stories remain possible."
+      }
+    },
+    "eventStatus": "unrecorded",
+    "playerInput": {
+      "expressed": "",
+      "narration": [],
+      "onlyNarration": false,
+      "privateNarration": false,
+      "expressedChannel": "observable canine movement or sound; not human speech",
+      "narrationIsNotSpeech": true,
+      "spokenWords": false
+    },
+    "location": "Technology Center · Marketing Cubicles",
+    "room": "Marketing Cubicles",
+    "time": "Mon · 10:01",
+    "currentForm": "kibbles",
+    "visibleNPCs": [
+      "Nadia Voss",
+      "Priya Shah"
+    ],
+    "eventOutcomeIsFinal": false,
+    "conversation": {
+      "mode": "observed-canine-expression",
+      "space": "Technology Center:3:H_W",
+      "heardBy": [
+        "npc:nadia",
+        "npc:priya"
+      ],
+      "replyToSpeaker": "the visiting German Shepherd",
+      "inputKind": "nonverbal",
+      "noSpokenRequest": true,
+      "outputMode": "speech-only"
+    },
+    "currentAppearance": "",
+    "characterState": {
+      "activity": "Preparing daily marketing report",
+      "relationship": 0,
+      "perceivedIdentity": "the visiting German Shepherd"
+    },
+    "carrierSocialPolicy": {
+      "playerCarrier": false,
+      "npcCarrier": false,
+      "affinityGainsAllowed": true,
+      "datingAllowed": true,
+      "deeperRelationshipAllowed": true,
+      "avoidProlongedContact": false,
+      "refuseSharedPersonalItems": false
+    },
+    "relationship": {
+      "entityId": "npc:nadia",
+      "score": 0,
+      "threshold": 0,
+      "sign": 0,
+      "label": "Neutral",
+      "guidance": "No strong familiarity is established by this score.",
+      "limits": "Relationship is not permission, consent, undisclosed identity recognition, resource recovery or control. Actual schedules, access rules and resolved mechanics remain authoritative.",
+      "reactions": {
+        "positive": [
+          "Actual reliable contributions and praise"
+        ],
+        "negative": [
+          "Recorded criticism, insults or aggression"
+        ],
+        "controllerResolvedOnly": true
+      }
+    },
+    "witnessedBodyChange": null,
+    "tone": "standard"
+  },
+  "passed": true
+}

@@ -1,3 +1,15 @@
+## v1.0.138 published and publicly verified
+
+[Play v1.0.138](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.138). Runtime commit `f425ec1ad60630cec44e4b784bae072ea8d316a0` is published from main and rebuild/1.0-foundations. GitHub Pages run45031598104 succeeded. All261 compared public runtime,portrait and canon files match the checked bytes. Canonical and frozen World Bible match SHA256`9806c841b56540e789efbcc9182d815298d0ddd1cfd3a110f5b709235d162f21`. Final release verification passes2,416 cases across all170 suites,plus14 local and14 public browser suites/76 reported checks each.
+
+Dialogue continuity,shared canonical/learned information,player-scoped history,Tits’s actual planner meaning/clarification memory,current-body safeguards and approved Dart cropped ears are published. Some generated replies still require truthful fallbacks;general arbitrary-language factual/personality acceptance remains open. The existing request-handoff-v11 AI worker,model and settings are unchanged. Release verification used no owner saves or new paid calls. Reload the existing game;no save reset is required.
+
+The release gate also corrected the earlier all-pass summary:2,408 was a passing-assertion count with one stale duplicate-transcript test failing. That test now checks scoped history and mechanical events;the full2,416-case run passes. Original failed evidence and rejected preparation freeze are retained. Nothing was deployed from that failed preparation.
+
+Publication is complete. Evidence:`releases/v1.0.138-release-summary.json`,`v1.0.138-tests.json`,`v1.0.138-live-verification.json`,`v1.0.138-public-browser-verification.json` and `verification/release-1.0.138/`. Earlier preparation/local labels below are historical.
+
+## Earlier preparation and verification checkpoints — historical
+
 # v1.0.138 — dialogue continuity, shared lore and safe factual delivery
 
 Owner authorized publication of the tested fixes after v1.0.137. This release includes local commits4277bf2,bdce365 andcb64cac. The existing request-handoff-v11 worker, provider model/settings, credentials and allowance remain unchanged. Source canon is frozen before deployment; publication status belongs in releases/v1.0.138-release-summary.json and public verification.

@@ -1,0 +1,364 @@
+{
+  "realModel": false,
+  "callsForwarded": 0,
+  "checks": [
+    {
+      "which": "body1",
+      "passed": true,
+      "interceptedRequests": 1
+    },
+    {
+      "which": "body3",
+      "passed": true,
+      "interceptedRequests": 1
+    }
+  ],
+  "packets": [
+    {
+      "which": "body1",
+      "request": {
+        "kind": "narration",
+        "actor": {
+          "id": "narrator:body-awareness",
+          "name": "Current body observation",
+          "dossier": "Asterisks depict actions, thoughts or inner dialogue, NEVER spoken words or commands. External NPCs cannot hear private narration. Forms may understand internal thoughts and imagery. Dreams remain dreams: never answer as if spoken, wake the player or urge sleep because of dream content. Only the game confirms physical actions. In mixed input, distinguish expressed words from narration. RECORDED VISIBLE PARTICIPANTS: []. Only these and people explicitly in the event are recorded; do not add unnamed bystanders or bench occupants. FACT PRESERVATION: Rewrite the supplied observation rather than completing a likely scene. Preserve the exact recorded action and quantities. Do not supply material, age, condition, vegetation, extra motion or an awaited cue when absent from the record. Describe the original player’s private observation of the supplied current body regions. This is an observation, not a speaking form personality or a medical examination. Use only the recorded current appearance and current symptoms. Unspecified measurements, health, former anatomy and future changes remain unknown. Do not invent movement, reactions, player feelings or comparisons to an unspecified former body.",
+          "communication": "Natural second-person description of the requested current regions. No character dialogue, report headings or imaginary examination. Keep the actual action, body and sensory experience central; location is background. Use the detail and pacing needed for this event. Do not invent additional outcomes."
+        },
+        "scene": "{\"contextVersion\":\"scene-contract-v1\",\"location\":\"Technology Center\",\"room\":null,\"time\":\"Mon · 10:00\",\"currentForm\":null,\"playerInput\":{\"expressed\":\"Describe this actual self-observation or self-contact, focusing on the requested body regions and their recorded current appearance. Mention a symptom only when it is explicitly supplied. Do not invent a remembered prior build or player feelings not expressed in the request: How do my feet look right now?\",\"narration\":[],\"onlyNarration\":false,\"privateNarration\":false,\"expressedChannel\":\"spoken words\",\"narrationIsNotSpeech\":true},\"eventStatus\":\"unrecorded\",\"bodyInspection\":{\"source\":\"current-body-awareness\",\"request\":\"How do my feet look right now?\",\"kind\":\"question\",\"regions\":[\"feet\"],\"formId\":\"erin\",\"appearance\":{\"footSize\":\"Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Shoe size; Shoe size: 9; Shoe sizing system: US women’s; Foot length: Not applicable; Foot width: Not specified; Arch height: Reshaping toward high arches; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified; Recorded current change: Arches reshaping to fit the heels\"},\"unrecordedSubjects\":[],\"controllerResolved\":true,\"currentAppearanceOnly\":true,\"audience\":\"owner\",\"spokenWords\":false,\"currentAppearanceIsPhysical\":true,\"physicalChanges\":{\"source\":\"recorded-erin-heels\",\"reachedStage\":1,\"fullyTransformed\":false,\"affectedRegions\":[\"feet\"],\"realBodyChanges\":true,\"notOnlyFootwear\":true},\"coveredBy\":[\"Erin’s Favorite Red Heels (Cursed)\"]},\"currentAppearance\":\"\",\"physicalContext\":{\"space\":\"Technology Center:outside\",\"roomId\":null,\"publicIdentity\":\"Erin Lillard\",\"body\":{\"name\":\"Erin Lillard\",\"bodyType\":\"human\",\"senses\":[\"human touch\",\"balance\",\"pressure\"]},\"wornItems\":[{\"name\":\"Erin’s Favorite Red Heels (Cursed)\",\"slot\":\"shoes\"}],\"perspiration\":{\"playerVisible\":null,\"nearby\":[]}},\"tone\":\"standard\"}\n",
+        "message": "Describe this actual self-observation or self-contact, focusing on the requested body regions and their recorded current appearance. Mention a symptom only when it is explicitly supplied. Do not invent a remembered prior build or player feelings not expressed in the request: How do my feet look right now?",
+        "event": "Recorded current-body question of feet. Use the supplied current appearance; this inspection does not create another physical change.",
+        "history": [],
+        "requestId": "dc772abc-bb14-4159-9d93-73e26954173d",
+        "clientTimeoutMs": 120000
+      }
+    },
+    {
+      "which": "body3",
+      "request": {
+        "kind": "narration",
+        "actor": {
+          "id": "narrator:body-awareness",
+          "name": "Current body observation",
+          "dossier": "Asterisks depict actions, thoughts or inner dialogue, NEVER spoken words or commands. External NPCs cannot hear private narration. Forms may understand internal thoughts and imagery. Dreams remain dreams: never answer as if spoken, wake the player or urge sleep because of dream content. Only the game confirms physical actions. In mixed input, distinguish expressed words from narration. RECORDED VISIBLE PARTICIPANTS: []. Only these and people explicitly in the event are recorded; do not add unnamed bystanders or bench occupants. FACT PRESERVATION: Rewrite the supplied observation rather than completing a likely scene. Preserve the exact recorded action and quantities. Do not supply material, age, condition, vegetation, extra motion or an awaited cue when absent from the record. Describe the original player’s private observation of the supplied current body regions. This is an observation, not a speaking form personality or a medical examination. Use only the recorded current appearance and current symptoms. Unspecified measurements, health, former anatomy and future changes remain unknown. Do not invent movement, reactions, player feelings or comparisons to an unspecified former body.",
+          "communication": "Natural second-person description of the requested current regions. No character dialogue, report headings or imaginary examination. Keep the actual action, body and sensory experience central; location is background. Use the detail and pacing needed for this event. Do not invent additional outcomes."
+        },
+        "scene": "{\"contextVersion\":\"scene-contract-v1\",\"location\":\"Technology Center\",\"room\":null,\"time\":\"Mon · 10:00\",\"currentForm\":null,\"playerInput\":{\"expressed\":\"Describe this actual self-observation or self-contact, focusing on the requested body regions and their recorded current appearance. Mention a symptom only when it is explicitly supplied. Do not invent a remembered prior build or player feelings not expressed in the request: What is different about my feet at this point?\",\"narration\":[],\"onlyNarration\":false,\"privateNarration\":false,\"expressedChannel\":\"spoken words\",\"narrationIsNotSpeech\":true},\"eventStatus\":\"unrecorded\",\"bodyInspection\":{\"source\":\"current-body-awareness\",\"request\":\"What is different about my feet at this point?\",\"kind\":\"question\",\"regions\":[\"feet\"],\"formId\":\"erin\",\"appearance\":{\"footSize\":\"Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Shoe size; Shoe size: 6; Shoe sizing system: US women’s; Foot length: Not applicable; Foot width: Medium; Arch height: High; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Smooth; Markings: None; Recorded details: Small human feet with high arches, shaped toes and smooth soles\"},\"unrecordedSubjects\":[],\"controllerResolved\":true,\"currentAppearanceOnly\":true,\"audience\":\"owner\",\"spokenWords\":false,\"currentAppearanceIsPhysical\":true,\"physicalChanges\":{\"source\":\"recorded-erin-heels\",\"reachedStage\":3,\"fullyTransformed\":false,\"affectedRegions\":[\"feet\",\"legs\"],\"realBodyChanges\":true,\"notOnlyFootwear\":true},\"coveredBy\":[\"Erin’s Favorite Red Heels (Cursed)\"]},\"currentAppearance\":\"\",\"physicalContext\":{\"space\":\"Technology Center:outside\",\"roomId\":null,\"publicIdentity\":\"Erin Lillard\",\"body\":{\"name\":\"Erin Lillard\",\"bodyType\":\"human\",\"senses\":[\"human touch\",\"balance\",\"pressure\"]},\"wornItems\":[{\"name\":\"Erin’s Favorite Red Heels (Cursed)\",\"slot\":\"shoes\"}],\"perspiration\":{\"playerVisible\":null,\"nearby\":[]}},\"tone\":\"standard\"}\n",
+        "message": "Describe this actual self-observation or self-contact, focusing on the requested body regions and their recorded current appearance. Mention a symptom only when it is explicitly supplied. Do not invent a remembered prior build or player feelings not expressed in the request: What is different about my feet at this point?",
+        "event": "Recorded current-body question of feet. Use the supplied current appearance; this inspection does not create another physical change.",
+        "history": [],
+        "requestId": "567efcc7-ac27-4ad2-821d-9a7409ce103d",
+        "clientTimeoutMs": 120000
+      }
+    }
+  ],
+  "errors": [],
+  "body1": {
+    "stage": 1,
+    "gold": 100,
+    "entry": {
+      "speaker": "Erin Lillard · Private",
+      "text": "You pause to examine your feet, taking a moment to observe their current state.\n\nYour feet are currently wearing **Erin's Favorite Red Heels (Cursed)**. However, beneath the polished exterior, you can feel the effects they're having.\n\nThe most noticeable change is in your arches. They're actively reshaping to accommodate the heels, conforming to fit the footwear more perfectly with each passing moment. The transformation is subtle but unmistakable if you pay close attention.\n\nBeyond these specific details, your feet otherwise appear... normal? At least as normal as can be expected while wearing cursed high heels.",
+      "gameAt": "Mon · 10:00",
+      "at": "2026-11-22T14:15:23.976Z",
+      "origin": "dialogue",
+      "bodyExperience": true,
+      "bodyInspection": {
+        "source": "current-body-awareness",
+        "request": "How do my feet look right now?",
+        "kind": "question",
+        "regions": [
+          "feet"
+        ],
+        "formId": "erin",
+        "appearance": {
+          "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Shoe size; Shoe size: 9; Shoe sizing system: US women’s; Foot length: Not applicable; Foot width: Not specified; Arch height: Reshaping toward high arches; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified; Recorded current change: Arches reshaping to fit the heels"
+        },
+        "unrecordedSubjects": [],
+        "controllerResolved": true,
+        "currentAppearanceOnly": true,
+        "audience": "owner",
+        "spokenWords": false,
+        "currentAppearanceIsPhysical": true,
+        "physicalChanges": {
+          "source": "recorded-erin-heels",
+          "reachedStage": 1,
+          "fullyTransformed": false,
+          "affectedRegions": [
+            "feet"
+          ],
+          "realBodyChanges": true,
+          "notOnlyFootwear": true
+        }
+      },
+      "formId": "erin",
+      "audience": "owner",
+      "knowledgeOwnerId": "free-path-body1",
+      "knowledgeLocation": "Technology Center",
+      "knowledgeEventId": "19467b72-f209-4299-bf57-13ed13b5357c",
+      "recordedRoom": "Technology Center. The office building houses the sales and marketing department; its third floor contains offices, cubicles, conference space, and employee facilities.",
+      "aiRequestId": "dc772abc-bb14-4159-9d93-73e26954173d",
+      "aiFailure": null,
+      "feedId": "feed-2",
+      "canonicalText": "The recorded body sensation is: footSize: Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Shoe size; Shoe size: 9; Shoe sizing system: US women’s; Foot length: Not applicable; Foot width: Not specified; Arch height: Reshaping toward high arches; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified; Recorded current change: Arches reshaping to fit the heels. This question does not move, undress or change the body. Still worn here: Erin’s Favorite Red Heels (Cursed).\n“A little care for my feet sounds sensible. Please keep the pressure gentle.”",
+      "preserveAuthored": false,
+      "aiFinishReason": null,
+      "aiTruncated": false,
+      "aiGenerated": true
+    },
+    "current": {
+      "age": "28",
+      "gender": "Female",
+      "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Shoe size; Shoe size: 9; Shoe sizing system: US women’s; Foot length: Not applicable; Foot width: Not specified; Arch height: Reshaping toward high arches; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified; Recorded current change: Arches reshaping to fit the heels",
+      "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Not specified; Covering: Skin; Hair / grooming: Not specified; Material: Skin; Surface colour: Light; inseam: 31.5 in",
+      "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Not specified; Material: Skin; Surface colour: Light; hip circumference: 41.5 in",
+      "buttocks": "Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+      "waist": "Waist width: Narrow; Abdomen shape: Not specified; Muscle definition: Slight; Material: Skin; Surface colour: Light; waist circumference: 29.5 in",
+      "back": "Shoulder width: Medium; Shoulder shape: Not specified; Back shape: Not specified; Material: Skin; Surface colour: Light; Usual posture: Not specified; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 15.5 in",
+      "chest": "Type: Breasts; Cup size: C; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 33 in; chest circumference: 36 in",
+      "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Not specified; Material: Skin; Surface colour: Light; Hair / grooming: Not specified; shoulder-to-wrist length: 22.5 in",
+      "hands": "Number of hands: 2; Hand type: Human hands; Size: Not specified; Width: Not specified; Material: Skin; Surface colour: Light",
+      "fingers": "Digits per hand: 5; Length: Not specified; Thickness: Not specified; Nail type: Human nails; Nail length: Not specified; Nail shape: Not specified; Nail colour: Not specified; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+      "voice": "Neck shape: Not specified; Voice pitch: Not specified; Voice quality: Not specified; Material: Skin; Surface colour: Light",
+      "face": "Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Not specified; Facial hair: Not specified; Complexion and markings: None; Material: Skin; Surface colour: Light",
+      "eyes": "Number of eyes: 2; Size: Not specified; Shape: Not specified; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Not specified; Material: Human eye tissue",
+      "ears": "Number of ears: 2; Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+      "hair": "Length: Not specified; Colour: Not specified; Texture: Not specified; Density: Not specified; Style: Not specified; Material: Human hair",
+      "skin": "Material: Skin; Surface colour: Light; Texture: Not specified; Body markings: None; Body hair: Not specified",
+      "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not specified; Material: Skin; Surface colour: Light",
+      "scent": "Natural body scent: Not specified; Scent strength: Not specified; Perspiration tendency: Average; Usual skin temperature: Not specified; Other physical tendencies: None",
+      "height": "5 ft 8 in",
+      "weight": "155 lb",
+      "build": "Medium frame, light muscle definition, average arms, narrow waist, fuller rounded hips. waist 29.5 in; hips 41.5 in; chest 36 in.",
+      "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+    },
+    "lastFeed": [
+      {
+        "speaker": "Erin Lillard · Location",
+        "text": "How do my feet look right now?",
+        "gameAt": "Mon · 10:00",
+        "at": "2026-11-22T14:15:23.878Z",
+        "origin": "player",
+        "knowledgeOwnerId": "free-path-body1",
+        "knowledgeLocation": "Technology Center",
+        "knowledgeEventId": "766e7b8f-3e88-431d-9d86-af0c359b0818",
+        "inputText": "How do my feet look right now?",
+        "actor": {
+          "formId": "erin",
+          "publicName": "Erin Lillard"
+        },
+        "ownerAlias": "Morgan",
+        "audience": "owner",
+        "channel": "world",
+        "recordedRoom": "Technology Center. The office building houses the sales and marketing department; its third floor contains offices, cubicles, conference space, and employee facilities.",
+        "feedId": "feed-1"
+      },
+      {
+        "speaker": "Erin Lillard · Private",
+        "text": "You pause to examine your feet, taking a moment to observe their current state.\n\nYour feet are currently wearing **Erin's Favorite Red Heels (Cursed)**. However, beneath the polished exterior, you can feel the effects they're having.\n\nThe most noticeable change is in your arches. They're actively reshaping to accommodate the heels, conforming to fit the footwear more perfectly with each passing moment. The transformation is subtle but unmistakable if you pay close attention.\n\nBeyond these specific details, your feet otherwise appear... normal? At least as normal as can be expected while wearing cursed high heels.",
+        "gameAt": "Mon · 10:00",
+        "at": "2026-11-22T14:15:23.976Z",
+        "origin": "dialogue",
+        "bodyExperience": true,
+        "bodyInspection": {
+          "source": "current-body-awareness",
+          "request": "How do my feet look right now?",
+          "kind": "question",
+          "regions": [
+            "feet"
+          ],
+          "formId": "erin",
+          "appearance": {
+            "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Shoe size; Shoe size: 9; Shoe sizing system: US women’s; Foot length: Not applicable; Foot width: Not specified; Arch height: Reshaping toward high arches; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified; Recorded current change: Arches reshaping to fit the heels"
+          },
+          "unrecordedSubjects": [],
+          "controllerResolved": true,
+          "currentAppearanceOnly": true,
+          "audience": "owner",
+          "spokenWords": false,
+          "currentAppearanceIsPhysical": true,
+          "physicalChanges": {
+            "source": "recorded-erin-heels",
+            "reachedStage": 1,
+            "fullyTransformed": false,
+            "affectedRegions": [
+              "feet"
+            ],
+            "realBodyChanges": true,
+            "notOnlyFootwear": true
+          }
+        },
+        "formId": "erin",
+        "audience": "owner",
+        "knowledgeOwnerId": "free-path-body1",
+        "knowledgeLocation": "Technology Center",
+        "knowledgeEventId": "19467b72-f209-4299-bf57-13ed13b5357c",
+        "recordedRoom": "Technology Center. The office building houses the sales and marketing department; its third floor contains offices, cubicles, conference space, and employee facilities.",
+        "aiRequestId": "dc772abc-bb14-4159-9d93-73e26954173d",
+        "aiFailure": null,
+        "feedId": "feed-2",
+        "canonicalText": "The recorded body sensation is: footSize: Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Shoe size; Shoe size: 9; Shoe sizing system: US women’s; Foot length: Not applicable; Foot width: Not specified; Arch height: Reshaping toward high arches; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified; Recorded current change: Arches reshaping to fit the heels. This question does not move, undress or change the body. Still worn here: Erin’s Favorite Red Heels (Cursed).\n“A little care for my feet sounds sensible. Please keep the pressure gentle.”",
+        "preserveAuthored": false,
+        "aiFinishReason": null,
+        "aiTruncated": false,
+        "aiGenerated": true
+      }
+    ],
+    "channel": "world"
+  },
+  "body3": {
+    "stage": 3,
+    "gold": 100,
+    "entry": {
+      "speaker": "Erin Lillard · Private",
+      "text": "Your feet maintain their humanlike shape - two feet of medium width, each sporting five properly-formed toes with normal human nails.\n\n\n\nThe smooth skin of your soles presses against the insides of those cursed red heels, a constant reminder of the transformation that's taken hold.\n\nThere are no visible markings or unusual textures - just smooth, light-colored skin covering bones and muscle that have adapted to this new form.",
+      "gameAt": "Mon · 10:00",
+      "at": "2026-11-22T14:15:28.285Z",
+      "origin": "dialogue",
+      "bodyExperience": true,
+      "bodyInspection": {
+        "source": "current-body-awareness",
+        "request": "What is different about my feet at this point?",
+        "kind": "question",
+        "regions": [
+          "feet"
+        ],
+        "formId": "erin",
+        "appearance": {
+          "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Shoe size; Shoe size: 6; Shoe sizing system: US women’s; Foot length: Not applicable; Foot width: Medium; Arch height: High; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Smooth; Markings: None; Recorded details: Small human feet with high arches, shaped toes and smooth soles"
+        },
+        "unrecordedSubjects": [],
+        "controllerResolved": true,
+        "currentAppearanceOnly": true,
+        "audience": "owner",
+        "spokenWords": false,
+        "currentAppearanceIsPhysical": true,
+        "physicalChanges": {
+          "source": "recorded-erin-heels",
+          "reachedStage": 3,
+          "fullyTransformed": false,
+          "affectedRegions": [
+            "feet",
+            "legs"
+          ],
+          "realBodyChanges": true,
+          "notOnlyFootwear": true
+        }
+      },
+      "formId": "erin",
+      "audience": "owner",
+      "knowledgeOwnerId": "free-path-body3",
+      "knowledgeLocation": "Technology Center",
+      "knowledgeEventId": "805fff14-8161-4f6e-a7eb-61578470c51c",
+      "recordedRoom": "Technology Center. The office building houses the sales and marketing department; its third floor contains offices, cubicles, conference space, and employee facilities.",
+      "aiRequestId": "567efcc7-ac27-4ad2-821d-9a7409ce103d",
+      "aiFailure": null,
+      "feedId": "feed-2",
+      "canonicalText": "The recorded body sensation is: footSize: Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Shoe size; Shoe size: 6; Shoe sizing system: US women’s; Foot length: Not applicable; Foot width: Medium; Arch height: High; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Smooth; Markings: None; Recorded details: Small human feet with high arches, shaped toes and smooth soles. This question does not move, undress or change the body. Still worn here: Erin’s Favorite Red Heels (Cursed).\n“A little care for my feet sounds sensible. Please keep the pressure gentle.”",
+      "preserveAuthored": false,
+      "aiFinishReason": null,
+      "aiTruncated": false,
+      "aiGenerated": true
+    },
+    "current": {
+      "age": "28",
+      "gender": "Female",
+      "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Shoe size; Shoe size: 6; Shoe sizing system: US women’s; Foot length: Not applicable; Foot width: Medium; Arch height: High; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Smooth; Markings: None; Recorded details: Small human feet with high arches, shaped toes and smooth soles",
+      "legs": "Number of legs: Not specified; Leg type: Not specified; Length: Not specified; Build: Not specified; Covering: Not specified; Hair / grooming: Not specified; Material: Not specified; Surface colour: Not specified; inseam: Not specified; Recorded details: Ankle proportions and balance altered",
+      "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Not specified; Material: Skin; Surface colour: Light; hip circumference: 41.5 in",
+      "buttocks": "Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+      "waist": "Waist width: Narrow; Abdomen shape: Not specified; Muscle definition: Slight; Material: Skin; Surface colour: Light; waist circumference: 29.5 in",
+      "back": "Shoulder width: Medium; Shoulder shape: Not specified; Back shape: Not specified; Material: Skin; Surface colour: Light; Usual posture: Not specified; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 15.5 in",
+      "chest": "Type: Breasts; Cup size: C; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 33 in; chest circumference: 36 in",
+      "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Not specified; Material: Skin; Surface colour: Light; Hair / grooming: Not specified; shoulder-to-wrist length: 22.5 in",
+      "hands": "Number of hands: 2; Hand type: Human hands; Size: Not specified; Width: Not specified; Material: Skin; Surface colour: Light",
+      "fingers": "Digits per hand: 5; Length: Not specified; Thickness: Not specified; Nail type: Human nails; Nail length: Not specified; Nail shape: Not specified; Nail colour: Not specified; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+      "voice": "Neck shape: Not specified; Voice pitch: Not specified; Voice quality: Not specified; Material: Skin; Surface colour: Light",
+      "face": "Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Not specified; Facial hair: Not specified; Complexion and markings: None; Material: Skin; Surface colour: Light",
+      "eyes": "Number of eyes: 2; Size: Not specified; Shape: Not specified; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Not specified; Material: Human eye tissue",
+      "ears": "Number of ears: 2; Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+      "hair": "Length: Not specified; Colour: Not specified; Texture: Not specified; Density: Not specified; Style: Not specified; Material: Human hair",
+      "skin": "Material: Skin; Surface colour: Light; Texture: Not specified; Body markings: None; Body hair: Not specified",
+      "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not specified; Material: Skin; Surface colour: Light",
+      "scent": "Natural body scent: Not specified; Scent strength: Not specified; Perspiration tendency: Average; Usual skin temperature: Not specified; Other physical tendencies: None",
+      "height": "5 ft 8 in",
+      "weight": "155 lb",
+      "build": "Medium frame, light muscle definition, average arms, narrow waist, fuller rounded hips. waist 29.5 in; hips 41.5 in; chest 36 in.",
+      "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+    },
+    "lastFeed": [
+      {
+        "speaker": "Erin Lillard · Location",
+        "text": "What is different about my feet at this point?",
+        "gameAt": "Mon · 10:00",
+        "at": "2026-11-22T14:15:28.220Z",
+        "origin": "player",
+        "knowledgeOwnerId": "free-path-body3",
+        "knowledgeLocation": "Technology Center",
+        "knowledgeEventId": "06a1a4b1-20cf-4357-b70b-9e35a59be58d",
+        "inputText": "What is different about my feet at this point?",
+        "actor": {
+          "formId": "erin",
+          "publicName": "Erin Lillard"
+        },
+        "ownerAlias": "Morgan",
+        "audience": "owner",
+        "channel": "world",
+        "recordedRoom": "Technology Center. The office building houses the sales and marketing department; its third floor contains offices, cubicles, conference space, and employee facilities.",
+        "feedId": "feed-1"
+      },
+      {
+        "speaker": "Erin Lillard · Private",
+        "text": "Your feet maintain their humanlike shape - two feet of medium width, each sporting five properly-formed toes with normal human nails.\n\n\n\nThe smooth skin of your soles presses against the insides of those cursed red heels, a constant reminder of the transformation that's taken hold.\n\nThere are no visible markings or unusual textures - just smooth, light-colored skin covering bones and muscle that have adapted to this new form.",
+        "gameAt": "Mon · 10:00",
+        "at": "2026-11-22T14:15:28.285Z",
+        "origin": "dialogue",
+        "bodyExperience": true,
+        "bodyInspection": {
+          "source": "current-body-awareness",
+          "request": "What is different about my feet at this point?",
+          "kind": "question",
+          "regions": [
+            "feet"
+          ],
+          "formId": "erin",
+          "appearance": {
+            "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Shoe size; Shoe size: 6; Shoe sizing system: US women’s; Foot length: Not applicable; Foot width: Medium; Arch height: High; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Smooth; Markings: None; Recorded details: Small human feet with high arches, shaped toes and smooth soles"
+          },
+          "unrecordedSubjects": [],
+          "controllerResolved": true,
+          "currentAppearanceOnly": true,
+          "audience": "owner",
+          "spokenWords": false,
+          "currentAppearanceIsPhysical": true,
+          "physicalChanges": {
+            "source": "recorded-erin-heels",
+            "reachedStage": 3,
+            "fullyTransformed": false,
+            "affectedRegions": [
+              "feet",
+              "legs"
+            ],
+            "realBodyChanges": true,
+            "notOnlyFootwear": true
+          }
+        },
+        "formId": "erin",
+        "audience": "owner",
+        "knowledgeOwnerId": "free-path-body3",
+        "knowledgeLocation": "Technology Center",
+        "knowledgeEventId": "805fff14-8161-4f6e-a7eb-61578470c51c",
+        "recordedRoom": "Technology Center. The office building houses the sales and marketing department; its third floor contains offices, cubicles, conference space, and employee facilities.",
+        "aiRequestId": "567efcc7-ac27-4ad2-821d-9a7409ce103d",
+        "aiFailure": null,
+        "feedId": "feed-2",
+        "canonicalText": "The recorded body sensation is: footSize: Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Shoe size; Shoe size: 6; Shoe sizing system: US women’s; Foot length: Not applicable; Foot width: Medium; Arch height: High; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Smooth; Markings: None; Recorded details: Small human feet with high arches, shaped toes and smooth soles. This question does not move, undress or change the body. Still worn here: Erin’s Favorite Red Heels (Cursed).\n“A little care for my feet sounds sensible. Please keep the pressure gentle.”",
+        "preserveAuthored": false,
+        "aiFinishReason": null,
+        "aiTruncated": false,
+        "aiGenerated": true
+      }
+    ],
+    "channel": "world"
+  },
+  "passed": true
+}

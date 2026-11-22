@@ -7,7 +7,7 @@
     "bdce365",
     "cb64cac"
   ],
-  "status": "Verified locally; deployment pending",
+  "status": "Published and publicly verified",
   "workerChanged": false,
   "expectedWorkerAssembly": "request-handoff-v11",
   "newPublicationPaidCalls": 0,
@@ -34,5 +34,25 @@
     "frozen": "docs/bible/v1.0.138-world-bible.md",
     "bytes": 105012,
     "sha256": "9806c841b56540e789efbcc9182d815298d0ddd1cfd3a110f5b709235d162f21"
+  },
+  "runtimeCommit": "f425ec1ad60630cec44e4b784bae072ea8d316a0",
+  "publicURL": "https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.138",
+  "publishedAt": "2026-11-22T14:16:52.199797+00:00",
+  "pagesRun": 45031598104,
+  "pagesConclusion": "success",
+  "publicMatchedFiles": 261,
+  "publicBrowserSuites": 14,
+  "publicBrowserChecks": 76,
+  "bibleExact": true,
+  "workerHealth": {
+    "service": "Epi-Center AI",
+    "releaseVersion": "1.0.135",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "actionProtocol": "npc-actions-v1",
+    "requestAssemblyVersion": "request-handoff-v11",
+    "configured": true
   }
 }

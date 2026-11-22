@@ -1,3 +1,7 @@
+## v1.0.138 publication disposition
+
+The approved implemented fixes described here are now published and publicly verified. The earlier local labels and test-cost/checkpoint counts below are historical. Final release verification passes2,416 cases across all170 suites and14 public browser suites;the earlier incorrect full-pass classification is corrected and preserved in release evidence. General generated-prose acceptance remains limited;truthful fallbacks remain necessary. Current record:releases/v1.0.138-release-summary.json.
+
 # Factual and personality follow-up — local, unpublished
 
 This follows local candidate `4277bf2`, not a new publication. The owner approved continued paid dialogue testing and clarified Tits’s concrete interpretation of “I wish I could be like you.” The public game remains v1.0.137 and the configured worker remains `request-handoff-v11`, with the same Cydonia model and settings. No owner save, portrait, service key, worker configuration or published Bible was changed.

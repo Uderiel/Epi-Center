@@ -1,0 +1,126 @@
+{
+  "version": "1.0.138",
+  "mode": "public",
+  "base": "https://uderiel.github.io/Epi-Center",
+  "realModel": false,
+  "ownerSavesUsed": false,
+  "passed": true,
+  "results": [
+    {
+      "script": "browser-npc-appearance-alignment.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 24,
+      "passed": true
+    },
+    {
+      "script": "browser-appearance-creation.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 18,
+      "passed": true
+    },
+    {
+      "script": "browser-club-portrait.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 4,
+      "passed": true
+    },
+    {
+      "script": "browser-current-appearance.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 9,
+      "passed": true
+    },
+    {
+      "script": "browser-gym-portrait.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 4,
+      "passed": true
+    },
+    {
+      "script": "browser-sorority-portrait.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 4,
+      "passed": true
+    },
+    {
+      "script": "browser-menu-followups.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 4,
+      "passed": true
+    },
+    {
+      "script": "browser-eve-navigation.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 2,
+      "passed": true
+    },
+    {
+      "script": "targeted/browser-story.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 1,
+      "evidence": [
+        "work/release138/browser-public/browser-story/browser-story.json"
+      ],
+      "passed": true
+    },
+    {
+      "script": "targeted/browser.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 1,
+      "evidence": [
+        "work/release138/browser-public/browser/browser-paths.json"
+      ],
+      "passed": true
+    },
+    {
+      "script": "targeted/browser-roles.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 1,
+      "evidence": [
+        "work/release138/browser-public/browser-roles/browser-roles.json"
+      ],
+      "passed": true
+    },
+    {
+      "script": "targeted/browser-body-replay.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 1,
+      "evidence": [
+        "work/release138/browser-public/browser-body-replay/browser-body-replay.json"
+      ],
+      "passed": true
+    },
+    {
+      "script": "targeted/browser-current-body.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 2,
+      "evidence": [
+        "work/release138/browser-public/browser-current-body/browser-current-body.json"
+      ],
+      "passed": true
+    },
+    {
+      "script": "targeted/browser-literal-integration.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 1,
+      "evidence": [
+        "work/release138/browser-public/browser-literal-integration/browser-literal-integration.json"
+      ],
+      "passed": true
+    }
+  ]
+}

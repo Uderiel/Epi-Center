@@ -1,3 +1,7 @@
+## v1.0.138 publication disposition
+
+The approved implemented fixes described here are now published and publicly verified. The earlier local labels and test-cost/checkpoint counts below are historical. Final release verification passes2,416 cases across all170 suites and14 public browser suites;the earlier incorrect full-pass classification is corrected and preserved in release evidence. General generated-prose acceptance remains limited;truthful fallbacks remain necessary. Current record:releases/v1.0.138-release-summary.json.
+
 # Dialogue accuracy repair after v1.0.137 — unpublished
 
 The owner authorized paid natural-conversation, unpredictable-input, continuity, personality and relationship tests, plus Dart’s cropped ears. This candidate is based on the published v1.0.137 source. No game/worker publication, model/settings/credentials change, image replacement, or owner-save migration has occurred in this repair pass.
