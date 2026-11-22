@@ -1,0 +1,1244 @@
+{
+  "started": "2026-11-22T09:27:40.374Z",
+  "finished": "2026-11-22T09:31:11.100Z",
+  "worker": "request-handoff-v11",
+  "scope": "Frozen unpublished local candidate through actual UI; real existing Cydonia worker; directed synthetic fixtures; no owner saves or worker changes",
+  "errors": [],
+  "version": 4,
+  "scenarios": [
+    {
+      "label": "Body narrator current canine regions",
+      "fixture": true,
+      "complete": true,
+      "errors": [],
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "How do my paws look right now?",
+          "feed": [
+            {
+              "speaker": "Bella \u00b7 Private thought to Bella",
+              "text": "How do my paws look right now?"
+            },
+            {
+              "speaker": "Kibbles (Bella) \u00b7 Private",
+              "text": "The recorded body sensation is: footSize: Feet present: Present; Number of feet: 2; Foot type: Paws; Describe foot size using: Physical measurement; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not specified; Foot width: Medium; Arch height: Not applicable; Sole or pads: Paw pads; Toes per foot: 4; Nails or claws: Claws; Covering: Fur; Material: Fur-covered biological tissue; Surface colour: Tan fur with dark paw pads; Surface texture: Firm paw pads surrounded by short fur; Markings: None; Recorded details: Fully formed canine hind paws with weight-bearing pads and claws. This question does not move, undress or change the body.\nThe impression is of pads meeting the ground and claws finding purchase.",
+              "failure": "The AI reply was interrupted while being received. Its allowance remains reserved; no request was resent."
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 0,
+          "replyFailures": [
+            "The AI reply was interrupted while being received. Its allowance remains reserved; no request was resent."
+          ],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": "kibbles",
+              "after": "kibbles"
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Central Hub Spire",
+              "after": "Central Hub Spire"
+            },
+            "minutes": {
+              "before": 600,
+              "after": 600
+            },
+            "cat": {
+              "before": null,
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": [
+            {
+              "requestId": "07dcc342-53f0-4289-b085-7b50b0a86da7",
+              "beforeHistory": 0,
+              "afterHistory": 0,
+              "inspectionCalls": 1,
+              "replyTokenRoom": 24441,
+              "providerMessageBytes": 8071
+            }
+          ]
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "How do my front paws look?",
+          "feed": [
+            {
+              "speaker": "Bella \u00b7 Private thought to Bella",
+              "text": "How do my front paws look?"
+            },
+            {
+              "speaker": "Kibbles (Bella) \u00b7 Private",
+              "text": "# Body Inspection: Front Paws\n\nThe question directs your awareness downward to examine your current front paws.\n\n**Observation:**\nYour front paws are positioned before you. Each paw features:\n- Five digits total, including the elevated forepaw dewclaw\n- Short, curved canine claws of dark color\n- Exposed paw pads showing darker shading than the surrounding black-and-tan fur\n- Pads covered in short fur at the edges, bare and dark at the center\n- The overall paw structure is compact and adapted for digitigrade stance rather than human precision grip\n\nNo current pain, injury, or unusual sensations are present in these regions beyond normal bodily awareness.",
+              "generated": true,
+              "failure": null
+            }
+          ],
+          "paidCallsOnTurn": 1,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": "kibbles",
+              "after": "kibbles"
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Central Hub Spire",
+              "after": "Central Hub Spire"
+            },
+            "minutes": {
+              "before": 600,
+              "after": 600
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": [
+            {
+              "requestId": "821a9ebc-c06d-43a3-a2a6-d024246ed383",
+              "beforeHistory": 0,
+              "afterHistory": 0,
+              "inspectionCalls": 1,
+              "replyTokenRoom": 25196,
+              "providerMessageBytes": 7316
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Body narrator current reached Erin regions",
+      "fixture": true,
+      "complete": true,
+      "errors": [],
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "Have my calves changed yet, or is that still ahead of me?",
+          "feed": [
+            {
+              "speaker": "Erin Lillard \u00b7 Private thought to Erin Lillard",
+              "text": "Have my calves changed yet, or is that still ahead of me?"
+            },
+            {
+              "speaker": "Erin Lillard \u00b7 Private",
+              "text": "# Body Observation\n\n*You pause to examine your lower legs, noting any changes that might have occurred.*\n\nThe observation reveals that **your ankle proportions and balance have been altered**. However, beyond this specific detail, no other changes to your calves or legs are currently visible or apparent through direct sensation.\n\nThe current state of your lower limbs remains otherwise unchanged from your baseline human form - no growth, no alterations to muscle definition, no shift in overall leg structure beyond what's already been recorded regarding your ankles.\n\nYou're wearing **Erin's Favorite Red Heels (Cursed)** which cover your feet and provide support. The shoes feel stable despite the heel height, though you're aware of their cursed nature.\n\nYour calves show **no visible changes** at this time.",
+              "generated": true,
+              "failure": null
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 3,
+              "after": 3
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "minutes": {
+              "before": 660,
+              "after": 660
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": [
+            {
+              "requestId": "47cdd218-8290-44dd-a20e-37e3c3427d5a",
+              "beforeHistory": 0,
+              "afterHistory": 0,
+              "inspectionCalls": 1,
+              "replyTokenRoom": 25179,
+              "providerMessageBytes": 7333
+            }
+          ]
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "What is different about my feet at this point?",
+          "feed": [
+            {
+              "speaker": "Erin Lillard \u00b7 Private thought to Erin Lillard",
+              "text": "What is different about my feet at this point?"
+            },
+            {
+              "speaker": "Erin Lillard \u00b7 Private",
+              "text": "# Current Body Observation\n\n**Feet**\n\nYour feet press against the insides of the red heels with each step. The shoes fit snugly around your medium-width feet, though there's a slight pinch where the cursed enchantment has subtly altered the leather's grip.\n\nThe high arches of your feet lift naturally within the heels' structure. Your toes curl slightly inside, adapting to the pointed toe boxes. The smooth skin of your soles contacts the shoe interiors, feeling the pressure distribute unevenly due to the heels' design.\n\nNo visible changes mark your feet beyond what the shoes conceal. The curse's effects remain internal to the footwear itself.",
+              "generated": true,
+              "failure": null
+            }
+          ],
+          "paidCallsOnTurn": 1,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 3,
+              "after": 3
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "minutes": {
+              "before": 660,
+              "after": 660
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": [
+            {
+              "requestId": "e037567b-351a-42a8-912a-b64ff3e1afcc",
+              "beforeHistory": 0,
+              "afterHistory": 0,
+              "inspectionCalls": 1,
+              "replyTokenRoom": 25161,
+              "providerMessageBytes": 7351
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Tits fitted accepted-history continuity",
+      "fixture": true,
+      "complete": true,
+      "errors": [],
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "What kind of postcards did I say I collect?",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:tits",
+              "text": "What kind of postcards did I say I collect?"
+            },
+            {
+              "speaker": "Tits",
+              "text": "*Tits tilts her head thoughtfully, tapping her finger against her chin as she tries to remember.*\n\n\"Um... let me think...\" *She twirls a strand of her blonde hair around her finger.* \"You said something about... oh! Postcards of old seaside towns, right?\"\n\n*She snaps her fingers playfully.*\n\n\"I remember now! That sounds so cool and interesting!\" *Her eyes light up.* \"Have you been to many places? I've like, totally forgotten where I live sometimes, so traveling must be super exciting!\"\n\n*She leans forward slightly on the counter, resting her elbows on it.*\n\n\"Do you have any of your favorite postcards with you? I'd love to see them!\"",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 2,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 2,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Burke's Sweets",
+              "after": "Burke's Sweets"
+            },
+            "minutes": {
+              "before": 960,
+              "after": 962
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": [
+            {
+              "requestId": "93dfee95-56b3-4fad-8d2c-de4868185b75",
+              "beforeHistory": 6,
+              "afterHistory": 2,
+              "inspectionCalls": 3,
+              "replyTokenRoom": 1391,
+              "providerMessageBytes": 30865
+            }
+          ]
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "If a cupcake had a very serious job interview, would frosting count as a tie?",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:tits",
+              "text": "If a cupcake had a very serious job interview, would frosting count as a tie?"
+            },
+            {
+              "speaker": "Tits",
+              "text": "*Tits giggles and covers her mouth with both hands, her shoulders shaking as she tries not to laugh too hard.*\n\n\"Oh my gosh, that's like, SO funny!\" *She takes a deep breath, still grinning widely.* \"I mean... um... I guess if a cupcake needed to look fancy for a job interview...\"\n\n*She taps her finger against her chin thoughtfully, still smiling.*\n\n\"...then yeah! Frosting would totally count as a tie! Or like, a nice collar?\" *She makes a little gesture around her neck.* \"Maybe with some sprinkles to make it extra fancy and professional!\"\n\n*She giggles again and plays with her hair.*\n\n\"Why? Is there like, a cupcake looking for a job? That would be so cute! Do you know any cupcakes who need help finding work?\"",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 2,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 2,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Burke's Sweets",
+              "after": "Burke's Sweets"
+            },
+            "minutes": {
+              "before": 962,
+              "after": 964
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": [
+            {
+              "requestId": "d307ec2a-0196-4ea4-aab0-a3781109a3d9",
+              "beforeHistory": 8,
+              "afterHistory": 2,
+              "inspectionCalls": 4,
+              "replyTokenRoom": 1427,
+              "providerMessageBytes": 30829
+            }
+          ]
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "My brother said \"Your pink styling is wonderful.\"",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:tits",
+              "text": "My brother said \"Your pink styling is wonderful.\""
+            },
+            {
+              "speaker": "Tits",
+              "text": "*Tits' face lights up with a huge smile, her cheeks turning slightly pink as she plays with her hair shyly.*\n\n\"Oh wow, really? That's like, so sweet of your brother to say!\" *She bounces a little on her heels, clearly pleased.* \"I work really hard to make everything look nice and pretty, you know?\"\n\n*She leans forward slightly over the counter, her blue eyes sparkling with excitement.*\n\n\"Do you think he'd maybe want to try some of our pink stuff? Like, um...\" *She glances at the display behind her.* \"We've got pink lip gloss that makes your lips all shiny and tingly, and cupcakes with pink frosting that taste like strawberries!\"\n\n*She giggles and twirls a strand of her blonde hair around her finger.*\n\n\"I mean, not that you HAVE to buy anything! But if your brother likes pink things, we've got lots of options! Oh, and we also have...\" *She pauses, tilting her head.* \"Wait, did you want something specific? Or were you just telling me about what your brother said?\"",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 2,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 2,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Burke's Sweets",
+              "after": "Burke's Sweets"
+            },
+            "minutes": {
+              "before": 964,
+              "after": 966
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": [
+            {
+              "requestId": "e75d0604-cfeb-4fb9-840e-72138f57d2dc",
+              "beforeHistory": 8,
+              "afterHistory": 2,
+              "inspectionCalls": 4,
+              "replyTokenRoom": 1340,
+              "providerMessageBytes": 30916
+            }
+          ]
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "If I wanted a coffee later, what would it cost?",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:tits",
+              "text": "If I wanted a coffee later, what would it cost?"
+            },
+            {
+              "speaker": "Tits",
+              "text": "I think... um, like, the regular coffee is six gold? Uh...\n\nOh! Yeah, yeah! The standard one's six. Then there's like, the espresso for ten gold? Um... and the fancy lattes are twenty each!\n\nSorry, I'm like, totally mixing up all the prices in my head right now! But yeah, if you want just a regular coffee later, it'll be six gold!",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": "shop.menu",
+                "unstructured": false
+              },
+              "result": {
+                "status": "resolved",
+                "action": "shop.menu",
+                "text": "The actual shop catalogue is supplied for discussion only. No item was ordered or purchased.",
+                "catalogue": {
+                  "currency": "gold",
+                  "drinks": [
+                    {
+                      "id": "coffee",
+                      "name": "Standard coffee",
+                      "price": 6
+                    },
+                    {
+                      "id": "espresso",
+                      "name": "Espresso",
+                      "price": 10
+                    },
+                    {
+                      "id": "double",
+                      "name": "Double espresso",
+                      "price": 16
+                    },
+                    {
+                      "id": "mocha",
+                      "name": "Mocha latte",
+                      "price": 20
+                    },
+                    {
+                      "id": "vanilla",
+                      "name": "Vanilla latte",
+                      "price": 20
+                    },
+                    {
+                      "id": "caramel",
+                      "name": "Caramel latte",
+                      "price": 20
+                    }
+                  ],
+                  "goods": [
+                    {
+                      "id": "gloss",
+                      "name": "Pink lip gloss",
+                      "price": 20
+                    },
+                    {
+                      "id": "lipstick",
+                      "name": "Pink lipstick",
+                      "price": 35
+                    },
+                    {
+                      "id": "gum",
+                      "name": "Bubble gum",
+                      "price": 5
+                    },
+                    {
+                      "id": "cotton",
+                      "name": "Cotton-candy sucker",
+                      "price": 5
+                    },
+                    {
+                      "id": "cupcake",
+                      "name": "Strawberry shortcake cupcake",
+                      "price": 8
+                    },
+                    {
+                      "id": "strawberryPop",
+                      "name": "Strawberry pink-heart cake pop",
+                      "price": 8
+                    },
+                    {
+                      "id": "cherryPop",
+                      "name": "Cherry pink-heart cake pop",
+                      "price": 8
+                    },
+                    {
+                      "id": "truffle",
+                      "name": "Strawberry cheesecake truffle",
+                      "price": 12
+                    },
+                    {
+                      "id": "slice",
+                      "name": "Pink confetti cake slice",
+                      "price": 12
+                    },
+                    {
+                      "id": "wholeCake",
+                      "name": "Whole pink confetti cake",
+                      "price": 60
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 2,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 2,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Burke's Sweets",
+              "after": "Burke's Sweets"
+            },
+            "minutes": {
+              "before": 966,
+              "after": 968
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": [
+            {
+              "requestId": "29dfd2a6-078d-4516-a4f2-d767e16b6b25",
+              "beforeHistory": 0,
+              "afterHistory": 0,
+              "inspectionCalls": 1,
+              "replyTokenRoom": 22836,
+              "providerMessageBytes": 9676
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Compact agreed cat entry reaction",
+      "fixture": true,
+      "complete": true,
+      "errors": [],
+      "events": [
+        {
+          "kind": "menu",
+          "input": "Enter the already agreed female cat through the actual control",
+          "feed": [
+            {
+              "speaker": "Physical transformation",
+              "text": "1/3 \u2014 Your height draws down as your familiar proportions give way to a compact feline body. The cat\u2019s recorded coat replaces the human outline, with whiskers and ears bringing nearby movement into sharp relief.\n\n2/3 \u2014 Hands settle into padded forepaws without human fingers. Four legs support your weight; a tail changes the balance behind you. Close scents and low sounds arrive from a viewpoint near the floor.\n\n3/3 \u2014 The change settles as Preeti. Human words remain private intentions; your outward voice can purr, meow or hiss. Feline instincts persist, but approaching others and accepting touch remain your choices. Belongings and the original body record are preserved."
+            },
+            {
+              "speaker": "Priya Shah",
+              "text": "Wonderful! I'm glad you're comfortable trying this out.\n\nFeel free to explore the space however feels natural. The apartment is yours to move around in while we're working on this.\n\nThis is optional, of course, but if you'd like to wear one while you're here as a cat, I have a few options. Nothing restrictive\u2014just lightweight leather with a simple tag.\n\nTotally your choice though.\n\nI'll be right here if you need anything. Let me know how it feels once you've settled into the form.",
+              "generated": true,
+              "failure": null,
+              "result": {
+                "minutes": 0,
+                "text": "1/3 \u2014 Your height draws down as your familiar proportions give way to a compact feline body. The cat\u2019s recorded coat replaces the human outline, with whiskers and ears bringing nearby movement into sharp relief.\n\n2/3 \u2014 Hands settle into padded forepaws without human fingers. Four legs support your weight; a tail changes the balance behind you. Close scents and low sounds arrive from a viewpoint near the floor.\n\n3/3 \u2014 The change settles as Preeti. Human words remain private intentions; your outward voice can purr, meow or hiss. Feline instincts persist, but approaching others and accepting touch remain your choices. Belongings and the original body record are preserved.",
+                "transformation": true,
+                "status": "resolved",
+                "action": "cat.enter",
+                "menuIntent": {
+                  "source": "menu",
+                  "speaker": "npc:priya",
+                  "playerRequest": "Player selected cat.enter.",
+                  "exactPlayerQuotation": null,
+                  "resultRole": "The named NPC\u2019s own answer or controller-resolved decision, not a statement made by the player."
+                }
+              }
+            }
+          ],
+          "paidCallsOnTurn": 1,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": "priya-cat"
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "minutes": {
+              "before": 1080,
+              "after": 1080
+            },
+            "cat": {
+              "before": {
+                "phase": "learning",
+                "formId": "priya-cat",
+                "linked": true
+              },
+              "after": {
+                "phase": "learning",
+                "formId": "priya-cat",
+                "linked": true
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": [
+            {
+              "requestId": "5be11a3f-9e58-4ad1-a017-6aae863bcd33",
+              "beforeHistory": 0,
+              "afterHistory": 0,
+              "inspectionCalls": 1,
+              "replyTokenRoom": 19995,
+              "providerMessageBytes": 12517
+            }
+          ]
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "I return to my own body.",
+          "feed": [
+            {
+              "speaker": "Preeti \u00b7 NPC \u2192 npc:priya",
+              "text": "I return to my own body."
+            },
+            {
+              "speaker": "Cat agreement",
+              "text": "Master the living cat form before voluntary reversion."
+            }
+          ],
+          "paidCallsOnTurn": 0,
+          "displayedAIReplies": 0,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": "priya-cat",
+              "after": "priya-cat"
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "minutes": {
+              "before": 1080,
+              "after": 1080
+            },
+            "cat": {
+              "before": {
+                "phase": "learning",
+                "formId": "priya-cat",
+                "linked": true
+              },
+              "after": {
+                "phase": "learning",
+                "formId": "priya-cat",
+                "linked": true
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": [
+            {
+              "requestId": "5be11a3f-9e58-4ad1-a017-6aae863bcd33",
+              "beforeHistory": 0,
+              "afterHistory": 0,
+              "inspectionCalls": 1,
+              "replyTokenRoom": 19995,
+              "providerMessageBytes": 12517
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

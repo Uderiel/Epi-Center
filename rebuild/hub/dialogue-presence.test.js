@@ -1,0 +1,2 @@
+const A=require('node:assert/strict'),S=require('./scene-presence');
+for(const [activity,present]of [['Taking a short conversation break',true],['Taking the elevator upstairs',false],['Talking with a visitor',true],['Walking to reception',false]]){const s={playerId:'presence-dialogue-qa',hub:{location:'Technology Center'},world:{technologyCenter:{inside:true,room:'H'},department:{daniel:{location:'Technology Center',room:'H',activity,commute:null}}}};A.equal(S.present(s,'daniel'),present,activity);console.log('PASS scene presence distinguishes '+activity);}

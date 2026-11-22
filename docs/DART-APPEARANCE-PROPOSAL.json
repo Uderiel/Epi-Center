@@ -201,7 +201,7 @@
         "shape": "Custom",
         "material": "Skin",
         "surfaceColour": "Not specified",
-        "shapeCustom": "Upright pointed ears; cropping status not specified"
+        "shapeCustom": "Cropped, upright pointed ears"
       },
       "hair": {
         "length": "Short",
@@ -307,7 +307,7 @@
     "voice": "Neck shape: Average; Voice pitch: Low; Voice quality: Canine barks,whines and growls,  no human speech; Material: Fur-covered biological tissue; Surface colour: Not specified",
     "face": "Overall shape: Elongated canine head; Jaw: Canine jaw; Chin: Not applicable; Cheeks: Not applicable; Nose size: Average; Nose shape: Black canine nose; Lip fullness: Not applicable; Lip shape: Canine lips; Salivation rate: Average; Facial hair: Short muzzle fur; Complexion and markings: Not specified; Material: Fur-covered biological tissue; Surface colour: Not specified",
     "eyes": "Number of eyes: 2; Size: Average; Shape: Almond; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Canine sclera,usually little exposed; Material: Canine eye tissue",
-    "ears": "Number of ears: 2; Size: Large; Shape: Upright pointed ears,  cropping status not specified; Material: Skin; Surface colour: Black coat with rust markings,  underlying skin pigment unspecified",
+    "ears": "Number of ears: 2; Size: Large; Shape: Cropped, upright pointed ears; Material: Skin; Surface colour: Black coat with rust markings,  underlying skin pigment unspecified",
     "hair": "Length: Short; Colour: Black with rust markings; Texture: Straight; Density: Dense; Style: Short sleek body coat,  no separate scalp hairstyle; Material: Fur",
     "skin": "Material: Fur-covered biological skin; Surface colour: Black coat with rust markings,  underlying skin pigment unspecified; Texture: Short sleek fur; Body markings: Black-and-rust coat (location: Muzzle,brows,chest and lower legs; prominence: Distinct); Body hair: Short dense canine coat",
     "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not applicable; Material: Biological tissue; Surface colour: Not specified; Recorded details: Male canine anatomy,  dimensions not specified",
@@ -333,7 +333,7 @@
     "Owner approved4years,28in at shoulder/withers,82lb,black/rust coat,brown eyes and full canine regional record.",
     "Same24 fields; Arms/Hands/Fingers represent forelegs/forepaws/five front digits including dewclaws; Legs/Feet represent hindlegs/hindpaws/four hind digits.",
     "No human reference/cup/circumference matrix. Withers height never relabelled as standing human height.",
-    "Ear cropping and tail length/docking remain unspecified.",
+    "Cropped ears approved by owner on2026-11-22; tail length/docking remain unspecified.",
     "Approved body facts are attached to existing recorded/animal-plan Dart narration only while actually co-present. No human dialogue or action permissions granted.",
     "Player body/needs rates,ordinary canine routines,ownership and existing shared image remain."
   ],
@@ -374,7 +374,7 @@
       "digitsPerPaw": 4,
       "nails": "Canine claws"
     },
-    "ears": "Upright and pointed; cropping status not specified",
+    "ears": "Cropped, upright and pointed",
     "tail": "Present; length and docking status not specified",
     "stance": "Quadrupedal",
     "speech": "Canine sounds only; no human speech"

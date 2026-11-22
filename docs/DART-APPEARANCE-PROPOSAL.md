@@ -1,5 +1,7 @@
 # Dart — approved canine appearance,implemented locally
 
+2026-11-22 owner amendment: cropped ears are approved and implemented in the local candidate. Existing shared image is unchanged. Tail length/docking remain unspecified. This amendment has not been published.
+
 Owner approved4years,28in at shoulder/withers,82lb,black/rust coat,brown eyes and complete regional record. Existing ordinary male Doberman,Nadia ownership and shared approved portrait remain. No human measurement matrix. Publication held.
 
 | Existing field | Approved contents |
@@ -19,7 +21,7 @@ Owner approved4years,28in at shoulder/withers,82lb,black/rust coat,brown eyes an
 | Neck & voice | Neck shape: Average; Voice pitch: Low; Voice quality: Canine barks,whines and growls,  no human speech; Material: Fur-covered biological tissue; Surface colour: Not specified |
 | Face | Overall shape: Elongated canine head; Jaw: Canine jaw; Chin: Not applicable; Cheeks: Not applicable; Nose size: Average; Nose shape: Black canine nose; Lip fullness: Not applicable; Lip shape: Canine lips; Salivation rate: Average; Facial hair: Short muzzle fur; Complexion and markings: Not specified; Material: Fur-covered biological tissue; Surface colour: Not specified |
 | Eyes | Number of eyes: 2; Size: Average; Shape: Almond; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Canine sclera,usually little exposed; Material: Canine eye tissue |
-| Ears | Number of ears: 2; Size: Large; Shape: Upright pointed ears,  cropping status not specified; Material: Skin; Surface colour: Black coat with rust markings,  underlying skin pigment unspecified |
+| Ears | Number of ears: 2; Size: Large; Shape: Cropped, upright pointed ears; Material: Skin; Surface colour: Black coat with rust markings,  underlying skin pigment unspecified |
 | Scalp hair | Length: Short; Colour: Black with rust markings; Texture: Straight; Density: Dense; Style: Short sleek body coat,  no separate scalp hairstyle; Material: Fur |
 | Skin | Material: Fur-covered biological skin; Surface colour: Black coat with rust markings,  underlying skin pigment unspecified; Texture: Short sleek fur; Body markings: Black-and-rust coat (location: Muzzle,brows,chest and lower legs; prominence: Distinct); Body hair: Short dense canine coat |
 | Genital anatomy | Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not applicable; Material: Biological tissue; Surface colour: Not specified; Recorded details: Male canine anatomy,  dimensions not specified |

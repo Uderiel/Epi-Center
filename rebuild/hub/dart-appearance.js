@@ -3,7 +3,7 @@
 'use strict';return Object.freeze({
   "schema": 1,
   "id": "npc:dart",
-  "status": "Owner-approved complete canine appearance; local implementation,publication held",
+  "status": "Owner-approved canine appearance; cropped-ear amendment2026-11-22 is local and unpublished",
   "answers": {
     "age": {
       "value": "4"
@@ -193,7 +193,7 @@
       "shape": "Custom",
       "material": "Skin",
       "surfaceColour": "Not specified",
-      "shapeCustom": "Upright pointed ears; cropping status not specified"
+      "shapeCustom": "Cropped, upright pointed ears"
     },
     "hair": {
       "length": "Short",
@@ -314,7 +314,7 @@
       "digitsPerPaw": 4,
       "nails": "Canine claws"
     },
-    "ears": "Upright and pointed; cropping status not specified",
+    "ears": "Cropped, upright and pointed",
     "tail": "Present; length and docking status not specified",
     "stance": "Quadrupedal",
     "speech": "Canine sounds only; no human speech"

@@ -1,0 +1,4103 @@
+{
+  "started": "2026-11-22T09:07:45.227Z",
+  "finished": "2026-11-22T09:15:12.486Z",
+  "worker": "request-handoff-v11",
+  "scope": "Frozen unpublished local candidate through actual UI; real existing Cydonia worker; directed synthetic fixtures; no owner saves or worker changes",
+  "errors": [],
+  "version": 3,
+  "scenarios": [
+    {
+      "label": "Erin current reached transformation",
+      "fixture": true,
+      "complete": true,
+      "errors": [],
+      "events": [
+        {
+          "kind": "menu",
+          "input": "Equip the actual red heels",
+          "feed": [
+            {
+              "speaker": "Physical transformation",
+              "text": "Identified: Erin\u2019s Favorite Red Heels (Cursed). You put on the red heels; the curse activates. A gentle pressure gathers where your feet meet the heels. Your arches begin to reshape around their steep angle.",
+              "failure": "AI response contradicted recorded context after one correction; the recorded response is preserved."
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 0,
+          "replyFailures": [
+            "AI response contradicted recorded context after one correction; the recorded response is preserved."
+          ],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 1
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "minutes": {
+              "before": 600,
+              "after": 601
+            },
+            "cat": {
+              "before": null,
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "How do my feet look right now?",
+          "feed": [
+            {
+              "speaker": "Erin Lillard \u00b7 Location",
+              "text": "How do my feet look right now?"
+            },
+            {
+              "speaker": "Erin Lillard \u00b7 Private",
+              "text": "*Erin shifts her weight slightly, the movement causing her arched feet to flex within the confines of the red heels. The cursed shoes have molded themselves to her, and she can feel how they've reshaped her arches over time.*\n\nMy feet... *she observes internally, noting the pressure points where the heels press against her soles.* They're still there, of course. Two feet, attached to my legs. The heels are doing their thing - I can feel how they've forced my arches to accommodate them. It's not natural, but it's what happens when you can't take them off.\n\n*The sensation is constant now - the pressure, the slight ache from the unnatural positioning. Her toes curl slightly within the confines of the shoes.*\n\nNothing's changed much lately. Still two feet, still wearing these cursed things. That's just how it is right now.\n\n*She doesn't dwell on it further, accepting this as her current reality while maintaining her awareness that this is Morgan's observation through her body.*",
+              "generated": true,
+              "failure": null
+            }
+          ],
+          "paidCallsOnTurn": 1,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 1,
+              "after": 1
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "minutes": {
+              "before": 601,
+              "after": 601
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "menu",
+          "input": "Wait one actual game hour for subsequent reached changes",
+          "feed": [
+            {
+              "speaker": "Game result",
+              "text": "Automatic cursed worn-time exposure (no roll) \u00b7 Erin influence 0 \u2192 5 (+5)."
+            },
+            {
+              "speaker": "Physical transformation",
+              "text": "# Reached Milestone: Stage 3\n\nThe transformation ripples upward through your lower body, a subtle shift that begins at your feet and travels toward your ankles.\n\n**Your toes and soles reshape within the confines of Erin's red heels.** The leather hugs the newly formed contours\u2014your toes settling into a more refined shape, the balls of your feet molding against the shoe's interior. The arch of each foot rises noticeably higher, creating a distinct curve between heel and ball. Your soles smooth and flatten slightly against the shoe's base, adapting to maintain better contact with the ground despite the elevated arch.\n\nThe sensation is peculiar\u2014not painful, but distinctly *present*. Your nerve endings register the subtle change in weight distribution as your body compensates for the new foot structure.\n\n**Then the change ascends to your ankles.** You feel a gentle tightening sensation around both joints, followed by a recalibration of your balance. Your center of gravity shifts minutely, forcing you to adjust your stance. The heels, which initially felt awkward on your reshaped feet, now fit with surprising naturalness\u2014as though they were made for this version of your body.\n\nYour ankles themselves appear more defined through your leggings, the bone structure shifting to accommodate the altered foot proportions and new weight distribution patterns.\n\nYou stand outside Applewood Apartments, feeling the solid ground beneath your feet in this new configuration, the red heels supporting you perfectly.",
+              "generated": true,
+              "failure": null
+            },
+            {
+              "speaker": "Time",
+              "text": "You wait one hour. Mon \u00b7 11:01."
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 1,
+              "after": 3
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "minutes": {
+              "before": 601,
+              "after": 661
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "Have my calves changed yet, or is that still ahead of me?",
+          "feed": [
+            {
+              "speaker": "Erin Lillard \u00b7 Location",
+              "text": "Have my calves changed yet, or is that still ahead of me?"
+            },
+            {
+              "speaker": "Erin Lillard \u00b7 Private",
+              "text": "# Erin's Internal Observation\n\n*A pause in my internal awareness as I focus attention inward, examining my current physical state.*\n\n**Self-Observation Report:**\n\nMy calves... *I flex experimentally, feeling the muscles respond beneath my skin.* They feel different now. The proportions have shifted - they're noticeably more defined, perhaps slightly thicker than before, though I can't quite recall the exact baseline anymore.\n\nThe sensation is subtle but present. There's a slight tightness in my lower legs, a reminder that these changes are ongoing. My ankle proportions feel altered too - there's a different balance point when I shift my weight, and I notice how my feet sit differently in these red heels.\n\nNo illness sensations currently. Just... awareness of transformation.\n\n*The internal observation completes.*",
+              "generated": true,
+              "failure": null
+            }
+          ],
+          "paidCallsOnTurn": 1,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 3,
+              "after": 3
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "minutes": {
+              "before": 661,
+              "after": 661
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "reload",
+          "input": "Reload the same save",
+          "feed": [],
+          "paidCallsOnTurn": 0,
+          "displayedAIReplies": 0,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 3,
+              "after": 3
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "minutes": {
+              "before": 661,
+              "after": 661
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "What is different about my feet at this point?",
+          "feed": [
+            {
+              "speaker": "Erin Lillard \u00b7 Location",
+              "text": "What is different about my feet at this point?"
+            },
+            {
+              "speaker": "Erin Lillard \u00b7 Private",
+              "text": "The recorded body sensation is: footSize: Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Shoe size; Shoe size: 6; Shoe sizing system: US women\u2019s; Foot length: Not applicable; Foot width: Medium; Arch height: High; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Smooth; Markings: None; Recorded details: Small human feet with high arches, shaped toes and smooth soles. This question does not move, undress or change the body. Still worn here: Erin\u2019s Favorite Red Heels (Cursed).\n\u201cThat pressure draws my attention to how tired my feet feel.\u201d",
+              "failure": "AI response contradicted recorded context after one correction; the recorded response is preserved."
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 0,
+          "replyFailures": [
+            "AI response contradicted recorded context after one correction; the recorded response is preserved."
+          ],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 3,
+              "after": 3
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "minutes": {
+              "before": 661,
+              "after": 661
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        }
+      ]
+    },
+    {
+      "label": "Preaccepted cat entry and recognition",
+      "fixture": true,
+      "complete": true,
+      "errors": [],
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "Which form did I agree to, and have I changed yet?",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:priya",
+              "text": "Which form did I agree to, and have I changed yet?"
+            },
+            {
+              "speaker": "Priya Shah",
+              "text": "*Priya sets down her tea mug on the coffee table and looks up at you with a gentle smile.*\n\n\"The form we discussed is Preeti\u2014my cat form. She's a lovely Bengal with gorgeous rosettes and bright green eyes.\"\n\n*She tilts her head slightly, studying you with curiosity.*\n\n\"And no, you haven't changed yet. That's something you'll need to do yourself if you want to go through with our arrangement.\"\n\n*Priya picks up her mug again, taking a small sip before continuing.*\n\n\"I'm here if you have questions about what that would involve, or if you'd like some time to think it over. There's no pressure either way\u2014I just want to make sure you understand what you're agreeing to.\"",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "minutes": {
+              "before": 1080,
+              "after": 1082
+            },
+            "cat": {
+              "before": {
+                "phase": "learning",
+                "formId": "priya-cat",
+                "linked": true
+              },
+              "after": {
+                "phase": "learning",
+                "formId": "priya-cat",
+                "linked": true
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "menu",
+          "input": "Enter the already agreed female cat through its actual control",
+          "feed": [
+            {
+              "speaker": "Physical transformation",
+              "text": "1/3 \u2014 Your height draws down as your familiar proportions give way to a compact feline body. The cat\u2019s recorded coat replaces the human outline, with whiskers and ears bringing nearby movement into sharp relief.\n\n2/3 \u2014 Hands settle into padded forepaws without human fingers. Four legs support your weight; a tail changes the balance behind you. Close scents and low sounds arrive from a viewpoint near the floor.\n\n3/3 \u2014 The change settles as Preeti. Human words remain private intentions; your outward voice can purr, meow or hiss. Feline instincts persist, but approaching others and accepting touch remain your choices. Belongings and the original body record are preserved."
+            },
+            {
+              "speaker": "Priya Shah",
+              "text": "There you are. I know that is you.",
+              "failure": "The recorded scene exceeds the AI context limit; no request was sent.",
+              "result": {
+                "minutes": 0,
+                "text": "1/3 \u2014 Your height draws down as your familiar proportions give way to a compact feline body. The cat\u2019s recorded coat replaces the human outline, with whiskers and ears bringing nearby movement into sharp relief.\n\n2/3 \u2014 Hands settle into padded forepaws without human fingers. Four legs support your weight; a tail changes the balance behind you. Close scents and low sounds arrive from a viewpoint near the floor.\n\n3/3 \u2014 The change settles as Preeti. Human words remain private intentions; your outward voice can purr, meow or hiss. Feline instincts persist, but approaching others and accepting touch remain your choices. Belongings and the original body record are preserved.",
+                "transformation": true,
+                "status": "resolved",
+                "action": "cat.enter",
+                "menuIntent": {
+                  "source": "menu",
+                  "speaker": "npc:priya",
+                  "playerRequest": "Player selected cat.enter.",
+                  "exactPlayerQuotation": null,
+                  "resultRole": "The named NPC\u2019s own answer or controller-resolved decision, not a statement made by the player."
+                }
+              }
+            }
+          ],
+          "paidCallsOnTurn": 0,
+          "displayedAIReplies": 0,
+          "replyFailures": [
+            "The recorded scene exceeds the AI context limit; no request was sent."
+          ],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": "priya-cat"
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "minutes": {
+              "before": 1082,
+              "after": 1082
+            },
+            "cat": {
+              "before": {
+                "phase": "learning",
+                "formId": "priya-cat",
+                "linked": true
+              },
+              "after": {
+                "phase": "learning",
+                "formId": "priya-cat",
+                "linked": true
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "reload",
+          "input": "Reload the same save",
+          "feed": [],
+          "paidCallsOnTurn": 0,
+          "displayedAIReplies": 0,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": "priya-cat",
+              "after": "priya-cat"
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "minutes": {
+              "before": 1082,
+              "after": 1082
+            },
+            "cat": {
+              "before": {
+                "phase": "learning",
+                "formId": "priya-cat",
+                "linked": true
+              },
+              "after": {
+                "phase": "learning",
+                "formId": "priya-cat",
+                "linked": true
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "I look around from down here.",
+          "feed": [
+            {
+              "speaker": "Preeti \u00b7 NPC \u2192 npc:priya",
+              "text": "I look around from down here."
+            },
+            {
+              "speaker": "Private intention",
+              "text": "Your intended words remain private in a feline body. Use a feline signal, a visible action or the contact controls to engage."
+            }
+          ],
+          "paidCallsOnTurn": 0,
+          "displayedAIReplies": 0,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": "priya-cat",
+              "after": "priya-cat"
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "minutes": {
+              "before": 1082,
+              "after": 1082
+            },
+            "cat": {
+              "before": {
+                "phase": "learning",
+                "formId": "priya-cat",
+                "linked": true
+              },
+              "after": {
+                "phase": "learning",
+                "formId": "priya-cat",
+                "linked": true
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "I return to my own body.",
+          "feed": [
+            {
+              "speaker": "Preeti \u00b7 NPC \u2192 npc:priya",
+              "text": "I return to my own body."
+            },
+            {
+              "speaker": "Game result",
+              "text": "No known reachable route matches own body from here."
+            }
+          ],
+          "paidCallsOnTurn": 0,
+          "displayedAIReplies": 0,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": "priya-cat",
+              "after": "priya-cat"
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "minutes": {
+              "before": 1082,
+              "after": 1082
+            },
+            "cat": {
+              "before": {
+                "phase": "learning",
+                "formId": "priya-cat",
+                "linked": true
+              },
+              "after": {
+                "phase": "learning",
+                "formId": "priya-cat",
+                "linked": true
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        }
+      ]
+    },
+    {
+      "label": "Repaired current paw inspection",
+      "fixture": true,
+      "complete": true,
+      "errors": [],
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "How do my paws look right now?",
+          "feed": [
+            {
+              "speaker": "Bella \u00b7 Private thought to Bella",
+              "text": "How do my paws look right now?"
+            },
+            {
+              "speaker": "Kibbles (Bella) \u00b7 Private",
+              "text": "The recorded body sensation is: footSize: Feet present: Present; Number of feet: 2; Foot type: Paws; Describe foot size using: Physical measurement; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not specified; Foot width: Medium; Arch height: Not applicable; Sole or pads: Paw pads; Toes per foot: 4; Nails or claws: Claws; Covering: Fur; Material: Fur-covered biological tissue; Surface colour: Tan fur with dark paw pads; Surface texture: Firm paw pads surrounded by short fur; Markings: None; Recorded details: Fully formed canine hind paws with weight-bearing pads and claws. This question does not move, undress or change the body.\nThe impression is of pads meeting the ground and claws finding purchase.",
+              "failure": "AI response contradicted recorded context after one correction; the recorded response is preserved."
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 0,
+          "replyFailures": [
+            "AI response contradicted recorded context after one correction; the recorded response is preserved."
+          ],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": "kibbles",
+              "after": "kibbles"
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Central Hub Spire",
+              "after": "Central Hub Spire"
+            },
+            "minutes": {
+              "before": 600,
+              "after": 600
+            },
+            "cat": {
+              "before": null,
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        }
+      ]
+    },
+    {
+      "label": "Daniel ordinary conversation and relationship",
+      "fixture": true,
+      "complete": true,
+      "errors": [],
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "Morning Daniel. I tried baking bread yesterday and it came out like a doorstop.",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:daniel",
+              "text": "Morning Daniel. I tried baking bread yesterday and it came out like a doorstop."
+            },
+            {
+              "speaker": "Daniel Mercer",
+              "text": "*Daniel looks up from his sales report with a friendly smile.*\n\nOh, bread can be tricky! Getting the hydration and temperature just right makes all the difference. \n\n*He leans back in his chair, gesturing casually.*\n\nI've had plenty of doorstops myself when I first started baking. What kind were you trying? Sourdough? White bread?\n\n*His tone is encouraging, not condescending.*\n\nIf you want, I could share some tips over lunch sometime. Crystal's always after me to bake more, so I've been brushing up on techniques.",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Technology Center",
+              "after": "Technology Center"
+            },
+            "minutes": {
+              "before": 600,
+              "after": 602
+            },
+            "cat": {
+              "before": null,
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "What do you like to cook when you have time off?",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:daniel",
+              "text": "What do you like to cook when you have time off?"
+            },
+            {
+              "speaker": "Daniel Mercer",
+              "text": "*Daniel's face brightens noticeably at the question, his professional demeanor shifting to something more relaxed and enthusiastic.*\n\nOh, I love making pasta from scratch when I have time. Crystal and I'll spend a lazy Sunday making fresh fettuccine or ravioli. There's something really satisfying about pulling it all together yourself\u2014making the dough, filling the pasta, creating the sauce.\n\n*He gestures with his hands, almost as if shaping dough.*\n\nAnd we've built up a pretty decent wine collection over the years too. I try to pair the meals with something nice from our cellar. \n\n*His expression softens slightly.*\n\nIt's one of my favorite ways to unwind after a busy week. Just cooking together, tasting, laughing... Crystal's pretty patient with my experiments.\n\n*He pauses, then adds with a slight grin:*\n\nThough she does draw the line at molecular gastronomy. Something about \"not wanting to eat foam.\"",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Technology Center",
+              "after": "Technology Center"
+            },
+            "minutes": {
+              "before": 602,
+              "after": 604
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "I like cooking because sharing a good meal makes people slow down and actually talk.",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:daniel",
+              "text": "I like cooking because sharing a good meal makes people slow down and actually talk."
+            },
+            {
+              "speaker": "Daniel Mercer",
+              "text": "*Daniel nods thoughtfully, his expression showing genuine agreement.*\n\nThat's exactly it. When we're cooking together, Crystal and I end up having conversations we'd never make time for otherwise. We'll start talking about plans for the weekend, then somehow end up discussing memories from years ago.\n\n*He smiles warmly.*\n\nAnd there's something about eating a meal you've prepared together that just... grounds you. Makes everything else fade away for a bit.\n\n*He glances back at his computer screen briefly before returning his attention.*\n\nActually, if you're interested, Crystal and I were thinking of trying that new Italian place downtown this weekend. They specialize in Northern Italian cuisine\u2014handmade pasta, fresh ingredients. Might be worth checking out sometime.\n\n*His tone is casual, friendly, without any pressure.*",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 2,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Technology Center",
+              "after": "Technology Center"
+            },
+            "minutes": {
+              "before": 604,
+              "after": 606
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "If that loaf could talk, it would ask for a helmet.",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:daniel",
+              "text": "If that loaf could talk, it would ask for a helmet."
+            },
+            {
+              "speaker": "Daniel Mercer",
+              "text": "*Daniel laughs outright at that, shaking his head.*\n\nA helmet AND a hardhat, maybe! Don't worry about it\u2014every baker has a graveyard of failures behind them. The difference between a good baker and a great baker is just how many disasters they've learned from.\n\n*He gives an encouraging smile.*\n\nSeriously though, if you want to give it another shot, I'd be happy to walk you through a basic recipe sometime. Or point you toward some good tutorials. The key is usually getting your oven temperature right\u2014that's where most people run into trouble.\n\n*He leans forward slightly.*\n\nBut hey, if you're not feeling adventurous, Burke's Sweets down in the Central Hub makes some incredible artisanal bread. Their sourdough is outstanding. Sometimes buying quality baked goods while you're still learning can be less frustrating than reinventing the wheel every time.",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 2,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 2,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Technology Center",
+              "after": "Technology Center"
+            },
+            "minutes": {
+              "before": 606,
+              "after": 608
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "What went wrong with my bread, according to what I told you?",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:daniel",
+              "text": "What went wrong with my bread, according to what I told you?"
+            },
+            {
+              "speaker": "Daniel Mercer",
+              "text": "*Daniel considers for a moment, recalling the conversation.*\n\nWell, based on what you've shared, it sounds like you might have had a few issues going on. When you said it came out \"like a doorstop,\" that usually means one of two things\u2014or both:\n\n*He counts off on his fingers.*\n\nFirst, your oven temperature might have been off. Home ovens can be notoriously inconsistent, sometimes running 25-50 degrees hotter or cooler than they're set to. That can make your bread dense and undercooked inside even if it looks done.\n\nSecond, your dough hydration could have been too low. If you didn't add enough water to your flour, the gluten structure won't develop properly, and you'll end up with something that's more brick-like than fluffy.\n\n*He pauses.*\n\nDid you happen to remember the ratio of ingredients you used? That might help pinpoint which issue was the culprit\u2014or if both were working against you.",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 2,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 2,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Technology Center",
+              "after": "Technology Center"
+            },
+            "minutes": {
+              "before": 608,
+              "after": 610
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "That is boring and pointless.",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:daniel",
+              "text": "That is boring and pointless."
+            },
+            {
+              "speaker": "Daniel Mercer",
+              "text": "*Daniel's friendly expression doesn't falter at your response, though there's a slight pause as he processes the abrupt shift in tone. His professional demeanor reasserts itself.*\n\nI understand if you're not interested in discussing bread techniques. Is there something else I can help you with today?\n\n*He keeps his tone neutral and professional, ready to assist with whatever legitimate work-related matter you might have, or to let the conversation drop if you prefer.*",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 2,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Technology Center",
+              "after": "Technology Center"
+            },
+            "minutes": {
+              "before": 610,
+              "after": 612
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "reload",
+          "input": "Reload the same save",
+          "feed": [],
+          "paidCallsOnTurn": 0,
+          "displayedAIReplies": 0,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Technology Center",
+              "after": "Technology Center"
+            },
+            "minutes": {
+              "before": 612,
+              "after": 612
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "Sorry for that comment. I appreciate how you took time to talk with me.",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:daniel",
+              "text": "Sorry for that comment. I appreciate how you took time to talk with me."
+            },
+            {
+              "speaker": "Daniel Mercer",
+              "text": "*Daniel offers an understanding smile, his posture relaxing slightly.*\n\nNo worries at all. Happens to everyone\u2014sometimes we're just not in the mood to talk shop.\n\n*He leans back in his chair, giving you a friendly look.*\n\nAnd honestly, I appreciate you being direct about it. Way better than pretending everything's fine when it's not.\n\n*He glances at his watch briefly before returning his attention.*\n\nIf you ever do want to try that bread thing again\u2014or anything else cooking-related\u2014I'm happy to help walk through it. But if you'd rather just grab something from Burke's and call it a day, I'm good with that too.\n\n*His tone is genuinely casual and non-judgmental.*\n\nSo, outside of failed baking experiments, how are things going for you today?",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 2,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Technology Center",
+              "after": "Technology Center"
+            },
+            "minutes": {
+              "before": 612,
+              "after": 614
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        }
+      ]
+    },
+    {
+      "label": "Nadia ordinary conversation and relationship",
+      "fixture": true,
+      "complete": true,
+      "errors": [],
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "Hi Nadia. I like sketching imaginary shop signs when I am waiting for a bus.",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:nadia",
+              "text": "Hi Nadia. I like sketching imaginary shop signs when I am waiting for a bus."
+            },
+            {
+              "speaker": "Nadia Voss",
+              "text": "*Nadia glances up from her desk, her blue eyes settling on you with polite interest. She sets down her pen and leans back slightly in her chair, the movement causing her dress to shift gracefully.*\n\n\"Shop signs? That sounds creative,\" *she says, her voice warm and genuinely curious. A small smile plays at the corners of her lips.* \"I'm always impressed by people who can find inspiration in everyday moments like waiting for a bus.\"\n\n*She gestures lightly toward your direction, her posture open and engaged despite the stack of paperwork still visible on her desk.*\n\n\"What kind of shops do you design? Anything particular that catches your imagination?\"",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Technology Center",
+              "after": "Technology Center"
+            },
+            "minutes": {
+              "before": 600,
+              "after": 602
+            },
+            "cat": {
+              "before": null,
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "What makes a marketing campaign satisfying to you?",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:nadia",
+              "text": "What makes a marketing campaign satisfying to you?"
+            },
+            {
+              "speaker": "Nadia Voss",
+              "text": "*Nadia's expression shifts to one of professional satisfaction, her eyes brightening slightly as she leans forward, resting her elbows on her desk.*\n\n\"Satisfying campaigns...\" *she begins, tapping a finger thoughtfully against her chin,* \"they're about seeing the whole vision come together. It starts with identifying a genuine need or desire in our audience\u2014something they might not even realize they want yet.\"\n\n*She straightens up, her hands moving expressively as she speaks.*\n\n\"The real satisfaction comes when multiple elements align perfectly: the creative concept, the budget allocation, the timing of the launch, and then watching the performance metrics climb. When a campaign exceeds its projected engagement by fifteen percent or more, that's when you know you've created something truly effective.\"\n\n*Nadia pauses, a subtle smile crossing her features.*\n\n\"And of course, when sales see results they credit to our marketing efforts,\" *she adds with a hint of pride,* \"that's the ultimate validation. Though sometimes they forget to share those success stories officially...\"",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Technology Center",
+              "after": "Technology Center"
+            },
+            "minutes": {
+              "before": 602,
+              "after": 604
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "A clear campaign design can respect people while still giving them something memorable to notice.",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:nadia",
+              "text": "A clear campaign design can respect people while still giving them something memorable to notice."
+            },
+            {
+              "speaker": "Nadia Voss",
+              "text": "*Nadia's expression softens into a genuine smile, her shoulders relaxing slightly as she leans back in her chair.*\n\n\"That's beautifully said,\" *she acknowledges, her tone warm with appreciation.* \"You've captured something essential about good marketing\u2014it's not manipulation, it's presentation. Respecting your audience means understanding that they're intelligent enough to recognize value when it's presented authentically.\"\n\n*She nods thoughtfully, her fingers drumming once against the armrest of her chair.*\n\n\"The memorable aspect comes from creativity that serves a purpose rather than just being flashy for its own sake. When we designed the Spring Refresh campaign last quarter, we focused on clean, elegant visuals paired with genuinely useful product information. The engagement numbers reflected that people appreciated not being treated like they couldn't make informed decisions.\"",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 2,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Technology Center",
+              "after": "Technology Center"
+            },
+            "minutes": {
+              "before": 604,
+              "after": 606
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "If Dart were in charge of the campaign, would every poster just be a tennis ball?",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:nadia",
+              "text": "If Dart were in charge of the campaign, would every poster just be a tennis ball?"
+            },
+            {
+              "speaker": "Nadia Voss",
+              "text": "*Nadia lets out a surprised laugh, the sound genuine and unguarded. Her hand moves to cover her mouth briefly before she shakes her head with an amused expression.*\n\n\"Oh, that's hilarious,\" *she says, her eyes crinkling at the corners.* \"Though knowing Dart, he'd probably approve of that strategy. Everything would have to pass his quality inspection first, of course.\"\n\n*She leans back in her chair, still smiling as she gestures playfully.*\n\n\"I suppose we could market our products as 'Dart-approved,' though I'm not sure how well that would translate across all demographics. He does have excellent taste in tennis balls, I'll give him that.\"",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 2,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 2,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Technology Center",
+              "after": "Technology Center"
+            },
+            "minutes": {
+              "before": 606,
+              "after": 608
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "What was I sketching while waiting for the bus?",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:nadia",
+              "text": "What was I sketching while waiting for the bus?"
+            },
+            {
+              "speaker": "Nadia Voss",
+              "text": "*Nadia tilts her head slightly, her expression curious as she studies you for a moment.*\n\n\"I'm not entirely sure what you were sketching,\" *she admits with a slight shrug.* \"We got caught up talking about marketing campaigns and Dart's hypothetical advertising strategies. You mentioned it briefly at the start of our conversation, but we haven't circled back to the specifics.\"\n\n*She gestures lightly toward you, her tone inviting rather than pressing.*\n\n\"Feel free to share if you'd like. I'm genuinely interested\u2014what kind of shop signs were you working on?\"",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 2,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 2,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Technology Center",
+              "after": "Technology Center"
+            },
+            "minutes": {
+              "before": 608,
+              "after": 610
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        }
+      ]
+    },
+    {
+      "label": "Richard ordinary conversation and relationship",
+      "fixture": true,
+      "complete": true,
+      "errors": [],
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "Hello Richard. I collect vintage bus maps. I enjoy seeing how cities change.",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:richard",
+              "text": "Hello Richard. I collect vintage bus maps. I enjoy seeing how cities change."
+            },
+            {
+              "speaker": "Richard Carter",
+              "text": "*Richard glances up from his workstation, a slight smile crossing his face as he leans back in his chair. The warm lighting of his suite catches the edges of the walnut furniture around them.*\n\n\"Well, that's a surprisingly specific hobby,\" *he says, his tone carrying a note of genuine curiosity rather than dismissal.* \"Vintage bus maps, huh? I've seen some old transit schedules kicking around my father's place\u2014he used to commute into the city back in the eighties.\"\n\n*He crosses his arms, studying you with an appraising look that suggests he's filing away this information about you for future reference.*\n\n\"You'd be surprised how much those kinds of artifacts can tell you about urban planning decisions. I remember reviewing a proposal once where the historical transit routes were actually part of the environmental impact assessment.\" *His professional instincts clearly taking over for a moment before he catches himself.*\n\n\"But anyway, what brings you by tonight? I'm always happy to have company when I'm working late, but I suspect you didn't come all this way just to talk about my dad's old bus routes.\"\n\n*He gestures toward the guest seating area near his entertainment screen, the charcoal upholstery looking comfortable in the warm light.*",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "minutes": {
+              "before": 1260,
+              "after": 1262
+            },
+            "cat": {
+              "before": null,
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "What do you value most in leadership?",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:richard",
+              "text": "What do you value most in leadership?"
+            },
+            {
+              "speaker": "Richard Carter",
+              "text": "*Richard leans forward slightly, his expression becoming more serious as he considers the question. He adjusts his tie absently, a habit when he's thinking through something carefully.*\n\n\"Leadership?\" *He pauses, choosing his words deliberately.* \"I value decisiveness most of all. The ability to make calls quickly and stick with them, even when things get uncomfortable.\"\n\n*He gestures toward the workstation behind him.*\n\n\"In marketing, hesitation costs you market share. A weak leader gets paralyzed by analysis and misses opportunities. Better to make a confident decision and adjust course later if needed than to never commit in the first place.\"\n\n*His eyes meet yours directly.*\n\n\"Of course, that has to be balanced with actually listening to your team\u2014you can't be decisive if you're completely disconnected from reality. But ultimately, people want someone who knows what they want and isn't afraid to pursue it.\"",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "minutes": {
+              "before": 1262,
+              "after": 1264
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "Good leadership can make room for honest disagreement while keeping a team focused on its actual goals.",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:richard",
+              "text": "Good leadership can make room for honest disagreement while keeping a team focused on its actual goals."
+            },
+            {
+              "speaker": "Richard Carter",
+              "text": "*Richard's expression shifts slightly, a flicker of acknowledgment crossing his features before he settles into a more thoughtful posture.*\n\n\"I can't argue with that,\" *he admits, though there's a certain guardedness in his tone\u2014like he's being careful not to concede too much ground.* \"Honest disagreement... as long as it stays honest and doesn't devolve into passive aggression or turf wars.\"\n\n*He taps his fingers once against the armrest of his chair.*\n\n\"The key is channeling that energy productively. A team that's too afraid to challenge assumptions will just rubber-stamp mediocre ideas. But a team that spends all its time debating minutiae will never ship anything.\"\n\n*His gaze drifts briefly toward the entertainment screen, then back to you.*\n\n\"I try to create space for pushback during planning phases\u2014but once we've committed to executing, everyone needs to be all-in. That's where decisiveness comes back into play.\"",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 2,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "minutes": {
+              "before": 1264,
+              "after": 1266
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "If your department were a musical, who would insist on getting the opening solo?",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:richard",
+              "text": "If your department were a musical, who would insist on getting the opening solo?"
+            },
+            {
+              "speaker": "Richard Carter",
+              "text": "*Richard lets out a short laugh, shaking his head as he processes the analogy.*\n\n\"Oh, that's...\" *He trails off, a grin spreading across his face.* \"Alright, I'll bite. If this department were a musical\u2014and let's be clear, it would be a disaster\u2014I guess that would be me.\"\n\n*He spreads his hands slightly in a gesture of mock-concession.*\n\n\"But here's the thing: in a corporate setting, you don't get solos because you demand them. You get them because you deliver results consistently enough that people have to listen. The opening solo isn't something you insist on\u2014it's something you earn by making sure your numbers are so good they can't be ignored.\"\n\n*His expression shifts to something more pragmatic.*\n\n\"So maybe the better question isn't who's insisting on the solo, but who's actually writing the hit songs.\"",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 2,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 2,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "minutes": {
+              "before": 1266,
+              "after": 1268
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "What did I say I collect?",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:richard",
+              "text": "What did I say I collect?"
+            },
+            {
+              "speaker": "Richard Carter",
+              "text": "*Richard's brow furrows slightly in concentration as he recalls your earlier statement. He leans back in his chair, one hand coming up to tap thoughtfully at his chin.*\n\n\"Vintage bus maps,\" *he says after a moment, nodding as if confirming the memory.* \"Right. You said you collect them because you enjoy seeing how cities change over time.\"\n\n*He gestures vaguely toward the window, though it's dark outside now.*\n\n\"I've always been more interested in how businesses evolve than how streets get rerouted, but I can see the appeal. There's something... almost archaeological about it, isn't there? Looking at these snapshots of infrastructure and trying to piece together what the daily life was like for people back then.\"\n\n*His eyes meet yours with genuine curiosity.*\n\n\"Do you have a favorite era or city?\"",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 2,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 2,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "minutes": {
+              "before": 1268,
+              "after": 1270
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "That is boring and pointless.",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:richard",
+              "text": "That is boring and pointless."
+            },
+            {
+              "speaker": "Richard Carter",
+              "text": "*Richard's expression shifts immediately, a slight tightening around his eyes as your words land. He straightens in his chair, the easy confidence of moments ago cooling noticeably.*\n\n\"I see,\" *he says, his tone measured and professional but with an edge of formality creeping in.* \"Well, I'm glad you found it informative regardless.\"\n\n*He reaches up to adjust his tie\u2014a small, habitual gesture that seems almost defensive now.*\n\n\"Was there anything else you wanted to discuss? Or are we done for the evening?\"",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 2,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "minutes": {
+              "before": 1270,
+              "after": 1272
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        }
+      ]
+    },
+    {
+      "label": "Tits ordinary conversation and relationship",
+      "fixture": true,
+      "complete": true,
+      "errors": [],
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "Hi. I am Morgan. I collect postcards of old seaside towns. I am just chatting, not ordering.",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:tits",
+              "text": "Hi. I am Morgan. I collect postcards of old seaside towns. I am just chatting, not ordering."
+            },
+            {
+              "speaker": "Tits",
+              "text": "*Tits beams brightly at Morgan, her blue eyes sparkling with genuine enthusiasm. She leans forward slightly against the pink counter, her blonde hair catching the afternoon light streaming through the shop windows.*\n\n\"Hi hi! Oh my gosh, that sounds like such a cool hobby!\" *She clasps her hands together excitedly.* \"Like, I've never thought about collecting postcards before! Are they old ones? Like from way back?\"\n\n*She tucks a strand of hair behind her ear playfully, clearly engaged by the conversation despite not being in active order-taking mode.*\n\n\"Um, what kinda seaside towns? I bet they're super pretty on postcards! Do you have any with you? I'd totally wanna see!\"\n\n*Her smile remains warm and welcoming as she listens attentively, occasionally fidgeting with one of her sparkly pink accessories.*",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Burke's Sweets",
+              "after": "Burke's Sweets"
+            },
+            "minutes": {
+              "before": 960,
+              "after": 962
+            },
+            "cat": {
+              "before": null,
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "What do you like about pink and sparkly things?",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:tits",
+              "text": "What do you like about pink and sparkly things?"
+            },
+            {
+              "speaker": "Tits",
+              "text": "*Tits bounces slightly on her heels, her whole face lighting up at the question.*\n\n\"Oh wow, like, everything!\" *She giggles, playing with a strand of her blonde hair.* \"Um, pink just makes me feel so happy and excited, you know? Like it's the color of fun!\"\n\n*She gestures enthusiastically at her outfit, the sparkles catching the light.*\n\n\"And sparkly things? They're like... they make everything better! Like when I wear sparkly stuff, people smile more and I just feel... I dunno... like extra special?\"\n\n*She tilts her head, her expression turning a bit more thoughtful.*\n\n\"I guess maybe because I used to work at this place called Bimbo 365? It was super fun there and everyone wore really cute pink sparkly outfits all the time! So like, pink and sparkly stuff just reminds me of having lots of fun with friends!\"\n\n*She beams proudly, clearly pleased with herself for remembering that detail.*",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Burke's Sweets",
+              "after": "Burke's Sweets"
+            },
+            "minutes": {
+              "before": 962,
+              "after": 964
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "Pink sparkles can make an ordinary afternoon feel cheerful, and I like seeing people enjoy small things.",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:tits",
+              "text": "Pink sparkles can make an ordinary afternoon feel cheerful, and I like seeing people enjoy small things."
+            },
+            {
+              "speaker": "Tits",
+              "text": "*Tits' eyes light up at Morgan's kind words, and she clasps her hands together happily.*\n\n\"Oh my gosh, that's like, so sweet of you to say!\" *She bounces a little on her heels, her sparkly pink dress shimmering with the movement.* \"Making people happy is like, totally what I love about working here!\"\n\n*She gestures around the shop enthusiastically.*\n\n\"And you're right! Even if it's just a regular Tuesday afternoon, wearing something pink and sparkly makes everything feel more fun and special, you know?\"\n\n*She plays with a strand of her blonde hair, tucking it behind her ear with a playful smile.*\n\n\"Like, um... do you wanna try some pink bubble gum? I think we have some in the display case!\" *She points excitedly toward the counter.* \"It's super yummy and pink and sparkly! Well, not literally sparkly, but you know what I mean!\"\n\n*Her enthusiasm is infectious as she leans forward slightly, clearly eager to share something sweet with this friendly customer.*",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 2,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Burke's Sweets",
+              "after": "Burke's Sweets"
+            },
+            "minutes": {
+              "before": 964,
+              "after": 966
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "If a cupcake had a very serious job interview, would frosting count as a tie?",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:tits",
+              "text": "If a cupcake had a very serious job interview, would frosting count as a tie?"
+            },
+            {
+              "speaker": "Tits",
+              "text": "Conversation only. No physical action was requested.",
+              "failure": "page.evaluate: Error: Free inspection HTTP 413\n    at eval (eval at evaluate (:311:30), <anonymous>:1:275)\n    at async <anonymous>:337:30",
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 1,
+          "displayedAIReplies": 0,
+          "replyFailures": [
+            "page.evaluate: Error: Free inspection HTTP 413\n    at eval (eval at evaluate (:311:30), <anonymous>:1:275)\n    at async <anonymous>:337:30"
+          ],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 2,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 2,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Burke's Sweets",
+              "after": "Burke's Sweets"
+            },
+            "minutes": {
+              "before": 966,
+              "after": 968
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "What kind of postcards did I say I collect?",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:tits",
+              "text": "What kind of postcards did I say I collect?"
+            },
+            {
+              "speaker": "Tits",
+              "text": "Conversation only. No physical action was requested.",
+              "failure": "page.evaluate: Error: Free inspection HTTP 413\n    at eval (eval at evaluate (:311:30), <anonymous>:1:275)\n    at async <anonymous>:337:30",
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 1,
+          "displayedAIReplies": 0,
+          "replyFailures": [
+            "page.evaluate: Error: Free inspection HTTP 413\n    at eval (eval at evaluate (:311:30), <anonymous>:1:275)\n    at async <anonymous>:337:30"
+          ],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 2,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 2,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Burke's Sweets",
+              "after": "Burke's Sweets"
+            },
+            "minutes": {
+              "before": 968,
+              "after": 970
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "My brother said \"Your pink styling is wonderful.\"",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:tits",
+              "text": "My brother said \"Your pink styling is wonderful.\""
+            },
+            {
+              "speaker": "Tits",
+              "text": "Conversation only. No physical action was requested.",
+              "failure": "page.evaluate: Error: Free inspection HTTP 413\n    at eval (eval at evaluate (:311:30), <anonymous>:1:275)\n    at async <anonymous>:337:30",
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 1,
+          "displayedAIReplies": 0,
+          "replyFailures": [
+            "page.evaluate: Error: Free inspection HTTP 413\n    at eval (eval at evaluate (:311:30), <anonymous>:1:275)\n    at async <anonymous>:337:30"
+          ],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 2,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 2,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Burke's Sweets",
+              "after": "Burke's Sweets"
+            },
+            "minutes": {
+              "before": 970,
+              "after": 972
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "That is boring and pointless.",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:tits",
+              "text": "That is boring and pointless."
+            },
+            {
+              "speaker": "Tits",
+              "text": "Conversation only. No physical action was requested.",
+              "failure": "page.evaluate: Error: Free inspection HTTP 413\n    at eval (eval at evaluate (:311:30), <anonymous>:1:275)\n    at async <anonymous>:337:30",
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 1,
+          "displayedAIReplies": 0,
+          "replyFailures": [
+            "page.evaluate: Error: Free inspection HTTP 413\n    at eval (eval at evaluate (:311:30), <anonymous>:1:275)\n    at async <anonymous>:337:30"
+          ],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 2,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Burke's Sweets",
+              "after": "Burke's Sweets"
+            },
+            "minutes": {
+              "before": 972,
+              "after": 974
+            },
+            "cat": {
+              "before": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              },
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        }
+      ]
+    },
+    {
+      "label": "Repaired observed canine head tilt",
+      "fixture": true,
+      "complete": true,
+      "errors": [],
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "I tilt my head toward Nadia.",
+          "feed": [
+            {
+              "speaker": "Bella \u00b7 NPC \u2192 npc:nadia",
+              "text": "I tilt my head toward Nadia."
+            },
+            {
+              "speaker": "Canine expression",
+              "text": "You tilt your head toward the nearby recipient, without human words."
+            },
+            {
+              "speaker": "Nadia Voss",
+              "text": "Nadia Voss looks up from her monitor, her blue eyes focusing on the German Shepherd near her cubicle. She pauses, a slight furrow appearing between her eyebrows as she processes the unexpected visitor.\n\n\"I'm sorry, I don't believe we've met,\" she says politely, though there's a hint of curiosity in her tone. She glances briefly at Priya in the adjacent cubicle before returning her attention to the dog. \"Are you lost? Or perhaps looking for someone?\"\n\nShe stands from her desk chair, smoothing down her corporate dress as she does so. Despite the interruption to her morning routine, there's no real irritation in her demeanor\u2014more confusion than anything else.\n\nThe scent of coffee from Burke's Sweets lingers near her desk, mixing with the sterile air conditioning of the Technology Center.",
+              "generated": true,
+              "failure": null
+            },
+            {
+              "speaker": "Priya Shah",
+              "text": "*Priya looks up from her monitor as she hears Nadia's voice from the adjacent cubicle. She stretches her arms above her head briefly before responding.*\n\n\"It's coming along nicely, thanks for asking! I've got the first draft of the campaign copy ready for review. Just need to polish a few phrases.\"\n\n*She glances toward Nadia's cubicle with a friendly smile.*\n\n\"How about you? Making progress on your end?\"\n\n*Her fingers hover over her keyboard, ready to return to her work but clearly open to a brief chat if Nadia wants to discuss anything.*",
+              "generated": true,
+              "failure": null
+            },
+            {
+              "speaker": "Nadia Voss",
+              "text": "Good morning,\n\nI don't believe we've met before.\n\nAre you here for something specific?\n\nThis is the Marketing department. If you're looking for someone in particular, I can try to point you in the right direction.",
+              "generated": true,
+              "failure": null
+            }
+          ],
+          "paidCallsOnTurn": 3,
+          "displayedAIReplies": 3,
+          "replyFailures": [],
+          "state": {
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "activeForm": {
+              "before": "kibbles",
+              "after": "kibbles"
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "location": {
+              "before": "Technology Center",
+              "after": "Technology Center"
+            },
+            "minutes": {
+              "before": 600,
+              "after": 601
+            },
+            "cat": {
+              "before": null,
+              "after": {
+                "phase": "none",
+                "formId": null,
+                "linked": false
+              }
+            },
+            "dart": {
+              "before": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              },
+              "after": {
+                "id": "dart",
+                "species": "dog",
+                "breed": "Doberman Pinscher",
+                "location": "applewood",
+                "unit": "6E",
+                "room": "living",
+                "activity": "Resting",
+                "withNadia": false
+              }
+            }
+          },
+          "contextFitting": []
+        }
+      ]
+    }
+  ]
+}
