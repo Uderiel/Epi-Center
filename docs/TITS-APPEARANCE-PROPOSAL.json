@@ -1,0 +1,362 @@
+{
+  "status": "Complete24-field appearance owner-approved,exact height confirmed,implemented and verified locally; prior approved portrait connected; unpublished",
+  "entity": "npc:tits",
+  "established": {
+    "age": 26,
+    "height": "Approximately5ft3",
+    "shoeSize": "6; system not established",
+    "build": "Exceptionally curvy adult silhouette",
+    "chest": "Full; cup not established",
+    "waist": "Narrow",
+    "buttocks": "Very ample",
+    "neck": "Slender",
+    "hair": "Mid-back-length wavy blonde; clipped/partly pulled back",
+    "eyes": "Heavy-lidded blue",
+    "face": "Full pouty lips,button nose,narrow gently pointed chin",
+    "grooming": "Smooth hairless; pink fingernails/toenails,sometimes glittered or with white accent"
+  },
+  "draft": {
+    "schema": 1,
+    "mode": "universal",
+    "answers": {
+      "age": {
+        "value": "26"
+      },
+      "gender": {
+        "value": "Female"
+      },
+      "footSize": {
+        "presence": "Present",
+        "count": "2",
+        "type": "Humanlike feet",
+        "sizeMode": "Shoe size",
+        "sizingSystem": "US women’s",
+        "length": {
+          "mode": "Not specified"
+        },
+        "width": "Medium",
+        "arch": "Medium",
+        "sole": "Humanlike sole",
+        "digits": "5",
+        "nails": "Human nails",
+        "covering": "Skin",
+        "material": "Skin",
+        "surfaceColour": "Light",
+        "texture": "Smooth",
+        "markings": "Custom",
+        "size": 6,
+        "markingsCustom": "Pink toenail polish; sometimes glittered or with a white accent"
+      },
+      "legs": {
+        "count": "2",
+        "type": "Human legs",
+        "length": "Average",
+        "build": "Average",
+        "covering": "Skin",
+        "grooming": "Clean-shaven",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "hips": {
+        "width": "Wide",
+        "shape": "Rounded",
+        "proportions": "Custom",
+        "material": "Skin",
+        "surfaceColour": "Light",
+        "proportionsCustom": "Full hips with pronounced waist contrast"
+      },
+      "buttocks": {
+        "size": "Large",
+        "shape": "Rounded",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "waist": {
+        "width": "Narrow",
+        "abdomen": "Soft",
+        "muscle": "Smooth",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "back": {
+        "width": "Narrow",
+        "shoulders": "Sloping",
+        "back": "Tapered",
+        "material": "Skin",
+        "surfaceColour": "Light",
+        "posture": "Relaxed",
+        "wingsPresence": "Absent",
+        "wingsCount": "Not specified",
+        "wingsType": "Not specified",
+        "wingspan": {
+          "mode": "Not specified"
+        },
+        "wingsDetails": "Not specified",
+        "wingsMaterial": "Not specified",
+        "wingsColour": "Not specified"
+      },
+      "chest": {
+        "type": "Breasts",
+        "cup": "F",
+        "size": "Not specified",
+        "shape": "Rounded",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "arms": {
+        "count": "2",
+        "type": "Human arms",
+        "length": "Average",
+        "muscle": "Smooth",
+        "material": "Skin",
+        "surfaceColour": "Light",
+        "grooming": "Clean-shaven"
+      },
+      "hands": {
+        "count": "2",
+        "type": "Human hands",
+        "size": "Small",
+        "width": "Narrow",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "fingers": {
+        "count": "5",
+        "length": "Long",
+        "thickness": "Slender",
+        "nails": "Human nails",
+        "nailLength": "Long",
+        "nailShape": "Rounded",
+        "nailColour": "Polish colour",
+        "nailMaterial": "Human nail keratin",
+        "material": "Skin",
+        "surfaceColour": "Light",
+        "nailColourCustom": "Pink; sometimes glittered or with a white accent"
+      },
+      "voice": {
+        "neck": "Slender",
+        "pitch": "High",
+        "quality": "Breathy",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "face": {
+        "shape": "Heart-shaped",
+        "jaw": "Tapered",
+        "chin": "Pointed",
+        "cheeks": "Softly rounded",
+        "noseSize": "Small",
+        "noseShape": "Button",
+        "lipFullness": "Full",
+        "lipShape": "Custom",
+        "salivation": "Average",
+        "facialHair": "Clean-shaven",
+        "complexion": [
+          {
+            "kind": "Clear/even complexion"
+          }
+        ],
+        "material": "Skin",
+        "surfaceColour": "Light",
+        "lipShapeCustom": "Pouty"
+      },
+      "eyes": {
+        "count": "2",
+        "size": "Average",
+        "shape": "Custom",
+        "iris": "Blue",
+        "leftIris": "Not specified",
+        "rightIris": "Not specified",
+        "sclera": "Normal",
+        "material": "Human eye tissue",
+        "shapeCustom": "Heavy-lidded"
+      },
+      "ears": {
+        "count": "2",
+        "size": "Small",
+        "shape": "Rounded",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "hair": {
+        "length": "Custom",
+        "colour": "Custom",
+        "texture": "Wavy",
+        "density": "Dense",
+        "style": "Custom",
+        "material": "Human hair",
+        "lengthCustom": "Mid-back length",
+        "colourCustom": "Blonde",
+        "styleCustom": "Clipped or partly pulled back"
+      },
+      "skin": {
+        "material": "Skin",
+        "surfaceColour": "Light",
+        "texture": "Smooth",
+        "markings": [
+          {
+            "kind": "None"
+          }
+        ],
+        "bodyHair": "Clean-shaven"
+      },
+      "genitalAnatomy": {
+        "configuration": "Vulval anatomy",
+        "length": {
+          "mode": "Not specified"
+        },
+        "testes": "Not specified",
+        "tightness": "Not specified",
+        "puffiness": "Not specified",
+        "swelling": "Not specified",
+        "viscosity": "Not specified",
+        "variation": "None",
+        "grooming": "Trimmed",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "scent": {
+        "natural": "Neutral",
+        "strength": "Faint",
+        "perspiration": "Average",
+        "temperature": "Average",
+        "traits": [
+          "None"
+        ]
+      },
+      "height": {
+        "unit": "imperial",
+        "value": 63,
+        "raw": {
+          "feet": 5,
+          "inches": 3
+        }
+      },
+      "weight": {
+        "unit": "imperial",
+        "value": 135,
+        "raw": {
+          "lb": 135
+        }
+      },
+      "build": {
+        "value": "Exceptionally curvy adult silhouette. Narrow frame, average arms, narrow waist, fuller rounded hips. waist 28.5 in; hips 40 in; chest 37.5 in."
+      },
+      "tail": {
+        "presence": "Absent",
+        "description": "Not specified",
+        "material": "Not specified",
+        "surfaceColour": "Not specified"
+      }
+    },
+    "inheritedColours": {
+      "footSize": false,
+      "legs": false,
+      "hips": false,
+      "buttocks": false,
+      "waist": false,
+      "back": false,
+      "chest": false,
+      "arms": false,
+      "hands": false,
+      "fingers": false,
+      "voice": false,
+      "face": false,
+      "ears": false,
+      "genitalAnatomy": false
+    },
+    "review": null,
+    "stage": "editor"
+  },
+  "appearance": {
+    "age": "26",
+    "gender": "Female",
+    "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Shoe size; Shoe size: 6; Shoe sizing system: US women’s; Foot length: Not applicable; Foot width: Medium; Arch height: Medium; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Smooth; Markings: Pink toenail polish,  sometimes glittered or with a white accent; Recorded details: Small US women’s size-6 feet",
+    "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Average; Covering: Skin; Hair / grooming: Clean-shaven; Material: Skin; Surface colour: Light; inseam: 29 in",
+    "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Full hips with pronounced waist contrast; Material: Skin; Surface colour: Light; hip circumference: 40 in",
+    "buttocks": "Size: Large; Shape: Rounded; Material: Skin; Surface colour: Light; Recorded details: Very ample rear",
+    "waist": "Waist width: Narrow; Abdomen shape: Soft; Muscle definition: Smooth; Material: Skin; Surface colour: Light; waist circumference: 28.5 in; Recorded details: Narrow waist",
+    "back": "Shoulder width: Narrow; Shoulder shape: Sloping; Back shape: Tapered; Material: Skin; Surface colour: Light; Usual posture: Relaxed; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 13.5 in",
+    "chest": "Type: Breasts; Cup size: F; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 32 in; chest circumference: 37.5 in; Recorded details: Full chest",
+    "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Smooth; Material: Skin; Surface colour: Light; Hair / grooming: Clean-shaven; shoulder-to-wrist length: 21 in",
+    "hands": "Number of hands: 2; Hand type: Human hands; Size: Small; Width: Narrow; Material: Skin; Surface colour: Light",
+    "fingers": "Digits per hand: 5; Length: Long; Thickness: Slender; Nail type: Human nails; Nail length: Long; Nail shape: Rounded; Nail colour: Pink,  sometimes glittered or with a white accent; Nail material: Human nail keratin; Material: Skin; Surface colour: Light; Recorded details: Pink fingernails and toenails, sometimes glittered or with a white accent,  smooth hairless grooming preference, skincare, hair treatments and facials.",
+    "voice": "Neck shape: Slender; Voice pitch: High; Voice quality: Breathy; Material: Skin; Surface colour: Light; Recorded details: Slender neck",
+    "face": "Overall shape: Heart-shaped; Jaw: Tapered; Chin: Pointed; Cheeks: Softly rounded; Nose size: Small; Nose shape: Button; Lip fullness: Full; Lip shape: Pouty; Salivation rate: Average; Facial hair: Clean-shaven; Complexion and markings: Clear/even complexion; Material: Skin; Surface colour: Light; Recorded details: Full pouty lips, button nose and narrow gently pointed chin",
+    "eyes": "Number of eyes: 2; Size: Average; Shape: Heavy-lidded; Iris colour: Blue; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Normal; Material: Human eye tissue; Recorded details: Heavy-lidded blue eyes",
+    "ears": "Number of ears: 2; Size: Small; Shape: Rounded; Material: Skin; Surface colour: Light",
+    "hair": "Length: Mid-back length; Colour: Blonde; Texture: Wavy; Density: Dense; Style: Clipped or partly pulled back; Material: Human hair; Recorded details: Mid-back-length wavy blonde hair",
+    "skin": "Material: Skin; Surface colour: Light; Texture: Smooth; Body markings: None; Body hair: Clean-shaven",
+    "genitalAnatomy": "Configuration: Vulval anatomy; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not specified; Puffiness: Not specified; Swelling: Not specified; Fluid viscosity: Not specified; Anatomical variation: None; Pubic hair / grooming: Trimmed; Material: Skin; Surface colour: Light",
+    "scent": "Natural body scent: Neutral; Scent strength: Faint; Perspiration tendency: Average; Usual skin temperature: Average; Other physical tendencies: None",
+    "height": "5 ft 3 in",
+    "weight": "135 lb",
+    "build": "Exceptionally curvy adult silhouette. Narrow frame, average arms, narrow waist, fuller rounded hips. waist 28.5 in; hips 40 in; chest 37.5 in.",
+    "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+  },
+  "measurementReference": {
+    "waist": 28.5,
+    "hips": 40,
+    "underChest": 32,
+    "shoulderWidth": 13.5,
+    "armLength": 21,
+    "inseam": 29,
+    "chest": 37.5
+  },
+  "measurementSources": {
+    "waist": "generated",
+    "hips": "generated",
+    "underChest": "generated",
+    "shoulderWidth": "generated",
+    "armLength": "generated",
+    "inseam": "generated",
+    "chest": "generated"
+  },
+  "portrait": {
+    "asset": "rebuild/hub/assets/character-art-review/tits-v1.png",
+    "status": "Prior owner-approved photographic portrait connected locally,unchanged",
+    "approved": true,
+    "connected": true,
+    "consumer": "rebuild/hub/tits.js definition.portrait + appearance-profiles-ui.js titsPortraitMarkup",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "8b4f5ec1719d098263757bb45e6bd8712f0d9a7d5df59bd381aa0892d07b83ac"
+  },
+  "notes": [
+    "Owner approved entire proposal and confirmed exact5ft3 and135lb. Fcup,US women6,light skin and all regional details now approved and applied.",
+    "All regional numerical outputs use the shared reference with no exact overrides.",
+    "Existing distinctive features,pink nail variations,external fragrances and speech/consent/retail/loan/routine rules remain.",
+    "Prior approved portrait connected locally without image generation or changes to its bytes."
+  ],
+  "previousBaseline": {
+    "age": 26,
+    "height": "Approximately5ft3",
+    "shoeSize": "6; system not established",
+    "build": "Exceptionally curvy adult silhouette",
+    "chest": "Full; cup not established",
+    "waist": "Narrow",
+    "buttocks": "Very ample",
+    "neck": "Slender",
+    "hair": "Mid-back-length wavy blonde; clipped/partly pulled back",
+    "eyes": "Heavy-lidded blue",
+    "face": "Full pouty lips,button nose,narrow gently pointed chin",
+    "grooming": "Smooth hairless; pink fingernails/toenails,sometimes glittered or with white accent"
+  },
+  "ownerApproval": "Approved. 5\"3\" proposed weight fine.",
+  "approvedBaseline": {
+    "age": 26,
+    "heightInches": 63,
+    "weightPounds": 135,
+    "cup": "F",
+    "shoeSize": 6,
+    "shoeSizingSystem": "US women’s"
+  },
+  "runtimeSource": "rebuild/hub/tits-appearance.js",
+  "releaseDisposition": {
+    "version": "1.0.137",
+    "scope": "Only implemented owner-approved portions and approved portrait consumers are included;any explicitly pending full-template additions remain proposals",
+    "publicationRecord": "docs/releases/v1.0.137-release-summary.json"
+  }
+}

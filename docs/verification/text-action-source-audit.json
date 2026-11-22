@@ -1011,6 +1011,10 @@
       "name": "intent"
     },
     {
+      "file": "rebuild/hub/appearance-catalog.js",
+      "name": "context"
+    },
+    {
       "file": "rebuild/hub/bimbo-virus-policy.js",
       "name": "context"
     },
@@ -1163,8 +1167,20 @@
       "name": "context"
     },
     {
+      "file": "rebuild/hub/npc-actions-ui.js",
+      "name": "npcMenuIntent"
+    },
+    {
+      "file": "rebuild/hub/npc-actions.js",
+      "name": "parsePlan"
+    },
+    {
       "file": "rebuild/hub/npc-actions.js",
       "name": "parse"
+    },
+    {
+      "file": "rebuild/hub/npc-actions.js",
+      "name": "parseResponse"
     },
     {
       "file": "rebuild/hub/office-floor.js",

@@ -43,3 +43,19 @@ Text examples (NPC Richard): “Do you have an extra task for me?”, “Yes”,
 Civilian encounter adapter uses EpiCombat and shares baseMoves with the existing Kibbles Play adapter. Normal main/minor/reaction budgets, archetype selection, costs, d20 checks, initiative, Confuse/Distract, recovery, resistance, fleeing, surrender and engine defeat thresholds apply. Richard favors analysis, mental resistance, Confuse/Mind Strike, recovery and low-Health retreat; he can Dodge or Counter Attack physical attacks. Player aggression changes Richard relationship by −20 and stress by +20. Encounter state and both depleted resource pools survive reload.
 
 Civilian surrender/defeat/retreat stop combat without form acquisition, transformation, item transfer or money rewards. Kibbles-specific treats, mastery/encasement outcomes and Dev help lane do not appear in Richard fights. A mastered canine can physically attack but cannot use human dialogue/tools; no unauthored Richard-transformation outcome is added. Existing Kibbles encounter regressions remain passing. Ordinary dialogue and work are blocked during combat.
+
+## Local appearance alignment — 2026-11-21
+
+Richard’s lean athletic build, dark brown hair and hazel eyes are retained in ordered fields. Owner approved age32,height6ft0in,weight175lb; applied locally. The full approved regional record is now applied. The owner-approved portrait is connected to Richard’s local panel. All24 fields/order, unknowns and image consumers are detailed in NPC-FORM-APPEARANCE-ALIGNMENT.md. Verified locally; unpublished. Full evidence:verification/npc-appearance-alignment/.
+
+## Historical baseline-only checkpoint — 2026-11-21
+
+Definition, overview, catalogue and topic-scoped NPC age/height/weight projection now use32years,6ft0in,175lb. Player data and NPC attributes/resources stay unchanged. Generated under-chest34.5in is supported; unapproved chest/waist/hips remain absent.49 focused checks and4 actual-browser/worker-projection checks pass without paid generation. RICHARD-APPEARANCE-PROPOSAL.md contains the complete remaining proposal; not implemented. Publication held. Evidence:verification/richard-baseline/.
+
+## Full approved appearance — current local checkpoint
+
+Complete24-field record and generated Build are implemented via richard-appearance.js/catalogue. Dimensions:waist30.5in,hips38.5in,under-chest34.5in,chest40in,shoulders17in,shoulder-to-wrist24in,inseam33.5in. Chest40in is an approved authored override; global calculation is unchanged. All selected public appearance facts reach the existing worker projection; concealed anatomy remains excluded. Runtime regression passes2,248 cases/160 suites;14 integration-browser checks and4 focused approved-Richard browser checks pass. The release/canon guard remains blocked until a new batch release is prepared, not silently bypassed for publication. No Cydonia calls or worker deployment. The portrait was subsequently approved and connected locally; current portrait evidence is verification/richard-portrait-approved/. Evidence:verification/richard-approved/.
+
+## Owner-approved portrait integration — current local checkpoint
+
+The displayed1024×1536 Richard portrait is approved and connected through definition.portrait/richardPortraitMarkup. Full-body contain sizing fits390px/1100px without horizontal overflow, survives redraw/save/reload once, and hides with Richard’s unavailable panel. Player data is unchanged.59 focused cases,4 portrait browser checks and14 NPC integration checks pass; all8 currently connected assets decode. No new image generation/Cydonia calls, worker changes or publication. Richard review is complete locally; Daniel’s full proposal is prepared next.

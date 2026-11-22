@@ -1,0 +1,16 @@
+PASS actual spoken date request carries Layla and Priya with no fallback script
+PASS direct response is displayed and saved as player conversation
+PASS ambient conversation receives its own history without date leakage
+PASS Nadia speaking as Priya is withheld and corrected
+PASS follow-up keeps previous personal reply and excludes ambient copy
+PASS repetition alone does not reject the model response or trigger a paid retry
+PASS reload preserves scoped personal continuity and possessions
+PASS real feed entry without footwear metadata is grounded before request
+PASS invented footwear objects are blocked on the real feed path
+PASS corrected grounded narration remains available
+PASS saved Bella identity and female profile reach actual private form packet
+PASS saved-name denial is withheld for correction
+PASS grounded canine reply leaves mastery and player identity unchanged
+PASS reload retains Bella identity and the corrected reply
+PASS actual personal request retains canonical services and unknown reviews through context bounds
+PASS browser reports no script errors

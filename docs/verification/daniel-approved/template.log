@@ -1,0 +1,25 @@
+PASS creation keeps exactly the existing24 appearance keys in their original order
+PASS required structure rejects untouched drafts rather than treating guidance as optional
+PASS human-only validation rejects tampered materials limbs counts claws ears and eyes
+PASS universal catalogue keeps nonhuman materials structures and absent anatomy without rewriting NPCs
+PASS heterochromia requires distinct left and right resolved colours
+PASS bald scalp makes only the remaining hair subparts inapplicable
+PASS markings require location and prominence and cannot combine None with a claimed marking
+PASS general skin colour inheritance preserves a deliberate regional colour choice
+PASS existing calculator example is produced from real template selections
+PASS review limit persists through JSON reload and repeated edits without ratcheting baseline
+PASS exact regional measurements retain entered units and are not review-adjustable
+PASS switching height and weight units repeatedly preserves canonical physical values
+PASS genital measurement cap is enforced in either unit without inferring it from weight
+PASS ordered scent description drives the existing sweat modifier without changing attributes
+14 appearance template cases passed
+PASS forged review baseline source and exact values cannot bypass the original adjustment bounds
+PASS confirmation rebuilds Build from final values rather than trusting editable draft text
+PASS universal records may explicitly keep unknown age and mass without human inference
+PASS draft restoration completes missing groups while preserving valid review bounds and rejecting tampered anatomy
+PASS custom descriptions cannot inject a second canonical sweat-rate line into the ordered field
+PASS the existing separate Tail field is absent for humans and available for current nonhuman anatomy
+PASS unrounded saved drafts migrate to the new half-inch baseline without losing a permitted adjustment
+PASS saved generated review values cannot bypass half-inch rounding
+PASS wings remain inside Back with human creation locked absent and older drafts retaining review values
+PASS universal wings retain ordered count structure span material and colour without generating flight mechanics

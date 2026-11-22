@@ -1,0 +1,20 @@
+{
+  "releaseVersion": "1.0.135",
+  "protocolVersion": "grounded-turn-v1",
+  "relationshipVersion": "directed-pair-v2",
+  "contextVersion": "scene-contract-v1",
+  "inspectionVersion": "provider-request-audit-v1",
+  "actionProtocol": "npc-actions-v1",
+  "model": "TheDrummer/Cydonia-24B-v4.3",
+  "budget": {
+    "month": "2026-11",
+    "spentUSD": 1.373099,
+    "reservedUSD": 0.052984,
+    "limitUSD": 50,
+    "remainingUSD": 48.573917,
+    "inputTokens": 2147488,
+    "outputTokens": 95070,
+    "requests": 886,
+    "blocked": false
+  }
+}

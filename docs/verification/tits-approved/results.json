@@ -1,0 +1,63 @@
+{
+  "status": "Tits full approved appearance implemented and verified; prior approved portrait connected locally; unpublished",
+  "at": "2026-11-21T22:07:37.702Z",
+  "ownerApproval": "Approved. 5\"3\" proposed weight fine.",
+  "approvedBaseline": {
+    "age": 26,
+    "heightInches": 63,
+    "weightPounds": 135,
+    "cup": "F",
+    "shoeSize": 6,
+    "shoeSizingSystem": "US women’s"
+  },
+  "measurements": {
+    "waist": 28.5,
+    "hips": 40,
+    "underChest": 32,
+    "shoulderWidth": 13.5,
+    "armLength": 21,
+    "inseam": 29,
+    "chest": 37.5
+  },
+  "measurementSources": {
+    "waist": "generated",
+    "hips": "generated",
+    "underChest": "generated",
+    "shoulderWidth": "generated",
+    "armLength": "generated",
+    "inseam": "generated",
+    "chest": "generated"
+  },
+  "runtime": {
+    "cases": 2256,
+    "suites": 160,
+    "passed": true,
+    "scope": "Runtime-only regression; final release/canon verification awaits combined release preparation"
+  },
+  "browserChecks": {
+    "npc": 24,
+    "currentBody": 9,
+    "portrait": 4
+  },
+  "portrait": {
+    "asset": "rebuild/hub/assets/character-art-review/tits-v1.png",
+    "status": "Prior owner-approved photographic portrait connected locally,unchanged",
+    "approved": true,
+    "connected": true,
+    "consumer": "rebuild/hub/tits.js definition.portrait + appearance-profiles-ui.js titsPortraitMarkup",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "8b4f5ec1719d098263757bb45e6bd8712f0d9a7d5df59bd381aa0892d07b83ac"
+  },
+  "connectedImagesDecoded": 11,
+  "profileStatesWithoutPortraitConsumer": 6,
+  "playerDataPreserved": true,
+  "existingRetailSpeechConsentAndLoanControllersPreserved": true,
+  "paidCydoniaCalls": 0,
+  "imageGenerations": 0,
+  "workerChanged": false,
+  "published": false,
+  "next": "Dart complete24-field canine proposal pending review; new values not applied"
+}

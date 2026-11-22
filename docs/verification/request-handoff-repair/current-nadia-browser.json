@@ -1,0 +1,91 @@
+{
+  "origin": "http://127.0.0.1:8776",
+  "checks": [
+    {
+      "name": "unvisited sixth-floor door does not reveal Nadia",
+      "passed": true
+    },
+    {
+      "name": "knock and actual walk to door grant entry without a curse",
+      "passed": true
+    },
+    {
+      "name": "actual entry shows the distinct Nadia hall and discovers its occupant",
+      "passed": true
+    },
+    {
+      "name": "drawer navigation reaches nested actual workspace storage",
+      "passed": true
+    },
+    {
+      "name": "Back returns to room without spending time",
+      "passed": true
+    },
+    {
+      "name": "private room permission retains Nadia ownership",
+      "passed": true
+    },
+    {
+      "name": "television starts a real ongoing activity",
+      "passed": true
+    },
+    {
+      "name": "partial viewing survives reload without a completed reward",
+      "passed": true
+    },
+    {
+      "name": "stop clears activity without invented completion",
+      "passed": true
+    },
+    {
+      "name": "actual cue changes independent Dart posture",
+      "passed": true
+    },
+    {
+      "name": "separately accepted ordinary collar and kennel preserve mastery",
+      "passed": true
+    },
+    {
+      "name": "mastered release immediately leaves ordinary gear without a new curse",
+      "passed": true
+    },
+    {
+      "name": "human protest resolves as an observable canine warning and ends approach",
+      "passed": true
+    },
+    {
+      "name": "unassigned Kibbles stays gender-neutral",
+      "passed": true
+    },
+    {
+      "name": "real post-sniff park flow exposes attention treat and home options",
+      "passed": true
+    },
+    {
+      "name": "actual park treat consumes one owned portion without remote-home requirement",
+      "passed": true
+    },
+    {
+      "name": "actual park invitation grants separate visit and starts return without teleport",
+      "passed": true
+    },
+    {
+      "name": "Dart relationship gains separately from Nadia and persists per player",
+      "passed": true
+    },
+    {
+      "name": "phone viewport has no horizontal overflow",
+      "passed": true
+    },
+    {
+      "name": "original resources and unrelated save remain intact",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

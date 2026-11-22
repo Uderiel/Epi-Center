@@ -174,3 +174,15 @@ Richard remains an ordinary civilian NPC, not a trained fighter, but has access 
 
 ## 2026-11-04 — Owner-approved location numbering correction
 Canonical district assignments: **#97 Applewood Apartments** (unchanged); **#98 Technology Center**, directly north of #26; **#99 Groceries Aplenty**, one tile east of #97; **#100 Prim and Proper Dry Cleaners**, one tile east of #99. The Technology Center's third-floor data and map reference use #98. #99/#100 are mapped exterior placeholders only; store services and Richard's errands are not yet implemented. Because #26 sits at the north edge of the 11x11 map, #98 is represented as an additional north-edge node rather than shifting legacy coordinates. Tests were updated but not executed in this session. No publication claim.
+
+## Complete appearance — owner approved and implemented locally
+
+Owner approved the entire consolidated Richard appearance, including age32,height6ft0in,weight175lb, all24 ordered fields, generated Build and the explicit40in chest. The canonical approved components are in rebuild/hub/richard-appearance.js and feed the shared catalogue, public panels and selected NPC appearance context. Existing NPC stats, resources, permissions, wardrobes and player data remain unchanged.
+
+Approved dimensions: waist30.5in,hips38.5in,under-chest34.5in,chest40in,shoulders17in,shoulder-to-wrist24in,inseam33.5in. Chest40in is an authored NPC exception; the global flat/pectoral reference remains34.5in for this baseline. No global formula, cup label or creation-review cap was changed.
+
+## Portrait — owner approved and connected locally
+
+Owner explicitly requires seeing the image before image approval. The generated full-body photographic preview is saved as rebuild/hub/assets/character-art-review/richard-v1.png and displayed in chat. The owner then explicitly approved the displayed image. It is now connected locally through definition.portrait/richardPortraitMarkup; it is not published. Review uses approved charcoal work suit/white dress shirt/black dress shoes/steel watch, a cuff-adjusting pose and a softly blurred existing Room G background. Existing Erin/Priya/Nadia portraits and Room G artwork were inspected to guide the prompt. Original generation is preserved.
+
+Grooming, clothing/watch/cologne choices continue to use actual routine/item state. Static appearance approval does not force new actions or grant rewards, contact or private-room access.

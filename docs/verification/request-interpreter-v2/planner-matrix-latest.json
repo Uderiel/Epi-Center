@@ -1,0 +1,442 @@
+[
+  {
+    "input": "Hey, how are you? I’m Layla.",
+    "phase": "none",
+    "expected": null,
+    "actual": null,
+    "passed": true,
+    "response": {
+      "text": "{\"action\":null}",
+      "actionProtocol": "npc-actions-v1",
+      "protocolVersion": "grounded-turn-v1",
+      "relationshipVersion": "directed-pair-v2",
+      "finishReason": "stop",
+      "truncated": false,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "usage": {
+        "inputTokens": 2947,
+        "outputTokens": 5,
+        "costUSD": 0.001802
+      },
+      "budget": {
+        "month": "2026-11",
+        "spentUSD": 1.26119,
+        "reservedUSD": 0.052984,
+        "limitUSD": 50,
+        "remainingUSD": 48.685826,
+        "inputTokens": 1965026,
+        "outputTokens": 89304,
+        "requests": 834,
+        "blocked": false
+      }
+    },
+    "controllerResult": {
+      "status": "dialogue-only",
+      "action": null,
+      "text": "Conversation only. No physical action was requested."
+    }
+  },
+  {
+    "input": "Thanks, you seem really kind.",
+    "phase": "none",
+    "expected": null,
+    "actual": null,
+    "passed": true,
+    "response": {
+      "text": "{\"action\":null}",
+      "actionProtocol": "npc-actions-v1",
+      "protocolVersion": "grounded-turn-v1",
+      "relationshipVersion": "directed-pair-v2",
+      "finishReason": "stop",
+      "truncated": false,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "usage": {
+        "inputTokens": 2941,
+        "outputTokens": 5,
+        "costUSD": 0.0017873
+      },
+      "budget": {
+        "month": "2026-11",
+        "spentUSD": 1.262978,
+        "reservedUSD": 0.052984,
+        "limitUSD": 50,
+        "remainingUSD": 48.684038,
+        "inputTokens": 1967967,
+        "outputTokens": 89309,
+        "requests": 835,
+        "blocked": false
+      }
+    },
+    "controllerResult": {
+      "status": "dialogue-only",
+      "action": null,
+      "text": "Conversation only. No physical action was requested."
+    }
+  },
+  {
+    "input": "I understand the risk, but can we just talk for another moment first?",
+    "phase": "offered",
+    "expected": null,
+    "actual": null,
+    "passed": true,
+    "response": {
+      "text": "{\"action\":null}",
+      "actionProtocol": "npc-actions-v1",
+      "protocolVersion": "grounded-turn-v1",
+      "relationshipVersion": "directed-pair-v2",
+      "finishReason": "stop",
+      "truncated": false,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "usage": {
+        "inputTokens": 3111,
+        "outputTokens": 5,
+        "costUSD": 0.0018888
+      },
+      "budget": {
+        "month": "2026-11",
+        "spentUSD": 1.264867,
+        "reservedUSD": 0.052984,
+        "limitUSD": 50,
+        "remainingUSD": 48.682149,
+        "inputTokens": 1971078,
+        "outputTokens": 89314,
+        "requests": 836,
+        "blocked": false
+      }
+    },
+    "controllerResult": {
+      "status": "dialogue-only",
+      "action": null,
+      "text": "Conversation only. No physical action was requested."
+    }
+  },
+  {
+    "input": "Not yet; tell me about yourself first.",
+    "phase": "offered",
+    "expected": null,
+    "actual": null,
+    "passed": true,
+    "response": {
+      "text": "{\n  \"action\": null\n}",
+      "actionProtocol": "npc-actions-v1",
+      "protocolVersion": "grounded-turn-v1",
+      "relationshipVersion": "directed-pair-v2",
+      "finishReason": "stop",
+      "truncated": false,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "usage": {
+        "inputTokens": 3096,
+        "outputTokens": 8,
+        "costUSD": 0.00188668
+      },
+      "budget": {
+        "month": "2026-11",
+        "spentUSD": 1.266754,
+        "reservedUSD": 0.052984,
+        "limitUSD": 50,
+        "remainingUSD": 48.680262,
+        "inputTokens": 1974174,
+        "outputTokens": 89322,
+        "requests": 837,
+        "blocked": false
+      }
+    },
+    "controllerResult": {
+      "status": "dialogue-only",
+      "action": null,
+      "text": "Conversation only. No physical action was requested."
+    }
+  },
+  {
+    "input": "Yes, I’d like that kiss now.",
+    "phase": "offered",
+    "expected": "kiss.accept",
+    "actual": "kiss.accept",
+    "passed": true,
+    "response": {
+      "text": "{\"action\":{\"id\":\"kiss.accept\",\"arguments\":{}},\"evidence\":\"Yes, I’d like that kiss now.\"}",
+      "actionProtocol": "npc-actions-v1",
+      "protocolVersion": "grounded-turn-v1",
+      "relationshipVersion": "directed-pair-v2",
+      "finishReason": "stop",
+      "truncated": false,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "usage": {
+        "inputTokens": 3080,
+        "outputTokens": 27,
+        "costUSD": 0.00190172
+      },
+      "budget": {
+        "month": "2026-11",
+        "spentUSD": 1.268656,
+        "reservedUSD": 0.052984,
+        "limitUSD": 50,
+        "remainingUSD": 48.67836,
+        "inputTokens": 1977254,
+        "outputTokens": 89349,
+        "requests": 838,
+        "blocked": false
+      }
+    },
+    "controllerResult": {
+      "status": "resolved",
+      "action": "kiss.accept",
+      "text": "Recorded accepted kiss with Tits. Contact is active until either participant stops.",
+      "tone": "explicit_adult",
+      "eventStatus": "resolved",
+      "kissing": {
+        "typeId": "unspecified",
+        "bodyType": "humanoid",
+        "actorParts": [
+          "lips"
+        ],
+        "targetPart": "lips",
+        "partnerId": "npc:tits",
+        "contactStatus": "active",
+        "salivaExchange": false
+      },
+      "events": []
+    }
+  },
+  {
+    "input": "Absolutely. I’m ready to continue with the kiss.",
+    "phase": "offered",
+    "expected": "kiss.accept",
+    "actual": "kiss.accept",
+    "passed": true,
+    "response": {
+      "text": "{\"action\":{\"id\":\"kiss.accept\",\"arguments\":{}},\"evidence\":\"Absolutely. I'm ready to continue with the kiss.\"}",
+      "actionProtocol": "npc-actions-v1",
+      "protocolVersion": "grounded-turn-v1",
+      "relationshipVersion": "directed-pair-v2",
+      "finishReason": "stop",
+      "truncated": false,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "usage": {
+        "inputTokens": 3102,
+        "outputTokens": 30,
+        "costUSD": 0.0019178
+      },
+      "budget": {
+        "month": "2026-11",
+        "spentUSD": 1.270574,
+        "reservedUSD": 0.052984,
+        "limitUSD": 50,
+        "remainingUSD": 48.676442,
+        "inputTokens": 1980356,
+        "outputTokens": 89379,
+        "requests": 839,
+        "blocked": false
+      }
+    },
+    "controllerResult": {
+      "status": "resolved",
+      "action": "kiss.accept",
+      "text": "Recorded accepted kiss with Tits. Contact is active until either participant stops.",
+      "tone": "explicit_adult",
+      "eventStatus": "resolved",
+      "kissing": {
+        "typeId": "unspecified",
+        "bodyType": "humanoid",
+        "actorParts": [
+          "lips"
+        ],
+        "targetPart": "lips",
+        "partnerId": "npc:tits",
+        "contactStatus": "active",
+        "salivaExchange": false
+      },
+      "events": []
+    }
+  },
+  {
+    "input": "No thanks, let’s skip kissing.",
+    "phase": "offered",
+    "expected": "kiss.decline",
+    "actual": "kiss.decline",
+    "passed": true,
+    "response": {
+      "text": "{\"action\":{\"id\":\"kiss.decline\",\"arguments\":{}},\"evidence\":\"skip kissing\"}",
+      "actionProtocol": "npc-actions-v1",
+      "protocolVersion": "grounded-turn-v1",
+      "relationshipVersion": "directed-pair-v2",
+      "finishReason": "stop",
+      "truncated": false,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "usage": {
+        "inputTokens": 3081,
+        "outputTokens": 21,
+        "costUSD": 0.00189266
+      },
+      "budget": {
+        "month": "2026-11",
+        "spentUSD": 1.272467,
+        "reservedUSD": 0.052984,
+        "limitUSD": 50,
+        "remainingUSD": 48.674549,
+        "inputTokens": 1983437,
+        "outputTokens": 89400,
+        "requests": 840,
+        "blocked": false
+      }
+    },
+    "controllerResult": {
+      "status": "resolved",
+      "action": "kiss.decline",
+      "text": "No active kiss remains.",
+      "tone": "explicit_adult",
+      "eventStatus": "resolved",
+      "events": []
+    }
+  },
+  {
+    "input": "Goodbye, I’m heading out.",
+    "phase": "offered",
+    "expected": "conversation.end",
+    "actual": "conversation.end",
+    "passed": true,
+    "response": {
+      "text": "{\"action\":{\"id\":\"conversation.end\",\"arguments\":{}},\"evidence\":\"Goodbye, I’m heading out.\"}",
+      "actionProtocol": "npc-actions-v1",
+      "protocolVersion": "grounded-turn-v1",
+      "relationshipVersion": "directed-pair-v2",
+      "finishReason": "stop",
+      "truncated": false,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "usage": {
+        "inputTokens": 3078,
+        "outputTokens": 27,
+        "costUSD": 0.00189892
+      },
+      "budget": {
+        "month": "2026-11",
+        "spentUSD": 1.274366,
+        "reservedUSD": 0.052984,
+        "limitUSD": 50,
+        "remainingUSD": 48.67265,
+        "inputTokens": 1986515,
+        "outputTokens": 89427,
+        "requests": 841,
+        "blocked": false
+      }
+    },
+    "controllerResult": {
+      "status": "resolved",
+      "action": "conversation.end",
+      "text": "The conversation ends. Normal routines may resume."
+    }
+  },
+  {
+    "input": "A coffee for here, right now, please.",
+    "phase": "none",
+    "expected": "shop.drink",
+    "actual": "shop.drink",
+    "passed": true,
+    "response": {
+      "text": "{\"action\":{\"id\":\"shop.drink\",\"arguments\":{\"product\":\"coffee\",\"cup\":\"cafe\",\"timing\":\"now\"}},\"evidence\":\"A coffee for here, right now, please\"}",
+      "actionProtocol": "npc-actions-v1",
+      "protocolVersion": "grounded-turn-v1",
+      "relationshipVersion": "directed-pair-v2",
+      "finishReason": "stop",
+      "truncated": false,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "usage": {
+        "inputTokens": 2947,
+        "outputTokens": 41,
+        "costUSD": 0.00183536
+      },
+      "budget": {
+        "month": "2026-11",
+        "spentUSD": 1.276202,
+        "reservedUSD": 0.052984,
+        "limitUSD": 50,
+        "remainingUSD": 48.670814,
+        "inputTokens": 1989462,
+        "outputTokens": 89468,
+        "requests": 842,
+        "blocked": false
+      }
+    },
+    "controllerResult": {
+      "status": "resolved",
+      "action": "shop.drink",
+      "minutes": 0,
+      "text": "Standard coffee added for payment; it has not been prepared or served."
+    }
+  },
+  {
+    "input": "If I wanted to kiss you, what would happen?",
+    "phase": "none",
+    "expected": null,
+    "actual": null,
+    "passed": true,
+    "response": {
+      "text": "{\n  \"action\": null,\n  \"evidence\": \"\"\n}",
+      "actionProtocol": "npc-actions-v1",
+      "protocolVersion": "grounded-turn-v1",
+      "relationshipVersion": "directed-pair-v2",
+      "finishReason": "stop",
+      "truncated": false,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "usage": {
+        "inputTokens": 2952,
+        "outputTokens": 14,
+        "costUSD": 0.00180754
+      },
+      "budget": {
+        "month": "2026-11",
+        "spentUSD": 1.27801,
+        "reservedUSD": 0.052984,
+        "limitUSD": 50,
+        "remainingUSD": 48.669006,
+        "inputTokens": 1992414,
+        "outputTokens": 89482,
+        "requests": 843,
+        "blocked": false
+      }
+    },
+    "controllerResult": {
+      "status": "dialogue-only",
+      "action": null,
+      "text": "Conversation only. No physical action was requested."
+    }
+  },
+  {
+    "input": "Here—the pink plush bunny is for you, as a gift.",
+    "phase": "none",
+    "expected": "gift.give",
+    "actual": "gift.give",
+    "passed": true,
+    "response": {
+      "text": "{\"action\":{\"id\":\"gift.give\",\"arguments\":{\"itemName\":\"pink plush bunny\"}}}",
+      "actionProtocol": "npc-actions-v1",
+      "protocolVersion": "grounded-turn-v1",
+      "relationshipVersion": "directed-pair-v2",
+      "finishReason": "stop",
+      "truncated": false,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "usage": {
+        "inputTokens": 2955,
+        "outputTokens": 22,
+        "costUSD": 0.00182382
+      },
+      "budget": {
+        "month": "2026-11",
+        "spentUSD": 1.279834,
+        "reservedUSD": 0.052984,
+        "limitUSD": 50,
+        "remainingUSD": 48.667182,
+        "inputTokens": 1995369,
+        "outputTokens": 89504,
+        "requests": 844,
+        "blocked": false
+      }
+    },
+    "controllerResult": {
+      "status": "resolved",
+      "action": "gift.give",
+      "text": "Tits accepts Pink plush bunny. “For me? Aww, I love it! Thank you!” Relationship +5.",
+      "delta": 5
+    }
+  }
+]

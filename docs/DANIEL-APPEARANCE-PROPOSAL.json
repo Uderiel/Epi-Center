@@ -1,0 +1,400 @@
+{
+  "status": "Complete appearance and actual portrait approved; implemented/connected locally; publication held",
+  "entity": "npc:daniel",
+  "established": {
+    "age": 38,
+    "heightInches": 71,
+    "gender": "Male",
+    "build": "Average with a softer middle",
+    "hair": "Brown, professional short style; no gray at temples",
+    "eyes": "Brown",
+    "facialHair": "Neatly trimmed close-cropped beard"
+  },
+  "proposedNewWeightPounds": 185,
+  "draft": {
+    "schema": 1,
+    "mode": "universal",
+    "answers": {
+      "age": {
+        "value": "38"
+      },
+      "gender": {
+        "value": "Male"
+      },
+      "footSize": {
+        "presence": "Present",
+        "count": "2",
+        "type": "Humanlike feet",
+        "sizeMode": "Shoe size",
+        "sizingSystem": "US men’s",
+        "length": {
+          "mode": "Not specified"
+        },
+        "width": "Medium",
+        "arch": "Medium",
+        "sole": "Humanlike sole",
+        "digits": "5",
+        "nails": "Human nails",
+        "covering": "Skin",
+        "material": "Skin",
+        "surfaceColour": "Light",
+        "texture": "Smooth",
+        "markings": "None",
+        "size": 10
+      },
+      "legs": {
+        "count": "2",
+        "type": "Human legs",
+        "length": "Average",
+        "build": "Average",
+        "covering": "Skin",
+        "grooming": "Moderately hairy",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "hips": {
+        "width": "Medium",
+        "shape": "Straight",
+        "proportions": "Custom",
+        "material": "Skin",
+        "surfaceColour": "Light",
+        "proportionsCustom": "Average hip proportions accompanying a softer middle"
+      },
+      "buttocks": {
+        "size": "Medium",
+        "shape": "Rounded",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "waist": {
+        "width": "Wide",
+        "abdomen": "Soft",
+        "muscle": "Smooth",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "back": {
+        "width": "Medium",
+        "shoulders": "Sloping",
+        "back": "Straight",
+        "material": "Skin",
+        "surfaceColour": "Light",
+        "posture": "Relaxed",
+        "wingsPresence": "Absent",
+        "wingsCount": "Not specified",
+        "wingsType": "Not specified",
+        "wingspan": {
+          "mode": "Not specified"
+        },
+        "wingsDetails": "Not specified",
+        "wingsMaterial": "Not specified",
+        "wingsColour": "Not specified"
+      },
+      "chest": {
+        "type": "Flat / pectoral",
+        "cup": "Not specified",
+        "size": "Medium",
+        "shape": "Flat",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "arms": {
+        "count": "2",
+        "type": "Human arms",
+        "length": "Average",
+        "muscle": "Slight",
+        "material": "Skin",
+        "surfaceColour": "Light",
+        "grooming": "Moderately hairy"
+      },
+      "hands": {
+        "count": "2",
+        "type": "Human hands",
+        "size": "Average",
+        "width": "Average",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "fingers": {
+        "count": "5",
+        "length": "Average",
+        "thickness": "Average",
+        "nails": "Human nails",
+        "nailLength": "Short",
+        "nailShape": "Rounded",
+        "nailColour": "Natural",
+        "nailMaterial": "Human nail keratin",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "voice": {
+        "neck": "Average",
+        "pitch": "Middle",
+        "quality": "Clear",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "face": {
+        "shape": "Oval",
+        "jaw": "Rounded",
+        "chin": "Rounded",
+        "cheeks": "Softly rounded",
+        "noseSize": "Average",
+        "noseShape": "Straight",
+        "lipFullness": "Medium",
+        "lipShape": "Straight upper outline",
+        "salivation": "Average",
+        "facialHair": "Short beard",
+        "complexion": [
+          {
+            "kind": "Fine lines/wrinkles",
+            "location": "Outer eye corners",
+            "prominence": "Faint"
+          }
+        ],
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "eyes": {
+        "count": "2",
+        "size": "Average",
+        "shape": "Round",
+        "iris": "Brown",
+        "leftIris": "Not specified",
+        "rightIris": "Not specified",
+        "sclera": "Normal",
+        "material": "Human eye tissue"
+      },
+      "ears": {
+        "count": "2",
+        "size": "Average",
+        "shape": "Rounded",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "hair": {
+        "length": "Short",
+        "colour": "Custom",
+        "texture": "Straight",
+        "density": "Average",
+        "style": "Custom",
+        "material": "Human hair",
+        "colourCustom": "Brown",
+        "styleCustom": "Professional short side part, no gray at the temples"
+      },
+      "skin": {
+        "material": "Skin",
+        "surfaceColour": "Light",
+        "texture": "Smooth",
+        "markings": [
+          {
+            "kind": "None"
+          }
+        ],
+        "bodyHair": "Moderately hairy"
+      },
+      "genitalAnatomy": {
+        "configuration": "Penis and testes",
+        "length": {
+          "mode": "Enter measurement",
+          "value": 5.5,
+          "unit": "in"
+        },
+        "testes": "Medium",
+        "tightness": "Not specified",
+        "puffiness": "Not specified",
+        "swelling": "Not specified",
+        "viscosity": "Not specified",
+        "variation": "None",
+        "grooming": "Trimmed",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "scent": {
+        "natural": "Neutral",
+        "strength": "Faint",
+        "perspiration": "Average",
+        "temperature": "Average",
+        "traits": [
+          "None"
+        ]
+      },
+      "height": {
+        "unit": "imperial",
+        "value": 71,
+        "raw": {
+          "feet": 5,
+          "inches": 11
+        }
+      },
+      "weight": {
+        "unit": "imperial",
+        "value": 185,
+        "raw": {
+          "lb": 185
+        }
+      },
+      "build": {
+        "value": "Average build with a softer middle"
+      },
+      "tail": {
+        "presence": "Absent",
+        "description": "Not specified",
+        "material": "Not specified",
+        "surfaceColour": "Not specified"
+      }
+    },
+    "inheritedColours": {
+      "footSize": false,
+      "legs": false,
+      "hips": false,
+      "buttocks": false,
+      "waist": false,
+      "back": false,
+      "chest": false,
+      "arms": false,
+      "hands": false,
+      "fingers": false,
+      "voice": false,
+      "face": false,
+      "ears": false,
+      "genitalAnatomy": false
+    },
+    "review": null,
+    "stage": "editor"
+  },
+  "appearance": {
+    "age": "38",
+    "gender": "Male",
+    "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Shoe size; Shoe size: 10; Shoe sizing system: US men’s; Foot length: Not applicable; Foot width: Medium; Arch height: Medium; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Smooth; Markings: None",
+    "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Average; Covering: Skin; Hair / grooming: Moderately hairy; Material: Skin; Surface colour: Light; inseam: 33 in",
+    "hips": "Width: Medium; Shape: Straight; Proportions relative to waist / torso: Average hip proportions accompanying a softer middle; Material: Skin; Surface colour: Light; hip circumference: 42 in",
+    "buttocks": "Size: Medium; Shape: Rounded; Material: Skin; Surface colour: Light",
+    "waist": "Waist width: Wide; Abdomen shape: Soft; Muscle definition: Smooth; Material: Skin; Surface colour: Light; waist circumference: 35 in; Recorded details: A softer middle",
+    "back": "Shoulder width: Medium; Shoulder shape: Sloping; Back shape: Straight; Material: Skin; Surface colour: Light; Usual posture: Relaxed; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 16 in",
+    "chest": "Type: Flat / pectoral; Cup size: Not applicable; Pectoral size: Medium; Shape: Flat; Material: Skin; Surface colour: Light; under-chest circumference: 35.5 in; chest circumference: 40 in",
+    "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Slight; Material: Skin; Surface colour: Light; Hair / grooming: Moderately hairy; shoulder-to-wrist length: 23.5 in",
+    "hands": "Number of hands: 2; Hand type: Human hands; Size: Average; Width: Average; Material: Skin; Surface colour: Light",
+    "fingers": "Digits per hand: 5; Length: Average; Thickness: Average; Nail type: Human nails; Nail length: Short; Nail shape: Rounded; Nail colour: Natural; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+    "voice": "Neck shape: Average; Voice pitch: Middle; Voice quality: Clear; Material: Skin; Surface colour: Light",
+    "face": "Overall shape: Oval; Jaw: Rounded; Chin: Rounded; Cheeks: Softly rounded; Nose size: Average; Nose shape: Straight; Lip fullness: Medium; Lip shape: Straight upper outline; Salivation rate: Average; Facial hair: Short beard; Complexion and markings: Fine lines/wrinkles (location: Outer eye corners; prominence: Faint); Material: Skin; Surface colour: Light; Recorded details: Neatly trimmed, close-cropped beard",
+    "eyes": "Number of eyes: 2; Size: Average; Shape: Round; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Normal; Material: Human eye tissue; Recorded details: Brown eyes",
+    "ears": "Number of ears: 2; Size: Average; Shape: Rounded; Material: Skin; Surface colour: Light",
+    "hair": "Length: Short; Colour: Brown; Texture: Straight; Density: Average; Style: Professional short side part, no gray at the temples; Material: Human hair; Recorded details: Brown hair in a professional short style,  no gray at the temples",
+    "skin": "Material: Skin; Surface colour: Light; Texture: Smooth; Body markings: None; Body hair: Moderately hairy",
+    "genitalAnatomy": "Configuration: Penis and testes; Length (maximum 10 inches): 5.5 in; Testes size: Medium; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: None; Pubic hair / grooming: Trimmed; Material: Skin; Surface colour: Light",
+    "scent": "Natural body scent: Neutral; Scent strength: Faint; Perspiration tendency: Average; Usual skin temperature: Average; Other physical tendencies: None",
+    "height": "5′11″",
+    "weight": "185 lb",
+    "build": "Average build with a softer middle. Medium frame, average arms, wide waist, medium hips. waist 35 in; hips 42 in; chest 40 in.",
+    "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+  },
+  "measurementReference": {
+    "waist": 35,
+    "hips": 42,
+    "underChest": 35.5,
+    "shoulderWidth": 16,
+    "armLength": 23.5,
+    "inseam": 33,
+    "chest": 40
+  },
+  "proposedMeasurements": {
+    "waist": 35,
+    "hips": 42,
+    "underChest": 35.5,
+    "shoulderWidth": 16,
+    "armLength": 23.5,
+    "inseam": 33,
+    "chest": 40
+  },
+  "measurementSources": {
+    "waist": "generated",
+    "hips": "generated",
+    "underChest": "generated",
+    "shoulderWidth": "generated",
+    "armLength": "generated",
+    "inseam": "generated",
+    "chest": "generated"
+  },
+  "portraitProposal": {
+    "status": "Actual image separately approved and connected locally",
+    "style": "Realistic photographic full-body portrait matching the established game references,1024×1536",
+    "outfit": "Proposed neat light-blue long-sleeved buttoned dress shirt, charcoal trousers and brown leather shoes; no new possessions or routine actions granted by art",
+    "pose": "Relaxed friendly smile with a closed plain work folder held low, distinct from Richard’s cuff adjustment",
+    "background": "Softly blurred existing Room H Sales cubicle1 area (top-left workstation), preserving established floor layout; no new room geometry, branded mug or readable work material"
+  },
+  "runtimePolicy": "Approved appearance and actual portrait implemented/connected locally. Shared calculator generates40in chest without a Daniel-only override. Publication held.",
+  "historicalProposal": {
+    "established": {
+      "age": 38,
+      "heightInches": 71,
+      "gender": "Male",
+      "build": "Average with a softer middle",
+      "hair": "Brown, professional short style; no gray at temples",
+      "eyes": "Brown",
+      "facialHair": "Neatly trimmed close-cropped beard"
+    },
+    "proposedNewWeightPounds": 185,
+    "explicitProposedException": {
+      "field": "chest",
+      "referenceInches": 35.5,
+      "proposedInches": 40,
+      "status": "Unapproved exact authored Daniel dimension; not a new global formula"
+    }
+  },
+  "ownerApproval": "Sure, approved. cant you simply modify the calculator to give better chest measurements?",
+  "runtimeSource": "rebuild/hub/daniel-appearance.js",
+  "implementedAppearance": {
+    "age": "38",
+    "gender": "Male",
+    "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Shoe size; Shoe size: 10; Shoe sizing system: US men’s; Foot length: Not applicable; Foot width: Medium; Arch height: Medium; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Smooth; Markings: None",
+    "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Average; Covering: Skin; Hair / grooming: Moderately hairy; Material: Skin; Surface colour: Light; inseam: 33 in",
+    "hips": "Width: Medium; Shape: Straight; Proportions relative to waist / torso: Average hip proportions accompanying a softer middle; Material: Skin; Surface colour: Light; hip circumference: 42 in",
+    "buttocks": "Size: Medium; Shape: Rounded; Material: Skin; Surface colour: Light",
+    "waist": "Waist width: Wide; Abdomen shape: Soft; Muscle definition: Smooth; Material: Skin; Surface colour: Light; waist circumference: 35 in; Recorded details: A softer middle",
+    "back": "Shoulder width: Medium; Shoulder shape: Sloping; Back shape: Straight; Material: Skin; Surface colour: Light; Usual posture: Relaxed; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 16 in",
+    "chest": "Type: Flat / pectoral; Cup size: Not applicable; Pectoral size: Medium; Shape: Flat; Material: Skin; Surface colour: Light; under-chest circumference: 35.5 in; chest circumference: 40 in",
+    "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Slight; Material: Skin; Surface colour: Light; Hair / grooming: Moderately hairy; shoulder-to-wrist length: 23.5 in",
+    "hands": "Number of hands: 2; Hand type: Human hands; Size: Average; Width: Average; Material: Skin; Surface colour: Light",
+    "fingers": "Digits per hand: 5; Length: Average; Thickness: Average; Nail type: Human nails; Nail length: Short; Nail shape: Rounded; Nail colour: Natural; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+    "voice": "Neck shape: Average; Voice pitch: Middle; Voice quality: Clear; Material: Skin; Surface colour: Light",
+    "face": "Overall shape: Oval; Jaw: Rounded; Chin: Rounded; Cheeks: Softly rounded; Nose size: Average; Nose shape: Straight; Lip fullness: Medium; Lip shape: Straight upper outline; Salivation rate: Average; Facial hair: Short beard; Complexion and markings: Fine lines/wrinkles (location: Outer eye corners; prominence: Faint); Material: Skin; Surface colour: Light; Recorded details: Neatly trimmed, close-cropped beard",
+    "eyes": "Number of eyes: 2; Size: Average; Shape: Round; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Normal; Material: Human eye tissue; Recorded details: Brown eyes",
+    "ears": "Number of ears: 2; Size: Average; Shape: Rounded; Material: Skin; Surface colour: Light",
+    "hair": "Length: Short; Colour: Brown; Texture: Straight; Density: Average; Style: Professional short side part, no gray at the temples; Material: Human hair; Recorded details: Brown hair in a professional short style,  no gray at the temples",
+    "skin": "Material: Skin; Surface colour: Light; Texture: Smooth; Body markings: None; Body hair: Moderately hairy",
+    "genitalAnatomy": "Configuration: Penis and testes; Length (maximum 10 inches): 5.5 in; Testes size: Medium; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: None; Pubic hair / grooming: Trimmed; Material: Skin; Surface colour: Light",
+    "scent": "Natural body scent: Neutral; Scent strength: Faint; Perspiration tendency: Average; Usual skin temperature: Average; Other physical tendencies: None",
+    "height": "5′11″",
+    "weight": "185 lb",
+    "build": "Average build with a softer middle. Medium frame, average arms, wide waist, medium hips. waist 35 in; hips 42 in; chest 40 in.",
+    "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+  },
+  "chestCalibration": {
+    "version": "pectoral-girth-v2",
+    "chest": 40,
+    "underChest": 35.5,
+    "source": "generated",
+    "exactOverride": false,
+    "description": "Shared small/medium/large pectoral allowances3/4/5in scaled by girth. Retains approved numerical output40in."
+  },
+  "portrait": {
+    "status": "Actual portrait viewed and owner-approved; connected locally; unpublished",
+    "source": "/workspace/generated_images/exec-3e23143c-6d79-4519-92dc-7a9015fa7d05.png",
+    "reviewAsset": "rebuild/hub/assets/character-art-review/daniel-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "deb41ab0561029e854a9235c34d31f26f3eba62d9bc22faa9a582e7a1894ea2f",
+    "approved": true,
+    "connected": true,
+    "ownerApproval": "Approved! 😀",
+    "consumer": "rebuild/hub/department.js definition.portrait + department-ui.js danielPortraitMarkup"
+  },
+  "releaseDisposition": {
+    "version": "1.0.137",
+    "scope": "Only implemented owner-approved portions and approved portrait consumers are included;any explicitly pending full-template additions remain proposals",
+    "publicationRecord": "docs/releases/v1.0.137-release-summary.json"
+  }
+}

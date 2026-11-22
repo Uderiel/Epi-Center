@@ -1,0 +1,338 @@
+{
+  "status": "Full24-field appearance owner-approved, implemented and verified locally; existing approved portrait retained; publication held",
+  "entity": "npc:nadia",
+  "established": {
+    "age": 29,
+    "gender": "Female",
+    "height": "5 ft 6 in",
+    "skin": "Pale",
+    "hair": "Black",
+    "eyes": "Blue",
+    "face": "Refined Slavic facial features and strong bone structure",
+    "build": "Slender and shapely"
+  },
+  "draft": {
+    "schema": 1,
+    "mode": "universal",
+    "answers": {
+      "age": {
+        "value": "29"
+      },
+      "gender": {
+        "value": "Female"
+      },
+      "footSize": {
+        "presence": "Present",
+        "count": "2",
+        "type": "Humanlike feet",
+        "sizeMode": "Shoe size",
+        "sizingSystem": "US women’s",
+        "length": {
+          "mode": "Not specified"
+        },
+        "width": "Medium",
+        "arch": "Medium",
+        "sole": "Humanlike sole",
+        "digits": "5",
+        "nails": "Human nails",
+        "covering": "Skin",
+        "material": "Skin",
+        "surfaceColour": "Pale",
+        "texture": "Smooth",
+        "markings": "None",
+        "size": 7.5
+      },
+      "legs": {
+        "count": "2",
+        "type": "Human legs",
+        "length": "Average",
+        "build": "Slender",
+        "covering": "Skin",
+        "grooming": "Clean-shaven",
+        "material": "Skin",
+        "surfaceColour": "Pale"
+      },
+      "hips": {
+        "width": "Wide",
+        "shape": "Rounded",
+        "proportions": "Custom",
+        "material": "Skin",
+        "surfaceColour": "Pale",
+        "proportionsCustom": "Shapely hips with a defined waist contrast"
+      },
+      "buttocks": {
+        "size": "Medium",
+        "shape": "Rounded",
+        "material": "Skin",
+        "surfaceColour": "Pale"
+      },
+      "waist": {
+        "width": "Narrow",
+        "abdomen": "Flat",
+        "muscle": "Slight",
+        "material": "Skin",
+        "surfaceColour": "Pale"
+      },
+      "back": {
+        "width": "Narrow",
+        "shoulders": "Sloping",
+        "back": "Tapered",
+        "material": "Skin",
+        "surfaceColour": "Pale",
+        "posture": "Upright",
+        "wingsPresence": "Absent",
+        "wingsCount": "Not specified",
+        "wingsType": "Not specified",
+        "wingspan": {
+          "mode": "Not specified"
+        },
+        "wingsDetails": "Not specified",
+        "wingsMaterial": "Not specified",
+        "wingsColour": "Not specified"
+      },
+      "chest": {
+        "type": "Breasts",
+        "cup": "C",
+        "size": "Not specified",
+        "shape": "Rounded",
+        "material": "Skin",
+        "surfaceColour": "Pale"
+      },
+      "arms": {
+        "count": "2",
+        "type": "Human arms",
+        "length": "Average",
+        "muscle": "Slight",
+        "material": "Skin",
+        "surfaceColour": "Pale",
+        "grooming": "Clean-shaven"
+      },
+      "hands": {
+        "count": "2",
+        "type": "Human hands",
+        "size": "Small",
+        "width": "Narrow",
+        "material": "Skin",
+        "surfaceColour": "Pale"
+      },
+      "fingers": {
+        "count": "5",
+        "length": "Long",
+        "thickness": "Slender",
+        "nails": "Human nails",
+        "nailLength": "Average",
+        "nailShape": "Rounded",
+        "nailColour": "Natural",
+        "nailMaterial": "Human nail keratin",
+        "material": "Skin",
+        "surfaceColour": "Pale"
+      },
+      "voice": {
+        "neck": "Slender",
+        "pitch": "Middle",
+        "quality": "Clear",
+        "material": "Skin",
+        "surfaceColour": "Pale"
+      },
+      "face": {
+        "shape": "Oval",
+        "jaw": "Angular",
+        "chin": "Rounded",
+        "cheeks": "Prominent cheekbones",
+        "noseSize": "Average",
+        "noseShape": "Straight",
+        "lipFullness": "Medium",
+        "lipShape": "Defined Cupid’s bow",
+        "salivation": "Average",
+        "facialHair": "Clean-shaven",
+        "complexion": [
+          {
+            "kind": "Clear/even complexion"
+          }
+        ],
+        "material": "Skin",
+        "surfaceColour": "Pale"
+      },
+      "eyes": {
+        "count": "2",
+        "size": "Average",
+        "shape": "Almond",
+        "iris": "Blue",
+        "leftIris": "Not specified",
+        "rightIris": "Not specified",
+        "sclera": "Normal",
+        "material": "Human eye tissue"
+      },
+      "ears": {
+        "count": "2",
+        "size": "Small",
+        "shape": "Rounded",
+        "material": "Skin",
+        "surfaceColour": "Pale"
+      },
+      "hair": {
+        "length": "Custom",
+        "colour": "Black",
+        "texture": "Wavy",
+        "density": "Dense",
+        "style": "Bun",
+        "material": "Human hair",
+        "lengthCustom": "Shoulder-length when loose"
+      },
+      "skin": {
+        "material": "Skin",
+        "surfaceColour": "Pale",
+        "texture": "Smooth",
+        "markings": [
+          {
+            "kind": "None"
+          }
+        ],
+        "bodyHair": "Clean-shaven"
+      },
+      "genitalAnatomy": {
+        "configuration": "Vulval anatomy",
+        "length": {
+          "mode": "Not specified"
+        },
+        "testes": "Not specified",
+        "tightness": "Not specified",
+        "puffiness": "Not specified",
+        "swelling": "Not specified",
+        "viscosity": "Not specified",
+        "variation": "None",
+        "grooming": "Trimmed",
+        "material": "Skin",
+        "surfaceColour": "Pale"
+      },
+      "scent": {
+        "natural": "Neutral",
+        "strength": "Faint",
+        "perspiration": "Average",
+        "temperature": "Average",
+        "traits": [
+          "None"
+        ]
+      },
+      "height": {
+        "unit": "imperial",
+        "value": 66,
+        "raw": {
+          "feet": 5,
+          "inches": 6
+        }
+      },
+      "weight": {
+        "unit": "imperial",
+        "value": 130,
+        "raw": {
+          "lb": 130
+        }
+      },
+      "build": {
+        "value": "Slender and shapely. Narrow frame, light muscle definition, average arms, narrow waist, fuller rounded hips. waist 27.5 in; hips 38.5 in; chest 34 in."
+      },
+      "tail": {
+        "presence": "Absent",
+        "description": "Not specified",
+        "material": "Not specified",
+        "surfaceColour": "Not specified"
+      }
+    },
+    "inheritedColours": {
+      "footSize": false,
+      "legs": false,
+      "hips": false,
+      "buttocks": false,
+      "waist": false,
+      "back": false,
+      "chest": false,
+      "arms": false,
+      "hands": false,
+      "fingers": false,
+      "voice": false,
+      "face": false,
+      "ears": false,
+      "genitalAnatomy": false
+    },
+    "review": null,
+    "stage": "editor"
+  },
+  "appearance": {
+    "age": "29",
+    "gender": "Female",
+    "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Shoe size; Shoe size: 7.5; Shoe sizing system: US women’s; Foot length: Not applicable; Foot width: Medium; Arch height: Medium; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Pale; Surface texture: Smooth; Markings: None",
+    "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Slender; Covering: Skin; Hair / grooming: Clean-shaven; Material: Skin; Surface colour: Pale; inseam: 30.5 in",
+    "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Shapely hips with a defined waist contrast; Material: Skin; Surface colour: Pale; hip circumference: 38.5 in",
+    "buttocks": "Size: Medium; Shape: Rounded; Material: Skin; Surface colour: Pale",
+    "waist": "Waist width: Narrow; Abdomen shape: Flat; Muscle definition: Slight; Material: Skin; Surface colour: Pale; waist circumference: 27.5 in",
+    "back": "Shoulder width: Narrow; Shoulder shape: Sloping; Back shape: Tapered; Material: Skin; Surface colour: Pale; Usual posture: Upright; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 14.5 in",
+    "chest": "Type: Breasts; Cup size: C; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Pale; under-chest circumference: 31 in; chest circumference: 34 in",
+    "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Slight; Material: Skin; Surface colour: Pale; Hair / grooming: Clean-shaven; shoulder-to-wrist length: 22 in",
+    "hands": "Number of hands: 2; Hand type: Human hands; Size: Small; Width: Narrow; Material: Skin; Surface colour: Pale",
+    "fingers": "Digits per hand: 5; Length: Long; Thickness: Slender; Nail type: Human nails; Nail length: Average; Nail shape: Rounded; Nail colour: Natural; Nail material: Human nail keratin; Material: Skin; Surface colour: Pale",
+    "voice": "Neck shape: Slender; Voice pitch: Middle; Voice quality: Clear; Material: Skin; Surface colour: Pale",
+    "face": "Overall shape: Oval; Jaw: Angular; Chin: Rounded; Cheeks: Prominent cheekbones; Nose size: Average; Nose shape: Straight; Lip fullness: Medium; Lip shape: Defined Cupid’s bow; Salivation rate: Average; Facial hair: Clean-shaven; Complexion and markings: Clear/even complexion; Material: Skin; Surface colour: Pale; Recorded details: Refined Slavic facial features and strong bone structure",
+    "eyes": "Number of eyes: 2; Size: Average; Shape: Almond; Iris colour: Blue; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Normal; Material: Human eye tissue; Recorded details: Blue eyes",
+    "ears": "Number of ears: 2; Size: Small; Shape: Rounded; Material: Skin; Surface colour: Pale",
+    "hair": "Length: Shoulder-length when loose; Colour: Black; Texture: Wavy; Density: Dense; Style: Bun; Material: Human hair; Recorded details: Black hair",
+    "skin": "Material: Skin; Surface colour: Pale; Texture: Smooth; Body markings: None; Body hair: Clean-shaven; Recorded details: Pale skin",
+    "genitalAnatomy": "Configuration: Vulval anatomy; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not specified; Puffiness: Not specified; Swelling: Not specified; Fluid viscosity: Not specified; Anatomical variation: None; Pubic hair / grooming: Trimmed; Material: Skin; Surface colour: Pale",
+    "scent": "Natural body scent: Neutral; Scent strength: Faint; Perspiration tendency: Average; Usual skin temperature: Average; Other physical tendencies: None",
+    "height": "5′6″",
+    "weight": "130 lb",
+    "build": "Slender and shapely. Narrow frame, light muscle definition, average arms, narrow waist, fuller rounded hips. waist 27.5 in; hips 38.5 in; chest 34 in.",
+    "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+  },
+  "measurementReference": {
+    "waist": 27.5,
+    "hips": 38.5,
+    "underChest": 31,
+    "shoulderWidth": 14.5,
+    "armLength": 22,
+    "inseam": 30.5,
+    "chest": 34
+  },
+  "measurementSources": {
+    "waist": "generated",
+    "hips": "generated",
+    "underChest": "generated",
+    "shoulderWidth": "generated",
+    "armLength": "generated",
+    "inseam": "generated",
+    "chest": "generated"
+  },
+  "portrait": {
+    "status": "Existing owner-approved Nadia/Dart portrait stays connected; no replacement requested",
+    "asset": "rebuild/hub/assets/nadia-voss-dart.jpg"
+  },
+  "notes": [
+    "Full proposal, including130lb/Ccup, owner-approved and applied locally.",
+    "All numeric outputs use the shared human-reference calculator; no exact override.",
+    "Established pale skin/blue eyes/black hair/refined strong-boned appearance preserved.",
+    "Existing approved Nadia/Dart portrait retained; no image generation or replacement.",
+    "Dart’s body and behavior remain unchanged."
+  ],
+  "ownerApproval": "Approved.",
+  "runtimeSource": "rebuild/hub/nadia-appearance.js",
+  "approvedBaseline": {
+    "age": 29,
+    "heightInches": 66,
+    "weightPounds": 130,
+    "cup": "C"
+  },
+  "implementedMeasurements": {
+    "waist": 27.5,
+    "hips": 38.5,
+    "underChest": 31,
+    "shoulderWidth": 14.5,
+    "armLength": 22,
+    "inseam": 30.5,
+    "chest": 34
+  },
+  "releaseDisposition": {
+    "version": "1.0.137",
+    "scope": "Only implemented owner-approved portions and approved portrait consumers are included;any explicitly pending full-template additions remain proposals",
+    "publicationRecord": "docs/releases/v1.0.137-release-summary.json"
+  }
+}

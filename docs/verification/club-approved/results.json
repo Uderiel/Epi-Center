@@ -1,0 +1,43 @@
+{
+  "status": "Full club appearance owner-approved,implemented and verified locally;actual v1 image awaits separate review",
+  "at": "2026-11-22T07:22:57.060Z",
+  "approval": {
+    "quote": "Approved. Outfit: latex sleeveless mini dress, low cut, tall strappy stiletto heels.",
+    "date": "2026-11-22",
+    "scope": "Complete club appearance proposal;actual image still requires separate approval"
+  },
+  "fullAppearanceApproved": true,
+  "fullAppearanceImplemented": true,
+  "portrait": {
+    "source": "/workspace/generated_images/exec-792ecfc7-3ad4-4d32-96aa-47ccbf50e546.png",
+    "reviewAsset": "rebuild/hub/assets/character-art-review/club-v1.png",
+    "status": "Actual1024×1536 v1 generated/displayed for separate owner review;unapproved,unconnected,unpublished",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "3c443f674bb06ff55cb4446d5a6d61bbbab07244941e76045314923579ede452",
+    "approved": false,
+    "connected": false,
+    "direction": "Realistic clearly adult full-body club variant,waist-length blonde waves,blue eyes,deep suntan,pink nails,soft full contours;black latex low-cut sleeveless mini dress and tall black strappy stilettos. Photo is a visual reference,not exact measurement or an equipment/background grant."
+  },
+  "focused": {
+    "passed": true,
+    "cases": 60,
+    "suites": 5
+  },
+  "browser": {
+    "passed": true,
+    "checks": 4,
+    "realProvider": false,
+    "bodyPacketCharacters": 6496
+  },
+  "imageGenerations": 1,
+  "imageGenerationPrice": "not reported by tool",
+  "cydoniaCalls": 0,
+  "workerChanges": false,
+  "published": false,
+  "missingConnectedImages": 1,
+  "testFixtureCorrections": "Focused checks now accept existing ordered unknown-field wrappers for unreached source text,and use the real bodyInspection actor metadata when asserting AI projection;no gameplay workaround.",
+  "latePhysicalMutationCheck": "Direct later height,weight,waist,foot-size and tail changes override original profile targets and survive reload;later cursed cosmetics remain current."
+}

@@ -1,0 +1,23 @@
+{
+  "status": "Revised24-field draft validates; actual portrait displayed awaiting approval; no runtime changes",
+  "at": "2026-11-22T04:50:28.433Z",
+  "fields": 24,
+  "validationErrors": [],
+  "portrait": {
+    "status": "Generated/displayed for separate actual-image approval; not connected or published",
+    "source": "/workspace/generated_images/exec-0a48c3dd-fd48-43e1-af7d-108d9acab66a.png",
+    "reviewAsset": "rebuild/hub/assets/character-art-review/eve-blue-pixie-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "b34d369afb02ea93381b8d550b6286f7f940ba894cc3ad6d46a2da9f699e961b",
+    "approved": false,
+    "connected": false
+  },
+  "runtimeUnchanged": true,
+  "workerChanged": false,
+  "paidCydoniaCalls": 0,
+  "imageGenerations": 1,
+  "published": false
+}

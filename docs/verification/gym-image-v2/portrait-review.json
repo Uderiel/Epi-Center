@@ -1,0 +1,16 @@
+{
+  "status": "Actual revised image generated and displayed;awaiting owner review;not approved or connected",
+  "source": "/workspace/generated_images/exec-37faeb40-cbfb-4e1a-bb20-04d0d2c5eb6d.png",
+  "reviewAsset": "rebuild/hub/assets/character-art-review/gym-bunny-v2.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "1a6b0076fc4bb01f0b294ac007862d22fa4541463f17ea0b7c4f833f63a8a0f7",
+  "approved": false,
+  "connected": false,
+  "direction": "Revised realistic adult full-body gym-bunny photo: vivid pink fitted workout shorts with clear white edging/piping;exercise bralette/crop top,pink running shoes,white ankle socks. Softer feminine face and silhouette,less overt shoulder/arm/abdominal/thigh musculature,subtle fitness definition beneath a soft outer layer. Keep blonde shoulder-length hair,blue eyes,light tan,pink polish and workout perspiration. Image reference only;no change to authored body measurements,fitness,attributes,game clothing or room canon.",
+  "revisionRequested": "Workout shorts pink with white edging, less emphasis on overt musculature, less manly, more appealing, try again.",
+  "supersedes": "rebuild/hub/assets/character-art-review/gym-bunny-v1.png",
+  "previousImageRetained": true
+}

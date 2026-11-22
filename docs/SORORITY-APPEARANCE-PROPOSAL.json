@@ -1,0 +1,406 @@
+{
+  "status": "Actual v1 portrait owner-approved and connected locally;requested body amendments implemented;remaining full-template additions remain in review",
+  "entity": "variant:mental",
+  "fullAppearanceApproved": false,
+  "imageApproved": true,
+  "existingSource": {
+    "footSize": "US women's size 5.5",
+    "legs": "Shapely thighs proportionate to 36-inch hips; slender, softly shaped calves",
+    "hips": "36-inch hips",
+    "buttocks": "Full, soft, lightly toned heart-shaped butt",
+    "waist": "24-inch slender, soft waist",
+    "back": "Narrow, softly rounded shoulders; smooth back with little visible definition",
+    "chest": "36E breasts",
+    "arms": "Slender, softly contoured arms",
+    "hands": "Delicate hands",
+    "fingers": "Tapered fingers with medium oval nails",
+    "voice": "Upbeat, polished, slightly nasal",
+    "face": "Soft oval face, full lips",
+    "ears": "Ordinary human ears",
+    "hair": "Mid-back, softly wavy blonde hair",
+    "eyes": "Blue eyes, appraising gaze",
+    "height": "5 ft 5 in",
+    "weight": "135 lb",
+    "build": "Softly contoured build with a slender waist and shapely thighs",
+    "skin": "Cosmetic tan",
+    "genitalAnatomy": "Adult human vulva comprising labia majora, labia minora, clitoral glans and hood, and separate urethral and vaginal openings. Shaped patch of pubic hair; cosmetic tan with softer surrounding contours.",
+    "age": "Adult; exact age not authored"
+  },
+  "exact": {
+    "waist": 24,
+    "hips": 36,
+    "underChest": 36
+  },
+  "answers": {
+    "age": {
+      "value": "Not specified"
+    },
+    "gender": {
+      "value": "Not specified"
+    },
+    "footSize": {
+      "presence": "Present",
+      "count": "2",
+      "type": "Humanlike feet",
+      "sizeMode": "Shoe size",
+      "sizingSystem": "US women’s",
+      "length": {
+        "mode": "Not specified"
+      },
+      "width": "Medium",
+      "arch": "High",
+      "sole": "Humanlike sole",
+      "digits": "5",
+      "nails": "Custom",
+      "covering": "Skin",
+      "material": "Skin",
+      "surfaceColour": "Custom",
+      "texture": "Smooth",
+      "markings": "None",
+      "size": 5.5,
+      "surfaceColourCustom": "Cosmetic tan",
+      "nailsCustom": "Human toenails with pink polish"
+    },
+    "legs": {
+      "count": "2",
+      "type": "Human legs",
+      "length": "Average",
+      "build": "Slender",
+      "covering": "Skin",
+      "grooming": "Clean-shaven",
+      "material": "Skin",
+      "surfaceColour": "Custom",
+      "surfaceColourCustom": "Cosmetic tan"
+    },
+    "hips": {
+      "width": "Medium",
+      "shape": "Rounded",
+      "proportions": "Custom",
+      "material": "Skin",
+      "surfaceColour": "Custom",
+      "proportionsCustom": "Authored36-inch hips relative to24-inch waist;retain exact source proportions",
+      "surfaceColourCustom": "Cosmetic tan",
+      "circumference": {
+        "value": 36,
+        "unit": "in"
+      }
+    },
+    "buttocks": {
+      "size": "Large",
+      "shape": "Heart-shaped",
+      "material": "Skin",
+      "surfaceColour": "Custom",
+      "surfaceColourCustom": "Cosmetic tan"
+    },
+    "waist": {
+      "width": "Narrow",
+      "abdomen": "Soft",
+      "muscle": "Smooth",
+      "material": "Skin",
+      "surfaceColour": "Custom",
+      "surfaceColourCustom": "Cosmetic tan",
+      "circumference": {
+        "value": 24,
+        "unit": "in"
+      }
+    },
+    "back": {
+      "width": "Narrow",
+      "shoulders": "Rounded",
+      "back": "Straight",
+      "material": "Skin",
+      "surfaceColour": "Custom",
+      "posture": "Relaxed",
+      "wingsPresence": "Absent",
+      "wingsCount": "Not specified",
+      "wingsType": "Not specified",
+      "wingspan": {
+        "mode": "Not specified"
+      },
+      "wingsDetails": "Not specified",
+      "wingsMaterial": "Not specified",
+      "wingsColour": "Not specified",
+      "surfaceColourCustom": "Cosmetic tan"
+    },
+    "chest": {
+      "type": "Breasts",
+      "cup": "E",
+      "size": "Not specified",
+      "shape": "Rounded",
+      "material": "Skin",
+      "surfaceColour": "Custom",
+      "surfaceColourCustom": "Cosmetic tan",
+      "underChest": {
+        "value": 36,
+        "unit": "in"
+      }
+    },
+    "arms": {
+      "count": "2",
+      "type": "Human arms",
+      "length": "Average",
+      "muscle": "Smooth",
+      "material": "Skin",
+      "surfaceColour": "Custom",
+      "grooming": "Clean-shaven",
+      "surfaceColourCustom": "Cosmetic tan"
+    },
+    "hands": {
+      "count": "2",
+      "type": "Human hands",
+      "size": "Small",
+      "width": "Average",
+      "material": "Skin",
+      "surfaceColour": "Custom",
+      "surfaceColourCustom": "Cosmetic tan"
+    },
+    "fingers": {
+      "count": "5",
+      "length": "Average",
+      "thickness": "Slender",
+      "nails": "Human nails",
+      "nailLength": "Average",
+      "nailShape": "Custom",
+      "nailColour": "Custom",
+      "nailMaterial": "Human nail keratin",
+      "material": "Skin",
+      "surfaceColour": "Custom",
+      "surfaceColourCustom": "Cosmetic tan",
+      "nailShapeCustom": "Oval",
+      "nailColourCustom": "Pink polish"
+    },
+    "voice": {
+      "neck": "Slender",
+      "pitch": "High",
+      "quality": "Custom",
+      "material": "Skin",
+      "surfaceColour": "Custom",
+      "surfaceColourCustom": "Cosmetic tan",
+      "qualityCustom": "Upbeat,polished,slightly nasal"
+    },
+    "face": {
+      "shape": "Oval",
+      "jaw": "Tapered",
+      "chin": "Rounded",
+      "cheeks": "Softly rounded",
+      "noseSize": "Average",
+      "noseShape": "Straight",
+      "lipFullness": "Full",
+      "lipShape": "Defined Cupid’s bow",
+      "salivation": "Average",
+      "facialHair": "Clean-shaven",
+      "complexion": [
+        {
+          "kind": "Clear/even complexion"
+        }
+      ],
+      "material": "Skin",
+      "surfaceColour": "Custom",
+      "surfaceColourCustom": "Cosmetic tan"
+    },
+    "eyes": {
+      "count": "2",
+      "size": "Average",
+      "shape": "Almond",
+      "iris": "Blue",
+      "leftIris": "Not specified",
+      "rightIris": "Not specified",
+      "sclera": "Normal",
+      "material": "Human eye tissue"
+    },
+    "ears": {
+      "count": "2",
+      "size": "Average",
+      "shape": "Rounded",
+      "material": "Skin",
+      "surfaceColour": "Custom",
+      "surfaceColourCustom": "Cosmetic tan"
+    },
+    "hair": {
+      "length": "Custom",
+      "colour": "Custom",
+      "texture": "Wavy",
+      "density": "Dense",
+      "style": "Loose",
+      "material": "Human hair",
+      "lengthCustom": "Mid-back",
+      "colourCustom": "Blonde"
+    },
+    "skin": {
+      "material": "Skin",
+      "surfaceColour": "Custom",
+      "texture": "Smooth",
+      "markings": [
+        {
+          "kind": "None"
+        }
+      ],
+      "bodyHair": "Clean-shaven",
+      "surfaceColourCustom": "Cosmetic tan"
+    },
+    "genitalAnatomy": {
+      "configuration": "Vulval anatomy",
+      "length": {
+        "mode": "Not specified"
+      },
+      "testes": "Not specified",
+      "tightness": "Not specified",
+      "puffiness": "Not specified",
+      "swelling": "Not specified",
+      "viscosity": "Not specified",
+      "variation": "None",
+      "grooming": "Custom",
+      "material": "Skin",
+      "surfaceColour": "Custom",
+      "surfaceColourCustom": "Cosmetic tan",
+      "groomingCustom": "Shaped patch of pubic hair"
+    },
+    "scent": {
+      "natural": "Neutral",
+      "strength": "Faint",
+      "perspiration": "High",
+      "temperature": "Average",
+      "traits": [
+        "Custom"
+      ],
+      "traitsCustom": "Pink saliva/drool while an active carrier; active drooling requires a recorded event"
+    },
+    "height": {
+      "unit": "imperial",
+      "value": 65,
+      "raw": {
+        "feet": 5,
+        "inches": 5
+      }
+    },
+    "weight": {
+      "unit": "imperial",
+      "value": 135,
+      "raw": {
+        "lb": 135
+      }
+    },
+    "build": {
+      "value": "Softly contoured build with a slender waist and shapely thighs"
+    },
+    "tail": {
+      "presence": "Absent",
+      "description": "Not specified",
+      "material": "Not specified",
+      "surfaceColour": "Not specified"
+    }
+  },
+  "appearance": {
+    "age": "Adult; exact age not authored",
+    "gender": "Not specified",
+    "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Shoe size; Shoe size: 5.5; Shoe sizing system: US women’s; Foot length: Not applicable; Foot width: Medium; Arch height: High; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human toenails with pink polish; Covering: Skin; Material: Skin; Surface colour: Cosmetic tan; Surface texture: Smooth; Markings: None; Recorded details: US women's size 5.5",
+    "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Slender; Covering: Skin; Hair / grooming: Clean-shaven; Material: Skin; Surface colour: Cosmetic tan; inseam: 30 in; Recorded details: Shapely thighs proportionate to 36-inch hips,  slender, softly shaped calves",
+    "hips": "Width: Medium; Shape: Rounded; Proportions relative to waist / torso: Authored36-inch hips relative to24-inch waist, retain exact source proportions; Material: Skin; Surface colour: Cosmetic tan; hip circumference: 36 in; Recorded details: 36-inch hips",
+    "buttocks": "Size: Large; Shape: Heart-shaped; Material: Skin; Surface colour: Cosmetic tan; Recorded details: Full, soft, lightly toned heart-shaped butt",
+    "waist": "Waist width: Narrow; Abdomen shape: Soft; Muscle definition: Smooth; Material: Skin; Surface colour: Cosmetic tan; waist circumference: 24 in; Recorded details: 24-inch slender, soft waist",
+    "back": "Shoulder width: Narrow; Shoulder shape: Rounded; Back shape: Straight; Material: Skin; Surface colour: Cosmetic tan; Usual posture: Relaxed; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 14 in; Recorded details: Narrow, softly rounded shoulders,  smooth back with little visible definition",
+    "chest": "Type: Breasts; Cup size: E; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Cosmetic tan; under-chest circumference: 36 in; chest circumference: 40.5 in; Recorded details: 36E breasts",
+    "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Smooth; Material: Skin; Surface colour: Cosmetic tan; Hair / grooming: Clean-shaven; shoulder-to-wrist length: 21.5 in; Recorded details: Slender, softly contoured arms",
+    "hands": "Number of hands: 2; Hand type: Human hands; Size: Small; Width: Average; Material: Skin; Surface colour: Cosmetic tan; Recorded details: Delicate hands",
+    "fingers": "Digits per hand: 5; Length: Average; Thickness: Slender; Nail type: Human nails; Nail length: Average; Nail shape: Oval; Nail colour: Pink polish; Nail material: Human nail keratin; Material: Skin; Surface colour: Cosmetic tan; Recorded details: Tapered fingers with medium oval nails",
+    "voice": "Neck shape: Slender; Voice pitch: High; Voice quality: Upbeat,polished,slightly nasal; Material: Skin; Surface colour: Cosmetic tan; Recorded details: Upbeat, polished, slightly nasal",
+    "face": "Overall shape: Oval; Jaw: Tapered; Chin: Rounded; Cheeks: Softly rounded; Nose size: Average; Nose shape: Straight; Lip fullness: Full; Lip shape: Defined Cupid’s bow; Salivation rate: Average; Facial hair: Clean-shaven; Complexion and markings: Clear/even complexion; Material: Skin; Surface colour: Cosmetic tan; Recorded details: Soft oval face, full lips",
+    "eyes": "Number of eyes: 2; Size: Average; Shape: Almond; Iris colour: Blue; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Normal; Material: Human eye tissue; Recorded details: Blue eyes, appraising gaze",
+    "ears": "Number of ears: 2; Size: Average; Shape: Rounded; Material: Skin; Surface colour: Cosmetic tan; Recorded details: Ordinary human ears",
+    "hair": "Length: Mid-back; Colour: Blonde; Texture: Wavy; Density: Dense; Style: Loose; Material: Human hair; Recorded details: Mid-back, softly wavy blonde hair",
+    "skin": "Material: Skin; Surface colour: Cosmetic tan; Texture: Smooth; Body markings: None; Body hair: Clean-shaven; Recorded details: Cosmetic tan",
+    "genitalAnatomy": "Configuration: Vulval anatomy; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not specified; Puffiness: Not specified; Swelling: Not specified; Fluid viscosity: Not specified; Anatomical variation: None; Pubic hair / grooming: Shaped patch of pubic hair; Material: Skin; Surface colour: Cosmetic tan; Recorded details: Adult human vulva comprising labia majora, labia minora, clitoral glans and hood, and separate urethral and vaginal openings. Shaped patch of pubic hair,  cosmetic tan with softer surrounding contours.",
+    "scent": "Natural body scent: Neutral; Scent strength: Faint; Perspiration tendency: High; Usual skin temperature: Average; Other physical tendencies: Pink saliva/drool while an active carrier,  active drooling requires a recorded event",
+    "height": "5 ft 5 in",
+    "weight": "135 lb",
+    "build": "Softly contoured build with a slender waist and shapely thighs. Narrow frame, average arms, narrow waist, medium rounded hips. waist 24 in; hips 36 in; chest 40.5 in.",
+    "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+  },
+  "measurements": {
+    "values": {
+      "waist": 24,
+      "hips": 36,
+      "underChest": 36,
+      "shoulderWidth": 14,
+      "armLength": 21.5,
+      "inseam": 30,
+      "chest": 40.5
+    },
+    "sources": {
+      "waist": "entered",
+      "hips": "entered",
+      "underChest": "entered",
+      "shoulderWidth": "generated",
+      "armLength": "generated",
+      "inseam": "generated",
+      "chest": "generated"
+    },
+    "baseline": {
+      "waist": 24,
+      "hips": 36,
+      "underChest": 36,
+      "shoulderWidth": 14,
+      "armLength": 21.5,
+      "inseam": 30,
+      "chest": 40.5
+    },
+    "blocked": [],
+    "referenceInput": {
+      "heightInches": 65,
+      "weightPounds": 135
+    }
+  },
+  "playerIdentityPolicy": "Preserve actual saved player age/gender label/stable ID; displayed name still follows the already approved course completion rule",
+  "discrepancies": {
+    "waistInches": 24,
+    "referenceWaistInches": 28,
+    "differenceInches": -4,
+    "decision": "Retain intentional authored proportions;no silent normalization"
+  },
+  "notes": [
+    "Age and saved starting-gender label remain the actual player values.",
+    "Exact5ft5/135lb/US women5.5/24in waist/36in hips/36in under-chest/Ecup/40.5in chest retained.",
+    "Pink saliva/drool is the approved active-carrier colour trait;it does not create a current emission.",
+    "Average salivation remains a proposal;gym-only High salivation/Very high perspiration are not inherited.",
+    "Only owner-requested arches,pink nails and High perspiration are implemented;remaining full-template descriptors/reference estimates await review.",
+    "Actual v1 image viewed,owner-approved and connected locally only to the completed sorority base body."
+  ],
+  "portrait": {
+    "status": "Owner viewed and approved actual v1 image;connected locally to completed sorority base appearance;unpublished",
+    "source": "/workspace/generated_images/exec-1d0c524e-267e-463e-9c1f-54f1e0b5dcde.png",
+    "reviewAsset": "rebuild/hub/assets/character-art-review/sorority-v1.png",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "293a10f116753b8b40051df5d184503f3948333a6a94e692c5ae207636f9f57b",
+    "approved": true,
+    "connected": true,
+    "direction": "Realistic clearly adult blonde/blue-eyed woman with softly contoured body,cosmetic tan,high arches,pink finger/toenail polish,pink peep-toe heels,white designer-style pleated skirt and matching pink low-neckline top. Image is a visual reference,not an exact-measurement authority or equipment/background grant.",
+    "approval": {
+      "quote": "Approved",
+      "date": "2026-11-22",
+      "scope": "Actual sorority v1 portrait in requested pink/white outfit"
+    },
+    "consumer": "bimbo-virus-physiology.js sororityPortrait + appearance-profiles-ui.js sororityPortraitMarkup + index.html portraitMarkup",
+    "referenceOnly": true
+  },
+  "requestedAmendmentsImplemented": true,
+  "ownerAmendments": {
+    "arches": "High",
+    "fingerAndToenailPolish": "Pink",
+    "perspiration": "High; existing gain factor1.05 (+5% normal sweat gain)",
+    "imageClothing": [
+      "Pink peep-toe heels",
+      "White designer-style pleated skirt",
+      "Matching pink designer-style top with a low neckline"
+    ],
+    "interpretation": "Owner phrase peel toe read as peep-toe;no brand assumed",
+    "wardrobe": "Reference only;no items granted or equipped"
+  },
+  "evidence": "docs/verification/sorority-amendments/results.json",
+  "portraitApprovalEvidence": "docs/verification/sorority-portrait-approved/results.json",
+  "releaseDisposition": {
+    "version": "1.0.137",
+    "scope": "Only implemented owner-approved portions and approved portrait consumers are included;any explicitly pending full-template additions remain proposals",
+    "publicationRecord": "docs/releases/v1.0.137-release-summary.json"
+  }
+}

@@ -1,0 +1,22 @@
+PASS equip/release preserve complete original profile across serialization
+PASS depleted form pools survive re-equip without healing
+PASS old victory form enriches in place without duplicating or refilling
+PASS unmastered cannot equip or will-release; toggle never heals or changes base
+PASS canine capabilities maintain walking, block speech and precision handling
+PASS partial description respects side and leaves original archive untouched
+PASS one inventory treat masters once with no resource refill or duplicate
+PASS no treats, no form or unusable paws cannot consume/master
+PASS encounter treat is Minor and resolves using enemy remaining pools
+PASS Minor budget prevents second treat and anatomy gates handling
+PASS form techniques replace archetype while base Mental techniques return on removal
+PASS form Skin Wrap needs earned contact, progresses target graph and disables Bite at head start
+PASS movement Main preserves Minor and attachment with no free progression
+PASS movement blocked by restraint or unusable legs, not by encased hands
+PASS help call flags AI response, retains Main; speech blocked at actual head restriction
+PASS arrival offers assistance but never grants free rescue or mastery; survives reload
+PASS movement fixture is opt-in and not a world travel bypass
+PASS approved enemy Health/Resolve victories and player defeat remain distinct
+PASS calling for help can provoke legal head Grapple despite a retained hand tether
+PASS release after partially encased mastery restores original body without stale encounter restrictions
+PASS canine help arrival uses visible gestures rather than human speech
+21 / 21 form/help tests passed

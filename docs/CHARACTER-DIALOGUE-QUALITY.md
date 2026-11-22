@@ -1,3 +1,7 @@
+## Current unpublished request-interpreter repair
+
+Real Cydonia acceptance is now documented rather than blocked by missing access. The combined roleplay/action decision was unreliable. The local candidate uses a dedicated structured request pass, existing controllers and a separate character-prose pass. Core real-model flow checks have improved; full prose acceptance remains open because some samples invent props or inner thoughts. No word quotas, gesture stripping or repetition-only rejection were added. See NPC-ACTION-BRIDGE-REVIEW.md and REAL-CYDONIA-ACCEPTANCE-2026-11-21.md for current evidence and limits. Earlier no-paid-call or unpublished labels below describe their historical checkpoints.
+
 ## Local carrier continuity correction after v1.0.134
 
 The current-fallback filter now compares against both actual source speech and carrier-restyled model speech, preventing the current authored reply from masquerading as earlier dialogue. This shared change covers structured NPC contexts without altering source memory or adding style rejection. Charity’s already-established friendship/shop connection to Tits is included, with no live whereabouts invented. See CHARITY-CONTACT-REPAIR.md for reproduction and simulated-transport evidence. Not published.

@@ -1,0 +1,8 @@
+PASS All completed player carrier variants have pink saliva/drool as a baseline trait without creating a drooling event,fluid or contact
+PASS Incubation/progression and cured records do not receive active carrier colour; querying another player cannot reuse the carrier state
+PASS Tits and explicitly marked carrier NPCs use the same pink trait while cured and ordinary NPCs do not
+PASS Gym heavy tendency uses the existing High1.05 gain factor only in that completed base body,not owned forms or other variants
+PASS Reached gym foot/finger/face milestones expose high arches,pink polish and high salivation without pulling future body regions forward
+PASS Only recorded infectious saliva sources are coloured pink; sweat,unknown type and noninfectious fluids do not gain that colour
+PASS Actual accepted saliva contact carries recorded pink source metadata without skipping disclosure,consent or exposure time
+7 carrier physiology cases passed

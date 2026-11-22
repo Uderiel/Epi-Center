@@ -1,0 +1,37 @@
+{
+  "status": "Pri actual approved photo connected and verified locally; unpublished",
+  "at": "2026-11-22T05:50:27.556Z",
+  "portrait": {
+    "status": "Actual image viewed and owner-approved; connected locally; unpublished",
+    "source": "/workspace/generated_images/exec-d8437c60-c401-4c02-86da-3e57bbeca5db.png",
+    "reviewAsset": "rebuild/hub/assets/character-art-review/pri-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "16fc69df3faed47ac4ce760d73b8a4e73f6e31a66838c71766d9f076f5bc0f78",
+    "approved": true,
+    "connected": true,
+    "ownerApproval": "Approved imaage",
+    "consumer": "rebuild/hub/pri-appearance.js portrait + index.html portraitMarkup; only currently entered standard male Pri"
+  },
+  "focusedCases": 62,
+  "browser": {
+    "passed": true,
+    "counts": {
+      "portrait": 4,
+      "current": 4,
+      "npc": 24
+    },
+    "total": 32,
+    "realProvider": false
+  },
+  "connectedImageCount": 13,
+  "missingPortraitConsumers": 4,
+  "newImageGenerations": 0,
+  "cydoniaCalls": 0,
+  "workerChanges": false,
+  "published": false,
+  "runtimeRegression": "Prior2277-case/164-suite runtime report retained; focused suites and actual browser integration rerun for image connection,no new full regression claim",
+  "next": "Complete Preeti female-cat appearance proposal prepared for review; no new Preeti runtime values"
+}

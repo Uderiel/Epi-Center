@@ -1,0 +1,14 @@
+{
+  "realProvider": false,
+  "checks": [
+    "Actual NPC recipient selection shows Eve approved avatar reference immediately without losing the unsent composer draft",
+    "Approved Eve portrait retains full2:3 proportions and fits390px/1100px layouts without horizontal overflow",
+    "All nine existing projection locations allow the reference; outside the ring it is explicitly remote with no local hologram",
+    "Actual remote appearance question submits Eve blue-light size5/pixie facts under her identity and preserves no-local-projection policy through existing worker projection",
+    "Reload retains Eve reference and remote mode without changing player appearance,forms,equipment,gold or adding physical avatar measurements",
+    "Avatar reference hides outside Eve conversation and reappears through the existing typed recipient filter"
+  ],
+  "errors": [],
+  "packetCharacters": 6589,
+  "passed": true
+}

@@ -1,0 +1,11 @@
+{
+  "realProvider": false,
+  "checks": [
+    "Real Burke’s Sweets checkout panel displays the exact prior-approved Tits portrait once",
+    "Tits portrait preserves full2:3 proportions without horizontal overflow at390px/1100px",
+    "Portrait survives redraw/save/reload without duplicate images or changes to player resources and belongings",
+    "Tits portrait hides when she is absent or the player leaves the shop"
+  ],
+  "errors": [],
+  "passed": true
+}

@@ -1,0 +1,67 @@
+{
+  "worker": {
+    "version": "request-handoff-v9",
+    "commit": "0de9247",
+    "configured": true,
+    "build": "0af596a7-60b8-4eff-9e76-70e868d59c8f",
+    "clientPublished": false
+  },
+  "accounting": {
+    "calls": 79,
+    "maxCalls": 80,
+    "spentUSD": 0.12734716,
+    "reservedUpperUSD": 0,
+    "maxUSD": 0.5,
+    "stopped": null
+  },
+  "continuousPlayAcceptance": false,
+  "buildAccepted": false,
+  "coverage": [
+    {
+      "area": "Four NPC menus",
+      "completed": true,
+      "realCalls": 6,
+      "result": "All four primary replies address their selected topics; unsupported props/history and separate departure details remain."
+    },
+    {
+      "area": "Shop requests and payment",
+      "completed": true,
+      "result": "Hypothetical/negative requests do not order; coffee selected. Initial polite pay was blocked before generation. Source construction repair then executed payment once, gold100 to94, one receipt across reload. Preparation/handover prose still contradicted state."
+    },
+    {
+      "area": "Priya social decision",
+      "completed": true,
+      "result": "Conversation choice creates no offer/menu. Direct cat-arrangement question was not recognized as an operation. Cat acceptance and entry not exercised by this real scenario; do not infer coverage."
+    },
+    {
+      "area": "Nadia witnessed identity",
+      "completed": true,
+      "result": "Watch and witnessed identity survive reload; response adds props and signals can refer to Dart instead of player."
+    },
+    {
+      "area": "Dart direct cues",
+      "completed": true,
+      "result": "Spoken sit and menu wait update actual posture. Sit generated reply discarded because scene changed; authored result retained. Wait real narration accepted."
+    },
+    {
+      "area": "Erin stages",
+      "completed": true,
+      "result": "Actual equip/hour progression tested. Projected regional target removes captured first-stage flattening in latest sample; further invented toe/ankle changes remain. One correction ceiling tested through actual browser. New unknown-length guard local only."
+    },
+    {
+      "area": "Eve guidance",
+      "completed": true,
+      "result": "Stamina/zero-resolve rule replies match authored guide. Applewood remote-only sample wrongly materialized avatar. Central Spire/8 adjacent hubs permit projection; new game-side validator respects supplied projection mode, not yet real-tested."
+    },
+    {
+      "area": "Navigation with Eve selected",
+      "completed": true,
+      "result": "head back to Central Hub NE / go over to Central Hub Spire complete real routes with AI enabled, after actual live Eve help. Routing uses deterministic controller, not model generation."
+    },
+    {
+      "area": "Uninterrupted normal play and every NPC/form",
+      "completed": false,
+      "result": "Not run. Appearance builder, matrix implementation and per-profile migration still pending; no claim these are implemented."
+    }
+  ]
+}

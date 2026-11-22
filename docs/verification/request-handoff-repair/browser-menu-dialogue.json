@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "realProvider": false,
+  "checks": [
+    "A real date discussion creates the offer; menu acceptance sends the saved agreement to Priya without transforming the player",
+    "Menu entry changes only the player before Priya replies with the same known agreement"
+  ],
+  "errors": []
+}

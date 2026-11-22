@@ -1,26 +1,236 @@
-## Optional NPC response handoff — request-handoff-v8
+# v1.0.137 — interaction repairs,appearance creation and approved profiles
 
-The v7 real test still contradicted its preselected cat offer. The client-side review found the earlier decision error: an optional NPC offer was created before the model chose a response. This worker adds a separate structured social-response mode for the corrected local client; ordinary completed-result prose and legacy clients remain supported. It does not itself change game state. Local worker tests pass. Live verification and full integration acceptance remain pending. Existing production settings/credentials and public game client are unchanged. Source/API review: verification/request-handoff-repair/optional-response-review.md. Historical checkpoints below retain their original scope.
+Owner authorized publication of all fixes and approved changes since the last game publication,v1.0.136. The release uses main's deployed request-handoff-v11 worker unchanged;provider model,credentials,bindings,pricing limits and sampling settings are not changed. Current canon for this release is frozen before deployment;deployment evidence is recorded separately.
 
-## Completed-turn dialogue writer — request-handoff-v7
+- Repair text/menu handoffs so the player's request and completed NPC/controller result remain distinct. Optional offers are created only after the recorded NPC choice;offers,acceptance and actual form entry stay separate. Privacy,negation,hypothetical,ownership,body,consent and room gates remain enforced.
+- Repair selected-Eve travel routing,unknown destinations,common directional wording and room descriptions. All nine Spire/Central Hub projection locations are recorded;outside them Eve uses remote communication. Existing shortest-cost map routing remains.
+- Repair polite shop order/payment routing,itemized cups/serving preferences,unpaid/preparing/ready/collected state and reload continuity. Actual payment/receipt occur once. Reply validation may correct prose once without repeating a controller action;unrecoverable narration keeps the truthful authored result.
+- Separate the visiting canine from Dart;preserve only actually learned player identity across witnessed changes,reload and day transitions. Retain explicit private form identity and authority. Remove an unused full-body duplicate from ordinary private dialogue,which otherwise exceeded the request-size limit;explicit current-body inspection stays intact.
+- Integrate the required appearance builder inside existing creation fields,with human-only starting choices and universal future NPC/form vocabulary. Support tails,wings,materials/colours,heterochromia,regional grooming and salivation. Retain imperial/metric conversion and generate Build from the selected design.
+- Implement approved measurement reference ratios,nearest-half-inch rounding,custom A–F cup differences in half-inch steps (C+3in),shared pectoral calibration,exact-value precedence and a review adjustment bounded to±2in from each original generated measurement.
+- Use one read-only current-body view for partial/full forms,permanent changes and current cosmetic/cursed effects. Body awareness excludes older/future appearance states and preserves later saved physical changes.
+- Align current approved NPC/form records with the24-field template and approved measurements. Preserve exact authored exaggerated variant proportions;nonhuman/projection/object bodies do not inherit unsupported human estimates. There remain only two offered cat forms,Pri male and Preeti female;independently owned forms retain their identities.
+- Publish approved portraits/avatar references,including gym v4,sorority v1 and neon-pink club v2. All18 current catalogue profile states have image consumers;Dart remains in Nadia's shared image. Image clothing/background grant no equipment or room canon. Unapproved/superseded images are excluded from this release copy.
+- Apply approved gym/sorority amendments and the complete approved club appearance. Active carriers have pink saliva/drool as a colour trait,not an automatic emission/contact. Sweat gain factors remain minimal0.90,low0.95,average1.00,high1.05,very high1.10;gym uses1.10,sorority/club1.05. Ordinary drying and separate body state remain.
+- Align Appearance inputs and distribute the header controls evenly on phone/desktop;retain existing navigation/help actions. Preserve plain searchable source review comments without creating model instructions.
+- Update the source-backed World Bible,approved appearance catalogue and source/portrait references,including Dart's approved age4. Existing attributes/combat budgets,permanent-base/cure rules and deferred acquisition content remain.
 
-The deployed v6/source-frame probe still failed: the actual offer and player-mastery facts reached Cydonia, but the reply restarted an introduction. This repair separates completed NPC dialogue writing from action selection and presents supplied context once, retaining the full character dossier, history, body/permission facts and offer conditions. No canned dialogue, added prose quota or gameplay decision rule is introduced. Existing production settings and credentials are unchanged. Public client/UI changes remain held. Local worker tests pass; real Cydonia acceptance is pending. See releases/ai-request-handoff-v7-release.json and verification/request-handoff-repair/completed-writer-review.md. Prior checkpoints below retain their historical scope.
+Verification:the initial runtime check passed2,304 named cases/168 suites. The53-suite browser sweep retained its initial failures and reruns;final counts are in releases/v1.0.137-tests.json and v1.0.137-browser-verification.json. Browser tests use synthetic saves and simulated AI. No owner saves or new paid model calls are required for this publication.
 
-## Corrective AI worker maintenance — request-handoff-v6
+Known limits:general real-Cydonia prose accuracy is not fully accepted. Existing targeted real-provider evidence and costs are retained in verification/request-handoff-repair/continuous-v11-results.json;it does not prove uninterrupted play or every optional offer. Some earlier gym/sorority full-template additions remain explicitly unapproved/proposal-only;their approved amendments and portraits are included. Form Repository/staff expansion,protected suits,Underworld cure acquisition and other deferred content remain excluded. Referenced/unbuilt people are not counted as implemented NPCs. Kibbles's existing unassigned portrait fallback remains;both saved-sex previews are connected.
 
-The v5 real test presented Priya’s offer and recognized agreed entry, but omitted mastery and invented body history. This correction keeps every supplied offer condition as a separate writing point and focuses acceptance on the present agreement. Household access retains its actual scope and the supplied employment context. Local worker tests pass; real-model acceptance remains pending. Production configuration, credentials, public client and canon mechanics are unchanged. See releases/ai-request-handoff-v6-release.json. Earlier checkpoints below preserve their actual scope.
+Publication preparation is underway. This paragraph and earlier unpublished checkpoints do not claim deployment;see the release summary and public verification for the final result.
 
-## Corrective AI worker maintenance — request-handoff-v5
+## Earlier checkpoints — historical
 
-The real v4 test improved the shop catalogue but failed Priya offer/acceptance continuity. Inspection exposed an unaccepted offer simultaneously labelled as an accepted guest/agreed cat. This correction normalizes those legacy description facts without changing save state and gives generation the actual current reply purpose. Local worker tests pass; real-model acceptance is pending. Existing production configuration/credentials and the public game client remain unchanged. See releases/ai-request-handoff-v5-release.json. The v4 deployment succeeded; it is not a complete quality pass.
+# Unpublished — approved club neon-pink portrait connection
 
-## AI worker maintenance — request-handoff-v4
+- Connect actual owner-approved neon-pink club v2 only for the completed club base;retain black v1. Phone/desktop,reload,current-body and cross-variant isolation pass.
+- All three current variant portraits are approved/connected locally;current catalogue image gaps:0. No equipment,worker or publication change. Evidence:verification/club-portrait-approved/.
 
-Owner authorized the worker-only deployment and real Cydonia verification on 2026-11-21. The public game remains v1.0.136. The worker retains its existing release label and exposes requestAssemblyVersion request-handoff-v4 to identify this patch. Deployment and real-provider acceptance are pending until recorded in releases/ai-request-handoff-v4-release.json.
+# Unpublished art revision — club neon-pink v2
 
-The interpreter receives an internal action-decision role. Final replies receive the actual latest message, resolved controller result, existing cat agreement, shop catalogue and Eve guide in the current turn. Departure and witnessed-change turns retain the actual subject. Recorded transformation frames stay beside the reached event. This changes request assembly, not body rules, costs, ownership or controller decisions. Existing model freedom over prose length remains.
+- Revise actual club portrait dress and shoes from black to owner-requested neon pink;preserve v1 original. V2 displayed for separate approval,not connected. No gameplay/worker/publication change or new gameplay tests. Evidence:verification/club-image-v2/.
 
-The isolated worker tests pass. The canon snapshot was regenerated and the existing frozen Bible/integrity remain unchanged. Production credentials, budget configuration and the established deployment command remain unchanged. Unpublished client/UI fixes and the appearance-template proposal are excluded. Historical statuses below retain their original release scope.
+# Unpublished — approved club appearance
+
+- Implement owner-approved complete24-field club appearance and approved reference estimates,retaining exact authored proportions,player identity and existing stage/body boundaries. High perspiration uses existing1.05 gain.
+- Verify60 focused cases and four simulated browser checks,including all24 current appearance fields in a6496-character request and later physical alterations.
+- Generate/display actual club v1 in requested sleeveless low-cut latex mini dress and tall strappy stilettos for review;do not connect or grant equipment. No Cydonia call,worker change or publication. Evidence:verification/club-approved/.
+
+# Unpublished — sorority portrait approval
+
+- Connect actual owner-approved sorority v1 photo to completed sorority base appearance only;phone/desktop,reload and body isolation pass.
+- Preserve High1.05 physiology and separate approved gym v4. No equipment,worker or publication change. One image-consumer gap remains:club.
+- Prepare full club appearance proposal for review;no new runtime details or club image. Evidence:verification/sorority-portrait-approved/.
+
+# Unpublished — sorority amendments and image review
+
+- Apply requested sorority high arches,pink nails and High1.05 sweat gain while preserving gym Very high1.10 and body/stage isolation.
+- Generate/display actual v1 image in requested pink heels/top and white pleated skirt for review;do not connect it or grant clothing.
+- Pass55 focused cases and four simulated browser checks. No Cydonia calls,worker change or publication. Evidence:verification/sorority-amendments/.
+
+# Unpublished — gym bunny v4 portrait approval
+
+- Connect the owner-viewed/approved v4 portrait only for the completed gym-bunny base body. Phone/desktop,reload and body-isolation browser checks pass. No equipment,sweat-level,worker or publication change. Two missing variant portraits remain. Evidence:verification/gym-portrait-approved/.
+
+# Unpublished — gym bunny v4 and Very high perspiration
+
+- Set completed gym-bunny appearance and sweat gain to Very high/1.10;focused runtime/browser checks pass.
+- Generate v4 image with natural skin colour,slightly softer abs and slightly enhanced sweat. Actual image displayed;approval pending,not connected. Earlier images retained. No worker change or publication. Evidence:verification/gym-image-v4/.
+
+# Unpublished art revision — gym bunny v3
+
+- Revise pending photo with tighter,firmer abdominal definition,preserving v2 feminine styling/outfit and earlier image bytes. Actual image displayed for review;unconnected. No gameplay,worker or publication change;no new gameplay tests or Cydonia call. Evidence:verification/gym-image-v3/.
+
+# Unpublished art revision — gym bunny v2
+
+- Replace the pending review candidate with v2:pink shorts/white edging,softer feminine styling and less overt muscle definition. Preserve v1 bytes;no game integration or mechanics change.
+- Actual revised image displayed;awaits owner approval. No new gameplay tests,Cydonia call,worker change or publication. Evidence:verification/gym-image-v2/.
+
+# Unpublished local — gym amendments and carrier pink saliva
+
+- Apply requested high arches,pink finger/toenail polish and high salivation to reached gym-bunny physical regions;completed gym base uses High1.05 sweat gain. Owned forms retain their own tendency and current sweat level follows elapsed activity.
+- Add universal active-carrier pink saliva/drool as baseline/current-body/speaker/source metadata while preserving emission,contact,warning,consent,exposure,cure and ownership boundaries.
+- Pass2297 runtime cases/167 suites and37 browser checks with simulated replies. No paid Cydonia call or worker change.
+- Generate/display revised actual gym-bunny image in requested workout clothing for review;do not connect it. Remaining full-template additions remain in review. Publication held.
+
+# Unpublished local — approved flats appearance and current material
+
+- Apply explicit US women size7 and ordered object anatomy/material fields without creating a second mind,human anatomy or new capabilities;retain both approved images.
+- Refresh only known generic/missing object fields while preserving actual alterations. Pass current object material into sensory requests and distinguish leather-like finish from unrecorded genuine leather/suede/polish.
+- Pass2290 runtime cases/166 suites and37 browser checks,including actual Attend/reload/solitary release. No paid Cydonia calls,image generation,worker change or publication.
+- Prepare complete gym bunny appearance and image-direction proposal;follow owner order gym bunny → sorority → club,appearance then actual image review for each.
+
+# Unpublished local — Preeti actual image approved and connected
+
+- Connect the exact approved1536×1024 female-cat photo through the existing current-form portrait renderer;keep Pri/Preeti/owned-cat identity boundaries.
+- Pass68 focused cases and36 browser checks covering both cats,current-body packets,reload and photo presence/layout/absence.14 connected images decode;3 variant portrait-consumer gaps remain.
+- Prepare the complete24-field flats proposal for review,including an explicit US women size7 proposal;preserve both current approved flats images. No image generation,paid Cydonia call,worker change or publication.
+
+# Unpublished local — approved Preeti appearance
+
+- Apply approved3years/9in at shoulder/8lb/amber eyes and full ordered female-cat appearance,keeping Pri and owned cats distinct.
+- Share safe generic-record refresh without replacing actual/custom alterations,resources,mastery,history or original player records.
+- Pass2283 runtime cases/165 suites and41 browser checks using simulated replies;no paid Cydonia call or worker change.
+- Generate/display actual female-cat photo;subsequently owner-approved and connected locally. Publication held.
+
+# Unpublished local — Pri actual photo approved and connected
+
+- Connect exact approved1536×1024 photo only to the current standard male Pri; preserve both gameplay identity and image bytes.
+- Pass62 focused cases and32 browser checks covering display,3:2 mobile/desktop layout,reload,body packets and absence for released/other cats.13 connected image assets decode;4 profile-consumer gaps remain.
+- Prepare full24-field Preeti proposal for review without applying new female-cat age,size or eye colour. No image generation,Cydonia call,worker change or publication.
+
+# Unpublished local — Pri approved full appearance
+
+- Apply3years/10in at shoulder/10lb/green eyes and full ordered feline appearance only to the standard offered male Pri. Preserve Preeti and owned cats.
+- Refresh known generic old Pri fields without overwriting actual/custom alterations,resources,mastery or history; current-body packets reflect the entered body.
+- Pass2277 runtime cases/164 suites and37 browser checks with simulated responses. No paid Cydonia calls or worker changes.
+- Generate/display the actual realistic cat photo; subsequently owner-approved and connected locally as recorded in the current checkpoint. Publication held.
+
+# Unpublished local — Kibbles complete appearance and age4
+
+- Apply owner-approved24-field canine appearance and actual age4 through existing current-body/profile consumers; preserve male/female dimensions,permanent identity and both approved images.
+- Preserve original/partial body regions and species-specific measurements; verify actual UI identity,body-awareness packets,reload,release/re-equip and no healing.
+- Pass2271 runtime cases/163 suites and41 browser checks. No paid model calls,image generation,worker changes or publication.
+- Resolve the former Kibbles age deferral; prepare the complete Pri male-cat proposal for review without applying new cat values.
+
+# Unpublished local — Erin actual photo approved and connected
+
+- Connect the exact owner-approved full-body PNG in the existing Appearance/Character portrait renderer; preserve2:3 proportions and old image bytes.
+- Pass22 focused cases and31 actual browser checks including mobile/desktop,decode,reload,data preservation and partial/released absence. No new full regression,image generation,Cydonia call,worker change or publication.
+- Prepare both complete24-field Kibbles proposal variants for owner review without applying new runtime details; preserve identity gates,dimensions and existing images.
+
+# Unpublished local — approved Erin appearance; photo review
+
+- Apply reviewed24-field target,DD/US women6/light skin and approved shared dimensions through existing23-stage settlement. Preserve original/unchanged regions and all lifecycle rules.
+- Align the current body before grooming/cosmetics; retain approved anatomy with actual care and cursed-lip alterations after reload.
+- Preserve the current reached-region frame throughout narration request assembly instead of replacing it with old raw target facts.
+- Pass2,267 runtime checks/162 suites and38 browser checks using simulated responses. No new paid Cydonia calls or worker changes; broad live prose correctness remains open.
+- Generate/display the1024×1536 full-body Erin photo; subsequently owner-approved and connected locally. Old image bytes are retained; publication held.
+
+# Unpublished local — approved Eve avatar description and portrait
+
+- Finalize blue-light barefoot pixie avatar and connect the exact approved portrait to the existing NPC help channel as a reference.
+- Preserve nonphysical body/physiology boundaries and existing nine-location projection/remote mode; outgoing requested avatar facts remain separate from the player body.
+- Pass2,262 runtime cases/161 suites and41 browser checks,including recipient selection/filtering,draft preservation,portrait layout,reload,projection geography,current body and ordinary navigation. All12 connected images decode;5 profile-consumer gaps remain. No paid call,new image,worker change or publication.
+- Prepared Erin’s full appearance proposal at that checkpoint; subsequently owner-approved and implemented below the current entry.
+
+# Unpublished design preview — Eve blue-light pixie revision
+
+- Record owner-directed barefoot size5,bare hands,pixie face/hair and futuristic one-piece latex-like suit,all projected blue light.
+- Validate revised24-field draft;generate/display actual1024×1536 review portrait. Separate image approval and runtime integration remain pending. No worker change,Cydonia call or publication.
+
+# Unpublished local — Dart canine appearance and actual narration context
+
+- Apply approved4years/28in at withers/82lb/black-rust/brown eyes and full canine structure in the existing24 fields,without human reference estimates.
+- Attach compact canonical facts to existing co-present recorded/animal-plan narration; preserve no-human-speech and ordinary controllers. Actual Observe shortcut verified.
+- Use species-neutral NPC Age label and preserve custom inherited surface-colour descriptions. Pass2,257 runtime cases/160 suites and37 browser checks. No paid call,new image,worker change or publication.
+- Prepare Eve’s full projected-avatar proposal; new visuals remain unapplied and actual image approval will follow design approval.
+
+# Unpublished local — Tits exact height/full appearance and portrait
+
+- Apply approved24-field appearance,exact5ft3/135lb/Fcup/US women6 and generated regional dimensions,with existing identity and behavior preserved.
+- Connect prior approved photograph to actual-counter public appearance panel,with responsive full-body proportions and presence gating.
+- Pass2,256 runtime cases/160 suites and37 browser checks. All11 connected assets decode;6 image-consumer gaps remain. No paid call,new image,worker change or publication.
+- Prepare Dart’s complete canine appearance proposal; new values remain unapplied and human matrix is not used.
+
+# Unpublished local — Charity full appearance,identity amendments and portrait
+
+- Apply approved24-field record with actual39years,exact5ft6/122lb and freckles; preserve individual hair/eyes/smile and approved regional design values.
+- Connect her prior-approved photograph to the presence-gated public appearance panel with responsive full-body proportions.
+- Fix shared freckles/complexion topic lookup; pass2,255 runtime cases/160 suites,84 focused cases and35 browser checks. All10 connected images decode;7 consumer gaps remain. No paid call,worker change,new image or publication.
+- Prepare Tits’s full appearance proposal; new details remain unapplied.
+
+# Unpublished local — Priya full appearance approved and integrated
+
+- Apply approved24-field record and exact27years/5ft2.5/115lb/tanned skin/dark-brown hair/Bcup,keeping established identity/voice and approved portrait.
+- Pass153 focused cases and29 browser checks covering existing cats/flats/household/visits/daily controllers,rendered dimensions and outgoing topic-specific appearance facts. No paid calls,worker changes or publication.
+- Prepare Charity’s complete appearance proposal; retain apparent/chronological age distinction and approximate height/weight. New details remain unapplied.
+
+# Unpublished local — Nadia full appearance approved and integrated
+
+- Apply approved24-field Nadia appearance,130lb/Ccup and generated dimensions, preserving established identity and existing portrait.
+- Pass76 focused cases and27 browser checks, including loaded NPC panel, requested measurement facts through existing-worker projection and current-only body state. No paid calls,worker changes or publication.
+- Prepare Priya’s complete appearance proposal for review; all new exact values remain unapplied.
+
+# Unpublished local — Daniel portrait approved and connected
+
+- Connect the exact displayed, owner-approved Daniel portrait to his physically present character panel with responsive full-body proportions.
+- Pass55 focused cases and20 browser checks, decode all9 connected assets, preserve player data and absence gating;8 profile states still lack connected portraits. No new paid calls, worker change or publication.
+- Prepare Nadia’s full24-field proposal for review, preserving her existing approved portrait and established facts. All new Nadia values remain unapplied.
+
+# Unpublished local — Daniel appearance and shared chest calibration
+
+- Apply Daniel’s approved full appearance,185lb and material/colour/anatomy structure in the shared24-field catalogue; preserve established identity, ordinary NPC mechanics and absence of wings/tail.
+- Use selected pectoral size and torso girth to generate chest circumference instead of equating chest to under-chest. Daniel now gets approved40in naturally; exact values and approved cup scale remain authoritative.
+- Pass2,252 runtime cases/160 suites plus43 browser checks:creation18,NPC16,current body9. Verify real UI selection/review/reload, existing-worker fact projection, preserved player data and current-only body awareness. No paid Cydonia calls or worker changes.
+- Generate and display Daniel’s actual portrait for separate owner approval; no portrait connection or publication yet.
+
+# Unpublished local — approved Richard portrait connection
+
+- Record actual visual owner approval and wire Richard’s existing1024×1536 portrait to his physically present character view. Responsive contain sizing preserves full-body proportions and a bounded panel.
+- Verify390px/1100px, redraw/save/reload, absence gating and unchanged player state;60 focused cases plus4 portrait/14 NPC browser checks pass. All8 connected images decode. No new image generation/Cydonia calls, worker changes or publication.
+- Richard is complete locally. Daniel’s full24-field appearance/portrait-direction proposal is prepared for review; no new Daniel values applied.
+
+# Unpublished local — full approved Richard appearance
+
+- Apply all approved24 appearance fields through richard-appearance.js/shared catalogue, including40in authored chest and generated Build. Preserve global calculator rules, NPC stats/resources, permissions and existing item/routine ownership.
+- Make selected public chest/waist/hip/voice facts available through the existing worker projection; concealed anatomy stays excluded.
+- Generate and display Richard’s full-body portrait for separate image review. Stage it under assets/character-art-review/richard-v1.png; no renderer connection or image approval.
+- Runtime verification:2,248 cases/160 suites;14 integration and4 focused browser checks pass. Publishing/canon gate remains pending a new release version; no frozen-release evidence changed. No Cydonia calls, worker changes or publication.
+
+# Unpublished local — approved Richard baseline
+
+- Apply owner-approved32years,6ft0in,175lb to Richard’s definition/overview/shared catalogue. Keep established features, attributes, resources, permissions and player data. Topic-scoped NPC age questions now receive the authored age through existing worker projection.
+- Preserve unknown regional values pending the full appearance proposal; only under-chest34.5in is currently supported by the reference. All proposed regional selections, explicit40in chest and portrait remain unapproved/unimplemented.
+- Verification:49 focused cases and4 browser/worker-projection checks pass; no paid calls, worker changes or publication. Evidence:verification/richard-baseline/.
+
+# Unpublished local — offered-cat catalogue correction
+
+- Correct the offered-cat inventory to exactly Pri (male) and Preeti (female). Remove the generic unspecified catalogue record incorrectly counted as a third offered form. Current alignment catalogue:18 profile states;10 without portrait consumers. Raw generic feline body data and the established acquisition/controller rules remain.
+- Focused verification:10 alignment cases,30 actual cat-controller cases and14 browser checks pass. No new full regression, paid AI calls, worker changes or publication. Evidence:verification/cat-offer-correction/.
+
+# Unpublished local — NPC/form appearance alignment
+
+- Add a source-backed19-profile catalogue in the24-field appearance order, with exact source detail, species/object applicability and explicit unknowns. Retain raw milestone-controller inputs and existing NPC overview prose.
+- Wire shared public appearance panels for Richard, Daniel, Nadia, Priya, Charity, Tits and Dart; pass topic-relevant speaker appearance through the existing worker projection, with concealed anatomy/physiology excluded. Align private/current form and permanent-variant views without changing resources, attributes or player identity.
+- Apply owner-confirmed under-chest interpretation:38DD→38+4=42in;36E→36+4.5=40.5in;42F→42+5.5=47.5in chest. Preserve authored waists/hips and flag human-reference discrepancies. Report unsupported inputs rather than guessing mass, shoe systems or cup labels.
+- Fix full-body awareness exceeding the scene limit after template expansion: keep all requested current fields/control/access facts; remove unrelated venues/property/routines.
+- Audit all image consumers:7 connected assets decode;11 profile states have no portrait consumer. Existing approved Charity/Tits files remain unwired; Dart shared-only; no new images or connections.
+- Verification:2,247 named cases/160 suites;17 creation+14 NPC alignment+9 current-body browser checks. All local/simulated; no new paid calls, worker changes or publication. Per-profile before/after, unsupported dimensions and image audit:NPC-FORM-APPEARANCE-ALIGNMENT.md.
+
+# Unpublished local — required appearance creation and current-body integration
+
+- Wire the required shared24-field template and deterministic calculator into character creation/review/confirmation. Restore the existing separate Tail field omitted from the earlier23-field integration; human creation keeps it absent.
+- Add wings within Back & shoulders: presence, count, type, wingspan, details, material and colour; lock absent during human creation. Current wing inspection uses the actual Back appearance. No extra saved appearance field. Focused verification:verification/appearance-wings/.
+- Preserve human-only anatomy/material controls, units, heterochromia, markings, grooming, salivation and the approved sweat-rate effects.
+- Apply approved half-inch cup increments and nearest-half-inch generated/review values; retain exact entered measurements and original-baseline±2-inch review bounds; regenerate read-only Build. Valid older draft reviews migrate without ratcheting bounds.
+- Persist draft/review across reload and delete it on confirmation; leave confirmed legacy characters unchanged.
+- Share the live current-body resolver across display, self-awareness and ordinary NPC/form appearance exchange. Resolve reached partial/full forms, illness stages and cursed cosmetics without stale human fallback or superseded structured lip detail.
+- Refresh inspection facts after time advances; omit historical body descriptions/future targets from awareness packets. Cancel outdated queued requests and discard late replies after physical changes.
+- Route canine/feline self-inspection through the body controller before non-speaking dialogue fallbacks, while preserving body/access guards and form consciousness rules.
+- Verification:2,234 named automated cases,16 actual-UI creation checks and8 current-appearance browser checks pass. No paid calls or worker changes in this follow-up. Unpublished; current NPC/form conversion/report has not begun. Evidence:verification/appearance-current-followup/.
 
 # v1.0.136 — Dev recovery and private escort cleanup
 

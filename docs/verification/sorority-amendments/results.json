@@ -1,0 +1,43 @@
+{
+  "status": "Owner-requested sorority arches,pink nails and High perspiration implemented locally;remaining full-template additions and actual v1 image await review",
+  "at": "2026-11-22T07:08:10.875Z",
+  "ownerAmendments": {
+    "arches": "High",
+    "fingerAndToenailPolish": "Pink",
+    "perspiration": "High; existing gain factor1.05 (+5% normal sweat gain)",
+    "imageClothing": [
+      "Pink peep-toe heels",
+      "White designer-style pleated skirt",
+      "Matching pink designer-style top with a low neckline"
+    ],
+    "interpretation": "Owner phrase peel toe read as peep-toe;no brand assumed",
+    "wardrobe": "Reference only;no items granted or equipped"
+  },
+  "portrait": {
+    "status": "Actual v1 displayed for owner review;unapproved,unconnected,unpublished",
+    "source": "/workspace/generated_images/exec-1d0c524e-267e-463e-9c1f-54f1e0b5dcde.png",
+    "reviewAsset": "rebuild/hub/assets/character-art-review/sorority-v1.png",
+    "width": 1024,
+    "height": 1536,
+    "sha256": "293a10f116753b8b40051df5d184503f3948333a6a94e692c5ae207636f9f57b",
+    "approved": false,
+    "connected": false,
+    "direction": "Realistic clearly adult blonde/blue-eyed woman with softly contoured body,cosmetic tan,high arches,pink finger/toenail polish,pink peep-toe heels,white designer-style pleated skirt and matching pink low-neckline top. Image is a visual reference,not an exact-measurement authority or equipment/background grant."
+  },
+  "focusedCases": 55,
+  "focusedSuites": 4,
+  "browser": {
+    "passed": true,
+    "checks": 4,
+    "realProvider": false
+  },
+  "fullAppearanceApproved": false,
+  "requestedAmendmentsImplemented": true,
+  "imageApproved": false,
+  "imageGenerations": 1,
+  "imageGenerationPrice": "not reported by tool",
+  "cydoniaCalls": 0,
+  "workerChanges": false,
+  "published": false,
+  "missingConnectedImages": 2
+}

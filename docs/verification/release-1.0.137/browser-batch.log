@@ -1,0 +1,106 @@
+PASS browser-journal-layout.cjs 5.416s
+PASS browser-mobile-help.cjs 5.774s
+PASS browser-open-shop-dialogue.cjs 4.956s
+PASS browser-household-ui-qa.cjs 4.673s
+PASS browser-narration-grounding.cjs 3.852s
+FAIL browser-conversation-routing.cjs 4.888s
+page.evaluate: TypeError: Cannot read properties of undefined (reading 'packet')
+    at eval (eval at evaluate (:311:30), <anonymous>:1:28)
+    at UtilityScript.evaluate (<anonymous>:313:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+    at /workspace/epicenter-release-1.0.137/scripts/browser-conversation-routing.cjs:12:570
+    at check (/workspace/epicenter-release-1.0.137/scripts/browser-conversation-routing.cjs:2:428)
+    at /workspace/epicenter-release-1.0.137/scripts/browser-conversation-routing.cjs:12:483 {
+  log: []
+}
+
+PASS browser-virus-presentation.cjs 5.348s
+PASS browser-remote-help-presence.cjs 6.444s
+PASS browser-virus-resources.cjs 4.972s
+PASS browser-needs-consequences.cjs 4.082s
+PASS browser-virus-recovery.cjs 9.362s
+PASS browser-priya-everyday.cjs 3.1s
+FAIL browser-virus-appearance.cjs 3.307s
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  A(await p.evaluate(type=>save.appearance.footSize===EpiBimboVirusAppearance.footTargets[type].footSize&&save.appearance.hair===EpiBimboVirusAppearance.hairTargets[type].hair&&currentAppearance().eyes==='Blue eyes, '+EpiBimboVirusAppearance.gaze[type]&&save.appearance.voice===EpiBimboVirusAppearance.voiceTargets[type].voice&&save.appearance.face===EpiBimboVirusAppearance.faceTargets[type].face&&save.appearance.ears==='Ordinary human ears',type))
+
+    at /workspace/epicenter-release-1.0.137/scripts/browser-virus-appearance.cjs:1:1301 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+PASS browser-text-shopping.cjs 5.629s
+FAIL browser-canine-input.cjs 5.824s
+AssertionError [ERR_ASSERTION]: actual Form composer delivers private intention to saved Bella identity
+    at check (/workspace/epicenter-release-1.0.137/scripts/browser-canine-input.cjs:2:361)
+    at async /workspace/epicenter-release-1.0.137/scripts/browser-canine-input.cjs:11:69 {
+  generatedMessage: false,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+FAIL browser-erin-transition-frame.cjs 3.795s
+Error: ENOENT: no such file or directory, open 'work/current-repair/browser-erin-frame.json'
+    at Object.writeFileSync (node:fs:2482:20)
+    at /workspace/epicenter-release-1.0.137/scripts/browser-erin-transition-frame.cjs:4:2462 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'work/current-repair/browser-erin-frame.json'
+}
+
+FAIL browser-eve-navigation.cjs 4.78s
+Error: ENOENT: no such file or directory, open 'work/current-repair/browser-eve-navigation.json'
+    at Object.writeFileSync (node:fs:2482:20)
+    at /workspace/epicenter-release-1.0.137/scripts/browser-eve-navigation.cjs:4:1119 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'work/current-repair/browser-eve-navigation.json'
+}
+
+PASS browser-nadia-conversation-continuity.cjs 4.227s
+PASS browser-cat-narrative-frame.cjs 4.33s
+PASS browser-menu-dialogue.cjs 4.135s
+PASS browser-menu-followups.cjs 3.523s
+PASS browser-nadia-day-jump.cjs 10.816s
+PASS browser-relationship-isolation.cjs 4.552s
+PASS browser-text-actions.cjs 6.336s
+PASS browser-text-contexts.cjs 3.895s
+PASS browser-release-regressions.cjs 4.123s
+PASS browser-language-actions.cjs 4.345s
+PASS browser-priya-cat.cjs 19.993s
+PASS browser-appearance-creation.cjs 27.015s
+PASS browser-npc-appearance-alignment.cjs 6.395s
+PASS browser-current-appearance.cjs 22.499s
+PASS browser-erin-approved-appearance.cjs 3.967s
+PASS browser-eve-appearance.cjs 5.214s
+PASS browser-erin-portrait.cjs 6.902s
+PASS browser-richard-portrait.cjs 6.746s
+PASS browser-daniel-portrait.cjs 4.002s
+PASS browser-charity-portrait.cjs 4.022s
+PASS browser-dart-appearance.cjs 3.419s
+PASS browser-tits-portrait.cjs 5.802s
+PASS browser-pri-appearance.cjs 4.841s
+PASS browser-kibbles-appearance.cjs 7.877s
+PASS browser-pri-portrait.cjs 3.782s
+PASS browser-preeti-appearance.cjs 5.596s
+PASS browser-preeti-portrait.cjs 4.87s
+PASS browser-flats-appearance.cjs 6.155s
+PASS browser-gym-amendments.cjs 5.728s
+PASS browser-gym-portrait.cjs 4.886s
+PASS browser-sorority-amendments.cjs 4.768s
+PASS browser-sorority-portrait.cjs 4.352s
+PASS browser-club-appearance.cjs 3.999s
+PASS browser-club-portrait.cjs 4.354s
+PASS browser-access-response-grounding.cjs 2.933s
+PASS browser-continuous-repair-boundaries.cjs 6.62s
+Finished 53 browser suites;failed 5

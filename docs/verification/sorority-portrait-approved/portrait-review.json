@@ -1,0 +1,18 @@
+{
+  "status": "Owner viewed and approved actual v1 image;connected locally to completed sorority base appearance;unpublished",
+  "source": "/workspace/generated_images/exec-1d0c524e-267e-463e-9c1f-54f1e0b5dcde.png",
+  "reviewAsset": "rebuild/hub/assets/character-art-review/sorority-v1.png",
+  "width": 1024,
+  "height": 1536,
+  "sha256": "293a10f116753b8b40051df5d184503f3948333a6a94e692c5ae207636f9f57b",
+  "approved": true,
+  "connected": true,
+  "direction": "Realistic clearly adult blonde/blue-eyed woman with softly contoured body,cosmetic tan,high arches,pink finger/toenail polish,pink peep-toe heels,white designer-style pleated skirt and matching pink low-neckline top. Image is a visual reference,not an exact-measurement authority or equipment/background grant.",
+  "approval": {
+    "quote": "Approved",
+    "date": "2026-11-22",
+    "scope": "Actual sorority v1 portrait in requested pink/white outfit"
+  },
+  "consumer": "bimbo-virus-physiology.js sororityPortrait + appearance-profiles-ui.js sororityPortraitMarkup + index.html portraitMarkup",
+  "referenceOnly": true
+}

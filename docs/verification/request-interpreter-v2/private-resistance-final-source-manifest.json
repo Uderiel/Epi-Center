@@ -1,0 +1,13 @@
+{
+  "npc-actions.js": "64c4af3c6ca3cab7193276fb257094e049de3d683dc946f0aad3e2579cb38209",
+  "npc-actions-ui.js": "4aa90bc04baeddc1ab560f887d1b4a660cd6c1ee5237cd51345df6452dc34596",
+  "text-actions.js": "5045325d01157e7680be56ab0f9646aae2d1878db23e58a2db3f32588821ee14",
+  "ai-ui.js": "50e833626ab33fbec6902fd2df7654af502f751d673aa6d970fcfac70d9b11a7",
+  "ai-context.js": "17587eee6cda9ca07caa468993996c5da02c6f365fe5cb846a1578fc6cb66443",
+  "priya.js": "3e1f4997b953b1efcceb10f038cd65027ecea2f494d508d03338c8e30b512f42",
+  "priya-cat.js": "16ea2fce198ea6cf46e33ca2b2a6494d9e007727b31bc4f883c96a5576441f2f",
+  "bimbo-virus-appearance.js": "ac0ce3796123c6921c4631175c9bfa42e79ce7799e15b5fd08ec64fa6e15a98b",
+  "transformation-history.js": "ac860eaa7c8b8a0ab57342716d2f853a878d96b99f2bee78de16e86cfc83d9e2",
+  "narration-grounding.js": "65164471f2a4fb279133d0f865845cfb7df3203127894918da3266312243f1a7",
+  "action-lexicon.js": "6f952724f0c84e0cb27bf84c8ab6fd4af6db4aced73f493eeb6fc20dda6894d0"
+}

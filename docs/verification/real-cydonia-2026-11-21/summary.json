@@ -1,0 +1,24 @@
+{
+  "status": "Real-model acceptance FAILED; parser fix local and unpublished",
+  "model": "TheDrummer/Cydonia-24B-v4.3",
+  "publicClient": "1.0.136",
+  "publicWorker": "1.0.135",
+  "generationAttempts": 48,
+  "successfulResponses": 47,
+  "ambiguousProviderFailures": 1,
+  "spentIncreaseUSD": 0.150253,
+  "reservedUSD": 0.052984,
+  "automatedCases": 2065,
+  "syntheticSaves": true,
+  "ownerSaves": false,
+  "providerKeyReceived": false,
+  "credentialIncluded": false,
+  "published": false,
+  "limitations": [
+    "Candidate prompt was supplied through the existing diagnostic repair field, not a deployed worker revision. It failed action selection and was discarded from production changes.",
+    "Initial Charity fixture was invalid; corrected fixture was retested.",
+    "No-contact checks after failed offer creation do not establish successful acceptance/stop behavior.",
+    "Prepared cat agreement and body-entry fixtures isolate recognition and resistance, not natural acquisition reachability.",
+    "One ambiguous provider response was not retried and its reservation was not cleared."
+  ]
+}

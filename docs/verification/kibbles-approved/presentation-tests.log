@@ -1,0 +1,28 @@
+PASS full overlay replaces every reported stale human detail while preserving original archive
+PASS one-time male identity selects label, anatomy and matching image without changing resources
+PASS female identity uses female portrait and body
+PASS saved identity cannot be edited even after mastery toggles or reload
+PASS release and re-equip preserve one permanent identity on one item
+PASS repeated victory enrichment retains chosen name and gender
+PASS identity validates mastery, name and gender atomically
+PASS name trimming and Unicode are preserved as player text
+PASS inspect paws uses actual canine description, no human archive fallback
+PASS tail examination stays separate from back
+PASS self inspection reports selected breed dimensions
+PASS surrounding inspection uses actual location description
+PASS upright versus all-fours negation preserves legacy intent precedence
+PASS one-paw balance has authored capability narration without invented roll
+PASS door responses distinguish twist versus lever without falsely opening it
+PASS absent coin cannot be spawned by a pickup action
+PASS existing item still requires canine handling
+PASS public NPC and player communication cannot bypass canine throat
+PASS world speech and writing receive distinct authored outcomes
+PASS mastered form never substitutes taken-state digging for deliberate writing
+PASS explicit unmastered taken state restores legacy digging flavor without resource mutation
+PASS private thoughts remain private and mastered intentions remain owned by player
+PASS combat freeform movement cannot bypass action budgets
+PASS removal prose respects will-release and contains no invented fastening
+PASS unrecognized action keeps limited legacy fallback instead of granting effects
+PASS original human behavior is left to existing systems after release
+PASS old saved identities automatically receive matching dimensions without refilling pools
+27 / 27 presentation/text tests passed

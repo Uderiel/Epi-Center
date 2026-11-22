@@ -1,0 +1,72 @@
+{
+  "checks": [
+    {
+      "name": "Selectable pending offer cancelled without contact, retained after reload",
+      "data": {
+        "slot": 3,
+        "location": "Central Hub Spire",
+        "session": {
+          "id": "npc:tits",
+          "status": "ended",
+          "pending": null,
+          "watch": null,
+          "lastExchange": 960,
+          "currentTurn": null
+        }
+      }
+    },
+    {
+      "name": "Held planner rejected after reset: no gift, resource award or stale text",
+      "data": {
+        "turn": {
+          "id": "npc-turn:bridge-recovery:2",
+          "npcId": "npc:tits",
+          "input": {
+            "spoken": "Could you help with my request?",
+            "observed": []
+          },
+          "publicIdentity": "QA Human",
+          "at": 960,
+          "snapshot": "[47,{\"plush\":1},[0,0,0,0],[null,null,[]],[\"kiss-request:bridge-recovery:1\",\"withdrawn\",null],null,\"bridge-recovery\",\"Burke's Sweets:C\",\"[null,0,true]\",\"Burke's Sweets\",\"C\",null,null,false]",
+          "status": "cancelled",
+          "allowedActions": [
+            "conversation.end",
+            "kiss.offer",
+            "hug.accept",
+            "private.offer",
+            "fluid.request",
+            "gift.give",
+            "dating.request",
+            "shop.drink",
+            "shop.goods"
+          ],
+          "cancelledAt": 960,
+          "reason": "Developer return to human (out of story)"
+        },
+        "inventory": {
+          "plush": 1
+        },
+        "gold": 47,
+        "exp": 13
+      }
+    },
+    {
+      "name": "New real composer conversation after reload uses current slot and scene",
+      "data": {
+        "slot": 3,
+        "location": "Burke's Sweets",
+        "actor": "npc:tits"
+      }
+    },
+    {
+      "name": "Resolved action retained once; delayed final prose cannot replay it",
+      "data": {
+        "count": 1,
+        "playerItem": 0,
+        "npcItem": 1
+      }
+    }
+  ],
+  "errors": [],
+  "blocked": []
+}

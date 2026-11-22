@@ -46,3 +46,15 @@ Approved arrival greetings/hug responses,25+saved simple nicknames, accepted-AI 
 ## Current verification
 
 Sixteen Tits integration cases, five routine cases, fifteen shop cases and sixteen retail cases pass. Main browser checks include equipment inspection, real loans/gifts/disclosure/pay, condition, privacy and reloads; separate routine browser verifies actual clock/forget/reminder/snack. Existing Charity household tests pass for shared income/need changes. No paid-provider prose acceptance, full NPC completion or deployment claimed. See scripts/browser-tits.cjs and scripts/browser-tits-routine.cjs; current logs remain in untracked work, not prior release evidence.
+
+## Local appearance alignment — 2026-11-21
+
+Tits’s owner-approved full appearance now uses exact5ft3/135lb/Fcup/US women6 and the shared regional reference. Prior approved portrait is connected locally. Distinctive features,grooming and external fragrance remain; no new permissions or behavior. See TITS-APPEARANCE-PROPOSAL.md and verification/tits-approved/results.json.
+
+## Complete appearance proposal — approved and implemented
+
+TITS-APPEARANCE-PROPOSAL.md/.json preserves established26/approximately5ft3/size6,curvy silhouette,full chest,narrow waist,ample rear,slender neck,wavy blonde mid-back hair,heavy-lidded blue eyes,pouty lips,button nose,pointed chin and pink nail variations. 135lb,Fcup,US women sizing,light skin and regional selections are now approved/applied; owner confirms exact5ft3. Generated proposed dimensions:waist28.5in,hips40in,under-chest32in,chest37.5in,shoulders13.5in,arm21in,inseam29in. Prior approved photographic image retained and now connected locally. External fragrance and speech/consent/wardrobe/loan/routine rules unchanged.
+
+## Current approved full appearance verification
+
+Tits’s complete24-field appearance is owner-approved,implemented and verified locally. Exact5ft3 and135lb confirmed; age26,Fcup,US women6 and the full regional proposal are applied. Shared reference generates waist28.5in,hips40in,under-chest32in,chest37.5in,shoulders13.5in,arm21in,inseam29in. Established distinctive face/hair/eyes,pink nail variations and external fragrances remain. Prior approved portrait connected unchanged,only at her actual counter,with full2:3 proportions,390px/1100px layout,reload and absence checks.2,256 runtime cases/160 suites and37 browser checks pass (NPC24,current body9,portrait4),including her outgoing requested appearance facts. All11 connected images decode;6 profile states lack image consumers (Eve,Pri,Preeti,three variants); Dart is shared-only. Existing player state,retail,speech,consent,loans and routines are preserved. No paid Cydonia call,new image,worker change or publication. Next is Dart’s complete24-field proposal,unapproved and unapplied:4years,28in at shoulder/withers,82lb,black/rust coat,brown eyes and canine regional details. Human-reference measurements are not used; existing shared Nadia/Dart image remains. Ear cropping and tail length/docking remain unspecified.

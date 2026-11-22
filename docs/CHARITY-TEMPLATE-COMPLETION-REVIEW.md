@@ -4,7 +4,7 @@ Charity’s implemented local systems are published in v1.0.126; this is not a c
 
 | Template section | Implemented / verified locally | Actual remaining work |
 | --- | --- | --- |
-|1Identity/lifecycle|Canonical separate NPC, apparent mid-thirties, appearance, real household actor and preserved player ID|Mask lifecycle remains deferred; chronological age intentionally unknown|
+|1Identity/lifecycle|Canonical separate NPC, age39, appearance, real household actor and preserved player ID|Mask lifecycle remains deferred; actual age39 now owner-confirmed|
 |2Character/voice|Gifted Gabber warmth, mannerisms, favorites, minimalist sharing, story curiosity and concealed-lore filtering|Deployed real-model acceptance; context-sensitive quest confrontation controller|
 |3Capabilities/stats|Epic75,10base cap, specialties, shared profile rebalance|No new combat powers authorized; approved conserved mask transfers remain quest design|
 |4Daily rhythm|Actual room walking, care/rest jobs, working-staff checks, quiet cleanup and Friday laptop ordering|Authoritative offline schedule and coverage quest activation|
@@ -31,3 +31,9 @@ CHARITY-SERVICE-IMPLEMENTATION.md and audits/CHARITY-SERVICE-VERIFICATION.json d
 Shared supplier pricing now connects Monday household orders, actual staffed receipt, missing-stock reconciliation, finite funds and once-only invoice payment. Full97frontend suites pass; dedicated browser checks verify future supplier revisions and immutable historical receipts. Other existing household purchasing adapters read the same supplier authority while preserving their current fallback costs.
 
 The remaining boundaries are explicit: actual meal-giver NPC visit schedules come with those establishments, mask/coverage/shift payroll and real-time offline service remain deferred, and real deployed-model acceptance/publication remain undone. None is a reason to reopen Charity’s approved hours, appearance, personality, household style, prices or routine. Next character in the approved build order is Tits; review her template and Burke’s/Wet Lily Unit1 links next.
+
+## Local appearance alignment — 2026-11-21
+
+Charity’s complete appearance now uses owner-approved actual39/exact5ft6/122lb,Dcup and freckles. Existing approved portrait is connected locally. Shared reference provides approved regional design values; no mask/quest implementation change.
+
+Current identity correction: owner confirms Charity’s actual age39,exact5ft6,exact122lb and freckles. Full approved appearance source:charity-appearance.js; existing approved image connected locally. This updates identity references only; mask/coverage/quest implementation remains deferred.

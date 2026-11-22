@@ -1,0 +1,34 @@
+{
+  "status": "Erin appearance and actual full-body photo approved,connected and verified locally; publication held",
+  "at": "2026-11-22T05:27:47.883255+00:00",
+  "portrait": {
+    "status": "Actual photo viewed and owner-approved; connected locally; unpublished",
+    "source": "/workspace/generated_images/exec-aea34ba0-5de0-4223-bf13-a290c60f4aa2.png",
+    "reviewAsset": "rebuild/hub/assets/character-art-review/erin-fullbody-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "70d3c320bf6876c1f13f05238d4d516f20069bc8e8fc81287cc3e5a0cb26e831",
+    "approved": true,
+    "connected": true,
+    "ownerApproval": "Approved!",
+    "consumer": "rebuild/hub/index.html portraitMarkup; Appearance and Character reference panels",
+    "originalLegacyAssetRetained": "rebuild/hub/assets/erin-legacy-portrait.jpg"
+  },
+  "focusedCases": 22,
+  "browserChecks": {
+    "portrait": 4,
+    "npc": 24,
+    "currentBody": 3
+  },
+  "browserTotal": 31,
+  "allConnectedImagesDecoded": 12,
+  "newImageGenerations": 0,
+  "paidCydoniaCalls": 0,
+  "workerChanges": false,
+  "published": false,
+  "runtimeRegression": "Prior2,267-case/162-suite runtime report retained; focused checks and actual browser integration rerun for portrait connection; no new full regression claim",
+  "next": "Kibbles complete appearance proposal prepared for review; no new Kibbles runtime details applied",
+  "evidence": "docs/verification/erin-portrait-approved/"
+}

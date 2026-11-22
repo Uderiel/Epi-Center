@@ -1,3 +1,7 @@
+## v1.0.137 release disposition
+
+Owner authorized publication. Implemented approved portions are included;pending proposals/deferred systems remain unimplemented. All three approved variant portraits are connected. Current publication/evidence:releases/v1.0.137-release-summary.json. Earlier local/unpublished status labels below are historical checkpoints.
+
 # Deferred systems and unresolved decisions
 
 Release review v1.0.134: no deferred systems are implemented by this release. Repository/staff work stays in the separate unpublished authoring workspace. Real authenticated Cydonia writing-quality acceptance remains unverified; deterministic controller and simulated transport tests do not close that item.
@@ -20,10 +24,13 @@ Reviewed 2026-11-20 against this conversation, current code, completion records 
 | D10 | Wet Lily apartment layouts, including Tits’s assigned Unit 1 interior, entrance, storage and home/commute details; venue-interior nightlife activities and household supply services | Explicitly deferred Build + Decide. Owner reconfirmed Nov20: Wet Lily layouts and Tits’s apartment are not designed. An assigned address or routine placeholder is not an authored apartment interior. | Wet Lily apartment/location design, nightlife venues and household suppliers. TITS-TEMPLATE-COMPLETION-REVIEW.md, BURKES-SWEETS-DESIGN.md |
 | D11 | Daily Needs catalog and actual purchases/recovery; Groceries Aplenty authoritative catalog/prices; other Hub businesses, usable public facilities, fully authored shopkeepers, then Erin's coworkers | Build + Decide by location. Provisional supplier prices and timed placeholders are not complete shops. Preserve owner build order. | Respective Hub locations. HUB-NPC-COMPLETION-ORDER.md |
 | D12 | Tits pink-flavor/BFBFF detailed quests, eligible hidden product quest treasures, additional intimate quest scenes | Deferred Build + Decide. Existing candy effects/discovery logic do not fabricate quest content. | Burke's quest/product content. TITS-TEMPLATE-COMPLETION-REVIEW.md, APPROVAL-IMPLEMENTATION-AUDIT.md |
-| D13 | Kibbles's actual authored age and narrated age presentation | Explicitly deferred Decide + Build; do not guess. | Kibbles/form profile review. CHARITY-COVERAGE-DESIGN.md |
+| D13 | Kibbles actual age and narrated presentation | Resolved locally:owner approved4years;current equipped appearance and narration packets now use4. Original player age stays separate. | KIBBLES-APPEARANCE-PROPOSAL.md; verification/kibbles-approved/results.json |
 | D14 | Danger-area creature sensitivity to player needs/consequences | Build + Decide for actual enemy definitions. Generic needs rules exist; no invented modifiers. | Danger-area/enemy build. PLAYER-NEEDS-CONSEQUENCES.md |
 | D15 | Authoritative multiplayer, shared clock/occupancy/concurrency, offline NPC needs/payroll/rotation and world autonomy | Deferred architecture + Build. Local-save/reload tests are not network/offline proof. | Multiplayer/backend phase. CHARITY-TEMPLATE-COMPLETION-REVIEW.md |
-| D16 | Real deployed-model prose acceptance and public candidate verification | Active verification; owner has authorized AI-on testing. Local/controller and simulated-transport checks exist. Live acceptance is blocked here by the missing authenticated AI test connection; no paid calls were performed. Do not treat simulated replies as real Cydonia acceptance. | Explicit model acceptance/release validation. AI-INTEGRATION-AUDIT.md |
+| D16 | Real deployed-model prose acceptance and public candidate verification | Authenticated real-model testing performed 2026-11-21: 48 attempts, 47 responses, one ambiguous reserved failure. Acceptance FAILED: parser rejection, prose-only action agreements, Priya identity/continuity and invented facts. The local dedicated interpreter now passes selected real flow checks and an 11/11 matrix; full prose acceptance remains open. A subsequent interrupted continuous-save run and 13-call follow-up failed on offer/scene consistency and invented rules. Current client/worker repairs are local; the edited worker is undeployed. See NPC-ACTION-BRIDGE-REVIEW.md and REAL-CYDONIA-ACCEPTANCE-2026-11-21.md. | Explicit model acceptance/release validation. AI-INTEGRATION-AUDIT.md |
+| D18 | Current NPC/form appearance alignment and per-entity report | Implemented locally:18 source-backed profile states,24-field template/current appearance, explicit unknowns and approved cup-derived circumferences.2,247 automated cases and40 browser checks pass. No bulk player-save rewrite or publication. | Review flagged proportional discrepancies; see NPC-FORM-APPEARANCE-ALIGNMENT.md. |
+| D19 | Missing NPC/form portrait connections | Current missing consumers:all3variants. Pri and Preeti are approved/connected locally. Daniel,Eve,Charity,Tits and Erin approved images are connected locally. Dart is shared-only; unassigned Kibbles retains its existing female main fallback. Protected suits remain pinned/unimplemented. | Per-entity image work; preserve existing approvals. NPC-FORM-APPEARANCE-ALIGNMENT.md |
+
 
 ## Closed or intentionally excluded — do not reopen as missing work
 
@@ -35,3 +42,45 @@ Reviewed 2026-11-20 against this conversation, current code, completion records 
 - Appearance baseline/name replacement, stable player ID, daily activity ladder and cure-use consequences already exist. They are not missing simply because cure acquisition is deferred.
 
 **Maintenance:** mark resolved rows with date/evidence; retain their history. Add newly deferred choices immediately with their trigger and source. Do not treat an unknown biography detail or unrequested optional expansion as a release blocker.
+
+Appearance creation integration (2026-11-21): required structured inputs and the approved measurement calculator are implemented and tested locally with the same24 saved fields (including restored separate Tail), human-only creation and original-baseline ±2-inch review.16 creation and8 current-appearance browser checks plus2234 automated cases pass. Generated/review inch values use nearest-half-inch rounding; current-only awareness resolves physical changes and rejects stale requests/replies. That creation-only checkpoint is superseded by the local18-profile alignment; see D18 and NPC-FORM-APPEARANCE-ALIGNMENT.md. See APPEARANCE-TEMPLATE-STANDARD.md.
+
+Appearance cup calibration (2026-11-21): owner confirmed half-inch increments in the ordered labels A, B, C, D, DD, E, EE, F, retaining C at+3inches: A2/B2.5/C3/D3.5/DD4/E4.5/EE5/F5.5 above under-chest. Implemented as game-design calibration; no real-world bra-sizing convention is inferred.
+
+Wings extension (2026-11-21): wings are included inside Back & shoulders for universal NPC/form authoring; human creation locks them absent. No extra saved appearance field and no flight mechanic. D18 alignment now includes this shared wing section/order. Evidence:verification/appearance-wings/.
+
+Richard portrait gap resolved locally: owner-approved image connected and browser-verified;9 catalogue states remain without portrait consumers. Daniel’s full appearance and portrait direction are now approved and applied locally; actual generated portrait image is now separately approved and connected locally.
+
+Daniel appearance alignment resolved locally. His actual portrait is separately approved and connected locally; the catalogue now has8 profile states without connected portraits. Shared pectoral calculator correction is implemented, not deferred. No extra offered cat form or protected suit implementation was introduced.
+
+Daniel portrait gap resolved locally. Nadia’s all-fields appearance proposal is approved and applied locally; existing Nadia/Dart portrait retained. Priya’s full proposal is now approved and applied locally; Charity’s full proposal is now approved/applied with owner amendments; Tits’s full proposal is now approved/applied with exact height confirmed; Dart’s full proposal is approved/applied; Eve’s projected-avatar proposal and actual portrait are approved/applied locally; Erin’s complete appearance is now approved and implemented locally; her actual full-body image is now owner-approved and connected locally. Kibbles complete appearance and age4 are approved/applied locally; Pri male-cat appearance is owner-approved and implemented locally; actual photo is now owner-approved and connected locally.
+
+Nadia appearance alignment resolved locally with approved130lb/Ccup. Remaining image-gap count stays8; no new portrait added. Priya exact age,height,weight and other missing details are approved and applied locally. Charity’s actual age39,exact5ft6/122lb and freckles are now owner-approved and applied locally.
+
+Priya appearance alignment resolved locally with exact approved baseline and unchanged existing portrait. Charity’s new appearance details and amendments are approved and applied; her prior approved portrait is connected locally.7 image-consumer gaps remain.
+
+Charity appearance and portrait gaps resolved locally. Tits’s135lb/Fcup/US women sizing and other details are approved/applied; exact5ft3 confirmed and prior approved portrait connected locally. Dart’s canine appearance proposal is approved and implemented locally.
+
+Tits appearance/portrait gaps resolved locally.6 catalogue states remain without image consumers; Dart remains shared-only. Dart’s numeric age,withers height,mass and coat details are approved/applied; no human-reference output or standalone portrait was invented.
+
+Dart appearance gap resolved locally,including canonical facts in actual recorded narration. Eve’s revised blue-light pixie/suit/barefoot design and actual portrait are approved and connected locally as a reference. No expanded projection geography or physical body.5 image-consumer gaps remain.
+
+Eve actual portrait is approved/connected locally;5 image-consumer gaps remain.
+
+Eve avatar/portrait gap resolved locally with existing geography preserved. Erin appearance gap is resolved locally; her new full-body photo is owner-approved and connected locally;5 remaining image-consumer gaps are Pri,Preeti and the three variants. Runtime acceptance and final release remain separate.
+
+Pri appearance gap resolved locally at approved3years/10in/10lb/green eyes. Actual photo owner-approved and connected locally;image-gap count is now4. Pri/Preeti keep separately approved records;owned cats keep their distinct records. Evidence:verification/pri-approved/results.json.
+
+Preeti appearance gap resolved locally at approved3years/9in/8lb/amber eyes and full24-field record. Actual photo is now owner-approved/connected;image gaps are3 (three variants). No human matrix or owned-cat overwrite. Evidence:verification/preeti-approved/results.json.
+
+Flats appearance alignment resolved locally:explicitly approved US women size7,black pointed-toe/low-heel/leather-like object appearance,current sensory material and retained approved images. Exact material composition and unsupported numeric dimensions stay unspecified. Gym bunny full proposal is next,then image approval,sorority appearance/image,club appearance/image;new variant details unapplied. Three variant portraits remain missing. Evidence:verification/flats-approved/results.json.
+
+Gym-bunny owner amendments are implemented locally;remaining full-template additions and actual revised portrait await review. Image-consumer gaps remain3 variants;gym image exists but is unapproved/unconnected. Universal active-carrier pink saliva/drool is implemented as current physiology/source metadata,not an automatic emission/contact. Existing consent/exposure/cure rules remain. Evidence:verification/gym-amendments/results.json.
+
+Current variant art review:sorority v1 actual image displayed/unapproved/unconnected;club next. Gym v4 approved/connected. Requested sorority body amendments are implemented;remaining full templates/reference estimates are proposal-only. Current missing variant image consumers:2. This supersedes the earlier3-gap checkpoint.
+
+Sorority v1 image is now owner-approved/connected locally,alongside approved gym v4. Current missing portrait consumer count:1 (club);this supersedes the earlier2-gap checkpoint. Club full appearance proposal is ready for review;no club image generated. Existing remaining full-template additions stay proposal-only. Evidence:verification/sorority-portrait-approved/results.json.
+
+Club full24-field appearance is owner-approved and implemented locally;actual v1 portrait remains the sole unconnected profile image,awaiting review. Earlier club proposal-only status is superseded. Clothing is image reference only. Existing remaining gym/sorority full-template additions are not approved by this club approval. Evidence:verification/club-approved/results.json.
+
+Current variant artwork pass complete:owner-approved gym v4,sorority v1 and neon-pink club v2 are connected locally. Current18-profile catalogue portrait-consumer gaps:0. This supersedes the earlier club-only gap. Existing separately unapproved gym/sorority body-template additions remain proposal-only. No publication. Evidence:verification/club-portrait-approved/results.json.

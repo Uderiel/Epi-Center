@@ -1,0 +1,81 @@
+{
+  "status": "Owner-approved Dart canine appearance and recorded narration facts implemented/verified locally; unpublished",
+  "at": "2026-11-21T22:27:35.192Z",
+  "approvedBaseline": {
+    "ageYears": 4,
+    "heightAtWithersInches": 28,
+    "weightPounds": 82,
+    "coat": "Black with rust markings",
+    "eyes": "Brown"
+  },
+  "humanReferenceUsed": false,
+  "measurements": null,
+  "observedAnimalFacts": {
+    "entityId": "npc:dart",
+    "species": "Dog",
+    "breed": "Doberman Pinscher",
+    "sex": "Male",
+    "ageYears": 4,
+    "height": {
+      "value": 28,
+      "unit": "in",
+      "measuredAt": "shoulder (withers)"
+    },
+    "weight": {
+      "value": 82,
+      "unit": "lb"
+    },
+    "coat": "Short,sleek black fur with rust markings",
+    "eyes": "Brown",
+    "forepaws": {
+      "count": 2,
+      "digitsPerPaw": 5,
+      "includesDewclaw": true,
+      "nails": "Canine claws"
+    },
+    "hindpaws": {
+      "count": 2,
+      "digitsPerPaw": 4,
+      "nails": "Canine claws"
+    },
+    "ears": "Upright and pointed; cropping status not specified",
+    "tail": "Present; length and docking status not specified",
+    "stance": "Quadrupedal",
+    "speech": "Canine sounds only; no human speech"
+  },
+  "runtime": {
+    "cases": 2257,
+    "suites": 160,
+    "passed": true,
+    "scope": "Runtime-only regression; final release/canon preparation remains pending combined release"
+  },
+  "focusedCases": {
+    "alignment": 17,
+    "dart": 14,
+    "expression": 19,
+    "conversation": 9,
+    "routines": 15
+  },
+  "browserChecks": {
+    "npc": 24,
+    "currentBody": 9,
+    "animalNarration": 4
+  },
+  "narrationPacketCharacters": 2892,
+  "portrait": {
+    "asset": "rebuild/hub/assets/nadia-voss-dart.jpg",
+    "status": "Existing owner-approved shared portrait retained; no standalone Dart image",
+    "connected": true,
+    "approved": true,
+    "sha256": "85d1adf64c771329aa24d40ee4ac5db0daf7c61df742de7dad4c7bad74c5382f"
+  },
+  "connectedImagesDecoded": 11,
+  "profileStatesWithoutPortraitConsumer": 6,
+  "playerAppearanceAndHumanCreationPreserved": true,
+  "ordinaryCanineControllersPreserved": true,
+  "paidCydoniaCalls": 0,
+  "imageGenerations": 0,
+  "workerChanged": false,
+  "published": false,
+  "next": "Eve full24-field projected-avatar proposal awaiting review; visual additions not applied"
+}

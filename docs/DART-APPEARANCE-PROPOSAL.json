@@ -1,0 +1,387 @@
+{
+  "status": "Complete canine appearance owner-approved,implemented and verified locally; shared portrait retained; unpublished",
+  "entity": "npc:dart",
+  "established": {
+    "species": "Dog",
+    "breed": "Purebred Doberman Pinscher",
+    "gender": "Male",
+    "age": "Adult; exact age not authored",
+    "owner": "Nadia Voss",
+    "body": "Quadrupedal canine"
+  },
+  "draft": {
+    "schema": 1,
+    "mode": "universal",
+    "answers": {
+      "age": {
+        "value": "4"
+      },
+      "gender": {
+        "value": "Male"
+      },
+      "footSize": {
+        "presence": "Present",
+        "count": "2",
+        "type": "Paws",
+        "sizeMode": "Physical measurement",
+        "sizingSystem": "Not specified",
+        "length": {
+          "mode": "Not specified"
+        },
+        "width": "Medium",
+        "arch": "Not applicable",
+        "sole": "Paw pads",
+        "digits": "4",
+        "nails": "Claws",
+        "covering": "Fur",
+        "material": "Custom",
+        "surfaceColour": "Custom",
+        "texture": "Custom",
+        "markings": "None",
+        "materialCustom": "Fur-covered biological tissue",
+        "surfaceColourCustom": "Black-and-rust fur; dark paw pads",
+        "textureCustom": "Firm paw pads with short surrounding fur"
+      },
+      "legs": {
+        "count": "2",
+        "type": "Digitigrade legs",
+        "length": "Average",
+        "build": "Muscular",
+        "covering": "Fur",
+        "grooming": "Custom",
+        "material": "Custom",
+        "surfaceColour": "Not specified",
+        "groomingCustom": "Natural short coat",
+        "materialCustom": "Fur-covered biological tissue"
+      },
+      "hips": {
+        "width": "Medium",
+        "shape": "Custom",
+        "proportions": "Custom",
+        "material": "Custom",
+        "surfaceColour": "Not specified",
+        "shapeCustom": "Canine pelvis",
+        "proportionsCustom": "Proportionate canine hindquarters",
+        "materialCustom": "Fur-covered biological tissue"
+      },
+      "buttocks": {
+        "size": "Medium",
+        "shape": "Custom",
+        "material": "Custom",
+        "surfaceColour": "Not specified",
+        "shapeCustom": "Canine hindquarters around tail base",
+        "materialCustom": "Fur-covered biological tissue"
+      },
+      "waist": {
+        "width": "Narrow",
+        "abdomen": "Custom",
+        "muscle": "Slight",
+        "material": "Custom",
+        "surfaceColour": "Not specified",
+        "abdomenCustom": "Tucked canine abdomen",
+        "materialCustom": "Fur-covered biological tissue"
+      },
+      "back": {
+        "width": "Medium",
+        "shoulders": "Custom",
+        "back": "Straight",
+        "material": "Custom",
+        "surfaceColour": "Not specified",
+        "posture": "Custom",
+        "wingsPresence": "Absent",
+        "wingsCount": "Not specified",
+        "wingsType": "Not specified",
+        "wingspan": {
+          "mode": "Not specified"
+        },
+        "wingsDetails": "Not specified",
+        "wingsMaterial": "Not specified",
+        "wingsColour": "Not specified",
+        "shouldersCustom": "Canine shoulders",
+        "postureCustom": "Quadrupedal stance",
+        "materialCustom": "Fur-covered biological tissue"
+      },
+      "chest": {
+        "type": "Custom",
+        "cup": "Not specified",
+        "size": "Not specified",
+        "shape": "Custom",
+        "material": "Custom",
+        "surfaceColour": "Not specified",
+        "typeCustom": "Canine chest",
+        "shapeCustom": "Deep oval ribcage",
+        "materialCustom": "Fur-covered biological tissue"
+      },
+      "arms": {
+        "count": "2",
+        "type": "Custom",
+        "length": "Average",
+        "muscle": "Slight",
+        "material": "Custom",
+        "surfaceColour": "Not specified",
+        "grooming": "Custom",
+        "typeCustom": "Canine forelegs",
+        "groomingCustom": "Natural short coat",
+        "materialCustom": "Fur-covered biological tissue"
+      },
+      "hands": {
+        "count": "2",
+        "type": "Paws",
+        "size": "Average",
+        "width": "Average",
+        "material": "Custom",
+        "surfaceColour": "Not specified",
+        "materialCustom": "Fur-covered biological tissue"
+      },
+      "fingers": {
+        "count": "5",
+        "length": "Short",
+        "thickness": "Average",
+        "nails": "Claws",
+        "nailLength": "Short",
+        "nailShape": "Custom",
+        "nailColour": "Custom",
+        "nailMaterial": "Custom",
+        "material": "Custom",
+        "surfaceColour": "Not specified",
+        "nailShapeCustom": "Curved canine claws; five digits include the forepaw dewclaw",
+        "nailColourCustom": "Dark",
+        "nailMaterialCustom": "Canine claw keratin",
+        "materialCustom": "Fur-covered biological tissue"
+      },
+      "voice": {
+        "neck": "Average",
+        "pitch": "Low",
+        "quality": "Custom",
+        "material": "Custom",
+        "surfaceColour": "Not specified",
+        "qualityCustom": "Canine barks,whines and growls; no human speech",
+        "materialCustom": "Fur-covered biological tissue"
+      },
+      "face": {
+        "shape": "Custom",
+        "jaw": "Custom",
+        "chin": "Not applicable",
+        "cheeks": "Not applicable",
+        "noseSize": "Average",
+        "noseShape": "Custom",
+        "lipFullness": "Not applicable",
+        "lipShape": "Custom",
+        "salivation": "Average",
+        "facialHair": "Custom",
+        "complexion": [
+          {
+            "kind": "Not specified"
+          }
+        ],
+        "material": "Custom",
+        "surfaceColour": "Not specified",
+        "shapeCustom": "Elongated canine head",
+        "jawCustom": "Canine jaw",
+        "noseShapeCustom": "Black canine nose",
+        "lipShapeCustom": "Canine lips",
+        "facialHairCustom": "Short muzzle fur",
+        "materialCustom": "Fur-covered biological tissue"
+      },
+      "eyes": {
+        "count": "2",
+        "size": "Average",
+        "shape": "Almond",
+        "iris": "Brown",
+        "leftIris": "Not specified",
+        "rightIris": "Not specified",
+        "sclera": "Custom",
+        "material": "Custom",
+        "materialCustom": "Canine eye tissue",
+        "scleraCustom": "Canine sclera,usually little exposed"
+      },
+      "ears": {
+        "count": "2",
+        "size": "Large",
+        "shape": "Custom",
+        "material": "Skin",
+        "surfaceColour": "Not specified",
+        "shapeCustom": "Upright pointed ears; cropping status not specified"
+      },
+      "hair": {
+        "length": "Short",
+        "colour": "Custom",
+        "texture": "Straight",
+        "density": "Dense",
+        "style": "Custom",
+        "material": "Fur",
+        "colourCustom": "Black with rust markings",
+        "styleCustom": "Short sleek body coat; no separate scalp hairstyle"
+      },
+      "skin": {
+        "material": "Custom",
+        "surfaceColour": "Custom",
+        "texture": "Custom",
+        "markings": [
+          {
+            "kind": "Custom",
+            "detail": "Black-and-rust coat",
+            "location": "Muzzle,brows,chest and lower legs",
+            "prominence": "Distinct"
+          }
+        ],
+        "bodyHair": "Custom",
+        "materialCustom": "Fur-covered biological skin",
+        "surfaceColourCustom": "Black coat with rust markings; underlying skin pigment unspecified",
+        "textureCustom": "Short sleek fur",
+        "bodyHairCustom": "Short dense canine coat"
+      },
+      "genitalAnatomy": {
+        "configuration": "Not specified",
+        "length": {
+          "mode": "Not specified"
+        },
+        "testes": "Not specified",
+        "tightness": "Not specified",
+        "puffiness": "Not specified",
+        "swelling": "Not specified",
+        "viscosity": "Not specified",
+        "variation": "Not specified",
+        "grooming": "Not applicable",
+        "material": "Custom",
+        "surfaceColour": "Not specified",
+        "materialCustom": "Biological tissue"
+      },
+      "scent": {
+        "natural": "Custom",
+        "strength": "Mild",
+        "perspiration": "Minimal",
+        "temperature": "Warm",
+        "traits": [
+          "Custom"
+        ],
+        "naturalCustom": "Canine coat scent",
+        "traitsCustom": "Panting is the primary cooling method; limited paw-pad perspiration"
+      },
+      "height": {
+        "unit": "imperial",
+        "value": 28,
+        "raw": {
+          "feet": 2,
+          "inches": 4
+        }
+      },
+      "weight": {
+        "unit": "imperial",
+        "value": 82,
+        "raw": {
+          "lb": 82
+        }
+      },
+      "build": {
+        "value": "Adult male Doberman Pinscher with a lean muscular quadrupedal build."
+      },
+      "tail": {
+        "presence": "Present",
+        "description": "Custom",
+        "material": "Custom",
+        "surfaceColour": "Not specified",
+        "descriptionCustom": "Canine tail; length and docking status not specified",
+        "materialCustom": "Fur-covered biological tissue"
+      }
+    },
+    "inheritedColours": {
+      "footSize": false
+    },
+    "review": null,
+    "stage": "editor"
+  },
+  "appearance": {
+    "age": "4",
+    "gender": "Male",
+    "footSize": "Feet present: Present; Number of feet: 2; Foot type: Paws; Describe foot size using: Physical measurement; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not specified; Foot width: Medium; Arch height: Not applicable; Sole or pads: Paw pads; Toes per foot: 4; Nails or claws: Claws; Covering: Fur; Material: Fur-covered biological tissue; Surface colour: Black-and-rust fur,  dark paw pads; Surface texture: Firm paw pads with short surrounding fur; Markings: None",
+    "legs": "Number of legs: 2; Leg type: Digitigrade legs; Length: Average; Build: Muscular; Covering: Fur; Hair / grooming: Natural short coat; Material: Fur-covered biological tissue; Surface colour: Not specified; inseam: Not specified",
+    "hips": "Width: Medium; Shape: Canine pelvis; Proportions relative to waist / torso: Proportionate canine hindquarters; Material: Fur-covered biological tissue; Surface colour: Not specified; hip circumference: Not specified",
+    "buttocks": "Size: Medium; Shape: Canine hindquarters around tail base; Material: Fur-covered biological tissue; Surface colour: Not specified",
+    "waist": "Waist width: Narrow; Abdomen shape: Tucked canine abdomen; Muscle definition: Slight; Material: Fur-covered biological tissue; Surface colour: Not specified; waist circumference: Not specified",
+    "back": "Shoulder width: Medium; Shoulder shape: Canine shoulders; Back shape: Straight; Material: Fur-covered biological tissue; Surface colour: Not specified; Usual posture: Quadrupedal stance; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: Not specified",
+    "chest": "Type: Canine chest; Cup size: Not applicable; Pectoral size: Not applicable; Shape: Deep oval ribcage; Material: Fur-covered biological tissue; Surface colour: Not specified; under-chest circumference: Not specified; chest circumference: Not specified",
+    "arms": "Number of arms: 2; Arm type: Canine forelegs; Length: Average; Muscle definition: Slight; Material: Fur-covered biological tissue; Surface colour: Not specified; Hair / grooming: Natural short coat; shoulder-to-wrist length: Not specified",
+    "hands": "Number of hands: 2; Hand type: Paws; Size: Average; Width: Average; Material: Fur-covered biological tissue; Surface colour: Not specified",
+    "fingers": "Digits per hand: 5; Length: Short; Thickness: Average; Nail type: Claws; Nail length: Short; Nail shape: Curved canine claws,  five digits include the forepaw dewclaw; Nail colour: Dark; Nail material: Canine claw keratin; Material: Fur-covered biological tissue; Surface colour: Not specified",
+    "voice": "Neck shape: Average; Voice pitch: Low; Voice quality: Canine barks,whines and growls,  no human speech; Material: Fur-covered biological tissue; Surface colour: Not specified",
+    "face": "Overall shape: Elongated canine head; Jaw: Canine jaw; Chin: Not applicable; Cheeks: Not applicable; Nose size: Average; Nose shape: Black canine nose; Lip fullness: Not applicable; Lip shape: Canine lips; Salivation rate: Average; Facial hair: Short muzzle fur; Complexion and markings: Not specified; Material: Fur-covered biological tissue; Surface colour: Not specified",
+    "eyes": "Number of eyes: 2; Size: Average; Shape: Almond; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Canine sclera,usually little exposed; Material: Canine eye tissue",
+    "ears": "Number of ears: 2; Size: Large; Shape: Upright pointed ears,  cropping status not specified; Material: Skin; Surface colour: Black coat with rust markings,  underlying skin pigment unspecified",
+    "hair": "Length: Short; Colour: Black with rust markings; Texture: Straight; Density: Dense; Style: Short sleek body coat,  no separate scalp hairstyle; Material: Fur",
+    "skin": "Material: Fur-covered biological skin; Surface colour: Black coat with rust markings,  underlying skin pigment unspecified; Texture: Short sleek fur; Body markings: Black-and-rust coat (location: Muzzle,brows,chest and lower legs; prominence: Distinct); Body hair: Short dense canine coat",
+    "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not applicable; Material: Biological tissue; Surface colour: Not specified; Recorded details: Male canine anatomy,  dimensions not specified",
+    "scent": "Natural body scent: Canine coat scent; Scent strength: Mild; Perspiration tendency: Minimal; Usual skin temperature: Warm; Other physical tendencies: Panting is the primary cooling method,  limited paw-pad perspiration",
+    "height": "28 in at the shoulder (withers)",
+    "weight": "82 lb",
+    "build": "Adult male Doberman Pinscher with a lean muscular quadrupedal build",
+    "tail": "Tail present: Present; Tail description: Canine tail,  length and docking status not specified; Material: Fur-covered biological tissue; Surface colour: Not specified; Recorded details: Doberman tail,  length and docking are not authored"
+  },
+  "rawSupplements": {
+    "height": "28 in at the shoulder (withers)",
+    "genitalAnatomy": "Male canine anatomy; dimensions not specified"
+  },
+  "measurementPolicy": "No human-reference calculator or cup/circumference matrix.28in is explicitly withers height,not human standing height. No unprovided limb lengths/girths generated.",
+  "portrait": {
+    "asset": "rebuild/hub/assets/nadia-voss-dart.jpg",
+    "status": "Existing owner-approved shared portrait retained; no standalone Dart image",
+    "connected": true,
+    "approved": true,
+    "sha256": "85d1adf64c771329aa24d40ee4ac5db0daf7c61df742de7dad4c7bad74c5382f"
+  },
+  "notes": [
+    "Owner approved4years,28in at shoulder/withers,82lb,black/rust coat,brown eyes and full canine regional record.",
+    "Same24 fields; Arms/Hands/Fingers represent forelegs/forepaws/five front digits including dewclaws; Legs/Feet represent hindlegs/hindpaws/four hind digits.",
+    "No human reference/cup/circumference matrix. Withers height never relabelled as standing human height.",
+    "Ear cropping and tail length/docking remain unspecified.",
+    "Approved body facts are attached to existing recorded/animal-plan Dart narration only while actually co-present. No human dialogue or action permissions granted.",
+    "Player body/needs rates,ordinary canine routines,ownership and existing shared image remain."
+  ],
+  "ownerApproval": "Approved",
+  "approvedBaseline": {
+    "ageYears": 4,
+    "heightAtWithersInches": 28,
+    "weightPounds": 82,
+    "coat": "Black with rust markings",
+    "eyes": "Brown"
+  },
+  "runtimeSource": "rebuild/hub/dart-appearance.js",
+  "observedFacts": {
+    "entityId": "npc:dart",
+    "species": "Dog",
+    "breed": "Doberman Pinscher",
+    "sex": "Male",
+    "ageYears": 4,
+    "height": {
+      "value": 28,
+      "unit": "in",
+      "measuredAt": "shoulder (withers)"
+    },
+    "weight": {
+      "value": 82,
+      "unit": "lb"
+    },
+    "coat": "Short,sleek black fur with rust markings",
+    "eyes": "Brown",
+    "forepaws": {
+      "count": 2,
+      "digitsPerPaw": 5,
+      "includesDewclaw": true,
+      "nails": "Canine claws"
+    },
+    "hindpaws": {
+      "count": 2,
+      "digitsPerPaw": 4,
+      "nails": "Canine claws"
+    },
+    "ears": "Upright and pointed; cropping status not specified",
+    "tail": "Present; length and docking status not specified",
+    "stance": "Quadrupedal",
+    "speech": "Canine sounds only; no human speech"
+  },
+  "releaseDisposition": {
+    "version": "1.0.137",
+    "scope": "Only implemented owner-approved portions and approved portrait consumers are included;any explicitly pending full-template additions remain proposals",
+    "publicationRecord": "docs/releases/v1.0.137-release-summary.json"
+  }
+}

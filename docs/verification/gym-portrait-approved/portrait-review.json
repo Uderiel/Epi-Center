@@ -1,0 +1,23 @@
+{
+  "status": "Owner viewed and approved actual v4 image;connected locally only for the completed gym-bunny base body;publication held",
+  "source": "/workspace/generated_images/exec-c5a7a69d-e91c-479c-a8ab-54fb6d7d5a89.png",
+  "reviewAsset": "rebuild/hub/assets/character-art-review/gym-bunny-v4.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "9bbce1f3cf28ee2e5896e9978f572ab28b519bad1576253dc37ec7d1cc03cd0e",
+  "approved": true,
+  "connected": true,
+  "direction": "Preserve identity,outfit,pose and feminine silhouette;natural realistic light-tan skin,slightly softer toned abdominal definition and slightly enhanced post-exercise sweat.",
+  "revisionRequested": "Make skin tone realistic,slightly soften abs,slightly enhance visible sweat",
+  "supersedes": "rebuild/hub/assets/character-art-review/gym-bunny-v3.png",
+  "previousImageRetained": true,
+  "approval": {
+    "quote": "Approved",
+    "date": "2026-11-22",
+    "scope": "Actual v4 image following requested skin-tone,abdominal-definition and sweat revision"
+  },
+  "consumer": "bimbo-virus-physiology.js gymPortrait;appearance-profiles-ui.js gymBunnyPortraitMarkup;index.html portraitMarkup",
+  "referenceOnly": true
+}

@@ -1,0 +1,39 @@
+{
+  "observed_at": "2026-11-21T12:43:52.537946+00:00",
+  "commit": "27d471315dd73c1956e82b506d6927209cebff4e",
+  "checkLookup": "commit check-runs, not cached check ID",
+  "checks": [
+    {
+      "id": 136845601039,
+      "status": "completed",
+      "conclusion": "success",
+      "started_at": "2026-11-21T12:27:31Z",
+      "completed_at": "2026-11-21T12:27:31Z",
+      "details_url": "https://dash.cloudflare.com/7dff926f4e48921aecf343cfeb49a698/workers/services/view/epi-center-ai/production/previews/test-request-handoff-v3/builds/0813a13f-2349-4ca4-841d-8109b9579db4"
+    }
+  ],
+  "previewURL": "https://test-request-handoff-v3-epi-center-ai.jermil2008.workers.dev",
+  "previewHealth": {
+    "service": "Epi-Center AI",
+    "releaseVersion": "1.0.135",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "actionProtocol": "npc-actions-v1",
+    "requestAssemblyVersion": "request-handoff-v3",
+    "configured": false
+  },
+  "productionHealth": {
+    "service": "Epi-Center AI",
+    "releaseVersion": "1.0.135",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "actionProtocol": "npc-actions-v1",
+    "configured": true
+  },
+  "supersedes": "Earlier pending reports queried obsolete check 136845282048. Current successful check is 136845601039.",
+  "blocker": "Preview reachable with correct assembly, configured false; separate preview credentials require authenticated Cloudflare access. No new model calls."
+}

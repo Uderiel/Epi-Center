@@ -1,0 +1,38 @@
+{
+  "status": "Preeti actual approved image connected and verified locally; unpublished",
+  "at": "2026-11-22T06:01:13.661Z",
+  "portrait": {
+    "status": "Actual image viewed and owner-approved; connected locally; unpublished",
+    "source": "/workspace/generated_images/exec-12e68a9c-8185-4aa2-b2d2-9b06f93b1e2d.png",
+    "reviewAsset": "rebuild/hub/assets/character-art-review/preeti-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "453c03a5f8ba9273e939c0f3195b835d269320885787ba4dd00a65baf5ba2255",
+    "approved": true,
+    "connected": true,
+    "ownerApproval": "Approved",
+    "consumer": "rebuild/hub/preeti-appearance.js portrait + index.html portraitMarkup; currently entered standard female Preeti only"
+  },
+  "focusedCases": 68,
+  "browser": {
+    "passed": true,
+    "counts": {
+      "portrait": 4,
+      "preeti": 4,
+      "pri": 4,
+      "npc": 24
+    },
+    "total": 36,
+    "realProvider": false
+  },
+  "connectedImagesDecoded": 14,
+  "missingPortraitConsumers": 3,
+  "newImageGenerations": 0,
+  "cydoniaCalls": 0,
+  "workerChanges": false,
+  "published": false,
+  "runtimeRegression": "Prior2283-case/165-suite broad runtime report retained; focused suites and actual browser integration rerun for image connection; no new full regression claim",
+  "next": "Priya flats complete24-field object-appearance proposal ready for owner review; new sizing/material descriptions not applied"
+}

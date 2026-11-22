@@ -1,0 +1,18 @@
+PASS morning jobs use connected rooms and actual minutes without changing player grooming or resources
+PASS already elapsed morning does not retroactively create a packed meal or completed yoga
+PASS a real packed lunch consumes ingredients and is not generated on an empty pantry
+PASS household elapsed ticking and one-minute ticking produce the same saved progress
+PASS guest refreshment offer is optional and does not issue inventory or spend stock by itself
+PASS accepted tea uses physical kitchen preparation and handover before entering player Items
+PASS leaving during preparation cannot cause remote inventory handover after reload
+PASS outings traverse hall corridor and lobby before outdoor journey and return legally
+PASS boutique plan makes real purchases from NPC funds and has one set of transactions
+PASS manual private outfit change receives conversation time instead of immediate routine overwrite
+PASS weekend jog keeps its six-o-clock start and retrieval despite physical apartment departure
+PASS ongoing writing emits one local audible detail and survives reload without repeating it
+PASS private writing and speech cannot be heard from a different apartment room
+PASS cooking feedback requires actual ingredients and never consumes supplies early
+PASS activity speech has a saved cooldown while different real jobs still provide sensory detail
+PASS cat chatter offers company without deciding contact or the player response
+PASS unworn nearby flats can hear audible self-talk without revealing their player identity
+17 daily life cases passed

@@ -1,0 +1,50 @@
+{
+  "status": "Owner-approved full Preeti appearance implemented and verified locally; actual photo displayed,pending separate image approval; unpublished",
+  "at": "2026-11-22T05:57:09.501Z",
+  "entity": "form:priya-cat:female",
+  "appearanceApproved": true,
+  "approvedBaseline": {
+    "ageYears": 3,
+    "heightAtWithersInches": 9,
+    "weightPounds": 8,
+    "eyes": "Amber"
+  },
+  "portrait": {
+    "status": "Actual photo generated and displayed for separate image approval; not connected or published",
+    "source": "/workspace/generated_images/exec-12e68a9c-8185-4aa2-b2d2-9b06f93b1e2d.png",
+    "reviewAsset": "rebuild/hub/assets/character-art-review/preeti-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "453c03a5f8ba9273e939c0f3195b835d269320885787ba4dd00a65baf5ba2255",
+    "approved": false,
+    "connected": false
+  },
+  "focusedCases": 59,
+  "runtime": {
+    "passed": true,
+    "namedCases": 2283,
+    "suites": 165,
+    "scope": "Runtime-only; final combined release/canon freeze still pending"
+  },
+  "browser": {
+    "passed": true,
+    "counts": {
+      "npc": 24,
+      "currentBody": 9,
+      "preeti": 4,
+      "pri": 4
+    },
+    "total": 41,
+    "realProvider": false
+  },
+  "connectedImagesDecoded": 13,
+  "missingPortraitConsumers": 4,
+  "imageGenerations": 1,
+  "imageGenerationPrice": "not reported by tool",
+  "cydoniaCalls": 0,
+  "workerChanges": false,
+  "published": false,
+  "remaining": "Actual Preeti photo approval before connection; then next form review. General live-model prose acceptance remains open."
+}

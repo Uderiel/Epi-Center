@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "realProvider": false,
+  "checks": [
+    "Daniel menu conversation reaches his model request with the completed controller result",
+    "Nadia office menu retains its actual topic and controller result",
+    "Charity permission dialogue gets the same real scoped invitation that the menu granted",
+    "Richard household permission acknowledgement follows the recorded grant without replaying it"
+  ],
+  "errors": []
+}

@@ -1,0 +1,16 @@
+PASS ordinary kennel blocks walking but preserves mastered release and clears gear immediately
+PASS home invitation and collar choices require actual nearby bodies
+PASS ongoing guest viewing preserves partial progress across reload and completes once
+PASS changed room interrupts guest activity without invented completion
+PASS guest shower requires permission and consumes real products once
+PASS paid supplies arrive as bags before actual put-away and never double charge
+PASS real laundry waits for forty-minute cycle before restoring same owned garments
+PASS post-sniff park greeting offers real attention treat and home visit outside the apartment
+8 Nadia integration cases passed
+PASS collar acceptance requires a current offered choice and remains atomic when unavailable
+PASS collar offers do not cross body space or player identity
+PASS preparing Nadia alternatives creates neither an offer nor physical acceptance
+PASS kennel offer requires the same player body room and unoccupied actual kennel across reload
+PASS typed household requests use shared modality and distinguish interest acceptance and other dogs
+13 verified Nadia integration cases passed
+PASS removing a collar keeps an occupied kennel active and opening the kennel keeps an equipped collar

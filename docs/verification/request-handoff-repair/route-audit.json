@@ -1,0 +1,58 @@
+{
+  "passed": true,
+  "checkedRoutes": 1563,
+  "worldNodes": 322,
+  "legalEdges": 694,
+  "longestOutdoorSteps": 37,
+  "examples": [
+    {
+      "from": "applewood",
+      "to": "Central Hub Spire",
+      "steps": [
+        "Technology Center",
+        "N. Main Street (4)",
+        "Leaf and Laurel",
+        "N. Main Street (2)",
+        "Cherished Touch",
+        "Central Hub N",
+        "Central Hub Spire"
+      ],
+      "minutes": 56
+    },
+    {
+      "from": "applewood",
+      "to": "Cybernetics Periphery (7)",
+      "steps": [
+        "Technology Center",
+        "N. Main Street (4)",
+        "N. Main Street (3)",
+        "NW Alley (6)",
+        "NW Alley (4)",
+        "NW Alley (1)",
+        "Entertainment Row (3)",
+        "Outerloop Road (27)",
+        "Outerloop Road (26)",
+        "Wet Lily Apartments",
+        "Sin-Thetic Pleasures",
+        "Nariel Street (1)",
+        "City Loop Road (46)",
+        "City Loop Road (45)",
+        "City Loop Road (44)",
+        "City Loop Road (43)",
+        "Old Concrete Route (1)",
+        "Old Concrete Route (2)",
+        "Old Concrete Route (3)",
+        "Old Concrete Route (4)",
+        "Old Concrete Route (6)",
+        "Old Concrete Route (7)",
+        "Old Concrete Route (8)",
+        "Cybernetics Gate",
+        "Cybernetics Periphery (2)",
+        "Cybernetics Nexus",
+        "Cybernetics Periphery (7)"
+      ],
+      "minutes": 216
+    }
+  ],
+  "limits": "Tests shortest cost on the existing legal map graph, including known-map restrictions. Does not validate authored geography or generated prose."
+}

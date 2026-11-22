@@ -1,0 +1,41 @@
+PASS actual spoken date request carries Layla and Priya with no fallback script
+PASS direct response is displayed and saved as player conversation
+PASS ambient conversation receives its own history without date leakage
+PASS Nadia speaking as Priya is withheld and corrected
+PASS follow-up keeps previous personal reply and excludes ambient copy
+PASS repetition alone does not reject the model response or trigger a paid retry
+PASS reload preserves scoped personal continuity and possessions
+PASS real feed entry without footwear metadata is grounded before request
+PASS invented footwear objects are blocked on the real feed path
+PASS corrected grounded narration remains available
+SCENE DIAGNOSTIC [
+  {
+    speaker: 'Priya Shah',
+    text: 'Oh hey Layla. My day has been pretty standard so far. I have been checking product claims for our upcoming campaign and making sure the wording is accurate. Is everything alright?',
+    aiFailure: null
+  },
+  {
+    speaker: 'Priya Shah',
+    text: 'Oh hey Layla. My day has been pretty standard so far. I have been checking product claims for our upcoming campaign and making sure the wording is accurate. Is everything alright?',
+    aiFailure: null
+  },
+  {
+    speaker: 'World',
+    text: 'From the shelf, your view remains low and dim. No weight presses through the soles.',
+    aiFailure: null
+  },
+  {
+    speaker: 'Private · Kibbles',
+    text: 'A familiar canine impression.',
+    aiFailure: 'The recorded scene exceeds the AI context limit; no request was sent. 11533 {"contextVersion":19,"publicVenues":2,"publicVenueNotes":42,"visibleParticipants":2,"physicalContext":445,"eventStatus":12,"playerInput":188,"location":19,"room":4,"time":13,"currentForm":9,"visibleNPCs":2,"eventOutcomeIsFinal":5,"conversation":41,"recordedNeedsState":290,"wornEquipmentEffects":476,"livingProfile":199,"embodiment":234,"formIdentity":129,"privateFormState":705,"currentAppearance":7177,"datingReadiness":41,"carrierSocialPolicy":188,"relationship":531}'
+  }
+]
+page.evaluate: TypeError: Cannot read properties of undefined (reading 'packet')
+    at eval (eval at evaluate (:311:30), <anonymous>:1:28)
+    at UtilityScript.evaluate (<anonymous>:313:16)
+    at UtilityScript.<anonymous> (<anonymous>:1:44)
+    at /workspace/epicenter-release-1.0.137/scripts/browser-conversation-routing.cjs:12:570
+    at check (/workspace/epicenter-release-1.0.137/scripts/browser-conversation-routing.cjs:2:435)
+    at /workspace/epicenter-release-1.0.137/scripts/browser-conversation-routing.cjs:12:483 {
+  log: []
+}

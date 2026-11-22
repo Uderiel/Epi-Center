@@ -1,0 +1,86 @@
+[
+  {
+    "input": "Hi, how are you?",
+    "response": {
+      "text": "```json\n{\n  \"action\": null\n}\n```",
+      "actionProtocol": "npc-actions-v1",
+      "protocolVersion": "grounded-turn-v1",
+      "relationshipVersion": "directed-pair-v2",
+      "finishReason": "stop",
+      "truncated": false,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "usage": {
+        "inputTokens": 2080,
+        "outputTokens": 12,
+        "costUSD": 0.00134322
+      },
+      "budget": {
+        "month": "2026-11",
+        "spentUSD": 0.832822,
+        "reservedUSD": 0.052984,
+        "limitUSD": 50,
+        "remainingUSD": 49.114194,
+        "inputTokens": 1248556,
+        "outputTokens": 68078,
+        "requests": 651,
+        "blocked": false
+      }
+    }
+  },
+  {
+    "input": "I would like to kiss you. Would that be okay?",
+    "response": {
+      "text": "```json\n{\n  \"action\": {\n    \"id\": \"kiss.offer\",\n    \"arguments\": {}\n  }\n}\n```",
+      "actionProtocol": "npc-actions-v1",
+      "protocolVersion": "grounded-turn-v1",
+      "relationshipVersion": "directed-pair-v2",
+      "finishReason": "stop",
+      "truncated": false,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "usage": {
+        "inputTokens": 2094,
+        "outputTokens": 28,
+        "costUSD": 0.00137018
+      },
+      "budget": {
+        "month": "2026-11",
+        "spentUSD": 0.834193,
+        "reservedUSD": 0.052984,
+        "limitUSD": 50,
+        "remainingUSD": 49.112823,
+        "inputTokens": 1250650,
+        "outputTokens": 68106,
+        "requests": 652,
+        "blocked": false
+      }
+    }
+  },
+  {
+    "input": "A coffee for here, served now please.",
+    "response": {
+      "text": "```json\n{\"action\":{\"id\":\"shop.drink\",\"arguments\":{\"product\":{\"id\":\"coffee\",\"name\":\"Standard coffee\",\"price\":6},\"cup\":\"cafe\",\"timing\":\"now\"}}}\n```",
+      "actionProtocol": "npc-actions-v1",
+      "protocolVersion": "grounded-turn-v1",
+      "relationshipVersion": "directed-pair-v2",
+      "finishReason": "stop",
+      "truncated": false,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "usage": {
+        "inputTokens": 2090,
+        "outputTokens": 44,
+        "costUSD": 0.00138454
+      },
+      "budget": {
+        "month": "2026-11",
+        "spentUSD": 0.835578,
+        "reservedUSD": 0.052984,
+        "limitUSD": 50,
+        "remainingUSD": 49.111438,
+        "inputTokens": 1252740,
+        "outputTokens": 68150,
+        "requests": 653,
+        "blocked": false
+      }
+    }
+  }
+]

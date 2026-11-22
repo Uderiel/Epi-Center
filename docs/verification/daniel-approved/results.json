@@ -1,0 +1,52 @@
+{
+  "status": "Approved Daniel appearance and shared pectoral calculator implemented and verified locally; portrait image approval pending; unpublished",
+  "at": "2026-11-21T21:34:16.105Z",
+  "runtime": {
+    "cases": 2252,
+    "suites": 160,
+    "passed": true,
+    "scope": "Runtime-only regression. Final release/canon gate remains pending batch release preparation."
+  },
+  "browserChecks": {
+    "creation": 18,
+    "npc": 16,
+    "currentBody": 9
+  },
+  "calibration": {
+    "version": "pectoral-girth-v2",
+    "referencePectoralAllowancesInches": {
+      "small": 3,
+      "medium": 4,
+      "large": 5
+    },
+    "danielMeasurements": {
+      "waist": 35,
+      "hips": 42,
+      "underChest": 35.5,
+      "shoulderWidth": 16,
+      "armLength": 23.5,
+      "inseam": 33,
+      "chest": 40
+    },
+    "chestSource": "generated",
+    "danielExactChestOverride": false
+  },
+  "currentAppearanceOnly": true,
+  "legacyPlayerDataPreserved": true,
+  "portrait": {
+    "status": "Generated and displayed for separate owner image approval; not connected or published",
+    "source": "/workspace/generated_images/exec-3e23143c-6d79-4519-92dc-7a9015fa7d05.png",
+    "reviewAsset": "rebuild/hub/assets/character-art-review/daniel-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "deb41ab0561029e854a9235c34d31f26f3eba62d9bc22faa9a582e7a1894ea2f",
+    "approved": false,
+    "connected": false
+  },
+  "cydoniaCalls": 0,
+  "workerChanged": false,
+  "published": false,
+  "missingPortraitConsumers": 9
+}

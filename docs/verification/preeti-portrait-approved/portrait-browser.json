@@ -1,0 +1,11 @@
+{
+  "realProvider": false,
+  "checks": [
+    "Accepted but inactive Preeti has no portrait; actual entered Preeti displays the exact approved1536×1024 photo once",
+    "Phone390px and desktop1100px preserve the complete3:2 photo without cropping or horizontal overflow",
+    "Redraw/save/reload preserves one approved Preeti image without changing original appearance,resources,gold or belongings",
+    "Released body,Pri and an independently owned female cat do not display Preeti’s image"
+  ],
+  "errors": [],
+  "passed": true
+}

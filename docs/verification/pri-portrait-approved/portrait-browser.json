@@ -1,0 +1,11 @@
+{
+  "realProvider": false,
+  "checks": [
+    "Accepted but inactive Pri has no portrait; actual entered Pri displays the exact approved1536×1024 photo once",
+    "Phone390px and desktop1100px preserve the complete3:2 photo without cropping or horizontal overflow",
+    "Redraw/save/reload preserves one approved Pri image without changing original appearance,resources,gold or belongings",
+    "Released body,Preeti and an independently owned male cat do not display Pri’s image"
+  ],
+  "errors": [],
+  "passed": true
+}

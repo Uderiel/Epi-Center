@@ -1,0 +1,46 @@
+{
+  "scope": "Original53-suite run retained;failed checks rerun after diagnosed fixes,plus relevant private-body regression suites",
+  "results": [
+    {
+      "script": "browser-conversation-routing.cjs",
+      "exitCode": 0,
+      "reportedPassLines": 16
+    },
+    {
+      "script": "browser-virus-appearance.cjs",
+      "exitCode": 1,
+      "reportedPassLines": 0
+    },
+    {
+      "script": "browser-canine-input.cjs",
+      "exitCode": 0,
+      "reportedPassLines": 22
+    },
+    {
+      "script": "browser-erin-transition-frame.cjs",
+      "exitCode": 0,
+      "reportedPassLines": 2
+    },
+    {
+      "script": "browser-eve-navigation.cjs",
+      "exitCode": 0,
+      "reportedPassLines": 2
+    },
+    {
+      "script": "browser-current-appearance.cjs",
+      "exitCode": 0,
+      "reportedPassLines": 9
+    },
+    {
+      "script": "browser-cat-narrative-frame.cjs",
+      "exitCode": 0,
+      "reportedPassLines": 6
+    },
+    {
+      "script": "browser-club-appearance.cjs",
+      "exitCode": 0,
+      "reportedPassLines": 4
+    }
+  ],
+  "passed": false
+}

@@ -192,3 +192,21 @@ Their workplace friendship, occasional lunch conversation and Daniel’s underst
 15. Shared-engine attribute derivation is Mental-primary with Physical secondary; no hard-coded primary, unintended hybrid tie, bespoke power or second specialist move package is added.
 
 Related: [Erin's daily-life expansion](ERIN-DAILY-LIFE-EXPANSION.md), [Michael's character design](MICHAEL-CHARACTER-DESIGN.md).
+
+## Local appearance alignment — 2026-11-21
+
+Daniel remains38/5ft11, average build/soft middle, short brown hair without temple gray, brown eyes and close-cropped beard. No brown shade, weight, broad shoulder width or regional measurements are inferred. No portrait connection exists. All24 fields/order, unknowns and image consumers are detailed in NPC-FORM-APPEARANCE-ALIGNMENT.md. Verified locally; unpublished. Full evidence:verification/npc-appearance-alignment/.
+
+## Complete appearance proposal — historical review, now approved
+
+After completing Richard, review now proceeds to Daniel one NPC at a time, with all missing fields proposed together. DANIEL-APPEARANCE-PROPOSAL.md/.json preserves confirmed38/5ft11/average soft-middle build, brown short professional hair/no gray, brown eyes and close-cropped beard. It proposes185lb and a complete24-field draft, now implemented locally. Approved dimensions:waist35in,hips42in,under-chest35.5in,shoulders16in,arm23.5in,inseam33in. The earlier proposed40in exception is superseded: pectoral-girth-v2 now generates40in directly. No broad-shoulder assumption is reinstated. The portrait direction is approved; actual image is now separately approved and connected locally and does not implement new wardrobe ownership. Portrait must be shown for separate visual approval after appearance review.
+
+## Current owner-approved appearance integration — unpublished
+
+Daniel’s complete24-field appearance and portrait direction are owner-approved and implemented locally. His weight is185lb. Shared pectoral-girth-v2 now uses small/medium/large torso allowances3/4/5in at the reference, scaled by the existing girth formula; medium produces his approved40in chest with35.5in under-chest and no individual override. Exact authored values (including Richard40in), cup differences, nearest-half rounding, ±2in review bounds and confirmed player records are preserved. Runtime-only regression passes2,252 cases/160 suites;43 browser checks pass (creation18, NPC16, current body9). Actual worker projection receives Daniel chest facts under his identity; current-body checks still exclude superseded transformation/cursed-item states. No paid Cydonia calls or worker changes. Daniel’s actual portrait was subsequently owner-approved and connected locally. All changes stay local; publication held. General Cydonia prose acceptance and final release/canon preparation remain open.
+
+Approved appearance is maintained in daniel-appearance.js and catalogue consumers. Age38,height5ft11,brown hair/no gray,brown eyes,short close-cropped beard and softer middle remain. All proposed details from DANIEL-APPEARANCE-PROPOSAL.md/.json are approved. Generated dimensions:waist35in,hips42in,under-chest35.5in,chest40in,shoulders16in,arm23.5in,inseam33in. Shoulders are medium; no superseded broad-shoulder assumption. Clothing in the portrait does not spawn wardrobe inventory or routine actions.
+
+## Current actual portrait approval and connection
+
+Daniel’s actual portrait is now owner-approved, connected locally and verified:55 focused cases (alignment12,department25,office batch18),4 portrait browser checks and16 NPC browser checks pass. All9 connected image assets decode;8 profile states still lack portrait consumers. Full-body2:3 sizing fits390px/1100px, redraw/save/reload keeps one image and player data, and the image hides with the unavailable Daniel panel. No image regeneration, paid Cydonia calls, worker changes or publication. Daniel’s appearance/portrait review is complete locally. Next is Nadia’s complete24-field proposal: keep29/5ft6/pale skin/black hair/blue eyes/strong-boned refined features/slender shapely build and existing approved Nadia/Dart image. Proposed130lb,Ccup and new regional details are unapproved, valid against the template, and not applied. Proposed dimensions:waist27.5in,hips38.5in,under-chest31in,chest34in,shoulders14.5in,arm22in,inseam30.5in.

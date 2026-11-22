@@ -1,0 +1,72 @@
+{
+  "status": "Owner-approved Charity full appearance and amendments implemented/verified locally; prior approved portrait connected; unpublished",
+  "at": "2026-11-21T21:57:01.378Z",
+  "ownerAmendment": "Make her 39 years old actually 5'6\" and 122 lbs. Other than that approved. Add freckles",
+  "approvedBaseline": {
+    "age": 39,
+    "heightInches": 66,
+    "weightPounds": 122,
+    "cup": "D",
+    "freckles": true
+  },
+  "measurements": {
+    "waist": 28,
+    "hips": 35.5,
+    "underChest": 30,
+    "shoulderWidth": 15,
+    "armLength": 22,
+    "inseam": 30.5,
+    "chest": 33.5
+  },
+  "measurementSources": {
+    "waist": "generated",
+    "hips": "generated",
+    "underChest": "generated",
+    "shoulderWidth": "generated",
+    "armLength": "generated",
+    "inseam": "generated",
+    "chest": "generated"
+  },
+  "runtime": {
+    "cases": 2255,
+    "suites": 160,
+    "passed": true,
+    "scope": "Runtime-only regression; release/canon verification remains pending combined release preparation"
+  },
+  "focusedCases": {
+    "alignment": 15,
+    "charity": 12,
+    "household": 21,
+    "access": 12,
+    "service": 12,
+    "visitors": 6,
+    "delivery": 6
+  },
+  "focusedTotal": 84,
+  "browserChecks": {
+    "npc": 22,
+    "currentBody": 9,
+    "portrait": 4
+  },
+  "portrait": {
+    "asset": "rebuild/hub/assets/character-art-review/charity-v1.png",
+    "status": "Prior owner-approved photographic portrait connected locally,unchanged",
+    "approved": true,
+    "connected": true,
+    "consumer": "rebuild/hub/charity.js definition.portrait + appearance-profiles-ui.js charityPortraitMarkup",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "b2937c234fb262d91cee1ea6f0ba820ab7ccffedac6380663da3a34173baffe0"
+  },
+  "connectedImagesDecoded": 10,
+  "profileStatesWithoutPortraitConsumer": 7,
+  "playerDataPreserved": true,
+  "maskAndQuestUnchanged": true,
+  "cydoniaCalls": 0,
+  "imageGenerations": 0,
+  "workerChanged": false,
+  "published": false,
+  "next": "Tits complete24-field proposal ready for review; new values unapplied"
+}

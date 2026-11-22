@@ -1,0 +1,11 @@
+{
+  "realProvider": false,
+  "checks": [
+    "Actual Appearance screen displays one owner-approved Erin full-body photo at its original1024×1536 dimensions",
+    "Phone390px and desktop1100px preserve the complete2:3 image without cropping or horizontal overflow",
+    "Redraw/save/reload retains the approved image without duplication or player-data changes",
+    "Released and partial Erin bodies do not display a completed-form portrait"
+  ],
+  "errors": [],
+  "passed": true
+}

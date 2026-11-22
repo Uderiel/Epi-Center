@@ -1,0 +1,11 @@
+{
+  "realProvider": false,
+  "checks": [
+    "Live milestone view and transformation adapter expose US women6/DD only at settled stages and never refresh an older frame with later body facts",
+    "Actual body-awareness request submits only the requested current torso (DD chest and back) through the current worker projection,without original or future-region facts",
+    "Approved current body survives reload with real grooming/lip alterations and original player baseline intact; approved full-body portrait remains connected"
+  ],
+  "errors": [],
+  "inspectionPacketCharacters": 3824,
+  "passed": true
+}

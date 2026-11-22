@@ -1,0 +1,41 @@
+PASS CP062 absence away from work permits reversion in an empty apartment
+PASS CP062 Priya home blocks reversion regardless of attention or hearing
+PASS CP062 a visitor in apartment 2F blocks reversion while Priya is away
+PASS CP062 a neighbor in another apartment does not share the player space
+PASS CP062 another actor on the same outdoor tile blocks reversion
+PASS CP062 being worn and either incomplete progression gate still block release
+PASS weekend jog starts at 06:00 and finishes eight edges at 06:32 with 16 Stamina spent
+PASS weekday and late-created weekend saves cannot fabricate a discovery window
+PASS inspection and temporary pickup never trigger transformation or add inventory
+PASS initial successful save aborts acquisition outside inventory
+PASS initial failed save consumes one die and completes three rapid stages without altering original records
+PASS inanimate capabilities block walking speech manipulation gear and inventory movement
+PASS no recovery action exists before first wearing
+PASS Priya walks one eight-minute edge then returns and changes at 06:49
+PASS wearing uses disadvantage and precisely Erin recovery values with one cost and cooldown
+PASS unworn alone grants higher-of-two advantage, regained composure adds six
+PASS desperate resistance has no Resolve cost and retains the minus-two modifier
+PASS failed recovery follows Common +5 binding and +5 mastery without free retries
+PASS full Common mastery consolidates toward zero even on failed recovery
+PASS worn exposure adds five binding per full hour and pauses when unworn
+PASS release reverses three stages beside retained flats and preserves body belongings and spent Resolve
+PASS cramped closet fallback places human in adjoining bedroom while shoes remain in closet
+PASS save and reload preserve object cooldown exposure physical pair and completed release
+PASS apartment geometry matches Erin while descriptions are independently authored
+PASS restored player can walk closet bedroom hall then exit with no room teleport
+PASS jogging costs four minutes and two Stamina per actual outdoor navigation edge
+PASS insufficient jogging stamina leaves position clock and resources intact
+PASS walking retains eight-minute edges and no Stamina charge
+PASS changing pace pauses old journey rather than silently reusing stale travel costs
+PASS bulk and minute-by-minute clock advances produce the same encounter and actor state
+PASS an unclaimed pair can be misplaced again on Sunday without duplication
+PASS a safely held pair returns to the bench before an ordinary player route
+PASS actual apartment position prevents exterior travel and cross-apartment teleportation
+PASS queued apartment navigation follows connected one-minute doors before leaving
+PASS reversion from an existing humanoid form preserves its ownership mastery and resources
+PASS putting a held pair back after the jog preserves actual retrieval availability
+PASS a real visitor presence record blocks both closet release and fallback placement
+37 total Priya flats cases passed
+PASS Monday flats are worn to work while Tuesday alternate footwear leaves them in the closet
+PASS a conquered pair can reappear on a later weekend without losing durable mastery
+PASS retained mastered flats allow voluntary closet revisit without another binding grind

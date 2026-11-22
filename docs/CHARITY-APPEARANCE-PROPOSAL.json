@@ -1,0 +1,349 @@
+{
+  "status": "Full24-field appearance and39/exact height/weight/freckles owner-approved and implemented locally; prior approved portrait connected; unpublished",
+  "entity": "npc:charity",
+  "established": {
+    "age": 39,
+    "height": "5 ft 6 in",
+    "weight": "122 lb",
+    "gender": "Female",
+    "hair": "Wavy orangish-red",
+    "eyes": "Hazel",
+    "face": "Warm smile,subtle smile lines and freckles"
+  },
+  "draft": {
+    "schema": 1,
+    "mode": "universal",
+    "answers": {
+      "age": {
+        "value": "39"
+      },
+      "gender": {
+        "value": "Female"
+      },
+      "footSize": {
+        "presence": "Present",
+        "count": "2",
+        "type": "Humanlike feet",
+        "sizeMode": "Shoe size",
+        "sizingSystem": "US women’s",
+        "length": {
+          "mode": "Not specified"
+        },
+        "width": "Medium",
+        "arch": "Medium",
+        "sole": "Humanlike sole",
+        "digits": "5",
+        "nails": "Human nails",
+        "covering": "Skin",
+        "material": "Skin",
+        "surfaceColour": "Light",
+        "texture": "Smooth",
+        "markings": "None",
+        "size": 7.5
+      },
+      "legs": {
+        "count": "2",
+        "type": "Human legs",
+        "length": "Average",
+        "build": "Average",
+        "covering": "Skin",
+        "grooming": "Clean-shaven",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "hips": {
+        "width": "Medium",
+        "shape": "Rounded",
+        "proportions": "Custom",
+        "material": "Skin",
+        "surfaceColour": "Light",
+        "proportionsCustom": "Balanced hips with a gentle waist contrast"
+      },
+      "buttocks": {
+        "size": "Medium",
+        "shape": "Rounded",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "waist": {
+        "width": "Medium",
+        "abdomen": "Soft",
+        "muscle": "Smooth",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "back": {
+        "width": "Medium",
+        "shoulders": "Level",
+        "back": "Straight",
+        "material": "Skin",
+        "surfaceColour": "Light",
+        "posture": "Relaxed",
+        "wingsPresence": "Absent",
+        "wingsCount": "Not specified",
+        "wingsType": "Not specified",
+        "wingspan": {
+          "mode": "Not specified"
+        },
+        "wingsDetails": "Not specified",
+        "wingsMaterial": "Not specified",
+        "wingsColour": "Not specified"
+      },
+      "chest": {
+        "type": "Breasts",
+        "cup": "D",
+        "size": "Not specified",
+        "shape": "Rounded",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "arms": {
+        "count": "2",
+        "type": "Human arms",
+        "length": "Average",
+        "muscle": "Smooth",
+        "material": "Skin",
+        "surfaceColour": "Light",
+        "grooming": "Clean-shaven"
+      },
+      "hands": {
+        "count": "2",
+        "type": "Human hands",
+        "size": "Average",
+        "width": "Average",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "fingers": {
+        "count": "5",
+        "length": "Average",
+        "thickness": "Slender",
+        "nails": "Human nails",
+        "nailLength": "Short",
+        "nailShape": "Rounded",
+        "nailColour": "Natural",
+        "nailMaterial": "Human nail keratin",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "voice": {
+        "neck": "Average",
+        "pitch": "Middle",
+        "quality": "Clear",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "face": {
+        "shape": "Oval",
+        "jaw": "Rounded",
+        "chin": "Rounded",
+        "cheeks": "Softly rounded",
+        "noseSize": "Average",
+        "noseShape": "Straight",
+        "lipFullness": "Medium",
+        "lipShape": "Rounded",
+        "salivation": "Average",
+        "facialHair": "Clean-shaven",
+        "complexion": [
+          {
+            "kind": "Fine lines/wrinkles",
+            "location": "Smile lines",
+            "prominence": "Subtle"
+          },
+          {
+            "kind": "Freckles",
+            "location": "Not specified",
+            "prominence": "Not specified"
+          }
+        ],
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "eyes": {
+        "count": "2",
+        "size": "Average",
+        "shape": "Almond",
+        "iris": "Hazel",
+        "leftIris": "Not specified",
+        "rightIris": "Not specified",
+        "sclera": "Normal",
+        "material": "Human eye tissue"
+      },
+      "ears": {
+        "count": "2",
+        "size": "Average",
+        "shape": "Rounded",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "hair": {
+        "length": "Long",
+        "colour": "Custom",
+        "texture": "Wavy",
+        "density": "Average",
+        "style": "Loose",
+        "material": "Human hair",
+        "lengthCustom": "Shoulder-length when loose",
+        "colourCustom": "Orangish-red"
+      },
+      "skin": {
+        "material": "Skin",
+        "surfaceColour": "Light",
+        "texture": "Smooth",
+        "markings": [
+          {
+            "kind": "Freckles",
+            "location": "Face",
+            "prominence": "Not specified"
+          }
+        ],
+        "bodyHair": "Clean-shaven"
+      },
+      "genitalAnatomy": {
+        "configuration": "Vulval anatomy",
+        "length": {
+          "mode": "Not specified"
+        },
+        "testes": "Not specified",
+        "tightness": "Not specified",
+        "puffiness": "Not specified",
+        "swelling": "Not specified",
+        "viscosity": "Not specified",
+        "variation": "None",
+        "grooming": "Trimmed",
+        "material": "Skin",
+        "surfaceColour": "Light"
+      },
+      "scent": {
+        "natural": "Neutral",
+        "strength": "Faint",
+        "perspiration": "Average",
+        "temperature": "Average",
+        "traits": [
+          "None"
+        ]
+      },
+      "height": {
+        "unit": "imperial",
+        "value": 66,
+        "raw": {
+          "feet": 5,
+          "inches": 6
+        }
+      },
+      "weight": {
+        "unit": "imperial",
+        "value": 122,
+        "raw": {
+          "lb": 122
+        }
+      },
+      "build": {
+        "value": "Medium frame, average arms, medium waist, medium rounded hips. waist 28 in; hips 35.5 in; chest 33.5 in."
+      },
+      "tail": {
+        "presence": "Absent",
+        "description": "Not specified",
+        "material": "Not specified",
+        "surfaceColour": "Not specified"
+      }
+    },
+    "inheritedColours": {
+      "footSize": false,
+      "legs": false,
+      "hips": false,
+      "buttocks": false,
+      "waist": false,
+      "back": false,
+      "chest": false,
+      "arms": false,
+      "hands": false,
+      "fingers": false,
+      "voice": false,
+      "face": false,
+      "ears": false,
+      "genitalAnatomy": false
+    },
+    "review": null,
+    "stage": "editor"
+  },
+  "appearance": {
+    "age": "39",
+    "gender": "Female",
+    "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Shoe size; Shoe size: 7.5; Shoe sizing system: US women’s; Foot length: Not applicable; Foot width: Medium; Arch height: Medium; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Smooth; Markings: None",
+    "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Average; Covering: Skin; Hair / grooming: Clean-shaven; Material: Skin; Surface colour: Light; inseam: 30.5 in",
+    "hips": "Width: Medium; Shape: Rounded; Proportions relative to waist / torso: Balanced hips with a gentle waist contrast; Material: Skin; Surface colour: Light; hip circumference: 35.5 in",
+    "buttocks": "Size: Medium; Shape: Rounded; Material: Skin; Surface colour: Light",
+    "waist": "Waist width: Medium; Abdomen shape: Soft; Muscle definition: Smooth; Material: Skin; Surface colour: Light; waist circumference: 28 in",
+    "back": "Shoulder width: Medium; Shoulder shape: Level; Back shape: Straight; Material: Skin; Surface colour: Light; Usual posture: Relaxed; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 15 in",
+    "chest": "Type: Breasts; Cup size: D; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 30 in; chest circumference: 33.5 in",
+    "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Smooth; Material: Skin; Surface colour: Light; Hair / grooming: Clean-shaven; shoulder-to-wrist length: 22 in",
+    "hands": "Number of hands: 2; Hand type: Human hands; Size: Average; Width: Average; Material: Skin; Surface colour: Light",
+    "fingers": "Digits per hand: 5; Length: Average; Thickness: Slender; Nail type: Human nails; Nail length: Short; Nail shape: Rounded; Nail colour: Natural; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+    "voice": "Neck shape: Average; Voice pitch: Middle; Voice quality: Clear; Material: Skin; Surface colour: Light",
+    "face": "Overall shape: Oval; Jaw: Rounded; Chin: Rounded; Cheeks: Softly rounded; Nose size: Average; Nose shape: Straight; Lip fullness: Medium; Lip shape: Rounded; Salivation rate: Average; Facial hair: Clean-shaven; Complexion and markings: Fine lines/wrinkles (location: Smile lines; prominence: Subtle), Freckles (location: Not specified; prominence: Not specified); Material: Skin; Surface colour: Light; Recorded details: Warm smile, subtle smile lines and freckles",
+    "eyes": "Number of eyes: 2; Size: Average; Shape: Almond; Iris colour: Hazel; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Normal; Material: Human eye tissue; Recorded details: Hazel eyes",
+    "ears": "Number of ears: 2; Size: Average; Shape: Rounded; Material: Skin; Surface colour: Light",
+    "hair": "Length: Long; Colour: Orangish-red; Texture: Wavy; Density: Average; Style: Loose; Material: Human hair; Recorded details: Wavy orangish-red hair",
+    "skin": "Material: Skin; Surface colour: Light; Texture: Smooth; Body markings: Freckles (location: Face; prominence: Not specified); Body hair: Clean-shaven",
+    "genitalAnatomy": "Configuration: Vulval anatomy; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not specified; Puffiness: Not specified; Swelling: Not specified; Fluid viscosity: Not specified; Anatomical variation: None; Pubic hair / grooming: Trimmed; Material: Skin; Surface colour: Light",
+    "scent": "Natural body scent: Neutral; Scent strength: Faint; Perspiration tendency: Average; Usual skin temperature: Average; Other physical tendencies: None",
+    "height": "5 ft 6 in",
+    "weight": "122 lb",
+    "build": "Medium frame, average arms, medium waist, medium rounded hips. waist 28 in; hips 35.5 in; chest 33.5 in.",
+    "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+  },
+  "measurementReference": {
+    "waist": 28,
+    "hips": 35.5,
+    "underChest": 30,
+    "shoulderWidth": 15,
+    "armLength": 22,
+    "inseam": 30.5,
+    "chest": 33.5
+  },
+  "measurementSources": {
+    "waist": "generated",
+    "hips": "generated",
+    "underChest": "generated",
+    "shoulderWidth": "generated",
+    "armLength": "generated",
+    "inseam": "generated",
+    "chest": "generated"
+  },
+  "portrait": {
+    "asset": "rebuild/hub/assets/character-art-review/charity-v1.png",
+    "status": "Prior owner-approved photographic portrait connected locally,unchanged",
+    "approved": true,
+    "connected": true,
+    "consumer": "rebuild/hub/charity.js definition.portrait + appearance-profiles-ui.js charityPortraitMarkup",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "b2937c234fb262d91cee1ea6f0ba820ab7ccffedac6380663da3a34173baffe0"
+  },
+  "notes": [
+    "Owner established actual age39,height exactly5ft6 and weight exactly122lb; supersedes older apparent-age-only/unknown chronology and approximate dimensions.",
+    "All other proposed fields approved; freckles added to Face complexion and general Skin record. Freckle density and precise placement remain unspecified.",
+    "Shared calculator provides regional design values; no exact overrides.",
+    "Prior approved image connected unchanged; no new image or repainting.",
+    "Floral/rose preference remains a room preference; no mask/coverage/quest change."
+  ],
+  "previousBaseline": {
+    "age": "Apparent mid-thirties; chronological age not established",
+    "height": "About 5 ft 6 in",
+    "weight": "Approximately 122 lb",
+    "gender": "Female",
+    "hair": "Wavy orangish-red",
+    "eyes": "Hazel",
+    "face": "Warm smile and subtle smile lines"
+  },
+  "ownerApproval": "Make her 39 years old actually 5'6\" and 122 lbs. Other than that approved. Add freckles",
+  "runtimeSource": "rebuild/hub/charity-appearance.js",
+  "releaseDisposition": {
+    "version": "1.0.137",
+    "scope": "Only implemented owner-approved portions and approved portrait consumers are included;any explicitly pending full-template additions remain proposals",
+    "publicationRecord": "docs/releases/v1.0.137-release-summary.json"
+  }
+}

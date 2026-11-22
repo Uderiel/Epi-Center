@@ -1,0 +1,39 @@
+{
+  "status": "Approved appearance implemented/verified locally; image approval pending",
+  "at": "2026-11-21T21:14:58.614368+00:00",
+  "appearanceFields": 24,
+  "measurements": {
+    "waist": 30.5,
+    "hips": 38.5,
+    "underChest": 34.5,
+    "chest": 40,
+    "shoulderWidth": 17,
+    "armLength": 24,
+    "inseam": 33.5
+  },
+  "chestAuthority": "Owner-approved authored40in override; global formula unchanged",
+  "runtimeNamedCases": 2248,
+  "suites": 160,
+  "browserChecks": {
+    "integration": 14,
+    "richardApproved": 4
+  },
+  "releaseGate": "BLOCKED before suites: edited canon differs from frozen current-public-version Bible. Preserve old release and reconcile under next batch version. Runtime-only regression is separate.",
+  "portrait": {
+    "status": "Generated and displayed; awaiting separate owner image approval",
+    "source": "/workspace/generated_images/exec-b8941c5f-1c23-479b-9375-eb6691371d7c.png",
+    "reviewAsset": "rebuild/hub/assets/character-art-review/richard-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "7b0801d62f69d26d59d516223c518ca73e7403fd6d8d3d99f3624ab861f84c10",
+    "connected": false,
+    "approved": false
+  },
+  "imageGenerations": 1,
+  "imageGenerationPrice": "Not reported by tool",
+  "cydoniaCalls": 0,
+  "workerChanged": false,
+  "published": false
+}

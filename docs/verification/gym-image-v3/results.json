@@ -1,0 +1,27 @@
+{
+  "status": "Image-only abdominal definition revision;actual v3 displayed for review",
+  "at": "2026-11-22T06:44:38.709248+00:00",
+  "portrait": {
+    "status": "Actual v3 image generated/displayed with tighter abs;awaiting owner review;not approved or connected",
+    "source": "/workspace/generated_images/exec-e06a14e1-6ea7-42c8-a2e7-ef8faf73068d.png",
+    "reviewAsset": "rebuild/hub/assets/character-art-review/gym-bunny-v3.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "e1fb320f67fbb3bd45eaea929a93a8c5af7ae57861d7323f143f88d8bd3de3bc",
+    "approved": false,
+    "connected": false,
+    "direction": "Preserve v2 softer feminine face/silhouette,pink workout shorts with white edging,grey bralette/crop top,pink running shoes,white ankle socks,pink nails and sweat. Tighten the abdomen with a firmer flatter wall,subtle central line and light upper-abdominal/oblique definition,retaining natural feminine contours. Image only;no source measurements,attributes or gameplay changes.",
+    "revisionRequested": "Much better, but tighter abs needed",
+    "supersedes": "rebuild/hub/assets/character-art-review/gym-bunny-v2.png",
+    "previousImageRetained": true
+  },
+  "imageGenerations": 1,
+  "price": "not reported by tool",
+  "cydoniaCalls": 0,
+  "runtimeChanges": false,
+  "newGameplayTests": false,
+  "published": false,
+  "priorVerification": "docs/verification/gym-amendments/results.json retained;no rerun claim"
+}

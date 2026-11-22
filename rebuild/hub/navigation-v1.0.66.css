@@ -30,3 +30,18 @@ body.combat-active #app .v882-shell:has(.ec-encounter){grid-template-rows:auto m
 .knowledge-controls{display:grid;grid-template-columns:2fr 1fr 1fr;gap:12px;margin:16px 0}.knowledge-controls label{display:grid;gap:6px;min-width:0}.knowledge-record summary{cursor:pointer;display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px}.knowledge-record-body{padding-top:12px}.knowledge-record-body li{margin:12px 0}.knowledge-record-body li p{margin-bottom:4px}.knowledge-relationship{padding-bottom:12px;border-bottom:1px solid var(--line)}@media(max-width:600px){.knowledge-controls{grid-template-columns:1fr 1fr}.knowledge-controls label:first-child{grid-column:1/-1}.knowledge-record summary{flex-direction:column;align-items:flex-start}}
 
 .knowledge-record{margin:10px 0}.knowledge-record summary strong{overflow-wrap:anywhere}
+
+/* Keep appearance labels and descriptions aligned as one readable column pair. */
+.appearance-field>summary{display:grid;grid-template-columns:138px minmax(0,1fr) 14px;align-items:start;justify-content:initial;gap:10px;list-style:none}
+.appearance-field>summary::-webkit-details-marker{display:none}
+.appearance-field>summary strong,.appearance-field>summary span{min-width:0;overflow-wrap:anywhere}
+.appearance-field>summary span{max-width:none;text-align:left;line-height:1.55}
+.appearance-field>summary::after{float:none;margin-left:0;grid-column:3;grid-row:1}
+.appearance-field p{grid-template-columns:138px minmax(0,1fr);padding-right:24px}
+@media(max-width:600px){
+ .appearance-field>summary{grid-template-columns:minmax(0,1fr) 14px;gap:4px 10px}
+ .appearance-field>summary span{grid-column:1;grid-row:2}
+ .appearance-field>summary::after{grid-column:2;grid-row:1}
+ .appearance-field p{grid-template-columns:minmax(0,1fr);gap:2px;padding-right:24px}
+ .appearance-field p>span:first-child{font-size:11px;font-weight:600;color:var(--muted)}
+}

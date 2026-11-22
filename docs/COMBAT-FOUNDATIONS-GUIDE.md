@@ -1,3 +1,7 @@
+## v1.0.137 appearance integration
+
+The appearance calculator supplies descriptive measurements and generated Build;it grants no attributes,mastery,combat bonuses or equipment. Nonhuman anatomy descriptions do not grant capabilities. Existing approved illness redistribution,form attributes,ownership and permanent-base rules remain. Publication/evidence:releases/v1.0.137-release-summary.json.
+
 ## v1.0.131 — carrier gains and combat boundary
 
 Active carriers receive twice positive Arousal gains, including successful rolled combat effects and passive items, capped normally. Roll resolution, costs, reductions and resets remain unchanged. Timed private/kissing encounter gains stop during combat with no catch-up. Standard combat adds no virus transmission or generic carrier avoidance. Earlier enemy-avoidance/slime proposals remain superseded unless a future case-specific rule is approved. Natural text/contact infection and full carrier completion are now implemented; Underworld cure acquisition remains deferred.

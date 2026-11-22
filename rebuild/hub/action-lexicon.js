@@ -3,8 +3,8 @@
 (function(r,f){const a=f();if(typeof module==='object'&&module.exports)module.exports=a;else r.EpiActionLexicon=a;})(globalThis,function(){
 'use strict';
 const families=[
- ['travel','Movement','go', ['travel to','head to','walk to','move to','go to','return to','make my way to'], 'destination', 'Use actual known paths; restrictions and interruptions apply.'],
- ['enter','Movement','enter',['enter','go inside','step into'],'place','The entrance must be reachable and entry permitted.'],
+ ['travel','Movement','go', ['travel to','head to','head back to','head over to','walk to','walk back to','move to','go to','go back to','go over to','return to','make my way to'], 'destination', 'Use actual known paths; restrictions and interruptions apply.'],
+ ['enter','Movement','enter',['enter','go inside','step into','step inside'],'place','The entrance must be reachable and entry permitted.'],
  ['exit','Movement','exit',['exit','leave','step out of'],'place','Use the actual exit and return path.'],
  ['interact','Observation and objects','interact',['interact with','check the options for','see what I can do with'],'target','Start a conversation or inspect available object actions; no destructive default.'],
  ['examine','Observation and objects','inspect',['examine','inspect','look at','look closely at','study'],'target','Describe only something actually perceptible here.'],
@@ -59,7 +59,7 @@ const syntaxExamples=Object.freeze([
 ]);
 function parse(text){let q=String(text||'').trim().replace(/^I\s+(?:(?:am going) to\s+)?/i,'').replace(/[*!]+$/,'').trim();q=q.replace(/^(?:please\s+|could I\s+|can I\s+)/i,'');
  const Fluid=typeof module==='object'&&module.exports?require('./fluid-contact-lexicon'):globalThis.EpiFluidContactLexicon,fluid=Fluid?.parse(q);if(fluid)return fluid;
- const stopKiss=q.match(/^(?:pull away|break (?:off )?(?:the )?kiss|stop (?:French )?kissing|end (?:the )?kiss|separate|stop (?:the )?kiss)(?:\s+(?:from |with )?(.+))?$/i);if(stopKiss)return {id:'kiss-stop',target:stopKiss[1]||null};
+ const stopKiss=q.match(/^(?:pull away|break (?:off )?(?:the )?kiss|stop (?:French )?kissing|end (?:the )?kiss|separate|stop (?:the )?kiss)(?:\s+(?:from |with )?(.+))?$/i);if(stopKiss){const rawTarget=(stopKiss[1]||'').trim(),target=/^(?:(?:right|for)\s+)?now[.!?]*$/i.test(rawTarget)?'':rawTarget.replace(/\s+(?:(?:right|for)\s+)?now[.!?]*$/i,'').trim();return {id:'kiss-stop',target:!target||/^(?:(?:right|for)\s+)?now[.!?]*$/i.test(target)?null:target};}
  if(/^(?:accept (?:the )?kiss(?:ing risk)?|continue (?:the )?kiss|confirm (?:the )?kiss)$/i.test(q))return {id:'kiss-confirm',target:null};
  let km=q.match(/^(?:ask to )?(?:French kiss(?: with tongue)?|French mouth kiss|open[- ]mouth kiss|closed[- ]mouth kiss|quick peck|peck|lingering kiss|repeated kisses|cheek kiss|forehead kiss|temple kiss|hand kiss|nose kiss|neck kiss|shoulder kiss|butterfly kiss|air kiss|blow a kiss)(?:\s+(?:with|to))?\s+(.+)$/i);
  if(!km)km=q.match(/^kiss(?: with tongue)?\s+(.+?)(?:\s+(?:with tongue|open[- ]mouthed|with an open mouth|closed[- ]mouthed|on (?:the |her |his )?(?:lips|cheek|forehead|temple|hand|nose|neck|shoulder)))?[.!?]?$/i);

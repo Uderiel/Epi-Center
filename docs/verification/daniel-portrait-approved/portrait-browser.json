@@ -1,0 +1,11 @@
+{
+  "realProvider": false,
+  "checks": [
+    "Actual Daniel view shortcut displays one approved full-body portrait and the PNG decodes at1024×1536",
+    "Portrait retains full2:3 proportions with contain sizing and no horizontal overflow at390px and1100px",
+    "Portrait survives actual redraw/save/reload without duplicating or changing player resources, appearance or belongings",
+    "Daniel’s portrait disappears with his panel when he is no longer physically present"
+  ],
+  "errors": [],
+  "passed": true
+}

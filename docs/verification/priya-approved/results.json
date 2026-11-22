@@ -1,0 +1,63 @@
+{
+  "status": "Owner-approved complete Priya appearance implemented and verified locally; existing approved portrait retained; unpublished",
+  "at": "2026-11-21T21:48:10.428Z",
+  "approvedBaseline": {
+    "age": 27,
+    "heightInches": 62.5,
+    "weightPounds": 115,
+    "skin": "Tanned",
+    "hairColour": "Dark brown",
+    "cup": "B"
+  },
+  "measurements": {
+    "waist": 26.5,
+    "hips": 35.5,
+    "underChest": 30,
+    "shoulderWidth": 13.5,
+    "armLength": 21,
+    "inseam": 29,
+    "chest": 32.5
+  },
+  "measurementSources": {
+    "waist": "generated",
+    "hips": "generated",
+    "underChest": "generated",
+    "shoulderWidth": "generated",
+    "armLength": "generated",
+    "inseam": "generated",
+    "chest": "generated"
+  },
+  "focusedCases": {
+    "alignment": 14,
+    "priya": 26,
+    "household": 18,
+    "visits": 8,
+    "daily": 17,
+    "cat": 30,
+    "flats": 40
+  },
+  "focusedTotal": 153,
+  "browserChecks": {
+    "npc": 20,
+    "currentBody": 9
+  },
+  "portrait": {
+    "asset": "rebuild/hub/assets/priya-shah-approved.png",
+    "status": "Existing owner-approved connected portrait retained unchanged",
+    "sha256": "9eeb624f591999906691ca498f493f50b98566b4656112fffb504b5b6630a3e3"
+  },
+  "connectedImagesDecoded": 9,
+  "profileStatesWithoutPortraitConsumer": 8,
+  "lastBroadRuntime": {
+    "cases": 2252,
+    "suites": 160,
+    "note": "Previous calculator checkpoint; not rerun for this data integration"
+  },
+  "playerDataPreserved": true,
+  "catAndFlatsControllersUnchanged": true,
+  "cydoniaCalls": 0,
+  "imageGenerations": 0,
+  "workerChanged": false,
+  "published": false,
+  "next": "Charity complete24-field proposal pending review; new appearance values not applied"
+}

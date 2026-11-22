@@ -1,0 +1,26 @@
+{
+  "version": "1.0.137",
+  "baselinePublicClient": "1.0.136",
+  "mainBase": "47b0852c2c72f34a150fde9d8e55e9c970d9629e",
+  "status": "Release checks passed;deployment pending",
+  "workerChanged": false,
+  "expectedWorkerAssembly": "request-handoff-v11",
+  "realProviderQualityVerified": false,
+  "ownerSavesUsed": false,
+  "newPaidCalls": 0,
+  "unapprovedRuntimeIncluded": false,
+  "supersededArtworkIncluded": false,
+  "repositoryStaffExpansionIncluded": false,
+  "frozenBibleRequired": true,
+  "automatedCases": 2305,
+  "automatedSuites": 168,
+  "browserSuites": 53,
+  "browserVerification": "docs/releases/v1.0.137-browser-verification.json",
+  "bibleIntegrity": {
+    "version": "1.0.137",
+    "canonical": "docs/EPI-CENTER-WORLD-BIBLE.md",
+    "frozen": "docs/bible/v1.0.137-world-bible.md",
+    "bytes": 100353,
+    "sha256": "3af749381de9294d61808f94cdbc71c351021455b7e247d28a2f69665cb87dce"
+  }
+}

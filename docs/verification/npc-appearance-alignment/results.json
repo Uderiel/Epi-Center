@@ -1,0 +1,53 @@
+{
+  "status": "Implemented and verified locally; unpublished",
+  "at": "2026-11-21T20:50:16.307720+00:00",
+  "profiles": 19,
+  "savedAppearanceKeys": 24,
+  "namedCases": 2247,
+  "suites": 160,
+  "browserChecks": {
+    "creation": 17,
+    "npcAlignment": 14,
+    "currentAppearance": 9,
+    "total": 40
+  },
+  "cupDecision": "Owner confirmed leading number = under-chest circumference; physical38+4=42, mental36+4.5=40.5, arousal42+5.5=47.5 inches",
+  "waistDiscrepancies": "Authored22/24/20in remain; narrow human-reference29/28/30.5in comparison flagged. No silent clamping.",
+  "packetRepair": "Self-awareness excludes unrelated venue/property/routine data while retaining every requested current body field, access and control facts.",
+  "images": {
+    "connectedUniqueAssetsDecoded": 7,
+    "noPortraitConsumerProfileStates": 11,
+    "sharedOnly": [
+      "Dart in Nadia portrait"
+    ],
+    "approvedButUnwired": [
+      "Charity",
+      "Tits"
+    ],
+    "unchangedExistingIssue": "Unassigned Kibbles uses a female main fallback and both preview images"
+  },
+  "paidCalls": 0,
+  "workerChanged": false,
+  "published": false,
+  "savePolicy": "Canonical catalogue/derived current body view; raw stage mechanics and legacy actor overviews retained. Player saves/resources/identity/permissions are not bulk-rewritten.",
+  "limits": [
+    "All browser AI responses are simulated or assembly-only. This is not fresh real-Cydonia prose acceptance.",
+    "Missing images were reported; no portraits created or newly connected.",
+    "Protected suit use paths and unbuilt named contacts remain deferred."
+  ],
+  "evidence": [
+    "profiles-and-image-audit.json",
+    "creation-browser.json",
+    "npc-browser.json",
+    "current-browser.json",
+    "regression-summary.json"
+  ],
+  "catalogueInventoryCorrection": {
+    "currentProfileStates": 18,
+    "offeredCatForms": [
+      "Pri (male)",
+      "Preeti (female)"
+    ],
+    "note": "The19-profile count in this checkpoint included an unspecified feline catalogue placeholder. It was not a third offered form. Current inventory/evidence:../cat-offer-correction/results.json"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Index of plain searchable source comments; no runtime tone field.",
+  "sentToModel": false,
+  "sections": [
+    {
+      "id": "erin-anatomical-transition",
+      "file": "rebuild/hub/erin-restoration.js",
+      "symbol": "transitionFrame",
+      "marker": "(explicit adult)"
+    },
+    {
+      "id": "illness-appearance-stages",
+      "file": "rebuild/hub/bimbo-virus-appearance.js",
+      "symbol": "reconcile",
+      "marker": "(explicit adult)"
+    },
+    {
+      "id": "shared-transformation-request",
+      "file": "rebuild/hub/ai-ui.js",
+      "symbol": "aiEnrichEntry: transformation packet.message branch",
+      "marker": "(explicit adult)"
+    },
+    {
+      "id": "shared-worker-transformation-role",
+      "file": "services/ai/core.mjs",
+      "symbol": "packet: roles.transformation",
+      "marker": "(explicit adult)"
+    },
+    {
+      "id": "erin-approved-appearance",
+      "file": "rebuild/hub/erin-appearance.js",
+      "symbol": "owner-approved target data",
+      "marker": "(explicit adult)"
+    },
+    {
+      "id": "erin-current-transition-facts",
+      "file": "rebuild/hub/ai-ui.js",
+      "symbol": "currentErinTransitionFacts",
+      "marker": "(explicit adult)"
+    },
+    {
+      "id": "kibbles-approved-appearance",
+      "file": "rebuild/hub/kibbles-appearance.js",
+      "symbol": "EpiKibblesAppearance",
+      "marker": "(explicit adult)"
+    },
+    {
+      "id": "pri-approved-appearance",
+      "file": "rebuild/hub/pri-appearance.js",
+      "symbol": "EpiPriAppearance",
+      "marker": "(explicit adult)"
+    },
+    {
+      "id": "pri-offered-appearance-adapter",
+      "file": "rebuild/hub/priya-cat.js",
+      "symbol": "offeredAppearance",
+      "marker": "(explicit adult)"
+    },
+    {
+      "id": "preeti-approved-appearance",
+      "file": "rebuild/hub/preeti-appearance.js",
+      "symbol": "EpiPreetiAppearance",
+      "marker": "(explicit adult)"
+    },
+    {
+      "id": "flats-approved-appearance",
+      "file": "rebuild/hub/flats-appearance.js",
+      "symbol": "EpiFlatsAppearance",
+      "marker": "(explicit adult)"
+    },
+    {
+      "id": "flats-current-body-adapter",
+      "file": "rebuild/hub/priya-flats.js",
+      "symbol": "alignedObjectBody",
+      "marker": "(explicit adult)"
+    },
+    {
+      "id": "gym-requested-appearance-amendments",
+      "file": "rebuild/hub/appearance-catalog.js",
+      "symbol": "profiles.get('variant:physical')",
+      "marker": "(explicit adult)"
+    },
+    {
+      "id": "sorority-requested-appearance-amendments",
+      "file": "rebuild/hub/appearance-catalog.js",
+      "symbol": "profiles.get('variant:mental')",
+      "marker": "(explicit adult)"
+    },
+    {
+      "id": "club-approved-appearance",
+      "file": "rebuild/hub/club-appearance.js",
+      "symbol": "EpiClubAppearance",
+      "marker": "(explicit adult)"
+    }
+  ],
+  "futureTransformationConvention": "Add the plain source comment // (explicit adult) beside future transformation sequence code."
+}

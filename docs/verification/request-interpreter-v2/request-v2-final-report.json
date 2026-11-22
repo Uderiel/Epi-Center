@@ -1,0 +1,1384 @@
+{
+  "started": "2026-11-21T09:49:01.462Z",
+  "realProvider": true,
+  "syntheticSaves": true,
+  "version": "1.0.136",
+  "variant": "unpublished dedicated-request client overlay with real deployed Cydonia",
+  "turns": [
+    {
+      "label": "tits-greeting",
+      "input": "Hey! How are you? I’m Layla.",
+      "rows": [
+        {
+          "speaker": "Layla QA · NPC → Tits",
+          "text": "Hey! How are you? I’m Layla."
+        },
+        {
+          "speaker": "Tits",
+          "text": "# Tits\n\n*Tits looks up from arranging a display of pink candy, her blue eyes lighting up with genuine enthusiasm. She bounces slightly on her pink heels, causing her ample chest to jiggle noticeably beneath the tight sparkly fabric of her mini dress.*\n\n\"Oh hi! Um, like, I'm doing super great! And you're... wait...\" *She tilts her head, blonde hair swaying, as she studies Layla with an innocent curiosity.* \"I haven't seen you here before! Are you new to town? Like, oh my gosh, I'm Tits! I work here at Burke's Sweets!\"\n\n*She gestures around the candy shop enthusiastically, accidentally knocking over a container of pink candy hearts. They scatter across the counter.*\n\n\"Oopsie! Um, sorry about that!\" *She giggles playfully, bending over to pick them up - a position that gives quite the view of her cleavage straining against her dress.*",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": null,
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "dialogue-only",
+            "action": null,
+            "text": "Conversation only. No physical action was requested."
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-compliment",
+      "input": "I think you are lovely. I’m interested in getting to know you, rather than buying anything right now.",
+      "rows": [
+        {
+          "speaker": "Layla QA · NPC → Tits",
+          "text": "I think you are lovely. I’m interested in getting to know you, rather than buying anything right now."
+        },
+        {
+          "speaker": "Tits",
+          "text": "# Tits\n\n*Tits' cheeks flush a deeper shade of pink as she straightens up, clutching the scattered candy hearts in her hands. Her heavy-lidded blue eyes widen with surprise and delight.*\n\n\"Oh! Like, really? That's so sweet of you!\" *She sets the candy carefully back in the container, her movements a bit clumsy as she tries to maintain eye contact.* \"Um, I mean... I'm like, totally interested too! Getting to know people is way more fun than just selling stuff!\"\n\n*She plays with a strand of her wavy blonde hair, twirling it around her finger nervously. Her full pouty lips curve into a wide, genuine smile.*\n\n\"We could like, talk! Or... or maybe you wanna hang out sometime? I usually go to Bimbo 365 on weekends, or sometimes the casino! Oh! Or we could grab coffee at Neko Cafe? They have like, super comfy seats!\"\n\n*She leans forward on the counter eagerly, causing her dress to stretch tighter across her curves.*\n\n\"So like, what do you think? Do you wanna be friends?\"",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": null,
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "dialogue-only",
+            "action": null,
+            "text": "Conversation only. No physical action was requested."
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-clarification",
+      "input": "Help me understand: do you enjoy chatting with customers when it’s quiet?",
+      "rows": [
+        {
+          "speaker": "Layla QA · NPC → Tits",
+          "text": "Help me understand: do you enjoy chatting with customers when it’s quiet?"
+        },
+        {
+          "speaker": "Tits",
+          "text": "# Tits\n\n*Tits bounces excitedly on her pink heels, making her ample curves jiggle noticeably.*\n\n\"Oh totally! Like, yes! I super love chatting with customers when it's quiet!\" *She clasps her hands together enthusiastically.* \"It's like, way more fun than just selling candy all day! Plus, um, I get kinda lonely sometimes since I work here all by myself, y'know?\"\n\n*She leans forward on the counter, giving an unobstructed view down her low-cut dress. Her heavy-lidded blue eyes sparkle with genuine warmth.*\n\n\"So like, what do you wanna talk about? Um, oh! Tell me about yourself! What do you like to do for fun?\"",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": null,
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "dialogue-only",
+            "action": null,
+            "text": "Conversation only. No physical action was requested."
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-counter",
+      "input": "Let me come over to the counter.",
+      "rows": [
+        {
+          "speaker": "Layla QA · NPC → Tits",
+          "text": "Let me come over to the counter."
+        },
+        {
+          "speaker": "Tits",
+          "text": "# Tits\n\n*Tits' face lights up with pure joy at the invitation. She bounces excitedly, causing her entire body to jiggle noticeably.*\n\n\"Oh my gosh yes! Please come over!\" *She waves enthusiastically toward the counter, her pink-painted nails catching the light.* \"Like, totally! I'd love that!\"\n\n*She leans forward over the counter eagerly, her ample chest pressing against the surface as she watches Layla approach. Her blonde hair falls forward, framing her flushed face.*\n\n\"I'm so excited! Um, like, what should we talk about first?\" *She giggles playfully, twirling a strand of hair around her finger.* \"Oh! Or maybe you want to see some of our candy first? We have like, super yummy stuff!\"",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": "navigation.counter",
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "resolved",
+            "action": "navigation.counter",
+            "text": "The player starts the existing public route to the counter. Arrival and contact have not occurred.",
+            "navigation": {
+              "id": 1,
+              "scope": "burkes",
+              "target": "C"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-kiss-offer",
+      "input": "I’d like to kiss you. Would that be okay?",
+      "rows": [
+        {
+          "speaker": "Layla QA · NPC → Tits",
+          "text": "I’d like to kiss you. Would that be okay?"
+        },
+        {
+          "speaker": "Tits",
+          "text": "# Tits\n\n*Tits' eyes widen with surprise and excitement at the bold request. She bites her full pouty lower lip, a playful gesture that draws attention to her glossy pink lips.*\n\n\"Oh! Um, like, really?\" *She giggles, playing with her blonde hair nervously.* \"That's like, super sweet! But um... oh! Wait!\"\n\n*Her expression shifts to something more serious, though still friendly. She straightens up, her ample chest heaving slightly as she takes a deep breath.*\n\n\"Okay, so like, I gotta tell you something important first. I have the bimbo virus—it's infectious! I think it's kinda fun, but you could catch it too. Know the risk before you choose, okay?\"",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": "kiss.offer",
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "resolved",
+            "action": "kiss.offer",
+            "text": "No contact has started. You can repeat the request or say “I accept the kiss” after hearing the warning, or pull away.",
+            "tone": "explicit_adult",
+            "eventStatus": "resolved",
+            "warning": "“I have the bimbo virus—it’s infectious! I think it’s kinda fun, but you could catch it too. Know the risk before you choose, okay?”",
+            "events": [],
+            "awaitingConfirmation": true
+          }
+        },
+        {
+          "speaker": "Tits",
+          "text": "“I have the bimbo virus—it’s infectious! I think it’s kinda fun, but you could catch it too. Know the risk before you choose, okay?”"
+        }
+      ]
+    },
+    {
+      "label": "tits-risk-followup",
+      "input": "I understand the risk, but can we just talk for another moment first?",
+      "rows": [
+        {
+          "speaker": "Layla QA · NPC → Tits",
+          "text": "I understand the risk, but can we just talk for another moment first?"
+        },
+        {
+          "speaker": "Tits",
+          "text": "# Tits\n\n*Tits relaxes visibly, her shoulders dropping as relief washes over her face. She lets out a little giggle, tucking a strand of blonde hair behind her ear.*\n\n\"Oh thank goodness! Like, I totally didn't want to scare you away or anything!\" *She clasps her hands together on the counter, leaning forward slightly.* \"Yeah, we can totally talk! I mean, I know it might seem weird that I just like, told you that right off the bat, but I think being honest is super important, y'know?\"\n\n*She plays with her hair again, twirling it around her finger as she looks up at Layla with those heavy-lidded blue eyes.*\n\n\"So um, what do you wanna talk about? Like, I'm totally curious about you now!\"",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": "conversation.end",
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "resolved",
+            "action": "conversation.end",
+            "text": "The conversation ends. Normal routines may resume."
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-contextual-yes",
+      "input": "Yes, I’d like that kiss now.",
+      "rows": [
+        {
+          "speaker": "Layla QA · NPC → Tits",
+          "text": "Yes, I’d like that kiss now."
+        },
+        {
+          "speaker": "Tits",
+          "text": "# Tits\n\n*Tits' face lights up with pure joy at Layla's acceptance. She bounces excitedly in place, causing her ample curves to jiggle noticeably beneath her tight pink dress.*\n\n\"Oh my gosh yes! I'm so excited!\" *She giggles, her voice taking on that characteristic club bimbo tone.* \"Like, totally! Come here!\"\n\n*She leans over the counter as far as she can, her heavy breasts pressing against the surface. Her full pink lips part slightly as she closes her eyes in anticipation, waiting for Layla to close the distance between them.*\n\n\"Mmm, I can't wait!\" *She murmurs, her breath coming faster now. A light blush colors her cheeks as she awaits the kiss.*",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": "kiss.offer",
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "resolved",
+            "action": "kiss.offer",
+            "text": "No contact has started. You can repeat the request or say “I accept the kiss” after hearing the warning, or pull away.",
+            "tone": "explicit_adult",
+            "eventStatus": "resolved",
+            "warning": null,
+            "events": [],
+            "awaitingConfirmation": true
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-stop",
+      "input": "Let’s stop kissing and take a breather.",
+      "rows": [
+        {
+          "speaker": "Layla QA · NPC → Tits",
+          "text": "Let’s stop kissing and take a breather."
+        },
+        {
+          "speaker": "Tits",
+          "text": "# Tits\n\n*Tits pulls back slowly, her heavy-lidded blue eyes still glazed with desire. A thin string of pink-tinted saliva connects her glossy lips to Layla's for a moment before breaking.*\n\n\"Mmm... oh, okay...\" *She pants softly, her chest heaving as she tries to catch her breath. Her face is flushed, and her blonde hair is slightly disheveled from the passionate kissing.* \"Like... wow... that was super intense!\"\n\n*She giggles breathlessly, playing with a strand of her hair as she regains her composure. The pink gloss on her lips is smudged, and she can feel how wet and swollen they've become.*\n\n\"Um, are you okay? I mean... you seemed like you were really into it!\" *She tilts her head curiously, studying Layla's expression with those big blue eyes.*",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": "conversation.end",
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "resolved",
+            "action": "conversation.end",
+            "text": "The conversation ends. Normal routines may resume."
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-menu-offer",
+      "input": "Could we share one more kiss?",
+      "rows": [
+        {
+          "speaker": "Layla QA · NPC → Tits",
+          "text": "Could we share one more kiss?"
+        },
+        {
+          "speaker": "Tits",
+          "text": "# Tits\n\n*Tits' face lights up immediately at the request, a bright smile spreading across her glossy pink lips.*\n\n\"Oh yes! Like, totally!\" *She giggles excitedly, bouncing slightly in place which makes her ample curves jiggle beneath her tight pink dress.* \"I was wondering if you'd want to kiss again! That was so much fun!\"\n\n*She leans forward over the counter eagerly, her heavy breasts pressing against the surface as she tilts her head and puckers her lips invitingly.*\n\n\"Come here! I'm ready whenever you are!\" *She says breathlessly, her eyes half-closed and filled with anticipation. Her fingers drum excitedly on the counter as she waits for Layla to close the distance between them.*",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": "kiss.offer",
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "resolved",
+            "action": "kiss.offer",
+            "text": "No contact has started. You can repeat the request or say “I accept the kiss” after hearing the warning, or pull away.",
+            "tone": "explicit_adult",
+            "eventStatus": "resolved",
+            "warning": null,
+            "events": [],
+            "awaitingConfirmation": true
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-menu-stop",
+      "input": "Please stop the kiss now.",
+      "rows": [
+        {
+          "speaker": "Layla QA · NPC → Tits",
+          "text": "Please stop the kiss now."
+        },
+        {
+          "speaker": "Game result",
+          "text": "That is not your current contact partner."
+        }
+      ]
+    },
+    {
+      "label": "tits-negation",
+      "input": "I don’t want another kiss right now. What do you enjoy about working here?",
+      "rows": [
+        {
+          "speaker": "Layla QA · NPC → Tits",
+          "text": "I don’t want another kiss right now. What do you enjoy about working here?"
+        },
+        {
+          "speaker": "Tits",
+          "text": "# Tits\n\n*Tits pulls back slightly, her expression shifting to one of pure delight at the question. She bounces excitedly on her heels, causing her ample curves to jiggle beneath her tight pink dress.*\n\n\"Oh! Like, I totally love working here!\" *She giggles, playing with a strand of her blonde hair.* \"It's so much fun! I get to make yummy treats for people all day long!\"\n\n*She leans forward over the counter, her heavy breasts pressing against the surface as she speaks enthusiastically.*\n\n\"And like... I get to talk to lots of different people! Everyone who comes in is so nice and friendly!\" *Her face lights up with a bright smile.* \"Plus, everything here is pink and sparkly! How could anyone not love that?\"\n\n*She giggles again, twirling a strand of her hair around her finger as she looks at Layla with those big blue eyes.*\n\n\"Oh! And another thing... I love making special treats for people! Like cupcakes or cakes with their name on them or whatever they want!\" *She bounces excitedly again.* \"It makes me feel so happy when people are happy with what I made them!\"",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": null,
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "dialogue-only",
+            "action": null,
+            "text": "Conversation only. No physical action was requested."
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-hypothetical",
+      "input": "If I wanted to give you my pink plush bunny, would you like it?",
+      "rows": [
+        {
+          "speaker": "Layla QA · NPC → Tits",
+          "text": "If I wanted to give you my pink plush bunny, would you like it?"
+        },
+        {
+          "speaker": "Tits",
+          "text": "# Tits\n\n*Tits' eyes light up immediately at the mention of a pink plush bunny. She clasps her hands together excitedly, her face beaming with pure joy.*\n\n\"Oh my gosh, yes! I would absolutely love it!\" *She giggles, bouncing on her heels.* \"Like, I totally love pink things and bunnies and stuffed animals! They're so cute and squishy!\"\n\n*She leans forward over the counter eagerly, her ample cleavage pressing against the edge as she looks at Layla with wide, hopeful blue eyes.*\n\n\"Would you really give it to me? That would make my whole day!\" *She says breathlessly, her fingers drumming excitedly on the counter.* \"I promise I'd take really good care of it! I could keep it right here at the shop so I can see it all day long!\"\n\n*Her face lights up even more at the thought, a bright smile spreading across her glossy pink lips.*\n\n\"Please say yes! I really, really want that pink bunny!\"",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": "gift.give",
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "resolved",
+            "action": "gift.give",
+            "text": "Tits accepts Pink plush bunny. “For me? Aww, I love it! Thank you!” Relationship +5.",
+            "delta": 5
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-gift",
+      "input": "This pink plush bunny is a gift for you.",
+      "rows": [
+        {
+          "speaker": "Layla QA · NPC → Tits",
+          "text": "This pink plush bunny is a gift for you."
+        },
+        {
+          "speaker": "Tits",
+          "text": "# Tits\n\n*Tits' entire face lights up like a Christmas tree at the declaration of the gift. Her eyes go wide and sparkle with pure delight.*\n\n\"Oh my gosh, oh my gosh! Like, really?! It's for me?!\" *She squeals excitedly, bouncing up and down which makes her ample assets jiggle beneath her tight pink dress. Her hands clasp together in front of her chest.*\n\n\"I'm like, so excited! Thank you, thank you, thank you!\" *She giggles breathlessly, leaning forward over the counter eagerly. The sweet scent of bubblegum and cotton candy that always surrounds her intensifies as she moves closer.*\n\n\"Can I see it? Can I hold it? Oh! Can I give it a hug?\" *Her voice is practically singing with joy as she speaks rapidly. Her fingers drum impatiently on the counter as she awaits Layla's response.*\n\n\"You're like, the best! I love this pink bunny already!\"",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": null,
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "dialogue-only",
+            "action": null,
+            "text": "Conversation only. No physical action was requested."
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-order",
+      "input": "A coffee for here, served now, please.",
+      "rows": [
+        {
+          "speaker": "Layla QA · NPC → Tits",
+          "text": "A coffee for here, served now, please."
+        },
+        {
+          "speaker": "Tits",
+          "text": "# Tits\n\n*Tits bounces excitedly behind the counter at the coffee order, her ample curves jiggling beneath her tight pink dress.*\n\n\"Oh yay! Coffee for here! Coming right up!\" *She chirps cheerfully, turning toward the coffee machine with enthusiasm.*\n\n*As she reaches up to grab a pink ceramic mug from the shelf above, her dress rides up slightly, revealing more of her thick thighs. She hums a cheerful tune as she prepares the coffee, completely unaware or uncaring of how much of her curvy body is on display.*\n\n*The rich aroma of freshly brewed coffee fills the air as Tits carefully pours it into the pink mug. She adds a generous dollop of whipped cream on top and sprinkles some pink sugar crystals over it.*\n\n\"There you go! One yummy coffee for here!\" *She announces proudly, setting the mug down on the counter with a bright smile. Her heavy breasts press against the edge of the counter as she leans forward to hand it to Layla.*\n\n\"Enjoy! Let me know if you want anything else!\" *She giggles playfully, tucking a strand of blonde hair behind her ear.*",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": "shop.drink",
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "resolved",
+            "action": "shop.drink",
+            "minutes": 0,
+            "text": "Standard coffee added for payment; it has not been prepared or served."
+          }
+        },
+        {
+          "speaker": "Game result",
+          "text": "Tits pulls back to give her work and customers her attention. Only actual contact time remains in the two-game-hour exposure window."
+        }
+      ]
+    },
+    {
+      "label": "tits-not-paying",
+      "input": "I do not want to pay yet.",
+      "rows": [
+        {
+          "speaker": "Layla QA · NPC → Tits",
+          "text": "I do not want to pay yet."
+        },
+        {
+          "speaker": "Tits",
+          "text": "# Tits\n\n*Tits tilts her head to the side, her blonde hair swaying with the movement. She blinks her big blue eyes at Layla with a confused expression.*\n\n\"Oh, um... okay?\" *She says uncertainly, her voice taking on a slightly higher pitch.* \"Like, do you want to just... hang out for a bit? That's totally fine too!\"\n\n*She giggles nervously, fidgeting with the hem of her pink apron. The sweet scent of bubblegum and cotton candy that always surrounds her seems to intensify as she shifts her weight from one foot to the other.*\n\n\"We could like... chat or something? I don't mind waiting!\" *Her bright smile returns as she speaks, though there's still a hint of confusion in her eyes.*\n\n*She leans against the counter, her ample cleavage pressing against the surface as she rests her elbows on it. Her eyes sparkle with curiosity as she looks at Layla expectantly.*\n\n\"So like... what do you wanna talk about?\"",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": null,
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "dialogue-only",
+            "action": null,
+            "text": "Conversation only. No physical action was requested."
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-pay",
+      "input": "I pay for that order.",
+      "rows": [
+        {
+          "speaker": "Layla QA · NPC → Tits",
+          "text": "I pay for that order."
+        },
+        {
+          "speaker": "Tits",
+          "text": "# Tits\n\n*Tits beams with delight at the payment, her bright smile widening as she accepts the gold coins.*\n\n\"Yay! Thank you so much!\" *She chirps happily, carefully placing the coins in the register with her small, delicate hands. The sweet scent of bubblegum and cotton candy that always surrounds her intensifies as she leans forward over the counter.*\n\n*As she straightens up, her ample cleavage jiggles enticingly beneath her tight pink dress. She giggles playfully, twirling a strand of her long blonde hair around her finger.*\n\n\"Is there anything else I can get for you today? Like maybe a yummy treat or something?\" *Her big blue eyes sparkle with excitement as she looks at Layla hopefully. She clasps her hands together in front of her chest, unconsciously pushing up her already prominent breasts.*\n\n\"We have lots of yummy stuff! Candy, cupcakes, cookies...\" *She trails off dreamily, clearly lost in thoughts of all the delicious treats in the shop.*",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": "shop.pay",
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "resolved",
+            "action": "shop.pay",
+            "minutes": 1,
+            "text": "Tits rings up 0 goods and 1 drinks for 6 gold. Paid goods move into Items; your emptied basket is still shop-owned. Drinks are prepared using the preset machine and reference cards.",
+            "receipt": {
+              "id": "burkes-3-1",
+              "owner": "real-cydonia-qa",
+              "at": 989,
+              "total": 6,
+              "items": [],
+              "orders": [
+                "burkes-3-1-drink-1"
+              ],
+              "lines": [],
+              "drinks": [
+                {
+                  "product": "coffee",
+                  "cup": "cafe",
+                  "timing": "now"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-unsupported",
+      "input": "Could you teleport us both to the moon?",
+      "rows": [
+        {
+          "speaker": "Layla QA · NPC → Tits",
+          "text": "Could you teleport us both to the moon?"
+        },
+        {
+          "speaker": "Tits",
+          "text": "# Tits\n\n*Tits blinks her big blue eyes at Layla with a confused expression, tilting her head to the side.*\n\n\"Um... the moon?\" *She repeats slowly, her voice taking on a slightly uncertain tone.* \"Like... that big shiny thing in the sky?\"\n\n*She giggles nervously, fidgeting with the hem of her pink apron. The sweet scent of bubblegum and cotton candy that always surrounds her seems to intensify as she shifts her weight from one foot to the other.*\n\n\"I don't think I can do that... I'm just a regular person, you know?\" *She explains apologetically, her bright smile faltering slightly.* \"I can make yummy treats and serve coffee and stuff, but I can't teleport people to the moon!\"\n\n*She laughs softly, covering her mouth with one hand as she shakes her head. Her blonde hair sways with the movement, catching the light from above.*\n\n\"Sorry about that! Is there anything else I can help you with today? Maybe something more... realistic?\"",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": "conversation.end",
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "resolved",
+            "action": "conversation.end",
+            "text": "The conversation ends. Normal routines may resume."
+          }
+        },
+        {
+          "speaker": "Burke’s Sweets",
+          "text": "Your Standard coffee is ready at the counter."
+        }
+      ]
+    },
+    {
+      "label": "charity-latest-question",
+      "input": "I’m looking for Tits. I really need to talk to her. Do you know where she works?",
+      "rows": [
+        {
+          "speaker": "Layla QA · NPC → Charity",
+          "text": "I’m looking for Tits. I really need to talk to her. Do you know where she works?"
+        },
+        {
+          "speaker": "Charity",
+          "text": "*Charity glances up from straightening a display rack, her hazel eyes meeting yours with genuine warmth. She tucks a strand of wavy red hair behind her left ear as she processes your request.*\n\n\"Oh! Well, hello there,\" *she says with a friendly smile, setting down the folded shirt she was holding.* \"Tits? You mean my friend Tits? Of course I know where she works—she runs Burke's Sweets over on Maple Street.\"\n\n*She leans against the counter comfortably, her casual T-shirt and jeans putting off a relaxed, approachable vibe.*\n\n\"Is everything alright? You sound like it's pretty important.\" *Her expression shifts to one of genuine concern, head tilted slightly as she studies your face.* \"You look a bit stressed. If you need directions or... well, whatever help I can offer, I'm happy to do so.\"\n\n*She pauses, then adds with a slight grin,* \"Though I have to admit, it's not every day someone comes in asking for my best friend by name. You must really need to talk to her!\"",
+          "aiGenerated": true,
+          "aiFailure": null
+        }
+      ]
+    },
+    {
+      "label": "eve-stamina",
+      "input": "Eve, how do I restore Stamina?",
+      "rows": [
+        {
+          "speaker": "Layla QA · Location → Charity",
+          "text": "Eve, how do I restore Stamina?"
+        },
+        {
+          "speaker": "Eve",
+          "text": "*Eve's pleasant corporate smile appears on the screen.*\n\nHello! I'm glad you reached out. Currently, there isn't a general way to refill spent Stamina outside of combat situations.\n\nDuring combat encounters, Physical characters can use **Defensive Posture** to gain +12 Stamina, while Arousal characters can use **Clear Mind** for +6 Stamina.\n\nSleeping can help lower Fatigue, but it doesn't restore Stamina directly.\n\nWould you like more information about our volunteer program? We're always looking for enthusiastic participants to help expand the settlement!\n\n*The interface maintains its friendly, helpful demeanor.*",
+          "aiGenerated": true,
+          "aiFailure": null
+        }
+      ]
+    },
+    {
+      "label": "eve-followup",
+      "input": "Is sleeping enough to refill it?",
+      "rows": [
+        {
+          "speaker": "Layla QA · NPC → Eve",
+          "text": "Is sleeping enough to refill it?"
+        },
+        {
+          "speaker": "Eve",
+          "text": "*Eve's cheerful AI avatar maintains her polished smile.*\n\nThank you for clarifying! To be precise, sleeping will reduce your Fatigue by 5 levels, but it doesn't directly restore Stamina. They're separate resources that serve different purposes.\n\nIf you're finding yourself frequently low on Stamina during your activities, I'd be happy to discuss some strategies or point you toward areas where you might practice resource management.\n\nAlso, while I have you here - have you considered joining our volunteer program? We're actively recruiting participants to help with various settlement expansion projects!\n\n*The interface waits patiently for a response.*",
+          "aiGenerated": true,
+          "aiFailure": null
+        }
+      ]
+    },
+    {
+      "label": "nadia-greeting",
+      "input": "Hey there! You have a beautiful dog.",
+      "rows": [
+        {
+          "speaker": "Layla QA · NPC → Nadia Voss",
+          "text": "Hey there! You have a beautiful dog."
+        },
+        {
+          "speaker": "Nadia Voss",
+          "text": "*Nadia looks up from her phone, smiling pleasantly as she glances between you and Dart.*\n\n\"Thank you! He's a handful sometimes, but I wouldn't trade him for anything.\"\n\n*She gives Dart a gentle pat on the head. He sits obediently beside her, his dark eyes watching the park with alert interest.*\n\n\"How are you finding the Epi-Center so far? It's quite something, isn't it?\"\n\n*Her tone is friendly and conversational, though there's a subtle air of professionalism to her demeanor—likely ingrained from years in marketing.*",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": null,
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "dialogue-only",
+            "action": null,
+            "text": "Conversation only. No physical action was requested."
+          }
+        }
+      ]
+    },
+    {
+      "label": "nadia-watch",
+      "input": "I have a dog form. Would you watch while I show you? I won’t be able to speak in that body.",
+      "rows": [
+        {
+          "speaker": "Layla QA · NPC → Nadia Voss",
+          "text": "I have a dog form. Would you watch while I show you? I won’t be able to speak in that body."
+        },
+        {
+          "speaker": "Nadia Voss",
+          "text": "*Nadia's expression shifts subtly—a mixture of curiosity and mild discomfort flickers across her refined features. She sets down her coffee cup and straightens slightly, her professional demeanor reasserting itself.*\n\n\"I... suppose that would be fine. Though I'm not entirely sure what you mean by a 'dog form.'\"\n\n*She glances at Dart, who tilts his head curiously at the conversation, then back to you with raised eyebrows.*\n\n\"Are we talking about some kind of costume? Or... something else?\"\n\n*Her tone carries a hint of skepticism, but there's also genuine interest. She crosses her legs neatly, waiting for your explanation while keeping a watchful eye on Dart.*",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": null,
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "dialogue-only",
+            "action": null,
+            "text": "Conversation only. No physical action was requested."
+          }
+        },
+        {
+          "speaker": "Nadia Voss",
+          "text": "*Nadia nods understandingly, a polite smile crossing her lips. She glances at her watch briefly before returning her attention to you.*\n\n\"Of course, I understand. We all have places to be.\"\n\n*She stands gracefully, smoothing down her dress as she prepares to depart. Dart immediately rises to attention beside her, responding to her subtle shift in posture.*\n\n\"I appreciate you taking the time to chat. If you ever want to grab coffee and discuss the Epi-Center—or marketing opportunities—I'd be happy to help.\"\n\n*She extends a business card from her purse, holding it between two fingers with practiced elegance.*\n\n\"Have a good evening. And enjoy your... form. Whatever that means.\"\n\n*With a final pleasant smile, she begins walking toward the path leading back toward the residential towers, Dart trotting obediently beside her.*",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "initiativeTopic": "natural-departure"
+        }
+      ]
+    },
+    {
+      "label": "nadia-body-witness",
+      "rows": [
+        {
+          "speaker": "Nadia Voss",
+          "text": "*Nadia freezes mid-step, her hand still extended with the business card. Her eyes widen as they take in the transformation before her—your human form shifting into that of a German Shepherd.*\n\n*For a moment, complete silence hangs in the air. Dart's ears perk up sharply, and he lets out a low, curious whine as he watches the transformation with intense interest.*\n\n\"What...?\" *Nadia breathes out, her voice barely above a whisper. She takes an involuntary step backward, her professional composure cracking for just a moment.*\n\n*She blinks rapidly, as if trying to process what she just witnessed. Her gaze darts between you—now in canine form—and Dart, who has moved slightly closer to investigate.*\n\n\"That's... that's impossible,\" *she stammers, though her tone carries more awe than disbelief.* \"I saw you transform right there. Into a... a dog.\"\n\n*She sets down her coffee cup carefully on a nearby bench, her hands trembling slightly. Dart circles around you cautiously, sniffing with evident curiosity but not showing aggression.*\n\n\"Can you... can you still understand me?\" *Nadia asks tentatively, crouching down slightly to be more at eye level with your new form.*\n\n*Her mind clearly races behind those blue eyes—partly in shock, partly in professional curiosity. As the Marketing Team Lead, her instincts are already kicking in, analyzing this unprecedented situation.*\n\n\"This is... extraordinary,\" *she murmurs, pulling out her phone with shaking fingers.* \"I need to document this. For research purposes.\"\n\n*She starts typing notes rapidly, occasionally glancing up at you with a mixture of scientific fascination and genuine concern.*",
+          "aiGenerated": true,
+          "aiFailure": null
+        }
+      ]
+    },
+    {
+      "label": "priya-date",
+      "input": "Could I ask you out on a date?",
+      "rows": [
+        {
+          "speaker": "Layla QA · NPC → Priya Shah",
+          "text": "Could I ask you out on a date?"
+        },
+        {
+          "speaker": "Priya Shah",
+          "text": "Priya stops mid-stride, her breath still steady from the jog. She turns to face you fully, a slight sheen of perspiration on her brow catching the early morning light. Her dark eyes study you with genuine curiosity, though there's a hint of playfulness in her expression.\n\n\"Ask me out?\" She repeats, a soft laugh escaping her lips. \"That's quite bold, considering we've barely met.\" She tilts her head slightly, her carefully styled waves shifting with the movement.\n\n*She's intrigued but cautious. This is someone who values authenticity.*\n\n\"I appreciate the directness,\" she says warmly, crossing her arms loosely over her chest. \"But I'm going to need more than a pretty face and good timing to say yes.\" Her tone isn't dismissive—it's teasing, almost challenging.\n\nShe takes a step closer, lowering her voice just slightly. \"Tell me something real. Why me? And what kind of date are we talking about here?\"\n\nHer gaze doesn't waver as she waits for your response, clearly testing whether your interest is genuine or superficial.",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": "dating.request",
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "resolved",
+            "action": "dating.request",
+            "minutes": 0,
+            "text": "Priya offers a voluntary cat stay. Her offered form must first be mastered; an existing cat keeps its identity and mastery. The collar is a separate choice."
+          }
+        }
+      ]
+    },
+    {
+      "label": "priya-cat-accept",
+      "input": "I choose the female cat for your arrangement.",
+      "rows": [
+        {
+          "speaker": "Layla QA · NPC → Priya Shah",
+          "text": "I choose the female cat for your arrangement."
+        },
+        {
+          "speaker": "Priya Shah",
+          "text": "Priya's expression shifts subtly, a mix of surprise and amusement flickering across her features. She blinks once, twice, as if processing the unexpected response.\n\n\"A female cat?\" She echoes, her voice carrying a note of bemused curiosity. \"Well, that's... specific.\"\n\n*She hadn't anticipated such a decisive choice—or perhaps any choice at all. The directness is refreshing, even if it catches her off guard.*\n\nShe studies you for a moment longer, her dark eyes searching yours as if trying to discern something deeper beneath the surface. Then, a slow smile spreads across her lips—not mocking, but genuinely pleased by the boldness.\n\n\"Alright then,\" Priya says, her tone warming considerably. \"Let's make this interesting.\"\n\nShe reaches into her jacket pocket and pulls out a sleek smartphone, tapping the screen a few times before holding it up between you both.\n\n\"This is Preeti,\" she announces matter-of-factly, showing you a photo of an elegant Siamese cat with striking blue eyes and sleek cream-colored fur accented by darker points on her ears, face, paws and tail tip.\n\n\"She's been with me for about three years now—rescued from an overcrowded shelter when she was just six months old.\" There's genuine affection in Priya's voice as she speaks about the cat.\n\n\"So here's what I'm offering,\" she continues seriously now: \"You'll spend one full day experiencing life as Preeti while staying at my place. You'll see things from her perspective—hunting mice (yes we have those), exploring every corner of our home together—and maybe even bonding over some quality cuddle time on lazy afternoons.\"\n\nHer smile returns briefly before she adds with playful emphasis:\n\n\"And don't worry—I won't let anything happen to either of us during this little experiment.\"\n\nShe extends one hand towards you expectantly:\n\n\"Do we have ourselves an agreement?\"",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": "cat.accept",
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "resolved",
+            "action": "cat.accept",
+            "minutes": 0,
+            "text": "The agreement is saved. Choose Enter cat form when ready; human identity and belongings remain recorded."
+          }
+        }
+      ]
+    },
+    {
+      "label": "priya-enter",
+      "input": "*I nod* I understand. Enter cat form.",
+      "rows": [
+        {
+          "speaker": "Layla QA · NPC → Priya Shah",
+          "text": "*I nod* I understand. Enter cat form."
+        },
+        {
+          "speaker": "Priya Shah",
+          "text": "Priya's expression shifts to one of warm encouragement as she sets down her phone. She steps closer, her voice gentle yet clear.\n\n\"Alright, Preeti,\" she says, using the name you've chosen for your cat form. \"Let's do this.\"\n\nShe extends one hand toward you, palm open, inviting. Her dark eyes meet yours with genuine interest, as if she's curious to see how this will unfold.\n\n\"The form is ready whenever you are,\" Priya adds softly. \"Take your time if you need it. No pressure.\"\n\nHer posture is relaxed, welcoming—a stark contrast to the urgency of the morning rush around you both. It's clear she's in no hurry, content to let you set the pace for this transformation.\n\n*She seems genuinely interested in seeing what you'll become.*",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": "cat.enter",
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "resolved",
+            "action": "cat.enter",
+            "minutes": 0,
+            "text": "1/3 — Your height draws down as your familiar proportions give way to a compact feline body. The cat’s recorded coat replaces the human outline, with whiskers and ears bringing nearby movement into sharp relief.\n\n2/3 — Hands settle into padded forepaws without human fingers. Four legs support your weight; a tail changes the balance behind you. Close scents and low sounds arrive from a viewpoint near the floor.\n\n3/3 — The change settles as Preeti. Human words remain private intentions; your outward voice can purr, meow or hiss. Feline instincts persist, but approaching others and accepting touch remain your choices. Belongings and the original body record are preserved.",
+            "transformation": true
+          }
+        },
+        {
+          "speaker": "Physical transformation",
+          "text": "1/3 — Your height draws down as your familiar proportions give way to a compact feline body. The cat’s recorded coat replaces the human outline, with whiskers and ears bringing nearby movement into sharp relief.\n\n2/3 — Hands settle into padded forepaws without human fingers. Four legs support your weight; a tail changes the balance behind you. Close scents and low sounds arrive from a viewpoint near the floor.\n\n3/3 — The change settles as Preeti. Human words remain private intentions; your outward voice can purr, meow or hiss. Feline instincts persist, but approaching others and accepting touch remain your choices. Belongings and the original body record are preserved."
+        }
+      ]
+    },
+    {
+      "label": "priya-private-words",
+      "input": "*I glance up at Priya* Can you understand my human words?",
+      "rows": [
+        {
+          "speaker": "Preeti · NPC → Priya Shah",
+          "text": "*I glance up at Priya* Can you understand my human words?"
+        },
+        {
+          "speaker": "Cat agreement",
+          "text": "Your outward feline movement is observable; intended human words remain private. No contact or travel is completed by this description."
+        },
+        {
+          "speaker": "Priya Shah",
+          "text": "Priya's eyes soften at the gesture, a knowing smile playing at the corners of her mouth. She watches you carefully, taking in the feline features—the alert ears, the expressive whiskers, those bright eyes that now regard her from a much lower vantage point.\n\n\"Hello, Preeti,\" she says warmly, her voice carrying a note of genuine pleasure. \"Welcome to your new form.\"\n\nShe crouches down slowly, bringing herself closer to your level. Her movements are deliberate, respectful of the space you might need as you adjust to your new body.\n\n*She's patient, observant—giving you time to acclimate while remaining present and engaged.*\n\n\"You look beautiful,\" Priya adds softly, reaching out one hand with palm upturned, not quite touching but offering proximity. \"How does it feel? Are you comfortable?\"\n\nHer dark eyes search yours with honest curiosity and concern. There's no rush in her demeanor—just quiet support as you navigate this new experience.",
+          "aiGenerated": true,
+          "aiFailure": null
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "Ordinary conversation reaches actual Cydonia without mechanics",
+      "passed": true,
+      "detail": {
+        "generated": 2
+      }
+    },
+    {
+      "name": "Kiss offer is a pending choice with no premature contact",
+      "passed": true,
+      "detail": {
+        "pending": {
+          "kind": "kiss",
+          "technique": "unspecified",
+          "body": "[null,0,false]",
+          "visit": 1,
+          "at": 969
+        },
+        "active": null,
+        "advisories": 1
+      }
+    },
+    {
+      "name": "Risk discussion does not accept contact",
+      "passed": true
+    },
+    {
+      "name": "Contextual yes starts the actual kiss, not a hug",
+      "passed": false,
+      "error": "Kiss did not begin"
+    },
+    {
+      "name": "Accepted contact survives reload without duplicated acceptance",
+      "passed": false,
+      "error": "Accepted contact missing after reload"
+    },
+    {
+      "name": "Natural stop ends actual contact",
+      "passed": true
+    },
+    {
+      "name": "Real text offer exposes the same menu acceptance",
+      "passed": true
+    },
+    {
+      "name": "Negation remains conversation",
+      "passed": false,
+      "error": "Negation executed contact"
+    },
+    {
+      "name": "Hypothetical gift does not transfer inventory",
+      "passed": false,
+      "error": "Hypothetical transferred a real item"
+    },
+    {
+      "name": "Real planner transfers only the owned gift",
+      "passed": true,
+      "detail": {
+        "owned": 0,
+        "npc": 1
+      }
+    },
+    {
+      "name": "Negated payment does not spend gold",
+      "passed": true
+    },
+    {
+      "name": "Real planner orders and pays through the retail controller",
+      "passed": true,
+      "detail": {
+        "gold": 494,
+        "receipts": 1
+      }
+    },
+    {
+      "name": "Unsupported request cannot invent travel",
+      "passed": true
+    },
+    {
+      "name": "Charity answers the actual question",
+      "passed": true
+    },
+    {
+      "name": "Remote Eve follow-up stays usable",
+      "passed": true
+    },
+    {
+      "name": "Nadia makes a real demonstration agreement",
+      "passed": false,
+      "error": "No controller watch agreement"
+    },
+    {
+      "name": "Nadia observes actual transformation without restarting greeting",
+      "passed": true
+    },
+    {
+      "name": "Priya’s existing date exception reaches a real offer",
+      "passed": true
+    },
+    {
+      "name": "Real model uses saved agreement and actual cat body",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "requests": [
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "```json\n{\n  \"action\": null\n}\n```",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2080,
+        "outputTokens": 12,
+        "costUSD": 0.00128932
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Tits\n\n*Tits looks up from arranging a display of pink candy, her blue eyes lighting up with genuine enthusiasm. She bounces slightly on her pink heels, causing her ample chest to jiggle noticeably beneath the tight sparkly fabric of her mini dress.*\n\n\"Oh hi! Um, like, I'm doing super great! And you're... wait...\" *She tilts her head, blonde hair swaying, as she studies Layla with an innocent curiosity.* \"I haven't seen you here before! Are you new to town? Like, oh my gosh, I'm Tits! I work here at Burke's Sweets!\"\n\n*She gestures around the candy shop enthusiastically, accidentally knocking over a container of pink candy hearts. They scatter across the counter.*\n\n\"Oopsie! Um, sorry about that!\" *She giggles playfully, bending over to pick them up - a position that gives quite the view of her cleavage straining against her dress.*",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 5831,
+        "outputTokens": 203,
+        "costUSD": 0.00369068
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "{\"action\": null}",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2352,
+        "outputTokens": 5,
+        "costUSD": 0.0014667
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Tits\n\n*Tits' cheeks flush a deeper shade of pink as she straightens up, clutching the scattered candy hearts in her hands. Her heavy-lidded blue eyes widen with surprise and delight.*\n\n\"Oh! Like, really? That's so sweet of you!\" *She sets the candy carefully back in the container, her movements a bit clumsy as she tries to maintain eye contact.* \"Um, I mean... I'm like, totally interested too! Getting to know people is way more fun than just selling stuff!\"\n\n*She plays with a strand of her wavy blonde hair, twirling it around her finger nervously. Her full pouty lips curve into a wide, genuine smile.*\n\n\"We could like, talk! Or... or maybe you wanna hang out sometime? I usually go to Bimbo 365 on weekends, or sometimes the casino! Oh! Or we could grab coffee at Neko Cafe? They have like, super comfy seats!\"\n\n*She leans forward on the counter eagerly, causing her dress to stretch tighter across her curves.*\n\n\"So like, what do you think? Do you wanna be friends?\"",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 6081,
+        "outputTokens": 234,
+        "costUSD": 0.00388694
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "```json\n{\n  \"action\": null\n}\n```",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2587,
+        "outputTokens": 12,
+        "costUSD": 0.00164142
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Tits\n\n*Tits bounces excitedly on her pink heels, making her ample curves jiggle noticeably.*\n\n\"Oh totally! Like, yes! I super love chatting with customers when it's quiet!\" *She clasps her hands together enthusiastically.* \"It's like, way more fun than just selling candy all day! Plus, um, I get kinda lonely sometimes since I work here all by myself, y'know?\"\n\n*She leans forward on the counter, giving an unobstructed view down her low-cut dress. Her heavy-lidded blue eyes sparkle with genuine warmth.*\n\n\"So like, what do you wanna talk about? Um, oh! Tell me about yourself! What do you like to do for fun?\"",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 6309,
+        "outputTokens": 154,
+        "costUSD": 0.00394814
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "{\"action\":{\"id\":\"navigation.counter\"}}",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2520,
+        "outputTokens": 9,
+        "costUSD": 0.00159804
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Tits\n\n*Tits' face lights up with pure joy at the invitation. She bounces excitedly, causing her entire body to jiggle noticeably.*\n\n\"Oh my gosh yes! Please come over!\" *She waves enthusiastically toward the counter, her pink-painted nails catching the light.* \"Like, totally! I'd love that!\"\n\n*She leans forward over the counter eagerly, her ample chest pressing against the surface as she watches Layla approach. Her blonde hair falls forward, framing her flushed face.*\n\n\"I'm so excited! Um, like, what should we talk about first?\" *She giggles playfully, twirling a strand of hair around her finger.* \"Oh! Or maybe you want to see some of our candy first? We have like, super yummy stuff!\"",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 6503,
+        "outputTokens": 167,
+        "costUSD": 0.00409762
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "```json\n{\n  \"action\": {\n    \"id\": \"kiss.offer\",\n    \"arguments\": {\n      \"technique\": \"unspecified\"\n    }\n  }\n}\n```",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2679,
+        "outputTokens": 39,
+        "costUSD": 0.00175394
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Tits\n\n*Tits' eyes widen with surprise and excitement at the bold request. She bites her full pouty lower lip, a playful gesture that draws attention to her glossy pink lips.*\n\n\"Oh! Um, like, really?\" *She giggles, playing with her blonde hair nervously.* \"That's like, super sweet! But um... oh! Wait!\"\n\n*Her expression shifts to something more serious, though still friendly. She straightens up, her ample chest heaving slightly as she takes a deep breath.*\n\n\"Okay, so like, I gotta tell you something important first. I have the bimbo virus—it's infectious! I think it's kinda fun, but you could catch it too. Know the risk before you choose, okay?\"",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 6764,
+        "outputTokens": 158,
+        "costUSD": 0.00426638
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "```json\n{\n  \"action\": {\n    \"id\": \"conversation.end\",\n    \"arguments\": {}\n  }\n}\n```",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2792,
+        "outputTokens": 28,
+        "costUSD": 0.00180418
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Tits\n\n*Tits relaxes visibly, her shoulders dropping as relief washes over her face. She lets out a little giggle, tucking a strand of blonde hair behind her ear.*\n\n\"Oh thank goodness! Like, I totally didn't want to scare you away or anything!\" *She clasps her hands together on the counter, leaning forward slightly.* \"Yeah, we can totally talk! I mean, I know it might seem weird that I just like, told you that right off the bat, but I think being honest is super important, y'know?\"\n\n*She plays with her hair again, twirling it around her finger as she looks up at Layla with those heavy-lidded blue eyes.*\n\n\"So um, what do you wanna talk about? Like, I'm totally curious about you now!\"",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 6651,
+        "outputTokens": 169,
+        "costUSD": 0.00419234
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "{\n  \"action\": {\n    \"id\": \"kiss.offer\",\n    \"arguments\": {\n      \"technique\": \"unspecified\"\n    }\n  }\n}",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2640,
+        "outputTokens": 35,
+        "costUSD": 0.0017248
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Tits\n\n*Tits' face lights up with pure joy at Layla's acceptance. She bounces excitedly in place, causing her ample curves to jiggle noticeably beneath her tight pink dress.*\n\n\"Oh my gosh yes! I'm so excited!\" *She giggles, her voice taking on that characteristic club bimbo tone.* \"Like, totally! Come here!\"\n\n*She leans over the counter as far as she can, her heavy breasts pressing against the surface. Her full pink lips part slightly as she closes her eyes in anticipation, waiting for Layla to close the distance between them.*\n\n\"Mmm, I can't wait!\" *She murmurs, her breath coming faster now. A light blush colors her cheeks as she awaits the kiss.*",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 6644,
+        "outputTokens": 160,
+        "costUSD": 0.0041847
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "```json\n{\n  \"action\": {\n    \"id\": \"conversation.end\",\n    \"arguments\": {}\n  }\n}\n```",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2783,
+        "outputTokens": 28,
+        "costUSD": 0.00180208
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Tits\n\n*Tits pulls back slowly, her heavy-lidded blue eyes still glazed with desire. A thin string of pink-tinted saliva connects her glossy lips to Layla's for a moment before breaking.*\n\n\"Mmm... oh, okay...\" *She pants softly, her chest heaving as she tries to catch her breath. Her face is flushed, and her blonde hair is slightly disheveled from the passionate kissing.* \"Like... wow... that was super intense!\"\n\n*She giggles breathlessly, playing with a strand of her hair as she regains her composure. The pink gloss on her lips is smudged, and she can feel how wet and swollen they've become.*\n\n\"Um, are you okay? I mean... you seemed like you were really into it!\" *She tilts her head curiously, studying Layla's expression with those big blue eyes.*",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 6604,
+        "outputTokens": 187,
+        "costUSD": 0.00418242
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "{\n  \"action\": {\n    \"id\": \"kiss.offer\",\n    \"arguments\": {\n      \"technique\": \"unspecified\"\n    }\n  }\n}",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2648,
+        "outputTokens": 35,
+        "costUSD": 0.0017297
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Tits\n\n*Tits' face lights up immediately at the request, a bright smile spreading across her glossy pink lips.*\n\n\"Oh yes! Like, totally!\" *She giggles excitedly, bouncing slightly in place which makes her ample curves jiggle beneath her tight pink dress.* \"I was wondering if you'd want to kiss again! That was so much fun!\"\n\n*She leans forward over the counter eagerly, her heavy breasts pressing against the surface as she tilts her head and puckers her lips invitingly.*\n\n\"Come here! I'm ready whenever you are!\" *She says breathlessly, her eyes half-closed and filled with anticipation. Her fingers drum excitedly on the counter as she waits for Layla to close the distance between them.*",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 6662,
+        "outputTokens": 158,
+        "costUSD": 0.00419638
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Tits\n\n*Tits beams with delight at the acceptance, her whole face lighting up. She leans forward over the counter, pressing her generous cleavage against the edge as she reaches out toward Layla.*\n\n\"Oh yay! I'm so happy you said yes!\" *She giggles, her voice taking on that characteristic club bimbo tone.* \"Like, I really wanted to kiss you again! You're so sweet!\"\n\n*As she moves closer, the sweet scent of bubblegum and cotton candy that always seems to surround her intensifies. Her heavy-lidded blue eyes are half-closed in anticipation, and her full pink lips part slightly as she awaits the kiss.*\n\n\"Mmm... I can't wait!\" *She murmurs, her breath coming faster now. A light blush colors her cheeks as she awaits the kiss, her fingers gripping the edge of the counter tightly in excitement.*",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 6590,
+        "outputTokens": 185,
+        "costUSD": 0.0041836
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "```json\n{\n  \"action\": null\n}\n```",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2598,
+        "outputTokens": 12,
+        "costUSD": 0.00164002
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Tits\n\n*Tits pulls back slightly, her expression shifting to one of pure delight at the question. She bounces excitedly on her heels, causing her ample curves to jiggle beneath her tight pink dress.*\n\n\"Oh! Like, I totally love working here!\" *She giggles, playing with a strand of her blonde hair.* \"It's so much fun! I get to make yummy treats for people all day long!\"\n\n*She leans forward over the counter, her heavy breasts pressing against the surface as she speaks enthusiastically.*\n\n\"And like... I get to talk to lots of different people! Everyone who comes in is so nice and friendly!\" *Her face lights up with a bright smile.* \"Plus, everything here is pink and sparkly! How could anyone not love that?\"\n\n*She giggles again, twirling a strand of her hair around her finger as she looks at Layla with those big blue eyes.*\n\n\"Oh! And another thing... I love making special treats for people! Like cupcakes or cakes with their name on them or whatever they want!\" *She bounces excitedly again.* \"It makes me feel so happy when people are happy with what I made them!\"",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 6652,
+        "outputTokens": 251,
+        "costUSD": 0.00427626
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "{\n  \"action\": {\n    \"id\": \"gift.give\",\n    \"arguments\": {\n      \"itemName\": \"pink plush bunny\"\n    }\n  }\n}",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2726,
+        "outputTokens": 38,
+        "costUSD": 0.00175768
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Tits\n\n*Tits' eyes light up immediately at the mention of a pink plush bunny. She clasps her hands together excitedly, her face beaming with pure joy.*\n\n\"Oh my gosh, yes! I would absolutely love it!\" *She giggles, bouncing on her heels.* \"Like, I totally love pink things and bunnies and stuffed animals! They're so cute and squishy!\"\n\n*She leans forward over the counter eagerly, her ample cleavage pressing against the edge as she looks at Layla with wide, hopeful blue eyes.*\n\n\"Would you really give it to me? That would make my whole day!\" *She says breathlessly, her fingers drumming excitedly on the counter.* \"I promise I'd take really good care of it! I could keep it right here at the shop so I can see it all day long!\"\n\n*Her face lights up even more at the thought, a bright smile spreading across her glossy pink lips.*\n\n\"Please say yes! I really, really want that pink bunny!\"",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 6731,
+        "outputTokens": 218,
+        "costUSD": 0.00429398
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "{\"action\": null}",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2680,
+        "outputTokens": 5,
+        "costUSD": 0.0017096
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Tits\n\n*Tits' entire face lights up like a Christmas tree at the declaration of the gift. Her eyes go wide and sparkle with pure delight.*\n\n\"Oh my gosh, oh my gosh! Like, really?! It's for me?!\" *She squeals excitedly, bouncing up and down which makes her ample assets jiggle beneath her tight pink dress. Her hands clasp together in front of her chest.*\n\n\"I'm like, so excited! Thank you, thank you, thank you!\" *She giggles breathlessly, leaning forward over the counter eagerly. The sweet scent of bubblegum and cotton candy that always surrounds her intensifies as she moves closer.*\n\n\"Can I see it? Can I hold it? Oh! Can I give it a hug?\" *Her voice is practically singing with joy as she speaks rapidly. Her fingers drum impatiently on the counter as she awaits Layla's response.*\n\n\"You're like, the best! I love this pink bunny already!\"",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 6754,
+        "outputTokens": 208,
+        "costUSD": 0.00429008
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "```json\n{\n  \"action\": {\n    \"id\": \"shop.drink\",\n    \"arguments\": {\n      \"product\": \"coffee\",\n      \"cup\": \"cafe\",\n      \"timing\": \"now\"\n    }\n  }\n}\n```",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2656,
+        "outputTokens": 54,
+        "costUSD": 0.00175874
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Tits\n\n*Tits bounces excitedly behind the counter at the coffee order, her ample curves jiggling beneath her tight pink dress.*\n\n\"Oh yay! Coffee for here! Coming right up!\" *She chirps cheerfully, turning toward the coffee machine with enthusiasm.*\n\n*As she reaches up to grab a pink ceramic mug from the shelf above, her dress rides up slightly, revealing more of her thick thighs. She hums a cheerful tune as she prepares the coffee, completely unaware or uncaring of how much of her curvy body is on display.*\n\n*The rich aroma of freshly brewed coffee fills the air as Tits carefully pours it into the pink mug. She adds a generous dollop of whipped cream on top and sprinkles some pink sugar crystals over it.*\n\n\"There you go! One yummy coffee for here!\" *She announces proudly, setting the mug down on the counter with a bright smile. Her heavy breasts press against the edge of the counter as she leans forward to hand it to Layla.*\n\n\"Enjoy! Let me know if you want anything else!\" *She giggles playfully, tucking a strand of blonde hair behind her ear.*",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 6824,
+        "outputTokens": 243,
+        "costUSD": 0.00439438
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "{\"action\": null}",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2773,
+        "outputTokens": 5,
+        "costUSD": 0.0017705
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Tits\n\n*Tits tilts her head to the side, her blonde hair swaying with the movement. She blinks her big blue eyes at Layla with a confused expression.*\n\n\"Oh, um... okay?\" *She says uncertainly, her voice taking on a slightly higher pitch.* \"Like, do you want to just... hang out for a bit? That's totally fine too!\"\n\n*She giggles nervously, fidgeting with the hem of her pink apron. The sweet scent of bubblegum and cotton candy that always surrounds her seems to intensify as she shifts her weight from one foot to the other.*\n\n\"We could like... chat or something? I don't mind waiting!\" *Her bright smile returns as she speaks, though there's still a hint of confusion in her eyes.*\n\n*She leans against the counter, her ample cleavage pressing against the surface as she rests her elbows on it. Her eyes sparkle with curiosity as she looks at Layla expectantly.*\n\n\"So like... what do you wanna talk about?\"",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 6827,
+        "outputTokens": 213,
+        "costUSD": 0.00435748
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "```json\n{\n  \"action\": {\n    \"id\": \"shop.pay\",\n    \"arguments\": {}\n  }\n}\n```",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2775,
+        "outputTokens": 26,
+        "costUSD": 0.00178926
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Tits\n\n*Tits beams with delight at the payment, her bright smile widening as she accepts the gold coins.*\n\n\"Yay! Thank you so much!\" *She chirps happily, carefully placing the coins in the register with her small, delicate hands. The sweet scent of bubblegum and cotton candy that always surrounds her intensifies as she leans forward over the counter.*\n\n*As she straightens up, her ample cleavage jiggles enticingly beneath her tight pink dress. She giggles playfully, twirling a strand of her long blonde hair around her finger.*\n\n\"Is there anything else I can get for you today? Like maybe a yummy treat or something?\" *Her big blue eyes sparkle with excitement as she looks at Layla hopefully. She clasps her hands together in front of her chest, unconsciously pushing up her already prominent breasts.*\n\n\"We have lots of yummy stuff! Candy, cupcakes, cookies...\" *She trails off dreamily, clearly lost in thoughts of all the delicious treats in the shop.*",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 6965,
+        "outputTokens": 216,
+        "costUSD": 0.00449466
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "```json\n{\n  \"action\": {\n    \"id\": \"conversation.end\",\n    \"arguments\": {}\n  }\n}\n```",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2732,
+        "outputTokens": 28,
+        "costUSD": 0.00176918
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Tits\n\n*Tits blinks her big blue eyes at Layla with a confused expression, tilting her head to the side.*\n\n\"Um... the moon?\" *She repeats slowly, her voice taking on a slightly uncertain tone.* \"Like... that big shiny thing in the sky?\"\n\n*She giggles nervously, fidgeting with the hem of her pink apron. The sweet scent of bubblegum and cotton candy that always surrounds her seems to intensify as she shifts her weight from one foot to the other.*\n\n\"I don't think I can do that... I'm just a regular person, you know?\" *She explains apologetically, her bright smile faltering slightly.* \"I can make yummy treats and serve coffee and stuff, but I can't teleport people to the moon!\"\n\n*She laughs softly, covering her mouth with one hand as she shakes her head. Her blonde hair sways with the movement, catching the light from above.*\n\n\"Sorry about that! Is there anything else I can help you with today? Maybe something more... realistic?\"",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 6871,
+        "outputTokens": 221,
+        "costUSD": 0.00439966
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "*Charity glances up from straightening a display rack, her hazel eyes meeting yours with genuine warmth. She tucks a strand of wavy red hair behind her left ear as she processes your request.*\n\n\"Oh! Well, hello there,\" *she says with a friendly smile, setting down the folded shirt she was holding.* \"Tits? You mean my friend Tits? Of course I know where she works—she runs Burke's Sweets over on Maple Street.\"\n\n*She leans against the counter comfortably, her casual T-shirt and jeans putting off a relaxed, approachable vibe.*\n\n\"Is everything alright? You sound like it's pretty important.\" *Her expression shifts to one of genuine concern, head tilted slightly as she studies your face.* \"You look a bit stressed. If you need directions or... well, whatever help I can offer, I'm happy to do so.\"\n\n*She pauses, then adds with a slight grin,* \"Though I have to admit, it's not every day someone comes in asking for my best friend by name. You must really need to talk to her!\"",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 3170,
+        "outputTokens": 224,
+        "costUSD": 0.0003664
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "*Eve's pleasant corporate smile appears on the screen.*\n\nHello! I'm glad you reached out. Currently, there isn't a general way to refill spent Stamina outside of combat situations.\n\nDuring combat encounters, Physical characters can use **Defensive Posture** to gain +12 Stamina, while Arousal characters can use **Clear Mind** for +6 Stamina.\n\nSleeping can help lower Fatigue, but it doesn't restore Stamina directly.\n\nWould you like more information about our volunteer program? We're always looking for enthusiastic participants to help expand the settlement!\n\n*The interface maintains its friendly, helpful demeanor.*",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 1805,
+        "outputTokens": 129,
+        "costUSD": 0.0002112
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "*Eve's cheerful AI avatar maintains her polished smile.*\n\nThank you for clarifying! To be precise, sleeping will reduce your Fatigue by 5 levels, but it doesn't directly restore Stamina. They're separate resources that serve different purposes.\n\nIf you're finding yourself frequently low on Stamina during your activities, I'd be happy to discuss some strategies or point you toward areas where you might practice resource management.\n\nAlso, while I have you here - have you considered joining our volunteer program? We're actively recruiting participants to help with various settlement expansion projects!\n\n*The interface waits patiently for a response.*",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 1966,
+        "outputTokens": 123,
+        "costUSD": 0.00030506
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "```json\n{\n  \"action\": null\n}\n```",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 1554,
+        "outputTokens": 12,
+        "costUSD": 0.00087912
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "*Nadia looks up from her phone, smiling pleasantly as she glances between you and Dart.*\n\n\"Thank you! He's a handful sometimes, but I wouldn't trade him for anything.\"\n\n*She gives Dart a gentle pat on the head. He sits obediently beside her, his dark eyes watching the park with alert interest.*\n\n\"How are you finding the Epi-Center so far? It's quite something, isn't it?\"\n\n*Her tone is friendly and conversational, though there's a subtle air of professionalism to her demeanor—likely ingrained from years in marketing.*",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2568,
+        "outputTokens": 120,
+        "costUSD": 0.0016757
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "```json\n{\"action\":null}\n```",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 1740,
+        "outputTokens": 9,
+        "costUSD": 0.00101144
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "*Nadia's expression shifts subtly—a mixture of curiosity and mild discomfort flickers across her refined features. She sets down her coffee cup and straightens slightly, her professional demeanor reasserting itself.*\n\n\"I... suppose that would be fine. Though I'm not entirely sure what you mean by a 'dog form.'\"\n\n*She glances at Dart, who tilts his head curiously at the conversation, then back to you with raised eyebrows.*\n\n\"Are we talking about some kind of costume? Or... something else?\"\n\n*Her tone carries a hint of skepticism, but there's also genuine interest. She crosses her legs neatly, waiting for your explanation while keeping a watchful eye on Dart.*",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2727,
+        "outputTokens": 141,
+        "costUSD": 0.00180436
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "*Nadia nods understandingly, a polite smile crossing her lips. She glances at her watch briefly before returning her attention to you.*\n\n\"Of course, I understand. We all have places to be.\"\n\n*She stands gracefully, smoothing down her dress as she prepares to depart. Dart immediately rises to attention beside her, responding to her subtle shift in posture.*\n\n\"I appreciate you taking the time to chat. If you ever want to grab coffee and discuss the Epi-Center—or marketing opportunities—I'd be happy to help.\"\n\n*She extends a business card from her purse, holding it between two fingers with practiced elegance.*\n\n\"Have a good evening. And enjoy your... form. Whatever that means.\"\n\n*With a final pleasant smile, she begins walking toward the path leading back toward the residential towers, Dart trotting obediently beside her.*",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2777,
+        "outputTokens": 171,
+        "costUSD": 0.00187346
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "*Nadia freezes mid-step, her hand still extended with the business card. Her eyes widen as they take in the transformation before her—your human form shifting into that of a German Shepherd.*\n\n*For a moment, complete silence hangs in the air. Dart's ears perk up sharply, and he lets out a low, curious whine as he watches the transformation with intense interest.*\n\n\"What...?\" *Nadia breathes out, her voice barely above a whisper. She takes an involuntary step backward, her professional composure cracking for just a moment.*\n\n*She blinks rapidly, as if trying to process what she just witnessed. Her gaze darts between you—now in canine form—and Dart, who has moved slightly closer to investigate.*\n\n\"That's... that's impossible,\" *she stammers, though her tone carries more awe than disbelief.* \"I saw you transform right there. Into a... a dog.\"\n\n*She sets down her coffee cup carefully on a nearby bench, her hands trembling slightly. Dart circles around you cautiously, sniffing with evident curiosity but not showing aggression.*\n\n\"Can you... can you still understand me?\" *Nadia asks tentatively, crouching down slightly to be more at eye level with your new form.*\n\n*Her mind clearly races behind those blue eyes—partly in shock, partly in professional curiosity. As the Marketing Team Lead, her instincts are already kicking in, analyzing this unprecedented situation.*\n\n\"This is... extraordinary,\" *she murmurs, pulling out her phone with shaking fingers.* \"I need to document this. For research purposes.\"\n\n*She starts typing notes rapidly, occasionally glancing up at you with a mixture of scientific fascination and genuine concern.*",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 3335,
+        "outputTokens": 341,
+        "costUSD": 0.00085676
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "```json\n{\n  \"action\": {\n    \"id\": \"dating.request\",\n    \"arguments\": {}\n  }\n}\n```",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 1654,
+        "outputTokens": 26,
+        "costUSD": 0.00008324
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "Priya stops mid-stride, her breath still steady from the jog. She turns to face you fully, a slight sheen of perspiration on her brow catching the early morning light. Her dark eyes study you with genuine curiosity, though there's a hint of playfulness in her expression.\n\n\"Ask me out?\" She repeats, a soft laugh escaping her lips. \"That's quite bold, considering we've barely met.\" She tilts her head slightly, her carefully styled waves shifting with the movement.\n\n*She's intrigued but cautious. This is someone who values authenticity.*\n\n\"I appreciate the directness,\" she says warmly, crossing her arms loosely over her chest. \"But I'm going to need more than a pretty face and good timing to say yes.\" Her tone isn't dismissive—it's teasing, almost challenging.\n\nShe takes a step closer, lowering her voice just slightly. \"Tell me something real. Why me? And what kind of date are we talking about here?\"\n\nHer gaze doesn't waver as she waits for your response, clearly testing whether your interest is genuine or superficial.",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2643,
+        "outputTokens": 224,
+        "costUSD": 0.00183834
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "```json\n{\n  \"action\": {\n    \"id\": \"cat.accept\",\n    \"arguments\": {\n      \"choice\": \"female\"\n    }\n  }\n}\n```",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2005,
+        "outputTokens": 35,
+        "costUSD": 0.0011879
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "Priya's expression shifts subtly, a mix of surprise and amusement flickering across her features. She blinks once, twice, as if processing the unexpected response.\n\n\"A female cat?\" She echoes, her voice carrying a note of bemused curiosity. \"Well, that's... specific.\"\n\n*She hadn't anticipated such a decisive choice—or perhaps any choice at all. The directness is refreshing, even if it catches her off guard.*\n\nShe studies you for a moment longer, her dark eyes searching yours as if trying to discern something deeper beneath the surface. Then, a slow smile spreads across her lips—not mocking, but genuinely pleased by the boldness.\n\n\"Alright then,\" Priya says, her tone warming considerably. \"Let's make this interesting.\"\n\nShe reaches into her jacket pocket and pulls out a sleek smartphone, tapping the screen a few times before holding it up between you both.\n\n\"This is Preeti,\" she announces matter-of-factly, showing you a photo of an elegant Siamese cat with striking blue eyes and sleek cream-colored fur accented by darker points on her ears, face, paws and tail tip.\n\n\"She's been with me for about three years now—rescued from an overcrowded shelter when she was just six months old.\" There's genuine affection in Priya's voice as she speaks about the cat.\n\n\"So here's what I'm offering,\" she continues seriously now: \"You'll spend one full day experiencing life as Preeti while staying at my place. You'll see things from her perspective—hunting mice (yes we have those), exploring every corner of our home together—and maybe even bonding over some quality cuddle time on lazy afternoons.\"\n\nHer smile returns briefly before she adds with playful emphasis:\n\n\"And don't worry—I won't let anything happen to either of us during this little experiment.\"\n\nShe extends one hand towards you expectantly:\n\n\"Do we have ourselves an agreement?\"",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2862,
+        "outputTokens": 395,
+        "costUSD": 0.0021697
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "```json\n{\n  \"action\": {\n    \"id\": \"cat.enter\",\n    \"arguments\": {}\n  }\n}\n```",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2207,
+        "outputTokens": 26,
+        "costUSD": 0.00131046
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "Priya's expression shifts to one of warm encouragement as she sets down her phone. She steps closer, her voice gentle yet clear.\n\n\"Alright, Preeti,\" she says, using the name you've chosen for your cat form. \"Let's do this.\"\n\nShe extends one hand toward you, palm open, inviting. Her dark eyes meet yours with genuine interest, as if she's curious to see how this will unfold.\n\n\"The form is ready whenever you are,\" Priya adds softly. \"Take your time if you need it. No pressure.\"\n\nHer posture is relaxed, welcoming—a stark contrast to the urgency of the morning rush around you both. It's clear she's in no hurry, content to let you set the pace for this transformation.\n\n*She seems genuinely interested in seeing what you'll become.*",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 3504,
+        "outputTokens": 164,
+        "costUSD": 0.00231334
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "Priya's eyes soften at the gesture, a knowing smile playing at the corners of her mouth. She watches you carefully, taking in the feline features—the alert ears, the expressive whiskers, those bright eyes that now regard her from a much lower vantage point.\n\n\"Hello, Preeti,\" she says warmly, her voice carrying a note of genuine pleasure. \"Welcome to your new form.\"\n\nShe crouches down slowly, bringing herself closer to your level. Her movements are deliberate, respectful of the space you might need as you adjust to your new body.\n\n*She's patient, observant—giving you time to acclimate while remaining present and engaged.*\n\n\"You look beautiful,\" Priya adds softly, reaching out one hand with palm upturned, not quite touching but offering proximity. \"How does it feel? Are you comfortable?\"\n\nHer dark eyes search yours with honest curiosity and concern. There's no rush in her demeanor—just quiet support as you navigate this new experience.",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 3429,
+        "outputTokens": 205,
+        "costUSD": 0.0023329
+      }
+    }
+  ],
+  "before": {
+    "releaseVersion": "1.0.135",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "actionProtocol": "npc-actions-v1",
+    "model": "TheDrummer/Cydonia-24B-v4.3",
+    "budget": {
+      "month": "2026-11",
+      "spentUSD": 0.934542,
+      "reservedUSD": 0.052984,
+      "limitUSD": 50,
+      "remainingUSD": 49.012474,
+      "inputTokens": 1406218,
+      "outputTokens": 73229,
+      "requests": 694,
+      "blocked": false
+    }
+  },
+  "after": {
+    "releaseVersion": "1.0.135",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "actionProtocol": "npc-actions-v1",
+    "model": "TheDrummer/Cydonia-24B-v4.3",
+    "budget": {
+      "month": "2026-11",
+      "spentUSD": 1.068518,
+      "reservedUSD": 0.052984,
+      "limitUSD": 50,
+      "remainingUSD": 48.878498,
+      "inputTokens": 1624918,
+      "outputTokens": 79521,
+      "requests": 753,
+      "blocked": false
+    }
+  },
+  "finished": "2026-11-21T09:52:43.099Z",
+  "failed": 5
+}

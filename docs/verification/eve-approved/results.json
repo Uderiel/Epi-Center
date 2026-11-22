@@ -1,0 +1,54 @@
+{
+  "status": "Eve approved avatar description and portrait implemented and verified locally; unpublished",
+  "at": "2026-11-22T05:04:12.404Z",
+  "description": "Eve’s adult female-presenting avatar is made entirely of digital blue light,with a short pixie cut,a delicate pixie-like face and cyan eyes. She wears a sleek futuristic one-piece latex-like suit rendered in blue light with cyan circuit seams. Her hands are bare; her bare feet use a US women’s size5 visual reference. No gloves or shoes.",
+  "portrait": {
+    "source": "/workspace/generated_images/exec-0a48c3dd-fd48-43e1-af7d-108d9acab66a.png",
+    "asset": "rebuild/hub/assets/character-art-review/eve-blue-pixie-v1.png",
+    "status": "Actual image viewed and owner-approved; connected locally as avatar reference; unpublished",
+    "approved": true,
+    "connected": true,
+    "ownerApproval": "Perfect. Lets revise her description details and keep going",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "b34d369afb02ea93381b8d550b6286f7f940ba894cc3ad6d46a2da9f699e961b",
+    "consumer": "eve-appearance.js portrait + appearance-profiles-ui.js eveAppearanceMarkup in existing NPC help channel"
+  },
+  "projectionLocations": [
+    "Central Hub Spire",
+    "Central Hub N",
+    "Central Hub NE",
+    "Central Hub E",
+    "Central Hub SE",
+    "Central Hub S",
+    "Central Hub SW",
+    "Central Hub W",
+    "Central Hub NW"
+  ],
+  "physicalBody": false,
+  "humanReferenceUsed": false,
+  "runtime": {
+    "cases": 2262,
+    "suites": 161,
+    "passed": true,
+    "scope": "Runtime-only regression; final release/canon verification remains pending combined release preparation"
+  },
+  "browserChecks": {
+    "eveAvatar": 6,
+    "npc": 24,
+    "currentBody": 9,
+    "eveNavigation": 2
+  },
+  "outgoingAppearancePacketCharacters": 6589,
+  "connectedImageAssetsDecoded": 12,
+  "profileStatesWithoutPortraitConsumer": 5,
+  "playerStateAndCreationPreserved": true,
+  "existingHelpAndNavigationPreserved": true,
+  "paidCydoniaCalls": 0,
+  "imageGenerations": 0,
+  "workerChanged": false,
+  "published": false,
+  "next": "Erin full24-field appearance proposal ready for review; new Erin values unapplied"
+}

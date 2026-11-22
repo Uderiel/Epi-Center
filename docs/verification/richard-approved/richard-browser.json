@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "realProvider": false,
+  "checks": [
+    "Approved complete appearance and dimensions reach actual Richard panel and canonical profile",
+    "Final existing-worker projection receives approved speaker age/height/weight and40in chest",
+    "The approved chest override is applied; image approval remains separate with no portrait consumer",
+    "Player appearance/resources/belongings stay intact"
+  ],
+  "errors": []
+}

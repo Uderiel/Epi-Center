@@ -1,0 +1,12 @@
+{
+  "status": "Actual revised gym-bunny portrait generated and displayed for separate review;not approved or connected",
+  "source": "/workspace/generated_images/exec-6b9fed49-d33e-4c22-8219-44e1f4ae779a.png",
+  "reviewAsset": "rebuild/hub/assets/character-art-review/gym-bunny-v1.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "14b4250f4a6995dc8dfd1a612abc9fd7cc0c482ff198c5ae3a17861feb7045c9",
+  "approved": false,
+  "connected": false
+}

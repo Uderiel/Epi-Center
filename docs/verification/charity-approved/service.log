@@ -1,0 +1,13 @@
+PASS real shop entry records customer and quiet preference does not create forced speech
+PASS FIFO acknowledges waiting visitors and preserves current request through voluntary chatter
+PASS clerk duties require actual on-duty worker and operate on recorded customer only
+PASS scan checks own customer basket revision without paying or transferring goods
+PASS occupied and closed-curtain stalls are never advertised entered or cleaned
+PASS quiet cleaning preserves stock ownership and records one check per actual use
+PASS automatic Charity cleanup walks real rooms and yields as soon as a customer arrives
+PASS disconnect releases queue and stall while basket survives reload
+PASS handover keeps same request and basket without granting money or rewards
+PASS checkout cannot skip another customer and blocked checkout preserves basket and funds
+PASS old paid receipts cannot complete a newly requested checkout
+PASS tidying a public stall keeps entrance open but does not fake register presence
+12 Charity service cases passed

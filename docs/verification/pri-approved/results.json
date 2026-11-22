@@ -1,0 +1,49 @@
+{
+  "status": "Owner-approved full Pri appearance implemented and verified locally; actual photo displayed for separate approval; unpublished",
+  "at": "2026-11-22T05:46:37.322Z",
+  "entity": "form:priya-cat:male",
+  "appearanceApproved": true,
+  "approvedBaseline": {
+    "ageYears": 3,
+    "heightAtWithersInches": 10,
+    "weightPounds": 10,
+    "eyes": "Green"
+  },
+  "portrait": {
+    "status": "Actual photo generated and displayed for separate owner image approval; not connected or published",
+    "source": "/workspace/generated_images/exec-d8437c60-c401-4c02-86da-3e57bbeca5db.png",
+    "reviewAsset": "rebuild/hub/assets/character-art-review/pri-v1.png",
+    "size": [
+      1536,
+      1024
+    ],
+    "sha256": "16fc69df3faed47ac4ce760d73b8a4e73f6e31a66838c71766d9f076f5bc0f78",
+    "approved": false,
+    "connected": false
+  },
+  "focusedCases": 53,
+  "runtime": {
+    "passed": true,
+    "namedCases": 2277,
+    "suites": 164,
+    "scope": "Runtime-only; final combined release/canon preparation still pending"
+  },
+  "browser": {
+    "passed": true,
+    "counts": {
+      "npc": 24,
+      "current": 9,
+      "pri": 4
+    },
+    "total": 37,
+    "realProvider": false
+  },
+  "connectedImagesDecoded": 12,
+  "missingPortraitConsumers": 5,
+  "imageGenerations": 1,
+  "imageGenerationPrice": "not reported by tool",
+  "cydoniaCalls": 0,
+  "workerChanges": false,
+  "published": false,
+  "remaining": "Actual Pri photo approval before connection; then Preeti appearance review. General live-model prose correctness remains open."
+}

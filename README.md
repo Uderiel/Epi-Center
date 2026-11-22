@@ -1,3 +1,7 @@
+## v1.0.137 — publication candidate
+
+Approved interaction repairs,required character appearance builder and calculator,current-body awareness,NPC/form alignment and approved portraits. See [release synopsis](docs/releases/v1.0.137-synopsis.md). Publication verification pending;previous public client:v1.0.136. Worker remains request-handoff-v11.
+
 ## v1.0.130 — directory persistence and advance binding warning
 
 Repairs Priya’s saved 2F discovery and adds red advance warnings for the sucker’s timed last-Resolve drain while retaining permanent binding. World Bible releases now include an immutable exact-byte Markdown copy and integrity manifest. Published and live-verified: 1,804 automated cases, three local/public browser checks and 193 exact-byte public file comparisons pass. Worker130 is configured. [Play v1.0.130](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.130).

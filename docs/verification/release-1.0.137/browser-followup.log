@@ -1,0 +1,21 @@
+PASS browser-conversation-routing.cjs
+FAIL browser-virus-appearance.cjs
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  A(await p.evaluate(type=>save.appearance.genitalAnatomy===EpiBimboVirusAppearance.genitalTargets[type].genitalAnatomy&&currentAppearance().genitalAnatomy===save.appearance.genitalAnatomy&&Object.entries(EpiBimboVirusAppearance.buildTargets[type]).every(([k,v])=>save.appearance[k]===v&&document.querySelector('[data-appearance-field="'+k+'"]').textContent.includes(v))&&document.querySelector('[data-appearance-field="genitalAnatomy"]').textContent.includes(save.appearance.genitalAnatomy)&&!EpiBimboVirusResources.record(save).courseCompleted,type))
+
+    at /workspace/epicenter-release-1.0.137/scripts/browser-virus-appearance.cjs:1:4487 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+PASS browser-canine-input.cjs
+PASS browser-erin-transition-frame.cjs
+PASS browser-eve-navigation.cjs
+PASS browser-current-appearance.cjs
+PASS browser-cat-narrative-frame.cjs
+PASS browser-club-appearance.cjs

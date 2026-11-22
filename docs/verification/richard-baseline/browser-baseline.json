@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "realProvider": false,
+  "checks": [
+    "Approved age/height/weight reach actual Richard panel and canonical profile",
+    "Final existing-worker projection receives the approved speaker age/height/weight",
+    "Unapproved regional fields/chest override remain absent from runtime",
+    "Player appearance/resources/belongings stay intact"
+  ],
+  "errors": []
+}

@@ -1,0 +1,115 @@
+{
+  "status": "Implemented and tested locally; unpublished",
+  "at": "2026-11-21T19:48:55.737036+00:00",
+  "savedAppearanceKeys": 23,
+  "fieldOrderPreserved": true,
+  "requiredTemplate": true,
+  "humanOnlyCreation": true,
+  "cupDifferencesInches": {
+    "A": 2,
+    "B": 2.5,
+    "C": 3,
+    "D": 3.5,
+    "DD": 4,
+    "E": 4.5,
+    "EE": 5,
+    "F": 5.5
+  },
+  "regression": {
+    "passed": true,
+    "namedCases": 2221,
+    "suites": 158,
+    "syntax": "PASS",
+    "modulePaths": "PASS"
+  },
+  "browser": {
+    "realProvider": false,
+    "scope": "Actual synthetic-slot title/creation/review/confirm/reload flows; no NPC or form records rewritten",
+    "checks": [
+      "Actual New Character entry renders the same23 ordered fields with generated read-only Build",
+      "Review is blocked until required template responses are supplied",
+      "Nonhuman structures, latex/silicone and nonhuman skin colours are disabled during human creation",
+      "Confirmation validation rejects a nonhuman material even if a disabled option is forced through the DOM",
+      "Actual cup selectors generate the approved half-inch increments from A through F",
+      "Heterochromia rejects identical colours and accepts distinct left/right colours",
+      "Face markings retain their location/prominence and bald scalp makes remaining hair details inapplicable",
+      "The established anatomical measurement cap is enforced through centimetre conversion",
+      "Changing height/weight units preserves canonical measurements and attribute allocation",
+      "Actual creation inputs reproduce the approved worked-example measurements at review",
+      "Review enforces the original \u00b12-inch baseline across repeated edits, confirmation attempts and reload",
+      "Exact regional entries preserve their measurement when units change and remain read-only at review",
+      "Creation review fits390px mobile and1100px desktop without horizontal overflow",
+      "Confirmation saves exactly23 compatible strings, removes draft data, drives sweat correctly and survives Hub reload without touching another slot",
+      "Full-body awareness accepts the completed structured appearance within the existing request limit without any provider call",
+      "An already-confirmed legacy character bypasses creation without an appearance rewrite or draft copy"
+    ],
+    "errors": [],
+    "bodyPacketCharacters": [
+      5742
+    ],
+    "passed": true,
+    "finalAppearance": {
+      "age": "28",
+      "gender": "Female",
+      "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Not specified; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not applicable; Foot width: Not specified; Arch height: High; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified",
+      "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Not specified; Covering: Skin; Hair / grooming: Not specified; Material: Skin; Surface colour: Light; inseam: 31.4242 in",
+      "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Not specified; Material: Skin; Surface colour: Light; hip circumference: 41.3611 in",
+      "buttocks": "Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+      "waist": "Waist width: Narrow; Abdomen shape: Not specified; Muscle definition: Slight; Material: Skin; Surface colour: Light; waist circumference: 78.74 cm",
+      "back": "Shoulder width: Medium; Shoulder shape: Not specified; Back shape: Not specified; Material: Skin; Surface colour: Light; Usual posture: Not specified; shoulder width: 15.4545 in",
+      "chest": "Type: Breasts; Cup size: C; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 33.1718 in; chest circumference: 36.1718 in",
+      "arms": "Number of arms: 2; Arm type: Human arms; Length: Long; Muscle definition: Not specified; Material: Skin; Surface colour: Light; Hair / grooming: Not specified; shoulder-to-wrist length: 23.8 in",
+      "hands": "Number of hands: 2; Hand type: Human hands; Size: Not specified; Width: Not specified; Material: Skin; Surface colour: Light",
+      "fingers": "Digits per hand: 5; Length: Not specified; Thickness: Not specified; Nail type: Human nails; Nail length: Not specified; Nail shape: Not specified; Nail colour: Not specified; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+      "voice": "Neck shape: Not specified; Voice pitch: Not specified; Voice quality: Not specified; Material: Skin; Surface colour: Light",
+      "face": "Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Average; Facial hair: Not specified; Complexion and markings: Freckles (location: Nose; prominence: Faint); Material: Skin; Surface colour: Light",
+      "eyes": "Number of eyes: 2; Size: Not specified; Shape: Not specified; Iris colour: Heterochromia; Left iris colour: Blue; Right iris colour: Brown; Sclera: Not specified; Material: Human eye tissue",
+      "ears": "Number of ears: 2; Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light",
+      "hair": "Length: Bald; Colour: Not applicable; Texture: Not applicable; Density: Not applicable; Style: Not applicable; Material: Not applicable",
+      "skin": "Material: Skin; Surface colour: Light; Texture: Not specified; Body markings: None; Body hair: Not specified",
+      "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not specified; Material: Skin; Surface colour: Light",
+      "scent": "Natural body scent: Not specified; Scent strength: Not specified; Perspiration tendency: High; Usual skin temperature: Not specified; Other physical tendencies: Blushes easily in cold weather",
+      "height": "5 ft 8 in",
+      "weight": "155 lb",
+      "build": "Medium frame, light muscle definition, long arms, narrow waist, fuller rounded hips. waist 31 in; hips 41.36 in; chest 36.17 in."
+    },
+    "measurements": "Medium frame, light muscle definition, long arms, narrow waist, fuller rounded hips. waist 31 in; hips 41.36 in; chest 36.17 in."
+  },
+  "providerCalls": 0,
+  "workerChanged": false,
+  "npcFormRecordsConverted": false,
+  "clientPublished": false,
+  "reviewDraftDeletedOnConfirm": true,
+  "bodyAwarenessContext": {
+    "earlierCharacters": 9655,
+    "finalCharacters": [
+      5742
+    ],
+    "change": "Requested appearance remains in bodyInspection; duplicate currentAppearance is omitted for base-body awareness only",
+    "providerAcceptanceClaim": false
+  },
+  "harnessLimits": [
+    "Synthetic fresh browser contexts and slots only; no owner save was loaded.",
+    "The already-confirmed legacy-creation redirect is intercepted before normal Hub migration so creation-only preservation is measured.",
+    "An initial legacy test included normal Hub-added form defaults; the isolated redirect test separates those changes from creation.",
+    "The diagnostic body-awareness fixture initializes temporary AI settings explicitly and restores the prior settings.",
+    "No live Cydonia acceptance claim is made from mocked narration."
+  ],
+  "scopeLimits": [
+    "Current NPC/form conversion has not started.",
+    "New character creation and universal schema are implemented; no new nonhuman creation permission is granted.",
+    "Unknown/custom proportions without explicit measurements stay unspecified.",
+    "Additional numerical categories outside the approved reference remain undecided."
+  ],
+  "sourceSha256": {
+    "rebuild/character-creation/index.html": "74512ae486c23666b9303a7359a96c189a03b42b6552b5b2d3ec5ac160bae5a0",
+    "rebuild/character-creation/appearance-builder.js": "51ed93c2b1e9b6e506d4f1b680d86dca8a585896f209f56eaf148dcce62743df",
+    "rebuild/hub/appearance-template.js": "80d02bdd6e74b32a81383f2d4d43dedcd6500273e913eb5f09d0a59ad9cd2601",
+    "rebuild/hub/appearance-measurements.js": "4b607a84c6e4847bfa9e779f9c1eee9c6baa30b43a6350bc525f8727fa2f6c2b",
+    "rebuild/hub/ai-context.js": "77990984d4af15e755002bbf6740ff71bab30da3aca4cf87831815f1089a7a7b",
+    "rebuild/hub/appearance-template.test.js": "0bcc8125e23eb4da41d17b4d27bbd6869e85fe5c4602aadbb8bc6b24fae2874f",
+    "rebuild/hub/appearance-measurements.test.js": "34f1dfd1aefc22a338a421eef13fdd5711f7dff6ea07b819f88b5f4c59ba6af0",
+    "rebuild/hub/ai-context.test.js": "3b2c568756e5a305215f5bd364173c12b1e41fb6638b7b0f2990625599895c50",
+    "scripts/browser-appearance-creation.cjs": "112821013adefb2ce5a79b1ad91e3fda73165b2803180ac01f44ab8cc134315b"
+  }
+}

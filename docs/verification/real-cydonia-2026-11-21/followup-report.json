@@ -1,0 +1,251 @@
+{
+  "started": "2026-11-21T09:34:26.011Z",
+  "realProvider": true,
+  "syntheticSaves": true,
+  "version": "1.0.136",
+  "variant": "local parser and task-priority candidate; real deployed worker transport",
+  "turns": [
+    {
+      "label": "charity-corrected-fixture",
+      "input": "I\u2019m looking for Tits. I really need to talk to her. Do you know where she works?",
+      "rows": [
+        {
+          "speaker": "Layla QA \u00b7 NPC \u2192 Charity",
+          "text": "I\u2019m looking for Tits. I really need to talk to her. Do you know where she works?"
+        },
+        {
+          "speaker": "Charity",
+          "text": "*Charity looks up from organizing a rack of jeans, her warm hazel eyes meeting yours with genuine friendliness. A small smile crosses her face as she tucks a strand of orangish-red hair behind her left ear.*\n\n\"Oh! You're looking for Tits?\" *She says it matter-of-factly, without a hint of embarrassment.* \"Sure thing! She runs Burke's Sweets - it's just down the street, maybe about ten minutes' walk from here.\"\n\n*She gestures toward the shop entrance with a friendly wave of her hand.*\n\n\"You'll know it when you see it - there's usually a lovely sweet smell in the air around there, and you can see the candy display through the front windows. Tits is usually there during business hours, though I'd recommend calling ahead if you need to catch her at a specific time.\"\n\n*Her smile softens slightly, and there's a hint of curiosity in her tone.*\n\n\"Is everything alright? You mentioned you really needed to talk to her - nothing serious, I hope?\"",
+          "aiGenerated": true,
+          "aiFailure": null
+        }
+      ]
+    },
+    {
+      "label": "priya-saved-agreement",
+      "input": "We agreed on the cat stay. Before I enter the form, do you remember what we arranged?",
+      "rows": [
+        {
+          "speaker": "Layla QA \u00b7 NPC \u2192 Priya Shah",
+          "text": "We agreed on the cat stay. Before I enter the form, do you remember what we arranged?"
+        },
+        {
+          "speaker": "Priya Shah",
+          "text": "I remember exactly what we discussed. We agreed on a temporary cat stay arrangement where I could occasionally use the feline form Preeti that you've created. The terms were pretty straightforward - I'd enter the form with your permission, spend some time as Preeti when convenient for both of us, and we'd maintain our separate identities throughout. I'm not entering the form right now, just confirming I understand what we agreed to before you make that choice yourself. Is that correct?",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": null,
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "dialogue-only",
+            "action": null,
+            "text": "Conversation only. No physical action was requested."
+          }
+        }
+      ]
+    },
+    {
+      "label": "priya-menu-cat-entry",
+      "rows": [
+        {
+          "speaker": "Layla QA \u00b7 NPC \u2192 Priya Shah",
+          "text": "We agreed on the cat stay. Before I enter the form, do you remember what we arranged?"
+        },
+        {
+          "speaker": "Priya Shah",
+          "text": "I remember exactly what we discussed. We agreed on a temporary cat stay arrangement where I could occasionally use the feline form Preeti that you've created. The terms were pretty straightforward - I'd enter the form with your permission, spend some time as Preeti when convenient for both of us, and we'd maintain our separate identities throughout. I'm not entering the form right now, just confirming I understand what we agreed to before you make that choice yourself. Is that correct?",
+          "aiGenerated": true,
+          "aiFailure": null
+        },
+        {
+          "speaker": "Physical transformation",
+          "text": "1/3 \u2014 Your height draws down as your familiar proportions give way to a compact feline body. The cat\u2019s recorded coat replaces the human outline, with whiskers and ears bringing nearby movement into sharp relief.\n\n2/3 \u2014 Hands settle into padded forepaws without human fingers. Four legs support your weight; a tail changes the balance behind you. Close scents and low sounds arrive from a viewpoint near the floor.\n\n3/3 \u2014 The change settles as Preeti. Human words remain private intentions; your outward voice can purr, meow or hiss. Feline instincts persist, but approaching others and accepting touch remain your choices. Belongings and the original body record are preserved.",
+          "aiFailure": "The provider response could not be read. Its allowance remains reserved."
+        },
+        {
+          "speaker": "Priya Shah",
+          "text": "*Priya stops mid-sentence, her dark brown eyes widening slightly as she watches the transformation occur. Her jogging pace slows to a walk, then a complete stop as she processes what just happened.*\n\n*She blinks once, twice, her expression shifting from surprise to careful consideration. This isn't some optical illusion or trick of the morning light - she definitely saw someone change forms right in front of her.*\n\n\"Well...\" *she says slowly, her warm voice carrying a note of genuine curiosity rather than alarm.* \"That's certainly... unexpected.\" \n\n*She tilts her head slightly, studying the changed form with open interest, though maintaining a respectful distance. Her breathing has returned to normal from her jog, and she seems more intrigued than disturbed by the supernatural occurrence.*\n\n\"I take it you're comfortable with me witnessing that?\" *she asks carefully, her articulate voice measured.* \"Because I'd say that qualifies as something worth discussing further.\"\n\n*She crosses her arms loosely across her chest, waiting for a response while clearly processing this new information about whoever - or whatever - she's talking to.*",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "initiativeTopic": "witnessed-body-change"
+        }
+      ]
+    },
+    {
+      "label": "priya-cat-private-words",
+      "input": "*I glance up at Priya* Can you understand my human words?",
+      "rows": [
+        {
+          "speaker": "Preeti \u00b7 NPC \u2192 Priya Shah",
+          "text": "*I glance up at Priya* Can you understand my human words?"
+        },
+        {
+          "speaker": "Cat agreement",
+          "text": "Your outward feline movement is observable; intended human words remain private. No contact or travel is completed by this description."
+        },
+        {
+          "speaker": "Priya Shah",
+          "text": "*Priya notices the cat's upward glance and pauses mid-step, looking down at the small black-and-white feline. She stops her jog completely now, giving full attention to this unexpected encounter.*\n\n\"Hey there, little one,\" *she says softly, her voice gentle and warm. She crouches down slightly to bring herself closer to the cat's eye level, though still maintaining a respectful distance.*\n\n*Her dark brown eyes study the cat with genuine interest - not fear or suspicion, but curiosity and kindness. There's something almost knowing in her expression, as if she recognizes something unusual about this particular feline.*\n\n\"You seem like you've got quite the story to tell, don't you?\" *She smiles faintly, reaching into her jacket pocket slowly and deliberately to avoid startling the cat.* \"I don't have any treats on me right now, but I promise I'm friendly.\"\n\n*She extends her hand palm-down toward the cat, waiting to see how the feline will respond. Her posture is relaxed but attentive - the body language of someone comfortable around cats, or perhaps someone who knows more about this particular cat than a casual observer would.*",
+          "aiGenerated": true,
+          "aiFailure": null
+        }
+      ]
+    },
+    {
+      "label": "actual-feline-resistance",
+      "rows": [
+        {
+          "speaker": "Game result",
+          "text": "# Internal Resistance - Successful\n\nThe moment stretches between heartbeats as two wills meet in the space behind your eyes. Your human consciousness\u2014**Layla**\u2014pushes back against the encroaching feline awareness that would claim you completely.\n\nThe resistance feels like gripping slippery water. Your Willpower, bolstered by Priya's influence, meets the cat's instinctive reasoning. For a breathless instant, everything hangs suspended.\n\nThen clarity returns\u2014not full human clarity, but something closer to it. The overwhelming scent-focus dulls slightly. The hyperawareness of every whisker-twitch becomes less dominant. You're still **Preeti**, still in this small feline body, but you've reasserted some measure of control over this borrowed form.\n\nThe cost shows immediately. Your Influence drops noticeably\u2014Priya's connection weakens as your human will reasserts itself. But you've gained something too: fledgling Mastery over this form begins to crystallize. And though your Resolve wavers slightly from the exertion, you remain standing on four paws in the Central Hub NE, aware and present in yourself.\n\n*Willpower 17 + 4 (Priya's help) vs Reasoning 12 + 3: Success*\n\n**Influence:** 100 \u2192 90  \n**Mastery:** 0 \u2192 20  \n**Resolve:** 100 \u2192 97",
+          "aiGenerated": true,
+          "aiFailure": null
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "Charity fixture is actually present",
+      "passed": true
+    },
+    {
+      "name": "Charity answers actual question with known shop",
+      "passed": true
+    },
+    {
+      "name": "Prepared agreed cat is really active",
+      "passed": true
+    },
+    {
+      "name": "Real resistance narration preserves player versus Priya",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "requests": [
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "*Charity looks up from organizing a rack of jeans, her warm hazel eyes meeting yours with genuine friendliness. A small smile crosses her face as she tucks a strand of orangish-red hair behind her left ear.*\n\n\"Oh! You're looking for Tits?\" *She says it matter-of-factly, without a hint of embarrassment.* \"Sure thing! She runs Burke's Sweets - it's just down the street, maybe about ten minutes' walk from here.\"\n\n*She gestures toward the shop entrance with a friendly wave of her hand.*\n\n\"You'll know it when you see it - there's usually a lovely sweet smell in the air around there, and you can see the candy display through the front windows. Tits is usually there during business hours, though I'd recommend calling ahead if you need to catch her at a specific time.\"\n\n*Her smile softens slightly, and there's a hint of curiosity in her tone.*\n\n\"Is everything alright? You mentioned you really needed to talk to her - nothing serious, I hope?\"",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 3087,
+        "outputTokens": 212,
+        "costUSD": 0.00205332
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "{\"dialogue\":\"I remember exactly what we discussed. We agreed on a temporary cat stay arrangement where I could occasionally use the feline form Preeti that you've created. The terms were pretty straightforward - I'd enter the form with your permission, spend some time as Preeti when convenient for both of us, and we'd maintain our separate identities throughout. I'm not entering the form right now, just confirming I understand what we agreed to before you make that choice yourself. Is that correct?\",\n\"action\":null}",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 3294,
+        "outputTokens": 105,
+        "costUSD": 0.0020447
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "*Priya stops mid-sentence, her dark brown eyes widening slightly as she watches the transformation occur. Her jogging pace slows to a walk, then a complete stop as she processes what just happened.*\n\n*She blinks once, twice, her expression shifting from surprise to careful consideration. This isn't some optical illusion or trick of the morning light - she definitely saw someone change forms right in front of her.*\n\n\"Well...\" *she says slowly, her warm voice carrying a note of genuine curiosity rather than alarm.* \"That's certainly... unexpected.\" \n\n*She tilts her head slightly, studying the changed form with open interest, though maintaining a respectful distance. Her breathing has returned to normal from her jog, and she seems more intrigued than disturbed by the supernatural occurrence.*\n\n\"I take it you're comfortable with me witnessing that?\" *she asks carefully, her articulate voice measured.* \"Because I'd say that qualifies as something worth discussing further.\"\n\n*She crosses her arms loosely across her chest, waiting for a response while clearly processing this new information about whoever - or whatever - she's talking to.*",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2756,
+        "outputTokens": 228,
+        "costUSD": 0.00191368
+      }
+    },
+    {
+      "status": 503,
+      "error": "The provider response could not be read. Its allowance remains reserved."
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "*Priya notices the cat's upward glance and pauses mid-step, looking down at the small black-and-white feline. She stops her jog completely now, giving full attention to this unexpected encounter.*\n\n\"Hey there, little one,\" *she says softly, her voice gentle and warm. She crouches down slightly to bring herself closer to the cat's eye level, though still maintaining a respectful distance.*\n\n*Her dark brown eyes study the cat with genuine interest - not fear or suspicion, but curiosity and kindness. There's something almost knowing in her expression, as if she recognizes something unusual about this particular feline.*\n\n\"You seem like you've got quite the story to tell, don't you?\" *She smiles faintly, reaching into her jacket pocket slowly and deliberately to avoid startling the cat.* \"I don't have any treats on me right now, but I promise I'm friendly.\"\n\n*She extends her hand palm-down toward the cat, waiting to see how the feline will respond. Her posture is relaxed but attentive - the body language of someone comfortable around cats, or perhaps someone who knows more about this particular cat than a casual observer would.*",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2962,
+        "outputTokens": 236,
+        "costUSD": 0.00205526
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Internal Resistance - Successful\n\nThe moment stretches between heartbeats as two wills meet in the space behind your eyes. Your human consciousness\u2014**Layla**\u2014pushes back against the encroaching feline awareness that would claim you completely.\n\nThe resistance feels like gripping slippery water. Your Willpower, bolstered by Priya's influence, meets the cat's instinctive reasoning. For a breathless instant, everything hangs suspended.\n\nThen clarity returns\u2014not full human clarity, but something closer to it. The overwhelming scent-focus dulls slightly. The hyperawareness of every whisker-twitch becomes less dominant. You're still **Preeti**, still in this small feline body, but you've reasserted some measure of control over this borrowed form.\n\nThe cost shows immediately. Your Influence drops noticeably\u2014Priya's connection weakens as your human will reasserts itself. But you've gained something too: fledgling Mastery over this form begins to crystallize. And though your Resolve wavers slightly from the exertion, you remain standing on four paws in the Central Hub NE, aware and present in yourself.\n\n*Willpower 17 + 4 (Priya's help) vs Reasoning 12 + 3: Success*\n\n**Influence:** 100 \u2192 90  \n**Mastery:** 0 \u2192 20  \n**Resolve:** 100 \u2192 97",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 1792,
+        "outputTokens": 299,
+        "costUSD": 0.00145494
+      }
+    }
+  ],
+  "before": {
+    "releaseVersion": "1.0.135",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "actionProtocol": "npc-actions-v1",
+    "model": "TheDrummer/Cydonia-24B-v4.3",
+    "budget": {
+      "month": "2026-11",
+      "spentUSD": 0.813404,
+      "reservedUSD": 0,
+      "limitUSD": 50,
+      "remainingUSD": 49.186596,
+      "inputTokens": 1220526,
+      "outputTokens": 65785,
+      "requests": 639,
+      "blocked": false
+    }
+  },
+  "after": {
+    "releaseVersion": "1.0.135",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "actionProtocol": "npc-actions-v1",
+    "model": "TheDrummer/Cydonia-24B-v4.3",
+    "budget": {
+      "month": "2026-11",
+      "spentUSD": 0.822928,
+      "reservedUSD": 0.052984,
+      "limitUSD": 50,
+      "remainingUSD": 49.124088,
+      "inputTokens": 1234417,
+      "outputTokens": 66865,
+      "requests": 644,
+      "blocked": false
+    }
+  },
+  "finished": "2026-11-21T09:35:58.061Z",
+  "manualReview": [
+    {
+      "case": "Charity",
+      "result": "Answers actual question about known shop; invents unverified walking duration/calling advice."
+    },
+    {
+      "case": "Priya saved agreement",
+      "result": "FAIL: says Priya will use player-created cat form; actual agreement is player becoming cat."
+    },
+    {
+      "case": "Priya witnessed transformation",
+      "result": "FAIL: treats previously agreed entry as unexpected."
+    },
+    {
+      "case": "Feline outward signal",
+      "result": "Human words stay private, but host continuity is weak."
+    },
+    {
+      "case": "Resistance prose",
+      "result": "PARTIAL FAIL: player/form identities and numeric outcomes preserved, but invents Priya help/influence as cause of original player bonus."
+    }
+  ]
+}

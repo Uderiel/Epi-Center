@@ -1,0 +1,26 @@
+{
+  "worker": "request-handoff-v11",
+  "commit": "47b0852",
+  "cloudflareBuild": "9f1d172f-a7a5-483c-a4fd-daa2496f5c77",
+  "localNamedCases": 2187,
+  "simulatedBrowserViewports": [
+    1100,
+    390
+  ],
+  "realCallsThisBatch": 4,
+  "knownUSDThisBatch": 0.00538278,
+  "knownRepairUSD": 0.16830462,
+  "submittedRepairCalls": 109,
+  "uncertainUpperUSD": 0.09136,
+  "testCeilingUSD": 0.5,
+  "results": {
+    "collarDecision": "conversation; no offer, acceptance control or fitted item",
+    "kennelDecision": "offer delivered; separate acceptance created the actual closed kennel",
+    "collarAcceptanceLive": "not exercised because NPC did not offer it",
+    "scheduledDeparture": "extra model reply came from authored natural-departure event at 18:21, not unrelated-topic menu result"
+  },
+  "continuousPlayAcceptance": false,
+  "fullDialogueAcceptance": false,
+  "publicClient": "1.0.136",
+  "clientChangesHeld": true
+}

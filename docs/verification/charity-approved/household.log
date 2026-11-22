@@ -1,0 +1,22 @@
+PASS approved household initializes once with NPC ownership and no player money resource or item grants
+PASS ordinary invitations do not grant household supply access and malformed lock records are rejected
+PASS recorded locked participant gets all interiors without moving another actor or gaining exit
+PASS player and real Charity eat from one finite pantry through the shared serving system without duplicate inventory
+PASS exhausted pantry cannot fabricate another meal or reset on reload
+PASS shower uses eight minutes finite products and a real towel without restoring unrelated resources
+PASS shared outfit uses existing equipment slots retains NPC ownership and preserves original clothes
+PASS household laundry uses actual dirty unworn items and completion time survives reload
+PASS salary is 700 per completed day independent of player pay and shop revenue and cannot replay
+PASS late save initialization does not invent previous daily salary
+PASS actual funded top-up buys only missing stock once and never charges player or till
+PASS real Charity follows actual connected off-duty sleep shower dress and meal jobs using the existing scheduler
+PASS rest applies only to the bound player in the actual bedroom and stops after movement
+PASS another player cannot inherit household participation or access from the first player
+PASS floral preference and rose atmosphere are local household facts without new odor effects
+PASS Charity role tag keeps permanent player identity money relationships and repeat binding separate
+PASS expired locked record keeps private-release access until actual release and grants no renewed timer
+PASS temporary Charity role permits storage entry but never reveals the hidden hatch
+PASS ordinary accepted coverage also routes real Charity through household care without granting locked-state player access
+PASS real Charity washes actual used towels before another shower instead of generating a clean spare
+PASS shared care leaves source state invariant on a blocked action and cannot duplicate a salary boundary
+21 Charity household cases passed

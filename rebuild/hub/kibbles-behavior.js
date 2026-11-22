@@ -23,7 +23,7 @@ function event(s,{id,type,now,location=s.hub.location,...data}){const b=ensure(s
  case 'collar':case 'leash':case 'kennel':
   if(!data.trusted){b.bond.hurt=true;text='The closing space or restraint brings rigid posture and a frightened warning.';b.boundaryViolation=true;break;}
   b.handler={...b.handler,id:data.actorId,trusted:true,[type]:true};text=type==='kennel'?'A frustrated whine; the image is of reaching the familiar handler, then open air.':'A familiar scent and the expectation of a shared walk draw attention toward the trusted handler.';break;
- case 'unrestrain':if(b.handler)b.handler={...b.handler,collar:false,leash:false,kennel:false};text='Open space and the freedom to move let attention settle.';break;
+ case 'unrestrain':if(b.handler)b.handler=['collar','leash','kennel'].includes(data.restraint)?{...b.handler,[data.restraint]:false}:{...b.handler,collar:false,leash:false,kennel:false};text=b.handler?.kennel?'The collar pressure eases; the actual kennel barrier remains.':'Open space and the freedom to move let attention settle.';break;
  case 'territorial-intrusion':case 'crate-intrusion':text='An unfamiliar scent cuts across the home trail. A stiff posture turns toward the crate.';break;
  case 'storm':case 'noise':case 'flashing-lights':case 'threat':case 'medical':case 'capture':text='Muscles tighten; ears pin back. A sharp warning bark and an urgent image of distance replace curiosity.';break;
  case 'stranger':case 'authority':text='Nose working, body held cautiously: unfamiliar scent first, distance before contact.';break;

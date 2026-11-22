@@ -1,0 +1,58 @@
+{
+  "realProvider": false,
+  "checks": [
+    "Actual Hub loads all19 ordered24-field NPC/form profiles without changing the creation schema",
+    "Actual Richard/Daniel/Nadia/Priya panels display shared ordered appearance with concealed anatomy excluded",
+    "Actual Charity and Tits shop interfaces use the same appearance section while retaining their shop controllers",
+    "Final existing-worker projection receives requested NPC eye facts under the speaker identity, separately from the player body",
+    "Full Erin resolves aligned current proportions without overwriting base appearance, resources, inventory or money",
+    "Partial Erin alignment supplies reached feet only and keeps unchanged original legs and height",
+    "physical course retains exact source waist/hips and aligns current fields with the approved under-chest plus cup calculation",
+    "mental course retains exact source waist/hips and aligns current fields with the approved under-chest plus cup calculation",
+    "arousal course retains exact source waist/hips and aligns current fields with the approved under-chest plus cup calculation",
+    "Aligned permanent converted-base appearance survives actual Hub reload",
+    "Existing Erin/Kibbles/Priya portrait renderers remain connected; artwork wiring was not invented for missing profiles",
+    "All seven image assets referenced by existing character/form renderers load and decode successfully",
+    "Dart’s actual co-present panel uses the animal template without inventing human anatomy or numeric breed dimensions",
+    "NPC appearance sections fit390px mobile and1100px desktop without horizontal overflow"
+  ],
+  "errors": [],
+  "connectedImages": [
+    {
+      "src": "assets/erin-legacy-portrait.jpg",
+      "width": 720,
+      "height": 864
+    },
+    {
+      "src": "assets/kibbles-male-photo-v2.jpg",
+      "width": 1100,
+      "height": 733
+    },
+    {
+      "src": "assets/kibbles-female-photo-v2.jpg",
+      "width": 1100,
+      "height": 733
+    },
+    {
+      "src": "assets/priya-shah-approved.png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "src": "assets/nadia-voss-dart.jpg",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "src": "assets/Priya-Flats-Worn.jpg",
+      "width": 1080,
+      "height": 1080
+    },
+    {
+      "src": "assets/Priya-Flats-Unworn.jpg",
+      "width": 300,
+      "height": 300
+    }
+  ],
+  "passed": true
+}

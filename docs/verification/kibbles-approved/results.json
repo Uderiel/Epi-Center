@@ -1,0 +1,35 @@
+{
+  "status": "Kibbles owner-approved full appearance and actual age4 implemented and verified locally; unpublished",
+  "at": "2026-11-22T05:38:39.571Z",
+  "ageYears": 4,
+  "identity": "One persistent form; saved name/gender remain permanent; unassigned state has no sex-specific measurement guess",
+  "runtime": {
+    "namedCases": 2271,
+    "suites": 163,
+    "passed": true,
+    "scope": "Runtime-only; final combined release/canon freeze gate still pending"
+  },
+  "focusedCases": 88,
+  "browser": {
+    "counts": {
+      "npc": 24,
+      "currentBody": 9,
+      "identityBody": 8
+    },
+    "total": 41,
+    "passed": true,
+    "realProvider": false
+  },
+  "portraits": [
+    "assets/kibbles-male-photo-v2.jpg",
+    "assets/kibbles-female-photo-v2.jpg"
+  ],
+  "connectedImageCount": 12,
+  "missingPortraitConsumers": 5,
+  "newImageGenerations": 0,
+  "cydoniaCalls": 0,
+  "workerChanges": false,
+  "published": false,
+  "next": "Pri complete male-cat proposal prepared for review; new cat dimensions/age/eye colour unapplied",
+  "remaining": "General real-model prose correctness and full continuous-play acceptance remain open"
+}

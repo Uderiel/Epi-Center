@@ -1,0 +1,14 @@
+{
+  "source": "/workspace/generated_images/exec-0a48c3dd-fd48-43e1-af7d-108d9acab66a.png",
+  "asset": "rebuild/hub/assets/character-art-review/eve-blue-pixie-v1.png",
+  "status": "Actual image viewed and owner-approved; connected locally as avatar reference; unpublished",
+  "approved": true,
+  "connected": true,
+  "ownerApproval": "Perfect. Lets revise her description details and keep going",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "b34d369afb02ea93381b8d550b6286f7f940ba894cc3ad6d46a2da9f699e961b",
+  "consumer": "eve-appearance.js portrait + appearance-profiles-ui.js eveAppearanceMarkup in existing NPC help channel"
+}

@@ -1,0 +1,57 @@
+PASS route plans and arrival status do not generate AI or acquire false failure markers
+PASS legacy Database dumps collapse in the visible feed while their original saved text remains intact
+PASS carrier speech impairment hides player intent without replacing NPC initiative or NPC-to-NPC dialogue
+PASS Richard suite guest AI excludes private report data and prior private dialogue
+PASS Dart AI receives observable signals only and validates intent before state change
+PASS feline sensory AI receives only recorded impressions and discards stale contact state
+PASS successful generated dialogue updates only its feed entry and per-character history
+PASS mechanical receipts stay intact when dialogue is expanded
+PASS changing location discards late prose without overwriting world state or memory
+PASS a newer save from another tab prevents stale AI persistence
+PASS disconnecting during a request discards its reply
+PASS provider error preserves canonical fallback and does not retry
+PASS AI off missing session code or unrecognized speaker never sends a request
+PASS public NPC never receives private intended human speech from a canine body
+PASS enabled world narrative pulses request generation without a player click
+PASS endpoint validation excludes plaintext credentials and query-string secrets
+PASS backend requests contain only a game access credential and bounded scene packet
+PASS actual UI private form requests carry correct stage control and shared embodiment
+PASS AI transformation hides premade prose while pending and displays only generated narrative
+PASS pending AI dialogue hides canonical text until completion without changing the saved fallback
+PASS failed or empty AI reply restores generic text and clears the waiting indicator
+PASS AI disabled returns generic text immediately including when switched off during generation
+PASS reloading a saved entry cannot leave it stuck waiting on a vanished request
+PASS ordinary replies mentioning mastery resolve or numbers display only generated dialogue
+PASS a pending or completed entry cannot start a second paid generation
+PASS old concatenated replies display just generated prose and retain a collapsed game result
+PASS player private thoughts and separate resistance receipts make zero generation requests
+PASS old overwritten player thoughts recover their actual input instead of AI prose
+PASS unclassified private action output is never sent as form dialogue
+PASS live-clock transformation generates without a click and includes its recorded current appearance
+PASS explicit narration opt-out and disabled AI block transformation requests
+PASS unrelated NPC commuting cannot discard a valid transformation response
+PASS recorded periodic footwear narration uses existing backend without player speech or private NPC context
+PASS periodic footwear opt-out preserves authored fallback without a paid request
+PASS a changed footwear state discards late generated sensory prose
+PASS personal email AI responds to actual message without physical co-presence and persists only its thread
+PASS activity narration uses recorded progress without granting state changes
+PASS automatic world narrative uses AI without a click and displays no premade duplicate
+PASS hidden footwear routine speech is narrated without NPC visitor awareness or private histories
+PASS contradictory footwear narration is corrected once before any generated prose is displayed
+PASS two invalid footwear replies preserve the recorded event without storing invented narrative
+PASS a scene change during correction prevents the second response from overwriting the save
+PASS wrong named NPC speaker is corrected before display
+PASS hidden world event without sensory metadata gets restricted snapshot and rejects invented props
+PASS same NPC queued reply sees accepted preceding player turn
+PASS saved canine name denial is corrected without changing mastered control or identity
+PASS stale backend context blocks generation before any paid endpoint call
+PASS changing the player identity discards a pending response without recording it for the next player
+PASS NPC action requests require the matching backend capability before any paid generation
+PASS two-call NPC handoff keeps the original message after the composer microtask clears
+PASS remote help retains current physical context instead of dropping the active body
+PASS unrelated physical transformations do not borrow an active illness stage frame
+PASS actual client sends its longer wait contract only on generation and waits beyond worker timeouts
+PASS remote voice-only projection keeps the actual answer and excludes physical staging from feed and history
+PASS known canine identity corrects a stranger question before it enters displayed dialogue or saved history
+PASS a canine visitor never acquires a separate human owner through an accepted NPC reply
+56 / 56 AI client cases passed

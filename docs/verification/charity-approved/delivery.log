@@ -1,0 +1,7 @@
+PASS Friday autonomy walks to actual laptop and saves one order, then returns to counter
+PASS Friday does not leave a visible customer unattended to order
+PASS Monday receipt and supplier settlement survive reload without duplicate stock or pay
+PASS receipt only adds Friday ordered quantities; ordinary clothing remains automatic
+PASS no phantom order or delivery is invented by skipping weeks or opening stock
+PASS unavailable receiver delays receipt and empty order cannot create merchandise
+6 Charity delivery cases passed

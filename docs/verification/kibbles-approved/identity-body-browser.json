@@ -1,0 +1,27 @@
+{
+  "realProvider": false,
+  "checks": [
+    "male fixture: actual Equip retains unassigned identity and exposes approved age4 without guessing sex-specific size",
+    "male identity: actual permanent name/gender submission shows approved anatomy,source dimensions and existing image at phone/desktop widths",
+    "male body awareness: actual composer submits current age4 and canine-only appearance through existing worker projection with no original-human dimensions",
+    "male reload/release: identity and current appearance persist,release restores original age28,and re-equip does not heal damaged form resources",
+    "female fixture: actual Equip retains unassigned identity and exposes approved age4 without guessing sex-specific size",
+    "female identity: actual permanent name/gender submission shows approved anatomy,source dimensions and existing image at phone/desktop widths",
+    "female body awareness: actual composer submits current age4 and canine-only appearance through existing worker projection with no original-human dimensions",
+    "female reload/release: identity and current appearance persist,release restores original age28,and re-equip does not heal damaged form resources"
+  ],
+  "errors": [],
+  "cases": [
+    {
+      "gender": "male",
+      "packetCharacters": 9806,
+      "model": "form"
+    },
+    {
+      "gender": "female",
+      "packetCharacters": 9853,
+      "model": "form"
+    }
+  ],
+  "passed": true
+}

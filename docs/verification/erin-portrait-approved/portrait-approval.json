@@ -1,0 +1,15 @@
+{
+  "status": "Actual photo viewed and owner-approved; connected locally; unpublished",
+  "source": "/workspace/generated_images/exec-aea34ba0-5de0-4223-bf13-a290c60f4aa2.png",
+  "reviewAsset": "rebuild/hub/assets/character-art-review/erin-fullbody-v1.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "70d3c320bf6876c1f13f05238d4d516f20069bc8e8fc81287cc3e5a0cb26e831",
+  "approved": true,
+  "connected": true,
+  "ownerApproval": "Approved!",
+  "consumer": "rebuild/hub/index.html portraitMarkup; Appearance and Character reference panels",
+  "originalLegacyAssetRetained": "rebuild/hub/assets/erin-legacy-portrait.jpg"
+}

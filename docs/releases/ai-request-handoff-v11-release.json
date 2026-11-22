@@ -1,7 +1,7 @@
 {
   "id": "ai-request-handoff-v11",
   "baselineWorkerCommit": "ce19d67",
-  "status": "Verified worker candidate; deployment pending",
+  "status": "Deployed; targeted real optional-offer checks completed, full acceptance incomplete",
   "requestAssemblyVersion": "request-handoff-v11",
   "gameClientChanged": false,
   "productionSettingsChanged": false,
@@ -11,5 +11,10 @@
   "realProviderAcceptance": false,
   "preTestReview": "verification/request-handoff-repair/nadia-offer-review.md",
   "workerTests": 87,
-  "worldBibleUnchanged": true
+  "worldBibleUnchanged": true,
+  "deploymentCommit": "47b0852",
+  "cloudflareBuild": "9f1d172f-a7a5-483c-a4fd-daa2496f5c77",
+  "targetedLiveResult": "Nadia declined collar offer and presented a kennel offer; separate kennel acceptance succeeded",
+  "realCalls": 4,
+  "knownUSD": 0.00538278
 }

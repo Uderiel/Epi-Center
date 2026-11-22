@@ -1,17 +1,14 @@
-# Cat identity, agreement and ownership repair — unpublished
+# Cat identity, agreement and ownership — current repair state
 
-The reported output confused the original player with Priya during feline resistance, portrayed an agreed form as an unexpected transformation, treated human words as audible from a cat, and misattributed household property. The saved agreement already existed, but the worker projection omitted the relevant character context. The private resistance packet lacked an explicit human-player/form/NPC identity frame.
+The original agreement forwarding, actual cat entry, nonverbal signals, ownership context and closed-window controls were published in the v1.0.135–136 line. Real Cydonia acceptance subsequently showed that correct context serialization did not establish correct prose: the model could reverse host/guest roles, invent a scene or attribute the player's resistance to Priya.
 
-Implemented locally:
+The current unpublished candidate:
 
-- Priya’s recorded cat agreement survives client and provider projection, including whether it was accepted and whether the player actually entered the agreed cat body. Priya remains a separate human host. Existing collar perception is preserved.
-- Internal feline resistance supplies the current original-player name, actual form name, actor separation, action and exact before/after outcome. It is marked resolved. It cannot turn the successful player resistance into Priya’s struggle or an NPC resource cost.
-- The shared action bridge exposes the existing cat offer/accept/decline/enter controllers. Entering the form occurs before final NPC prose. A known agreement or dialogue draft alone never transforms anyone. An actor already replying to that transition does not receive a duplicate generic reaction.
-- Outward feline action narration can reach actual nearby listeners as an observable attempt. Human words and private thoughts are excluded; an attempted gesture creates no contact or travel. Feline signals are framed as nonverbal in the final provider request.
-- Residence facts retain the actual owner. Priya’s living-room yoga mat is identified as hers. The private footwear viewpoint retains ownership information without inventing objects elsewhere or transferring property to the player.
-- Closed cat-window routes are disabled and labelled closed; their existing physical route and access requirements remain unchanged.
-- Pending kiss, fluid and private-invitation choices are synchronized. A newer offer cancels the superseded pending controller request without ending unrelated active contact. NPC kissing context derives active contact from the actual controller.
+- Names Priya as the human host and the player as the guest entering the selected cat body. Choices are real offered variants or carried owned feline IDs; a choice does not itself enter the form.
+- Separates semantic request selection from character prose. Actual entry happens through the controller before its observed result is sent to Priya for her response. A known agreement never transforms Priya.
+- Keeps human words private while sending actual feline gestures/sounds to nearby listeners. Existing collar-perception rules are preserved.
+- Gives private resistance only the original player's identity, actual feline body and opposing instincts, outcome and stat provenance. The old external-NPC contrast fields and opaque form ID are omitted from this narration view. Unrelated needs/equipment are not supplied as the cause of an opposed check; their gameplay progression is unchanged.
+- Labels opposing feline influence separately from the player's mastery and current Resolve. No NPC assistance or NPC Resolve deduction is invented by the controller.
+- Retains the actual owner of household property and the disabled closed-window control. Prior published rules for timing, mastery, reversion, contact and permissions are unchanged.
 
-Verification: five new controller/frame cases; browser checks for actual date exception, separate acceptance and entry, nonverbal gestures, exact resistance results, unchanged Priya Resolve, closed-window UI and property projection. Browser transport is simulated. No owner save or paid model call was used. Full-suite and browser results are recorded in verification/npc-actions-summary.json.
-
-These are local changes only. The candidate client and worker still need review and real Cydonia acceptance before production publication. Form Repository/staff work is excluded.
+Real choice and entry reruns now identify the player as Preeti and Priya as the human host. The focused resistance sample no longer merges Priya into the body or invents her assistance. Some generated prose still adds inner thoughts or props; prose-quality acceptance is not closed. No owner save was used, and no code was published in this repair session. See NPC-ACTION-BRIDGE-REVIEW.md and verification/request-interpreter-v2/.

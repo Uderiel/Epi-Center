@@ -1,0 +1,16 @@
+/workspace/epicenter-dialogue-fix/scripts/freeze-world-bible.cjs:5
+ if(fs.existsSync(path.join(root,frozen))){if(!read(frozen).equals(bytes))throw Error('Frozen World Bible differs from current canon. Preserve this release and reconcile under a new version.');}else{if(verifyOnly)throw Error('Missing frozen World Bible');fs.mkdirSync(path.dirname(path.join(root,frozen)),{recursive:true});fs.writeFileSync(path.join(root,frozen),bytes,{flag:'wx'});}
+                                                                          ^
+
+Error: Frozen World Bible differs from current canon. Preserve this release and reconcile under a new version.
+    at freeze (/workspace/epicenter-dialogue-fix/scripts/freeze-world-bible.cjs:5:81)
+    at Object.<anonymous> (/workspace/epicenter-dialogue-fix/scripts/verify-development.cjs:4:36)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+
+Node.js v24.22.1

@@ -10,7 +10,7 @@ The visible disguise already looks like Charity while worn. Therefore the hourly
 
 Attribute bleed preserves the player’s **total base attribute points**. Every two hours of the risk phase, transfer one point from a player strength toward a Charity strength. Equipment bonuses are excluded even though the loaned outfit normally replaces other clothes; do not treat taking clothes off as a loophole for modifying equipment/base allocations. No automatic grant of Charity’s stronger NPC stats or rarity budget.
 
-**Charity is Epic and a mental specialist**, with an approved75-point profile and universal10base cap. Current allocation: Endurance5,Fitness3,Intuition7,Reflexes5,Willpower10,Reasoning10,Stability10,Presence10,Insight10,Influence5. Apparent age is mid-thirties; chronological age remains unspecified. Approved rarity totals are45/55/65/75/85; none grant the masked player extra points.
+**Charity is Epic and a mental specialist**, with an approved75-point profile and universal10base cap. Current allocation: Endurance5,Fitness3,Intuition7,Reflexes5,Willpower10,Reasoning10,Stability10,Presence10,Insight10,Influence5. Charity is39 years old,exactly5ft6in and122lb,with freckles. Approved rarity totals are45/55/65/75/85; none grant the masked player extra points.
 
 Behavioral bleed initially supplies **Charity-like private inner-monologue impressions** appropriate to her personality and current observed service: anticipation of a conversation, another long day, hopes for good sales. These are not telepathy into the real Charity, copied secret memories or speech heard by external NPCs. Compulsion may occur before the third handover on a very low player roll. The owner specifies the existing influence-control style: the player’s resisting stat against Charity’s mental stat. This supersedes the fixed-DC8 draft below. The latest owner decision requires a natural1 on the player die for compulsion; ordinary opposed failure alone cannot trigger it. Action scope is now approved below as one brief service action followed by normal control. Exact resistance costs remain unresolved. The owner approves that private inner commentary stops when the mask is removed; redistributed base attributes persist until deliberately reallocated.
 
@@ -105,7 +105,7 @@ Owner explicitly selects **ten in-game minutes total**, replacing the assistant�
 
 The owner explicitly approves the following **25-stage descending order** (“That works”). The order and ten-minute total are approved; detailed individual stage prose, timing distribution and the actual controller remain unimplemented.
 
-1. Facial structure: jaw, cheeks, nose and lips; Charity’s mid-thirties appearance.
+1. Facial structure: jaw, cheeks, nose and lips; Charity’s39-year-old appearance,including freckles.
 2. Scalp and hair: her wavy orangish-red hair.
 3. Eyes: Charity’s hazel eyes and eye shape.
 4. Ears.
@@ -129,17 +129,17 @@ The owner explicitly approves the following **25-stage descending order** (“Th
 22. Feet and arches.
 23. Toes and toenails.
 24. Final skin-texture consistency and Charity’s natural scent.
-25. Final height, weight and overall proportions: approximately5ft6in/122lb.
+25. Final height, weight and overall proportions: exactly5ft6in/122lb.
 
 Skin/apparent age should develop appropriately with each changed area; the final consistency stage is not permission to leave earlier transformed parts at the original body’s age until the end. Final proportion settling does not add a new personality, overwrite original-player identity or force facial expressions/emotions. Clothing handling, exact stage wording, intra-minute presentation and control/removal remain to resolve. Do not equate this proposed25-stage list with Erin’s existing23-stage ordering or modify Erin’s sequence.
 
 ## Owner addendum — Charity’s actual appearance and apparent age
 
-The mask must match **Charity’s established individual appearance**, including her **mid-thirties apparent age**, rather than a generic woman, Tits’s26-year-old body, Erin’s body or only Charity’s name. Current canonical profile is Charity.definition/dossier in rebuild/hub/charity.js: approximately5ft6in/122lb, wavy orangish-red hair, hazel eyes, warm smile/subtle smile lines and mature nurturing presence. No exact numerical age beyond mid-thirties is newly established.
+The mask must match **Charity’s established individual appearance**, including her **age39 and freckles**, rather than a generic woman, Tits’s26-year-old body, Erin’s body or only Charity’s name. Current canonical profile is Charity.definition/dossier in rebuild/hub/charity.js: exactly5ft6in/122lb, wavy orangish-red hair, hazel eyes, warm smile/subtle smile lines and mature nurturing presence. No exact numerical age beyond mid-thirties is newly established.
 
 Use this canonical identity for authored stage descriptions, settled current-body appearance, HUD/Form presentation and permitted AI facts. The transformation begins at face/hair and descends; display only the changes already completed at an intermediate stage, not the fully transformed body from the first minute. Apparent age must be represented in the physical transformation/result while preserving the original player’s saved identity/history/chronological profile for eventual reversion. Do not create a separate contradictory Charity-mask target profile or claim clothing handling is already decided.
 
-Owner separately flags Kibbles’s missing narrated/described age, **explicitly deferred** so Charity work is not interrupted. Revisit the actual authored canine age and its presentation later; do not invent an age or change Kibbles now.
+Historical deferral:the owner initially deferred Kibbles narrated/described age to avoid interrupting Charity. **Subsequently resolved during appearance review:owner approved4years old**,now implemented locally in Kibbles form/current appearance. This does not implement or change Charity coverage quests. See KIBBLES-APPEARANCE-PROPOSAL.md and verification/kibbles-approved/results.json.
 
 ## Owner-confirmed mask transformation direction
 
@@ -378,3 +378,5 @@ Owner adds paid grocery/personal-care favor quests once Charity trusts a player,
 ## Current implementation status after service authorization
 
 Use CHARITY-APPROVAL-IMPLEMENTATION-LEDGER.md for current runtime status; earlier design checkpoints are not current missing-work lists. Local household, supplier-split, Friday laptop/Monday receipt and customer-service/quiet-cleaning controllers are now implemented. Mask quests, associated shift wages/penalties, authoritative offline multiplayer, real gift/report sources and durable story learning remain separately identified. Approval means proceed with implementation/testing unless explicitly deferred or blocked by a stated dependency.
+
+Current identity correction: owner confirms Charity’s actual age39,exact5ft6,exact122lb and freckles. Full approved appearance source:charity-appearance.js; existing approved image connected locally. This updates identity references only; mask/coverage/quest implementation remains deferred.

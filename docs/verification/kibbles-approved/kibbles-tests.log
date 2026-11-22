@@ -1,0 +1,5 @@
+PASS All three saved/preview Kibbles profiles use approved age4,paws,coat and species-specific tissue without human-reference estimates
+PASS Permanent male/female identities retain source size and approved ear carriage through reload,equip and release without healing
+PASS Unassigned identity exposes age4 and common canine anatomy without assigning a sex,size,or sex-specific ear shape
+PASS Partial canine coverage preserves original age and untouched regions; both existing approved portrait files remain unchanged consumers
+4 approved Kibbles appearance cases passed

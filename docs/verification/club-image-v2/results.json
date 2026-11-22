@@ -1,0 +1,28 @@
+{
+  "status": "Image-only neon-pink colour revision;actual v2 displayed for review",
+  "at": "2026-11-22T07:25:38.555206+00:00",
+  "portrait": {
+    "source": "/workspace/generated_images/exec-a34c4523-5a79-46ff-8d1c-57a098f1c64b.png",
+    "reviewAsset": "rebuild/hub/assets/character-art-review/club-v2.png",
+    "status": "Actual neon-pink v2 generated/displayed for separate owner review;unapproved,unconnected,unpublished",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "1854dbf4ca4bee2587a827e3bf5f4acd4c0345015f63154472e75b76b56873d7",
+    "approved": false,
+    "connected": false,
+    "direction": "Preserve v1 character,body,skin,hair,pose,composition and background;change latex sleeveless low-cut mini dress and entire strappy stiletto shoes to vivid neon pink. Reference styling only.",
+    "revisionRequested": "Outfit and shoes in neon pink",
+    "supersedes": "rebuild/hub/assets/character-art-review/club-v1.png",
+    "previousImageRetained": true
+  },
+  "runtimeChanges": false,
+  "newGameplayTests": false,
+  "priorVerification": "docs/verification/club-approved/results.json retained;60 focused cases/four simulated browser checks are earlier evidence,not rerun",
+  "imageGenerations": 1,
+  "imageGenerationPrice": "not reported by tool",
+  "cydoniaCalls": 0,
+  "workerChanges": false,
+  "published": false
+}

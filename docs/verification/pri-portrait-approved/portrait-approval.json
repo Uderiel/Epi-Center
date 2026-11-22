@@ -1,0 +1,14 @@
+{
+  "status": "Actual image viewed and owner-approved; connected locally; unpublished",
+  "source": "/workspace/generated_images/exec-d8437c60-c401-4c02-86da-3e57bbeca5db.png",
+  "reviewAsset": "rebuild/hub/assets/character-art-review/pri-v1.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "16fc69df3faed47ac4ce760d73b8a4e73f6e31a66838c71766d9f076f5bc0f78",
+  "approved": true,
+  "connected": true,
+  "ownerApproval": "Approved imaage",
+  "consumer": "rebuild/hub/pri-appearance.js portrait + index.html portraitMarkup; only currently entered standard male Pri"
+}

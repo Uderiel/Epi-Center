@@ -1,0 +1,734 @@
+{
+  "status": "Owner-approved and implemented locally,including actual age4years; publication held",
+  "entity": "form:kibbles",
+  "identityPolicy": "One persistent form with one-time saved name/gender; male/female variants are not extra awarded forms. Unassigned identity remains unassigned until the existing selection.",
+  "preserved": {
+    "male": {
+      "height": "25 in at shoulder",
+      "weight": "77.5 lb"
+    },
+    "female": {
+      "height": "23 in at shoulder",
+      "weight": "60 lb"
+    },
+    "age": "Owner-approved actual canine age4years",
+    "portraits": {
+      "male": "assets/kibbles-male-photo-v2.jpg",
+      "female": "assets/kibbles-female-photo-v2.jpg"
+    }
+  },
+  "variants": {
+    "male": {
+      "draft": {
+        "schema": 1,
+        "mode": "universal",
+        "answers": {
+          "age": {
+            "value": "4"
+          },
+          "gender": {
+            "value": "Male"
+          },
+          "footSize": {
+            "presence": "Present",
+            "count": "2",
+            "type": "Paws",
+            "sizeMode": "Physical measurement",
+            "sizingSystem": "Not specified",
+            "length": {
+              "mode": "Not specified"
+            },
+            "width": "Medium",
+            "arch": "Not applicable",
+            "sole": "Paw pads",
+            "digits": "4",
+            "nails": "Claws",
+            "covering": "Fur",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "texture": "Custom",
+            "markings": "None",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Tan fur with dark paw pads",
+            "textureCustom": "Firm paw pads surrounded by short fur"
+          },
+          "legs": {
+            "count": "2",
+            "type": "Digitigrade legs",
+            "length": "Average",
+            "build": "Muscular",
+            "covering": "Fur",
+            "grooming": "Custom",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "groomingCustom": "Natural German Shepherd coat",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan fur; dark exposed pads"
+          },
+          "hips": {
+            "width": "Medium",
+            "shape": "Custom",
+            "proportions": "Custom",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "shapeCustom": "Canine pelvis",
+            "proportionsCustom": "Proportionate canine hindquarters",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan fur; dark exposed pads"
+          },
+          "buttocks": {
+            "size": "Medium",
+            "shape": "Custom",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "shapeCustom": "Canine hindquarters around tail base",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan fur; dark exposed pads"
+          },
+          "waist": {
+            "width": "Narrow",
+            "abdomen": "Custom",
+            "muscle": "Slight",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "abdomenCustom": "Tucked canine abdomen",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan fur; dark exposed pads"
+          },
+          "back": {
+            "width": "Medium",
+            "shoulders": "Custom",
+            "back": "Straight",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "posture": "Custom",
+            "wingsPresence": "Absent",
+            "wingsCount": "Not specified",
+            "wingsType": "Not specified",
+            "wingspan": {
+              "mode": "Not specified"
+            },
+            "wingsDetails": "Not specified",
+            "wingsMaterial": "Not specified",
+            "wingsColour": "Not specified",
+            "shouldersCustom": "Canine shoulders",
+            "postureCustom": "Quadrupedal German Shepherd stance",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan fur; dark exposed pads"
+          },
+          "chest": {
+            "type": "Custom",
+            "cup": "Not specified",
+            "size": "Not specified",
+            "shape": "Custom",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "typeCustom": "Canine chest",
+            "shapeCustom": "Deep German Shepherd ribcage",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan fur; dark exposed pads"
+          },
+          "arms": {
+            "count": "2",
+            "type": "Custom",
+            "length": "Average",
+            "muscle": "Slight",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "grooming": "Custom",
+            "typeCustom": "Canine forelegs",
+            "groomingCustom": "Natural German Shepherd coat",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan fur; dark exposed pads"
+          },
+          "hands": {
+            "count": "2",
+            "type": "Paws",
+            "size": "Average",
+            "width": "Average",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan fur; dark exposed pads"
+          },
+          "fingers": {
+            "count": "5",
+            "length": "Short",
+            "thickness": "Average",
+            "nails": "Claws",
+            "nailLength": "Short",
+            "nailShape": "Custom",
+            "nailColour": "Custom",
+            "nailMaterial": "Custom",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "nailShapeCustom": "Curved canine claws; five digits include the forepaw dewclaw",
+            "nailColourCustom": "Dark",
+            "nailMaterialCustom": "Canine claw keratin",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan fur; dark exposed pads"
+          },
+          "voice": {
+            "neck": "Average",
+            "pitch": "Not specified",
+            "quality": "Custom",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "qualityCustom": "Canine barks,whines and growls; no human speech",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan fur; dark exposed pads"
+          },
+          "face": {
+            "shape": "Custom",
+            "jaw": "Custom",
+            "chin": "Not applicable",
+            "cheeks": "Not applicable",
+            "noseSize": "Average",
+            "noseShape": "Custom",
+            "lipFullness": "Not applicable",
+            "lipShape": "Custom",
+            "salivation": "Average",
+            "facialHair": "Custom",
+            "complexion": [
+              {
+                "kind": "Not specified"
+              }
+            ],
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "shapeCustom": "Elongated canine head",
+            "jawCustom": "Canine jaw",
+            "noseShapeCustom": "Black canine nose",
+            "lipShapeCustom": "Canine lips",
+            "facialHairCustom": "Short muzzle fur and whiskers",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan fur; dark exposed pads"
+          },
+          "eyes": {
+            "count": "2",
+            "size": "Average",
+            "shape": "Almond",
+            "iris": "Brown",
+            "leftIris": "Not specified",
+            "rightIris": "Not specified",
+            "sclera": "Custom",
+            "material": "Custom",
+            "materialCustom": "Canine eye tissue",
+            "scleraCustom": "Canine sclera,usually little exposed"
+          },
+          "ears": {
+            "count": "2",
+            "size": "Large",
+            "shape": "Custom",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "shapeCustom": "Upright triangular German Shepherd ears",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan outer fur with pink-brown inner skin"
+          },
+          "hair": {
+            "length": "Custom",
+            "colour": "Custom",
+            "texture": "Straight",
+            "density": "Dense",
+            "style": "Custom",
+            "material": "Fur",
+            "colourCustom": "Black saddle and facial mask with tan cheeks,chest,belly and limbs",
+            "styleCustom": "Natural German Shepherd double coat; no separate scalp hairstyle",
+            "lengthCustom": "Medium body coat with shorter muzzle and limb fur"
+          },
+          "skin": {
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "texture": "Custom",
+            "markings": [
+              {
+                "kind": "Custom",
+                "detail": "Black saddle and facial mask with tan regions",
+                "location": "Back,face,chest,belly and limbs",
+                "prominence": "Distinct"
+              }
+            ],
+            "bodyHair": "Custom",
+            "materialCustom": "Fur-covered biological skin",
+            "surfaceColourCustom": "Black-and-tan double coat; underlying skin pigment unspecified",
+            "textureCustom": "Dense double coat with coarse guard hairs and soft undercoat",
+            "bodyHairCustom": "Natural double coat"
+          },
+          "genitalAnatomy": {
+            "configuration": "Not specified",
+            "length": {
+              "mode": "Not specified"
+            },
+            "testes": "Not specified",
+            "tightness": "Not specified",
+            "puffiness": "Not specified",
+            "swelling": "Not specified",
+            "viscosity": "Not specified",
+            "variation": "Not specified",
+            "grooming": "Not applicable",
+            "material": "Custom",
+            "surfaceColour": "Not specified",
+            "materialCustom": "Biological canine tissue"
+          },
+          "scent": {
+            "natural": "Custom",
+            "strength": "Mild",
+            "perspiration": "Custom",
+            "temperature": "Warm",
+            "traits": [
+              "Not specified"
+            ],
+            "naturalCustom": "Natural canine scent",
+            "traitsCustom": "Panting is the primary cooling method; limited paw-pad perspiration",
+            "perspirationCustom": "Species-specific canine perspiration; descriptive only"
+          },
+          "height": {
+            "unit": "imperial",
+            "value": "Not specified",
+            "raw": {
+              "feet": 2,
+              "inches": 4
+            }
+          },
+          "weight": {
+            "unit": "imperial",
+            "value": 77.5,
+            "raw": {
+              "lb": 77.5
+            }
+          },
+          "build": {
+            "value": "Male German Shepherd; four-legged body configuration"
+          },
+          "tail": {
+            "presence": "Present",
+            "description": "Custom",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "descriptionCustom": "Long,bushy German Shepherd tail; no added inch measurement",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan fur"
+          }
+        }
+      },
+      "appearance": {
+        "age": "4",
+        "gender": "Male",
+        "footSize": "Feet present: Present; Number of feet: 2; Foot type: Paws; Describe foot size using: Physical measurement; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not specified; Foot width: Medium; Arch height: Not applicable; Sole or pads: Paw pads; Toes per foot: 4; Nails or claws: Claws; Covering: Fur; Material: Fur-covered biological tissue; Surface colour: Tan fur with dark paw pads; Surface texture: Firm paw pads surrounded by short fur; Markings: None; Recorded details: Fully formed canine hind paws with weight-bearing pads and claws",
+        "legs": "Number of legs: 2; Leg type: Digitigrade legs; Length: Average; Build: Muscular; Covering: Fur; Hair / grooming: Natural German Shepherd coat; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur,  dark exposed pads; inseam: Not specified; Recorded details: German Shepherd hind legs with a digitigrade stance adapted for quadrupedal movement",
+        "hips": "Width: Medium; Shape: Canine pelvis; Proportions relative to waist / torso: Proportionate canine hindquarters; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur,  dark exposed pads; hip circumference: Not specified; Recorded details: Canine pelvis and hindquarters supporting a four-legged gait",
+        "buttocks": "Size: Medium; Shape: Canine hindquarters around tail base; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur,  dark exposed pads; Recorded details: German Shepherd hindquarter musculature and tail-base anatomy",
+        "waist": "Waist width: Narrow; Abdomen shape: Tucked canine abdomen; Muscle definition: Slight; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur,  dark exposed pads; waist circumference: Not specified; Recorded details: Canine abdomen and waist proportions",
+        "back": "Shoulder width: Medium; Shoulder shape: Canine shoulders; Back shape: Straight; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur,  dark exposed pads; Usual posture: Quadrupedal German Shepherd stance; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: Not specified; Recorded details: Quadrupedal German Shepherd spine and back posture",
+        "chest": "Type: Canine chest; Cup size: Not applicable; Pectoral size: Not applicable; Shape: Deep German Shepherd ribcage; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur,  dark exposed pads; under-chest circumference: Not specified; chest circumference: Not specified; Recorded details: Deep canine chest supporting a four-legged stance",
+        "arms": "Number of arms: 2; Arm type: Canine forelegs; Length: Average; Muscle definition: Slight; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur,  dark exposed pads; Hair / grooming: Natural German Shepherd coat; shoulder-to-wrist length: Not specified; Recorded details: Fully adapted canine forelegs bearing weight during movement",
+        "hands": "Number of hands: 2; Hand type: Paws; Size: Average; Width: Average; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur,  dark exposed pads; Recorded details: Forepaws with pads and claws,  no human precision grip",
+        "fingers": "Digits per hand: 5; Length: Short; Thickness: Average; Nail type: Claws; Nail length: Short; Nail shape: Curved canine claws,  five digits include the forepaw dewclaw; Nail colour: Dark; Nail material: Canine claw keratin; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur,  dark exposed pads; Recorded details: Canine toes and claws,  human finger dexterity absent",
+        "voice": "Neck shape: Average; Voice pitch: Not specified; Voice quality: Canine barks,whines and growls,  no human speech; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur,  dark exposed pads; Recorded details: Canine neck and throat,  barks and whines replace human speech",
+        "face": "Overall shape: Elongated canine head; Jaw: Canine jaw; Chin: Not applicable; Cheeks: Not applicable; Nose size: Average; Nose shape: Black canine nose; Lip fullness: Not applicable; Lip shape: Canine lips; Salivation rate: Average; Facial hair: Short muzzle fur and whiskers; Complexion and markings: Not specified; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur,  dark exposed pads; Recorded details: German Shepherd muzzle, jaw and canine tongue",
+        "eyes": "Number of eyes: 2; Size: Average; Shape: Almond; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Canine sclera,usually little exposed; Material: Canine eye tissue; Recorded details: Canine eyes and visual perspective",
+        "ears": "Number of ears: 2; Size: Large; Shape: Upright triangular German Shepherd ears; Material: Fur-covered biological tissue; Surface colour: Black-and-tan outer fur with pink-brown inner skin; Recorded details: German Shepherd ears with directional canine hearing",
+        "hair": "Length: Medium body coat with shorter muzzle and limb fur; Colour: Black saddle and facial mask with tan cheeks,chest,belly and limbs; Texture: Straight; Density: Dense; Style: Natural German Shepherd double coat,  no separate scalp hairstyle; Material: Fur; Recorded details: German Shepherd fur covering the head and body",
+        "skin": "Material: Fur-covered biological skin; Surface colour: Black-and-tan double coat,  underlying skin pigment unspecified; Texture: Dense double coat with coarse guard hairs and soft undercoat; Body markings: Black saddle and facial mask with tan regions (location: Back,face,chest,belly and limbs; prominence: Distinct); Body hair: Natural double coat; Recorded details: Full German Shepherd double coat over canine skin",
+        "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not applicable; Material: Biological canine tissue; Surface colour: Not specified; Recorded details: Male canine anatomy,  human anatomy and grooming descriptions do not carry over",
+        "scent": "Natural body scent: Natural canine scent; Scent strength: Mild; Perspiration tendency: Species-specific canine perspiration,  descriptive only; Usual skin temperature: Warm; Other physical tendencies: Not specified; Recorded details: Canine scent and heightened olfactory sensitivity",
+        "height": "25 inches at the shoulder",
+        "weight": "77.5 lbs",
+        "build": "Male German Shepherd; four-legged body configuration",
+        "tail": "Tail present: Present; Tail description: Long,bushy German Shepherd tail,  no added inch measurement; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur; Recorded details: Fully formed German Shepherd tail, balanced for canine movement"
+      },
+      "raw": {
+        "footSize": "Fully formed canine hind paws with weight-bearing pads and claws",
+        "legs": "German Shepherd hind legs with a digitigrade stance adapted for quadrupedal movement",
+        "hips": "Canine pelvis and hindquarters supporting a four-legged gait",
+        "buttocks": "German Shepherd hindquarter musculature and tail-base anatomy",
+        "waist": "Canine abdomen and waist proportions",
+        "back": "Quadrupedal German Shepherd spine and back posture",
+        "chest": "Deep canine chest supporting a four-legged stance",
+        "arms": "Fully adapted canine forelegs bearing weight during movement",
+        "hands": "Forepaws with pads and claws; no human precision grip",
+        "fingers": "Canine toes and claws; human finger dexterity absent",
+        "voice": "Canine neck and throat; barks and whines replace human speech",
+        "face": "German Shepherd muzzle, jaw and canine tongue",
+        "eyes": "Canine eyes and visual perspective",
+        "ears": "German Shepherd ears with directional canine hearing",
+        "hair": "German Shepherd fur covering the head and body",
+        "skin": "Full German Shepherd double coat over canine skin",
+        "scent": "Canine scent and heightened olfactory sensitivity",
+        "height": "25 inches at the shoulder",
+        "weight": "77.5 lbs",
+        "build": "Male German Shepherd; four-legged body configuration",
+        "tail": "Fully formed German Shepherd tail, balanced for canine movement",
+        "age": "4",
+        "gender": "Male",
+        "genitalAnatomy": "Male canine anatomy; human anatomy and grooming descriptions do not carry over"
+      }
+    },
+    "female": {
+      "draft": {
+        "schema": 1,
+        "mode": "universal",
+        "answers": {
+          "age": {
+            "value": "4"
+          },
+          "gender": {
+            "value": "Female"
+          },
+          "footSize": {
+            "presence": "Present",
+            "count": "2",
+            "type": "Paws",
+            "sizeMode": "Physical measurement",
+            "sizingSystem": "Not specified",
+            "length": {
+              "mode": "Not specified"
+            },
+            "width": "Medium",
+            "arch": "Not applicable",
+            "sole": "Paw pads",
+            "digits": "4",
+            "nails": "Claws",
+            "covering": "Fur",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "texture": "Custom",
+            "markings": "None",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Tan fur with dark paw pads",
+            "textureCustom": "Firm paw pads surrounded by short fur"
+          },
+          "legs": {
+            "count": "2",
+            "type": "Digitigrade legs",
+            "length": "Average",
+            "build": "Muscular",
+            "covering": "Fur",
+            "grooming": "Custom",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "groomingCustom": "Natural German Shepherd coat",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan fur; dark exposed pads"
+          },
+          "hips": {
+            "width": "Medium",
+            "shape": "Custom",
+            "proportions": "Custom",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "shapeCustom": "Canine pelvis",
+            "proportionsCustom": "Proportionate canine hindquarters",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan fur; dark exposed pads"
+          },
+          "buttocks": {
+            "size": "Medium",
+            "shape": "Custom",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "shapeCustom": "Canine hindquarters around tail base",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan fur; dark exposed pads"
+          },
+          "waist": {
+            "width": "Narrow",
+            "abdomen": "Custom",
+            "muscle": "Slight",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "abdomenCustom": "Tucked canine abdomen",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan fur; dark exposed pads"
+          },
+          "back": {
+            "width": "Medium",
+            "shoulders": "Custom",
+            "back": "Straight",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "posture": "Custom",
+            "wingsPresence": "Absent",
+            "wingsCount": "Not specified",
+            "wingsType": "Not specified",
+            "wingspan": {
+              "mode": "Not specified"
+            },
+            "wingsDetails": "Not specified",
+            "wingsMaterial": "Not specified",
+            "wingsColour": "Not specified",
+            "shouldersCustom": "Canine shoulders",
+            "postureCustom": "Quadrupedal German Shepherd stance",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan fur; dark exposed pads"
+          },
+          "chest": {
+            "type": "Custom",
+            "cup": "Not specified",
+            "size": "Not specified",
+            "shape": "Custom",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "typeCustom": "Canine chest",
+            "shapeCustom": "Deep German Shepherd ribcage",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan fur; dark exposed pads"
+          },
+          "arms": {
+            "count": "2",
+            "type": "Custom",
+            "length": "Average",
+            "muscle": "Slight",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "grooming": "Custom",
+            "typeCustom": "Canine forelegs",
+            "groomingCustom": "Natural German Shepherd coat",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan fur; dark exposed pads"
+          },
+          "hands": {
+            "count": "2",
+            "type": "Paws",
+            "size": "Average",
+            "width": "Average",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan fur; dark exposed pads"
+          },
+          "fingers": {
+            "count": "5",
+            "length": "Short",
+            "thickness": "Average",
+            "nails": "Claws",
+            "nailLength": "Short",
+            "nailShape": "Custom",
+            "nailColour": "Custom",
+            "nailMaterial": "Custom",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "nailShapeCustom": "Curved canine claws; five digits include the forepaw dewclaw",
+            "nailColourCustom": "Dark",
+            "nailMaterialCustom": "Canine claw keratin",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan fur; dark exposed pads"
+          },
+          "voice": {
+            "neck": "Average",
+            "pitch": "Not specified",
+            "quality": "Custom",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "qualityCustom": "Canine barks,whines and growls; no human speech",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan fur; dark exposed pads"
+          },
+          "face": {
+            "shape": "Custom",
+            "jaw": "Custom",
+            "chin": "Not applicable",
+            "cheeks": "Not applicable",
+            "noseSize": "Average",
+            "noseShape": "Custom",
+            "lipFullness": "Not applicable",
+            "lipShape": "Custom",
+            "salivation": "Average",
+            "facialHair": "Custom",
+            "complexion": [
+              {
+                "kind": "Not specified"
+              }
+            ],
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "shapeCustom": "Elongated canine head",
+            "jawCustom": "Canine jaw",
+            "noseShapeCustom": "Black canine nose",
+            "lipShapeCustom": "Canine lips",
+            "facialHairCustom": "Short muzzle fur and whiskers",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan fur; dark exposed pads"
+          },
+          "eyes": {
+            "count": "2",
+            "size": "Average",
+            "shape": "Almond",
+            "iris": "Brown",
+            "leftIris": "Not specified",
+            "rightIris": "Not specified",
+            "sclera": "Custom",
+            "material": "Custom",
+            "materialCustom": "Canine eye tissue",
+            "scleraCustom": "Canine sclera,usually little exposed"
+          },
+          "ears": {
+            "count": "2",
+            "size": "Large",
+            "shape": "Custom",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "shapeCustom": "Semi-erect triangular ears with relaxed tips,matching the existing portrait",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan outer fur with pink-brown inner skin"
+          },
+          "hair": {
+            "length": "Custom",
+            "colour": "Custom",
+            "texture": "Straight",
+            "density": "Dense",
+            "style": "Custom",
+            "material": "Fur",
+            "colourCustom": "Black saddle and facial mask with tan cheeks,chest,belly and limbs",
+            "styleCustom": "Natural German Shepherd double coat; no separate scalp hairstyle",
+            "lengthCustom": "Medium body coat with shorter muzzle and limb fur"
+          },
+          "skin": {
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "texture": "Custom",
+            "markings": [
+              {
+                "kind": "Custom",
+                "detail": "Black saddle and facial mask with tan regions",
+                "location": "Back,face,chest,belly and limbs",
+                "prominence": "Distinct"
+              }
+            ],
+            "bodyHair": "Custom",
+            "materialCustom": "Fur-covered biological skin",
+            "surfaceColourCustom": "Black-and-tan double coat; underlying skin pigment unspecified",
+            "textureCustom": "Dense double coat with coarse guard hairs and soft undercoat",
+            "bodyHairCustom": "Natural double coat"
+          },
+          "genitalAnatomy": {
+            "configuration": "Not specified",
+            "length": {
+              "mode": "Not specified"
+            },
+            "testes": "Not specified",
+            "tightness": "Not specified",
+            "puffiness": "Not specified",
+            "swelling": "Not specified",
+            "viscosity": "Not specified",
+            "variation": "Not specified",
+            "grooming": "Not applicable",
+            "material": "Custom",
+            "surfaceColour": "Not specified",
+            "materialCustom": "Biological canine tissue"
+          },
+          "scent": {
+            "natural": "Custom",
+            "strength": "Mild",
+            "perspiration": "Custom",
+            "temperature": "Warm",
+            "traits": [
+              "Not specified"
+            ],
+            "naturalCustom": "Natural canine scent",
+            "traitsCustom": "Panting is the primary cooling method; limited paw-pad perspiration",
+            "perspirationCustom": "Species-specific canine perspiration; descriptive only"
+          },
+          "height": {
+            "unit": "imperial",
+            "value": "Not specified",
+            "raw": {
+              "feet": 2,
+              "inches": 4
+            }
+          },
+          "weight": {
+            "unit": "imperial",
+            "value": 60,
+            "raw": {
+              "lb": 60
+            }
+          },
+          "build": {
+            "value": "Female German Shepherd; four-legged body configuration"
+          },
+          "tail": {
+            "presence": "Present",
+            "description": "Custom",
+            "material": "Custom",
+            "surfaceColour": "Custom",
+            "descriptionCustom": "Long,bushy German Shepherd tail; no added inch measurement",
+            "materialCustom": "Fur-covered biological tissue",
+            "surfaceColourCustom": "Black-and-tan fur"
+          }
+        }
+      },
+      "appearance": {
+        "age": "4",
+        "gender": "Female",
+        "footSize": "Feet present: Present; Number of feet: 2; Foot type: Paws; Describe foot size using: Physical measurement; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not specified; Foot width: Medium; Arch height: Not applicable; Sole or pads: Paw pads; Toes per foot: 4; Nails or claws: Claws; Covering: Fur; Material: Fur-covered biological tissue; Surface colour: Tan fur with dark paw pads; Surface texture: Firm paw pads surrounded by short fur; Markings: None; Recorded details: Fully formed canine hind paws with weight-bearing pads and claws",
+        "legs": "Number of legs: 2; Leg type: Digitigrade legs; Length: Average; Build: Muscular; Covering: Fur; Hair / grooming: Natural German Shepherd coat; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur,  dark exposed pads; inseam: Not specified; Recorded details: German Shepherd hind legs with a digitigrade stance adapted for quadrupedal movement",
+        "hips": "Width: Medium; Shape: Canine pelvis; Proportions relative to waist / torso: Proportionate canine hindquarters; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur,  dark exposed pads; hip circumference: Not specified; Recorded details: Canine pelvis and hindquarters supporting a four-legged gait",
+        "buttocks": "Size: Medium; Shape: Canine hindquarters around tail base; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur,  dark exposed pads; Recorded details: German Shepherd hindquarter musculature and tail-base anatomy",
+        "waist": "Waist width: Narrow; Abdomen shape: Tucked canine abdomen; Muscle definition: Slight; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur,  dark exposed pads; waist circumference: Not specified; Recorded details: Canine abdomen and waist proportions",
+        "back": "Shoulder width: Medium; Shoulder shape: Canine shoulders; Back shape: Straight; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur,  dark exposed pads; Usual posture: Quadrupedal German Shepherd stance; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: Not specified; Recorded details: Quadrupedal German Shepherd spine and back posture",
+        "chest": "Type: Canine chest; Cup size: Not applicable; Pectoral size: Not applicable; Shape: Deep German Shepherd ribcage; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur,  dark exposed pads; under-chest circumference: Not specified; chest circumference: Not specified; Recorded details: Deep canine chest supporting a four-legged stance",
+        "arms": "Number of arms: 2; Arm type: Canine forelegs; Length: Average; Muscle definition: Slight; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur,  dark exposed pads; Hair / grooming: Natural German Shepherd coat; shoulder-to-wrist length: Not specified; Recorded details: Fully adapted canine forelegs bearing weight during movement",
+        "hands": "Number of hands: 2; Hand type: Paws; Size: Average; Width: Average; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur,  dark exposed pads; Recorded details: Forepaws with pads and claws,  no human precision grip",
+        "fingers": "Digits per hand: 5; Length: Short; Thickness: Average; Nail type: Claws; Nail length: Short; Nail shape: Curved canine claws,  five digits include the forepaw dewclaw; Nail colour: Dark; Nail material: Canine claw keratin; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur,  dark exposed pads; Recorded details: Canine toes and claws,  human finger dexterity absent",
+        "voice": "Neck shape: Average; Voice pitch: Not specified; Voice quality: Canine barks,whines and growls,  no human speech; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur,  dark exposed pads; Recorded details: Canine neck and throat,  barks and whines replace human speech",
+        "face": "Overall shape: Elongated canine head; Jaw: Canine jaw; Chin: Not applicable; Cheeks: Not applicable; Nose size: Average; Nose shape: Black canine nose; Lip fullness: Not applicable; Lip shape: Canine lips; Salivation rate: Average; Facial hair: Short muzzle fur and whiskers; Complexion and markings: Not specified; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur,  dark exposed pads; Recorded details: German Shepherd muzzle, jaw and canine tongue",
+        "eyes": "Number of eyes: 2; Size: Average; Shape: Almond; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Canine sclera,usually little exposed; Material: Canine eye tissue; Recorded details: Canine eyes and visual perspective",
+        "ears": "Number of ears: 2; Size: Large; Shape: Semi-erect triangular ears with relaxed tips,matching the existing portrait; Material: Fur-covered biological tissue; Surface colour: Black-and-tan outer fur with pink-brown inner skin; Recorded details: German Shepherd ears with directional canine hearing",
+        "hair": "Length: Medium body coat with shorter muzzle and limb fur; Colour: Black saddle and facial mask with tan cheeks,chest,belly and limbs; Texture: Straight; Density: Dense; Style: Natural German Shepherd double coat,  no separate scalp hairstyle; Material: Fur; Recorded details: German Shepherd fur covering the head and body",
+        "skin": "Material: Fur-covered biological skin; Surface colour: Black-and-tan double coat,  underlying skin pigment unspecified; Texture: Dense double coat with coarse guard hairs and soft undercoat; Body markings: Black saddle and facial mask with tan regions (location: Back,face,chest,belly and limbs; prominence: Distinct); Body hair: Natural double coat; Recorded details: Full German Shepherd double coat over canine skin",
+        "genitalAnatomy": "Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not applicable; Material: Biological canine tissue; Surface colour: Not specified; Recorded details: Female canine anatomy,  human anatomy and grooming descriptions do not carry over",
+        "scent": "Natural body scent: Natural canine scent; Scent strength: Mild; Perspiration tendency: Species-specific canine perspiration,  descriptive only; Usual skin temperature: Warm; Other physical tendencies: Not specified; Recorded details: Canine scent and heightened olfactory sensitivity",
+        "height": "23 inches at the shoulder",
+        "weight": "60 lbs",
+        "build": "Female German Shepherd; four-legged body configuration",
+        "tail": "Tail present: Present; Tail description: Long,bushy German Shepherd tail,  no added inch measurement; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur; Recorded details: Fully formed German Shepherd tail, balanced for canine movement"
+      },
+      "raw": {
+        "footSize": "Fully formed canine hind paws with weight-bearing pads and claws",
+        "legs": "German Shepherd hind legs with a digitigrade stance adapted for quadrupedal movement",
+        "hips": "Canine pelvis and hindquarters supporting a four-legged gait",
+        "buttocks": "German Shepherd hindquarter musculature and tail-base anatomy",
+        "waist": "Canine abdomen and waist proportions",
+        "back": "Quadrupedal German Shepherd spine and back posture",
+        "chest": "Deep canine chest supporting a four-legged stance",
+        "arms": "Fully adapted canine forelegs bearing weight during movement",
+        "hands": "Forepaws with pads and claws; no human precision grip",
+        "fingers": "Canine toes and claws; human finger dexterity absent",
+        "voice": "Canine neck and throat; barks and whines replace human speech",
+        "face": "German Shepherd muzzle, jaw and canine tongue",
+        "eyes": "Canine eyes and visual perspective",
+        "ears": "German Shepherd ears with directional canine hearing",
+        "hair": "German Shepherd fur covering the head and body",
+        "skin": "Full German Shepherd double coat over canine skin",
+        "scent": "Canine scent and heightened olfactory sensitivity",
+        "height": "23 inches at the shoulder",
+        "weight": "60 lbs",
+        "build": "Female German Shepherd; four-legged body configuration",
+        "tail": "Fully formed German Shepherd tail, balanced for canine movement",
+        "age": "4",
+        "gender": "Female",
+        "genitalAnatomy": "Female canine anatomy; human anatomy and grooming descriptions do not carry over"
+      }
+    }
+  },
+  "notes": [
+    "Shared24-field order; feet/legs are the hind pair and hands/arms the fore pair,not extra limbs.",
+    "Proposed four toes per hind paw and five digits per forepaw including dewclaw.",
+    "Proposed coat/eyes/ear carriage match the existing images as visual design choices; no dimensions inferred from image pixels.",
+    "Sex-specific neutral anatomy only; no inherited human anatomy or grooming.",
+    "No changes to combat,mastery,communication,identity gates,resources,needs,ownership,transformation graph or current-only appearance policy.",
+    "Owner now resolves the previously deferred exact age:4years. Current equipped body and outgoing body-awareness facts use4; original player age remains separate.",
+    "All numerical paw,limb,circumference and tail measurements remain unspecified."
+  ],
+  "ownerApproval": "Approved age 4 years old",
+  "ageYears": 4,
+  "runtimeSource": "rebuild/hub/kibbles-appearance.js + rebuild/combat/kibbles-form.js formAppearance",
+  "evidence": "docs/verification/kibbles-approved/results.json",
+  "releaseDisposition": {
+    "version": "1.0.137",
+    "scope": "Only implemented owner-approved portions and approved portrait consumers are included;any explicitly pending full-template additions remain proposals",
+    "publicationRecord": "docs/releases/v1.0.137-release-summary.json"
+  }
+}

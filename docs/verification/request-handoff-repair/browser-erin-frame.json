@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "realProvider": false,
+  "checks": [
+    "Actual inventory equip supplies Erin’s first reached stage and current physical target to narration",
+    "Actual one-hour wait carries only the newly reached Erin regions, with no future face or unrelated illness frame"
+  ],
+  "errors": []
+}

@@ -1,0 +1,14 @@
+{
+  "status": "Actual portrait viewed and owner-approved; connected locally; unpublished",
+  "source": "/workspace/generated_images/exec-3e23143c-6d79-4519-92dc-7a9015fa7d05.png",
+  "reviewAsset": "rebuild/hub/assets/character-art-review/daniel-v1.png",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "deb41ab0561029e854a9235c34d31f26f3eba62d9bc22faa9a582e7a1894ea2f",
+  "approved": true,
+  "connected": true,
+  "ownerApproval": "Approved! 😀",
+  "consumer": "rebuild/hub/department.js definition.portrait + department-ui.js danielPortraitMarkup"
+}

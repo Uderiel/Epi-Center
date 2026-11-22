@@ -1,0 +1,41 @@
+{
+  "mode": "actual local workerd, local Durable Object, dummy credentials",
+  "health": {
+    "service": "Epi-Center AI",
+    "releaseVersion": "1.0.135",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "actionProtocol": "npc-actions-v1",
+    "requestAssemblyVersion": "request-handoff-v3",
+    "configured": true
+  },
+  "usage": {
+    "releaseVersion": "1.0.135",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "actionProtocol": "npc-actions-v1",
+    "requestAssemblyVersion": "request-handoff-v3",
+    "model": "TheDrummer/Cydonia-24B-v4.3",
+    "budget": {
+      "month": "2026-11",
+      "spentUSD": 0,
+      "reservedUSD": 0,
+      "limitUSD": 0,
+      "remainingUSD": 0,
+      "inputTokens": 0,
+      "outputTokens": 0,
+      "requests": 0,
+      "blocked": false
+    }
+  },
+  "inspect": {
+    "status": 503,
+    "body": "{\"error\":\"The selected model is unavailable. No generation was attempted.\"}",
+    "passed": false,
+    "limitation": "Provider metadata needs real credentials. No completion generated."
+  }
+}

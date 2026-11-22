@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checks": [
+    "Illness onset creates an actual transformation narration request without player input",
+    "Coalesced arousal updates show their actual latest timestamp rather than appearing to reach 100 at the first tick",
+    "Four live milestones each reach AI with their own changed regions, ongoing symptoms and retained mechanical receipt",
+    "The exact reported thigh/hip action routes to body awareness, not a storefront or empty-park response",
+    "A spoken illness concern in an empty location reaches the narrator with current illness context, without inventing an NPC",
+    "Illness updates route estimates and denies typed jogging without selecting the prohibited pace",
+    "Typed outdoor travel charges twelve game minutes during symptoms",
+    "Menu route shortcut charges the same twelve minutes as typed travel",
+    "Appearance inspection shortcut uses the same body-awareness narrator as typed inspection",
+    "Expanded milestone prose survives feed eviction and reload in the persistent milestone archive"
+  ],
+  "errors": [],
+  "realProvider": false,
+  "scope": "AI enabled with simulated transport; synthetic slot only"
+}

@@ -1,0 +1,65 @@
+{
+  "status": "Implemented and verified locally; unpublished",
+  "at": "2026-11-21T20:10:10.181025+00:00",
+  "savedAppearanceKeys": 24,
+  "tail": "Restored existing separate field at end; human creation locked absent",
+  "rounding": {
+    "generatedInches": "nearest 0.5",
+    "examples": {
+      "34.2": 34,
+      "34.3": 34.5,
+      "34.8": 35
+    },
+    "enteredExactValues": "preserved",
+    "reviewBound": "±2 from original rounded baseline; no ratcheting"
+  },
+  "currentAppearance": {
+    "source": "rebuild/hub/current-appearance.js",
+    "displayAndExchange": "shared live read-only resolution of saved physical state",
+    "awareness": "selected current regions once; no old appearance history or future targets",
+    "freshness": "physical changes invalidate queued requests and stale returned replies",
+    "baseRecord": "not overwritten by temporary forms; permanent illness adapters keep their actual field changes"
+  },
+  "verification": {
+    "namedCases": 2234,
+    "suites": 159,
+    "creationBrowser": {
+      "passed": true,
+      "checks": 16,
+      "bodyPacketCharacters": [
+        5885
+      ]
+    },
+    "currentBodyBrowser": {
+      "passed": true,
+      "checks": 8,
+      "scenarios": [
+        "Partial Erin submits only the reached foot shape to the existing worker projection",
+        "Full Erin awareness matches displayed current appearance rather than the human archive",
+        "Partial canine attachment updates inspection even without a completed equipped form",
+        "Current canine Tail is independently inspectable and reaches private form narration",
+        "Cursed-item changes reach Face and lip awareness without the superseded thin-lip value",
+        "Reload preserves actual cursed-item changes and ordinary NPC exchanges replace stale supplied appearance",
+        "A reply for the previous physical state is discarded after a real cosmetic milestone",
+        "A queued inspection for an outdated body is cancelled before any request is sent"
+      ]
+    },
+    "sourceAudit": "102 attribute families,18 ID-only button sites,8 forms,83 adapters inventoried; inventory does not prove universal text coverage"
+  },
+  "paidCalls": 0,
+  "workerChanged": false,
+  "published": false,
+  "npcFormConversionStarted": false,
+  "limits": [
+    "Browser responses are simulated; existing worker projection is exercised offline, not a fresh provider acceptance test.",
+    "General Cydonia factual prose correctness and full continuous-play acceptance remain open.",
+    "Current NPC/form normalization and per-entity report remain the next stage."
+  ],
+  "evidence": [
+    "browser-results.json",
+    "current-browser.json",
+    "regression-summary.json",
+    "review-390.png",
+    "review-1100.png"
+  ]
+}

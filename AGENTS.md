@@ -54,3 +54,13 @@ Player consent to experiencing fictional themes and consent between characters w
 ## Deferred work and release summaries
 
 Maintain docs/DEFERRED-SYSTEMS-TRACKER.md when a system/choice is deferred or resolved. Check its revisit triggers at each pertinent location/system build and before release; do not reopen settled choices or revive superseded combat changes. Before publication, update docs/NEXT-RELEASE-SYNOPSIS.md against the last publicly verified release plus committed and uncommitted runtime changes, with a brief item-by-item synopsis and actual verification limits.
+
+## Source review markers
+
+The owner’s latest instruction supersedes the earlier tone-shaped developer markers. Use only the plain source comment `// (explicit adult)` beside transformation sequence code and its narration adapter. This is a searchable maintenance locator, not a tone field or model instruction. Apply the same comment to future transformation sequences. Keep docs/SOURCE-REVIEW-MARKERS.md and the location index docs/SOURCE-REVIEW-METADATA.json current; the index uses marker strings, never tone fields, and must not be imported into gameplay or model requests. Existing authored runtime tags remain unchanged.
+
+The owner superseded the earlier request to see code excerpts before submission: routine code-preview approval is no longer required. This does not itself authorize a new publication or deployment. Continue approved implementation/testing and report actual progress and limits.
+
+## Live voice speaking turns
+
+Latest owner instruction: continue work and give progress/blocker updates as they occur without waiting for “Reply.” The owner will speak when ready; do not go silent waiting for a marker. Keep each update in plain English and identify the actual current task, test status and next step. Explicitly state blockers, pauses and finished tests. End the spoken update clearly. Do not claim work continues after an ended agent turn. This supersedes the earlier Reply-marker/timed-update rule; do not reinstate that historical rule.

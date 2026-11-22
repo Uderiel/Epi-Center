@@ -1,0 +1,77 @@
+{
+  "started": "2026-11-21T10:19:17.141Z",
+  "realProvider": true,
+  "syntheticSaves": true,
+  "version": "1.0.136",
+  "variant": "unpublished dedicated-request client overlay with real deployed Cydonia",
+  "turns": [
+    {
+      "label": "resistance-current-source",
+      "rows": [
+        {
+          "speaker": "Game result",
+          "text": "# Internal Resistance\n\nYou feel the feline form's instincts rising\u2014a wave of instinctive urgency demanding attention to the bladder's pressure. The primal drive pulses through your feline body, trying to override your conscious control.\n\n*No. I need to find somewhere appropriate first.*\n\nYou push back against the overwhelming urge, asserting your will over the feline impulses. There's a brief internal struggle\u2014your human consciousness wrestling for dominance against the animal body's automatic responses.\n\nThe resistance holds. Your grip on control tightens slightly, though the feline instincts still hum beneath the surface, impatient and insistent. You've won this particular battle, but maintaining that control while dealing with such pressing physical needs requires constant effort.\n\nYour resolve dips slightly from the mental strain, but you've gained a small measure of mastery over the form\u2014a harder-won victory than you might have hoped.",
+          "aiGenerated": true,
+          "aiFailure": null
+        }
+      ]
+    }
+  ],
+  "checks": [],
+  "errors": [],
+  "requests": [
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Internal Resistance\n\nYou feel the feline form's instincts rising\u2014a wave of instinctive urgency demanding attention to the bladder's pressure. The primal drive pulses through your feline body, trying to override your conscious control.\n\n*No. I need to find somewhere appropriate first.*\n\nYou push back against the overwhelming urge, asserting your will over the feline impulses. There's a brief internal struggle\u2014your human consciousness wrestling for dominance against the animal body's automatic responses.\n\nThe resistance holds. Your grip on control tightens slightly, though the feline instincts still hum beneath the surface, impatient and insistent. You've won this particular battle, but maintaining that control while dealing with such pressing physical needs requires constant effort.\n\nYour resolve dips slightly from the mental strain, but you've gained a small measure of mastery over the form\u2014a harder-won victory than you might have hoped.",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 1913,
+        "outputTokens": 177,
+        "costUSD": 0.00137082
+      }
+    }
+  ],
+  "before": {
+    "releaseVersion": "1.0.135",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "actionProtocol": "npc-actions-v1",
+    "model": "TheDrummer/Cydonia-24B-v4.3",
+    "budget": {
+      "month": "2026-11",
+      "spentUSD": 1.370442,
+      "reservedUSD": 0.052984,
+      "limitUSD": 50,
+      "remainingUSD": 48.576574,
+      "inputTokens": 2143851,
+      "outputTokens": 94648,
+      "requests": 884,
+      "blocked": false
+    }
+  },
+  "after": {
+    "releaseVersion": "1.0.135",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "actionProtocol": "npc-actions-v1",
+    "model": "TheDrummer/Cydonia-24B-v4.3",
+    "budget": {
+      "month": "2026-11",
+      "spentUSD": 1.371813,
+      "reservedUSD": 0.052984,
+      "limitUSD": 50,
+      "remainingUSD": 48.575203,
+      "inputTokens": 2145764,
+      "outputTokens": 94825,
+      "requests": 885,
+      "blocked": false
+    }
+  },
+  "finished": "2026-11-21T10:19:32.536Z",
+  "sourceManifest": "private-resistance-final-source/manifest.json"
+}

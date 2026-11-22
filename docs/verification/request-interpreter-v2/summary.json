@@ -1,0 +1,33 @@
+{
+  "status": "Implemented locally; functional component checks pass; full prose acceptance remains OPEN",
+  "published": false,
+  "submitted": false,
+  "publicClient": "1.0.136",
+  "workerChanged": false,
+  "automatedCases": 2077,
+  "simulatedBrowserChecks": 32,
+  "latestInterpreterMatrix": {
+    "passed": 11,
+    "total": 11
+  },
+  "realUIControlsPassed": 9,
+  "realCatRetryPassed": 2,
+  "providerBlockedCatDependencies": 2,
+  "repairLedgerIncreaseUSD": 0.541621,
+  "retainedAmbiguousReservationUSD": 0.052984,
+  "ownerSaveUsed": false,
+  "credentialsIncluded": false,
+  "repositoryStaffWorkIncluded": false,
+  "scope": [
+    "Frozen candidate JavaScript overlays in browser, real Cydonia and actual composer/controllers.",
+    "Prepared synthetic scenes and scripted varied-language sequences; not unrestricted gameplay.",
+    "Receipt and safety assertions are separate from manual prose review.",
+    "An explicit provider no-generation preflight failure blocked cat prerequisites; a separate valid sequence passed.",
+    "Two calls per ordinary AI NPC exchange: request interpretation then prose."
+  ],
+  "open": [
+    "Full prose factual/style acceptance: invented props, inner thoughts and occasional extra descriptive detail persist.",
+    "Final spoken-agreement framing and corrected body-inspection phrasing have not received a separate blind prose acceptance pass.",
+    "The older Eve help/directional-routing issue is not fixed here."
+  ]
+}

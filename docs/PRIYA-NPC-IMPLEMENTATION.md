@@ -157,3 +157,15 @@ During development, old UI test contexts needed the new NPC/markup dependency an
 7. Report remaining limits and obtain promotion direction before main. No main promotion or Pages verification is part of this candidate push.
 
 Current published link (historical baseline, **not this candidate**): https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.97 . Changing a query parameter on that mutable URL does not publish or select the rebuild candidate.
+
+## Local appearance alignment — 2026-11-21
+
+Priya retains the approximate5ft2–5ft3 range (no silently chosen midpoint), petite/slender build, delicate face, dark brown eyes and flowing waves. Weight and hair colour remain unknown; ethnicity does not assign a skin shade. Her approved portrait remains connected. All24 fields/order, unknowns and image consumers are detailed in NPC-FORM-APPEARANCE-ALIGNMENT.md. Verified locally; unpublished. Full evidence:verification/npc-appearance-alignment/.
+
+## Current appearance review checkpoint — unpublished
+
+PRIYA-APPEARANCE-PROPOSAL.md/.json proposes all24 fields together. Exact age27,height5ft2.5,weight115lb,tanned skin,dark-brown hair andBcup were subsequently owner-approved and are implemented locally. The approved exact age/height refine the old adult/range-only baseline; delicate features,dark brown eyes,flowing waves,voice and existing approved portrait remain. Generated proposed measurements:waist26.5in,hips35.5in,under-chest30in,chest32.5in,shoulders13.5in,arm21in,inseam29in. No cats,flats,wardrobe or behavior changes.
+
+## Current approved complete appearance integration
+
+Priya’s complete24-field appearance is now owner-approved, implemented and verified locally through priya-appearance.js and shared catalogue consumers. Exact27years/5ft2.5in/115lb/tanned skin/dark-brown hair/Bcup supersede prior unspecified values and approximate-height-only status. Shared reference generates waist26.5in,hips35.5in,under-chest30in,chest32.5in,shoulders13.5in,arm21in,inseam29in. Established petite/slender build,delicate features,dark-brown eyes,flowing waves,natural Indian-accented voice and approved portrait remain.153 focused cases pass (alignment14,Priya26,household18,visits8,daily17,cat30,flats40);29 browser checks pass (NPC20,current body9), including panel measurements and speaker-specific existing-worker fact projection. Player state,existing cat/flats rules and all9 connected images remain;8 profile states still lack portrait consumers. No paid Cydonia calls,image generation,worker change or publication. Next is Charity’s complete24-field proposal,unapproved and unapplied: preserve apparent mid-thirties/actual age unknown,about5ft6/approximately122lb,wavy orangish-red hair,hazel eyes,warm smile and subtle smile lines. NewDcup/regional descriptions and reference estimates await review. Her existing approved photographic portrait is retained but not connected yet. Coverage/mask/quest systems stay deferred and unchanged.

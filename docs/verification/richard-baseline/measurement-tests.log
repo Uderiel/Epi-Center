@@ -1,0 +1,10 @@
+PASS approved worked example produces the exact deterministic reference measurements
+PASS metric and imperial inputs preserve the same physical design without rounding stored values
+PASS exact entered measurements win and cannot be changed through the generated review adjustment
+PASS review adjustment is bounded from the original baseline rather than cumulatively, including metric input
+PASS missing NPC mass and nonhuman bodies never silently receive reference human circumferences
+PASS invalid units non-finite dimensions and negative review measurements are rejected
+6 appearance measurement cases passed
+PASS approved half-inch cup increments retain C at three and stop at F
+PASS Build reflects final review measurements without changing physical attributes
+PASS owner rounding examples and quarter-inch boundaries use the nearest half inch

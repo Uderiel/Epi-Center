@@ -1,0 +1,40 @@
+{
+  "status": "Baseline implemented/verified locally; complete remaining appearance proposal awaiting review",
+  "at": "2026-11-21T21:05:34.071716+00:00",
+  "approved": {
+    "age": 32,
+    "height": "6 ft 0 in",
+    "weight": "175 lb"
+  },
+  "runtimeMeasurements": {
+    "underChest": 34.5,
+    "waist": null,
+    "hips": null,
+    "chest": null
+  },
+  "proposalValidation": {
+    "fields": 24,
+    "valid": true,
+    "status": "Not applied"
+  },
+  "proposedMeasurements": {
+    "waist": 30.5,
+    "hips": 38.5,
+    "underChest": 34.5,
+    "shoulderWidth": 17,
+    "armLength": 24,
+    "inseam": 33.5,
+    "chest": 40
+  },
+  "proposedException": "Chest40in versus current flat/pectoral reference34.5in; owner approval required; no global formula change.",
+  "focusedTests": {
+    "alignment-tests.log": 10,
+    "richard-tests.log": 30,
+    "measurement-tests.log": 9
+  },
+  "browserChecks": 4,
+  "paidCalls": 0,
+  "workerChanged": false,
+  "published": false,
+  "limits": "Browser check inspects final worker projection offline, not actual model-generated prose."
+}

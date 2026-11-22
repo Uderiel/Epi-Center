@@ -1,0 +1,376 @@
+{
+  "status": "Revised full24-field projected appearance and actual portrait owner-approved; implemented locally; unpublished",
+  "entity": "npc:eve",
+  "established": {
+    "identity": "Cheerful A.S.S. corporate AI guide",
+    "body": "No physical body",
+    "projectionRule": "Hologram allowed only in Central Hub Spire and the eight surrounding Central Hub areas; remote communication elsewhere"
+  },
+  "draft": {
+    "schema": 1,
+    "mode": "universal",
+    "answers": {
+      "age": {
+        "value": "Not applicable"
+      },
+      "gender": {
+        "value": "Female"
+      },
+      "footSize": {
+        "presence": "Present",
+        "count": "2",
+        "type": "Custom",
+        "sizeMode": "Shoe size",
+        "sizingSystem": "US women’s",
+        "length": {
+          "mode": "Not specified"
+        },
+        "width": "Medium",
+        "arch": "Medium",
+        "sole": "Custom",
+        "digits": "5",
+        "nails": "Custom",
+        "covering": "Custom",
+        "material": "Custom",
+        "surfaceColour": "Custom",
+        "texture": "Custom",
+        "markings": "None",
+        "materialCustom": "Projected light",
+        "surfaceColourCustom": "Digital blue light with electric-cyan edges",
+        "typeCustom": "Bare humanlike projected feet",
+        "soleCustom": "Bare projected soles,no physical contact surface",
+        "coveringCustom": "Bare projected feet,no footwear",
+        "textureCustom": "Digital blue light",
+        "size": 5,
+        "nailsCustom": "Projected toenail outlines"
+      },
+      "legs": {
+        "count": "2",
+        "type": "Custom",
+        "length": "Average",
+        "build": "Slender",
+        "covering": "Custom",
+        "grooming": "Not applicable",
+        "material": "Custom",
+        "surfaceColour": "Custom",
+        "materialCustom": "Projected light",
+        "surfaceColourCustom": "Digital blue light with electric-cyan edges",
+        "typeCustom": "Humanlike projected legs",
+        "coveringCustom": "Projected one-piece latex-like suit,ending above ankles"
+      },
+      "hips": {
+        "width": "Medium",
+        "shape": "Straight",
+        "proportions": "Custom",
+        "material": "Custom",
+        "surfaceColour": "Custom",
+        "materialCustom": "Projected light",
+        "surfaceColourCustom": "Digital blue light with electric-cyan edges",
+        "proportionsCustom": "Slender projected silhouette in one-piece suit"
+      },
+      "buttocks": {
+        "size": "Medium",
+        "shape": "Custom",
+        "material": "Custom",
+        "surfaceColour": "Custom",
+        "materialCustom": "Projected light",
+        "surfaceColourCustom": "Digital blue light with electric-cyan edges",
+        "shapeCustom": "Projected one-piece suit silhouette"
+      },
+      "waist": {
+        "width": "Medium",
+        "abdomen": "Flat",
+        "muscle": "Smooth",
+        "material": "Custom",
+        "surfaceColour": "Custom",
+        "materialCustom": "Projected light",
+        "surfaceColourCustom": "Digital blue light with electric-cyan edges"
+      },
+      "back": {
+        "width": "Medium",
+        "shoulders": "Level",
+        "back": "Straight",
+        "material": "Custom",
+        "surfaceColour": "Custom",
+        "posture": "Upright",
+        "wingsPresence": "Absent",
+        "wingsCount": "Not specified",
+        "wingsType": "Not specified",
+        "wingspan": {
+          "mode": "Not specified"
+        },
+        "wingsDetails": "Not specified",
+        "wingsMaterial": "Not specified",
+        "wingsColour": "Not specified",
+        "materialCustom": "Projected light",
+        "surfaceColourCustom": "Digital blue light with electric-cyan edges"
+      },
+      "chest": {
+        "type": "Custom",
+        "cup": "Not specified",
+        "size": "Not specified",
+        "shape": "Custom",
+        "material": "Custom",
+        "surfaceColour": "Custom",
+        "materialCustom": "Projected light",
+        "surfaceColourCustom": "Digital blue light with electric-cyan edges",
+        "typeCustom": "Projected upper torso in futuristic one-piece latex-like suit",
+        "shapeCustom": "Sleek geometric suit panels and cyan circuit seams"
+      },
+      "arms": {
+        "count": "2",
+        "type": "Custom",
+        "length": "Average",
+        "muscle": "Smooth",
+        "material": "Custom",
+        "surfaceColour": "Custom",
+        "grooming": "Not applicable",
+        "materialCustom": "Projected light",
+        "surfaceColourCustom": "Digital blue light with electric-cyan edges",
+        "typeCustom": "Humanlike projected arms"
+      },
+      "hands": {
+        "count": "2",
+        "type": "Custom",
+        "size": "Average",
+        "width": "Average",
+        "material": "Custom",
+        "surfaceColour": "Custom",
+        "materialCustom": "Projected light",
+        "surfaceColourCustom": "Digital blue light with electric-cyan edges",
+        "typeCustom": "Bare humanlike projected hands,no gloves"
+      },
+      "fingers": {
+        "count": "5",
+        "length": "Average",
+        "thickness": "Slender",
+        "nails": "Custom",
+        "nailLength": "Short",
+        "nailShape": "Rounded",
+        "nailColour": "Custom",
+        "nailMaterial": "Custom",
+        "material": "Custom",
+        "surfaceColour": "Custom",
+        "materialCustom": "Projected light",
+        "surfaceColourCustom": "Digital blue light with electric-cyan edges",
+        "nailsCustom": "Projected fingernail outlines",
+        "nailColourCustom": "Digital blue light",
+        "nailMaterialCustom": "Projected light"
+      },
+      "voice": {
+        "neck": "Average",
+        "pitch": "Middle",
+        "quality": "Clear",
+        "material": "Custom",
+        "surfaceColour": "Custom",
+        "materialCustom": "Projected light",
+        "surfaceColourCustom": "Digital blue light with electric-cyan edges"
+      },
+      "face": {
+        "shape": "Heart-shaped",
+        "jaw": "Tapered",
+        "chin": "Pointed",
+        "cheeks": "Prominent cheekbones",
+        "noseSize": "Small",
+        "noseShape": "Straight",
+        "lipFullness": "Medium",
+        "lipShape": "Rounded",
+        "salivation": "Not applicable",
+        "facialHair": "Not applicable",
+        "complexion": [
+          {
+            "kind": "Clear/even complexion"
+          }
+        ],
+        "material": "Custom",
+        "surfaceColour": "Custom",
+        "materialCustom": "Projected light",
+        "surfaceColourCustom": "Digital blue light with electric-cyan edges"
+      },
+      "eyes": {
+        "count": "2",
+        "size": "Average",
+        "shape": "Almond",
+        "iris": "Custom",
+        "leftIris": "Not specified",
+        "rightIris": "Not specified",
+        "sclera": "Custom",
+        "material": "Custom",
+        "materialCustom": "Projected light",
+        "irisCustom": "Cyan",
+        "scleraCustom": "Rendered white sclera,no physical eyes"
+      },
+      "ears": {
+        "count": "2",
+        "size": "Average",
+        "shape": "Rounded",
+        "material": "Custom",
+        "surfaceColour": "Custom",
+        "materialCustom": "Projected light",
+        "surfaceColourCustom": "Digital blue light with electric-cyan edges"
+      },
+      "hair": {
+        "length": "Short",
+        "colour": "Custom",
+        "texture": "Straight",
+        "density": "Average",
+        "style": "Custom",
+        "material": "Custom",
+        "materialCustom": "Projected light",
+        "lengthCustom": "",
+        "colourCustom": "Digital blue light with cyan highlights",
+        "styleCustom": "Short pixie cut,close-cropped sides and lightly tousled top"
+      },
+      "skin": {
+        "material": "Custom",
+        "surfaceColour": "Custom",
+        "texture": "Custom",
+        "markings": [
+          {
+            "kind": "None"
+          }
+        ],
+        "bodyHair": "Not applicable",
+        "materialCustom": "Projected light",
+        "surfaceColourCustom": "Digital blue light with electric-cyan edges",
+        "textureCustom": "Luminous blue holographic display with subtle scanlines,no biological skin"
+      },
+      "genitalAnatomy": {
+        "configuration": "Not applicable",
+        "length": {
+          "mode": "Not specified"
+        },
+        "testes": "Not applicable",
+        "tightness": "Not applicable",
+        "puffiness": "Not applicable",
+        "swelling": "Not applicable",
+        "viscosity": "Not applicable",
+        "variation": "Not applicable",
+        "grooming": "Not applicable",
+        "material": "Not applicable",
+        "surfaceColour": "Not applicable"
+      },
+      "scent": {
+        "natural": "Not applicable",
+        "strength": "Not applicable",
+        "perspiration": "Not applicable",
+        "temperature": "Not applicable",
+        "traits": [
+          "Not specified"
+        ]
+      },
+      "height": {
+        "unit": "imperial",
+        "value": 66,
+        "raw": {
+          "feet": 5,
+          "inches": 6
+        }
+      },
+      "weight": {
+        "unit": "imperial",
+        "value": "Not applicable",
+        "raw": {}
+      },
+      "build": {
+        "value": "Adult female-presenting hologram made of digital blue light,with a slender silhouette and sleek one-piece latex-like suit."
+      },
+      "tail": {
+        "presence": "Absent",
+        "description": "Not specified",
+        "material": "Not specified",
+        "surfaceColour": "Not specified"
+      }
+    },
+    "inheritedColours": {
+      "footSize": false,
+      "legs": false,
+      "hips": false,
+      "buttocks": false,
+      "waist": false,
+      "back": false,
+      "chest": false,
+      "arms": false,
+      "hands": false,
+      "fingers": false,
+      "voice": false,
+      "face": false,
+      "ears": false
+    },
+    "review": null,
+    "stage": "editor"
+  },
+  "appearance": {
+    "age": "Adult-presenting avatar; human chronological age not applicable",
+    "gender": "Female-presenting avatar; AI service has no biological sex",
+    "footSize": "Feet present: Present; Number of feet: 2; Foot type: Bare humanlike projected feet; Describe foot size using: Shoe size; Shoe size: 5; Shoe sizing system: US women’s; Foot length: Not applicable; Foot width: Medium; Arch height: Medium; Sole or pads: Bare projected soles,no physical contact surface; Toes per foot: 5; Nails or claws: Projected toenail outlines; Covering: Bare projected feet,no footwear; Material: Projected light; Surface colour: Digital blue light with electric-cyan edges; Surface texture: Digital blue light; Markings: None; Recorded details: Two bare projected feet,US women5 visual size reference,five toes each,  no shoes",
+    "legs": "Number of legs: 2; Leg type: Humanlike projected legs; Length: Average; Build: Slender; Covering: Projected one-piece latex-like suit,ending above ankles; Hair / grooming: Not applicable; Material: Projected light; Surface colour: Digital blue light with electric-cyan edges; inseam: Not specified",
+    "hips": "Width: Medium; Shape: Straight; Proportions relative to waist / torso: Slender projected silhouette in one-piece suit; Material: Projected light; Surface colour: Digital blue light with electric-cyan edges; hip circumference: Not specified",
+    "buttocks": "Size: Medium; Shape: Projected one-piece suit silhouette; Material: Projected light; Surface colour: Digital blue light with electric-cyan edges",
+    "waist": "Waist width: Medium; Abdomen shape: Flat; Muscle definition: Smooth; Material: Projected light; Surface colour: Digital blue light with electric-cyan edges; waist circumference: Not specified",
+    "back": "Shoulder width: Medium; Shoulder shape: Level; Back shape: Straight; Material: Projected light; Surface colour: Digital blue light with electric-cyan edges; Usual posture: Upright; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: Not specified",
+    "chest": "Type: Projected upper torso in futuristic one-piece latex-like suit; Cup size: Not applicable; Pectoral size: Not applicable; Shape: Sleek geometric suit panels and cyan circuit seams; Material: Projected light; Surface colour: Digital blue light with electric-cyan edges; under-chest circumference: Not specified; chest circumference: Not specified",
+    "arms": "Number of arms: 2; Arm type: Humanlike projected arms; Length: Average; Muscle definition: Smooth; Material: Projected light; Surface colour: Digital blue light with electric-cyan edges; Hair / grooming: Not applicable; shoulder-to-wrist length: Not specified",
+    "hands": "Number of hands: 2; Hand type: Bare humanlike projected hands,no gloves; Size: Average; Width: Average; Material: Projected light; Surface colour: Digital blue light with electric-cyan edges",
+    "fingers": "Digits per hand: 5; Length: Average; Thickness: Slender; Nail type: Projected fingernail outlines; Nail length: Short; Nail shape: Rounded; Nail colour: Digital blue light; Nail material: Projected light; Material: Projected light; Surface colour: Digital blue light with electric-cyan edges; Recorded details: Five visible bare projected finger shapes per hand,  no gloves or physical function",
+    "voice": "Neck shape: Average; Voice pitch: Middle; Voice quality: Clear; Material: Projected light; Surface colour: Digital blue light with electric-cyan edges; Recorded details: Clear,cheerful corporate AI voice,  no physical throat",
+    "face": "Overall shape: Heart-shaped; Jaw: Tapered; Chin: Pointed; Cheeks: Prominent cheekbones; Nose size: Small; Nose shape: Straight; Lip fullness: Medium; Lip shape: Rounded; Salivation rate: Not applicable; Facial hair: Not applicable; Complexion and markings: Clear/even complexion; Material: Projected light; Surface colour: Digital blue light with electric-cyan edges; Recorded details: Pixie-like face made of digital blue light",
+    "eyes": "Number of eyes: 2; Size: Average; Shape: Almond; Iris colour: Cyan; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Rendered white sclera,no physical eyes; Material: Projected light",
+    "ears": "Number of ears: 2; Size: Average; Shape: Rounded; Material: Projected light; Surface colour: Digital blue light with electric-cyan edges",
+    "hair": "Length: Short; Colour: Digital blue light with cyan highlights; Texture: Straight; Density: Average; Style: Short pixie cut,close-cropped sides and lightly tousled top; Material: Projected light; Recorded details: Short blue-light pixie cut with cyan highlights",
+    "skin": "Material: Projected light; Surface colour: Digital blue light with electric-cyan edges; Texture: Luminous blue holographic display with subtle scanlines,no biological skin; Body markings: None; Body hair: Not applicable; Recorded details: Digital blue-light projection,  no biological skin",
+    "genitalAnatomy": "Configuration: Not applicable; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not applicable; Pubic hair / grooming: Not applicable; Material: Not applicable; Surface colour: Not applicable",
+    "scent": "Natural body scent: Not applicable; Scent strength: Not applicable; Perspiration tendency: Not applicable; Usual skin temperature: Not applicable; Other physical tendencies: Not applicable",
+    "height": "Projected visual scale around 5 ft 6 in; no physical height",
+    "weight": "Not applicable",
+    "build": "Adult female-presenting hologram made of digital blue light,with a slender silhouette and sleek one-piece latex-like suit.",
+    "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+  },
+  "rawSupplements": {
+    "age": "Adult-presenting avatar; human chronological age not applicable",
+    "gender": "Female-presenting avatar; AI service has no biological sex",
+    "height": "Projected visual scale around 5 ft 6 in; no physical height",
+    "weight": "Not applicable",
+    "fingers": "Five visible bare projected finger shapes per hand; no gloves or physical function",
+    "footSize": "Two bare projected feet,US women5 visual size reference,five toes each; no shoes"
+  },
+  "measurementPolicy": "No mass,circumferences,cup size,body physiology or human-reference estimates. Height is visual display scale only.",
+  "portrait": {
+    "source": "/workspace/generated_images/exec-0a48c3dd-fd48-43e1-af7d-108d9acab66a.png",
+    "asset": "rebuild/hub/assets/character-art-review/eve-blue-pixie-v1.png",
+    "status": "Actual image viewed and owner-approved; connected locally as avatar reference; unpublished",
+    "approved": true,
+    "connected": true,
+    "ownerApproval": "Perfect. Lets revise her description details and keep going",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "b34d369afb02ea93381b8d550b6286f7f940ba894cc3ad6d46a2da9f699e961b",
+    "consumer": "eve-appearance.js portrait + appearance-profiles-ui.js eveAppearanceMarkup in existing NPC help channel"
+  },
+  "notes": [
+    "Owner approved the revised blue-light image and directed final description integration.",
+    "Bare size5 visual feet,bare hands,short pixie cut,pixie-like face and futuristic latex-like one-piece suit all rendered in digital blue light.",
+    "US women5 is visual reference only; no physical shoe,latex inventory,body mass or human-reference calculation.",
+    "Rendered finger/toe/nail shapes are explicitly visual; genital anatomy,scent and physiological functions remain inapplicable.",
+    "Existing nine-location projection scope remains; remote reference image does not establish a local hologram.",
+    "Existing help,knowledge/privacy,authority and gameplay controls remain."
+  ],
+  "previousVisualProposal": {
+    "hair": "Shoulder-length silver",
+    "outfit": "Corporate jacket/trousers/gloves/boots",
+    "surface": "Pale cyan-white",
+    "status": "Superseded by owner visual directions"
+  },
+  "ownerDirections": "Barefoot,futuristic one-piece latex-suit appearance,short pixie hair,pixie-like face,size5 feet,no gloves,Tron female guard-inspired,made of digital blue light",
+  "sizingConvention": "US women’s5 used as visual size reference under established female sizing convention; not physical footwear inventory",
+  "ownerApproval": "Perfect. Lets revise her description details and keep going",
+  "runtimeSource": "rebuild/hub/eve-appearance.js",
+  "description": "Eve’s adult female-presenting avatar is made entirely of digital blue light,with a short pixie cut,a delicate pixie-like face and cyan eyes. She wears a sleek futuristic one-piece latex-like suit rendered in blue light with cyan circuit seams. Her hands are bare; her bare feet use a US women’s size5 visual reference. No gloves or shoes.",
+  "releaseDisposition": {
+    "version": "1.0.137",
+    "scope": "Only implemented owner-approved portions and approved portrait consumers are included;any explicitly pending full-template additions remain proposals",
+    "publicationRecord": "docs/releases/v1.0.137-release-summary.json"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "status": "Requested gym-bunny amendments and universal active-carrier saliva colour implemented and verified locally;full revised template/image remain in review",
+  "at": "2026-11-22T06:40:04.205Z",
+  "ownerAmendments": {
+    "arches": "High",
+    "fingerAndToenailPolish": "Pink",
+    "salivation": "High",
+    "perspiration": "High (owner described heavy); existing gain factor1.05",
+    "allCarriers": "Pink saliva/drool; carrier colour alone does not create a drooling or contact event",
+    "imageClothing": [
+      "Skin-tight workout shorts",
+      "Exercise bralette/crop top",
+      "Pink running shoes",
+      "White ankle socks"
+    ],
+    "imagePresentation": "Sweaty after exercise"
+  },
+  "requestedAmendmentsImplemented": true,
+  "fullAppearanceApproved": false,
+  "portrait": {
+    "status": "Actual revised gym-bunny portrait generated and displayed for separate review;not approved or connected",
+    "approved": false,
+    "connected": false,
+    "direction": "Realistic adult full-body athlete with the established gym-bunny body,shoulder-length straight blonde hair,blue eyes,light tan skin,high arches and pink polish;opaque skin-tight workout shorts and exercise bralette/crop top,pink running shoes,white ankle socks,visible post-workout perspiration. Pink drool/saliva is a carrier colour trait. Toenail polish stays part of appearance even when shoes cover it. Neutral fitness background is a portrait reference,not a room/inventory grant.",
+    "source": "/workspace/generated_images/exec-6b9fed49-d33e-4c22-8219-44e1f4ae779a.png",
+    "reviewAsset": "rebuild/hub/assets/character-art-review/gym-bunny-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "14b4250f4a6995dc8dfd1a612abc9fd7cc0c482ff198c5ae3a17861feb7045c9"
+  },
+  "runtime": {
+    "passed": true,
+    "namedCases": 2297,
+    "suites": 167,
+    "scope": "Runtime-only;final combined release/canon freeze remains pending"
+  },
+  "focusedCases": 69,
+  "browser": {
+    "passed": true,
+    "counts": {
+      "npc": 24,
+      "currentBody": 9,
+      "gym": 4
+    },
+    "total": 37,
+    "realProvider": false
+  },
+  "imageGenerations": 1,
+  "imageGenerationPrice": "not reported by tool",
+  "cydoniaCalls": 0,
+  "workerChanges": false,
+  "published": false,
+  "missingPortraitConsumers": 3,
+  "remaining": "Full revised gym-bunny template and actual image review,then sorority appearance/image,then club appearance/image;general live-model prose correctness remains open"
+}

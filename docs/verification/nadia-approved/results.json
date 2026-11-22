@@ -1,0 +1,53 @@
+{
+  "status": "Owner-approved Nadia complete appearance implemented and verified locally; existing portrait retained; unpublished",
+  "at": "2026-11-21T21:41:46.042Z",
+  "measurements": {
+    "waist": 27.5,
+    "hips": 38.5,
+    "underChest": 31,
+    "shoulderWidth": 14.5,
+    "armLength": 22,
+    "inseam": 30.5,
+    "chest": 34
+  },
+  "measurementSources": {
+    "waist": "generated",
+    "hips": "generated",
+    "underChest": "generated",
+    "shoulderWidth": "generated",
+    "armLength": "generated",
+    "inseam": "generated",
+    "chest": "generated"
+  },
+  "focusedCases": {
+    "alignment": 13,
+    "marketing": 28,
+    "integration": 14,
+    "household": 12,
+    "daily": 5,
+    "continuity": 4
+  },
+  "focusedTotal": 76,
+  "browserChecks": {
+    "npc": 18,
+    "currentBody": 9
+  },
+  "portrait": {
+    "asset": "rebuild/hub/assets/nadia-voss-dart.jpg",
+    "status": "Existing owner-approved connected portrait retained unchanged",
+    "sha256": "85d1adf64c771329aa24d40ee4ac5db0daf7c61df742de7dad4c7bad74c5382f"
+  },
+  "connectedImagesDecoded": 9,
+  "profileStatesWithoutPortraitConsumer": 8,
+  "lastBroadRuntime": {
+    "cases": 2252,
+    "suites": 160,
+    "note": "Previous calculator checkpoint, not rerun for this data integration"
+  },
+  "playerDataPreserved": true,
+  "dartUnchanged": true,
+  "cydoniaCalls": 0,
+  "workerChanged": false,
+  "published": false,
+  "next": "Priya complete24-field proposal pending review; new values not applied"
+}

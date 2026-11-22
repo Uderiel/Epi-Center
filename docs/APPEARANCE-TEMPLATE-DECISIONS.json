@@ -1,0 +1,1723 @@
+{
+  "status": "Creation and18-profile NPC/form alignment implemented locally; cat inventory corrected to two offered forms; unpublished",
+  "age": "Keep existing whole-number range18–90",
+  "gender": "Male or Female",
+  "feet": {
+    "status": "Design agreed; catalogue remains extensible",
+    "sections": [
+      "Presence and count",
+      "Structure",
+      "Size and sizing system",
+      "Shape including arch height",
+      "Digits and nails/claws",
+      "Surface/material/covering/color/texture/markings"
+    ],
+    "controls": "Dropdowns plus custom entry; absent marks remaining sections not applicable",
+    "universal": "Same approved sections/order for future player, NPC and transformation descriptions; no inferred human anatomy",
+    "retroactiveNPCChanges": "Approved by owner; implementation pending",
+    "creationRestriction": "Human preset locked; nonhuman options unavailable",
+    "materialColourPolicy": "Shared Material → Surface colour policy; human skin choices Pale/Light/Tanned/Dark only"
+  },
+  "existingFields": 24,
+  "applyToNPCs": "Implemented locally through source-backed18-profile catalogue, current-body resolver, topic-scoped NPC appearance facts and public panels; per-profile changes/images/discrepancies recorded in NPC-FORM-APPEARANCE-ALIGNMENT.md",
+  "delivery": "Plain screenshot confirmed visible in ChatGPT app live voice mode; use plain images for visual reviews.",
+  "startingBodyPolicy": {
+    "status": "Owner approved",
+    "creation": "Human only",
+    "feet": {
+      "presence": "Present",
+      "type": "Humanlike feet",
+      "count": 2,
+      "digitsPerFoot": 5,
+      "nails": "Human nails",
+      "material": "Skin",
+      "covering": "Skin"
+    },
+    "nonhumanChoices": "Disabled in new-player creation; available in universal NPC/transformation authoring schema",
+    "enforcement": "Restrict UI choices and validate structured values when approved template is implemented; never add new saved appearance fields."
+  },
+  "universalTemplatePolicy": {
+    "sectionsAndOrdering": "One shared template for player appearance, NPC appearance and form/transformation targets",
+    "catalogue": "Extensible options; adding an option does not add or reorder saved appearance fields",
+    "latex": "Add Latex as a material and as a covering",
+    "creationAvailability": "Enable only human starting-body options; retain other universal options as disabled",
+    "futureAuthoringAvailability": "Full relevant catalogue for NPCs and forms",
+    "silicone": "Add Silicone as a body material; disabled for human new-character creation",
+    "skinBearingRegions": "Every skin-bearing body region includes Material in its shared template; Skin is default and the only enabled material at human creation. Other material choices remain in the universal catalogue.",
+    "materialColour": {
+      "order": "Material then Surface colour in every relevant existing-field template, retroactive to reviewed template sections",
+      "humanCreation": {
+        "material": "Skin",
+        "colours": [
+          "Pale",
+          "Light",
+          "Tanned",
+          "Dark"
+        ]
+      },
+      "npcAndFormSkinLatexSilicone": "Natural tones plus broad colour palette and custom colours",
+      "metalExamples": [
+        "Silver",
+        "Gold",
+        "Copper",
+        "Bronze",
+        "Black",
+        "Custom"
+      ],
+      "scope": "Shared schema implemented in creation; current NPC/form records not yet converted"
+    }
+  },
+  "currentReviewField": {
+    "field": null,
+    "status": "Appearance field review and local creation integration complete; NPC/form conversion is next"
+  },
+  "legs": {
+    "status": "Design agreed with hair/grooming addition",
+    "order": [
+      "Count",
+      "Leg type",
+      "Length",
+      "Build",
+      "Covering",
+      "Hair/grooming"
+    ],
+    "hairGroomingChoices": [
+      "Clean-shaven",
+      "Lightly hairy",
+      "Moderately hairy",
+      "Very hairy"
+    ],
+    "universalMissingStates": [
+      "Not applicable",
+      "Not specified"
+    ],
+    "humanCreation": "All four human leg hair/grooming choices available; nonhuman leg types remain disabled",
+    "materialColourPolicy": "Shared Material → Surface colour policy; human skin choices Pale/Light/Tanned/Dark only"
+  },
+  "measurementGenerationProposal": {
+    "status": "Implemented locally with approved reference calibration and original-baseline review limits",
+    "outputs": "Concrete waist/hip/chest circumferences in inches within existing fields",
+    "inputs": [
+      "Height",
+      "Weight",
+      "Existing waist measurement if entered",
+      "Selected hip/chest/waist proportions"
+    ],
+    "preserve": "Keep any explicit player-entered measurement",
+    "review": "Use existing character review before Commit/Confirm",
+    "limits": "No unique anatomical inference is claimed; no extra appearance fields",
+    "reviewAdjustmentLimitInches": 2,
+    "adjustmentReference": "Original generated value per applicable generated inch measurement; not a cumulative per-click allowance",
+    "preserveExplicitInputs": true,
+    "rounding": "Generated and adjusted inch outputs round to nearest 0.5 inch: 34.2→34, 34.3→34.5, 34.8→35. Exact entered measurements remain authoritative."
+  },
+  "hips": {
+    "status": "Design agreed; advance to next field",
+    "order": [
+      "Width",
+      "Shape",
+      "Proportions"
+    ],
+    "width": [
+      "Narrow",
+      "Medium",
+      "Wide",
+      "Custom",
+      "Not specified"
+    ],
+    "shape": [
+      "Straight",
+      "Rounded",
+      "Angular",
+      "Custom",
+      "Not specified"
+    ],
+    "universalAbsentState": "Not applicable",
+    "generator": "For matching other inputs, narrow < medium < wide circumference; account for height, weight and selected proportions",
+    "materialColourPolicy": "Shared Material → Surface colour policy; human skin choices Pale/Light/Tanned/Dark only"
+  },
+  "buttocks": {
+    "order": [
+      "Size",
+      "Shape",
+      "Covering"
+    ],
+    "size": [
+      "Small",
+      "Medium",
+      "Large",
+      "Custom",
+      "Not specified"
+    ],
+    "shape": [
+      "Rounded",
+      "Flat",
+      "Heart-shaped",
+      "Custom",
+      "Not specified"
+    ],
+    "covering": "Human skin in new-player creation; universal catalogue for NPCs/forms",
+    "universalAbsentState": "Not applicable",
+    "status": "Owner approved",
+    "materialColourPolicy": "Shared Material → Surface colour policy; human skin choices Pale/Light/Tanned/Dark only"
+  },
+  "waistAbdomen": {
+    "status": "Owner approved latest spoken proposal",
+    "order": [
+      "Waist width",
+      "Abdomen shape",
+      "Muscle definition",
+      "Circumference at review"
+    ],
+    "width": [
+      "Narrow",
+      "Medium",
+      "Wide",
+      "Custom",
+      "Not specified"
+    ],
+    "abdomenShape": [
+      "Flat",
+      "Soft",
+      "Round",
+      "Angular",
+      "Custom",
+      "Not specified"
+    ],
+    "muscleDefinition": [
+      "Smooth",
+      "Slight",
+      "Defined",
+      "Custom",
+      "Not specified"
+    ],
+    "measurement": "Preserve entered measurements; generated inch values adjustable ±2 from baseline before final confirmation",
+    "materialColourPolicy": "Shared Material → Surface colour policy; human skin choices Pale/Light/Tanned/Dark only"
+  },
+  "backShoulders": {
+    "order": [
+      "Shoulder width",
+      "Shoulder shape",
+      "Back shape",
+      "Material",
+      "Usual posture"
+    ],
+    "shoulderWidth": [
+      "Narrow",
+      "Medium",
+      "Broad",
+      "Custom",
+      "Not specified"
+    ],
+    "shoulderShape": [
+      "Level",
+      "Sloping",
+      "Rounded",
+      "Angular",
+      "Custom",
+      "Not specified"
+    ],
+    "backShape": [
+      "Straight",
+      "Tapered",
+      "Rounded",
+      "Custom",
+      "Not specified"
+    ],
+    "posture": [
+      "Upright",
+      "Relaxed",
+      "Stooped",
+      "Custom",
+      "Not specified"
+    ],
+    "status": "Owner approved with Material addition",
+    "material": "Skin locked at human creation; full universal catalogue otherwise",
+    "materialColourPolicy": "Shared Material → Surface colour policy; human skin choices Pale/Light/Tanned/Dark only",
+    "wings": {
+      "status": "Owner requested; implemented locally",
+      "order": [
+        "Presence",
+        "Count",
+        "Type",
+        "Wingspan",
+        "Shape/details",
+        "Material",
+        "Colour"
+      ],
+      "presence": [
+        "Present",
+        "Absent",
+        "Not specified"
+      ],
+      "count": [
+        "1",
+        "2",
+        "4",
+        "6",
+        "Custom",
+        "Not specified"
+      ],
+      "type": [
+        "Feathered",
+        "Membranous",
+        "Insect-like",
+        "Mechanical",
+        "Fin-like",
+        "Custom",
+        "Not specified"
+      ],
+      "wingspan": "Tip to tip when spread; positive in/cm value or Not specified; explicit design measurement, not generated from human height",
+      "humanCreation": "Absent locked; dependent parts Not applicable; forced Present rejected",
+      "universal": "NPCs/forms can describe wings in the same Back field/order",
+      "gameplay": "Description only; no ability, flight or movement changes",
+      "awareness": "Wings map to the current Back field; physical signature tracks changes"
+    }
+  },
+  "arms": {
+    "field": "Arms",
+    "currentHint": "Length, musculature and hair",
+    "order": [
+      "Count",
+      "Arm type",
+      "Length",
+      "Muscle definition",
+      "Material",
+      "Hair/grooming"
+    ],
+    "length": [
+      "Short",
+      "Average",
+      "Long",
+      "Custom",
+      "Not specified"
+    ],
+    "lengthReference": "Relative to height and torso proportions",
+    "universalAbsentState": "Not applicable",
+    "humanCreation": "Two human arms, Skin material; human grooming options only",
+    "status": "Owner approved; numerical category definitions deferred until all fields reviewed"
+  },
+  "measurementCategoryReview": {
+    "status": "Reference ratios implemented for the approved measurement outputs; other descriptive numerical ranges remain unspecified",
+    "scope": "Review definitions and ranges for short/average/long and other measurement categories one field at a time",
+    "doNotAssume": "No numerical arm-length ranges have been approved or implemented"
+  },
+  "hands": {
+    "field": "Hands",
+    "currentHint": "Hand size, palm shape, and overall appearance",
+    "order": [
+      "Count",
+      "Type",
+      "Size",
+      "Width",
+      "Material"
+    ],
+    "size": [
+      "Small",
+      "Average",
+      "Large",
+      "Custom",
+      "Not specified"
+    ],
+    "width": [
+      "Narrow",
+      "Average",
+      "Broad",
+      "Custom",
+      "Not specified"
+    ],
+    "humanCreation": "Two human hands; Skin material",
+    "separateField": "Fingers keeps length, shape and nails",
+    "status": "Owner approved; numerical category definitions deferred",
+    "materialColourPolicy": "Shared Material → Surface colour policy; human skin choices Pale/Light/Tanned/Dark only"
+  },
+  "fingers": {
+    "field": "Fingers",
+    "currentHint": "Length, shape, and nails",
+    "order": [
+      "Count",
+      "Length",
+      "Thickness",
+      "Nails",
+      "Material"
+    ],
+    "countHumanCreation": "Five digits per hand",
+    "length": [
+      "Short",
+      "Average",
+      "Long",
+      "Custom",
+      "Not specified"
+    ],
+    "thickness": [
+      "Slender",
+      "Average",
+      "Thick",
+      "Custom",
+      "Not specified"
+    ],
+    "nails": {
+      "type": "Human nails at creation; claws unavailable",
+      "length": [
+        "Short",
+        "Average",
+        "Long",
+        "Custom",
+        "Not specified"
+      ],
+      "shape": [
+        "Rounded",
+        "Square",
+        "Pointed",
+        "Custom",
+        "Not specified"
+      ],
+      "colour": [
+        "Natural",
+        "Polish colour",
+        "Custom",
+        "Not specified"
+      ],
+      "material": "Use the relevant human nail material at creation; wider catalogue for NPCs/forms"
+    },
+    "material": "Skin during creation; universal catalogue for NPCs/forms",
+    "status": "Owner approved with explicit nail choices",
+    "materialColourPolicy": "Shared Material → Surface colour policy; human skin choices Pale/Light/Tanned/Dark only"
+  },
+  "ears": {
+    "status": "Owner approved proposed structure; human-only creation policy retained",
+    "order": [
+      "Count",
+      "Size",
+      "Shape",
+      "Material"
+    ],
+    "countHumanCreation": 2,
+    "size": [
+      "Small",
+      "Average",
+      "Large",
+      "Custom",
+      "Not specified"
+    ],
+    "shape": [
+      "Rounded",
+      "Pointed",
+      "Elf-like",
+      "Custom",
+      "Not specified"
+    ],
+    "material": "Skin during human creation; universal catalogue otherwise",
+    "creationRestriction": "Nonhuman ear types remain unavailable under the established human-only creation policy",
+    "materialColourPolicy": "Shared Material → Surface colour policy; human skin choices Pale/Light/Tanned/Dark only"
+  },
+  "eyes": {
+    "status": "Owner locked in Eyes field, including distinct left/right iris selectors for heterochromia",
+    "order": [
+      "Count",
+      "Size",
+      "Shape",
+      "Iris colour",
+      "Sclera",
+      "Material"
+    ],
+    "countHumanCreation": 2,
+    "size": [
+      "Small",
+      "Average",
+      "Large",
+      "Custom",
+      "Not specified"
+    ],
+    "shape": [
+      "Almond",
+      "Round",
+      "Hooded",
+      "Custom",
+      "Not specified"
+    ],
+    "irisColour": [
+      "Brown",
+      "Blue",
+      "Green",
+      "Hazel",
+      "Gray",
+      "Amber",
+      "Red",
+      "Violet",
+      "Heterochromia",
+      "Custom",
+      "Not specified"
+    ],
+    "sclera": [
+      "Normal",
+      "Red",
+      "Yellow",
+      "Black",
+      "Custom",
+      "Not specified"
+    ],
+    "material": "Human eye tissue at creation; universal catalogue otherwise",
+    "creationRestriction": "Retain established human-only creation validation; catalogue approval does not enable nonhuman sclera or synthetic eyes",
+    "heterochromia": {
+      "enabledWhen": "Heterochromia selected",
+      "controls": [
+        "Left iris colour",
+        "Right iris colour"
+      ],
+      "choices": "Same iris-colour catalogue excluding Heterochromia itself",
+      "validation": "Require two different resolved colour values",
+      "storage": "Assembled in existing eyes appearance field; no additional saved appearance keys"
+    }
+  },
+  "reviewSequenceNote": "The 23 spoken-review fields plus the existing separate Tail field are preserved in their established order. Earlier 23-field integration omitted Tail; this follow-up restores it as the 24th field.",
+  "neckVoice": {
+    "status": "Owner approved",
+    "order": [
+      "Neck shape",
+      "Voice pitch",
+      "Voice quality",
+      "Material"
+    ],
+    "neckShape": [
+      "Slender",
+      "Average",
+      "Thick",
+      "Custom",
+      "Not specified"
+    ],
+    "pitch": [
+      "Low",
+      "Middle",
+      "High",
+      "Custom",
+      "Not specified"
+    ],
+    "quality": [
+      "Clear",
+      "Soft",
+      "Breathy",
+      "Husky",
+      "Raspy",
+      "Resonant",
+      "Custom"
+    ],
+    "material": "Skin for neck during human creation; universal catalogue otherwise",
+    "materialColourPolicy": "Shared Material → Surface colour policy; human skin choices Pale/Light/Tanned/Dark only"
+  },
+  "face": {
+    "status": "Owner approved including complexion and material-linked colour",
+    "order": [
+      "Overall shape",
+      "Jaw",
+      "Chin",
+      "Cheeks",
+      "Nose size",
+      "Nose shape",
+      "Lip fullness",
+      "Lip shape",
+      "Salivation rate",
+      "Facial hair",
+      "Complexion and markings",
+      "Material",
+      "Surface colour"
+    ],
+    "shape": [
+      "Oval",
+      "Round",
+      "Square",
+      "Heart-shaped",
+      "Angular"
+    ],
+    "jaw": [
+      "Rounded",
+      "Square",
+      "Tapered",
+      "Angular"
+    ],
+    "chin": [
+      "Rounded",
+      "Pointed",
+      "Square",
+      "Cleft"
+    ],
+    "cheeks": [
+      "Flat",
+      "Softly rounded",
+      "Prominent cheekbones",
+      "Full"
+    ],
+    "noseSize": [
+      "Small",
+      "Average",
+      "Large"
+    ],
+    "noseShape": [
+      "Straight",
+      "Upturned",
+      "Button",
+      "Broad",
+      "Hooked"
+    ],
+    "lipFullness": [
+      "Thin",
+      "Medium",
+      "Full"
+    ],
+    "lipShape": [
+      "Defined Cupid’s bow",
+      "Rounded",
+      "Straight upper outline"
+    ],
+    "facialHair": [
+      "Clean-shaven",
+      "Light stubble",
+      "Heavy stubble",
+      "Moustache",
+      "Short beard",
+      "Full beard"
+    ],
+    "complexion": {
+      "selection": "Multiple details, each with location and prominence",
+      "choices": [
+        "Clear/even complexion",
+        "Blotchy/uneven tone",
+        "Acne",
+        "Acne scarring",
+        "Freckles",
+        "Moles",
+        "Birthmarks",
+        "Redness/rosy cheeks",
+        "Dark spots/patches",
+        "Vitiligo",
+        "Scars",
+        "Dark under-eye circles",
+        "Fine lines/wrinkles",
+        "Custom",
+        "None",
+        "Not specified"
+      ]
+    },
+    "customPolicy": "Custom and Not specified permitted for descriptive parts; human anatomy only during creation",
+    "materialColourPolicy": "Shared Material → Surface colour policy; human skin choices Pale/Light/Tanned/Dark only",
+    "salivationRate": {
+      "choices": [
+        "Low",
+        "Average",
+        "High",
+        "Custom",
+        "Not specified",
+        "Not applicable"
+      ],
+      "applicability": "Not applicable only where anatomy lacks salivation function",
+      "status": "Owner requested; numerical rate definitions not yet provided",
+      "effects": "No salivation modifier or fluid generation added from this selection yet"
+    }
+  },
+  "chest": {
+    "status": "Reviewed structure with owner-specified conditional cup choices",
+    "order": [
+      "Type",
+      "Size/proportions",
+      "Shape",
+      "Material",
+      "Surface colour",
+      "Circumference at review"
+    ],
+    "type": [
+      "Flat/pectoral chest",
+      "Breasts"
+    ],
+    "breastCupSizes": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "DD",
+      "E",
+      "EE",
+      "F"
+    ],
+    "maximumCupSize": "F",
+    "nonBreastSize": [
+      "Small",
+      "Medium",
+      "Large",
+      "Custom",
+      "Not specified"
+    ],
+    "shape": [
+      "Flat",
+      "Broad",
+      "Rounded",
+      "Teardrop",
+      "Conical",
+      "Custom",
+      "Not specified"
+    ],
+    "material": "Skin during human creation; universal catalogue otherwise",
+    "measurement": "Shared pectoral-girth-v2 calculation for supported pectoral sizes; approved cup differences for breasts. Preserve exact dimensions; generated creation review bounded ±2in from original baseline.",
+    "materialColourPolicy": "Shared Material → Surface colour policy; human skin choices Pale/Light/Tanned/Dark only"
+  },
+  "scalpHair": {
+    "field": "Scalp hair",
+    "status": "Owner approved",
+    "order": [
+      "Length",
+      "Colour",
+      "Texture",
+      "Density",
+      "Style",
+      "Material"
+    ],
+    "length": [
+      "Bald",
+      "Shaved",
+      "Buzz cut",
+      "Short",
+      "Medium",
+      "Long",
+      "Very long",
+      "Custom"
+    ],
+    "colour": [
+      "Black",
+      "Dark brown",
+      "Medium brown",
+      "Light brown",
+      "Dark blonde",
+      "Golden blonde",
+      "Platinum blonde",
+      "Auburn",
+      "Red",
+      "Grey",
+      "White",
+      "Salt-and-pepper",
+      "Dyed/custom"
+    ],
+    "texture": [
+      "Straight",
+      "Wavy",
+      "Curly",
+      "Coily",
+      "Custom"
+    ],
+    "density": [
+      "Sparse",
+      "Light",
+      "Average",
+      "Dense",
+      "Very dense",
+      "Custom"
+    ],
+    "style": [
+      "Loose",
+      "Centre part",
+      "Side part",
+      "Cropped",
+      "Slicked back",
+      "Ponytail",
+      "Pigtails",
+      "Bun",
+      "Braids",
+      "Twists",
+      "Locs",
+      "Afro",
+      "Mohawk",
+      "Spikes",
+      "Custom"
+    ],
+    "material": [
+      "Human hair",
+      "Fur",
+      "Feathers",
+      "Synthetic fibres",
+      "Metal filaments",
+      "Latex",
+      "Silicone",
+      "Gel",
+      "Plant fibres",
+      "Custom"
+    ],
+    "humanCreationMaterial": "Human hair only",
+    "absentHair": "Bald marks remaining details Not applicable",
+    "measurements": "Numerical length categories deferred"
+  },
+  "skin": {
+    "status": "Owner approved",
+    "order": [
+      "Material",
+      "Surface colour",
+      "Texture",
+      "Body markings",
+      "Body hair"
+    ],
+    "material": "Skin at human creation; full catalogue for NPCs/forms",
+    "humanColours": [
+      "Pale",
+      "Light",
+      "Tanned",
+      "Dark"
+    ],
+    "texture": [
+      "Smooth",
+      "Soft",
+      "Rough",
+      "Dry",
+      "Oily",
+      "Combination",
+      "Custom"
+    ],
+    "markings": [
+      "Freckles",
+      "Moles",
+      "Birthmarks",
+      "Scars",
+      "Stretch marks",
+      "Vitiligo",
+      "Uneven pigmentation",
+      "Acne",
+      "Tattoos",
+      "Custom",
+      "None"
+    ],
+    "markingDetails": [
+      "Location",
+      "Prominence"
+    ],
+    "bodyHair": [
+      "Clean-shaven",
+      "Lightly hairy",
+      "Moderately hairy",
+      "Very hairy",
+      "Custom"
+    ],
+    "regionalRule": "Specific regional descriptions remain intact"
+  },
+  "voiceCommunication": "Wait for owner-ending Reply marker before speaking; hold progress updates during dictation",
+  "genitalAnatomy": {
+    "field": "Genital anatomy",
+    "status": "Owner approved",
+    "order": [
+      "Configuration",
+      "Established measurements",
+      "Anatomical variation",
+      "Pubic hair/grooming",
+      "Material",
+      "Surface colour"
+    ],
+    "configuration": [
+      "Penis and testes",
+      "Vulval anatomy",
+      "Custom human anatomy",
+      "Not specified"
+    ],
+    "measurements": "Applicable established measurements with units; definitions deferred; no inference from height/weight alone",
+    "variation": [
+      "Recorded relevant variation",
+      "Custom human description",
+      "Not specified"
+    ],
+    "pubicGrooming": [
+      "Clean-shaven",
+      "Trimmed",
+      "Natural",
+      "Custom",
+      "Not specified"
+    ],
+    "material": "Skin at human creation; universal catalogue for NPCs/forms",
+    "humanSurfaceColours": [
+      "Pale",
+      "Light",
+      "Tanned",
+      "Dark"
+    ],
+    "absencePolicy": "Mark inapplicable subparts Not applicable",
+    "maleLengthMaximum": {
+      "value": 10,
+      "unit": "inches",
+      "measurementState": "General recorded measurement; no additional state specified",
+      "status": "Owner requested"
+    },
+    "femaleAdditionalDescriptor": "Dryness/lubrication was not approved and is not added.",
+    "testesSize": {
+      "choices": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
+      "status": "Owner requested; no further detail required"
+    },
+    "femaleProposedDescriptors": {
+      "terms": [
+        "Tight",
+        "Puffy",
+        "Swollen"
+      ],
+      "status": "Owner approved; definitions deferred",
+      "structure": "Separate properties; not mutually exclusive; definitions deferred"
+    },
+    "fluidViscosityProposal": {
+      "choices": [
+        "Low",
+        "Medium",
+        "High",
+        "Not specified"
+      ],
+      "status": "Owner approved; definitions deferred",
+      "source": "Not specified by owner yet"
+    }
+  },
+  "scentPhysiology": {
+    "status": "Owner approved with perspiration gain effects",
+    "order": [
+      "Natural body scent",
+      "Scent strength",
+      "Perspiration tendency",
+      "Usual skin temperature",
+      "Other physical tendencies"
+    ],
+    "naturalScent": [
+      "Neutral",
+      "Musky",
+      "Earthy",
+      "Sweet",
+      "Sharp/tangy",
+      "Sour",
+      "Custom",
+      "Not specified"
+    ],
+    "strength": [
+      "No noticeable scent",
+      "Very faint",
+      "Faint",
+      "Mild",
+      "Noticeable",
+      "Strong",
+      "Very strong",
+      "Custom",
+      "Not specified"
+    ],
+    "perspiration": [
+      "Minimal",
+      "Low",
+      "Average",
+      "High",
+      "Very high",
+      "Custom",
+      "Not specified"
+    ],
+    "temperature": [
+      "Cool",
+      "Average",
+      "Warm",
+      "Variable",
+      "Custom",
+      "Not specified"
+    ],
+    "otherTraits": [
+      "Blushes easily",
+      "Develops goosebumps easily",
+      "Feels cold easily",
+      "Feels warm easily",
+      "Custom",
+      "None",
+      "Not specified"
+    ],
+    "universalExtraScents": [
+      "Metallic",
+      "Rubbery",
+      "Resinous",
+      "Mineral",
+      "Synthetic"
+    ],
+    "gainFactors": {
+      "Minimal": 0.9,
+      "Low": 0.95,
+      "Average": 1,
+      "High": 1.05,
+      "Very high": 1.1
+    },
+    "modifierScope": "Selected player body; multiplies gain rather than adding score points. Other/custom/unrecorded choices use existing rate.",
+    "stateRule": "Baseline traits do not imply current perspiration, temperature, symptoms, perfume or soap"
+  },
+  "nextProposedField": {
+    "field": "Height",
+    "proposal": "Required value with feet/inches or centimetres; converted display at review",
+    "range": "Deferred to owner measurement review"
+  },
+  "remainingAppearanceFields": [],
+  "laterReview": "Define measurement categories and permitted ranges one field at a time after remaining appearance fields are reviewed",
+  "height": {
+    "status": "Owner instructed unit selection",
+    "units": [
+      "Feet and inches",
+      "Centimetres"
+    ],
+    "storage": "Existing height field with units",
+    "switching": "Preserve physical measurement; review shows conversion",
+    "range": "Deferred to measurement review"
+  },
+  "weight": {
+    "status": "Owner instructed unit selection",
+    "units": [
+      "Pounds",
+      "Kilograms"
+    ],
+    "storage": "Existing weight field with units",
+    "switching": "Preserve physical measurement; review shows conversion",
+    "range": "Deferred to measurement review"
+  },
+  "build": {
+    "status": "Latest owner instruction supersedes custom/picker proposal",
+    "source": "Generate description from other completed appearance inputs",
+    "creationEditing": "Read-only generated summary; no direct custom Build entry",
+    "refresh": "Update when source selections or confirmed review measurements change",
+    "storage": "Existing build field; no additional appearance keys",
+    "inferenceLimit": "Use recorded muscularity/proportions; do not infer ability, personality or health from weight alone"
+  },
+  "approvedMeasurementSystem": {
+    "status": "Owner explicitly approved implementation of worked-example system",
+    "reference": {
+      "heightInches": 66,
+      "weightPounds": 140,
+      "waistInches": 30,
+      "hipInches": 38,
+      "underChestInches": 32,
+      "shoulderWidthInches": 15,
+      "armShoulderToWristInches": 22,
+      "legInseamInches": 30.5
+    },
+    "lengthScale": "height / 66",
+    "girthScale": "sqrt((weight / 140) / (height / 66))",
+    "categories": {
+      "Short/Narrow": 0.95,
+      "Average/Medium": 1,
+      "Long/Wide": 1.05
+    },
+    "cupMapping": {
+      "A": 2,
+      "B": 2.5,
+      "C": 3,
+      "D": 3.5,
+      "DD": 4,
+      "E": 4.5,
+      "EE": 5,
+      "F": 5.5
+    },
+    "cupMappingOtherLabels": "Owner confirmed half-inch increments across the listed labels, keeping C at +3in; implemented as game-design calibration",
+    "preserve": "Keep explicit player measurements; generated values review ±2 inches from original deterministic baseline",
+    "build": "Read-only generated summary from final measurements and selected descriptions",
+    "rounding": "Nearest 0.5 inch for generated values and review edits; original rounded baseline bounds adjustments to ±2 inches. Valid older unrounded draft reviews migrate once.",
+    "pectoralCalibration": {
+      "version": "pectoral-girth-v2",
+      "status": "Implemented locally under owner request to improve pectoral chest generation",
+      "referenceAllowancesInches": {
+        "Small": 3,
+        "Medium": 4,
+        "Large": 5
+      },
+      "formula": "nearestHalf(raw under-chest + size allowance × sqrt((weight/140)/(height/66)))",
+      "requirements": "Human reference; known height, weight and supported pectoral size, unless exact chest entered",
+      "exactValues": "Preserve exact authored dimensions; never recalibrate confirmed player appearances",
+      "cupPath": "Unchanged approved half-inch cup differences; pectoral allowance does not apply",
+      "examples": {
+        "DanielMedium": {
+          "underChest": 35.5,
+          "chest": 40
+        },
+        "DanielSmall": 39,
+        "DanielLarge": 41
+      },
+      "scope": "Game-design calibration, not clinical anthropometry"
+    }
+  },
+  "runtimeIntegration": {
+    "status": "Implemented locally; pending publication",
+    "schema": "rebuild/hub/appearance-template.js",
+    "renderer": "rebuild/character-creation/appearance-builder.js",
+    "savedAppearanceKeys": 24,
+    "draftDataRemovedOnConfirm": true,
+    "npcFormConversionStarted": true,
+    "workerChanged": false,
+    "paidCalls": 0,
+    "wings": "Inside Back & shoulders; no new appearance key; human creation locked absent; local verification in docs/verification/appearance-wings/results.json",
+    "npcFormAlignment": "Implemented as canonical profile catalogue and derived runtime appearance; raw stage-controller inputs/legacy overviews retained, no bulk player-save rewrite"
+  },
+  "tail": {
+    "status": "Existing in-game field restored to shared creation schema",
+    "order": [
+      "Presence",
+      "Description",
+      "Material",
+      "Surface colour"
+    ],
+    "humanCreation": "Absent; other parts Not applicable; nonhuman tail options disabled",
+    "universal": "Present/Absent/Not specified; custom tail description and shared material/colour catalogue; no inferred ability",
+    "storage": "Separate tail field at the end of the existing appearance order; not folded into Scent & physiology"
+  },
+  "currentAppearance": {
+    "source": "rebuild/hub/current-appearance.js",
+    "policy": "One read-only live view resolves saved physical state for display, awareness and ordinary NPC/form appearance exchange after each reached stage, equip/release or item change. Partial transformations retain only unchanged base regions. Full forms do not inherit absent human fields.",
+    "awareness": "Send requested current fields only; discard historical body descriptions/future targets and refresh stale supplied inspection frames after time advancement.",
+    "freshness": "Physical-state changes invalidate queued requests and returned prose for an older body.",
+    "verification": "2234 automated cases, 16 creation UI checks and 8 current-appearance browser checks; no paid provider calls in this follow-up"
+  },
+  "currentNPCAlignment": {
+    "status": "Implemented/verified locally; publication held",
+    "profiles": 18,
+    "catalogue": "rebuild/hub/appearance-catalog.js",
+    "normalizer": "rebuild/hub/appearance-alignment.js",
+    "report": "docs/NPC-FORM-APPEARANCE-ALIGNMENT.md",
+    "evidence": "docs/verification/npc-appearance-alignment/results.json",
+    "variantChestDecision": {
+      "status": "Owner confirmed",
+      "meaning": "Under-chest circumference; add approved cup difference",
+      "physical": {
+        "underChest": 38,
+        "cup": "DD",
+        "difference": 4,
+        "chest": 42
+      },
+      "mental": {
+        "underChest": 36,
+        "cup": "E",
+        "difference": 4.5,
+        "chest": 40.5
+      },
+      "arousal": {
+        "underChest": 42,
+        "cup": "F",
+        "difference": 5.5,
+        "chest": 47.5
+      }
+    },
+    "waists": "Authored22/24/20 preserved; discrepancy against narrow reference29/28/30.5 flagged, creation review limit is not an NPC cap",
+    "images": "5 profile states lack portrait consumers:Pri,Preeti and three variants. All current NPC/service/animal profiles have a connected individual or shared reference; Dart remains shared-only. Eve is a reference portrait,not proof of scene projection.",
+    "paidCalls": 0,
+    "workerChanged": false,
+    "catalogueCorrectionEvidence": "docs/verification/cat-offer-correction/results.json"
+  },
+  "offeredCatForms": {
+    "status": "Owner clarified; catalogue corrected and verified",
+    "count": 2,
+    "male": "Pri",
+    "female": "Preeti",
+    "note": "Generic feline base data is not a third offered form. Existing source acquisition/control rules remain.",
+    "evidence": "docs/verification/cat-offer-correction/results.json"
+  },
+  "currentAppearanceReview": {
+    "sequence": "One NPC/form at a time; propose all remaining fields for that NPC together",
+    "current": "Club — arousal permanent base variant",
+    "status": "Full club appearance and actual neon-pink v2 image owner-approved,implemented and connected locally;publication held",
+    "fullProposal": "docs/CLUB-APPEARANCE-PROPOSAL.json",
+    "fullAppearanceApproved": true,
+    "ownerOrder": [
+      "Gym bunny appearance then actual image review",
+      "Sorority appearance then actual image review",
+      "Club appearance then actual image review"
+    ],
+    "established": {
+      "footSize": "US women's size 5",
+      "legs": "Full thighs proportionate to 42-inch hips, mostly fatty tissue with light underlying muscle; fuller, smoothly rounded, lightly toned calves",
+      "hips": "42-inch hips",
+      "buttocks": "Large, bouncy, heart-shaped butt",
+      "waist": "20-inch soft, cushiony waist",
+      "back": "Rounded shoulders; soft back with light underlying muscle",
+      "chest": "42F breasts",
+      "arms": "Softly rounded arms with light muscle definition",
+      "hands": "Small hands",
+      "fingers": "Tapered fingers with longer almond-shaped nails",
+      "voice": "Soft, breathy, melodic",
+      "face": "Rounded cheeks, pronounced pout",
+      "ears": "Ordinary human ears",
+      "hair": "Waist-length blonde hair with voluminous waves",
+      "eyes": "Blue eyes, half-lidded gaze",
+      "height": "5 ft 4 in",
+      "weight": "155 lb",
+      "build": "Fuller, soft contours with light underlying muscle",
+      "skin": "Glowing deep suntan with bikini lines",
+      "genitalAnatomy": "Adult human vulva comprising labia majora, labia minora, clitoral glans and hood, and separate urethral and vaginal openings. Clean-shaven pubic area; deeper tan with bikini-line contrast and fuller surrounding contours.",
+      "age": "Adult; exact age not authored"
+    },
+    "measurements": {
+      "values": {
+        "waist": 20,
+        "hips": 42,
+        "underChest": 42,
+        "shoulderWidth": 14.5,
+        "armLength": 21.5,
+        "inseam": 29.5,
+        "chest": 47.5
+      },
+      "sources": {
+        "waist": "entered",
+        "hips": "entered",
+        "underChest": "entered",
+        "shoulderWidth": "generated",
+        "armLength": "generated",
+        "inseam": "generated",
+        "chest": "generated"
+      },
+      "baseline": {
+        "waist": 20,
+        "hips": 42,
+        "underChest": 42,
+        "shoulderWidth": 14.5,
+        "armLength": 21.5,
+        "inseam": 29.5,
+        "chest": 47.5
+      },
+      "blocked": [],
+      "referenceInput": {
+        "heightInches": 64,
+        "weightPounds": 155
+      }
+    },
+    "discrepancies": {
+      "authoredWaistInches": 20,
+      "humanReferenceWaistInches": 30.5,
+      "differenceInches": -10.5,
+      "decision": "Preserve authored exaggeration;no silent normalization"
+    },
+    "playerIdentityPolicy": "Preserve actual saved player age/gender label/stable ID; displayed name still follows the already approved course completion rule",
+    "portrait": {
+      "source": "/workspace/generated_images/exec-a34c4523-5a79-46ff-8d1c-57a098f1c64b.png",
+      "reviewAsset": "rebuild/hub/assets/character-art-review/club-v2.png",
+      "status": "Owner viewed and approved actual neon-pink v2;connected locally to completed club base appearance;unpublished",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "1854dbf4ca4bee2587a827e3bf5f4acd4c0345015f63154472e75b76b56873d7",
+      "approved": true,
+      "connected": true,
+      "direction": "Preserve v1 character,body,skin,hair,pose,composition and background;change latex sleeveless low-cut mini dress and entire strappy stiletto shoes to vivid neon pink. Reference styling only.",
+      "revisionRequested": "Outfit and shoes in neon pink",
+      "supersedes": "rebuild/hub/assets/character-art-review/club-v1.png",
+      "previousImageRetained": true,
+      "approval": {
+        "quote": "Approved",
+        "date": "2026-11-22",
+        "scope": "Actual neon-pink club v2 image"
+      },
+      "consumer": "bimbo-virus-physiology.js clubPortrait + appearance-profiles-ui.js clubPortraitMarkup + index.html portraitMarkup",
+      "referenceOnly": true
+    },
+    "richardCompleted": {
+      "appearanceApproved": true,
+      "portrait": {
+        "status": "Owner viewed and approved; connected locally; unpublished",
+        "source": "/workspace/generated_images/exec-b8941c5f-1c23-479b-9375-eb6691371d7c.png",
+        "reviewAsset": "rebuild/hub/assets/character-art-review/richard-v1.png",
+        "size": [
+          1024,
+          1536
+        ],
+        "sha256": "7b0801d62f69d26d59d516223c518ca73e7403fd6d8d3d99f3624ab861f84c10",
+        "connected": true,
+        "approved": true,
+        "ownerApproval": "Approved for sure.",
+        "consumer": "rebuild/hub/richard.js definition.portrait + rebuild/hub/richard-ui.js richardPortraitMarkup",
+        "approvedAsset": "rebuild/hub/assets/character-art-review/richard-v1.png"
+      },
+      "evidence": "docs/verification/richard-portrait-approved/results.json"
+    },
+    "danielCompleted": {
+      "appearanceApproved": true,
+      "approvedMeasurements": {
+        "waist": 35,
+        "hips": 42,
+        "underChest": 35.5,
+        "shoulderWidth": 16,
+        "armLength": 23.5,
+        "inseam": 33,
+        "chest": 40
+      },
+      "portrait": {
+        "status": "Actual portrait viewed and owner-approved; connected locally; unpublished",
+        "source": "/workspace/generated_images/exec-3e23143c-6d79-4519-92dc-7a9015fa7d05.png",
+        "reviewAsset": "rebuild/hub/assets/character-art-review/daniel-v1.png",
+        "size": [
+          1024,
+          1536
+        ],
+        "sha256": "deb41ab0561029e854a9235c34d31f26f3eba62d9bc22faa9a582e7a1894ea2f",
+        "approved": true,
+        "connected": true,
+        "ownerApproval": "Approved! 😀",
+        "consumer": "rebuild/hub/department.js definition.portrait + department-ui.js danielPortraitMarkup"
+      },
+      "evidence": "docs/verification/daniel-portrait-approved/results.json"
+    },
+    "nadiaCompleted": {
+      "appearanceApproved": true,
+      "approvedBaseline": {
+        "age": 29,
+        "heightInches": 66,
+        "weightPounds": 130,
+        "cup": "C"
+      },
+      "measurements": {
+        "waist": 27.5,
+        "hips": 38.5,
+        "underChest": 31,
+        "shoulderWidth": 14.5,
+        "armLength": 22,
+        "inseam": 30.5,
+        "chest": 34
+      },
+      "portrait": {
+        "asset": "rebuild/hub/assets/nadia-voss-dart.jpg",
+        "status": "Existing owner-approved connected portrait retained unchanged",
+        "sha256": "85d1adf64c771329aa24d40ee4ac5db0daf7c61df742de7dad4c7bad74c5382f"
+      },
+      "evidence": "docs/verification/nadia-approved/results.json"
+    },
+    "priyaCompleted": {
+      "appearanceApproved": true,
+      "approvedBaseline": {
+        "age": 27,
+        "heightInches": 62.5,
+        "weightPounds": 115,
+        "skin": "Tanned",
+        "hairColour": "Dark brown",
+        "cup": "B"
+      },
+      "measurements": {
+        "waist": 26.5,
+        "hips": 35.5,
+        "underChest": 30,
+        "shoulderWidth": 13.5,
+        "armLength": 21,
+        "inseam": 29,
+        "chest": 32.5
+      },
+      "portrait": {
+        "asset": "rebuild/hub/assets/priya-shah-approved.png",
+        "status": "Existing owner-approved connected portrait retained unchanged",
+        "sha256": "9eeb624f591999906691ca498f493f50b98566b4656112fffb504b5b6630a3e3"
+      },
+      "evidence": "docs/verification/priya-approved/results.json"
+    },
+    "charityCompleted": {
+      "appearanceApproved": true,
+      "approvedBaseline": {
+        "age": 39,
+        "heightInches": 66,
+        "weightPounds": 122,
+        "cup": "D",
+        "freckles": true
+      },
+      "measurements": {
+        "waist": 28,
+        "hips": 35.5,
+        "underChest": 30,
+        "shoulderWidth": 15,
+        "armLength": 22,
+        "inseam": 30.5,
+        "chest": 33.5
+      },
+      "portrait": {
+        "asset": "rebuild/hub/assets/character-art-review/charity-v1.png",
+        "status": "Prior owner-approved photographic portrait connected locally,unchanged",
+        "approved": true,
+        "connected": true,
+        "consumer": "rebuild/hub/charity.js definition.portrait + appearance-profiles-ui.js charityPortraitMarkup",
+        "size": [
+          1024,
+          1536
+        ],
+        "sha256": "b2937c234fb262d91cee1ea6f0ba820ab7ccffedac6380663da3a34173baffe0"
+      },
+      "evidence": "docs/verification/charity-approved/results.json"
+    },
+    "titsCompleted": {
+      "appearanceApproved": true,
+      "approvedBaseline": {
+        "age": 26,
+        "heightInches": 63,
+        "weightPounds": 135,
+        "cup": "F",
+        "shoeSize": 6,
+        "shoeSizingSystem": "US women’s"
+      },
+      "measurements": {
+        "waist": 28.5,
+        "hips": 40,
+        "underChest": 32,
+        "shoulderWidth": 13.5,
+        "armLength": 21,
+        "inseam": 29,
+        "chest": 37.5
+      },
+      "portrait": {
+        "asset": "rebuild/hub/assets/character-art-review/tits-v1.png",
+        "status": "Prior owner-approved photographic portrait connected locally,unchanged",
+        "approved": true,
+        "connected": true,
+        "consumer": "rebuild/hub/tits.js definition.portrait + appearance-profiles-ui.js titsPortraitMarkup",
+        "size": [
+          1024,
+          1536
+        ],
+        "sha256": "8b4f5ec1719d098263757bb45e6bd8712f0d9a7d5df59bd381aa0892d07b83ac"
+      },
+      "evidence": "docs/verification/tits-approved/results.json"
+    },
+    "dartCompleted": {
+      "appearanceApproved": true,
+      "approvedBaseline": {
+        "ageYears": 4,
+        "heightAtWithersInches": 28,
+        "weightPounds": 82,
+        "coat": "Black with rust markings",
+        "eyes": "Brown"
+      },
+      "portrait": {
+        "asset": "rebuild/hub/assets/nadia-voss-dart.jpg",
+        "status": "Existing owner-approved shared portrait retained; no standalone Dart image",
+        "connected": true,
+        "approved": true,
+        "sha256": "85d1adf64c771329aa24d40ee4ac5db0daf7c61df742de7dad4c7bad74c5382f"
+      },
+      "evidence": "docs/verification/dart-approved/results.json"
+    },
+    "eveCompleted": {
+      "appearanceApproved": true,
+      "description": "Eve’s adult female-presenting avatar is made entirely of digital blue light,with a short pixie cut,a delicate pixie-like face and cyan eyes. She wears a sleek futuristic one-piece latex-like suit rendered in blue light with cyan circuit seams. Her hands are bare; her bare feet use a US women’s size5 visual reference. No gloves or shoes.",
+      "portrait": {
+        "source": "/workspace/generated_images/exec-0a48c3dd-fd48-43e1-af7d-108d9acab66a.png",
+        "asset": "rebuild/hub/assets/character-art-review/eve-blue-pixie-v1.png",
+        "status": "Actual image viewed and owner-approved; connected locally as avatar reference; unpublished",
+        "approved": true,
+        "connected": true,
+        "ownerApproval": "Perfect. Lets revise her description details and keep going",
+        "size": [
+          1024,
+          1536
+        ],
+        "sha256": "b34d369afb02ea93381b8d550b6286f7f940ba894cc3ad6d46a2da9f699e961b",
+        "consumer": "eve-appearance.js portrait + appearance-profiles-ui.js eveAppearanceMarkup in existing NPC help channel"
+      },
+      "physicalBody": false,
+      "projectionLocations": [
+        "Central Hub Spire",
+        "Central Hub N",
+        "Central Hub NE",
+        "Central Hub E",
+        "Central Hub SE",
+        "Central Hub S",
+        "Central Hub SW",
+        "Central Hub W",
+        "Central Hub NW"
+      ],
+      "evidence": "docs/verification/eve-approved/results.json"
+    },
+    "erinCompleted": {
+      "sequence": "One NPC/form at a time; propose all remaining fields for that NPC together",
+      "current": "Erin Lillard",
+      "status": "Owner-approved appearance and photo implemented locally; publication held",
+      "established": {
+        "age": "Adult; exact age not authored",
+        "gender": "Woman",
+        "height": "5 ft 4 in",
+        "weight": "114 lb",
+        "feet": "Small human feet with high arches,smooth soles",
+        "legs": "Athletic,defined calves,full thighs that brush together",
+        "body": "Athletic,full-bodied",
+        "eyes": "Green",
+        "hair": "Long copper-red",
+        "voice": "Feminine human voice",
+        "face": "Soft jaw,rounded cheeks"
+      },
+      "fullProposal": "docs/ERIN-APPEARANCE-PROPOSAL.json",
+      "fullAppearanceApproved": true,
+      "portrait": {
+        "status": "Actual photo viewed and owner-approved; connected locally; unpublished",
+        "source": "/workspace/generated_images/exec-aea34ba0-5de0-4223-bf13-a290c60f4aa2.png",
+        "reviewAsset": "rebuild/hub/assets/character-art-review/erin-fullbody-v1.png",
+        "size": [
+          1024,
+          1536
+        ],
+        "sha256": "70d3c320bf6876c1f13f05238d4d516f20069bc8e8fc81287cc3e5a0cb26e831",
+        "approved": true,
+        "connected": true,
+        "ownerApproval": "Approved!",
+        "consumer": "rebuild/hub/index.html portraitMarkup; Appearance and Character reference panels",
+        "originalLegacyAssetRetained": "rebuild/hub/assets/erin-legacy-portrait.jpg"
+      },
+      "approvedNewDetails": {
+        "shoeSize": "US women6",
+        "cup": "DD",
+        "skin": "Light",
+        "hairTexture": "Wavy",
+        "hairDensity": "Dense",
+        "hairstyle": "Loose base style; existing portrait is a work updo reference"
+      },
+      "approvedMeasurements": {
+        "waist": 26,
+        "hips": 36.5,
+        "underChest": 29.5,
+        "shoulderWidth": 14,
+        "armLength": 21.5,
+        "inseam": 29.5,
+        "chest": 33.5
+      },
+      "evidence": "docs/verification/erin-approved/results.json",
+      "next": "Kibbles full appearance proposal prepared for review",
+      "portraitEvidence": "docs/verification/erin-portrait-approved/results.json"
+    },
+    "kibblesCompleted": {
+      "current": "Kibbles",
+      "status": "Owner-approved and implemented locally,including actual age4years; publication held",
+      "fullAppearanceApproved": true,
+      "ownerApproval": "Approved age 4 years old",
+      "ageYears": 4,
+      "fullProposal": "docs/KIBBLES-APPEARANCE-PROPOSAL.json",
+      "baseline": {
+        "male": {
+          "height": "25 in at shoulder",
+          "weight": "77.5 lb"
+        },
+        "female": {
+          "height": "23 in at shoulder",
+          "weight": "60 lb"
+        },
+        "age": "Owner-approved actual canine age4years",
+        "portraits": {
+          "male": "assets/kibbles-male-photo-v2.jpg",
+          "female": "assets/kibbles-female-photo-v2.jpg"
+        }
+      },
+      "portrait": {
+        "approved": true,
+        "connected": true,
+        "newImageGenerated": false,
+        "assets": [
+          "assets/kibbles-male-photo-v2.jpg",
+          "assets/kibbles-female-photo-v2.jpg"
+        ],
+        "status": "Both existing approved images retained unchanged"
+      },
+      "evidence": "docs/verification/kibbles-approved/results.json"
+    },
+    "priCompleted": {
+      "sequence": "One NPC/form at a time; propose all remaining fields for that NPC together",
+      "current": "Pri — male offered-cat form",
+      "status": "Full Pri appearance and actual photo owner-approved,implemented and verified locally; unpublished",
+      "fullAppearanceApproved": true,
+      "fullProposal": "docs/PRI-CAT-APPEARANCE-PROPOSAL.json",
+      "portrait": {
+        "status": "Actual image viewed and owner-approved; connected locally; unpublished",
+        "source": "/workspace/generated_images/exec-d8437c60-c401-4c02-86da-3e57bbeca5db.png",
+        "reviewAsset": "rebuild/hub/assets/character-art-review/pri-v1.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "sha256": "16fc69df3faed47ac4ce760d73b8a4e73f6e31a66838c71766d9f076f5bc0f78",
+        "approved": true,
+        "connected": true,
+        "ownerApproval": "Approved imaage",
+        "consumer": "rebuild/hub/pri-appearance.js portrait + index.html portraitMarkup; only currently entered standard male Pri"
+      },
+      "offeredCatForms": "Only Pri male and Preeti female; no third unassigned offered cat",
+      "ownerApproval": "Approved :)",
+      "approvedBaseline": {
+        "ageYears": 3,
+        "heightAtWithersInches": 10,
+        "weightPounds": 10,
+        "eyes": "Green"
+      },
+      "evidence": "docs/verification/pri-approved/results.json",
+      "next": "Preeti complete female-cat appearance proposal ready for review",
+      "portraitEvidence": "docs/verification/pri-portrait-approved/results.json"
+    },
+    "preetiCompleted": {
+      "sequence": "One NPC/form at a time; propose all remaining fields for that NPC together",
+      "current": "Preeti — female offered-cat form",
+      "status": "Full Preeti appearance and actual photo owner-approved,implemented and verified locally; unpublished",
+      "fullProposal": "docs/PREETI-CAT-APPEARANCE-PROPOSAL.json",
+      "fullAppearanceApproved": true,
+      "portrait": {
+        "status": "Actual image viewed and owner-approved; connected locally; unpublished",
+        "source": "/workspace/generated_images/exec-12e68a9c-8185-4aa2-b2d2-9b06f93b1e2d.png",
+        "reviewAsset": "rebuild/hub/assets/character-art-review/preeti-v1.png",
+        "size": [
+          1536,
+          1024
+        ],
+        "sha256": "453c03a5f8ba9273e939c0f3195b835d269320885787ba4dd00a65baf5ba2255",
+        "approved": true,
+        "connected": true,
+        "ownerApproval": "Approved",
+        "consumer": "rebuild/hub/preeti-appearance.js portrait + index.html portraitMarkup; currently entered standard female Preeti only"
+      },
+      "offeredCatForms": "Only Pri male and Preeti female; no third unassigned offered cat",
+      "ownerApproval": "Approved",
+      "approvedBaseline": {
+        "ageYears": 3,
+        "heightAtWithersInches": 9,
+        "weightPounds": 8,
+        "eyes": "Amber"
+      },
+      "evidence": "docs/verification/preeti-approved/results.json",
+      "next": "Priya flats complete object-appearance proposal ready for review",
+      "portraitEvidence": "docs/verification/preeti-portrait-approved/results.json"
+    },
+    "flatsCompleted": {
+      "sequence": "One NPC/form at a time; propose all remaining fields for that NPC together",
+      "current": "Priya’s flats — object form",
+      "status": "Owner-approved complete object appearance and explicit US women size7 implemented and verified locally; unpublished",
+      "fullProposal": "docs/FLATS-APPEARANCE-PROPOSAL.json",
+      "fullAppearanceApproved": true,
+      "portrait": {
+        "status": "Both existing approved worn/unworn images remain connected unchanged",
+        "approved": true,
+        "connected": true,
+        "newImageNeeded": false
+      },
+      "identity": "One original player consciousness across one physical pair; no extra form mind",
+      "ownerApproval": "Approved, lets do gym bunny, sorority, then club bimbos in order, appearance and image.",
+      "approvedNewDetails": {
+        "sizingSystem": "US women’s",
+        "upper": "Black leather-like footwear material; exact composition unspecified",
+        "shape": "Pointed toe,low heel,gently worn",
+        "liningAndSole": "Composition unspecified"
+      },
+      "evidence": "docs/verification/flats-approved/results.json",
+      "next": "Gym bunny appearance then actual image review"
+    },
+    "next": "All three variant portraits approved and connected locally;publication held",
+    "evidence": "docs/verification/club-approved/results.json",
+    "imageApproved": true,
+    "gymImageCompleted": {
+      "status": "Actual gym-bunny v4 image approved and connected locally;requested appearance amendments implemented;remaining full-template additions remain in review",
+      "portrait": {
+        "status": "Owner viewed and approved actual v4 image;connected locally only for the completed gym-bunny base body;publication held",
+        "source": "/workspace/generated_images/exec-c5a7a69d-e91c-479c-a8ab-54fb6d7d5a89.png",
+        "reviewAsset": "rebuild/hub/assets/character-art-review/gym-bunny-v4.png",
+        "size": [
+          1024,
+          1536
+        ],
+        "sha256": "9bbce1f3cf28ee2e5896e9978f572ab28b519bad1576253dc37ec7d1cc03cd0e",
+        "approved": true,
+        "connected": true,
+        "direction": "Preserve identity,outfit,pose and feminine silhouette;natural realistic light-tan skin,slightly softer toned abdominal definition and slightly enhanced post-exercise sweat.",
+        "revisionRequested": "Make skin tone realistic,slightly soften abs,slightly enhance visible sweat",
+        "supersedes": "rebuild/hub/assets/character-art-review/gym-bunny-v3.png",
+        "previousImageRetained": true,
+        "approval": {
+          "quote": "Approved",
+          "date": "2026-11-22",
+          "scope": "Actual v4 image following requested skin-tone,abdominal-definition and sweat revision"
+        },
+        "consumer": "bimbo-virus-physiology.js gymPortrait;appearance-profiles-ui.js gymBunnyPortraitMarkup;index.html portraitMarkup",
+        "referenceOnly": true
+      },
+      "ownerAmendments": {
+        "arches": "High",
+        "fingerAndToenailPolish": "Pink",
+        "salivation": "High",
+        "perspiration": "Very high; existing gain factor 1.10 (+10% normal sweat gain)",
+        "allCarriers": "Pink saliva/drool; carrier colour alone does not create a drooling or contact event",
+        "imageClothing": [
+          "Pink skin-tight workout shorts with white edging",
+          "Exercise bralette/crop top",
+          "Pink running shoes",
+          "White ankle socks"
+        ],
+        "imagePresentation": "Natural realistic light-tan skin colour;slightly softer toned abs;slightly enhanced visible post-workout sweat"
+      },
+      "fullAppearanceApproved": false,
+      "imageApproved": true,
+      "evidence": "docs/verification/gym-portrait-approved/results.json"
+    },
+    "sororityImageCompleted": {
+      "portrait": {
+        "status": "Owner viewed and approved actual v1 image;connected locally to completed sorority base appearance;unpublished",
+        "source": "/workspace/generated_images/exec-1d0c524e-267e-463e-9c1f-54f1e0b5dcde.png",
+        "reviewAsset": "rebuild/hub/assets/character-art-review/sorority-v1.png",
+        "width": 1024,
+        "height": 1536,
+        "sha256": "293a10f116753b8b40051df5d184503f3948333a6a94e692c5ae207636f9f57b",
+        "approved": true,
+        "connected": true,
+        "direction": "Realistic clearly adult blonde/blue-eyed woman with softly contoured body,cosmetic tan,high arches,pink finger/toenail polish,pink peep-toe heels,white designer-style pleated skirt and matching pink low-neckline top. Image is a visual reference,not an exact-measurement authority or equipment/background grant.",
+        "approval": {
+          "quote": "Approved",
+          "date": "2026-11-22",
+          "scope": "Actual sorority v1 portrait in requested pink/white outfit"
+        },
+        "consumer": "bimbo-virus-physiology.js sororityPortrait + appearance-profiles-ui.js sororityPortraitMarkup + index.html portraitMarkup",
+        "referenceOnly": true
+      },
+      "imageApproved": true,
+      "fullAppearanceApproved": false,
+      "ownerAmendments": {
+        "arches": "High",
+        "fingerAndToenailPolish": "Pink",
+        "perspiration": "High; existing gain factor1.05 (+5% normal sweat gain)",
+        "imageClothing": [
+          "Pink peep-toe heels",
+          "White designer-style pleated skirt",
+          "Matching pink designer-style top with a low neckline"
+        ],
+        "interpretation": "Owner phrase peel toe read as peep-toe;no brand assumed",
+        "wardrobe": "Reference only;no items granted or equipped"
+      },
+      "evidence": "docs/verification/sorority-portrait-approved/results.json"
+    },
+    "fullAppearanceImplemented": true,
+    "appearanceApproval": {
+      "quote": "Approved. Outfit: latex sleeveless mini dress, low cut, tall strappy stiletto heels.",
+      "date": "2026-11-22",
+      "scope": "Complete club appearance proposal;actual image still requires separate approval"
+    },
+    "imageDirection": {
+      "outfit": [
+        "Latex sleeveless mini dress with low-cut neckline",
+        "Tall strappy stiletto heels"
+      ],
+      "colour": "Neon pink dress and shoes,owner requested",
+      "wardrobe": "Image reference only;not equipment or body material",
+      "colourInstruction": "Outfit and shoes in neon pink"
+    },
+    "imageRevisionEvidence": "docs/verification/club-image-v2/results.json",
+    "portraitApprovalEvidence": "docs/verification/club-portrait-approved/results.json"
+  },
+  "variantAppearanceReviewOrder": [
+    "Gym bunny appearance then actual image review",
+    "Sorority appearance then actual image review",
+    "Club appearance then actual image review"
+  ],
+  "carrierSalivaColour": {
+    "colour": "Pink",
+    "scope": "All active carriers,including Tits and completed player variants;carrier status persists across forms",
+    "emission": "Colour metadata does not create an emission or contact;non-biological bodies do not gain saliva",
+    "cure": "Current carrier-colour annotation ends when cured;existing recorded fluids retain their actual source metadata",
+    "implementedLocally": true,
+    "evidence": "docs/verification/gym-amendments/results.json"
+  },
+  "variantPortraitReview": {
+    "gym": {
+      "approved": true,
+      "connectedLocally": true,
+      "asset": "rebuild/hub/assets/character-art-review/gym-bunny-v4.png"
+    },
+    "sorority": {
+      "approved": true,
+      "connectedLocally": true,
+      "asset": "rebuild/hub/assets/character-art-review/sorority-v1.png"
+    },
+    "club": {
+      "approved": true,
+      "connectedLocally": true,
+      "asset": "rebuild/hub/assets/character-art-review/club-v2.png"
+    },
+    "published": false
+  }
+}

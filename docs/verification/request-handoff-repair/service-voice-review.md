@@ -1,0 +1,11 @@
+# Service voice, typed selection and current-state projection review
+
+Real v10 transport checks returned all planned replies without unreadable data. Payment was charged once. Remaining errors: unquoted machine narration completed preparation before readyAt, outside-range Eve staged a hologram, and the game receipt omitted cup/timing before the writer asked again. This is a game-file presentation/serialization gap plus model factual unreliability; no further worker publication required.
+
+Reviewed action arguments and actual addDrink return, retail quote/order lifecycle, scene serialization, actor service profile, voice-only remote mode, worker pass-through, validation/correction, cleanReply, feed and remembered dialogue. Added selection product/cup/timing/paid/prepared facts at controller result and unpaid scene. Shop service uses a concise canonical personality profile instead of unrelated wardrobe/clinical rules. Full source profile stays intact for other conversations.
+
+Shop-service replies and Eve's remote-only channel are marked speech-only. The game projects all quoted spoken content without word quotas and excludes stage directions from feed/history; ordinary unquoted speech remains supported. This is not replacement dialogue. Transformation narration and ordinary co-present dialogue retain their narrative channel. Current preparation/readiness/collection validation still applies to the actual displayed speech, with one correction then preserved authored result on failure.
+
+Focused tests verify scoped data/profile preservation, typed cup/timing, no mutation of full canonical profile, full speech projection, remote physical staging excluded from saved history, actual browser payment correction without duplicate charge. Latest broad regression remains a separate evidence checkpoint; local checks do not prove model acceptance.
+
+Fresh synthetic fixture on existing v10 worker: unpaid coffee, polite payment before readiness, and remote-only Eve Stamina question. At most8 calls/$0.25 including retained0.09136 uncertain upper reservation. Prior known run totals86 submitted calls/$0.13475098 known spend; one of those costs remains uncertain. Parent evidence preserved. Combined known cost plus current upper bound remains below original0.50 test allowance. No settings/credentials/monthly ceiling changes.

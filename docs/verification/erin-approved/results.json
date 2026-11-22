@@ -1,0 +1,53 @@
+{
+  "status": "Approved Erin appearance implemented and verified locally; new photo displayed and awaiting separate approval; unpublished",
+  "at": "2026-11-22T05:23:49.624481+00:00",
+  "entity": "form:erin",
+  "appearanceApproved": true,
+  "portrait": {
+    "status": "Generated and displayed for separate image approval; not connected or published",
+    "source": "/workspace/generated_images/exec-aea34ba0-5de0-4223-bf13-a290c60f4aa2.png",
+    "reviewAsset": "rebuild/hub/assets/character-art-review/erin-fullbody-v1.png",
+    "size": [
+      1024,
+      1536
+    ],
+    "sha256": "70d3c320bf6876c1f13f05238d4d516f20069bc8e8fc81287cc3e5a0cb26e831",
+    "approved": false,
+    "connected": false
+  },
+  "originalPortraitRetained": true,
+  "measurements": {
+    "waist": 26,
+    "hips": 36.5,
+    "underChest": 29.5,
+    "shoulderWidth": 14,
+    "armLength": 21.5,
+    "inseam": 29.5,
+    "chest": 33.5
+  },
+  "runtime": {
+    "passed": true,
+    "namedCases": 2267,
+    "suites": 162,
+    "syntax": "PASS",
+    "modulePaths": "PASS",
+    "releaseGate": "Runtime-only; final combined release/canon preparation remains pending"
+  },
+  "browser": {
+    "passed": true,
+    "counts": {
+      "npc": 24,
+      "currentBody": 9,
+      "inventoryMilestones": 2,
+      "approvedBody": 3
+    },
+    "total": 38,
+    "realProvider": false
+  },
+  "imageGenerations": 1,
+  "imageGenerationPrice": "not reported by tool",
+  "cydoniaCalls": 0,
+  "workerChanges": false,
+  "published": false,
+  "remaining": "Actual Erin image approval; broad real-model prose acceptance and combined release verification remain open"
+}

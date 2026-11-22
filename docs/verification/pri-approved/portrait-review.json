@@ -1,0 +1,12 @@
+{
+  "status": "Actual photo generated and displayed for separate owner image approval; not connected or published",
+  "source": "/workspace/generated_images/exec-d8437c60-c401-4c02-86da-3e57bbeca5db.png",
+  "reviewAsset": "rebuild/hub/assets/character-art-review/pri-v1.png",
+  "size": [
+    1536,
+    1024
+  ],
+  "sha256": "16fc69df3faed47ac4ce760d73b8a4e73f6e31a66838c71766d9f076f5bc0f78",
+  "approved": false,
+  "connected": false
+}

@@ -1,0 +1,12 @@
+{
+  "asset": "rebuild/hub/assets/character-art-review/charity-v1.png",
+  "status": "Prior owner-approved photographic portrait connected locally,unchanged",
+  "approved": true,
+  "connected": true,
+  "consumer": "rebuild/hub/charity.js definition.portrait + appearance-profiles-ui.js charityPortraitMarkup",
+  "size": [
+    1024,
+    1536
+  ],
+  "sha256": "b2937c234fb262d91cee1ea6f0ba820ab7ccffedac6380663da3a34173baffe0"
+}

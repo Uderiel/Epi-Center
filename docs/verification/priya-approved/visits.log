@@ -1,0 +1,9 @@
+PASS Erin gets an ordinary invitation and enters without flats cat or romance state
+PASS recognized friends can explore every connected room without additional relationship gates
+PASS permission belongs to the presented identity and survives reload until expiry
+PASS Priya absent asleep incapacitated or in transit cannot authorize or complete a visit
+PASS an unfamiliar body cannot borrow owned Erin appearance friendship
+PASS a real earned friendship opens the same route without romance
+PASS explicit future Lena and Maya form identities honor friend policy without spawning NPCs
+PASS actual home room determines dialogue availability and leaving closes the permission
+8 Priya visit cases passed

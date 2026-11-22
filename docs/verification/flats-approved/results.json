@@ -1,0 +1,41 @@
+{
+  "status": "Owner-approved complete object appearance and explicit US women size7 implemented and verified locally; unpublished",
+  "at": "2026-11-22T06:14:09.638Z",
+  "entity": "form:priya-flats",
+  "appearanceApproved": true,
+  "approvedSizing": {
+    "size": 7,
+    "system": "US women’s"
+  },
+  "runtime": {
+    "passed": true,
+    "namedCases": 2290,
+    "suites": 166,
+    "scope": "Runtime-only; final combined release/canon freeze gate still pending"
+  },
+  "focusedCases": 111,
+  "browser": {
+    "passed": true,
+    "counts": {
+      "npc": 24,
+      "currentBody": 9,
+      "object": 4
+    },
+    "total": 37,
+    "realProvider": false
+  },
+  "portraits": {
+    "status": "Both existing approved worn/unworn images remain connected unchanged",
+    "approved": true,
+    "connected": true,
+    "newImageNeeded": false
+  },
+  "connectedImagesDecoded": 14,
+  "missingPortraitConsumers": 3,
+  "imageGenerations": 0,
+  "cydoniaCalls": 0,
+  "workerChanges": false,
+  "published": false,
+  "next": "Gym bunny full24-field proposal prepared for review;then actual image review,sorority appearance/image,club appearance/image",
+  "remaining": "New gym bunny template details and portrait direction await owner review;general live-model prose correctness remains open"
+}

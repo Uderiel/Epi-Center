@@ -1,0 +1,309 @@
+{
+  "status": "Owner-approved complete object appearance and explicit US women size7 implemented and verified locally; unpublished",
+  "entity": "form:priya-flats",
+  "established": {
+    "size": 7,
+    "sizingSystem": "Not authored",
+    "identity": "One player consciousness across one physical pair; no separate form mind",
+    "images": [
+      "assets/Priya-Flats-Worn.jpg",
+      "assets/Priya-Flats-Unworn.jpg"
+    ]
+  },
+  "draft": {
+    "schema": 1,
+    "mode": "universal",
+    "answers": {
+      "age": {
+        "value": "Not specified"
+      },
+      "gender": {
+        "value": "Not specified"
+      },
+      "footSize": {
+        "presence": "Absent",
+        "count": "Not specified",
+        "type": "Not specified",
+        "sizeMode": "Not specified",
+        "sizingSystem": "Not specified",
+        "length": {
+          "mode": "Not specified"
+        },
+        "width": "Not specified",
+        "arch": "Not specified",
+        "sole": "Not specified",
+        "digits": "Not specified",
+        "nails": "Not specified",
+        "covering": "Not specified",
+        "material": "Not specified",
+        "surfaceColour": "Not specified",
+        "texture": "Not specified",
+        "markings": "Not specified"
+      },
+      "legs": {
+        "count": "0",
+        "type": "Not specified",
+        "length": "Not specified",
+        "build": "Not specified",
+        "covering": "Not specified",
+        "grooming": "Not specified",
+        "material": "Not specified",
+        "surfaceColour": "Not specified"
+      },
+      "hips": {
+        "width": "Not applicable",
+        "shape": "Not applicable",
+        "proportions": "Not applicable",
+        "material": "Not applicable",
+        "surfaceColour": "Not applicable"
+      },
+      "buttocks": {
+        "size": "Not applicable",
+        "shape": "Not applicable",
+        "material": "Not applicable",
+        "surfaceColour": "Not applicable"
+      },
+      "waist": {
+        "width": "Not applicable",
+        "abdomen": "Not applicable",
+        "muscle": "Not applicable",
+        "material": "Not applicable",
+        "surfaceColour": "Not applicable"
+      },
+      "back": {
+        "width": "Not applicable",
+        "shoulders": "Not applicable",
+        "back": "Not applicable",
+        "material": "Not applicable",
+        "surfaceColour": "Not applicable",
+        "posture": "Not applicable",
+        "wingsPresence": "Absent",
+        "wingsCount": "Not applicable",
+        "wingsType": "Not applicable",
+        "wingspan": {
+          "mode": "Not specified"
+        },
+        "wingsDetails": "Not applicable",
+        "wingsMaterial": "Not applicable",
+        "wingsColour": "Not applicable"
+      },
+      "chest": {
+        "type": "Not applicable",
+        "cup": "Not applicable",
+        "size": "Not applicable",
+        "shape": "Not applicable",
+        "material": "Not applicable",
+        "surfaceColour": "Not applicable"
+      },
+      "arms": {
+        "count": "0",
+        "type": "Not specified",
+        "length": "Not specified",
+        "muscle": "Not specified",
+        "material": "Not specified",
+        "surfaceColour": "Not specified",
+        "grooming": "Not specified"
+      },
+      "hands": {
+        "count": "0",
+        "type": "Not specified",
+        "size": "Not specified",
+        "width": "Not specified",
+        "material": "Not specified",
+        "surfaceColour": "Not specified"
+      },
+      "fingers": {
+        "count": "Not applicable",
+        "length": "Not applicable",
+        "thickness": "Not applicable",
+        "nails": "Not applicable",
+        "nailLength": "Not applicable",
+        "nailShape": "Not applicable",
+        "nailColour": "Not applicable",
+        "nailMaterial": "Not applicable",
+        "material": "Not applicable",
+        "surfaceColour": "Not applicable"
+      },
+      "voice": {
+        "neck": "Not applicable",
+        "pitch": "Not applicable",
+        "quality": "Not applicable",
+        "material": "Not applicable",
+        "surfaceColour": "Not applicable"
+      },
+      "face": {
+        "shape": "Not applicable",
+        "jaw": "Not applicable",
+        "chin": "Not applicable",
+        "cheeks": "Not applicable",
+        "noseSize": "Not applicable",
+        "noseShape": "Not applicable",
+        "lipFullness": "Not applicable",
+        "lipShape": "Not applicable",
+        "salivation": "Not applicable",
+        "facialHair": "Not applicable",
+        "complexion": [
+          {
+            "kind": "Not specified"
+          }
+        ],
+        "material": "Not applicable",
+        "surfaceColour": "Not applicable"
+      },
+      "eyes": {
+        "count": "0",
+        "size": "Not specified",
+        "shape": "Not specified",
+        "iris": "Not specified",
+        "leftIris": "Not specified",
+        "rightIris": "Not specified",
+        "sclera": "Not specified",
+        "material": "Not specified"
+      },
+      "ears": {
+        "count": "0",
+        "size": "Not specified",
+        "shape": "Not specified",
+        "material": "Not specified",
+        "surfaceColour": "Not specified"
+      },
+      "hair": {
+        "length": "Not applicable",
+        "colour": "Not applicable",
+        "texture": "Not applicable",
+        "density": "Not applicable",
+        "style": "Not applicable",
+        "material": "Not applicable"
+      },
+      "skin": {
+        "material": "Custom",
+        "surfaceColour": "Black",
+        "texture": "Custom",
+        "markings": [
+          {
+            "kind": "None"
+          }
+        ],
+        "bodyHair": "Not applicable",
+        "materialCustom": "Footwear material; leather-like upper,exact composition unspecified",
+        "textureCustom": "Smooth,flexible,lightly worn footwear finish"
+      },
+      "genitalAnatomy": {
+        "configuration": "Not applicable",
+        "length": {
+          "mode": "Not specified"
+        },
+        "testes": "Not applicable",
+        "tightness": "Not applicable",
+        "puffiness": "Not applicable",
+        "swelling": "Not applicable",
+        "viscosity": "Not applicable",
+        "variation": "Not applicable",
+        "grooming": "Not applicable",
+        "material": "Not applicable",
+        "surfaceColour": "Not applicable"
+      },
+      "scent": {
+        "natural": "Not applicable",
+        "strength": "Not applicable",
+        "perspiration": "Not applicable",
+        "temperature": "Not applicable",
+        "traits": [
+          "Not specified"
+        ]
+      },
+      "height": {
+        "unit": "imperial",
+        "value": "Not specified",
+        "raw": {}
+      },
+      "weight": {
+        "unit": "imperial",
+        "value": "Not specified",
+        "raw": {}
+      },
+      "build": {
+        "value": "One conscious pair of gently worn black pointed-toe flats with a low heel; US women’s size7"
+      },
+      "tail": {
+        "presence": "Absent",
+        "description": "Not specified",
+        "material": "Not specified",
+        "surfaceColour": "Not specified"
+      }
+    }
+  },
+  "appearance": {
+    "age": "Not applicable to an object",
+    "gender": "Inanimate pair of flats",
+    "footSize": "Feet present: Absent; Number of feet: Not applicable; Foot type: Not applicable; Describe foot size using: Not applicable; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not applicable; Foot width: Not applicable; Arch height: Not applicable; Sole or pads: Not applicable; Toes per foot: Not applicable; Nails or claws: Not applicable; Covering: Not applicable; Material: Not applicable; Surface colour: Not applicable; Surface texture: Not applicable; Markings: Not applicable; Recorded details: Size seven (US women’s),  one body across both flats",
+    "legs": "Number of legs: 0; Leg type: Not applicable; Length: Not applicable; Build: Not applicable; Covering: Not applicable; Hair / grooming: Not applicable; Material: Not applicable; Surface colour: Not applicable; inseam: Not applicable; Recorded details: No independent movement",
+    "hips": "Width: Not applicable; Shape: Not applicable; Proportions relative to waist / torso: Not applicable; Material: Not applicable; Surface colour: Not applicable; hip circumference: Not specified",
+    "buttocks": "Size: Not applicable; Shape: Not applicable; Material: Not applicable; Surface colour: Not applicable",
+    "waist": "Waist width: Not applicable; Abdomen shape: Not applicable; Muscle definition: Not applicable; Material: Not applicable; Surface colour: Not applicable; waist circumference: Not specified",
+    "back": "Shoulder width: Not applicable; Shoulder shape: Not applicable; Back shape: Not applicable; Material: Not applicable; Surface colour: Not applicable; Usual posture: Not applicable; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: Not specified",
+    "chest": "Type: Not applicable; Cup size: Not applicable; Pectoral size: Not applicable; Shape: Not applicable; Material: Not applicable; Surface colour: Not applicable; under-chest circumference: Not specified; chest circumference: Not specified",
+    "arms": "Number of arms: 0; Arm type: Not applicable; Length: Not applicable; Muscle definition: Not applicable; Material: Not applicable; Surface colour: Not applicable; Hair / grooming: Not applicable; shoulder-to-wrist length: Not applicable; Recorded details: Material over the toes and around the heels,  cannot move or grip",
+    "hands": "Number of hands: 0; Hand type: Not applicable; Size: Not applicable; Width: Not applicable; Material: Not applicable; Surface colour: Not applicable; Recorded details: No hands",
+    "fingers": "Digits per hand: Not applicable; Length: Not applicable; Thickness: Not applicable; Nail type: Not applicable; Nail length: Not applicable; Nail shape: Not applicable; Nail colour: Not applicable; Nail material: Not applicable; Material: Not applicable; Surface colour: Not applicable",
+    "voice": "Neck shape: Not applicable; Voice pitch: Not applicable; Voice quality: Not applicable; Material: Not applicable; Surface colour: Not applicable; Recorded details: No speech or outward signal",
+    "face": "Overall shape: Not applicable; Jaw: Not applicable; Chin: Not applicable; Cheeks: Not applicable; Nose size: Not applicable; Nose shape: Not applicable; Lip fullness: Not applicable; Lip shape: Not applicable; Salivation rate: Not applicable; Facial hair: Not applicable; Complexion and markings: Not specified; Material: Not applicable; Surface colour: Not applicable; Recorded details: No visible face,  awareness is spread along the insoles and toe grooves",
+    "eyes": "Number of eyes: 0; Size: Not applicable; Shape: Not applicable; Iris colour: Not applicable; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Not applicable; Material: Not applicable; Recorded details: No eyes,  dim ground-up awareness",
+    "ears": "Number of ears: 0; Size: Not applicable; Shape: Not applicable; Material: Not applicable; Surface colour: Not applicable",
+    "hair": "Length: Not applicable; Colour: Not applicable; Texture: Not applicable; Density: Not applicable; Style: Not applicable; Material: Not applicable; Recorded details: No hair",
+    "skin": "Material: Footwear material,  leather-like upper,exact composition unspecified; Surface colour: Black; Texture: Smooth,flexible,lightly worn footwear finish; Body markings: None; Body hair: Not applicable; Recorded details: Smooth black leather-like footwear upper with a lightly worn finish,  exact composition,lining and sole materials unspecified,  no human skin",
+    "genitalAnatomy": "Configuration: Not applicable; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not applicable; Pubic hair / grooming: Not applicable; Material: Not applicable; Surface colour: Not applicable; Recorded details: No human external anatomy",
+    "scent": "Natural body scent: Not applicable; Scent strength: Not applicable; Perspiration tendency: Not applicable; Usual skin temperature: Not applicable; Other physical tendencies: Not applicable",
+    "height": "Shoe-height, ground-level viewpoint",
+    "weight": "Not measured",
+    "build": "One conscious pair of gently worn black pointed-toe flats with a low heel; US women’s size7",
+    "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+  },
+  "raw": {
+    "gender": "Inanimate pair of flats",
+    "age": "Not applicable to an object",
+    "height": "Shoe-height, ground-level viewpoint",
+    "weight": "Not measured",
+    "build": "One conscious pair of gently worn black pointed-toe flats with a low heel; US women’s size7",
+    "hair": "No hair",
+    "eyes": "No eyes; dim ground-up awareness",
+    "face": "No visible face; awareness is spread along the insoles and toe grooves",
+    "voice": "No speech or outward signal",
+    "arms": "Material over the toes and around the heels; cannot move or grip",
+    "hands": "No hands",
+    "legs": "No independent movement",
+    "footSize": "Size seven (US women’s); one body across both flats",
+    "skin": "Smooth black leather-like footwear upper with a lightly worn finish; exact composition,lining and sole materials unspecified; no human skin",
+    "genitalAnatomy": "No human external anatomy"
+  },
+  "notes": [
+    "Preserve one pair and one original player consciousness,no separate object mind,independent movement or human anatomy.",
+    "Retain canonical size7; US women’s is an explicit owner-approved sizing system,not an inference from Priya’s own shoe size.",
+    "Black pointed-toe/low-heel/leather-like visual description follows the already approved worn/unworn images; exact material composition is not known from pixels.",
+    "No numerical length,height,heel height,circumference or mass invented; no human measurement matrix.",
+    "Footwear awareness remains the existing restricted sensory system; no anatomical eyes/ears or new capabilities.",
+    "Both existing approved images stay connected unchanged; no replacement image needed.",
+    "Current body,old generic object records and private sensory material are aligned; actual/custom object alterations remain.",
+    "Material is leather-like in appearance; genuine leather composition,suede and polish are not established. Narration validation preserves that distinction."
+  ],
+  "portrait": {
+    "status": "Both existing approved worn/unworn images remain connected unchanged",
+    "approved": true,
+    "connected": true,
+    "newImageNeeded": false
+  },
+  "ownerApproval": "Approved, lets do gym bunny, sorority, then club bimbos in order, appearance and image.",
+  "approvedNewDetails": {
+    "sizingSystem": "US women’s",
+    "upper": "Black leather-like footwear material; exact composition unspecified",
+    "shape": "Pointed toe,low heel,gently worn",
+    "liningAndSole": "Composition unspecified"
+  },
+  "runtimeSource": "rebuild/hub/flats-appearance.js + priya-flats.js alignedObjectBody + footwear-senses.js current object material",
+  "evidence": "docs/verification/flats-approved/results.json",
+  "releaseDisposition": {
+    "version": "1.0.137",
+    "scope": "Only implemented owner-approved portions and approved portrait consumers are included;any explicitly pending full-template additions remain proposals",
+    "publicationRecord": "docs/releases/v1.0.137-release-summary.json"
+  }
+}

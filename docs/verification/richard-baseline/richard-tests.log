@@ -1,0 +1,30 @@
+PASS Richard is a civilian whose allocation calculates Mental without a hard-coded primary
+PASS weekday schedule includes office breaks team rounds and no invented weekend destination
+PASS NPC follows every actual doorway from G to J and cannot teleport between rooms
+PASS evening departure walks through F then A and commutes eight minutes per district edge
+PASS morning commute preserves actual city adjacency and enters through elevator A
+PASS elapsed tick is idempotent and reload retains route needs and task memory
+PASS Richard recipient is strictly room-local and rejects remote interaction
+PASS canine voice cannot accept work or speak to Richard but can be physically present
+PASS only fully transformed Erin receives the secretary assignment
+PASS spoken bonus promises never reveal numeric pay or gold
+PASS acceptance and work are explicit; waiting on an offered task does not complete it
+PASS summary work requires accepted assignment usable hands and the desk in F
+PASS leaving desk pauses work without losing progress or granting payment
+PASS completed work must be delivered in person and pays exactly once across reload
+PASS claiming completion cannot shortcut actual elapsed work
+PASS repeated refusals adapt without relationship or resource penalties and stop daily pressure
+PASS boundary cancels accepted extra work and does not lose finished progress or impose attendance fines
+PASS autonomous offer uses co-location Erin identity weekday stress and persistent cooldown
+PASS background schedule does not send remote offers or teleport player
+PASS Richard freezes inside his active encounter and preserves exact pools on apply
+PASS combat initiation requires actual presence and viable civilian resources
+PASS text supports explicit work acceptance refusal delivery and attacks without question attacks
+PASS Dev relationship override and real relationship updates share the same signed record
+PASS declined requests respect the refusal cooldown before an eligible autonomous follow-up
+PASS weekend dialogue does not generate a task or visit an unbuilt destination
+PASS a new civilian encounter cannot discard unresolved partial Kibbles attachment
+PASS elapsed time stops at each unanswered section and all 20 working minutes are required
+PASS drafts and accepted sections survive reload and irrelevant text does not advance the report
+PASS legacy work keeps elapsed minutes and legacy ready reports remain deliverable
+PASS a report answer cannot be submitted from another room or a combat encounter

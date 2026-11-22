@@ -1,0 +1,33 @@
+{
+  "status": "Corrected locally; unpublished",
+  "at": "2026-11-21T20:57:41.418217+00:00",
+  "offeredCats": [
+    {
+      "sex": "male",
+      "name": "Pri",
+      "profile": "form:priya-cat:male"
+    },
+    {
+      "sex": "female",
+      "name": "Preeti",
+      "profile": "form:priya-cat:female"
+    }
+  ],
+  "correction": "Removed generic unspecified catalogue entry incorrectly counted as a third offered cat form. Shared raw feline body data is not a separate offered form.",
+  "catalogueProfileStates": 18,
+  "profileStatesWithoutPortraitConsumer": 10,
+  "verification": {
+    "alignmentCases": 10,
+    "actualCatControllerCases": 30,
+    "browserChecks": 14,
+    "realProvider": false
+  },
+  "lastBroadRegression": {
+    "cases": 2247,
+    "note": "Earlier checkpoint; not rerun for this narrow catalogue correction."
+  },
+  "paidCalls": 0,
+  "workerChanged": false,
+  "published": false,
+  "nextReview": "Richard baseline measurements; owner decision pending"
+}

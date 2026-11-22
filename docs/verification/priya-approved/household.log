@@ -1,0 +1,19 @@
+PASS distinct Priya-owned catalogue does not copy Erin wardrobe inventory or foods
+PASS all eight coordinated presets contain existing owned pieces with coherent coverage
+PASS outfit suggestion routes privately to closet and back, changing only NPC clothing
+PASS outfit job survives reload and cannot complete if guest enters changing space
+PASS outfit actions reject remote speech, duplicate jobs and retain state on interrupted departure
+PASS individual pieces build saved custom combinations without transferring possessions
+PASS incomplete or duplicate-layer outfit cannot be saved as a valid combination
+PASS tea preparation and optional milk sweetener use finite stock once each
+PASS snack and meal actions consume actual ingredients and use existing hunger relief without healing
+PASS stock exhaustion and reload cannot replenish food or duplicate prepared servings
+PASS Priya product choices perform actual care while Erin supplies remain separate
+PASS every proposed care item has a real guarded use and saved application record
+PASS uninvited visitors, wrong rooms, combat and inanimate bodies cannot consume private stock
+PASS NPC private change events do not narrate remotely after the guest leaves
+14 Priya household cases passed
+PASS world text routes real household actions while questions and negations stay read-only
+PASS an existing save gains Priya household records without resetting other inventories or balances
+PASS served food is a usable inventory item outside the apartment with single consumption
+PASS legacy prepared serving migrates once and keeps additions and finite stock

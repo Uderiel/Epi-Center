@@ -15,7 +15,7 @@ Individual physical sub-stages remain separately narrated and saved; grouping in
 | 240–300 minutes | Thighs, knees, calves | Exit restriction remains; movement inside the shop is retained. This is not authorization for a compulsory customer transaction or loss of all action choice. |
 | 300–360 minutes | Ankles, feet/arches, individual toes/nails; final skin/scent consistency and overall proportions | Confinement and Charity-like speech settle fully. Final settling at360minutes starts the72-hour lock exactly once. |
 
-At final settling, match actual Charity’s apparent mid-thirties body, approximately5ft6in/122lb and established appearance. Do not change player account/chronological identity, erase original restoration baseline or duplicate the real Charity. The actual borrowed outfit does not become free owned clothing, reset condition or generate equipment bonuses.
+At final settling, match actual Charity’s 39-year-old body,exactly5ft6in/122lb and established appearance. Do not change player account/chronological identity, erase original restoration baseline or duplicate the real Charity. The actual borrowed outfit does not become free owned clothing, reset condition or generate equipment bonuses.
 
 ## Approved hourly attribute-transfer cadence
 
@@ -37,3 +37,5 @@ Approved: intermediate physical grouping, first hard exit restriction at **180el
 The owner explicitly requires prolonged-wear narration to describe the already-transformed body **tightening, growing warm, settling or feeling increasingly natural**, focused on the particular part whose residue is becoming lasting. Do not replay the initial ten-minute transformation, narrate already-completed growth/recoloring as new, or describe a second body appearing. The player already visibly resembles Charity; progression changes how that existing shape feels and persists beneath the mask. Use varied, locally appropriate sensations rather than repeating every cue at every stage. Keep this physical familiarity distinct from erasing the player’s identity or asserting chosen emotions. Appearance/state and chronology must match the completed stages.
 
 Example tone: “Warmth gathers through your fingers. Their familiar shape settles more comfortably, as though it takes less effort to hold.” Not a new change in finger length, a repeated first transformation or knowledge of the hidden release outcome. Existing warnings and uncertainty remain intact.
+
+Current identity correction: owner confirms Charity’s actual age39,exact5ft6,exact122lb and freckles. Full approved appearance source:charity-appearance.js; existing approved image connected locally. This updates identity references only; mask/coverage/quest implementation remains deferred.

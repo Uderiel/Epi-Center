@@ -1,0 +1,29 @@
+{
+  "status": "Implemented and verified locally; unpublished",
+  "at": "2026-11-21T20:13:06.910948+00:00",
+  "scope": "Wings inside existing Back & shoulders;24 saved keys unchanged; human creation locked absent; universal NPC/form details supported; current wing inspection reads Back",
+  "focusedCases": {
+    "appearanceTemplate": 24,
+    "currentAppearance": 10,
+    "formPresence": 28
+  },
+  "browser": {
+    "creation": {
+      "passed": true,
+      "checks": 17
+    },
+    "currentAppearance": {
+      "passed": true,
+      "checks": 9
+    }
+  },
+  "lastBroadRegression": {
+    "cases": 2234,
+    "scope": "Preceding follow-up, preserved in ../appearance-current-followup/; not rerun for this narrow extension"
+  },
+  "paidCalls": 0,
+  "published": false,
+  "workerChanged": false,
+  "npcFormConversionStarted": false,
+  "limits": "Simulated browser AI; appearance description does not grant flight or alter movement."
+}

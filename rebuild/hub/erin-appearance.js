@@ -1,0 +1,262 @@
+/* Owner-approved Erin appearance targets; no stage,mastery or control changes. */
+// (explicit adult)
+(function(r,f){const a=f();if(typeof module==='object'&&module.exports)module.exports=a;else r.EpiErinAppearance=a;})(globalThis,function(){
+'use strict';return Object.freeze({
+  "schema": 1,
+  "id": "form:erin",
+  "status": "Owner-approved full appearance and full-body portrait; connected locally,publication held",
+  "answers": {
+    "age": {
+      "value": "Not specified"
+    },
+    "gender": {
+      "value": "Female"
+    },
+    "footSize": {
+      "presence": "Present",
+      "count": "2",
+      "type": "Humanlike feet",
+      "sizeMode": "Shoe size",
+      "sizingSystem": "US women’s",
+      "length": {
+        "mode": "Not specified"
+      },
+      "width": "Medium",
+      "arch": "High",
+      "sole": "Humanlike sole",
+      "digits": "5",
+      "nails": "Human nails",
+      "covering": "Skin",
+      "material": "Skin",
+      "surfaceColour": "Light",
+      "texture": "Smooth",
+      "markings": "None",
+      "size": 6
+    },
+    "legs": {
+      "count": "2",
+      "type": "Human legs",
+      "length": "Average",
+      "build": "Muscular",
+      "covering": "Skin",
+      "grooming": "Clean-shaven",
+      "material": "Skin",
+      "surfaceColour": "Light"
+    },
+    "hips": {
+      "width": "Wide",
+      "shape": "Rounded",
+      "proportions": "Custom",
+      "material": "Skin",
+      "surfaceColour": "Light",
+      "proportionsCustom": "Curving hips proportionate to Erin’s full-bodied frame"
+    },
+    "buttocks": {
+      "size": "Large",
+      "shape": "Rounded",
+      "material": "Skin",
+      "surfaceColour": "Light"
+    },
+    "waist": {
+      "width": "Narrow",
+      "abdomen": "Flat",
+      "muscle": "Defined",
+      "material": "Skin",
+      "surfaceColour": "Light"
+    },
+    "back": {
+      "width": "Narrow",
+      "shoulders": "Sloping",
+      "back": "Straight",
+      "material": "Skin",
+      "surfaceColour": "Light",
+      "posture": "Upright",
+      "wingsPresence": "Absent",
+      "wingsCount": "Not specified",
+      "wingsType": "Not specified",
+      "wingspan": {
+        "mode": "Not specified"
+      },
+      "wingsDetails": "Not specified",
+      "wingsMaterial": "Not specified",
+      "wingsColour": "Not specified"
+    },
+    "chest": {
+      "type": "Breasts",
+      "cup": "DD",
+      "size": "Not specified",
+      "shape": "Rounded",
+      "material": "Skin",
+      "surfaceColour": "Light"
+    },
+    "arms": {
+      "count": "2",
+      "type": "Human arms",
+      "length": "Average",
+      "muscle": "Slight",
+      "material": "Skin",
+      "surfaceColour": "Light",
+      "grooming": "Clean-shaven"
+    },
+    "hands": {
+      "count": "2",
+      "type": "Human hands",
+      "size": "Small",
+      "width": "Narrow",
+      "material": "Skin",
+      "surfaceColour": "Light"
+    },
+    "fingers": {
+      "count": "5",
+      "length": "Long",
+      "thickness": "Slender",
+      "nails": "Human nails",
+      "nailLength": "Short",
+      "nailShape": "Rounded",
+      "nailColour": "Natural",
+      "nailMaterial": "Human nail keratin",
+      "material": "Skin",
+      "surfaceColour": "Light"
+    },
+    "voice": {
+      "neck": "Slender",
+      "pitch": "High",
+      "quality": "Soft",
+      "material": "Skin",
+      "surfaceColour": "Light"
+    },
+    "face": {
+      "shape": "Oval",
+      "jaw": "Rounded",
+      "chin": "Rounded",
+      "cheeks": "Softly rounded",
+      "noseSize": "Average",
+      "noseShape": "Straight",
+      "lipFullness": "Medium",
+      "lipShape": "Rounded",
+      "salivation": "Average",
+      "facialHair": "Clean-shaven",
+      "complexion": [
+        {
+          "kind": "Clear/even complexion"
+        }
+      ],
+      "material": "Skin",
+      "surfaceColour": "Light"
+    },
+    "eyes": {
+      "count": "2",
+      "size": "Average",
+      "shape": "Almond",
+      "iris": "Green",
+      "leftIris": "Not specified",
+      "rightIris": "Not specified",
+      "sclera": "Normal",
+      "material": "Human eye tissue"
+    },
+    "ears": {
+      "count": "2",
+      "size": "Small",
+      "shape": "Rounded",
+      "material": "Skin",
+      "surfaceColour": "Light"
+    },
+    "hair": {
+      "length": "Long",
+      "colour": "Custom",
+      "texture": "Wavy",
+      "density": "Dense",
+      "style": "Loose",
+      "material": "Human hair",
+      "lengthCustom": "Shoulder-length when loose",
+      "colourCustom": "Copper-red"
+    },
+    "skin": {
+      "material": "Skin",
+      "surfaceColour": "Light",
+      "texture": "Smooth",
+      "markings": [
+        {
+          "kind": "None"
+        }
+      ],
+      "bodyHair": "Clean-shaven"
+    },
+    "genitalAnatomy": {
+      "configuration": "Vulval anatomy",
+      "length": {
+        "mode": "Not specified"
+      },
+      "testes": "Not specified",
+      "tightness": "Not specified",
+      "puffiness": "Not specified",
+      "swelling": "Not specified",
+      "viscosity": "Not specified",
+      "variation": "None",
+      "grooming": "Trimmed",
+      "material": "Skin",
+      "surfaceColour": "Light"
+    },
+    "scent": {
+      "natural": "Neutral",
+      "strength": "Faint",
+      "perspiration": "Average",
+      "temperature": "Average",
+      "traits": [
+        "None"
+      ]
+    },
+    "height": {
+      "unit": "imperial",
+      "value": 64,
+      "raw": {
+        "feet": 5,
+        "inches": 4
+      }
+    },
+    "weight": {
+      "unit": "imperial",
+      "value": 114,
+      "raw": {
+        "lb": 114
+      }
+    },
+    "build": {
+      "value": "Athletic,full-bodied. Narrow frame, defined musculature, average arms, narrow waist, fuller rounded hips. waist 26 in; hips 36.5 in; chest 33.5 in."
+    },
+    "tail": {
+      "presence": "Absent",
+      "description": "Not specified",
+      "material": "Not specified",
+      "surfaceColour": "Not specified"
+    }
+  },
+  "exact": {},
+  "appearance": {
+    "age": "Adult; exact age remains unspecified",
+    "gender": "Female",
+    "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Shoe size; Shoe size: 6; Shoe sizing system: US women’s; Foot length: Not applicable; Foot width: Medium; Arch height: High; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Smooth; Markings: None",
+    "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Muscular; Covering: Skin; Hair / grooming: Clean-shaven; Material: Skin; Surface colour: Light; inseam: 29.5 in",
+    "hips": "Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Curving hips proportionate to Erin’s full-bodied frame; Material: Skin; Surface colour: Light; hip circumference: 36.5 in",
+    "buttocks": "Size: Large; Shape: Rounded; Material: Skin; Surface colour: Light",
+    "waist": "Waist width: Narrow; Abdomen shape: Flat; Muscle definition: Defined; Material: Skin; Surface colour: Light; waist circumference: 26 in",
+    "back": "Shoulder width: Narrow; Shoulder shape: Sloping; Back shape: Straight; Material: Skin; Surface colour: Light; Usual posture: Upright; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 14 in",
+    "chest": "Type: Breasts; Cup size: DD; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 29.5 in; chest circumference: 33.5 in",
+    "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Slight; Material: Skin; Surface colour: Light; Hair / grooming: Clean-shaven; shoulder-to-wrist length: 21.5 in",
+    "hands": "Number of hands: 2; Hand type: Human hands; Size: Small; Width: Narrow; Material: Skin; Surface colour: Light",
+    "fingers": "Digits per hand: 5; Length: Long; Thickness: Slender; Nail type: Human nails; Nail length: Short; Nail shape: Rounded; Nail colour: Natural; Nail material: Human nail keratin; Material: Skin; Surface colour: Light",
+    "voice": "Neck shape: Slender; Voice pitch: High; Voice quality: Soft; Material: Skin; Surface colour: Light",
+    "face": "Overall shape: Oval; Jaw: Rounded; Chin: Rounded; Cheeks: Softly rounded; Nose size: Average; Nose shape: Straight; Lip fullness: Medium; Lip shape: Rounded; Salivation rate: Average; Facial hair: Clean-shaven; Complexion and markings: Clear/even complexion; Material: Skin; Surface colour: Light",
+    "eyes": "Number of eyes: 2; Size: Average; Shape: Almond; Iris colour: Green; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Normal; Material: Human eye tissue",
+    "ears": "Number of ears: 2; Size: Small; Shape: Rounded; Material: Skin; Surface colour: Light",
+    "hair": "Length: Long; Colour: Copper-red; Texture: Wavy; Density: Dense; Style: Loose; Material: Human hair",
+    "skin": "Material: Skin; Surface colour: Light; Texture: Smooth; Body markings: None; Body hair: Clean-shaven",
+    "genitalAnatomy": "Configuration: Vulval anatomy; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not specified; Puffiness: Not specified; Swelling: Not specified; Fluid viscosity: Not specified; Anatomical variation: None; Pubic hair / grooming: Trimmed; Material: Skin; Surface colour: Light",
+    "scent": "Natural body scent: Neutral; Scent strength: Faint; Perspiration tendency: Average; Usual skin temperature: Average; Other physical tendencies: None",
+    "height": "5 ft 4 in",
+    "weight": "114 lb",
+    "build": "Athletic,full-bodied. Narrow frame, defined musculature, average arms, narrow waist, fuller rounded hips. waist 26 in; hips 36.5 in; chest 33.5 in.",
+    "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+  }
+});
+});

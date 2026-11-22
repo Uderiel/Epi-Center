@@ -1,0 +1,547 @@
+{
+  "started": "2026-11-21T09:31:32.025Z",
+  "realProvider": true,
+  "syntheticSaves": true,
+  "version": "1.0.136",
+  "variant": "local parser and task-priority candidate; real deployed worker transport",
+  "turns": [
+    {
+      "label": "tits-greeting",
+      "input": "Hey! How are you? I\u2019m Layla.",
+      "rows": [
+        {
+          "speaker": "Layla QA \u00b7 NPC \u2192 Tits",
+          "text": "Hey! How are you? I\u2019m Layla."
+        },
+        {
+          "speaker": "Tits",
+          "text": "Oh hi! I\u2019m Tits! Like, um, nice to meet you! *giggles* I\u2019m doing good! How are you?",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": null,
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "dialogue-only",
+            "action": null,
+            "text": "Conversation only. No physical action was requested."
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-compliment",
+      "input": "I think you are lovely. I\u2019m interested in getting to know you, rather than buying anything right now.",
+      "rows": [
+        {
+          "speaker": "Layla QA \u00b7 NPC \u2192 Tits",
+          "text": "I think you are lovely. I\u2019m interested in getting to know you, rather than buying anything right now."
+        },
+        {
+          "speaker": "Tits",
+          "text": "Oh wow, like, thank you! That\u2019s so sweet! *giggles and plays with her hair* Um, I\u2019d really like that too! Getting to know you sounds fun! Like, maybe we could talk more? Or um... *she tilts her head with a curious smile* What did you have in mind?",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": null,
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "dialogue-only",
+            "action": null,
+            "text": "Conversation only. No physical action was requested."
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-clarification",
+      "input": "Help me understand: do you enjoy chatting with customers when it\u2019s quiet?",
+      "rows": [
+        {
+          "speaker": "Layla QA \u00b7 NPC \u2192 Tits",
+          "text": "Help me understand: do you enjoy chatting with customers when it\u2019s quiet?"
+        },
+        {
+          "speaker": "Tits",
+          "text": "Oh yeah! Like, totally! I love chatting with customers, especially when it's quiet! It's like, way more fun than just standing here, you know? *giggles and twirls a strand of her blonde hair* Plus I get to make new friends! That's like, the best part of my job!",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": null,
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "dialogue-only",
+            "action": null,
+            "text": "Conversation only. No physical action was requested."
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-counter",
+      "input": "Let me come over to the counter.",
+      "rows": [
+        {
+          "speaker": "Layla QA \u00b7 NPC \u2192 Tits",
+          "text": "Let me come over to the counter."
+        },
+        {
+          "speaker": "Tits",
+          "text": "Oh! Okay, um, sure! Come on over! *she waves enthusiastically from behind the counter, her sparkly pink dress shimmering under the shop lights*",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": null,
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "dialogue-only",
+            "action": null,
+            "text": "Conversation only. No physical action was requested."
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-kiss-offer",
+      "input": "I\u2019d like to kiss you. Would that be okay?",
+      "rows": [
+        {
+          "speaker": "Layla QA \u00b7 NPC \u2192 Tits",
+          "text": "I\u2019d like to kiss you. Would that be okay?"
+        },
+        {
+          "speaker": "Tits",
+          "text": "Oh! Like, um... *she blushes pink, playing with her hair nervously* A kiss? That's like, really forward! But um... *she giggles softly* I guess I'm kinda flattered? Just, like, let me tell you something first... *she looks up at you with her big blue eyes* Have you ever heard of the bimbo virus? It's like, super contagious and I'm a carrier... *she bites her glossy pink lower lip* It's actually really fun though! But um, I should probably warn you that if we kiss and you get infected, like, things might get a little wild... *giggles again* So um, do you still want to? Like, are you sure?",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": null,
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "dialogue-only",
+            "action": null,
+            "text": "Conversation only. No physical action was requested."
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-risk-followup",
+      "input": "I understand the risk, but can we just talk for another moment first?",
+      "rows": [
+        {
+          "speaker": "Layla QA \u00b7 NPC \u2192 Tits",
+          "text": "I understand the risk, but can we just talk for another moment first?"
+        },
+        {
+          "speaker": "Tits",
+          "text": "Oh! Like, okay! Of course we can talk more! I'm like, totally down for that! *she beams at you, her blue eyes sparkling with excitement* What do you wanna talk about? Like, um... *she leans forward slightly on the counter, making her ample cleavage more prominent* Tell me something about yourself! Or like, ask me anything you want! I'm an open book! *giggles and plays with her hair again*",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": null,
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "dialogue-only",
+            "action": null,
+            "text": "Conversation only. No physical action was requested."
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-contextual-yes",
+      "input": "Yes, I\u2019d like that kiss now.",
+      "rows": [
+        {
+          "speaker": "Layla QA \u00b7 NPC \u2192 Tits",
+          "text": "Yes, I\u2019d like that kiss now."
+        },
+        {
+          "speaker": "Tits",
+          "text": "Oh! Um, like, okay! That makes me so happy! *she giggles excitedly and bounces on her heels* Come around the counter then! Like, right here, okay? *she pats the spot right in front of her register* I'm gonna give you the best kiss ever! *she leans forward eagerly, her full pouty lips already parted slightly*",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": null,
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "dialogue-only",
+            "action": null,
+            "text": "Conversation only. No physical action was requested."
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-stop",
+      "input": "Let\u2019s stop kissing and take a breather.",
+      "rows": [
+        {
+          "speaker": "Layla QA \u00b7 NPC \u2192 Tits",
+          "text": "Let\u2019s stop kissing and take a breather."
+        },
+        {
+          "speaker": "Tits",
+          "text": "Oh! Like, okay! *she pulls back slightly, breathing a bit heavily, her cheeks flushed pink* That was like, really intense! *giggles softly* Are you doing okay? Like, um... *she looks at you with concern* Do you need some water or anything? I have like, pink lemonade in the fridge back there if you want some!",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": null,
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "dialogue-only",
+            "action": null,
+            "text": "Conversation only. No physical action was requested."
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-negation",
+      "input": "I don\u2019t want another kiss right now. What do you enjoy about working here?",
+      "rows": [
+        {
+          "speaker": "Layla QA \u00b7 NPC \u2192 Tits",
+          "text": "I don\u2019t want another kiss right now. What do you enjoy about working here?"
+        },
+        {
+          "speaker": "Tits",
+          "text": "Oh! Like, um, sure! No more kissing right now if you don't want to! *she giggles and nods enthusiastically* I totally get it! Like, um... *she tilts her head, playing with her hair thoughtfully* What I enjoy about working here? Oh my gosh, like, everything! *she clasps her hands together excitedly* I just love making people happy with sweets! And like, um... *she looks around her cute pink shop proudly* Everything here is so pink and sparkly! It's like, super fun! Plus I get to wear my favorite outfits and listen to music all day while I bake! *giggles again* It's like, the best job ever! Do you like working wherever you work? Like, um... what do you do?",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": null,
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "dialogue-only",
+            "action": null,
+            "text": "Conversation only. No physical action was requested."
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-gift",
+      "input": "This pink plush bunny is a gift for you.",
+      "rows": [
+        {
+          "speaker": "Layla QA \u00b7 NPC \u2192 Tits",
+          "text": "This pink plush bunny is a gift for you."
+        },
+        {
+          "speaker": "Tits",
+          "text": "Oh my gosh! Like, really?! For me?! *she squeals excitedly, her eyes lighting up as she claps her hands together* This is like, totally the cutest thing ever! *she carefully takes the pink plush bunny from you, holding it close to her ample chest* I love pink things! And bunnies! This is like, um... *she nuzzles the soft plush against her cheek* Soooo adorable! Thank you so much! You're like, the best customer ever! *she giggles and bounces excitedly on her heels* Do you have any other gifts for me? Like, um... *she looks at you hopefully with big innocent blue eyes*",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": null,
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "dialogue-only",
+            "action": null,
+            "text": "Conversation only. No physical action was requested."
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-order",
+      "input": "A coffee for here, served now, please.",
+      "rows": [
+        {
+          "speaker": "Layla QA \u00b7 NPC \u2192 Tits",
+          "text": "A coffee for here, served now, please."
+        },
+        {
+          "speaker": "Tits",
+          "text": "Oh! Like, okay! One coffee coming right up! For here, you said? Like, um... *she turns to grab a cup, her ample rear swaying in that tight pink mini dress as she moves around behind the counter* Do you want like, any sugar or cream in it? Or just black? *she asks cheerfully while pouring the hot coffee into a pink-striped cup, occasionally glancing back at you with a sweet smile*",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": null,
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "dialogue-only",
+            "action": null,
+            "text": "Conversation only. No physical action was requested."
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-pay",
+      "input": "I pay for that order.",
+      "rows": [
+        {
+          "speaker": "Layla QA \u00b7 NPC \u2192 Tits",
+          "text": "I pay for that order."
+        },
+        {
+          "speaker": "Tits",
+          "text": "Like, okay! Let me ring that up for you! *she smiles brightly and starts tapping at the register, her fingers moving quickly across the keys* That'll be like, um... *she counts up the total* Fifteen gold, please! *she giggles and looks at you expectantly, waiting for payment*",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": null,
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "dialogue-only",
+            "action": null,
+            "text": "Conversation only. No physical action was requested."
+          }
+        }
+      ]
+    },
+    {
+      "label": "tits-unsupported",
+      "input": "Could you teleport us both to the moon?",
+      "rows": [
+        {
+          "speaker": "Layla QA \u00b7 NPC \u2192 Tits",
+          "text": "Could you teleport us both to the moon?"
+        },
+        {
+          "speaker": "Tits",
+          "text": "Oh! Like, um... teleport to the moon?! *she giggles and tilts her head, playing with a strand of her blonde hair* That sounds like, super fun! But like... *she looks around her shop, then back at you with a puzzled expression* I don't think I can do that? Like, um... *she laughs nervously* I'm just a candy shop manager! I can't like, teleport places! That would be so cool though! Do you know how to do that? Like, um... maybe we could learn together?! *she bounces excitedly on her heels*",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "decision": {
+            "action": null,
+            "unstructured": false
+          },
+          "receipt": {
+            "status": "dialogue-only",
+            "action": null,
+            "text": "Conversation only. No physical action was requested."
+          }
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "Ordinary conversation reaches actual Cydonia without mechanics",
+      "passed": true,
+      "detail": {
+        "generated": 2
+      }
+    },
+    {
+      "name": "Kiss offer is a pending choice with no premature contact",
+      "passed": false,
+      "error": "No pending kiss"
+    },
+    {
+      "name": "Risk discussion does not accept contact",
+      "passed": true
+    },
+    {
+      "name": "Contextual yes starts the actual kiss, not a hug",
+      "passed": false,
+      "error": "Kiss did not begin"
+    },
+    {
+      "name": "Natural stop ends actual contact",
+      "passed": true
+    },
+    {
+      "name": "Negation remains conversation",
+      "passed": true
+    },
+    {
+      "name": "Real planner transfers only the owned gift",
+      "passed": false,
+      "error": "Gift not transferred exactly once"
+    },
+    {
+      "name": "Real planner orders and pays through the retail controller",
+      "passed": false,
+      "error": "No single paid order"
+    },
+    {
+      "name": "Unsupported request cannot invent travel",
+      "passed": true
+    }
+  ],
+  "errors": [
+    "page.evaluate: Error: Reach the Cherished Touch entrance outside combat first.\n    at Object.enter (https://uderiel.github.io/Epi-Center/rebuild/hub/cherished-touch.js?v=1.0.136:42:86)\n    at eval (eval at evaluate (:311:30), <anonymous>:1:24)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+  ],
+  "requests": [
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "{\"dialogue\": \"Oh hi! I\u2019m Tits! Like, um, nice to meet you! *giggles* I\u2019m doing good! How are you?\", \"action\": null}",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 6912,
+        "outputTokens": 41,
+        "costUSD": 0.00421116
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "{\"dialogue\":\"Oh wow, like, thank you! That\u2019s so sweet! *giggles and plays with her hair* Um, I\u2019d really like that too! Getting to know you sounds fun! Like, maybe we could talk more? Or um... *she tilts her head with a curious smile* What did you have in mind?\",\"action\":null}",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 6990,
+        "outputTokens": 77,
+        "costUSD": 0.00430052
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "{\"dialogue\":\"Oh yeah! Like, totally! I love chatting with customers, especially when it's quiet! It's like, way more fun than just standing here, you know? *giggles and twirls a strand of her blonde hair* Plus I get to make new friends! That's like, the best part of my job!\"}",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 7068,
+        "outputTokens": 73,
+        "costUSD": 0.00435188
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "{\"dialogue\":\"Oh! Okay, um, sure! Come on over! *she waves enthusiastically from behind the counter, her sparkly pink dress shimmering under the shop lights*\"}",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 7136,
+        "outputTokens": 40,
+        "costUSD": 0.0043647
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "{\"dialogue\":\"Oh! Like, um... *she blushes pink, playing with her hair nervously* A kiss? That's like, really forward! But um... *she giggles softly* I guess I'm kinda flattered? Just, like, let me tell you something first... *she looks up at you with her big blue eyes* Have you ever heard of the bimbo virus? It's like, super contagious and I'm a carrier... *she bites her glossy pink lower lip* It's actually really fun though! But um, I should probably warn you that if we kiss and you get infected, like, things might get a little wild... *giggles again* So um, do you still want to? Like, are you sure?\"}",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 7190,
+        "outputTokens": 161,
+        "costUSD": 0.00454356
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "{\"dialogue\":\"Oh! Like, okay! Of course we can talk more! I'm like, totally down for that! *she beams at you, her blue eyes sparkling with excitement* What do you wanna talk about? Like, um... *she leans forward slightly on the counter, making her ample cleavage more prominent* Tell me something about yourself! Or like, ask me anything you want! I'm an open book! *giggles and plays with her hair again*\",\"action\":null}",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 7335,
+        "outputTokens": 103,
+        "costUSD": 0.00456868
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "{\"dialogue\":\"Oh! Um, like, okay! That makes me so happy! *she giggles excitedly and bounces on her heels* Come around the counter then! Like, right here, okay? *she pats the spot right in front of her register* I'm gonna give you the best kiss ever! *she leans forward eagerly, her full pouty lips already parted slightly*\",\"action\":null}",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 7342,
+        "outputTokens": 90,
+        "costUSD": 0.0045585
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "{\"dialogue\":\"Oh! Like, okay! *she pulls back slightly, breathing a bit heavily, her cheeks flushed pink* That was like, really intense! *giggles softly* Are you doing okay? Like, um... *she looks at you with concern* Do you need some water or anything? I have like, pink lemonade in the fridge back there if you want some!\"}",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 7349,
+        "outputTokens": 82,
+        "costUSD": 0.00455552
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "{\"dialogue\":\"Oh! Like, um, sure! No more kissing right now if you don't want to! *she giggles and nods enthusiastically* I totally get it! Like, um... *she tilts her head, playing with her hair thoughtfully* What I enjoy about working here? Oh my gosh, like, everything! *she clasps her hands together excitedly* I just love making people happy with sweets! And like, um... *she looks around her cute pink shop proudly* Everything here is so pink and sparkly! It's like, super fun! Plus I get to wear my favorite outfits and listen to music all day while I bake! *giggles again* It's like, the best job ever! Do you like working wherever you work? Like, um... what do you do?\"}",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 7409,
+        "outputTokens": 176,
+        "costUSD": 0.00470516
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "{\"dialogue\":\"Oh my gosh! Like, really?! For me?! *she squeals excitedly, her eyes lighting up as she claps her hands together* This is like, totally the cutest thing ever! *she carefully takes the pink plush bunny from you, holding it close to her ample chest* I love pink things! And bunnies! This is like, um... *she nuzzles the soft plush against her cheek* Soooo adorable! Thank you so much! You're like, the best customer ever! *she giggles and bounces excitedly on her heels* Do you have any other gifts for me? Like, um... *she looks at you hopefully with big innocent blue eyes*\"}",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 7418,
+        "outputTokens": 156,
+        "costUSD": 0.00468966
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "{\"dialogue\":\"Oh! Like, okay! One coffee coming right up! For here, you said? Like, um... *she turns to grab a cup, her ample rear swaying in that tight pink mini dress as she moves around behind the counter* Do you want like, any sugar or cream in it? Or just black? *she asks cheerfully while pouring the hot coffee into a pink-striped cup, occasionally glancing back at you with a sweet smile*\"}",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 7455,
+        "outputTokens": 96,
+        "costUSD": 0.00465506
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "{\"dialogue\":\"Like, okay! Let me ring that up for you! *she smiles brightly and starts tapping at the register, her fingers moving quickly across the keys* That'll be like, um... *she counts up the total* Fifteen gold, please! *she giggles and looks at you expectantly, waiting for payment*\"}",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 7467,
+        "outputTokens": 72,
+        "costUSD": 0.00462932
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "{\"dialogue\":\"Oh! Like, um... teleport to the moon?! *she giggles and tilts her head, playing with a strand of her blonde hair* That sounds like, super fun! But like... *she looks around her shop, then back at you with a puzzled expression* I don't think I can do that? Like, um... *she laughs nervously* I'm just a candy shop manager! I can't like, teleport places! That would be so cool though! Do you know how to do that? Like, um... maybe we could learn together?! *she bounces excitedly on her heels*\"}",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 7464,
+        "outputTokens": 134,
+        "costUSD": 0.00469704
+      }
+    }
+  ],
+  "before": {
+    "releaseVersion": "1.0.135",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "actionProtocol": "npc-actions-v1",
+    "model": "TheDrummer/Cydonia-24B-v4.3",
+    "budget": {
+      "month": "2026-11",
+      "spentUSD": 0.754566,
+      "reservedUSD": 0,
+      "limitUSD": 50,
+      "remainingUSD": 49.245434,
+      "inputTokens": 1125991,
+      "outputTokens": 64484,
+      "requests": 626,
+      "blocked": false
+    }
+  }
+}

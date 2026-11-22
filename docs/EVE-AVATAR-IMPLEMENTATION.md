@@ -1,0 +1,13 @@
+# Eve — approved avatar integration
+
+Eve’s revised full24-field avatar and actual displayed portrait are owner-approved,implemented and verified locally. Her adult female-presenting digital blue-light avatar has short pixie hair,a pixie-like face,cyan eyes,a futuristic latex-like one-piece suit with cyan circuit seams,bare hands and bare size5 visual feet (US women reference). Description is shared by the catalogue,existing NPC help-channel avatar card and outgoing context. Visible digits/nail outlines are projection shapes; no biological skin,organs,mass,needs,inventory or human-reference measurements. Genital/physiology fields remain inapplicable. The approved portrait is unchanged,displayed as a reference,with explicit remote/no-local-hologram status outside the existing Spire/eight-Central-Hub projection areas. Existing help and travel controls remain.2,262 runtime cases/161 suites and41 browser checks pass (avatar6,NPC24,current body9,navigation2). All12 connected assets decode;5 profile states lack consumers (Pri,Preeti,three variants); Dart remains shared-only. No paid Cydonia call,new image,worker change or publication. Next is Erin’s complete form-appearance proposal,unapproved and unapplied:preserve5ft4/114lb/high arches/athletic full-bodied frame/green eyes/copper-red hair and existing portrait; propose US women6,DDcup,light skin and regional details. Exact age remains unspecified.23-stage progression,original body,mastery/heels/release and needs mechanics remain unchanged.
+
+## Shared sources and scope
+
+- eve-appearance.js owns the approved description,ordered components,portrait and existing nine-location policy.
+- appearance-catalog.js exposes rendered appearance facts without a human body or measurement matrix. An explicit projection-only visual opt-in preserves visible fingers; object physiology protection remains intact.
+- appearance-profiles-ui.js connects the reference card to the existing recipient/channel controls,without a new navigation tab or replacing the composer. The portrait is not evidence of actual scene projection.
+- ai-context.js and ai-ui.js deliver the description and reference-only/physicalBody:false/location-policy metadata through the current worker; requested regions remain speaker-specific and separate from player appearance.
+- player-guide-ui.js retains existing ring/remote behavior; legacy fixture fallback matches the same policy.
+
+Validation used local synthetic saves and simulated responses,not live Cydonia acceptance. General prose correctness remains separately open. No worker deployment,owner-save rewrite or publication.

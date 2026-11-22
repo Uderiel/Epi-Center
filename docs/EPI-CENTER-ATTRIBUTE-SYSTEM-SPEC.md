@@ -1,3 +1,7 @@
+## v1.0.137 appearance integration
+
+The appearance calculator supplies descriptive measurements and generated Build;it grants no attributes,mastery,combat bonuses or equipment. Nonhuman anatomy descriptions do not grant capabilities. Existing approved illness redistribution,form attributes,ownership and permanent-base rules remain. Publication/evidence:releases/v1.0.137-release-summary.json.
+
 > Owner rule update, v1.0.115: reaching zero Resolve while occupying an unmastered form permanently binds that form. This supersedes older zero-Resolve desperate-resistance/recovery/escape guidance below. Spending the last 3 Resolve also triggers binding before mastery is awarded. Base humans and already-mastered forms are exempt; later Resolve recovery does not undo binding. See [current rule and corrections](RESOLVE-BINDING-AND-FOOTWEAR-CORRECTIONS.md).
 
 # Epi-Center — Player Attribute System (Owner Proposal, 2026-10-26)

@@ -1,0 +1,35 @@
+{
+  "worker": "request-handoff-v8",
+  "modelCalls": 34,
+  "costUSD": 0.06854232000000003,
+  "unsettledRunReservationUSD": 0,
+  "acceptance": false,
+  "paidRetriesStopped": true,
+  "preservedOldReservation": true,
+  "inventory": {
+    "humanNPCs": [
+      "Richard Carter",
+      "Daniel Mercer",
+      "Nadia Voss",
+      "Priya Shah",
+      "Charity",
+      "Tits"
+    ],
+    "otherActors": [
+      "Eve (remote/projection helper)",
+      "Dart (Doberman)"
+    ],
+    "forms": [
+      "Erin",
+      "Kibbles (unassigned/male/female identity variants)",
+      "Priya cat (Pri/Preeti)",
+      "Priya flats (object body)"
+    ],
+    "additionalTargetProfiles": [
+      "Physical permanent base",
+      "Mental permanent base",
+      "Arousal permanent base"
+    ]
+  },
+  "profileNormalizationImplemented": false
+}

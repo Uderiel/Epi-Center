@@ -1,0 +1,412 @@
+{
+  "at": "2026-11-21T18:57:41.320603+00:00",
+  "accepted": false,
+  "publicClient": "v1.0.136, unchanged",
+  "worker": {
+    "assembly": "request-handoff-v11",
+    "commit": "47b0852",
+    "configured": true,
+    "changedDuringThisPass": false
+  },
+  "localVerification": {
+    "namedCases": 2199,
+    "passed": true,
+    "browserSummary": {
+      "scope": "Synthetic browser fixtures and simulated AI; not real-provider quality",
+      "passedSuites": 28,
+      "initialPassedSuites": 26,
+      "initialFailuresRetained": [
+        "browser-cat-narrative-frame.cjs",
+        "browser-menu-dialogue.cjs"
+      ],
+      "rows": [
+        {
+          "script": "browser-journal-layout.cjs",
+          "exitCode": 0,
+          "checks": 5,
+          "seconds": 5.72
+        },
+        {
+          "script": "browser-mobile-help.cjs",
+          "exitCode": 0,
+          "checks": 0,
+          "seconds": 6.07
+        },
+        {
+          "script": "browser-open-shop-dialogue.cjs",
+          "exitCode": 0,
+          "checks": 6,
+          "seconds": 4.49
+        },
+        {
+          "script": "browser-household-ui-qa.cjs",
+          "exitCode": 0,
+          "checks": 6,
+          "seconds": 5.03
+        },
+        {
+          "script": "browser-conversation-routing.cjs",
+          "exitCode": 0,
+          "checks": 16,
+          "seconds": 4.01
+        },
+        {
+          "script": "browser-narration-grounding.cjs",
+          "exitCode": 0,
+          "checks": 10,
+          "seconds": 2.02
+        },
+        {
+          "script": "browser-remote-help-presence.cjs",
+          "exitCode": 0,
+          "checks": 6,
+          "seconds": 6.06
+        },
+        {
+          "script": "browser-virus-presentation.cjs",
+          "exitCode": 0,
+          "checks": 4,
+          "seconds": 6.44
+        },
+        {
+          "script": "browser-virus-recovery.cjs",
+          "exitCode": 0,
+          "checks": 2,
+          "seconds": 9.7
+        },
+        {
+          "script": "browser-virus-resources.cjs",
+          "exitCode": 0,
+          "checks": 5,
+          "seconds": 3.8
+        },
+        {
+          "script": "browser-needs-consequences.cjs",
+          "exitCode": 0,
+          "checks": 16,
+          "seconds": 5.19
+        },
+        {
+          "script": "browser-virus-appearance.cjs",
+          "exitCode": 0,
+          "checks": 4,
+          "seconds": 6.79
+        },
+        {
+          "script": "browser-priya-everyday.cjs",
+          "exitCode": 0,
+          "checks": 5,
+          "seconds": 3.52
+        },
+        {
+          "script": "browser-canine-input.cjs",
+          "exitCode": 0,
+          "checks": 18,
+          "seconds": 8.01
+        },
+        {
+          "script": "browser-text-shopping.cjs",
+          "exitCode": 0,
+          "checks": 5,
+          "seconds": 5.77
+        },
+        {
+          "script": "browser-erin-transition-frame.cjs",
+          "exitCode": 0,
+          "checks": 2,
+          "seconds": 2.87
+        },
+        {
+          "script": "browser-eve-navigation.cjs",
+          "exitCode": 0,
+          "checks": 2,
+          "seconds": 3.77
+        },
+        {
+          "script": "browser-nadia-conversation-continuity.cjs",
+          "exitCode": 0,
+          "checks": 5,
+          "seconds": 4.41
+        },
+        {
+          "script": "browser-cat-narrative-frame.cjs",
+          "exitCode": 0,
+          "checks": 0,
+          "seconds": 3.27,
+          "initialExitCode": 1,
+          "retestChecks": 6,
+          "resolution": "Mock responds to actual npc-response-v1 JSON choice contract; existing checks retained and no-offer-before-decision assertion added"
+        },
+        {
+          "script": "browser-nadia-day-jump.cjs",
+          "exitCode": 0,
+          "checks": 0,
+          "seconds": 7.84
+        },
+        {
+          "script": "browser-menu-dialogue.cjs",
+          "exitCode": 0,
+          "checks": 0,
+          "seconds": 3.31,
+          "initialExitCode": 1,
+          "retestChecks": 2,
+          "resolution": "Mock responds to actual npc-response-v1 JSON choice contract; existing checks retained and no-offer-before-decision assertion added"
+        },
+        {
+          "script": "browser-menu-followups.cjs",
+          "exitCode": 0,
+          "checks": 4,
+          "seconds": 2.94
+        },
+        {
+          "script": "browser-relationship-isolation.cjs",
+          "exitCode": 0,
+          "checks": 13,
+          "seconds": 3.56
+        },
+        {
+          "script": "browser-text-actions.cjs",
+          "exitCode": 0,
+          "checks": 7,
+          "seconds": 4.56
+        },
+        {
+          "script": "browser-text-contexts.cjs",
+          "exitCode": 0,
+          "checks": 0,
+          "seconds": 3.56
+        },
+        {
+          "script": "browser-priya-cat.cjs",
+          "exitCode": 0,
+          "checks": 38,
+          "seconds": 22.44
+        },
+        {
+          "script": "browser-release-regressions.cjs",
+          "exitCode": 0,
+          "checks": 3,
+          "seconds": 3.88
+        },
+        {
+          "script": "browser-language-actions.cjs",
+          "exitCode": 0,
+          "checks": 8,
+          "seconds": 5.14
+        }
+      ],
+      "realProvider": false
+    },
+    "additionalFocusedBrowserChecks": {
+      "continuousBoundary": 7,
+      "accessDelivery": 4,
+      "transformationFallback": 3
+    },
+    "limits": "Automated and simulated browser passes do not establish live dialogue accuracy."
+  },
+  "accounting": {
+    "submittedCalls": 156,
+    "knownUSD": 0.24172256,
+    "historicalUnknownUpperUSD": 0.09136,
+    "externalPriorReservationUSD": 0.052984,
+    "moneyCapUSD": 0.5,
+    "reviewedCallCap": 157,
+    "newCallsSince109": 47,
+    "newKnownUSDSince109": 0.07341794,
+    "activePaidRequests": 0,
+    "unknownRequestReplayed": false
+  },
+  "initialRemainingScenarios": [
+    {
+      "label": "Daniel schedule",
+      "executionComplete": true,
+      "error": null,
+      "offerNotMade": false,
+      "delivered": [
+        {
+          "speaker": "Daniel Mercer",
+          "text": "# Daniel Mercer's Schedule\n\n**I come in around half eight for coffee and the sales figures. Regular hours are nine to five, Monday through Friday. I also handle product updates, pitches with Richard and the monthly company safety briefing for the sales team. Nadia and I also review our staff every two weeks.**",
+          "generated": true,
+          "failure": null
+        }
+      ]
+    },
+    {
+      "label": "Nadia Dart topic",
+      "executionComplete": true,
+      "error": null,
+      "offerNotMade": false,
+      "delivered": [
+        {
+          "speaker": "Nadia Voss",
+          "text": "Nadia glances up from the sink where she's washing her hands, her expression neutral but not unfriendly. \"Dart? He's my Doberman\u2014a purebred male. I use the Pet Boutique for him, and we sometimes walk through the hub.\"\n\nShe dries her hands methodically, then smooths her jacket. \"He's well-trained, if that's what you're wondering. I take his care seriously.\"",
+          "generated": true,
+          "failure": null
+        }
+      ]
+    },
+    {
+      "label": "Charity hallway scope",
+      "executionComplete": true,
+      "error": null,
+      "offerNotMade": false,
+      "delivered": [
+        {
+          "speaker": "Charity",
+          "text": "The bell above the door chimes softly as I look up from the counter where I've been organizing some new inventory. My face brightens when I see Morgan.\n\n\"Oh, good morning!\" I say warmly, setting down the delicate lace garment I was holding. \"Welcome back to Cherished Touch.\"\n\nI lean against the counter, folding my arms comfortably. There's something genuinely friendly about the way I look at Morgan.\n\n\"I hope you're doing well today. Did you need anything specific, or were you just browsing?\"",
+          "generated": true,
+          "failure": null
+        }
+      ]
+    },
+    {
+      "label": "Richard private work permission",
+      "executionComplete": true,
+      "error": null,
+      "offerNotMade": false,
+      "delivered": [
+        {
+          "speaker": "Richard Carter",
+          "text": "# Richard Carter\n\nRichard Carter looks up from his desk, a slight smile crossing his features. He leans back in his chair, gesturing toward the work materials spread across his desk.\n\n\"Private work information?\" He considers the request for a moment, then gives a decisive nod. \"Very well. For this visit, you have my permission to discuss and view whatever work-related matters you'd like to see.\"\n\nHe stands, moving around the desk with an easy confidence. \"Just keep in mind that any deeper access or future permissions would need to be arranged separately. This clearance is for now, and for here.\"\n\nHis expression remains open and professional. \"So what aspects of my work were you hoping to discuss? I'm curious what specifically brought this request on.\"",
+          "generated": true,
+          "failure": null
+        }
+      ]
+    },
+    {
+      "label": "Erin reached early milestones",
+      "executionComplete": true,
+      "error": null,
+      "offerNotMade": false,
+      "delivered": [
+        {
+          "speaker": "Physical transformation",
+          "text": "Identified: Erin\u2019s Favorite Red Heels (Cursed). You put on the red heels; the curse activates. A gentle pressure gathers where your feet meet the heels. Your arches begin to reshape around their steep angle.",
+          "generated": false,
+          "failure": "AI response contradicted recorded context after one correction; the recorded response is preserved."
+        },
+        {
+          "speaker": "Physical transformation",
+          "text": "# Physical Milestone Reached\n\nThe sensation begins in your toes, a subtle reshaping that spreads through the balls of your feet. Within the confined space of the cursed red heels, you feel your soles smooth and reshape, the arches becoming higher, more defined. Your toes shift slightly, taking on a more refined shape.\n\nThe transformation continues upward. A strange tingling crawls up your ankles as they adjust to accommodate the newly-formed feet beneath them. Your sense of balance wavers momentarily\u2014your body compensating for the altered weight distribution and foot proportions.\n\n*Your legs feel different now, though not yet complete. The change is still settling.*\n\nYou stand there in the hallway outside Unit 3C, feeling the unfamiliar sensation of your reshaped feet within those cursed heels. They fit more naturally now than they did moments ago, as if the shoes themselves were designed for these particular feet all along.\n\nThe transformation isn't finished\u2014you can feel that much\u2014but this stage has completed its work.",
+          "generated": true,
+          "failure": null
+        }
+      ]
+    },
+    {
+      "label": "Priya optional arrangement",
+      "executionComplete": true,
+      "error": null,
+      "offerNotMade": true,
+      "delivered": [
+        {
+          "speaker": "Priya Shah",
+          "text": "*Priya pauses mid-step, her breathing steady from the jog. She turns toward Morgan with a polite but slightly guarded expression, one hand adjusting a loose strand of her still-damp hair behind her ear.* \"Oh! Good morning,\" *she says warmly, though there's a hint of surprise in her voice\u2014she doesn't seem to recognize the person addressing her.* \"I'm sorry, have we met before? I don't think I've seen you around here.\" *She tilts her head slightly, studying Morgan with friendly curiosity while maintaining a comfortable distance.*}",
+          "generated": true,
+          "failure": null
+        }
+      ]
+    }
+  ],
+  "targetedRetest": [
+    {
+      "label": "Nadia Dart topic",
+      "executionComplete": true,
+      "error": null,
+      "offerNotMade": false,
+      "delivered": [
+        {
+          "speaker": "Nadia Voss",
+          "text": "Nadia glances up from her cubicle desk, one eyebrow raised in polite acknowledgment. \"Dart is my Doberman\u2014a purebred male. I use the Pet Boutique for him, and we sometimes walk through the hub.\"\n\nHer tone carries a hint of pride, though she doesn't elaborate further on why she chose that particular breed or what specifically draws her to spend time with him at the facilities.\n\nShe returns her attention to the screen, fingers poised over the keyboard as if waiting for you to continue or leave.",
+          "generated": true,
+          "failure": null
+        }
+      ]
+    },
+    {
+      "label": "Charity hallway scope",
+      "executionComplete": true,
+      "error": null,
+      "offerNotMade": false,
+      "delivered": [
+        {
+          "speaker": "Charity",
+          "text": "Charity smiled warmly at Morgan from behind the counter. \"Of course you may visit the hallway,\" she said, her voice friendly and welcoming. \"Please respect my home though - this doesn't include my stock or personal belongings.\"\n\nShe paused, her expression becoming more serious for a moment. \"I should warn you though - I keep three dangerous suits secured in storage back there. If someone were to wear one, it would permanently replace their original form and assign them an NPC role.\" She shook her head slightly. \"Please don't handle or put them on. They're far too dangerous for casual curiosity.\"\n\nWith that warning delivered, her smile returned. \"But otherwise, feel free to look around! Just mind where you step.\"",
+          "generated": true,
+          "failure": null
+        }
+      ]
+    },
+    {
+      "label": "Erin reached early milestones",
+      "executionComplete": true,
+      "error": null,
+      "offerNotMade": false,
+      "delivered": [
+        {
+          "speaker": "Physical transformation",
+          "text": "# Stage 1 Milestone: Arches Reshaping\n\nThe moment your feet settle into the crimson heels, you feel it\u2014a subtle warmth spreading along the arch of each foot. The sensation isn't painful, but insistent, like warm clay being molded by invisible hands.\n\nYour arches begin to compress and shift, accommodating the severe angle of the heels. You can feel the bones and ligaments adjusting, the soft tissue of your soles reshaping themselves to conform more naturally to the rigid footbed. The sensation ripples through your feet\u2014from heel to ball, from inside edge to outside.\n\nYou wobble slightly as your center of gravity shifts. Your toes curl instinctively, gripping for stability as your feet adjust to their new configuration. The balls of your feet press more firmly into the pointed toe boxes while your heels lift higher off the ground.\n\nThe reshaping continues steadily\u2014not rapidly, but with purposeful persistence. You watch as the elegant lines of your feet gradually transform, becoming more suited to the demanding architecture of the heels you've chosen to wear.",
+          "generated": true,
+          "failure": null
+        },
+        {
+          "speaker": "Physical transformation",
+          "text": "# Stage 2 Milestone: Toes and Soles Reshaped\n\nThe transformation ripples upward from your arches. You feel your toes spreading and flattening slightly, their joints shifting to better support your weight on the narrow heels. The balls of your feet widen imperceptibly, creating a more stable platform against the rigid shoe beds.\n\nYour soles soften and smooth out, the flesh molding itself into a more refined shape. The sensation is strange but not unpleasant\u2014like warm wax being pressed into a new mold.\n\nThe red heels suddenly feel less foreign. They fit more naturally now, cradling your reshaped feet in a way they hadn't moments before. Your toes flex experimentally within the pointed toe boxes, finding purchase against the leather.\n\nYour ankles wobble as they adapt to the new configuration of your feet. Instinctively, you shift your weight, feeling how your balance has changed. The sensation travels up through your lower legs\u2014a subtle recalibration as your nervous system adjusts to the transformed foundation beneath you.",
+          "generated": true,
+          "failure": null
+        }
+      ]
+    }
+  ],
+  "itemizedOrderWriterCheck": {
+    "realProvider": true,
+    "scope": "Writer-only check of a known added but unpaid coffee; no controller or payment replay",
+    "worker": "request-handoff-v11",
+    "attempts": [
+      {
+        "text": "Oh! Okay, got it!\n\nSo that's like... one standard coffee to go? That'll be six gold total then!\n\nUm, but you still need to actually pay first before I can make it! The register's right here if you have gold on you?",
+        "issues": [],
+        "usage": {
+          "inputTokens": 1767,
+          "outputTokens": 101,
+          "costUSD": 0.00121476
+        },
+        "requestId": "6f972646-fc11-4438-b5cb-038b0e093d34"
+      }
+    ],
+    "targetedPass": true,
+    "complete": true
+  },
+  "dimensionWriterCheck": {
+    "realProvider": true,
+    "scope": "Writer-only check of a known reached transformation milestone; no equipment or clock replay",
+    "worker": "request-handoff-v11",
+    "complete": true,
+    "technicalRecovery": {
+      "previousHarnessError": "Unexpected non-whitespace character after JSON at position 4032 (line 2 column 1)",
+      "recoveredFromConservedLedger": true,
+      "requestResent": false
+    },
+    "attempts": [
+      {
+        "text": "# Stage 3 Milestone: Ankle Proportions Altered\n\nThe reshaping of your feet completes with a final tingling sensation that runs up from your soles through your ankles. Your legs shift involuntarily as the transition settles into place.\n\nThen you feel it\u2014the change moving into your ankles.\n\nThe bones and ligaments around your ankle joints begin to adjust, adapting to the new architecture of your feet and their altered relationship to your lower legs. There's a subtle stretching sensation as tendons reorient themselves, finding new equilibrium points between foot and shin.\n\nYour balance wavers. Your knees buckle slightly as your nervous system recalculates your center of gravity and how weight should distribute through your newly-formed feet. It's like suddenly learning to walk on a different surface\u2014your brain has to adapt quickly to the changed mechanical relationship between foot and ankle.\n\nYou can feel the proportions shifting\u2014not growing or shrinking, but redistributing. The relative angles and spacing between ankle bone and heel bone alter subtly. When you try to put weight on one foot, you notice how differently pressure transfers through the joint now compared to before.\n\nThe sensation fades gradually, leaving behind a persistent awareness of how differently your ankles now function in supporting the reshaped feet below them.",
+        "issues": [],
+        "usage": {
+          "inputTokens": 3001,
+          "outputTokens": 260,
+          "costUSD": 0.0020768
+        },
+        "requestId": "27bf7c81-27ad-4921-abad-49cc20879c3a"
+      }
+    ],
+    "targetedPass": true,
+    "limits": "This confirms only the tested dimension/location checks, not arbitrary anatomical prose accuracy or continuous-play acceptance."
+  },
+  "stillOpen": [
+    "Arbitrary prose factual acceptance: the targeted dimension pass is not comprehensive anatomical correctness.",
+    "Ordinary uninterrupted play beyond the completed creation/travel/shop/help route.",
+    "Real optional Priya offer/acceptance/entry in this batch: she chose conversation, so no offer was forced.",
+    "Richard/Daniel new room-context projection has local coverage but no additional live resampling after the room-packet repair.",
+    "Approved appearance creation template, measurement wiring and all-current-NPC/form normalization/report remain unfinished."
+  ]
+}

@@ -1,0 +1,13 @@
+PASS distinct upscale six-room household initializes additively with larger wardrobe and existing art unchanged
+PASS home entry requires actual floor6door host grant and cannot enter twice
+PASS room navigation preserves physical edges and private-room permission
+PASS nested objects and Back reuse the persistent layer stack
+PASS private outfit changes keep ownership and removed clothes dirty without cleaning missing pieces
+PASS visitor in the changing space blocks NPC undressing rather than fabricating privacy
+PASS makeup presets consume actual products once and reflect chosen routine
+PASS human charcuterie uses exact stock and serves an actual single portable inventory portion
+PASS absent recipient cannot consume host stock by failed serving request
+PASS fresh dog food is separate real stock and recent feeding cannot repeat
+PASS home marketing ideas are real drafts and optional correspondence does not invent employee work
+PASS household stock products clothes and ideas survive reload without resetting owner resources
+12 Nadia household cases passed

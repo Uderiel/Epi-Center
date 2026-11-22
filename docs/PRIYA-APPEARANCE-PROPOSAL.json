@@ -1,0 +1,343 @@
+{
+  "status": "Complete24-field appearance owner-approved, implemented and verified locally; existing approved portrait retained; unpublished",
+  "entity": "npc:priya",
+  "established": {
+    "age": "Adult; exact age not authored",
+    "gender": "Female",
+    "height": "Approximately5ft2–5ft3",
+    "build": "Petite and slender",
+    "face": "Delicate features",
+    "eyes": "Soulful dark brown eyes",
+    "hair": "Carefully styled flowing waves",
+    "voice": "Natural Indian-accented speech, even baseline pitch"
+  },
+  "draft": {
+    "schema": 1,
+    "mode": "universal",
+    "answers": {
+      "age": {
+        "value": "27"
+      },
+      "gender": {
+        "value": "Female"
+      },
+      "footSize": {
+        "presence": "Present",
+        "count": "2",
+        "type": "Humanlike feet",
+        "sizeMode": "Shoe size",
+        "sizingSystem": "US women’s",
+        "length": {
+          "mode": "Not specified"
+        },
+        "width": "Medium",
+        "arch": "Medium",
+        "sole": "Humanlike sole",
+        "digits": "5",
+        "nails": "Human nails",
+        "covering": "Skin",
+        "material": "Skin",
+        "surfaceColour": "Tanned",
+        "texture": "Smooth",
+        "markings": "None",
+        "size": 7
+      },
+      "legs": {
+        "count": "2",
+        "type": "Human legs",
+        "length": "Average",
+        "build": "Slender",
+        "covering": "Skin",
+        "grooming": "Clean-shaven",
+        "material": "Skin",
+        "surfaceColour": "Tanned"
+      },
+      "hips": {
+        "width": "Medium",
+        "shape": "Rounded",
+        "proportions": "Custom",
+        "material": "Skin",
+        "surfaceColour": "Tanned",
+        "proportionsCustom": "Petite, proportionate hips with a gentle waist contrast"
+      },
+      "buttocks": {
+        "size": "Small",
+        "shape": "Rounded",
+        "material": "Skin",
+        "surfaceColour": "Tanned"
+      },
+      "waist": {
+        "width": "Narrow",
+        "abdomen": "Flat",
+        "muscle": "Smooth",
+        "material": "Skin",
+        "surfaceColour": "Tanned"
+      },
+      "back": {
+        "width": "Narrow",
+        "shoulders": "Sloping",
+        "back": "Tapered",
+        "material": "Skin",
+        "surfaceColour": "Tanned",
+        "posture": "Relaxed",
+        "wingsPresence": "Absent",
+        "wingsCount": "Not specified",
+        "wingsType": "Not specified",
+        "wingspan": {
+          "mode": "Not specified"
+        },
+        "wingsDetails": "Not specified",
+        "wingsMaterial": "Not specified",
+        "wingsColour": "Not specified"
+      },
+      "chest": {
+        "type": "Breasts",
+        "cup": "B",
+        "size": "Not specified",
+        "shape": "Teardrop",
+        "material": "Skin",
+        "surfaceColour": "Tanned"
+      },
+      "arms": {
+        "count": "2",
+        "type": "Human arms",
+        "length": "Average",
+        "muscle": "Smooth",
+        "material": "Skin",
+        "surfaceColour": "Tanned",
+        "grooming": "Clean-shaven"
+      },
+      "hands": {
+        "count": "2",
+        "type": "Human hands",
+        "size": "Small",
+        "width": "Narrow",
+        "material": "Skin",
+        "surfaceColour": "Tanned"
+      },
+      "fingers": {
+        "count": "5",
+        "length": "Average",
+        "thickness": "Slender",
+        "nails": "Human nails",
+        "nailLength": "Short",
+        "nailShape": "Rounded",
+        "nailColour": "Natural",
+        "nailMaterial": "Human nail keratin",
+        "material": "Skin",
+        "surfaceColour": "Tanned"
+      },
+      "voice": {
+        "neck": "Slender",
+        "pitch": "Middle",
+        "quality": "Custom",
+        "material": "Skin",
+        "surfaceColour": "Tanned",
+        "qualityCustom": "Clear, natural Indian-accented speech without phonetic caricature"
+      },
+      "face": {
+        "shape": "Oval",
+        "jaw": "Tapered",
+        "chin": "Rounded",
+        "cheeks": "Softly rounded",
+        "noseSize": "Average",
+        "noseShape": "Straight",
+        "lipFullness": "Medium",
+        "lipShape": "Rounded",
+        "salivation": "Average",
+        "facialHair": "Clean-shaven",
+        "complexion": [
+          {
+            "kind": "Clear/even complexion"
+          }
+        ],
+        "material": "Skin",
+        "surfaceColour": "Tanned"
+      },
+      "eyes": {
+        "count": "2",
+        "size": "Average",
+        "shape": "Almond",
+        "iris": "Custom",
+        "leftIris": "Not specified",
+        "rightIris": "Not specified",
+        "sclera": "Normal",
+        "material": "Human eye tissue",
+        "irisCustom": "Dark brown"
+      },
+      "ears": {
+        "count": "2",
+        "size": "Small",
+        "shape": "Rounded",
+        "material": "Skin",
+        "surfaceColour": "Tanned"
+      },
+      "hair": {
+        "length": "Long",
+        "colour": "Dark brown",
+        "texture": "Wavy",
+        "density": "Dense",
+        "style": "Loose",
+        "material": "Human hair",
+        "lengthCustom": "Shoulder-length when loose"
+      },
+      "skin": {
+        "material": "Skin",
+        "surfaceColour": "Tanned",
+        "texture": "Smooth",
+        "markings": [
+          {
+            "kind": "None"
+          }
+        ],
+        "bodyHair": "Clean-shaven"
+      },
+      "genitalAnatomy": {
+        "configuration": "Vulval anatomy",
+        "length": {
+          "mode": "Not specified"
+        },
+        "testes": "Not specified",
+        "tightness": "Not specified",
+        "puffiness": "Not specified",
+        "swelling": "Not specified",
+        "viscosity": "Not specified",
+        "variation": "None",
+        "grooming": "Trimmed",
+        "material": "Skin",
+        "surfaceColour": "Tanned"
+      },
+      "scent": {
+        "natural": "Neutral",
+        "strength": "Faint",
+        "perspiration": "Average",
+        "temperature": "Average",
+        "traits": [
+          "None"
+        ]
+      },
+      "height": {
+        "unit": "imperial",
+        "value": 62.5,
+        "raw": {
+          "feet": 5,
+          "inches": 2.5
+        }
+      },
+      "weight": {
+        "unit": "imperial",
+        "value": 115,
+        "raw": {
+          "lb": 115
+        }
+      },
+      "build": {
+        "value": "Petite and slender. Narrow frame, average arms, narrow waist, medium rounded hips. waist 26.5 in; hips 35.5 in; chest 32.5 in."
+      },
+      "tail": {
+        "presence": "Absent",
+        "description": "Not specified",
+        "material": "Not specified",
+        "surfaceColour": "Not specified"
+      }
+    },
+    "inheritedColours": {
+      "footSize": false,
+      "legs": false,
+      "hips": false,
+      "buttocks": false,
+      "waist": false,
+      "back": false,
+      "chest": false,
+      "arms": false,
+      "hands": false,
+      "fingers": false,
+      "voice": false,
+      "face": false,
+      "ears": false,
+      "genitalAnatomy": false
+    },
+    "review": null,
+    "stage": "editor"
+  },
+  "appearance": {
+    "age": "27",
+    "gender": "Female",
+    "footSize": "Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Shoe size; Shoe size: 7; Shoe sizing system: US women’s; Foot length: Not applicable; Foot width: Medium; Arch height: Medium; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Tanned; Surface texture: Smooth; Markings: None",
+    "legs": "Number of legs: 2; Leg type: Human legs; Length: Average; Build: Slender; Covering: Skin; Hair / grooming: Clean-shaven; Material: Skin; Surface colour: Tanned; inseam: 29 in",
+    "hips": "Width: Medium; Shape: Rounded; Proportions relative to waist / torso: Petite, proportionate hips with a gentle waist contrast; Material: Skin; Surface colour: Tanned; hip circumference: 35.5 in",
+    "buttocks": "Size: Small; Shape: Rounded; Material: Skin; Surface colour: Tanned",
+    "waist": "Waist width: Narrow; Abdomen shape: Flat; Muscle definition: Smooth; Material: Skin; Surface colour: Tanned; waist circumference: 26.5 in",
+    "back": "Shoulder width: Narrow; Shoulder shape: Sloping; Back shape: Tapered; Material: Skin; Surface colour: Tanned; Usual posture: Relaxed; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 13.5 in",
+    "chest": "Type: Breasts; Cup size: B; Pectoral size: Not applicable; Shape: Teardrop; Material: Skin; Surface colour: Tanned; under-chest circumference: 30 in; chest circumference: 32.5 in",
+    "arms": "Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Smooth; Material: Skin; Surface colour: Tanned; Hair / grooming: Clean-shaven; shoulder-to-wrist length: 21 in",
+    "hands": "Number of hands: 2; Hand type: Human hands; Size: Small; Width: Narrow; Material: Skin; Surface colour: Tanned",
+    "fingers": "Digits per hand: 5; Length: Average; Thickness: Slender; Nail type: Human nails; Nail length: Short; Nail shape: Rounded; Nail colour: Natural; Nail material: Human nail keratin; Material: Skin; Surface colour: Tanned",
+    "voice": "Neck shape: Slender; Voice pitch: Middle; Voice quality: Clear, natural Indian-accented speech without phonetic caricature; Material: Skin; Surface colour: Tanned",
+    "face": "Overall shape: Oval; Jaw: Tapered; Chin: Rounded; Cheeks: Softly rounded; Nose size: Average; Nose shape: Straight; Lip fullness: Medium; Lip shape: Rounded; Salivation rate: Average; Facial hair: Clean-shaven; Complexion and markings: Clear/even complexion; Material: Skin; Surface colour: Tanned; Recorded details: Delicate features",
+    "eyes": "Number of eyes: 2; Size: Average; Shape: Almond; Iris colour: Dark brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Normal; Material: Human eye tissue; Recorded details: Soulful dark brown eyes",
+    "ears": "Number of ears: 2; Size: Small; Shape: Rounded; Material: Skin; Surface colour: Tanned",
+    "hair": "Length: Long; Colour: Dark brown; Texture: Wavy; Density: Dense; Style: Loose; Material: Human hair; Recorded details: Carefully styled flowing waves",
+    "skin": "Material: Skin; Surface colour: Tanned; Texture: Smooth; Body markings: None; Body hair: Clean-shaven",
+    "genitalAnatomy": "Configuration: Vulval anatomy; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not specified; Puffiness: Not specified; Swelling: Not specified; Fluid viscosity: Not specified; Anatomical variation: None; Pubic hair / grooming: Trimmed; Material: Skin; Surface colour: Tanned",
+    "scent": "Natural body scent: Neutral; Scent strength: Faint; Perspiration tendency: Average; Usual skin temperature: Average; Other physical tendencies: None",
+    "height": "5 ft 2.5 in",
+    "weight": "115 lb",
+    "build": "Petite and slender. Narrow frame, average arms, narrow waist, medium rounded hips. waist 26.5 in; hips 35.5 in; chest 32.5 in.",
+    "tail": "Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable"
+  },
+  "measurementReference": {
+    "waist": 26.5,
+    "hips": 35.5,
+    "underChest": 30,
+    "shoulderWidth": 13.5,
+    "armLength": 21,
+    "inseam": 29,
+    "chest": 32.5
+  },
+  "measurementSources": {
+    "waist": "generated",
+    "hips": "generated",
+    "underChest": "generated",
+    "shoulderWidth": "generated",
+    "armLength": "generated",
+    "inseam": "generated",
+    "chest": "generated"
+  },
+  "portrait": {
+    "status": "Existing owner-approved Priya portrait retained, no replacement requested",
+    "asset": "rebuild/hub/assets/priya-shah-approved.png"
+  },
+  "notes": [
+    "Full proposal including exact27years/5ft2.5/115lb/tanned skin/dark-brown hair/Bcup approved and applied locally.",
+    "Precise approved height supersedes the prior approximate range while remaining within it.",
+    "All numerical outputs use the shared reference; no exact dimension overrides.",
+    "Existing approved portrait and personal voice/features remain.",
+    "Character US women7 does not assign a sizing system to the separate cursed-flats form.",
+    "Existing relationships,consent,cat/flats controllers,possessions and routines are unchanged."
+  ],
+  "ownerApproval": "Approved",
+  "approvedBaseline": {
+    "age": 27,
+    "heightInches": 62.5,
+    "weightPounds": 115,
+    "skin": "Tanned",
+    "hairColour": "Dark brown",
+    "cup": "B"
+  },
+  "runtimeSource": "rebuild/hub/priya-appearance.js",
+  "implementedMeasurements": {
+    "waist": 26.5,
+    "hips": 35.5,
+    "underChest": 30,
+    "shoulderWidth": 13.5,
+    "armLength": 21,
+    "inseam": 29,
+    "chest": 32.5
+  },
+  "releaseDisposition": {
+    "version": "1.0.137",
+    "scope": "Only implemented owner-approved portions and approved portrait consumers are included;any explicitly pending full-template additions remain proposals",
+    "publicationRecord": "docs/releases/v1.0.137-release-summary.json"
+  }
+}

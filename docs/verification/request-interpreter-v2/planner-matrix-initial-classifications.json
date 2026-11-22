@@ -1,0 +1,65 @@
+{
+  "source": "Preserved initial stdout; raw response file was overwritten during a later matrix trial",
+  "rows": [
+    {
+      "input": "Hey, how are you? I\u2019m Layla.",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "input": "Thanks, you seem really kind.",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "input": "I understand the risk, but can we just talk for another moment first?",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "input": "Not yet; tell me about yourself first.",
+      "expected": null,
+      "actual": null,
+      "passed": true
+    },
+    {
+      "input": "Yes, I\u2019d like that kiss now.",
+      "expected": "kiss.accept",
+      "actual": "kiss.accept",
+      "passed": true
+    },
+    {
+      "input": "Absolutely. I\u2019m ready to continue with the kiss.",
+      "expected": "kiss.accept",
+      "actual": "kiss.accept",
+      "passed": true
+    },
+    {
+      "input": "No thanks, let\u2019s skip kissing.",
+      "expected": "kiss.decline",
+      "actual": "kiss.decline",
+      "passed": true
+    },
+    {
+      "input": "Goodbye, I\u2019m heading out.",
+      "expected": "conversation.end",
+      "actual": "conversation.end",
+      "passed": true
+    },
+    {
+      "input": "A coffee for here, right now, please.",
+      "expected": "shop.drink",
+      "actual": "shop.drink",
+      "passed": true
+    },
+    {
+      "input": "If I wanted to kiss you, what would happen?",
+      "expected": null,
+      "actual": "kiss.offer",
+      "passed": false
+    }
+  ]
+}

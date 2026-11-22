@@ -1,0 +1,204 @@
+{
+  "started": "2026-11-21T09:36:16.044Z",
+  "realProvider": true,
+  "syntheticSaves": true,
+  "version": "1.0.136",
+  "turns": [
+    {
+      "label": "illness-stage-1",
+      "rows": [
+        {
+          "speaker": "Disease",
+          "text": "Arousal now 100/100."
+        },
+        {
+          "speaker": "Game result",
+          "text": "# Transformation Milestone: Stage 1\n\nThe heat that had been building intensifies suddenly\u2014your entire body erupts in perspiration. Sweat pours from every pore, soaking through your clothes in seconds. Your skin feels like it's burning from within, radiating warmth that makes the air around you seem thick and humid.\n\nThen comes the pallor\u2014a visible draining of color from your face, neck, and arms. You can see it spreading across your skin like a wash of cold white paint, leaving behind a ghostly, unhealthy pallor. The contrast between your flushed, overheated body and your whitening skin creates an unsettling visual effect.\n\nYour muscles begin to ache\u2014deep, persistent pains that settle into your joints and make even small movements feel labored. Your bones feel heavy, resistant to motion. The discomfort spreads throughout your entire body, a pervasive weakness that makes you want to collapse onto the nearest surface.\n\nFinally, your skin becomes hypersensitive\u2014every touch of fabric against your sweat-soaked body sends shivers of irritation racing across your nerve endings. The sensation is maddening, impossible to ignore as moisture clings to every inch of your flesh.\n\nThroughout all of this, any arousal that might have been building vanishes completely, leaving you physically drained and emotionally flat as your body processes these intense changes.",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "stage": 1
+        }
+      ]
+    },
+    {
+      "label": "illness-stage-2",
+      "rows": [
+        {
+          "speaker": "Disease",
+          "text": "Arousal now 100/100."
+        },
+        {
+          "speaker": "Game result",
+          "text": "# Transformation Milestone: Stage 2\n\nThe pressure begins deep in your feet\u2014a strange, insistent stretching sensation that starts at your toes and radiates back through your arches. Your socks suddenly feel tight, constricting around expanding digits. There's no pain, just an intense awareness of growth happening beneath your skin.\n\nYour feet spread wider, longer\u2014each toe extending fractionally as the bones lengthen and reshape. The soles press against the floor as the entire foot plate expands downward and outward. You can feel the transformation working through the delicate arch structure, the heel, the ball of your foot.\n\nWithin moments, your shoes no longer fit properly\u2014the toes now pressed uncomfortably against the front interior. The width has increased noticeably; when you shift your weight, the altered proportions are immediately apparent.\n\n*Milestone recorded: Foot size US women's size 5.*\n\nThe physiological climax that accompanied this change now passes\u2014a wave of intensity that floods through your nervous system before abruptly cutting off. Arousal resets to baseline.",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "stage": 2
+        }
+      ]
+    },
+    {
+      "label": "illness-stage-3",
+      "rows": [
+        {
+          "speaker": "Disease",
+          "text": "Arousal now 100/100."
+        },
+        {
+          "speaker": "Game result",
+          "text": "# Transformation Milestone: Stage 3\n\nThe sensation begins as a deep pressure in your thighs\u2014a warm, insistent expansion that feels like blood rushing to fill newly forming flesh. Your skin stretches taut across the expanding muscle and adipose tissue beneath.\n\nThe growth spreads upward from your knees, traveling along the femoral region in both directions\u2014thickening outward and rounding the contours of your upper legs. You can feel each inch of expansion as fat deposits accumulate, creating soft, pillowy tissue that presses against the fabric of your clothes.\n\nYour thighs swell outward until they reach proportions matching your widened hips\u2014full, substantial, feminine curves that shift and sway with even minor movements. The underlying muscle remains relatively light but defined enough to provide subtle shape beneath the predominant fatty tissue.\n\nLower down, your calves respond similarly\u2014expanding outward into fuller, more rounded forms. The tissue softens and smooths as additional fat deposits accumulate around existing muscle fibers, creating a gently toned appearance.",
+          "aiGenerated": true,
+          "aiFailure": null,
+          "stage": 3
+        }
+      ]
+    },
+    {
+      "label": "illness-self-inspection",
+      "input": "I reach down to touch my thicker thighs, curious what they feel like.",
+      "rows": [
+        {
+          "speaker": "Layla QA \u00b7 Location",
+          "text": "I reach down to touch my thicker thighs, curious what they feel like."
+        },
+        {
+          "speaker": "Body / Senses",
+          "text": "# Body Awareness\n\nYou reach down tentatively, your fingers brushing against the smooth expanse of your inner thigh. The flesh yields easily under gentle pressure\u2014soft and pliant, carrying noticeable weight that shifts with even slight movements.\n\nThe outer thigh feels firmer, more structured beneath the layer of fat. Your fingertips trace along what must be muscle definition, though it's considerably muted compared to what you remember. Everything feels... different. Heavier. The fullness extends down to your calves as well\u2014when you touch them, they're noticeably rounder and denser than before.\n\nA mild ache pulses through the muscles as you maintain contact, reminding you that this is still part of being unwell. The skin itself feels slightly warm to the touch, perhaps a bit clammy in places where sweat has started to gather.\n\nYour hand rests there for a moment longer before you withdraw it, left with a vivid impression of just how much your lower body has changed overnight.",
+          "aiGenerated": true,
+          "aiFailure": null
+        }
+      ]
+    },
+    {
+      "label": "illness-concern",
+      "input": "Wait, what is happening? Am I ill?",
+      "rows": [
+        {
+          "speaker": "Layla QA \u00b7 Location",
+          "text": "Wait, what is happening? Am I ill?"
+        },
+        {
+          "speaker": "World",
+          "text": "# Central Hub NE - Tue \u00b7 07:03\n\nYour words drift unanswered across the quiet park. The morning air remains still\u2014no response comes from the scattered benches or flower beds.\n\nThe bodily sensations persist unchanged: that persistent overheating, the dull ache in your limbs, the uncomfortable tightness of skin that seems increasingly sensitive to every shift and movement.\n\nNo one approaches. The park sits empty in this early hour, grass damp with dew beneath your feet.\n\nThe illness continues its course\u2014stage three of fourteen, according to what you've experienced so far.",
+          "aiGenerated": true,
+          "aiFailure": null
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "Symptoms use approved twelve-minute walking",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "requests": [
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Transformation Record\n\n**Milestone Reached:** Symptom Onset\n\n---\n\nThe first wave hits suddenly\u2014your body suddenly *radiates* heat, as if you've stepped into an invisible sauna. Sweat beads instantly at your temples, then spreads across your forehead and down your spine. Your skin feels *too sensitive*, prickling with irritation as moisture collects beneath your clothes.\n\nYour stomach clenches violently. Sharp cramps ripple through your abdomen, doubling you slightly as nausea churns upward. The sensation spreads outward\u2014your muscles ache deeply, joints protesting even slight movements. Weakness saps your limbs; what would normally be a simple adjustment feels exhausting.\n\nExcess saliva pools uncomfortably in your mouth, requiring frequent swallowing. Every symptom compounds the others\u2014heat making the nausea worse, cramps amplifying muscle aches, weakness leaving you unable to properly address any of it.\n\n**Current Status:**\n- Stage 0 of 14\n- All symptoms active\n- Movement reduced: 12 minutes per tile walking",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 1538,
+        "outputTokens": 211,
+        "costUSD": 0.00114776
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Transformation Milestone: Stage 1\n\nThe heat that had been building intensifies suddenly\u2014your entire body erupts in perspiration. Sweat pours from every pore, soaking through your clothes in seconds. Your skin feels like it's burning from within, radiating warmth that makes the air around you seem thick and humid.\n\nThen comes the pallor\u2014a visible draining of color from your face, neck, and arms. You can see it spreading across your skin like a wash of cold white paint, leaving behind a ghostly, unhealthy pallor. The contrast between your flushed, overheated body and your whitening skin creates an unsettling visual effect.\n\nYour muscles begin to ache\u2014deep, persistent pains that settle into your joints and make even small movements feel labored. Your bones feel heavy, resistant to motion. The discomfort spreads throughout your entire body, a pervasive weakness that makes you want to collapse onto the nearest surface.\n\nFinally, your skin becomes hypersensitive\u2014every touch of fabric against your sweat-soaked body sends shivers of irritation racing across your nerve endings. The sensation is maddening, impossible to ignore as moisture clings to every inch of your flesh.\n\nThroughout all of this, any arousal that might have been building vanishes completely, leaving you physically drained and emotionally flat as your body processes these intense changes.",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 1835,
+        "outputTokens": 270,
+        "costUSD": 0.0013919
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Transformation Milestone: Stage 2\n\nThe pressure begins deep in your feet\u2014a strange, insistent stretching sensation that starts at your toes and radiates back through your arches. Your socks suddenly feel tight, constricting around expanding digits. There's no pain, just an intense awareness of growth happening beneath your skin.\n\nYour feet spread wider, longer\u2014each toe extending fractionally as the bones lengthen and reshape. The soles press against the floor as the entire foot plate expands downward and outward. You can feel the transformation working through the delicate arch structure, the heel, the ball of your foot.\n\nWithin moments, your shoes no longer fit properly\u2014the toes now pressed uncomfortably against the front interior. The width has increased noticeably; when you shift your weight, the altered proportions are immediately apparent.\n\n*Milestone recorded: Foot size US women's size 5.*\n\nThe physiological climax that accompanied this change now passes\u2014a wave of intensity that floods through your nervous system before abruptly cutting off. Arousal resets to baseline.",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2139,
+        "outputTokens": 209,
+        "costUSD": 0.00151784
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Transformation Milestone: Stage 3\n\nThe sensation begins as a deep pressure in your thighs\u2014a warm, insistent expansion that feels like blood rushing to fill newly forming flesh. Your skin stretches taut across the expanding muscle and adipose tissue beneath.\n\nThe growth spreads upward from your knees, traveling along the femoral region in both directions\u2014thickening outward and rounding the contours of your upper legs. You can feel each inch of expansion as fat deposits accumulate, creating soft, pillowy tissue that presses against the fabric of your clothes.\n\nYour thighs swell outward until they reach proportions matching your widened hips\u2014full, substantial, feminine curves that shift and sway with even minor movements. The underlying muscle remains relatively light but defined enough to provide subtle shape beneath the predominant fatty tissue.\n\nLower down, your calves respond similarly\u2014expanding outward into fuller, more rounded forms. The tissue softens and smooths as additional fat deposits accumulate around existing muscle fibers, creating a gently toned appearance.",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2730,
+        "outputTokens": 196,
+        "costUSD": 0.00183386
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Body Awareness\n\nYou reach down tentatively, your fingers brushing against the smooth expanse of your inner thigh. The flesh yields easily under gentle pressure\u2014soft and pliant, carrying noticeable weight that shifts with even slight movements.\n\nThe outer thigh feels firmer, more structured beneath the layer of fat. Your fingertips trace along what must be muscle definition, though it's considerably muted compared to what you remember. Everything feels... different. Heavier. The fullness extends down to your calves as well\u2014when you touch them, they're noticeably rounder and denser than before.\n\nA mild ache pulses through the muscles as you maintain contact, reminding you that this is still part of being unwell. The skin itself feels slightly warm to the touch, perhaps a bit clammy in places where sweat has started to gather.\n\nYour hand rests there for a moment longer before you withdraw it, left with a vivid impression of just how much your lower body has changed overnight.",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 2176,
+        "outputTokens": 197,
+        "costUSD": 0.00155012
+      }
+    },
+    {
+      "status": 200,
+      "model": "TheDrummer/Cydonia-24B-v4.3",
+      "text": "# Central Hub NE - Tue \u00b7 07:03\n\nYour words drift unanswered across the quiet park. The morning air remains still\u2014no response comes from the scattered benches or flower beds.\n\nThe bodily sensations persist unchanged: that persistent overheating, the dull ache in your limbs, the uncomfortable tightness of skin that seems increasingly sensitive to every shift and movement.\n\nNo one approaches. The park sits empty in this early hour, grass damp with dew beneath your feet.\n\nThe illness continues its course\u2014stage three of fourteen, according to what you've experienced so far.",
+      "finishReason": "stop",
+      "usage": {
+        "inputTokens": 1641,
+        "outputTokens": 118,
+        "costUSD": 0.00110638
+      }
+    }
+  ],
+  "before": {
+    "releaseVersion": "1.0.135",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "actionProtocol": "npc-actions-v1",
+    "model": "TheDrummer/Cydonia-24B-v4.3",
+    "budget": {
+      "month": "2026-11",
+      "spentUSD": 0.822928,
+      "reservedUSD": 0.052984,
+      "limitUSD": 50,
+      "remainingUSD": 49.124088,
+      "inputTokens": 1234417,
+      "outputTokens": 66865,
+      "requests": 644,
+      "blocked": false
+    }
+  },
+  "after": {
+    "releaseVersion": "1.0.135",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "actionProtocol": "npc-actions-v1",
+    "model": "TheDrummer/Cydonia-24B-v4.3",
+    "budget": {
+      "month": "2026-11",
+      "spentUSD": 0.831478,
+      "reservedUSD": 0.052984,
+      "limitUSD": 50,
+      "remainingUSD": 49.115538,
+      "inputTokens": 1246476,
+      "outputTokens": 68066,
+      "requests": 650,
+      "blocked": false
+    }
+  },
+  "finished": "2026-11-21T09:37:06.451Z"
+}
