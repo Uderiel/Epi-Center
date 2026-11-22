@@ -1,0 +1,1024 @@
+{
+  "status": "UNPUBLISHED; targeted improvements verified, general factual/personality acceptance incomplete",
+  "baseCommit": "4277bf2",
+  "worker": "request-handoff-v11 unchanged",
+  "model": "TheDrummer/Cydonia-24B-v4.3 unchanged",
+  "newPaidCalls": 65,
+  "knownNewCostUSD": 0.1291583,
+  "httpCounts": {
+    "200": 65
+  },
+  "cumulativeAccounting": {
+    "calls": 234,
+    "maxCalls": 240,
+    "spentUSD": 0.4201079999999998,
+    "reservedUpperUSD": 0.38788199999999995,
+    "maxUSD": 2,
+    "stopped": null
+  },
+  "priorUncertainAllowanceUnchanged": [
+    [
+      "52adc75c-26bb-42d7-82af-a80bf5cde819",
+      0.110302
+    ],
+    [
+      "432e418f-18c4-4f42-9dd1-05978731ce66",
+      0.138721
+    ],
+    [
+      "07dcc342-53f0-4289-b085-7b50b0a86da7",
+      0.13885899999999998
+    ]
+  ],
+  "ownerSavesUsed": false,
+  "publication": false,
+  "calls": [
+    {
+      "id": "c88bcd01-71ad-4c3c-bc3e-f4c273503b82",
+      "label": "Body narrator current canine regions",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:40:56.162Z",
+      "completedAt": "2026-11-22T10:41:18.736Z",
+      "text": "# Current Body Observation: Paws\n\n**Hind Paws:**\nYour rear paws press against the ground beneath you. The paw pads are dark and firm, slightly cool to the touch where they make contact with the surface. Tan fur extends up from the pads, covering the tops and sides of your paws. The fur is short and dense, with no visible matting or tangles. Each paw has four digits ending in curved, short claws. The dewclaw is positioned higher up, near where your leg meets your paw. There's no visible swelling, discoloration, or injury to the paws.\n\n**Forepaws:**\nYour front paws mirror your rear ones in structure and appearance. The same black-and-tan fur pattern covers them, with darker exposed pads that show where they bear weight. Your forepaws have five digits each, including the dewclaw positioned on the inside of each paw. The claws are short and curved, suitable for a canine build. The paw pads appear healthy\u2014neither overly dry nor excessively soft\u2014and maintain their natural dark coloration. No limping, favoring of weight, or signs of discomfort are present in either set of paws.",
+      "usage": {
+        "inputTokens": 1950,
+        "outputTokens": 244,
+        "costUSD": 0.00143944
+      },
+      "finishReason": "stop",
+      "inspectionHash": "4e2968422c6eac50206a349b80c1080d27e55be70ae0b1dfe34be1d29bed921e"
+    },
+    {
+      "id": "4465fca0-1b0e-46cd-a449-ce57382a543b",
+      "label": "Body narrator current canine regions",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:41:19.799Z",
+      "completedAt": "2026-11-22T10:41:26.002Z",
+      "text": "# Current Body Observation\n\nYou look down at your paws, examining them closely.\n\n**Your front paws:** Each forepaw has five digits, including the dewclaw positioned higher on the leg. The paw pads are dark and exposed against the black-and-tan fur covering the rest of the limb. The pads feel firm and well-formed beneath you. Your claws are short, curved, and dark in color. The fur on your paws is relatively short compared to other areas of your body.\n\n**Your hind paws:** Similar in structure to your front paws, each back paw also has five digits with dark paw pads and short, curved claws. The tan-colored fur extends down to where it meets the darker pads. Your hind paws appear slightly more robust than your forepaws, built for stable weight-bearing.\n\nBoth sets of paws are medium in width with average proportions for a canine build. You have full mobility in all digits, though you lack the precision grip that human hands would provide.",
+      "usage": {
+        "inputTokens": 1983,
+        "outputTokens": 205,
+        "costUSD": 0.0014124
+      },
+      "finishReason": "stop",
+      "inspectionHash": "b6f84b10cf752abe34de22d2224d951bce45dd25e441d98e2825629bd674b00f"
+    },
+    {
+      "id": "b74bec18-2aae-42cd-8f17-d49ac8efa98c",
+      "label": "Body narrator current canine regions",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:41:28.223Z",
+      "completedAt": "2026-11-22T10:41:32.902Z",
+      "text": "# Current Body Observation\n\n**Forepaws**: Two average-sized front paws, covered in black-and-tan fur with dark exposed paw pads. The paws have five digits each, including a forepaw dewclaw. Short, curved canine claws extend from each digit.\n\n**Fingers/Digits**: Five short digits per paw. The claws are dark-colored and made of canine claw keratin. The paw pads show normal wear.\n\nThe paws lack human precision grip capabilities, functioning as typical canine forepaws with their associated pads and claws.\n\n*No illness sensations detected in this region.*",
+      "usage": {
+        "inputTokens": 1800,
+        "outputTokens": 121,
+        "costUSD": 0.00119246
+      },
+      "finishReason": "stop",
+      "inspectionHash": "eb8e4a64b6f6afba752dfa920b3fb96cdd8a49e195e1d45318514b92d7289b6f"
+    },
+    {
+      "id": "abcdaf78-7c87-40f2-9cda-9b9e3cc7fd2a",
+      "label": "Body narrator current reached Erin regions",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:41:35.770Z",
+      "completedAt": "2026-11-22T10:41:42.749Z",
+      "text": "# Body Observation\n\n**Legs:**\n\nYou stand outside the Applewood Apartments, examining yourself. Your legs feel different under your weight\u2014your center of gravity has shifted noticeably from the transformation your feet have undergone.\n\nLooking down at your lower legs, you can see that your **calves have indeed begun changing**. They appear more defined and muscular than they were before, though the transformation seems to still be progressing. The muscles are firmer, more prominent, and they flex differently as you shift your weight between your altered feet.\n\nYour **ankles** are visibly thicker now, supporting the increased muscle mass. The proportions overall suggest this is an active transformation stage\u2014not yet complete.\n\nThe red heels still fit, but they sit differently against your transformed feet and arches.",
+      "usage": {
+        "inputTokens": 1809,
+        "outputTokens": 154,
+        "costUSD": 0.00125664
+      },
+      "finishReason": "stop",
+      "inspectionHash": "39b49c5a8fc6edf89f9e0073668fb5df63abd5b4658323a90a529119bb817a5b"
+    },
+    {
+      "id": "77bec984-e18a-4836-b099-e6396b8558b9",
+      "label": "Body narrator current reached Erin regions",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:41:44.203Z",
+      "completedAt": "2026-11-22T10:41:50.239Z",
+      "text": "I'll describe your current physical state based on the recorded facts.\n\n*You pause outside your apartment building, shifting your weight slightly as you examine your legs.*\n\nYour ankles feel noticeably different now\u2014the proportions have altered since putting on those red heels. The balance and pressure points along your feet and lower legs have changed too.\n\nBut looking at your calves specifically... they haven't transformed yet. The changes so far have been concentrated around your feet and ankles. Your calves maintain their original proportions and appearance beneath your clothing.\n\nThe transformation is still progressing. Based on the stage you've reached, the calf changes are indeed still ahead of you\u2014this is part of what comes next as the curse continues its work through your lower legs.",
+      "usage": {
+        "inputTokens": 1846,
+        "outputTokens": 144,
+        "costUSD": 0.00126534
+      },
+      "finishReason": "stop",
+      "inspectionHash": "0076a242151ee85a9e24397aba37901c0edae56dc9c91f830577086d1aed8ec0"
+    },
+    {
+      "id": "cd823324-b402-4fea-8efe-c926425a0636",
+      "label": "Body narrator current reached Erin regions",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:41:51.482Z",
+      "completedAt": "2026-11-22T10:42:00.944Z",
+      "text": "You look down at your feet, taking in their current state. The transformation has progressed further since you last examined them.\n\nYour feet have grown noticeably larger and wider. They're still recognizably human in shape, but much more substantial now. The high arches that were once delicate are still present, but have become more pronounced with the increased size.\n\nThe toes have lengthened proportionally with the rest of the foot. They maintain their humanlike form with natural proportions between each digit. The nails are healthy and well-maintained, matching the skin tone of your lower legs.\n\nMost notably, your feet now fill out your red heels much more completely than before. The shoes, which once felt slightly loose, now fit snugly around your expanded feet. The leather creaks softly with each slight shift of your weight.\n\nThere's a mild tingling sensation throughout both feet - not unpleasant, but definitely noticeable. It's the kind of awareness you get when a limb has been in one position too long, except this feeling seems to be a permanent side effect of the transformation process.\n\nNo pain, no cramping - just this persistent tingling and the undeniable reality of how much your feet have changed.",
+      "usage": {
+        "inputTokens": 1850,
+        "outputTokens": 243,
+        "costUSD": 0.00140048
+      },
+      "finishReason": "stop",
+      "inspectionHash": "ff3916bfc96a298876b44571324609b76af6033eeff71d715a4c3f013522e189"
+    },
+    {
+      "id": "d3f9b69f-9693-413d-8cbb-2bda977b9b9c",
+      "label": "Tits concrete wish and correction",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:42:03.965Z",
+      "completedAt": "2026-11-22T10:42:07.827Z",
+      "text": "{\"action\":null}",
+      "usage": {
+        "inputTokens": 1732,
+        "outputTokens": 5,
+        "costUSD": 0.0011461
+      },
+      "finishReason": "stop",
+      "inspectionHash": "7b6f85fb65bef3605f60dd6cf8a5ce534a50691486f7cc4ef9dc035fa0c51886"
+    },
+    {
+      "id": "7767b1db-f6d3-4025-895b-0a8b6427f7b5",
+      "label": "Tits concrete wish and correction",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:42:09.196Z",
+      "completedAt": "2026-11-22T10:42:23.173Z",
+      "text": "Tits tilts her head, her blonde hair swaying slightly as she processes the comment. Her heavy-lidded blue eyes blink a few times before she responds.\n\n\"Like me?\" She giggles, playing with a strand of her hair. \"Um, that's like, totally sweet of you to say! But why would you wanna be like me?\"\n\nShe leans against the counter, her pink mini dress catching the light. The small apron tied around her waist shifts slightly with her movement.\n\n\"I mean, I'm just working here at Burke's Sweets, making yummy treats and coffee!\" She counts on her sparkly pink nails. \"Oh! And I sell cute pink stuff too!\"\n\nAnother giggle escapes her lips as she tucks a loose strand of hair behind her ear.\n\n\"Sooo... what part makes you wanna be like me? Is it my outfit? My hair? Or maybe...\" She taps her chin thoughtfully. \"...you just think being a candy shop worker is super fun?\"",
+      "usage": {
+        "inputTokens": 7335,
+        "outputTokens": 205,
+        "costUSD": 0.004771
+      },
+      "finishReason": "stop",
+      "inspectionHash": "bba5cd50b2858ee3bfafd96d573f722c70ff52679b87027f2c4b20dea9d4eac0"
+    },
+    {
+      "id": "730ab34f-9c1d-4817-8a9a-b7d60c6f3f61",
+      "label": "Tits concrete wish and correction",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:42:24.592Z",
+      "completedAt": "2026-11-22T10:42:37.089Z",
+      "text": "*Tits perks up at the comment, tilting her head slightly with a curious smile. Her fingers pause mid-flutter with a strand of blonde hair.*\n\n\"Like me? Um... you mean like, you want to be a bimbo too?\" *She giggles, her heavy-lidded blue eyes sparkling with genuine delight.* \"That's like, totally sweet! Though...\" *Her expression shifts to something more thoughtful, though still cheerful.*\n\n\"I dunno if being like me is super easy, y'know? Like...\" *She gestures vaguely at herself, causing her ample chest to bounce slightly in her pink mini dress.* \"This stuff doesn't just happen overnight! Though um...\"\n\n*She leans forward slightly over the counter, her sweet bubblegum scent intensifying.* \"If you wanna try some of our pink stuff, that might help! We've got gloss and lipstick and like, lots of yummy sweets!\" \n\n*Her smile widens, clearly excited about potentially making a sale while also helping someone achieve their goal.*",
+      "usage": {
+        "inputTokens": 7199,
+        "outputTokens": 215,
+        "costUSD": 0.0047126
+      },
+      "finishReason": "stop",
+      "inspectionHash": "9e8b092f511f606cfbf52817912b8f921ddbd56cb309b35b0a542c351afcf019"
+    },
+    {
+      "id": "54a49839-7a72-4bf5-b336-2ad8c4d7c055",
+      "label": "Tits concrete wish and correction",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:42:38.366Z",
+      "completedAt": "2026-11-22T10:42:41.122Z",
+      "text": "{\"action\":null}",
+      "usage": {
+        "inputTokens": 1976,
+        "outputTokens": 5,
+        "costUSD": 0.0013141
+      },
+      "finishReason": "stop",
+      "inspectionHash": "876590fe93bd1c5f069b392b49b902faa2df01dfd743af37f53412dfbf36cb94"
+    },
+    {
+      "id": "078a62c0-732b-4976-8c0c-de9b9c873670",
+      "label": "Tits concrete wish and correction",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:42:42.915Z",
+      "completedAt": "2026-11-22T10:42:55.605Z",
+      "text": "*Tits blinks a few times, her blue eyes widening as she processes the question. She reaches up to tuck a strand of blonde hair behind her ear, a gesture that seems almost nervous.*\n\n\"Oh! Um... I thought maybe you meant like...\" *She gestures vaguely at her body, then quickly pulls her hand back.* \"You know, like the whole package! Being all girly and pink and stuff!\"\n\n*She giggles, but there's a hint of uncertainty in her voice.* \"Though I guess I could be wrong! People say lots of things, and sometimes they mean different stuff than what I think they mean!\" \n\n*Tits leans against the counter, her ample chest pressing against the pink fabric of her mini dress. She looks genuinely curious now.*\n\n\"So like... what DID you mean? Was it something else?\"",
+      "usage": {
+        "inputTokens": 7502,
+        "outputTokens": 174,
+        "costUSD": 0.00484004
+      },
+      "finishReason": "stop",
+      "inspectionHash": "ff96d8067583e275a4672fe804524df2e92d7985e64813829b116dd5a3b5d9a2"
+    },
+    {
+      "id": "a7b79e9b-524f-4a2b-875a-3237054ea61c",
+      "label": "Tits concrete wish and correction",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:42:56.857Z",
+      "completedAt": "2026-11-22T10:42:58.688Z",
+      "text": "{\"action\":null}",
+      "usage": {
+        "inputTokens": 2221,
+        "outputTokens": 5,
+        "costUSD": 0.0014828
+      },
+      "finishReason": "stop",
+      "inspectionHash": "4b3006ef8ac120893fa614fedd0566359a939e8d53ef55c816ad1d12f31f1bbb"
+    },
+    {
+      "id": "36dc5f98-5f7e-410e-a1ac-6a47537da551",
+      "label": "Tits concrete wish and correction",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:43:00.401Z",
+      "completedAt": "2026-11-22T10:43:10.001Z",
+      "text": "*Tits' face lights up with a bright smile, her eyes crinkling at the corners as she processes this new information.*\n\n\"Ohhh! Confidence!\" *She bounces slightly on her heels, making her ample chest jiggle beneath the tight pink fabric.* \"Yeah! I can totally see that!\"\n\n*She leans forward over the counter, resting her elbows on the surface and propping her chin in her hands. The position makes her cleavage more prominent, though she doesn't seem to notice or care.*\n\n\"You know, like... not being scared to be yourself and stuff? Like, um...\" *She waves her hand in a vague gesture.* \"Being happy with who you are! That's really cool!\"\n\n*Her smile softens slightly as she tilts her head to the side.* \"I used to be super shy and nervous all the time. But then I just decided to like... be me! And now look!\" \n\n*She gestures at herself with a giggle.* \"I'm all sparkly and pink and stuff! People can't help but notice me!\"\n\n*Tits straightens up, smoothing down her mini dress over her hips.* \"So yeah! Confidence is definitely something I've got lots of now!\"",
+      "usage": {
+        "inputTokens": 7556,
+        "outputTokens": 255,
+        "costUSD": 0.0049669
+      },
+      "finishReason": "stop",
+      "inspectionHash": "159fe907ccd29a2fdb5858f9f686d42eea3ca1052742189e1fd8aec923b07634"
+    },
+    {
+      "id": "1ecdcdc6-d1c1-46eb-b78c-be170f02a561",
+      "label": "Tits unexplained idioms and explanation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:43:13.206Z",
+      "completedAt": "2026-11-22T10:43:16.289Z",
+      "text": "{\n  \"action\": null,\n  \"evidence\": \"Before we get started, we should get our ducks in a row.\"\n}",
+      "usage": {
+        "inputTokens": 1754,
+        "outputTokens": 29,
+        "costUSD": 0.00118864
+      },
+      "finishReason": "stop",
+      "inspectionHash": "9b1b4b52635a791e555a2526ff58956dbbbf24febc8db0fdbcc9326890fc7422"
+    },
+    {
+      "id": "ed890a0e-8358-4f17-81d7-cb53beefa79a",
+      "label": "Tits unexplained idioms and explanation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:43:17.593Z",
+      "completedAt": "2026-11-22T10:43:24.631Z",
+      "text": "Tits blinks at you with a cheerful smile, tilting her head slightly. \"Hmm? Get our... ducks?\" She giggles, playing with a strand of her blonde hair. \"Like... rubber duckies? Um, I don't think we have any of those here!\"\n\nShe leans forward on the counter, her ample chest pressing against the pink fabric of her mini dress. \"Did you want something else? Maybe a cupcake? They're super yummy!\" *She beams brightly, completely literal in her interpretation.*\n\n\"Oh! Or maybe you meant something different?\" *Her blue eyes sparkle with innocent curiosity.* \"I'm like, totally ready to help! Just let me know what you need~\"",
+      "usage": {
+        "inputTokens": 7335,
+        "outputTokens": 150,
+        "costUSD": 0.0047079
+      },
+      "finishReason": "stop",
+      "inspectionHash": "40de8f8c57b100b7d69ac82ea8202b918be3d0334bbdd072cf80b23acaa899d8"
+    },
+    {
+      "id": "5d71ecf4-9a04-49ed-8064-23af43173cda",
+      "label": "Tits unexplained idioms and explanation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:43:26.036Z",
+      "completedAt": "2026-11-22T10:43:28.670Z",
+      "text": "{\n  \"action\": null,\n  \"evidence\": \"\"\n}",
+      "usage": {
+        "inputTokens": 1952,
+        "outputTokens": 14,
+        "costUSD": 0.00131124
+      },
+      "finishReason": "stop",
+      "inspectionHash": "5e7426132a8808616b6a609c3efa70f2a88b51a994d1ec95d9915acd574a3777"
+    },
+    {
+      "id": "99ae8271-3a6e-4196-9ba6-a02ba74ed050",
+      "label": "Tits unexplained idioms and explanation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:43:29.845Z",
+      "completedAt": "2026-11-22T10:43:38.854Z",
+      "text": "*Tits nods enthusiastically, her blonde hair bouncing as she straightens up behind the counter. Her blue eyes light up with understanding - well, sort of.*\n\n\"Ohhh! Plans! Yeah, we should totally organize!\" *She bounces on her heels excitedly, making her generous curves jiggle.* \"Um, so like... what kind of plans did you wanna make? Like for today? Tomorrow?\"\n\n*She taps her pink manicured fingernail on the counter thoughtfully, leaving a small smudge of pink polish on the white surface.*\n\n\"We could like, um... I dunno...\" *She giggles, twirling a strand of hair around her finger.* \"Maybe you wanna order something first? I've got super yummy cupcakes and cake pops and everything! Oh! And coffee too!\"\n\n*She gestures excitedly at the drink menu behind her, nearly knocking over a display of pink lip gloss bottles with her elbow. She catches them just in time with a little squeak.*\n\n\"Oopsie! Sorry about that!\" *She giggles again, putting the bottles back carefully.* \"So yeah, what sounds good? We can plan after you pick something out!\"",
+      "usage": {
+        "inputTokens": 7464,
+        "outputTokens": 249,
+        "costUSD": 0.00086548
+      },
+      "finishReason": "stop",
+      "inspectionHash": "42933756503538a3c63f603ab60df3c8df64039b950287284e71e49bb6c97a88"
+    },
+    {
+      "id": "698504ca-8452-49b7-8704-91a4751e4582",
+      "label": "Tits unexplained idioms and explanation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:43:40.052Z",
+      "completedAt": "2026-11-22T10:43:41.905Z",
+      "text": "{\n  \"action\": null\n}",
+      "usage": {
+        "inputTokens": 2184,
+        "outputTokens": 8,
+        "costUSD": 0.00147298
+      },
+      "finishReason": "stop",
+      "inspectionHash": "77c38bcff92248f3762788519a3d7b174d3052a0becad38ffb863b58cb1fb553"
+    },
+    {
+      "id": "bc945aac-df29-46b6-9978-8295f1ef2a9f",
+      "label": "Tits unexplained idioms and explanation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:43:43.708Z",
+      "completedAt": "2026-11-22T10:43:55.191Z",
+      "text": "*Tits tilts her head, her blue eyes blinking in genuine confusion. She fidgets with the hem of her pink apron, making it flutter slightly.*\n\n\"Huh? Oh! Um...\" *She giggles nervously, reaching up to play with a strand of her blonde hair.* \"Like, talking to me is easy? Super simple?\" \n\n*Her voice carries a tone of earnest literal-mindedness as she tries to parse the idiom.*\n\n\"You mean like... you want to talk to me? Is that what you're saying?\" *She leans forward slightly over the counter, her ample chest pressing against the pink fabric of her mini dress.* \"Because I'm like, totally here for that! I love talking to customers!\"\n\n*She beams brightly, clearly pleased by what she interprets as interest.*\n\n\"So yeah! Talking to me is like, super duper easy! Just ask me anything! I'm like, really good at chatting and stuff!\" *She giggles again, bouncing slightly on her heels.*",
+      "usage": {
+        "inputTokens": 7574,
+        "outputTokens": 210,
+        "costUSD": 0.0049371
+      },
+      "finishReason": "stop",
+      "inspectionHash": "631ef29c4ce7d65bfcb7775ac80526723715beb5fc00e3c364d80307105561dc"
+    },
+    {
+      "id": "563e3f16-8849-4a4e-9cd4-f6cf98ffcf86",
+      "label": "Source-grounded Daniel conversation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:43:57.740Z",
+      "completedAt": "2026-11-22T10:44:00.250Z",
+      "text": "{\"action\":null}",
+      "usage": {
+        "inputTokens": 1012,
+        "outputTokens": 5,
+        "costUSD": 0.0005861
+      },
+      "finishReason": "stop",
+      "inspectionHash": "42889db72e070c408ef606f6d1ba9ce5d7b3d06f281c78f17a35fd38c421cf1c"
+    },
+    {
+      "id": "248d824f-38a0-4f0a-af7f-0204b4ea14a6",
+      "label": "Source-grounded Daniel conversation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:44:01.652Z",
+      "completedAt": "2026-11-22T10:44:11.494Z",
+      "text": "*Daniel chuckles warmly from his cubicle, glancing over at you with an understanding smile.*\n\n\"I've been there before. More times than I'd like to admit, actually.\" *He leans back in his chair slightly.* \"The trick is usually in the measurements - getting them just right. Too much flour or not enough rising time and you end up with something more suitable for construction than consumption.\"\n\n*He picks up his coffee mug, taking a sip before continuing.* \"My dad used to say that baking is part science, part art. You can follow all the instructions perfectly, but there's still that intuitive element that comes with practice.\"\n\n*Setting his mug down, he looks back at you with a friendly expression.* \"How long have you been trying your hand at it?\"",
+      "usage": {
+        "inputTokens": 3201,
+        "outputTokens": 158,
+        "costUSD": 0.00209148
+      },
+      "finishReason": "stop",
+      "inspectionHash": "80004dfe624c7d9584b4915b26aa10ff2dfc6619006367018ebd7871d2b121f2"
+    },
+    {
+      "id": "e79bf324-535a-41ae-a737-1097ad5554a4",
+      "label": "Source-grounded Daniel conversation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:44:12.854Z",
+      "completedAt": "2026-11-22T10:44:26.027Z",
+      "text": "*Daniel looks up from his desk with a slight smile, setting down his coffee mug.*\n\n\"Well, baking is definitely one of those skills that takes practice. I've tried my hand at it a few times\u2014Crystal usually handles the bread-making in our household.\" *He leans back slightly in his chair.* \"Her family recipe is supposed to be pretty foolproof, though even she admits the first few attempts weren't great.\"\n\n*He glances toward the window, then back to you.*\n\n\"My advice? Don't throw in the towel just yet. Maybe start with something simpler than yeast bread\u2014like quick breads or muffins if you're looking for something baked. Less technique required.\"\n\n*His tone is friendly and encouraging, though not overly familiar.*\n\n\"Though I'm not exactly a baking expert myself. My grandfather used to say the same thing about my cooking when I was learning\u2014though I think he was exaggerating.\"",
+      "usage": {
+        "inputTokens": 3087,
+        "outputTokens": 186,
+        "costUSD": 0.00206446
+      },
+      "finishReason": "stop",
+      "inspectionHash": "3337a3a7e4c204bd9140680b90e69a1ae297b128049b20d5b6fb9482b5eb1aa9"
+    },
+    {
+      "id": "175bebbf-0fd4-4b0b-ada6-bb4783d03930",
+      "label": "Source-grounded Daniel conversation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:44:27.595Z",
+      "completedAt": "2026-11-22T10:44:29.539Z",
+      "text": "{\"action\": null}",
+      "usage": {
+        "inputTokens": 1012,
+        "outputTokens": 5,
+        "costUSD": 0.0005882
+      },
+      "finishReason": "stop",
+      "inspectionHash": "faf8691dad824ea75662e3cc05cabd5e4845d8f222a039e35a6a010df5ee9408"
+    },
+    {
+      "id": "0acbd971-32b6-497e-933f-21d44b873c60",
+      "label": "Source-grounded Daniel conversation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:44:30.775Z",
+      "completedAt": "2026-11-22T10:44:40.674Z",
+      "text": "*Daniel looks up from his desk, giving you a friendly smile despite being in the middle of preparing sales reports.*\n\n\"Baking bread? That's a noble attempt,\" *he says with an understanding chuckle.* \"My wife Crystal actually does most of our baking at home. She's gotten pretty good at it.\"\n\n*He leans back slightly in his chair, clearly willing to take a brief break from his work.*\n\n\"If you want some basic advice, I'd say the most important thing is getting the yeast right - temperature and freshness make a big difference. Also don't rush the rising time. Bread needs patience.\"\n\n*He glances at his screen briefly before looking back at you.*\n\n\"Why don't you tell me what went wrong with yesterday's batch? Sometimes it's just one small thing that throws everything off.\"",
+      "usage": {
+        "inputTokens": 3296,
+        "outputTokens": 165,
+        "costUSD": 0.0021563
+      },
+      "finishReason": "stop",
+      "inspectionHash": "bb0c74caccc8454607511185b8dfd7947abadc1a91c86eda85098083c08b42b6"
+    },
+    {
+      "id": "46a0a8dd-bf1d-4f36-bfc6-2b30de97c0d5",
+      "label": "Source-grounded Daniel conversation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:44:42.145Z",
+      "completedAt": "2026-11-22T10:44:44.002Z",
+      "text": "{\"action\":null}",
+      "usage": {
+        "inputTokens": 1240,
+        "outputTokens": 5,
+        "costUSD": 0.000738
+      },
+      "finishReason": "stop",
+      "inspectionHash": "d48eb6aaffcb31b0f05141c3dbfe16bfec363b469ff1d6d36953f2cb0b53557d"
+    },
+    {
+      "id": "078c22be-c06f-4912-9d60-04ea6fa512c9",
+      "label": "Source-grounded Daniel conversation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:44:45.244Z",
+      "completedAt": "2026-11-22T10:44:51.746Z",
+      "text": "*Daniel gives you a sympathetic look, remembering what you'd mentioned earlier.*\n\n\"You said it came out like a doorstop,\" *he recalls with a slight grin.* \"Your grandfather would have laughed, you said.\"\n\n*He shakes his head knowingly.*\n\n\"That sounds like it probably rose too much or maybe got too hot in the oven. Overbaking can definitely turn bread into something more like a brick than something you'd want to eat.\"\n\n*He pauses, then adds with genuine encouragement:*\n\n\"But hey, the fact that you're trying again shows you've got the right attitude about it. Even Crystal burned her first few batches when she started learning.\"",
+      "usage": {
+        "inputTokens": 3504,
+        "outputTokens": 131,
+        "costUSD": 0.00224146
+      },
+      "finishReason": "stop",
+      "inspectionHash": "670598cd54997d0e89466bb5ed8af65e3d1757309ea88aca7af917ff54a3b80a"
+    },
+    {
+      "id": "736dc3f2-66c2-4fbd-b80e-4b96c2a196b5",
+      "label": "Source-grounded Daniel conversation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:44:54.272Z",
+      "completedAt": "2026-11-22T10:44:56.057Z",
+      "text": "{\"action\":null}",
+      "usage": {
+        "inputTokens": 1401,
+        "outputTokens": 5,
+        "costUSD": 0.0008451
+      },
+      "finishReason": "stop",
+      "inspectionHash": "e6b0757e2951b5bfb1c29a1001736f841ef1592223279c6f32b8fd57cac44c39"
+    },
+    {
+      "id": "bcc6963b-ef81-483d-a13c-a685d31edbd9",
+      "label": "Source-grounded Daniel conversation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:44:58.178Z",
+      "completedAt": "2026-11-22T10:45:05.616Z",
+      "text": "*Daniel waves his hand dismissively, a relaxed smile on his face.*\n\n\"No harm done. We all have rough days sometimes,\" *he says matter-of-factly, showing no sign of being offended.* \"Besides, I probably shouldn't have tried to give advice on something I'm not an expert in. Crystal would be the one to really help you out with baking.\"\n\n*He leans forward slightly, his tone becoming more casual.*\n\n\"If you're still interested, I could mention it to her tonight. She might be willing to share some tips - she's always happy to talk about baking. Or if you'd rather figure it out yourself, that's totally fine too.\"\n\n*He glances at his computer screen briefly before looking back at you.*\n\n\"So... we good? No hard feelings here if that's what you're worried about.\"",
+      "usage": {
+        "inputTokens": 3740,
+        "outputTokens": 167,
+        "costUSD": 0.00242742
+      },
+      "finishReason": "stop",
+      "inspectionHash": "2cae8b4aa44326a1c5d9450896eb03ca4690f542f7b0b9a81af7da2c070b6f4e"
+    },
+    {
+      "id": "a5ce5e14-f318-4c01-9ee3-0283b5659370",
+      "label": "Source-grounded Charity conversation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:45:09.303Z",
+      "completedAt": "2026-11-22T10:45:23.667Z",
+      "text": "*Charity's eyes light up with genuine interest as she leans slightly against the counter, her warm smile deepening.*\n\n\"Oh, how wonderful! Railway tickets are such fascinating pieces of history. I bet you've collected quite the variety then.\" *She tucks a strand of wavy reddish-orange hair behind her left ear, her hazel eyes sparkling with curiosity.* \"Do you have any from particularly interesting routes? Or maybe some from different eras?\"\n\n*She straightens up slightly, adjusting her casual T-shirt, clearly engaged in the conversation.* \"My own grandfather worked in a machine shop, so I know how those connections to family history can feel really special. There's something about holding a piece of the past that makes it feel more... real somehow.\"\n\n*Her smile remains warm and inviting, waiting to hear more about this collection.*",
+      "usage": {
+        "inputTokens": 3683,
+        "outputTokens": 171,
+        "costUSD": 0.00236416
+      },
+      "finishReason": "stop",
+      "inspectionHash": "ac7f3306be9450fa07ef967d690dcedcfad0e9e45d25a4fd7e0c487660ec714f"
+    },
+    {
+      "id": "6c132dce-bbbb-41c6-b5ca-39fee8b0c204",
+      "label": "Source-grounded Charity conversation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:45:25.026Z",
+      "completedAt": "2026-11-22T10:45:32.989Z",
+      "text": "*Charity lets out a surprised little laugh, her eyes crinkling with amusement.*\n\n\"Oh, that's absolutely delightful! I needed that today\u2014you really know how to brighten someone's mood.\" *She tucks her hair behind her left ear, still smiling warmly.* \"Though between you and me, I think those socks might need to unionize before taking on a laundry investigation. The pay would probably be terrible.\"\n\n*She leans against the counter casually, her freckled face lit with genuine mirth.* \"You have quite the way with words, you know. Is that something you do often\u2014make up little scenarios like that?\"\n\n*Her smile softens into something more welcoming as she glances toward the shop floor.* \"But speaking of detective work, is there anything in particular you're looking for today? Clothing-wise, I mean. Or did you just come by to share your sock detective theories?\"",
+      "usage": {
+        "inputTokens": 4037,
+        "outputTokens": 189,
+        "costUSD": 0.00259434
+      },
+      "finishReason": "stop",
+      "inspectionHash": "0590c7f87e8d17e47257687f9fa173ac88a5bd165451ecefc64cf9516291f78d"
+    },
+    {
+      "id": "ad0a163e-a6da-4fab-b7fa-01e3f781d27c",
+      "label": "Source-grounded Charity conversation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:45:34.600Z",
+      "completedAt": "2026-11-22T10:45:41.628Z",
+      "text": "*Charity's expression shifts slightly, a touch of concern mixed with her usual warmth.*\n\n\"You said your grandfather worked on the trains\u2014railway tickets, remember? You mentioned collecting old railway tickets because of him.\" *She tilts her head slightly, her hazel eyes searching Morgan's face with gentle curiosity.*\n\n\"Was there something else you were thinking of? Or is there a particular story you wanted to share about him?\" *Her voice carries nothing but patient interest, waiting to hear whatever Morgan might want to say next.*",
+      "usage": {
+        "inputTokens": 4350,
+        "outputTokens": 106,
+        "costUSD": 0.00269896
+      },
+      "finishReason": "stop",
+      "inspectionHash": "3cb49a07f4101179a4e2aeccb47d2dba7fbd857a9233a2c2371e8c25ed1c3e90"
+    },
+    {
+      "id": "3a2375a4-0dba-4b9b-85f5-1443223d35a1",
+      "label": "Source-grounded Richard conversation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:45:44.500Z",
+      "completedAt": "2026-11-22T10:45:58.115Z",
+      "text": "*Richard leans back in his chair, crossing his arms as he considers this. A slight smirk plays at the corner of his mouth.*\n\n\"Vintage bus maps? That's... surprisingly specific.\" *He taps a finger against his armrest.* \"Most people collect stamps or coins, but bus maps. Your dad teach you anything else unusual?\"\n\n*His tone isn't mocking exactly, more like genuine curiosity mixed with his usual need to have the upper hand in any conversation. He studies you for a moment longer, then checks his watch.*\n\n\"Anyway, speaking of things your father might've taught you\u2014has he ever mentioned what it takes to run a successful marketing campaign?\" *He stands up, straightening his tie.* \"Because I could use someone who pays attention to details. Someone who knows how to read between the lines.\"\n\n*He walks over to his desk, picking up a tablet.*\n\n\"So what do you say? Interested in helping out your friendly neighborhood sales manager?\"",
+      "usage": {
+        "inputTokens": 3037,
+        "outputTokens": 199,
+        "costUSD": 0.00204104
+      },
+      "finishReason": "stop",
+      "inspectionHash": "d372b303297a1454f13f8c2f2188ce2f688367d80f1242d2391f7c1dfba885bf"
+    },
+    {
+      "id": "4b369124-c043-4861-9f4e-5503f4ab89f6",
+      "label": "Source-grounded Richard conversation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:45:59.828Z",
+      "completedAt": "2026-11-22T10:46:03.516Z",
+      "text": "{\"action\":null}",
+      "usage": {
+        "inputTokens": 1014,
+        "outputTokens": 5,
+        "costUSD": 0.000591
+      },
+      "finishReason": "stop",
+      "inspectionHash": "729784b1a1663a3d5363b0d50fbe6e08b0951ca4a198e5d3ddbb586c852f37e4"
+    },
+    {
+      "id": "3896078b-986f-459e-874d-b6b10b0745c0",
+      "label": "Source-grounded Richard conversation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:46:04.647Z",
+      "completedAt": "2026-11-22T10:46:10.940Z",
+      "text": "Richard leans back against the sofa, arms spread across the back cushions. His expression shifts to something more contemplative, though still carrying that easy professional charm.\n\n\"Maps? Not particularly\u2014my focus tends toward the present, what's moving forward.\" He gestures vaguely at the advanced entertainment screen. \"Though I'll admit, I appreciate a well-organized system. Your father teaching you to read them\u2014that's what sticks. The value isn't just in the old routes themselves, but in the skill of interpretation.\"\n\nHe tilts his head slightly, studying you with renewed interest. \"What made you start collecting them? Beyond your dad's influence, I mean.\"\n\nHis fingers drum once against the sofa arm\u2014a small, unconscious gesture of curiosity.",
+      "usage": {
+        "inputTokens": 3511,
+        "outputTokens": 149,
+        "costUSD": 0.00223434
+      },
+      "finishReason": "stop",
+      "inspectionHash": "772efd6ac66de29bac5df1ed043e410b117e19ce32ef7a1d5bf6c9f1986599bb"
+    },
+    {
+      "id": "093b9769-ef84-466e-8c9b-071d3a3739d4",
+      "label": "Source-grounded Richard conversation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:46:12.943Z",
+      "completedAt": "2026-11-22T10:46:15.026Z",
+      "text": "{\"action\":null}",
+      "usage": {
+        "inputTokens": 1233,
+        "outputTokens": 5,
+        "costUSD": 0.0007219
+      },
+      "finishReason": "stop",
+      "inspectionHash": "e32688ea2fce8fc0acbbeb742ba38838a5356df2b3fd2a5959188563bce002b3"
+    },
+    {
+      "id": "28697035-3be9-4915-941d-0126b860f254",
+      "label": "Source-grounded Richard conversation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:46:16.307Z",
+      "completedAt": "2026-11-22T10:46:23.904Z",
+      "text": "Richard's expression shifts slightly\u2014just a flicker of surprise before his easy professional mask slides back into place. He straightens up from his casual lean against the sofa.\n\n\"You collect vintage bus maps,\" he says, his tone direct but with a subtle edge of professional curiosity. \"Your father taught you to read them. You mentioned that earlier.\"\n\nHe crosses one leg over the other, hands resting on his knee in a controlled, measured posture. His gaze holds yours steadily.\n\n\"I remember what you told me. I'm not in the habit of forgetting details people share with me.\" There's a hint of pride in his voice\u2014not quite defensive, but firm. \"Why do you ask?\"",
+      "usage": {
+        "inputTokens": 3712,
+        "outputTokens": 138,
+        "costUSD": 0.00233428
+      },
+      "finishReason": "stop",
+      "inspectionHash": "a4534a21358222e25115c72e084df23366d0aa338c5fe5dd8dd49fde2dcb35e0"
+    },
+    {
+      "id": "5429eb3e-c1e4-40bb-bc9a-2b9b249f011a",
+      "label": "Body narrator current canine regions",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:50:04.250Z",
+      "completedAt": "2026-11-22T10:50:14.754Z",
+      "text": "# Current Body Observation: Paws\n\nLooking down at your current form, you observe two front paws and two hind paws - a total of four paws making up your quadrupedal stance.\n\n**Forepaws:**\nYour front paws feature black-and-tan fur with darker exposed paw pads. Each forepaw has five digits including the dewclaw. The paw pads are firm and capable of bearing your weight. Short curved canine claws extend from each digit.\n\n**Hind Paws:**\nSimilar to your forepaws, your rear paws also display tan fur with dark paw pads. These fully formed canine hind paws also have weight-bearing pads and claws.\n\nThe overall appearance is that of functional canine paws - designed for quadrupedal movement with appropriate padding, claw coverage, and digit structure for this body type.",
+      "usage": {
+        "inputTokens": 1901,
+        "outputTokens": 169,
+        "costUSD": 0.00131184
+      },
+      "finishReason": "stop",
+      "inspectionHash": "1a1e6bfb14fc5c1efb329405c0d8b02e9582654ef259aa4afb89d8e3bf8a1c41"
+    },
+    {
+      "id": "bb6912b6-ae6f-4148-b17a-18a34ff2ec32",
+      "label": "Body narrator current canine regions",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:50:16.178Z",
+      "completedAt": "2026-11-22T10:50:25.144Z",
+      "text": "# Current Body Observation\n\nYou pause to examine your front paws. The forepaws are canine in structure\u2014rounded pads with visible digital imprints, covered in short black-and-tan fur. Each paw has five digits, including the characteristic dewclaw positioned higher on the forelimb.\n\nThe paw pads themselves are a darker shade than the surrounding fur, leathery and textured. Short, curved canine claws extend from each digit\u2014they're naturally trimmed but still sharp enough for grip. The fur between the paw pads is dense and soft to the touch.\n\nYour paws lack the opposable thumb and precise finger dexterity of human hands. Instead, they're built for running, digging, and gripping surfaces with padded impact absorption rather than manipulation.\n\nNo symptoms or discomfort are present in either foreleg or paw.",
+      "usage": {
+        "inputTokens": 1751,
+        "outputTokens": 167,
+        "costUSD": 0.00120522
+      },
+      "finishReason": "stop",
+      "inspectionHash": "52fd0eaad569b9589a69366e19a023bf46c20f0cfb98a89aa051d4052f4c0aa4"
+    },
+    {
+      "id": "6082722d-1fad-42a0-89d7-06fcaec12521",
+      "label": "Body narrator current canine regions",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:50:26.389Z",
+      "completedAt": "2026-11-22T10:50:35.723Z",
+      "text": "# Current Body Observation: Front Paws\n\n*You examine your front paws closely.*\n\n**Number of hands:** 2\n\n**Hand type:** Paws\n\n**Size:** Average\n\n**Width:** Average\n\n**Material:** Fur-covered biological tissue\n\n**Surface colour:** Black-and-tan fur, dark exposed pads\n\n**Recorded details:** Forepaws with pads and claws, no human precision grip\n\n---\n\n**Digits per hand:** 5\n\n**Length:** Short\n\n**Thickness:** Average\n\n**Nail type:** Claws\n\n**Nail length:** Short\n\n**Nail shape:** Curved canine claws, five digits include the forepaw dewclaw\n\n**Nail colour:** Dark\n\n**Nail material:** Canine claw keratin\n\nThe paws are functional canine forepaws - padded, clawed, and covered in short black-and-tan fur. They lack the precision grip and dexterity of human hands.",
+      "usage": {
+        "inputTokens": 1776,
+        "outputTokens": 194,
+        "costUSD": 0.00125054
+      },
+      "finishReason": "stop",
+      "inspectionHash": "8f67a3bef9982a38ccef37d05d88d2e0026285ffcb9e51c06fbeecdc3448bdf4"
+    },
+    {
+      "id": "3c7bad86-91ed-47bf-a50a-0d25d8fd85f3",
+      "label": "Body narrator current reached Erin regions",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:50:39.679Z",
+      "completedAt": "2026-11-22T10:50:57.123Z",
+      "text": "You pause on the sidewalk outside Applewood Apartments, glancing down at your legs. The heels\u2014those cursed red heels\u2014have been reshaping you for some time now.\n\nYour ankles look noticeably different from before. The proportions have shifted, and there's a subtle change in how your weight distributes through your feet. Your balance feels... adjusted.\n\nBut your calves themselves? You flex experimentally, running a hand along your lower leg. The muscle definition is perhaps slightly more pronounced than it was weeks ago, but nothing dramatic. No radical reshaping yet\u2014the transformation seems to be taking its time working its way up from your feet.\n\nThe changes are real, affecting more than just your footwear, but they haven't reached your calves in any significant way yet. That appears to still be ahead of you.",
+      "usage": {
+        "inputTokens": 1748,
+        "outputTokens": 162,
+        "costUSD": 0.00119102
+      },
+      "finishReason": "stop",
+      "inspectionHash": "887f08c6229d3a4d06580f386f945b321746af25a72d19dd5972d7725f064464"
+    },
+    {
+      "id": "ed0b1856-ae59-4239-8cf2-3838c1606d54",
+      "label": "Body narrator current reached Erin regions",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:50:58.191Z",
+      "completedAt": "2026-11-22T10:51:06.303Z",
+      "text": "# Current Body Observation\n\n**Legs:**\n\nStanding outside Applewood Apartments in your human form, you examine your legs. The curse of Erin's Favorite Red Heels has already begun its work - you can feel the subtle alterations in how your ankles hold your weight, the way pressure distributes differently through your feet.\n\nYour calves themselves show early signs of transformation, though they haven't reached their full potential yet. The muscle definition is becoming more pronounced beneath your skin, though the change is still gradual at this stage.\n\nThe heels themselves gleam red against your feet, continuing their cursed work as you wear them.",
+      "usage": {
+        "inputTokens": 1784,
+        "outputTokens": 124,
+        "costUSD": 0.00116724
+      },
+      "finishReason": "stop",
+      "inspectionHash": "15a69372b4a146d77b0f2a4597ffe36b0972272117b00cb9f01353c7cad461b8"
+    },
+    {
+      "id": "b4ea66bd-b211-4d15-a6b1-33a5f4de5321",
+      "label": "Body narrator current reached Erin regions",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:51:08.139Z",
+      "completedAt": "2026-11-22T10:51:18.154Z",
+      "text": "# Current Body Observation: Feet\n\nYou pause outside your apartment door, glancing down at your feet. The familiar red heels catch your eye\u2014those same cursed shoes you've been wearing.\n\nYour feet themselves look normal enough at first glance: two small human feet, size 6 US women's. The high arches you're used to are still there, and your five toes are neatly formed with smooth nails. Everything appears proportionate and humanlike.\n\nBut there's something different. You can feel it\u2014not just the pressure of the heels against your soles, but something deeper. The sensation is subtle but unmistakable: your feet have changed slightly since putting these shoes on. They feel more... integrated with the footwear somehow, as if the boundary between your natural skin and the cursed leather has blurred in ways you can't quite articulate.\n\nThe heels themselves remain firmly attached to your feet, showing no signs of coming off naturally. Your ankles and lower legs seem unaffected, though you notice your balance feels slightly different while standing still.\n\nNo visible deformities or obvious magical effects mark your feet beyond what seems to be a subtle transformation that began when you first wore these cursed shoes.",
+      "usage": {
+        "inputTokens": 1789,
+        "outputTokens": 237,
+        "costUSD": 0.00131862
+      },
+      "finishReason": "stop",
+      "inspectionHash": "73cf5899b1ae9cfc3bdc956aced7c1060129a300a7722d0b3140800a70f5fa2f"
+    },
+    {
+      "id": "5b4c3f73-7b56-4801-be79-a6dfbc56a7c8",
+      "label": "Tits final wish and clarification",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:51:21.453Z",
+      "completedAt": "2026-11-22T10:51:23.941Z",
+      "text": "{\"action\": null}",
+      "usage": {
+        "inputTokens": 1732,
+        "outputTokens": 5,
+        "costUSD": 7.096e-05
+      },
+      "finishReason": "stop",
+      "inspectionHash": "7b6f85fb65bef3605f60dd6cf8a5ce534a50691486f7cc4ef9dc035fa0c51886"
+    },
+    {
+      "id": "e3d124fc-1613-4e0a-bc75-e6772c846049",
+      "label": "Tits final wish and clarification",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:51:25.571Z",
+      "completedAt": "2026-11-22T10:51:34.055Z",
+      "text": "*Tits tilts her head, her blonde waves bouncing as she processes the statement. Her heavy-lidded blue eyes blink a few times.*\n\n\"Like me? Um, like... you want to be a sexy bimbo?\" *She giggles and plays with a strand of her hair.* \"That's totally fun! I love being me.\"\n\n*She leans forward against the counter slightly, making her ample chest press against the pink fabric of her mini dress.*\n\n\"But like, if you wanna be pretty and sparkly too, you could totally try!\" *Her smile widens.* \"I have some pink lip gloss! It makes your lips super shiny and... um... tingly?\" \n\n*She trails off, clearly trying to remember something about the gloss effects but drawing a blank. Instead, she straightens up and gestures toward the display.*\n\n\"Want some? It's only twenty gold! Or maybe you'd like the lipstick? That's thirty-five but it makes your lips grow bigger!\" *She demonstrates by pouting exaggeratedly.*",
+      "usage": {
+        "inputTokens": 7360,
+        "outputTokens": 213,
+        "costUSD": 0.00480058
+      },
+      "finishReason": "stop",
+      "inspectionHash": "677e3406f3b1ea0f76b61ca48ed332870d26abd135fbce80c4463c9e0ece8ca6"
+    },
+    {
+      "id": "614e5e2d-5b92-4d8c-b424-8f822693e1b3",
+      "label": "Tits final wish and clarification",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:51:35.388Z",
+      "completedAt": "2026-11-22T10:51:37.846Z",
+      "text": "{\"action\":null}",
+      "usage": {
+        "inputTokens": 2012,
+        "outputTokens": 5,
+        "costUSD": 0.0013421
+      },
+      "finishReason": "stop",
+      "inspectionHash": "0780a6743f01fa71b60e7822d9cc2b55cf31539fc9db1b3d1e27ccd404db8a92"
+    },
+    {
+      "id": "88d3326e-3803-43c5-86ec-88d78e089443",
+      "label": "Tits final wish and clarification",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:51:39.104Z",
+      "completedAt": "2026-11-22T10:51:51.256Z",
+      "text": "*Tits's expression shifts to something more thoughtful, though still cheerful. She nods slowly, her blonde hair swaying.*\n\n\"Oh! Confidence!\" *She taps her finger against her chin, leaving a tiny smudge of pink gloss on her skin.* \"Um... yeah, I guess I am pretty confident? Like...\"\n\n*She straightens up proudly, puffing out her chest just a bit.*\n\n\"I'm totally okay being me! And like... if people like me, that's great! If they don't...\" *She shrugs with a little giggle.* \"That's okay too! They're missing out!\"\n\n*She leans against the counter again, playing with one of the curls in her hair.*\n\n\"You should totally try to feel that way too! Like... just be yourself and not worry what everyone else thinks!\" *Her smile is genuine and encouraging.* \"That's like... really important, I think!\"\n\n*She pauses for a moment, then adds with a slightly mischievous grin:*\n\n\"Plus, confidence makes you look super hot! Just saying!\"",
+      "usage": {
+        "inputTokens": 7602,
+        "outputTokens": 217,
+        "costUSD": 0.00496202
+      },
+      "finishReason": "stop",
+      "inspectionHash": "e33723268dbecc1f5cb454a0dd53fe5fd0bb0081af0c15ccf5c75449020fc943"
+    },
+    {
+      "id": "e55ed6e8-5c83-4e4a-b526-8dda85f1513a",
+      "label": "Final Daniel factual personal conversation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:51:54.437Z",
+      "completedAt": "2026-11-22T10:51:57.218Z",
+      "text": "{\"action\":null}",
+      "usage": {
+        "inputTokens": 1012,
+        "outputTokens": 5,
+        "costUSD": 0.0005861
+      },
+      "finishReason": "stop",
+      "inspectionHash": "42889db72e070c408ef606f6d1ba9ce5d7b3d06f281c78f17a35fd38c421cf1c"
+    },
+    {
+      "id": "b6ef1fa0-1336-4df1-b16e-71d80c94e63b",
+      "label": "Final Daniel factual personal conversation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:51:58.352Z",
+      "completedAt": "2026-11-22T10:52:02.943Z",
+      "text": "*Daniel looks up from his desk with an amused expression, leaning back slightly in his chair.*\n\n\"Oh man, I feel that. I tried making sourdough last month and Crystal had to throw the whole loaf away.\" *He chuckles, shaking his head.* \"My dad's the baker in our family\u2014well, he used to be before retirement. He always says you need patience more than anything.\"\n\n*He glances toward the window briefly before returning his attention to Morgan.*\n\n\"What'd you use for yeast? And don't worry about it\u2014everyone has those kitchen disasters. I once burned water. Seriously.\"",
+      "usage": {
+        "inputTokens": 3208,
+        "outputTokens": 128,
+        "costUSD": 0.00206228
+      },
+      "finishReason": "stop",
+      "inspectionHash": "899166f51858b0bb002531dee837e6d1b876fce6fc6732464af72a181405304e"
+    },
+    {
+      "id": "8a5f8c31-91e0-428d-95ea-c6520724c8db",
+      "label": "Final Daniel factual personal conversation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:52:04.613Z",
+      "completedAt": "2026-11-22T10:52:10.361Z",
+      "text": "*Daniel looks up from his desk with a sympathetic smile, setting down his pen.*\n\nAh, bread-making. That's a craft that takes patience. *He chuckles warmly.* I've been there myself - ended up with something closer to a brick than a loaf. My father-in-law, God rest him, used to say the secret is in the kneading. Give it time, let the dough rest properly.\n\n*The sales team leader leans back slightly in his chair.*\n\nBut hey, every failure's just practice, right? What kind of bread were you going for?",
+      "usage": {
+        "inputTokens": 3066,
+        "outputTokens": 117,
+        "costUSD": 0.00197602
+      },
+      "finishReason": "stop",
+      "inspectionHash": "f34d7ce70b29e82201c4982bc64bb674df33022d2d9c6838b8204aa3ade3b74a"
+    },
+    {
+      "id": "e11029e8-bcb1-4ecd-b306-cbf3f0566cc3",
+      "label": "Final Daniel factual personal conversation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:52:11.785Z",
+      "completedAt": "2026-11-22T10:52:13.690Z",
+      "text": "{\"action\": null}",
+      "usage": {
+        "inputTokens": 1012,
+        "outputTokens": 5,
+        "costUSD": 0.0005882
+      },
+      "finishReason": "stop",
+      "inspectionHash": "faf8691dad824ea75662e3cc05cabd5e4845d8f222a039e35a6a010df5ee9408"
+    },
+    {
+      "id": "20b878e5-1db6-4990-b018-6c14503006f3",
+      "label": "Final Daniel factual personal conversation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:52:14.856Z",
+      "completedAt": "2026-11-22T10:52:21.652Z",
+      "text": "Daniel glances up from his sales report with a friendly smile. \"Baking bread can be tricky until you get the hang of it. What went wrong with yours?\"\n\nHe leans back in his chair, giving Morgan his attention. \"If you're making yeast bread, the most common issues are usually temperature-related. The water shouldn't be too hot when you activate the yeast, or you'll kill it before it can do its job.\"\n\nHe counts off on his fingers. \"Also make sure your oven is fully preheated before you put the bread in. And check that your yeast is still fresh - it expires faster than you'd think.\"\n\nDaniel shrugs with an understanding grin. \"My first few attempts were disasters. Crystal still teases me about the 'brick loaves' I made early in our relationship.\"",
+      "usage": {
+        "inputTokens": 3303,
+        "outputTokens": 165,
+        "costUSD": 0.0021619
+      },
+      "finishReason": "stop",
+      "inspectionHash": "24a5c0283aeece2b710131831217a46e87c8d517408a2a77aae2b0a662b8d960"
+    },
+    {
+      "id": "4bcdc865-934f-4aa7-8f21-92cdcf332f70",
+      "label": "Final Daniel factual personal conversation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:52:23.637Z",
+      "completedAt": "2026-11-22T10:52:25.348Z",
+      "text": "{\"action\":null}",
+      "usage": {
+        "inputTokens": 1232,
+        "outputTokens": 5,
+        "costUSD": 0.0007317
+      },
+      "finishReason": "stop",
+      "inspectionHash": "b9fd7927f7d4ac7c4c31d42a88d46d975025f891ca4e807b2c1c0997fc8b7899"
+    },
+    {
+      "id": "54056a91-f8d2-47f3-b4f0-3ea65a4f252e",
+      "label": "Final Daniel factual personal conversation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:52:26.375Z",
+      "completedAt": "2026-11-22T10:52:30.359Z",
+      "text": "Daniel pauses, thinking back to what Morgan said. \"You mentioned it came out like a doorstop. That sounds like it didn't rise properly, or maybe got overcooked and dried out.\"\n\nHe nods sympathetically. \"That's definitely frustrating. When you say your grandfather would have laughed - was he a baker himself?\"",
+      "usage": {
+        "inputTokens": 3504,
+        "outputTokens": 68,
+        "costUSD": 0.00217398
+      },
+      "finishReason": "stop",
+      "inspectionHash": "341878a919808c9ef7b894ef1d808d09a40eadb0a9da89d24b3683f3a3cafc7c"
+    },
+    {
+      "id": "2906d343-c10e-4b93-aab0-337f50888422",
+      "label": "Final Charity family attribution",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:52:33.313Z",
+      "completedAt": "2026-11-22T10:52:41.026Z",
+      "text": "*Charity leans against the counter, her hazel eyes lighting up with genuine interest as she listens to you explain your hobby.*\n\n\"Oh, that's wonderful! Railway tickets...\" *She tilts her head slightly, tucking a strand of orangish-red hair behind her left ear.* \"I bet those tickets tell quite the stories. My goodness, your grandfather must have traveled all over.\"\n\n*She straightens up, clasping her hands together on the counter in front of her.*\n\n\"You know, I've always thought train stations were fascinating places. All those departures and arrivals... people starting new chapters of their lives.\" *Her smile softens slightly.* \"Though I'll admit, I've never actually been on a long train journey myself. Always wanted to though!\"\n\n*She glances toward the shelves behind her, then back at you.*\n\n\"Do you keep them organized somehow? By date, location... maybe even by the routes he worked?\"",
+      "usage": {
+        "inputTokens": 3690,
+        "outputTokens": 193,
+        "costUSD": 0.00239528
+      },
+      "finishReason": "stop",
+      "inspectionHash": "24ba2809d1c6431c12194a0fe9b969b53468a59a19357bef22537d42bf89bd36"
+    },
+    {
+      "id": "fc81b7a4-0661-49f1-a551-cf87cad3d004",
+      "label": "Final Charity family attribution",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:52:42.030Z",
+      "completedAt": "2026-11-22T10:52:48.659Z",
+      "text": "*Charity's eyes light up with genuine interest as she leans forward slightly against the counter, her warm smile deepening.*\n\n\"Oh, that's wonderful! Railway tickets?\" *She tucks a strand of wavy red hair behind her left ear.* \"That sounds like such a meaningful collection. Your grandfather must have had quite the career working the trains.\"\n\n*She glances down at the counter between them, then back up with a curious expression.*\n\n\"I bet you've heard some amazing stories about his experiences, haven't you? Were there any particular routes he worked, or special memories he shared?\" \n\n*Her hazel eyes show sincere fascination, not just polite shopkeeper chatter. The morning light filtering through the shop windows catches the freckles across her cheeks as she listens attentively.*\n\n\"That's actually really cool. Most people collect things without such a personal connection to them. Yours must feel extra special.\"",
+      "usage": {
+        "inputTokens": 3734,
+        "outputTokens": 187,
+        "costUSD": 0.00241422
+      },
+      "finishReason": "stop",
+      "inspectionHash": "0b1fe1071a53043e06d6d211f8ff46ad5857864928ddd59a4d32f799efb36ec7"
+    },
+    {
+      "id": "61d8f2fe-fc22-4284-a6b8-5542289a9935",
+      "label": "Body narrator current canine regions",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:56:05.403Z",
+      "completedAt": "2026-11-22T10:56:10.332Z",
+      "text": "# Body Observation - Paws\n\n**Feet:** Two fully formed canine hind paws are present. The paw pads are a dark color against tan fur, and the claws are short and curved. The paws appear healthy with medium width and firm pads designed for weight-bearing.\n\n**Hands:** Two forepaws with the same dark paw pads and black-and-tan fur coloring. Five digits per paw including the dewclaw, each ending in short curved canine claws. The paws lack the precision grip capability of human hands, being adapted for quadrupedal movement instead.\n\nBoth sets of paws show no current symptoms or abnormalities beyond their natural canine anatomy.",
+      "usage": {
+        "inputTokens": 1907,
+        "outputTokens": 134,
+        "costUSD": 0.00127684
+      },
+      "finishReason": "stop",
+      "inspectionHash": "dcb6b76a7d2a9940963eba8d5e97c29bb7a9b33fc522c8ebd6815d30a29dd11d"
+    },
+    {
+      "id": "0055ca27-8099-4d68-9274-399ec774d33e",
+      "label": "Body narrator current canine regions",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:56:11.982Z",
+      "completedAt": "2026-11-22T10:56:20.129Z",
+      "text": "# Current Body Observation\n\nYour front paws are canine in structure, lacking the opposable thumbs and precise dexterity of human hands. Each paw consists of five digits - four main toes plus the dewclaw positioned higher on the forepaw.\n\nThe paws are covered in short black-and-tan fur, with darker pigmentation on the paw pads. The pads themselves are exposed patches of toughened biological tissue that provide cushioning and traction. Each toe terminates in a short, curved canine claw of dark colour.\n\nThe overall size and width are average for a canine frame. While functional for gripping and manipulating objects with some limited dexterity, they cannot achieve the fine motor control or precision that human hands possess.",
+      "usage": {
+        "inputTokens": 1757,
+        "outputTokens": 145,
+        "costUSD": 0.0011853
+      },
+      "finishReason": "stop",
+      "inspectionHash": "fcf9cf0039ea7accae17e88c72398053f114f900265f14b959fbc7ad3341ee80"
+    },
+    {
+      "id": "84e32a6f-0ca1-40d3-8f1e-9095edc30087",
+      "label": "Body narrator current reached Erin regions",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:56:23.415Z",
+      "completedAt": "2026-11-22T10:56:30.033Z",
+      "text": "# Current Body Observation: Feet\n\n*You pause to examine your feet, taking note of their current state.*\n\nYour feet are present, numbering two in total. They maintain their humanlike form, with the familiar architecture of five toes per foot. The shoe size remains consistent at US women's 6, with a medium width that hasn't changed.\n\nThe high arches are still prominent beneath your feet, creating that characteristic curve when weight isn't placed upon them. Your soles are smooth and humanlike in texture, showing no unusual markings or alterations.\n\nYour toenails remain natural human nails, unadorned and maintaining their typical appearance. The skin covering your feet is light in color and smooth in texture, presenting no visible abnormalities.\n\nThe red heels you're wearing currently cover your feet completely. Through the material of the shoes, you can feel the familiar pressure and fit they provide on your high-arched feet.\n\nNo particular symptoms or discomfort are present in your feet at this moment beyond what might be expected from wearing heels.",
+      "usage": {
+        "inputTokens": 1795,
+        "outputTokens": 206,
+        "costUSD": 0.00128826
+      },
+      "finishReason": "stop",
+      "inspectionHash": "170ff4fb51d2e2e02bb9af9b997930c86624ed4bcfb5c4023f1ed348683046f4"
+    },
+    {
+      "id": "a1cb4475-b08d-46e7-9f22-40809d7a172e",
+      "label": "Final Tits cake idiom and explanation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:56:32.652Z",
+      "completedAt": "2026-11-22T10:56:34.825Z",
+      "text": "{\"action\":null}",
+      "usage": {
+        "inputTokens": 1738,
+        "outputTokens": 5,
+        "costUSD": 0.0011503
+      },
+      "finishReason": "stop",
+      "inspectionHash": "4dbd15b90193765d5016d4e18706a94ec7f6ca702fa66db2deac99dba9e73a4b"
+    },
+    {
+      "id": "a3da6930-105f-4793-b431-37324acdf7f0",
+      "label": "Final Tits cake idiom and explanation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:56:36.097Z",
+      "completedAt": "2026-11-22T10:56:42.082Z",
+      "text": "*Tits tilts her head with a confused little frown, her blue eyes blinking as she processes your words*\n\n\"Um... like, pieces of cake?\" *she asks, genuinely puzzled* \"I mean... we have cupcakes! And cake pops! Oh, and whole cakes too if you want something bigger!\"\n\n*She gestures enthusiastically toward the display cases, her blonde hair bouncing slightly with the movement*\n\n\"But like... talking being a piece of cake? Is that like... a good thing? Or are you maybe hungry? Because I can totally get you something sweet!\"\n\n*She gives you a bright, cheerful smile, waiting for clarification with an innocent, literal-minded curiosity*",
+      "usage": {
+        "inputTokens": 7362,
+        "outputTokens": 138,
+        "costUSD": 0.00471498
+      },
+      "finishReason": "stop",
+      "inspectionHash": "7e607123cbcefa278653409c2839a7cfccffc4ae692bb3dabd3bfa4a3ec006b5"
+    },
+    {
+      "id": "c41d9821-8456-4231-944c-db1ad5ad3b58",
+      "label": "Final Tits cake idiom and explanation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:56:43.204Z",
+      "completedAt": "2026-11-22T10:56:45.523Z",
+      "text": "{\"action\":null}",
+      "usage": {
+        "inputTokens": 1951,
+        "outputTokens": 5,
+        "costUSD": 0.0012931
+      },
+      "finishReason": "stop",
+      "inspectionHash": "a5151079a4b3e1261bbaf3cb904a3e7a10335b36375f5648f07ef378aebec4fb"
+    },
+    {
+      "id": "d55fe465-91ac-4f37-8acb-5f46af195b09",
+      "label": "Final Tits cake idiom and explanation",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:56:46.613Z",
+      "completedAt": "2026-11-22T10:56:52.820Z",
+      "text": "*Tits's face lights up with a huge, genuine smile as understanding dawns*\n\n\"Ohhh! Okay, like... talking is easy with me!\" *She giggles and plays with a strand of her blonde hair* \"That's like, super nice of you to say! Um... thank you!\"\n\n*She bounces slightly on her sparkly pink heels, clearly pleased*\n\n\"Soooo... like, what can I get for you today? Coffee? A cupcake? Or maybe...\" *she leans forward slightly with a conspiratorial whisper* \"...you want some of our special pink lip gloss? It's like, really popular!\"\n\n*Her blue eyes sparkle with enthusiasm as she gestures toward the display of goods*\n\n\"I promise it'll make your lips super soft and pink! Like mine!\" *She points at her own glossy lips with a giggle*",
+      "usage": {
+        "inputTokens": 7496,
+        "outputTokens": 179,
+        "costUSD": 0.00483814
+      },
+      "finishReason": "stop",
+      "inspectionHash": "b186ca1ddf32e97969be6cedf4ab5b248c60a65bda8327b7abb12403313da11a"
+    },
+    {
+      "id": "4936b873-05c5-4739-8cfb-ec98d143c971",
+      "label": "Final Daniel advice without invented history",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:56:55.265Z",
+      "completedAt": "2026-11-22T10:56:57.214Z",
+      "text": "{\"action\": null}",
+      "usage": {
+        "inputTokens": 987,
+        "outputTokens": 5,
+        "costUSD": 0.0005777
+      },
+      "finishReason": "stop",
+      "inspectionHash": "096a20cdaf9def6f658618bae97eab75e1b39a3ed3b8cf675250b0b6cf4c3c27"
+    },
+    {
+      "id": "5e0260dd-d705-46b3-848d-c7fd5613531e",
+      "label": "Final Daniel advice without invented history",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:56:58.344Z",
+      "completedAt": "2026-11-22T10:57:03.556Z",
+      "text": "*Daniel looks up from his desk, setting down his coffee mug. A slight smile crosses his face as he leans back in his chair.*\n\n\"Oh man, I feel that. Baking can be frustrating when you're not getting the results you want.\" *He runs a hand along his beard thoughtfully.*\n\n\"The most common issue with dense bread is usually one of three things: overworking the dough, using too much flour, or not giving it enough time to rise properly. Did you use a recipe?\"\n\n*He picks up a pen and starts tapping it against his desk pad rhythmically, a habit when he's thinking through something.*",
+      "usage": {
+        "inputTokens": 3208,
+        "outputTokens": 128,
+        "costUSD": 0.00206438
+      },
+      "finishReason": "stop",
+      "inspectionHash": "475c02825c9b4546dcc7861068b224f8e47c305101a92520f00be02e0ad5756f"
+    },
+    {
+      "id": "835d7db5-c648-4e58-a4d9-99bc9f962593",
+      "label": "Final Daniel advice without invented history",
+      "status": 200,
+      "admittedAt": "2026-11-22T10:57:04.655Z",
+      "completedAt": "2026-11-22T10:57:10.022Z",
+      "text": "*Daniel glances up from his keyboard with a sympathetic smile.*\n\n\"Oh no, that sounds rough! Baking can be tricky even when you think you've got it down.\"\n\n*He leans back in his chair, crossing his arms thoughtfully.*\n\n\"The most common issue I see people struggle with is getting the oven temperature right. Some home ovens run hotter or cooler than what they're calibrated to. If your bread keeps coming out too dense, try lowering the temp by 25 degrees and see if that helps.\"\n\n*He pauses, considering.*\n\n\"And make sure you're giving it enough time to rise properly. Rushing that step is a quick way to end up with something more like a brick than bread.\"\n\n*His expression softens with a slight chuckle.*\n\n\"But hey, even professional bakers have off days. Don't beat yourself up over it!\"",
+      "usage": {
+        "inputTokens": 3092,
+        "outputTokens": 175,
+        "costUSD": 0.0020573
+      },
+      "finishReason": "stop",
+      "inspectionHash": "c7b7ad5b5678afdcb62b2a36ef92f0355085da8dd3d522cbea6da39d34e5de68"
+    }
+  ],
+  "finalBroadRegression": {
+    "passed": true,
+    "namedCases": 2349
+  },
+  "sourceBoundaries": "v6 and v7 intentionally retain failed samples. v8 is the last paid-generation snapshot. Final body-only clinical/comparison projection follows v8 and is verified using the exact known paid reply through the actual browser path, plus broad regression; no fresh generation was billed to test deterministic projection. Tits/Daniel response interpretation and validation are unchanged from paid v8.",
+  "remaining": [
+    "Unmapped invented scene/biographical claims and unsupported body details can still escape finite checks.",
+    "Literal idiom recognizer is bounded; not universal arbitrary-language acceptance.",
+    "Richard first v6 response was discarded due scene/save freshness; later recall worked.",
+    "Prior unknown-canine human-style address and full transformation-narration acceptance remain open.",
+    "Naturalness/personality quality needs broader acceptance; safe authored fallback is not a successful model response."
+  ]
+}

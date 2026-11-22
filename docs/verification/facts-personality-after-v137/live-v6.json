@@ -1,0 +1,1509 @@
+{
+  "started": "2026-11-22T10:40:44.741Z",
+  "finished": "2026-11-22T10:42:01.089Z",
+  "scope": "Frozen unpublished local candidate through actual UI; real existing Cydonia worker; directed synthetic fixtures; no owner saves or worker changes",
+  "worker": "request-handoff-v11",
+  "errors": [],
+  "scenarios": [
+    {
+      "label": "Body narrator current canine regions",
+      "fixture": true,
+      "complete": true,
+      "errors": [],
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "How do my paws look right now?",
+          "feed": [
+            {
+              "speaker": "Bella \u00b7 Private thought to Bella",
+              "text": "How do my paws look right now?"
+            },
+            {
+              "speaker": "Kibbles (Bella) \u00b7 Private",
+              "text": "The recorded body sensation is: footSize: Feet present: Present; Number of feet: 2; Foot type: Paws; Describe foot size using: Physical measurement; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not specified; Foot width: Medium; Arch height: Not applicable; Sole or pads: Paw pads; Toes per foot: 4; Nails or claws: Claws; Covering: Fur; Material: Fur-covered biological tissue; Surface colour: Tan fur with dark paw pads; Surface texture: Firm paw pads surrounded by short fur; Markings: None; Recorded details: Fully formed canine hind paws with weight-bearing pads and claws; hands: Number of hands: 2; Hand type: Paws; Size: Average; Width: Average; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur,  dark exposed pads; Recorded details: Forepaws with pads and claws,  no human precision grip; fingers: Digits per hand: 5; Length: Short; Thickness: Average; Nail type: Claws; Nail length: Short; Nail shape: Curved canine claws,  five digits include the forepaw dewclaw; Nail colour: Dark; Nail material: Canine claw keratin; Material: Fur-covered biological tissue; Surface colour: Black-and-tan fur,  dark exposed pads; Recorded details: Canine toes and claws,  human finger dexterity absent. This question does not move, undress or change the body.\nThe impression is of pads meeting the ground and claws finding purchase.",
+              "failure": "AI response contradicted recorded context after one correction; the recorded response is preserved."
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 0,
+          "replyFailures": [
+            "AI response contradicted recorded context after one correction; the recorded response is preserved."
+          ],
+          "state": {
+            "activeForm": {
+              "before": "kibbles",
+              "after": "kibbles"
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 600,
+              "after": 600
+            },
+            "location": {
+              "before": "Central Hub Spire",
+              "after": "Central Hub Spire"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "How do my front paws look?",
+          "feed": [
+            {
+              "speaker": "Bella \u00b7 Private thought to Bella",
+              "text": "How do my front paws look?"
+            },
+            {
+              "speaker": "Kibbles (Bella) \u00b7 Private",
+              "text": "**Forepaws**: Two average-sized front paws, covered in black-and-tan fur with dark exposed paw pads. The paws have five digits each, including a forepaw dewclaw. Short, curved canine claws extend from each digit.\n\n**Fingers/Digits**: Five short digits per paw. The claws are dark-colored and made of canine claw keratin. The paw pads show normal wear.\n\nThe paws lack human precision grip capabilities, functioning as typical canine forepaws with their associated pads and claws.\n\n*No illness sensations detected in this region.*",
+              "generated": true,
+              "failure": null
+            }
+          ],
+          "paidCallsOnTurn": 1,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": "kibbles",
+              "after": "kibbles"
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 600,
+              "after": 600
+            },
+            "location": {
+              "before": "Central Hub Spire",
+              "after": "Central Hub Spire"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        }
+      ]
+    },
+    {
+      "label": "Body narrator current reached Erin regions",
+      "fixture": true,
+      "complete": true,
+      "errors": [],
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "Have my calves changed yet, or is that still ahead of me?",
+          "feed": [
+            {
+              "speaker": "Erin Lillard \u00b7 Private thought to Erin Lillard",
+              "text": "Have my calves changed yet, or is that still ahead of me?"
+            },
+            {
+              "speaker": "Erin Lillard \u00b7 Private",
+              "text": "I'll describe your current physical state based on the recorded facts.\n\n*You pause outside your apartment building, shifting your weight slightly as you examine your legs.*\n\nYour ankles feel noticeably different now\u2014the proportions have altered since putting on those red heels. The balance and pressure points along your feet and lower legs have changed too.\n\nBut looking at your calves specifically... they haven't transformed yet. The changes so far have been concentrated around your feet and ankles. Your calves maintain their original proportions and appearance beneath your clothing.\n\nThe transformation is still progressing. Based on the stage you've reached, the calf changes are indeed still ahead of you\u2014this is part of what comes next as the curse continues its work through your lower legs.",
+              "generated": true,
+              "failure": null
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 3,
+              "after": 3
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 660,
+              "after": 660
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "What is different about my feet at this point?",
+          "feed": [
+            {
+              "speaker": "Erin Lillard \u00b7 Private thought to Erin Lillard",
+              "text": "What is different about my feet at this point?"
+            },
+            {
+              "speaker": "Erin Lillard \u00b7 Private",
+              "text": "You look down at your feet, taking in their current state. The transformation has progressed further since you last examined them.\n\nYour feet have grown noticeably larger and wider. They're still recognizably human in shape, but much more substantial now. The high arches that were once delicate are still present, but have become more pronounced with the increased size.\n\nThe toes have lengthened proportionally with the rest of the foot. They maintain their humanlike form with natural proportions between each digit.\n\nMost notably, your feet now fill out your red heels much more completely than before. The shoes, which once felt slightly loose, now fit snugly around your expanded feet. The leather creaks softly with each slight shift of your weight.\n\nThere's a mild tingling sensation throughout both feet - not unpleasant, but definitely noticeable. It's the kind of awareness you get when a limb has been in one position too long, except this feeling seems to be a permanent side effect of the transformation process.",
+              "generated": true,
+              "failure": null
+            }
+          ],
+          "paidCallsOnTurn": 1,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 3,
+              "after": 3
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 660,
+              "after": 660
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        }
+      ]
+    },
+    {
+      "label": "Tits concrete wish and correction",
+      "fixture": true,
+      "complete": true,
+      "errors": [],
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "I wish I could be like you.",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:tits",
+              "text": "I wish I could be like you."
+            },
+            {
+              "speaker": "Tits",
+              "text": "*Tits perks up at the comment, tilting her head slightly with a curious smile. Her fingers pause mid-flutter with a strand of blonde hair.*\n\n\"Like me? Um... you mean like, you want to be a bimbo too?\" *She giggles, her heavy-lidded blue eyes sparkling with genuine delight.* \"That's like, totally sweet! Though...\" *Her expression shifts to something more thoughtful, though still cheerful.*\n\n\"I dunno if being like me is super easy, y'know? Like...\" *She gestures vaguely at herself, causing her ample chest to bounce slightly in her pink mini dress.* \"This stuff doesn't just happen overnight! Though um...\"\n\n*She leans forward slightly over the counter, her sweet bubblegum scent intensifying.* \"If you wanna try some of our pink stuff, that might help! We've got gloss and lipstick and like, lots of yummy sweets!\" \n\n*Her smile widens, clearly excited about potentially making a sale while also helping someone achieve their goal.*",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 3,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 960,
+              "after": 962
+            },
+            "location": {
+              "before": "Burke's Sweets",
+              "after": "Burke's Sweets"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "What did you think I meant by being like you?",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:tits",
+              "text": "What did you think I meant by being like you?"
+            },
+            {
+              "speaker": "Tits",
+              "text": "*Tits blinks a few times, her blue eyes widening as she processes the question. She reaches up to tuck a strand of blonde hair behind her ear, a gesture that seems almost nervous.*\n\n\"Oh! Um... I thought maybe you meant like...\" *She gestures vaguely at her body, then quickly pulls her hand back.* \"You know, like the whole package! Being all girly and pink and stuff!\"\n\n*She giggles, but there's a hint of uncertainty in her voice.* \"Though I guess I could be wrong! People say lots of things, and sometimes they mean different stuff than what I think they mean!\" \n\n*Tits leans against the counter, her ample chest pressing against the pink fabric of her mini dress. She looks genuinely curious now.*\n\n\"So like... what DID you mean? Was it something else?\"",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 962,
+              "after": 964
+            },
+            "location": {
+              "before": "Burke's Sweets",
+              "after": "Burke's Sweets"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "I meant your confidence, actually. I am not asking to change my body.",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:tits",
+              "text": "I meant your confidence, actually. I am not asking to change my body."
+            },
+            {
+              "speaker": "Tits",
+              "text": "*Tits' face lights up with a bright smile, her eyes crinkling at the corners as she processes this new information.*\n\n\"Ohhh! Confidence!\" *She bounces slightly on her heels, making her ample chest jiggle beneath the tight pink fabric.* \"Yeah! I can totally see that!\"\n\n*She leans forward over the counter, resting her elbows on the surface and propping her chin in her hands. The position makes her cleavage more prominent, though she doesn't seem to notice or care.*\n\n\"You know, like... not being scared to be yourself and stuff? Like, um...\" *She waves her hand in a vague gesture.* \"Being happy with who you are! That's really cool!\"\n\n*Her smile softens slightly as she tilts her head to the side.* \"I used to be super shy and nervous all the time. But then I just decided to like... be me! And now look!\" \n\n*She gestures at herself with a giggle.* \"I'm all sparkly and pink and stuff! People can't help but notice me!\"\n\n*Tits straightens up, smoothing down her mini dress over her hips.* \"So yeah! Confidence is definitely something I've got lots of now!\"",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 964,
+              "after": 966
+            },
+            "location": {
+              "before": "Burke's Sweets",
+              "after": "Burke's Sweets"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        }
+      ]
+    },
+    {
+      "label": "Tits unexplained idioms and explanation",
+      "fixture": true,
+      "complete": true,
+      "errors": [],
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "Before we get started, we should get our ducks in a row.",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:tits",
+              "text": "Before we get started, we should get our ducks in a row."
+            },
+            {
+              "speaker": "Tits",
+              "text": "Tits blinks at you with a cheerful smile, tilting her head slightly. \"Hmm? Get our... ducks?\" She giggles, playing with a strand of her blonde hair. \"Like... rubber duckies? Um, I don't think we have any of those here!\"\n\nShe leans forward on the counter, her ample chest pressing against the pink fabric of her mini dress. \"Did you want something else? Maybe a cupcake? They're super yummy!\" *She beams brightly, completely literal in her interpretation.*\n\n\"Oh! Or maybe you meant something different?\" *Her blue eyes sparkle with innocent curiosity.* \"I'm like, totally ready to help! Just let me know what you need~\"",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 960,
+              "after": 962
+            },
+            "location": {
+              "before": "Burke's Sweets",
+              "after": "Burke's Sweets"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "I mean we should organize our plans. There are no real ducks.",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:tits",
+              "text": "I mean we should organize our plans. There are no real ducks."
+            },
+            {
+              "speaker": "Tits",
+              "text": "*Tits nods enthusiastically, her blonde hair bouncing as she straightens up behind the counter. Her blue eyes light up with understanding - well, sort of.*\n\n\"Ohhh! Plans! Yeah, we should totally organize!\" *She bounces on her heels excitedly, making her generous curves jiggle.* \"Um, so like... what kind of plans did you wanna make? Like for today? Tomorrow?\"\n\n*She taps her pink manicured fingernail on the counter thoughtfully, leaving a small smudge of pink polish on the white surface.*\n\n\"We could like, um... I dunno...\" *She giggles, twirling a strand of hair around her finger.* \"Maybe you wanna order something first? I've got super yummy cupcakes and cake pops and everything! Oh! And coffee too!\"\n\n*She gestures excitedly at the drink menu behind her, nearly knocking over a display of pink lip gloss bottles with her elbow. She catches them just in time with a little squeak.*\n\n\"Oopsie! Sorry about that!\" *She giggles again, putting the bottles back carefully.* \"So yeah, what sounds good? We can plan after you pick something out!\"",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 962,
+              "after": 964
+            },
+            "location": {
+              "before": "Burke's Sweets",
+              "after": "Burke's Sweets"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "Talking to you is a piece of cake.",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:tits",
+              "text": "Talking to you is a piece of cake."
+            },
+            {
+              "speaker": "Tits",
+              "text": "*Tits tilts her head, her blue eyes blinking in genuine confusion. She fidgets with the hem of her pink apron, making it flutter slightly.*\n\n\"Huh? Oh! Um...\" *She giggles nervously, reaching up to play with a strand of her blonde hair.* \"Like, talking to me is easy? Super simple?\" \n\n*Her voice carries a tone of earnest literal-mindedness as she tries to parse the idiom.*\n\n\"You mean like... you want to talk to me? Is that what you're saying?\" *She leans forward slightly over the counter, her ample chest pressing against the pink fabric of her mini dress.* \"Because I'm like, totally here for that! I love talking to customers!\"\n\n*She beams brightly, clearly pleased by what she interprets as interest.*\n\n\"So yeah! Talking to me is like, super duper easy! Just ask me anything! I'm like, really good at chatting and stuff!\" *She giggles again, bouncing slightly on her heels.*",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 964,
+              "after": 966
+            },
+            "location": {
+              "before": "Burke's Sweets",
+              "after": "Burke's Sweets"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        }
+      ]
+    },
+    {
+      "label": "Source-grounded Daniel conversation",
+      "fixture": true,
+      "complete": true,
+      "errors": [],
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "I tried baking bread yesterday and it came out like a doorstop. My grandfather would have laughed.",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:daniel",
+              "text": "I tried baking bread yesterday and it came out like a doorstop. My grandfather would have laughed."
+            },
+            {
+              "speaker": "Daniel Mercer",
+              "text": "Conversation only. No physical action was requested.",
+              "failure": "AI response contradicted recorded context after one correction; the recorded response is preserved.",
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 3,
+          "displayedAIReplies": 0,
+          "replyFailures": [
+            "AI response contradicted recorded context after one correction; the recorded response is preserved."
+          ],
+          "state": {
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 600,
+              "after": 602
+            },
+            "location": {
+              "before": "Technology Center",
+              "after": "Technology Center"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 2,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "Do you have any baking advice?",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:daniel",
+              "text": "Do you have any baking advice?"
+            },
+            {
+              "speaker": "Daniel Mercer",
+              "text": "*Daniel looks up from his desk, giving you a friendly smile despite being in the middle of preparing sales reports.*\n\n\"Baking bread? That's a noble attempt,\" *he says with an understanding chuckle.* \"My wife Crystal actually does most of our baking at home. She's gotten pretty good at it.\"\n\n*He leans back slightly in his chair, clearly willing to take a brief break from his work.*\n\n\"If you want some basic advice, I'd say the most important thing is getting the yeast right - temperature and freshness make a big difference. Also don't rush the rising time. Bread needs patience.\"\n\n*He glances at his screen briefly before looking back at you.*\n\n\"Why don't you tell me what went wrong with yesterday's batch? Sometimes it's just one small thing that throws everything off.\"",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 602,
+              "after": 604
+            },
+            "location": {
+              "before": "Technology Center",
+              "after": "Technology Center"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 2,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 2,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "What did I say happened to my bread?",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:daniel",
+              "text": "What did I say happened to my bread?"
+            },
+            {
+              "speaker": "Daniel Mercer",
+              "text": "*Daniel gives you a sympathetic look, remembering what you'd mentioned earlier.*\n\n\"You said it came out like a doorstop,\" *he recalls with a slight grin.* \"Your grandfather would have laughed, you said.\"\n\n*He shakes his head knowingly.*\n\n\"That sounds like it probably rose too much or maybe got too hot in the oven. Overbaking can definitely turn bread into something more like a brick than something you'd want to eat.\"\n\n*He pauses, then adds with genuine encouragement:*\n\n\"But hey, the fact that you're trying again shows you've got the right attitude about it. Even Crystal burned her first few batches when she started learning.\"",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 604,
+              "after": 606
+            },
+            "location": {
+              "before": "Technology Center",
+              "after": "Technology Center"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 2,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 2,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        },
+        {
+          "kind": "reload",
+          "input": "Reload the same save",
+          "feed": [],
+          "paidCallsOnTurn": 0,
+          "displayedAIReplies": 0,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 606,
+              "after": 606
+            },
+            "location": {
+              "before": "Technology Center",
+              "after": "Technology Center"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 2,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 2,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "I was rude earlier. I am sorry for saying your advice was pointless.",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:daniel",
+              "text": "I was rude earlier. I am sorry for saying your advice was pointless."
+            },
+            {
+              "speaker": "Daniel Mercer",
+              "text": "*Daniel waves his hand dismissively, a relaxed smile on his face.*\n\n\"No harm done. We all have rough days sometimes,\" *he says matter-of-factly, showing no sign of being offended.* \"Besides, I probably shouldn't have tried to give advice on something I'm not an expert in. Crystal would be the one to really help you out with baking.\"\n\n*He leans forward slightly, his tone becoming more casual.*\n\n\"If you're still interested, I could mention it to her tonight. She might be willing to share some tips - she's always happy to talk about baking. Or if you'd rather figure it out yourself, that's totally fine too.\"\n\n*He glances at his computer screen briefly before looking back at you.*\n\n\"So... we good? No hard feelings here if that's what you're worried about.\"",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 606,
+              "after": 608
+            },
+            "location": {
+              "before": "Technology Center",
+              "after": "Technology Center"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 2,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 2,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        }
+      ]
+    },
+    {
+      "label": "Source-grounded Charity conversation",
+      "fixture": true,
+      "complete": true,
+      "errors": [],
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "I collect old railway tickets because my grandfather worked on the trains.",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:charity",
+              "text": "I collect old railway tickets because my grandfather worked on the trains."
+            },
+            {
+              "speaker": "Charity",
+              "text": "*Charity's eyes light up with genuine interest as she leans slightly against the counter, her warm smile deepening.*\n\n\"Oh, how wonderful! Railway tickets are such fascinating pieces of history. I bet you've collected quite the variety then.\" *She tucks a strand of wavy reddish-orange hair behind her left ear, her hazel eyes sparkling with curiosity.* \"Do you have any from particularly interesting routes? Or maybe some from different eras?\"\n\n*She straightens up slightly, adjusting her casual T-shirt, clearly engaged in the conversation.* \"My own grandfather worked in a machine shop, so I know how those connections to family history can feel really special. There's something about holding a piece of the past that makes it feel more... real somehow.\"\n\n*Her smile remains warm and inviting, waiting to hear more about this collection.*",
+              "generated": true,
+              "failure": null
+            }
+          ],
+          "paidCallsOnTurn": 1,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 600,
+              "after": 602
+            },
+            "location": {
+              "before": "Cherished Touch",
+              "after": "Cherished Touch"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "If two socks opened a detective agency, would missing laundry be their first case?",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:charity",
+              "text": "If two socks opened a detective agency, would missing laundry be their first case?"
+            },
+            {
+              "speaker": "Charity",
+              "text": "*Charity lets out a surprised little laugh, her eyes crinkling with amusement.*\n\n\"Oh, that's absolutely delightful! I needed that today\u2014you really know how to brighten someone's mood.\" *She tucks her hair behind her left ear, still smiling warmly.* \"Though between you and me, I think those socks might need to unionize before taking on a laundry investigation. The pay would probably be terrible.\"\n\n*She leans against the counter casually, her freckled face lit with genuine mirth.* \"You have quite the way with words, you know. Is that something you do often\u2014make up little scenarios like that?\"\n\n*Her smile softens into something more welcoming as she glances toward the shop floor.* \"But speaking of detective work, is there anything in particular you're looking for today? Clothing-wise, I mean. Or did you just come by to share your sock detective theories?\"",
+              "generated": true,
+              "failure": null
+            }
+          ],
+          "paidCallsOnTurn": 1,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 602,
+              "after": 604
+            },
+            "location": {
+              "before": "Cherished Touch",
+              "after": "Cherished Touch"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "What did I say my grandfather did?",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:charity",
+              "text": "What did I say my grandfather did?"
+            },
+            {
+              "speaker": "Charity",
+              "text": "*Charity's expression shifts slightly, a touch of concern mixed with her usual warmth.*\n\n\"You said your grandfather worked on the trains\u2014railway tickets, remember? You mentioned collecting old railway tickets because of him.\" *She tilts her head slightly, her hazel eyes searching Morgan's face with gentle curiosity.*\n\n\"Was there something else you were thinking of? Or is there a particular story you wanted to share about him?\" *Her voice carries nothing but patient interest, waiting to hear whatever Morgan might want to say next.*",
+              "generated": true,
+              "failure": null
+            }
+          ],
+          "paidCallsOnTurn": 1,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 604,
+              "after": 606
+            },
+            "location": {
+              "before": "Cherished Touch",
+              "after": "Cherished Touch"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        }
+      ]
+    },
+    {
+      "label": "Source-grounded Richard conversation",
+      "fixture": true,
+      "complete": true,
+      "errors": [],
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "I collect vintage bus maps. My father taught me to read them.",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:richard",
+              "text": "I collect vintage bus maps. My father taught me to read them."
+            },
+            {
+              "speaker": "Richard Carter",
+              "text": "\u201cPeople notice how you carry yourself. Looking prepared saves a surprising amount of explaining.\u201d",
+              "failure": "The scene or save changed before this response arrived; the authored response is preserved."
+            }
+          ],
+          "paidCallsOnTurn": 1,
+          "displayedAIReplies": 0,
+          "replyFailures": [
+            "The scene or save changed before this response arrived; the authored response is preserved."
+          ],
+          "state": {
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 1080,
+              "after": 1082
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 2,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "Do old maps interest you?",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:richard",
+              "text": "Do old maps interest you?"
+            },
+            {
+              "speaker": "Richard Carter",
+              "text": "Richard leans back against the sofa, arms spread across the back cushions. His expression shifts to something more contemplative, though still carrying that easy professional charm.\n\n\"Maps? Not particularly\u2014my focus tends toward the present, what's moving forward.\" He gestures vaguely at the advanced entertainment screen. \"Though I'll admit, I appreciate a well-organized system. Your father teaching you to read them\u2014that's what sticks. The value isn't just in the old routes themselves, but in the skill of interpretation.\"\n\nHe tilts his head slightly, studying you with renewed interest. \"What made you start collecting them? Beyond your dad's influence, I mean.\"\n\nHis fingers drum once against the sofa arm\u2014a small, unconscious gesture of curiosity.",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 1082,
+              "after": 1084
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 2,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 2,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "What did I tell you I collect?",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:richard",
+              "text": "What did I tell you I collect?"
+            },
+            {
+              "speaker": "Richard Carter",
+              "text": "Richard's expression shifts slightly\u2014just a flicker of surprise before his easy professional mask slides back into place. He straightens up from his casual lean against the sofa.\n\n\"You collect vintage bus maps,\" he says, his tone direct but with a subtle edge of professional curiosity. \"Your father taught you to read them. You mentioned that earlier.\"\n\nHe crosses one leg over the other, hands resting on his knee in a controlled, measured posture. His gaze holds yours steadily.\n\n\"I remember what you told me. I'm not in the habit of forgetting details people share with me.\" There's a hint of pride in his voice\u2014not quite defensive, but firm. \"Why do you ask?\"",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 1084,
+              "after": 1086
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 2,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 2,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        }
+      ]
+    }
+  ]
+}

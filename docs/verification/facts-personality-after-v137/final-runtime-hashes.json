@@ -1,0 +1,12 @@
+{
+  "rebuild/hub/ai-context.js": "0defc9f9153e85ad8b9b5e7f5915786093ee19a3e23af96e2539d8bd749a0f73",
+  "rebuild/hub/ai-context.test.js": "f7332a3be33f16b32518e5395f1ed7c76eefc300dfad5aec2ef6d9f0eea6fcc1",
+  "rebuild/hub/ai-ui.js": "ad1a88cd61148fbd26a34ce279e92852b228783ee428ca8987dae7b957df488a",
+  "rebuild/hub/current-appearance.js": "7200d7be334d88146e60e8f94accb21720f5cdb551ab48d88c24ecca4bc0e4b2",
+  "rebuild/hub/current-appearance.test.js": "bfda54caf8ef8e4b628107b3794170e5638ed6ff541fba45df4ab5ab5e2a12ac",
+  "rebuild/hub/form-body.js": "54f47d911fca12a78e6674f35938c934da3bdd86f7b64cb950dc31346271fa67",
+  "rebuild/hub/narration-grounding.js": "03463a7861e73b80f5473113d60df818d5c5d2b7f162fcf89ae405c9a9268ab6",
+  "rebuild/hub/narration-grounding.test.js": "557290c60c3ea0aa2b0307125040741ac239d2b8e57871b56cb4e804d5d1da5b",
+  "rebuild/hub/tits.js": "17b0f21f02c63ee759be73d688ffb5613ad9dbd8a69fe1773af9c9a510454f26",
+  "rebuild/hub/tits.test.js": "a1a5a5ec78863d07d198ab1d845fc2a0b6ecc69906767b4aa714fbf4564a7a33"
+}

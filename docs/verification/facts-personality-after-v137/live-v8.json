@@ -1,0 +1,514 @@
+{
+  "started": "2026-11-22T10:55:53.880Z",
+  "finished": "2026-11-22T10:56:30.189Z",
+  "scope": "Frozen unpublished local candidate through actual UI; real existing Cydonia worker; directed synthetic fixtures; no owner saves or worker changes",
+  "worker": "request-handoff-v11",
+  "errors": [],
+  "scenarios": [
+    {
+      "label": "Body narrator current canine regions",
+      "fixture": true,
+      "complete": true,
+      "errors": [],
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "How do my paws look right now?",
+          "feed": [
+            {
+              "speaker": "Bella \u00b7 Private thought to Bella",
+              "text": "How do my paws look right now?"
+            },
+            {
+              "speaker": "Kibbles (Bella) \u00b7 Private",
+              "text": "**Feet:** Two fully formed canine hind paws are present. The paw pads are a dark color against tan fur, and the claws are short and curved.\n\n**Hands:** Two forepaws with the same dark paw pads and black-and-tan fur coloring. Five digits per paw including the dewclaw, each ending in short curved canine claws. The paws lack the precision grip capability of human hands, being adapted for quadrupedal movement instead.\n\nBoth sets of paws show no current symptoms or abnormalities beyond their natural canine anatomy.",
+              "generated": true,
+              "failure": null
+            }
+          ],
+          "paidCallsOnTurn": 1,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": "kibbles",
+              "after": "kibbles"
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 600,
+              "after": 600
+            },
+            "location": {
+              "before": "Central Hub Spire",
+              "after": "Central Hub Spire"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "How do my front paws look?",
+          "feed": [
+            {
+              "speaker": "Bella \u00b7 Private thought to Bella",
+              "text": "How do my front paws look?"
+            },
+            {
+              "speaker": "Kibbles (Bella) \u00b7 Private",
+              "text": "Your front paws are canine in structure, lacking the opposable thumbs and precise dexterity of human hands. Each paw consists of five digits - four main toes plus the dewclaw positioned higher on the forepaw.\n\nThe paws are covered in short black-and-tan fur, with darker pigmentation on the paw pads. The pads themselves are exposed patches of toughened biological tissue that provide cushioning and traction. Each toe terminates in a short, curved canine claw of dark colour.\n\nThe overall size and width are average for a canine frame. While functional for gripping and manipulating objects with some limited dexterity, they cannot achieve the fine motor control or precision that human hands possess.",
+              "generated": true,
+              "failure": null
+            }
+          ],
+          "paidCallsOnTurn": 1,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": "kibbles",
+              "after": "kibbles"
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 600,
+              "after": 600
+            },
+            "location": {
+              "before": "Central Hub Spire",
+              "after": "Central Hub Spire"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        }
+      ]
+    },
+    {
+      "label": "Body narrator current reached Erin regions",
+      "fixture": true,
+      "complete": true,
+      "errors": [],
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "Have my calves changed yet, or is that still ahead of me?",
+          "feed": [
+            {
+              "speaker": "Erin Lillard \u00b7 Private thought to Erin Lillard",
+              "text": "Have my calves changed yet, or is that still ahead of me?"
+            },
+            {
+              "speaker": "Erin Lillard \u00b7 Private",
+              "text": "No specific detail about your calves is recorded in your current appearance. The current leg record describes ankle proportions and balance altered."
+            }
+          ],
+          "paidCallsOnTurn": 0,
+          "displayedAIReplies": 0,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 3,
+              "after": 3
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 660,
+              "after": 660
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "What is different about my feet at this point?",
+          "feed": [
+            {
+              "speaker": "Erin Lillard \u00b7 Private thought to Erin Lillard",
+              "text": "What is different about my feet at this point?"
+            },
+            {
+              "speaker": "Erin Lillard \u00b7 Private",
+              "text": "*You pause to examine your feet, taking note of their current state.*\n\nYour feet are present, numbering two in total. They maintain their humanlike form, with the familiar architecture of five toes per foot. The shoe size remains consistent at US women's 6, with a medium width that hasn't changed.\n\nThe high arches are still prominent beneath your feet, creating that characteristic curve when weight isn't placed upon them. Your soles are smooth and humanlike in texture, showing no unusual markings or alterations.\n\nYour toenails remain natural human nails, unadorned and maintaining their typical appearance. The skin covering your feet is light in color and smooth in texture, presenting no visible abnormalities.\n\nThe red heels you're wearing currently cover your feet completely. Through the material of the shoes, you can feel the familiar pressure and fit they provide on your high-arched feet.\n\nNo particular symptoms or discomfort are present in your feet at this moment beyond what might be expected from wearing heels.",
+              "generated": true,
+              "failure": null
+            }
+          ],
+          "paidCallsOnTurn": 1,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 3,
+              "after": 3
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 660,
+              "after": 660
+            },
+            "location": {
+              "before": "applewood",
+              "after": "applewood"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        }
+      ]
+    },
+    {
+      "label": "Final Tits cake idiom and explanation",
+      "fixture": true,
+      "complete": true,
+      "errors": [],
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "Talking to you is a piece of cake.",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:tits",
+              "text": "Talking to you is a piece of cake."
+            },
+            {
+              "speaker": "Tits",
+              "text": "*Tits tilts her head with a confused little frown, her blue eyes blinking as she processes your words*\n\n\"Um... like, pieces of cake?\" *she asks, genuinely puzzled* \"I mean... we have cupcakes! And cake pops! Oh, and whole cakes too if you want something bigger!\"\n\n*She gestures enthusiastically toward the display cases, her blonde hair bouncing slightly with the movement*\n\n\"But like... talking being a piece of cake? Is that like... a good thing? Or are you maybe hungry? Because I can totally get you something sweet!\"\n\n*She gives you a bright, cheerful smile, waiting for clarification with an innocent, literal-minded curiosity*",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 960,
+              "after": 962
+            },
+            "location": {
+              "before": "Burke's Sweets",
+              "after": "Burke's Sweets"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        },
+        {
+          "kind": "spoken-or-typed",
+          "input": "I mean it is easy to talk with you. There is no cake involved.",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:tits",
+              "text": "I mean it is easy to talk with you. There is no cake involved."
+            },
+            {
+              "speaker": "Tits",
+              "text": "*Tits's face lights up with a huge, genuine smile as understanding dawns*\n\n\"Ohhh! Okay, like... talking is easy with me!\" *She giggles and plays with a strand of her blonde hair* \"That's like, super nice of you to say! Um... thank you!\"\n\n*She bounces slightly on her sparkly pink heels, clearly pleased*\n\n\"Soooo... like, what can I get for you today? Coffee? A cupcake? Or maybe...\" *she leans forward slightly with a conspiratorial whisper* \"...you want some of our special pink lip gloss? It's like, really popular!\"\n\n*Her blue eyes sparkle with enthusiasm as she gestures toward the display of goods*\n\n\"I promise it'll make your lips super soft and pink! Like mine!\" *She points at her own glossy lips with a giggle*",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 2,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 962,
+              "after": 964
+            },
+            "location": {
+              "before": "Burke's Sweets",
+              "after": "Burke's Sweets"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        }
+      ]
+    },
+    {
+      "label": "Final Daniel advice without invented history",
+      "fixture": true,
+      "complete": true,
+      "errors": [],
+      "events": [
+        {
+          "kind": "spoken-or-typed",
+          "input": "My bread came out like a doorstop. Do you have any baking advice?",
+          "feed": [
+            {
+              "speaker": "Morgan \u00b7 NPC \u2192 npc:daniel",
+              "text": "My bread came out like a doorstop. Do you have any baking advice?"
+            },
+            {
+              "speaker": "Daniel Mercer",
+              "text": "*Daniel glances up from his keyboard with a sympathetic smile.*\n\n\"Oh no, that sounds rough! Baking can be tricky even when you think you've got it down.\"\n\n*He leans back in his chair, crossing his arms thoughtfully.*\n\n\"The most common issue I see people struggle with is getting the oven temperature right. Some home ovens run hotter or cooler than what they're calibrated to. If your bread keeps coming out too dense, try lowering the temp by 25 degrees and see if that helps.\"\n\n*He pauses, considering.*\n\n\"And make sure you're giving it enough time to rise properly. Rushing that step is a quick way to end up with something more like a brick than bread.\"\n\n*His expression softens with a slight chuckle.*\n\n\"But hey, even professional bakers have off days. Don't beat yourself up over it!\"",
+              "generated": true,
+              "failure": null,
+              "decision": {
+                "action": null,
+                "unstructured": false
+              },
+              "result": {
+                "status": "dialogue-only",
+                "action": null,
+                "text": "Conversation only. No physical action was requested."
+              }
+            }
+          ],
+          "paidCallsOnTurn": 3,
+          "displayedAIReplies": 1,
+          "replyFailures": [],
+          "state": {
+            "activeForm": {
+              "before": null,
+              "after": null
+            },
+            "stage": {
+              "before": 0,
+              "after": 0
+            },
+            "gold": {
+              "before": 100,
+              "after": 100
+            },
+            "minutes": {
+              "before": 600,
+              "after": 602
+            },
+            "location": {
+              "before": "Technology Center",
+              "after": "Technology Center"
+            },
+            "relationships": {
+              "before": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              },
+              "after": {
+                "npc:tits": 0,
+                "npc:priya": 0,
+                "npc:daniel": 0,
+                "npc:nadia": 0,
+                "npc:richard": 0,
+                "npc:charity": 0,
+                "npc:eve": 0,
+                "form:kibbles": 0
+              }
+            },
+            "bodyInventoryEquipmentUnchanged": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "sourceManifest": "source-manifest-final.json",
+  "review": "v6 root findings addressed in game files; same worker/model and all held uncertainty preserved",
+  "changes": [
+    "Remove unconditional illness-sensations instruction and unrelated needs packet from read-only current-body narration. Keep explicitly recorded symptoms.",
+    "Block captured normal-wear/negative medical claims, own-grandparent bypass and unsupported past-self/spouse learning stories.",
+    "Failed ordinary dialogue retains a character-specific authored clarification; no planner diagnostics and no repeated game action.",
+    "Common contracted wish phrasing and quoted-self-report counterexamples covered."
+  ],
+  "zeroCostBrowser": "browser-paths.json confirms actual wish fallback, unchanged body/inventory/gold, symptom instruction removal, source fields and zero forwarded calls",
+  "limits": {
+    "maxCalls": 240,
+    "maxUSD": 2
+  },
+  "at": "2026-11-22T10:49:25.684387+00:00"
+}

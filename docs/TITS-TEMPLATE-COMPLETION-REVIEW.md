@@ -1,3 +1,7 @@
+## Approved literal-understanding clarification — local, unpublished
+
+See [TITS-LITERAL-UNDERSTANDING.md](TITS-LITERAL-UNDERSTANDING.md). “I wish I could be like you” initially means wanting to be a sexy bimbo like Tits herself; it is a wish, not an action or consent. Explicit player clarification can revise that understanding. Direct attraction stays understandable, while unexplained idioms remain literal. Runtime and live-verification status are separate from publication.
+
 ## Current local repair — unpublished
 
 Local presence revision after v1.0.134: public service labels and conversation guards use Tits’s actual venue, counter room, travel, sleep and working state rather than opening hours alone. Physical presence is separate from an awake listener, preserving already accepted sleeping contact. No home interior or new route is created. See HELP-PRESENCE-CARRIER-REPAIR.md for evidence and limits.

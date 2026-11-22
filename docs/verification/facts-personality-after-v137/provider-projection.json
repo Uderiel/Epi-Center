@@ -1,0 +1,6 @@
+{
+  "paidCall": false,
+  "sourceEvidenceReachesProvider": true,
+  "literalWishReachesProvider": true,
+  "authorityNoConsentReachesProvider": true
+}

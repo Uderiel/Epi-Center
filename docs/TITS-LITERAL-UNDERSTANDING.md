@@ -1,0 +1,11 @@
+# Tits — literal understanding clarification, approved, unpublished
+
+Owner clarification on 2026-11-22: an adult player saying **“I wish I could be like you”** is understood by Tits as wishing to be **a sexy bimbo like her**, rather than wishing for her job, confidence or an abstract quality. This is Tits’s concrete initial interpretation, not a factual claim about the player’s body or a reason to ignore a subsequent clarification.
+
+Implementation is local in `tits.js`, `ai-context.js` and `narration-grounding.js`. The shared read-only interpretation also covers common wish/want/look-like and contracted wording. It feeds both the authored fallback and the real dialogue writer. Private thoughts, negative statements, reported wishes and hypotheticals do not establish that personal wish. A stated wish does not grant contact, infection, consent, a transformation, a purchase or relationship points; all existing controllers and boundaries remain.
+
+Direct attraction such as “you are sexy” is understandable. Unexplained figurative language stays literal or prompts a specific plain-language clarification. A player can explain an idiom or correct Tits’s initial interpretation; she can then use that explicitly supplied meaning. This is not a requirement to misunderstand every compliment or repeat a stock clarification.
+
+The bounded idiom recognizer currently covers ducks in a row, piece of cake, raining cats and dogs, and break a leg. It does not claim universal idiom recognition. General character instructions remain alongside source-backed response checks. No word quota, general gesture stripping, forced contact or model change is introduced.
+
+Live first-stage evidence: Tits interpreted the exact owner example as wanting to be a bimbo like her; her next reply remembered the concrete meaning; she responded to the player's clarification about confidence. Body/form, gold and inventory stayed unchanged. Unexplained ducks remained literal, but the cake sample decoded “easy”; that personality failure prompted a specific validation regression. The confidence reply invented a shy former personality, which is a factual failure and prompted the second-stage history/validation repair. Final verification and remaining limits are recorded in `DIALOGUE-FACTS-PERSONALITY-FOLLOWUP.md`; neither this document nor a local test is a publication claim.
