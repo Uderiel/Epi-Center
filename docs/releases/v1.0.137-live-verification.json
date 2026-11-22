@@ -1,0 +1,1590 @@
+{
+  "version": "1.0.137",
+  "runtimeCommit": "c5c156fdf6c58ec19451955e31fdbf8af60948a3",
+  "base": "https://uderiel.github.io/Epi-Center/",
+  "at": "2026-11-22T07:47:10.479Z",
+  "passed": true,
+  "total": 260,
+  "matched": 260,
+  "bibleExact": true,
+  "manifest": {
+    "version": "1.0.137",
+    "canonical": "docs/EPI-CENTER-WORLD-BIBLE.md",
+    "frozen": "docs/bible/v1.0.137-world-bible.md",
+    "bytes": 100353,
+    "sha256": "3af749381de9294d61808f94cdbc71c351021455b7e247d28a2f69665cb87dce"
+  },
+  "workerHealth": {
+    "service": "Epi-Center AI",
+    "releaseVersion": "1.0.135",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "actionProtocol": "npc-actions-v1",
+    "requestAssemblyVersion": "request-handoff-v11",
+    "configured": true
+  },
+  "files": [
+    {
+      "path": "rebuild/hub/action-lexicon.js",
+      "match": true,
+      "bytes": 17022,
+      "sha256": "02c58e668beefedfd1fe7216f804953b5d3d870366e7e7701468cb50ae632fa7"
+    },
+    {
+      "path": "rebuild/character-creation/appearance-builder.js",
+      "match": true,
+      "bytes": 11584,
+      "sha256": "be3d2940d67acafc26fe9759ea43f598270c7a06ba0fad7e92c6199159521faf"
+    },
+    {
+      "path": "rebuild/hub/ai-integration-cases.js",
+      "match": true,
+      "bytes": 3050,
+      "sha256": "1d9757bd12a643d9f6cdd056ff2c2a416331e89ff87beac918a7fc7c61b5ff3f"
+    },
+    {
+      "path": "rebuild/character-creation/index.html",
+      "match": true,
+      "bytes": 14394,
+      "sha256": "cb2fb06ac9396cdde8170e8bb25840b9c2889ee22b3791976d37ec27479c03ba"
+    },
+    {
+      "path": "rebuild/hub/ai-context.js",
+      "match": true,
+      "bytes": 61020,
+      "sha256": "296ca82ede13b9b4c64ab6cc5dd7c42fc95839932fca91742c5bb9745fa839b2"
+    },
+    {
+      "path": "rebuild/title-screen/index.html",
+      "match": true,
+      "bytes": 6166,
+      "sha256": "e7fa3782102759a4140774895478fab98fa81b747e48adccfb3a071a88484a28"
+    },
+    {
+      "path": "rebuild/hub/index.html",
+      "match": true,
+      "bytes": 174317,
+      "sha256": "de45ef9da3c6fe74c3f1892b03c075d31fade09d741547630772862956c8c092"
+    },
+    {
+      "path": "rebuild/hub/ai-integration-ui.js",
+      "match": true,
+      "bytes": 4868,
+      "sha256": "02ce9a27945b71a32f2256f2f7bb85239b071a6aa4f7e07d98cd420b026b2840"
+    },
+    {
+      "path": "rebuild/hub/ai-ui.js",
+      "match": true,
+      "bytes": 49109,
+      "sha256": "8ad1741529d9f9d1d485e354a7b68b82941dfb54f089ffff1557287de603c718"
+    },
+    {
+      "path": "rebuild/hub/apartment-navigation.js",
+      "match": true,
+      "bytes": 5811,
+      "sha256": "41a4798482f5933cc5569bb0911949e3dc80ae4eb9febc8bc538b8f05d329de3"
+    },
+    {
+      "path": "rebuild/hub/appearance-catalog.js",
+      "match": true,
+      "bytes": 19398,
+      "sha256": "bbf44546f63da61f710d8cbdac85f46339bd34010135cc86f59d290c540d0510"
+    },
+    {
+      "path": "rebuild/hub/appearance-measurements.js",
+      "match": true,
+      "bytes": 6625,
+      "sha256": "f7953fd3b5e1e9899932ec5d9bb50d84c5c991100d833a71e51df645b56a6795"
+    },
+    {
+      "path": "rebuild/hub/appearance-profiles-ui.js",
+      "match": true,
+      "bytes": 4751,
+      "sha256": "d7bf9428b70b21473976114d4b147760998cb896453de8c7072281f7b0b06074"
+    },
+    {
+      "path": "rebuild/hub/appearance-template.js",
+      "match": true,
+      "bytes": 52623,
+      "sha256": "89b66ae16929a2b989fda08bd8831fceb5395a013125d07b7608ac2fece8bc74"
+    },
+    {
+      "path": "rebuild/hub/applewood-building.js",
+      "match": true,
+      "bytes": 4068,
+      "sha256": "46b43f7b1f7e56be3eafb8699b1864591196456d60da0e9adca98b8df5288fd2"
+    },
+    {
+      "path": "rebuild/hub/arousal-effects.js",
+      "match": true,
+      "bytes": 1172,
+      "sha256": "e96154827880c33469a72b04cee7f1b73f42d42650b564406dda4d310971b324"
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-appearance.js",
+      "match": true,
+      "bytes": 9078,
+      "sha256": "d576e39290791c02903d0d90005ed2a267d00081ed3005004141a8f5393f6056"
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-attributes.js",
+      "match": true,
+      "bytes": 3117,
+      "sha256": "8f9f025edc97975e5f67b271e4ac1f741e10b62638d926e3ac6af1d27fe12d92"
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-base-lock.js",
+      "match": true,
+      "bytes": 1476,
+      "sha256": "ffadf90c1e7d690ed35a7d06e64abd19e9d31a32eb9630566a950f0ad07633ed"
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-cure.js",
+      "match": true,
+      "bytes": 5066,
+      "sha256": "add357b36f04c6290b2204578292b3dcfd7c82372848942c05856ddb8b673878"
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-debug.js",
+      "match": true,
+      "bytes": 3268,
+      "sha256": "2d4dc1123457f33d2476b1d730c1ba04e8ed179bcb782aeae0bff47ad1657205"
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-exposure.js",
+      "match": true,
+      "bytes": 8830,
+      "sha256": "e231951d36f87366c7bd35592b861d60a22f7b820500ddbf34eb21bcbc5d8e10"
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-identity.js",
+      "match": true,
+      "bytes": 2054,
+      "sha256": "9e6121c8207c352ef3065786c910e98bb93d4ee9fb13b67e30956398e99bb4a3"
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-penalties.js",
+      "match": true,
+      "bytes": 4429,
+      "sha256": "bb87f9f3039485368a7676184f0a768d13cf9171c1fb23b24c0e5dbe6c974684"
+    },
+    {
+      "path": "rebuild/hub/appearance-alignment.js",
+      "match": true,
+      "bytes": 7936,
+      "sha256": "baff4028a564a35649b3f55245953ec6319a3f636451f338acfc8607f79fdcbc"
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-physiology.js",
+      "match": true,
+      "bytes": 3259,
+      "sha256": "8079c358e6cc942dee8de046af621d09166e0b1d96ae718ef50f4a878690e0d0"
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-policy.js",
+      "match": true,
+      "bytes": 4264,
+      "sha256": "1d4345837c41d68746f52c28b6615505572532d6fb985b7345c4bf198dec47dd"
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-presentation.js",
+      "match": true,
+      "bytes": 3899,
+      "sha256": "07a8b2756c5ae9fcbf47b2d5eacc3f013ef555768b54ae84e06e091d752761ac"
+    },
+    {
+      "path": "rebuild/hub/authored-dialogue.js",
+      "match": true,
+      "bytes": 640,
+      "sha256": "ff5bb0a65b507652c9aa5bfaedd3b8e6a2b146bb2f250a063fa8cd2b87ffd5d5"
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-resources.js",
+      "match": true,
+      "bytes": 3279,
+      "sha256": "22153eb4bf9fb690ffbc791a8b187773f748128bc732a2532c9b22a22dedb278"
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-sleep.js",
+      "match": true,
+      "bytes": 3618,
+      "sha256": "45c121516e80742cd1d3e7e4d001251450bea11671e90236ff502118651c73b3"
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-social-ui.js",
+      "match": true,
+      "bytes": 2673,
+      "sha256": "56181bdf7189f346b9a7df5cc5013788d220efcbdb299baabebdd7d29bf8b04f"
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-timeline.js",
+      "match": true,
+      "bytes": 8529,
+      "sha256": "726f85c8c5ac197760d5f30b040ee7595127798ccd797c543b9cb762ea35193d"
+    },
+    {
+      "path": "rebuild/hub/bimbo-virus-social.js",
+      "match": true,
+      "bytes": 8668,
+      "sha256": "0c826c806a405c0765c80c7ac57ac8245184d1a13f926163266590e11c60e7c5"
+    },
+    {
+      "path": "rebuild/hub/burkes-art.js",
+      "match": true,
+      "bytes": 1013,
+      "sha256": "62cec4be6418f1cc95f5916517e8b923709aceb03a056e0f32bce9999fce9700"
+    },
+    {
+      "path": "rebuild/hub/burkes-baking.js",
+      "match": true,
+      "bytes": 6779,
+      "sha256": "be801096a50bc3097d4ca41863534e1ff34e8099575bac4f5dfb4799cb1dda37"
+    },
+    {
+      "path": "rebuild/hub/burkes-delivery.js",
+      "match": true,
+      "bytes": 6077,
+      "sha256": "adbfeaab252ee8ddc0273da1f946022f6f6c3ad58db54dac67ce5f51f34227f3"
+    },
+    {
+      "path": "rebuild/hub/burkes-queue.js",
+      "match": true,
+      "bytes": 3407,
+      "sha256": "a8fbd06d5f17681d44e62dafa16d7dac868fb2e7d348a5a987f4d73fba3ff954"
+    },
+    {
+      "path": "rebuild/hub/burkes-retail-ui.js",
+      "match": true,
+      "bytes": 6319,
+      "sha256": "d32eb00771f04965ef438168a17ea074cbbdf4471ebd7d5e63a73f29b98edbe0"
+    },
+    {
+      "path": "rebuild/hub/burkes-retail.js",
+      "match": true,
+      "bytes": 19129,
+      "sha256": "6a6933cf1f2e80f7f8213afd5ad71b83c9a20ca0ea1acf307f8c07af99bf5fd2"
+    },
+    {
+      "path": "rebuild/hub/burkes-sweets-ui.js",
+      "match": true,
+      "bytes": 5488,
+      "sha256": "535811640ce7f10a58cc9dfa93c7ac2fd07eb074538cd98b4252d39c895c36fd"
+    },
+    {
+      "path": "rebuild/hub/business-availability.js",
+      "match": true,
+      "bytes": 869,
+      "sha256": "ff5502cc647729970950d5ad4be3f62de01af310a421e58cd3785cfe47281074"
+    },
+    {
+      "path": "rebuild/hub/burkes-sweets.js",
+      "match": true,
+      "bytes": 16417,
+      "sha256": "88866427043b4b5c31aa49aafcffaee7d9adc4894a243391e1425fbb8cc3aa8e"
+    },
+    {
+      "path": "rebuild/hub/canine-intent.js",
+      "match": true,
+      "bytes": 3642,
+      "sha256": "444eb5d208cbacba9bea3996857493f706edf607316f4d8b46cfc09d295c654a"
+    },
+    {
+      "path": "rebuild/hub/candy-effects.js",
+      "match": true,
+      "bytes": 5925,
+      "sha256": "6c0f93d74d7355e89e98b78d0d8f3103135a01e3b70a4da0a2758eee85cc5c59"
+    },
+    {
+      "path": "rebuild/hub/canine-expression.js",
+      "match": true,
+      "bytes": 6220,
+      "sha256": "9c21151796dc1237bbf1de5660cefa09de489d1deea13f4e5ce0d520a91edc12"
+    },
+    {
+      "path": "rebuild/hub/charity-appearance.js",
+      "match": true,
+      "bytes": 6135,
+      "sha256": "c23efdfb897632348414758686f5136e47daf24f4dd42279e262ee077e929ec5"
+    },
+    {
+      "path": "rebuild/hub/charity-household-ui.js",
+      "match": true,
+      "bytes": 1735,
+      "sha256": "ce064b064b80d7afabb4ecea7e9eeea07a186e5a561b5ecdabb80f06f38fbabb"
+    },
+    {
+      "path": "rebuild/hub/charity-service-ui.js",
+      "match": true,
+      "bytes": 3119,
+      "sha256": "e03efd78c6286338615bb661d1af7a5e1315759935f06a399f12201010a04e79"
+    },
+    {
+      "path": "rebuild/hub/charity-service.js",
+      "match": true,
+      "bytes": 10987,
+      "sha256": "b2cc409090a69da99ba6cd9b3e516ccdcfdf08985c0f50e3f69c4e8b1e401d63"
+    },
+    {
+      "path": "rebuild/hub/charity-visitors.js",
+      "match": true,
+      "bytes": 6440,
+      "sha256": "9d74f3a5aa63dc2e3717c6147266e92977885300f555fdc2e801b7c39bf25810"
+    },
+    {
+      "path": "rebuild/hub/charity-household.js",
+      "match": true,
+      "bytes": 31089,
+      "sha256": "6c480d4fb539e747ff520da86d4453e24addbcfd77e65c788bf068183a58f984"
+    },
+    {
+      "path": "rebuild/hub/charity.js",
+      "match": true,
+      "bytes": 14837,
+      "sha256": "595dfe529af981bb08cb21220b81e6a132d567b6d2dff6154b64acf35925e3c5"
+    },
+    {
+      "path": "rebuild/hub/cherished-art.js",
+      "match": true,
+      "bytes": 1449,
+      "sha256": "b4f3c8f976f26bd3a4f1e5b3c427020babcdcc54f773f1f8c0e93af0f96da961"
+    },
+    {
+      "path": "rebuild/hub/cherished-touch-ui.js",
+      "match": true,
+      "bytes": 6276,
+      "sha256": "5693ede18a9d5a6c287ef1bc468e6cb755b22da7d0514c6b6b79a563700a7aab"
+    },
+    {
+      "path": "rebuild/hub/cherished-shop-ui.js",
+      "match": true,
+      "bytes": 10866,
+      "sha256": "86bc10f786348ee8b53e758dd9ec7b201bbaa2fcf3c743635a8492a2ca538878"
+    },
+    {
+      "path": "rebuild/hub/cherished-touch.js",
+      "match": true,
+      "bytes": 15421,
+      "sha256": "893bfa4f8804e43ac809cf42807f25b47292cad862a7d8616fce1b1bbe2e2f9d"
+    },
+    {
+      "path": "rebuild/hub/cherished-shop.js",
+      "match": true,
+      "bytes": 18599,
+      "sha256": "c3051d9e4bdac3dc38d31f8c5247df5d01a54e727777fd011e6f71e67bb622f2"
+    },
+    {
+      "path": "rebuild/hub/character-home.js",
+      "match": true,
+      "bytes": 4115,
+      "sha256": "29add3243b650fb3183f9965df6b707774ea1938f2ce06e5cb29d9ac73f43641"
+    },
+    {
+      "path": "rebuild/hub/club-appearance.js",
+      "match": true,
+      "bytes": 8531,
+      "sha256": "40737d8cb5e891824a7f0e45748c9d1bb1abd09a49a1a28003c3395fc99a297b"
+    },
+    {
+      "path": "rebuild/hub/current-appearance.js",
+      "match": true,
+      "bytes": 3090,
+      "sha256": "84582a8f5fc01158211e719fc9996e0a698aea551e72763fb51d794face7fabb"
+    },
+    {
+      "path": "rebuild/hub/conversation-continuity.js",
+      "match": true,
+      "bytes": 4698,
+      "sha256": "4e2508bc1d5e9490bed97bf7c47df3a413a4ac19cfa4077c1ceeab85e4816070"
+    },
+    {
+      "path": "rebuild/hub/daniel-appearance.js",
+      "match": true,
+      "bytes": 6053,
+      "sha256": "bd09390b7791138720124425904b7a2a7d111ec2de1a8aea943444088baa7328"
+    },
+    {
+      "path": "rebuild/hub/cursed-exposure.js",
+      "match": true,
+      "bytes": 1166,
+      "sha256": "a7489db4f890cecd79664ccaa67d3f934b742ab5f567c600902dc0f28dd8e39e"
+    },
+    {
+      "path": "rebuild/hub/dart-appearance.js",
+      "match": true,
+      "bytes": 9629,
+      "sha256": "a40a27d3b782a38a84ed2500870c86c5b6cd304347bae5ce94679b79d3d8026c"
+    },
+    {
+      "path": "rebuild/hub/dart.js",
+      "match": true,
+      "bytes": 14258,
+      "sha256": "41da2e3606df78840f1422ef661f3b9ac1bac192f2fe2f6e7edb41d7244f487f"
+    },
+    {
+      "path": "rebuild/hub/department-ui.js",
+      "match": true,
+      "bytes": 10165,
+      "sha256": "17cc6357dfae03e1a41a351c3dee8c052ee034b4a5e552db6f32eaf3e76ebce8"
+    },
+    {
+      "path": "rebuild/hub/dating-readiness.js",
+      "match": true,
+      "bytes": 8061,
+      "sha256": "63a84ba856b180172407c8c191d93d1b9933900e9795cceff8cb5085301e93ad"
+    },
+    {
+      "path": "rebuild/hub/dev-return-human.js",
+      "match": true,
+      "bytes": 6810,
+      "sha256": "d12e32442fc66556eb3b71b6f7fb5f451e1f7931c0fdc54ea083434aa9074de1"
+    },
+    {
+      "path": "rebuild/hub/dialogue-intents.js",
+      "match": true,
+      "bytes": 2458,
+      "sha256": "634ce3b2dafe8fbfbd780f02226da5e1e04c942c72e6c66ce35374fd9c1f334f"
+    },
+    {
+      "path": "rebuild/hub/department.js",
+      "match": true,
+      "bytes": 27098,
+      "sha256": "f508e85f0863705f387506da85f3c9496e507410b32adca075a9229080931ef2"
+    },
+    {
+      "path": "rebuild/hub/easter-egg-ui.js",
+      "match": true,
+      "bytes": 3640,
+      "sha256": "11c95f6d76f2811517cbe79f3bbfc6a1ffb48e3b6af447277111afd7ca51fd61"
+    },
+    {
+      "path": "rebuild/hub/easter-egg.js",
+      "match": true,
+      "bytes": 6661,
+      "sha256": "5fbc817fa64f0c944f2bbcf8c10a5b5febcdf36506a425a8c0a8b0cdf0223af0"
+    },
+    {
+      "path": "rebuild/hub/enchanted-effects.js",
+      "match": true,
+      "bytes": 6392,
+      "sha256": "b89fdbe729b6ce8fbf163585c8f23a05a5dcbf4095df045ef4a86af7985931d6"
+    },
+    {
+      "path": "rebuild/hub/encounter-arousal.js",
+      "match": true,
+      "bytes": 4017,
+      "sha256": "738eec511447582d19b69845889226799492eb39e44d4faf3eaddab2ac84f44e"
+    },
+    {
+      "path": "rebuild/hub/equipment-regions.js",
+      "match": true,
+      "bytes": 6406,
+      "sha256": "ae125bebc53aba83c95a5b3e4572cd121851aee8278cea084a7129c88d47c6a8"
+    },
+    {
+      "path": "rebuild/hub/encounter-continuity.js",
+      "match": true,
+      "bytes": 2426,
+      "sha256": "e72b87a2e59c781b8e435fd7b3b1e78bfd5ea6ef94e7572a0eb55cd0f5ef3925"
+    },
+    {
+      "path": "rebuild/hub/erin-activities-ui.js",
+      "match": true,
+      "bytes": 3249,
+      "sha256": "88bf6045b3c21c1f943ff577c93208b1498c16367800baca0326a6d5187981cc"
+    },
+    {
+      "path": "rebuild/hub/equipment-ui.js",
+      "match": true,
+      "bytes": 6001,
+      "sha256": "db4101c0864854b117411b9de5321bc8d6dd7648b41b41ae9326cd3604baa169"
+    },
+    {
+      "path": "rebuild/hub/erin-activities.js",
+      "match": true,
+      "bytes": 12875,
+      "sha256": "90a4f066c62c3b29b1500151f3c40cbb4fee2b997f603fca6d4ad35d9871d696"
+    },
+    {
+      "path": "rebuild/hub/erin-appearance.js",
+      "match": true,
+      "bytes": 9997,
+      "sha256": "246ffc6d0f37063932c91ba9f434ff5fdd06208b667a9e1e9beb1937827abf8c"
+    },
+    {
+      "path": "rebuild/hub/erin-daily.js",
+      "match": true,
+      "bytes": 17257,
+      "sha256": "b1dfd22c2fc16ff0392d06a78e74c7547bd97e6cc8b618c8746db2f9f651c2ab"
+    },
+    {
+      "path": "rebuild/hub/erin-household-data.js",
+      "match": true,
+      "bytes": 20873,
+      "sha256": "8f6a48256a8bf1b0420c3dc3bbfa282937228641771807d51b3947874145e83e"
+    },
+    {
+      "path": "rebuild/hub/erin-household.js",
+      "match": true,
+      "bytes": 25663,
+      "sha256": "79215ef70256dc46bbe097bc2a714278904071a5705cfe76c5e71b4cf0a650bd"
+    },
+    {
+      "path": "rebuild/hub/erin-life-ui.js",
+      "match": true,
+      "bytes": 17808,
+      "sha256": "3ee2b9b9a0e964c312e803b751c04006d2717b153468d3d52c1d9a52370bda89"
+    },
+    {
+      "path": "rebuild/hub/erin-office-ui.js",
+      "match": true,
+      "bytes": 6074,
+      "sha256": "50efe0deabd40f10734c0cb811e59d81a4f1ea951c21ff0af4adecb58e742260"
+    },
+    {
+      "path": "rebuild/hub/erin-life.js",
+      "match": true,
+      "bytes": 56812,
+      "sha256": "4800aa9feb541de60ec435694eca15b6a8b33cd807bc62ccbbea08dd95088bdf"
+    },
+    {
+      "path": "rebuild/hub/erin-office.js",
+      "match": true,
+      "bytes": 15363,
+      "sha256": "1f852cb3fa708a51e385b6240cbffca142cfd8aa5dfb517c89067e73eb414af6"
+    },
+    {
+      "path": "rebuild/hub/erin-restoration.js",
+      "match": true,
+      "bytes": 27620,
+      "sha256": "f9f03adb6c89b266c5f7c7e629778ecea432a145a8c0eeea3e04773cc4c8bf04"
+    },
+    {
+      "path": "rebuild/hub/erin-work.js",
+      "match": true,
+      "bytes": 2859,
+      "sha256": "8391a9d02d3a9ae5f67507d07fab98484e96a14f63250bdb4cf2d7fa6c42ad7d"
+    },
+    {
+      "path": "rebuild/hub/erin-ui.js",
+      "match": true,
+      "bytes": 11629,
+      "sha256": "fbb5a022b026f7b4913fecf055c19da4e4faacf646b529e3993dd826dad35ba6"
+    },
+    {
+      "path": "rebuild/hub/eve-appearance.js",
+      "match": true,
+      "bytes": 10779,
+      "sha256": "05540460a6b5ee774fd962f4ce4aad62a83f5dba1aa172e3f09d7b5fe8f8c23f"
+    },
+    {
+      "path": "rebuild/hub/feed-position.js",
+      "match": true,
+      "bytes": 983,
+      "sha256": "094a2fa1fdb81868b8e4c65edb6f77649706c7011329c0b4777d66e23b2c3e55"
+    },
+    {
+      "path": "rebuild/hub/flats-appearance.js",
+      "match": true,
+      "bytes": 8381,
+      "sha256": "1468431ff83d90a59cb66f440ff756493ef5216ed945a0eb11e01286919207dc"
+    },
+    {
+      "path": "rebuild/hub/flats-portraits.js",
+      "match": true,
+      "bytes": 641,
+      "sha256": "8d352d23086d682436ef0b40e47d8d8e3133dd26a22be6f858cea953a8bdf451"
+    },
+    {
+      "path": "rebuild/hub/flats-story.js",
+      "match": true,
+      "bytes": 2351,
+      "sha256": "c5d71af00da3e00b01550eb0df8c05a7b260e001c968d704991616b10d749b8a"
+    },
+    {
+      "path": "rebuild/hub/fluid-contact-lexicon.js",
+      "match": true,
+      "bytes": 5505,
+      "sha256": "6ba44d33e6ea89a838325eb94133314e53d7301121696831e8c88006489cf0ca"
+    },
+    {
+      "path": "rebuild/hub/fluid-contact-ui.js",
+      "match": true,
+      "bytes": 1146,
+      "sha256": "66a900d3c12f0d2bec490d0e96b03349cca65b5e6faa297c97df7b7b8489483c"
+    },
+    {
+      "path": "rebuild/hub/fluid-contact.js",
+      "match": true,
+      "bytes": 13521,
+      "sha256": "9f8b3261fa0f90987e8e9869fd8f7ac87fb91be3838a1acd5e7bcd32ba34c024"
+    },
+    {
+      "path": "rebuild/hub/footwear-senses.js",
+      "match": true,
+      "bytes": 6522,
+      "sha256": "3d0a346832ec0f23619e2f932a0f0cb3b8d34167fca16a138795d1edf38a496f"
+    },
+    {
+      "path": "rebuild/hub/form-body.js",
+      "match": true,
+      "bytes": 9155,
+      "sha256": "3af5f36796ebc09a16f1fddab0e5b918327943f2ba98cefbbff94497631492d7"
+    },
+    {
+      "path": "rebuild/hub/form-living.js",
+      "match": true,
+      "bytes": 9877,
+      "sha256": "e7e3e4e584d6eb4f978799e1759f805d0c0906b73b1f5e2d5419d2d6b2e9ff1c"
+    },
+    {
+      "path": "rebuild/hub/form-minds-ui.js",
+      "match": true,
+      "bytes": 11193,
+      "sha256": "92ebdc4d687b43a623ba997cedfca32360a9f4d4f03274634c2b949d74ffedca"
+    },
+    {
+      "path": "rebuild/hub/form-minds.js",
+      "match": true,
+      "bytes": 22110,
+      "sha256": "d1926e6abc37cbcd9772083c5a0c14c3b8795c9fcb9cc0b1b4afb5f2772351d3"
+    },
+    {
+      "path": "rebuild/hub/form-storage.js",
+      "match": true,
+      "bytes": 4194,
+      "sha256": "f5f0274463d3fc1d2dc3e5214045d6dff7613104c158f60a07544c072e70ff50"
+    },
+    {
+      "path": "rebuild/hub/gum-effects.js",
+      "match": true,
+      "bytes": 4913,
+      "sha256": "7c333ca6ed3747ea364065abd7c8816ad8501fa4d699497b4196791d192a4ec4"
+    },
+    {
+      "path": "rebuild/hub/heard-accounts.js",
+      "match": true,
+      "bytes": 2779,
+      "sha256": "d826df373159ab7517c352579645944e2ee8c2615937450f2538ac2385554091"
+    },
+    {
+      "path": "rebuild/hub/hangry-fangs.js",
+      "match": true,
+      "bytes": 6856,
+      "sha256": "90d8db26ed5702c7ff59fe5ca04d0479d60a7b546f0e3bda63790040651e07fe"
+    },
+    {
+      "path": "rebuild/hub/household-ambience.js",
+      "match": true,
+      "bytes": 1952,
+      "sha256": "7ced7985f86540060233c140280bf1b935ca193ced5d72176f260517fb7dd9ff"
+    },
+    {
+      "path": "rebuild/hub/household-prices.js",
+      "match": true,
+      "bytes": 1326,
+      "sha256": "2ce8cfd4e2d8c9f55aba113fbcd082bbb0bd55a7cc435ddf35b88fdacb2d7369"
+    },
+    {
+      "path": "rebuild/hub/hub-world.js",
+      "match": true,
+      "bytes": 16665,
+      "sha256": "e8d54904f676a56a59044767b3164b83d087cf04c8e723bd74cf9dc71e6426be"
+    },
+    {
+      "path": "rebuild/hub/interaction-state.js",
+      "match": true,
+      "bytes": 1830,
+      "sha256": "bec35f1e42197c6874a5c3af0c605197a25c2f7babfaa639b3a50577a3bfd2bd"
+    },
+    {
+      "path": "rebuild/hub/hub-art.js",
+      "match": true,
+      "bytes": 1168,
+      "sha256": "e4738dbc047117a1441cb5dfbed0b1b489d8213439fa1dbd936fbcb4a562141e"
+    },
+    {
+      "path": "rebuild/hub/internal-mastery.js",
+      "match": true,
+      "bytes": 10256,
+      "sha256": "932dc909f9d5623cc596700750209b58dd2186ad1e930fee289c580dc9ffce4b"
+    },
+    {
+      "path": "rebuild/hub/intimacy.js",
+      "match": true,
+      "bytes": 2207,
+      "sha256": "2d0dca19e2de4daf8c7ee1e1d4dc299234f469053eb23271f6616f7c83bc1ee7"
+    },
+    {
+      "path": "rebuild/hub/intimate-encounter-ui.js",
+      "match": true,
+      "bytes": 694,
+      "sha256": "029883ec65250f247015d4c9ea9abddd944555e9f7179a490e85e1daf1ad6f46"
+    },
+    {
+      "path": "rebuild/hub/intimate-encounter.js",
+      "match": true,
+      "bytes": 7720,
+      "sha256": "a7dcbb259d2a656f5ab9e280268b924aab65d421d29eca94697a4f19455b9a6c"
+    },
+    {
+      "path": "rebuild/hub/kibbles-appearance.js",
+      "match": true,
+      "bytes": 29843,
+      "sha256": "29717604014998ee021172bc5a3f4d0b4b9f32fdcf1d88487ad517bcbe784287"
+    },
+    {
+      "path": "rebuild/hub/kissing.js",
+      "match": true,
+      "bytes": 7997,
+      "sha256": "563d18f55e3178739bbd9fb4e97435e20292ddc1f3731ec2c9e6eb9886d09ad9"
+    },
+    {
+      "path": "rebuild/hub/kibbles-behavior.js",
+      "match": true,
+      "bytes": 17223,
+      "sha256": "657a0dd819d75985f8341e4e562b766f400ba5cab0122b9e3f6051122a45477f"
+    },
+    {
+      "path": "rebuild/hub/kissing-types.js",
+      "match": true,
+      "bytes": 5682,
+      "sha256": "87334be90831f648468875bfd6cd264176c35cce28c7d59328e1285ed5a4cb79"
+    },
+    {
+      "path": "rebuild/hub/kissing-ui.js",
+      "match": true,
+      "bytes": 1273,
+      "sha256": "7501b984051c93911611766c4376ac75c3465463e23bbd7cd2633a1d45fedd40"
+    },
+    {
+      "path": "rebuild/hub/language-actions-ui.js",
+      "match": true,
+      "bytes": 14821,
+      "sha256": "9afd955d1fd1ec5af213bd020732044dbea451eb17e49f91f625478d1da15e1d"
+    },
+    {
+      "path": "rebuild/hub/language-actions.js",
+      "match": true,
+      "bytes": 2389,
+      "sha256": "ae098d79319391805fc1aad9c90057f78937c77ff939bc003de12c8207d89cd2"
+    },
+    {
+      "path": "rebuild/hub/lip-cosmetics-ui.js",
+      "match": true,
+      "bytes": 1458,
+      "sha256": "974d78263c3b946bfe87b9dcc76f056e1ad4f5aab2970717a6d40db411912b3d"
+    },
+    {
+      "path": "rebuild/hub/lip-cosmetics.js",
+      "match": true,
+      "bytes": 6066,
+      "sha256": "ef0c1534a32658a3533a3b6bae0614c2561e780e9a833e58d60c3e958c3d0f6d"
+    },
+    {
+      "path": "rebuild/hub/legacy-autonomy.js",
+      "match": true,
+      "bytes": 7583,
+      "sha256": "808f0536f7f09f6c4e645b6e09c391dd39eff8bd3e3d5d8b74a4eb6b3b17d34d"
+    },
+    {
+      "path": "rebuild/hub/legacy-0884-data.js",
+      "match": true,
+      "bytes": 19012,
+      "sha256": "158eceb08f30fc1aa567e56cf7d7e71f602fd2ff1c2f4f7f6512fa6ffcacc0a3"
+    },
+    {
+      "path": "rebuild/hub/live-time-ui.js",
+      "match": true,
+      "bytes": 2743,
+      "sha256": "e8fa0c37e0125c9c6c2ccb7636b56abc2ab93a86a8fc1dc10eb760e59084aa05"
+    },
+    {
+      "path": "rebuild/hub/live-time.js",
+      "match": true,
+      "bytes": 947,
+      "sha256": "4b1305726841b6c06b7fcf398307bd47d2b4ef053616325812575444e6756258"
+    },
+    {
+      "path": "rebuild/hub/location-context.js",
+      "match": true,
+      "bytes": 2652,
+      "sha256": "fdf7a30071646a88c801594fe33fe0dcc9d7f9ad98acf65f2405fb6501cab8d9"
+    },
+    {
+      "path": "rebuild/hub/location-details-ui.js",
+      "match": true,
+      "bytes": 4045,
+      "sha256": "65d6b327dd0cc485997ea5e99b76b05686fd4bc40bf2b2a5c47def393a2e7e41"
+    },
+    {
+      "path": "rebuild/hub/location-details.js",
+      "match": true,
+      "bytes": 13193,
+      "sha256": "401f5bb76505b5cf9de4c2194ca1b6127d91ba86b441bb4d72bc83cf000cd791"
+    },
+    {
+      "path": "rebuild/hub/location-details.css",
+      "match": true,
+      "bytes": 929,
+      "sha256": "88358bc8d84d41781a1aede842cc45985d0bda7cee20a2a95b8c49994c718f11"
+    },
+    {
+      "path": "rebuild/hub/marketing-ui.js",
+      "match": true,
+      "bytes": 9076,
+      "sha256": "cf8d7788d4283ed4c90db38b4165c03b8e99c0eb3727588d93c02b932db40e34"
+    },
+    {
+      "path": "rebuild/hub/marketing.js",
+      "match": true,
+      "bytes": 26726,
+      "sha256": "636f111ade120d48db92a3812b15fea0e29c1a242db8ada367d292e594ad40fe"
+    },
+    {
+      "path": "rebuild/hub/nadia-home-data.js",
+      "match": true,
+      "bytes": 12383,
+      "sha256": "e00bd1c87783882b633d5b2ad937ec22cb214f3de6667d7a454d64badd79b79b"
+    },
+    {
+      "path": "rebuild/hub/nadia-activities.js",
+      "match": true,
+      "bytes": 5113,
+      "sha256": "ebfcb6b9a19593fd0004d424045b0dc44f2df7e084662f4396200df4b7be89c6"
+    },
+    {
+      "path": "rebuild/hub/nadia-appearance.js",
+      "match": true,
+      "bytes": 5845,
+      "sha256": "762aac1b9a48ab959f629ada4a52434b379131ae584ff2b26b2e1892f6d7dd2b"
+    },
+    {
+      "path": "rebuild/hub/nadia-guests.js",
+      "match": true,
+      "bytes": 14040,
+      "sha256": "a5f740d274c123a67fd5f4f4780487bf9e3cca5d6aab3076e6474cd2ed83b335"
+    },
+    {
+      "path": "rebuild/hub/nadia-daily.js",
+      "match": true,
+      "bytes": 16997,
+      "sha256": "698e6b931afaa4ca51e081904b302785d7d04851290c308d47b9a171401f4723"
+    },
+    {
+      "path": "rebuild/hub/nadia-home-ui.js",
+      "match": true,
+      "bytes": 19746,
+      "sha256": "70ffa9a97d2f255c007465d9c42cac9d9176ae0799d692458166d137ecf88e8b"
+    },
+    {
+      "path": "rebuild/hub/nadia-household.js",
+      "match": true,
+      "bytes": 20161,
+      "sha256": "b84f28a5d408303760fa067e2c004aa571bfb88d1d908507db6650eb39112414"
+    },
+    {
+      "path": "rebuild/hub/navigation-runtime.js",
+      "match": true,
+      "bytes": 2399,
+      "sha256": "bbf9383e7c6080c39addbf06eab0ecf5f88602fe67729a4dbe038fe4ebe9d841"
+    },
+    {
+      "path": "rebuild/hub/navigation-ui.js",
+      "match": true,
+      "bytes": 10414,
+      "sha256": "da641a169a386a072d96165aacd276390611e86a5e64ef5beaeb5eab49b01d3e"
+    },
+    {
+      "path": "rebuild/hub/navigation-v1.0.66.css",
+      "match": true,
+      "bytes": 9440,
+      "sha256": "55a16d1047f9b35677c83a4deff953b3fe3a130435d505a62e5cb5db1f335fad"
+    },
+    {
+      "path": "rebuild/hub/narration-grounding.js",
+      "match": true,
+      "bytes": 20794,
+      "sha256": "ba62c2727f3fac397c374f954a70cb76177e9c801e1c3691eab7daa041e65857"
+    },
+    {
+      "path": "rebuild/hub/navigation.js",
+      "match": true,
+      "bytes": 13209,
+      "sha256": "33509e21fe533e56426e7e12a0c6e4225620fa4f32eb29d6f6f106acd13e4a96"
+    },
+    {
+      "path": "rebuild/hub/npc-actions-ui.js",
+      "match": true,
+      "bytes": 6328,
+      "sha256": "a09d5eb008226b843c1ec5be59536db495aab4d07be4e0cfa88ff4f298ff42b7"
+    },
+    {
+      "path": "rebuild/hub/needs-consequences.js",
+      "match": true,
+      "bytes": 7801,
+      "sha256": "4d286013f748e6923fd7ce8ca7c49d5ce88789d94e9abe4b9c7e2a8582d81a26"
+    },
+    {
+      "path": "rebuild/hub/office-floor-ui.js",
+      "match": true,
+      "bytes": 6405,
+      "sha256": "7ccec10afb7150ff0a4106fc04ec7e46fa25757ac6c9308eb309e8ef16bbffdc"
+    },
+    {
+      "path": "rebuild/hub/npc-travel.js",
+      "match": true,
+      "bytes": 2300,
+      "sha256": "e46079e5837fca0674ec43b866337f01a861f8464ca6804caaa5ec648ac843af"
+    },
+    {
+      "path": "rebuild/hub/npc-needs.js",
+      "match": true,
+      "bytes": 752,
+      "sha256": "2ffb419b2235955e13215dcd437305bc8547240d41963794fb8f32b80c4022a8"
+    },
+    {
+      "path": "rebuild/hub/npc-actions.js",
+      "match": true,
+      "bytes": 35053,
+      "sha256": "66a5328e9d3151d0828579fdaf3150c84c8a18e1f29c4a9c21d76c0096e4b968"
+    },
+    {
+      "path": "rebuild/hub/office-floor.js",
+      "match": true,
+      "bytes": 32763,
+      "sha256": "a50296a2617ee0fc41ab5bfc184df8bc9b8b59063e2d58bb7f3e49ed45659faf"
+    },
+    {
+      "path": "rebuild/hub/owner-income.js",
+      "match": true,
+      "bytes": 814,
+      "sha256": "677843fa8e23651e6292e4f613427a2550f08a4278c91af5f9407ed8b153f20b"
+    },
+    {
+      "path": "rebuild/hub/personal-mail-ui.js",
+      "match": true,
+      "bytes": 2463,
+      "sha256": "19b4a981cfe9cb47a2a53b849d786545e03c27ecad775a791dc791cac5d5b061"
+    },
+    {
+      "path": "rebuild/hub/personal-mail.js",
+      "match": true,
+      "bytes": 4203,
+      "sha256": "465edd69c9beabe0aebdddf5001e653ef02ea83501c87250786638e579f868b5"
+    },
+    {
+      "path": "rebuild/hub/player-clothing.js",
+      "match": true,
+      "bytes": 6966,
+      "sha256": "a46d0549c8f67fee9791cec4ffec34bf3a8f0384520bd52ebf9e360b6de7260a"
+    },
+    {
+      "path": "rebuild/hub/perspiration.js",
+      "match": true,
+      "bytes": 11532,
+      "sha256": "581fc7f68044579ce5bb155dbb8d47514746cbad79e7f11d8258ee2b59fb1292"
+    },
+    {
+      "path": "rebuild/hub/player-feed.js",
+      "match": true,
+      "bytes": 2209,
+      "sha256": "c3c1193413648f0bc5ce4f15681c31cce8ab1d6f470cf096cab44e841b5b6ff8"
+    },
+    {
+      "path": "rebuild/hub/player-guide-ui.js",
+      "match": true,
+      "bytes": 9496,
+      "sha256": "1c248b4c4304c5b117858d3fba86dde73feda91938dee73f518b5e127b6fc7db"
+    },
+    {
+      "path": "rebuild/hub/preeti-appearance.js",
+      "match": true,
+      "bytes": 10656,
+      "sha256": "64bded6dc60c096bfa5157f3fd21b904c8b5d9dde7c49e7b08d3853d932ad06f"
+    },
+    {
+      "path": "rebuild/hub/player-guide.js",
+      "match": true,
+      "bytes": 6729,
+      "sha256": "ff4a52cb1894a35a56000343a0df39deac303fe3bd2961f8b49d0818b72f94cb"
+    },
+    {
+      "path": "rebuild/hub/private-encounter-ui.js",
+      "match": true,
+      "bytes": 1705,
+      "sha256": "7e2da178bebfe42ebfce51f554eaaa97be56f37e985984dc60435283bce4cabd"
+    },
+    {
+      "path": "rebuild/hub/pri-appearance.js",
+      "match": true,
+      "bytes": 10636,
+      "sha256": "d694c1315deec3b305bd2525ce09ff43d6b8103cb7358c010bc74dcb11d64f2f"
+    },
+    {
+      "path": "rebuild/hub/private-encounter.js",
+      "match": true,
+      "bytes": 9928,
+      "sha256": "3b43b42797e0c2944e81b87ee7e2e89444c664ccce3e48ed9308c2f67b9e25d0"
+    },
+    {
+      "path": "rebuild/hub/priya-appearance.js",
+      "match": true,
+      "bytes": 5981,
+      "sha256": "0b7df75e9f6649b53dafc7e7ab70d423b0d98b820d4ce4546b34636335bb89c0"
+    },
+    {
+      "path": "rebuild/hub/priya-cat.js",
+      "match": true,
+      "bytes": 40203,
+      "sha256": "91d8da5fd364aafd114bcd69122716add81013d4dddcee1ae9c459b76da2e27f"
+    },
+    {
+      "path": "rebuild/hub/priya-cat-ui.js",
+      "match": true,
+      "bytes": 10373,
+      "sha256": "35de6d9712d6c32e9f3f163bc1a8f28d5444506c3fca6e4d094f84c6637d82fa"
+    },
+    {
+      "path": "rebuild/hub/priya-daily-ui.js",
+      "match": true,
+      "bytes": 1916,
+      "sha256": "06163c30bb870abe58f427851ce5b869a2eb7783f7281efc4e9b78834f63dcfc"
+    },
+    {
+      "path": "rebuild/hub/priya-daily.js",
+      "match": true,
+      "bytes": 21476,
+      "sha256": "ee0d99b98bf39a751bc1093e44ceb4bb2a9ebe6bc8c1f5833077f813d658d3fc"
+    },
+    {
+      "path": "rebuild/hub/priya-flats-ui.js",
+      "match": true,
+      "bytes": 10660,
+      "sha256": "85baab24c52b9ad8951df75fa348faab3ddabd1f7610cb68fd57b12a511154fd"
+    },
+    {
+      "path": "rebuild/hub/priya-flats.js",
+      "match": true,
+      "bytes": 19089,
+      "sha256": "4b0167682256728178b72dd49b025047694824fe85b297abbd1a8d10876b0b9f"
+    },
+    {
+      "path": "rebuild/hub/priya-home-navigation.js",
+      "match": true,
+      "bytes": 8020,
+      "sha256": "045e18852e40468b612a0d2b00f80cb8c35059ddb56e5b0494ba41f2db976c60"
+    },
+    {
+      "path": "rebuild/hub/priya-home.js",
+      "match": true,
+      "bytes": 8090,
+      "sha256": "bfd6998d759d7d2ad35214e83eb0403fa4878c9f79d0a12797ff6a078607d0af"
+    },
+    {
+      "path": "rebuild/hub/priya-household-ui.js",
+      "match": true,
+      "bytes": 7047,
+      "sha256": "476f2be77fa901bf3741baf5f96d9d09e6dec3456757812988a079bdc1f7f9ac"
+    },
+    {
+      "path": "rebuild/hub/priya-ui.js",
+      "match": true,
+      "bytes": 5533,
+      "sha256": "3b4be241746a917d686ebd573053eb8b6b3cc0214d9c13686b89d9ba9166f867"
+    },
+    {
+      "path": "rebuild/hub/priya.js",
+      "match": true,
+      "bytes": 26882,
+      "sha256": "dd6685330252ccf1cd73120f311ddf82b5336c14e1801be00eab46691ebec366"
+    },
+    {
+      "path": "rebuild/hub/priya-household.js",
+      "match": true,
+      "bytes": 17792,
+      "sha256": "fb70b2405170b40b4a4c2b2eb1c2d9478bd7edcd8f622ac8587770a357be8bda"
+    },
+    {
+      "path": "rebuild/hub/relationship-interactions-ui.js",
+      "match": true,
+      "bytes": 3674,
+      "sha256": "27288fade5d9a45eba5aa4420e0eb28065e86dba201957c036f9958f0d97fbd9"
+    },
+    {
+      "path": "rebuild/hub/relationship-interactions.js",
+      "match": true,
+      "bytes": 13676,
+      "sha256": "104c388fb39e18bcb3a83c1050b1c8ba9fc8523d8803161ca63165e38aa146ca"
+    },
+    {
+      "path": "rebuild/hub/reading-library.js",
+      "match": true,
+      "bytes": 2728,
+      "sha256": "10cc2ae1435c251ccb95f0b313fa78d64cbce8449c363c557dbcd1b68d0b656a"
+    },
+    {
+      "path": "rebuild/hub/relationship-ui.js",
+      "match": true,
+      "bytes": 2453,
+      "sha256": "2d4a1273a1defa7e34d810dae191ecf6ab61a87d54c01cda5188d90cd82e60dd"
+    },
+    {
+      "path": "rebuild/hub/richard-daily.js",
+      "match": true,
+      "bytes": 8613,
+      "sha256": "26580dca8bbd103f3dc189a7f78d3c131ec2d74d4b28d3c1c27134e6a2c187e1"
+    },
+    {
+      "path": "rebuild/hub/relationships.js",
+      "match": true,
+      "bytes": 14082,
+      "sha256": "332a643d5842a9f2a49b36d2bfa9317319b747f16f0108d4f430674f2187eda2"
+    },
+    {
+      "path": "rebuild/hub/richard-home-data.js",
+      "match": true,
+      "bytes": 14211,
+      "sha256": "919bd7a076232223b89681476b1ce9d202f998ffc2bc62e95631625577d63ef0"
+    },
+    {
+      "path": "rebuild/hub/richard-appearance.js",
+      "match": true,
+      "bytes": 6258,
+      "sha256": "19c0a794119fbe62080cf636bb1acd6da4565160ad6d0f6360eb20bdce7d42bd"
+    },
+    {
+      "path": "rebuild/hub/richard-home-ui.js",
+      "match": true,
+      "bytes": 13347,
+      "sha256": "2d7dd508a36c982040c0eca0169af5b8f61e2215e74ca0a34917d724768bb253"
+    },
+    {
+      "path": "rebuild/hub/richard-office.js",
+      "match": true,
+      "bytes": 14920,
+      "sha256": "0aa75bc6f05d4e9f233a7e50d1b9b0b7521ad814e36cb09e8dff874231a319b3"
+    },
+    {
+      "path": "rebuild/hub/richard-ui.js",
+      "match": true,
+      "bytes": 16299,
+      "sha256": "9b76d3bb1042fd86b354be66bf08c5860d5ac94d73bef0b74e8d105ef1eada9a"
+    },
+    {
+      "path": "rebuild/hub/roleplay-input.js",
+      "match": true,
+      "bytes": 905,
+      "sha256": "19b6d0ed66df892e592149ee4fd2e88aa95c01548d67e8848e88b9f6793069c2"
+    },
+    {
+      "path": "rebuild/hub/richard.js",
+      "match": true,
+      "bytes": 31958,
+      "sha256": "2cba6e1940141726d5aee220b65077a24f2ff93ea880a009b68fa9bab52e22ba"
+    },
+    {
+      "path": "rebuild/hub/room-art-ui.js",
+      "match": true,
+      "bytes": 1067,
+      "sha256": "c17e50f843d2601998ed00019f85f3f0604e9ab65228291e54a87bd5f5c99d81"
+    },
+    {
+      "path": "rebuild/hub/richard-home.js",
+      "match": true,
+      "bytes": 24224,
+      "sha256": "cb5efc38ad5e10de4ac8c237a7e1794a9237981196a91e1bdb70abe0a2f5d7f6"
+    },
+    {
+      "path": "rebuild/hub/scene-presence.js",
+      "match": true,
+      "bytes": 5736,
+      "sha256": "ccbeb034a8c0a7ea7a1f71bf27001c3e5529fc150b898e681c4ca4118d59f68f"
+    },
+    {
+      "path": "rebuild/hub/served-items-ui.js",
+      "match": true,
+      "bytes": 2733,
+      "sha256": "ccd0d0dba576f803cb6b8d320fc0de546185c9a95f3a59f54fdb68b0fad64e9c"
+    },
+    {
+      "path": "rebuild/hub/shared-activities-ui.js",
+      "match": true,
+      "bytes": 2815,
+      "sha256": "2527deb19581b87493e6be9c1d1711374ce40f2fd99982cd40364fba153d77d4"
+    },
+    {
+      "path": "rebuild/hub/shared-activities.js",
+      "match": true,
+      "bytes": 4972,
+      "sha256": "af2d48b7a586f061503b662cee5229318eb9b4068a61f51dd352a17c9ba5edd4"
+    },
+    {
+      "path": "rebuild/hub/shared-home-activities.js",
+      "match": true,
+      "bytes": 13060,
+      "sha256": "685c1914bbb02d775a3ad83575cecf179ca9e03e681e8010cb227321f4dd27ea"
+    },
+    {
+      "path": "rebuild/hub/served-items.js",
+      "match": true,
+      "bytes": 8157,
+      "sha256": "6815e0c068304b76990708f6950699aa8c68cec4832c8001f98b50103f081723"
+    },
+    {
+      "path": "rebuild/hub/social-ui.js",
+      "match": true,
+      "bytes": 9783,
+      "sha256": "f2001b82c7162743d5ab55fcd4ee7f5ad31589d85083df0910e44e178b86051a"
+    },
+    {
+      "path": "rebuild/hub/sleeping-contact.js",
+      "match": true,
+      "bytes": 5277,
+      "sha256": "7a0a537a97f67b8470edf5d0003cb2e7d4b011721213ba000f87c71168294771"
+    },
+    {
+      "path": "rebuild/hub/technology-center-ui.js",
+      "match": true,
+      "bytes": 8243,
+      "sha256": "cb20d6675b2d07bae5b118e4e7d4a6ddbc90e0c8eb961d901fc67bb43b1843b4"
+    },
+    {
+      "path": "rebuild/hub/technology-center.js",
+      "match": true,
+      "bytes": 18509,
+      "sha256": "b85da5b5aa60fcec1690401089971630b18abb16ac469f9d5252c6291653333e"
+    },
+    {
+      "path": "rebuild/hub/text-actions-ui.js",
+      "match": true,
+      "bytes": 15191,
+      "sha256": "76172f132ffb4f18dd716c6ea186bbba89d987f098c0d55e784d2f6277acc274"
+    },
+    {
+      "path": "rebuild/hub/technology-products.js",
+      "match": true,
+      "bytes": 1322,
+      "sha256": "f57c44644e5eb28e957eb67752214bf40fd0574834a31347bb6605385f29fc1e"
+    },
+    {
+      "path": "rebuild/hub/tits-appearance.js",
+      "match": true,
+      "bytes": 6172,
+      "sha256": "7b731e9dfa3ad734c6cad5f8c7ff45b348e789d908d61a624874d1bfdb6aac6c"
+    },
+    {
+      "path": "rebuild/hub/text-actions.js",
+      "match": true,
+      "bytes": 6279,
+      "sha256": "767e3565a1ae4de86ee694f52f721561317999b09b549e4c15ffb074d8b03d7e"
+    },
+    {
+      "path": "rebuild/hub/tits-evening.js",
+      "match": true,
+      "bytes": 1928,
+      "sha256": "5990c87576d1c0835fceb14710535c7b85f9372b0c82ca1232dfac04e2ac33e0"
+    },
+    {
+      "path": "rebuild/hub/tits-return.js",
+      "match": true,
+      "bytes": 4216,
+      "sha256": "80d8b3fc9a93b803dcaace5a0d99dc9882150a0c940c22c48fc598a111e7f152"
+    },
+    {
+      "path": "rebuild/hub/tits-routine.js",
+      "match": true,
+      "bytes": 12750,
+      "sha256": "ee1b6a247d93543bfe195abb0b27a2c42b69f220242dae6b3593090115ca47fc"
+    },
+    {
+      "path": "rebuild/hub/tits-ui.js",
+      "match": true,
+      "bytes": 4045,
+      "sha256": "08cbe662468e840dc7716d57605bc597158130a570dada8b554109982c24ecc1"
+    },
+    {
+      "path": "rebuild/hub/transformation-history-ui.js",
+      "match": true,
+      "bytes": 611,
+      "sha256": "60bcb351f4f23b6e9df37761ba72339ad419965a4d27e75d4ce60718914492af"
+    },
+    {
+      "path": "rebuild/hub/transformation-history.js",
+      "match": true,
+      "bytes": 3250,
+      "sha256": "ac860eaa7c8b8a0ab57342716d2f853a878d96b99f2bee78de16e86cfc83d9e2"
+    },
+    {
+      "path": "rebuild/hub/tits.js",
+      "match": true,
+      "bytes": 46782,
+      "sha256": "307f52f0e992ccf90dd6d5fa9d8b2ba35533208f511e06f54f8c4839c3307096"
+    },
+    {
+      "path": "rebuild/hub/travel-modes.js",
+      "match": true,
+      "bytes": 2392,
+      "sha256": "bd248a9097a9377788cf59ab20282a6245d7ce0f2f37d62cc3e8afad474ce538"
+    },
+    {
+      "path": "rebuild/hub/work-dashboard-ui.js",
+      "match": true,
+      "bytes": 3629,
+      "sha256": "1d186f425204cdac9153a180ee33eaae820672957d95b991b51954f4d41a5ac3"
+    },
+    {
+      "path": "rebuild/hub/workplace-schedule.js",
+      "match": true,
+      "bytes": 769,
+      "sha256": "93504e7a25c8c704f85ec8ad4df6a1897950252b286b1b4907550ae4cab5d08d"
+    },
+    {
+      "path": "rebuild/hub/world-clock.js",
+      "match": true,
+      "bytes": 2138,
+      "sha256": "c8cb5f53dbd436c3c4d97a97b6455873d6ac75d48738771949bba7cd2d04cc7e"
+    },
+    {
+      "path": "rebuild/combat/civilian-encounter.js",
+      "match": true,
+      "bytes": 10958,
+      "sha256": "d3d13371e88cb2f0385904f75021e5f25968358f8738b4c3c44a3c7d6e49a47c"
+    },
+    {
+      "path": "rebuild/hub/world-objects.js",
+      "match": true,
+      "bytes": 3206,
+      "sha256": "67debc26211a918e727fc4b4362a21bbdf6a068f29282ed9d8f692485faf4832"
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.35.css",
+      "match": true,
+      "bytes": 776,
+      "sha256": "9eb9b66424155d3e88a90bfa55bbb91dfe3abcbe9b2a0337c732df146f7b0383"
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.36.css",
+      "match": true,
+      "bytes": 7506,
+      "sha256": "cf07d81967ff6559ebb4d81a14da784dc5eb11841c13d5cbd5a454a4a4c1901c"
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.35.js",
+      "match": true,
+      "bytes": 3089,
+      "sha256": "9d8dadb3eba611d9e32a4cf2b91bd67c2e3c3e615b6a202c2e55ec1f53578c65"
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.36.js",
+      "match": true,
+      "bytes": 3727,
+      "sha256": "5a9743a9b4e530c459a7ddffa64c4a86b3553ff3a04cd3b9f60ebac4d7e841f6"
+    },
+    {
+      "path": "rebuild/combat/encounter-contract.js",
+      "match": true,
+      "bytes": 2457,
+      "sha256": "51f31ec6cd3c74534d7d3c5d31be1c1c1ff2b4e562f06ee7497c0d4ff1c4a917"
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.37.css",
+      "match": true,
+      "bytes": 10438,
+      "sha256": "266de1273a1304b9e574a233ebb1a7d9a55d7d739515a52742dad9392e43f759"
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.39.js",
+      "match": true,
+      "bytes": 4422,
+      "sha256": "758a2c9d977b1dd07065750261bff8994ad1effdef273e689aa01b1773d283db"
+    },
+    {
+      "path": "rebuild/combat/engine.js",
+      "match": true,
+      "bytes": 12396,
+      "sha256": "19ae87dc7253930aeb8581f685c51039091100ee5fce9245891a684fc7e8e4ca"
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.40.css",
+      "match": true,
+      "bytes": 12696,
+      "sha256": "6ff1245113943839723745ddf6d5a39616d7e798a86812e514df90678ba3b507"
+    },
+    {
+      "path": "rebuild/combat/entity-rules.js",
+      "match": true,
+      "bytes": 4909,
+      "sha256": "58dc8ae0f49b0aeb4934c7f715e9601b27dc2d41cc482b9aafa41b23e9964bbc"
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.37.js",
+      "match": true,
+      "bytes": 4411,
+      "sha256": "83a8e47989c34f4c4eca5623cec5c05abe7eaab7268e1ff0be8961baf9bfb2d9"
+    },
+    {
+      "path": "rebuild/combat/encounter-ui-v1.0.39.css",
+      "match": true,
+      "bytes": 11710,
+      "sha256": "09a5f094f927235581d1380c89fe2a6032143f9c914e51b2563e8b8471ccf362"
+    },
+    {
+      "path": "rebuild/combat/kibbles-ai.js",
+      "match": true,
+      "bytes": 8556,
+      "sha256": "52a9be70b2763243cfffb7daaf15cc87e15a3ae15d70dd70df8d8253256e8ae2"
+    },
+    {
+      "path": "rebuild/combat/kibbles-form.js",
+      "match": true,
+      "bytes": 10917,
+      "sha256": "f90ce5d4daa1f60a3e0ac1e36f65104fb4f6f9861ed16482ff171a69046ca379"
+    },
+    {
+      "path": "rebuild/combat/kibbles-text.js",
+      "match": true,
+      "bytes": 6804,
+      "sha256": "5116f1ab5c0e74b7b5b1f344ae4b25675261b745e46270f5ae7f78facaafc033"
+    },
+    {
+      "path": "rebuild/combat/play-encounter.js",
+      "match": true,
+      "bytes": 20510,
+      "sha256": "cc61e7ece0ecb19b3e84915c568492264dcd733c4b32058656d6f79826425f3c"
+    },
+    {
+      "path": "rebuild/combat/outcomes.js",
+      "match": true,
+      "bytes": 5949,
+      "sha256": "cc6f0a00cb3006245bcc6c3694b899b329c53a646b7c82516decd478448e0a7f"
+    },
+    {
+      "path": "rebuild/hub/assets/nadia-voss-dart.jpg",
+      "match": true,
+      "bytes": 340098,
+      "sha256": "85d1adf64c771329aa24d40ee4ac5db0daf7c61df742de7dad4c7bad74c5382f"
+    },
+    {
+      "path": "rebuild/hub/assets/character-art-review/daniel-v1.png",
+      "match": true,
+      "bytes": 2733514,
+      "sha256": "deb41ab0561029e854a9235c34d31f26f3eba62d9bc22faa9a582e7a1894ea2f"
+    },
+    {
+      "path": "rebuild/hub/assets/character-art-review/richard-v1.png",
+      "match": true,
+      "bytes": 2163167,
+      "sha256": "7b0801d62f69d26d59d516223c518ca73e7403fd6d8d3d99f3624ab861f84c10"
+    },
+    {
+      "path": "rebuild/hub/assets/character-art-review/charity-v1.png",
+      "match": true,
+      "bytes": 2366873,
+      "sha256": "b2937c234fb262d91cee1ea6f0ba820ab7ccffedac6380663da3a34173baffe0"
+    },
+    {
+      "path": "rebuild/hub/assets/priya-shah-approved.png",
+      "match": true,
+      "bytes": 2114271,
+      "sha256": "9eeb624f591999906691ca498f493f50b98566b4656112fffb504b5b6630a3e3"
+    },
+    {
+      "path": "rebuild/hub/assets/character-art-review/tits-v1.png",
+      "match": true,
+      "bytes": 2026900,
+      "sha256": "8b4f5ec1719d098263757bb45e6bd8712f0d9a7d5df59bd381aa0892d07b83ac"
+    },
+    {
+      "path": "rebuild/hub/assets/character-art-review/erin-fullbody-v1.png",
+      "match": true,
+      "bytes": 2321151,
+      "sha256": "70d3c320bf6876c1f13f05238d4d516f20069bc8e8fc81287cc3e5a0cb26e831"
+    },
+    {
+      "path": "rebuild/hub/assets/kibbles-female-photo-v2.jpg",
+      "match": true,
+      "bytes": 349620,
+      "sha256": "f3765b5bc10301d96d706a385f70c919bc32850d3b0c8c31f687d55290462bbf"
+    },
+    {
+      "path": "rebuild/hub/assets/character-art-review/eve-blue-pixie-v1.png",
+      "match": true,
+      "bytes": 2202064,
+      "sha256": "b34d369afb02ea93381b8d550b6286f7f940ba894cc3ad6d46a2da9f699e961b"
+    },
+    {
+      "path": "rebuild/hub/assets/kibbles-male-photo-v2.jpg",
+      "match": true,
+      "bytes": 407378,
+      "sha256": "2a45fc30080b061afb02fbea39daafdeece5f80c44fca44865c9532b705e80a4"
+    },
+    {
+      "path": "rebuild/hub/assets/Priya-Flats-Worn.jpg",
+      "match": true,
+      "bytes": 255976,
+      "sha256": "1495198d044a773a2ece0b2dc19936636d1face2c73575f0454a4122918c4665"
+    },
+    {
+      "path": "rebuild/hub/assets/Priya-Flats-Unworn.jpg",
+      "match": true,
+      "bytes": 21499,
+      "sha256": "9a1ed62f453a92143a14bf38d3c03be65baf475fdcdba13168174bde5b4ce438"
+    },
+    {
+      "path": "rebuild/hub/assets/character-art-review/preeti-v1.png",
+      "match": true,
+      "bytes": 2068668,
+      "sha256": "453c03a5f8ba9273e939c0f3195b835d269320885787ba4dd00a65baf5ba2255"
+    },
+    {
+      "path": "rebuild/hub/assets/character-art-review/pri-v1.png",
+      "match": true,
+      "bytes": 2117082,
+      "sha256": "16fc69df3faed47ac4ce760d73b8a4e73f6e31a66838c71766d9f076f5bc0f78"
+    },
+    {
+      "path": "rebuild/hub/assets/character-art-review/gym-bunny-v4.png",
+      "match": true,
+      "bytes": 1806445,
+      "sha256": "9bbce1f3cf28ee2e5896e9978f572ab28b519bad1576253dc37ec7d1cc03cd0e"
+    },
+    {
+      "path": "rebuild/hub/assets/character-art-review/sorority-v1.png",
+      "match": true,
+      "bytes": 2194534,
+      "sha256": "293a10f116753b8b40051df5d184503f3948333a6a94e692c5ae207636f9f57b"
+    },
+    {
+      "path": "docs/bible/v1.0.137-world-bible.md",
+      "match": true,
+      "bytes": 100353,
+      "sha256": "3af749381de9294d61808f94cdbc71c351021455b7e247d28a2f69665cb87dce"
+    },
+    {
+      "path": "docs/releases/v1.0.137-bible-integrity.json",
+      "match": true,
+      "bytes": 225,
+      "sha256": "29e46d0a9b7c3369a62779d8e2b99747109ddde7a0d4d4c92f767995caf53b95"
+    },
+    {
+      "path": "rebuild/hub/assets/character-art-review/club-v2.png",
+      "match": true,
+      "bytes": 2087113,
+      "sha256": "1854dbf4ca4bee2587a827e3bf5f4acd4c0345015f63154472e75b76b56873d7"
+    },
+    {
+      "path": "docs/EPI-CENTER-WORLD-BIBLE.md",
+      "match": true,
+      "bytes": 100353,
+      "sha256": "3af749381de9294d61808f94cdbc71c351021455b7e247d28a2f69665cb87dce"
+    },
+    {
+      "path": "docs/bible/v1.0.137-canon-snapshot.json",
+      "match": true,
+      "bytes": 2082906,
+      "sha256": "c5d79bc903f1259ad36e29035a1f0ebd39fc190a2f8ff5f790ac203611aeb699"
+    }
+  ]
+}

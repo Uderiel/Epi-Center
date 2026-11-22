@@ -1,0 +1,16 @@
+Compared 50/260 public files
+Compared 100/260 public files
+Compared 150/260 public files
+Compared 200/260 public files
+Compared 250/260 public files
+[TypeError: fetch failed] {
+  [cause]: AggregateError [ECONNREFUSED]: 
+      at internalConnectMultiple (node:net:1492:18)
+      at internalConnectMultiple (node:net:1568:5)
+      at Timeout.internalConnectMultipleTimeout (node:net:2188:5)
+      at listOnTimeout (node:internal/timers:687:11)
+      at process.processTimers (node:internal/timers:618:7) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error], [Error], [Error] ]
+  }
+}

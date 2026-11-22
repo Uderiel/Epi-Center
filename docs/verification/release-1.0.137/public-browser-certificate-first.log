@@ -1,0 +1,97 @@
+FAIL browser-appearance-creation.cjs
+page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://uderiel.github.io/Epi-Center/rebuild/title-screen/
+Call log:
+[2m  - navigating to "https://uderiel.github.io/Epi-Center/rebuild/title-screen/", waiting until "load"[22m
+
+    at /workspace/epicenter-release-1.0.137/scripts/browser-appearance-creation.cjs:4:258 {
+  log: [
+    '  - navigating to "https://uderiel.github.io/Epi-Center/rebuild/title-screen/", waiting until "load"'
+  ],
+  name: 'Error'
+}
+
+FAIL browser-npc-appearance-alignment.cjs
+page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://uderiel.github.io/Epi-Center/rebuild/title-screen/
+Call log:
+[2m  - navigating to "https://uderiel.github.io/Epi-Center/rebuild/title-screen/", waiting until "load"[22m
+
+    at /workspace/epicenter-release-1.0.137/scripts/browser-npc-appearance-alignment.cjs:2:269 {
+  log: [
+    '  - navigating to "https://uderiel.github.io/Epi-Center/rebuild/title-screen/", waiting until "load"'
+  ],
+  name: 'Error'
+}
+
+FAIL browser-current-appearance.cjs
+page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://uderiel.github.io/Epi-Center/rebuild/title-screen/
+Call log:
+[2m  - navigating to "https://uderiel.github.io/Epi-Center/rebuild/title-screen/", waiting until "load"[22m
+
+    at fixture (/workspace/epicenter-release-1.0.137/scripts/browser-current-appearance.cjs:3:350)
+    at async /workspace/epicenter-release-1.0.137/scripts/browser-current-appearance.cjs:7:8 {
+  log: [
+    '  - navigating to "https://uderiel.github.io/Epi-Center/rebuild/title-screen/", waiting until "load"'
+  ],
+  name: 'Error'
+}
+
+FAIL browser-club-portrait.cjs
+page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://uderiel.github.io/Epi-Center/rebuild/title-screen/
+Call log:
+[2m  - navigating to "https://uderiel.github.io/Epi-Center/rebuild/title-screen/", waiting until "load"[22m
+
+    at /workspace/epicenter-release-1.0.137/scripts/browser-club-portrait.cjs:5:125 {
+  log: [
+    '  - navigating to "https://uderiel.github.io/Epi-Center/rebuild/title-screen/", waiting until "load"'
+  ],
+  name: 'Error'
+}
+
+FAIL browser-gym-portrait.cjs
+page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://uderiel.github.io/Epi-Center/rebuild/title-screen/
+Call log:
+[2m  - navigating to "https://uderiel.github.io/Epi-Center/rebuild/title-screen/", waiting until "load"[22m
+
+    at /workspace/epicenter-release-1.0.137/scripts/browser-gym-portrait.cjs:5:125 {
+  log: [
+    '  - navigating to "https://uderiel.github.io/Epi-Center/rebuild/title-screen/", waiting until "load"'
+  ],
+  name: 'Error'
+}
+
+FAIL browser-sorority-portrait.cjs
+page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://uderiel.github.io/Epi-Center/rebuild/title-screen/
+Call log:
+[2m  - navigating to "https://uderiel.github.io/Epi-Center/rebuild/title-screen/", waiting until "load"[22m
+
+    at /workspace/epicenter-release-1.0.137/scripts/browser-sorority-portrait.cjs:5:125 {
+  log: [
+    '  - navigating to "https://uderiel.github.io/Epi-Center/rebuild/title-screen/", waiting until "load"'
+  ],
+  name: 'Error'
+}
+
+FAIL browser-menu-followups.cjs
+page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://uderiel.github.io/Epi-Center/rebuild/title-screen/
+Call log:
+[2m  - navigating to "https://uderiel.github.io/Epi-Center/rebuild/title-screen/", waiting until "load"[22m
+
+    at /workspace/epicenter-release-1.0.137/scripts/browser-menu-followups.cjs:2:310 {
+  log: [
+    '  - navigating to "https://uderiel.github.io/Epi-Center/rebuild/title-screen/", waiting until "load"'
+  ],
+  name: 'Error'
+}
+
+FAIL browser-eve-navigation.cjs
+page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://uderiel.github.io/Epi-Center/rebuild/title-screen/
+Call log:
+[2m  - navigating to "https://uderiel.github.io/Epi-Center/rebuild/title-screen/", waiting until "load"[22m
+
+    at /workspace/epicenter-release-1.0.137/scripts/browser-eve-navigation.cjs:2:310 {
+  log: [
+    '  - navigating to "https://uderiel.github.io/Epi-Center/rebuild/title-screen/", waiting until "load"'
+  ],
+  name: 'Error'
+}
+

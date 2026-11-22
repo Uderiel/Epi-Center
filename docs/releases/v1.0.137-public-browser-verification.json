@@ -1,0 +1,50 @@
+{
+  "scope": "Actual public v1.0.137;synthetic browser saves and simulated AI;no paid provider calls",
+  "results": [
+    {
+      "script": "browser-appearance-creation.cjs",
+      "exitCode": 0,
+      "reportedPassLines": 18
+    },
+    {
+      "script": "browser-npc-appearance-alignment.cjs",
+      "exitCode": 0,
+      "reportedPassLines": 24
+    },
+    {
+      "script": "browser-current-appearance.cjs",
+      "exitCode": 0,
+      "reportedPassLines": 9
+    },
+    {
+      "script": "browser-club-portrait.cjs",
+      "exitCode": 0,
+      "reportedPassLines": 4
+    },
+    {
+      "script": "browser-gym-portrait.cjs",
+      "exitCode": 0,
+      "reportedPassLines": 4
+    },
+    {
+      "script": "browser-sorority-portrait.cjs",
+      "exitCode": 0,
+      "reportedPassLines": 4
+    },
+    {
+      "script": "browser-menu-followups.cjs",
+      "exitCode": 0,
+      "reportedPassLines": 4
+    },
+    {
+      "script": "browser-eve-navigation.cjs",
+      "exitCode": 0,
+      "reportedPassLines": 2
+    }
+  ],
+  "passed": true,
+  "version": "1.0.137",
+  "runtimeCommit": "c5c156fdf6c58ec19451955e31fdbf8af60948a3",
+  "checks": 69,
+  "browserCertificateHandling": "Sandbox Chromium uses its documented proxy certificate override;production TLS/settings unchanged. Public byte checks use Node with environment proxy and normal TLS verification."
+}

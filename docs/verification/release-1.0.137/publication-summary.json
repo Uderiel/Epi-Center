@@ -1,0 +1,13 @@
+{
+  "version": "1.0.137",
+  "runtimeCommit": "c5c156fdf6c58ec19451955e31fdbf8af60948a3",
+  "published": true,
+  "publicFilesMatched": 260,
+  "publicChecks": 69,
+  "localBrowserSuites": 53,
+  "nodeCases": 2305,
+  "workerChanged": false,
+  "newPaidCalls": 0,
+  "productionTLSChanged": false,
+  "remaining": "General real-provider prose acceptance;explicitly unapproved/deferred designs remain outside this publication"
+}

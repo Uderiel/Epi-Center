@@ -471,6 +471,8 @@
   "releaseDisposition": {
     "version": "1.0.137",
     "scope": "Only implemented owner-approved portions and approved portrait consumers are included;any explicitly pending full-template additions remain proposals",
-    "publicationRecord": "docs/releases/v1.0.137-release-summary.json"
+    "publicationRecord": "docs/releases/v1.0.137-release-summary.json",
+    "published": true,
+    "runtimeCommit": "c5c156fdf6c58ec19451955e31fdbf8af60948a3"
   }
 }

@@ -1,6 +1,10 @@
-## v1.0.137 — publication candidate
+## v1.0.137 published and publicly verified
 
-Approved interaction repairs,required character appearance builder and calculator,current-body awareness,NPC/form alignment and approved portraits. See [release synopsis](docs/releases/v1.0.137-synopsis.md). Publication verification pending;previous public client:v1.0.136. Worker remains request-handoff-v11.
+[Play v1.0.137](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.137). Gameplay commit c5c156fdf6c58ec19451955e31fdbf8af60948a3 is on main and rebuild/1.0-foundations. Pages run44999517221 succeeded. All260 compared public runtime/portrait/canon files match exact tested bytes;canonical and frozen World Bible match integrity SHA2563af749381de9294d61808f94cdbc71c351021455b7e247d28a2f69665cb87dce. Final automated check passes2,305 cases/168 suites;53 assessed local browser suites and8 public suites/69 checks pass using synthetic saves and simulated AI. Initial browser failures and diagnosed reruns are retained. No owner save or new paid Cydonia call was used.
+
+Approved interaction/menu/payment/navigation fixes,required appearance creation/calculator,current-body tracking,approved NPC/form alignment and all three approved variant portraits are published. The existing configured worker remains request-handoff-v11;credentials,model,bindings,allowance and uncertain reservations are unchanged. No unapproved runtime proposal,superseded portrait asset or Form Repository/staff expansion is included. General real-Cydonia factual acceptance remains incomplete;this release does not claim arbitrary dialogue correctness. Separately pending gym/sorority full-template additions remain proposals.
+
+Publication is complete. Evidence:releases/v1.0.137-release-summary.json,v1.0.137-tests.json,v1.0.137-browser-verification.json,v1.0.137-live-verification.json,and v1.0.137-public-browser-verification.json. Earlier held/unpublished/preparation sections below are historical.
 
 ## v1.0.130 — directory persistence and advance binding warning
 

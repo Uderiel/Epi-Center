@@ -1,0 +1,8 @@
+PASS browser-appearance-creation.cjs
+PASS browser-npc-appearance-alignment.cjs
+PASS browser-current-appearance.cjs
+PASS browser-club-portrait.cjs
+PASS browser-gym-portrait.cjs
+PASS browser-sorority-portrait.cjs
+PASS browser-menu-followups.cjs
+PASS browser-eve-navigation.cjs

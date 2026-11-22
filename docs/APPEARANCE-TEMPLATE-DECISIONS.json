@@ -1719,5 +1719,12 @@
       "asset": "rebuild/hub/assets/character-art-review/club-v2.png"
     },
     "published": false
+  },
+  "publication": {
+    "version": "1.0.137",
+    "runtimeCommit": "c5c156fdf6c58ec19451955e31fdbf8af60948a3",
+    "status": "Published and publicly verified",
+    "approvedImplementedScopeOnly": true,
+    "record": "docs/releases/v1.0.137-release-summary.json"
   }
 }
