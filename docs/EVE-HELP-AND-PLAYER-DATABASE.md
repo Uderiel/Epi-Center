@@ -1,3 +1,7 @@
+## v1.0.138 current learned-information rules
+
+Already-disclosed public numeric fields reference the shared approved canon and refresh when that source changes; unheard fields remain hidden. Actual delivered speech replaces its pending placeholder. Other statements stay attributed to the NPC rather than automatically verified truth. Detected stale false numeric, family, former-personality/training and external-provider claims are archived out of current learned records and excluded from outgoing memory. Feed ownership prevents retained records and discoveries from transferring between players; current form status replaces stale duplicates. Saved source history is preserved. Eve’s authored help references resolve current rules. The database distinguishes canonical facts, controller records, authored help and attributed speech. See LORE-LEARNED-INFO-ACCEPTANCE.md and releases/v1.0.138-release-summary.json. Older local labels and unscoped legacy-backfill descriptions below are historical and superseded.
+
 ## Current local repair — unpublished
 
 Local revision after v1.0.134: Help selects an ongoing remote Eve conversation, with Eve available in the NPC recipient list anywhere. Typed follow-ups use authored current-question help facts; no physical hologram or new programs are inferred. Explicit Database commands still open Journal. Legacy Database dumps are compact in the feed; invalid ordinary-dog human speech is withheld from learned records without deleting history. See HELP-PRESENCE-CARRIER-REPAIR.md for evidence and limits.

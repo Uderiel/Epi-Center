@@ -1,0 +1,38 @@
+{
+  "version": "1.0.138",
+  "baselinePublicClient": "1.0.137",
+  "mainBase": "a92a5642f4120ecbbf49e87c4e3c60aca122f143",
+  "candidateCommits": [
+    "4277bf2",
+    "bdce365",
+    "cb64cac"
+  ],
+  "status": "Verified locally; deployment pending",
+  "workerChanged": false,
+  "expectedWorkerAssembly": "request-handoff-v11",
+  "newPublicationPaidCalls": 0,
+  "ownerSavesUsed": false,
+  "generalRealProviderAcceptanceComplete": false,
+  "runtimeScope": "All tested approved dialogue, shared-lore and current-body fixes since v1.0.137; no unrelated authoring changes",
+  "priorLiveEvidence": "docs/verification/lore-learned-info-after-v137/summary.json",
+  "frozenBibleRequired": true,
+  "preparationAudit": {
+    "priorFullPassSummaryIncorrect": true,
+    "priorCandidatePassed": false,
+    "failedSuite": "rebuild/hub/npc-followup.test.js",
+    "cause": "Old test expected duplicated dialogue rows intentionally removed from recentEvents",
+    "correction": "Verify actual preceding conversation through scoped history and retain mechanical events; no runtime change",
+    "preservedEvidence": "docs/verification/release-1.0.138/rejected-preparation"
+  },
+  "automatedCases": 2416,
+  "automatedSuites": 170,
+  "localBrowserSuites": 14,
+  "localBrowserChecks": 76,
+  "bibleIntegrity": {
+    "version": "1.0.138",
+    "canonical": "docs/EPI-CENTER-WORLD-BIBLE.md",
+    "frozen": "docs/bible/v1.0.138-world-bible.md",
+    "bytes": 105012,
+    "sha256": "9806c841b56540e789efbcc9182d815298d0ddd1cfd3a110f5b709235d162f21"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "version": "1.0.138",
+  "mode": "local",
+  "base": "http://127.0.0.1:8878",
+  "realModel": false,
+  "ownerSavesUsed": false,
+  "passed": true,
+  "results": [
+    {
+      "script": "browser-npc-appearance-alignment.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 24,
+      "passed": true
+    },
+    {
+      "script": "browser-current-appearance.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 9,
+      "passed": true
+    },
+    {
+      "script": "browser-appearance-creation.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 18,
+      "passed": true
+    },
+    {
+      "script": "browser-club-portrait.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 4,
+      "passed": true
+    },
+    {
+      "script": "browser-gym-portrait.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 4,
+      "passed": true
+    },
+    {
+      "script": "browser-sorority-portrait.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 4,
+      "passed": true
+    },
+    {
+      "script": "browser-menu-followups.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 4,
+      "passed": true
+    },
+    {
+      "script": "browser-eve-navigation.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 2,
+      "passed": true
+    },
+    {
+      "script": "targeted/browser-story.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 1,
+      "evidence": [
+        "work/release138/browser-local/browser-story/browser-story.json"
+      ],
+      "passed": true
+    },
+    {
+      "script": "targeted/browser.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 1,
+      "evidence": [
+        "work/release138/browser-local/browser/browser-paths.json"
+      ],
+      "passed": true
+    },
+    {
+      "script": "targeted/browser-roles.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 1,
+      "evidence": [
+        "work/release138/browser-local/browser-roles/browser-roles.json"
+      ],
+      "passed": true
+    },
+    {
+      "script": "targeted/browser-body-replay.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 1,
+      "evidence": [
+        "work/release138/browser-local/browser-body-replay/browser-body-replay.json"
+      ],
+      "passed": true
+    },
+    {
+      "script": "targeted/browser-current-body.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 2,
+      "evidence": [
+        "work/release138/browser-local/browser-current-body/browser-current-body.json"
+      ],
+      "passed": true
+    },
+    {
+      "script": "targeted/browser-literal-integration.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 1,
+      "evidence": [
+        "work/release138/browser-local/browser-literal-integration/browser-literal-integration.json"
+      ],
+      "passed": true
+    }
+  ],
+  "checks": 76,
+  "scope": "Versioned v1.0.138 candidate;isolated synthetic saves,simulated AI and exact previously paid reply replays;zero new provider calls"
+}

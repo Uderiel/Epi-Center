@@ -1,0 +1,9 @@
+PASS reported Tits conversation recognizes flirtation attraction and warning followup without inventing contact
+PASS shared NPC packet path excludes the current placeholder but retains real preceding events without mutating source memory
+PASS repetition alone never blocks a reply for any NPC
+PASS unrelated Priya schedule changes do not invalidate Tits Charity or Eve replies
+PASS failed authored warning stays in history and a later AI replacement updates that turn once
+PASS ordinary spoken NPC packets name the actual player and never label speech as player thought
+PASS queued NPC turns receive only preceding history, never their current or future fallback
+PASS current fallback exclusion survives carrier restyling for every structured NPC context
+PASS final provider messages retain warning acknowledgment pending-choice facts and club voice without inventing contact

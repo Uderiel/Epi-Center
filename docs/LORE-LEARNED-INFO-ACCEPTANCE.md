@@ -1,3 +1,7 @@
+## v1.0.138 release audit correction
+
+The previous full-pass summary was incorrect:the saved regression report actually has `passed:false`. Its2,408 count was passing assertions,with npc-followup.test.js stopping on an outdated duplicate-transcript expectation. Release verification now checks preceding conversation through scoped history while retaining mechanical events and excluding the current placeholder. Production code is unchanged by the test correction. Original evidence is retained;the corrected full run is in releases/v1.0.138-tests.json.
+
 # Shared lore, learned information and dialogue acceptance — local candidate
 
 This continues local candidate `bdce3656a282223ba616b8a9da1c7002e8ef0a2d` after published v1.0.137. The owner authorized paid factual/personality testing and safe-fallback repairs. No publication, worker update, model/settings change, owner-save use, new portrait, permission, relationship weight or game cost/reward is included. Existing published canonical and frozen World Bible bytes remain unchanged.
@@ -29,7 +33,7 @@ This continues local candidate `bdce3656a282223ba616b8a9da1c7002e8ef0a2d` after 
 
 ## Verification and costs
 
-- Final broad regression: **2,408 named cases pass**, plus entity assertions; syntax and module paths pass. Actual browser tests cover persisted canonical fallback, player separation, story fallback/history, canine roles, exact paid body-reply projection and the actual literal-meaning planner integration. Their backend responses are simulated and forward zero real model calls.
+- Original continuation: **2,408 passing named assertions, with one suite failing**. The previous all-pass classification was incorrect; corrected versioned release verification supersedes it. Actual browser tests cover persisted canonical fallback, player separation, story fallback/history, canine roles, exact paid body-reply projection and the actual literal-meaning planner integration. Their backend responses are simulated and forward zero real model calls.
 - This continuation recorded **226 new guarded request admissions**, confirmed added cost **$0.37813934**. All 226 admissions returned HTTP200; the separate pre-generation model-availability refusal made no writer admission. Admissions include planners, writers and at most one correction, plus any recorded pre-provider rejection; they are not a count of successful conversations. Exact status counts are in the evidence summary.
 - Combined local ledger: **460 admissions / $0.79824734 known**. The earlier **$0.387882 conservative unresolved reservation** is unchanged. No uncertain request was replayed or cleared and this continuation added no uncertain request.
 - Every admitted request first passed free inspection against the unchanged worker’s actual message assembly. Free postflight health/usage and representative full assembly proofs are saved. Original batch failures, source manifests, rejected/generated replies, delivered fallbacks and state snapshots remain available under `verification/lore-learned-info-after-v137/`.

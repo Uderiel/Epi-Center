@@ -1,3 +1,7 @@
+## v1.0.138 — publication candidate
+
+Tested dialogue continuity, shared learned lore, character interpretation and current-body factual safeguards. See [release synopsis](docs/releases/v1.0.138-synopsis.md). Deployment verification pending;previous public version:v1.0.137. Existing AI worker unchanged.
+
 ## v1.0.137 published and publicly verified
 
 [Play v1.0.137](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.137). Gameplay commit c5c156fdf6c58ec19451955e31fdbf8af60948a3 is on main and rebuild/1.0-foundations. Pages run44999517221 succeeded. All260 compared public runtime/portrait/canon files match exact tested bytes;canonical and frozen World Bible match integrity SHA2563af749381de9294d61808f94cdbc71c351021455b7e247d28a2f69665cb87dce. Final automated check passes2,305 cases/168 suites;53 assessed local browser suites and8 public suites/69 checks pass using synthetic saves and simulated AI. Initial browser failures and diagnosed reruns are retained. No owner save or new paid Cydonia call was used.

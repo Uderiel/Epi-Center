@@ -1,0 +1,3 @@
+# Rejected preparation evidence
+
+The prior candidate reported2,408 passing assertions while npc-followup.test.js failed on a superseded duplicate-transcript expectation. Its full-pass summary was incorrect. The test now verifies the preceding conversation through scoped history, retains mechanical events and excludes the current placeholder. The runtime is unchanged by this correction. This unpublished preparatory Bible/manifest is preserved here; it was not deployed and is not the final v1.0.138 freeze. Final release verification uses the reconciled current canon and new immutable release files.

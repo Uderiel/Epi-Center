@@ -1,3 +1,7 @@
+## v1.0.138 implemented release scope
+
+The owner approved publication of the tested dialogue/lore repair. Canonical numeric disclosures refresh per player without revealing unheard private fields; old detected false lore is archived. The actual planner path records Tits’s heard wish and explicit clarification for reload-safe recall. Current partial foot records preserve unchanged features. Approved profile/portrait data remains; Dart’s already approved cropped ears are reflected. Generated prose still sometimes requires source-based fallback. Full evidence and limits:LORE-LEARNED-INFO-ACCEPTANCE.md;publication record:releases/v1.0.138-release-summary.json. Earlier local checkpoints are historical.
+
 ## v1.0.137 release disposition
 
 Owner authorized publication. Implemented approved portions are included;pending proposals/deferred systems remain unimplemented. All three approved variant portraits are connected. Current publication/evidence:releases/v1.0.137-release-summary.json. Earlier local/unpublished status labels below are historical checkpoints.

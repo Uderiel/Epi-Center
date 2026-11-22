@@ -1,3 +1,7 @@
+## v1.0.138 dialogue release audit
+
+This release changes dialogue context, source validation, per-player learned information and safe prose delivery. Existing attribute allocations, combat budgets, action costs, saving throws, relationship weights and mastery/ownership/consent rules are unchanged. Corrected dialogue cannot grant an unrecorded action or reward. Publication/evidence:releases/v1.0.138-release-summary.json.
+
 ## v1.0.137 appearance integration
 
 The appearance calculator supplies descriptive measurements and generated Build;it grants no attributes,mastery,combat bonuses or equipment. Nonhuman anatomy descriptions do not grant capabilities. Existing approved illness redistribution,form attributes,ownership and permanent-base rules remain. Publication/evidence:releases/v1.0.137-release-summary.json.
