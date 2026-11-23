@@ -1,3 +1,7 @@
+## v1.0.139 dialogue release audit
+
+No attribute/combat budget, action price, saving throw, relationship weight, mastery, ownership or consent rule changes. Charity’s already-authored public presence is wired to existing shared relationship checks;retries/reload do not replay an award or controller action. Release scope:releases/v1.0.139-synopsis.md.
+
 ## v1.0.138 dialogue release audit
 
 This release changes dialogue context, source validation, per-player learned information and safe prose delivery. Existing attribute allocations, combat budgets, action costs, saving throws, relationship weights and mastery/ownership/consent rules are unchanged. Corrected dialogue cannot grant an unrecorded action or reward. Publication/evidence:releases/v1.0.138-release-summary.json.

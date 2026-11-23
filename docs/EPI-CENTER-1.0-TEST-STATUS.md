@@ -1,3 +1,7 @@
+## v1.0.139 — owner-authorized publication underway
+
+The continuous-dialogue repair053ee25 is being wired and published after v1.0.138. It covers heard-statement/correction retrieval, current recall and outfit fallbacks, smaller shop context, bounded history/prop/outfit checks, Charity’s existing public presence/relationship integration and recipient deduplication. Prior verification passes2,443 cases across173 suites and56 live play inputs. Some model replies still require accurate fallbacks;broader acceptance remains open. Worker request-handoff-v11, model/settings and existing gameplay rules are unchanged. New release/public checks are pending. See releases/v1.0.139-synopsis.md and releases/v1.0.139-release-summary.json. Earlier checkpoints below are historical.
+
 ## v1.0.138 published and publicly verified
 
 [Play v1.0.138](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.138). Runtime commit `f425ec1ad60630cec44e4b784bae072ea8d316a0` is published from main and rebuild/1.0-foundations. GitHub Pages run45031598104 succeeded. All261 compared public runtime,portrait and canon files match the checked bytes. Canonical and frozen World Bible match SHA256`9806c841b56540e789efbcc9182d815298d0ddd1cfd3a110f5b709235d162f21`. Final release verification passes2,416 cases across all170 suites,plus14 local and14 public browser suites/76 reported checks each.

@@ -1,3 +1,7 @@
+## v1.0.139 implemented release scope
+
+Charity’s actual public scene presence now agrees with the existing shop dialogue gate, enabling existing sharing/interest/dismissal checks without changing weights, sleep, access or absence. Her authored talk path and heard-account/request recording remain. Shared personal retrieval preserves corrections and renewals; source-selected recall and outfit evidence retain accurate fallbacks after bounded correction. Duplicate recipient IDs are removed. Detailed evidence and limits:DIALOGUE-CONTINUOUS-PLAY-AFTER-V138.md. Publication record:releases/v1.0.139-release-summary.json. Earlier checkpoints below are historical.
+
 > Release status: implemented controllers in this record shipped in **v1.0.126**. Explicitly deferred mask/payroll/offline features remain deferred. Current publication evidence: [release summary](releases/v1.0.126-release-summary.json). Earlier verification counts describe their original checkpoints.
 
 # Charity durable heard accounts — implemented locally

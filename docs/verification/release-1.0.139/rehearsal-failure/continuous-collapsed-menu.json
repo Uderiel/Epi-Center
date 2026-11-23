@@ -1,0 +1,69 @@
+{
+  "base": "http://127.0.0.1:8879",
+  "passed": false,
+  "realModel": false,
+  "paidCalls": 0,
+  "ownerSavesUsed": false,
+  "checks": [
+    "Actual appearance builder/review creates a new human player with default gold."
+  ],
+  "packets": [],
+  "errors": [],
+  "steps": [
+    {
+      "input": "Head over to Central Hub NE.",
+      "location": "Central Hub NE",
+      "channel": "world",
+      "feed": [
+        {
+          "speaker": "Eve · A.S.S. Custodian",
+          "text": "Hello, Rowan! Welcome to Epi-Center Overworld. I am Eve, your Automated Support System custodian. A little memory confusion on arrival is perfectly normal. You are free to explore! You can describe what you wish to do in the action input as you discover the world."
+        },
+        {
+          "speaker": "Rowan · Location",
+          "text": "Head over to Central Hub NE."
+        },
+        {
+          "speaker": "World",
+          "text": "Route to Central Hub NE · 1 steps · 8 game minutes."
+        },
+        {
+          "speaker": "World",
+          "text": "You travel northeast to Central Hub NE. (8 minutes)"
+        },
+        {
+          "speaker": "World",
+          "text": "Arrived at Central Hub NE."
+        }
+      ]
+    },
+    {
+      "input": "Go to Cherished Touch.",
+      "location": "Cherished Touch",
+      "channel": "world",
+      "feed": [
+        {
+          "speaker": "World",
+          "text": "Arrived at Central Hub NE."
+        },
+        {
+          "speaker": "Rowan · Location",
+          "text": "Go to Cherished Touch."
+        },
+        {
+          "speaker": "World",
+          "text": "Route to Cherished Touch · 1 steps · 8 game minutes."
+        },
+        {
+          "speaker": "World",
+          "text": "You travel north to Cherished Touch. (8 minutes)"
+        },
+        {
+          "speaker": "World",
+          "text": "Arrived at Cherished Touch."
+        }
+      ]
+    }
+  ],
+  "failure": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-cherished=enter]').first()\u001b[22m\n\u001b[2m    - locator resolved to <button class=\"btn\" data-cherished=\"enter\">Enter Cherished Touch · 1 minute</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    58 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n"
+}

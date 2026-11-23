@@ -1,0 +1,13 @@
+{
+  "base": "http://127.0.0.1:8879",
+  "passed": false,
+  "realModel": false,
+  "paidCalls": 0,
+  "ownerSavesUsed": false,
+  "checks": [
+    "Actual appearance builder/review creates a new human player with default gold."
+  ],
+  "packets": [],
+  "errors": [],
+  "failure": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('[data-cherished=enter]').first()\u001b[22m\n"
+}

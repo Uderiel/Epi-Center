@@ -1,0 +1,395 @@
+{
+  "base": "http://127.0.0.1:8879",
+  "passed": false,
+  "realModel": false,
+  "paidCalls": 0,
+  "ownerSavesUsed": false,
+  "checks": [
+    "Actual appearance builder/review creates a new human player with default gold.",
+    "Normal travel/counter entry supplies actual Charity presence and one recipient.",
+    "Authored Charity path records heard accounts; sharing/interest earn existing +2/+2, repetition/reload earn nothing."
+  ],
+  "packets": [],
+  "errors": [],
+  "steps": [
+    {
+      "input": "Head over to Central Hub NE.",
+      "location": "Central Hub NE",
+      "channel": "world",
+      "feed": [
+        {
+          "speaker": "Eve · A.S.S. Custodian",
+          "text": "Hello, Rowan! Welcome to Epi-Center Overworld. I am Eve, your Automated Support System custodian. A little memory confusion on arrival is perfectly normal. You are free to explore! You can describe what you wish to do in the action input as you discover the world."
+        },
+        {
+          "speaker": "Rowan · Location",
+          "text": "Head over to Central Hub NE."
+        },
+        {
+          "speaker": "World",
+          "text": "Route to Central Hub NE · 1 steps · 8 game minutes."
+        },
+        {
+          "speaker": "World",
+          "text": "You travel northeast to Central Hub NE. (8 minutes)"
+        },
+        {
+          "speaker": "World",
+          "text": "Arrived at Central Hub NE."
+        }
+      ]
+    },
+    {
+      "input": "Go to Cherished Touch.",
+      "location": "Cherished Touch",
+      "channel": "world",
+      "feed": [
+        {
+          "speaker": "World",
+          "text": "Arrived at Central Hub NE."
+        },
+        {
+          "speaker": "Rowan · Location",
+          "text": "Go to Cherished Touch."
+        },
+        {
+          "speaker": "World",
+          "text": "Route to Cherished Touch · 1 steps · 8 game minutes."
+        },
+        {
+          "speaker": "World",
+          "text": "You travel north to Cherished Touch. (8 minutes)"
+        },
+        {
+          "speaker": "World",
+          "text": "Arrived at Cherished Touch."
+        }
+      ]
+    },
+    {
+      "input": "I collect pressed leaves because my mother taught me to recognize trees.",
+      "location": "Cherished Touch",
+      "channel": "npc",
+      "feed": [
+        {
+          "speaker": "World",
+          "text": "Route to Front Counter / Register · 1 steps · 1 game minutes."
+        },
+        {
+          "speaker": "World",
+          "text": "You enter Front Counter / Register."
+        },
+        {
+          "speaker": "World",
+          "text": "Arrived at Front Counter / Register."
+        },
+        {
+          "speaker": "Rowan · NPC → Charity",
+          "text": "I collect pressed leaves because my mother taught me to recognize trees."
+        },
+        {
+          "speaker": "Charity",
+          "text": "Pressed leaves? Is there one you particularly like?"
+        }
+      ]
+    },
+    {
+      "input": "I collect pressed leaves because my mother taught me to recognize trees.",
+      "location": "Cherished Touch",
+      "channel": "npc",
+      "feed": [
+        {
+          "speaker": "World",
+          "text": "Arrived at Front Counter / Register."
+        },
+        {
+          "speaker": "Rowan · NPC → Charity",
+          "text": "I collect pressed leaves because my mother taught me to recognize trees."
+        },
+        {
+          "speaker": "Charity",
+          "text": "Pressed leaves? Is there one you particularly like?"
+        },
+        {
+          "speaker": "Rowan · NPC → Charity",
+          "text": "I collect pressed leaves because my mother taught me to recognize trees."
+        },
+        {
+          "speaker": "Charity",
+          "text": "Pressed leaves? Is there one you particularly like?"
+        }
+      ]
+    },
+    {
+      "input": "What do you enjoy about mending clothes?",
+      "location": "Cherished Touch",
+      "channel": "npc",
+      "feed": [
+        {
+          "speaker": "Charity",
+          "text": "Pressed leaves? Is there one you particularly like?"
+        },
+        {
+          "speaker": "Rowan · NPC → Charity",
+          "text": "I collect pressed leaves because my mother taught me to recognize trees."
+        },
+        {
+          "speaker": "Charity",
+          "text": "Pressed leaves? Is there one you particularly like?"
+        },
+        {
+          "speaker": "Rowan · NPC → Charity",
+          "text": "What do you enjoy about mending clothes?"
+        },
+        {
+          "speaker": "Charity",
+          "text": "You needn’t be buying anything to say hello. What’s on your mind?"
+        }
+      ]
+    },
+    {
+      "input": "Patient mending lets people keep favourite clothes, and I think that care is worthwhile.",
+      "location": "Cherished Touch",
+      "channel": "npc",
+      "feed": [
+        {
+          "speaker": "Charity",
+          "text": "Pressed leaves? Is there one you particularly like?"
+        },
+        {
+          "speaker": "Rowan · NPC → Charity",
+          "text": "What do you enjoy about mending clothes?"
+        },
+        {
+          "speaker": "Charity",
+          "text": "You needn’t be buying anything to say hello. What’s on your mind?"
+        },
+        {
+          "speaker": "Rowan · NPC → Charity",
+          "text": "Patient mending lets people keep favourite clothes, and I think that care is worthwhile."
+        },
+        {
+          "speaker": "Charity",
+          "text": "That helps me know what to look for. We can check the available clothes together before you decide."
+        }
+      ]
+    },
+    {
+      "input": "I keep blue buttons.",
+      "location": "Cherished Touch",
+      "channel": "npc",
+      "feed": [
+        {
+          "speaker": "Charity",
+          "text": "You needn’t be buying anything to say hello. What’s on your mind?"
+        },
+        {
+          "speaker": "Rowan · NPC → Charity",
+          "text": "Patient mending lets people keep favourite clothes, and I think that care is worthwhile."
+        },
+        {
+          "speaker": "Charity",
+          "text": "That helps me know what to look for. We can check the available clothes together before you decide."
+        },
+        {
+          "speaker": "Rowan · NPC → Charity",
+          "text": "I keep blue buttons."
+        },
+        {
+          "speaker": "Charity",
+          "text": "Blue buttons? Is there one you particularly like?"
+        }
+      ]
+    },
+    {
+      "input": "I no longer keep blue buttons. I keep copper coins now.",
+      "location": "Cherished Touch",
+      "channel": "npc",
+      "feed": [
+        {
+          "speaker": "Charity",
+          "text": "That helps me know what to look for. We can check the available clothes together before you decide."
+        },
+        {
+          "speaker": "Rowan · NPC → Charity",
+          "text": "I keep blue buttons."
+        },
+        {
+          "speaker": "Charity",
+          "text": "Blue buttons? Is there one you particularly like?"
+        },
+        {
+          "speaker": "Rowan · NPC → Charity",
+          "text": "I no longer keep blue buttons. I keep copper coins now."
+        },
+        {
+          "speaker": "Charity",
+          "text": "What have you got in mind? I can help you look through the racks or sort out a fit."
+        }
+      ]
+    },
+    {
+      "input": "I keep blue buttons.",
+      "location": "Cherished Touch",
+      "channel": "npc",
+      "feed": [
+        {
+          "speaker": "Charity",
+          "text": "Blue buttons? Is there one you particularly like?"
+        },
+        {
+          "speaker": "Rowan · NPC → Charity",
+          "text": "I no longer keep blue buttons. I keep copper coins now."
+        },
+        {
+          "speaker": "Charity",
+          "text": "What have you got in mind? I can help you look through the racks or sort out a fit."
+        },
+        {
+          "speaker": "Rowan · NPC → Charity",
+          "text": "I keep blue buttons."
+        },
+        {
+          "speaker": "Charity",
+          "text": "Blue buttons? Is there one you particularly like?"
+        }
+      ]
+    },
+    {
+      "input": "What makes a shop welcoming?",
+      "location": "Cherished Touch",
+      "channel": "npc",
+      "feed": [
+        {
+          "speaker": "Charity",
+          "text": "What have you got in mind? I can help you look through the racks or sort out a fit."
+        },
+        {
+          "speaker": "Rowan · NPC → Charity",
+          "text": "I keep blue buttons."
+        },
+        {
+          "speaker": "Charity",
+          "text": "Blue buttons? Is there one you particularly like?"
+        },
+        {
+          "speaker": "Rowan · NPC → Charity",
+          "text": "What makes a shop welcoming?"
+        },
+        {
+          "speaker": "Charity",
+          "text": "Have a browse while we chat. Is there something you wanted to ask me?"
+        }
+      ]
+    },
+    {
+      "input": "I appreciate how you give visitors time to talk.",
+      "location": "Cherished Touch",
+      "channel": "npc",
+      "feed": [
+        {
+          "speaker": "Charity",
+          "text": "Blue buttons? Is there one you particularly like?"
+        },
+        {
+          "speaker": "Rowan · NPC → Charity",
+          "text": "What makes a shop welcoming?"
+        },
+        {
+          "speaker": "Charity",
+          "text": "Have a browse while we chat. Is there something you wanted to ask me?"
+        },
+        {
+          "speaker": "Rowan · NPC → Charity",
+          "text": "I appreciate how you give visitors time to talk."
+        },
+        {
+          "speaker": "Charity",
+          "text": "What have you got in mind? I can help you look through the racks or sort out a fit."
+        }
+      ]
+    },
+    {
+      "input": "If a hat ran a newspaper, would all its news be headlines?",
+      "location": "Cherished Touch",
+      "channel": "npc",
+      "feed": [
+        {
+          "speaker": "Charity",
+          "text": "Have a browse while we chat. Is there something you wanted to ask me?"
+        },
+        {
+          "speaker": "Rowan · NPC → Charity",
+          "text": "I appreciate how you give visitors time to talk."
+        },
+        {
+          "speaker": "Charity",
+          "text": "What have you got in mind? I can help you look through the racks or sort out a fit."
+        },
+        {
+          "speaker": "Rowan · NPC → Charity",
+          "text": "If a hat ran a newspaper, would all its news be headlines?"
+        },
+        {
+          "speaker": "Charity",
+          "text": "You needn’t be buying anything to say hello. What’s on your mind?"
+        }
+      ]
+    },
+    {
+      "input": "Your patient manner is lovely.",
+      "location": "Cherished Touch",
+      "channel": "npc",
+      "feed": [
+        {
+          "speaker": "Charity",
+          "text": "What have you got in mind? I can help you look through the racks or sort out a fit."
+        },
+        {
+          "speaker": "Rowan · NPC → Charity",
+          "text": "If a hat ran a newspaper, would all its news be headlines?"
+        },
+        {
+          "speaker": "Charity",
+          "text": "You needn’t be buying anything to say hello. What’s on your mind?"
+        },
+        {
+          "speaker": "Rowan · NPC → Charity",
+          "text": "Your patient manner is lovely."
+        },
+        {
+          "speaker": "Charity",
+          "text": "Have a browse while we chat. Is there something you wanted to ask me?"
+        }
+      ]
+    },
+    {
+      "input": "What do I keep now, blue buttons or copper coins?",
+      "location": "Cherished Touch",
+      "channel": "npc",
+      "feed": [
+        {
+          "speaker": "Charity",
+          "text": "You needn’t be buying anything to say hello. What’s on your mind?"
+        },
+        {
+          "speaker": "Rowan · NPC → Charity",
+          "text": "Your patient manner is lovely."
+        },
+        {
+          "speaker": "Charity",
+          "text": "Have a browse while we chat. Is there something you wanted to ask me?"
+        },
+        {
+          "speaker": "Rowan · NPC → Charity",
+          "text": "What do I keep now, blue buttons or copper coins?"
+        },
+        {
+          "speaker": "Charity",
+          "text": "You told me, “I keep blue buttons.”"
+        }
+      ]
+    }
+  ],
+  "failure": "Expected values to be strictly equal:\n\n0 !== 2\n"
+}

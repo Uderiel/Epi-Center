@@ -1,3 +1,7 @@
+## v1.0.139 implemented release scope
+
+Charity’s actual public scene presence now agrees with the existing shop dialogue gate, enabling existing sharing/interest/dismissal checks without changing weights, sleep, access or absence. Her authored talk path and heard-account/request recording remain. Shared personal retrieval preserves corrections and renewals; source-selected recall and outfit evidence retain accurate fallbacks after bounded correction. Duplicate recipient IDs are removed. Detailed evidence and limits:DIALOGUE-CONTINUOUS-PLAY-AFTER-V138.md. Publication record:releases/v1.0.139-release-summary.json. Earlier checkpoints below are historical.
+
 ## v1.0.138 implemented release scope
 
 The owner approved publication of the tested dialogue/lore repair. Canonical numeric disclosures refresh per player without revealing unheard private fields; old detected false lore is archived. The actual planner path records Tits’s heard wish and explicit clarification for reload-safe recall. Current partial foot records preserve unchanged features. Approved profile/portrait data remains; Dart’s already approved cropped ears are reflected. Generated prose still sometimes requires source-based fallback. Full evidence and limits:LORE-LEARNED-INFO-ACCEPTANCE.md;publication record:releases/v1.0.138-release-summary.json. Earlier local checkpoints are historical.

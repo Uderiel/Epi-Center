@@ -1,0 +1,39 @@
+{
+  "version": "1.0.139",
+  "baselinePublicClient": "1.0.138",
+  "mainBase": "a43c0f7aefd6c3b3a5a4e231663994ea05acb639",
+  "candidateCommits": [
+    "053ee25"
+  ],
+  "status": "Verified locally; deployment pending",
+  "workerChanged": false,
+  "expectedWorkerAssembly": "request-handoff-v11",
+  "newPublicationPaidCalls": 0,
+  "ownerSavesUsed": false,
+  "generalRealProviderAcceptanceComplete": false,
+  "runtimeScope": "Continuous dialogue retrieval/source delivery and Charity public presence integration;existing gameplay rules preserved",
+  "priorLiveEvidence": "docs/verification/continuous-dialogue-after-v138/summary.json",
+  "frozenBibleRequired": true,
+  "automatedCases": 2443,
+  "automatedSuites": 173,
+  "localBrowserSuites": 15,
+  "localBrowserChecks": 82,
+  "bibleIntegrity": {
+    "version": "1.0.139",
+    "canonical": "docs/EPI-CENTER-WORLD-BIBLE.md",
+    "frozen": "docs/bible/v1.0.139-world-bible.md",
+    "bytes": 108754,
+    "sha256": "e4748528e94eb82419d1560fd42df47b88638e949feb5afa222506f732421e4e"
+  },
+  "preparationAudit": {
+    "newBrowserRehearsalFailuresRetained": true,
+    "causes": [
+      "Initial travel/channel setup",
+      "Clicking collapsed menus without opening the real summaries",
+      "Missing free-inspection response fields in the simulated backend"
+    ],
+    "corrected": true,
+    "runtimeChangedForHarnessFailures": false,
+    "finalNewIntegrationChecks": 6
+  }
+}

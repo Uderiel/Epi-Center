@@ -1,3 +1,7 @@
+## v1.0.139 implemented release scope
+
+Charity’s actual public scene presence now agrees with the existing shop dialogue gate, enabling existing sharing/interest/dismissal checks without changing weights, sleep, access or absence. Her authored talk path and heard-account/request recording remain. Shared personal retrieval preserves corrections and renewals; source-selected recall and outfit evidence retain accurate fallbacks after bounded correction. Duplicate recipient IDs are removed. Detailed evidence and limits:DIALOGUE-CONTINUOUS-PLAY-AFTER-V138.md. Publication record:releases/v1.0.139-release-summary.json. Earlier checkpoints below are historical.
+
 # Charity contact request and carrier continuity repair — local, unpublished
 
 Owner example: Chastity asks Charity for Tits; Charity restarts a shop introduction and adds unrecorded activity. The original provider request/failure diagnostic for that particular reply was not supplied, so its exact inference cannot be reconstructed.

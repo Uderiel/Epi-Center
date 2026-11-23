@@ -1,3 +1,7 @@
+## v1.0.139 release review
+
+No deferred content/system is activated. D16 remains an acceptance limit. D18/D19 and all other existing revisit triggers retain their established scope. Worker and gameplay rules are unchanged.
+
 ## v1.0.138 release review
 
 No deferred gameplay system is activated by this release. D16 remains a verification limit;D18/D19 reflect the published approved scope. Existing triggers, unapproved proposals and exclusions remain. Publication:releases/v1.0.138-release-summary.json.
@@ -31,7 +35,7 @@ Reviewed 2026-11-20 against this conversation, current code, completion records 
 | D13 | Kibbles actual age and narrated presentation | Resolved and published in v1.0.137:owner approved4years;current equipped appearance and narration packets now use4. Original player age stays separate. | KIBBLES-APPEARANCE-PROPOSAL.md; verification/kibbles-approved/results.json |
 | D14 | Danger-area creature sensitivity to player needs/consequences | Build + Decide for actual enemy definitions. Generic needs rules exist; no invented modifiers. | Danger-area/enemy build. PLAYER-NEEDS-CONSEQUENCES.md |
 | D15 | Authoritative multiplayer, shared clock/occupancy/concurrency, offline NPC needs/payroll/rotation and world autonomy | Deferred architecture + Build. Local-save/reload tests are not network/offline proof. | Multiplayer/backend phase. CHARITY-TEMPLATE-COMPLETION-REVIEW.md |
-| D16 | General real-model factual/personality and uninterrupted-play acceptance | Verify; remains open. v1.0.138 publishes tested source, memory, role and safe-fallback repairs. Latest226 real requests cost$0.37813934;some generated replies still need truthful fallback. Final actual confidence clarification/recall passed. Source, browser and paid evidence are retained; no claim of universal prose correctness. | Continued dialogue acceptance; LORE-LEARNED-INFO-ACCEPTANCE.md and release record. |
+| D16 | General real-model factual/personality and uninterrupted-play acceptance | Remains open. v1.0.139 publishes continuous-memory, bounded factual/source-fallback and Charity presence/relationship repairs after56 live play inputs. Final changed-back recall still needs source fallback;this is safe delivery,not raw-model acceptance. Existing controller costs/gates remain. | Further NPC/form/quest continuous acceptance;DIALOGUE-CONTINUOUS-PLAY-AFTER-V138.md and release record. |
 | D18 | Current NPC/form appearance alignment and per-entity report | Approved implemented portions published in v1.0.137:18 source-backed profile states and24 fields. v1.0.138 preserves them and includes approved Dart cropped ears plus partial-current-foot consistency. Separate unapproved gym/sorority full-template additions remain proposals. | NPC-FORM-APPEARANCE-ALIGNMENT.md and release records. |
 | D19 | Missing NPC/form portrait connections | Resolved for the current18-profile catalogue in v1.0.137;all consumers connected. Dart remains shared-only;protected suits are pinned/unimplemented. v1.0.138 adds no image or portrait change. | Future authored/approved entity/image work only. |
 

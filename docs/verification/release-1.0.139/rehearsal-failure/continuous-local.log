@@ -1,0 +1,3 @@
+locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('[data-cherished=enter]').first()[22m
