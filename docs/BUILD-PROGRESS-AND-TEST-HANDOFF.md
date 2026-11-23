@@ -1,3 +1,9 @@
+## Local dialogue repairs after v1.0.138 — unpublished
+
+Continuous-play work implements longer-term/corrected personal-statement retrieval, bounded current-recall validation and source fallbacks, topic-sized shop context, tighter history/outfit/prop evidence, Charity’s missing shared scene presence, preservation of her authored talk adapter, and recipient deduplication. Existing prices, relationship weights and access/schedule rules remain unchanged. Final verification passes2,443 cases across all173 suites. Real testing covers56 typed turns on one newly UI-created save, including reload/day return, one payment/receipt and directed relationships. The final changed-back preference uses an accurate source fallback: it is not a raw-model accuracy pass. Known new testing cost$0.19564230; one unverified request retains$0.148483 upper allowance and was not replayed. Other NPC/form/quest continuous acceptance remains open. Nothing new is published; v1.0.138 and request-handoff-v11 remain live.
+
+Details: [Dialogue continuous play](DIALOGUE-CONTINUOUS-PLAY-AFTER-V138.md). Evidence: `verification/continuous-dialogue-after-v138/`. Earlier publication records below are retained history.
+
 ## v1.0.138 published and publicly verified
 
 [Play v1.0.138](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.138). Runtime commit `f425ec1ad60630cec44e4b784bae072ea8d316a0` is published from main and rebuild/1.0-foundations. GitHub Pages run45031598104 succeeded. All261 compared public runtime,portrait and canon files match the checked bytes. Canonical and frozen World Bible match SHA256`9806c841b56540e789efbcc9182d815298d0ddd1cfd3a110f5b709235d162f21`. Final release verification passes2,416 cases across all170 suites,plus14 local and14 public browser suites/76 reported checks each.

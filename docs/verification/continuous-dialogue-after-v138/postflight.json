@@ -1,0 +1,35 @@
+{
+  "health": {
+    "service": "Epi-Center AI",
+    "releaseVersion": "1.0.135",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "actionProtocol": "npc-actions-v1",
+    "requestAssemblyVersion": "request-handoff-v11",
+    "configured": true
+  },
+  "usageStatus": 200,
+  "usage": {
+    "releaseVersion": "1.0.135",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "actionProtocol": "npc-actions-v1",
+    "requestAssemblyVersion": "request-handoff-v11",
+    "model": "TheDrummer/Cydonia-24B-v4.3",
+    "budget": {
+      "month": "2026-11",
+      "spentUSD": 2.877901,
+      "reservedUSD": 0.283692,
+      "limitUSD": 50,
+      "remainingUSD": 46.838407,
+      "inputTokens": 4693205,
+      "outputTokens": 200000,
+      "requests": 1739,
+      "blocked": false
+    }
+  }
+}

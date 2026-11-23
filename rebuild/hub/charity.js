@@ -37,5 +37,10 @@ function talk(s,raw,{publicIdentity='unidentified visitor',utteranceId=null}={})
  m.introduced=true;m.lastTopic=topic;m.lastAt=s.worldClock?.minutes||0;m.turns||=[];m.turns.push({at:m.lastAt,heard:text.slice(0,400),reply});m.turns=m.turns.slice(-8);if(topic==='preference'&&/\b(?:i prefer|my favou?rite|i usually wear|i like wearing)\b/i.test(text)){m.preferences||=[];const value=text.slice(0,240);if(!m.preferences.some(p=>p.value===value))m.preferences.push({at:m.lastAt,value});m.preferences=m.preferences.slice(-5);}
  return {speaker:'Charity',origin:'dialogue',text:reply};
 }
+// Dialogue, hearing and relationship checks must agree with the shop's existing presence rules.
+const Scene=typeof module==='object'&&module.exports?require('./scene-presence'):globalThis.EpiScene;
+const publiclyPresent=s=>{const a=C.state(s).household?.actor;return C.charityPresent(s)&&(!a||!a.sleeping&&['H','C'].includes(a.room));};
+Scene.registerLocation('cherished-touch',{title:'Cherished Touch',inside:C.inside,rooms:C.rooms,room:s=>C.state(s).room,space:s=>C.id+':'+C.state(s).room,canHear:(s,id)=>id==='charity'&&publiclyPresent(s)&&['H','C'].includes(C.state(s).room)});
+Scene.registerActor('charity',{name:definition.name,unit:null,ai:{dossier,communication},actor:s=>{const a=C.state(s).household?.actor;return {...(a||{}),location:C.id,room:a?.room||'C',activity:a?.activity||'Serving customers',sleeping:!!a?.sleeping};},space:s=>publiclyPresent(s)?C.id+':'+(C.state(s).household?.actor?.room||'C'):null});
 return Object.freeze({definition,dossier,communication,state,context,talk});
 });

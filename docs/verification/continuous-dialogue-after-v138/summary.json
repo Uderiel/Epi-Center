@@ -1,0 +1,103 @@
+{
+  "base": "published v1.0.138 / a43c0f7 metadata; f425ec1 runtime",
+  "publication": "New repairs local and unpublished",
+  "worker": "request-handoff-v11 unchanged",
+  "model": "TheDrummer/Cydonia-24B-v4.3 unchanged",
+  "scope": "One UI-created save, actual travel/menus/waiting, NPC schedules retained. Manual clock preferences only; no teleport, extra gold, granted forms or owner save. Intermediate candidate versions and failures retained.",
+  "regression": {
+    "passed": true,
+    "cases": 2443,
+    "suites": 173
+  },
+  "accounting": {
+    "newAdmissions": 89,
+    "successfulKnownResponses": 88,
+    "knownCostUSD": 0.19564229999999994,
+    "newUnverifiedUpperUSD": 0.148483,
+    "newUnverifiedRequests": [
+      {
+        "id": "86d237e0-c600-4fba-a347-a1bbb57531bd",
+        "reservedUpperUSD": 0.148483
+      }
+    ],
+    "oldUnverifiedUpperUSD": 0.38788199999999995,
+    "cumulativeGuard": {
+      "maxCalls": 590,
+      "maxUSD": 2
+    }
+  },
+  "events": 91,
+  "typedTurns": 56,
+  "finalRecall": {
+    "speaker": "Charity",
+    "text": "You told me, “I keep blue buttons.”",
+    "generated": false,
+    "failure": "AI response contradicted recorded context after one correction; the recorded response is preserved.",
+    "turnId": "2ebfad82-9264-4b75-9676-3dd28c615754",
+    "requestId": "e7d78856-d76a-416c-93f3-0e660c0a31d9",
+    "source": "dialogue"
+  },
+  "assertions": [
+    {
+      "name": "all snapshots leave actual save unchanged",
+      "passed": true
+    },
+    {
+      "name": "one UI-created player throughout",
+      "passed": true
+    },
+    {
+      "name": "actual next-day clock reached",
+      "passed": true
+    },
+    {
+      "name": "one six-gold payment preserved",
+      "passed": true
+    },
+    {
+      "name": "Charity is in actual shared listeners",
+      "passed": true
+    },
+    {
+      "name": "one Charity recipient option",
+      "passed": true
+    },
+    {
+      "name": "captured bad recall is rejected and correct fallback displayed in browser",
+      "passed": true
+    },
+    {
+      "name": "final real displayed recall states blue buttons without old-current alternative",
+      "passed": true
+    },
+    {
+      "name": "every final regression suite exits zero",
+      "passed": true
+    },
+    {
+      "name": "no unresolved request replayed",
+      "passed": true
+    },
+    {
+      "name": "candidate source matches reviewed frozen bytes",
+      "passed": true
+    },
+    {
+      "name": "no active test admission remains",
+      "passed": true
+    }
+  ],
+  "technicalNotes": [
+    "One free pre-generation model-availability error; no paid admission.",
+    "One provider response had unverifiable usage; exact charge unknown, upper reservation retained and not replayed.",
+    "Harness-only creation settings, submenu selector and feed-ring capture errors fixed before counting outcomes.",
+    "An intermediate broad run failed a new sleep check; the fixed final run must have every suite exit zero."
+  ],
+  "limits": [
+    "Generated-prose factual/personality acceptance is not universal; guards and source fallbacks remain required.",
+    "This session covers Eve, Tits and Charity, not fresh continuous play across every NPC, quest, form and transformation.",
+    "A passing source fallback is safe delivery, not a model accuracy pass.",
+    "Memory retrieval remains bounded to retained per-player conversations; no infinite-memory claim."
+  ],
+  "passedBoundedAssertions": true
+}

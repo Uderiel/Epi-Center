@@ -1,0 +1,772 @@
+{
+  "options": {
+    "tits": {
+      "literalUnderstandingHistory": {
+        "wish": null,
+        "explainedIdioms": {}
+      },
+      "speechProfile": {
+        "archetype": "club_bimbo",
+        "overlay": "club",
+        "fragmented": true,
+        "simpleVocabulary": true,
+        "fillers": [
+          "like",
+          "um",
+          "uh"
+        ],
+        "mannerisms": [
+          "occasional giggle",
+          "play with hair"
+        ],
+        "preserveWarningsAndRefusals": true
+      },
+      "privateEncounter": null,
+      "conversationOffer": null,
+      "conditionAdvisory": {
+        "informed": false,
+        "automaticWarningLimit": 1,
+        "allowExplicitFollowup": true
+      },
+      "recognizedAppearanceKey": "[\"Rowan\",null,null,null,\"Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Not specified; Facial hair: Not specified; Complexion and markings: None; Material: Skin; Surface colour: Light\"]",
+      "nickname": null,
+      "serviceRefused": false,
+      "activity": "At Burke’s customer-facing register",
+      "perceivedIdentity": "Rowan",
+      "relationship": 4,
+      "familiar": true,
+      "workPosition": "Burke’s Sweets · C register frontage",
+      "recentEvents": [
+        {
+          "at": 588,
+          "kind": "simple-order",
+          "description": "coffee · to-go · now",
+          "details": {
+            "receiptId": "burkes-3-1",
+            "requestedGoods": [],
+            "requestedDrinks": [
+              {
+                "product": "coffee",
+                "cup": "to-go",
+                "timing": "now"
+              }
+            ]
+          },
+          "source": "Actual interaction with this recognized appearance"
+        }
+      ],
+      "service": {
+        "queue": {
+          "waiting": 0,
+          "yourRequest": null,
+          "nextCustomer": null
+        },
+        "room": "C",
+        "apron": "equipped for work",
+        "outfit": "Sparkling pink fitted mini dress, small pink apron, matching accessories and sparkling pink heels; hair clipped or partly pulled back.",
+        "presentation": {},
+        "available": true,
+        "basket": [],
+        "requestedDrinks": [],
+        "orders": [
+          {
+            "id": "burkes-3-1-drink-1",
+            "requested": "coffee",
+            "actual": "coffee",
+            "cup": "to-go",
+            "timing": "now",
+            "status": "preparing",
+            "corrected": false
+          }
+        ],
+        "mood": "Cheerful",
+        "limits": "Actual current-customer service only; no other player basket, free refills, prices changed by speech or off-duty events."
+      }
+    },
+    "initiative": null,
+    "room": "Register / Café frontage",
+    "publicIdentity": "Rowan",
+    "visibleParticipants": [
+      {
+        "id": "npc:tits",
+        "name": "Tits",
+        "perception": "same room"
+      }
+    ],
+    "physicalContext": {
+      "space": "Burke's Sweets:C",
+      "roomId": "C",
+      "publicIdentity": "Rowan",
+      "wornItems": [],
+      "clothingKnowledge": "Only the listed items are recorded as worn; unlisted socks, shoes or garments are unknown, not implied.",
+      "activeForm": null,
+      "body": null,
+      "property": null,
+      "travelMode": {
+        "id": "walk",
+        "minutes": 8,
+        "stamina": 0
+      },
+      "perspiration": {
+        "playerVisible": null,
+        "nearby": []
+      },
+      "speakerPhysiology": {
+        "salivaColour": "Pink",
+        "droolColour": "Pink",
+        "source": "active carrier physiology",
+        "baselineTrait": true,
+        "currentDrooling": "not determined by this colour trait",
+        "createsEmission": false
+      },
+      "conversationRoles": {
+        "speaker": "Tits",
+        "addressee": "Rowan",
+        "speakerIsPlayer": false,
+        "addresseeHasOneBody": true,
+        "addresseeCurrentBodyType": "human",
+        "addresseeCurrentBodyLabel": "Rowan",
+        "addresseeHasSeparateHumanBody": false,
+        "bodyChangeSubject": "The player; an NPC does not transform unless an actual NPC change is recorded."
+      }
+    },
+    "eventStatus": "unrecorded",
+    "conversation": {
+      "mode": "directed-local",
+      "replyToSpeaker": "Rowan"
+    },
+    "message": "If I wanted to visit the Spire later, would I need to leave the shop first?",
+    "event": "",
+    "location": "Burke’s Sweets · Register / Café frontage",
+    "time": "Mon · 09:49",
+    "appearance": "{\"age\":\"28\",\"gender\":\"Female\",\"footSize\":\"Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Not specified; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not applicable; Foot width: Not specified; Arch height: Not specified; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified\",\"legs\":\"Number of legs: 2; Leg type: Human legs; Length: Average; Build: Not specified; Covering: Skin; Hair / grooming: Not specified; Material: Skin; Surface colour: Light; inseam: 31.5 in\",\"hips\":\"Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Not specified; Material: Skin; Surface colour: Light; hip circumference: 41.5 in\",\"buttocks\":\"Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light\",\"waist\":\"Waist width: Narrow; Abdomen shape: Not specified; Muscle definition: Slight; Material: Skin; Surface colour: Light; waist circumference: 29.5 in\",\"back\":\"Shoulder width: Medium; Shoulder shape: Not specified; Back shape: Not specified; Material: Skin; Surface colour: Light; Usual posture: Not specified; Wings present: Absent; Number of wings: Not applicable; Wing type: Not applicable; Wingspan (tip to tip when spread): Not applicable; Wing shape and details: Not applicable; Wing material: Not applicable; Wing colour: Not applicable; shoulder width: 15.5 in\",\"chest\":\"Type: Breasts; Cup size: C; Pectoral size: Not applicable; Shape: Rounded; Material: Skin; Surface colour: Light; under-chest circumference: 33 in; chest circumference: 36 in\",\"arms\":\"Number of arms: 2; Arm type: Human arms; Length: Average; Muscle definition: Not specified; Material: Skin; Surface colour: Light; Hair / grooming: Not specified; shoulder-to-wrist length: 22.5 in\",\"hands\":\"Number of hands: 2; Hand type: Human hands; Size: Not specified; Width: Not specified; Material: Skin; Surface colour: Light\",\"fingers\":\"Digits per hand: 5; Length: Not specified; Thickness: Not specified; Nail type: Human nails; Nail length: Not specified; Nail shape: Not specified; Nail colour: Not specified; Nail material: Human nail keratin; Material: Skin; Surface colour: Light\",\"voice\":\"Neck shape: Not specified; Voice pitch: Not specified; Voice quality: Not specified; Material: Skin; Surface colour: Light\",\"face\":\"Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Not specified; Facial hair: Not specified; Complexion and markings: None; Material: Skin; Surface colour: Light\",\"eyes\":\"Number of eyes: 2; Size: Not specified; Shape: Not specified; Iris colour: Brown; Left iris colour: Not applicable; Right iris colour: Not applicable; Sclera: Not specified; Material: Human eye tissue\",\"ears\":\"Number of ears: 2; Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light\",\"hair\":\"Length: Not specified; Colour: Not specified; Texture: Not specified; Density: Not specified; Style: Not specified; Material: Human hair\",\"skin\":\"Material: Skin; Surface colour: Light; Texture: Not specified; Body markings: None; Body hair: Not specified\",\"genitalAnatomy\":\"Configuration: Not specified; Length (maximum 10 inches): Not applicable; Testes size: Not applicable; Tightness: Not applicable; Puffiness: Not applicable; Swelling: Not applicable; Fluid viscosity: Not applicable; Anatomical variation: Not specified; Pubic hair / grooming: Not specified; Material: Skin; Surface colour: Light\",\"scent\":\"Natural body scent: Not specified; Scent strength: Not specified; Perspiration tendency: Average; Usual skin temperature: Not specified; Other physical tendencies: None\",\"height\":\"5 ft 8 in\",\"weight\":\"155 lb\",\"build\":\"Medium frame, light muscle definition, average arms, narrow waist, fuller rounded hips. waist 29.5 in; hips 41.5 in; chest 36 in.\",\"tail\":\"Tail present: Absent; Tail description: Not applicable; Material: Not applicable; Surface colour: Not applicable\"}",
+    "description": "The customer side of a pink-and-white counter faces an old-school register and the coffee service. This service position does not grant access behind the counter or into preparation/storage.",
+    "visibleNPCs": [
+      "Tits"
+    ],
+    "marketing": {
+      "workplace": {
+        "area": "Marketing",
+        "cubicle": 2,
+        "position": "top right"
+      },
+      "activity": "Campaigns, budgets and launch planning",
+      "residence": "Applewood Apartments · Floor 6 · Apartment E",
+      "dog": "Dart, purebred male Doberman Pinscher; disciplined, obedient and protective. Home care and actual walks are recorded; boutique services remain deferred.",
+      "household": {
+        "room": null,
+        "grooming": {},
+        "currentTask": null,
+        "prepared": [],
+        "delivery": null
+      },
+      "relationship": 0,
+      "receivedWorkProposals": [],
+      "weeklyCampaign": {
+        "productId": "alarms",
+        "mode": "conference choice",
+        "budget": 1200,
+        "spent": 600
+      },
+      "result": "neutral",
+      "sales": {
+        "revenue": 3300,
+        "quantity": 8,
+        "count": 6,
+        "products": [
+          {
+            "id": "alarms",
+            "name": "Alarm systems",
+            "quantity": 0,
+            "revenue": 0,
+            "orders": 0
+          },
+          {
+            "id": "cameras",
+            "name": "Security camera systems",
+            "quantity": 1,
+            "revenue": 500,
+            "orders": 1
+          },
+          {
+            "id": "home-bots",
+            "name": "Domestic home-care bots",
+            "quantity": 1,
+            "revenue": 1500,
+            "orders": 1
+          },
+          {
+            "id": "display-stands",
+            "name": "Home form-display stands",
+            "quantity": 1,
+            "revenue": 300,
+            "orders": 1
+          },
+          {
+            "id": "storage",
+            "name": "Data storage",
+            "quantity": 4,
+            "revenue": 600,
+            "orders": 2
+          },
+          {
+            "id": "data-security",
+            "name": "Data security",
+            "quantity": 1,
+            "revenue": 400,
+            "orders": 1
+          }
+        ]
+      },
+      "reportPrepared": true,
+      "weeklyReview": {
+        "status": "scheduled",
+        "remaining": [
+          "Review sales and campaign results",
+          "Choose next campaign and budget",
+          "Assign corrections and weekend coverage"
+        ]
+      },
+      "weekend": null,
+      "limits": "Evening venues and shared boutique services are not implemented. Household supply orders exist only when recorded and paid from Nadia’s finite funds; do not invent completed visits, purchases or services. She does not know Richard’s home is Suite7A. Priya Shah is the implemented content strategist at marketing-01; other named employees remain pending. Work-position sales events are simulated."
+    },
+    "priya": {
+      "catAgreement": null,
+      "dailyLife": {
+        "activity": "Reviewing Nadia edits",
+        "room": null,
+        "job": null,
+        "hostJob": null,
+        "recent": [],
+        "pet": null
+      },
+      "catCompanion": null,
+      "household": {
+        "currentOutfit": null,
+        "outfitChangeInProgress": false,
+        "preferences": {
+          "morningTea": "ginger-cardamom black tea",
+          "eveningTea": "mint herbal tea",
+          "snacks": [
+            "crackers",
+            "roasted almonds",
+            "dark chocolate",
+            "fruit",
+            "plain yogurt with granola"
+          ]
+        },
+        "limits": "Catalogue belongs to Priya. No invented stock, guest consumption, dressing or completed care. Food and clothing actions require recorded state."
+      },
+      "workplace": {
+        "area": "Marketing",
+        "cubicle": 1,
+        "position": "top left"
+      },
+      "activity": "Reviewing Nadia edits",
+      "perceivedIdentity": "unfamiliar appearance",
+      "relationship": 0,
+      "familiar": false,
+      "residence": "Applewood Apartments · Floor 2 · Unit F",
+      "connections": [
+        {
+          "target": "npc:nadia",
+          "kind": "reportsTo",
+          "knowledge": "public"
+        },
+        {
+          "target": "npc:richard",
+          "kind": "departmentManager",
+          "knowledge": "public"
+        },
+        {
+          "target": "applewood:2F",
+          "kind": "residesAt",
+          "knowledge": "public"
+        },
+        {
+          "target": "Technology Center",
+          "kind": "worksAt",
+          "room": "H_W",
+          "knowledge": "public"
+        }
+      ],
+      "workPosition": "marketing-01",
+      "work": {
+        "arrival": 555,
+        "workMinutes": 49,
+        "work": {
+          "Checking product claims:alarms": {
+            "kind": "Checking product claims",
+            "productId": "alarms",
+            "minutes": 29,
+            "lastAt": 569
+          },
+          "Reviewing Nadia edits:cameras": {
+            "kind": "Reviewing Nadia edits",
+            "productId": "cameras",
+            "minutes": 20,
+            "lastAt": 589
+          }
+        },
+        "majorMeetings": []
+      },
+      "products": [
+        {
+          "id": "alarms",
+          "name": "Alarm systems",
+          "description": "Alarm systems for home and property security.",
+          "available": true
+        },
+        {
+          "id": "cameras",
+          "name": "Security camera systems",
+          "description": "Camera systems for monitoring a property.",
+          "available": true
+        },
+        {
+          "id": "home-bots",
+          "name": "Domestic home-care bots",
+          "description": "Domestic bots that can cook, clean and keep a home tidy.",
+          "available": true
+        },
+        {
+          "id": "display-stands",
+          "name": "Home form-display stands",
+          "description": "The display stands used by the Form Repository, also sold for displaying forms at home.",
+          "available": true
+        },
+        {
+          "id": "storage",
+          "name": "Data storage",
+          "description": "Products and services for storing data.",
+          "available": true
+        },
+        {
+          "id": "data-security",
+          "name": "Data security",
+          "description": "Products and services for protecting stored data.",
+          "available": true
+        }
+      ],
+      "invitation": [],
+      "separateDeclines": 0,
+      "recentEvents": [],
+      "limits": "Unit 2F supports identity-bound permission-based friend visits and post-reversion exploration. Guests need neither flats nor cat arrangements; friendship is not romance or consent. Maya Bennett and Lena Ortiz have guest policy records, not newly invented full NPC lives. Household supplies, prepared servings, consumption and requested outfit changes use the recorded household controller; do not invent stock or actions. Unimplemented venues/friends cannot attend. No phone channel, transformation, pet offer, completed date or invented event."
+    },
+    "department": {
+      "workplace": {
+        "area": "Sales",
+        "cubicle": 1,
+        "position": "top left"
+      },
+      "activity": "Reviewing product information",
+      "relationship": 0,
+      "residence": "Applewood Apartments · Floor 4 · Apartment C",
+      "marriage": "Loving/supportive marriage of five years to Crystal Mercer; her role is roulette table attendant, non-indentured, Silver Shackle Casino. Home Applewood 4C.",
+      "interests": [
+        "Crystal",
+        "cooking",
+        "hiking/outdoors",
+        "wine collecting"
+      ],
+      "erinConnection": "Workplace friendship, occasional lunch talks, recommended some favorite wines; understated attraction, not an established romance.",
+      "schedule": "Arrives about 08:30; prepares coffee and recorded sales figures; weekdays 09:00–17:00.",
+      "reportPrepared": true,
+      "recordedSales": {
+        "shipped": 3300,
+        "pending": 0,
+        "cancelled": 0,
+        "count": 6
+      },
+      "meetings": [
+        {
+          "id": "department-meeting-1",
+          "title": "Monthly sales-team company safety briefing",
+          "status": "requested",
+          "room": "E",
+          "progress": 0
+        },
+        {
+          "id": "department-meeting-2",
+          "title": "Sales pitch planning",
+          "status": "requested",
+          "room": "E",
+          "progress": 0
+        }
+      ],
+      "products": [
+        {
+          "id": "alarms",
+          "name": "Alarm systems",
+          "description": "Alarm systems for home and property security.",
+          "available": true
+        },
+        {
+          "id": "cameras",
+          "name": "Security camera systems",
+          "description": "Camera systems for monitoring a property.",
+          "available": true
+        },
+        {
+          "id": "home-bots",
+          "name": "Domestic home-care bots",
+          "description": "Domestic bots that can cook, clean and keep a home tidy.",
+          "available": true
+        },
+        {
+          "id": "display-stands",
+          "name": "Home form-display stands",
+          "description": "The display stands used by the Form Repository, also sold for displaying forms at home.",
+          "available": true
+        },
+        {
+          "id": "storage",
+          "name": "Data storage",
+          "description": "Products and services for storing data.",
+          "available": true
+        },
+        {
+          "id": "data-security",
+          "name": "Data security",
+          "description": "Products and services for protecting stored data.",
+          "available": true
+        },
+        {
+          "id": "phones",
+          "name": "Player cell phones",
+          "description": "The cell phones used by players are a planned product. Devices and phone functions are not available yet.",
+          "available": false
+        }
+      ],
+      "rosterStatus": "Daniel leads thirteen sales staff. Individual characters are not yet authored. Only supplied recorded work-position sales events have occurred; do not invent further sales or physical presence."
+    },
+    "dialogueTurnId": "131805ba-c6e8-4ec5-85e0-c64dcb13716e",
+    "tone": "standard",
+    "actionResult": {
+      "status": "dialogue-only",
+      "action": null,
+      "text": "Conversation only. No physical action was requested."
+    },
+    "shopState": {
+      "at": 589,
+      "currency": "gold",
+      "venue": {
+        "room": "C",
+        "description": "The customer side of a pink-and-white counter faces an old-school register and the coffee service. This service position does not grant access behind the counter or into preparation/storage.",
+        "fixtures": [
+          "Old-school register",
+          "Coffee menu",
+          "Preset coffee machine & reference cards"
+        ],
+        "seating": "unrecorded"
+      },
+      "unpaidSelection": null,
+      "latestPayment": {
+        "receipt": "burkes-3-1",
+        "at": 588,
+        "totalGold": 6
+      },
+      "drinkOrders": [
+        {
+          "id": "burkes-3-1-drink-1",
+          "receipt": "burkes-3-1",
+          "requestedProduct": "Standard coffee",
+          "cup": "to-go",
+          "status": "preparing",
+          "paid": true,
+          "preparationStartedAt": 588,
+          "readyAt": 590,
+          "remainingMinutes": 1,
+          "playerPossession": false
+        }
+      ],
+      "proseCannotPayPrepareOrCollect": true
+    },
+    "sourceMessage": "If I wanted to visit the Spire later, would I need to leave the shop first?"
+  },
+  "state": {
+    "turn": {
+      "speaker": "Tits",
+      "addressee": "Rowan",
+      "scope": "tits-face:[\"Rowan\",null,null,null,\"Overall shape: Not specified; Jaw: Not specified; Chin: Not specified; Cheeks: Not specified; Nose size: Not specified; Nose shape: Not specified; Lip fullness: Not specified; Lip shape: Not specified; Salivation rate: Not specified; Facial hair: Not specified; Complexion and markings: None; Material: Skin; Surface colour: Light\"]",
+      "latestMessage": "If I wanted to visit the Spire later, would I need to leave the shop first?",
+      "playerIdentity": "Rowan",
+      "playerIsAddressee": true,
+      "inputKind": "player-speech",
+      "playerEmployment": "unrecorded; do not assume a visitor is an employee",
+      "continuity": "Answer the latest expressed message, including follow-up questions to your previous reply. Do not restart with a greeting or routine work update."
+    },
+    "contextVersion": "scene-contract-v1",
+    "publicVenues": [
+      {
+        "name": "Burke's Sweets",
+        "description": "Burke’s Sweets has a candy entrance, bakery display and customer-facing café/register. Its preparation/storage area is staff-only.",
+        "hours": "Weekdays08:00–20:00; weekend hours not recorded"
+      },
+      {
+        "name": "Neko Cafe",
+        "description": "An updated cat-friendly cafe with wall booths, circular tables, a modern kitchen, a register and staff rooms.",
+        "hours": "Monday–Friday: 24 hours; Saturday–Sunday: 09:00–17:00"
+      }
+    ],
+    "publicVenueNotes": "Reviews and opening dates are unrecorded",
+    "visibleParticipants": [
+      {
+        "id": "npc:tits",
+        "name": "Tits",
+        "perception": "same room"
+      }
+    ],
+    "physicalContext": {
+      "space": "Burke's Sweets:C",
+      "roomId": "C",
+      "publicIdentity": "Rowan",
+      "wornItems": [],
+      "clothingKnowledge": "Only the listed items are recorded as worn; unlisted socks, shoes or garments are unknown, not implied.",
+      "activeForm": null,
+      "body": null,
+      "property": null,
+      "travelMode": {
+        "id": "walk",
+        "minutes": 8,
+        "stamina": 0
+      },
+      "perspiration": {
+        "playerVisible": null,
+        "nearby": []
+      },
+      "speakerPhysiology": {
+        "salivaColour": "Pink",
+        "droolColour": "Pink",
+        "source": "active carrier physiology",
+        "baselineTrait": true,
+        "currentDrooling": "not determined by this colour trait",
+        "createsEmission": false
+      },
+      "conversationRoles": {
+        "speaker": "Tits",
+        "addressee": "Rowan",
+        "speakerIsPlayer": false,
+        "addresseeHasOneBody": true,
+        "addresseeCurrentBodyType": "human",
+        "addresseeCurrentBodyLabel": "Rowan",
+        "addresseeHasSeparateHumanBody": false,
+        "bodyChangeSubject": "The player; an NPC does not transform unless an actual NPC change is recorded."
+      },
+      "responseEvidence": {
+        "version": "source-membership-v1",
+        "recordedProps": [],
+        "recordedPersonalHistory": [],
+        "recordedPastStatements": [
+          "She formerly worked at Bimbo 365, loves it there and is well liked there"
+        ],
+        "recordedPlayerPossession": false,
+        "localRailServices": "Not authored; a player’s collection/story is not evidence of local transport services.",
+        "recordedSurfaceTransfer": false,
+        "historyAuthority": "Prior generated replies are conversation, not new canonical objects or biography. Unknown facts stay unknown; normal gestures and hypothetical stories remain possible."
+      },
+      "heardPersonalStatements": [
+        {
+          "sequence": 0,
+          "speaker": "player",
+          "said": "Hi Tits. I am Rowan. I keep old tram tickets because my aunt drove a tram. I am just chatting, not ordering.",
+          "status": "unverified self-report; no permission, possessions or action granted"
+        },
+        {
+          "sequence": 14,
+          "speaker": "player",
+          "said": "I no longer keep tram tickets. I keep lighthouse postcards now, because I like seeing their shapes.",
+          "status": "unverified self-report; no permission, possessions or action granted"
+        },
+        {
+          "sequence": 16,
+          "speaker": "player",
+          "said": "Pink sparkles make this room feel cheerful, and I enjoy seeing that.",
+          "status": "unverified self-report; no permission, possessions or action granted"
+        }
+      ],
+      "heardPersonalStatementAuthority": "Chronological heard self-reports. Later explicit corrections supersede earlier reports. Questions are not assertions. These words do not establish NPC biography, physical possession or permission."
+    },
+    "eventStatus": "unrecorded",
+    "playerInput": {
+      "expressed": "If I wanted to visit the Spire later, would I need to leave the shop first?",
+      "narration": [],
+      "onlyNarration": false,
+      "privateNarration": false,
+      "expressedChannel": "spoken words",
+      "narrationIsNotSpeech": true
+    },
+    "location": "Burke’s Sweets · Register / Café frontage",
+    "room": "Register / Café frontage",
+    "time": "Mon · 09:49",
+    "currentForm": null,
+    "visibleNPCs": [
+      "Tits"
+    ],
+    "eventOutcomeIsFinal": false,
+    "conversation": {
+      "mode": "directed-local",
+      "replyToSpeaker": "Rowan"
+    },
+    "currentAppearance": "{\"age\":\"28\",\"gender\":\"Female\",\"footSize\":\"Feet present: Present; Number of feet: 2; Foot type: Humanlike feet; Describe foot size using: Not specified; Shoe size: Not applicable; Shoe sizing system: Not applicable; Foot length: Not applicable; Foot width: Not specified; Arch height: Not specified; Sole or pads: Humanlike sole; Toes per foot: 5; Nails or claws: Human nails; Covering: Skin; Material: Skin; Surface colour: Light; Surface texture: Not specified; Markings: Not specified\",\"legs\":\"Number of legs: 2; Leg type: Human legs; Length: Average; Build: Not specified; Covering: Skin; Hair / grooming: Not specified; Material: Skin; Surface colour: Light; inseam: 31.5 in\",\"hips\":\"Width: Wide; Shape: Rounded; Proportions relative to waist / torso: Not specified; Material: Skin; Surface colour: Light; hip circumference: 41.5 in\",\"buttocks\":\"Size: Not specified; Shape: Not specified; Material: Skin; Surface colour: Light\",\"waist\":\"Waist width: Narrow; Abdomen shape: Not specified; Muscle d",
+    "characterState": {
+      "literalUnderstandingHistory": {
+        "wish": null,
+        "explainedIdioms": {}
+      },
+      "speechProfile": {
+        "archetype": "club_bimbo",
+        "overlay": "club",
+        "fragmented": true,
+        "simpleVocabulary": true,
+        "fillers": [
+          "like",
+          "um",
+          "uh"
+        ],
+        "mannerisms": [
+          "occasional giggle",
+          "play with hair"
+        ],
+        "preserveWarningsAndRefusals": true
+      },
+      "privateEncounter": null,
+      "conversationOffer": null,
+      "conditionAdvisory": {
+        "informed": false,
+        "automaticWarningLimit": 1,
+        "allowExplicitFollowup": true
+      },
+      "nickname": null,
+      "serviceRefused": false,
+      "activity": "At Burke’s customer-facing register",
+      "perceivedIdentity": "Rowan",
+      "relationship": 4,
+      "familiar": true,
+      "workPosition": "Burke’s Sweets · C register frontage",
+      "recentEvents": [
+        {
+          "at": 588,
+          "kind": "simple-order",
+          "description": "coffee · to-go · now",
+          "details": {
+            "receiptId": "burkes-3-1",
+            "requestedGoods": [],
+            "requestedDrinks": [
+              {
+                "product": "coffee",
+                "cup": "to-go",
+                "timing": "now"
+              }
+            ]
+          },
+          "source": "Actual interaction with this recognized appearance"
+        }
+      ],
+      "service": {
+        "room": "C",
+        "available": true,
+        "outfit": "Sparkling pink fitted mini dress, small pink apron, matching accessories and sparkling pink heels; hair clipped or partly pulled back."
+      }
+    },
+    "shopState": {
+      "at": 589,
+      "currency": "gold",
+      "venue": {
+        "room": "C",
+        "description": "The customer side of a pink-and-white counter faces an old-school register and the coffee service. This service position does not grant access behind the counter or into preparation/storage.",
+        "fixtures": [
+          "Old-school register",
+          "Coffee menu",
+          "Preset coffee machine & reference cards"
+        ],
+        "seating": "unrecorded"
+      },
+      "unpaidSelection": null,
+      "latestPayment": {
+        "receipt": "burkes-3-1",
+        "at": 588,
+        "totalGold": 6
+      },
+      "drinkOrders": [
+        {
+          "id": "burkes-3-1-drink-1",
+          "receipt": "burkes-3-1",
+          "requestedProduct": "Standard coffee",
+          "cup": "to-go",
+          "status": "preparing",
+          "paid": true,
+          "preparationStartedAt": 588,
+          "readyAt": 590,
+          "remainingMinutes": 1,
+          "playerPossession": false
+        }
+      ],
+      "proseCannotPayPrepareOrCollect": true
+    },
+    "datingReadiness": {
+      "eligible": false,
+      "consentGranted": false
+    },
+    "carrierSocialPolicy": {
+      "playerCarrier": false,
+      "npcCarrier": true,
+      "affinityGainsAllowed": true,
+      "datingAllowed": false,
+      "deeperRelationshipAllowed": false,
+      "avoidProlongedContact": false,
+      "refuseSharedPersonalItems": false
+    },
+    "relationship": {
+      "entityId": "npc:tits",
+      "score": 4,
+      "threshold": 0,
+      "sign": 1,
+      "label": "Positive social affinity",
+      "guidance": "Social affinity may change normally; a new deeper relationship requires matching active carrier status.",
+      "limits": "Relationship is not permission, consent, undisclosed identity recognition, resource recovery or control. Actual schedules, access rules and resolved mechanics remain authoritative.",
+      "reactions": {
+        "positive": [
+          "Clear sincere compliments, patience and kindness"
+        ],
+        "negative": [
+          "Direct rudeness, insults or aggression"
+        ],
+        "controllerResolvedOnly": true
+      }
+    },
+    "actionResult": {
+      "status": "dialogue-only",
+      "action": null,
+      "text": "Conversation only. No physical action was requested."
+    },
+    "witnessedBodyChange": null,
+    "tone": "standard"
+  },
+  "sizes": {
+    "turn": 825,
+    "contextVersion": 19,
+    "publicVenues": 443,
+    "publicVenueNotes": 42,
+    "visibleParticipants": 58,
+    "physicalContext": 2354,
+    "eventStatus": 12,
+    "playerInput": 215,
+    "location": 43,
+    "room": 26,
+    "time": 13,
+    "currentForm": 4,
+    "visibleNPCs": 8,
+    "eventOutcomeIsFinal": 5,
+    "conversation": 50,
+    "currentAppearance": 1029,
+    "characterState": 1092,
+    "shopState": 733,
+    "datingReadiness": 41,
+    "carrierSocialPolicy": 189,
+    "relationship": 562,
+    "actionResult": 102,
+    "witnessedBodyChange": 4,
+    "tone": 10
+  }
+}

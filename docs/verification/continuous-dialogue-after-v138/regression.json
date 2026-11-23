@@ -1,0 +1,872 @@
+{
+  "at": "2026-11-23T06:39:30.058Z",
+  "cases": 2443,
+  "suites": [
+    {
+      "file": "rebuild/combat/attribute-cap.test.js",
+      "exitCode": 0,
+      "passingCases": 7
+    },
+    {
+      "file": "rebuild/combat/civilian-encounter.test.js",
+      "exitCode": 0,
+      "passingCases": 14
+    },
+    {
+      "file": "rebuild/combat/dice-advantage.test.js",
+      "exitCode": 0,
+      "passingCases": 14
+    },
+    {
+      "file": "rebuild/combat/entity-rules.test.js",
+      "exitCode": 0,
+      "passingCases": 0
+    },
+    {
+      "file": "rebuild/combat/kibbles-ai.test.js",
+      "exitCode": 0,
+      "passingCases": 38
+    },
+    {
+      "file": "rebuild/combat/kibbles-form.test.js",
+      "exitCode": 0,
+      "passingCases": 21
+    },
+    {
+      "file": "rebuild/combat/kibbles-presentation.test.js",
+      "exitCode": 0,
+      "passingCases": 27
+    },
+    {
+      "file": "rebuild/combat/play-encounter.test.js",
+      "exitCode": 0,
+      "passingCases": 35
+    },
+    {
+      "file": "rebuild/combat/rarity-profiles.test.js",
+      "exitCode": 0,
+      "passingCases": 6
+    },
+    {
+      "file": "rebuild/hub/ai-client.test.js",
+      "exitCode": 0,
+      "passingCases": 60
+    },
+    {
+      "file": "rebuild/hub/ai-context.test.js",
+      "exitCode": 0,
+      "passingCases": 65
+    },
+    {
+      "file": "rebuild/hub/apartment-navigation.test.js",
+      "exitCode": 0,
+      "passingCases": 9
+    },
+    {
+      "file": "rebuild/hub/appearance-alignment.test.js",
+      "exitCode": 0,
+      "passingCases": 17
+    },
+    {
+      "file": "rebuild/hub/appearance-measurements.test.js",
+      "exitCode": 0,
+      "passingCases": 12
+    },
+    {
+      "file": "rebuild/hub/appearance-template.test.js",
+      "exitCode": 0,
+      "passingCases": 24
+    },
+    {
+      "file": "rebuild/hub/arousal-effects.test.js",
+      "exitCode": 0,
+      "passingCases": 4
+    },
+    {
+      "file": "rebuild/hub/authored-dialogue.test.js",
+      "exitCode": 0,
+      "passingCases": 5
+    },
+    {
+      "file": "rebuild/hub/bible-integrity.test.js",
+      "exitCode": 0,
+      "passingCases": 2
+    },
+    {
+      "file": "rebuild/hub/bimbo-virus-appearance.test.js",
+      "exitCode": 0,
+      "passingCases": 13
+    },
+    {
+      "file": "rebuild/hub/bimbo-virus-attributes.test.js",
+      "exitCode": 0,
+      "passingCases": 9
+    },
+    {
+      "file": "rebuild/hub/bimbo-virus-base-lock.test.js",
+      "exitCode": 0,
+      "passingCases": 3
+    },
+    {
+      "file": "rebuild/hub/bimbo-virus-cure.test.js",
+      "exitCode": 0,
+      "passingCases": 6
+    },
+    {
+      "file": "rebuild/hub/bimbo-virus-debug.test.js",
+      "exitCode": 0,
+      "passingCases": 5
+    },
+    {
+      "file": "rebuild/hub/bimbo-virus-exposure.test.js",
+      "exitCode": 0,
+      "passingCases": 12
+    },
+    {
+      "file": "rebuild/hub/bimbo-virus-identity.test.js",
+      "exitCode": 0,
+      "passingCases": 4
+    },
+    {
+      "file": "rebuild/hub/bimbo-virus-penalties.test.js",
+      "exitCode": 0,
+      "passingCases": 11
+    },
+    {
+      "file": "rebuild/hub/bimbo-virus-physiology.test.js",
+      "exitCode": 0,
+      "passingCases": 9
+    },
+    {
+      "file": "rebuild/hub/bimbo-virus-policy.test.js",
+      "exitCode": 0,
+      "passingCases": 6
+    },
+    {
+      "file": "rebuild/hub/bimbo-virus-presentation.test.js",
+      "exitCode": 0,
+      "passingCases": 5
+    },
+    {
+      "file": "rebuild/hub/bimbo-virus-resources.test.js",
+      "exitCode": 0,
+      "passingCases": 7
+    },
+    {
+      "file": "rebuild/hub/bimbo-virus-sleep.test.js",
+      "exitCode": 0,
+      "passingCases": 3
+    },
+    {
+      "file": "rebuild/hub/bimbo-virus-social.test.js",
+      "exitCode": 0,
+      "passingCases": 7
+    },
+    {
+      "file": "rebuild/hub/bimbo-virus-timeline.test.js",
+      "exitCode": 0,
+      "passingCases": 7
+    },
+    {
+      "file": "rebuild/hub/binding-and-footwear.test.js",
+      "exitCode": 0,
+      "passingCases": 9
+    },
+    {
+      "file": "rebuild/hub/burkes-art.test.js",
+      "exitCode": 0,
+      "passingCases": 3
+    },
+    {
+      "file": "rebuild/hub/burkes-baking.test.js",
+      "exitCode": 0,
+      "passingCases": 6
+    },
+    {
+      "file": "rebuild/hub/burkes-delivery.test.js",
+      "exitCode": 0,
+      "passingCases": 5
+    },
+    {
+      "file": "rebuild/hub/burkes-queue.test.js",
+      "exitCode": 0,
+      "passingCases": 7
+    },
+    {
+      "file": "rebuild/hub/burkes-retail.test.js",
+      "exitCode": 0,
+      "passingCases": 19
+    },
+    {
+      "file": "rebuild/hub/burkes-sweets.test.js",
+      "exitCode": 0,
+      "passingCases": 15
+    },
+    {
+      "file": "rebuild/hub/business-availability.test.js",
+      "exitCode": 0,
+      "passingCases": 9
+    },
+    {
+      "file": "rebuild/hub/candy-effects.test.js",
+      "exitCode": 0,
+      "passingCases": 3
+    },
+    {
+      "file": "rebuild/hub/canine-conversation.test.js",
+      "exitCode": 0,
+      "passingCases": 9
+    },
+    {
+      "file": "rebuild/hub/canine-expression.test.js",
+      "exitCode": 0,
+      "passingCases": 20
+    },
+    {
+      "file": "rebuild/hub/canine-routines.test.js",
+      "exitCode": 0,
+      "passingCases": 15
+    },
+    {
+      "file": "rebuild/hub/canonical-lore.test.js",
+      "exitCode": 0,
+      "passingCases": 30
+    },
+    {
+      "file": "rebuild/hub/cat-narrative-frame.test.js",
+      "exitCode": 0,
+      "passingCases": 10
+    },
+    {
+      "file": "rebuild/hub/character-conversation.test.js",
+      "exitCode": 0,
+      "passingCases": 15
+    },
+    {
+      "file": "rebuild/hub/charity-access.test.js",
+      "exitCode": 0,
+      "passingCases": 12
+    },
+    {
+      "file": "rebuild/hub/charity-delivery.test.js",
+      "exitCode": 0,
+      "passingCases": 6
+    },
+    {
+      "file": "rebuild/hub/charity-household.test.js",
+      "exitCode": 0,
+      "passingCases": 21
+    },
+    {
+      "file": "rebuild/hub/charity-presence.test.js",
+      "exitCode": 0,
+      "passingCases": 4
+    },
+    {
+      "file": "rebuild/hub/charity-service.test.js",
+      "exitCode": 0,
+      "passingCases": 12
+    },
+    {
+      "file": "rebuild/hub/charity-visitors.test.js",
+      "exitCode": 0,
+      "passingCases": 6
+    },
+    {
+      "file": "rebuild/hub/charity.test.js",
+      "exitCode": 0,
+      "passingCases": 12
+    },
+    {
+      "file": "rebuild/hub/cherished-art.test.js",
+      "exitCode": 0,
+      "passingCases": 6
+    },
+    {
+      "file": "rebuild/hub/cherished-shop.test.js",
+      "exitCode": 0,
+      "passingCases": 19
+    },
+    {
+      "file": "rebuild/hub/cherished-touch.test.js",
+      "exitCode": 0,
+      "passingCases": 20
+    },
+    {
+      "file": "rebuild/hub/club-appearance.test.js",
+      "exitCode": 0,
+      "passingCases": 5
+    },
+    {
+      "file": "rebuild/hub/conversation-continuity.test.js",
+      "exitCode": 0,
+      "passingCases": 7
+    },
+    {
+      "file": "rebuild/hub/cubicle-layout.test.js",
+      "exitCode": 0,
+      "passingCases": 4
+    },
+    {
+      "file": "rebuild/hub/current-appearance.test.js",
+      "exitCode": 0,
+      "passingCases": 18
+    },
+    {
+      "file": "rebuild/hub/cursed-household-flow.test.js",
+      "exitCode": 0,
+      "passingCases": 22
+    },
+    {
+      "file": "rebuild/hub/dart.test.js",
+      "exitCode": 0,
+      "passingCases": 14
+    },
+    {
+      "file": "rebuild/hub/dating-readiness.test.js",
+      "exitCode": 0,
+      "passingCases": 10
+    },
+    {
+      "file": "rebuild/hub/department.test.js",
+      "exitCode": 0,
+      "passingCases": 25
+    },
+    {
+      "file": "rebuild/hub/dev-return-human.test.js",
+      "exitCode": 0,
+      "passingCases": 6
+    },
+    {
+      "file": "rebuild/hub/dialogue-history-authority.test.js",
+      "exitCode": 0,
+      "passingCases": 12
+    },
+    {
+      "file": "rebuild/hub/dialogue-memory.test.js",
+      "exitCode": 0,
+      "passingCases": 11
+    },
+    {
+      "file": "rebuild/hub/dialogue-presence.test.js",
+      "exitCode": 0,
+      "passingCases": 4
+    },
+    {
+      "file": "rebuild/hub/easter-egg.test.js",
+      "exitCode": 0,
+      "passingCases": 22
+    },
+    {
+      "file": "rebuild/hub/enchanted-counter.test.js",
+      "exitCode": 0,
+      "passingCases": 19
+    },
+    {
+      "file": "rebuild/hub/encounter-arousal.test.js",
+      "exitCode": 0,
+      "passingCases": 7
+    },
+    {
+      "file": "rebuild/hub/encounter-continuity.test.js",
+      "exitCode": 0,
+      "passingCases": 10
+    },
+    {
+      "file": "rebuild/hub/equipment-storage.test.js",
+      "exitCode": 0,
+      "passingCases": 27
+    },
+    {
+      "file": "rebuild/hub/erin-agency.test.js",
+      "exitCode": 0,
+      "passingCases": 26
+    },
+    {
+      "file": "rebuild/hub/erin-appearance.test.js",
+      "exitCode": 0,
+      "passingCases": 5
+    },
+    {
+      "file": "rebuild/hub/erin-daily-office.test.js",
+      "exitCode": 0,
+      "passingCases": 24
+    },
+    {
+      "file": "rebuild/hub/erin-life.test.js",
+      "exitCode": 0,
+      "passingCases": 41
+    },
+    {
+      "file": "rebuild/hub/erin-refinement.test.js",
+      "exitCode": 0,
+      "passingCases": 32
+    },
+    {
+      "file": "rebuild/hub/erin-release.test.js",
+      "exitCode": 0,
+      "passingCases": 11
+    },
+    {
+      "file": "rebuild/hub/erin-restoration.test.js",
+      "exitCode": 0,
+      "passingCases": 25
+    },
+    {
+      "file": "rebuild/hub/erin-shower-products.test.js",
+      "exitCode": 0,
+      "passingCases": 9
+    },
+    {
+      "file": "rebuild/hub/erin-wellbeing.test.js",
+      "exitCode": 0,
+      "passingCases": 24
+    },
+    {
+      "file": "rebuild/hub/eve-appearance.test.js",
+      "exitCode": 0,
+      "passingCases": 5
+    },
+    {
+      "file": "rebuild/hub/expanded-map.test.js",
+      "exitCode": 0,
+      "passingCases": 7
+    },
+    {
+      "file": "rebuild/hub/flats-appearance.test.js",
+      "exitCode": 0,
+      "passingCases": 6
+    },
+    {
+      "file": "rebuild/hub/fluid-contact.test.js",
+      "exitCode": 0,
+      "passingCases": 21
+    },
+    {
+      "file": "rebuild/hub/footwear-senses.test.js",
+      "exitCode": 0,
+      "passingCases": 10
+    },
+    {
+      "file": "rebuild/hub/form-minds.test.js",
+      "exitCode": 0,
+      "passingCases": 43
+    },
+    {
+      "file": "rebuild/hub/form-presence.test.js",
+      "exitCode": 0,
+      "passingCases": 28
+    },
+    {
+      "file": "rebuild/hub/form-reference.test.js",
+      "exitCode": 0,
+      "passingCases": 9
+    },
+    {
+      "file": "rebuild/hub/gum-effects.test.js",
+      "exitCode": 0,
+      "passingCases": 9
+    },
+    {
+      "file": "rebuild/hub/hangry-fangs.test.js",
+      "exitCode": 0,
+      "passingCases": 20
+    },
+    {
+      "file": "rebuild/hub/heard-accounts.test.js",
+      "exitCode": 0,
+      "passingCases": 7
+    },
+    {
+      "file": "rebuild/hub/high-influence.test.js",
+      "exitCode": 0,
+      "passingCases": 16
+    },
+    {
+      "file": "rebuild/hub/household-prices.test.js",
+      "exitCode": 0,
+      "passingCases": 7
+    },
+    {
+      "file": "rebuild/hub/hub-world.test.js",
+      "exitCode": 0,
+      "passingCases": 19
+    },
+    {
+      "file": "rebuild/hub/interaction-state.test.js",
+      "exitCode": 0,
+      "passingCases": 5
+    },
+    {
+      "file": "rebuild/hub/intimate-encounter.test.js",
+      "exitCode": 0,
+      "passingCases": 9
+    },
+    {
+      "file": "rebuild/hub/intro-target-appearance.test.js",
+      "exitCode": 0,
+      "passingCases": 8
+    },
+    {
+      "file": "rebuild/hub/kibbles-appearance.test.js",
+      "exitCode": 0,
+      "passingCases": 4
+    },
+    {
+      "file": "rebuild/hub/kibbles-state-flow.test.js",
+      "exitCode": 0,
+      "passingCases": 12
+    },
+    {
+      "file": "rebuild/hub/kissing.test.js",
+      "exitCode": 0,
+      "passingCases": 12
+    },
+    {
+      "file": "rebuild/hub/language-actions.test.js",
+      "exitCode": 0,
+      "passingCases": 13
+    },
+    {
+      "file": "rebuild/hub/lip-cosmetics.test.js",
+      "exitCode": 0,
+      "passingCases": 7
+    },
+    {
+      "file": "rebuild/hub/live-time.test.js",
+      "exitCode": 0,
+      "passingCases": 8
+    },
+    {
+      "file": "rebuild/hub/location-and-resolve-ack.test.js",
+      "exitCode": 0,
+      "passingCases": 9
+    },
+    {
+      "file": "rebuild/hub/location-details.test.js",
+      "exitCode": 0,
+      "passingCases": 11
+    },
+    {
+      "file": "rebuild/hub/lunch-migration.test.js",
+      "exitCode": 0,
+      "passingCases": 2
+    },
+    {
+      "file": "rebuild/hub/marketing.test.js",
+      "exitCode": 0,
+      "passingCases": 28
+    },
+    {
+      "file": "rebuild/hub/menu-dialogue.test.js",
+      "exitCode": 0,
+      "passingCases": 12
+    },
+    {
+      "file": "rebuild/hub/mystery-box.test.js",
+      "exitCode": 0,
+      "passingCases": 11
+    },
+    {
+      "file": "rebuild/hub/nadia-conversation-continuity.test.js",
+      "exitCode": 0,
+      "passingCases": 4
+    },
+    {
+      "file": "rebuild/hub/nadia-daily.test.js",
+      "exitCode": 0,
+      "passingCases": 5
+    },
+    {
+      "file": "rebuild/hub/nadia-doorstep.test.js",
+      "exitCode": 0,
+      "passingCases": 5
+    },
+    {
+      "file": "rebuild/hub/nadia-household.test.js",
+      "exitCode": 0,
+      "passingCases": 12
+    },
+    {
+      "file": "rebuild/hub/nadia-integration.test.js",
+      "exitCode": 0,
+      "passingCases": 14
+    },
+    {
+      "file": "rebuild/hub/narration-grounding.test.js",
+      "exitCode": 0,
+      "passingCases": 68
+    },
+    {
+      "file": "rebuild/hub/navigation.test.js",
+      "exitCode": 0,
+      "passingCases": 29
+    },
+    {
+      "file": "rebuild/hub/needs-consequences.test.js",
+      "exitCode": 0,
+      "passingCases": 19
+    },
+    {
+      "file": "rebuild/hub/npc-actions.test.js",
+      "exitCode": 0,
+      "passingCases": 33
+    },
+    {
+      "file": "rebuild/hub/npc-followup.test.js",
+      "exitCode": 0,
+      "passingCases": 9
+    },
+    {
+      "file": "rebuild/hub/npc-social-response.test.js",
+      "exitCode": 0,
+      "passingCases": 7
+    },
+    {
+      "file": "rebuild/hub/npc-travel.test.js",
+      "exitCode": 0,
+      "passingCases": 2
+    },
+    {
+      "file": "rebuild/hub/office-batch-work.test.js",
+      "exitCode": 0,
+      "passingCases": 18
+    },
+    {
+      "file": "rebuild/hub/office-floor.test.js",
+      "exitCode": 0,
+      "passingCases": 25
+    },
+    {
+      "file": "rebuild/hub/office-layers.test.js",
+      "exitCode": 0,
+      "passingCases": 5
+    },
+    {
+      "file": "rebuild/hub/office-workflow.test.js",
+      "exitCode": 0,
+      "passingCases": 17
+    },
+    {
+      "file": "rebuild/hub/owner-corrections.test.js",
+      "exitCode": 0,
+      "passingCases": 8
+    },
+    {
+      "file": "rebuild/hub/perspiration.test.js",
+      "exitCode": 0,
+      "passingCases": 19
+    },
+    {
+      "file": "rebuild/hub/player-guide.test.js",
+      "exitCode": 0,
+      "passingCases": 9
+    },
+    {
+      "file": "rebuild/hub/preeti-appearance.test.js",
+      "exitCode": 0,
+      "passingCases": 6
+    },
+    {
+      "file": "rebuild/hub/pri-appearance.test.js",
+      "exitCode": 0,
+      "passingCases": 6
+    },
+    {
+      "file": "rebuild/hub/private-encounter.test.js",
+      "exitCode": 0,
+      "passingCases": 14
+    },
+    {
+      "file": "rebuild/hub/priya-cat.test.js",
+      "exitCode": 0,
+      "passingCases": 30
+    },
+    {
+      "file": "rebuild/hub/priya-daily.test.js",
+      "exitCode": 0,
+      "passingCases": 17
+    },
+    {
+      "file": "rebuild/hub/priya-flats.test.js",
+      "exitCode": 0,
+      "passingCases": 40
+    },
+    {
+      "file": "rebuild/hub/priya-home-navigation.test.js",
+      "exitCode": 0,
+      "passingCases": 10
+    },
+    {
+      "file": "rebuild/hub/priya-household.test.js",
+      "exitCode": 0,
+      "passingCases": 18
+    },
+    {
+      "file": "rebuild/hub/priya-media.test.js",
+      "exitCode": 0,
+      "passingCases": 8
+    },
+    {
+      "file": "rebuild/hub/priya-visits.test.js",
+      "exitCode": 0,
+      "passingCases": 8
+    },
+    {
+      "file": "rebuild/hub/priya.test.js",
+      "exitCode": 0,
+      "passingCases": 26
+    },
+    {
+      "file": "rebuild/hub/relationship-interactions.test.js",
+      "exitCode": 0,
+      "passingCases": 23
+    },
+    {
+      "file": "rebuild/hub/relationships.test.js",
+      "exitCode": 0,
+      "passingCases": 23
+    },
+    {
+      "file": "rebuild/hub/release-regressions.test.js",
+      "exitCode": 0,
+      "passingCases": 7
+    },
+    {
+      "file": "rebuild/hub/resistance-needs.test.js",
+      "exitCode": 0,
+      "passingCases": 21
+    },
+    {
+      "file": "rebuild/hub/richard-daily.test.js",
+      "exitCode": 0,
+      "passingCases": 5
+    },
+    {
+      "file": "rebuild/hub/richard-home.test.js",
+      "exitCode": 0,
+      "passingCases": 14
+    },
+    {
+      "file": "rebuild/hub/richard-office.test.js",
+      "exitCode": 0,
+      "passingCases": 19
+    },
+    {
+      "file": "rebuild/hub/richard-report-ui.test.js",
+      "exitCode": 0,
+      "passingCases": 4
+    },
+    {
+      "file": "rebuild/hub/richard.test.js",
+      "exitCode": 0,
+      "passingCases": 30
+    },
+    {
+      "file": "rebuild/hub/roleplay-footwear.test.js",
+      "exitCode": 0,
+      "passingCases": 7
+    },
+    {
+      "file": "rebuild/hub/scene-tone.test.js",
+      "exitCode": 0,
+      "passingCases": 4
+    },
+    {
+      "file": "rebuild/hub/served-items.test.js",
+      "exitCode": 0,
+      "passingCases": 7
+    },
+    {
+      "file": "rebuild/hub/service-presence.test.js",
+      "exitCode": 0,
+      "passingCases": 3
+    },
+    {
+      "file": "rebuild/hub/shared-activities.test.js",
+      "exitCode": 0,
+      "passingCases": 7
+    },
+    {
+      "file": "rebuild/hub/shared-home-activities.test.js",
+      "exitCode": 0,
+      "passingCases": 16
+    },
+    {
+      "file": "rebuild/hub/sleeping-contact.test.js",
+      "exitCode": 0,
+      "passingCases": 16
+    },
+    {
+      "file": "rebuild/hub/technology-center.test.js",
+      "exitCode": 0,
+      "passingCases": 19
+    },
+    {
+      "file": "rebuild/hub/text-actions.test.js",
+      "exitCode": 0,
+      "passingCases": 6
+    },
+    {
+      "file": "rebuild/hub/tits-evening.test.js",
+      "exitCode": 0,
+      "passingCases": 2
+    },
+    {
+      "file": "rebuild/hub/tits-return.test.js",
+      "exitCode": 0,
+      "passingCases": 3
+    },
+    {
+      "file": "rebuild/hub/tits-routine.test.js",
+      "exitCode": 0,
+      "passingCases": 7
+    },
+    {
+      "file": "rebuild/hub/tits-social.test.js",
+      "exitCode": 0,
+      "passingCases": 8
+    },
+    {
+      "file": "rebuild/hub/tits-speech.test.js",
+      "exitCode": 0,
+      "passingCases": 0
+    },
+    {
+      "file": "rebuild/hub/tits.test.js",
+      "exitCode": 0,
+      "passingCases": 24
+    },
+    {
+      "file": "rebuild/hub/transformation-experience.test.js",
+      "exitCode": 0,
+      "passingCases": 16
+    },
+    {
+      "file": "rebuild/hub/transformation-history.test.js",
+      "exitCode": 0,
+      "passingCases": 2
+    },
+    {
+      "file": "rebuild/hub/workplace-schedule.test.js",
+      "exitCode": 0,
+      "passingCases": 6
+    },
+    {
+      "file": "rebuild/hub/world-clock.test.js",
+      "exitCode": 0,
+      "passingCases": 15
+    },
+    {
+      "file": "rebuild/hub/world-objects.test.js",
+      "exitCode": 0,
+      "passingCases": 13
+    },
+    {
+      "file": "services/ai/test.mjs",
+      "exitCode": 0,
+      "passingCases": 87
+    }
+  ],
+  "passed": true
+}
