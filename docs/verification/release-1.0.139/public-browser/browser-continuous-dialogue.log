@@ -1,0 +1,6 @@
+PASS Actual appearance builder/review creates a new human player with default gold.
+PASS Normal travel/counter entry supplies actual Charity presence and one recipient.
+PASS Authored Charity path records heard accounts; sharing/interest earn existing +2/+2, repetition/reload earn nothing.
+PASS Exact paid stale-recall replay is corrected once then uses the true renewed preference; fallback and relationship survive reload.
+PASS Same player travels away, waits into next day and returns; current recall remains correct without schedule/permission fixtures.
+PASS Exact paid invented-jewellery replay preserves a complete actual-outfit fallback across reload without charging or granting items.

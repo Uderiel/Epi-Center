@@ -1,6 +1,6 @@
 # Dialogue reliability and continuous play after v1.0.138
 
-Status: local, tested and unpublished. Base publication remains v1.0.138 (`f425ec1` runtime / `a43c0f7` metadata). Worker `request-handoff-v11`, Cydonia model/settings, gameplay prices, relationship weights, schedules, access/consent gates, approved appearance data and published frozen Bible are unchanged.
+Status: implemented repair batch published and publicly verified in v1.0.139. This record retains the earlier local/paid evidence; current deployment evidence is in releases/v1.0.139-release-summary.json. Base publication remains v1.0.138 (`f425ec1` runtime / `a43c0f7` metadata). Worker `request-handoff-v11`, Cydonia model/settings, gameplay prices, relationship weights, schedules, access/consent gates, approved appearance data and published frozen Bible are unchanged.
 
 ## Repairs and failure ownership
 
@@ -42,4 +42,4 @@ Evidence: `verification/continuous-dialogue-after-v138/summary.json`, `continuou
 
 ## Remaining acceptance work
 
-Broader continuous sessions across the other NPCs, quests, form/body changes and overnight interactions remain open. Generated personality/factual reliability is not universally accepted. The one unverified provider charge needs actual billing evidence before settlement; no cost is guessed. New repairs remain unpublished pending the normal release process and a new publication instruction.
+Broader continuous sessions across the other NPCs, quests, form/body changes and overnight interactions remain open. Generated personality/factual reliability is not universally accepted. The one unverified provider charge needs actual billing evidence before settlement; no cost is guessed. The repairs in this record are now published in v1.0.139; the broader acceptance work above remains open.

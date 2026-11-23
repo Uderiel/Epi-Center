@@ -1,0 +1,17 @@
+{
+  "version": "1.0.139",
+  "runtimeCommit": "bf95042f1cf6da06e0a5317d5bfff234d56efebf",
+  "published": true,
+  "pagesRun": 45127861823,
+  "publicFilesMatched": 261,
+  "localBrowserSuites": 15,
+  "publicBrowserSuites": 15,
+  "publicChecks": 82,
+  "nodeCases": 2443,
+  "nodeSuites": 173,
+  "workerChanged": false,
+  "newPaidCalls": 0,
+  "ownerSavesUsed": false,
+  "remaining": "General raw-model factual/personality and full NPC/form/quest continuous acceptance; bounded source fallbacks remain required",
+  "preparationAudit": "Initial new-harness navigation/collapsed-menu/mock-inspection failures are preserved; final local/public suites all pass"
+}

@@ -1,0 +1,11 @@
+{
+  "realProvider": false,
+  "checks": [
+    "Only the completed sorority body displays the exact approved v1 image;partial transformation stays hidden",
+    "Phone390px and desktop1100px load the full2:3 portrait without cropping or horizontal overflow",
+    "Portrait lookup does not mutate the save;redraw/reload retains one approved portrait and the current High appearance/gain",
+    "Cure retains the permanent-body reference;other variants,owned bodies,flats and Erin never inherit it"
+  ],
+  "errors": [],
+  "passed": true
+}

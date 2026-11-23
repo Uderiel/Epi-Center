@@ -1,3 +1,13 @@
+## v1.0.139 published and publicly verified
+
+[Play v1.0.139](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.139). Runtime commit `bf95042f1cf6da06e0a5317d5bfff234d56efebf` is published from main and rebuild/1.0-foundations. GitHub Pages run45127861823 succeeded. All261 compared public files match the release. Canonical and frozen World Bible match SHA256`e4748528e94eb82419d1560fd42df47b88638e949feb5afa222506f732421e4e`. Final automated verification passes2,443 cases across all173 suites;15 local and15 public browser suites pass82 checks each.
+
+Heard statements/corrections, current recall and outfit fallbacks, smaller shop packets, bounded history/prop/outfit checks and Charity’s public presence/relationship integration are live. Her authored talk path and existing rules remain. Public UI checks create a new character, travel, verify existing rewards without duplicates, reload, wait into the next day and return, and replay the actual bad recall/outfit replies through the deployed validator. This proves source-safe delivery in the checked paths;some raw model answers still fail and general acceptance remains open. Prior56-turn real Cydonia evidence is retained separately.
+
+Worker request-handoff-v11, model/settings and existing gameplay rules are unchanged. Publication verification added no paid provider calls and used no owner saves. Reload the game;no save reset is needed. Full scope/evidence:releases/v1.0.139-synopsis.md,releases/v1.0.139-release-summary.json and verification/release-1.0.139/. Earlier records below are historical.
+
+## Earlier local and release checkpoints — historical
+
 ## v1.0.139 — owner-authorized publication underway
 
 The continuous-dialogue repair053ee25 is being wired and published after v1.0.138. It covers heard-statement/correction retrieval, current recall and outfit fallbacks, smaller shop context, bounded history/prop/outfit checks, Charity’s existing public presence/relationship integration and recipient deduplication. Prior verification passes2,443 cases across173 suites and56 live play inputs. Some model replies still require accurate fallbacks;broader acceptance remains open. Worker request-handoff-v11, model/settings and existing gameplay rules are unchanged. New release/public checks are pending. See releases/v1.0.139-synopsis.md and releases/v1.0.139-release-summary.json. Earlier checkpoints below are historical.

@@ -5,7 +5,7 @@
   "candidateCommits": [
     "053ee25"
   ],
-  "status": "Verified locally; deployment pending",
+  "status": "Published and publicly verified",
   "workerChanged": false,
   "expectedWorkerAssembly": "request-handoff-v11",
   "newPublicationPaidCalls": 0,
@@ -35,5 +35,25 @@
     "corrected": true,
     "runtimeChangedForHarnessFailures": false,
     "finalNewIntegrationChecks": 6
+  },
+  "runtimeCommit": "bf95042f1cf6da06e0a5317d5bfff234d56efebf",
+  "publicURL": "https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.139",
+  "publishedAt": "2026-11-23T07:03:26.638507+00:00",
+  "pagesRun": 45127861823,
+  "pagesConclusion": "success",
+  "publicMatchedFiles": 261,
+  "publicBrowserSuites": 15,
+  "publicBrowserChecks": 82,
+  "bibleExact": true,
+  "workerHealth": {
+    "service": "Epi-Center AI",
+    "releaseVersion": "1.0.135",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "actionProtocol": "npc-actions-v1",
+    "requestAssemblyVersion": "request-handoff-v11",
+    "configured": true
   }
 }
