@@ -1,3 +1,7 @@
+## v1.0.140 — owner-authorized publication underway
+
+Publishing the completed save-quota/travel and Priya/stage batch, including the latest mastery-plus-follow-up collar offer gate. [Final release scope](releases/v1.0.140-synopsis.md). Versioned regression, full browser checks, canon freeze and public verification are being recorded in releases/v1.0.140-release-summary.json. No new paid publication calls or owner-save access. The AI worker remains request-handoff-v11; advanced obedience/kennel work and panel redesign remain deferred. Earlier local/public checkpoints below are historical.
+
 ## v1.0.139 published and publicly verified
 
 [Play v1.0.139](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.139). Runtime commit `bf95042f1cf6da06e0a5317d5bfff234d56efebf` is published from main and rebuild/1.0-foundations. GitHub Pages run45127861823 succeeded. All261 compared public files match the release. Canonical and frozen World Bible match SHA256`e4748528e94eb82419d1560fd42df47b88638e949feb5afa222506f732421e4e`. Final automated verification passes2,443 cases across all173 suites;15 local and15 public browser suites pass82 checks each.

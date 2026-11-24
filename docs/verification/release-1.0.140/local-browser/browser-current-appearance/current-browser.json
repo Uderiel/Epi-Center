@@ -1,0 +1,206 @@
+{
+  "realProvider": false,
+  "checks": [
+    "Partial Erin submits only the reached foot shape to the existing worker projection",
+    "Full Erin awareness matches displayed current appearance rather than the human archive",
+    "Partial canine attachment updates inspection even without a completed equipped form",
+    "Current canine Tail is independently inspectable and reaches private form narration",
+    "Wing inspection submits only the current Back appearance through the existing worker projection",
+    "Cursed-item changes reach Face and lip awareness without the superseded thin-lip value",
+    "Reload preserves actual cursed-item changes and ordinary NPC exchanges replace stale supplied appearance",
+    "A reply for the previous physical state is discarded after a real cosmetic milestone",
+    "A queued inspection for an outdated body is cancelled before any request is sent"
+  ],
+  "cases": [
+    {
+      "label": "Partial Erin submits only the reached foot shape to the existing worker projection",
+      "requests": 1,
+      "packetCharacters": [
+        1880
+      ],
+      "entries": [
+        {
+          "text": "I examine my feet"
+        },
+        {
+          "text": "The current recorded body and its present sensations remain distinct.",
+          "generated": true,
+          "failure": null
+        }
+      ]
+    },
+    {
+      "label": "Full Erin awareness matches displayed current appearance rather than the human archive",
+      "requests": 2,
+      "packetCharacters": [
+        1204,
+        6360
+      ],
+      "entries": [
+        {
+          "text": "I examine my body"
+        },
+        {
+          "text": "The current recorded body and its present sensations remain distinct.",
+          "generated": true,
+          "failure": null
+        },
+        {
+          "text": "The current recorded body and its present sensations remain distinct.",
+          "generated": true,
+          "failure": null
+        }
+      ]
+    },
+    {
+      "label": "Partial canine attachment updates inspection even without a completed equipped form",
+      "requests": 1,
+      "packetCharacters": [
+        1227
+      ],
+      "entries": [
+        {
+          "text": "I examine my feet"
+        },
+        {
+          "text": "The current recorded body and its present sensations remain distinct.",
+          "generated": true,
+          "failure": null
+        }
+      ]
+    },
+    {
+      "label": "Current canine Tail is independently inspectable and reaches private form narration",
+      "requests": 1,
+      "packetCharacters": [
+        1485
+      ],
+      "entries": [
+        {
+          "text": "I examine my tail"
+        },
+        {
+          "text": "The current recorded body and its present sensations remain distinct.",
+          "generated": true,
+          "failure": null
+        }
+      ]
+    },
+    {
+      "label": "Wing inspection submits only the current Back appearance through the existing worker projection",
+      "requests": 1,
+      "packetCharacters": [
+        1330
+      ],
+      "entries": [
+        {
+          "text": "I examine my wings"
+        },
+        {
+          "text": "The current recorded body and its present sensations remain distinct.",
+          "generated": true,
+          "failure": null
+        }
+      ]
+    },
+    {
+      "label": "Cursed-item changes reach Face and lip awareness without the superseded thin-lip value",
+      "requests": 1,
+      "packetCharacters": [
+        1311
+      ],
+      "entries": [
+        {
+          "text": "I examine my lips"
+        },
+        {
+          "text": "The current recorded body and its present sensations remain distinct.",
+          "generated": true,
+          "failure": null
+        }
+      ]
+    },
+    {
+      "label": "A reply for the previous physical state is discarded after a real cosmetic milestone",
+      "requests": 1,
+      "packetCharacters": [
+        1223
+      ],
+      "entries": [
+        {
+          "text": "I examine my lips"
+        },
+        {
+          "text": "You examine your face. face: Overall shape: Oval; Lip fullness: Thin; Lip shape: Rounded; lipColor: Pink lipstick",
+          "failure": "The scene or save changed before this response arrived; the authored response is preserved."
+        },
+        {
+          "text": "Your lips feel fuller, their outline softer and more rounded."
+        }
+      ]
+    },
+    {
+      "label": "A queued inspection for an outdated body is cancelled before any request is sent",
+      "requests": 0,
+      "packetCharacters": [],
+      "entries": [
+        {
+          "text": "You examine your face. face: Overall shape: Oval; Lip fullness: Thin; Lip shape: Rounded; lipColor: Pink lipstick",
+          "failure": "The scene changed before generation could start."
+        },
+        {
+          "text": "Your lips feel fuller, their outline softer and more rounded."
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "lastAttempt": {
+    "label": "A queued inspection for an outdated body is cancelled before any request is sent",
+    "packets": [],
+    "seen": [],
+    "entries": [
+      {
+        "text": "You examine your face. face: Overall shape: Oval; Lip fullness: Thin; Lip shape: Rounded; lipColor: Pink lipstick",
+        "failure": "The scene changed before generation could start."
+      },
+      {
+        "text": "Your lips feel fuller, their outline softer and more rounded."
+      }
+    ],
+    "current": {
+      "age": "28",
+      "gender": "Male",
+      "footSize": "OLD_ORIGINAL_FEET",
+      "legs": "UNCHANGED_LEGS",
+      "height": "6 ft 2 in",
+      "face": "Overall shape: Oval; Lip fullness: Full; Lip shape: Rounded",
+      "tail": "Tail present: Absent",
+      "lipColor": "Pink lipstick",
+      "lips": "Full",
+      "lipClosingAbility": "100% of original baseline"
+    },
+    "authoritative": {
+      "age": "28",
+      "gender": "Male",
+      "footSize": "OLD_ORIGINAL_FEET",
+      "legs": "UNCHANGED_LEGS",
+      "height": "6 ft 2 in",
+      "face": "Overall shape: Oval; Lip fullness: Full; Lip shape: Rounded",
+      "tail": "Tail present: Absent",
+      "lipColor": "Pink lipstick",
+      "lips": "Full",
+      "lipClosingAbility": "100% of original baseline"
+    },
+    "original": {
+      "age": "28",
+      "gender": "Male",
+      "footSize": "OLD_ORIGINAL_FEET",
+      "legs": "UNCHANGED_LEGS",
+      "height": "6 ft 2 in",
+      "face": "Overall shape: Oval; Lip fullness: Thin; Lip shape: Rounded",
+      "tail": "Tail present: Absent"
+    }
+  },
+  "passed": true
+}

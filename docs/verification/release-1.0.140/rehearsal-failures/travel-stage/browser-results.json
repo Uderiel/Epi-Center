@@ -1,0 +1,39 @@
+{
+  "scope": "Local actual UI with simulated captured failures; no owner saves or paid requests",
+  "checks": [
+    {
+      "name": "actual stage packet carries eighth-of-fourteen milestone and six remaining physical stages",
+      "passed": true
+    },
+    {
+      "name": "captured final-wave failure requests one correction without displaying the bad text",
+      "passed": true
+    },
+    {
+      "name": "second invalid completion claim preserves the exact stage receipt and progression",
+      "passed": true
+    },
+    {
+      "name": "old saved invalid milestone prose falls back in feed and is omitted from durable history",
+      "passed": true
+    },
+    {
+      "name": "actual manual travel uses a frozen edge not the previous dialogue or a repeated body milestone",
+      "passed": true
+    },
+    {
+      "name": "actual travel pipeline rejects invented UI weather direction arrival and clothing wetness",
+      "passed": true
+    },
+    {
+      "name": "corrected travel retains the exact route receipt without changing game time or stage",
+      "passed": true
+    },
+    {
+      "name": "both captured real Cydonia travel failures preserve the actual receipt without another paid retry",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "blockedProviderRequests": 0
+}

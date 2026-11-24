@@ -1,0 +1,24 @@
+{
+  "realModel": false,
+  "ownerSavesUsed": false,
+  "checks": [
+    {
+      "name": "learning UI hides collar offer and fitting with an explicit mastery reason",
+      "passed": true
+    },
+    {
+      "name": "friendly signal cannot trigger a learning-period automatic collar offer",
+      "passed": true
+    },
+    {
+      "name": "stale saved early offer cannot fit through the actual UI action handler",
+      "passed": true
+    },
+    {
+      "name": "mastery alone leaves collar controls unavailable until the follow-up stay",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "providerAttempts": 0
+}

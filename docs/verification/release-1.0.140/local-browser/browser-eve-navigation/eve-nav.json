@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "realProvider": false,
+  "checks": [
+    "Selected Eve help does not swallow a known back-to navigation request",
+    "Ordinary over-to wording returns through the same legal route controller"
+  ],
+  "errors": []
+}

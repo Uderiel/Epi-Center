@@ -1,3 +1,11 @@
+## v1.0.140 release reconciliation
+
+Ordinary collar offer timing is now mastery plus the existing longer-stay follow-up, as approved2026-11-24; this does not implement or price the advanced obedience collar/kennel. Recognition, status, optional follow/sleep, stage/travel source checks and quota recovery are implemented in this release. Location UI pilot remains proposal-only. General raw-model factual/personality acceptance remains open. Deployment/evidence: releases/v1.0.140-release-summary.json. Historical local checkpoints below are superseded on implemented scope.
+
+## Priya advanced cat-control follow-up — 2026-11-23
+
+The owner now approves the direction of a95% escalation to a separate obedience collar that compels Priya's commands, normally remains worn permanently and can intentionally trap the player as her cat. Recorded furniture damage can prompt a workday kennel. This direction supersedes earlier blanket “not approved” labels for those effects, but no advanced item/transaction/fitting/command/confinement controller is implemented. The proposed40gold collar/20gold kennel transaction awaits the owner; actual hours/travel/finite NPC funds and existing inventory must govern purchases. Ordinary forgetting-collar removal checks are not the stronger item's escape rule. Review and implementation contract: [Priya recognition follow-up](PRIYA-CAT-RECOGNITION-REPAIR.md). Recognition/status/follow/bed-sleep repairs are local and unpublished. The UI decluttering pilot stays review-only.
+
 ## v1.0.139 release review
 
 No deferred content/system is activated. D16 remains an acceptance limit. D18/D19 and all other existing revisit triggers retain their established scope. Worker and gameplay rules are unchanged.

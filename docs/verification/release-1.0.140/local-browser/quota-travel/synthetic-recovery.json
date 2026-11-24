@@ -1,0 +1,1752 @@
+{
+  "schema": 1,
+  "status": "ready",
+  "slot": 1,
+  "playerId": "save-qa-1",
+  "name": "Quota QA 1",
+  "appearance": {
+    "age": "28",
+    "gender": "Female"
+  },
+  "attributes": {
+    "Endurance": 4,
+    "Fitness": 4,
+    "Intuition": 4,
+    "Reflexes": 4,
+    "Willpower": 4,
+    "Reasoning": 4,
+    "Stability": 4,
+    "Presence": 4,
+    "Insight": 4,
+    "Influence": 4
+  },
+  "hub": {
+    "location": "City Loop Road (1)",
+    "feed": [],
+    "description": "A central starting point for every new player that passes into the overworld. The place where perhaps you fell asleep, or put on a pair of panties that didn't belong to you. Perhaps one of the simplest and most peaceful location in the overworld. It's probably a good thing that there are no secrets or discoveries to be made at this location.",
+    "discoveredNPCs": [
+      "Eve"
+    ],
+    "gameTime": "Mon · 10:00",
+    "channel": "world",
+    "recipientId": ""
+  },
+  "world": {
+    "visited": {
+      "City Loop Road (1)": true,
+      "City Loop Road (2)": true,
+      "City Loop Road (3)": true,
+      "new-unsaved-tile": true
+    },
+    "richard": {
+      "schema": 1,
+      "lastMinute": 600,
+      "location": "Technology Center",
+      "room": "G",
+      "activity": "Review sales and marketing reports",
+      "stress": 30,
+      "fatigue": 10,
+      "relationship": 0,
+      "resources": {
+        "health": 100,
+        "stamina": 100,
+        "resolve": 100,
+        "arousal": 0
+      },
+      "day": 0,
+      "refusals": 0,
+      "completedToday": 0,
+      "nextOfferAt": 600,
+      "task": null,
+      "history": [],
+      "paid": {},
+      "work": null,
+      "commute": null,
+      "view": false,
+      "homeRoom": "master"
+    },
+    "marketing": {
+      "schema": 1,
+      "lastMinute": 600,
+      "startedAt": 600,
+      "seed": 3542792270,
+      "weeks": {},
+      "days": {},
+      "attempts": {},
+      "reviews": {},
+      "weekends": {},
+      "launches": [],
+      "nadia": {
+        "location": "Technology Center",
+        "room": "H_W",
+        "activity": "Checking the time",
+        "resources": {
+          "health": 100,
+          "stamina": 100,
+          "resolve": 100,
+          "arousal": 0
+        },
+        "relationship": 0,
+        "commute": null,
+        "view": false
+      },
+      "deliveries": {}
+    },
+    "relationships": {
+      "schema": 2,
+      "localPlayerId": "save-qa-1",
+      "legacyPlayerId": "save-qa-1",
+      "actors": {
+        "npc:nadia": {
+          "save-qa-1": {
+            "value": 0,
+            "events": {},
+            "history": [],
+            "legacy": {
+              "relationship:default": 0
+            },
+            "memory": {},
+            "source": "legacy-bound",
+            "encountered": false
+          }
+        },
+        "npc:daniel": {
+          "save-qa-1": {
+            "value": 0,
+            "events": {},
+            "history": [],
+            "legacy": {
+              "relationship:default": 0
+            },
+            "memory": {},
+            "source": "legacy-bound",
+            "encountered": false
+          }
+        },
+        "npc:richard": {
+          "save-qa-1": {
+            "value": 0,
+            "events": {},
+            "history": [],
+            "legacy": {
+              "relationship:default": 0
+            },
+            "memory": {},
+            "source": "legacy-bound",
+            "encountered": false
+          }
+        },
+        "form:erin": {
+          "save-qa-1": {
+            "value": 45,
+            "events": {},
+            "history": [],
+            "legacy": {
+              "trust:default": 45
+            },
+            "memory": {
+              "dialogue": []
+            },
+            "source": "legacy-bound",
+            "encountered": false
+          }
+        },
+        "npc:dart": {
+          "save-qa-1": {
+            "value": 0,
+            "events": {},
+            "history": [],
+            "legacy": {},
+            "memory": {},
+            "source": "legacy-bound",
+            "encountered": false
+          }
+        },
+        "form:priya-flats": {
+          "save-qa-1": {
+            "value": 0,
+            "events": {},
+            "history": [],
+            "legacy": {},
+            "memory": {},
+            "source": "legacy-bound",
+            "encountered": false
+          }
+        }
+      },
+      "legacyOwners": {
+        "npc:nadia": "save-qa-1",
+        "npc:daniel": "save-qa-1",
+        "npc:richard": "save-qa-1",
+        "form:erin": "save-qa-1",
+        "npc:dart": "save-qa-1",
+        "form:priya-flats": "save-qa-1"
+      },
+      "migrationConflicts": []
+    },
+    "department": {
+      "schema": 1,
+      "lastMinute": 600,
+      "daniel": {
+        "location": "Technology Center",
+        "room": "H",
+        "activity": "Preparing sales-number reports",
+        "relationship": 0,
+        "resources": {
+          "health": 100,
+          "stamina": 100,
+          "resolve": 100,
+          "arousal": 0
+        },
+        "commute": null,
+        "view": false
+      },
+      "days": {},
+      "orders": {},
+      "meetings": [],
+      "sequence": 0,
+      "briefings": {},
+      "followups": {},
+      "history": []
+    },
+    "richardHome": {
+      "schema": 1,
+      "inside": false,
+      "room": "hall",
+      "access": null,
+      "visit": null,
+      "nav": {
+        "room": "hall",
+        "layers": [
+          {
+            "view": "room",
+            "object": "",
+            "name": "Entry hall"
+          }
+        ]
+      },
+      "permissions": {},
+      "household": {
+        "schema": 1,
+        "sequence": 0,
+        "stock": {
+          "water": 24,
+          "coffee": 16,
+          "tea": 12,
+          "whiskey": 8,
+          "juice": 8,
+          "crackers": 10,
+          "cheese": 8,
+          "fruit": 8,
+          "bread": 8,
+          "eggs": 8,
+          "soup": 6,
+          "lager": 6,
+          "ale": 6,
+          "redwine": 6,
+          "whitewine": 6,
+          "sparklingwine": 4,
+          "bourbon": 6,
+          "maltwhiskey": 6,
+          "whiterum": 6,
+          "darkrum": 6,
+          "vodka": 6,
+          "citrusvodka": 4,
+          "tonic": 8,
+          "soda": 8,
+          "cola": 8,
+          "citrusjuice": 8,
+          "whey": 12,
+          "hemphearts": 12,
+          "berries": 8,
+          "milk": 12,
+          "oats": 8,
+          "banana": 8,
+          "yogurt": 8
+        },
+        "products": {
+          "shampoo": 12,
+          "conditioner": 12,
+          "bodywash": 16,
+          "cleanser": 16,
+          "shaving": 12,
+          "moisturizer": 16,
+          "facialcream": 16,
+          "fragrance": 20
+        },
+        "clothes": {
+          "suit-1": {
+            "owner": "richard",
+            "location": "worn",
+            "condition": "clean"
+          },
+          "suit-2": {
+            "owner": "richard",
+            "location": "workwear",
+            "condition": "clean"
+          },
+          "suit-3": {
+            "owner": "richard",
+            "location": "workwear",
+            "condition": "clean"
+          },
+          "suit-4": {
+            "owner": "richard",
+            "location": "workwear",
+            "condition": "clean"
+          },
+          "suit-5": {
+            "owner": "richard",
+            "location": "workwear",
+            "condition": "clean"
+          },
+          "suit-6": {
+            "owner": "richard",
+            "location": "workwear",
+            "condition": "clean"
+          },
+          "suit-7": {
+            "owner": "richard",
+            "location": "workwear",
+            "condition": "clean"
+          },
+          "suit-8": {
+            "owner": "richard",
+            "location": "workwear",
+            "condition": "clean"
+          },
+          "shirt-1": {
+            "owner": "richard",
+            "location": "worn",
+            "condition": "clean"
+          },
+          "shirt-2": {
+            "owner": "richard",
+            "location": "workwear",
+            "condition": "clean"
+          },
+          "shirt-3": {
+            "owner": "richard",
+            "location": "workwear",
+            "condition": "clean"
+          },
+          "shirt-4": {
+            "owner": "richard",
+            "location": "workwear",
+            "condition": "clean"
+          },
+          "shirt-5": {
+            "owner": "richard",
+            "location": "workwear",
+            "condition": "clean"
+          },
+          "shirt-6": {
+            "owner": "richard",
+            "location": "workwear",
+            "condition": "clean"
+          },
+          "shirt-7": {
+            "owner": "richard",
+            "location": "workwear",
+            "condition": "clean"
+          },
+          "shirt-8": {
+            "owner": "richard",
+            "location": "workwear",
+            "condition": "clean"
+          },
+          "casual-1": {
+            "owner": "richard",
+            "location": "casualwear",
+            "condition": "clean"
+          },
+          "casual-2": {
+            "owner": "richard",
+            "location": "casualwear",
+            "condition": "clean"
+          },
+          "casual-3": {
+            "owner": "richard",
+            "location": "casualwear",
+            "condition": "clean"
+          },
+          "casual-4": {
+            "owner": "richard",
+            "location": "casualwear",
+            "condition": "clean"
+          },
+          "casual-5": {
+            "owner": "richard",
+            "location": "casualwear",
+            "condition": "clean"
+          },
+          "casual-6": {
+            "owner": "richard",
+            "location": "casualwear",
+            "condition": "clean"
+          },
+          "casual-7": {
+            "owner": "richard",
+            "location": "casualwear",
+            "condition": "clean"
+          },
+          "casual-8": {
+            "owner": "richard",
+            "location": "casualwear",
+            "condition": "clean"
+          },
+          "gym-1": {
+            "owner": "richard",
+            "location": "gymwear",
+            "condition": "clean"
+          },
+          "gym-2": {
+            "owner": "richard",
+            "location": "gymwear",
+            "condition": "clean"
+          },
+          "gym-3": {
+            "owner": "richard",
+            "location": "gymwear",
+            "condition": "clean"
+          },
+          "gym-4": {
+            "owner": "richard",
+            "location": "gymwear",
+            "condition": "clean"
+          },
+          "sleep-1": {
+            "owner": "richard",
+            "location": "sleepwear",
+            "condition": "clean"
+          },
+          "sleep-2": {
+            "owner": "richard",
+            "location": "sleepwear",
+            "condition": "clean"
+          },
+          "sleep-3": {
+            "owner": "richard",
+            "location": "sleepwear",
+            "condition": "clean"
+          },
+          "shoe-1": {
+            "owner": "richard",
+            "location": "worn",
+            "condition": "clean"
+          },
+          "shoe-2": {
+            "owner": "richard",
+            "location": "footwear",
+            "condition": "clean"
+          },
+          "shoe-3": {
+            "owner": "richard",
+            "location": "footwear",
+            "condition": "clean"
+          },
+          "shoe-4": {
+            "owner": "richard",
+            "location": "footwear",
+            "condition": "clean"
+          },
+          "shoe-5": {
+            "owner": "richard",
+            "location": "footwear",
+            "condition": "clean"
+          },
+          "shoe-6": {
+            "owner": "richard",
+            "location": "footwear",
+            "condition": "clean"
+          },
+          "shoe-7": {
+            "owner": "richard",
+            "location": "footwear",
+            "condition": "clean"
+          },
+          "shoe-8": {
+            "owner": "richard",
+            "location": "footwear",
+            "condition": "clean"
+          },
+          "sock-1": {
+            "owner": "richard",
+            "location": "socks",
+            "condition": "clean"
+          },
+          "sock-2": {
+            "owner": "richard",
+            "location": "socks",
+            "condition": "clean"
+          },
+          "sock-3": {
+            "owner": "richard",
+            "location": "socks",
+            "condition": "clean"
+          },
+          "sock-4": {
+            "owner": "richard",
+            "location": "socks",
+            "condition": "clean"
+          },
+          "sock-5": {
+            "owner": "richard",
+            "location": "socks",
+            "condition": "clean"
+          },
+          "sock-6": {
+            "owner": "richard",
+            "location": "socks",
+            "condition": "clean"
+          },
+          "sock-7": {
+            "owner": "richard",
+            "location": "socks",
+            "condition": "clean"
+          },
+          "sock-8": {
+            "owner": "richard",
+            "location": "socks",
+            "condition": "clean"
+          }
+        },
+        "outfit": {
+          "id": "work",
+          "items": [
+            "suit-1",
+            "shirt-1",
+            "shoe-1"
+          ]
+        },
+        "wallet": 250,
+        "transactions": [],
+        "usedDishes": 0,
+        "cleaning": 0,
+        "offers": [],
+        "servings": {},
+        "history": [],
+        "people": {},
+        "bot": {
+          "id": "richard-maid",
+          "name": "Household attendant",
+          "mechanical": true,
+          "room": "hall",
+          "activity": "Awaiting authorized work",
+          "job": null,
+          "socialUntil": 0,
+          "cleanedAt": null,
+          "laundry": null
+        },
+        "requests": [],
+        "grooming": {},
+        "reviewed": {},
+        "messages": [],
+        "playerActivity": null,
+        "initialOutfitPlaced": true,
+        "maintenance": {
+          "cleaner": 8,
+          "detergent": 8
+        }
+      }
+    },
+    "richardDaily": {
+      "lastMinute": 600,
+      "days": {},
+      "job": null,
+      "paused": false
+    },
+    "priya": {
+      "schema": 1,
+      "lastMinute": 600,
+      "seed": 2654435761,
+      "location": "Technology Center",
+      "room": "H_W",
+      "activity": "Content strategy",
+      "resources": {
+        "health": 100,
+        "stamina": 100,
+        "resolve": 100,
+        "arousal": 0
+      },
+      "commute": null,
+      "days": {},
+      "people": {},
+      "history": [],
+      "invitations": [],
+      "sequence": 0,
+      "view": false,
+      "revision": 0
+    },
+    "discovered": {},
+    "npcsDiscovered": {},
+    "hubExpansion": {
+      "version": 1,
+      "visited": {},
+      "inspected": {},
+      "squirrelIndex": 0,
+      "moves": 0
+    },
+    "examined": {},
+    "applewood": {
+      "id": "erinhome",
+      "room": "living",
+      "inside": false,
+      "examined": {},
+      "objects": {},
+      "household": {
+        "items": {
+          "bra-ivory": {
+            "location": "drawer3",
+            "condition": "clean"
+          },
+          "panties-ivory": {
+            "location": "drawer4",
+            "condition": "clean"
+          },
+          "bra-black": {
+            "location": "drawer3",
+            "condition": "clean"
+          },
+          "panties-black": {
+            "location": "drawer4",
+            "condition": "clean"
+          },
+          "bra-beige": {
+            "location": "drawer3",
+            "condition": "clean"
+          },
+          "panties-beige": {
+            "location": "drawer4",
+            "condition": "clean"
+          },
+          "bra-blush": {
+            "location": "drawer3",
+            "condition": "clean"
+          },
+          "panties-blush": {
+            "location": "drawer4",
+            "condition": "clean"
+          },
+          "bra-burgundy": {
+            "location": "drawer3",
+            "condition": "clean"
+          },
+          "panties-burgundy": {
+            "location": "drawer4",
+            "condition": "clean"
+          },
+          "hair-ties": {
+            "location": "drawer1",
+            "condition": "clean"
+          },
+          "hair-clips": {
+            "location": "drawer1",
+            "condition": "clean"
+          },
+          "brush": {
+            "location": "drawer1",
+            "condition": "clean"
+          },
+          "hand-mirror": {
+            "location": "drawer1",
+            "condition": "clean"
+          },
+          "night-lotion": {
+            "location": "drawer2",
+            "condition": "clean"
+          },
+          "body-cream": {
+            "location": "drawer2",
+            "condition": "clean"
+          },
+          "socks-oatmeal": {
+            "location": "drawer5",
+            "condition": "clean"
+          },
+          "socks-ivory": {
+            "location": "drawer5",
+            "condition": "clean"
+          },
+          "pantyhose-black": {
+            "location": "drawer5",
+            "condition": "clean"
+          },
+          "pantyhose-semi": {
+            "location": "drawer5",
+            "condition": "clean"
+          },
+          "pantyhose-nude": {
+            "location": "drawer5",
+            "condition": "clean"
+          },
+          "tights-black": {
+            "location": "drawer5",
+            "condition": "clean"
+          },
+          "tights-winter": {
+            "location": "drawer5",
+            "condition": "clean"
+          },
+          "pajama-light-1": {
+            "location": "drawer6",
+            "condition": "clean"
+          },
+          "pajama-light-2": {
+            "location": "drawer6",
+            "condition": "clean"
+          },
+          "pajama-heavy-1": {
+            "location": "drawer6",
+            "condition": "clean"
+          },
+          "pajama-heavy-2": {
+            "location": "drawer6",
+            "condition": "clean"
+          },
+          "sleep-shirt": {
+            "location": "drawer6",
+            "condition": "clean"
+          },
+          "nightgown": {
+            "location": "drawer6",
+            "condition": "clean"
+          },
+          "lotion-floral": {
+            "location": "dresser-top",
+            "condition": "clean"
+          },
+          "lotion-gentle": {
+            "location": "dresser-top",
+            "condition": "clean"
+          },
+          "perfume-lily": {
+            "location": "dresser-top",
+            "condition": "clean"
+          },
+          "perfume-jasmine": {
+            "location": "dresser-top",
+            "condition": "clean"
+          },
+          "perfume-rose": {
+            "location": "dresser-top",
+            "condition": "clean"
+          },
+          "blouse-ivory": {
+            "location": "closet-professional",
+            "condition": "clean"
+          },
+          "blouse-white": {
+            "location": "closet-professional",
+            "condition": "clean"
+          },
+          "blouse-blue": {
+            "location": "closet-professional",
+            "condition": "clean"
+          },
+          "skirt-charcoal": {
+            "location": "closet-professional",
+            "condition": "clean"
+          },
+          "skirt-black": {
+            "location": "closet-professional",
+            "condition": "clean"
+          },
+          "skirt-navy": {
+            "location": "closet-professional",
+            "condition": "clean"
+          },
+          "work-cardigan": {
+            "location": "closet-professional",
+            "condition": "clean"
+          },
+          "work-jacket": {
+            "location": "closet-professional",
+            "condition": "clean"
+          },
+          "work-dress": {
+            "location": "closet-professional",
+            "condition": "clean"
+          },
+          "sweater-oatmeal": {
+            "location": "closet-casual",
+            "condition": "clean"
+          },
+          "sweater-cream": {
+            "location": "closet-casual",
+            "condition": "clean"
+          },
+          "casual-cardigan": {
+            "location": "closet-casual",
+            "condition": "clean"
+          },
+          "leggings-black": {
+            "location": "closet-casual",
+            "condition": "clean"
+          },
+          "jeans-blue": {
+            "location": "closet-casual",
+            "condition": "clean"
+          },
+          "tshirt-white": {
+            "location": "closet-casual",
+            "condition": "clean"
+          },
+          "tshirt-grey": {
+            "location": "closet-casual",
+            "condition": "clean"
+          },
+          "jacket-leather": {
+            "location": "closet-casual",
+            "condition": "clean"
+          },
+          "shoes-1": {
+            "location": "closet-shoes",
+            "condition": "clean"
+          },
+          "shoes-2": {
+            "location": "closet-shoes",
+            "condition": "clean"
+          },
+          "shoes-3": {
+            "location": "closet-shoes",
+            "condition": "clean"
+          },
+          "shoes-4": {
+            "location": "closet-shoes",
+            "condition": "clean"
+          },
+          "shoes-5": {
+            "location": "closet-shoes",
+            "condition": "clean"
+          },
+          "shoes-6": {
+            "location": "closet-shoes",
+            "condition": "clean"
+          },
+          "shoes-7": {
+            "location": "closet-shoes",
+            "condition": "clean"
+          },
+          "necklace": {
+            "location": "closet-accessories",
+            "condition": "clean"
+          },
+          "belt": {
+            "location": "closet-accessories",
+            "condition": "clean"
+          },
+          "earrings": {
+            "location": "closet-accessories",
+            "condition": "clean"
+          },
+          "bath-toilet-paper": {
+            "location": "bath-toilet",
+            "condition": "clean"
+          },
+          "bath-spare-paper": {
+            "location": "bath-cabinet",
+            "condition": "clean"
+          },
+          "bath-pads": {
+            "location": "bath-cabinet",
+            "condition": "clean"
+          },
+          "bath-tampons": {
+            "location": "bath-cabinet",
+            "condition": "clean"
+          },
+          "bath-heating-pad": {
+            "location": "bath-medicine",
+            "condition": "clean"
+          },
+          "bath-pain-relief": {
+            "location": "bath-medicine",
+            "condition": "clean"
+          },
+          "bath-first-aid": {
+            "location": "bath-medicine",
+            "condition": "clean"
+          },
+          "bath-thermometer": {
+            "location": "bath-medicine",
+            "condition": "clean"
+          },
+          "bath-hair-dryer": {
+            "location": "bath-sink",
+            "condition": "clean"
+          },
+          "bath-curling-iron": {
+            "location": "bath-sink",
+            "condition": "clean"
+          },
+          "bath-hair-straightener": {
+            "location": "bath-sink",
+            "condition": "clean"
+          },
+          "bath-toothbrush": {
+            "location": "bath-sink",
+            "condition": "clean"
+          },
+          "bath-toothpaste": {
+            "location": "bath-sink",
+            "condition": "clean"
+          },
+          "bath-cleanser": {
+            "location": "bath-cabinet",
+            "condition": "clean"
+          },
+          "bath-moisturizer": {
+            "location": "bath-cabinet",
+            "condition": "clean"
+          },
+          "bath-shampoo": {
+            "location": "bath-shower",
+            "condition": "clean"
+          },
+          "bath-conditioner": {
+            "location": "bath-shower",
+            "condition": "clean"
+          },
+          "bath-bubble-bath": {
+            "location": "bath-shower",
+            "condition": "clean"
+          },
+          "bath-bath-oil": {
+            "location": "bath-shower",
+            "condition": "clean"
+          },
+          "bath-bath-salts": {
+            "location": "bath-shower",
+            "condition": "clean"
+          },
+          "bath-bath-pillow": {
+            "location": "bath-shower",
+            "condition": "clean"
+          },
+          "bath-towels": {
+            "location": "bath-shower",
+            "condition": "clean"
+          },
+          "ring-silver": {
+            "location": "closet-accessories",
+            "condition": "clean"
+          },
+          "ring-gold": {
+            "location": "closet-accessories",
+            "condition": "clean"
+          },
+          "bracelet": {
+            "location": "closet-accessories",
+            "condition": "clean"
+          }
+        },
+        "living": {
+          "lamp": false,
+          "tv": "off",
+          "seat": "",
+          "bookReadCount": 0
+        },
+        "grooming": {
+          "prepared": [],
+          "skinCare": []
+        },
+        "laundry": {
+          "cycle": "empty",
+          "putAway": []
+        },
+        "groceries": {
+          "bags": [],
+          "delivery": null
+        },
+        "cycle": {
+          "anchorDay": 1,
+          "offset": 9,
+          "length": 28,
+          "periodDays": 5
+        },
+        "protection": {
+          "type": null,
+          "appliedAt": null,
+          "changes": 0
+        },
+        "kitchen": {
+          "stock": {
+            "yogurt": 4,
+            "strawberry": 6,
+            "blueberry": 6,
+            "raspberry": 5,
+            "fruit": 6,
+            "chicken": 3,
+            "potatoes": 3,
+            "broccoli": 4,
+            "carrots": 5,
+            "beans": 4,
+            "corn": 4,
+            "steak": 2,
+            "spinach": 5,
+            "feta": 3,
+            "milk": 6,
+            "eggs": 8,
+            "sausage": 5,
+            "riceapple": 4,
+            "ricevanilla": 4,
+            "ricechocolate": 4,
+            "veggies": 5,
+            "almonds": 5,
+            "creampuff": 3,
+            "icecream": 5,
+            "coffee": 12,
+            "tea": 12,
+            "redwine": 4
+          },
+          "dirty": 0,
+          "prepared": [],
+          "seat": ""
+        }
+      }
+    },
+    "cherishedTouch": {
+      "inside": false,
+      "room": "H",
+      "visited": {},
+      "examined": {},
+      "curtains": {},
+      "shopPanel": false,
+      "fixture": null,
+      "result": "",
+      "staff": {
+        "id": "charity",
+        "name": "Charity",
+        "present": true,
+        "working": true
+      }
+    },
+    "burkesSweets": {
+      "schema": 1,
+      "inside": false,
+      "room": "A",
+      "visited": {},
+      "examined": {},
+      "baskets": {},
+      "sequence": 0,
+      "transition": 0,
+      "nav": {
+        "room": "A",
+        "layers": [
+          {
+            "room": "A",
+            "view": "room",
+            "object": "A",
+            "name": "Candy / Entrance",
+            "result": "",
+            "scrollTop": 0
+          }
+        ]
+      },
+      "staff": {
+        "id": "tits",
+        "name": "Tits",
+        "present": true,
+        "working": true,
+        "room": "C",
+        "attributes": {
+          "Endurance": 6,
+          "Fitness": 5,
+          "Intuition": 5,
+          "Reflexes": 5,
+          "Willpower": 2,
+          "Reasoning": 1,
+          "Stability": 2,
+          "Presence": 9,
+          "Insight": 1,
+          "Influence": 9
+        },
+        "max": {
+          "health": 110,
+          "stamina": 110,
+          "resolve": 90,
+          "arousal": 100
+        },
+        "resources": {
+          "health": 110,
+          "stamina": 110,
+          "resolve": 90,
+          "arousal": 0
+        },
+        "previousAttributeProfile": {
+          "Endurance": 6,
+          "Fitness": 5,
+          "Intuition": 5,
+          "Reflexes": 5,
+          "Willpower": 2,
+          "Reasoning": 1,
+          "Stability": 2,
+          "Presence": 9,
+          "Insight": 1,
+          "Influence": 9
+        },
+        "attributeProfileRevision": "rarity-budgets-v2",
+        "titsProfileRevision": "common45-v1",
+        "inventory": {
+          "tits-loan-whisk": 1,
+          "tits-loan-mixing-bowl": 1,
+          "tits-loan-bowl-scraper": 1,
+          "tits-loan-frosting-knife": 1,
+          "tits-spare-spotlight-dress": 1,
+          "tits-spare-spotlight-heels": 1,
+          "tits-spare-candy-top": 1,
+          "tits-spare-candy-skirt": 1,
+          "tits-spare-candy-heels": 1,
+          "tits-spare-satin-gown": 1,
+          "tits-spare-satin-heels": 1,
+          "tits-spare-latex-dress": 1,
+          "tits-spare-patent-heels": 1,
+          "tits-spare-catsuit": 1,
+          "tits-spare-platform-boots": 1,
+          "tits-spare-pink-lace-bra": 1,
+          "tits-spare-pink-lace-briefs": 1,
+          "tits-spare-pink-g-string": 1,
+          "tits-spare-white-lace-bra": 1,
+          "tits-spare-white-lace-briefs": 1,
+          "tits-spare-white-g-string": 1
+        },
+        "lendingToolsVersion": 1,
+        "lendingWardrobeVersion": 2
+      },
+      "loanGarments": {
+        "tits-spare-spotlight-dress": {
+          "id": "tits-spare-spotlight-dress",
+          "name": "Pink Spotlight glitter mini dress with white trim",
+          "slot": "dress",
+          "variant": {
+            "id": "tits-spare-spotlight-dress",
+            "name": "Pink Spotlight glitter mini dress with white trim",
+            "slot": "dress",
+            "kind": "clothing"
+          },
+          "owner": "tits",
+          "holder": "tits",
+          "location": "storage",
+          "condition": "worn",
+          "cleanliness": "worn"
+        },
+        "tits-spare-spotlight-heels": {
+          "id": "tits-spare-spotlight-heels",
+          "name": "Pink glitter platform heels",
+          "slot": "shoes",
+          "variant": {
+            "id": "tits-spare-spotlight-heels",
+            "name": "Pink glitter platform heels",
+            "slot": "shoes",
+            "kind": "clothing"
+          },
+          "owner": "tits",
+          "holder": "tits",
+          "location": "storage",
+          "condition": "worn",
+          "cleanliness": "worn"
+        },
+        "tits-spare-candy-top": {
+          "id": "tits-spare-candy-top",
+          "name": "White cropped tank with pink rhinestones",
+          "slot": "top",
+          "variant": {
+            "id": "tits-spare-candy-top",
+            "name": "White cropped tank with pink rhinestones",
+            "slot": "top",
+            "kind": "clothing"
+          },
+          "owner": "tits",
+          "holder": "tits",
+          "location": "storage",
+          "condition": "worn",
+          "cleanliness": "worn"
+        },
+        "tits-spare-candy-skirt": {
+          "id": "tits-spare-candy-skirt",
+          "name": "Shiny pink mini skirt",
+          "slot": "skirt",
+          "variant": {
+            "id": "tits-spare-candy-skirt",
+            "name": "Shiny pink mini skirt",
+            "slot": "skirt",
+            "kind": "clothing"
+          },
+          "owner": "tits",
+          "holder": "tits",
+          "location": "storage",
+          "condition": "worn",
+          "cleanliness": "worn"
+        },
+        "tits-spare-candy-heels": {
+          "id": "tits-spare-candy-heels",
+          "name": "Pink patent platforms with clear heels",
+          "slot": "shoes",
+          "variant": {
+            "id": "tits-spare-candy-heels",
+            "name": "Pink patent platforms with clear heels",
+            "slot": "shoes",
+            "kind": "clothing"
+          },
+          "owner": "tits",
+          "holder": "tits",
+          "location": "storage",
+          "condition": "worn",
+          "cleanliness": "worn"
+        },
+        "tits-spare-satin-gown": {
+          "id": "tits-spare-satin-gown",
+          "name": "Pink satin evening gown with side slit",
+          "slot": "dress",
+          "variant": {
+            "id": "tits-spare-satin-gown",
+            "name": "Pink satin evening gown with side slit",
+            "slot": "dress",
+            "kind": "clothing"
+          },
+          "owner": "tits",
+          "holder": "tits",
+          "location": "storage",
+          "condition": "worn",
+          "cleanliness": "worn"
+        },
+        "tits-spare-satin-heels": {
+          "id": "tits-spare-satin-heels",
+          "name": "Pink satin ankle-strap heels",
+          "slot": "shoes",
+          "variant": {
+            "id": "tits-spare-satin-heels",
+            "name": "Pink satin ankle-strap heels",
+            "slot": "shoes",
+            "kind": "clothing"
+          },
+          "owner": "tits",
+          "holder": "tits",
+          "location": "storage",
+          "condition": "worn",
+          "cleanliness": "worn"
+        },
+        "tits-spare-latex-dress": {
+          "id": "tits-spare-latex-dress",
+          "name": "Glossy bubblegum-pink latex mini dress",
+          "slot": "dress",
+          "variant": {
+            "id": "tits-spare-latex-dress",
+            "name": "Glossy bubblegum-pink latex mini dress",
+            "slot": "dress",
+            "kind": "clothing"
+          },
+          "owner": "tits",
+          "holder": "tits",
+          "location": "storage",
+          "condition": "worn",
+          "cleanliness": "worn"
+        },
+        "tits-spare-patent-heels": {
+          "id": "tits-spare-patent-heels",
+          "name": "Pink patent heels with white heels",
+          "slot": "shoes",
+          "variant": {
+            "id": "tits-spare-patent-heels",
+            "name": "Pink patent heels with white heels",
+            "slot": "shoes",
+            "kind": "clothing"
+          },
+          "owner": "tits",
+          "holder": "tits",
+          "location": "storage",
+          "condition": "worn",
+          "cleanliness": "worn"
+        },
+        "tits-spare-catsuit": {
+          "id": "tits-spare-catsuit",
+          "name": "Pink latex catsuit with white accent panels",
+          "slot": "dress",
+          "variant": {
+            "id": "tits-spare-catsuit",
+            "name": "Pink latex catsuit with white accent panels",
+            "slot": "dress",
+            "kind": "clothing",
+            "coverage": [
+              "torso",
+              "arms",
+              "hips",
+              "legs"
+            ]
+          },
+          "owner": "tits",
+          "holder": "tits",
+          "location": "storage",
+          "condition": "worn",
+          "cleanliness": "worn"
+        },
+        "tits-spare-platform-boots": {
+          "id": "tits-spare-platform-boots",
+          "name": "Glossy pink platform ankle boots",
+          "slot": "shoes",
+          "variant": {
+            "id": "tits-spare-platform-boots",
+            "name": "Glossy pink platform ankle boots",
+            "slot": "shoes",
+            "kind": "clothing"
+          },
+          "owner": "tits",
+          "holder": "tits",
+          "location": "storage",
+          "condition": "worn",
+          "cleanliness": "worn"
+        },
+        "tits-spare-pink-lace-bra": {
+          "id": "tits-spare-pink-lace-bra",
+          "name": "pink lace bra",
+          "slot": "bra",
+          "variant": {
+            "id": "tits-spare-pink-lace-bra",
+            "name": "pink lace bra",
+            "slot": "bra",
+            "kind": "clothing"
+          },
+          "owner": "tits",
+          "holder": "tits",
+          "location": "storage",
+          "condition": "worn",
+          "cleanliness": "worn"
+        },
+        "tits-spare-pink-lace-briefs": {
+          "id": "tits-spare-pink-lace-briefs",
+          "name": "pink sheer lace briefs",
+          "slot": "panties",
+          "variant": {
+            "id": "tits-spare-pink-lace-briefs",
+            "name": "pink sheer lace briefs",
+            "slot": "panties",
+            "kind": "clothing"
+          },
+          "owner": "tits",
+          "holder": "tits",
+          "location": "storage",
+          "condition": "worn",
+          "cleanliness": "worn"
+        },
+        "tits-spare-pink-g-string": {
+          "id": "tits-spare-pink-g-string",
+          "name": "pink G-string",
+          "slot": "panties",
+          "variant": {
+            "id": "tits-spare-pink-g-string",
+            "name": "pink G-string",
+            "slot": "panties",
+            "kind": "clothing"
+          },
+          "owner": "tits",
+          "holder": "tits",
+          "location": "storage",
+          "condition": "worn",
+          "cleanliness": "worn"
+        },
+        "tits-spare-white-lace-bra": {
+          "id": "tits-spare-white-lace-bra",
+          "name": "white lace bra",
+          "slot": "bra",
+          "variant": {
+            "id": "tits-spare-white-lace-bra",
+            "name": "white lace bra",
+            "slot": "bra",
+            "kind": "clothing"
+          },
+          "owner": "tits",
+          "holder": "tits",
+          "location": "storage",
+          "condition": "worn",
+          "cleanliness": "worn"
+        },
+        "tits-spare-white-lace-briefs": {
+          "id": "tits-spare-white-lace-briefs",
+          "name": "white sheer lace briefs",
+          "slot": "panties",
+          "variant": {
+            "id": "tits-spare-white-lace-briefs",
+            "name": "white sheer lace briefs",
+            "slot": "panties",
+            "kind": "clothing"
+          },
+          "owner": "tits",
+          "holder": "tits",
+          "location": "storage",
+          "condition": "worn",
+          "cleanliness": "worn"
+        },
+        "tits-spare-white-g-string": {
+          "id": "tits-spare-white-g-string",
+          "name": "white G-string",
+          "slot": "panties",
+          "variant": {
+            "id": "tits-spare-white-g-string",
+            "name": "white G-string",
+            "slot": "panties",
+            "kind": "clothing"
+          },
+          "owner": "tits",
+          "holder": "tits",
+          "location": "storage",
+          "condition": "worn",
+          "cleanliness": "worn"
+        }
+      }
+    },
+    "dart": {
+      "schema": 1,
+      "id": "dart",
+      "name": "Dart",
+      "sex": "male",
+      "species": "dog",
+      "breed": "Doberman Pinscher",
+      "location": "applewood",
+      "unit": "6E",
+      "room": "living",
+      "activity": "Resting",
+      "withNadia": false,
+      "needs": {
+        "hunger": 20,
+        "thirst": 20,
+        "bladder": 10,
+        "fatigue": 10
+      },
+      "lastMinute": 600,
+      "lastMarkAt": null,
+      "marks": {},
+      "familiar": {},
+      "scentKnown": {},
+      "history": [],
+      "sequence": 0,
+      "walkSequence": 0,
+      "toys": {
+        "ball": {
+          "place": "living",
+          "uses": 0
+        },
+        "tug": {
+          "place": "living",
+          "uses": 0
+        },
+        "chew": {
+          "place": "living",
+          "uses": 0
+        },
+        "puzzle": {
+          "place": "living",
+          "uses": 0
+        },
+        "soft": {
+          "place": "living",
+          "uses": 0
+        }
+      },
+      "kennel": {
+        "closed": false,
+        "location": "living"
+      },
+      "pending": null,
+      "play": null,
+      "signal": null,
+      "relationship": 0
+    },
+    "technologyCenter": {
+      "floor": 3,
+      "room": "A",
+      "inside": false,
+      "visited": {},
+      "examined": {},
+      "view": "rooms",
+      "fixture": null,
+      "fixtureResult": "",
+      "fixtureParents": []
+    },
+    "candyEffects": {
+      "schema": 1,
+      "bodies": {
+        "[\"save-qa-1\",\"original\"]": {
+          "activeId": null,
+          "lastAt": 600,
+          "history": []
+        }
+      },
+      "lastBodies": {
+        "save-qa-1": "original"
+      }
+    },
+    "servedItems": {
+      "sequence": 0,
+      "records": {}
+    },
+    "priyaFlats": {
+      "schema": 1,
+      "active": false,
+      "released": false,
+      "source": "unavailable",
+      "discovered": false,
+      "held": false,
+      "events": {},
+      "lastMinute": 600,
+      "stage": 0,
+      "mastered": false,
+      "rarity": "Common",
+      "history": [],
+      "relationship": 0
+    }
+  },
+  "forms": {},
+  "inventory": {
+    "keepsake": 1
+  },
+  "gold": 49,
+  "combatResources": {
+    "health": 100,
+    "stamina": 100,
+    "resolve": 100,
+    "arousal": 0
+  },
+  "worldClock": {
+    "minutes": 600,
+    "elapsed": 0
+  },
+  "settings": {
+    "liveTime": false,
+    "aiEnabled": false,
+    "aiNarration": false
+  },
+  "baselines": {
+    "health": 100,
+    "stamina": 100,
+    "resolve": 100,
+    "arousal": 0
+  },
+  "erinRestoration": {
+    "schema": 2,
+    "stage": 0,
+    "exposureMinutes": 0,
+    "heels": {
+      "id": "shoes-0",
+      "location": "world",
+      "discovered": false
+    },
+    "trust": 45,
+    "stress": 15,
+    "history": [],
+    "dialogue": [],
+    "relationship": 45
+  },
+  "itemDefinitions": {
+    "tits-loan-whisk": {
+      "id": "tits-loan-whisk",
+      "name": "Whisk",
+      "kind": "equipment",
+      "owner": "tits",
+      "lendable": true,
+      "location": "Burke’s Sweets preparation/storage D",
+      "description": "An ordinary baking utensil from Tits’s spare supplies; no special power or sale value is assigned."
+    },
+    "tits-loan-mixing-bowl": {
+      "id": "tits-loan-mixing-bowl",
+      "name": "Mixing bowl",
+      "kind": "equipment",
+      "owner": "tits",
+      "lendable": true,
+      "location": "Burke’s Sweets preparation/storage D",
+      "description": "An ordinary baking utensil from Tits’s spare supplies; no special power or sale value is assigned."
+    },
+    "tits-loan-bowl-scraper": {
+      "id": "tits-loan-bowl-scraper",
+      "name": "Bowl scraper",
+      "kind": "equipment",
+      "owner": "tits",
+      "lendable": true,
+      "location": "Burke’s Sweets preparation/storage D",
+      "description": "An ordinary baking utensil from Tits’s spare supplies; no special power or sale value is assigned."
+    },
+    "tits-loan-frosting-knife": {
+      "id": "tits-loan-frosting-knife",
+      "name": "Frosting knife",
+      "kind": "equipment",
+      "owner": "tits",
+      "lendable": true,
+      "location": "Burke’s Sweets preparation/storage D",
+      "description": "An ordinary baking utensil from Tits’s spare supplies; no special power or sale value is assigned."
+    },
+    "tits-spare-spotlight-dress": {
+      "id": "tits-spare-spotlight-dress",
+      "name": "Pink Spotlight glitter mini dress with white trim",
+      "slot": "dress",
+      "kind": "clothing",
+      "owner": "tits",
+      "lendable": true
+    },
+    "tits-spare-spotlight-heels": {
+      "id": "tits-spare-spotlight-heels",
+      "name": "Pink glitter platform heels",
+      "slot": "shoes",
+      "kind": "clothing",
+      "owner": "tits",
+      "lendable": true
+    },
+    "tits-spare-candy-top": {
+      "id": "tits-spare-candy-top",
+      "name": "White cropped tank with pink rhinestones",
+      "slot": "top",
+      "kind": "clothing",
+      "owner": "tits",
+      "lendable": true
+    },
+    "tits-spare-candy-skirt": {
+      "id": "tits-spare-candy-skirt",
+      "name": "Shiny pink mini skirt",
+      "slot": "skirt",
+      "kind": "clothing",
+      "owner": "tits",
+      "lendable": true
+    },
+    "tits-spare-candy-heels": {
+      "id": "tits-spare-candy-heels",
+      "name": "Pink patent platforms with clear heels",
+      "slot": "shoes",
+      "kind": "clothing",
+      "owner": "tits",
+      "lendable": true
+    },
+    "tits-spare-satin-gown": {
+      "id": "tits-spare-satin-gown",
+      "name": "Pink satin evening gown with side slit",
+      "slot": "dress",
+      "kind": "clothing",
+      "owner": "tits",
+      "lendable": true
+    },
+    "tits-spare-satin-heels": {
+      "id": "tits-spare-satin-heels",
+      "name": "Pink satin ankle-strap heels",
+      "slot": "shoes",
+      "kind": "clothing",
+      "owner": "tits",
+      "lendable": true
+    },
+    "tits-spare-latex-dress": {
+      "id": "tits-spare-latex-dress",
+      "name": "Glossy bubblegum-pink latex mini dress",
+      "slot": "dress",
+      "kind": "clothing",
+      "owner": "tits",
+      "lendable": true
+    },
+    "tits-spare-patent-heels": {
+      "id": "tits-spare-patent-heels",
+      "name": "Pink patent heels with white heels",
+      "slot": "shoes",
+      "kind": "clothing",
+      "owner": "tits",
+      "lendable": true
+    },
+    "tits-spare-catsuit": {
+      "id": "tits-spare-catsuit",
+      "name": "Pink latex catsuit with white accent panels",
+      "slot": "dress",
+      "kind": "clothing",
+      "coverage": [
+        "torso",
+        "arms",
+        "hips",
+        "legs"
+      ],
+      "owner": "tits",
+      "lendable": true
+    },
+    "tits-spare-platform-boots": {
+      "id": "tits-spare-platform-boots",
+      "name": "Glossy pink platform ankle boots",
+      "slot": "shoes",
+      "kind": "clothing",
+      "owner": "tits",
+      "lendable": true
+    },
+    "tits-spare-pink-lace-bra": {
+      "id": "tits-spare-pink-lace-bra",
+      "name": "pink lace bra",
+      "slot": "bra",
+      "kind": "clothing",
+      "owner": "tits",
+      "lendable": true
+    },
+    "tits-spare-pink-lace-briefs": {
+      "id": "tits-spare-pink-lace-briefs",
+      "name": "pink sheer lace briefs",
+      "slot": "panties",
+      "kind": "clothing",
+      "owner": "tits",
+      "lendable": true
+    },
+    "tits-spare-pink-g-string": {
+      "id": "tits-spare-pink-g-string",
+      "name": "pink G-string",
+      "slot": "panties",
+      "kind": "clothing",
+      "owner": "tits",
+      "lendable": true
+    },
+    "tits-spare-white-lace-bra": {
+      "id": "tits-spare-white-lace-bra",
+      "name": "white lace bra",
+      "slot": "bra",
+      "kind": "clothing",
+      "owner": "tits",
+      "lendable": true
+    },
+    "tits-spare-white-lace-briefs": {
+      "id": "tits-spare-white-lace-briefs",
+      "name": "white sheer lace briefs",
+      "slot": "panties",
+      "kind": "clothing",
+      "owner": "tits",
+      "lendable": true
+    },
+    "tits-spare-white-g-string": {
+      "id": "tits-spare-white-g-string",
+      "name": "white G-string",
+      "slot": "panties",
+      "kind": "clothing",
+      "owner": "tits",
+      "lendable": true
+    }
+  },
+  "formCarry": {
+    "schema": 1,
+    "pending": []
+  },
+  "lastPlayedAt": "2026-11-24T10:26:01.930Z",
+  "updatedAt": "2026-11-24T10:26:01.930Z",
+  "devVitals": {
+    "needs": {
+      "hunger": 0,
+      "bladder": 0,
+      "fatigue": 0
+    },
+    "resources": {},
+    "relationships": {},
+    "minutes": 0
+  },
+  "quests": {
+    "hangryFangs": {
+      "id": "hangry_fangs",
+      "title": "Hangry Fangs",
+      "status": "available",
+      "briefed": false,
+      "crateStage": 0,
+      "masteryRecorded": false,
+      "rewarded": false
+    }
+  },
+  "playerClothing": {
+    "schema": 1,
+    "sequence": 0,
+    "items": {}
+  }
+}

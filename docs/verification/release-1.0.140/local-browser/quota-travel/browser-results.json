@@ -1,0 +1,71 @@
+{
+  "scope": "Isolated synthetic slots at 390x844; actual browser quota, local download and delayed AI stubs; no owner saves or paid requests",
+  "checks": [
+    {
+      "name": "a nearly-full real browser origin resumes the legacy save and compacts duplicate visit history",
+      "passed": true
+    },
+    {
+      "name": "all previously visited tiles survive automatic legacy compaction",
+      "passed": true
+    },
+    {
+      "name": "actual browser quota pressure triggers lossless packing and preserves the new progress",
+      "passed": true
+    },
+    {
+      "name": "quota recovery preserves the other two slots and unrelated origin data",
+      "passed": true
+    },
+    {
+      "name": "the hub reloads the packed character with all progress intact",
+      "passed": true
+    },
+    {
+      "name": "the title screen recognizes and continues the packed slot",
+      "passed": true
+    },
+    {
+      "name": "title Continue returns to the correct packed character",
+      "passed": true
+    },
+    {
+      "name": "unrecoverable quota opens recovery without overwriting the previous good slot",
+      "passed": true
+    },
+    {
+      "name": "backup download works even under the sleep input guard and contains the newest unsaved state",
+      "passed": true
+    },
+    {
+      "name": "retry saves the in-memory progress and closes recovery",
+      "passed": true
+    },
+    {
+      "name": "planned tile travel completes while descriptive AI is pending and keeps its game-time cost",
+      "passed": true
+    },
+    {
+      "name": "optional final-step description preserves the exact route receipts and outcomes",
+      "passed": true
+    },
+    {
+      "name": "pending controller decisions still pause automatic travel",
+      "passed": true
+    },
+    {
+      "name": "travel resumes after the pending controller is cleared",
+      "passed": true
+    },
+    {
+      "name": "character creation reads a packed draft without losing its data",
+      "passed": true
+    },
+    {
+      "name": "there are no uncaught browser errors or attempted paid calls",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "providerAttempts": 0
+}

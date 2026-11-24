@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-24",
+  "status": "finished locally; unpublished",
+  "base": "b62c44fa746129324031c73287ef7ccad9184170",
+  "automated": {
+    "cases": 2483,
+    "suites": 176,
+    "failures": []
+  },
+  "browserChecks": {
+    "quotaTravel": 16,
+    "appearance": 18,
+    "continuousPlay": 6
+  },
+  "newPaidCalls": 0,
+  "ownerSavesUsed": false,
+  "modelAccuracyVerified": false,
+  "limits": [
+    "Synthetic Chromium measurements do not guarantee physical phone timings.",
+    "Prior unpublished Priya/stage repairs remain included.",
+    "Live139 remains unchanged.",
+    "Packed slots require all updated readers; no unlimited-storage guarantee."
+  ],
+  "sha256": {
+    "rebuild/save-storage.js": "15887cac0c5e1207dfe552d8fba0f1d720d51091369fb10ae61ec391959706a2",
+    "rebuild/hub/player-guide.js": "6f76a47ebc96238d1add53548878c5800b776f38dbdd1e08bdd94fbced598cdf",
+    "rebuild/hub/ai-ui.js": "d970f46976d0fe561a5ee8e306f7fba7909353e54486959e2045729854df5471",
+    "rebuild/hub/index.html": "7b594199c1d01986cfba9b4db1ddb57d7991e02beb1f171a0115f2fe1e5b7d1c",
+    "rebuild/hub/navigation-runtime.js": "4984cdb14e4f51ff72100973712e95f503558af669157cf2a665d2cdd5b307b5",
+    "rebuild/hub/live-time-ui.js": "8b2277a7b2327cbeb200e7d0b1157c86fa34512bb230102bedd630ba7c6b943c",
+    "rebuild/hub/richard-ui.js": "19faf95c5b4f2ca5fa66932ba5be702a24ef7c45e26010220b26b9c43c6fb7b7",
+    "rebuild/character-creation/index.html": "1fd152c81e6d2f7d470fa97499d80fc456a373d6bffc8c897240d3df71c25190",
+    "rebuild/title-screen/index.html": "b0e119eab56939c19455c314192e65da578c8bbf2da7a17a0e67ffbde7d3a02e",
+    "rebuild/title-screen/illustrated.html": "ebe6b6566007a3315a1ce0a78f85aedbe7fdced907dc44aa35c7f800fbb94e89",
+    "rebuild/title-screen/src/slot-store.js": "1f924197931fa368d0c1bf33dd0e97bd28c1c16922f3182722544faa9b9b6e5a",
+    "rebuild/hub/save-quota.test.js": "357069ea256a7a13cc76951fa4d29ddde444ff2c46812902e1f9c4cf8d640c0f"
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "version": "1.0.140",
+  "mode": "local",
+  "base": "http://127.0.0.1:8879",
+  "realModel": false,
+  "ownerSavesUsed": false,
+  "passed": true,
+  "results": [
+    {
+      "script": "browser-npc-appearance-alignment.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 24,
+      "passed": true
+    },
+    {
+      "script": "browser-current-appearance.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 9,
+      "passed": true
+    },
+    {
+      "script": "browser-appearance-creation.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 18,
+      "passed": true
+    },
+    {
+      "script": "browser-club-portrait.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 4,
+      "passed": true
+    },
+    {
+      "script": "browser-gym-portrait.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 4,
+      "passed": true
+    },
+    {
+      "script": "browser-sorority-portrait.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 4,
+      "passed": true
+    },
+    {
+      "script": "browser-eve-navigation.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 2,
+      "passed": true
+    },
+    {
+      "script": "browser-menu-followups.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 4,
+      "passed": true
+    },
+    {
+      "script": "targeted/browser.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 1,
+      "evidence": [
+        "work/release140/browser-local/browser/browser-paths.json"
+      ],
+      "passed": true
+    },
+    {
+      "script": "targeted/browser-story.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 1,
+      "evidence": [
+        "work/release140/browser-local/browser-story/browser-story.json"
+      ],
+      "passed": true
+    },
+    {
+      "script": "targeted/browser-roles.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 1,
+      "evidence": [
+        "work/release140/browser-local/browser-roles/browser-roles.json"
+      ],
+      "passed": true
+    },
+    {
+      "script": "targeted/browser-body-replay.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 1,
+      "evidence": [
+        "work/release140/browser-local/browser-body-replay/browser-body-replay.json"
+      ],
+      "passed": true
+    },
+    {
+      "script": "targeted/browser-current-body.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 2,
+      "evidence": [
+        "work/release140/browser-local/browser-current-body/browser-current-body.json"
+      ],
+      "passed": true
+    },
+    {
+      "script": "targeted/browser-literal-integration.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 1,
+      "evidence": [
+        "work/release140/browser-local/browser-literal-integration/browser-literal-integration.json"
+      ],
+      "passed": true
+    },
+    {
+      "script": "quota-travel",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 16,
+      "passed": true
+    },
+    {
+      "script": "travel-stage",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 12,
+      "passed": true,
+      "rechecked": true
+    },
+    {
+      "script": "browser-continuous-dialogue.cjs",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 6,
+      "passed": true
+    },
+    {
+      "script": "priya-cat",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 18,
+      "passed": true
+    },
+    {
+      "script": "collar-timing",
+      "exitCode": 0,
+      "signal": null,
+      "reportedChecks": 8,
+      "passed": true,
+      "rechecked": true
+    }
+  ],
+  "checks": 136,
+  "scope": "Final v1.0.140 candidate; isolated saves, delayed/simulated AI and actual captured failure replays; zero new provider calls or owner saves"
+}

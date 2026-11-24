@@ -1,3 +1,11 @@
+## v1.0.140 current collar timing and release scope
+
+[Approved ordinary-collar timing](PRIYA-CAT-COLLAR-TIMING.md) supersedes earlier early/friendly offers: permanent mastery plus the longer follow-up stay discussion are required. The discussion makes a separate optional offer; fitting still needs actual acceptance in the cat body with awake present Priya. Already-worn collars, saved progress and existing removal rules are preserved. Recognition, stay status, voluntary following/sleep and grounded cat replies are included in the same owner-authorized release. Deployment evidence: releases/v1.0.140-release-summary.json. Earlier local checkpoints below are historical; the advanced obedience item/kennel remains deferred.
+
+## Current owner follow-up — recognition/routines (local, unpublished)
+
+The 2026-11-23 owner report and new directions are reconciled in [Priya cat recognition repair](PRIYA-CAT-RECOGNITION-REPAIR.md). That record supersedes older pending/draft recognition milestones: person-aware without the collar; teasing at25%, audible uncertainty at50%, ordinary pet treatment without acknowledging prior player identity at75%, and always-her-cat belief at95%. The original five-points-per-four-shared-hours rate is retained. Recognition, readable stay status, exact Revert blockers, voluntary apartment following and bed sleep are implemented/tested locally; this is not a forced feline schedule or a publication. The separately approved95% obedience-collar direction compels actual Priya commands, normally stays on permanently and is not yet implemented. Its transaction proposal is awaiting the owner. Older “advanced products pending design” limits below remain runtime limits, not denial of the newer approved direction.
+
 ## Local text-access follow-up (unpublished)
 
 At the actual 2F door, plain knocking narration invokes the same visit controller. Date requests during actual conversation invoke the existing optional cat offer for strangers; recognized Erin is explicitly exempt from any cat condition. Asking never auto-accepts or transforms the player, books a date, or grants entry. See TEXT-INPUT-PARITY-AUDIT.md.

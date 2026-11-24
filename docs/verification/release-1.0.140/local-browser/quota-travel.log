@@ -1,0 +1,16 @@
+PASS a nearly-full real browser origin resumes the legacy save and compacts duplicate visit history
+PASS all previously visited tiles survive automatic legacy compaction
+PASS actual browser quota pressure triggers lossless packing and preserves the new progress
+PASS quota recovery preserves the other two slots and unrelated origin data
+PASS the hub reloads the packed character with all progress intact
+PASS the title screen recognizes and continues the packed slot
+PASS title Continue returns to the correct packed character
+PASS unrecoverable quota opens recovery without overwriting the previous good slot
+PASS backup download works even under the sleep input guard and contains the newest unsaved state
+PASS retry saves the in-memory progress and closes recovery
+PASS planned tile travel completes while descriptive AI is pending and keeps its game-time cost
+PASS optional final-step description preserves the exact route receipts and outcomes
+PASS pending controller decisions still pause automatic travel
+PASS travel resumes after the pending controller is cleared
+PASS character creation reads a packed draft without losing its data
+PASS there are no uncaught browser errors or attempted paid calls

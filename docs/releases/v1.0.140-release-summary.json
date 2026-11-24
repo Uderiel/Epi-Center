@@ -1,0 +1,40 @@
+{
+  "version": "1.0.140",
+  "baselinePublicClient": "1.0.139",
+  "mainBase": "b62c44fa746129324031c73287ef7ccad9184170",
+  "status": "Locally verified; publication underway",
+  "workerChanged": false,
+  "expectedWorkerAssembly": "request-handoff-v11",
+  "newPublicationPaidCalls": 0,
+  "ownerSavesUsed": false,
+  "generalRealProviderAcceptanceComplete": false,
+  "runtimeScope": "Save durability and visit compaction; nonblocking descriptive travel; grounded travel/stage narration; Priya recognition/routines and post-mastery follow-up collar gate",
+  "priorNewPaidEvidence": {
+    "calls": 8,
+    "knownCostUSD": 0.01585374,
+    "record": "TRAVEL-STAGE-NARRATION-REPAIR.md"
+  },
+  "pending": "Advanced obedience-collar/kennel transaction design and location UI pilot; broad raw-model acceptance",
+  "automatedCases": 2493,
+  "automatedSuites": 177,
+  "localBrowserSuites": 19,
+  "localBrowserChecks": 136,
+  "bibleIntegrity": {
+    "version": "1.0.140",
+    "canonical": "docs/EPI-CENTER-WORLD-BIBLE.md",
+    "frozen": "docs/bible/v1.0.140-world-bible.md",
+    "bytes": 112248,
+    "sha256": "3913b78f91a0a5b347a2f61cc3810739ceaebc217b6f9e8587c89d9f3e137803"
+  },
+  "preparationAudit": {
+    "failuresRetained": true,
+    "runtimeChangedForHarnessFailures": false,
+    "corrected": [
+      "Isolated VM fixtures load actual shared storage reader with valid slot keys",
+      "Legacy collar test setups now follow the approved mastery/stay flow",
+      "Existing narrative assertion now checks the approved offer timing",
+      "Phone UI test opens Priya\u2019s actual interaction view before discussing stay"
+    ],
+    "allFinalChecksPass": true
+  }
+}

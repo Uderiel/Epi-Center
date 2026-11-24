@@ -1,0 +1,18 @@
+PASS Actual New Character entry renders the all24 existing ordered fields, including Tail with generated read-only Build
+PASS Review is blocked until required template responses are supplied
+PASS Nonhuman structures, latex/silicone and nonhuman skin colours are disabled during human creation
+PASS Confirmation validation rejects a nonhuman material even if a disabled option is forced through the DOM
+PASS Wings stay within Back, are locked absent during human creation and reject forced nonhuman input
+PASS Actual cup selectors generate the approved half-inch increments from A through F
+PASS Heterochromia rejects identical colours and accepts distinct left/right colours
+PASS Face markings retain their location/prominence and bald scalp makes remaining hair details inapplicable
+PASS The established anatomical measurement cap is enforced through centimetre conversion
+PASS Pectoral size selectors produce39/40/41-inch chest at Daniel dimensions; review/reload retains the40-inch baseline and ±2-inch limit
+PASS Changing height/weight units preserves canonical measurements and attribute allocation
+PASS Actual creation inputs reproduce the approved worked-example measurements at review
+PASS Review enforces the original ±2-inch baseline across repeated edits, confirmation attempts and reload
+PASS Exact regional entries preserve their measurement when units change and remain read-only at review
+PASS Creation review fits390px mobile and1100px desktop without horizontal overflow
+PASS Confirmation saves all24 compatible strings, including Tail, removes draft data, drives sweat correctly and survives Hub reload without touching another slot
+PASS Full-body awareness accepts the completed structured appearance within the existing request limit without any provider call
+PASS An already-confirmed legacy character bypasses creation without an appearance rewrite or draft copy

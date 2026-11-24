@@ -20,11 +20,11 @@ function fixture(aiEnabled,review,answer){
  Richard.saveReportDraft(save,answer);
  const entries=[],requests=[];
  const context={
-  save,EpiRichard:Richard,EpiErinLife:{beforeAction(){}},aiBusy:0,
+  save,EpiSaveStorage:require('../save-storage'),EpiRichard:Richard,EpiErinLife:{beforeAction(){}},aiBusy:0,
   aiConnection:()=>({endpoint:'https://mock.invalid',code:'test-only'}),
   aiFetch:async (path,packet)=>{requests.push({path,packet});return review();},
   localStorage:{getItem:()=>JSON.stringify({lastPlayedAt:save.lastPlayedAt})},
-  key:'test-slot',crypto:{randomUUID:()=> 'test-review'},render(){},store(){},
+  key:'epicenter_v1_slot_3',crypto:{randomUUID:()=> 'test-review'},render(){},store(){},
   feedEntry:(speaker,text)=>entries.push({speaker,text}),
   document:{addEventListener(){}}
  };

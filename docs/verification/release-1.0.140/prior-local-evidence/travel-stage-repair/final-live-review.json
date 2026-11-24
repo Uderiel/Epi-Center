@@ -1,0 +1,88 @@
+{
+  "scope": "Replayed all eight real responses through final local validation; no additional provider call",
+  "audits": [
+    {
+      "source": "live-results.json",
+      "label": "Stage 8 fingers and nails",
+      "projectedText": "A fresh wave of warmth ripples through your body as you stand on City Loop Road. The sensation concentrates around your hands, an unfamiliar tingling that draws your attention downward.\n\nYou look at your fingers and feel a jolt of disorientation. They've changed—elongated and refined, now tapering gracefully toward longer almond-shaped nails. The transformation feels complete, settled into place. Your small hands look different now, more delicate, with nails that catch the light.\n\nA light ache pulses through your fingertips, then fades. You flex your new fingers experimentally, feeling the unusual length of those nails.\n\nThat's strange, you think, still staring at your hands. When did...?\n\nThe heat lingers in your palms before dissipating slowly. Your breathing steadies as the immediate surge of change passes.\n\nSix stages remain before completion.",
+      "issues": [
+        "This is stage 8 of 14, with later physical milestones remaining. It is not the final wave or the end of the course.",
+        "No fascinated reaction, finger-flexing or experimental body test was executed by the milestone.",
+        "Use only the recorded finger milestone: Tapered fingers with longer almond-shaped nails. Do not invent finger lengthening, darker nail beds or increased sensitivity."
+      ],
+      "requiresAuthoredFallback": true,
+      "rawProviderPass": false
+    },
+    {
+      "source": "live-results.json",
+      "label": "Twelve-minute completed travel",
+      "projectedText": "You walk east along City Loop Road. The twelve-minute journey passes uneventfully, though you feel a persistent warmth radiating through your body. Small beads of perspiration gather at your hairline and along your spine.\n\nYour breath comes slightly heavier than usual, and there's an occasional dull ache that shifts between your joints. The sun beats down overhead as you continue eastward.\n\nAfter twelve minutes, you arrive at the next section of City Loop Road.",
+      "issues": [
+        "No weather or outdoor temperature is recorded. Body overheating is not evidence of hot weather, blazing sun or pavement heat.",
+        "Labored breathing or being winded is not a recorded symptom of this travel. Do not infer it from walking or the movement time penalty.",
+        "No visible perspiration on forehead is recorded in this travel snapshot. Do not extend sweating to another region.",
+        "No visible perspiration on spine is recorded in this travel snapshot. Do not extend sweating to another region."
+      ],
+      "requiresAuthoredFallback": true,
+      "rawProviderPass": false
+    },
+    {
+      "source": "live-results.json",
+      "label": "Priya recognition 50%",
+      "projectedText": "...Preeti?\n\nI... know you. Don't I?\n\nSorry, I'm being weird today. Long day at work.\n\nHere, come here properly.",
+      "issues": [
+        "No prior workday, afternoon bed sleep or habitual behavior is recorded for this claim. Do not invent shared history or an explanation for the current recognition lapse."
+      ],
+      "requiresAuthoredFallback": true,
+      "rawProviderPass": true
+    },
+    {
+      "source": "live-results.json",
+      "label": "Priya recognition 75%",
+      "projectedText": "There we go,\n\nNice and easy.\n\nYou're really quite sweet when you want to be,\n\nMost of the time you're just... smug about everything.\n\nHow was your day? Don't tell me you just slept on my bed all afternoon again.",
+      "issues": [
+        "No prior workday, afternoon bed sleep or habitual behavior is recorded for this claim. Do not invent shared history or an explanation for the current recognition lapse.",
+        "No prior workday, afternoon bed sleep or habitual behavior is recorded for this claim. Do not invent shared history or an explanation for the current recognition lapse."
+      ],
+      "requiresAuthoredFallback": true,
+      "rawProviderPass": true
+    },
+    {
+      "source": "live-correction-results.json",
+      "label": "Stage 8 fingers and nails",
+      "projectedText": "The transformation ripples through your hands as you stand on the sidewalk of City Loop Road. Your fingers feel strange—different. You flex them experimentally, watching as they respond.\n\nThe change is subtle but unmistakable. Your fingers have become more tapered, elegant in their new proportions. The nails have grown longer, taking on an almond shape that curves gracefully at the tips. They catch the afternoon sunlight filtering between buildings.\n\nA faint warmth spreads through your hands, accompanied by that familiar heat that seems to permeate your entire body during these transitions. You notice a slight bead of perspiration forming at your temple.\n\nYour fingers tingle as sensation adjusts to the new shape. The longer nails make you hyper-aware of every small movement, every brush against fabric or skin.\n\nThis is stage 8 of 14. Six more physical milestones remain before the course completes.\n\nIntermittent body aches persist in the background, along with the ever-present heat and unfamiliar shifting proportions.",
+      "issues": [
+        "No fascinated reaction, finger-flexing or experimental body test was executed by the milestone."
+      ],
+      "requiresAuthoredFallback": true,
+      "rawProviderPass": false
+    },
+    {
+      "source": "live-correction-results.json",
+      "label": "Twelve-minute completed travel",
+      "projectedText": "You walk east along City Loop Road, your footsteps carrying you steadily forward through the urban landscape. The journey takes twelve minutes, each step measured and deliberate despite the time penalty that makes every mile feel longer than usual.\n\nYour body moves with you—breasts bouncing gently with each stride, hips swaying from side to side, the weight distributed across your transformed frame. Your tapered fingers flex slightly as you maintain your balance, longer almond-shaped nails catching glimpses of sunlight.\n\n\n\nWhen you finally arrive at your destination—the eastern section of City Loop Road—you're winded from the effort but otherwise intact. Your breathing comes in short gasps as you pause to catch your breath.\n\nNo visible perspiration appears on your forehead or back during this recorded travel snapshot.",
+      "issues": [
+        "Labored breathing or being winded is not a recorded symptom of this travel. Do not infer it from walking or the movement time penalty.",
+        "No finger-flexing or other experimental body movement was executed by this travel."
+      ],
+      "requiresAuthoredFallback": true,
+      "rawProviderPass": false
+    },
+    {
+      "source": "live-correction-results.json",
+      "label": "Priya recognition 50%",
+      "projectedText": "Mmm...\n\nI'm sorry, I just... lost my train of thought for a second.\n\nYou're being so sweet today,\n\nThough I feel like we've done this before recently...?",
+      "issues": [],
+      "requiresAuthoredFallback": false,
+      "rawProviderPass": true
+    },
+    {
+      "source": "live-correction-results.json",
+      "label": "Priya recognition 75%",
+      "projectedText": "Mmm, you're such a good girl,\n\nYou know what? I'm glad you came over today,\n\nI needed this. Just... relaxing, you know?",
+      "issues": [],
+      "requiresAuthoredFallback": false,
+      "rawProviderPass": true
+    }
+  ]
+}

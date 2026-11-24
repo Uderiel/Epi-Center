@@ -1,0 +1,8 @@
+PASS learning UI hides collar offer and fitting with an explicit mastery reason
+PASS friendly signal cannot trigger a learning-period automatic collar offer
+PASS stale saved early offer cannot fit through the actual UI action handler
+PASS mastery alone leaves collar controls unavailable until the follow-up stay
+PASS actual follow-up conversation saves the duration and makes an unfitted optional collar offer
+PASS follow-up collar fitting shortcut survives reload and body entry
+PASS separate acceptance fits the real collar while retaining permanent mastery
+PASS worn collar and longer stay survive reload without new charges or provider calls

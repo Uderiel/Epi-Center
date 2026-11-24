@@ -1,0 +1,456 @@
+{
+  "scope": "Synthetic isolated slot, AI off, 120 map travel actions",
+  "rows": [
+    {
+      "minutes": 760,
+      "ms": 546.3999999999651,
+      "chars": 164917,
+      "writes": 20,
+      "writeMs": 18.29999999993015,
+      "serialized": 191,
+      "serializationMs": 109.10000000032596,
+      "parts": [
+        {
+          "path": "world",
+          "chars": 139879
+        },
+        {
+          "path": "world.playerGuide",
+          "chars": 66130
+        },
+        {
+          "path": "hub",
+          "chars": 18553
+        },
+        {
+          "path": "world.cherishedTouch",
+          "chars": 15484
+        },
+        {
+          "path": "world.burkesSweets",
+          "chars": 8727
+        },
+        {
+          "path": "world.enchantedEnvironment",
+          "chars": 8485
+        },
+        {
+          "path": "world.nadiaHome",
+          "chars": 7736
+        },
+        {
+          "path": "world.applewood",
+          "chars": 6147
+        },
+        {
+          "path": "world.marketing",
+          "chars": 5986
+        },
+        {
+          "path": "world.richardHome",
+          "chars": 5066
+        },
+        {
+          "path": "world.perspiration",
+          "chars": 4039
+        },
+        {
+          "path": "itemDefinitions",
+          "chars": 3969
+        },
+        {
+          "path": "world.department",
+          "chars": 3946
+        },
+        {
+          "path": "world.relationships",
+          "chars": 1722
+        },
+        {
+          "path": "world.priya",
+          "chars": 1052
+        },
+        {
+          "path": "world.dart",
+          "chars": 923
+        }
+      ]
+    },
+    {
+      "minutes": 920,
+      "ms": 610.1000000000349,
+      "chars": 344769,
+      "writes": 20,
+      "writeMs": 20.90000000008149,
+      "serialized": 181,
+      "serializationMs": 189.9000000001979,
+      "parts": [
+        {
+          "path": "world",
+          "chars": 302071
+        },
+        {
+          "path": "world.playerGuide",
+          "chars": 218320
+        },
+        {
+          "path": "hub",
+          "chars": 36217
+        },
+        {
+          "path": "world.cherishedTouch",
+          "chars": 15469
+        },
+        {
+          "path": "world.marketing",
+          "chars": 12060
+        },
+        {
+          "path": "world.burkesSweets",
+          "chars": 8726
+        },
+        {
+          "path": "world.enchantedEnvironment",
+          "chars": 8705
+        },
+        {
+          "path": "world.nadiaHome",
+          "chars": 7736
+        },
+        {
+          "path": "world.department",
+          "chars": 6442
+        },
+        {
+          "path": "world.applewood",
+          "chars": 6147
+        },
+        {
+          "path": "world.richardHome",
+          "chars": 5066
+        },
+        {
+          "path": "world.perspiration",
+          "chars": 4094
+        },
+        {
+          "path": "itemDefinitions",
+          "chars": 3969
+        },
+        {
+          "path": "world.relationships",
+          "chars": 1722
+        },
+        {
+          "path": "world.priya",
+          "chars": 1648
+        },
+        {
+          "path": "world.visited",
+          "chars": 1095
+        }
+      ]
+    },
+    {
+      "minutes": 1080,
+      "ms": 853.3000000000466,
+      "chars": 528795,
+      "writes": 20,
+      "writeMs": 28.900000000023283,
+      "serialized": 181,
+      "serializationMs": 311.6999999996624,
+      "parts": [
+        {
+          "path": "world",
+          "chars": 468518
+        },
+        {
+          "path": "world.playerGuide",
+          "chars": 374857
+        },
+        {
+          "path": "hub",
+          "chars": 53790
+        },
+        {
+          "path": "world.cherishedTouch",
+          "chars": 15479
+        },
+        {
+          "path": "world.marketing",
+          "chars": 14235
+        },
+        {
+          "path": "world.burkesSweets",
+          "chars": 8730
+        },
+        {
+          "path": "world.nadiaHome",
+          "chars": 8470
+        },
+        {
+          "path": "world.enchantedEnvironment",
+          "chars": 8215
+        },
+        {
+          "path": "world.department",
+          "chars": 7358
+        },
+        {
+          "path": "world.applewood",
+          "chars": 6147
+        },
+        {
+          "path": "world.richardHome",
+          "chars": 5633
+        },
+        {
+          "path": "world.perspiration",
+          "chars": 4070
+        },
+        {
+          "path": "itemDefinitions",
+          "chars": 3969
+        },
+        {
+          "path": "world.priyaHome",
+          "chars": 2538
+        },
+        {
+          "path": "world.priya",
+          "chars": 1897
+        },
+        {
+          "path": "world.priyaDaily",
+          "chars": 1736
+        }
+      ]
+    },
+    {
+      "minutes": 1240,
+      "ms": 1055.9000000000233,
+      "chars": 682741,
+      "writes": 20,
+      "writeMs": 47.199999999895226,
+      "serialized": 181,
+      "serializationMs": 419.8000000003958,
+      "parts": [
+        {
+          "path": "world",
+          "chars": 604819
+        },
+        {
+          "path": "world.playerGuide",
+          "chars": 505768
+        },
+        {
+          "path": "hub",
+          "chars": 71431
+        },
+        {
+          "path": "world.cherishedTouch",
+          "chars": 15483
+        },
+        {
+          "path": "world.marketing",
+          "chars": 14212
+        },
+        {
+          "path": "world.burkesSweets",
+          "chars": 10577
+        },
+        {
+          "path": "world.nadiaHome",
+          "chars": 8784
+        },
+        {
+          "path": "world.enchantedEnvironment",
+          "chars": 8758
+        },
+        {
+          "path": "world.department",
+          "chars": 7358
+        },
+        {
+          "path": "world.applewood",
+          "chars": 6147
+        },
+        {
+          "path": "world.richardHome",
+          "chars": 5786
+        },
+        {
+          "path": "world.perspiration",
+          "chars": 4588
+        },
+        {
+          "path": "itemDefinitions",
+          "chars": 3969
+        },
+        {
+          "path": "world.priyaHome",
+          "chars": 2599
+        },
+        {
+          "path": "world.priyaDaily",
+          "chars": 2194
+        },
+        {
+          "path": "world.nadiaDaily",
+          "chars": 2140
+        }
+      ]
+    },
+    {
+      "minutes": 1400,
+      "ms": 1527.5999999999767,
+      "chars": 831750,
+      "writes": 20,
+      "writeMs": 65.29999999998836,
+      "serialized": 181,
+      "serializationMs": 558.8999999998487,
+      "parts": [
+        {
+          "path": "world",
+          "chars": 736179
+        },
+        {
+          "path": "world.playerGuide",
+          "chars": 618774
+        },
+        {
+          "path": "hub",
+          "chars": 89086
+        },
+        {
+          "path": "world.richardHome",
+          "chars": 20627
+        },
+        {
+          "path": "world.cherishedTouch",
+          "chars": 15481
+        },
+        {
+          "path": "world.marketing",
+          "chars": 14217
+        },
+        {
+          "path": "world.burkesSweets",
+          "chars": 11952
+        },
+        {
+          "path": "world.nadiaHome",
+          "chars": 8821
+        },
+        {
+          "path": "world.enchantedEnvironment",
+          "chars": 8582
+        },
+        {
+          "path": "world.department",
+          "chars": 7358
+        },
+        {
+          "path": "world.applewood",
+          "chars": 6147
+        },
+        {
+          "path": "world.perspiration",
+          "chars": 4836
+        },
+        {
+          "path": "itemDefinitions",
+          "chars": 3969
+        },
+        {
+          "path": "world.priyaDaily",
+          "chars": 3459
+        },
+        {
+          "path": "world.nadiaDaily",
+          "chars": 2696
+        },
+        {
+          "path": "world.priyaHome",
+          "chars": 2643
+        }
+      ]
+    },
+    {
+      "minutes": 1560,
+      "ms": 1788.2000000000116,
+      "chars": 927379,
+      "writes": 20,
+      "writeMs": 64.99999999994179,
+      "serialized": 181,
+      "serializationMs": 599.7000000001863,
+      "parts": [
+        {
+          "path": "world",
+          "chars": 814004
+        },
+        {
+          "path": "world.playerGuide",
+          "chars": 695174
+        },
+        {
+          "path": "hub",
+          "chars": 106884
+        },
+        {
+          "path": "world.richardHome",
+          "chars": 20627
+        },
+        {
+          "path": "world.cherishedTouch",
+          "chars": 15720
+        },
+        {
+          "path": "world.marketing",
+          "chars": 14332
+        },
+        {
+          "path": "world.burkesSweets",
+          "chars": 12030
+        },
+        {
+          "path": "world.nadiaHome",
+          "chars": 8821
+        },
+        {
+          "path": "world.enchantedEnvironment",
+          "chars": 8798
+        },
+        {
+          "path": "world.department",
+          "chars": 7444
+        },
+        {
+          "path": "world.applewood",
+          "chars": 6147
+        },
+        {
+          "path": "world.perspiration",
+          "chars": 4696
+        },
+        {
+          "path": "itemDefinitions",
+          "chars": 3969
+        },
+        {
+          "path": "world.priyaDaily",
+          "chars": 3587
+        },
+        {
+          "path": "world.nadiaDaily",
+          "chars": 2878
+        },
+        {
+          "path": "world.priyaHome",
+          "chars": 2643
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

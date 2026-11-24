@@ -1,0 +1,24 @@
+PASS Actual Hub loads all18 ordered24-field NPC/form profiles without changing the creation schema
+PASS Actual Richard/Daniel/Nadia/Priya panels display shared ordered appearance with concealed anatomy excluded
+PASS Daniel’s actual loaded panel displays approved185lb and generated40-inch chest with his complete ordered appearance
+PASS Nadia’s actual panel displays approved130lb/Ccup/generated34-inch chest and27.5-inch waist while keeping the existing portrait
+PASS Priya’s loaded panel displays approved27years/115lb/Bcup/generated32.5-inch chest and retains her approved portrait
+PASS Actual Charity and Tits shop interfaces use the same appearance section while retaining their shop controllers
+PASS Charity’s real shop panel shows her approved portrait,freckles and generated33.5-inch chest
+PASS Tits’s actual checkout panel shows approved portrait,Fcup-derived37.5-inch chest and US women6 appearance
+PASS Final existing-worker projection receives requested NPC eye facts under the speaker identity, separately from the player body
+PASS Existing-worker projection receives Nadia’s approved chest and waist facts under her identity with unrelated/hidden fields omitted
+PASS Existing-worker projection receives only requested Priya measurements under her identity, independently of the player body
+PASS Existing-worker projection receives Charity age39 and freckles without superseded age claims
+PASS Existing-worker projection receives Tits approved measurements under her identity with superseded sizing claim removed
+PASS Existing-worker projection receives only requested Daniel chest facts with40-inch chest and35.5-inch under-chest under Daniel’s identity
+PASS Full Erin resolves aligned current proportions without overwriting base appearance, resources, inventory or money
+PASS Partial Erin alignment supplies reached feet only and keeps unchanged original legs and height
+PASS physical course retains exact source waist/hips and aligns current fields with the approved under-chest plus cup calculation
+PASS mental course retains exact source waist/hips and aligns current fields with the approved under-chest plus cup calculation
+PASS arousal course retains exact source waist/hips and aligns current fields with the approved under-chest plus cup calculation
+PASS Aligned permanent converted-base appearance survives actual Hub reload
+PASS Existing Erin/Kibbles/Priya portrait renderers remain connected; artwork wiring was not invented for missing profiles
+PASS All fourteen image assets referenced by existing character/form renderers load and decode successfully
+PASS Dart’s actual panel shows approved withers height,mass and canine paws with a species-neutral age label and no human matrix
+PASS NPC appearance sections fit390px mobile and1100px desktop without horizontal overflow

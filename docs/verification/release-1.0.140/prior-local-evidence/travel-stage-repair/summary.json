@@ -1,0 +1,30 @@
+{
+  "status": "Local repairs verified; not published",
+  "baseCommit": "b62c44fa746129324031c73287ef7ccad9184170",
+  "automatedCases": 2474,
+  "automatedSuites": 175,
+  "browserChecks": 30,
+  "browserErrors": 0,
+  "paidCalls": 8,
+  "newKnownCostUSD": 0.01585374,
+  "newUncertainReservationsUSD": 0,
+  "modelLimit": "Six captured real replies require source fallback under final validation; two corrected Priya recognition speech replies pass scoped checks. General raw model accuracy is not established.",
+  "pending": "95% obedience collar and kennel transaction decision / command-confinement lifecycle; menu-layout proposals remain unimplemented",
+  "sourceHashes": {
+    "rebuild/hub/ai-context.js": "d5350b8ff1cb1b42ee4a16c5fddfecb2450a7f658e4efe86ac76737e7959ed76",
+    "rebuild/hub/ai-ui.js": "ef95c961cb7a56b88add41e18366c17ee6904540400aeeaba5bda05e989981c5",
+    "rebuild/hub/cat-narrative-frame.test.js": "d17888bd435141020a4720839c4431040ed0b692fc47c0a36d08f93a74256605",
+    "rebuild/hub/hub-world.js": "b06ac671f11a51a1082a1fa07d7bf71886817d8d73114d85a5f207eaf3ca7672",
+    "rebuild/hub/index.html": "452c3473b49784155b362777cfa644b622f9a67ce64a11350c5fe6b8c76b107c",
+    "rebuild/hub/narration-grounding.js": "9f172273b430d62466353c49df289d99379982a4b31eafff77714d0cc7aa16c5",
+    "rebuild/hub/navigation-runtime.js": "31049532d0a1c523ed007b51e2014eeb70e645b3bf77b85dff6dcdef807d3ed9",
+    "rebuild/hub/navigation.js": "2d524b7f1c97e33c28bf84f7970d03590472804c5dc272934acc1d28da14b8bf",
+    "rebuild/hub/priya-cat-ui.js": "79fe6fd7f9269eb4bdb045cca667ecf9fd356523550973330258050fc8402d86",
+    "rebuild/hub/priya-cat.js": "eb37af78099bf9b8069043a152019f1f26b1672bcd905e284414b22ee3a1a93e",
+    "rebuild/hub/priya.js": "47d58cd6f3d6b0e3994a7665cac64b291caae7d1a06e613649863824525b2ad9",
+    "rebuild/hub/sleeping-contact.js": "3221f6900b463cd6ad0918b3d25072881a8fdcc65c193e80ac5564d4d7e94e9a",
+    "rebuild/hub/transformation-history.js": "6b6d3201567bfabfbf28b0ec925fb88dea3c93f25d7b3733c677e4116cb185f1",
+    "rebuild/hub/priya-cat-recognition.test.js": "7309a2043e61f51286ed70f3c845a182f5c0737edec6b05fb4fd377a908fd325",
+    "rebuild/hub/travel-stage-narration.test.js": "74c162d9ee1a47aaa603d2ef44146a216b282a39d8f0117b10961b31a3a95632"
+  }
+}

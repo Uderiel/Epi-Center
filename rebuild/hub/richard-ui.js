@@ -72,7 +72,7 @@ async function submitRichardReport(){
     aiBusy--;
     richardReportPending=null;
    }
-   const persisted=JSON.parse(localStorage.getItem(key)||'null');
+   const persisted=EpiSaveStorage.read(localStorage,key);
    if(!isCurrent()||persisted?.lastPlayedAt!==source.lastPlayedAt){if(save===source)render();return;}
   }
   feedEntry('Work',R.submitReportSection(source,current.index,interpreted));

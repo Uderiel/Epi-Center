@@ -1,0 +1,13 @@
+PASS learning UI hides collar offer and fitting with an explicit mastery reason
+PASS friendly signal cannot trigger a learning-period automatic collar offer
+PASS stale saved early offer cannot fit through the actual UI action handler
+PASS mastery alone leaves collar controls unavailable until the follow-up stay
+locator.click: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for locator('[data-cat="confirm"]').first()[22m
+
+    at click (/workspace/epicenter-dialogue-accuracy/work/release140/collar-browser.cjs:3:722)
+    at async /workspace/epicenter-dialogue-accuracy/work/release140/collar-browser.cjs:8:24 {
+  log: [ `  - waiting for locator('[data-cat="confirm"]').first()` ],
+  name: 'TimeoutError'
+}

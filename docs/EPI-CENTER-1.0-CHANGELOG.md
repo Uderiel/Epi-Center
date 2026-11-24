@@ -1,3 +1,24 @@
+# v1.0.140 — durable saves, responsive travel and Priya cat follow-up
+
+Owner authorized publication of the completed local batch after v1.0.139, then added the post-mastery collar timing requirement before release. This document describes the final combined scope. Deployment/public verification is recorded in `v1.0.140-release-summary.json`.
+
+- Stop duplicate learned-location history during map exploration; compact equivalent old snapshots while retaining distinct facts, visited tiles and progress.
+- Share one verified save reader/writer across Hub, both Title screens and Character Creation. Losslessly pack large or quota-limited slots; retain legacy JSON compatibility and independent slots. On unrecoverable failure, preserve dirty memory and the last durable slot, pause automatic progression, and offer backup download/retry.
+- Continue planned tile travel while descriptive AI is pending; retain blocking decisions, travel costs, route receipts, session ownership and visibility pauses. Skip intermediate-route AI descriptions that would immediately become stale.
+- Ground travel in the completed edge and current physical state. Reject invented paths, map/fog displays, weather, body changes and unsupported actions; preserve the exact receipt with bounded correction/authored fallback.
+- Distinguish a transformation milestone from ongoing state. Stage8/14 cannot be called final; enforce recorded changing regions and targets, including high arches and actual nail shapes. Reject unsupported bodily sensitivity/actions or repeated changes during ordinary travel.
+- Implement Priya's ordinary-collar recognition stages and authored AI-off cues, preserve the original person's stored history, show actual stay progress/Revert reasons, and support optional connected-room following and sleeping beside actually sleeping Priya.
+- Gate every new ordinary collar offer/fitting on cat-form mastery and the longer follow-up stay conversation. That conversation offers the optional collar without fitting it. Friendly learning-period contact, forced buttons and stale pending offers cannot bypass the gate. Owned cats retain their six-day duration and need the follow-up discussion; already-worn collars and their removal/protest state remain intact.
+- Keep Priya cat-contact packets focused on current recognition and actual contact, preserve authored gestures, and resolve action time/presence before queueing speech. No invented workday or restored forgotten identity.
+
+The95% advanced obedience-collar/kennel system remains approved direction with unresolved transaction design; it is not activated. No location-panel redesign is applied. AI worker request-handoff-v11, provider model/settings and credentials are unchanged. Raw Cydonia output still sometimes needs the checked authored fallback; this is not universal factual/personality acceptance. Existing images, attributes, prices, relationships, travel/stay durations, mastery/resource rules and original saves are retained except for the explicitly approved collar timing gate. No save reset is required. Storage remains finite and measured cloud Chromium timing is not a phone-speed guarantee.
+
+Final versioned verification passes2,493 named cases across177 suites, plus19 local browser suites/136 checks. All final checks pass; intermediate test-setup failures are retained in verification/release-1.0.140/rehearsal-failures. Earlier stage/Priya diagnostics made8 real provider calls costing$0.01585374 known; publication verification makes no paid requests and uses isolated synthetic saves/replayed replies, never owner saves. Prior uncertain billing reservations remain unchanged.
+
+Operational note: packed saves require the updated readers together. Do not reopen them in an older build. If an existing live tab has unsaved progress from the old quota error, preserve it and make a backup before refreshing; deploying a new release cannot recover a closed tab’s unsaved memory.
+
+## Earlier release checkpoints — historical
+
 # v1.0.139 — continuous dialogue memory and source-safe replies
 
 Owner authorized wiring and publication of local repair053ee25 after publicly verified v1.0.138. This release uses the existing request-handoff-v11 worker, provider model, settings and credentials. Existing prices, relationship weights, schedules, access/consent, body/appearance and combat rules remain. Runtime publication and public verification are recorded separately in releases/v1.0.139-release-summary.json.

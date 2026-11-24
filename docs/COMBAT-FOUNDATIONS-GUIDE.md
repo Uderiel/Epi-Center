@@ -1,3 +1,7 @@
+## v1.0.140 release audit
+
+No combat/attribute budgets, action costs, saving throws, relationship weights or mastery/zero-Resolve binding rules change. The approved ordinary collar timing now requires existing cat mastery and the longer follow-up stay; it grants no mastery or new ability. Existing worn collars/removal rules persist. Optional following and bed sleep reuse connected rooms and the cat-pad fatigue rate. Storage compaction, packet grounding and description fallback cannot create state rewards. Advanced command-compulsion equipment remains deferred. Scope: releases/v1.0.140-synopsis.md.
+
 ## v1.0.139 dialogue release audit
 
 No attribute/combat budget, action price, saving throw, relationship weight, mastery, ownership or consent rule changes. Charity’s already-authored public presence is wired to existing shared relationship checks;retries/reload do not replay an award or controller action. Release scope:releases/v1.0.139-synopsis.md.
