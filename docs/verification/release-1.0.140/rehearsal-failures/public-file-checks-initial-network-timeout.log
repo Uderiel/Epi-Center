@@ -1,0 +1,14 @@
+Compared 50/276 public files
+Compared 100/276 public files
+Compared 150/276 public files
+Compared 200/276 public files
+Compared 250/276 public files
+[TypeError: fetch failed] {
+  [cause]: AggregateError [ETIMEDOUT]: 
+      at internalConnectMultiple (node:net:1492:18)
+      at internalConnectMultiple (node:net:1568:5)
+      at afterConnectMultiple (node:net:2161:7) {
+    code: 'ETIMEDOUT',
+    [errors]: [ [Error], [Error], [Error], [Error] ]
+  }
+}

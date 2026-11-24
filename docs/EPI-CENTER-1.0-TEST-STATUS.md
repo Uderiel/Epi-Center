@@ -1,3 +1,13 @@
+## v1.0.140 published and publicly verified
+
+[Play v1.0.140](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.140). Runtime commit `200df83ace5b892ad7f709f73d968d29edcce129` is published on main and rebuild/1.0-foundations; GitHub Pages run45375274451 succeeded. All276 compared public runtime, portrait, repair/canon and changelog files match the release. Current and frozen World Bible match SHA256`3913b78f91a0a5b347a2f61cc3810739ceaebc217b6f9e8587c89d9f3e137803`. Final verification passes2,493 cases/177 suites, plus19 local and19 public browser suites with136 checks each.
+
+Published: duplicate visit-history compaction; lossless large-slot storage and backup/retry recovery; automatic travel without descriptive-AI waits; grounded edge/stage/body narration; Priya recognition cues, stay/Revert status and optional follow/sleep; and the approved collar gate requiring mastery plus the longer post-mastery stay discussion. That conversation offers the collar separately; fitting remains optional. Saved worn collars/progress retain their existing rules. Source fallbacks still handle bad model prose; general raw-model acceptance is not claimed.
+
+No new paid publication calls, owner-save access, worker/model/credential changes, UI redesign or advanced obedience-collar/kennel activation. Worker request-handoff-v11 remains configured. Existing saved characters need no reset. An old tab with unsaved quota-error progress must be kept open/backed up before refreshing; publication cannot restore a closed tab's unsaved memory. Packed saves require the updated readers and should not be reopened in older builds.
+
+Changelog/scope, evidence and limits: releases/v1.0.140-synopsis.md, releases/v1.0.140-release-summary.json and verification/release-1.0.140/. Earlier local/public checkpoints below are historical and superseded on the implemented scope.
+
 ## v1.0.140 — owner-authorized publication underway
 
 Publishing the completed save-quota/travel and Priya/stage batch, including the latest mastery-plus-follow-up collar offer gate. [Final release scope](releases/v1.0.140-synopsis.md). Versioned regression, full browser checks, canon freeze and public verification are being recorded in releases/v1.0.140-release-summary.json. No new paid publication calls or owner-save access. The AI worker remains request-handoff-v11; advanced obedience/kennel work and panel redesign remain deferred. Earlier local/public checkpoints below are historical.

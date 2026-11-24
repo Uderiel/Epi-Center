@@ -1,0 +1,79 @@
+{
+  "scope": "Local synthetic QA slot, 390x844, no owner data, AI disabled, no publishing",
+  "checks": [
+    {
+      "name": "AI-off learning status explains the missing stay deadline",
+      "passed": true
+    },
+    {
+      "name": "unmastered Revert label gives actual blocker instead of an unconditional collar claim",
+      "passed": true
+    },
+    {
+      "name": "composer follow command starts the same saved routine as the shortcut",
+      "passed": true
+    },
+    {
+      "name": "clock advance updates cat location and room fixtures while following",
+      "passed": true
+    },
+    {
+      "name": "follow routine and kitchen survive actual page reload",
+      "passed": true
+    },
+    {
+      "name": "stop-following shortcut ends it without a penalty",
+      "passed": true
+    },
+    {
+      "name": "actual unpaused household schedule reaches bedtime and the cat follows connected rooms",
+      "passed": true
+    },
+    {
+      "name": "actual sleep shortcut records sleep despite the preserved inactive Erin record",
+      "passed": true
+    },
+    {
+      "name": "five actual game minutes recover fatigue without healing or inventing touch",
+      "passed": true
+    },
+    {
+      "name": "bed sleep survives reload",
+      "passed": true
+    },
+    {
+      "name": "composer wake command stops actual sleeping state",
+      "passed": true
+    },
+    {
+      "name": "AI-off actual accepted-petting controls deliver 25% stage dialogue",
+      "passed": true
+    },
+    {
+      "name": "AI-off actual accepted-petting controls deliver 50% stage dialogue",
+      "passed": true
+    },
+    {
+      "name": "AI-off actual accepted-petting controls deliver 75% stage dialogue",
+      "passed": true
+    },
+    {
+      "name": "AI-off actual accepted-petting controls deliver 95% stage dialogue",
+      "passed": true
+    },
+    {
+      "name": "active stay tracker shows human-readable remaining time",
+      "passed": true
+    },
+    {
+      "name": "AI remained disabled with no attempted provider request",
+      "passed": true
+    },
+    {
+      "name": "no uncaught browser errors",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "blockedProviderRequests": 0
+}

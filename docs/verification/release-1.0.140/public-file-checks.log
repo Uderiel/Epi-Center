@@ -1,0 +1,6 @@
+Compared 50/276 public files
+Compared 100/276 public files
+Compared 150/276 public files
+Compared 200/276 public files
+Compared 250/276 public files
+{"passed":true,"matched":276,"total":276,"bibleExact":true,"workerHealth":{"service":"Epi-Center AI","releaseVersion":"1.0.135","protocolVersion":"grounded-turn-v1","relationshipVersion":"directed-pair-v2","contextVersion":"scene-contract-v1","inspectionVersion":"provider-request-audit-v1","actionProtocol":"npc-actions-v1","requestAssemblyVersion":"request-handoff-v11","configured":true},"failures":[]}

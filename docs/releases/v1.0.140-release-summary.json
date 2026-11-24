@@ -2,7 +2,7 @@
   "version": "1.0.140",
   "baselinePublicClient": "1.0.139",
   "mainBase": "b62c44fa746129324031c73287ef7ccad9184170",
-  "status": "Locally verified; publication underway",
+  "status": "Published and publicly verified",
   "workerChanged": false,
   "expectedWorkerAssembly": "request-handoff-v11",
   "newPublicationPaidCalls": 0,
@@ -36,5 +36,30 @@
       "Phone UI test opens Priya\u2019s actual interaction view before discussing stay"
     ],
     "allFinalChecksPass": true
+  },
+  "runtimeCommit": "200df83ace5b892ad7f709f73d968d29edcce129",
+  "publicURL": "https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.140",
+  "publishedAt": "2026-11-24T10:35:13.131712+00:00",
+  "pagesRun": 45375274451,
+  "pagesConclusion": "success",
+  "publicMatchedFiles": 276,
+  "publicBrowserSuites": 19,
+  "publicBrowserChecks": 136,
+  "bibleExact": true,
+  "workerHealth": {
+    "service": "Epi-Center AI",
+    "releaseVersion": "1.0.135",
+    "protocolVersion": "grounded-turn-v1",
+    "relationshipVersion": "directed-pair-v2",
+    "contextVersion": "scene-contract-v1",
+    "inspectionVersion": "provider-request-audit-v1",
+    "actionProtocol": "npc-actions-v1",
+    "requestAssemblyVersion": "request-handoff-v11",
+    "configured": true
+  },
+  "verificationTransport": {
+    "initialNodeConnectionsFailed": true,
+    "resolvedWith": "Proxy-aware curl for byte comparisons and worker health; Chromium for browser flows",
+    "runtimeChangedForTransport": false
   }
 }

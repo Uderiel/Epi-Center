@@ -1,0 +1,17 @@
+{
+  "version": "1.0.140",
+  "runtimeCommit": "200df83ace5b892ad7f709f73d968d29edcce129",
+  "published": true,
+  "pagesRun": 45375274451,
+  "publicFilesMatched": 276,
+  "localBrowserSuites": 19,
+  "publicBrowserSuites": 19,
+  "publicChecks": 136,
+  "nodeCases": 2493,
+  "nodeSuites": 177,
+  "workerChanged": false,
+  "newPaidCalls": 0,
+  "ownerSavesUsed": false,
+  "remaining": "Advanced obedience-collar/kennel transaction design and location UI pilot; broad raw-model acceptance",
+  "modelAcceptance": "Raw model accuracy remains incomplete; source-safe fallbacks required."
+}
