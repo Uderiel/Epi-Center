@@ -1,0 +1,40 @@
+{
+  "scope": "Approved gender composition for ranked Room B stands; four store-produced initial form identities remain to design",
+  "regression": {
+    "cases": 2259,
+    "suites": 178,
+    "failed": 0
+  },
+  "newControllerCases": 8,
+  "priorControllerCasesRetested": 22,
+  "browser": {
+    "checks": 3,
+    "passed": true,
+    "errors": [],
+    "evidence": "work/repository-display-gender/browser.json"
+  },
+  "syntax": {
+    "modulesChecked": [
+      "rebuild/hub/repository-display.js",
+      "rebuild/hub/repository-display-ui.js"
+    ],
+    "passed": true
+  },
+  "sourceManifest": {
+    "rebuild/hub/repository-display.js": "3913de1bc47375014e66e208d3bdca8e333bbaae7201596d4a0b6b8908f34efe",
+    "rebuild/hub/repository-display-ui.js": "86f10bb6c9bfb090b9821e77fea0fe0d66f49644677d07d89fae6f90b407e690",
+    "rebuild/hub/repository-display-gender.test.js": "d6db11c8daa466efc4bb4106bccd15054e8bc4be9d83b6ee4656a130de6eab85",
+    "rebuild/hub/repository-display-bank.test.js": "d2908c26a475d895a56123b240051e9d8577f87e3d14a0476949c72cc64306bf",
+    "rebuild/hub/location-details.js": "c938ca95a6e2639e4af366895f6ce91c27b88f969ef30824ab33a101bcbf45f0",
+    "rebuild/hub/player-guide.js": "d295fdeddfd60846f7d0c4a328b2a7d5c3c711cd1070a9a8e84dd1bbf3b309ed"
+  },
+  "remaining": [
+    "Four initial store-produced form identities and full templates",
+    "Stock, prices, actual checkout and authored form artwork",
+    "Underlying usage/popularity formula and authoritative activity data"
+  ],
+  "published": false,
+  "paidCalls": 0,
+  "ownerSaveUsed": false,
+  "workerDeployed": false
+}

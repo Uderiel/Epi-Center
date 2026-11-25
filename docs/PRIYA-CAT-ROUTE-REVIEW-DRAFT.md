@@ -1,3 +1,7 @@
+## Owner-directed deferral — Priya’s cat forms
+
+Preeti and Pri (spoken as “Preity and Pre”) are explicitly added to the unfinished-work tracker asD24. Further design/build/integration and full acceptance are deferred while the current Repository male/female Uncommon opening pair is developed. Preserve existing approvals, implementation, verification history and saved player state; “deferred” does not mean earlier implemented behavior never existed or authorize deleting it. Resume when the owner returns to these cat forms; no forest dependency or date is inferred.
+
 ## v1.0.105 implementation update
 
 The approved first cat/daily-life package is implemented; see [current implementation and limits](PRIYA-CAT-IMPLEMENTATION.md) and [acceptance checklist](V1.0.105-OWNER-ACCEPTANCE.md). Earlier draft/deferred statements below describe previous checkpoints. Publication evidence belongs in CURRENT-STATUS.md.

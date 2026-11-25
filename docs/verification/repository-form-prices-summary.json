@@ -1,0 +1,46 @@
+{
+  "scope": "Owner universal form rarity price ladder; Arousal scaling direction recorded, exact formula pending review",
+  "regression": {
+    "cases": 2264,
+    "suites": 179,
+    "failed": 0
+  },
+  "newControllerCases": 5,
+  "focusedExistingCasesRetested": [
+    "repository-pricing",
+    "repository-display",
+    "repository-display-bank",
+    "repository-display-gender"
+  ],
+  "browser": {
+    "checks": 3,
+    "passed": true,
+    "errors": [],
+    "evidence": "work/repository-form-prices/browser.json"
+  },
+  "syntax": {
+    "modulesChecked": [
+      "rebuild/hub/repository-pricing.js",
+      "rebuild/hub/repository-display.js",
+      "rebuild/hub/repository-form-prices.test.js"
+    ],
+    "passed": true
+  },
+  "sourceManifest": {
+    "rebuild/hub/repository-pricing.js": "ceaf20067e50b5d4482aa7ca6a77b2aa49eb219c256a5e21936d4655b6b0afe7",
+    "rebuild/hub/repository-display.js": "3650b15f3e6240431aeb5d617b3e9e8582e182f1f746b79def3ab6c8b577f832",
+    "rebuild/hub/repository-form-prices.test.js": "2df001feb1b89e9354bde78c769824411444ed04cb0e5412c2340feacf13ea46",
+    "rebuild/hub/repository-display.test.js": "d3d1230867a22b9e790973eaac2d1e23834f00b4fdd50d2eb1ca56cc961436ef",
+    "rebuild/hub/repository-display-bank.test.js": "0dc7b3e4fb11bb20c443616e7f348954ab7544484a19ed52bceac4613af4d822",
+    "rebuild/hub/repository-display-gender.test.js": "a98e0681b0f32ef06a91c034524dc27446687322520075e3b1298cdaa24d6c1b"
+  },
+  "remaining": [
+    "Werewolf appearance and numeric draft review",
+    "Exact Arousal capacity formula/threshold integration and coordinated damage tuning",
+    "Four actual store-produced forms, sale custody and checkout"
+  ],
+  "published": false,
+  "paidCalls": 0,
+  "ownerSaveUsed": false,
+  "workerDeployed": false
+}

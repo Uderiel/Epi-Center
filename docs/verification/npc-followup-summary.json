@@ -1,0 +1,13 @@
+{
+  "published": false,
+  "inspectionHash": "c4dc41301c7744c055773da53f65b740c05856dd5f00d6de37253d3fcbeafd89",
+  "latestInputDeliveredCorrectly": true,
+  "exactAIFailureCauseConfirmed": false,
+  "isolatedRegressionCheckpoint": 1993,
+  "finalFocusedCases": 8,
+  "browserReplay": "AI enabled with simulated provider failure and replacement",
+  "realProviderTested": false,
+  "repositoryStaffIncluded": false,
+  "candidateRoot": "/workspace/epicenter-dialogue-fix",
+  "publicationApproval": "Pending; previous authorization UI-only"
+}

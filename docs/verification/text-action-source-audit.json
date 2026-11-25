@@ -5,7 +5,7 @@
     "Parameterized forms and deeper navigation branches require dedicated text/provider checks.",
     "No claim every natural-language phrase or every dynamic scene has browser coverage."
   ],
-  "buttonAttributeFamilies": 99,
+  "buttonAttributeFamilies": 114,
   "rows": [
     {
       "attribute": "data-activity-id",
@@ -43,6 +43,22 @@
       "attribute": "data-apartment-view",
       "files": [
         "rebuild/hub/erin-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-arcade",
+      "files": [
+        "rebuild/hub/repository-arcade-ui.js"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-arcade-id",
+      "files": [
+        "rebuild/hub/repository-arcade-ui.js"
       ],
       "sourceOccurrences": 1,
       "classification": "Contextual text bridge + original controller; per-scene availability applies"
@@ -101,7 +117,7 @@
         "rebuild/hub/equipment-ui.js",
         "rebuild/hub/priya-cat-ui.js"
       ],
-      "sourceOccurrences": 2,
+      "sourceOccurrences": 3,
       "classification": "Contextual text bridge + original controller; per-scene availability applies"
     },
     {
@@ -209,6 +225,22 @@
       ],
       "sourceOccurrences": 24,
       "classification": "Interface/developer control or selector metadata"
+    },
+    {
+      "attribute": "data-display",
+      "files": [
+        "rebuild/hub/repository-display-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-display-id",
+      "files": [
+        "rebuild/hub/repository-display-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
     },
     {
       "attribute": "data-drawer",
@@ -324,6 +356,30 @@
       "classification": "Contextual text bridge + original controller; per-scene availability applies"
     },
     {
+      "attribute": "data-form-tier",
+      "files": [
+        "rebuild/hub/form-tiers-ui.js"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-form-tier-id",
+      "files": [
+        "rebuild/hub/form-tiers-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-form-tier-step",
+      "files": [
+        "rebuild/hub/form-tiers-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
       "attribute": "data-form-transfer",
       "files": [
         "rebuild/hub/equipment-ui.js"
@@ -352,7 +408,7 @@
       "files": [
         "rebuild/hub/index.html"
       ],
-      "sourceOccurrences": 5,
+      "sourceOccurrences": 4,
       "classification": "Contextual text bridge + original controller; per-scene availability applies"
     },
     {
@@ -401,6 +457,22 @@
         "rebuild/hub/lip-cosmetics-ui.js"
       ],
       "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-lobby",
+      "files": [
+        "rebuild/hub/repository-lobby-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-lobby-id",
+      "files": [
+        "rebuild/hub/repository-lobby-ui.js"
+      ],
+      "sourceOccurrences": 1,
       "classification": "Contextual text bridge + original controller; per-scene availability applies"
     },
     {
@@ -455,6 +527,22 @@
       "attribute": "data-marketing-arg",
       "files": [
         "rebuild/hub/marketing-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-markus",
+      "files": [
+        "rebuild/hub/markus-ui.js"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-markus-appeal",
+      "files": [
+        "rebuild/hub/markus-ui.js"
       ],
       "sourceOccurrences": 1,
       "classification": "Contextual text bridge + original controller; per-scene availability applies"
@@ -684,9 +772,42 @@
       "classification": "Contextual text bridge + original controller; per-scene availability applies"
     },
     {
+      "attribute": "data-repository",
+      "files": [
+        "rebuild/hub/form-repository-ui.js"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-repository-id",
+      "files": [
+        "rebuild/hub/form-repository-ui.js"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-repository-retail",
+      "files": [
+        "rebuild/hub/repository-retail-ui.js"
+      ],
+      "sourceOccurrences": 1,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
       "attribute": "data-retail-id",
       "files": [
-        "rebuild/hub/burkes-retail-ui.js"
+        "rebuild/hub/burkes-retail-ui.js",
+        "rebuild/hub/repository-retail-ui.js"
+      ],
+      "sourceOccurrences": 2,
+      "classification": "Contextual text bridge + original controller; per-scene availability applies"
+    },
+    {
+      "attribute": "data-retail-voucher",
+      "files": [
+        "rebuild/hub/repository-retail-ui.js"
       ],
       "sourceOccurrences": 1,
       "classification": "Contextual text bridge + original controller; per-scene availability applies"
@@ -944,10 +1065,6 @@
     },
     {
       "file": "rebuild/hub/index.html",
-      "attributes": " id=\"tierXPForm\""
-    },
-    {
-      "file": "rebuild/hub/index.html",
       "attributes": " id=\"curedReallocation\""
     },
     {
@@ -975,6 +1092,14 @@
     {
       "file": "rebuild/hub/ai-ui.js",
       "name": "aiPhysicalContext"
+    },
+    {
+      "file": "rebuild/hub/aniya-compliments.js",
+      "name": "context"
+    },
+    {
+      "file": "rebuild/hub/aniya-social.js",
+      "name": "context"
     },
     {
       "file": "rebuild/hub/apartment-navigation.js",
@@ -1113,11 +1238,19 @@
       "name": "languageActionText"
     },
     {
+      "file": "rebuild/hub/lee-social.js",
+      "name": "context"
+    },
+    {
       "file": "rebuild/hub/marketing-ui.js",
       "name": "nadiaIntent"
     },
     {
       "file": "rebuild/hub/marketing.js",
+      "name": "context"
+    },
+    {
+      "file": "rebuild/hub/markus.js",
       "name": "context"
     },
     {
@@ -1197,6 +1330,30 @@
       "name": "relationshipGiftText"
     },
     {
+      "file": "rebuild/hub/repository-arcade-ui.js",
+      "name": "repositoryArcadeText"
+    },
+    {
+      "file": "rebuild/hub/repository-display-ui.js",
+      "name": "repositoryDisplayText"
+    },
+    {
+      "file": "rebuild/hub/repository-lobby-ui.js",
+      "name": "repositoryLobbyText"
+    },
+    {
+      "file": "rebuild/hub/repository-retail-ui.js",
+      "name": "repositoryRetailText"
+    },
+    {
+      "file": "rebuild/hub/repository-social-boundaries.js",
+      "name": "context"
+    },
+    {
+      "file": "rebuild/hub/repository-specialists.js",
+      "name": "context"
+    },
+    {
       "file": "rebuild/hub/richard-office.js",
       "name": "intent"
     },
@@ -1255,6 +1412,10 @@
     {
       "file": "rebuild/hub/transformation-history.js",
       "name": "text"
+    },
+    {
+      "file": "rebuild/hub/werewolf-form.js",
+      "name": "bloodlustContext"
     },
     {
       "file": "rebuild/hub/world-clock.js",

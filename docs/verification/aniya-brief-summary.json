@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-24",
+  "scope": "Unpublished Repository authoring; privacy/fidelity warnings and recognized boundary-triggered Aniya conduct, aura timing",
+  "completeNpc": false,
+  "published": false,
+  "workerDeployed": false,
+  "paidCydoniaCalls": 0,
+  "ownerSavesUsed": false,
+  "focused": {
+    "boundaryCases": 14,
+    "conductCases": 12,
+    "auraCases": 7,
+    "feedingCoreCases": 8
+  },
+  "browser": {
+    "cases": 17,
+    "passed": true,
+    "scriptErrors": [],
+    "providerAttempts": 0
+  },
+  "regression": {
+    "suites": 167,
+    "cases": 2155,
+    "failures": []
+  },
+  "limits": [
+    "Local controls and provider projection verified; no deployed Cydonia personality/full-day acceptance",
+    "Personal-compliment+5/follow-up not implemented at this checkpoint",
+    "Feeding core verified; feeding UI/text parity unfinished",
+    "Independent storage-focused routine unfinished",
+    "Anya not fully built; no numerical appearance proposals silently approved"
+  ],
+  "sourceHashes": {
+    "rebuild/hub/repository-social-boundaries.js": "2727bc0992815140074efb071a59a129a472303aecc29ad2524a7b46d5186e9f",
+    "rebuild/hub/aniya-conduct.js": "d14a1d83993a42ba8dfa39979947543e95d5e1da1d4c8c6b6640c21cc876210c",
+    "rebuild/hub/repository-aura.js": "89c501a8fe1949af1efd87e4d2816928e8e18cbdf9676ac6932d3e3512e356ca",
+    "rebuild/hub/scene-presence.js": "fce3f69b3bfb5059791eedef472416387ddbcadd7b0896bc84e02b05ab4e768b",
+    "rebuild/hub/social-ui.js": "3db4fb74c5c39699b9d396783c7b8b493ec4e499606d2ce4d449c88ea03cb1ab",
+    "rebuild/hub/relationship-interactions.js": "861e8d6cc2b84d26402361063e2f1a129fe696c3c0ce254d6589d5df524e2456",
+    "rebuild/hub/form-storage.js": "eb0fde74370c638534d2da441dad38f9f48f150f91b5c323253ba57dd0bcd473",
+    "rebuild/hub/form-repository.js": "2dfcfbb2848c1674dbfa1f08ddf837d5bb371543b17d1bb55b625596dc7c6215",
+    "rebuild/hub/form-repository-ui.js": "ede53e4d5af65839cf6d09a009069d9a34a1c348215c1bd15423d03b4571e360",
+    "rebuild/hub/equipment-ui.js": "afc3dd1a4a3aea568612ea8bf14dfee578cda004ed7ae9a336d7752ae60a1e67",
+    "rebuild/hub/sleeping-contact.js": "a86642fed2532f9e2e12b209275028d693b3cd260f28ad7ca85defb453cdb144",
+    "rebuild/hub/aniya-feeding.js": "4248c4704a3f7974ea43a6420743469592a9347d92248730f747e8bacdf5303d",
+    "rebuild/hub/arousal-feeding.js": "5b8a4086080ca214853be8a2ad91bb360fbfd866b49faa9ec3c0709443243631",
+    "rebuild/hub/ai-context.js": "e055dbd6fbea00c95cbb86bfc9894d4bb2f663424966d3ab8c3e5e884bc27dbd",
+    "services/ai/core.mjs": "a61496505c271f721f16baf03bf71ee2b7ff97cf574e7f205804a4906e00347d",
+    "services/ai/deploy-worker.mjs": "bb5f6f6be0ae85c2ecd3889fd139427f826fb25c1ce2a352c355c75d54c96dcd"
+  },
+  "status": "Approved slices locally wired; whole Aniya incomplete",
+  "activeCharacter": "Aniya Singh",
+  "passiveAuraImplemented": true,
+  "portraitGenerated": true,
+  "portraitApproved": true,
+  "portraitConnectedLocally": true,
+  "fullNpcRuntimeComplete": false,
+  "publicationHeld": true,
+  "historicalCheckpoint": {
+    "date": "2026-11-24",
+    "automatedCases": 2094,
+    "automatedSuites": 160,
+    "status": "Full12-section draft ready; owner-confirmed shared-room/nonstacking/inhibitors/defensive-sleep/wake/temporary-exclusion rules recorded; support actor only"
+  },
+  "currentEvidence": "docs/verification/aniya-live-acceptance-summary.json",
+  "historicalLocalCheckpoint": true
+}

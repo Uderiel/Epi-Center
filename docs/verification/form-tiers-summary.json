@@ -1,0 +1,72 @@
+{
+  "scope": "Approved post-mastery tiers within unchanged rarity; local gated foundation",
+  "rules": {
+    "caps": {
+      "Common": 0,
+      "Uncommon": 1,
+      "Rare": 2,
+      "Epic": 3,
+      "Legendary": 4
+    },
+    "attributeBonusPoints": {
+      "1": 2,
+      "3": 4
+    },
+    "abilityTiers": [
+      2,
+      4
+    ]
+  },
+  "regression": {
+    "cases": 2289,
+    "suites": 182,
+    "failed": 0
+  },
+  "newControllerCases": 13,
+  "browser": {
+    "scope": "390x844 actual browser, isolated synthetic save, AI disabled; no paid call or owner save",
+    "checks": [
+      "actual Common form UI has no post-mastery tiers and preserves banked XP",
+      "Uncommon starts at tier zero without changing rarity and production costs remain unconfigured",
+      "tier-one optional controls and typed stat selection grant the selected bonus once without blocking the composer",
+      "new XP allocation excludes Common and uses type-button controls outside nested forms",
+      "reload retains earned tier bonuses after QA policy removal without inventing another upgrade"
+    ],
+    "errors": [],
+    "passed": true
+  },
+  "syntax": {
+    "modules": 239,
+    "inlineScripts": 5,
+    "failures": []
+  },
+  "limitations": [
+    "Production XP costs are not registered; 150/300/600/1200 is a proposal only.",
+    "No production per-form ability is registered. Native effects, activation and duration/cooldown controllers require individual design and implementation.",
+    "QA costs 10/20/30/40 and form-local grant adapters are synthetic fixtures only.",
+    "Banked XP and legacy records preserved; legacy review/refund and conversion reset integrations remain pending.",
+    "Resource maxima and damage/cost tuning are not altered; existing effective attribute and combat snapshot consumers are reused.",
+    "No real form stock, checkout or werewolf transformation/mastery controller is created."
+  ],
+  "paidCalls": 0,
+  "ownerSaveUsed": false,
+  "published": false,
+  "sourceSHA256": {
+    "rebuild/hub/form-tiers.js": "a1847572003cd6c3193f2ed493efd49b6fd7d66315f4d99a6da4e65bd64d4ab1",
+    "rebuild/hub/form-tiers-ui.js": "c73cac323d73867fa9b4207fb3a9bd381f602c5c1d20c9b00524c41a4056a1b6",
+    "rebuild/hub/form-tiers.test.js": "900d5ce888bca9f60057a7792b7d5aed4d27537c589e0da34c877f575b91c6d6",
+    "rebuild/hub/equipment-regions.js": "3b820e9a58cac7350e061fdb8e5044d1e6e3b09226973e9d287300a905fdf41e",
+    "rebuild/hub/hangry-fangs.js": "704eff0ba476299aa925f9e8633757e3a08f9980b4b5007fc493570b32c73fee",
+    "rebuild/hub/hangry-fangs.test.js": "bddb3dc1716de40518aa8c841961477f6a21a10cbd28a3465ab42327d5d5a955",
+    "rebuild/hub/form-reference.test.js": "cf8d68f0489053fde1e9ea8fe3cde6954991b4267b6be30a71a41afcc8483513",
+    "rebuild/hub/index.html": "17bd590fdec6e72e7b8fbb0402d86b27fe4756a9259c25bf5a61d9237adbb33e",
+    "rebuild/hub/text-actions-ui.js": "9ce298879c4948fcdc1e1b606a0f3b060ebada1f0b28622fe5bdcdfa07fba78a",
+    "rebuild/hub/player-guide.js": "c650d2bb84be693d45486211e24c25a49b980973edc9d6f2c6bd7c45258ede5c"
+  },
+  "evidence": [
+    "work/form-tiers/regression.json",
+    "work/form-tiers/browser.json",
+    "work/form-tiers/syntax.json",
+    "docs/verification/text-action-source-audit.json"
+  ]
+}

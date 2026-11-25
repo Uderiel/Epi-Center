@@ -1,0 +1,39 @@
+{
+  "published": false,
+  "reportedVersion": "1.0.132",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "before": {
+    "applewoodHelpHitTest": false,
+    "toolsHeight": 30,
+    "helpBottom": 132,
+    "titleTop": 116
+  },
+  "after": {
+    "passed": true,
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "checks": [
+      "applewood pass 1: six controls in one row without duplicate Location; Help unobscured and real click answers",
+      "applewood pass 2: six controls in one row without duplicate Location; Help unobscured and real click answers",
+      "Central Hub N pass 1: six controls in one row without duplicate Location; Help unobscured and real click answers",
+      "Central Hub N pass 2: six controls in one row without duplicate Location; Help unobscured and real click answers",
+      "Typed Stamina question gives specific recovery guidance without changing resources",
+      "Existing location/interactions popup still opens with its contents"
+    ],
+    "errors": []
+  },
+  "unitEvidence": [
+    "player-guide.test.js:5 passing checks",
+    "play-encounter.test.js:34/34 plus feline check"
+  ],
+  "leeSection7": "Still proposed; no approval inferred from QA interruption",
+  "locationButtonRemoved": true,
+  "toolbarPixelsBeforeRemoval": 63,
+  "toolbarPixelsAfterRemoval": 31,
+  "allRemainingControlsHitTestPassed": true
+}

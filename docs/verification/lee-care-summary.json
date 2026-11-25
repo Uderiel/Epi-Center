@@ -1,0 +1,19 @@
+{
+  "published": false,
+  "wholeNpcComplete": false,
+  "careFocusedCases": 5,
+  "careBrowserChecks": 4,
+  "fullRegressionCheckpoint": 2032,
+  "scope": [
+    "staff fixtures",
+    "private finite outfit change",
+    "covered washing",
+    "shared finite serving consumption",
+    "saved bowl and spoon cleanup",
+    "backup and coverage interruption"
+  ],
+  "notImplemented": [
+    "garment laundering source",
+    "purchase and restock source"
+  ]
+}

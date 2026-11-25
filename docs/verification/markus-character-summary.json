@@ -1,0 +1,37 @@
+{
+  "scope": "Markus approved name and identity/character integration; full form lifecycle remains incomplete",
+  "regression": {
+    "cases": 2298,
+    "suites": 183,
+    "failed": 0
+  },
+  "newCharacterCases": 6,
+  "browser": {
+    "scope": "390x844 browser module/profile/provider assembly, isolated QA save; no real acquisition, paid generation or owner save",
+    "checks": [
+      "browser native name appearance and conscious profile load without an invented routine",
+      "actual provider packet carries approved Markus identity and private character boundaries without a paid call",
+      "reload retains character context mastery XP and spent resources"
+    ],
+    "errors": [],
+    "passed": true
+  },
+  "syntaxAndWhitespace": "PASS: four changed runtime modules; git diff --check",
+  "paidCalls": 0,
+  "ownerSaveUsed": false,
+  "published": false,
+  "limitations": [
+    "Synthetic completed owned form used as fixture, not evidence of native purchase/transformation/mastery.",
+    "No new NPC actor or live stock.",
+    "Actual routine and clothing preferences explicitly unfinished; no native autonomous adapter.",
+    "Relationship scoring and contact rules, combat moves, acquisition and release remain pending.",
+    "Provider packet assembly verified, not a paid live prose acceptance."
+  ],
+  "sourceSHA256": {
+    "rebuild/hub/werewolf-form.js": "f47d2ed7eae767e2de5503de276288dbbe3d580ba4d492a82981ad2abddc384c",
+    "rebuild/hub/werewolf-appearance.js": "689b81b57b9c5c5f42aad625975f328f46d1ed832abd895574cf4935de282c98",
+    "rebuild/hub/form-living.js": "3aaafc12ed963e7b733835a985ad8bac8f23deab8622104f770399baf2257d9a",
+    "rebuild/hub/ai-context.js": "9cdfdc6758c842f98f336db573f6cf5387bd024efbff653246d42a500ed0ab33",
+    "rebuild/hub/markus-character.test.js": "19853f4f7c2724babe222a482fa71648d2a94fc70207d7aeca6ff6c5c2be664a"
+  }
+}

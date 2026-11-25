@@ -1,0 +1,40 @@
+{
+  "scope": "Lee current24-field template in real390x844 unpublished UI; synthetic slot only",
+  "checks": [
+    {
+      "name": "actual scene displays new tail ears small horns thick red skin and red sclera",
+      "passed": true
+    },
+    {
+      "name": "approved Lee portrait loads and links to the exact saved image",
+      "passed": true
+    },
+    {
+      "name": "browser record has all24 current ordered fields and retains approved measurements",
+      "passed": true
+    },
+    {
+      "name": "reload retains current NPC description and separate untouched player body",
+      "passed": true
+    },
+    {
+      "name": "actual browser dialogue packet carries the updated Lee facts without full unknown-field dump",
+      "passed": true
+    },
+    {
+      "name": "actual care consumption raises Lee skin temperature without warming the player",
+      "passed": true
+    },
+    {
+      "name": "104-degree state survives reload until minute59 and clears at minute60",
+      "passed": true
+    },
+    {
+      "name": "no script errors or paid-provider attempts occurred",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "providerAttempts": 0,
+  "passed": true
+}

@@ -1,0 +1,40 @@
+{
+  "scope": "Feral Markus persona correction, stale private-history exclusion, owner policy records and pure 30-day helper; not native forest/conquest/lunar execution",
+  "focused": {
+    "cases": 135,
+    "suites": 6,
+    "failed": 0
+  },
+  "browser": {
+    "scope": "390x844 browser module/profile/provider assembly, isolated QA save; no real acquisition, paid generation or owner save",
+    "checks": [
+      "browser native name appearance and conscious profile load without an invented routine",
+      "actual provider packet carries corrected feral Markus identity and private sensory boundaries without a paid call",
+      "reload retains character context mastery XP and spent resources"
+    ],
+    "errors": [],
+    "passed": true
+  },
+  "newFeralPolicyCases": 6,
+  "updatedCharacterCases": 7,
+  "syntaxAndWhitespace": "PASS: changed runtime modules and git diff --check",
+  "paidCalls": 0,
+  "ownerSaveUsed": false,
+  "published": false,
+  "limitations": [
+    "Northern forest, prey, pack finding and actual activity controllers are unbuilt.",
+    "Roll-mode policy is recorded and shared dice behavior is verified, but no native activity-to-conquest adapter is running.",
+    "Conquest helper requires a supplied start and calculates 43200 game minutes; initial trigger and irreversible expiry outcome await owner decision.",
+    "Pack/hunting overlap precedence remains unresolved.",
+    "Month calendar, three-night anchor, native auto-application from inventory/Repository, replacement and dawn restoration remain unbuilt.",
+    "Earlier human persona/routine is superseded; old history is saved but excluded from current Markus context.",
+    "No actual stock, acquisition, transformation, permanent binding or autonomous actions were performed."
+  ],
+  "sourceSHA256": {
+    "rebuild/hub/werewolf-form.js": "df9995497b5302c2039cd84c322ec5c32e710b2208d4ec5d6b6f48bccd5cb43b",
+    "rebuild/hub/form-living.js": "0a8868de14c969135b1f7b3735f2b57b08e6baa0c411e06d59cbc8c7b6fee7f4",
+    "rebuild/hub/ai-context.js": "3f4dbab9639df2c71c3acab58e2936564ebba74fc5b3cb13c36a0e8f5d5da68e",
+    "rebuild/hub/markus-character.test.js": "cb6508e2cb4e11ea8984087b4d802015ad0613e536ff8fcca0a2a3b8c59efe58",
+    "rebuild/hub/markus-feral.test.js": "8230eb065457062f467d47ab1bdc1bf63cdb21db4129884d4441a1dab541379c"
+  }
+}

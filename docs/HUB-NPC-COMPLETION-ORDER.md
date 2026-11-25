@@ -1,3 +1,39 @@
+## Current owner direction — Markus deferred; two testable opening forms
+
+Markus, the entire male werewolf form, is explicitly deferred until the northern forest, prey/pack systems and a real environment for integrated testing are built. Preserve his approved template, existing prototype code and verification history. Do not include him in opening sale stock, continue his design, or present his component tests as completed forest integration. Revisit and finish him with the forest build. See unfinished-work entriesD21/D22 in DEFERRED-SYSTEMS-TRACKER.md.
+
+Current Repository opening plan: design and incrementally wire/test one male Uncommon form and one female Uncommon form that work with the existing map and interfaces. Both are store-produced and unmastered at sale; the universal Uncommon base price remains7000gold before applicable discounts. Species, appearance, exact attributes, capacities and individual mechanics still need design; no identities or stock quantities are invented. Two of the four sale slots remain open for later map/content expansion. This supersedes the earlier plan to finish four opening forms now with Markus first. Existing display, checkout, resource, mastery and calendar systems remain available. Track the current pair and later slots asD23.
+
+## Current four-staff social integration — local, unpublished
+
+Owner now directs Repository facility design next and explicitly defers service/pricing/sale-stock acceptance until that build. Lee and Aniya retain their existing controllers; Anya and Spectra now have persistent actors, approved portraits, scoped dialogue/memory and shared social hooks. Spectra’s selected scar disclosure, slow relationship limits, player contact threshold and actual backup availability are wired; Anya’s parent-aware warnings, three-offense conduct, recognition and customer initiation are connected. All six staff pairings have actual ambient dialogue paths. No arbitrary tools, completed services, stock or hidden backstory may be supplied by dialogue.
+
+Verification: **2204checks/173suites,58backend checks,10phone-width checks pass**. Twelve paid Cydonia calls cost$0.01454960; captured verbosity, invented-work-history and single-quoted-narration failures were patched and retained in regression evidence. Bounded live samples do not prove all open language. All-six-pair controller/browser coverage is separate from the two paid Lee/Aniya authored-delivery selections.
+
+Written templates are closed for this stage. Paid services, catalog/pricing, actual Spectra reward/summon/spectral combat adapter, Anya’s special quest/arrangement controllers and autonomous family physical comfort remain unimplemented or dependent; do not claim full NPC runtime completion. Current records: ANYA-SINGH-COMPLETION-REVIEW.md, SPECTRA-COMPLETION-REVIEW.md and REPOSITORY-FOUR-STAFF-VERIFICATION.md. Preserve the newer public baseline and later release gate. No owner save, commit, push, worker deploy or publication.
+
+## Earlier resource-only checkpoint — superseded by the four-staff integration
+
+Owner approved base resource bands and the shared attribute formula, then directed applying it to existing NPCs/forms for the next publication. The local candidate now derives Health/Stamina/Resolve through the shared engine and reconciles NPCs, owned forms, current-body UI, encounter snapshots and recovery caps without restoring spent resources. Charity425/420/450; Lee335/335/345; Aniya425/425/435; Kibbles130/135/120; Erin120/120/130. Anya425/425/425and Spectra550/550/535are reference/registered profiles only, not newly created live actors. Future Michael remains Common with no invented attributes. Other actors without an authored combat profile are not given guessed attributes or new combat behavior.
+
+Verification: **2,179cases/172suites,58AI-backend checks,11new resource-profile cases included in regression,6phone-width checks; all pass**. No owner save or paid call. Source/evidence: `verification/combat-resource-tiers-summary.json` and `COMBAT-RESOURCE-TIER-PROPOSAL.md`. Arousal and damage/cost/resistance tuning remain open. Base-human creation and earned attributes are unchanged; Erin retains existing current-resource ownership. Existing wounds, depletion, mastery and ownership persist through reloads/form changes; valid modifiers can exceed base ceilings.
+
+At that resource-only checkpoint Spectra was still in character review and had no actor. The later four-staff integration supersedes that status; her playable summon and paid services remain pending. Keep family/facility sequencing and later public-v1.0.140 integration; do not publish this older authoring checkout or replace the deployed worker. No commit, push, deployment or publication occurred. Earlier checkpoints below are historical where superseded.
+
+# Current owner-directed sequence — 2026-11-24
+
+Owner now directs Aniya Singh after Lee’s latest approved character/portrait slice, then Anya → Spectra → Form Repository layout/service design → combined testing → publication. Do not publish Lee separately. Facility stock/pricing, gift and praline procurement, chips and home display stands are later dependencies; they do not require inventing services before finishing the characters. Keep approved incremental character work wired and tested. Current checklist: ANIYA-SINGH-COMPLETION-REVIEW.md. Lee’s current-baseline/whole-facility/real-model acceptance remains deferred until combined testing.
+
+Aniya's approved mechanics are implemented: portrait/24groups, Epic/arousal, gifts and personal-compliment+5/follow-up, familiarity, discounts/shared negatives, aura, conduct, voluntary feeding controls/text and independent custody review. Quiet/offscreen peers, full1440-minute shared-clock phone play/reload and live model-selected authored delivery are tested. Whole-NPC/open-ended dialogue acceptance remains incomplete; draft-only character wording and later facility dependencies are explicit in her12-section matrix. See verification/aniya-live-acceptance-summary.json; the older boundary summary is historical component evidence. Nothing published.
+
+Owner has begun Anya’s design discussion while Aniya’s focused tests run. ANYA-SINGH-DESIGN-BRIEF.md captures her confirmed adult character, curse expertise, desire for freedom and proposed-to-be-resolved feeding/influence mechanics. This is a design record, not a started Anya runtime or service implementation.
+
+The public baseline is v1.0.140 in the separate release workspace. The Repository authoring checkout is older and must be integrated carefully, preserving later repairs. No push or deployment is authorized at this stage.
+
+The earlier business-order and Charity/Tits notes below are historical context where they conflict with this current sequence; they do not restore Charity as the active character.
+
+---
+
 ## Current owner clarification — ordinary disguise; quest deferred
 
 Ordinary mask coverage is a voluntary **appearance-disguise service**, comparable to an advanced skinsuit, not an opposing living form trying to erase the player. The player borrows Charity’s appearance at her request. There is **no independent Charity consciousness, control contest, Resolve challenge, identity erosion or ordinary mastery challenge** from this mask. Preserve player agency and original identity. Do not copy Charity’s private memories or invent new compelled behavior from the disguise.

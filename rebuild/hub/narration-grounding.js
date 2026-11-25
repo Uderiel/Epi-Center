@@ -22,6 +22,7 @@ function validate(text,facts,experience=null){if(facts?.source!=='priya-flats')r
 function validateDialogue(text,actor,history=[]){const t=String(text||''),issues=[];
  const first=/^\s*(?:[*_]+)?(Priya|Nadia|Richard|Daniel|Charity|Eve)\s+(?:looks?|looked|glances?|glanced|smiles?|smiled|says?|said|leans?|leaned|adjusts?|adjusted|pushes?|pushed|swivels?|swiveled)\b/i.exec(t);
  if(first&&!actor.name.toLowerCase().startsWith(first[1].toLowerCase()))issues.push('The reply speaks as another character. Speak only as '+actor.name+'.');
+ const normalized=value=>String(value||'').toLowerCase().replace(/[\W_]+/g,' ').replace(/\s+/g,' ').trim(),norm=normalized(t);if(norm.split(' ').length>=6&&history.some(h=>h.role==='assistant'&&normalized(h.content)===norm))issues.push('This exactly repeats a previous reply. Answer the latest message directly without recycling a generic clarification.');
  const words=value=>String(value||'').toLowerCase().replace(/[^a-z0-9 ]/g,' ').split(/\s+/).filter(Boolean),tokens=new Set(words(t));
  if(tokens.size>=18)for(const h of history.filter(x=>x.role==='assistant')){const prev=new Set(words(h.content));if(prev.size<18)continue;const common=[...tokens].filter(x=>prev.has(x)).length;if(common/Math.max(tokens.size,prev.size)>=.78){issues.push('This repeats a previous reply. Answer the current question and continue the actual conversation without restarting.');break;}}
  return issues;

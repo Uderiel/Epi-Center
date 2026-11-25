@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-24",
+  "status": "Owner-approved blocks implemented and locally verified; unpublished",
+  "workspace": "Older Repository authoring checkout; integrate with public v1.0.140 before publication",
+  "automatedCases": 2080,
+  "automatedSuites": 158,
+  "failures": [],
+  "backendCasesIncluded": 58,
+  "browserChecks": 42,
+  "ownerSavesUsed": false,
+  "paidCalls": 0,
+  "workerDeployed": false,
+  "wholeNpcComplete": false,
+  "actualProviderProseAccepted": false,
+  "buildOrder": [
+    "Lee character scope",
+    "Aniya and Anya",
+    "Spectra",
+    "Facility layout and services",
+    "Combined testing",
+    "Publication"
+  ],
+  "focusedCases": 10,
+  "scope": "Concise period voice; Repository-wide10percent at50 and15percent at75; highest only; free storage/deposit/withdrawal",
+  "paidCheckoutBuilt": false,
+  "futureDependencies": [
+    "Real paid Repository checkouts must use shared pricing and validation",
+    "Chip estimated10000gold/maximum3 per player; effects/cap interpretation deferred",
+    "Display stands/home design deferred",
+    "Original chat-upload layout image not retrieved or visually reinspected"
+  ],
+  "sourceHashes": {
+    "rebuild/hub/repository-pricing.js": "d817adbe4cda684b5b42ff0abb052f9393a56a93de46017a22515220a1d3059f",
+    "rebuild/hub/repository-pricing.test.js": "f43626ca67a0c46bf915d30d022ee5c90de97cadfec78791c16baf28686151f7",
+    "rebuild/hub/lee-social.js": "9a32a51b7b9e3cfab59d87509810697b3362e41ff42677486c0302df4e89cab6",
+    "rebuild/hub/location-details.js": "d7ef8ff6c2153bebbcc3cdca731443aaac3d204ee914820fafc1cb006c568b5a",
+    "rebuild/hub/form-repository.js": "e69be5b145b6904c1693bae2260b484f1b7d8ffcda21a0b10b84979a02b82eae",
+    "rebuild/hub/form-repository-ui.js": "8f68455e2088e8dbdc4377440825ee2532bf508f291efbb3738aa2756d837315",
+    "rebuild/hub/ai-context.js": "e07e1de449ef19fd61a676dcea1e8e722ac29b25a4dd5601a443a97a97611d9f",
+    "services/ai/core.mjs": "72adc42cfdfcf5210aa1099a7b7665d33b3d59f13f49c9b9c40d705d277689d5",
+    "services/ai/deploy-worker.mjs": "82408e7ad301e7b20b7af54ff1fc4132075cd9b2eca56cc47a71944e79efb940"
+  },
+  "latestIntegratedAuthoringVerification": {
+    "cases": 2087,
+    "suites": 159,
+    "failures": [],
+    "additionalAppearanceBrowserChecks": 5,
+    "evidence": "lee-appearance-summary.json"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "status": "Owner-approved section7 implemented and locally verified; unpublished",
+  "activeCharacter": "Lee Singh only",
+  "publishedBaseline": "v1.0.140 is separate; this older authoring workspace must be reconciled before publication",
+  "newSocialCases": 16,
+  "automatedCases": 2057,
+  "automatedSuites": 156,
+  "newBrowserChecks": 13,
+  "existingBrowserChecks": 16,
+  "newPaidCalls": 0,
+  "ownerSavesUsed": false,
+  "wholeNpcComplete": false,
+  "actualProviderProseAccepted": false,
+  "remaining": [
+    "Section8 manager/service policy",
+    "Section9 explicitly not applicable unless owner adds a route",
+    "Section10 final integrated live-provider and privacy acceptance",
+    "Section11 full-life migration and isolation on current release baseline",
+    "Section12 complete-day/continuous play/mobile/owner acceptance",
+    "Earlier-section appearance alignment, proportional routine cadence and supply/laundry sources"
+  ],
+  "localWorkerChanged": true,
+  "workerDeployed": false,
+  "sourceHashes": {
+    "rebuild/hub/lee-social.js": "e5ff9c902f8a9720c9a7e0a0040ed87c5e71bb495878ef57294c21099888f8d5",
+    "rebuild/hub/lee-social.test.js": "ee607c5557a1ca8b16eb728a5b79dc53da6de9c344e2b9e4384025e338506393",
+    "rebuild/hub/form-repository.js": "c4acc633357e9f28b72763fea432b5ef68e336a82e3c1e74b99f351af7d4ba8a",
+    "rebuild/hub/lee-breaks.js": "81508e0783a96f9f21e4f5e6996bd1c084ef15ab3f94b6744a1eb477da529adc",
+    "rebuild/hub/location-details.js": "5e30d01321fee19a1c6f41e9ff6279325025781b5181f58ae2d76817fa64d013",
+    "rebuild/hub/ai-context.js": "21d8050847c6e67813e81aebef257e2c21f132194297dca49a2f41b4f88329cb",
+    "rebuild/hub/ai-ui.js": "6747439253c697b7eeac0daca9a9fba48fdfaeed9b67067ee518fa56de844a37",
+    "services/ai/core.mjs": "ade82b883d5e7b6feae517965e598a9107cac1a8766ca5ef4b0c4189cc6a5335",
+    "services/ai/deploy-worker.mjs": "8a73cf4d9d4a4a0fa05ee6b93ef52f7c1c50852995baf03057127a549b2bfdad"
+  }
+}

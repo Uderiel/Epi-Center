@@ -9,7 +9,7 @@ const sensations={pet:['Fingers part the fur in a slow stroke. Contact shifts ac
 function state(s){s.world||={};const q=s.world.priyaCat||={schema:1,phase:'none',formId:null,linked:false,lastMinute:now(s),sequence:0,history:[],signals:[],offers:[],counts:{},collar:{equipped:false,belief:0,presentMinutes:0,checkMinutes:0,protestMinutes:0,threshold:50,protesting:false},pet:{food:12,bowl:0,water:true,litterDirty:0,items:{},filled:{}},wallet:{gold:60,transactions:[]}};q.history||=[];q.offers||=[];q.counts||={};return q;}
 function isCat(f){return !!f&&(f.bodyType==='feline'||f.species==='cat'||f.livingProfile?.bodyType==='feline');}
 function active(s){const q=s.world?.priyaCat;return !!q?.linked&&s.activeForm===q.formId&&!!s.forms?.[q.formId]?.completedTransformation;}
-function form(s){const id=state(s).formId,f=s.forms?.[id]||null;if(id===ID&&f)Engine.migrateAttributeProfile(f,ID);return f;}
+function form(s){const id=state(s).formId,f=s.forms?.[id]||null;if(f)Engine.reconcileResourceProfile(f,id,{rarity:f.rarity,attributes:f.attributes});return f;}
 function record(s,kind,text,at=now(s)){const q=state(s);q.history.push({id:++q.sequence,kind,text,at});q.history=q.history.slice(-120);return {minutes:0,text};}
 function sensory(s,kind){const q=state(s),a=sensations[kind]||sensations.rest,n=q.counts[kind]||0;q.counts[kind]=n+1;return a[n%a.length];}
 function humane(s){if(s.encounter?.active||s.world?.priyaFlats?.active||!F.capabilities(s).speech)throw Error('Discuss the agreement in a speaking body outside an encounter.');P.guard(s);if(!awake(s,'npc:priya'))throw Error('Priya needs to be awake and available for that conversation.');}

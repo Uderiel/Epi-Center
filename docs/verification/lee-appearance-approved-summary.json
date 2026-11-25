@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-24",
+  "status": "Detailed Lee appearance proposal and portrait owner-approved; locally wired; unpublished",
+  "fieldGroups": 24,
+  "focusedAppearanceTemperatureCases": 9,
+  "automatedCasesAtLeeCheckpoint": 2089,
+  "automatedSuitesAtLeeCheckpoint": 159,
+  "leeBrowserChecks": 8,
+  "earlierSocialPhysiologyPricingBrowserChecks": 42,
+  "browserErrors": [],
+  "paidCalls": 0,
+  "ownerSavesUsed": false,
+  "portraitApproved": true,
+  "portraitConnectedLocally": true,
+  "temperature": {
+    "baselineF": 102,
+    "afterActualIceCreamF": 104,
+    "durationGameMinutes": 60,
+    "boundaryReloadAndReplayTestsPassed": true
+  },
+  "publicationHeld": true,
+  "wholeRepositoryAcceptanceComplete": false,
+  "realLeeProviderAcceptanceComplete": false,
+  "nextOwnerDirectedCharacter": "Aniya Singh",
+  "sourceHashes": {
+    "rebuild/hub/lee-appearance.js": "e4c2b0a26be7710b07f06f293781ffa5492be20b46771675b1842c07706eb1a4",
+    "rebuild/hub/lee-appearance.test.js": "3e7ec0404a6c670ce808576c86f7a3258b268e16ab7acff51fabf826a1ecad4f",
+    "rebuild/hub/repository-physiology.js": "f50777146b1835b89a8ded20ca9993870a72e5e291a50362253165f629877352",
+    "rebuild/hub/served-items.js": "deca03a80c901b01d8f62289e043d09d7754680868175397e82871b8a78ccb28",
+    "rebuild/hub/location-details.js": "55050664a1239c6a9c2045cc1d9610ef9343b7273ca4e607213ed15d949f8cc5",
+    "rebuild/hub/form-repository.js": "e18f68f69d57f70d3551e7fa2331c406a87ff9fe07d11b5c3437d4a5d48d53b3",
+    "rebuild/hub/form-repository-ui.js": "76a4b7c88dcb16c5d11606ea44dd338962793967d3cc73a3aeb61580f38cbccb",
+    "rebuild/hub/ai-context.js": "faea49e98efe76f41b27a0720a18d08d5b65ed63db791125031dc42e7f696ce0",
+    "services/ai/core.mjs": "dcf6464b96baff043d837234280cb12c2a8f005591178d654b09a18c154bd950",
+    "services/ai/deploy-worker.mjs": "99e5be5a3bca9d05e3c49def8df71f85f437b65cb4d81b99e1072ce3f037ee4d",
+    "rebuild/hub/assets/character-art-review/lee-singh-v1.png": "ed1480d2577d0111d3766e6496265effd9946b1ce108da9134bb0ee0eaae1915"
+  },
+  "latestCombinedAuthoringVerification": {
+    "automatedCases": 2094,
+    "automatedSuites": 160,
+    "failures": [],
+    "scope": "Lee approved appearance/portrait/temperature plus recorded Aniya brief; no full Aniya runtime or passive aura acceptance"
+  }
+}

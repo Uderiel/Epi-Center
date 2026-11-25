@@ -1,0 +1,35 @@
+{
+  "published": false,
+  "section": "Lee NPC template2: character/voice",
+  "ownerApproved": true,
+  "approvedThreshold": 25,
+  "implemented": [
+    "Full approved character/voice fields and examples in canonical staff profile",
+    "Varied AI-off reactions and final provider dossier",
+    "Wary interpersonal attention and two actual registration checks below25; standard verification at25+",
+    "Identical ownership, access and security criteria at every score",
+    "Shared text/menu registration controller and saved reviews",
+    "Permanent concise-expansive draft and progress-update rules"
+  ],
+  "verification": {
+    "focusedCharacterCases": 5,
+    "backendCases": 58,
+    "isolatedRelationshipCases": 22,
+    "browser": {
+      "passed": true,
+      "checks": [
+        "Typed entry and direct public Lobby-to-Reception route reach actual Lee without entering storage",
+        "Lee answers actual directed speech and max affinity leaves storage locked across menu/text",
+        "Actual typed mouth-to-mouth feeding completes through the normal game clock, consumes ten once and survives reload",
+        "Recorded logs/footage and actual available QA update are reviewed offscreen once; reload preserves maintenance, customer presence interrupts it, security remains locked",
+        "Actual typed registration below25 gets a saved double-check; menu registration at25 gets standard checks; storage never unlocks and reviews survive reload"
+      ],
+      "errors": [],
+      "scope": "Lee active development slice; synthetic slot3; AI off; no paid model call or owner save"
+    }
+  },
+  "paidModelCalls": false,
+  "ownerSaves": false,
+  "overallLeeComplete": false,
+  "nextSection": "3: capabilities and physical profile"
+}
