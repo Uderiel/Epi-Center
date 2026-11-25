@@ -1,0 +1,59 @@
+{
+  "scope": "Approved Room A seating/waiting/table/magazine integration in unpublished authoring checkout",
+  "regression": {
+    "cases": 2229,
+    "suites": 175,
+    "failed": 0
+  },
+  "lobbyControllerCases": 12,
+  "browser": {
+    "passed": true,
+    "checks": 9,
+    "errors": [],
+    "evidence": "work/repository-lobby/browser.json"
+  },
+  "backend": {
+    "passed": 58,
+    "failed": 0,
+    "evidence": "work/repository-lobby/backend.log"
+  },
+  "syntax": {
+    "passed": true,
+    "modules": 233,
+    "inlineScripts": 5
+  },
+  "implemented": [
+    "Body/player-scoped seats and physical posture",
+    "One-minute table inspection",
+    "Chosen waiting through shared activity clock",
+    "Five-minute public articles with attributed actual-read knowledge",
+    "No inventory pickup of magazines",
+    "Actual public B/C movement stops waiting/reading and clears seated pose",
+    "Text/menu/world-object parity and reload guards"
+  ],
+  "sourceManifest": {
+    "rebuild/hub/repository-lobby.js": "abed84167b781337910f96db722c612c2a229c7d451d2b55ebfa00eaaa808bbf",
+    "rebuild/hub/repository-lobby-ui.js": "252647f8b0ede508c43def81476c9df975811cd177139edef9c92302a1db0f04",
+    "rebuild/hub/repository-lobby.test.js": "7501696d4e99211e77f642c621009af62e24e37c06fe687c23f2407c1bd4720b",
+    "rebuild/hub/form-repository.js": "a1ad8878c84c1a282dbb6660d3086d7f5f1b27182d25a9c50f9821365c346c33",
+    "rebuild/hub/form-repository-ui.js": "ce9f14c458fd384e98f8fa86fc889cf24844c2f23b623da1442de57170f0231e",
+    "rebuild/hub/repository-arcade.js": "f120077f73f3c01f92767f3df4d2aedbbb40031d703471d7f3c0f91024d468f0",
+    "rebuild/hub/text-actions-ui.js": "f9a5864e01e38dde26142ca55aadb3e26143dcd85641b6dc87493845a71b4712",
+    "rebuild/hub/ai-ui.js": "7cc02af82a1c7bb9d1054aa4a411f5a2f61d2f62911981db8479f33f8f23c41a",
+    "rebuild/hub/index.html": "ac88c28f745a7705f52c69d29a2d10a3a8777c4e9e3233f90f41f1b69ae1e9ef"
+  },
+  "verificationNote": "Browser route assertions wait for the existing asynchronous route controller to finish its actual step; no movement restriction was weakened.",
+  "remaining": [
+    "Room B display interaction design, actual catalogs, item prices and checkout",
+    "Paid removal/conversion services and eventual public-baseline integration"
+  ],
+  "published": false,
+  "workerDeployed": false,
+  "paidCalls": 0,
+  "ownerSaveUsed": false,
+  "evidence": [
+    "work/repository-lobby/unit.log",
+    "work/repository-lobby/regression.json",
+    "work/repository-lobby/browser.json"
+  ]
+}

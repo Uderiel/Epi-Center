@@ -1,3 +1,7 @@
+## Post-mastery tiers remain separate from identity and base rarity
+
+Owner approves within-rarity tiers after initial mastery: Common0,Uncommon1,Rare2,Epic3,Legendary4. Shared runtime/cost/perk boundary is in POST-MASTERY-FORM-TIERS.md. Progression belongs to the actual owned form record, not a new identity/consciousness/relationship bar. Tier1and3grant+2/+4form-only attribute bonuses; actual native tier2/4abilities still need their own authored effects and activation controllers. Live XP costs are configured at 500 / 1,000 / 1,500 / 2,000 per upgrade, cumulative 5,000. Storage/reload preserve valid earned state; conversion/reset must be wired explicitly when built.
+
 ## Current owner clarification — one universal relationship bar
 
 Use [the current relationship contract](DIRECTED-RELATIONSHIP-SYSTEM.md). Every NPC, form and encountered entity has a persistent −100…+100 score toward each individual player. Trust is derived from that score, never a second social value. Apply the owner's ±25/±50/±75/±100 interpretations, with form-specific positive meanings and schedule/permission/mastery boundaries. Historical instructions below separating Erin social relationship from a cooperative trust meter are superseded for the social value; earned mastery and influence remain distinct. Each character definition must specify positive/negative triggers, actual controller events/deltas, exceptions and persistence evidence. The shared storage, bars, tiers, event deduplication and player/entity isolation are universal infrastructure, not work to repeat for every character.
@@ -31,7 +35,7 @@ Copy `rebuild/hub/form-living-template.json`, set a stable ID and validate with 
 | `bodyType`, `body` | Authored anatomy/region facts, never invented full transformation |
 | `conscious`, `communication` | Explicit speaking consciousness or sensory impressions only |
 | `senses`, `interests`, `responses` | Bounded AI context and rotating deterministic body reactions |
-| `schedule` | Weekday/weekend wake hour, sleep hour, named activity blocks |
+| `schedule` | Weekday/weekend wake hour, sleep hour, named activity blocks; explicit null means unfinished and produces no physical routine or borrowed schedule |
 | `clothingComfort` | Human default clothed; natural coat for animals; explicit contextual exceptions |
 | `adapterId` | Native physical routine adapter; declarative schedule data cannot execute code |
 
@@ -52,3 +56,8 @@ Each body reaction is one private response entry eligible for one existing AI re
 `formExperience[formId]` stores response counters and the last attended region; `formComfort[formId]` stores explicit coverage knowledge; the existing Erin daily progress stores comfort dressing and retry time. Optional additive state is backward compatible. Historical feed entries are not guessed or rewritten.
 
 Acceptance: `form-presence.test.js` covers heels-off 100% movement/grooming, mastered identity/control, canine and future forms, footwear/removal, body constraints, private attribution, reload, clothing contexts and bounded retries. Retain all existing report/reward, AI deduplication, nighttime, daily-office and navigation suites.
+
+
+## Universal resistance opportunity UI — owner requirement
+
+Use FORM-RESISTANCE-UI.md and resistance-availability.js for every native form. The same collapsible Internal resistance drawer turns blue-to-green only for a real eligible resistance opportunity. Player selection of a button or equivalent typed action initiates the roll. No forced roll is inferred from voluntarily approaching prey/a pack, no render/highlight spends a resource, and no absent native action is fabricated. Existing form-specific costs, timers, authority and mastery/binding prerequisites stay authoritative. Future actual urge/decision adapters expose their readiness through this contract.

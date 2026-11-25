@@ -1,0 +1,49 @@
+{
+  "scope": "Approved eleven-stand Room B bank, source allocation, retract/air-lift browsing and archetype/gender search; unpublished authoring checkout",
+  "regression": {
+    "cases": 2251,
+    "suites": 177,
+    "failed": 0
+  },
+  "newControllerCases": 12,
+  "previousControllerCasesRetested": 10,
+  "browser": {
+    "passed": true,
+    "checks": 7,
+    "errors": [],
+    "evidence": "work/repository-display-bank/browser.json"
+  },
+  "previousBrowserChecksRetested": 7,
+  "backend": {
+    "passed": 58,
+    "failed": 0,
+    "evidence": "work/repository-display-bank/backend.log"
+  },
+  "syntax": {
+    "modules": 235,
+    "inlineScripts": 5,
+    "failures": []
+  },
+  "sourceManifest": {
+    "rebuild/hub/repository-display.js": "33ede341e33a4a3406344a6bccb6e34e30cc60190c88ec3762946f642f27bfe9",
+    "rebuild/hub/repository-display-ui.js": "dd1ac47dae29989881ff6aff7ff00781073f7dd701bb0128321ef88ac72ebec4",
+    "rebuild/hub/repository-display.css": "aa1247f960287fc15305f10d915c3a302a3a7a79f12808067784e5b68a6691db",
+    "rebuild/hub/repository-display.test.js": "f5f1a5b7ecce3c187557d76b5930d3502671c218ab3c9061e7dfbda9c191a394",
+    "rebuild/hub/repository-display-bank.test.js": "cbf83a51835f14af1733d0f6dffc284e99fa6bba7c5d7ed74cd5c013156499d4",
+    "rebuild/hub/text-actions-ui.js": "6574f170f97d8d60543a7898e4d13852023dfe3e3fa5b19cb2f300c5bde1e196",
+    "rebuild/hub/player-guide.js": "d949d7bc8773e8c74094d3d784cb7a09d1ecabe934a79fe95a4f76e9fdc68f46",
+    "rebuild/hub/location-details.js": "ce982cde1c9c6092d75aea09731b10b1690e6880fdf0ec1a0f5ea879bf2d256a"
+  },
+  "verificationNote": "Final per-stand orientation change retested in focused, browser and broad suites. No live catalog or ranking provider registered. No full 3D form art, global usage tracking or actual checkout asserted.",
+  "remaining": [
+    "Usage/popularity definition and authoritative data",
+    "Initial sale forms, stock and prices",
+    "Sale-submission custody/mastery and actual checkout",
+    "Complete authored form views",
+    "Later public-baseline integration/release verification"
+  ],
+  "published": false,
+  "paidCalls": 0,
+  "ownerSaveUsed": false,
+  "workerDeployed": false
+}

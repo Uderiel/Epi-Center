@@ -1,0 +1,48 @@
+{
+  "scope": "Approved hunting/rest priority over actual pack presence and verified explanation of shared attribute contest",
+  "focused": {
+    "cases": 27,
+    "suites": 4,
+    "failed": 0
+  },
+  "exactIllustrativeOdds": [
+    {
+      "playerWillpower": 3,
+      "formReasoning": 7,
+      "mode": "normal",
+      "wins": 128,
+      "total": 400,
+      "percent": 32
+    },
+    {
+      "playerWillpower": 3,
+      "formReasoning": 7,
+      "mode": "advantage",
+      "wins": 3740,
+      "total": 8000,
+      "percent": 46.75
+    },
+    {
+      "playerWillpower": 3,
+      "formReasoning": 7,
+      "mode": "disadvantage",
+      "wins": 1380,
+      "total": 8000,
+      "percent": 17.25
+    }
+  ],
+  "limitations": [
+    "Pure activity resolver needs actual future forest/prey/pack records; no native activity roll adapter is running.",
+    "Solo alert activity is not assigned an invented mode.",
+    "Markus attribute allocation and native transformation/conquest remain unfinished.",
+    "Illustration uses hypothetical original Willpower 3 versus form Reasoning 7, not a changed or approved Markus profile.",
+    "No global dice, stats, costs, probabilities, mastery or binding rules were changed."
+  ],
+  "ownerSaveUsed": false,
+  "paidCalls": 0,
+  "published": false,
+  "sourceSHA256": {
+    "rebuild/hub/werewolf-form.js": "35e4aae00f8cb5306cf7f24982eae1ad4fb552182b9a4f1f4602845f80bdbecc",
+    "rebuild/hub/markus-feral.test.js": "c76ed80972f2554d54e012aa37e165359e16958d5f13854a9a502d2c13953ab2"
+  }
+}

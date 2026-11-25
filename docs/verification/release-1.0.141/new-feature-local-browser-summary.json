@@ -1,0 +1,47 @@
+[
+  {
+    "file": "docs/verification/release-1.0.141/checkout-local-browser.json",
+    "passed": true,
+    "checks": 6
+  },
+  {
+    "file": "docs/verification/release-1.0.141/form-tier-costs-local-browser.json",
+    "passed": true,
+    "checks": 5
+  },
+  {
+    "file": "docs/verification/release-1.0.141/lee-local-browser.json",
+    "passed": true,
+    "checks": 26
+  },
+  {
+    "file": "docs/verification/release-1.0.141/repository-arcade-local-browser.json",
+    "passed": true,
+    "checks": 11
+  },
+  {
+    "file": "docs/verification/release-1.0.141/repository-display-bank-local-browser.json",
+    "passed": true,
+    "checks": 7
+  },
+  {
+    "file": "docs/verification/release-1.0.141/repository-display-gender-local-browser.json",
+    "passed": true,
+    "checks": 3
+  },
+  {
+    "file": "docs/verification/release-1.0.141/repository-four-staff-local-browser.json",
+    "passed": true,
+    "checks": 10
+  },
+  {
+    "file": "docs/verification/release-1.0.141/repository-lobby-local-browser.json",
+    "passed": true,
+    "checks": 9
+  },
+  {
+    "file": "docs/verification/release-1.0.141/resistance-local-browser.json",
+    "passed": true,
+    "checks": 8
+  }
+]

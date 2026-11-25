@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-24",
+  "status": "Owner-approved blocks implemented and locally verified; unpublished",
+  "workspace": "Older Repository authoring checkout; integrate with public v1.0.140 before publication",
+  "automatedCases": 2080,
+  "automatedSuites": 158,
+  "failures": [],
+  "backendCasesIncluded": 58,
+  "browserChecks": 42,
+  "ownerSavesUsed": false,
+  "paidCalls": 0,
+  "workerDeployed": false,
+  "wholeNpcComplete": false,
+  "actualProviderProseAccepted": false,
+  "buildOrder": [
+    "Lee character scope",
+    "Aniya and Anya",
+    "Spectra",
+    "Facility layout and services",
+    "Combined testing",
+    "Publication"
+  ],
+  "focusedCases": 13,
+  "scope": "Clean matching wardrobe; conservative legacy migration; no sweat/odor/ordinary food digestion/restroom/sleep; finite enjoyed praline and dishes",
+  "sourceHashes": {
+    "rebuild/hub/repository-physiology.js": "99a18d6328348244a180e4fad10c12b6a12b9d4dc807c76160f58a6bfefe03cc",
+    "rebuild/hub/lee-belongings.js": "62ce7645ad57238c305e03a9ca3ff18dd3c55549c20bb2b0da7aac242db98c93",
+    "rebuild/hub/lee-routine.js": "53f47115903040e655b872b322d3b8819650cb2202bbf0162e6264c7794cbf7f",
+    "rebuild/hub/npc-needs.js": "5acf07fbc8009ccd8f6bb45cebff551272f60495241422d059bfb083dd5e62e4",
+    "rebuild/hub/perspiration.js": "cc9e6985ee9c6aa78b2b4c00c050e0284b226a2ef8eded477e33248f7f0b98e8",
+    "rebuild/hub/served-items.js": "dfa9deaf01b4070859836aedb74d1b9621f0e06f432205a995e2777a179a59ca",
+    "rebuild/hub/lee-physiology.test.js": "cc8987e432f5f55d610bd869caba0919f75ed5d1378549c5948e9179161b96da"
+  },
+  "latestIntegratedAuthoringVerification": {
+    "cases": 2087,
+    "suites": 159,
+    "failures": [],
+    "additionalAppearanceBrowserChecks": 5,
+    "evidence": "lee-appearance-summary.json"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "scope": "Approved Room B display controls in unpublished authoring checkout; synthetic catalog verification only",
+  "regression": {
+    "cases": 2239,
+    "suites": 176,
+    "failed": 0
+  },
+  "controllerCases": 10,
+  "browser": {
+    "passed": true,
+    "checks": 7,
+    "errors": [],
+    "evidence": "work/repository-display/browser.json"
+  },
+  "backend": {
+    "passed": 58,
+    "failed": 0,
+    "evidence": "work/repository-display/backend.log"
+  },
+  "syntax": {
+    "modules": 235,
+    "inlineScripts": 5,
+    "failures": []
+  },
+  "sourceManifest": {
+    "rebuild/hub/repository-display.js": "31a58884cad1a3625dc018c627622c6611a6273cbb57a0f7bdacc9a7678bcf0b",
+    "rebuild/hub/repository-display-ui.js": "41dfa2e87615f477cc16c6609fd5f02be2a8a0c909a32720ff3bc053f5fe1906",
+    "rebuild/hub/repository-display.css": "aff154e522cc35167aac88fc39004ddc445b5436346584dc653ed85c53bad4e2",
+    "rebuild/hub/repository-display.test.js": "f5f1a5b7ecce3c187557d76b5930d3502671c218ab3c9061e7dfbda9c191a394",
+    "rebuild/hub/form-repository-ui.js": "a59bc08686d946d3598db3aa4304afe614cf8e69bcba99be888598b40c114498",
+    "rebuild/hub/location-details.js": "db0995da4851400e3d978895ed884f76b73e38b7f718cec4f63bd5f2516f0cf3",
+    "rebuild/hub/text-actions-ui.js": "e082b2b279dc021c480a80c8f80408bd1e6f8bf0faa047a747ee9138cabc629b",
+    "rebuild/hub/player-guide.js": "d5208752aa128e34bbb0fe90df51a1068098d75f1e817b5f4aae6b39e4673d51",
+    "rebuild/hub/index.html": "8529a18335992d9acf183e5e80e18af13d687c71ac7321e80208eac1d0e3b415"
+  },
+  "verificationNote": "Final inspection-text stats change retested by controller and browser checks; broad suite also passed. Live catalog has no registered source. No actual form art or full 3D visual rotation asserted.",
+  "remaining": [
+    "Initial sale forms and prices",
+    "Sale-submission and actual checkout controllers",
+    "Complete authored form views and actual usage rankings",
+    "Public-baseline integration and later release verification"
+  ],
+  "published": false,
+  "paidCalls": 0,
+  "ownerSaveUsed": false,
+  "workerDeployed": false
+}

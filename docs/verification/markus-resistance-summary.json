@@ -1,0 +1,52 @@
+{
+  "scope": "Approved final-deadline resistance threshold and pure recorded-die evaluation only",
+  "dice": "1d50",
+  "thresholdBands": [
+    {
+      "maxInfluence": 20,
+      "minimumRoll": 10,
+      "winningFaces": 41
+    },
+    {
+      "maxInfluence": 40,
+      "minimumRoll": 20,
+      "winningFaces": 31
+    },
+    {
+      "maxInfluence": 60,
+      "minimumRoll": 30,
+      "winningFaces": 21
+    },
+    {
+      "maxInfluence": 80,
+      "minimumRoll": 40,
+      "winningFaces": 11
+    },
+    {
+      "maxInfluence": 100,
+      "minimumRoll": 45,
+      "winningFaces": 6
+    }
+  ],
+  "focused": {
+    "cases": 26,
+    "suites": 4,
+    "failed": 0
+  },
+  "syntaxAndWhitespace": "PASS: changed runtime module, new resistance test, git diff --check",
+  "limitations": [
+    "Pure evaluator takes a recorded natural die, performs no random draw and mutates no saved game state.",
+    "Deadline start and exact success consequence await owner review.",
+    "Native deadline event eligibility, persistent one-time roll receipt and actual mastery/release/binding integration remain unbuilt.",
+    "No implication that ordinary hunting/pack/sleep roll modes modify this separate single-d50 deadline roll.",
+    "No fresh browser or paid-model check is needed for this pure arithmetic policy; prior broader evidence remains historical."
+  ],
+  "ownerSaveUsed": false,
+  "paidCalls": 0,
+  "published": false,
+  "sourceSHA256": {
+    "rebuild/hub/werewolf-form.js": "1fece6102978af71379a4536016c0da4d09c2b89cb2c5736256d2c8590978520",
+    "rebuild/hub/markus-resistance.test.js": "bcb8ddc4b9a7c8a151d886a5586de60f60546a57528473bd37d14d558fc83e5d",
+    "rebuild/hub/markus-feral.test.js": "7714f9f576f319ffdb154b0a652d8c32744002e95f4c293ed83bb0033a97a9de"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "scope": "Approved release-without-mastery success outcome in native policy and pure result evaluation",
+  "successOutcome": "release-without-mastery",
+  "failureOutcome": "permanent-entrapment",
+  "focused": {
+    "cases": 26,
+    "suites": 4,
+    "failed": 0
+  },
+  "limitations": [
+    "No actual body change, mastery grant, XP award, healing or owner-save mutation.",
+    "Physical release, prior-body restoration, deadline start and durable single-event execution remain unbuilt.",
+    "Existing zero-Resolve permanent binding is not bypassed."
+  ],
+  "ownerSaveUsed": false,
+  "paidCalls": 0,
+  "published": false,
+  "sourceSHA256": {
+    "rebuild/hub/werewolf-form.js": "8dd55ab0087d1d909dcad8447003825f076ff4617d822b8b70ffd41bfd697b82",
+    "rebuild/hub/markus-resistance.test.js": "fa7002377d6f19252b90d6752c9891fcd9e2a6c9660187234f6e86e30d582c57",
+    "rebuild/hub/markus-feral.test.js": "9c4084bc93910c346a6246acf4842cef414cf0ae06413baf891f6d7d4c44e15b"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "scope": "Universal read-only blue/green form resistance drawer with explicit existing menu/text controllers",
+  "regression": {
+    "cases": 2324,
+    "suites": 187,
+    "failed": 0
+  },
+  "newReadinessCases": 8,
+  "newBloodlustPolicyCases": 4,
+  "browser": {
+    "scope": "390x844 real browser, synthetic slot 3, AI off, native readiness/menu/text routes; no owner save",
+    "checks": [
+      "erin shared blue-to-green drawer and explicit resistance action",
+      "kibbles shared blue-to-green drawer and explicit resistance action",
+      "female shared blue-to-green drawer and explicit resistance action",
+      "male shared blue-to-green drawer and explicit resistance action",
+      "flats shared blue-to-green drawer and explicit resistance action",
+      "reload preserves readiness and cooldown; combat suppresses a genuinely ready opportunity",
+      "mastered and permanently bound forms keep the shared drawer blue",
+      "an unbuilt native form has a blue drawer and receives no invented resistance action"
+    ],
+    "errors": [],
+    "passed": true
+  },
+  "syntax": {
+    "changedModules": 8,
+    "inlineScripts": 5,
+    "errors": []
+  },
+  "textAudit": "docs/verification/text-action-source-audit.json, source inventory only; not universal language proof",
+  "paidCalls": 0,
+  "ownerSaveUsed": false,
+  "published": false,
+  "limitations": [
+    "No native Markus forest/pack/prey, acquisition/mastery or secret-route event controller is created.",
+    "Unsupported forms show the common blue drawer and no fabricated action; future native adapters must provide actual readiness through the shared contract.",
+    "Readiness is a UI projection, never an automatic die roll, cost, movement, mastery or forced player choice.",
+    "Existing native resistance costs, timers and controllers stay authoritative; no publication or owner save was used.",
+    "Bloodlust policy/cue strings and pure sixty-minute helper are saved; actual kill-trigger/effect/cue emission remains unbuilt.",
+    "Secret three-day mastery direction is saved, but exact opportunity/streak reset and native event integration remain incomplete."
+  ],
+  "fixedBug": "Combat in Priya home previously reached a guarded room renderer and threw; navigation now renders the common blocked combat dock before household controls.",
+  "sourceSHA256": {
+    "rebuild/hub/resistance-availability.js": "f479aaaa9c9c0e57c77962e1a538957ae63329219532c14fc8ad7d5016ee0781",
+    "rebuild/hub/resistance-availability.test.js": "9a13c511f3c1806f33eff9e191df744fd67dfacdf8bb8a0a5b810e634cd44aa5",
+    "rebuild/hub/form-minds-ui.js": "4f40d9a3741d398967d5f76d49ee873bfc2798fefaf667e069f2d078fe6f1c48",
+    "rebuild/hub/priya-cat-ui.js": "91461025994e5371a5b1cdb16ec0474b12162e1bfd27b331ba071225e38b8c50",
+    "rebuild/hub/priya-flats-ui.js": "ae23eb549afd26cba302f38cf413a7376c5e3b8659495157bfb6564c9ca2262f",
+    "rebuild/hub/navigation-ui.js": "97f1c0f85d6f1c2c44638dcaba982ac91060c6169fda72a643a4e33aa5a90b76",
+    "rebuild/hub/navigation-v1.0.66.css": "25593151830689a8ef7d0409dd76a0b80e9e7e99f4d20c983ef6d2b6cb4f46f9",
+    "rebuild/hub/index.html": "4b9968683de2da372f95c8f6d10519cd0836dc0fd8b2a9ba151a99bc22722394",
+    "rebuild/hub/text-actions-ui.js": "2ab3e420dcdd22d9d2688d327144519cad4bafeb75ac71d451806605fed227d3",
+    "rebuild/hub/player-guide.js": "938fa20870436c434313b11da02ca2e8418d37c749fd7fc50c3c833c3328c3dd",
+    "rebuild/hub/player-guide.test.js": "e8c769b76072ecab556faf993aba16249954919b6e65bb334022dfb145e37cf7",
+    "rebuild/hub/werewolf-form.js": "93762c5841b7edc0d29b2d99e8ee5bba02fac17818ddb627ce3053cfc4fa33c2",
+    "rebuild/hub/markus-bloodlust.test.js": "1d4670c237b8241ffda295651426d60cdbe93744086d38f4b0cfffa978b6fa26"
+  }
+}

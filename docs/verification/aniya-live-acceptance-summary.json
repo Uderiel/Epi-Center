@@ -1,0 +1,164 @@
+{
+  "date": "2026-11-24",
+  "scope": "Unpublished Repository authoring; approved Aniya character mechanics, Lee regression, actual autonomous peers and live Cydonia reliability repairs",
+  "completeNpc": false,
+  "published": false,
+  "committed": false,
+  "workerDeployed": false,
+  "ownerSavesUsed": false,
+  "backend": {
+    "requestAssembly": "request-handoff-v11",
+    "model": "TheDrummer/Cydonia-24B-v4.3",
+    "inspection": "Before every paid call, free /inspect messages exactly compared with reviewed public assembly",
+    "workerChanged": false
+  },
+  "accounting": {
+    "calls": 139,
+    "costUSD": 0.1583907,
+    "newUncertainCharges": 0,
+    "batches": [
+      {
+        "file": "work/aniya-live/probe-results.json",
+        "calls": 12,
+        "costUSD": 0.020428260000000004,
+        "reservedUpperUSD": 0,
+        "pending": 0,
+        "stopped": null
+      },
+      {
+        "file": "work/aniya-live/probe-v2-results.json",
+        "calls": 12,
+        "costUSD": 0.013560819999999998,
+        "reservedUpperUSD": 0,
+        "pending": 0,
+        "stopped": null
+      },
+      {
+        "file": "work/aniya-live/ui-ledger.json",
+        "calls": 39,
+        "costUSD": 0.06209199999999998,
+        "reservedUpperUSD": 0,
+        "pending": 0,
+        "stopped": null
+      },
+      {
+        "file": "work/aniya-live/ui-ledger-v5.json",
+        "calls": 7,
+        "costUSD": 0.00523664,
+        "reservedUpperUSD": 0,
+        "pending": 0,
+        "stopped": null
+      },
+      {
+        "file": "work/aniya-live/ui-ledger-v6.json",
+        "calls": 20,
+        "costUSD": 0.024408779999999998,
+        "reservedUpperUSD": 0,
+        "pending": 0,
+        "stopped": null
+      },
+      {
+        "file": "work/aniya-live/ui-ledger-v7.json",
+        "calls": 9,
+        "costUSD": 0.00655998,
+        "reservedUpperUSD": 0,
+        "pending": 0,
+        "stopped": null
+      },
+      {
+        "file": "work/aniya-live/ui-ledger-v8.json",
+        "calls": 13,
+        "costUSD": 0.015204160000000001,
+        "reservedUpperUSD": 0,
+        "pending": 0,
+        "stopped": null
+      },
+      {
+        "file": "work/aniya-live/ui-ledger-v9.json",
+        "calls": 15,
+        "costUSD": 0.006376100000000001,
+        "reservedUpperUSD": 0,
+        "pending": 0,
+        "stopped": null
+      },
+      {
+        "file": "work/aniya-live/ui-ledger-final.json",
+        "calls": 8,
+        "costUSD": 0.0028203,
+        "reservedUpperUSD": 0,
+        "pending": 0,
+        "stopped": null
+      },
+      {
+        "file": "work/aniya-live/ui-ledger-final-2.json",
+        "calls": 4,
+        "costUSD": 0.00170366,
+        "reservedUpperUSD": 0,
+        "pending": 0,
+        "stopped": null
+      }
+    ]
+  },
+  "regression": {
+    "suites": 170,
+    "cases": 2200,
+    "failures": []
+  },
+  "browser": {
+    "fullDay": {
+      "checks": 15,
+      "passed": true,
+      "minutes": 1440,
+      "providerCalls": 0,
+      "evidence": "work/aniya-live/full-day-browser-results.json"
+    },
+    "adversarial": {
+      "checks": 6,
+      "passed": true,
+      "providerCalls": 0,
+      "evidence": "work/aniya-live/peer-choice-browser-results.json"
+    },
+    "finalLive": {
+      "checks": 4,
+      "passed": true,
+      "evidence": "work/aniya-live/ui-results-final-2.json"
+    }
+  },
+  "runtimeProvenance": {
+    "manifest": "work/aniya-live/final-2-source-manifest.json",
+    "runtimeMatchesLiveFrozenSource": true,
+    "postFreezeRuntimeChanges": [],
+    "testOnlyChanges": [
+      "Additional controller/provider answer alignment test"
+    ]
+  },
+  "implemented": [
+    "Real initialized Aniya actor,24 appearance groups and approved v2 portrait; unknown numbers retained",
+    "Personal detailed compliment and meaningful follow-up award5 total; owned preferred gifts retain existing5",
+    "Voluntary player and accepted NPC feeding paths:5game minutes,15 once,flat minus2 gain360minutes; suggestive metadata; decline/interruption/replay safe",
+    "Actual read-only custody review, real coverage and clock-driven same-room/offscreen NPC peer exchanges",
+    "Peer turn initiation distinct from reply; actual roles and heard-name knowledge; player/private history excluded",
+    "Peer speech uses live-model selection over authored equivalent deliveries; free generated prose is ignored",
+    "Only displayed selected words/fallback enter peer history and next speaker request",
+    "Closed privacy, scored compliment and known Repository-fact answers retain actual controller speech without a paid rewrite",
+    "Normal player stories, recall and jokes remain open conversation; no fictional service from metaphorical work",
+    "Spoken projection removes unsupported stage prose; rejects analysis dumps, known invented inventory/offers and first-person physical-action narration",
+    "Nearby peer chatter defers during addressed/current NPC turns, while offscreen peers still advance",
+    "Settings inspection distinguishes generated speech, selected authored delivery and preserved controller speech"
+  ],
+  "retainedApprovedMechanics": [
+    "Nonstacking2arousal/5minutes shared physical room",
+    "Warning102,caution103,final104,then actual sleep/escort/wake and720minute temporary exclusion;5calm minutes reset incident only",
+    "Per-player/body privacy receipts,minus3 once per actual persistence exchange; neutral first questions and apologies",
+    "Separate manager scores, actual-attendant tiers and suspension while either negative; storage stays free"
+  ],
+  "acceptanceLimits": [
+    "Earlier mechanically passing free-prose batches contained factual/personality failures; preserved as failed native-dialogue evidence",
+    "Bounded peer choices are not unconstrained generated dialogue; normal free chat is not universally semantically verified",
+    "Office peers resume after existing greetings; earlier immediate-peer assertion was repaired to continue quiet clock time",
+    "Shop visitor is an explicit co-presence fixture, not proof of a newly implemented shopping schedule",
+    "1440minute whole-day phone run uses actual shared game clock with AI off; it is not a full-day paid-model run",
+    "Exact draft-only ambition/flaw wording, optional private fixtures, leather-care sourcing and unapproved dimensions remain proposals/unknowns",
+    "Older authoring checkout is not integrated onto publicv1.0.140; family/Spectra/facility/combined acceptance still precede publication"
+  ]
+}

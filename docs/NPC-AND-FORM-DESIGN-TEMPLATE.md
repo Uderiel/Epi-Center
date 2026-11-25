@@ -1,3 +1,16 @@
+## Required post-mastery tier card — owner-approved correction
+
+Use POST-MASTERY-FORM-TIERS.md. Rarity remains fixed; after initial mastery Common has0upgrades,Uncommon1,Rare2,Epic3,Legendary4. Tier1awards+2selected/split form attribute bonus points and tier3adds+4. Tiers2/4need actual authored passive/duration/cooldown abilities, with effects, timing, gates, interruption, per-use limits and native adapters; do not invent those from a rarity label. Record earned levels/awards/XP per owned form. Base attributes/player allocation, pools, rarity, ownership and original mastery stay separate. XP costs are approved and configured at 500 / 1,000 / 1,500 / 2,000 per upgrade (cumulative 500 / 1,500 / 3,000 / 5,000). Tests use these native costs; ability adapters remain synthetic fixtures until actual powers are authored. Do not call the shared tier foundation a completed form-specific perk or power.
+
+## Latest form-sale and rarity authoring direction
+
+Owner sets universal form listing base prices: Common3500/Uncommon7000/Rare14000/Epic28000/Legendary56000gold before approved applicable discounts. Most Common forms are reality-based. Form Arousal capacity must scale with rarity; the former universal100draft is superseded as a direction. The exact Arousal formula, threshold migration and connected damage tuning remain under review in COMBAT-RESOURCE-TIER-PROPOSAL.md; do not claim runtime capacity scaling from the price patch. Actual forms still need their full template, controllers, stock and checkout. Current opening-form draft:FORM-REPOSITORY-OPENING-FORMS.md.
+
+
+## Published baseline and earlier checkpoints — historical context
+
+The following published history is retained from v1.0.140. Current release scope and explicit deferrals above supersede earlier authoring-stage directions.
+
 ## Current appearance authoring contract — 2026-11-21
 
 Use APPEARANCE-TEMPLATE-STANDARD.md and the source-backed appearance-catalog.js/appearance-alignment.js implementation for the same24 fields/order, including Tail and wings inside Back. Current18 profile states are aligned locally; see NPC-FORM-APPEARANCE-ALIGNMENT.md for per-entity before/after details and portrait gaps. Preserve exact canon and source qualifiers. Unknown mass, a height range, qualitative build or a shoe size without a system do not supply missing measurements. Human reference estimates require actual supporting inputs; nonhuman/object bodies never use that reference. Public panels and AI selection do not disclose concealed genital anatomy or physiology. This is appearance alignment, not completion of every NPC’s broader design/behavior.

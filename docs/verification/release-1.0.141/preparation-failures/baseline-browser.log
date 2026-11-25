@@ -1,0 +1,94 @@
+PASS browser-npc-appearance-alignment.cjs (24 checks)
+PASS browser-current-appearance.cjs (9 checks)
+PASS browser-appearance-creation.cjs (18 checks)
+PASS browser-club-portrait.cjs (4 checks)
+PASS browser-sorority-portrait.cjs (4 checks)
+PASS browser-gym-portrait.cjs (4 checks)
+PASS browser-menu-followups.cjs (4 checks)
+PASS browser-eve-navigation.cjs (2 checks)
+FAIL targeted/browser.cjs (0 checks)
+ENOENT: no such file or directory, open 'work/cydonia-repair-137/results-v2.json'
+
+FAIL targeted/browser-story.cjs (0 checks)
+ENOENT: no such file or directory, open 'work/cydonia-repair-137/results-v2.json'
+
+FAIL targeted/browser-roles.cjs (0 checks)
+ENOENT: no such file or directory, open 'work/cydonia-repair-137/results-v2.json'
+
+FAIL targeted/browser-body-replay.cjs (0 checks)
+ENOENT: no such file or directory, open 'work/cydonia-repair-137/ledger.json'
+
+FAIL targeted/browser-current-body.cjs (0 checks)
+ENOENT: no such file or directory, open 'work/cydonia-repair-137/ledger.json'
+
+FAIL targeted/browser-literal-integration.cjs (0 checks)
+ENOENT: no such file or directory, open 'work/cydonia-repair-137/results-v2.json'
+
+PASS quota-travel (16 checks)
+FAIL travel-stage (8 checks)
+PASS actual stage packet carries eighth-of-fourteen milestone and six remaining physical stages
+PASS captured final-wave failure requests one correction without displaying the bad text
+PASS second invalid completion claim preserves the exact stage receipt and progression
+PASS old saved invalid milestone prose falls back in feed and is omitted from durable history
+PASS actual manual travel uses a frozen edge not the previous dialogue or a repeated body milestone
+PASS actual travel pipeline rejects invented UI weather direction arrival and clothing wetness
+PASS corrected travel retains the exact route receipt without changing game time or stage
+PASS both captured real Cydonia travel failures preserve the actual receipt without another paid retry
+Error: ENOENT: no such file or directory, open 'work/priya-cat-pilot/before/fixture.json'
+    at Object.readFileSync (node:fs:483:20)
+    at /workspace/epicenter-release-1.0.141/work/release141/browser-local/travel-stage.cjs:15:143 {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'work/priya-cat-pilot/before/fixture.json'
+}
+
+FAIL priya-cat (0 checks)
+node:fs:483
+    return binding.readFileUtf8(path, stringToFlags(options.flag));
+                   ^
+
+Error: ENOENT: no such file or directory, open 'work/priya-cat-pilot/before/fixture.json'
+    at Object.readFileSync (node:fs:483:20)
+    at Object.<anonymous> (/workspace/epicenter-release-1.0.141/work/release141/browser-local/priya-cat.cjs:2:29)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object.<anonymous> (/workspace/epicenter-release-1.0.141/work/release141/run-browser-one.cjs:2:648)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'work/priya-cat-pilot/before/fixture.json'
+}
+
+Node.js v24.22.1
+
+FAIL collar-timing (0 checks)
+node:fs:483
+    return binding.readFileUtf8(path, stringToFlags(options.flag));
+                   ^
+
+Error: ENOENT: no such file or directory, open 'work/priya-cat-pilot/before/fixture.json'
+    at Object.readFileSync (node:fs:483:20)
+    at Object.<anonymous> (/workspace/epicenter-release-1.0.141/work/release141/collar-browser.cjs:2:29)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object.<anonymous> (/workspace/epicenter-release-1.0.141/work/release141/run-browser-one.cjs:2:648)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: 'work/priya-cat-pilot/before/fixture.json'
+}
+
+Node.js v24.22.1
+
+PASS browser-continuous-dialogue.cjs (6 checks)

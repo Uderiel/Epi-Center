@@ -1,0 +1,591 @@
+FAIL rebuild/combat/resource-profiles.test.js
+PASS every approved base band and rounding stays separate from effective modifiers
+
+/workspace/epicenter-release-1.0.141/rebuild/combat/resource-profiles.test.js:4
+test('registered named profiles use their approved rarity and attribute-derived maxima',()=>{const expected={charity:[425,420,450],richard:[115,115,130],department:[125,125,125],marketing:[115,115,125],priya:[120,120,125],tits:[130,130,110]};for(const [name,values]of Object.entries(expected)){const d=require('../hub/'+name).definition;A.deepEqual(['health','stamina','resolve'].map(k=>d.max[k]),values,name);}require('../hub/location-details');A.deepEqual(E.resourceProfile('npc:aniya-singh').max,{health:425,stamina:425,resolve:435,arousal:100});A.deepEqual(E.resourceProfile('anya-singh').max,{health:425,stamina:425,resolve:425,arousal:100});A.deepEqual(E.resourceProfile('spectra').max,{health:550,stamina:550,resolve:535,arousal:100});A.equal(E.resourceProfile('michael'),null);});
+                                                                                                                                                                                                                                                                                                                                                                                                        ^
+
+TypeError: Cannot read properties of undefined (reading 'health')
+    at /workspace/epicenter-release-1.0.141/rebuild/combat/resource-profiles.test.js:4:393
+    at Array.map (<anonymous>)
+    at /workspace/epicenter-release-1.0.141/rebuild/combat/resource-profiles.test.js:4:381
+    at test (/workspace/epicenter-release-1.0.141/rebuild/combat/resource-profiles.test.js:2:36)
+    at Object.<anonymous> (/workspace/epicenter-release-1.0.141/rebuild/combat/resource-profiles.test.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12
+FAIL rebuild/hub/ai-context.test.js
+ still supplies real catalogue without claiming a purchase
+PASS full UTF8 transport budget trims only old history and preserves current outcomes and original history
+PASS heard personal statement remains available after a topic change without private or other-player leakage
+PASS cat-entry reaction retains agreement and actual result while omitting unrelated daily-life bulk
+PASS Tits wish meaning and factual evidence reach the writer without private wishes or fictional permission
+PASS numeric lore requests omit duplicate prose and unrelated shop plans while preserving source facts and identity
+
+node:assert:152
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
++ actual - expected
+
++ undefined
+- false
+
+    at /workspace/epicenter-release-1.0.141/rebuild/hub/ai-context.test.js:90:718
+    at test (/workspace/epicenter-release-1.0.141/rebuild/hub/ai-context.test.js:1:139)
+    at Object.<anonymous> (/workspace/epicenter-release-1.0.141/rebuild/hub/ai-context.test.js:90:1)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: false,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.22.1
+
+FAIL rebuild/hub/aniya-compliments.test.js
+
+/workspace/epicenter-release-1.0.141/rebuild/hub/scene-presence.js:33
+ if(directedTo&&!heard.some(x=>x.id===directedTo))throw Error('That recipient is no longer in your room or tile.');
+                                                  ^
+
+Error: That recipient is no longer in your room or tile.
+    at Object.speak (/workspace/epicenter-release-1.0.141/rebuild/hub/scene-presence.js:33:57)
+    at say (/workspace/epicenter-release-1.0.141/rebuild/hub/aniya-compliments.test.js:3:31)
+    at /workspace/epicenter-release-1.0.141/rebuild/hub/aniya-compliments.test.js:4:127
+    at test (/workspace/epicenter-release-1.0.141/rebuild/hub/aniya-compliments.test.js:1:265)
+    at Object.<anonymous> (/workspace/epicenter-release-1.0.141/rebuild/hub/aniya-compliments.test.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+
+Node.js v24.22.1
+
+FAIL rebuild/hub/bimbo-virus-social.test.js
+PASS daily requirement counts only actual activity and survives pause/reload without credit for waiting
+PASS midnight apportions actual minutes and a new game day needs its own thirty minutes
+PASS archetype options remain nonsexual and other forms remain accessible
+
+/workspace/epicenter-release-1.0.141/rebuild/hub/bimbo-virus-social.test.js:5
+test('recognition requires actual presence and twenty-five relationship, with saved hidden success',()=>{let s=fresh();counter(s);R.set(s,'tits',24);A.throws(()=>V.verifyIdentity(s,'npc:tits','I was Alice.','qa'));R.set(s,'tits',25);const result=V.verifyIdentity(s,'npc:tits','I was Alice.','qa',{rng:()=>.45});A(result.recognized);A(!/d20|Reasoning|difficulty|12/.test(result.text));s=clone(s);A(V.recognitionContext(s,'npc:tits').recognized);A(V.verifyIdentity(s,'npc:tits','I was Alice.','qa').duplicate);A.equal(R.get(s,'tits'),25);B.move(s,'A');B.leave(s);A(V.recognitionContext(s,'npc:tits').recognized);B.leave(s);A.equal(V.recognitionContext(s,'npc:tits'),null);A.throws(()=>V.verifyIdentity(s,'npc:tits','I was Alice.','remote'));});
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ^
+
+TypeError: Cannot read properties of null (reading 'recognized')
+    at /workspace/epicenter-release-1.0.141/rebuild/hub/bimbo-virus-social.test.js:5:598
+    at test (/workspace/epicenter-release-1.0.141/rebuild/hub/bimbo-virus-social.test.js:1:272)
+    at Object.<anonymous> (/workspace/epicenter-release-1.0.141/rebuild/hub/bimbo-virus-social.test.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:intern
+FAIL rebuild/hub/lee-character.test.js
+PASS approved family ties and defensive five-foot limits reach Lee dialogue guidance
+PASS below25 actual Lee registration performs two checks and at25 it performs one with identical ownership rules
+PASS foreign forms remain refused and failed checks never create a completed registration record at any relationship
+PASS AI receives complete approved character and exact current caution without private audit logs
+PASS voice range acknowledges praise, sets boundaries, accepts repair and does not turn flirtation into permission
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  A(system.includes('registrationPasses'))
+
+    at /workspace/epicenter-release-1.0.141/rebuild/hub/lee-character.test.js:9:397
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+FAIL rebuild/hub/lee-physiology.test.js
+l covered swaps reuse the same two matching outfits across reload without losing adornments
+PASS legacy consumed spares recover actual stored garments, preserving custody with no extra outfit
+PASS missing property and recorded damage are not replenished or repaired by clean-clothing policy
+PASS ice cream is a finite indulgence processed internally without affecting player or actor needs
+PASS actual dish cleanup still works and repeated ticks cannot consume or refill another portion
+PASS no natural scent is emitted by conversation and existing defensive emission still requires its real trigger
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  A(messages.includes('"perspiration":"none"'))
+
+    at /workspace/epicenter-release-1.0.141/rebuild/hub/lee-physiology.test.js:17:292
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+FAIL rebuild/hub/lee-social.test.js
+ remembered dialogue or relationship
+PASS another appearance excludes old-body facts and scoped or legacy model history, restoring on return
+PASS actual preferred gift transfers once for the existing five points and cannot buy security
+PASS borrowed or quest gifts stay with the player and questions create no stock
+PASS a genuine stated boundary enables existing pressure consequences; replay cannot multiply them
+PASS successful registration interrupts a recorded topic and follow-up resumes that exact discussion
+PASS actual backup takes priority and preserves the topic until its real completion
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  A(text.includes('leeSocial'))
+
+    at /workspace/epicenter-release-1.0.141/rebuild/hub/lee-social.test.js:22:618
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+FAIL rebuild/hub/markus-character.test.js
+PASS Markus keeps the existing native ID rarity and approved physical record
+PASS approved active personality is conscious with no invented schedule or clothing routine
+PASS private Markus routes use the authored personality while unavailable or another owner forms cannot answer
+PASS provider packet receives private character facts without putting them into NPC dialogue
+PASS AI-off body replies vary persist after reload and cannot award mastery or spend resources
+PASS explicitly unfinished schedule is valid without accepting a malformed supplied schedule
+
+node:assert:152
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+2 !== 0
+
+    at /workspace/epicenter-release-1.0.141/rebuild/hub/markus-character.test.js:11:327
+    at test (/workspace/epicenter-release-1.0.141/rebuild/hub/markus-character.test.js:2:36)
+    at Object.<anonymous> (/workspace/epicenter-release-1.0.141/rebuild/hub/markus-character.test.js:11:1)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 2,
+  expected: 0,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.22.1
+
+FAIL rebuild/hub/markus.test.js
+ls
+PASS deadline permits exactly one persisted d50; success releases without mastery or healing
+PASS failed final resistance and zero Resolve enforce permanent binding independently
+PASS real calendar adapter forces the same stored form for three nights and restores the prior body at each sunrise
+PASS the production VR calendar drives three nights without inventing forest pack or prey events
+PASS a saved active lunar night ends at its recorded sunrise after reload even before the calendar source reconnects
+PASS native clock bridge accepts actual event timestamps during a batched world advance
+
+/workspace/epicenter-release-1.0.141/rebuild/hub/markus.test.js:18
+test('private provider facts receive actual werewolf activity and urge without exposing the hidden route to public NPCs',()=>{const AI=require('./ai-context'),s=wear();Q.observe(s,{id:'private-pack',kind:'urge',urge:'pack'});const a=AI.target('Private · Markus',s),packet=AI.build(s,a,{formState:{mastered:false,influence:100,werewolf:Q.context(s)}}),scene=JSON.parse(packet.scene);A.equal(scene.privateFormState.werewolf.pending.kind,'pack');A.equal(scene.privateFormState.werewolf.activity,'alert');A(!JSON.stringify(scene).includes('credited'));const pub=AI.build(s,AI.target('Eve',s),{});A(!pub.scene.includes('private-pack'));});
+                                                                                                                                                                                                                                                                                                                                                                                                                                      ^
+
+TypeError: Cannot read properties of undefined (reading 'pending')
+    at /workspace/epicenter-release-1.0.141/rebuild/hub/markus.test.js:18:423
+    at test (/workspace/epicenter-release-1.0.141/rebuild/hub/markus.test.js:1:264)
+    at Object.<anonymous> (/workspace/epicenter-release-1.0.141/rebuild/hub/markus.test.js:18:1)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47
+
+Node.js v24.22.1
+
+FAIL rebuild/hub/npc-social-routines.test.js
+
+node:internal/assert/utils:77
+    throw err;
+    ^
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  A(S.canHear(s,'aniya-singh'))
+
+    at /workspace/epicenter-release-1.0.141/rebuild/hub/npc-social-routines.test.js:4:128
+    at test (/workspace/epicenter-release-1.0.141/rebuild/hub/npc-social-routines.test.js:1:289)
+    at Object.<anonymous> (/workspace/epicenter-release-1.0.141/rebuild/hub/npc-social-routines.test.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.22.1
+
+FAIL rebuild/hub/player-guide.test.js
+e conversation never makes the cat arrangement a condition
+PASS Stamina help explains real recovery actions and outside-combat limitation without mutating state
+PASS invalid legacy human dialogue attributed to Dart is excluded from learned facts without deleting stored history
+PASS Eve can give the known shop connection without inventing current whereabouts
+PASS learned records use actually delivered NPC speech and illness advisories, never pending model placeholders
+PASS selected Eve travel uses actual known navigation without executing questions wishes private thoughts or other NPC dialogue
+
+node:assert:885
+    throw err;
+    ^
+
+AssertionError [ERR_ASSERTION]: The input did not match the regular expression /Focus Mind restores Resolve, not Stamina/. Input:
+
+'There is currently no general way to refill spent Stamina outside combat. Sleeping can lower Fatigue, but it does not refill Stamina. During combat, Physical characters can use Defensive Posture (+12 Stamina); Arousal characters can use Clear Mind (+6 Stamina).'
+
+    at Object.<anonymous> (/workspace/epicenter-release-1.0.141/rebuild/hub/player-guide.test.js:15:297)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: 'There is currently no general way to refill spent Stamina outside combat. Sleeping can lower Fatigue, but it does not refill Stamina. During combat, Physical characters can use Defensive Posture (+12 Stamina); Arousal characters can use Clear Mind (+6 Stamina).',
+  expected: /Focus Mind restores Resolve, not Stamina/,
+  operator: 'match',
+  diff: 'simple'
+}
+
+Node.js v24.22.1
+
+FAIL rebuild/hub/preeti-appearance.test.js
+PASS Preeti approved profile has valid24-field feline anatomy,age3,9in shoulder height,8lb and amber eyes without human matrix
+PASS Actual offer and acceptance keep approved Preeti inactive until entry and preserve the original player,agreement and resource gates
+PASS Full current Preeti and body inspection match approved reached body,remain read-only and survive reload without old human measurements
+PASS Legacy Preeti refresh updates only known generic or missing details and preserves custom alterations,resources,mastery,history and belonging records
+
+node:assert:152
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
++ actual - expected
+
++ '{"gender":"Female cat","age":"9","height":"12 in","weight":"14 lb","hair":"Ginger fur","build":"A small black-and-white domestic cat","face":"A feline muzzle, whiskers and alert ears","eyes":"Feline eyes and close-range low-light awareness","voice":"Purrs, meows and hisses; no intelligible human speech","hands":"Forepaws with pads and retractile claws; no human fingers","arms":"Feline forelegs","legs":"Four feline legs","footSize":"Soft paw pads","skin":"Fur-covered feline body","tail":"A balancing feline tail","chest":"Fur-covered feline chest","hips":"Feline hindquarters","waist":"Compact feline torso","genitalAnatomy":"Female feline anatomy; human anatomy and grooming descriptions do not carry over"}'
+- '{"gender":"Female cat","age":"9","height":"12 in","weight":"14 lb","hair":"Ginger fur"}'
+
+    at /workspace/epicenter-release-1.0.141/rebuild/hub/preeti-appearance.test.js:8:853
+    at test (/workspace/epicenter-release-1.0.141/rebuild/hub/preeti-appearance.test.js:1:272)
+    at Object.<anonymous> (/workspace/epicenter-release-1.0.141/rebuild/hub/preeti-appearance.test.js:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: '{"gender":"Female cat","age":"9","height":"12 in","weight":"14 lb","hair":"Ginger fur","build":"A small black-and-white domestic cat","face":"A feline muzzle, whiskers and alert ears","eyes":"Feline eyes and close-range low-light awareness
+FAIL rebuild/hub/pri-appearance.test.js
+PASS Pri approved profile has valid24-field feline anatomy,age3,10in shoulder height,10lb and green eyes without human matrix
+PASS Actual offer and acceptance keep approved Pri inactive until entry and preserve the original player,agreement and resource gates
+PASS Full current Pri and body inspection match approved reached body,remain read-only and survive reload without old human measurements
+PASS Legacy Pri refresh updates only known generic or missing details and preserves custom alterations,resources,mastery,history and belonging records
+
+node:assert:152
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
++ actual - expected
+
++ '{"gender":"Male cat","age":"9","height":"12 in","weight":"14 lb","hair":"Ginger fur","build":"A small black-and-white domestic cat","face":"A feline muzzle, whiskers and alert ears","eyes":"Feline eyes and close-range low-light awareness","voice":"Purrs, meows and hisses; no intelligible human speech","hands":"Forepaws with pads and retractile claws; no human fingers","arms":"Feline forelegs","legs":"Four feline legs","footSize":"Soft paw pads","skin":"Fur-covered feline body","tail":"A balancing feline tail","chest":"Fur-covered feline chest","hips":"Feline hindquarters","waist":"Compact feline torso","genitalAnatomy":"Male feline anatomy; human anatomy and grooming descriptions do not carry over"}'
+- '{"gender":"Male cat","age":"9","height":"12 in","weight":"14 lb","hair":"Ginger fur"}'
+
+    at /workspace/epicenter-release-1.0.141/rebuild/hub/pri-appearance.test.js:8:1047
+    at test (/workspace/epicenter-release-1.0.141/rebuild/hub/pri-appearance.test.js:1:272)
+    at Object.<anonymous> (/workspace/epicenter-release-1.0.141/rebuild/hub/pri-appearance.test.js:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: '{"gender":"Male cat","age":"9","height":"12 in","weight":"14 lb","hair":"Ginger fur","build":"A small black-and-white domestic cat","face":"A feline muzzle, whiskers and alert ears","eyes":"Feline eyes and close-range low-light awareness","voice":"Purrs
+FAIL rebuild/hub/repository-arcade.test.js
+ard entries use exactly three explicit initials without revealing a private full name
+PASS public hearing at reception does not grant physical arcade use outside the lobby
+PASS one voucher adds five percentage points to0,10or15percent and keeps manager discount selection intact
+PASS quote previews do not consume vouchers and cannot apply one to a service, basket or zero-benefit price
+PASS future checkout hook requires matching resolved single-item quote, consumes once and rejects stale or foreign reuse
+PASS arcade help preserves the three-letter rule and does not create stock score or rewards
+
+node:assert:152
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+
+false !== true
+
+    at /workspace/epicenter-release-1.0.141/rebuild/hub/repository-arcade.test.js:18:347
+    at test (/workspace/epicenter-release-1.0.141/rebuild/hub/repository-arcade.test.js:2:36)
+    at Object.<anonymous> (/workspace/epicenter-release-1.0.141/rebuild/hub/repository-arcade.test.js:18:1)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: 'strictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.22.1
+
+FAIL rebuild/hub/repository-attendant.test.js
+ve score suspends both rates without erasing separate positive earned scores
+PASS real negative events persist shared standing per player and recovery removes suspension while retaining history
+PASS actual Aniya coverage can perform free owned-form registration without Lee attendance or changed security
+PASS mortal wording below25 changes to an actually heard name at25 and remains at50 or higher
+PASS hidden save names private thoughts and hypothetical introductions never become learned names
+PASS heard-name familiarity survives reload but remains isolated by player and unrecognized appearance
+
+node:internal/assert/utils:77
+    throw err;
+    ^
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  A(S.canHear(s,'aniya-singh'))
+
+    at /workspace/epicenter-release-1.0.141/rebuild/hub/repository-attendant.test.js:12:137
+    at test (/workspace/epicenter-release-1.0.141/rebuild/hub/repository-attendant.test.js:1:371)
+    at Object.<anonymous> (/workspace/epicenter-release-1.0.141/rebuild/hub/repository-attendant.test.js:12:1)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.22.1
+
+FAIL rebuild/hub/repository-dialogue.test.js
+PASS a normal greeting sends selected identity voice and limits without the full appearance blueprint
+PASS appearance and interests remain retrievable when they are actually the topic
+
+/workspace/epicenter-release-1.0.141/rebuild/hub/scene-presence.js:33
+ if(directedTo&&!heard.some(x=>x.id===directedTo))throw Error('That recipient is no longer in your room or tile.');
+                                                  ^
+
+Error: That recipient is no longer in your room or tile.
+    at Object.speak (/workspace/epicenter-release-1.0.141/rebuild/hub/scene-presence.js:33:57)
+    at /workspace/epicenter-release-1.0.141/rebuild/hub/repository-dialogue.test.js:5:133
+    at test (/workspace/epicenter-release-1.0.141/rebuild/hub/repository-dialogue.test.js:1:226)
+    at Object.<anonymous> (/workspace/epicenter-release-1.0.141/rebuild/hub/repository-dialogue.test.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+
+Node.js v24.22.1
+
+FAIL rebuild/hub/repository-open-dialogue.test.js
+y anecdotes or a visitor relative past
+PASS an unavailable open reply has a conversational fallback rather than unrelated counter boilerplate
+PASS quoted spoken paragraphs survive a roleplay wrapper without retaining its physical actions
+PASS an unrecorded attribution to a family member is not licensed by the character voice
+PASS an own-name narrator wrapper is projected without requiring an exhaustive gesture verb list
+PASS first-visit and invented shared kitchen habits remain rejected after narrative projection
+PASS a hypothetical personal story is not retrieved as an actual reported memory
+
+node:internal/assert/utils:77
+    throw err;
+    ^
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  A(text.includes('Morgan'))
+
+    at /workspace/epicenter-release-1.0.141/rebuild/hub/repository-open-dialogue.test.js:22:609
+    at test (/workspace/epicenter-release-1.0.141/rebuild/hub/repository-open-dialogue.test.js:1:191)
+    at Object.<anonymous> (/workspace/epicenter-release-1.0.141/rebuild/hub/repository-open-dialogue.test.js:22:1)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.22.1
+
+FAIL rebuild/hub/repository-pricing.test.js
+eipts
+PASS discount follows the existing player account across appearances without leaking to another player
+PASS stale altered and different-player quotes cannot be used as current payment terms
+PASS undefined unapproved negative fractional or invalid price categories fail before any payment
+PASS storage deposit and withdrawal remain free at every tier with ownership mastery and slots intact
+PASS concise period voice and actual discount are available without invented paid transactions
+PASS chip and home stands stay deferred data without new capabilities inventory or a second carried-slot cap
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  A(text.includes('storageDepositWithdrawal'))
+
+    at /workspace/epicenter-release-1.0.141/rebuild/hub/repository-pricing.test.js:12:295
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+FAIL rebuild/hub/repository-social-boundaries.test.js
+ further penalties without refunding losses
+PASS a canonical event cannot be charged again by generic reply processing replay or reload
+PASS an unrecorded forged absent-recipient or foreign-player exchange cannot score
+PASS refusals and losses persist per player and presentation without copying hidden identity
+PASS negative Aniya standing suspends both discounts while preserving Lee’s earned score
+PASS a new outburst is not forgiven by elapsed time and cannot mutate resources ownership or forms
+PASS public species disclosure is neutral and does not mark all species questions as prior refusals
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  A(provider.includes('"repositorySocialBoundary"'))
+
+    at /workspace/epicenter-release-1.0.141/rebuild/hub/repository-social-boundaries.test.js:18:291
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5) {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+FAIL rebuild/hub/repository-specialists.test.js
+PASS four named staff have unique persistent actors and approved rarity maxima
+PASS specialist names resolve without duplicating relationship ledgers
+
+node:internal/assert/utils:77
+    throw err;
+    ^
+
+AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+
+  A(S.canHear(s,'anya-singh'))
+
+    at /workspace/epicenter-release-1.0.141/rebuild/hub/repository-specialists.test.js:8:139
+    at test (/workspace/epicenter-release-1.0.141/rebuild/hub/repository-specialists.test.js:2:36)
+    at Object.<anonymous> (/workspace/epicenter-release-1.0.141/rebuild/hub/repository-specialists.test.js:8:1)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: false,
+  expected: true,
+  operator: '==',
+  diff: 'simple'
+}
+
+Node.js v24.22.1
+
+FAIL rebuild/hub/tits.test.js
+PASS approved revised Common allocation and pools do not alter player attributes or resources
+
+node:assert:152
+  throw new AssertionError(obj);
+  ^
+
+AssertionError [ERR_ASSERTION]: Expected values to be strictly deep-equal:
++ actual - expected
+
+  {
+    arousal: 31,
+    health: 0,
++   resolve: 90,
+-   resolve: 99,
+    stamina: 25
+  }
+
+    at /workspace/epicenter-release-1.0.141/rebuild/hub/tits.test.js:3:247
+    at test (/workspace/epicenter-release-1.0.141/rebuild/hub/tits.test.js:1:158)
+    at Object.<anonymous> (/workspace/epicenter-release-1.0.141/rebuild/hub/tits.test.js:3:1)
+    at Module._compile (node:internal/modules/cjs/loader:1929:14)
+    at Object..js (node:internal/modules/cjs/loader:2060:10)
+    at Module.load (node:internal/modules/cjs/loader:1651:32)
+    at Module._load (node:internal/modules/cjs/loader:1443:12)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:261:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  generatedMessage: true,
+  code: 'ERR_ASSERTION',
+  actual: { health: 0, stamina: 25, resolve: 90, arousal: 31 },
+  expected: { health: 0, stamina: 25, resolve: 99, arousal: 31 },
+  operator: 'deepStrictEqual',
+  diff: 'simple'
+}
+
+Node.js v24.22.1
+
+{"cases":2779,"suites":221,"failed":["rebuild/combat/resource-profiles.test.js","rebuild/hub/ai-context.test.js","rebuild/hub/aniya-compliments.test.js","rebuild/hub/bimbo-virus-social.test.js","rebuild/hub/lee-character.test.js","rebuild/hub/lee-physiology.test.js","rebuild/hub/lee-social.test.js","rebuild/hub/markus-character.test.js","rebuild/hub/markus.test.js","rebuild/hub/npc-social-routines.test.js","rebuild/hub/player-guide.test.js","rebuild/hub/preeti-appearance.test.js","rebuild/hub/pri-appearance.test.js","rebuild/hub/repository-arcade.test.js","rebuild/hub/repository-attendant.test.js","rebuild/hub/repository-dialogue.test.js","rebuild/hub/repository-open-dialogue.test.js","rebuild/hub/repository-pricing.test.js","rebuild/hub/repository-social-boundaries.test.js","rebuild/hub/repository-specialists.test.js","rebuild/hub/tits.test.js"]}

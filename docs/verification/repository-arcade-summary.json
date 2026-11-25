@@ -1,0 +1,68 @@
+{
+  "scope": "Approved Repository lobby arcade and three-letter initials, local older authoring checkout; item checkout/prices remain unbuilt",
+  "approved": {
+    "record": 900,
+    "initials": "Exactly3letters, uppercase",
+    "games": [
+      "Rift Duel",
+      "Neon Front",
+      "Vector Circuit"
+    ],
+    "durationGameMinutes": 5,
+    "stages": 5,
+    "stageDC": 15,
+    "reward": "One single-use5percent item voucher per first cabinet record, additive5percentage points"
+  },
+  "regression": {
+    "cases": 2217,
+    "suites": 174,
+    "failed": 0
+  },
+  "arcadeControllerCases": 13,
+  "browser": {
+    "checks": 11,
+    "passed": true,
+    "errors": [],
+    "evidence": "work/repository-arcade/browser.json"
+  },
+  "backend": {
+    "passed": 58,
+    "failed": 0,
+    "evidence": "work/repository-arcade/backend.log"
+  },
+  "syntax": {
+    "passed": true,
+    "modules": 231,
+    "inlineScripts": 5
+  },
+  "sourceManifest": {
+    "rebuild/hub/repository-arcade.js": "32ed8335b5724060a28af736838bcde1901aefadeedb74619f8bbfa895d85ac7",
+    "rebuild/hub/repository-arcade-ui.js": "e110e3ba3696bcebd0ffc7ef9deb4f73472e3ab84244751f71fe4e4282b70077",
+    "rebuild/hub/repository-arcade.test.js": "646ef91e7fcaae58966a0633c586d0750bb77706a0566ca8413b7b3344b265cc",
+    "rebuild/hub/shared-activities.js": "0d8bccd716d174af15dcbcccb2cb16bf21aae37f8d6bb708939528d4381fa555",
+    "rebuild/hub/repository-pricing.js": "23ee2f58d32df45148efe7ae2f2099d4652a39545ecc62c714978bc767bd134f",
+    "rebuild/hub/form-repository.js": "8595c1405a5cdc4a85cd30a38c4802b0da5f351c7ec679233a5fc0973377ff72",
+    "rebuild/hub/form-repository-ui.js": "17aa083a248cc9df6b23b98472878599cddd7d497561c0a2fcb7f8d99f845dd4",
+    "rebuild/hub/repository-dialogue.js": "083df1fb806302b239d394773885c24a9ce77d1b493fec5b5575384eaf50506f",
+    "rebuild/hub/ai-context.js": "4dbc2699599f539db065109615d97450cbad46b9a40c972ab1697507391c1e53",
+    "rebuild/hub/text-actions-ui.js": "5250749f2376ba599c49f283e7eb67bc70136b6c99eaaed0f33dd7eff7ed5e9b",
+    "rebuild/hub/player-guide.js": "ea6f163a9c02080858999b7cfe2bf61c15cdf3db603ae0a88f99a113911525eb",
+    "rebuild/hub/location-details.js": "2b90b8a723769bd6e196a2a3cf2e42943a490fabee98202fc2ac9c827c4bfc2d",
+    "rebuild/hub/index.html": "eef3691fb7a441277030d83565368712a0846e6cafe0485d2c636c2f6fd6784b"
+  },
+  "fixedBrowserBug": "Leaderboard form/required field blocked the main composer; replaced by independent optional input and type=button, with exact initials validated by the controller",
+  "noPaidCalls": true,
+  "ownerSaveUsed": false,
+  "published": false,
+  "workerDeployed": false,
+  "remaining": [
+    "Actual sale stock, authored item prices, payment/ownership transfer and atomic checkout consumption of a voucher; current receipt hook uses synthetic fixtures only",
+    "Later integration onto public baseline and final facility acceptance"
+  ],
+  "evidence": [
+    "work/repository-arcade/unit.log",
+    "work/repository-arcade/regression.json",
+    "work/repository-arcade/browser.json",
+    "work/repository-arcade/record-fairness.json"
+  ]
+}

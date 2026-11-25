@@ -1,0 +1,12 @@
+{
+  "scope": "390x844 actual browser, isolated synthetic save, AI disabled; no paid call or owner save",
+  "checks": [
+    "actual Common form UI has no post-mastery tiers and preserves banked XP",
+    "Uncommon starts at tier zero with the approved native 500 XP cost",
+    "tier-one optional controls and typed stat selection grant the selected bonus once without blocking the composer",
+    "new XP allocation excludes Common and uses type-button controls outside nested forms",
+    "reload retains earned tier bonuses and the approved XP policy without another upgrade"
+  ],
+  "errors": [],
+  "passed": true
+}

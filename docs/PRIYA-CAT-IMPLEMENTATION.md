@@ -1,3 +1,12 @@
+## Owner-directed deferral — Priya’s cat forms
+
+Preeti and Pri (spoken as “Preity and Pre”) are explicitly added to the unfinished-work tracker asD24. Further design/build/integration and full acceptance are deferred while the current Repository male/female Uncommon opening pair is developed. Preserve existing approvals, implementation, verification history and saved player state; “deferred” does not mean earlier implemented behavior never existed or authorize deleting it. Resume when the owner returns to these cat forms; no forest dependency or date is inferred.
+
+
+## Published baseline and earlier checkpoints — historical context
+
+The following published history is retained from v1.0.140. Current release scope and explicit deferrals above supersede earlier authoring-stage directions.
+
 ## v1.0.140 current collar timing and release scope
 
 [Approved ordinary-collar timing](PRIYA-CAT-COLLAR-TIMING.md) supersedes earlier early/friendly offers: permanent mastery plus the longer follow-up stay discussion are required. The discussion makes a separate optional offer; fitting still needs actual acceptance in the cat body with awake present Priya. Already-worn collars, saved progress and existing removal rules are preserved. Recognition, stay status, voluntary following/sleep and grounded cat replies are included in the same owner-authorized release. Deployment evidence: releases/v1.0.140-release-summary.json. Earlier local checkpoints below are historical; the advanced obedience item/kennel remains deferred.

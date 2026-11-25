@@ -1,0 +1,34 @@
+{
+  "scope": "Approved werewolf physical voice and enhanced-senses Spire discovery with owner-selected discovery-only size gate",
+  "regression": {
+    "cases": 2276,
+    "suites": 181,
+    "failed": 0
+  },
+  "newControllerCases": 8,
+  "existingEasterEggCases": 22,
+  "browser": {
+    "passed": true,
+    "checks": 4,
+    "errors": [],
+    "evidence": "work/werewolf-spire/browser.json"
+  },
+  "sourceManifest": {
+    "rebuild/hub/werewolf-form.js": "e399657ea3d7f56727862f1ae67b6dd75548cda9b963620a2fe474d3f6bb005d",
+    "rebuild/hub/werewolf-appearance.js": "0dea6aff7c9fdf6fa19a0334e2b3a81fb6ddfa6edd8d8ca16e861a3e563a5b5b",
+    "rebuild/hub/easter-egg.js": "fa568c12416399bb61e644aa2e486e7992a39f9607bdcf685dffce8adc337f53",
+    "rebuild/hub/easter-egg-ui.js": "45ac73271f716b9cd7e70a0dc9f60d7066fb366a18567681eca3b95e69b7d46c",
+    "rebuild/hub/text-actions-ui.js": "77e0204a80a1fc6d59c59b480073e218daede43bd347bd597ca016f4cd1ad3c6",
+    "rebuild/hub/index.html": "f0533e92e71df9e64adaea0665dc6607ae6066c8e705356b1ca7ec1a34561c7c",
+    "rebuild/hub/werewolf-spire.test.js": "999769563e697dce6e4cfac577bf08707927b7b9f1de43f000b79963b52d2dcf"
+  },
+  "remaining": [
+    "Werewolf full template and actual stock/acquisition/transformation/mastery",
+    "Shared Arousal integration/damage tuning"
+  ],
+  "verificationNote": "Browser uses an explicit synthetic owned completed werewolf; changing active body in the fixture is not a tested werewolf reversion controller. No owner save or paid call.",
+  "published": false,
+  "workerDeployed": false,
+  "paidCalls": 0,
+  "ownerSaveUsed": false
+}

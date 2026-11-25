@@ -1,0 +1,102 @@
+{
+  "scope": "Approved native Markus mechanics wired locally through shared controllers and optional player UI; production world/service dependencies explicitly unbuilt",
+  "regression": {
+    "cases": 2339,
+    "suites": 188,
+    "failed": 0
+  },
+  "nativeControllerCases": 15,
+  "browser": {
+    "scope": "390x844 real browser, isolated synthetic owner/stock receipt fixture, actual menu/text/controller/clock routes; world events and lunar calendar explicitly QA fixtures, no forest or commerce assertion",
+    "checks": [
+      "approved combat profile and all four capacities are live without a free grant",
+      "typed wear uses the owned item action and real appearance/cooldown without healing",
+      "actual clock tick enables the common drawer; real pack urge and bloodlust reach a selected resistance roll",
+      "reload keeps native state and earned secret credit; qualifying completion actually masters the form",
+      "native release and a calendar-driven stored-form night restore the underlying body without duplicate ownership",
+      "final native d50 is selected by the player, persists once and escapes without mastery"
+    ],
+    "errors": [],
+    "passed": true
+  },
+  "sharedDrawerBrowser": {
+    "scope": "390x844 real browser, synthetic slot 3, AI off, native readiness/menu/text routes; no owner save",
+    "checks": [
+      "erin shared blue-to-green drawer and explicit resistance action",
+      "kibbles shared blue-to-green drawer and explicit resistance action",
+      "female shared blue-to-green drawer and explicit resistance action",
+      "male shared blue-to-green drawer and explicit resistance action",
+      "flats shared blue-to-green drawer and explicit resistance action",
+      "reload preserves readiness and cooldown; combat suppresses a genuinely ready opportunity",
+      "mastered and permanently bound forms keep the shared drawer blue",
+      "newly active Markus uses the same blue cooldown drawer before his first native roll"
+    ],
+    "errors": [],
+    "passed": true
+  },
+  "syntax": {
+    "modules": 13,
+    "inlineScripts": 5,
+    "failures": []
+  },
+  "textSourceAudit": "docs/verification/text-action-source-audit.json (inventory, not universal language acceptance)",
+  "liveProfile": {
+    "rarity": "Uncommon",
+    "attributes": {
+      "Endurance": 8,
+      "Fitness": 9,
+      "Intuition": 7,
+      "Reflexes": 7,
+      "Willpower": 4,
+      "Reasoning": 3,
+      "Stability": 3,
+      "Presence": 6,
+      "Insight": 3,
+      "Influence": 5
+    },
+    "max": {
+      "health": 240,
+      "stamina": 245,
+      "resolve": 220,
+      "arousal": 230
+    }
+  },
+  "wired": [
+    "native profile and actual active body/resources",
+    "owned carried-form wear/release and appearance/Items/Equip/text routes",
+    "shared-engine resistance/cost/cooldown and contextual roll modes",
+    "actual-kill bloodlust bonus, expiry and nonstacking cue event",
+    "secret-route credit/pause/reset and actual mastery completion",
+    "deadline starts at actual completed transformation; final d50 selected once with durable receipt",
+    "success release without mastery and failure permanent binding",
+    "calendar-driven same-owned-form replacement and sunrise restoration, including stored custody and saved active-night reload",
+    "private AI state reflects native activity/urge, with public appearance filtering"
+  ],
+  "remainingDependencies": [
+    "No production forest/prey/pack event provider: the northern forest and other werewolves remain unbuilt. Tests use explicitly supplied native-event fixtures.",
+    "No production world lunar-calendar provider: the existing game clock has no authored months. Three-night execution is tested with explicit calendar windows, not a fabricated live month.",
+    "No invented stock quantity, acquisition receipt or Reception checkout. createRecord grants no item; browser ownership fixtures use the existing storage authority.",
+    "Exact special combat moves/costs, detailed equipment/care compatibility, numerical relationship triggers and further permanent-body/retry conflict policies remain unauthored/unconfirmed.",
+    "No paid-model prose or full-world owner acceptance is claimed; native packet assembly and privacy are verified."
+  ],
+  "ownerSaveUsed": false,
+  "paidCalls": 0,
+  "published": false,
+  "sourceSHA256": {
+    "rebuild/combat/engine.js": "b0d0b4bc2ba57fe2e04fb707cf67b3bbdd8e476bda7c65cf95c4b15bfbbae6b0",
+    "rebuild/hub/werewolf-form.js": "7cffe36a6110b68a1143aacd1ab9db4fa25782b5d85f7ca2293161dd4d0c34f5",
+    "rebuild/hub/markus.js": "f347a28c6a9473a49343cc4a0b377eadf156660351086b282e25959229701794",
+    "rebuild/hub/markus-ui.js": "ce8826710bba1ecb531e708ce77c08d3bf29068c6656e77c7d36418f1ca0c268",
+    "rebuild/hub/markus.test.js": "619fcd0f2715d7bd840003c4197afbdac02e528cb9497b81409ee2e06f4138ca",
+    "rebuild/hub/internal-mastery.js": "a11d11c88f511ac695ca2d0398ae9c949ba1ba450c6b57eca593477a983d9d40",
+    "rebuild/hub/form-storage.js": "56ba99b6c2d4068c9b728799f085e01338ee9d0b87e487e0088bd02c7c3e4a70",
+    "rebuild/hub/equipment-ui.js": "490402be225f8af48534cce4488cae0d57ff52360ab188af0e3a95c4a9e8fdf8",
+    "rebuild/hub/form-minds-ui.js": "d8592efbe620a7e5a09033f64c30150d926443a657a75fc09236f0a98d9f5779",
+    "rebuild/hub/index.html": "711746dad00d8f58651d61156c69eda6116165af293224fd2ac6b40c49cabc30",
+    "rebuild/hub/text-actions-ui.js": "2c639a12c0cb244a3580ccc2df825ebb0183874d8c5f0d6e5be504e9d5ab562a",
+    "rebuild/hub/arousal-effects.js": "6f6314709a89e8484c9f3f3e4db494a827209bf25834a89ccc5c3b9e509c1a43",
+    "rebuild/hub/ai-ui.js": "52003fa02cb3e066364f6f6f7ab7f1267fc1be4f93f750745d4c1e40359bd075",
+    "rebuild/hub/ai-context.js": "2ed8198bb4472a6908435a45c51860e82c9cd4d91f220e944666d78ca82f7fc4",
+    "rebuild/hub/form-living.js": "67aaaaf97cb594876675d807038bf605ca058720fa33b6bfdb2402101d8a1051"
+  }
+}

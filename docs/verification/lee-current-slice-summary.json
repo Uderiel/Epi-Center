@@ -1,0 +1,35 @@
+{
+  "published": false,
+  "activeCharacter": "Lee Singh only",
+  "overallNpcComplete": false,
+  "automatedCases": 2008,
+  "automatedPassed": true,
+  "browser": {
+    "passed": true,
+    "checks": [
+      "Typed entry and direct public Lobby-to-Reception route reach actual Lee without entering storage",
+      "Lee answers actual directed speech and max affinity leaves storage locked across menu/text",
+      "Actual typed mouth-to-mouth feeding completes through the normal game clock, consumes ten once and survives reload",
+      "Recorded logs/footage and actual available QA update are reviewed offscreen once; reload preserves maintenance, customer presence interrupts it, security remains locked"
+    ],
+    "errors": [],
+    "scope": "Lee active development slice; synthetic slot3; AI off; no paid model call or owner save"
+  },
+  "verifiedScope": [
+    "Public entry and corrected A-B/A-C route",
+    "Lee actual Reception presence and directed AI-off replies",
+    "Scoped specialist-only secured access independent of affinity",
+    "Voluntary mouth-to-mouth feeding, five game minutes, ten arousal, plus two affinity once",
+    "Finite private belongings and actual Lee-owned praline serving",
+    "Actual security logs/footage, available in-game updates, customer interruption and saved maintenance",
+    "Foreign form ownership rejection and stable Lee relationship aliases"
+  ],
+  "remainingActiveLeeWork": [
+    "Actual break and co-manager handover",
+    "Remaining full-template care/wardrobe/receipt coverage",
+    "Final complete-day and complete AI packet verification"
+  ],
+  "paidModelCalls": false,
+  "ownerSavesUsed": false,
+  "nextProposal": "Five-game-minute break after actual Aniya counter coverage; no departure if coverage or committed-service safety is unmet"
+}

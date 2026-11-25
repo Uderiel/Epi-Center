@@ -1,0 +1,40 @@
+{
+  "scope": "Owner-approved 30-day VR calendar and standard shop-flow Reception checkout; production stock and forest ecology still unbuilt",
+  "regression": {
+    "cases": 2351,
+    "suites": 189,
+    "failed": 0
+  },
+  "clockCases": 18,
+  "retailCases": 9,
+  "browser": {
+    "scope": "390x844 isolated synthetic save; supplied QA stock through actual receive controller, actual typed/button checkout and native clock bridge; AI disabled",
+    "checks": [
+      "production checkout and display start empty with no free form",
+      "actual delivered test stock appears in both display and checkout without ownership",
+      "typed purchase reviews price and button payment consumes a real test voucher once",
+      "reload and typed repeated payment cannot duplicate stock money or ownership",
+      "asserted typed pay completes the same checkout while negation does not buy",
+      "production thirty-day lunar schedule fires on actual world tick and restores after reload at sunrise"
+    ],
+    "errors": [],
+    "passed": true
+  },
+  "limits": [
+    "Browser uses isolated synthetic save and explicitly supplied QA stock",
+    "No opening stock count, consignment settlement, forest/prey/pack source, hunt odds or pack acceptance authored",
+    "No owner save, paid model call, commit, publication or deployment"
+  ],
+  "syntax": "Changed modules and inline scripts pass",
+  "sha256": {
+    "world-clock.js": "b58178e29eb14a172d874ddb80d2f4d36f9265c50475f0da0a8502dcf6c8718f",
+    "markus.js": "970467b0e40c4344e0a0f8501cfaeec96e47efdfe9b226346c552abcaa19049c",
+    "werewolf-form.js": "e5ed6caa20a7d659824d582dee2ac09e638632b056afc8e3ee5e99a1992eca36",
+    "repository-display.js": "fe6d1e2e37a29a0cf06e76a77ee790624a0ccab8beacab71d1176c0cfa377017",
+    "repository-retail.js": "18960a07abe545fe05723693a10541ed340ed3370f58404975c6cd97ab6b9bdf",
+    "repository-retail-ui.js": "7a0773637b92d171ebcc3ac67548f328c05e2973e2f5fb04f5d757c370a00ea7",
+    "form-repository-ui.js": "28d118bf5ed930f2fcc2c333cad1048146a826fad45f8590ed2be183838c9d15",
+    "text-actions-ui.js": "859b18881461b883c57c673841cd9494006031a1649f55972caa9686b345c861",
+    "player-guide.js": "e319e61a95dd6a3440b25b3209c819447c003fcb72db8e829075d52dae697755"
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "status": "Implemented and locally verified; unpublished",
+  "approval": "Owner-approved bands, within-band attribute derivation and named NPC/form adoption",
+  "bands": {
+    "Common": [
+      100,
+      150
+    ],
+    "Uncommon": [
+      200,
+      250
+    ],
+    "Rare": [
+      300,
+      350
+    ],
+    "Epic": [
+      400,
+      450
+    ],
+    "Legendary": [
+      500,
+      550
+    ],
+    "HigherLegendary": [
+      600,
+      650
+    ]
+  },
+  "formula": {
+    "health": "floor+5*Endurance",
+    "stamina": "floor+2.5*(Endurance+Fitness)",
+    "resolve": "floor+2.5*(Willpower+Stability)",
+    "rounding": "nearest5, half upward"
+  },
+  "profiles": {
+    "charity": {
+      "rarity": "Epic",
+      "max": {
+        "health": 425,
+        "stamina": 420,
+        "resolve": 450,
+        "arousal": 100
+      },
+      "scope": "existing actor"
+    },
+    "tits": {
+      "rarity": "Common",
+      "max": {
+        "health": 130,
+        "stamina": 130,
+        "resolve": 110,
+        "arousal": 100
+      },
+      "scope": "existing actor"
+    },
+    "richard": {
+      "rarity": "Common",
+      "max": {
+        "health": 115,
+        "stamina": 115,
+        "resolve": 130,
+        "arousal": 100
+      },
+      "scope": "existing actor"
+    },
+    "daniel": {
+      "rarity": "Common",
+      "max": {
+        "health": 125,
+        "stamina": 125,
+        "resolve": 125,
+        "arousal": 100
+      },
+      "scope": "existing actor"
+    },
+    "nadia": {
+      "rarity": "Common",
+      "max": {
+        "health": 115,
+        "stamina": 115,
+        "resolve": 125,
+        "arousal": 100
+      },
+      "scope": "existing actor"
+    },
+    "priya": {
+      "rarity": "Common",
+      "max": {
+        "health": 120,
+        "stamina": 120,
+        "resolve": 125,
+        "arousal": 100
+      },
+      "scope": "existing actor"
+    },
+    "lee-singh": {
+      "rarity": "Rare",
+      "max": {
+        "health": 335,
+        "stamina": 335,
+        "resolve": 345,
+        "arousal": 100
+      },
+      "scope": "existing actor"
+    },
+    "aniya-singh": {
+      "rarity": "Epic",
+      "max": {
+        "health": 425,
+        "stamina": 425,
+        "resolve": 435,
+        "arousal": 100
+      },
+      "scope": "existing actor"
+    },
+    "anya-singh": {
+      "rarity": "Epic",
+      "max": {
+        "health": 425,
+        "stamina": 425,
+        "resolve": 425,
+        "arousal": 100
+      },
+      "scope": "reference/attribute profile; no new live actor"
+    },
+    "spectra": {
+      "rarity": "Legendary",
+      "max": {
+        "health": 550,
+        "stamina": 550,
+        "resolve": 535,
+        "arousal": 100
+      },
+      "scope": "reference/attribute profile; no new live actor"
+    },
+    "erin": {
+      "id": "erin",
+      "rarity": "Common",
+      "resourceTier": "Common",
+      "max": {
+        "health": 120,
+        "stamina": 120,
+        "resolve": 130,
+        "arousal": 100
+      },
+      "scope": "existing form"
+    },
+    "kibbles": {
+      "id": "kibbles",
+      "rarity": "Common",
+      "resourceTier": "Common",
+      "max": {
+        "health": 130,
+        "stamina": 135,
+        "resolve": 120,
+        "arousal": 100
+      },
+      "scope": "existing form"
+    }
+  },
+  "verification": {
+    "local": {
+      "cases": 2179,
+      "suites": 172,
+      "failed": 0
+    },
+    "resourceCases": 11,
+    "browser": {
+      "passed": true,
+      "checks": [
+        "Actual browser loads shared Rare/Epic/Legendary profile maxima without spawning unfinished actors",
+        "Saved NPC damage survives reload with raised maxima",
+        "Real Kibbles equip/release/re-equip preserves depleted form and underlying player pools separately",
+        "Erin Stats uses Common derived denominators and retains actual spent player-owned resources",
+        "Charity exposes one persistent Epic actor with actual maxima",
+        "Actual worn maximum modifier exceeds Legendary base ceiling and removal never heals"
+      ],
+      "errors": [],
+      "scope": "390x844 browser, synthetic isolated slot3, AI disabled, no owner save or paid call"
+    },
+    "backend": "58 / 58 AI backend cases passed",
+    "syntax": {
+      "javascriptFiles": 228,
+      "inlineScripts": 6,
+      "passed": true
+    }
+  },
+  "source": {
+    "rebuild/combat/engine.js": "01d61d0118327f1a504d64d7b872ad6df8da91955ed3c82d950094725d4c7cd5",
+    "rebuild/combat/entity-rules.js": "bd7d93bc25b91e1a737d5a9dacb1b66d436fa04478305227c91486c61139e2e0",
+    "rebuild/combat/kibbles-form.js": "1ed7fd69231670043709bccdb3c20c3631bdeb6dc983525b15cf85f4c597fa51",
+    "rebuild/combat/resource-profiles.test.js": "ff72aca9d08f365fc7027b9966dfcea7b476495aab5540b8aade6a1b712ac9fb",
+    "rebuild/hub/location-details.js": "1a0be607762bebf32bc9e68988f3bbb105075a692e6f62243b7236c3489c142a",
+    "rebuild/hub/form-repository.js": "e237eb6137b3e071ddd8eb7692377f26845849452e470a9c451dc6eb5f19f25d",
+    "rebuild/hub/lee-breaks.js": "efd80fd3b7a8dda0941d3aa258ed5d9c4f2c03ec1c2b105fb9bd8cecb9af43bf",
+    "rebuild/hub/charity.js": "ae430a861f5cc12733e46998c9604745a29a704e78c91666408dfab8150c8bbb",
+    "rebuild/hub/charity-household.js": "5dffe343c716cde24fe2c2238a96471453dadf7ee18576015a5d1e4ddb415829",
+    "rebuild/hub/tits.js": "9b363d084f8ac6d5ef855dbfa6303b44ffd0861f4498320e9431f5e1e1c162ba",
+    "rebuild/hub/richard.js": "7167b842627b3e85775c020482b61dcef24e59b8b5a4fd11760398869a0cf59a",
+    "rebuild/hub/department.js": "6115d9e4ae8b4f1591e87f63cbc80596ecc31b5cf24909a4377dc34ac9712dc9",
+    "rebuild/hub/marketing.js": "c442c66afd2097fa46fef6ce6d75712fd36c00c325e576cbbe914f2fc93d4e80",
+    "rebuild/hub/priya.js": "eacbf768a9c104b0edc4a4f8ddea0acf91ddc3860ed1823523b6d700d14e150a",
+    "rebuild/hub/priya-cat.js": "fef5a724a5b3c51debc81df3fd44e000a40eb78340f96cd352a649d9c0f3f60e",
+    "rebuild/hub/form-storage.js": "146b70591dfbd199b74174f249765767c848450365e6086f9b30f5230c9993bb",
+    "rebuild/hub/enchanted-effects.js": "dae5486a9a3e0587062b718f86143c6969472090301f3a5dd9b06bff1b94a561",
+    "rebuild/hub/index.html": "4889e86e58bee446355a4506648d00beef8a6c8743725867b0df4c7b81978f98",
+    "rebuild/hub/richard-ui.js": "62b3334bb3b03de45eeb0fabab7592619d1ada017cc42f2bbd6a18a2f6382cbc",
+    "rebuild/hub/department-ui.js": "3470d5841180668d0202b79ee6560376dfe60067f905da89e522c8e69181f0b2",
+    "rebuild/hub/marketing-ui.js": "30cb74ef11ad45a6dab9327fcc53d6fe99021ee8912e6e82fb26894a5871e6c4",
+    "rebuild/hub/priya-ui.js": "87a4bfef4254bbc63d08a9513171be6d641c9f301840833390d40cd90aad1861"
+  },
+  "limits": [
+    "No new live Anya, Spectra or Michael actor was spawned",
+    "No Spectra summon, move implementation or conversion service was added",
+    "Arousal model and damage/cost/resistance tuning remain separate open design",
+    "No owner save, paid call, commit, push, worker change or publication",
+    "Base human creation/resources and player earned attributes unchanged; Erin keeps existing resource ownership",
+    "Later integration onto public v1.0.140 must preserve newer fixes"
+  ]
+}

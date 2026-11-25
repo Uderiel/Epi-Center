@@ -1,0 +1,16 @@
+{
+  "scope": "390x844 actual browser, isolated synthetic save, AI disabled; no paid call or owner save",
+  "checks": [
+    "four actual lobby fixtures and controls appear without inventory pickup or paid services",
+    "typed seating records posture and remains compatible with normal conversation input",
+    "seated typed waiting does not prevent moving toB and cancels on the actual room change",
+    "table inspection is an actual one-minute digital-display observation",
+    "partial magazine reading survives reload and learns the public article only after five actual minutes",
+    "menu armchair seating and typed standing share the same controller",
+    "reading remains interruptible byC movement without secretly granting the article",
+    "chosen wait controls and explicit stop do not grant reading, money or resource recovery",
+    "a private wish cannot seat or start reading and lobby posture is present in actual physical context"
+  ],
+  "errors": [],
+  "passed": true
+}

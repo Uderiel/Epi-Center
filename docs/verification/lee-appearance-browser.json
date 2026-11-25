@@ -1,0 +1,28 @@
+{
+  "scope": "Lee current24-field template in real390x844 unpublished UI; synthetic slot only",
+  "checks": [
+    {
+      "name": "actual scene displays new tail ears small horns thick red skin and red sclera",
+      "passed": true
+    },
+    {
+      "name": "browser record has all24 current ordered fields and preserves missing measurements",
+      "passed": true
+    },
+    {
+      "name": "reload retains current NPC description and separate untouched player body",
+      "passed": true
+    },
+    {
+      "name": "actual browser dialogue packet carries the updated Lee facts without full unknown-field dump",
+      "passed": true
+    },
+    {
+      "name": "no script errors or paid-provider attempts occurred",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "providerAttempts": 0,
+  "passed": true
+}

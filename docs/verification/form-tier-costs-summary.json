@@ -1,0 +1,53 @@
+{
+  "scope": "Owner-approved production XP cost ladder; focused local verification, not publication or full form completion",
+  "costs": {
+    "1": 500,
+    "2": 1000,
+    "3": 1500,
+    "4": 2000
+  },
+  "cumulativeCosts": [
+    500,
+    1500,
+    3000,
+    5000
+  ],
+  "focusedTests": {
+    "unit": 15,
+    "hangry": 20,
+    "form-reference": 9,
+    "player-guide": 6
+  },
+  "totalFocusedChecks": 50,
+  "browser": {
+    "scope": "390x844 actual browser, isolated synthetic save, AI disabled; no paid call or owner save",
+    "checks": [
+      "actual Common form UI has no post-mastery tiers and preserves banked XP",
+      "Uncommon starts at tier zero with the approved native 500 XP cost",
+      "tier-one optional controls and typed stat selection grant the selected bonus once without blocking the composer",
+      "new XP allocation excludes Common and uses type-button controls outside nested forms",
+      "reload retains earned tier bonuses and the approved XP policy without another upgrade"
+    ],
+    "errors": [],
+    "passed": true
+  },
+  "syntaxAndWhitespace": "PASS: changed runtime modules and git diff --check",
+  "priorBroadRegression": "Previous pre-cost-update checkpoint: 2289 cases / 182 suites / zero failures. Not rerun or relabelled as current cost evidence.",
+  "limitations": [
+    "Native cost ladder is used directly; no QA cost override.",
+    "Ability grants in controller tests are explicitly synthetic; no production form-specific ability or native activation/timing is fabricated.",
+    "Initial mastery, rarity, legacy banked XP/records and resources are preserved.",
+    "No owner save, paid call, commit, deployment or publication.",
+    "Werewolf is still a partial authored form, not purchasable native stock."
+  ],
+  "sourceSHA256": {
+    "rebuild/hub/form-tiers.js": "13fa007e4d50d2a98bfadefdb5348a726590a05cc9da4361fe55e36520e9908c",
+    "rebuild/hub/form-tiers.test.js": "8eb431b7b2e8bde8d14d10e6fae23afa55631908dfdf6e19acc28e7686113415",
+    "rebuild/hub/player-guide.js": "2d2be88ac6c7951c33e1c0b8eaf00edacd32bd57a2d4cf6f99be6047485cb074",
+    "rebuild/hub/player-guide.test.js": "5d301a796c2cf89137b84bb099a10111e296c0b9eab7e8dc2c40b11e7483056f",
+    "rebuild/hub/hangry-fangs.js": "d49aacefcd3008ff56847b1a30726e220a08dea142db62bb72313c00a01be761"
+  },
+  "paidCalls": 0,
+  "ownerSaveUsed": false,
+  "published": false
+}

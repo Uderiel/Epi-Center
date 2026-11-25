@@ -1,0 +1,14 @@
+# Existing epi-center-ai Worker: entry point for the repository-root Git build.
+# Retain production variables/secrets and the existing budget namespace.
+name = "epi-center-ai"
+main = "services/ai/worker.mjs"
+compatibility_date = "2026-11-06"
+keep_vars = true
+
+[[durable_objects.bindings]]
+name = "AI_BUDGET"
+class_name = "AIBudget"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["AIBudget"]

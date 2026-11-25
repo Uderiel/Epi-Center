@@ -34,8 +34,8 @@ Existing Form Repository deposit/retrieve controls and5-gold boutique dog snacks
 
 ## Source interpretation and exclusions
 
-- Repository staff transcribed as Lee Singh, Anya Singh, Amya Singh and Spectra. The cursed-item specialist’s given name is provisional because the handwritten letters are ambiguous; it is marked as such, not treated as confirmed canon.
-- The Repository diagram puts Common in standard storage and Rare/Epic/Legendary in secure storage; the prose describes Common/Rare together and Epic/Legendary separately. Use Standard/High-Security names and do not implement rarity routing until this is resolved.
+- Owner confirms separate staff: Lee Singh (manager), Aniya Singh (co-manager; A-N-I-Y-A), Anya Singh (cursed-item specialist; A-N-Y-A), and Spectra (conversion specialist). This resolves both the provisional Amya transcription and the duplicated Anya entry. Owner also confirms Lee is an incubus, Aniya/Anya are succubi, and Spectra is a spirit (not ghost). Lee is calm, methodical, patient and fervently strict about ownership/security. These are reference facts, not completed NPC profiles/schedules or supernatural powers.
+- Owner resolved Repository routing on Nov20: Common/Uncommon/Rare use Standard Storage; Epic/Legendary use High-Security Storage. This supersedes the earlier diagram and settles the previously omitted Uncommon placement. Existing transport classification is implemented; staffed interior access remains a separate build.
 - Sublevel stair links are modeled as Repository standard-storage ↔ high-security storage and boutique adoption-office ↔ kennels. These are reference connections, not new travel edges. Sublevel extent beyond the drawings is not invented.
 - Owner clarification: the Breeding Room is not automatically excluded by its name. Restore source room H on the Boutique sublevel, connected to Kennels / Play Area E, beneath Treatment Room G. The reference concerns adult, sapient humanoid participants and non-graphic reproductive care. Trixie handles the proposed treatment and breeding services. The participant in the active form must explicitly agree; an owner’s decision is insufficient. No actual-animal sexual interactions or explicit sexual scenes are part of this scope.
 - The source proposes a pregnancy duration of one and a half game months and a release restriction until birth. These remain unimplemented design notes, requiring a complete reproductive-state/lifecycle design before activation; this reference amendment adds no pregnancy, consent decision, form lock, treatment or economy effect. Species amenities are recorded without graphic detail.
@@ -48,7 +48,7 @@ Existing Form Repository deposit/retrieve controls and5-gold boutique dog snacks
 
 ## Next complete location work
 
-Choose one location at a time under master-plan Phase11. Build actual interior travel/access, authored NPC availability/communication, inventory/prices, timed services, resource/consent/consequence rules and a tested service/quest loop. Do not call this reference pass completed playable interiors. Resolve the Repository name/rarity ambiguity before locking those facts into gameplay.
+Choose one location at a time under master-plan Phase11. Build actual interior travel/access, authored NPC availability/communication, inventory/prices, timed services, resource/consent/consequence rules and a tested service/quest loop. Do not call this reference pass completed playable interiors. Rarity routing is now owner-confirmed; staff names are now owner-confirmed; author complete NPC profiles and service rules next.
 
 ## Owner-confirmed weekend boutique opening
 
@@ -61,3 +61,11 @@ Owner selects a universal boutique implementation rather than designing Nadia-on
 Nadia’s apartment, wardrobe/care/hosting, independent Dart behavior, home kennel/food/toys/bed, actual walks and optional canine-player home encounters can be developed separately. Store potential care requests as intent only; do not mark an unimplemented booking as accepted, charge money, teleport Dart to boarding or award care/play credit. A long workday still needs an honest care-coverage plan: leave the dependency explicit or author a feasible real alternative rather than claiming the deferred boutique is caring for him. Do not invent a named walker or midday visit that cannot fit actual travel. Full independent workday animal-care completion remains dependent on that coverage.
 
 Supersedes earlier draft wording that detailed boutique staff/boarding mechanics must be settled in this Nadia review before any home work. Exact next action: finish Nadia/Dart household scope, implement the agreed independent slice when requested, and carry service/care dependencies into the shared boutique backlog.
+
+## Current Repository route correction
+
+Owner confirms public A↔B and A↔C. D (Standard Storage) is always locked/secured and never a public circulation aisle. Actual specialist escort is mandatory for player entry; affinity never changes this. Earlier A→B→D→C public-route transcriptions are superseded.
+
+## Latest Repository service clarification — 2026-11-24
+
+Storage, deposit and withdrawal are free. Cursed-item removal and conversion are recorded services; detailed effects/eligibility/prices remain for the later facility design. Autonomous-routines chips are a deferred idea at about10000gold, capped at3 per player with the cap interpretation/effects still to design. Form display stands are owner-recalled future home goods; home follows surrounding Hub businesses. Shared50/75Lee courtesy rates are approved/local, not proof of a working paid facility checkout. Original4528.jpg is an earlier chat upload, not a repository/Drive asset. The transcription remains useful; no fresh visual reinspection is claimed.

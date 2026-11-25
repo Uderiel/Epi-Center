@@ -1,0 +1,17 @@
+{
+  "published": false,
+  "scope": "Lee section3 defensive ability, not full NPC completion",
+  "focusedDefenseCases": 6,
+  "defenseBrowserChecks": 5,
+  "existingLeeBrowserChecks": 5,
+  "fullRegressionNamedCases": 2027,
+  "textAndMenuNavigation": true,
+  "textAndMenuInteractions": true,
+  "limits": [
+    "Only explicit recognized abuse or authored hostile actions",
+    "No arbitrary obedience interface",
+    "No whole-room five-foot inference",
+    "No general combat change",
+    "Blocked movement does not invent departure"
+  ]
+}

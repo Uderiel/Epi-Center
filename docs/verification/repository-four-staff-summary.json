@@ -1,0 +1,122 @@
+{
+  "scope": "Four-staff social integration in unpublished older authoring checkout; not whole-game/whole-NPC completion or public-baseline integration",
+  "characters": [
+    "Lee Singh",
+    "Aniya Singh",
+    "Anya Singh",
+    "Spectra"
+  ],
+  "regression": {
+    "cases": 2204,
+    "suites": 173,
+    "failed": 0
+  },
+  "backend": {
+    "passed": 58,
+    "failed": 0,
+    "evidence": "work/repository-four-staff/worker.log"
+  },
+  "browser": {
+    "passed": true,
+    "checks": 10,
+    "errors": [],
+    "evidence": "work/repository-four-staff/browser.json"
+  },
+  "live": {
+    "accounting": {
+      "calls": 12,
+      "maxCalls": 12,
+      "spentUSD": 0.0145496,
+      "reservedUpperUSD": 0,
+      "maxUSD": 0.5,
+      "stopped": null
+    },
+    "evidence": [
+      "work/repository-four-staff/live-results.json",
+      "work/repository-four-staff/live-results-v2.json",
+      "work/repository-four-staff/live-results-v3.json"
+    ],
+    "failuresFound": [
+      "Overlong Lee reply",
+      "Anya invented previously catalogued cursed items",
+      "Single-quoted Anya dialogue retained a stage direction",
+      "Hidden save display name in new specialist physical-context packet"
+    ],
+    "repairs": [
+      "Concise request framing and overlong reply rejection",
+      "Unrecorded past-work-case validation",
+      "Single-quoted speech extraction plus residual narration rejection",
+      "Public-identity field replaced with actually learned name or visitor label"
+    ],
+    "limits": "Small bounded Cydonia sample, not proof against every interpretation. Paid peer path selects authored lines; only Lee/Aniya peer choices were paid-tested; all six pairs were controller/browser-tested.",
+    "finalFreeInspections": [
+      {
+        "name": "Lee Singh",
+        "passed": true,
+        "paidGeneration": false,
+        "hash": "e9dca7cefa8d6cdee2fd60c597b720365a63109b7dc107c404ffc82a58a3a1cd"
+      },
+      {
+        "name": "Aniya Singh",
+        "passed": true,
+        "paidGeneration": false,
+        "hash": "7985a6b60e29023918fd729733b73a99b7bd2850a1fc157d991bf6543a2490e0"
+      },
+      {
+        "name": "Anya Singh",
+        "passed": true,
+        "paidGeneration": false,
+        "hash": "4440390b321141d4272a8010ef4e58365037adb7a1e177970cd7795eca0d8bf7"
+      },
+      {
+        "name": "Spectra",
+        "passed": true,
+        "paidGeneration": false,
+        "hash": "2f2e6cee9986eab99983f3dac6074b6dca85b74f18d5064572098110abfc757a"
+      }
+    ],
+    "finalSourceManifest": "work/repository-four-staff/source-manifest-final.json"
+  },
+  "implemented": [
+    "Persistent Epic Anya and Legendary Spectra actors, portrait UI and actual presence",
+    "Player/appearance-specific learned names, selected Spectra scar disclosures, no dating",
+    "Spectra rolling daily/weekly relationship limits and actual gift transfer",
+    "Anya three-offense conduct and parent-aware warnings; saved temporary exclusion",
+    "Actual backup availability, six pair conversation paths and Anya quiet customer initiation",
+    "Typed/menu player contact parity and no remote/downstairs access",
+    "Specialist structured request and validation, with stale-result gates"
+  ],
+  "notImplementedOrNotTested": [
+    "Facility prices, service queues, conversion/cursed-item transactions and sale catalog: owner explicitly defers until Repository design",
+    "Spectra actual charm grant, Underworld ally/spectral encounter integration, signature move execution and sensing: encounter adapter dependencies",
+    "Anya special feeding/binding/quest branches: separate gameplay controllers not built by this pass",
+    "Autonomous family physical-comfort action: approved design, not implemented",
+    "Later integration against publicly released v1.0.140 and combined facility acceptance"
+  ],
+  "published": false,
+  "workerDeployed": false,
+  "ownerSaveUsed": false,
+  "sourceManifest": {
+    "rebuild/hub/repository-specialists.js": "e7c7df9619154f0b0f07a7bf18314a29812d5ca2b10d94cf243f70ff62d23090",
+    "rebuild/hub/repository-specialists.test.js": "40364eb727dd1ac9233611ce637c08b8a62b6d073399e23f9882b13b63482b44",
+    "rebuild/hub/form-repository.js": "215295e77bb349e643863082ca962c6512f45eb8241e00fed9f8db1ab1318761",
+    "rebuild/hub/form-repository-ui.js": "0a5fa2750f733ac230589a7407798037f1e48b416e4a6553e72e2c8a5e8e922d",
+    "rebuild/hub/relationships.js": "af40caa5a7eab259af7b9512a559dcf575d4d8446bf70d7509836a76b78b3df4",
+    "rebuild/hub/relationship-interactions.js": "6f19d7fb51bf3dd0095489d39e3e99d65715487bed96d009677772fa4f032333",
+    "rebuild/hub/repository-social-boundaries.js": "50e28b00ab2d4b46b9e02bb726c2099137ae5c0442e02421a7fa7175873b839e",
+    "rebuild/hub/aniya-conduct.js": "ad1683cf24f2a266f4ac380fc3fd91f2fe50c374abb90ede94287faf7f117117",
+    "rebuild/hub/repository-dialogue.js": "442fec4a71b1b99c1e981584922e3f578bc1496d7e34f4c32b9c5b75049fdd17",
+    "rebuild/hub/npc-social-routines.js": "73fe4c23303c3875a72450c7fd4f09dd092ea2350267d503b22b8dfedd498639",
+    "rebuild/hub/social-ui.js": "fa305c3c9eb9daa0f714601d3afcba54f80392647823ad4690dfc6b9d2914c8b",
+    "rebuild/hub/ai-context.js": "8fee6943db021f31da1b18a3ac3a79fd02dcb16d3c316bc79d6651f7c6e0c3b4",
+    "rebuild/hub/ai-ui.js": "847a6c7cbabb81684f19d766dd508d2b31dd0ffd1fb70c39e9746f4f6fa73dc0",
+    "rebuild/hub/text-actions-ui.js": "85d0dee7cfbb98818d8a9ebd4f11f82a55a6c61616d60d10362b3a6d6550f135",
+    "rebuild/hub/language-actions-ui.js": "1a2e72a1a1e85172b84581c6b1f8333f11ad6d3a9052bc550a303e540b055000",
+    "rebuild/hub/index.html": "de40b4f8ce7f4feb8650542fa318b74ff120dd54c763ddcc8fbf0c20b4f08f60"
+  },
+  "syntax": {
+    "passed": true,
+    "modules": 229,
+    "inlineScripts": 5
+  }
+}

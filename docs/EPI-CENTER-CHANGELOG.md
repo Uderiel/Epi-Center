@@ -1,3 +1,7 @@
+## v1.0.141 — owner-authorized release candidate
+
+The owner authorizes publication of approved, wired changes after the comprehensive scope is provided. See releases/v1.0.141-synopsis.md for the full included/excluded list. The authoring changes are integrated over the publicly verifiedv1.0.140baseline, preserving its save/travel/dialogue/appearance/Priya repairs. Markus and further cat-form work are deferred; opening stock remains empty. Repository-specific AI generation requires the new Repository fact-projection assembly and preserves authored responses if it is unavailable. Deployment/public verification are pending; no publication is claimed by this preparation record. Release evidence belongs in releases/v1.0.141-release-summary.json. Earlier “no publication authorized” instructions refer to their previous stage and are superseded by the current explicit release request.
+
 # v1.0.140 — durable saves, responsive travel and Priya cat follow-up
 
 Owner authorized publication of the completed local batch after v1.0.139, then added the post-mastery collar timing requirement before release. This document describes the final combined scope. Deployment/public verification is recorded in `v1.0.140-release-summary.json`.
@@ -18,6 +22,112 @@ Final versioned verification passes2,493 named cases across177 suites, plus19 lo
 Operational note: packed saves require the updated readers together. Do not reopen them in an older build. If an existing live tab has unsaved progress from the old quota error, preserve it and make a backup before refreshing; deploying a new release cannot recover a closed tab’s unsaved memory.
 
 ## Earlier release checkpoints — historical
+
+## VR calendar and standard Reception checkout — local increment, unpublished
+
+Owner confirms30-dayVRmonths and reuse of the established store flow. The shared clock now supplies closing lunar nights28/29/30 at19:00–07:00; Markus uses them automatically and restores the previous body at sunrise, including after reload. Reception checkout reuses shared pricing, vouchers, ownership and acquisition transport: review actual stock, revalidate, pay and record one durable receipt. Buttons and typed purchase/payment use the same controller. There is no production stock, new delivery quantity, restock schedule or consignment settlement. Opening forms and the northern forest/prey/pack system remain unfinished design/build work.
+
+Verification:2351 checks /189suites /zero failures, including18clock and9retail cases. Phone-width checkout/calendar evidence: verification/repository-checkout-calendar-summary.json. QA supplies synthetic stock; actual production remains empty. No owner save, paid call, commit or publication. See FORM-REPOSITORY-CHECKOUT.md and MARKUS-NATIVE-IMPLEMENTATION.md. Previous checkpoint counts below retain their historical scope.
+
+## Markus approved native wiring — implemented and locally verified
+
+The approved-but-unwired native list is now connected: settled55-point profile and240/245/220/230capacities; owned-form wearing/appearance; shared resistance and bloodlust; actual secret-route credit/pause/reset/mastery; thirty-day final d50 with durable escape/binding; mastered release; and lunar replacement/sunrise restoration execution. Items/Equip, typed/menu actions, world-clock bridge, common blue/green drawer and private provider state use the native controller. No stock, free form, player-forced approach roll or new stat approval was invented.
+
+Verification: 2,339 checks across 188 suites, 15 native Markus cases, six native phone-width checks and eight shared-drawer checks pass. Changed-module/inline syntax and whitespace pass. Actual world/clock/action/provider paths are exercised; forest events, ownership receipts and calendar windows are explicit QA fixtures. Evidence: verification/markus-native-wiring-summary.json and MARKUS-NATIVE-IMPLEMENTATION.md. No owner save, paid call, commit or publication.
+
+Remaining actual connections are the unbuilt forest/prey/pack source and actual opening stock. The owner-approved30-dayVRcalendar and standard Reception checkout are now connected and tested locally; see the current increment below. Remaining design without a located final decision is exact special moves/costs, equipment/care compatibility, numerical feral relationship triggers and further conflict/retry extensions. These do not reopen the approved spread or completed native mechanics.
+
+## Historical pre-wiring audit correction — settled approvals retained
+
+Owner stops the renewed attribute proposal and confirms the spread has already been completed. The existing 55-point vector and derived 240/245/220/230 capacities are settled design; stale assistant “proposed/unapproved” labels were the cause of the repeat question. At that audit checkpoint native registration was absent; it is now connected as described above. MARKUS-DESIGN-AND-WIRING-AUDIT.md separates settled decisions, locally connected slices, approved-but-unwired gameplay and details without a located final decision. This is an audit/canonical-record correction only, with no gameplay change, new test claim or publication.
+
+## Markus secret route approval — design saved, native integration pending
+
+Owner approves the consolidated hidden mastery route: first successful qualifying resistance starts three in-game days; failed rolls or actual joining/feeding reset the secret streak; an unselected opportunity neither advances nor breaks it. Completion grants actual base mastery, retains monthly full-moon consequences and does not invoke the deadline escape roll after mastery. Native policy stores these rules; native streak/controller execution is now connected as described above; the actual forest provider remains unbuilt. The existing 55-point allocation/capacities are already settled; see the current audit for remaining wiring and details without a located final decision. No publication.
+
+## Universal resistance drawer — locally complete, unpublished
+
+Owner-approved common UI rule is now implemented: blue while unavailable, green for an actual eligible resistance roll, across Erin, Kibbles, Preeti/Pri and Priya’s flats. All room layouts use one common drawer. Menus and typed requests use the existing native controllers; highlighting/opening does not roll or spend resources. Voluntary pack/prey approach remains a player choice, with no forced resistance inferred from it.
+
+Verification: 2,324 regression checks across 187 suites, eight phone-width browser checks and changed-module/inline syntax pass. Browser checks include actual native menu/text actions, cooldowns, colors, reload, combat, mastered/bound states and an unsupported Markus form staying blue. A real Priya-home combat render error was fixed by rendering blocked combat docks before guarded room controls. Evidence: verification/universal-resistance-summary.json. No owner save, paid call, commit or publication.
+
+Markus’s approved bloodlust (+2 on the ordinary opposed roll only for sixty minutes, refresh/no stack, accepted atmospheric cues) is saved in native policy and a pure timing helper; actual kill/effect emission remains unbuilt with the forest. His proposed secret three-in-game-day mastery route, pack-ego appeals and player-initiated resistance are saved with exact event/streak rules still incomplete. No automatic approach roll or unsupported missed-check penalty is authored.
+
+## Markus activity priority — approved, pure resolver verified
+
+Hunting with a pack gives disadvantage; asleep/idle with a pack gives advantage; actual pack presence otherwise gives normal rolls. Native policy and pure context resolver are locally implemented. All 27 focused checks across four suites pass. Shared-stat explanation is source-checked and exact illustrative odds are enumerated; original-player Willpower opposes form Reasoning, not the entire rarity budget. Markus's full attribute vector/native conquest adapter remains incomplete. Evidence: verification/markus-roll-context-summary.json. No owner save, paid call or publication.
+
+## Markus final resistance outcome — owner confirmed
+
+Success releases the player without mastery; failure causes permanent entrapment. Native policy and the pure result evaluator now label those outcomes, and all 26 focused checks across four suites pass, including every natural d50 face in each influence band. This is not an implemented physical release/deadline event: exact timer start, native restoration, one-time event receipt and surrounding lifecycle remain unbuilt. No mastery, XP, healing, owner-save change or publication. Evidence: verification/markus-release-outcome-summary.json.
+
+## Markus deadline update — owner-approved d50 resistance bands
+
+At the thirty-day deadline use a resistance roll (owner correction from “reconnect”), one natural d50: influence 0–20 requires 10+, over20–40 requires20+, over40–60 requires30+, over60–80 requires40+, over80–100 requires45+. Inclusive success odds are 82/62/42/22/12 percent. Failure means permanent-entrapment risk resolves against the player; success releases the player without mastery. The exact start event and native deadline event persistence remain unresolved/unbuilt. Pure threshold/recorded-result helpers and focused boundary/face checks are locally implemented; no actual roll, transformation, mastery or binding is performed on an owner save. See MALE-WEREWOLF-TEMPLATE.md and verification/markus-resistance-summary.json. Nothing published.
+
+## Current Markus correction — feral forest hunter; conquest and lunar consequences
+
+Owner replaces the humanized persona and rejects a fixed human routine. Markus is feral until tamed/conquered, prefers seclusion or an actual pack, and primarily hunts in the northern forest (not built; other werewolves will exist there). Pack presence must be real. Conquest rolls: normal with an actual pack, disadvantage while hunting, advantage asleep/idle; activity modifiers take priority over pack presence. Thirty game days to conquer, followed by an influence-banded d50 resistance roll; failure leads to permanent entrapment, success releases the player without mastery; exact clock start remains unresolved. After conquest, month-end full moon forces the same owned form from carried/Repository custody, replacing another form, for three sunset-to-sunrise nights. Calendar and native lifecycle integration remain unbuilt.
+
+Corrected feral dossier/private sensory context/AI-off impulses are locally wired. Earlier humanized dialogue is retained but excluded from current provider history. Policy descriptors and a pure 30-day window helper are implemented, not a running forest, native conquest countdown or monthly transformation event. Current evidence: verification/markus-feral-summary.json. Name, appearance, rarity/price and tier rules remain saved. No owner save, paid call, commit or publication.
+
+## Historical Markus name/character checkpoint — persona superseded above
+
+Owner approves the male werewolf identity/temperament draft and names him Markus. Native stable ID and measurements are preserved. Conscious profile, bounded private AI dossier/voice and AI-off body replies are connected; unavailable/other-owner forms cannot answer. Explicitly unfinished routines/clothing do not inherit a human schedule. MALE-WEREWOLF-TEMPLATE.md retains the twelve-section checklist and next routine/needs proposal. Full lifecycle, mastery, acquisition, relationships and combat remain incomplete. Evidence: verification/markus-character-summary.json. No owner save, paid call, commit or publication.
+
+## Approved tier XP costs — locally implemented, unpublished
+
+Owner correction: Tier 1 costs 500 XP, Tier 2 costs 1,000, Tier 3 costs 1,500, and Tier 4 costs 2,000. These are separate upgrade costs: cumulative 500 / 1,500 / 3,000 / 5,000. The lower assistant proposal is withdrawn. Runtime uses an immutable approved cost ladder; no temporary QA cost registry is needed. Tier 1 can be bought for an actual eligible mastered owned form with sufficient assigned XP. Missing form-specific abilities still block tiers 2/4 without charging XP. Existing rarity, earned tiers, banked XP, resources, ownership and base attributes are preserved; no owner save is used.
+
+Verification and scope: verification/form-tier-costs-summary.json. Nothing committed or published. Further individual-form design and native ability activation remain incomplete.
+
+## Unpublished — within-rarity post-mastery tiers
+
+Added Common0/Uncommon1/Rare2/Epic3/Legendary4limits, tier1/+2and tier3/+4form-owned stat allocations, and tier2/4ability grant contracts. Tier progression preserves rarity, base budgets, current pools, custody and original-player stats. Added exact/sequential/atomic guards, legacy preservation, effective-stat/combat consumers, labelled modifiers and optional text/menu controls. Common new XP assignment is blocked; existing banked XP remains. Removed the nested XP-assignment form. Production XP costs and actual form-specific duration/cooldown/passive implementations remain pending. Verification:verification/form-tiers-summary.json. No publication.
+
+## Unpublished — werewolf voice and discovery-only Spire route
+
+Mapped the approved thick neck/low resonant gravelly voice. Added partial native enhanced-senses capability for hidden chicken discovery with owner-selected size restriction on all three follow-up stages. Saved discoveries can resume in a fitting body; existing locality, completion sequence, reward amounts and repeat protection remain. Disabled controls and typed attempts show the shared size reason. No complete form actor, stock, acquisition or transformation. Evidence:verification/werewolf-spire-summary.json. Nothing published.
+
+## Unpublished — universal form rarity prices
+
+Added approved3500/7000/14000/28000/56000gold base-price ladder, read-only rarity quote helper and strict shop/player display-price validation. Existing attendant/voucher discounts, free storage, ownership and money remain unchanged. Werewolf draft is7000gold. Recorded owner direction for rarity-scaled Arousal and reality-based Common forms; exact formula/threshold integration remains review work, not implemented by pricing. Five focused, three phone-width and full2264/179regression checks pass. No stock/checkout, paid call or publication.
+
+## Unpublished — ranked male/female showcase composition
+
+Enforced one male/female per most-used and least-used pair and mixed-gender popular selection when eligible forms exist. Preserved authoritative rank order, physical stock limits and sale-filter independence; excluded duplicate form listings from crowding ranked slots. Added visible gender/archetype inspection labels. Recorded four store-produced opening forms as the next design scope; no actual stock or prices created. Eight focused and three phone-width cases pass; full regression2259/178. No publication.
+
+## Unpublished — eleven display stands, browsing and search
+
+Expanded Room B to two most-used, two least-used, three most-popular and four sale stands. Added source-aware shop/player allocation, left/right cycling with retract/air-lift animation, combat-archetype/gender filters, saved stand choices and independent rotation. Fixed cycling reshuffling neighboring stands and the composer redraw removing the animation. Physical-copy availability, privacy, ownership/mastery and pre-purchase restrictions remain enforced. Catalog/rank fixtures verify the adapters only; live stock, prices and ranking rules are not invented. Evidence:verification/repository-display-bank-summary.json. Nothing published.
+
+## Unpublished — Room B physical display controls
+
+Added actual solid/hollow-looking form display projection, manual stand orientation, public stats inspection and Room B UI/text controls. Mastered/unavailable listings are excluded without mutating owners’ forms. Private lore stays hidden and pre-purchase handling stays blocked. No live stock is registered. Ten focused, seven phone-width and full regression checks pass; actual catalog, checkout and full form visuals remain pending. See verification/repository-display-summary.json. No publication.
+
+## Unpublished — Room A seating, waiting and magazine interactions
+
+Added discoverable futuristic seats/table/magazines, recorded sitting/standing, chosen waiting and five-minute interruptible public-technology articles. Completed reading learns attributed database facts once; magazines never become inventory loot. Reused the shared activity clock, kept body/player/reload gates, and made both public B/C routes interrupt the activity without locking movement. Optional buttons and common typed commands use the same controllers. See verification/repository-lobby-summary.json. No paid call, stock or publication.
+
+## Unpublished — Repository lobby arcade and futuristic styling
+
+Added three free, saved five-stage arcade games using current-body Reflexes/Intuition, Lee’s900record, exactly three uppercase scoreboard letters, once-per-cabinet vouchers and additive five-point item discount hooks. Reused the shared activity clock with interruption/reload gates and no actual combat/resource consumption. Fixed leaderboard controls interfering with the main composer. Updated all seven room descriptions to sleek brightly illuminated synthetic digital-storage styling. Actual stock/item checkout remains deferred. See verification/repository-arcade-summary.json; no publication.
+
+## Unpublished — four-staff social integration
+
+Connected Anya and Spectra’s persistent actors/approved portraits, public/downstairs availability, directed dialogue, scoped names/history, relationship rules and all-six-pair ambient exchanges. Added Anya’s parent-aware misconduct and quiet customer initiation and Spectra’s player-contact controller; retained service/stock/pricing deferral. Patched paid failures in reply length, invented work history and single-quoted narration. Verification and explicit remaining dependencies: REPOSITORY-FOUR-STAFF-VERIFICATION.md. No publication.
+
+## Unpublished — approved shared combat-resource tiers
+
+Added owner-approved tier bands and attribute derivation for existing authored NPC/form profiles. Updated Charity (Epic), Lee (Rare), Aniya (Epic), Kibbles/Erin and authored ordinary Common NPCs; registered Anya/Spectra reference maxima without spawning actors. Preserved damage/spending, earned state and ownership; corrected fixed-100 recovery/encounter/UI consumers and Charity's persistent resource actor. HigherLegendary resource exceptions remain distinct from attribute rarity. No new damage, cost, Arousal or resistance balance is adopted. Verification:2,179cases/172suites,58backend checks and6phone-width checks pass. Nothing published; see verification/combat-resource-tiers-summary.json.
+
+## Unpublished Repository character work —2026-11-24
+
+- Wire Aniya's approved personal-compliment+5/follow-up, voluntary feeding menus/text and actual read-only storage review. Preserve existing aura, gift, familiarity, discount and conduct rules.
+- Add actual clock-driven family/office/shop peer exchanges with offscreen continuity and local conversation priority. Live model selects controller-authored deliveries; generated prose cannot invent peer world facts.
+- Keep controller-owned privacy/compliment/known-fact speech authoritative; leave ordinary stories/jokes open. Correct phantom first utterances, unheard-name leaks, unrelated packet contents and stage/analysis output. Save and answer only displayed peer words.
+- Verify whole-day shared-clock phone play/reload, malicious-choice fallback and real Cydonia scenarios; record failed free-prose acceptance separately from functional passes. Exact accounting and regression evidence: verification/aniya-live-acceptance-summary.json.
+- No publication, worker deployment or owner save. Whole-character/open-ended factual acceptance and later public-baseline/family/facility integration remain open.
 
 ## v1.0.127 — Cherished Touch artwork published and verified
 

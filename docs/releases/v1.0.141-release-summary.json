@@ -1,0 +1,33 @@
+{
+  "version": "1.0.141",
+  "baselinePublicClient": "1.0.140",
+  "mainBase": "874979280b32c0c7317e69591e080447635ab8cb",
+  "authoringSnapshot": "54dcda1c674075e97b16df0dc2ec103106e49349",
+  "status": "Approved release candidate; local gates passed; publishing authorized",
+  "comprehensiveScope": "v1.0.141-synopsis.md",
+  "workerChanged": true,
+  "expectedWorkerAssembly": "request-handoff-v12-repository",
+  "workerConfiguration": "Existing epi-center-ai Worker; root Git entry; keep_vars; same AI_BUDGET class/v1 migration; no new namespace or stored-budget reset",
+  "modelsSettingsSecretsChanged": false,
+  "newPublicationPaidCalls": 0,
+  "ownerSavesUsed": false,
+  "generalRealProviderAcceptanceComplete": false,
+  "runtimeScope": "Repository staff/social integration, rooms/lobby/arcade/displays/checkout foundation; resource bands/form prices/within-rarity mastery/universal resistance drawer; VR calendar and complete records",
+  "deferred": "Markus gameplay and forest/prey/pack; further Preeti/Pri development; unfinished opening stock; specialist services and unbuilt powers/quests",
+  "preparationFailuresRetained": true,
+  "verification": "Local automated, full baseline browser replay and new-feature browsers pass. Public Pages/Worker/Bible verification pending.",
+  "automatedCases": 2912,
+  "automatedSuites": 222,
+  "baselineLocalBrowserSuites": 19,
+  "baselineLocalBrowserChecks": 136,
+  "newFeatureLocalBrowserSuites": 9,
+  "newFeatureLocalBrowserChecks": 85,
+  "bibleIntegrity": {
+    "version": "1.0.141",
+    "canonical": "docs/EPI-CENTER-WORLD-BIBLE.md",
+    "frozen": "docs/bible/v1.0.141-world-bible.md",
+    "bytes": 144741,
+    "sha256": "8f1838c871b6aad8b8da0de8aa49fe92ad38adea9c72d668cd04a8ec4cf64639"
+  },
+  "workerDryRun": "PASS; existing Worker, keep_vars, existing AI_BUDGET binding"
+}

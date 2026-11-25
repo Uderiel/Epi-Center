@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-24",
+  "status": "Historical initial reconciliation checkpoint; superseded by owner-approved detailed appearance and portrait",
+  "activeCharacter": "Lee Singh",
+  "fieldGroups": 24,
+  "newAppearanceCases": 7,
+  "automatedCases": 2087,
+  "automatedSuites": 159,
+  "failures": [],
+  "newPhoneBrowserChecks": 5,
+  "earlierSocialPhysiologyPricingBrowserChecks": 42,
+  "browserErrors": [],
+  "providerAttempts": 0,
+  "ownerSavesUsed": false,
+  "paidCalls": 0,
+  "workerDeployed": false,
+  "wholeNpcComplete": false,
+  "actualProviderProseAccepted": false,
+  "measurementEstimatesGenerated": false,
+  "latestFacts": [
+    "Approximate three-foot spade-tipped tail with thick red leathery skin",
+    "Small horns",
+    "Slightly pointed ears",
+    "Mostly black eyes with red sclera; replaces earlier iris wording"
+  ],
+  "noNewTopLevelFields": true,
+  "unknownDetailsReport": "docs/LEE-SINGH-APPEARANCE-RECONCILIATION.md",
+  "unchangedSharedHelpersCopiedFrom": "publicv1.0.140 release workspace",
+  "sourceHashes": {
+    "rebuild/hub/lee-appearance.js": "79b58651aecd1bc46babbc4271c9f7f0c7d5bab9ab480ac782cc47a1bce5f2a9",
+    "rebuild/hub/lee-appearance.test.js": "925a58d1c993c51a8396b56ef0b837a274a5f7e47648a55ad897a7ed79fdb3f3",
+    "rebuild/hub/location-details.js": "d7ef8ff6c2153bebbcc3cdca731443aaac3d204ee914820fafc1cb006c568b5a",
+    "rebuild/hub/form-repository.js": "e69be5b145b6904c1693bae2260b484f1b7d8ffcda21a0b10b84979a02b82eae",
+    "rebuild/hub/form-repository-ui.js": "8f68455e2088e8dbdc4377440825ee2532bf508f291efbb3738aa2756d837315",
+    "rebuild/hub/index.html": "20fd8d19fd201b43a1bc290cbf3c2a516d25f53184c5dc2f49d72dd4a1df9c9d",
+    "rebuild/hub/appearance-template.js": "89b66ae16929a2b989fda08bd8831fceb5395a013125d07b7608ac2fece8bc74",
+    "rebuild/hub/appearance-measurements.js": "f7953fd3b5e1e9899932ec5d9bb50d84c5c991100d833a71e51df645b56a6795",
+    "rebuild/hub/appearance-alignment.js": "baff4028a564a35649b3f55245953ec6319a3f636451f338acfc8607f79fdcbc"
+  },
+  "supersededBy": "lee-appearance-approved-summary.json"
+}
