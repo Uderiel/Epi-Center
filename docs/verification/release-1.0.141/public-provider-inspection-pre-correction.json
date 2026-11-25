@@ -1,0 +1,23 @@
+{
+  "scope": "Actual published client packets compared with the deployed backend projection; synthetic save; inspection only, not generated dialogue or a gameplay availability test",
+  "ownerSavesUsed": false,
+  "paidCalls": 0,
+  "generationAttempts": 0,
+  "checks": [
+    {
+      "name": "Lee Singh",
+      "passed": true,
+      "sha256": "c37532b976c6b54378d1a012316b7c3785c9c53ed130bada1a8cf107847723ac",
+      "paidGeneration": false
+    },
+    {
+      "name": "Aniya Singh",
+      "passed": true,
+      "sha256": "bc0f358ec6ba246ec37b882f7110dc3e40e3532a7917c5b2b56a3144fd2fca98",
+      "paidGeneration": false
+    }
+  ],
+  "errors": [],
+  "healthAssembly": "request-handoff-v12-repository",
+  "failure": "Unexpected name fields: packet.scene: ble\":null,\"nearby\":[]},\"conversationRoles\":{\"speaker\":\"Anya Singh\",\"addressee\":\"HIDDEN_PUBLICATION_QA_NAME\",\"speakerIsPlayer\":false,\"addresseeHasOneBody\":true,\"addresseeCurrentBody\n\n1 !== 0\n"
+}

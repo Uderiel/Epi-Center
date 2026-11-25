@@ -1,0 +1,5 @@
+PASS actual Common form UI has no post-mastery tiers and preserves banked XP
+PASS Uncommon starts at tier zero with the approved native 500 XP cost
+PASS tier-one optional controls and typed stat selection grant the selected bonus once without blocking the composer
+PASS new XP allocation excludes Common and uses type-button controls outside nested forms
+PASS reload retains earned tier bonuses and the approved XP policy without another upgrade

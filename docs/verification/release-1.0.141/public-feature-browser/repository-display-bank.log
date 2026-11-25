@@ -1,0 +1,7 @@
+PASS eleven physical stands render in the approved groups with all four sale slots assigned to shop stock initially
+PASS typed right slide changes only that sale stand and plays an actual retract/air-lift animation
+PASS left button and typed inspection/rotation share the same stand and preserve the composer
+PASS archetype/gender selectors search actual metadata and clear restores real shop stock
+PASS typed combined and single-field searches preserve filters across reload without creating items
+PASS two player stands replace the initial shop allocation and use the same browsing controls
+PASS private wishes, negations and hypothetical searches cannot cycle or filter forms

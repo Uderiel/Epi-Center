@@ -1,0 +1,15 @@
+{
+  "scope": "Release141 real phone-width UI, isolated synthetic save and explicitly supplied QA stock; no owner save or paid call",
+  "checks": [
+    "empty production stock and intentionally unloaded Markus have no free playable form",
+    "QA delivery supplies the same unmastered physical listing to display and Reception",
+    "typed buy previews without payment; voucher stacks and button pay transfers once",
+    "reload and repeated typed pay preserve the single completed receipt",
+    "typed payment succeeds through the same checkout while negation does not pay",
+    "thirty-day VR month boundaries exist without activating a deferred form"
+  ],
+  "errors": [],
+  "passed": true,
+  "base": "https://uderiel.github.io/Epi-Center",
+  "publicVerification": true
+}

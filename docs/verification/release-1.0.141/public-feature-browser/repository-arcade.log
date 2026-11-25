@@ -1,0 +1,11 @@
+PASS lobby shows approved technological furnishings and three actual cabinets without stock or checkout
+PASS private thoughts and wishes do not start an arcade session
+PASS typed cabinet start uses the real activity controller and no upfront gold or resources
+PASS typed stages use elapsed minutes and survive reload without new dice
+PASS typed completion records the score and one voucher while ordinary same-room aura continues
+PASS explicit typed leaderboard name is public while the hidden save name is never copied
+PASS button play and finish use the same controller and replay cannot award a second cabinet voucher
+PASS leaderboard name field submits through the same validated naming controller
+PASS menu stop and room movement interrupt real play with no partial reward or high-score entry
+PASS actual earned voucher adds five points to10and15percent quotes without consuming it or creating a sale
+PASS saved vouchers and entered leaderboard names survive reload

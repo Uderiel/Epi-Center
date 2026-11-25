@@ -1,0 +1,65 @@
+{
+  "version": "1.0.141",
+  "base": "https://uderiel.github.io/Epi-Center",
+  "ownerSavesUsed": false,
+  "realModel": false,
+  "paidCalls": 0,
+  "passed": true,
+  "checks": 85,
+  "results": [
+    {
+      "name": "repository-four-staff",
+      "passed": true,
+      "checks": 10,
+      "exitCode": 0
+    },
+    {
+      "name": "repository-arcade",
+      "passed": true,
+      "checks": 11,
+      "exitCode": 0
+    },
+    {
+      "name": "repository-lobby",
+      "passed": true,
+      "checks": 9,
+      "exitCode": 0
+    },
+    {
+      "name": "repository-display-bank",
+      "passed": true,
+      "checks": 7,
+      "exitCode": 0
+    },
+    {
+      "name": "repository-display-gender",
+      "passed": true,
+      "checks": 3,
+      "exitCode": 0
+    },
+    {
+      "name": "form-tier-costs",
+      "passed": true,
+      "checks": 5,
+      "exitCode": 0
+    },
+    {
+      "name": "universal-resistance",
+      "passed": true,
+      "checks": 8,
+      "exitCode": 0
+    },
+    {
+      "name": "lee-pricing",
+      "passed": true,
+      "checks": 26,
+      "exitCode": 0
+    },
+    {
+      "name": "checkout",
+      "passed": true,
+      "checks": 6,
+      "exitCode": 0
+    }
+  ]
+}

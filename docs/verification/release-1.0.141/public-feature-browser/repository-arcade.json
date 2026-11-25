@@ -1,0 +1,20 @@
+{
+  "scope": "Actual390x844browser, isolated synthetic slot3, AI disabled, no paid calls or owner saves",
+  "checks": [
+    "lobby shows approved technological furnishings and three actual cabinets without stock or checkout",
+    "private thoughts and wishes do not start an arcade session",
+    "typed cabinet start uses the real activity controller and no upfront gold or resources",
+    "typed stages use elapsed minutes and survive reload without new dice",
+    "typed completion records the score and one voucher while ordinary same-room aura continues",
+    "explicit typed leaderboard name is public while the hidden save name is never copied",
+    "button play and finish use the same controller and replay cannot award a second cabinet voucher",
+    "leaderboard name field submits through the same validated naming controller",
+    "menu stop and room movement interrupt real play with no partial reward or high-score entry",
+    "actual earned voucher adds five points to10and15percent quotes without consuming it or creating a sale",
+    "saved vouchers and entered leaderboard names survive reload"
+  ],
+  "errors": [],
+  "passed": true,
+  "base": "https://uderiel.github.io/Epi-Center",
+  "publicVerification": true
+}

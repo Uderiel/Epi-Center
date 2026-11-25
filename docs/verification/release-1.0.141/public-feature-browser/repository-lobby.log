@@ -1,0 +1,9 @@
+PASS four actual lobby fixtures and controls appear without inventory pickup or paid services
+PASS typed seating records posture and remains compatible with normal conversation input
+PASS seated typed waiting does not prevent moving toB and cancels on the actual room change
+PASS table inspection is an actual one-minute digital-display observation
+PASS partial magazine reading survives reload and learns the public article only after five actual minutes
+PASS menu armchair seating and typed standing share the same controller
+PASS reading remains interruptible byC movement without secretly granting the article
+PASS chosen wait controls and explicit stop do not grant reading, money or resource recovery
+PASS a private wish cannot seat or start reading and lobby posture is present in actual physical context

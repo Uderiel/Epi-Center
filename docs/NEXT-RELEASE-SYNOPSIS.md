@@ -1,6 +1,16 @@
-## v1.0.141 — owner-authorized release candidate
+## v1.0.141 — published and publicly verified
 
-The owner authorizes publication of approved, wired changes after the comprehensive scope is provided. See releases/v1.0.141-synopsis.md for the full included/excluded list. The authoring changes are integrated over the publicly verifiedv1.0.140baseline, preserving its save/travel/dialogue/appearance/Priya repairs. Markus and further cat-form work are deferred; opening stock remains empty. Repository-specific AI generation requires the new Repository fact-projection assembly and preserves authored responses if it is unavailable. Deployment/public verification are pending; no publication is claimed by this preparation record. Release evidence belongs in releases/v1.0.141-release-summary.json. Earlier “no publication authorized” instructions refer to their previous stage and are superseded by the current explicit release request.
+Published on 2026-11-25 after the owner received the comprehensive scope. [Play](https://uderiel.github.io/Epi-Center/rebuild/title-screen/?v=1.0.141). Runtime commit `3594ff90408c1793faa53a964e81d790cdb797a8` includes the original release `5762e7e` and the final learned-identity correction. Both production branches were updated without force. GitHub Pages run45614998484 and the existing Cloudflare Worker deployment succeeded; live request assembly is `request-handoff-v12-repository`. No model, secret, allowance or budget namespace change.
+
+Published scope: Repository rooms/access, four staff and scoped social dialogue, lobby activities, three arcade cabinets, eleven display controls, standard Reception checkout foundation, universal prices/resource calculations/mastery tiers/resistance drawer, thirty-day VR calendar, approved portraits and reconciled records. Full itemized scope and exclusions: releases/v1.0.141-synopsis.md. Preserves the newer v1.0.140 save/travel/dialogue/current-appearance/cat fixes.
+
+Verification: 2,913 named automated checks across222suites; 19 baseline public browser suites/136checks; nine new-feature public suites/85checks; four free live backend request-projection inspections; all302public files match the release manifest, including canonical and frozen Bible. The final privacy correction also passes the focused ten-case staff browser and all four published request projections. Browser dialogue uses controlled responses; request inspection is not generated dialogue or whole-character/open-ended model acceptance. No owner saves or new paid calls. Initial test/schema failures and the real nested-role name bug are retained in evidence with their final passing results.
+
+Markus gameplay, forest/prey/packs, further Preeti/Pri development, opening stock and specialist/unbuilt mechanics remain deferred or unfinished. Markus modules are preserved but not loaded. The actual catalogue is empty: checkout/display foundations do not claim completed stock or specialist services. Layla Hamza is a named concept, not a stocked completed form. Next owner-directed design remains the Repository opening male/female Uncommon pair; two sale slots remain reserved. See DEFERRED-SYSTEMS-TRACKER.md.
+
+Frozen Bible remains unchanged:144741bytes, SHA256 `8f1838c871b6aad8b8da0de8aa49fe92ad38adea9c72d668cd04a8ec4cf64639`. Deployment evidence: verification/release-1.0.141/ and releases/v1.0.141-release-summary.json. All checkpoints below describe their original authoring stage; their unpublished wording does not override this verified publication record.
+
+# Earlier authoring checkpoints — historical
 
 ## Current owner direction — Markus deferred; two testable opening forms
 

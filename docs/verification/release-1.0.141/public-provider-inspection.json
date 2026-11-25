@@ -1,0 +1,35 @@
+{
+  "scope": "Actual published client packets compared with the deployed backend projection; synthetic save; inspection only, not generated dialogue or a gameplay availability test",
+  "ownerSavesUsed": false,
+  "paidCalls": 0,
+  "generationAttempts": 0,
+  "checks": [
+    {
+      "name": "Lee Singh",
+      "passed": true,
+      "sha256": "5fae63a0a3d27845d00574d5da28913aa9bcee4b561d68b0389b44df96218aea",
+      "paidGeneration": false
+    },
+    {
+      "name": "Aniya Singh",
+      "passed": true,
+      "sha256": "bc0f358ec6ba246ec37b882f7110dc3e40e3532a7917c5b2b56a3144fd2fca98",
+      "paidGeneration": false
+    },
+    {
+      "name": "Anya Singh",
+      "passed": true,
+      "sha256": "e65b99e503647f71605ebe413942fdd7a6bd4a91766a31c875f632e3a783eb57",
+      "paidGeneration": false
+    },
+    {
+      "name": "Spectra",
+      "passed": true,
+      "sha256": "c92644441c67e1ac1c515d39fa6056f7177271c7ecd743e2ffb44ec6c4d76e9c",
+      "paidGeneration": false
+    }
+  ],
+  "errors": [],
+  "healthAssembly": "request-handoff-v12-repository",
+  "passed": true
+}

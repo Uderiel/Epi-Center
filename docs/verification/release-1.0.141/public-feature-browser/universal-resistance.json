@@ -1,0 +1,17 @@
+{
+  "scope": "390x844 real browser, synthetic slot 3, AI off, native readiness/menu/text routes; no owner save",
+  "checks": [
+    "erin shared blue-to-green drawer and explicit resistance action",
+    "kibbles shared blue-to-green drawer and explicit resistance action",
+    "female shared blue-to-green drawer and explicit resistance action",
+    "male shared blue-to-green drawer and explicit resistance action",
+    "flats shared blue-to-green drawer and explicit resistance action",
+    "reload preserves readiness and cooldown; combat suppresses a genuinely ready opportunity",
+    "mastered and permanently bound forms keep the shared drawer blue",
+    "a deferred form cannot manufacture a native roll in the released client"
+  ],
+  "errors": [],
+  "passed": true,
+  "base": "https://uderiel.github.io/Epi-Center",
+  "publicVerification": true
+}

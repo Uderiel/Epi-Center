@@ -1,0 +1,16 @@
+{
+  "scope": "390x844 actual browser, isolated synthetic save, AI disabled; no paid call or owner save",
+  "checks": [
+    "eleven physical stands render in the approved groups with all four sale slots assigned to shop stock initially",
+    "typed right slide changes only that sale stand and plays an actual retract/air-lift animation",
+    "left button and typed inspection/rotation share the same stand and preserve the composer",
+    "archetype/gender selectors search actual metadata and clear restores real shop stock",
+    "typed combined and single-field searches preserve filters across reload without creating items",
+    "two player stands replace the initial shop allocation and use the same browsing controls",
+    "private wishes, negations and hypothetical searches cannot cycle or filter forms"
+  ],
+  "errors": [],
+  "passed": true,
+  "base": "https://uderiel.github.io/Epi-Center",
+  "publicVerification": true
+}
