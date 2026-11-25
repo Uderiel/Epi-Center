@@ -141,7 +141,7 @@ if(actor.kind==='npc'){
  if(initiating){options={...options,message:''};input.expressed='';state.playerInput={expressed:'',expressedChannel:'no previous utterance; NPC initiates',narrationIsNotSpeech:true};}
  state.turn={speaker:actor.name,addressee:options.conversation?.replyToSpeaker||options.publicIdentity||s.name||'nearby player',scope,latestMessage:input.expressed,playerIdentity:options.conversation?.replyToSpeaker||options.publicIdentity||'Nearby player',playerEmployment:'unrecorded; do not assume a visitor is an employee',continuity:initiating?'Initiate the recorded remark. Nobody has asked or answered a question yet.':'Answer the latest expressed message, including follow-up questions to your previous reply. Do not restart with a greeting or routine work update.'};
  // Keep nested player-facing roles within the same learned-identity scope as the actual addressee.
- if(!options.conversation?.mode?.includes('exchange')&&state.physicalContext?.conversationRoles)state.physicalContext={...state.physicalContext,conversationRoles:{...state.physicalContext.conversationRoles,addressee:state.turn.addressee}};
+ if(!options.conversation?.mode?.includes('exchange')&&state.physicalContext?.conversationRoles)state.physicalContext={...state.physicalContext,conversationRoles:{...state.physicalContext.conversationRoles,addressee:state.turn.addressee,addresseeCurrentBodyLabel:state.turn.addressee}};
  if(['local-npc-exchange','meeting-exchange'].includes(options.conversation?.mode)){
   const row=peer?s.world?.npcSocialRoutines?.history?.find(e=>e.id===options.conversation.exchangeId):null;
   state.turn.playerEmployment='Actual NPC-to-NPC exchange; roles are recorded below';

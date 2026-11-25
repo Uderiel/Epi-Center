@@ -134,8 +134,8 @@
     },
     {
       "path": "rebuild/hub/ai-context.js",
-      "bytes": 110970,
-      "sha256": "675ce02fba7c99693e2f75d75bdcf4830b0208fe7e3fc6b8b84e6245c5d4ccbf"
+      "bytes": 111017,
+      "sha256": "6791b1136f69bef9e6eb43b385665c1f5282a2ae8a0a774b38c53deaaf6ae872"
     },
     {
       "path": "rebuild/hub/ai-integration-cases.js",
@@ -809,8 +809,8 @@
     },
     {
       "path": "rebuild/hub/index.html",
-      "bytes": 179535,
-      "sha256": "86ce82c224228a0124659045fe555ea6a3c366fabd78798eb3b68b69cc216d67"
+      "bytes": 179536,
+      "sha256": "d0cb0e08a6ddd6499659cd61e35ec503d5cf65274b46bc60918d561c07cd517e"
     },
     {
       "path": "rebuild/hub/interaction-state.js",
